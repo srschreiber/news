@@ -15,10 +15,10 @@
 # Web research (Stage 2: Sonnet + web_search/web_fetch) is expensive. Enable it
 # per topic; everything else is rendered cheaply from the Stage-1 summaries.
 research:
-  default: false
-  topics:
-    ai: true
-    world: true
+  default: true
+  # Turn specific topics OFF here if you want to save cost, e.g.:
+  #   topics:
+  #     gaming: false
 
 sources:
   # --- World news (non-tech) ---
