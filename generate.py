@@ -866,9 +866,9 @@ def _process_topic(
     title = f"Tech News — {topic} — {date}"
 
     if not topic_items:
-        log(f"[{topic}] no fresh items — quiet-day doc")
+        log(f"[{topic}] no fresh items")
         return {"topic": topic, "kind": "quiet", "doc_path": doc_path,
-                "fm": base_fm, "title": title, "body": quiet_day_body(topic)}
+                "fm": base_fm, "title": title, "body": quiet_day_body(topic), "top": []}
 
     t0 = time.monotonic()
     events = attach_sources(stage1_cluster(topic_items, topic), topic_items)
@@ -879,18 +879,25 @@ def _process_topic(
         return {"topic": topic, "kind": "dry", "top": select_top_k(events)}
 
     if not events:
-        body, fm, index_events = minimal_body_from_items(topic_items), base_fm, None
+        body, fm, top = minimal_body_from_items(topic_items), base_fm, []
     elif research:
         top = select_top_k(events)
-        body = stage2_write(top, date, topic) or minimal_body_from_items(topic_items)
-        fm, index_events = front_matter(daily_tags(top, date, topic)), top
+        body = stage2_write(top, date, topic)
+        # Bug guard: Stage 2 can end its turn after narrating without writing the
+        # briefing. If the output isn't a real briefing, fall back to the
+        # deterministic Stage-1 render so the doc is never agent chatter.
+        if not body or "## TL;DR" not in body:
+            log(f"[{topic}] Stage 2 output was not a valid briefing — using summaries")
+            body = render_briefing(top, topic)
+        fm = front_matter(daily_tags(top, date, topic))
     else:
+        top = events
         body = render_briefing(events, topic)
-        fm, index_events = front_matter(daily_tags(events, date, topic)), events
+        fm = front_matter(daily_tags(events, date, topic))
 
     log(f"[{topic}] done in {time.monotonic() - t0:.0f}s")
     return {"topic": topic, "kind": "written", "doc_path": doc_path,
-            "fm": fm, "title": title, "body": body, "top": index_events}
+            "fm": fm, "title": title, "body": body, "top": top}
 
 
 def run_daily(dry_run: bool, no_research: bool = False) -> None:
@@ -934,9 +941,19 @@ def run_daily(dry_run: bool, no_research: bool = False) -> None:
             print(json.dumps({"topic": r["topic"], "date": date, "top_events": r["top"]},
                              ensure_ascii=False, indent=2))
             continue
-        write_doc(r["doc_path"], r["fm"], r["title"], r["body"])
-        if r.get("top"):
-            update_search_index(r["top"], date, r["topic"])
+        if r["kind"] == "quiet":
+            # Don't clobber a doc that already has real content from an earlier
+            # run today; keep its doc AND its search-index records in sync.
+            p = r["doc_path"]
+            if p.exists() and "Quiet day" not in p.read_text():
+                log(f"[{r['topic']}] no new items — keeping existing doc")
+                continue
+            write_doc(p, r["fm"], r["title"], r["body"])
+        else:
+            write_doc(r["doc_path"], r["fm"], r["title"], r["body"])
+        # Reconcile the index for this (date, topic) — empty top clears stale
+        # records so Top Stories never points at a doc that lacks them.
+        update_search_index(r["top"], date, r["topic"])
 
     if not dry_run:
         save_state(state, items, run_start)

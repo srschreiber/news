@@ -187,6 +187,21 @@ def test_top_stories_section():
     assert g._top_stories_section([]) == []
 
 
+# --- Bug 2: Stage 2 narration/early-stop falls back to deterministic render -- #
+def test_stage2_invalid_output_falls_back(monkeypatch):
+    events = [{"title": "Big thing", "one_liner": "It happened.", "importance": 4,
+               "theme": "T", "keywords": ["k"], "source_item_ids": ["i-0"]}]
+    items = [{"id": "i-0", "source": "S", "topic": "ai", "title": "t", "summary": "s",
+              "link": "https://x", "published": None}]
+    monkeypatch.setattr(g, "stage1_cluster", lambda it, tp: events)
+    # simulate the model narrating its intent and stopping (no '## TL;DR')
+    monkeypatch.setattr(g, "stage2_write", lambda ev, d, tp: "Good, now let me write the briefing.")
+    r = g._process_topic("ai", items, "2026-07-25", dry_run=False, research=True)
+    assert r["kind"] == "written"
+    assert r["body"].startswith("## TL;DR")          # fell back to render_briefing
+    assert "Big thing" in r["body"] and "It happened." in r["body"]
+
+
 # --- metrics (per-topic + global cost) -------------------------------------- #
 class _Usage:
     def __init__(self, i, o, searches=0):
