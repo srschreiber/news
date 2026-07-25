@@ -27,16 +27,8 @@
   color: #3fb950;
 }
 
-/* Star CTA bar at the very bottom of every page (below the footer). */
-.md-star-cta {
-  text-align: center;
-  padding: 0.6rem 1rem;
-  font-size: 0.72rem;
-  background: var(--md-footer-bg-color--dark);
-  color: var(--md-footer-fg-color--light);
-}
-.md-star-cta a {
-  color: var(--md-footer-fg-color);
+/* Star CTA in the footer copyright line (replaces the Material generator note). */
+.md-copyright__highlight a {
   font-weight: 700;
   text-decoration: underline;
 }
