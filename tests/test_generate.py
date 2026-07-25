@@ -187,6 +187,24 @@ def test_top_stories_section():
     assert g._top_stories_section([]) == []
 
 
+def test_dedupe_cross_topic_collapses_same_story():
+    recs = [
+        {"title": "Anthropic launches Claude Opus 5 with efficiency improvements",
+         "keywords": ["Anthropic", "Claude Opus 5"], "importance": 4},
+        {"title": "Anthropic launches Claude Opus 5 AI model",
+         "keywords": ["Anthropic", "Claude Opus 5"], "importance": 4},
+        {"title": "Anthropic releases Claude Opus 5 at 50% lower cost than Fable",
+         "keywords": ["Anthropic", "Claude Opus 5", "Fable"], "importance": 4},
+        {"title": "EU fines Google 890 million euros for DMA violations",
+         "keywords": ["Google", "EU", "DMA"], "importance": 4},
+    ]
+    kept = g._dedupe_cross_topic(recs)
+    titles = [k["title"] for k in kept]
+    assert len(kept) == 2                                  # 3 Opus 5 -> 1, plus Google
+    assert sum("Opus 5" in t for t in titles) == 1
+    assert any("Google" in t for t in titles)
+
+
 # --- hybrid research: enrichment overlay + fallback --------------------------- #
 def test_merge_enrichment_overlays_only_matches():
     events = [
@@ -204,17 +222,32 @@ def test_merge_enrichment_overlays_only_matches():
     assert b["sources"] == [{"label": "RSS", "url": "http://b"}]         # RSS only
 
 
-def test_research_failure_falls_back_to_rss(monkeypatch):
-    events = [{"title": "Big thing", "one_liner": "It happened.", "importance": 4,
-               "theme": "T", "keywords": ["k"], "source_item_ids": ["i-0"]}]
-    items = [{"id": "i-0", "source": "S", "topic": "ai", "title": "t", "summary": "s",
-              "link": "https://x", "published": None}]
-    monkeypatch.setattr(g, "stage1_cluster", lambda it, tp: events)
-    monkeypatch.setattr(g, "stage2_research", lambda ev, d, tp: [])  # research returned nothing
-    r = g._process_topic("ai", items, "2026-07-25", dry_run=False, research=True)
-    assert r["kind"] == "written"
-    assert r["body"].startswith("## TL;DR")                     # always a valid doc
-    assert "Big thing" in r["body"] and "It happened." in r["body"]  # RSS summary used
+def test_merge_enrichment_empty_keeps_rss():
+    events = [{"title": "A", "one_liner": "orig", "sources": [{"label": "RSS", "url": "u"}]}]
+    merged = g.merge_enrichment(events, [])              # research produced nothing
+    assert merged[0]["one_liner"] == "orig" and "researched" not in merged[0]
+
+
+# --- global clustering: topic assignment + research selection ---------------- #
+def test_assign_topics_and_primary():
+    items = [{"id": "ai-0", "topic": "ai"}, {"id": "gen-0", "topic": "general"},
+             {"id": "ai-1", "topic": "ai"}]
+    events = [{"title": "E", "source_item_ids": ["ai-0", "gen-0", "ai-1"]}]
+    g.assign_topics(events, items)
+    assert events[0]["topics"] == ["ai", "general"]     # sorted union of feeds
+    assert events[0]["primary_topic"] == "ai"           # ai contributed 2 vs general 1
+
+
+def test_select_research_dedupes_cross_topic():
+    events = [
+        {"title": "Opus 5", "importance": 5, "topics": ["ai", "anthropic", "general"]},
+        {"title": "Game", "importance": 4, "topics": ["gaming"]},
+        {"title": "Minor", "importance": 1, "topics": ["ai"]},
+    ]
+    sel = g.select_research(events, ["ai", "anthropic", "general", "gaming"])
+    titles = [e["title"] for e in sel]
+    assert titles.count("Opus 5") == 1                  # researched once despite 3 topics
+    assert "Game" in titles
 
 
 # --- metrics (per-topic + global cost) -------------------------------------- #

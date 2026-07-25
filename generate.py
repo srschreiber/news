@@ -69,7 +69,7 @@ WEB_SEARCH_MAX_USES = 20                # ...bounded by this per-topic backstop
 WEB_FETCH_MAX_USES = 20
 WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # per-page cap so one page can't flood
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
-STAGE1_MAX_TOKENS = 8000
+STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
 STAGE2_MAX_TOKENS = 5000                # short, dense summaries — small ceiling
 STAGE2_EFFORT = "medium"                # writing task; medium trims thinking tokens
 ROLLUP_MAX_TOKENS = 5000
@@ -353,6 +353,60 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
     return out
 
 
+def assign_topics(events: list[dict], items: list[dict]) -> list[dict]:
+    """Derive each event's topics from the feeds its source items came from.
+
+    Sets `topics` (sorted unique) and `primary_topic` (the topic contributing the
+    most source items; ties broken alphabetically)."""
+    by_id = {it["id"]: it for it in items}
+    for e in events:
+        tops = [by_id[sid]["topic"] for sid in e.get("source_item_ids", []) if sid in by_id]
+        e["topics"] = sorted(set(tops)) or [DEFAULT_TOPIC]
+        counts: dict[str, int] = {}
+        for t in tops:
+            counts[t] = counts.get(t, 0) + 1
+        e["primary_topic"] = (
+            min(counts, key=lambda t: (-counts[t], t)) if counts else DEFAULT_TOPIC
+        )
+    return events
+
+
+def select_research(events: list[dict], research_topics: list[str]) -> list[dict]:
+    """Union of each research-enabled topic's top RESEARCH_PER_TOPIC events.
+
+    A story spanning several topics is chosen once (deduped by title), so it's
+    researched a single time and reused across every topic doc it appears in."""
+    chosen: dict[str, dict] = {}
+    for topic in research_topics:
+        ranked = sorted(
+            (e for e in events if topic in e.get("topics", [])),
+            key=lambda e: e.get("importance", 0),
+            reverse=True,
+        )[:RESEARCH_PER_TOPIC]
+        for e in ranked:
+            chosen[e["title"]] = e
+    return list(chosen.values())
+
+
+def research_events(selected: list[dict], date: str) -> list[dict]:
+    """Research the selected events once each, in parallel batches grouped by
+    primary topic (so cost is attributed per topic). Returns enrichment list."""
+    if not selected:
+        return []
+    groups: dict[str, list[dict]] = {}
+    for e in selected:
+        groups.setdefault(e.get("primary_topic", DEFAULT_TOPIC), []).append(e)
+    enrichment: list[dict] = []
+    with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
+        futs = {ex.submit(stage2_research, evs, date, tp): tp for tp, evs in groups.items()}
+        for fut in as_completed(futs):
+            try:
+                enrichment += fut.result()
+            except Exception as e:  # a failed batch just means those keep RSS summaries
+                log(f"[{futs[fut]}] research batch failed: {e}")
+    return enrichment
+
+
 def front_matter(tags: Iterable[str]) -> str:
     uniq = sorted({t for t in tags if t})
     if not uniq:
@@ -498,16 +552,15 @@ def _extract_briefing(text: str) -> str:
     return text[idx + 1:].strip() if idx != -1 else text
 
 
-def stage1_cluster(items: list[dict], topic: str) -> list[dict]:
+def stage1_cluster(items: list[dict]) -> list[dict]:
     """Cluster+score+extract keywords via Haiku with structured output.
 
-    All items belong to a single `topic` (e.g. gaming, world, general); the
-    model clusters and scores within that topic's world.
+    ONE global pass over items from all feeds/topics — the same story surfaced
+    under multiple topics is merged into a single event (topics + merged sources
+    are derived from source_item_ids in code afterwards).
     """
     client = _client()
-    user = json.dumps(
-        {"topic": topic, "items": payload_items(items)}, ensure_ascii=False
-    )
+    user = json.dumps({"items": payload_items(items)}, ensure_ascii=False)
     for attempt in (1, 2):
         resp = client.messages.create(
             model=CLUSTER_MODEL,
@@ -516,7 +569,7 @@ def stage1_cluster(items: list[dict], topic: str) -> list[dict]:
             messages=[{"role": "user", "content": user}],
             output_config={"format": {"type": "json_schema", "schema": EVENTS_SCHEMA}},
         )
-        METRICS.add(topic, CLUSTER_MODEL, resp.usage)
+        METRICS.add("(clustering)", CLUSTER_MODEL, resp.usage)
         try:
             events = json.loads(_text_of(resp)).get("events", [])
             if not events:
@@ -658,21 +711,23 @@ def load_search_index() -> list[dict]:
     return []
 
 
-def update_search_index(events: list[dict], date: str, topic: str) -> None:
-    index = load_search_index()
-    # idempotent re-runs: drop prior records for this (date, topic)
-    index = [r for r in index if not (r.get("date") == date and r.get("topic") == topic)]
-    for ev in events:
+def build_search_index(shown: list[tuple], date: str) -> None:
+    """Rebuild the index for `date`: ONE record per shown event, carrying the
+    full `topics` list and a canonical `url` into the topic doc where it's shown.
+    `shown` is a list of (event, display_topic) pairs."""
+    index = [r for r in load_search_index() if r.get("date") != date]
+    for ev, display_topic in shown:
         index.append(
             {
                 "date": date,
-                "topic": topic,
+                "event_id": slugify(ev["title"]),
                 "title": ev["title"],
                 "summary": (ev.get("one_liner") or "").strip(),
                 "theme": ev.get("theme", ""),
                 "importance": ev.get("importance", 0),
+                "topics": ev.get("topics", []),
                 "keywords": ev.get("keywords", []),
-                "url": f"news/{topic}/{date}/#{slugify(ev['title'])}",
+                "url": f"news/{display_topic}/{date}/#{slugify(ev['title'])}",
                 "sources": ev.get("sources", []),
             }
         )
@@ -766,25 +821,58 @@ def _dated_stems(directory: Path) -> list[str]:
     return sorted((p.stem for p in directory.glob("*.md")), reverse=True)
 
 
+_STORY_STOP = {
+    "the", "a", "an", "of", "to", "in", "on", "for", "and", "or", "with", "at",
+    "by", "from", "as", "is", "are", "be", "its", "it", "new", "will", "has",
+    "after", "over", "amid", "into", "launches", "launch", "released", "release",
+    "releases", "announces", "announced", "announcement", "unveils", "reveals",
+    "reports", "report", "says", "plans", "update", "updates", "news",
+}
+
+
+def _story_tokens(rec: dict) -> set[str]:
+    text = (rec.get("title", "") + " " + " ".join(rec.get("keywords", []))).lower()
+    return {t for t in re.findall(r"[a-z0-9]+", text) if len(t) > 1 and t not in _STORY_STOP}
+
+
+def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
+    """Collapse the same real-world story surfaced under multiple topics.
+
+    Two records are the same story if their significant title+keyword tokens
+    overlap by >= min_shared. Input must be importance-sorted; the first
+    (highest-importance) survivor is kept.
+    """
+    kept, kept_tokens = [], []
+    for r in ranked:
+        tks = _story_tokens(r)
+        if any(len(tks & kt) >= min_shared for kt in kept_tokens):
+            continue
+        kept.append(r)
+        kept_tokens.append(tks)
+    return kept
+
+
 def _top_stories_section(index: list[dict]) -> list[str]:
-    """The biggest events across ALL topics for the most recent day."""
+    """The biggest events across ALL topics for the most recent day (deduped)."""
     if not index:
         return []
     latest = max(r["date"] for r in index)
-    todays = sorted(
+    ranked = sorted(
         (r for r in index if r["date"] == latest),
         key=lambda r: (r.get("importance", 0)),
         reverse=True,
-    )[:TOP_STORIES_N]
+    )
+    todays = _dedupe_cross_topic(ranked)[:TOP_STORIES_N]
     if not todays:
         return []
     lines = [f"## Top stories — {latest}", ""]
     for r in todays:
         desc = (r.get("summary") or "").strip()
         desc = f" — {desc}" if desc else ""
+        topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
         lines.append(
             f"- {meter(r.get('importance', 0))} [{r['title']}]({r['url']}){desc} "
-            f"· _{r.get('topic', '')}_"
+            f"· _{topics}_"
         )
     lines.append("")
     return lines
@@ -911,53 +999,18 @@ def gather_children(mode: str, topic: str, now: dt.datetime) -> tuple[list[Path]
 # --------------------------------------------------------------------------- #
 # Mode runners
 # --------------------------------------------------------------------------- #
-def _process_topic(
-    topic: str, topic_items: list[dict], date: str, dry_run: bool, research: bool
-) -> dict:
-    """Do a topic's Stage 1 (+ optional Stage 2 research) and RETURN what to write.
-
-    Runs in a worker thread — it performs API/compute only and never touches the
-    shared files (search-index.json, state.json, index.md); the main thread does
-    all writes so there are no races.
-
-    research=True  -> Stage 2 (Sonnet + web tools) on the top-K events.
-    research=False -> render the briefing straight from the Stage-1 summaries
-                      (Haiku only; cheap and fast).
-    """
-    base_fm = front_matter([date[:4], date[:7], topic])
+def _write_topic_doc(topic: str, shown: list[dict], date: str) -> None:
+    """Write one topic's daily doc from the events shown under it (quiet if none).
+    Docs and the search index are both rebuilt from this run's events, so they
+    stay consistent by construction."""
     doc_path = KIND_DIR["daily"] / topic / f"{date}.md"
     title = f"Tech News — {topic} — {date}"
-
-    if not topic_items:
-        log(f"[{topic}] no fresh items")
-        return {"topic": topic, "kind": "quiet", "doc_path": doc_path,
-                "fm": base_fm, "title": title, "body": quiet_day_body(topic), "top": []}
-
-    t0 = time.monotonic()
-    events = attach_sources(stage1_cluster(topic_items, topic), topic_items)
-    mode = "research" if research else "summarize"
-    log(f"[{topic}] deduped {len(topic_items)} RSS posts -> {len(events)} events ({mode})")
-
-    if dry_run:
-        return {"topic": topic, "kind": "dry", "top": select_top_k(events)}
-
-    if not events:
-        body, fm, top = minimal_body_from_items(topic_items), base_fm, []
+    if shown:
+        write_doc(doc_path, front_matter(daily_tags(shown, date, topic)),
+                  title, render_briefing(shown, topic))
     else:
-        top = select_top_k(events, EVENTS_PER_TOPIC)     # up to 10 shown per topic
-        if research:
-            # Deeply research only the top few; the rest keep their RSS summary.
-            enriched = stage2_research(top[:RESEARCH_PER_TOPIC], date, topic)
-            top = merge_enrichment(top, enriched)
-        # Always render the doc deterministically from the (possibly enriched)
-        # events — so titles/anchors match the index and no free-form output can
-        # drift or leak narration.
-        body = render_briefing(top, topic)
-        fm = front_matter(daily_tags(top, date, topic))
-
-    log(f"[{topic}] done in {time.monotonic() - t0:.0f}s")
-    return {"topic": topic, "kind": "written", "doc_path": doc_path,
-            "fm": fm, "title": title, "body": body, "top": top}
+        write_doc(doc_path, front_matter([date[:4], date[:7], topic]),
+                  title, quiet_day_body(topic))
 
 
 def run_daily(dry_run: bool, no_research: bool = False) -> None:
@@ -972,53 +1025,60 @@ def run_daily(dry_run: bool, no_research: bool = False) -> None:
     cfg = load_research_config()
     raw = fetch_all(sources)
     items = filter_and_cap(raw, cutoff, seen)
-    groups = group_by_topic(items)
     all_topics = sorted({s["topic"] for s in sources})
 
-    def wants_research(t: str) -> bool:
-        return (not no_research) and research_enabled(t, cfg)
+    # Stage 1: ONE global clustering pass across all feeds/topics, then derive
+    # each event's topics + merged sources from its source items.
+    events = assign_topics(attach_sources(stage1_cluster(items), items), items) if items else []
+    spanning = sum(1 for e in events if len(e.get("topics", [])) > 1)
+    log(f"clustered {len(items)} items -> {len(events)} global events ({spanning} cross-topic)")
 
-    researched = [t for t in all_topics if wants_research(t)]
-    log(f"fetched {len(raw)} raw RSS posts, {len(items)} kept across "
-        f"{len(all_topics)} topics; web research on for: {researched or 'none'}")
+    if dry_run:
+        preview = [
+            {"title": e["title"], "importance": e.get("importance"),
+             "topics": e.get("topics"), "primary": e.get("primary_topic")}
+            for e in sorted(events, key=lambda e: e.get("importance", 0), reverse=True)[:30]
+        ]
+        print(json.dumps(preview, ensure_ascii=False, indent=2))
+        return
 
-    # Stage 1 (+2) per topic, in parallel threads. Writes happen after, serially.
-    results: list[dict] = []
-    with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
-        futs = {
-            ex.submit(_process_topic, t, groups.get(t, []), date, dry_run, wants_research(t)): t
-            for t in all_topics
-        }
-        for fut in as_completed(futs):
-            try:
-                results.append(fut.result())
-            except Exception as e:  # one topic failing must not sink the rest
-                log(f"[{futs[fut]}] failed: {e}")
+    # Research each qualifying story ONCE (union of research-enabled topics'
+    # top-K), then reuse the enrichment everywhere the story appears.
+    research_topics = [t for t in all_topics if (not no_research) and research_enabled(t, cfg)]
+    selected = select_research(events, research_topics)
+    log(f"research on for {research_topics or 'none'}; researching {len(selected)} unique stories")
+    events = merge_enrichment(events, research_events(selected, date))
 
-    # Serialized writes in the main thread (deterministic order).
-    for r in sorted(results, key=lambda r: r["topic"]):
-        if r["kind"] == "dry":
-            print(json.dumps({"topic": r["topic"], "date": date, "top_events": r["top"]},
-                             ensure_ascii=False, indent=2))
-            continue
-        if r["kind"] == "quiet":
-            # Don't clobber a doc that already has real content from an earlier
-            # run today; keep its doc AND its search-index records in sync.
-            p = r["doc_path"]
-            if p.exists() and "Quiet day" not in p.read_text():
-                log(f"[{r['topic']}] no new items — keeping existing doc")
-                continue
-            write_doc(p, r["fm"], r["title"], r["body"])
-        else:
-            write_doc(r["doc_path"], r["fm"], r["title"], r["body"])
-        # Reconcile the index for this (date, topic) — empty top clears stale
-        # records so Top Stories never points at a doc that lacks them.
-        update_search_index(r["top"], date, r["topic"])
+    # Per-topic docs: each topic shows the top events whose topics include it.
+    per_topic: dict[str, list[dict]] = {}
+    for topic in all_topics:
+        per_topic[topic] = sorted(
+            (e for e in events if topic in e.get("topics", [])),
+            key=lambda e: e.get("importance", 0), reverse=True,
+        )[:EVENTS_PER_TOPIC]
+        _write_topic_doc(topic, per_topic[topic], date)
 
-    if not dry_run:
-        save_state(state, items, run_start)
-        rebuild_index()
-        record_metrics("daily", run_start)
+    # One search-index record per shown event; url -> its primary topic when the
+    # event is shown there, else the first topic where it appears.
+    display_topic: dict[str, str] = {}
+    for topic in all_topics:
+        for e in per_topic[topic]:
+            display_topic.setdefault(e["title"], topic)
+    for topic in all_topics:
+        for e in per_topic[topic]:
+            if e.get("primary_topic") == topic:
+                display_topic[e["title"]] = topic
+    shown, seen_titles = [], set()
+    for topic in all_topics:
+        for e in per_topic[topic]:
+            if e["title"] not in seen_titles:
+                seen_titles.add(e["title"])
+                shown.append((e, display_topic[e["title"]]))
+    build_search_index(shown, date)
+
+    save_state(state, items, run_start)
+    rebuild_index()
+    record_metrics("daily", run_start)
     log("daily run complete")
 
 

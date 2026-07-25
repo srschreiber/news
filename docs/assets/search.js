@@ -32,12 +32,16 @@
       .filter(function (t) { return t.length > 1; });
   }
 
+  function recTopics(rec) {
+    return rec.topics || (rec.topic ? [rec.topic] : []);
+  }
+
   // Field-weighted term match: keywords > title > theme/topic.
   function score(rec, qterms) {
     if (!qterms.length) return 0;
     var kw = (rec.keywords || []).join(" ").toLowerCase();
     var title = (rec.title || "").toLowerCase();
-    var meta = ((rec.theme || "") + " " + (rec.topic || "")).toLowerCase();
+    var meta = ((rec.theme || "") + " " + recTopics(rec).join(" ")).toLowerCase();
     var s = 0;
     qterms.forEach(function (t) {
       if (kw.indexOf(t) !== -1) s += 3;
@@ -56,7 +60,7 @@
     var sort = els.sort.value;
 
     var rows = INDEX.filter(function (r) {
-      if (topic && r.topic !== topic) return false;
+      if (topic && recTopics(r).indexOf(topic) === -1) return false;
       if ((r.importance || 0) < minImp) return false;
       if (from && r.date < from) return false;
       if (to && r.date > to) return false;
@@ -92,7 +96,7 @@
       li.innerHTML =
         '<div class="ns-title">' + meter(r.importance) + " " +
         '<a href="../' + r.url + '">' + escapeHtml(r.title) + "</a></div>" +
-        '<div class="ns-meta">' + escapeHtml(r.date) + " · " + escapeHtml(r.topic) +
+        '<div class="ns-meta">' + escapeHtml(r.date) + " · " + escapeHtml(recTopics(r).join(", ")) +
         (r.theme ? " · " + escapeHtml(r.theme) : "") +
         (sources ? " · " + sources : "") + "</div>" +
         (kws ? '<div class="ns-meta">' + kws + "</div>" : "");
@@ -126,7 +130,9 @@
     })
     .then(function (data) {
       INDEX = Array.isArray(data) ? data : [];
-      var topics = Array.from(new Set(INDEX.map(function (r) { return r.topic; }))).sort();
+      var topics = Array.from(new Set(
+        INDEX.reduce(function (acc, r) { return acc.concat(recTopics(r)); }, [])
+      )).sort();
       topics.forEach(function (t) {
         var o = document.createElement("option");
         o.value = t;
