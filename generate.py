@@ -66,12 +66,10 @@ MIN_RESEARCH_IMPORTANCE = 4             # only research events at least this imp
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (Haiku read call)
-WEB_FETCHES_PER_EVENT = 1               # HARD per-event fetch cap — one primary source is
-                                        # enough for a short summary; biggest read-cost lever
+WEB_FETCHES_PER_EVENT = 2               # HARD per-event fetch cap (per clustered story)
 GLOBAL_SEARCH_SAFETY = 50               # run-wide safety net (rarely hit)
 MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~25 events/run
-WEB_FETCH_MAX_CONTENT_TOKENS = 4000     # HARD per-page cap — a news article's facts fit in
-                                        # ~3000 words; halves Haiku read tokens vs 8000
+WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # HARD per-page cap — fine now, it lands on cheap Haiku
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
