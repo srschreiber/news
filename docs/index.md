@@ -1,6 +1,6 @@
 # Sam's News
 
-Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Use the [keyword search](search.md) to filter by term, date, topic, and importance.
+Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Browse the full history in the [archive](archive.md), or use the [keyword search](search.md) to filter by term, date, and topic.
 
 ## Top stories — 2026-07-25
 
@@ -18,6 +18,8 @@ Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Use 
 - 🔥🔥🔥◯◯ [Spain and France battle severe wildfires forcing mass evacuations](news/world/2026-07-25/#spain-and-france-battle-severe-wildfires-forcing-mass-evacuations) — Wildfires force evacuations of over 250,000 people outside Bordeaux and across Spain, causing first death. · _world_
 
 ## Browse by topic
+
+Most recent per topic — see the [archive](archive.md) for the full back-catalog.
 
 ### ai
 

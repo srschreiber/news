@@ -47,6 +47,7 @@ markdown_extensions:
 # lives at search.md alongside Material's built-in search.
 nav:
   - Home: index.md
+  - Archive: archive.md
   - Search: search.md
   - Tags: tags.md
 

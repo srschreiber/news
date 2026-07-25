@@ -209,6 +209,28 @@ def test_render_briefing_empty_is_quiet_day():
     assert "Quiet day" in g.render_briefing([], "gaming")
 
 
+def test_daily_link_pluralizes_and_counts():
+    counts = {("ai", "2026-07-25"): 1, ("ai", "2026-07-24"): 3}
+    assert g._daily_link("ai", "2026-07-25", counts) == \
+        "[2026-07-25 (1 event)](news/ai/2026-07-25.md)"
+    assert g._daily_link("ai", "2026-07-24", counts) == \
+        "[2026-07-24 (3 events)](news/ai/2026-07-24.md)"
+    # unknown -> 0 events
+    assert "(0 events)" in g._daily_link("ai", "2026-07-01", counts)
+
+
+def test_event_counts_from_index():
+    index = [
+        {"date": "2026-07-25", "topics": ["ai", "general"]},
+        {"date": "2026-07-25", "topics": ["ai"]},
+        {"date": "2026-07-24", "topics": ["general"]},
+    ]
+    counts = g._event_counts(index)
+    assert counts[("ai", "2026-07-25")] == 2
+    assert counts[("general", "2026-07-25")] == 1
+    assert counts[("general", "2026-07-24")] == 1
+
+
 def test_render_briefing_renders_takeaways_as_bullets():
     events = [
         {"title": "Opus 5 launches", "one_liner": "Near-frontier at half the price.",

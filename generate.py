@@ -1031,23 +1031,34 @@ def _top_stories_section(index: list[dict]) -> list[str]:
     return lines
 
 
+def _event_counts(index: list[dict]) -> dict[tuple, int]:
+    """Map (topic, date) -> number of events, from the search index."""
+    counts: dict[tuple, int] = {}
+    for r in index:
+        for t in r.get("topics", []):
+            counts[(t, r["date"])] = counts.get((t, r["date"]), 0) + 1
+    return counts
+
+
+def _daily_link(topic: str, stem: str, counts: dict[tuple, int]) -> str:
+    """A daily-doc link annotated with its event count, e.g. '2026-07-25 (3 events)'."""
+    n = counts.get((topic, stem), 0)
+    unit = "event" if n == 1 else "events"
+    return f"[{stem} ({n} {unit})]({KIND_DIR['daily'].name}/{topic}/{stem}.md)"
+
+
 def rebuild_index() -> None:
     lines = [
         "# Sam's News",
         "",
         "Daily tech-news briefings by topic, plus weekly / monthly / yearly "
-        "rollups. Use the [keyword search](search.md) to filter by term, date, "
-        "topic, and importance.",
+        "rollups. Browse the full history in the [archive](archive.md), or use "
+        "the [keyword search](search.md) to filter by term, date, and topic.",
         "",
     ]
     index = load_search_index()
     lines += _top_stories_section(index)
-
-    # event count per (topic, date) from the index, to annotate daily links
-    counts: dict[tuple, int] = {}
-    for r in index:
-        for t in r.get("topics", []):
-            counts[(t, r["date"])] = counts.get((t, r["date"]), 0) + 1
+    counts = _event_counts(index)
 
     kind_labels = [
         ("daily", "Daily"),
@@ -1059,7 +1070,9 @@ def rebuild_index() -> None:
         {t for kind, _ in kind_labels for t in _topics_in(KIND_DIR[kind])}
     )
     if topics:
-        lines += ["## Browse by topic", ""]
+        lines += ["## Browse by topic", "",
+                  "Most recent per topic — see the [archive](archive.md) for the "
+                  "full back-catalog.", ""]
     for topic in topics:
         lines.append(f"### {topic}\n")
         for kind, label in kind_labels:
@@ -1067,20 +1080,71 @@ def rebuild_index() -> None:
             stems = _dated_stems(directory)[:8]
             if not stems:
                 continue
-            rel = f"{KIND_DIR[kind].name}/{topic}"
             if kind == "daily":
-                def _daily_link(s: str) -> str:
-                    n = counts.get((topic, s), 0)
-                    unit = "event" if n == 1 else "events"
-                    return f"[{s} ({n} {unit})]({rel}/{s}.md)"
-
-                links = " · ".join(_daily_link(s) for s in stems)
+                links = " · ".join(_daily_link(topic, s, counts) for s in stems)
             else:
+                rel = f"{KIND_DIR[kind].name}/{topic}"
                 links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
             lines.append(f"- **{label}:** {links}")
         lines.append("")
     (DOCS / "index.md").write_text("\n".join(lines) + "\n")
     log("rebuilt docs/index.md")
+
+
+def rebuild_archive() -> None:
+    """Full back-catalog: every daily doc grouped by month -> topic (with event
+    counts), plus all rollups. Regenerated each run alongside the index."""
+    index = load_search_index()
+    counts = _event_counts(index)
+
+    lines = [
+        "# Archive",
+        "",
+        "Full history of daily briefings, grouped by month. Use the "
+        "[keyword search](search.md) to filter by term, date, or topic.",
+        "",
+    ]
+
+    # daily docs: month (YYYY-MM) -> topic -> [stems]
+    daily_base = KIND_DIR["daily"]
+    by_month: dict[str, dict[str, list[str]]] = {}
+    for topic in _topics_in(daily_base):
+        for stem in _dated_stems(daily_base / topic):
+            if _parse_date_stem(stem) is None:
+                continue
+            by_month.setdefault(stem[:7], {}).setdefault(topic, []).append(stem)
+
+    if not by_month:
+        lines += ["_No briefings yet._", ""]
+    for month in sorted(by_month, reverse=True):
+        lines += [f"## {month}", ""]
+        for topic in sorted(by_month[month]):
+            stems = sorted(by_month[month][topic], reverse=True)
+            links = " · ".join(_daily_link(topic, s, counts) for s in stems)
+            lines.append(f"- **{topic}:** {links}")
+        lines.append("")
+
+    # rollups, grouped by topic
+    roll_kinds = [("weekly", "Weekly"), ("monthly", "Monthly"), ("yearly", "Yearly")]
+    roll_topics = sorted({t for k, _ in roll_kinds for t in _topics_in(KIND_DIR[k])})
+    if roll_topics:
+        lines += ["## Rollups", ""]
+        for topic in roll_topics:
+            rows = []
+            for kind, label in roll_kinds:
+                stems = _dated_stems(KIND_DIR[kind] / topic)
+                if not stems:
+                    continue
+                rel = f"{KIND_DIR[kind].name}/{topic}"
+                links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
+                rows.append(f"- **{label}:** {links}")
+            if rows:
+                lines.append(f"### {topic}\n")
+                lines += rows
+                lines.append("")
+
+    (DOCS / "archive.md").write_text("\n".join(lines) + "\n")
+    log("rebuilt docs/archive.md")
 
 
 # --------------------------------------------------------------------------- #
@@ -1260,6 +1324,7 @@ def run_daily(dry_run: bool, no_research: bool = False) -> None:
 
     save_state(state, items, run_start)
     rebuild_index()
+    rebuild_archive()
     record_metrics("daily", run_start)
     log("daily run complete")
 
@@ -1302,6 +1367,7 @@ def run_rollup(mode: str, dry_run: bool) -> None:
 
     if not dry_run:
         rebuild_index()
+        rebuild_archive()
         record_metrics(mode, run_start)
 
 
