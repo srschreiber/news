@@ -199,6 +199,30 @@ def test_render_briefing_empty_is_quiet_day():
     assert "Quiet day" in g.render_briefing([], "gaming")
 
 
+def test_render_briefing_renders_takeaways_as_bullets():
+    events = [
+        {"title": "Opus 5 launches", "one_liner": "Near-frontier at half the price.",
+         "importance": 5, "theme": "AI", "keywords": [],
+         "takeaways": ["$5/M input, $25/M output", "Tops Frontier-Bench v0.1"],
+         "sources": [{"label": "Anthropic", "url": "https://a", "origin": "research"}]},
+    ]
+    body = g.render_briefing(events, "ai")
+    assert "- $5/M input, $25/M output" in body
+    assert "- Tops Frontier-Bench v0.1" in body
+    # bullets sit between the summary line and the Sources line
+    assert body.index("Near-frontier") < body.index("- $5/M") < body.index("Sources:")
+
+
+def test_render_briefing_no_takeaways_still_ok():
+    events = [
+        {"title": "Small patch", "one_liner": "Bugfix shipped.", "importance": 2,
+         "theme": "Languages", "keywords": [], "takeaways": [], "sources": []},
+    ]
+    body = g.render_briefing(events, "golang")
+    assert "Bugfix shipped." in body
+    assert "\n- " not in body.split("## Languages")[1]  # no stray bullets in body
+
+
 # --- home-page top stories -------------------------------------------------- #
 def test_top_stories_section():
     index = [

@@ -159,8 +159,12 @@ POLISH_SCHEMA = {
             "type": "array",
             "items": {
                 "type": "object",
-                "properties": {"ref": {"type": "string"}, "summary": {"type": "string"}},
-                "required": ["ref", "summary"],
+                "properties": {
+                    "ref": {"type": "string"},
+                    "summary": {"type": "string"},
+                    "takeaways": {"type": "array", "items": {"type": "string"}},
+                },
+                "required": ["ref", "summary", "takeaways"],
                 "additionalProperties": False,
             },
         }
@@ -383,6 +387,7 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
         hit = by_ref.get(ev.get("ref"))
         if hit:
             e["one_liner"] = (hit.get("summary") or e.get("one_liner", "")).strip()
+            e["takeaways"] = [t.strip() for t in hit.get("takeaways", []) if t.strip()]
             # Web pages the model actually read are the most useful links, so
             # list them first; then RSS outlets. Dedupe by outlet/label.
             # Cap research sources to what it could actually have fetched — the
@@ -478,12 +483,16 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
 
     # Stage 2b — Sonnet polishes all extracts in one call.
     polished = stage2b_polish(reads, date)
-    return [
-        {"ref": rd["ref"],
-         "summary": polished.get(rd["ref"]) or rd["extract"],
-         "sources": rd["sources"]}
-        for rd in reads
-    ]
+    out = []
+    for rd in reads:
+        p = polished.get(rd["ref"]) or {}
+        out.append({
+            "ref": rd["ref"],
+            "summary": p.get("summary") or rd["extract"],
+            "takeaways": p.get("takeaways", []),
+            "sources": rd["sources"],
+        })
+    return out
 
 
 def front_matter(tags: Iterable[str]) -> str:
@@ -740,7 +749,10 @@ def stage2b_polish(reads: list[dict], date: str) -> dict:
     METRICS.add("(write)", WRITE_MODEL, resp.usage)
     try:
         events = json.loads(_text_of(resp)).get("events", [])
-        return {e["ref"]: e["summary"] for e in events if e.get("ref")}
+        return {
+            e["ref"]: {"summary": e.get("summary", ""), "takeaways": e.get("takeaways", [])}
+            for e in events if e.get("ref")
+        }
     except json.JSONDecodeError:
         return {}
 
@@ -912,6 +924,13 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
             lines.append(f"### {e['title']}")
             summary = (e.get("one_liner") or "").strip()
             lines.append(f"{meter(e.get('importance', 0))} {summary}".rstrip())
+            # Key takeaways as bullets (research adds these for data-dense
+            # stories) so readers can skim instead of parsing a block of text.
+            takeaways = [t.strip() for t in e.get("takeaways", []) if t.strip()]
+            if takeaways:
+                lines.append("")
+                lines += [f"- {t}" for t in takeaways]
+            lines.append("")
             srcs = ", ".join(
                 f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"
                 for s in e.get("sources", [])[:MAX_SOURCES_PER_EVENT]
