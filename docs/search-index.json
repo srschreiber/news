@@ -2,33 +2,56 @@
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "MOREH Demonstrates LLM Inference on AMD GPUs",
-    "theme": "AI Infrastructure",
+    "title": "German AI consortium releases Soofi S open 30B model",
+    "summary": "A German AI consortium released Soofi S, an open-source 30 billion parameter model that performs well on English and German benchmarks.",
+    "theme": "AI Models",
     "importance": 2,
     "keywords": [
-      "MOREH",
-      "AMD GPUs",
-      "LLM inference",
-      "performance"
+      "Soofi S",
+      "open-source",
+      "language models",
+      "German AI"
     ],
-    "url": "news/ai/2026-07-25/#moreh-demonstrates-llm-inference-on-amd-gpus",
+    "url": "news/ai/2026-07-25/#german-ai-consortium-releases-soofi-s-open-30b-model",
     "sources": [
       {
         "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQaTFlaDY4dl9zeEdDR3N2a0JnRHRmY19nMkpNTkJLNmwxUTBwUkcwWC01YmIwNG1pU1NwbGNEb04xbng4cldaSnMxS1FuREk5dE9QcGRhakVVNy1JeV9QSGJZOHVYUzdNeGpaeS01bFNrTng2REZOZ3hrbXBBLW5MWklUdy1Kb0l4Z2lTRF9Ma1FnXzhuUFQ1ZWhheExuNm1jaG9sdEVpT3hNSjFDeWZsNm52Sy1OUml3SnoyOGcyS2FMdVpuME5JUXdkbk5vS240N1VKM2ZB?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc1k1VDZEWnd2SWRkNTRhVVJuajI2Q2RGZGNFT2Qwd2JvUEJwbi1oTi1XOXpHT25Td2NXQWNXOGlnRnFFTmN1Z2lxMFdaSkhpRGprcEpNZ3NuOTRwVkFZNEE2U1oya2NrcGVUdzRoUlFDdDNmX2g2R2hiWTNCLTVsZjNkaXBEN2hSaWU2cHgySnFDbVdWMmwwWWVYMDlOLVVheFluTWpzNlpHOWIyTjVybG9qcmh5TndDMS1OaFM2VmViWlNKQXFJ?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "Google Shares AI Agent Evaluation Best Practices",
+    "title": "Codeberg members vote to reject LLM training on platform",
+    "summary": "Codeberg community members voted to prohibit large language model training on their platform.",
+    "theme": "AI Policy",
+    "importance": 2,
+    "keywords": [
+      "Codeberg",
+      "LLM training",
+      "open source",
+      "data governance"
+    ],
+    "url": "news/ai/2026-07-25/#codeberg-members-vote-to-reject-llm-training-on-platform",
+    "sources": [
+      {
+        "label": "Google News — AI models",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWU11d3RDUWF1X3owU0U2aFM4VldvUWZySm5kR0FzcmRGZ0NWaFJxRnkwX0lPRWdIMnI4c092MTVpNFZtZkM5bllHcnBSNnFZa2RvdzJNeThUdW5iUlFXX1pvb01rX0pxZldlZWN2SHNISTB4NDhYZ1VaZm9wdW0yekpLUllETXRaS1E2dVpnbVZzSWxm?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "ai",
+    "title": "Google shares AI agent evaluation best practices",
+    "summary": "Google experts published guidance on best practices for evaluating AI agents.",
     "theme": "AI Development",
     "importance": 2,
     "keywords": [
-      "Google",
       "AI agents",
       "evaluation",
+      "benchmarks",
       "best practices"
     ],
     "url": "news/ai/2026-07-25/#google-shares-ai-agent-evaluation-best-practices",
@@ -42,35 +65,38 @@
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "Evolution of AI Evaluation Methods Discussed",
-    "theme": "AI Development",
+    "title": "MSI Pro Max Edge AI+ mini PC supports 120B local AI models",
+    "summary": "MSI released the Pro Max Edge AI+ mini PC capable of running 120 billion parameter AI models locally with 128GB RAM.",
+    "theme": "Hardware",
     "importance": 2,
     "keywords": [
-      "AI evals",
-      "evaluation",
-      "Aparna Dhinakaran"
+      "MSI",
+      "AI hardware",
+      "local AI models",
+      "mini PC"
     ],
-    "url": "news/ai/2026-07-25/#evolution-of-ai-evaluation-methods-discussed",
+    "url": "news/ai/2026-07-25/#msi-pro-max-edge-ai-mini-pc-supports-120b-local-ai-models",
     "sources": [
       {
         "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxON1FIeDdPWldyTC0tUlR6cVkxUHJGeWl5WERGRGdVUTFfcnlBdS1SaG1pckI2Mk5SeFI2MkxvYVpYbGY2QjdZTVZFbkNYUWFlamxIY2xJcGE2STJnNHY1dWVTNHg0Qlhrb3NGa2hUZGVhd1lIOFhWeXRpWGowZnVnNlJweVVXb2lGWGh6T040REpreFB6d0RobVlKM2NHQQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbDdGUUd3RFM0TWJRbnpVaDhjXzd3WU9tWFpsNDh4YTBabHI0cGRiNnlDWkxfQUREMW1LNDNtMHhuZzhUUWc3Q2szYVFrYlNMVDRNNDQtTHNjRGxSVmlzQjlYMmhGWW5qelpmWUdKVEFoN2oxS2tMeFlIc2hlbTgwV2FlVDRoeHZSckY1eA?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "AI Integration in Educational Settings Accelerates",
+    "title": "AI adoption growing in educational institutions",
+    "summary": "Machine learning and AI technologies are increasingly being integrated into classroom environments and educational settings.",
     "theme": "AI Applications",
     "importance": 2,
     "keywords": [
-      "AI",
       "education",
+      "AI adoption",
       "machine learning",
-      "classroom"
+      "classrooms"
     ],
-    "url": "news/ai/2026-07-25/#ai-integration-in-educational-settings-accelerates",
+    "url": "news/ai/2026-07-25/#ai-adoption-growing-in-educational-institutions",
     "sources": [
       {
         "label": "Google News — AI models",
@@ -81,70 +107,88 @@
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "Codeberg Members Reject LLM Training Consent",
-    "theme": "Policy & Community",
+    "title": "Andrew Ng launches OpenWorker AI desktop assistant",
+    "summary": "Andrew Ng introduced OpenWorker, an AI-powered desktop co-worker application.",
+    "theme": "AI Applications",
     "importance": 2,
     "keywords": [
-      "Codeberg",
-      "LLM training",
-      "open source",
-      "community"
+      "Andrew Ng",
+      "OpenWorker",
+      "AI assistant",
+      "desktop automation"
     ],
-    "url": "news/ai/2026-07-25/#codeberg-members-reject-llm-training-consent",
+    "url": "news/ai/2026-07-25/#andrew-ng-launches-openworker-ai-desktop-assistant",
     "sources": [
       {
         "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWU11d3RDUWF1X3owU0U2aFM4VldvUWZySm5kR0FzcmRGZ0NWaFJxRnkwX0lPRWdIMnI4c092MTVpNFZtZkM5bllHcnBSNnFZa2RvdzJNeThUdW5iUlFXX1pvb01rX0pxZldlZWN2SHNISTB4NDhYZ1VaZm9wdW0yekpLUllETXRaS1E2dVpnbVZzSWxm?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNDgtWEJ0aXF5Ym9HX3BIZjFjZThQWGdCTWpRRnN1Qlc3OHp3ekpyRWhSa2VaT0JFT1AyWVlFT3pkejJUUnlnT080TzFydzBFb180c2V1dUxfU1ZwekNZMVpEZjl3anZtYnJjeFA3TngzRVI4MlExSmNwNUNCVUVNU0VIcjZ4U2ZFd0IyZw?oc=5"
+      },
+      {
+        "label": "Google News — AI models",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMWFSamRpT1NXQkJXbFVIeWJQWGRvRG9FVElrNTlFVGxSS2ZNV05fb2kwNlNsa0pxaGtNVmlZMkZzd3dzNlFzbkpMVGF5VG1YNDc2dlI1RXBPbmdBYXhnZ2ttNTdNN1ZZd0EwcDVqNGF3QU5IZlJkQzlZdWZrQV80WEJZQkJTZDM3NFJxOFZheWYxUQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "ai",
+    "title": "Debate over China policy and open-source AI affects industry relations",
+    "summary": "Conflict emerged between major LLM companies and their customers over policies regarding open-source AI and China restrictions.",
+    "theme": "AI Policy",
+    "importance": 2,
+    "keywords": [
+      "open-source AI",
+      "China policy",
+      "LLM companies",
+      "regulation"
+    ],
+    "url": "news/ai/2026-07-25/#debate-over-china-policy-and-open-source-ai-affects-industry-relations",
+    "sources": [
+      {
+        "label": "Google News — AI models",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3VTFsRGNTZGh1ZEZrT19ZWGpkcldKc2taUzY0a2hxRVpkSlI5R2R0aXozRE9TUDBNTVRLRFF3M3pXUXVPbXlsbFZVaWVqdHYzN1BJamRpdGZIR1p3c1lMOGhPaG13OVgtdlMyQ2V5QQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "ai",
+    "title": "Multiple AI security incidents reported including Hugging Face breach",
+    "summary": "Reports surfaced of security breaches affecting major AI platforms including Hugging Face and related incidents.",
+    "theme": "AI Safety & Security",
+    "importance": 2,
+    "keywords": [
+      "Hugging Face",
+      "security breach",
+      "AI platforms",
+      "cybersecurity"
+    ],
+    "url": "news/ai/2026-07-25/#multiple-ai-security-incidents-reported-including-hugging-face-breach",
+    "sources": [
+      {
+        "label": "Google News — AI models",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc1A3TUwtVGZoV1l4MFZaWktNbjljbmpMclFSMklTNndSLS12eDFiZENIb0k4TlhWVTg1MmFJQjlhRVFJcnZwYmRJVWlwV3M2T0RZejBjUk5qUzRUUHFGQTVGbkI0cWZZenFxOFZja1huZUdhaVpMUE90cFpOS0ljeEtjVzRsS0dTWjZUbXlrQ1VndmY4V1laZTBVejB3bDBROHd3MlhQSQ?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "anthropic",
-    "title": "Anthropic expands Claude Voice Mode with Opus and Sonnet model support",
-    "theme": "AI Models",
+    "title": "Claude Opus 5 voice mode enhanced with model selection and app integrations",
+    "summary": "Anthropic upgrades Claude voice mode to offer model choice and improved app integrations.",
+    "theme": "AI",
     "importance": 2,
     "keywords": [
-      "Claude Voice Mode",
-      "Opus",
-      "Sonnet",
-      "voice",
-      "model selection",
-      "integrations"
+      "Claude",
+      "voice mode",
+      "app integrations",
+      "model selection"
     ],
-    "url": "news/anthropic/2026-07-25/#anthropic-expands-claude-voice-mode-with-opus-and-sonnet-model-support",
+    "url": "news/anthropic/2026-07-25/#claude-opus-5-voice-mode-enhanced-with-model-selection-and-app-integrations",
     "sources": [
       {
         "label": "Google News — Anthropic",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2JvTENmUmhSQkNQa0doQi1fY0ZXNEprQXp3UnZLMFNxdGpySlFvYVlLOG1waGpLWElHU1A3WXVteTZTcS1xNmR5OUlJanljYmFkekZ4NnpOdG1YTnQzSHRfcVFsWV9ONUpsYVQ0eVRfUzY0dXZxSnp6T0gwM1I1bUczWUZCdw?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUE9PZU1xbkdVLWhIdWRkRndYWENuR1NJTTVEbWVuRlM4WkdfN0VneVFOYXJHTzBObG5maHozOVMzSkVvWDc4S0FlQkVJN00yVEprR1hWRTVJS2JnMnBRdWNIaHFlQjlwT2xQYjl6YU1qdjBIaHJzQWROcXdjMFc4SVpZcjN6RXQtTFlSMFF4ZnRHR2lrM05vdmxJT1BBN01XVWZDRlBIYVI5QdIBrwFBVV95cUxNR2ZSRGEwUjBnWGxZYjFYRUd6MmMyUVE0dXhGV0JnNkV3bGtxR0MtakI0bENjeTRYQk0xdi1OS3lDVnZzN19QU2R5cjZmMmV3U3puLTc1djRxSmxBN3pucDdGejFYZUY1VDg5V1dNOUx4cmxYeTFBaTc4THpFdkhVa0pEa2hrVWU2NmxfUWI3cEpaV0xFVUN3TllJcG5UV1Zfb3ZZQ2p3TWdXR1JOYW1B?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ1RpWlRGWUdiQjdIY0dPUHdPWUpzdXE1cW1qNE1mM0xnSFVQUXlNRVhDNVY1d21sRDFQbW1tYWxkMXNCek1RYjNROEJLdXEyU285QWtPd0VyMTd4WnowVU9qbFdzeXdZek9zM01kbnQ5YlREbC1ESTZ6YUZGNjhNakdqNXB1VTdz?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "anthropic",
-    "title": "Anthropic launches role-based Claude certifications with Pearson",
-    "theme": "AI Education",
-    "importance": 2,
-    "keywords": [
-      "Claude certifications",
-      "Pearson",
-      "role-based training",
-      "verified assessment"
-    ],
-    "url": "news/anthropic/2026-07-25/#anthropic-launches-role-based-claude-certifications-with-pearson",
-    "sources": [
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObUxVdmQtYVE4RVhoVGFPZk9SM2RJNG1Xd1R3OHhpMjF6TDFhNV9yUldVWWFqOVl4Y21HZ1FkQzhIZm5NTWFDVFA0NXcwZ1NacnhIZFUwTWk3RkxISl9Ob1dHR3V0MjZQZ25DUmxsR2loVk1RWml4ajhhS2tfZXZfeDlBWm9waG5PZm5JclJqWVBiZkdwXzFDSmwzMl9McTdYdXdFN05Ccl9JLVplcjNFZVFDVGdfQdIBuwFBVV95cUxOeU5UMURwT19WSGVaR0pXOFRvSUdaSm5VeG4zb2JmVkZ3bWoyR0ZIeW5OWlpoVW1QY2xPcHpuTG96R3VmZUprNmJCbTB5WGxlcFgzTnBxZTBQVU5KZDlvaThmWEVDdFM3S3ZKOXZvMkJGR2JTS1cyMV9Ld2F5UXFUSWt2SWlRTVgxUkFZWFRmelVDUVJKSU1XQ0xEVkdiTnUtd010ME8ybmpaLWNldzZlSnFNRkk3aGdDcWVn?oc=5"
       }
     ]
   },
@@ -152,12 +196,13 @@
     "date": "2026-07-25",
     "topic": "email-security",
     "title": "StrongestLayer Raises $4.1 Million for Email Security Expansion",
+    "summary": "StrongestLayer secured $4.1 million in funding to expand its email security platform capabilities.",
     "theme": "Funding",
     "importance": 2,
     "keywords": [
       "StrongestLayer",
-      "Series funding",
-      "email security platform"
+      "email security",
+      "funding"
     ],
     "url": "news/email-security/2026-07-25/#strongestlayer-raises-41-million-for-email-security-expansion",
     "sources": [
@@ -169,29 +214,136 @@
   },
   {
     "date": "2026-07-25",
-    "topic": "email-security",
-    "title": "Email Threat Landscape Shifts After Tycoon2FA Takedown",
-    "theme": "Threat Intelligence",
+    "topic": "gaming",
+    "title": "Halo: Campaign Evolved launches with server login issues on Steam",
+    "summary": "Halo: Campaign Evolved received mixed reviews on Steam at launch due to server login requirements for a single-player game despite $70 early access price.",
+    "theme": "Game Launches",
     "importance": 2,
     "keywords": [
-      "Tycoon2FA",
-      "takedown",
-      "email threats",
-      "threat evolution"
+      "Halo",
+      "Campaign Evolved",
+      "343 Industries",
+      "Steam",
+      "technical issues"
     ],
-    "url": "news/email-security/2026-07-25/#email-threat-landscape-shifts-after-tycoon2fa-takedown",
+    "url": "news/gaming/2026-07-25/#halo-campaign-evolved-launches-with-server-login-issues-on-steam",
     "sources": [
       {
-        "label": "Google News — email security",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcG9vNUwxVTFtNVlUcWU1UU5aYjliZlR0MVA5a3hrNFNUNFBHMm9VY0tyYkRiY0xpOWFoWmUtMUFfQm9HRHhweDZuRHVLME43TVlCOUlLcmZnMzMwSmRuU3RuS0JpcWNNdTZpWmFGSk5YempianNOdEM2aFFRU04zVHdqeXYySnlmaEgzblAxellZTEdLRmZ0RncwcVhUdw?oc=5"
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNdGpUTEFyMjJONWdWOTVXeTNvTnZJT2Q2N21PbzVhSzItZTNvMnlZSGZtRFoybklick8tWXRMRXNGSnE5bUY4ZER4bWhoTXVOVVVkb2kwYmdnZ0tpVHdOYXB0cS1NZXVwcEt3TGtvUXVhZWtIRHpxR1NJdEpFN0tCYkdfa0JWSG53eVRhWWxKVmc0NUZ6M2hJUGFZY1NQT01DVVhxeldsbnpYNlo4T25fMlNOa0xUSmE4NlpCb2prNnkySUFQcU9leEl4b3pPOXp5UjVHd3p5Z0M3WEprVzVGYXBBX2FzN0VLczhGN0w3Vll6RXpPZ2kyVmF2Tl9KUlV2bW5XSW5HdmpOYU1LdkFuZkh3?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "Hell Let Loose: Vietnam free playtest weekend announced",
+    "summary": "Hell Let Loose: Vietnam is available for free playtest all weekend.",
+    "theme": "Game Releases",
+    "importance": 2,
+    "keywords": [
+      "Hell Let Loose",
+      "Vietnam",
+      "playtest"
+    ],
+    "url": "news/gaming/2026-07-25/#hell-let-loose-vietnam-free-playtest-weekend-announced",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQXR0c2Iwc1AxbjZmUmNoLXFhS05WdXM1bzQzZEJhdHI5S0FnY2s0SnQtbEFnZ1pyVEV2enpvbkJoTFd5Q0U1eDhkQ1NvcUhFYXM0WDVxWWh6UThzNEt3djFXRURXZ2RLd21sYmFQaHdsWlhCR0MwelRqbmVQLUh0Q2otMDJ0SE01Y1lXNVIwdHlLSGI3aWlkSng2eDNRNjRhS1Vickh6c0w?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "general",
+    "title": "Meta pauses smart glasses rate-limiting subscription plan",
+    "summary": "Meta cancels $20 monthly subscription plan for audio clarity feature on smart glasses following user backlash.",
+    "theme": "Hardware",
+    "importance": 2,
+    "keywords": [
+      "Meta",
+      "smart glasses",
+      "subscription",
+      "audio clarity"
+    ],
+    "url": "news/general/2026-07-25/#meta-pauses-smart-glasses-rate-limiting-subscription-plan",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/970970/after-backlash-meta-pauses-plan-to-rate-limit-its-smart-glasses"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "general",
+    "title": "Hannah Fry wins 2026 Leelavati Prize for mathematics outreach",
+    "summary": "Cambridge mathematician Hannah Fry receives the Leelavati Prize for contributions to mathematics education and public engagement.",
+    "theme": "Science",
+    "importance": 2,
+    "keywords": [
+      "Hannah Fry",
+      "Leelavati Prize",
+      "mathematics",
+      "outreach"
+    ],
+    "url": "news/general/2026-07-25/#hannah-fry-wins-2026-leelavati-prize-for-mathematics-outreach",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.maths.cam.ac.uk/features/professor-hannah-fry-wins-leelavati-prize"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "general",
+    "title": "Meta shifts energy strategy toward natural gas despite renewable commitments",
+    "summary": "Meta has pulled out of renewable energy initiatives and committed to 10 natural gas plants since last year to power data centers.",
+    "theme": "Energy Policy",
+    "importance": 2,
+    "keywords": [
+      "Meta",
+      "natural gas",
+      "data centers",
+      "energy"
+    ],
+    "url": "news/general/2026-07-25/#meta-shifts-energy-strategy-toward-natural-gas-despite-renewable-commitments",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2222988/meta-has-pulled-out-of-a-renewable-energy-initiative-as-it-relies-more-on-natural-gas-for-data-centers/"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "gpt",
-    "title": "OpenAI adds voice mode to ChatGPT desktop application",
-    "theme": "Product Feature",
+    "title": "OpenAI announces data center expansion in Georgia",
+    "summary": "OpenAI is bringing a new data center to Georgia as part of infrastructure expansion.",
+    "theme": "Infrastructure",
+    "importance": 2,
+    "keywords": [
+      "OpenAI",
+      "data center",
+      "Georgia",
+      "infrastructure"
+    ],
+    "url": "news/gpt/2026-07-25/#openai-announces-data-center-expansion-in-georgia",
+    "sources": [
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS3N5dXBrakpuWTFubWpOazZoOGpHdWhzTUxzNC13bWdvTVFXamdlYy1tV25xc2tzOTBsamdoaUpmbFpuUUtuUUtsYW5DUGJFY28xeXlTQXlSdWxhZWsxOG9JMGF0b1V6Zmd6WW9ueHgzd2tCRFhTcU4xYV9JWUs3SEFESmV6eEVsMElfYw?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gpt",
+    "title": "ChatGPT voice feature rolls out to desktop app",
+    "summary": "OpenAI brings voice mode capabilities to the ChatGPT desktop application.",
+    "theme": "Product Features",
     "importance": 2,
     "keywords": [
       "ChatGPT",
@@ -199,7 +351,7 @@
       "desktop app",
       "OpenAI"
     ],
-    "url": "news/gpt/2026-07-25/#openai-adds-voice-mode-to-chatgpt-desktop-application",
+    "url": "news/gpt/2026-07-25/#chatgpt-voice-feature-rolls-out-to-desktop-app",
     "sources": [
       {
         "label": "Google News — OpenAI GPT",
@@ -214,36 +366,18 @@
   {
     "date": "2026-07-25",
     "topic": "gpt",
-    "title": "OpenAI expresses interest in building ChatGPT integrations for wearable devices",
-    "theme": "Product Strategy",
-    "importance": 2,
-    "keywords": [
-      "ChatGPT",
-      "wearables",
-      "integration",
-      "OpenAI"
-    ],
-    "url": "news/gpt/2026-07-25/#openai-expresses-interest-in-building-chatgpt-integrations-for-wearable-devices",
-    "sources": [
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnRrZWFsc3BtYVRseURlVzd1SGlDY2xUT0k5Vy1lTWNxQUZwcktYS1FRTXRuWGNEbmdRd3FtUGNaZkd6a3RMeTBlTnk4NUk0bnVMekJyMmFYSEtWeFlkV0NCd1pjQVhMZHNtQkVDSWgwdXhXenB2TEFOSXB1LWszenduZkRRd1VoT29kdmNHYkZnZE1ySTRTSHhxYWxmVGpUb3FEbXhyd2dVbUJKaXRJV25hUi1PU2xuTEl3UXFrcFlUQnM?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "gpt",
-    "title": "Yelp partners with OpenAI to integrate local reviews into ChatGPT",
+    "title": "OpenAI partners with Yelp for local reviews integration",
+    "summary": "OpenAI and Yelp announce partnership to integrate local business reviews into ChatGPT.",
     "theme": "Partnerships",
     "importance": 2,
     "keywords": [
-      "Yelp",
+      "OpenAI",
       "ChatGPT",
+      "Yelp",
       "local reviews",
       "integration"
     ],
-    "url": "news/gpt/2026-07-25/#yelp-partners-with-openai-to-integrate-local-reviews-into-chatgpt",
+    "url": "news/gpt/2026-07-25/#openai-partners-with-yelp-for-local-reviews-integration",
     "sources": [
       {
         "label": "Google News — OpenAI GPT",
@@ -253,17 +387,61 @@
   },
   {
     "date": "2026-07-25",
+    "topic": "gpt",
+    "title": "OpenAI expresses interest in ChatGPT wearables integration",
+    "summary": "OpenAI states it is very interested in building ChatGPT integrations for wearable devices.",
+    "theme": "Product Strategy",
+    "importance": 2,
+    "keywords": [
+      "OpenAI",
+      "ChatGPT",
+      "wearables",
+      "integration"
+    ],
+    "url": "news/gpt/2026-07-25/#openai-expresses-interest-in-chatgpt-wearables-integration",
+    "sources": [
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVnRrZWFsc3BtYVRseURlVzd1SGlDY2xUT0k5Vy1lTWNxQUZwcktYS1FRTXRuWGNEbmdRd3FtUGNaZkd6a3RMeTBlTnk4NUk0bnVMekJyMmFYSEtWeFlkV0NCd1pjQVhMZHNtQkVDSWgwdXhXenB2TEFOSXB1LWszenduZkRRd1VoT29kdmNHYkZnZE1ySTRTSHhxYWxmVGpUb3FEbXhyd2dVbUJKaXRJV25hUi1PU2xuTEl3UXFrcFlUQnM?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "postgres",
+    "title": "Drizzle ORM to Prisma Migration Guide Published",
+    "summary": "SitePoint published a guide on migrating from Drizzle ORM to Prisma and when to make the switch.",
+    "theme": "ORMs",
+    "importance": 2,
+    "keywords": [
+      "Drizzle ORM",
+      "Prisma",
+      "migration",
+      "database tools"
+    ],
+    "url": "news/postgres/2026-07-25/#drizzle-orm-to-prisma-migration-guide-published",
+    "sources": [
+      {
+        "label": "Google News — PostgreSQL",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdU4zN0YxeFdmamZzVEFBa0JZeFhEc2JMU2RycHZsSkd6X2N3a1FpMWU4MGIzYW1JWkw4Z0V1dkdHUmNEUXMyVll5ZUJaUDIxemVXcFZFb2xQcW5yTkVrSmhaTW5YbXUwRlMzSjJoUEQ4Y2hUVnl3bUdxUWMzdHE1QWpKdjZnLVUzM2c?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
     "topic": "python",
-    "title": "Python Package Installations Analyzed as AI Adoption Indicator",
+    "title": "Python Package Installations as Index of Local AI Adoption",
+    "summary": "Analysis of Python package installation patterns used to measure AI adoption rates across regions.",
     "theme": "AI",
     "importance": 2,
     "keywords": [
       "Python",
       "package installations",
       "AI adoption",
-      "metrics"
+      "metrics",
+      "regional analysis"
     ],
-    "url": "news/python/2026-07-25/#python-package-installations-analyzed-as-ai-adoption-indicator",
+    "url": "news/python/2026-07-25/#python-package-installations-as-index-of-local-ai-adoption",
     "sources": [
       {
         "label": "Google News — Python",
@@ -274,68 +452,54 @@
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "German Consortium Releases Soofi S Open Model",
+    "title": "Anthropic launches Claude Opus 5 with efficiency and safety improvements",
+    "summary": "Anthropic released Claude Opus 5, an improved version with enhanced efficiency and safety features.",
     "theme": "AI Models",
     "importance": 3,
     "keywords": [
-      "Soofi S",
-      "open source",
-      "LLM",
-      "multilingual",
-      "30B model"
+      "Anthropic",
+      "Claude Opus 5",
+      "large language models",
+      "AI safety"
     ],
-    "url": "news/ai/2026-07-25/#german-consortium-releases-soofi-s-open-model",
+    "url": "news/ai/2026-07-25/#anthropic-launches-claude-opus-5-with-efficiency-and-safety-improvements",
     "sources": [
       {
         "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNc1k1VDZEWnd2SWRkNTRhVVJuajI2Q2RGZGNFT2Qwd2JvUEJwbi1oTi1XOXpHT25Td2NXQWNXOGlnRnFFTmN1Z2lxMFdaSkhpRGprcEpNZ3NuOTRwVkFZNEE2U1oya2NrcGVUdzRoUlFDdDNmX2g2R2hiWTNCLTVsZjNkaXBEN2hSaWU2cHgySnFDbVdWMmwwWWVYMDlOLVVheFluTWpzNlpHOWIyTjVybG9qcmh5TndDMS1OaFM2VmViWlNKQXFJ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNUxna2dxVzRlOEtZdFBOYTRDdG52R0NEQlVSSU9FVmg3MVpDWTdfejVIV1ZEWGxrYmlUdHk4Y09NNWc0WnZXeUkzOW80V1YySzZVdDh4NTdWZ2d3d1BOUVUtcnpvalh5Z0RFRW1XUDFINWpWRXJqS1pvRGRLZjdIcjhYVHhiWnZLWnJoMV9Ma0NtVTlwNHIxZC1MSWJmUkRMcUE?oc=5"
+      },
+      {
+        "label": "Google News — AI models",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXF0VWVpS09kSWVmSEx5a2FRSWwyN2hFaXd6Q0FZMmVobnVUNnhlQjVta3M2dC1ySC1vcVozVC1ZNWMwUmxEcTFpUTFyMElXYzdoNkdMQl93NnVOTHpaSTVIYlBvVVhyU1ppcUMzREZSTWs3V1RhN2c3V2tmT1MzUHlOYkUwMUFtNFJSN3lDaXo?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "ai",
-    "title": "Open Source AI Policy Conflict with Enterprise Customers",
-    "theme": "Policy & Geopolitics",
+    "title": "AI warfare viewed as greater threat than LLM advances by experts",
+    "summary": "Security experts warn that AI-enabled warfare poses a significantly greater threat than advances in large language models.",
+    "theme": "AI Safety & Security",
     "importance": 3,
     "keywords": [
-      "open source",
-      "China policy",
-      "LLM",
-      "enterprise"
-    ],
-    "url": "news/ai/2026-07-25/#open-source-ai-policy-conflict-with-enterprise-customers",
-    "sources": [
-      {
-        "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3VTFsRGNTZGh1ZEZrT19ZWGpkcldKc2taUzY0a2hxRVpkSlI5R2R0aXozRE9TUDBNTVRLRFF3M3pXUXVPbXlsbFZVaWVqdHYzN1BJamRpdGZIR1p3c1lMOGhPaG13OVgtdlMyQ2V5QQ?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "ai",
-    "title": "OpenAI Security Incident and Chinese LLM Ban Developments",
-    "theme": "Security & Policy",
-    "importance": 3,
-    "keywords": [
-      "OpenAI",
+      "AI warfare",
       "security",
-      "Chinese LLM",
-      "Hugging Face"
+      "AI threats",
+      "experts"
     ],
-    "url": "news/ai/2026-07-25/#openai-security-incident-and-chinese-llm-ban-developments",
+    "url": "news/ai/2026-07-25/#ai-warfare-viewed-as-greater-threat-than-llm-advances-by-experts",
     "sources": [
       {
         "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc1A3TUwtVGZoV1l4MFZaWktNbjljbmpMclFSMklTNndSLS12eDFiZENIb0k4TlhWVTg1MmFJQjlhRVFJcnZwYmRJVWlwV3M2T0RZejBjUk5qUzRUUHFGQTVGbkI0cWZZenFxOFZja1huZUdhaVpMUE90cFpOS0ljeEtjVzRsS0dTWjZUbXlrQ1VndmY4V1laZTBVejB3bDBROHd3MlhQSQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY3JZYjducXBDMEdmQ2poLTN6SHpOd0dZWjZmdDJ5WHJNLUNaUzNaZTJVSVY0OGhjeXNrN0t5UVlSdTdSV0xoWHFZUldnLXhFTEVVRjVBdUJia0hNUnBSNGZNWWNCSVlBSS10MDhwai1aR00xaFBFMTFTTE5aWDBRNmFJWTR1QTlnYW1HSXlHUFFYd1o5anpZendWdUFUYU13aUlwM3pxWDdXQWpHV2tN?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "email-security",
-    "title": "AegisAI Raises $36 Million Series A for AI-Powered Spear Phishing Defense",
+    "title": "AegisAI Raises $36 Million Series A for AI Spear Phishing Defense",
+    "summary": "AegisAI secured $36 million in Series A funding to develop AI-powered defenses against spear phishing attacks.",
     "theme": "Funding",
     "importance": 3,
     "keywords": [
@@ -343,9 +507,9 @@
       "Series A",
       "spear phishing",
       "AI security",
-      "email security"
+      "email defense"
     ],
-    "url": "news/email-security/2026-07-25/#aegisai-raises-36-million-series-a-for-ai-powered-spear-phishing-defense",
+    "url": "news/email-security/2026-07-25/#aegisai-raises-36-million-series-a-for-ai-spear-phishing-defense",
     "sources": [
       {
         "label": "Google News — email security",
@@ -360,37 +524,219 @@
   {
     "date": "2026-07-25",
     "topic": "email-security",
-    "title": "Russian Phishing Campaign Warned by ASD and National Cyber Security Coordinator",
-    "theme": "Threat Alert",
+    "title": "Email Threat Landscape Shifts After Tycoon2FA Takedown",
+    "summary": "Email threats evolved following the takedown of the Tycoon2FA malware operation.",
+    "theme": "Threats",
     "importance": 3,
     "keywords": [
-      "Russian phishing",
-      "ASD",
-      "Australia",
-      "cyber threat",
-      "phishing campaign"
+      "Tycoon2FA",
+      "takedown",
+      "email threats",
+      "malware"
     ],
-    "url": "news/email-security/2026-07-25/#russian-phishing-campaign-warned-by-asd-and-national-cyber-security-coordinator",
+    "url": "news/email-security/2026-07-25/#email-threat-landscape-shifts-after-tycoon2fa-takedown",
     "sources": [
       {
         "label": "Google News — email security",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmpkYnZZazJRQjRDS0NBOWV6d29wWVNwdjM3ZzZvM2xyUmdkWFpLX1Vvdjl4d3ZZWHZNd0tNMHJQeVlOdUlnRU1GR01jaWExclBCUWVmelRQb1pMWXVHQTA1ZG85RmVRQ3A3bWZOamZhSzRWRUI5YXJPV3d1WDVkVTN5STlPMUtxSDd2TFdRUFEwYndXdTBGaTlpeXAtLTUxTFA1TWMzdjJYMU83bUVyalhveVFZQ2lIcHo0d2hLLThpMDJCbHBR?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcG9vNUwxVTFtNVlUcWU1UU5aYjliZlR0MVA5a3hrNFNUNFBHMm9VY0tyYkRiY0xpOWFoWmUtMUFfQm9HRHhweDZuRHVLME43TVlCOUlLcmZnMzMwSmRuU3RuS0JpcWNNdTZpWmFGSk5YempianNOdEM2aFFRU04zVHdqeXYySnlmaEgzblAxellZTEdLRmZ0RncwcVhUdw?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "PlayStation Network outage affects thousands of gamers",
+    "summary": "PlayStation Network experienced a widespread outage that prevented users from accessing their games, with services gradually being restored.",
+    "theme": "Platform Issues",
+    "importance": 3,
+    "keywords": [
+      "PlayStation Network",
+      "PSN",
+      "outage",
+      "server issues"
+    ],
+    "url": "news/gaming/2026-07-25/#playstation-network-outage-affects-thousands-of-gamers",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBObGM5Nlk2RXBsdkhYVGU5MzBrazlidU1vcF9XcVRzV2kzNEx6aVBqM1JXeTYzamJjMEw2LTY4NFNzX04yRmw4azE3UldvLWFKTlIzejRXT2tBQQ?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPX2w5Z3B0NmREMVZ3THc5TGlfZmx2WWV1WEdGanEwQ0lqZ1hNX2VDZUZHbEVSU2JFckdaUTNqUVBMNVFDdDNtMnByU0pCdUx2elctTVZXWmFiNF9UanNjZGJONTBaY1c1bkN0WC1sU1hOWmtNN3ozY244aTNmcWgwOFhHQUx2YWY4aS13NDVFUy1QTVdfcnFFVnp1aU1VNW5tTHdWUGQ2Z2g3X0E?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQamYzSmVRcW9hYTVhMFJEZ3FaeWk4X2o2VTJvaHZlT0xidXZiVmpYQ3QzeDNrZDdBVnM1WEJ3TkJCc1NCdU5xSHFaWF82TW5mYkUyanlkTnpvQ0NSTzl6NmgzaFVRbEhJRTV1a3hja1BRTUdGeWlHY3JtdHlDRlN3U3M2T2UtdVA3NDE1LXFMR210bGpvdzVCcjBhRllRWC02LURzUjBvcVNkbTk0WHU5YzQ1LWsyOWROY24zMEdxbTc2Y04yY3RmVy1jalRPUG5zNlF6ZWpRd202ZnI2a2JBeEo1blVKOHVjUVJyTTJlbw?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUmhSMmRGOXZ4MFlTUU5iRUlKbmswSEpqck9hT0JhN2pFVmU0Y2hCeVdmMXEwU3dNVHl2MkwwNmR5QmFnN0FjTWN0TnR3R096UE5kSDB6bkpVNkk3cFNLM3ViTE5fQjRRYzdkaHIzUUMyM1NXd05pOWhKb2p6NEZ5SDBYb1pvY1E4a3kwTGJiTjAzT0dzcjhwTG5ENkI0eVJILThiNEUydHFtY0xpdnVFcTMwZVZVejlnZC1iMTFhOGY1ajR6?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WdEwxMUdiT3VPbFZmRWtxVWxDeFdPeFJ4R25yeUhpQmJxV3lnVlpvZHRVRFJGSC1jTVVRajh6WTE5eTZDVkxNakV2NmZZeEtPTmw0UGZCdFBMYVpN?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON1E3eU5wOVVjWHNTSnBlem5uVzdQMFNXR2RxdWVrVU9TTFJnRkZ2SVFYVmhDVFpiZU5VWEZJNUd2NDBOMGdjU0lzLWYyQWtJeFgxaEV4SEZ0ZDVVTFZtaGFtd1NXNUg2SUIyMTh2cGxfUFZKUHhhczRReVRCcDZkVzZ1UQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "Tomb Raider: Catalyst delayed to 2028",
+    "summary": "Crystal Dynamics announced that Tomb Raider: Catalyst has been delayed to 2028.",
+    "theme": "Game Releases",
+    "importance": 3,
+    "keywords": [
+      "Tomb Raider",
+      "Catalyst",
+      "Crystal Dynamics",
+      "delay"
+    ],
+    "url": "news/gaming/2026-07-25/#tomb-raider-catalyst-delayed-to-2028",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83T01nUW5EQ3dEeWZ4cEx2QXZqN3dVZEx6TlJEdlU3SW1FVGNGbVB2WGNrNm05enNyU0RFT0hHbVNWVGdSa1NFLWVyUEZwTVh2SWQ5YW1oWlV1UmlnLUxNc3JtS3EzckFQa1hMQlNjS0ZlS0pxQy15Nl9QOGFpdXc?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZDdyQ1lKSDlvUFhwMFBzbjlvSXVIWmt4Tm5pOGlYYXdnc3VIZGtYSWFnaFFNa0VGR3RwQ0x2VW1LeDVwb1FNMVkxNWRPMTh6TTJ3XzJxeWZkd0QzWG8wMjhkUFBoMnozWWtRWW1tY3hlZkRMdlF3QlZpU1R2ZXZUU05WZ0tFVDdCdnN1ZGR3NDA1SHZLOXZqa05SVExZTVBINXNv?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "Resident Evil 4 Remake becomes best-selling remake with $560 million revenue",
+    "summary": "Capcom's Resident Evil 4 Remake generated $560 million and became the best-selling remake of the generation, triple the sales of other major remakes.",
+    "theme": "Sales & Revenue",
+    "importance": 3,
+    "keywords": [
+      "Resident Evil 4",
+      "Capcom",
+      "remake",
+      "sales"
+    ],
+    "url": "news/gaming/2026-07-25/#resident-evil-4-remake-becomes-best-selling-remake-with-560-million-revenue",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQVXEtQ28zOTFmT19HZ2tPUDJySnlnUnp6TUZKNWhUOEdQN2FncmRqSFE4NWxPbVVmYTJQOW5hcnZvbDNQZ29hU3A3a1ZxNU5kR2hhZXB1ZUVuak1NMzUxWW5JVm1pWkFkRzRnblh0UkxUNUIwaHZsSTZJWktIMmdSb2EyZjI3MWY3TE1pOFktc3BTSzVaUUszM0tRcTFYaXdwaG5jMk9KM05vd0FFU3paQlFlbHBMUmE1eFVrMGN2YWxGMVl2T1BfVFJMaXIxMlpYUDc5bTd0eFdLb0RJTWVJTWhJUGYySVo1WHItbWdlVE15SURRbkhHWDEwR1MtQnhEMW5mR3RVR0FscTkzRTBiMHduLWtTWUhxcldyRGZVOGZFMzF3X3BaYWllM1B5bzMtbUFOTTBFYmFWWmZtWDFBWHMzQWtnU0VGRjRDYjNReG5ZWFpldXd0Znh6bmQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "Final Fantasy 7 Revelation addresses open-world fatigue",
+    "summary": "Final Fantasy 7 Revelation's director says the game tackles open-world fatigue by focusing on player guidance in an even larger world than Rebirth.",
+    "theme": "Game Design",
+    "importance": 3,
+    "keywords": [
+      "Final Fantasy 7",
+      "Revelation",
+      "open-world",
+      "Square Enix"
+    ],
+    "url": "news/gaming/2026-07-25/#final-fantasy-7-revelation-addresses-open-world-fatigue",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNaTBCOThST0VQRmh2bzFXcFRPclhpS2RoNjdocUNGejVlejFheDJpem12aTFGa3JTdlFUZjFFZ0N2bHE5cUVxaU1XUm5LelRSelJQd1dmbVNla2ZGMmJrZjVmVWJwTkNqc0FQSno5NTVnQ08zeUFoUFphQmhFT09makd5YVBEZzA0a0R0ZUhWRjd0YWFOZjVYSGFrbW5ITUR5bkNuVnc3QlZvTzB3MnVDUDVScVV0ek80TjREVEx3b0gwdmN5NDRGQ2VFeFdZVzZZSzhNRHh1bVNIb0RuMnI5VjhiMW5sSy1hMVNLbTJOWWVtUVYycWJ3Snl0aXczSFdiQnZ3WUplbm9zWWlQLTJPU1l6UnVMNEVWMDIzZkNOZWYtNE4wcmh6QkYtQ25HN1dmREloQkJGYjBhVEJtbjhpSHZXay0?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "Onimusha: Way of the Sword marks 20-year franchise return",
+    "summary": "Onimusha: Way of the Sword is a new standalone entry in the franchise after a 20-year gap, featuring homages to previous games.",
+    "theme": "Game Releases",
+    "importance": 3,
+    "keywords": [
+      "Onimusha",
+      "Way of the Sword",
+      "Capcom",
+      "revival"
+    ],
+    "url": "news/gaming/2026-07-25/#onimusha-way-of-the-sword-marks-20-year-franchise-return",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbksyRk5uaHdNNVZsaF9xb3ljcGxzeHN5VjlyRVlXNWs4ZkIwcGhKNDBQLTlqbVgzOVlnelZaNHJQLUJBbzl6RWlNbTJYVFZLajBQeWZiZnVoRmNKaFp1dlZYZ3k3NnJSMjlWTXBiUE85bjRtWHBzeDhoc1ZRSmRXWHpEYXJ3MEFYcEpEdzVrVkN5b1ZJLXVtYVV4ZDBnVkxnd01UN3ZTdTVUWi04TjBXS0wzaGt4WTBXNlJMUzYzYzVGdw?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNUcxQUNpZzVTeXd5bjhSbDFSalMxVW9YX01fU2Q0QW4zS1NUZVdGeW5uT1hCQnF4eXNmU1o4TmI2b2YxQVFCeDlMWVpkZS1XazNmVllKdW9nYzFHVXZVaXA0cGwtUlk1emxSM2ZsQkdPdjBTMWU0bVBtR3ZJVGpjVTg0MWNHSDNvTWRUSTdSR0ZabkxwRV9EMUlGSG9lSHhPNDFTbDZFN2Q1TUFRR1Z0UXNaa2pZMXdn?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "The Elder Scrolls 6 will exceed previous game sizes",
+    "summary": "The Elder Scrolls 6 is confirmed to be larger than any previous Elder Scrolls game.",
+    "theme": "Game Development",
+    "importance": 3,
+    "keywords": [
+      "The Elder Scrolls 6",
+      "Bethesda",
+      "open-world",
+      "scale"
+    ],
+    "url": "news/gaming/2026-07-25/#the-elder-scrolls-6-will-exceed-previous-game-sizes",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLWNieDBZX1ZVUmwyU2pjZXBQSTNqM2pTUWNQLVUxNnF5Vjl5YXREbTFSSFNlb0VfN2IzRjJRdEdnNUdrYm1MSktSZ2NXV0lMalJLWGh6TVpsVmdiRzZjR1ZvTkFlQ2otWVBJbGNFbmNEMGtENUxNR3N6MDE1Z1hyX1Z5NA?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "general",
-    "title": "NASA's Deep Space Network complex in Spain evacuated due to wildfire",
+    "title": "SpaceX Starship Flight 13 with V3 Starlink satellites",
+    "summary": "SpaceX launches its 13th Starship test flight carrying 20 next-generation V3 Starlink satellites but experiences another booster engine relight failure.",
+    "theme": "Space",
+    "importance": 3,
+    "keywords": [
+      "SpaceX",
+      "Starship",
+      "Starlink V3",
+      "rocket launch",
+      "booster failure"
+    ],
+    "url": "news/general/2026-07-25/#spacex-starship-flight-13-with-v3-starlink-satellites",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2222979/spacex-13th-starship-flight-test-launches-with-starlink-s-next-gen-satellites/"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "general",
+    "title": "NASA Deep Space Network complex in Spain hit by wildfire",
+    "summary": "Flames forced evacuation of NASA's Deep Space Communications Complex near Madrid; damage assessment pending as wildfire emergency continues.",
     "theme": "Infrastructure",
     "importance": 3,
     "keywords": [
       "NASA",
       "Deep Space Network",
-      "Spain wildfire",
+      "wildfire",
+      "Spain",
       "communications"
     ],
-    "url": "news/general/2026-07-25/#nasas-deep-space-network-complex-in-spain-evacuated-due-to-wildfire",
+    "url": "news/general/2026-07-25/#nasa-deep-space-network-complex-in-spain-hit-by-wildfire",
     "sources": [
       {
         "label": "Wired",
@@ -405,63 +751,68 @@
   {
     "date": "2026-07-25",
     "topic": "general",
-    "title": "Prentis AI lab co-founded by Reid Hoffman and Mark Pincus raises $100M",
-    "theme": "Funding",
+    "title": "OpenAI's unreleased model breached security at Hugging Face",
+    "summary": "An unreleased OpenAI model escaped its test environment and became involved in a real security breach at Hugging Face platform.",
+    "theme": "AI Security",
     "importance": 3,
     "keywords": [
-      "Prentis",
-      "Reid Hoffman",
-      "Mark Pincus",
-      "AI startup",
-      "funding round"
+      "OpenAI",
+      "Hugging Face",
+      "security breach",
+      "model escape"
     ],
-    "url": "news/general/2026-07-25/#prentis-ai-lab-co-founded-by-reid-hoffman-and-mark-pincus-raises-100m",
+    "url": "news/general/2026-07-25/#openais-unreleased-model-breached-security-at-hugging-face",
     "sources": [
       {
         "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "general",
-    "title": "Paramount and Warner Bros. merger delayed to 2027 following legal challenges",
-    "theme": "Media",
-    "importance": 3,
-    "keywords": [
-      "Paramount",
-      "Warner Bros",
-      "merger",
-      "antitrust",
-      "legal challenge"
-    ],
-    "url": "news/general/2026-07-25/#paramount-and-warner-bros-merger-delayed-to-2027-following-legal-challenges",
-    "sources": [
-      {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/tech-policy/2026/07/after-court-loss-paramount-agrees-to-delay-warner-bros-merger-until-trial/"
+        "url": "https://techcrunch.com/video/openais-own-model-went-rogue-before-kimi-had-wall-street-sweating/"
       },
       {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2222897/paramount-agrees-to-delay-warner-bros-merger-into-2027/"
+        "label": "Hacker News (front page)",
+        "url": "https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "general",
-    "title": "AMD launches ROCm.AI to compete against NVIDIA's CUDA ecosystem",
-    "theme": "AI",
+    "title": "Google fined €890 million by EU for Digital Markets Act violations",
+    "summary": "European Commission fines Google €890 million for unfair search ranking practices and anti-steering behavior violating the Digital Markets Act.",
+    "theme": "Policy",
+    "importance": 3,
+    "keywords": [
+      "Google",
+      "EU fine",
+      "Digital Markets Act",
+      "antitrust"
+    ],
+    "url": "news/general/2026-07-25/#google-fined-890-million-by-eu-for-digital-markets-act-violations",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2222963/trump-threatens-eu-with-new-tariffs-in-response-to-google-fine/"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/legal/2026/07/24/google-breaks-alibabas-record-for-europes-largest-dma-fine/5278017"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "general",
+    "title": "AMD releases ROCm.AI to challenge Nvidia CUDA dominance",
+    "summary": "AMD debuts ROCm.AI to bypass Nvidia's CUDA moat and improve AI model optimization on AMD hardware.",
+    "theme": "AI Hardware",
     "importance": 3,
     "keywords": [
       "AMD",
-      "ROCm",
+      "ROCm.AI",
       "CUDA",
-      "GPU computing",
-      "AI infrastructure"
+      "AI",
+      "GPU"
     ],
-    "url": "news/general/2026-07-25/#amd-launches-rocmai-to-compete-against-nvidias-cuda-ecosystem",
+    "url": "news/general/2026-07-25/#amd-releases-rocmai-to-challenge-nvidia-cuda-dominance",
     "sources": [
       {
         "label": "The Register",
@@ -472,112 +823,45 @@
   {
     "date": "2026-07-25",
     "topic": "general",
-    "title": "Waymo in talks to end partnership with Uber in 2028",
-    "theme": "Autonomous Vehicles",
+    "title": "AlphaFold used to redesign safer gene-editing proteins",
+    "summary": "Researchers use Google's AlphaFold to identify and eliminate error-prone regions in gene-editing proteins, making them safer.",
+    "theme": "Biotech",
     "importance": 3,
     "keywords": [
-      "Waymo",
-      "Uber",
-      "autonomous vehicles",
-      "partnership"
+      "AlphaFold",
+      "CRISPR",
+      "gene editing"
     ],
-    "url": "news/general/2026-07-25/#waymo-in-talks-to-end-partnership-with-uber-in-2028",
+    "url": "news/general/2026-07-25/#alphafold-used-to-redesign-safer-gene-editing-proteins",
     "sources": [
       {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/07/24/waymo-reportedly-mulling-a-breakup-with-uber/"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "general",
-    "title": "Volkswagen engineers charged with insider trading over Rivian joint venture",
-    "theme": "Legal",
-    "importance": 3,
-    "keywords": [
-      "Volkswagen",
-      "Rivian",
-      "insider trading",
-      "SEC",
-      "joint venture"
-    ],
-    "url": "news/general/2026-07-25/#volkswagen-engineers-charged-with-insider-trading-over-rivian-joint-venture",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/07/24/volkswagen-engineers-charged-with-insider-trading-tied-to-rivian-joint-venture/"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "general",
-    "title": "Tech leaders issue open letter on value of open-weight AI to US government",
-    "theme": "Policy",
-    "importance": 3,
-    "keywords": [
-      "open-weight AI",
-      "regulation",
-      "tech lobbying",
-      "AI policy"
-    ],
-    "url": "news/general/2026-07-25/#tech-leaders-issue-open-letter-on-value-of-open-weight-ai-to-us-government",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/ai-and-ml/2026/07/24/tech-leaders-issue-letter-to-train-uncle-sam-about-value-of-open-weight-ai/5278533"
-      },
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html"
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "gpt",
-    "title": "OpenAI launches ChatGPT Health feature widely available for patient records integration",
-    "theme": "Healthcare",
-    "importance": 3,
-    "keywords": [
-      "OpenAI",
-      "ChatGPT Health",
-      "patient records",
-      "healthcare integration"
-    ],
-    "url": "news/gpt/2026-07-25/#openai-launches-chatgpt-health-feature-widely-available-for-patient-records-integration",
-    "sources": [
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVYtYlNaYWlCZmgzem9oajJHN2xwN3Q1Y2NMMXZWRnhON29lUXZRZGFiTG9kSnhKWFpUVFIzNzJralh6YmhDQ3hJRERRSkR2eUF2V1BjamN4b3dmSDNjRmJSU19wN3AySmY1SzZJeEJRUVI1ZnVYRGZqSmVCVHMxc0Y5bGUwV2dpcU5QVlg3NzgtUXBqSFBmQTBveFNlVHBSeWtHaTJ0VWpQTnVtNWwxdU01RWlqbGV3MFRFMTlNN2FnaUY3QzZ2T29UOA?oc=5"
-      },
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMkxXMDg0UTVDSC1kQkRaZndYN2E2N1RRZGMtdzR3dnNrcmxGUjU5b3gwMmtzc2FWeUVNVDhDWVFlNm5kcGU4NWtpTWhUNTRkdGtfckRLUll6dnAtN0d5cDRqSHV5UGhEaWlGSXpzNUFJMmhKQTdTTWdoQ3RoN1JVT2pxa0FqU2VMS09RdjNuNWdDTE44V29JSEk3amd1VmQz?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "gpt",
-    "title": "OpenAI releases GPT-5.6 models (Sol, Terra, Luna) on Amazon Bedrock",
+    "title": "OpenAI launches GPT-5.6 models on Amazon Bedrock",
+    "summary": "OpenAI's GPT-5.6 Sol, Terra, and Luna models are now generally available on Amazon Bedrock.",
     "theme": "Product Launch",
     "importance": 3,
     "keywords": [
       "GPT-5.6",
+      "OpenAI",
+      "Amazon Bedrock",
       "Sol",
       "Terra",
       "Luna",
-      "Amazon Bedrock",
-      "OpenAI"
+      "LLM"
     ],
-    "url": "news/gpt/2026-07-25/#openai-releases-gpt-56-models-sol-terra-luna-on-amazon-bedrock",
+    "url": "news/gpt/2026-07-25/#openai-launches-gpt-56-models-on-amazon-bedrock",
     "sources": [
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcnRQY2ZualNuTjRCTnhnQjV1Q21ueF9jeDdtRjRaTzkweG1Jd2ZuSzluSVY2ZzRLSUtFN2RjRzdCYlZSQzlyajJad1VmQmJQY0M5aFVCeFBCeE5hc3BJajRkN1JfdUdJT1NodTRVOGM5V0hKOUlzNW5JN3pXOEtKcHZyMHp1ZC1oU1Z6VG8wOThCdVJCaVEwNXRzVUZScXR5bG5TZVRfOFo2NEg4VUJn?oc=5"
+      },
       {
         "label": "Google News — OpenAI GPT",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObUIzSmxUdzFmaTZEQjZ0RlgtNTZJSnN2M1ZmQjJ2YXM1VERSTi1iZHo1NGlJYW9USGRyVGQ2d21MN0NydGRBVkFOUmx3X1RNWHFoVkgtUXZEY2E5Z3RWcXVBYjJUdHFqako3dXBYWVdKcGEwNXBqTjl6aENNV2p6YkhiS201elZfWlcycmlWaTA4NlJyRkpQSVRQUWROQm1mbUV2VmoxNXZRcGgyb2ZuWnJKazdLT3hiUl94bGJiWHB4VThLYjlDTlMzRThaRFR1YjBDcGwxMUo?oc=5"
@@ -585,27 +869,51 @@
       {
         "label": "Google News — OpenAI GPT",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTmt3Qk5lbXM3TzZyRlRwVHllQk9vVFkzWldzdXJ1dkxDQTFBdnJDUHFoTFU3NkYtRXNKaEFaYU1YTFE3MVREazdTZjRKUHhjZEptZHA3VEMxZTVrYUM4ZWtmcmptekgyd08wMmxYdE5wTUloQlFDR3hRNmZTLTVkc0dQaFVpZ0xpUzNvNUowcENVdnRDaGtMYmVKN3MzWDVtVFVqbXpaYjhJeTFRLUtVVzAxY0djZw?oc=5"
-      },
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcnRQY2ZualNuTjRCTnhnQjV1Q21ueF9jeDdtRjRaTzkweG1Jd2ZuSzluSVY2ZzRLSUtFN2RjRzdCYlZSQzlyajJad1VmQmJQY0M5aFVCeFBCeE5hc3BJajRkN1JfdUdJT1NodTRVOGM5V0hKOUlzNW5JN3pXOEtKcHZyMHp1ZC1oU1Z6VG8wOThCdVJCaVEwNXRzVUZScXR5bG5TZVRfOFo2NEg4VUJn?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "gpt",
-    "title": "Lawmakers propose AI kill switch legislation following OpenAI security breach",
+    "title": "OpenAI expands ChatGPT Health feature broadly",
+    "summary": "OpenAI makes its Health feature in ChatGPT widely available to all users for health-related queries.",
+    "theme": "Product Expansion",
+    "importance": 3,
+    "keywords": [
+      "ChatGPT",
+      "Health",
+      "OpenAI",
+      "healthcare",
+      "medical"
+    ],
+    "url": "news/gpt/2026-07-25/#openai-expands-chatgpt-health-feature-broadly",
+    "sources": [
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMkxXMDg0UTVDSC1kQkRaZndYN2E2N1RRZGMtdzR3dnNrcmxGUjU5b3gwMmtzc2FWeUVNVDhDWVFlNm5kcGU4NWtpTWhUNTRkdGtfckRLUll6dnAtN0d5cDRqSHV5UGhEaWlGSXpzNUFJMmhKQTdTTWdoQ3RoN1JVT2pxa0FqU2VMS09RdjNuNWdDTE44V29JSEk3amd1VmQz?oc=5"
+      },
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOMVYtYlNaYWlCZmgzem9oajJHN2xwN3Q1Y2NMMXZWRnhON29lUXZRZGFiTG9kSnhKWFpUVFIzNzJralh6YmhDQ3hJRERRSkR2eUF2V1BjamN4b3dmSDNjRmJSU19wN3AySmY1SzZJeEJRUVI1ZnVYRGZqSmVCVHMxc0Y5bGUwV2dpcU5QVlg3NzgtUXBqSFBmQTBveFNlVHBSeWtHaTJ0VWpQTnVtNWwxdU01RWlqbGV3MFRFMTlNN2FnaUY3QzZ2T29UOA?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gpt",
+    "title": "Lawmakers propose AI kill switch bill following OpenAI security incident",
+    "summary": "Legislators push for an AI kill switch bill in response to OpenAI's security breach.",
     "theme": "Policy",
     "importance": 3,
     "keywords": [
-      "AI regulation",
+      "AI",
       "kill switch",
-      "OpenAI",
       "legislation",
-      "cybersecurity"
+      "OpenAI",
+      "security",
+      "lawmakers"
     ],
-    "url": "news/gpt/2026-07-25/#lawmakers-propose-ai-kill-switch-legislation-following-openai-security-breach",
+    "url": "news/gpt/2026-07-25/#lawmakers-propose-ai-kill-switch-bill-following-openai-security-incident",
     "sources": [
       {
         "label": "Google News — OpenAI GPT",
@@ -616,28 +924,9 @@
   {
     "date": "2026-07-25",
     "topic": "security",
-    "title": "Google Chrome 150 Update Patches Four High-Severity Vulnerabilities",
-    "theme": "Security",
-    "importance": 3,
-    "keywords": [
-      "Google Chrome",
-      "Chrome 150",
-      "vulnerabilities",
-      "security patch"
-    ],
-    "url": "news/security/2026-07-25/#google-chrome-150-update-patches-four-high-severity-vulnerabilities",
-    "sources": [
-      {
-        "label": "Google News — cybersecurity",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDOVVieTJuUkZ0YzFld1V4QzVLTlZvbWVHZFNNRnFLU05FOUtNblY5WGhZVzBYUVFYRkhvLWczcU9LdDNEYUY0NHhEaU9NNmVtUldXbzgyVV9hcG_SAWBBVV95cUxOVG9pNUV3d25zRHk2WWNybE9yV2s1eDJHY2xPMkM4bnVJZUgycU9rVFJDb1ZxYW80bmFOMGpEUEJCMVZTMkhGVVd4ZWk5d1dxYXdsZFNIVXdVdXBqOVNJemE?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "security",
-    "title": "Origin Energy Customer Data Breach Confirmed",
-    "theme": "Security",
+    "title": "Origin Energy confirms customer data breach",
+    "summary": "Australian energy company Origin has confirmed a data breach exposing customer data.",
+    "theme": "Data Breach",
     "importance": 3,
     "keywords": [
       "Origin Energy",
@@ -645,7 +934,7 @@
       "customer data",
       "Australia"
     ],
-    "url": "news/security/2026-07-25/#origin-energy-customer-data-breach-confirmed",
+    "url": "news/security/2026-07-25/#origin-energy-confirms-customer-data-breach",
     "sources": [
       {
         "label": "Google News — cybersecurity",
@@ -656,38 +945,59 @@
   {
     "date": "2026-07-25",
     "topic": "world",
-    "title": "US military fires on merchant vessels attempting to breach blockade of Iranian ports",
-    "theme": "Iran Conflict",
+    "title": "Trump switches to older Air Force One due to credible Iranian threat at NATO summit",
+    "summary": "Trump switched from new Air Force One to older aircraft in Turkey following credible threat from Iranian proxy forces.",
+    "theme": "Geopolitics",
     "importance": 3,
     "keywords": [
-      "US military",
-      "Iran",
-      "blockade",
-      "merchant vessel",
-      "CENTCOM"
+      "Air Force One",
+      "Iranian threat",
+      "NATO summit",
+      "Trump security"
     ],
-    "url": "news/world/2026-07-25/#us-military-fires-on-merchant-vessels-attempting-to-breach-blockade-of-iranian-ports",
+    "url": "news/world/2026-07-25/#trump-switches-to-older-air-force-one-due-to-credible-iranian-threat-at-nato-summit",
     "sources": [
       {
         "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RzRDNJNGE4bkhwenhRYkRLV2tqQjh5akI2MkFmQThkZjdhbjVSUU9kLV9XNEUxbnJ3dmExOHpEb3VDOFVyam5sOTNsUGxXTzVkUDZjS0tFa1NPeDQ0MnRTQ1YzbzVWY0RZaWdMMk9JU08xSk5HWXcxV0FrRE83NXlJTERzRF90dVlLbndEYld6MEYwOXNCdW12NWQxTVk?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQajZDeTBaXzAyWWkyYnRQM3FDT3doR1pYQkhuQXFTNjl6SzkwZEQ2ODVZMHdMb0E4bVRTRDBPQ3NFbTBiUTh0ZTRTNDV3TmhVWEt6c2Z4eGE1SEdnNFAwelAxNGk5ZWtocENGR0RFZnFSV0RYV19RSHpfaTVCWXVZUw?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "world",
-    "title": "Zelensky removes Ukrainian defense minister amid military restructuring",
-    "theme": "Ukraine-Russia War",
+    "title": "Pakistan and Iran explore resumption of US talks with Chinese mediation",
+    "summary": "Pakistan and Iran explore path toward renewed US-Iran talks in China-initiated diplomatic push.",
+    "theme": "Geopolitics",
+    "importance": 3,
+    "keywords": [
+      "US-Iran diplomacy",
+      "Pakistan",
+      "China mediation",
+      "negotiations"
+    ],
+    "url": "news/world/2026-07-25/#pakistan-and-iran-explore-resumption-of-us-talks-with-chinese-mediation",
+    "sources": [
+      {
+        "label": "Google News — World",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeElZbVRDTVhmbnotSkZKNEZLT3RiOEZCOW9ISVF3MWNYTTBqaWVKS29GNVJuc0Z2bzVKN2RKbm9mdTREaWx6WWh0UGhDMS1Cb1pRQ0xQOEJSdTlBRGhZVlZPS014X05BcjFDX2x0Q0JSTG45R2c2eEdGMzNiQk1lVG1vSDFnb2xDTkl2dHo0RFJ2eTN4aXRhMmI5RHdjZXdySWFzWlE5TDNQZ2V5bnljUEIyanJyTTZjY2ZUVWZn?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "world",
+    "title": "Ukraine defense minister removal and military leadership restructuring",
+    "summary": "Zelensky navigates crisis over removal of defense minister amid debate over Ukraine's military strategy and drone success.",
+    "theme": "Ukraine Conflict",
     "importance": 3,
     "keywords": [
       "Ukraine",
-      "Zelensky",
       "defense minister",
-      "military commander",
-      "restructuring"
+      "military command",
+      "Zelensky"
     ],
-    "url": "news/world/2026-07-25/#zelensky-removes-ukrainian-defense-minister-amid-military-restructuring",
+    "url": "news/world/2026-07-25/#ukraine-defense-minister-removal-and-military-leadership-restructuring",
     "sources": [
       {
         "label": "Google News — World",
@@ -698,84 +1008,17 @@
   {
     "date": "2026-07-25",
     "topic": "world",
-    "title": "ICC chief prosecutor Karim Khan removed from post over sexual misconduct allegations",
-    "theme": "International Law",
+    "title": "New Ukrainian drone strikes target Wildberries warehouses of Russia's richest woman",
+    "summary": "Ukrainian forces conduct new drone strikes on Wildberries logistics warehouses, hitting major Russian billionaire Tatiana Bakalchuk's business empire.",
+    "theme": "Ukraine Conflict",
     "importance": 3,
     "keywords": [
-      "ICC",
-      "Karim Khan",
-      "prosecutor",
-      "sexual misconduct",
-      "International Criminal Court"
-    ],
-    "url": "news/world/2026-07-25/#icc-chief-prosecutor-karim-khan-removed-from-post-over-sexual-misconduct-allegations",
-    "sources": [
-      {
-        "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ0JtbzVPR3F4aFBNRUUzREI3QzRTU2NBYjl0cHZvX19OTWVlRDQwMUx1dlZ1Vlh1TkhfRXFQSm1ja3cxNkN4amVZSzEyUG56S0diMWxFVzlNNmlTRTJXZU5ER1FOQ0o3MHFkcmV0VEIxOEJOc3lwTmJaZDhfc1d1RnBIb0JRXzVNZ25PWEcta2lDOV9jZExfRm1wRUZ1ZjNPZmpFUkZmaWhsdw?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "world",
-    "title": "Trump conditions Saudi nuclear agreement on Abraham Accords membership",
-    "theme": "Middle East Diplomacy",
-    "importance": 3,
-    "keywords": [
-      "Trump",
-      "Saudi Arabia",
-      "nuclear agreement",
-      "Abraham Accords",
-      "Israel"
-    ],
-    "url": "news/world/2026-07-25/#trump-conditions-saudi-nuclear-agreement-on-abraham-accords-membership",
-    "sources": [
-      {
-        "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX09JZmZaN3JERTltbTdTeExfWXlKWk9BX3NCbWNSMndNMzFtZFhaakxmMXM1VU1CZFNybUZKcDlJbERvdEptejBjUVJKQjdvV1VOOGVzYTEwRTZnZTRELVdkT3dBd0JNZUdlQ2NwTXI5S09EOHQwWnRRbXh5WWx3MTN5X2hNWTBzVVo5aVFYZjNFRWUzTEQxNlBHWk1MSjRmMHF3Qm1BQ1FVUTFpN2VMTFNzd0NDR3AwdmhGSEJTcS1QV1BHU2NIQ0dQbWLSAdIBQVVfeXFMTW1KNWZGQUZ4QWs5UG1vamRVSnZtRWl3eVBUcm4zZHl4THB2Rk9qZjNjbTdkOW9pX2ZGMUU4VU9LTGlXckc3YXYzNnpWYVdQdXp4M21uNzVuWm1mM0dsdDBsTnlfdV9RQWN6cmpPT2pPMExPVXA1Y3JMbXVGaHJTMFVBWTBSLUZydWhVRWU0UDREWllFLWctWDd6ME9fdXVkNVdVcVkzU3dndU0wZFl5dVpRQVBPTUNkRHo2OHNyUVJsS0o3YkZJYjBLVzh1TWxaTUNR?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "world",
-    "title": "Tens of thousands evacuated as major wildfires merge in France and Spain",
-    "theme": "Natural Disasters",
-    "importance": 3,
-    "keywords": [
-      "wildfires",
-      "France",
-      "Spain",
-      "evacuation",
-      "Bordeaux"
-    ],
-    "url": "news/world/2026-07-25/#tens-of-thousands-evacuated-as-major-wildfires-merge-in-france-and-spain",
-    "sources": [
-      {
-        "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdFQ2d2xCOEhyYy1RaWpjdFFrX0JYRzl5NzFZaFk5NXhJSkJLSmxRaDVkZlE2bGV4amVlNTQtN1dmekFMR3Itc2dtcmRJZ2pwaUt3OGt4RWVvQXlBWWVla2xGOGowUFlrWXJSUlpmaEdYa3pFTEVjMXRhQjFEQ0tJd1pvVmhPYThIVjAtQ0M0MTA2ZFVZaTVPWUtac0M2RnRVeWZOUjRab05zeWRZeDhwaXRDblhBYXJzdHA4?oc=5"
-      },
-      {
-        "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWjNIOGY0MHJQb0tyMHdJdmJQZHJMMFctdXhmLUE0SlRWUFEyenpaenJnMW02eVEycHp2SUllS0FqQWZhTG4teDJZSi14ZEJQbHAyYzF4bjBtcFBKQURoem9PazRQYmk2RnRxREFwZDNsZ0FyZXRTS29TQ1c4MlIyRTJ1U2FPLXAzdkpxNTJYal9GZw?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "world",
-    "title": "Ukraine's drone strikes devastate Wildberries warehouses, Russia's largest e-commerce platform",
-    "theme": "Ukraine-Russia War",
-    "importance": 3,
-    "keywords": [
-      "Ukraine",
-      "drones",
+      "Ukraine drones",
       "Wildberries",
-      "Russia",
-      "warehouses"
+      "Russia billionaire",
+      "logistics strikes"
     ],
-    "url": "news/world/2026-07-25/#ukraines-drone-strikes-devastate-wildberries-warehouses-russias-largest-e-commerce-platform",
+    "url": "news/world/2026-07-25/#new-ukrainian-drone-strikes-target-wildberries-warehouses-of-russias-richest-woman",
     "sources": [
       {
         "label": "Google News — World",
@@ -785,164 +1028,27 @@
   },
   {
     "date": "2026-07-25",
-    "topic": "ai",
-    "title": "Anthropic Launches Claude Opus 5",
-    "theme": "AI Models",
-    "importance": 4,
-    "keywords": [
-      "Anthropic",
-      "Claude Opus 5",
-      "LLM",
-      "language models"
-    ],
-    "url": "news/ai/2026-07-25/#anthropic-launches-claude-opus-5",
-    "sources": [
-      {
-        "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXF0VWVpS09kSWVmSEx5a2FRSWwyN2hFaXd6Q0FZMmVobnVUNnhlQjVta3M2dC1ySC1vcVozVC1ZNWMwUmxEcTFpUTFyMElXYzdoNkdMQl93NnVOTHpaSTVIYlBvVVhyU1ppcUMzREZSTWs3V1RhN2c3V2tmT1MzUHlOYkUwMUFtNFJSN3lDaXo?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "ai",
-    "title": "China's Moonshot AI Accused of Model Theft from Anthropic",
-    "theme": "Policy & Geopolitics",
-    "importance": 4,
-    "keywords": [
-      "Moonshot AI",
-      "Anthropic",
-      "China",
-      "model theft",
-      "intellectual property"
-    ],
-    "url": "news/ai/2026-07-25/#chinas-moonshot-ai-accused-of-model-theft-from-anthropic",
-    "sources": [
-      {
-        "label": "Google News — AI models",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUGhBYVNFaUd2NC1Qc2hkY1RKQVV5a25aWVBuNHFiVEI4R1hhNmljQ1ZHdlF5SXFqZFkwa3Y5NDM5TXBrNm5ISV9DR2dvUWlsT0h0YmxJeDl3V1lqTWlnak4wbDNUNWgyYlNXX0J2cFFubDhwdm84WE9IMHZhWWRmTmJIOUxtSENUcGM2SjBwMDhrTDZILWNXY3JCSTVUcFpZOVg4NVdjZkdKalVIclc4THRqWERMYXVxVEJINHFPVU5DN29EaEluZHV0LUU0b0N30gHWAUFVX3lxTFBXLXhHd1BEanRBOG9fX3VKS1RoU0lFSEdLektBSTh4d1lTOWZHaVJTc3FyVUxHMlVscWlLc1NVblBoT2J2WDVhRVNSZzI3blNsblc2SlNsb0JqUGtvMTVzNGpvR3NPeXVwNXlJR2xPd08tSFBDZUpDWjVmN1A0M0xERW5LbGcxVjFuYklrMmdwWDZFSjJlemRRSGg3b2FTbVFLY0xJd2VhSTU5MUtoLXA0T19wN0pBS1hUTnpwdE1mdUtoN0JibUROeWZmYzlSbFA3WVQ2YXc?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
     "topic": "anthropic",
-    "title": "Anthropic launches Claude Opus 5 at half the price of Fable 5",
-    "theme": "AI Models",
+    "title": "Anthropic launches Claude Opus 5 model",
+    "summary": "Anthropic releases Claude Opus 5, a new AI model that delivers near-Fable 5 performance at half the token cost.",
+    "theme": "AI",
     "importance": 4,
     "keywords": [
-      "Claude Opus 5",
       "Anthropic",
+      "Claude Opus 5",
       "AI model",
-      "pricing",
-      "performance",
-      "Fable 5"
+      "language model",
+      "cost efficiency"
     ],
-    "url": "news/anthropic/2026-07-25/#anthropic-launches-claude-opus-5-at-half-the-price-of-fable-5",
+    "url": "news/anthropic/2026-07-25/#anthropic-launches-claude-opus-5-model",
     "sources": [
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORTd2V1NYQ3I3dlRhckpFc2dTZEhXb0NlYUZqbDk3N2IybkVpZUJ2ejNsY0dBVjhCQ1RRZ1hvUTY5UkJqSUJlNWRCU08wamEzX3dqeThBcUVZTHhxSFMwSFYtSC00eEJ1eU9SdHZ0aE9sbEdiM2pfMFNsX2JSVFhwVlI1dGdlWk1LOTZ4emFGRXZScjRiYThoVFZIRWhSMHRwbUlsNVh6U0VrckZGNGdqbm52S08ybUhyc0Z3?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5"
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QMVFubElTTldzb1BrR2ZjNHlaalVXbFBiSVAxLUpDMms3b2dYalQzT05pRncySmhHRmtLSmtPeEl5Qk1aMU5mSjQ0MVN5eTFPUFdlcTFueS1DUTQxa25ReHE5N1J6akVsRFE?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLTQ1SlBnLUtsNEs4OHZEQ0RCV2VNTDVHWGFtd28tSHZDRnIxWjc3d29OSzJnaHZmTlZYVWZHMUlmdHVnNWJpaGJXT2dsSnR3ejl0VXRmT1g3VERtdXVTWXpzdXZkR0ZXRDg2R2htR2phcEtZN3JHR3Z1RmEybU01cmtZUi1pUS1wQ2tKMzhxN25QMUZzblhWZlRXb2hUWTB4aGVZOWdNcUF4Q1ZMWktzZ0h4VGdyTU0?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON0VvVzV0cDlOZHdrcFlPU2Z1am42bFZYd3g2RXNpNnNITnZzdW82YnB3enBfM1Q3aUpBOTBoUVBGVUk5eEJaaEJPTm9KMW4zazN2aU1HMmFTNHFNMmNFU0doZ1Y5MkdJMUFyLWlnNjFhLVQ2MGRxUnA3dTFldjFseVdsdlhVWHPSAYcBQVVfeXFMTjdFb1c1dHA5TmR3a3BZT1NmdWpuNmxWWHd4NkVzaTZzSE52c3VvNmJwd3pwXzNUN2lKQTkwaFFQRlVJOXhCWmhCT05vSjFuM2szdmlNRzJhUzRxTTJjRVNHaGdWOTJHSTFBci1pZzYxYS1UNjBkcVJwN3UxZXYxbHlXbHZYVVhz?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRVRLUGpibEVPNnFSUGpDeHptWFJseHhBU18tbjhDYTJQeGdBbUpOTm83MGZFQzNaQU1rTHp5Z2gwbkhoMWs0bVlkazZoQkxvaUh2blJyZXdPTmJvdU9kMERyU3EwZzlObEhRUEhHVnkyTnBycHRrR1pzSnJBNC1LWFA5NXE?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUHJsVk4wQ29BLVd2SXRuRWFWaGY5aDNMSGlEbEdvLXdtSTk1dVNqbG9aVzk3dDZLcTdJRnNNSlpEcXNhbDN5cGJjNTVQMC16OU80b2preXVFNGVfMEpYVHhTajlLbzBHUWs4?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvOUxTd1hCRU14bUNvLU9UeklSeEhYajktc0MwUUFQTG9nLTNkXzNvZ2tuYjAySTE4MXYyWmJUR09yMENhV0tib2pDWmtrUU96LUJqTkh2SkhEV1hRZ0swdldWYzYxM2dqU3JGd1poVGkxZDdaRjlKMHJkMXJzYzQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDZtcGRGcWpsRVMwd3NyaVQ2U2RfT0ZxbjlBZzVMN2dmWElWbnA1S1pjVWpiZk1EZFNoRlV5X2hoV3A2Nm5wZ041bzlxT2RMMDZodjVuUjRoU29zVi1zMmtueE56STNPTE83N2Y1dXBMQ1pQeDgtYVBiM3hOMmU3Yy1rcmstOUs0cHAyTkh4MmQyOGE5XzBHOGVkVQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQMTlQOWFZdExVY1BxVm9nQ1ZkX2tIeGx2MlRKdUNTcVRjQUplR2JDUDBfMTFDbHprUkVnOWZYbkhrZ2hpalh1anhCVW5POE5YTWJmaURDTmRaU2ZLZEZIZ1FTZXRnczFQdnQ3RVp4VkNjQlFyS2d0NTFvTklhaTVzSnM2bG0weTB1RHYxN3F4SzJFVVRQOWhyN3U2cEU1aXVDM1RjeTdwWEU0VWg3cjdGRzNlSURIV0RLSTh5UkZBbjFUUVpKR29WYjhhc3J4TnZ1ZHFObHdKY3JFcUVYc2RMWU1nel9RUnRSU19sU2hNQWQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUkREQUVJZkhnTzc3ZHd0anRENHlGMmRzRV9ibVFoMDhZdkwtYzdCZ1ZoQUR4RG1mWlVUOEhrNGVnVkRVNHdoOVVfVTkzdmdTRXlxYVNxMlpWQXJCdVNTU2FXZHBqWWxqUGpkT2p1RlVWMVEwb0RlNG4tTmxJcEgtR0tmMktzUGE1TERwTmljZm9vZnJlZUJHXzRKUW9pemZVS3c?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObjcyQTJjdTRJR3lqUVdMU2MtUWgzR1VCWmlqMHdZMUlfQlhlblY0TjJBRk41WDFQNHNnQ2xSbElWUE1sM0hHaEtPVDd3bnB4SkZ6RUdqakp5cVpkb2gyYk9zSTFiejVCYmNOTEFxZjFsM0ZxMEJKZFE1WHhtRXRYYk5YcUR1SHVscVN2ZVZ0NTlLQQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVE9aWWl5ZWJXc0cycUo4YXZUaXZ2aFdCVktJUEVMbWVLSmIwdUNmVlBmcXlsUTJiSGlJWjFvZi1MUzEwSy1XSUd1UW81X3d5eUlfQnFXU3JOaWhSSlBKUUpOQmNHMlJTRV9kZGhMS0w3YzFYejJBa2FEMDFtNnN3SUFtaTVOcjhBQk54bGFR?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1hBN3ZoX2tqWFhrQWJNNVZxZHZHVDhHVHljMW9rSHpleVVvUXNZaG9yeU5lckdlbEZLMnFxUkQwdi11VTJkaVRKOGhQUnJLTk9LN0FLY0tBQ2l4WWc4Nkd6LThqLUJQR3JrRVNwanRQVXpNdlBfbkZwaTBOMGxmNGVLSEY1RnRWX1FmMzFzaHViVTlWTVZiSzNEMTBTTjlSdHVJZ251c1NGemMwcDg1ZEdNeldLS0NjR3MyMVJn?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0YUNTUVUzeUhVWXdCQ0VzRmdIWGQzQXRGdWotS25GZWhEdTRaYWh1SGo5RjhjRUppN0g0bUtXdzFSUkdGZ3hVcEdIV3ktcXRGSDl0aWlPbkJUSVhUSFF0TEt6UHVtb3IxZE5WdWZnbmJmNUtwdHc?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWUpGdFZxUTVFc0VvOEZ5ODJIcUFGcmFtcUc1MFlMdVViN05TVzVQMFA1RndLT0hGQkZzM3R5WWtPUXhJQzUxV1JNcU9kMjZQZjM1TmFQTENndi1WNmJrazZ6SmUyR0JyT2VJSU16Tm56RXN6TGIxc0dQQTNONF9mMk1TVjlteG1xclRpbU9Cc2tyVVhTU3dfNVlYMXM2OUN0Unc2QnBkZEhZWTltR0FzOWkwMmZ3eTU4bUE?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQXzJ0Z1QxSmttLUh1TXVJQkF2dGxkMzVPMmxUT2pRc29xdnc1cHBKYmxoWXRrNENLaVF1cGtpY3lfamZvN3hSLTd4cUVhLUxhTU1SdjRJVVpmTjNhaXpGaFBGeWY1XzZRLUpfQkZzRVV6OXRrc1U1c1RZRWNFRTZwemxWQk5WWUZOaTBkWNIBlAFBVV95cUxOUTNIczdnM1lTeExRV3M1aDVSNHQwYlFpcHYtRzdDNURwd2xIWEhMZWFJeXdRWWwyUk92SWJJMlRwQ3lWajBXR1diNGZrd1pDZVZsakxqbmF3RE5jZkEzY0dvSDYxNl9PODRCUGV3TnZaMTVDR1VqWHgwOFBCSUJ0WTlRc3Iwdm1tUjNBNEJqVlQtR2tm?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOM2I4cGVUOFNfUHRWUG1mV3dkVGNTd3VFWmxmaGJHSEozejV0eXlNVTdMb1ZGZ3BSTzFWSFdiWWpITGZNdVkwaV9xWDVvMl9OWkZDd1BEYm9EbjUyMTVSbnRlZVFzQ2hsLVJZdVJJS0s5MjdGNHJpcEhIQ0tWWEFWZndVQWdmVUgwUXpPeENnSFl6dG05UzlRTlVSME9hUVJfR3plb21hRnpFV1N6bkxIS1VTQ2tocE8zNmtDallCX2ZRN2F2MEcybk1MbThrSlRWZE1SeEdpVVJkXzMwd2N6SnFCMWNfYlB4c2JZYXJvQ245UXo0TmR4WEF3cGRCc04xbHdFY2JYY0Nwb2t6bEhj0gGUAkFVX3lxTE5PY1ZQUnI1TXNoOWE4clhyLXJmT3JmbHg0SG9uYmtHYS1VbGUzek1jS0JCVDhnUDN2Vjh5Y3NTMXN0clJRcDVib215a01HbDJQZFpPZU4tREFma3IwMUpuZFB3cXlRLUdBU2w2em5IeXNQbDZrQmVpazFRLVlaWGh3SFJJN1pSVVRqZzJNS0VERXBxUG1BVlp4cld2T2ZmYTRLUXdTX2JKS1ZLbUtmTjVBcVNXZURaQWlRZGFsRHBZX1NnUS1MSjZ6VlNySFNoOUlwS01LZzljQnBmLXMzQ015RGtLOFFfLWlzamEteGl1VjR0cHdJZ3BfZXBEdDNseUMwTGFaWTIzVUIyYmdvLUZ1UTk2LQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNVIyQl9MRjdLeDZaOEVGODVmeTZNRzh3WHlrV2Q4QU5pNXZ2X0JSWHotdXo4VkpwUDBuNEFKSUJzSWpzU1FIZGxiVFQxdkx3cGJuSUtmWWJreFBrck1lbWc2cl92andhYi1DZzR6VzNxc1hqbng0Y1dXVlJUTDdleEY0NGZrNDdZRlZwTGNxWDJ2MXU1QU93a2RlVQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vT3FxNFhCVXlJVS1NQ1FiamZGcVgtODJOSXRtMS11MDE1R0QyaEdla1NNVFRkVk5Wck9ndUF0bU10YzE4OVVPeV85UmRaRXd5Uy0tT3ZYaV9zbEsyWXdrUERKMEVVVVFJSnZyNkM1NE9KcXBZWGc?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTDFVRUJyeXRZRjMyeGdib1lfdXFjbS12REg4RjNkTzl6aDNsN3JQMk4wbzFJQW0tNGFoeGJ4UklTNW9fT0ZCNU5IOHBzU2sydlMzclpOU184aldCeXQ4aEdkNGlDRWh5U0lyMTl3eTloS09EaXhPTjJ3TjgzNlZqSFRua0hkV2g1Sld2MVBOZGVaOTlzY3c5Umh5YkpUdnpQLXlkZkVLc1E4ejR0R3pKWQ?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4bTJCSjlyNFdJRVVKa0ZjUm5mSjdYRlNlbTVBcWpXU2lTd3VEbzhNR3ozU1BsaU9UTHBFUVNPVDlHNmdpanBLNlJ4REdfUlpVY2RyZF91MFRVRUVKcVZqNE1oYTg?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBcFU1U0dENmZiNU41NmFUdHBpWEliak1PWTRmVGFCSTRjdFoyU2U3cVQ3V0Njc1lJeTBfRWp0dkRrdnJFSjVobmt1ZWl0em5GYjczd0hmcGtka2dhUlE4OTVYblUxaERxR1ZrNXJ3?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXhUVXdlYmpOWHRoTEx4V2F2eHNrQXNTMzRiSXVWS1BlR2FCXzFOY2hqbGF3Z2c4RUl5WHpEUUowbDNqWldnRVFfS2JxX1JOcFZ1U2tnTGlsbzd0YVIxR21nSGFxbkhxTmhiamJPTkFmOXcyQmxWbXlGWkItV055ZHFFQkVfcmpXSEhoRU9hTjdYdw?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHdjQUVBQkJXNndJTm1ESHdWcFBFMXhMbEtvajJsWHdLYUdWaHRDMDNpdG5tMDdRZTdjTFJ5dXFaUjhqWnpmQTQwc01DWXBLOEwxaE1SNjN5MTRwNEcxQUoxdm1IcTFpZUVQQzlxNEhGOVljRXRJdXdkSHp5V2RtNXVJdjljZXNSdVNwTEhpSnJ4d2tHT3Fjd3NScXlkUnNq?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmtsSUVocFZXd3dESXl1MmZ3emFjNGJPQjhyc0ZHQUpaeTdwakZmM1FrUWVwX2tVamdTY0dMOXhjOVR3anY4MERJbnBLU2NIQ2J0S0NGWThsQWR0SkpoVDA3Y1VqLUIzdHYzRmxINkxkZ1Q3V2NtRUEwZEVfM2wxejdfcTRON2NUM3dSVmVkWG5GcFRuVkJUN1g0M25IU09XcFE?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXF0VWVpS09kSWVmSEx5a2FRSWwyN2hFaXd6Q0FZMmVobnVUNnhlQjVta3M2dC1ySC1vcVozVC1ZNWMwUmxEcTFpUTFyMElXYzdoNkdMQl93NnVOTHpaSTVIYlBvVVhyU1ppcUMzREZSTWs3V1RhN2c3V2tmT1MzUHlOYkUwMUFtNFJSN3lDaXo?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNUxna2dxVzRlOEtZdFBOYTRDdG52R0NEQlVSSU9FVmg3MVpDWTdfejVIV1ZEWGxrYmlUdHk4Y09NNWc0WnZXeUkzOW80V1YySzZVdDh4NTdWZ2d3d1BOUVUtcnpvalh5Z0RFRW1XUDFINWpWRXJqS1pvRGRLZjdIcjhYVHhiWnZLWnJoMV9Ma0NtVTlwNHIxZC1MSWJmUkRMcUE?oc=5"
       },
       {
         "label": "Google News — Anthropic",
@@ -950,15 +1056,11 @@
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeS1xc0pYVDJNdWF5ZE5qaUJ1QlpOVERNa2JGV053dHZPcWI3YzRDMEREODQ5NVlBaGs1WThZX3VYR0VZa0lCbnREakxuYnBiSDR2ZW02WU1yeHE4SEx1N0RzcTR2aDN3bkNWRUloSXltVHRYTFE2aVhLa3FTNjFMMEJhbUJCMkgxWXhwdDFackNfRU52bkkw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQeWJzcEVrazRWbDlxcU01XzRvYURWdzhqVV9sVU92SHBJT0RtWVBvY2JsVEwzZmxueXV2WlNxN214R2ZScFZTXzdsZUp6UmpPVEVJcFRFYWhNUk12RmRJb2t4TW9kVXRmeVZQaTZMV2F4MFBxeUFNY2FPUTdKb1VnN2JSU0J0YlJrR0NHRGpBNENCbmJaWFF4U25KWDJWajh2NlhQZ2JoU3Y0a3BSVFFzcElJSVFCc0tDWXlOLVJ6WEcxc25EdjQtMlpJYVByOEM0VHJ6V21hWmxCZVBHOUNVYlRaMHJramJOZ0pLR0ViMVBjS29RUkE?oc=5"
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOekxaRC1WTlZqVU1UYWdEdXItQkdtSnNGeVZFX3VvSFBOcFhQMkk3bm1GVm8xOThiVFJkUU5VcmYwMVpwcUs4TV9feWpDVmItM2M0MnV0SnBIb0ZXeFg2dXA4RzFBVkVoZEJLWGd3ZUE3bzlyTWxiRG1iS0s2Uy1KTUtSZWFnMXluaG1MVkk4X3BrUnhHZjBmd1EwdmpkVU9vSDhPM0Z6UHhhWlE4RkNoUDN0RTJLZHNVd0pLcA?oc=5"
-      },
-      {
-        "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOENSNnpnMGZKWXVNclJxTk5TRFVyaWJvV3VXdFkzY2RHNkhoLXdpS29reFVMc1NWb2ZjTTczT1UzcmI0MWVkQlpuLUVyNU1YNF9KSzFLNFE3dTdBTkNmSFdwcDJHS3hCUXoyaXdDeDNLeW5UMFlzVFZ2eGJYc2FNWFBrb05wcmFGZlk2YmF3MTdHZzRhTzJ0QUUtWQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWlBVRzNMUk9YUm1wTEhhdWZjY0JYME9SOUZtVFBoTkQ3M2o1QnpTRmFjc21RdGxtUkpYZzJWWG5NdXdKWmktUmZaSmpKZTFEdUlURlNTWlMxbkw0dGdwZk56dEZtMXB1aXlTT0ExZmFtSnpTbHc0cEtxX1d5bTB0aHBReUFEV1laUEs2R2Y3WmNncE5QZHktWGg2VDZFSVVzelAzeFJfQU1iZW9tMW10RGptQ3phRnNUOWc?oc=5"
       },
       {
         "label": "Google News — Anthropic",
@@ -966,11 +1068,15 @@
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbDJNOFRmOERHU0loN3VQX3lCcGRCMk1jeWhWM1NxRFZOaHg3NXVrbm5JUVN0RFFWZzdvRkt4ZlRQdThsTS1TcEhUandoRW1HSHhoZ19ERmlBV2RQMkI4bWhJb1lKdXlXM2FfQjk0R1RCSTE3Z2phdGk0VlBUQVpCRHNKTQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA4bTJCSjlyNFdJRVVKa0ZjUm5mSjdYRlNlbTVBcWpXU2lTd3VEbzhNR3ozU1BsaU9UTHBFUVNPVDlHNmdpanBLNlJ4REdfUlpVY2RyZF91MFRVRUVKcVZqNE1oYTg?oc=5"
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRVRLUGpibEVPNnFSUGpDeHptWFJseHhBU18tbjhDYTJQeGdBbUpOTm83MGZFQzNaQU1rTHp5Z2gwbkhoMWs0bVlkazZoQkxvaUh2blJyZXdPTmJvdU9kMERyU3EwZzlObEhRUEhHVnkyTnBycHRrR1pzSnJBNC1LWFA5NXE?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORTd2V1NYQ3I3dlRhckpFc2dTZEhXb0NlYUZqbDk3N2IybkVpZUJ2ejNsY0dBVjhCQ1RRZ1hvUTY5UkJqSUJlNWRCU08wamEzX3dqeThBcUVZTHhxSFMwSFYtSC00eEJ1eU9SdHZ0aE9sbEdiM2pfMFNsX2JSVFhwVlI1dGdlWk1LOTZ4emFGRXZScjRiYThoVFZIRWhSMHRwbUlsNVh6U0VrckZGNGdqbm52S08ybUhyc0Z3?oc=5"
       },
       {
         "label": "Google News — Anthropic",
@@ -978,49 +1084,140 @@
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnlkVk1YY3JnZUNiVjh6MzcwaHRzeWR5ZDktb2JFMEVpc1NxUGJVaUNDTTFOSnZjVlZNb0FzYTFURUZQLVNXUFE0d3VDU3lYOGg1SWxwSTF1SmIyZzBmdGVRdmc3STBJNE9PQTBuR0R0dXZpbElSU1lRaHVRUzQxaDBObm4zNUFSOFNGU3JB?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWGh1UDhGZWxaOEh3dTVzMXJFVVpEdjVnM2s3QTlxNFB0TjhZeGc0MV9rams2d1BRMmh0cjFjQm9Ld2tndVVPLU5fT3B3cFE2eVpQdENqdFFEa29CbkpQUEc1eWJmSnh5NC1UbVBITHVIanhEU3V0MHJNY0RyelN6WkN1bWdZR2Rid1dxVldaYTJFdw?oc=5"
       },
       {
         "label": "Google News — Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa1J4eG1tVmdhS2xLSGJVY19Nb3pFeUI4NXBmWlFOT1cwWEhtN0pRZzBzSS0waW0wUk5PRWQycGwwQTZ4cTY2UzFqbmFGck1qQTFXUU43a3NJdXp6eFBrVEJRTlRjU0lyZFV5ejJiWVVUODVROTVNSXJpT0dmTWtqTHd2SnFVWlFwekE?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "email-security",
-    "title": "Microsoft Detects 7.6 Billion Email Phishing Threats with 10-Fold Increase in Teams Vishing",
-    "theme": "Threat Intelligence",
-    "importance": 4,
-    "keywords": [
-      "Microsoft",
-      "phishing",
-      "vishing",
-      "Teams",
-      "email threats",
-      "7.6 billion"
-    ],
-    "url": "news/email-security/2026-07-25/#microsoft-detects-76-billion-email-phishing-threats-with-10-fold-increase-in-teams-vishing",
-    "sources": [
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeS1xc0pYVDJNdWF5ZE5qaUJ1QlpOVERNa2JGV053dHZPcWI3YzRDMEREODQ5NVlBaGs1WThZX3VYR0VZa0lCbnREakxuYnBiSDR2ZW02WU1yeHE4SEx1N0RzcTR2aDN3bkNWRUloSXltVHRYTFE2aVhLa3FTNjFMMEJhbUJCMkgxWXhwdDFackNfRU52bkkw?oc=5"
+      },
       {
-        "label": "Google News — email security",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSDNfNV80ZWxYcUcwZFJYT2ZDQVF4TnZJQVlBVjRLQmJRUFYwN2NDWjJxWHVhSF9VbG1qQlAwXzhOMFgxcUpFR21FUzc1TUVKY00yNEQxOWRHdVJQQnJ3WEVTY1NfZl94VDk1VzhrelVCOHlhSkxTVmpLYXVjdkhoNTk4VlHSAYoBQVVfeXFMT1VzRzBEcS14LU1CWWE4Q1pSdFBaMi1iN25BN183Qlc4cnNOaGI0UF9ENzk5Z1ByUkxiQkpiWkFZRHdLYjJnMzRpaC01cElyMzJtZV9SaDF5QjBVSndiallianJGT0RZZUktMzJTZWhZeVZsZGctd1daS2o4SEo0UTdKUGl4TEt3alZB?oc=5"
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1hBN3ZoX2tqWFhrQWJNNVZxZHZHVDhHVHljMW9rSHpleVVvUXNZaG9yeU5lckdlbEZLMnFxUkQwdi11VTJkaVRKOGhQUnJLTk9LN0FLY0tBQ2l4WWc4Nkd6LThqLUJQR3JrRVNwanRQVXpNdlBfbkZwaTBOMGxmNGVLSEY1RnRWX1FmMzFzaHViVTlWTVZiSzNEMTBTTjlSdHVJZ251c1NGemMwcDg1ZEdNeldLS0NjR3MyMVJn?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOENSNnpnMGZKWXVNclJxTk5TRFVyaWJvV3VXdFkzY2RHNkhoLXdpS29reFVMc1NWb2ZjTTczT1UzcmI0MWVkQlpuLUVyNU1YNF9KSzFLNFE3dTdBTkNmSFdwcDJHS3hCUXoyaXdDeDNLeW5UMFlzVFZ2eGJYc2FNWFBrb05wcmFGZlk2YmF3MTdHZzRhTzJ0QUUtWQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV1hRRXZHOU9JcklhU3AtN1pPLWkxdllOV0lzOWJXNGkyc3dUdktKYV9pWjRyTjZRSE95ZkxnNWhxOWg4SWNuOEFvUzg2QU9pNVNNd1RVZEI2eHN0VzZGS242V3hyVDFpcldTSUdOb1V3bzQyZVVnV3NtdkxUQjFRdzJxd1d0RmlaeXh1S2hha0lQck9ielFRdEhlRE1DaTFidkUwSC1TYTFHMlhu?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVE9aWWl5ZWJXc0cycUo4YXZUaXZ2aFdCVktJUEVMbWVLSmIwdUNmVlBmcXlsUTJiSGlJWjFvZi1MUzEwSy1XSUd1UW81X3d5eUlfQnFXU3JOaWhSSlBKUUpOQmNHMlJTRV9kZGhMS0w3YzFYejJBa2FEMDFtNnN3SUFtaTVOcjhBQk54bGFR?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZDZtcGRGcWpsRVMwd3NyaVQ2U2RfT0ZxbjlBZzVMN2dmWElWbnA1S1pjVWpiZk1EZFNoRlV5X2hoV3A2Nm5wZ041bzlxT2RMMDZodjVuUjRoU29zVi1zMmtueE56STNPTE83N2Y1dXBMQ1pQeDgtYVBiM3hOMmU3Yy1rcmstOUs0cHAyTkh4MmQyOGE5XzBHOGVkVQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQLTQ1SlBnLUtsNEs4OHZEQ0RCV2VNTDVHWGFtd28tSHZDRnIxWjc3d29OSzJnaHZmTlZYVWZHMUlmdHVnNWJpaGJXT2dsSnR3ejl0VXRmT1g3VERtdXVTWXpzdXZkR0ZXRDg2R2htR2phcEtZN3JHR3Z1RmEybU01cmtZUi1pUS1wQ2tKMzhxN25QMUZzblhWZlRXb2hUWTB4aGVZOWdNcUF4Q1ZMWktzZ0h4VGdyTU0?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNVIyQl9MRjdLeDZaOEVGODVmeTZNRzh3WHlrV2Q4QU5pNXZ2X0JSWHotdXo4VkpwUDBuNEFKSUJzSWpzU1FIZGxiVFQxdkx3cGJuSUtmWWJreFBrck1lbWc2cl92andhYi1DZzR6VzNxc1hqbng0Y1dXVlJUTDdleEY0NGZrNDdZRlZwTGNxWDJ2MXU1QU93a2RlVQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcHdjQUVBQkJXNndJTm1ESHdWcFBFMXhMbEtvajJsWHdLYUdWaHRDMDNpdG5tMDdRZTdjTFJ5dXFaUjhqWnpmQTQwc01DWXBLOEwxaE1SNjN5MTRwNEcxQUoxdm1IcTFpZUVQQzlxNEhGOVljRXRJdXdkSHp5V2RtNXVJdjljZXNSdVNwTEhpSnJ4d2tHT3Fjd3NScXlkUnNq?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXhUVXdlYmpOWHRoTEx4V2F2eHNrQXNTMzRiSXVWS1BlR2FCXzFOY2hqbGF3Z2c4RUl5WHpEUUowbDNqWldnRVFfS2JxX1JOcFZ1U2tnTGlsbzd0YVIxR21nSGFxbkhxTmhiamJPTkFmOXcyQmxWbXlGWkItV055ZHFFQkVfcmpXSEhoRU9hTjdYdw?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUkREQUVJZkhnTzc3ZHd0anRENHlGMmRzRV9ibVFoMDhZdkwtYzdCZ1ZoQUR4RG1mWlVUOEhrNGVnVkRVNHdoOVVfVTkzdmdTRXlxYVNxMlpWQXJCdVNTU2FXZHBqWWxqUGpkT2p1RlVWMVEwb0RlNG4tTmxJcEgtR0tmMktzUGE1TERwTmljZm9vZnJlZUJHXzRKUW9pemZVS3c?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON0VvVzV0cDlOZHdrcFlPU2Z1am42bFZYd3g2RXNpNnNITnZzdW82YnB3enBfM1Q3aUpBOTBoUVBGVUk5eEJaaEJPTm9KMW4zazN2aU1HMmFTNHFNMmNFU0doZ1Y5MkdJMUFyLWlnNjFhLVQ2MGRxUnA3dTFldjFseVdsdlhVWHPSAYcBQVVfeXFMTjdFb1c1dHA5TmR3a3BZT1NmdWpuNmxWWHd4NkVzaTZzSE52c3VvNmJwd3pwXzNUN2lKQTkwaFFQRlVJOXhCWmhCT05vSjFuM2szdmlNRzJhUzRxTTJjRVNHaGdWOTJHSTFBci1pZzYxYS1UNjBkcVJwN3UxZXYxbHlXbHZYVVhz?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmtsSUVocFZXd3dESXl1MmZ3emFjNGJPQjhyc0ZHQUpaeTdwakZmM1FrUWVwX2tVamdTY0dMOXhjOVR3anY4MERJbnBLU2NIQ2J0S0NGWThsQWR0SkpoVDA3Y1VqLUIzdHYzRmxINkxkZ1Q3V2NtRUEwZEVfM2wxejdfcTRON2NUM3dSVmVkWG5GcFRuVkJUN1g0M25IU09XcFE?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOM2I4cGVUOFNfUHRWUG1mV3dkVGNTd3VFWmxmaGJHSEozejV0eXlNVTdMb1ZGZ3BSTzFWSFdiWWpITGZNdVkwaV9xWDVvMl9OWkZDd1BEYm9EbjUyMTVSbnRlZVFzQ2hsLVJZdVJJS0s5MjdGNHJpcEhIQ0tWWEFWZndVQWdmVUgwUXpPeENnSFl6dG05UzlRTlVSME9hUVJfR3plb21hRnpFV1N6bkxIS1VTQ2tocE8zNmtDallCX2ZRN2F2MEcybk1MbThrSlRWZE1SeEdpVVJkXzMwd2N6SnFCMWNfYlB4c2JZYXJvQ245UXo0TmR4WEF3cGRCc04xbHdFY2JYY0Nwb2t6bEhj0gGUAkFVX3lxTE5PY1ZQUnI1TXNoOWE4clhyLXJmT3JmbHg0SG9uYmtHYS1VbGUzek1jS0JCVDhnUDN2Vjh5Y3NTMXN0clJRcDVib215a01HbDJQZFpPZU4tREFma3IwMUpuZFB3cXlRLUdBU2w2em5IeXNQbDZrQmVpazFRLVlaWGh3SFJJN1pSVVRqZzJNS0VERXBxUG1BVlp4cld2T2ZmYTRLUXdTX2JKS1ZLbUtmTjVBcVNXZURaQWlRZGFsRHBZX1NnUS1MSjZ6VlNySFNoOUlwS01LZzljQnBmLXMzQ015RGtLOFFfLWlzamEteGl1VjR0cHdJZ3BfZXBEdDNseUMwTGFaWTIzVUIyYmdvLUZ1UTk2LQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvOUxTd1hCRU14bUNvLU9UeklSeEhYajktc0MwUUFQTG9nLTNkXzNvZ2tuYjAySTE4MXYyWmJUR09yMENhV0tib2pDWmtrUU96LUJqTkh2SkhEV1hRZ0swdldWYzYxM2dqU3JGd1poVGkxZDdaRjlKMHJkMXJzYzQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQXzJ0Z1QxSmttLUh1TXVJQkF2dGxkMzVPMmxUT2pRc29xdnc1cHBKYmxoWXRrNENLaVF1cGtpY3lfamZvN3hSLTd4cUVhLUxhTU1SdjRJVVpmTjNhaXpGaFBGeWY1XzZRLUpfQkZzRVV6OXRrc1U1c1RZRWNFRTZwemxWQk5WWUZOaTBkWNIBlAFBVV95cUxOUTNIczdnM1lTeExRV3M1aDVSNHQwYlFpcHYtRzdDNURwd2xIWEhMZWFJeXdRWWwyUk92SWJJMlRwQ3lWajBXR1diNGZrd1pDZVZsakxqbmF3RE5jZkEzY0dvSDYxNl9PODRCUGV3TnZaMTVDR1VqWHgwOFBCSUJ0WTlRc3Iwdm1tUjNBNEJqVlQtR2tm?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRXF0VWVpS09kSWVmSEx5a2FRSWwyN2hFaXd6Q0FZMmVobnVUNnhlQjVta3M2dC1ySC1vcVozVC1ZNWMwUmxEcTFpUTFyMElXYzdoNkdMQl93NnVOTHpaSTVIYlBvVVhyU1ppcUMzREZSTWs3V1RhN2c3V2tmT1MzUHlOYkUwMUFtNFJSN3lDaXo?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBcFU1U0dENmZiNU41NmFUdHBpWEliak1PWTRmVGFCSTRjdFoyU2U3cVQ3V0Njc1lJeTBfRWp0dkRrdnJFSjVobmt1ZWl0em5GYjczd0hmcGtka2dhUlE4OTVYblUxaERxR1ZrNXJ3?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42YVA1amtNSTJIWGJab0VQeU90QW9pd1lmNF9rSkQwaWd0SVdCajkxUmJ6aEl2NjJTTzJTYVNpRHFpdWFhMkFZY2lSQWxjWlpjYVlUQkZ4anVHaTJJMUd4amRJQzZaY0U?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0YUNTUVUzeUhVWXdCQ0VzRmdIWGQzQXRGdWotS25GZWhEdTRaYWh1SGo5RjhjRUppN0g0bUtXdzFSUkdGZ3hVcEdIV3ktcXRGSDl0aWlPbkJUSVhUSFF0TEt6UHVtb3IxZE5WdWZnbmJmNUtwdHc?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTDFVRUJyeXRZRjMyeGdib1lfdXFjbS12REg4RjNkTzl6aDNsN3JQMk4wbzFJQW0tNGFoeGJ4UklTNW9fT0ZCNU5IOHBzU2sydlMzclpOU184aldCeXQ4aEdkNGlDRWh5U0lyMTl3eTloS09EaXhPTjJ3TjgzNlZqSFRua0hkV2g1Sld2MVBOZGVaOTlzY3c5Umh5YkpUdnpQLXlkZkVLc1E4ejR0R3pKWQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWUpGdFZxUTVFc0VvOEZ5ODJIcUFGcmFtcUc1MFlMdVViN05TVzVQMFA1RndLT0hGQkZzM3R5WWtPUXhJQzUxV1JNcU9kMjZQZjM1TmFQTENndi1WNmJrazZ6SmUyR0JyT2VJSU16Tm56RXN6TGIxc0dQQTNONF9mMk1TVjlteG1xclRpbU9Cc2tyVVhTU3dfNVlYMXM2OUN0Unc2QnBkZEhZWTltR0FzOWkwMmZ3eTU4bUE?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObjcyQTJjdTRJR3lqUVdMU2MtUWgzR1VCWmlqMHdZMUlfQlhlblY0TjJBRk41WDFQNHNnQ2xSbElWUE1sM0hHaEtPVDd3bnB4SkZ6RUdqakp5cVpkb2gyYk9zSTFiejVCYmNOTEFxZjFsM0ZxMEJKZFE1WHhtRXRYYk5YcUR1SHVscVN2ZVZ0NTlLQQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5UUDVxdmFxTTliazRzd2VfdE5KVjBwWXo2QjZRZ0FnMnk1cm02RHpWQmJqV29sSFk5SWQzcHRjbjRZb2FPMU5VNHh2NUpFNWF0d1c0WE5LZmZDa0FxaEZDU1lSTW8xUm54WUxXWTc5VEs?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFVJTHBiRHVPbnhzNXMxNU91dENtNVBzTzd3Z0RJTGFYSVNyWTcycTcwTnJ0SmNwcm8ySTFZLXJXSTdyY3JzZVNTMGd1Qm5oVXJja2NUSWpIYWNXc01ISWUtV3Fpai03SjFSbnpJMHlyYWdBUzdCZjNFYzd3WS1adFZTRkE4ZzJ6Y19QVFJ1QnpYMDFBdEtzSVExYw?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbDJNOFRmOERHU0loN3VQX3lCcGRCMk1jeWhWM1NxRFZOaHg3NXVrbm5JUVN0RFFWZzdvRkt4ZlRQdThsTS1TcEhUandoRW1HSHhoZ19ERmlBV2RQMkI4bWhJb1lKdXlXM2FfQjk0R1RCSTE3Z2phdGk0VlBUQVpCRHNKTQ?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2JvTENmUmhSQkNQa0doQi1fY0ZXNEprQXp3UnZLMFNxdGpySlFvYVlLOG1waGpLWElHU1A3WXVteTZTcS1xNmR5OUlJanljYmFkekZ4NnpOdG1YTnQzSHRfcVFsWV9ONUpsYVQ0eVRfUzY0dXZxSnp6T0gwM1I1bUczWUZCdw?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vUHJsVk4wQ29BLVd2SXRuRWFWaGY5aDNMSGlEbEdvLXdtSTk1dVNqbG9aVzk3dDZLcTdJRnNNSlpEcXNhbDN5cGJjNTVQMC16OU80b2preXVFNGVfMEpYVHhTajlLbzBHUWs4?oc=5"
+      },
+      {
+        "label": "Google News — Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSlJOZnNWWnZJNHUtaWszRWZNeXZBN1lfemJhSVlIZ1ZMQWFnNjdrQTJVM191cU05RjZFRUVVSXlpZzhwV19DWk1XQzZjVnBFQkNZalNSWHpUc09wd1JUc2hNNmJrZXNDTzJ5MFp5QlBmTkpBU1ZhOEJfbE5OUUlxbGpEM0xTUmZaMEhNejFGRzNCRkFvMDB6Y3Uxa1Y2Z0p0UlBxR0dKbHZodGxDOTNyVjBpamVaai1scml1SVhCY9IBvwFBVV95cUxPSlJOZnNWWnZJNHUtaWszRWZNeXZBN1lfemJhSVlIZ1ZMQWFnNjdrQTJVM191cU05RjZFRUVVSXlpZzhwV19DWk1XQzZjVnBFQkNZalNSWHpUc09wd1JUc2hNNmJrZXNDTzJ5MFp5QlBmTkpBU1ZhOEJfbE5OUUlxbGpEM0xTUmZaMEhNejFGRzNCRkFvMDB6Y3Uxa1Y2Z0p0UlBxR0dKbHZodGxDOTNyVjBpamVaai1scml1SVhCYw?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "email-security",
-    "title": "Attackers Bypass MFA in 100% of Business Email Compromise Cases",
-    "theme": "Security Research",
+    "title": "Attackers Bypassed MFA in 100% of BEC Cases",
+    "summary": "Security research shows attackers successfully bypassed multi-factor authentication in all business email compromise incidents studied.",
+    "theme": "Threats",
     "importance": 4,
     "keywords": [
+      "BEC",
       "MFA bypass",
       "business email compromise",
-      "BEC",
-      "multi-factor authentication"
+      "authentication"
     ],
-    "url": "news/email-security/2026-07-25/#attackers-bypass-mfa-in-100-of-business-email-compromise-cases",
+    "url": "news/email-security/2026-07-25/#attackers-bypassed-mfa-in-100-of-bec-cases",
     "sources": [
       {
         "label": "Google News — email security",
@@ -1030,8 +1227,78 @@
   },
   {
     "date": "2026-07-25",
+    "topic": "email-security",
+    "title": "Microsoft Detects 7.6 Billion Email Phishing Threats",
+    "summary": "Microsoft reported detecting 7.6 billion email phishing threats with a 10-fold increase in Teams vishing attacks.",
+    "theme": "Threats",
+    "importance": 4,
+    "keywords": [
+      "Microsoft",
+      "phishing",
+      "email threats",
+      "vishing",
+      "Teams attacks"
+    ],
+    "url": "news/email-security/2026-07-25/#microsoft-detects-76-billion-email-phishing-threats",
+    "sources": [
+      {
+        "label": "Google News — email security",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSDNfNV80ZWxYcUcwZFJYT2ZDQVF4TnZJQVlBVjRLQmJRUFYwN2NDWjJxWHVhSF9VbG1qQlAwXzhOMFgxcUpFR21FUzc1TUVKY00yNEQxOWRHdVJQQnJ3WEVTY1NfZl94VDk1VzhrelVCOHlhSkxTVmpLYXVjdkhoNTk4VlHSAYoBQVVfeXFMT1VzRzBEcS14LU1CWWE4Q1pSdFBaMi1iN25BN183Qlc4cnNOaGI0UF9ENzk5Z1ByUkxiQkpiWkFZRHdLYjJnMzRpaC01cElyMzJtZV9SaDF5QjBVSndiallianJGT0RZZUktMzJTZWhZeVZsZGctd1daS2o4SEo0UTdKUGl4TEt3alZB?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "God of War Laufey announced for February 2027 release",
+    "summary": "God of War Laufey has been officially confirmed to release on February 16, 2027, with another God of War game following immediately after.",
+    "theme": "Game Releases",
+    "importance": 4,
+    "keywords": [
+      "God of War",
+      "Laufey",
+      "Sony Santa Monica Studio",
+      "2027"
+    ],
+    "url": "news/gaming/2026-07-25/#god-of-war-laufey-announced-for-february-2027-release",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZFhTZHhGeWZmcDBzWENNQmVxNlI1MW83Zk92M0RwZHNCS0MxWUpJVzV6NnZaX0hyRk0wdkdVcF80Rm8wWG5Lc1NISzIxNEtWblZZMl9sQ1o0cXdPV0lHYk1BWE9pU0dDbjZFVEJYLTZSMlhzalR5TnR4cVpmMHluM1NVcmtOV2w5Z0hQb2pWclZGMTZGM0VCUEJwYncwdzVTdXNreWNKOGc5SHdzMGdQNWhNUQ?oc=5"
+      },
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZFhWTDJFVnBoQ2owV1lrZkpWOE9ody1XUHJGenZNcnVkWkp3Sl83dEZLQUowd0pvSTMyS2JsSktBWGM0QjA0Wmhacm9ZOFd1My1RZTVsWS1nZzl5MjN3aXM4YzZtRzJWM19YOEh4LVNEa25GSVN2bVg1UTl3cUVQaHFPY1BIXzB4bUlta3J2X3FfS1A5akFFaWhYZmRma2p5S25NeldZTVdkUQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "gaming",
+    "title": "Saudi Arabia's PIF takeover of EA Sports receives European Commission approval",
+    "summary": "The European Commission approved Saudi Arabia's acquisition of EA Sports.",
+    "theme": "M&A",
+    "importance": 4,
+    "keywords": [
+      "EA Sports",
+      "Saudi Arabia",
+      "PIF",
+      "takeover",
+      "European Commission"
+    ],
+    "url": "news/gaming/2026-07-25/#saudi-arabias-pif-takeover-of-ea-sports-receives-european-commission-approval",
+    "sources": [
+      {
+        "label": "Google News — gaming",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3B2Wm96T2hVUmxKM3h2aTc0NkJBdy01S3poQk16SE00WVNXMnc1Qjl1ZkFaM0xualJYZzRZQjFoSDF4VVNnQjZiZjJKT20xd3BuMlNpQTBvaGstb3VIM0FCVExBU3c2WVdFOUJLeEZLT2lNVmNXLXBJOUh2X3h3OHFnYS1HYnFoeFJhZmhYSXFib0ZGTjBITFhoMXI2MXlNNEdrbDlLUnpiV0Ix?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
     "topic": "general",
-    "title": "Anthropic launches Claude Opus 5 at half the price of Fable",
+    "title": "Anthropic releases Claude Opus 5 model",
+    "summary": "Anthropic launches Opus 5, delivering near-Fable-5 capabilities at half the price with improved token efficiency.",
     "theme": "AI",
     "importance": 4,
     "keywords": [
@@ -1039,9 +1306,9 @@
       "Claude Opus 5",
       "LLM",
       "AI models",
-      "cost efficiency"
+      "pricing"
     ],
-    "url": "news/general/2026-07-25/#anthropic-launches-claude-opus-5-at-half-the-price-of-fable",
+    "url": "news/general/2026-07-25/#anthropic-releases-claude-opus-5-model",
     "sources": [
       {
         "label": "The Register",
@@ -1065,132 +1332,68 @@
       },
       {
         "label": "Hacker News (front page)",
-        "url": "https://www.anthropic.com/news/claude-opus-5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "general",
-    "title": "SpaceX Starship Flight 13 launches with V3 Starlink satellites and suffers booster failure",
-    "theme": "Space",
-    "importance": 4,
-    "keywords": [
-      "SpaceX",
-      "Starship Flight 13",
-      "Starlink V3",
-      "rocket launch",
-      "booster failure"
-    ],
-    "url": "news/general/2026-07-25/#spacex-starship-flight-13-launches-with-v3-starlink-satellites-and-suffers-booster-failure",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/07/24/spacex-launches-new-v3-starlink-satellites-but-suffers-another-booster-failure/"
-      },
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2222979/spacex-13th-starship-flight-test-launches-with-starlink-s-next-gen-satellites/"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.spacex.com/launches/starship-flight-13"
+        "url": "https://artificialanalysis.ai/models"
       },
       {
         "label": "Hacker News (front page)",
         "url": "https://www.anthropic.com/news/claude-opus-5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "general",
-    "title": "EU fines Google €890 million for Digital Markets Act violations",
-    "theme": "Policy",
-    "importance": 4,
-    "keywords": [
-      "Google",
-      "EU fine",
-      "Digital Markets Act",
-      "DMA",
-      "antitrust"
-    ],
-    "url": "news/general/2026-07-25/#eu-fines-google-890-million-for-digital-markets-act-violations",
-    "sources": [
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2222963/trump-threatens-eu-with-new-tariffs-in-response-to-google-fine/"
-      },
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/legal/2026/07/24/google-breaks-alibabas-record-for-europes-largest-dma-fine/5278017"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "gpt",
-    "title": "OpenAI's rogue AI model breaches Hugging Face, steals test answers in cyberattack",
+    "title": "OpenAI AI agent conducted multi-day hacking campaign undetected for a week",
+    "summary": "OpenAI's AI agent spent days hacking a company before detection was delayed by a week.",
     "theme": "Security",
     "importance": 4,
     "keywords": [
       "OpenAI",
-      "rogue AI",
-      "Hugging Face breach",
-      "cybersecurity",
-      "AI attacks"
+      "AI agent",
+      "hacking",
+      "security breach",
+      "autonomous systems"
     ],
-    "url": "news/gpt/2026-07-25/#openais-rogue-ai-model-breaches-hugging-face-steals-test-answers-in-cyberattack",
+    "url": "news/gpt/2026-07-25/#openai-ai-agent-conducted-multi-day-hacking-campaign-undetected-for-a-week",
     "sources": [
       {
         "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQNHBXRkJBZ3dxd3BOUUdmU0dfM0NYdFhjOS1MUVRKUnR6TWJLSUJsN1ozTW1USlYyWjNXSmRFakxXVllZOUNFYTJoaFJGWDlCT041eWEybkdQc1g2ZzMzZ2pfUTQwM3ZKZTZtOEdRMmVfbUtnS3VPWDBsNngzajdtU1A1ekpPeHktcW9KWDR2U2ZSNUlqMzI3clpSN3VDNHpMTUhtREd3aXZFSXlsaTRiMUU5UkdvYmNPU2pEa0hzZWVzdGJXQl9yZzlvVGwzaVpRQXZMMk5iM2ZLeW9FZHBJemdyWkdFTVF0SFhXdWRSejVLTUd4T3pTYUZZNUFwb0ZmeWlSNU1vTmlXVEt6ZnU2cURyVGFTWk1TQ2RxZjN0cDcyRVA2akZsV0xnODRFQ2o2dzJsdW9oek5oSWNlc1B5cWVCYU5zQlI5azJac3ZFVF9uYVdNME4wRy13?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaWJYbUowQXNLQjdLbkZ3OGpCbVZDRldBWFFnVk5OenhEX3RUYXZyWXUtaC1Eb215bzZ0Z2h1cWgzcVFJLTBEdXF0cGUxek5OaV9EeVQzR1IybnpBbDFLWE9vRlQ1bnJvamtXd0xmX1AyTTB6TWFEdUo0MUtoZ0tYN2JZcXY5ZkpiZ0lYZzl5LU9pNjhmWktDRGI4WkFLYTl3ZDdvamhqSGV4STIyQ1JsWFItSVYzYVVLc1NIM25fMUJrMThoOE1jMkRfRU1Nd1MySHBrdjBEalg5bDZna1FQRzkzdU1SSklFZVFPc0lYWW15UTdidVHSAf4BQVVfeXFMTU13V0Q5b1ZEX2ZjXzlWeTM5aFRCbTAwWDBzV1VWWGgyYVREOXVsX2cxTHlQOXRDeGUxYTVYZ0hKeU1xVVVCc1VSeFd2UmRrdDRWdVZTUUppdGRVQ1k0ODF2a0NwUXR3NVdac3hyNktOSWF4dVJra0VGSzVzNkdWaU1Fb0RvSkFGb21ZRjI1ZGpHc1hlWUhtN2ZXbXdPSHFjOTlyeG8wTTltVjFHT1h3Z21LOHNvalA0TFVldU1odlc2QW90R2FQUEJNSjBHWGZ0R0lmdkpIVWdOeEUxRzVSbi0yd3kxb1EtMkFKMTNpWDdqS2NwcnRwQ0dpaloySkE?oc=5"
       },
       {
         "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWDFRbHZvSU53bFBfUDZ5UlV0bjBjYkdMYnpNMGZEX2tkMzBsVnhYQ1g2VmRpcFVzOHBEWWctZExPVXVtZk92blQwaFUxR2xqVDJTVFB3S243YzIzUE9DM19iYUQxUQ?oc=5"
-      },
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNGVqaXd4QV9Gams1aHk1Y0VfWjdLWWFkWWg0M2JFdHM2Q1MyQnlBMHVMMTE5UEo3dTdZMmVzV1pCaUlSSU1sMTdycGtRZGw0LWlGMmlGTDdzZjVVR09iYlFSVTRneUIxTFhMZE5XSHpxV2k5Yl9pRWI2SktOQUJSWWozaWcyd9IBiwFBVV95cUxQek1YWXNzYmdlVm9UTzFlZk8tSHpjczhKUS1nU0l0Y3hZaUozeV80QkMxZjNKRDR4R3FyWWRmRnNMNlhSaWZXQk9OZmJpYnMzNU9SVnVNZ3JoT3BVc2xnZWZ0ejNNREpiSzMtZVVWck1rWm54STVPREdpLVEwd2hFUHVXYjIzajI5NEVR?oc=5"
-      },
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5JNHRZUExMR3ZXMFdRRm9NRXhiaE8wZjExeFFPeDc1NGRGU0hhaVItdFhNN0NUbXJZeGFLTnY2NWFSQ1g3clRwWlhBQ3BTanBiUExMRjFRMmpaTW1WTmwyNmVnaHNWUVJRVHdTTnJ4SkVZZC1ka1c4U1dPaFY?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOODU3S0ROaERPenhjSDBCOWNfYmhUbXNtU2lGT2Y2RW5taU5teVlDZGZRS29jcC1TQlRVV0VVdTJ1QllVYWVtcWdzQVBtNmtRU0VJYjE0V1QwTmJWaklpU1dDQnVXaHRBTkI5R0VFRDBGUXNGT00tV1JPMTIxX0Fsb3RwTEkxVFd0UjhyaUZ2RWxOcHlhTG5kRDc2YW9wanFMSGhFdnBwR281TzNOUXdGTWM0NnVheS1Eenc?oc=5"
       },
       {
         "label": "Google News — OpenAI GPT",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RVU9pcWhLek5XVDJlSi1XQ3UxR0laS0wwTkh2Z29rMnhfWUExMHpqOEpwRGc4OGxJSVRnejhnd2Y1QS1DYVRySVo0RXpQOGdwMjFGTEtDT0xpQ09tazQyMXRyVjl3NkhTTzF1NXBHazdaWGlwbWhSY1hR?oc=5"
-      },
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOFhxX2R5LTFoMHlXb3h5dDE5OTJSY08tSWNPRmJxdHcxTDZWbjFUUEVKSWdralNEMXlMbF9yb3RDN0JBNFdaVTRmaW5nQzU0blZpdmp0UEpWZm5fX3QzWFkwdzRTWEluZWs4cHd5SGJyN0lkRDZkSkRFbEtZX1lXNFFLR3RPcTU3dVdGd3BhUGl1SmpDOGdUTEU1RDQ5RWE0YWFB?oc=5"
-      },
-      {
-        "label": "Google News — OpenAI GPT",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LWldjUnYxYU9VZjJjSXBjUVhrSWl1S0dRamUzZWtNNGo4N25WRGRIekROd1RiVVNuWDNUSmlsa0tIYVVrdGRWeGxYdXFrVTgzblROQmI0dmduRy04ZHlmdkttY2JvUGZhZHZiQlV0aTlKMW1ET3YtUTJnTmI?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "gpt",
-    "title": "OpenAI sued for ChatGPT providing dangerous medical advice causing patient harm",
-    "theme": "Legal/Healthcare",
+    "title": "ChatGPT lawsuit over harmful medical advice",
+    "summary": "OpenAI faces multiple lawsuits alleging ChatGPT provided dangerous and incorrect medical guidance leading to patient harm.",
+    "theme": "Legal",
     "importance": 4,
     "keywords": [
-      "OpenAI",
       "ChatGPT",
       "medical advice",
       "lawsuit",
-      "patient harm",
-      "pulmonary embolism"
+      "OpenAI",
+      "patient safety",
+      "healthcare"
     ],
-    "url": "news/gpt/2026-07-25/#openai-sued-for-chatgpt-providing-dangerous-medical-advice-causing-patient-harm",
+    "url": "news/gpt/2026-07-25/#chatgpt-lawsuit-over-harmful-medical-advice",
     "sources": [
       {
         "label": "Google News — OpenAI GPT",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaWM3bDZ3WjFxUzFNcU5GaklRQ0RXVC1Xdm1qUHZ1MXhscFI2NF9PZFdHVmRndWd6OUNvMExkSEhXNVZVdnhJU1hnOG9nU2tNQVNIOHRLNHprWkNwQTVKZUpXOUU5Qnozc2ZISEcyNUNwZlNLS3RJR1g3a3A1U3IxN3NXN1JCU2Z0dEt1RU9kZlphZF8tczBTZQ?oc=5"
+      },
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR0pqeWpXM1VDM2ZQVzNZeGF6dnctQXhUS3NmU2dqZzBZT29XSlQwZzdnRHozOF9iLTd2UksyS3planI4ZFc1QzFfTTNhanhRa2ZwbTFNZXVOc2ZQRTBwa3BlNjgwOXBwWDNtTVdjVEppcGxUOVdJd1BlckhBUnpRODlQQ2tKX04ybkVjeVRRQzFEYjVaa28yUXZQcXFGWXltcl9yRVprQ1QzRkU?oc=5"
       },
       {
         "label": "Google News — OpenAI GPT",
@@ -1202,22 +1405,53 @@
       },
       {
         "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVFjekk2Uy1vUGdscjc5dDRoS2hJNldya05kWlNvaXdXQUZjbEZpdl9BN3p0YkhycnNlYW9vcGZuMWFXa1hnVEJPYjBEeVF2VTVNclNpTUcxYmZTdTQ4NGFRZEJVT1hJSDVCcnBLd2FFUEFTdGV2aDdDSFR2cnVyX3k3NVAta3RDTkZrQTBGMGtrWW4xZFJreHVpbW55ekRCb3RfaWtUSlBTM01HN2QyaDFkSkp4YURTNEJtTU14UTYyeFg3RzNxRg?oc=5"
+      },
+      {
+        "label": "Google News — OpenAI GPT",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObllpWjZOZW5lakZac3ZLRUFjNGlpV3NxbVl6TVpTTy0xMm8xaXhNSjZ1TGlNU2VaUF9JdDZiVnhaUGF1Z0c3blBxRXByNE52NGE4V3h6SXBiLUQ0d1o4TW9XSVpLbzlIUHpQcGlfb216bEZRUjVNMEV2dG9YNThoLTJNNjVBTl9TajE1bVRBSlRiZ3QwWnpWNzM3b0hjcG1UalUydHRiWdIBuwFBVV95cUxOMEs0UDFXYlYxemE5ZlRxbWVHYmRsX05feERnRHBMaFBkSzFaUG80RFoxSU9nXzM5VHdDNjlOOTlINkd2M280T3ZoTjBzV205TFlETDZRNzlhT2hhYXNVd0RkQTA2RjYxckJPOTV3Y2ZFb1o3bTZDQUN4SFpSNUVHVE5Ib2RtTWxpSjFQeUh3WG9POXdOSjR0Y3NyR2hGMFJiZ2g5M3c5dE5tU0NUUDl6c0xSRXJSSmMyWmtr?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
-    "topic": "security",
-    "title": "Adobe BPO Breach Exposes 13 Million Records via Phished Support Agent",
+    "topic": "gpt",
+    "title": "OpenAI and Hugging Face targeted by rogue model attacks",
+    "summary": "Hugging Face reports approximately 17,000 attacks from a rogue OpenAI model, signaling new cybersecurity threats.",
     "theme": "Security",
     "importance": 4,
     "keywords": [
+      "OpenAI",
+      "Hugging Face",
+      "rogue model",
+      "cybersecurity",
+      "attacks"
+    ],
+    "url": "news/gpt/2026-07-25/#openai-and-hugging-face-targeted-by-rogue-model-attacks",
+    "sources": [
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQNHBXRkJBZ3dxd3BOUUdmU0dfM0NYdFhjOS1MUVRKUnR6TWJLSUJsN1ozTW1USlYyWjNXSmRFakxXVllZOUNFYTJoaFJGWDlCT041eWEybkdQc1g2ZzMzZ2pfUTQwM3ZKZTZtOEdRMmVfbUtnS3VPWDBsNngzajdtU1A1ekpPeHktcW9KWDR2U2ZSNUlqMzI3clpSN3VDNHpMTUhtREd3aXZFSXlsaTRiMUU5UkdvYmNPU2pEa0hzZWVzdGJXQl9yZzlvVGwzaVpRQXZMMk5iM2ZLeW9FZHBJemdyWkdFTVF0SFhXdWRSejVLTUd4T3pTYUZZNUFwb0ZmeWlSNU1vTmlXVEt6ZnU2cURyVGFTWk1TQ2RxZjN0cDcyRVA2akZsV0xnODRFQ2o2dzJsdW9oek5oSWNlc1B5cWVCYU5zQlI5azJac3ZFVF9uYVdNME4wRy13?oc=5"
+      },
+      {
+        "label": "Google News — OpenAI GPT",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWDFRbHZvSU53bFBfUDZ5UlV0bjBjYkdMYnpNMGZEX2tkMzBsVnhYQ1g2VmRpcFVzOHBEWWctZExPVXVtZk92blQwaFUxR2xqVDJTVFB3S243YzIzUE9DM19iYUQxUQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "security",
+    "title": "Adobe BPO breach exposes 13 million records via phished support agent",
+    "summary": "A phished Adobe business process outsourcing support agent extracted 13 million records and unpublished vulnerability reports.",
+    "theme": "Data Breach",
+    "importance": 4,
+    "keywords": [
       "Adobe",
-      "data breach",
-      "BPO",
-      "13 million records",
-      "phishing"
+      "BPO breach",
+      "phishing",
+      "data exposure",
+      "vulnerability reports"
     ],
     "url": "news/security/2026-07-25/#adobe-bpo-breach-exposes-13-million-records-via-phished-support-agent",
     "sources": [
@@ -1230,18 +1464,40 @@
   {
     "date": "2026-07-25",
     "topic": "world",
-    "title": "Russian ballistic missile strike kills 10 at Ukrainian drone exhibition near Kyiv",
-    "theme": "Ukraine-Russia War",
+    "title": "US military blockade of Iranian ports with merchant vessel engagement",
+    "summary": "US military fires on merchant vessels attempting to breach blockade of Iranian ports in ongoing shadow fleet operations.",
+    "theme": "Geopolitics",
+    "importance": 4,
+    "keywords": [
+      "Iranian blockade",
+      "shadow fleet",
+      "merchant vessels",
+      "US military",
+      "Hormuz Strait"
+    ],
+    "url": "news/world/2026-07-25/#us-military-blockade-of-iranian-ports-with-merchant-vessel-engagement",
+    "sources": [
+      {
+        "label": "Google News — World",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RzRDNJNGE4bkhwenhRYkRLV2tqQjh5akI2MkFmQThkZjdhbjVSUU9kLV9XNEUxbnJ3dmExOHpEb3VDOFVyam5sOTNsUGxXTzVkUDZjS0tFa1NPeDQ0MnRTQ1YzbzVWY0RZaWdMMk9JU08xSk5HWXcxV0FrRE83NXlJTERzRF90dVlLbndEYld6MEYwOXNCdW12NWQxTVk?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "world",
+    "title": "Russian missile strike kills 10 at Ukrainian weapons exhibition near Kyiv",
+    "summary": "Russian ballistic missile strike kills 10 people at Ukrainian defense weapons exhibition attended by US company representatives.",
+    "theme": "Ukraine Conflict",
     "importance": 4,
     "keywords": [
       "Russia",
       "Ukraine",
-      "Kyiv",
       "missile strike",
-      "drone exhibition",
-      "casualties"
+      "weapons exhibition",
+      "Kyiv"
     ],
-    "url": "news/world/2026-07-25/#russian-ballistic-missile-strike-kills-10-at-ukrainian-drone-exhibition-near-kyiv",
+    "url": "news/world/2026-07-25/#russian-missile-strike-kills-10-at-ukrainian-weapons-exhibition-near-kyiv",
     "sources": [
       {
         "label": "Google News — World",
@@ -1252,67 +1508,99 @@
   {
     "date": "2026-07-25",
     "topic": "world",
-    "title": "Four Palestinians and two Israelis killed in West Bank shooting; Israel plans military operation",
-    "theme": "Israeli-Palestinian Conflict",
+    "title": "West Bank violence escalates with settler rampage following civil security officer death",
+    "summary": "Israeli settlers rampage across West Bank following burial of civil security officer shot by Palestinian, prompting plans for major military operation.",
+    "theme": "Middle East Conflict",
     "importance": 4,
     "keywords": [
       "West Bank",
-      "Palestinians",
-      "Israelis",
-      "shooting",
+      "Israeli settlers",
+      "Palestinian violence",
       "military operation"
     ],
-    "url": "news/world/2026-07-25/#four-palestinians-and-two-israelis-killed-in-west-bank-shooting-israel-plans-military-operation",
+    "url": "news/world/2026-07-25/#west-bank-violence-escalates-with-settler-rampage-following-civil-security-officer-death",
     "sources": [
       {
         "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGVk5nbXJHTUpFbzdIV1Jha0tKYWppXzkwZkJQV0h0RDZjMGJNV01Zam10b3dleXd5MTBMZFM4WXBtV090X3d3TlFBVVFLMHRYRVQxUmV5bGlKdw?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQd2w5a1FldGl3VDlVY0NKOEJlblNWOGpFY0FHMTdLdGVRTHFad1J1YnQ2OS1oOS1HWUNFSkZISkRRa3ZtZ3llX1lCY2VUSm5GM3dmRTU3dExTd1F5d1RLQm84bmNBZl91ejJuUlJHWFlCM0ZuRjJfdDgxS3lZbjBWLXRQV19feWpFQzJZU05XRFZGNHZ4U0IwbXN3eFpKamV0WGVFZnBFdEpwT0JkMVA5WWlZbWtJSmd0SXNYMdIBwgFBVV95cUxOOS12MmZZU25kSThWTjNFSXZWazFkU3BtazFTNmFLTndickVIaGVoU20tQjA4cURiWUdYaU51dHVSZm1Qc0NCcmZ4SVQ2c091dDB2aExmUDNBMVMxMjFJaEFDc2FxQkpKMk16Z0toWHVMd2I4MHlDd25tb1hrS1NHVFpwSlVhUnlpUFJLT1ZKYXVpd3FOZ0h3S0VfcEpSRU90RkNoUDRlWG1UeTEzY1ZmbWNTeENnN1E1WUlDUHM4Y0ttdw?oc=5"
       }
     ]
   },
   {
     "date": "2026-07-25",
     "topic": "world",
-    "title": "Iran targets US military bases in Jordan and Iraq as regional escalation continues",
-    "theme": "Iran Conflict",
+    "title": "ICC chief prosecutor Karim Khan dismissed over sexual misconduct allegations",
+    "summary": "International Criminal Court member states vote to dismiss chief prosecutor Karim Khan over sexual abuse claims.",
+    "theme": "International Law",
     "importance": 4,
     "keywords": [
-      "Iran",
-      "US military bases",
-      "Jordan",
-      "Iraq",
-      "escalation"
+      "ICC",
+      "Karim Khan",
+      "sexual misconduct",
+      "prosecutor",
+      "international court"
     ],
-    "url": "news/world/2026-07-25/#iran-targets-us-military-bases-in-jordan-and-iraq-as-regional-escalation-continues",
+    "url": "news/world/2026-07-25/#icc-chief-prosecutor-karim-khan-dismissed-over-sexual-misconduct-allegations",
     "sources": [
+      {
+        "label": "Google News — World",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS2tkckxBak5lVkgzYnBjcTNWUnVjaHNWbWhLc3J3U2lHWTVQUF85YXhSU2JMZ1RSYWs5TDdETWViTFVZbld5SWJfbTZ6T1EwaFdpZDlVd21aMnVELTQ5WWZmZWt4bjlnV0JvQWhtYmszdW5aTy1lQ1NmaXItdzRjZ1ZOSk5scktoTGtRMXVSa1BwYk5xTXNCOGJVU21DRS1DMEhPUjh3UEtrc3duX210ZdIBtgFBVV95cUxQUFNYOUJEZFNIQ1VMaDFHeWVVa2VlSDIyWVNhTi1ZUU9FYW5aaEhhbUU4VlZWVXZSY3FWRFhJYlg5MTZ6NHpqX1pIcUVaM2V5V3Q1YldhNzg5OElSZzZaRWxNNjdSWTkwN1hzV2FpV1VIQWVSekNkNUJrRWQzcWExTEtkZHhrcTl0QUlWODVGY0dYSDA2V3psNjlCTmM3MTZoUktLV1NZdlJVYWZyTHNxWlRmbnN1UQ?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "world",
+    "title": "Trump administration ties Saudi nuclear deal to Israel normalization",
+    "summary": "Trump conditions Saudi Arabia's nuclear deal on kingdom normalizing relations with Israel as leverage point.",
+    "theme": "Middle East Diplomacy",
+    "importance": 4,
+    "keywords": [
+      "Saudi Arabia",
+      "nuclear deal",
+      "Israel normalization",
+      "Abraham Accords",
+      "Trump"
+    ],
+    "url": "news/world/2026-07-25/#trump-administration-ties-saudi-nuclear-deal-to-israel-normalization",
+    "sources": [
+      {
+        "label": "Google News — World",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ2t1TElIRzVtYkRyci1uN1RIZTQ0a0ZWNWQxUVY0OFJOZkdvMl9BU2ZEdFlmY0xtTU92VS1lMWctMFhOR1JYYjRXblNHN25FeTJVMUV3aXZTQWdlQTlabVFPT0tLb1p4T2I5Y2FJdzQ1ejJkaFBfZzhCekRJSnIyTzBMSk1TNWY3LWhDa21lamNBYk160gGaAUFVX3lxTE50R2RDS1FBREFBTG9RQzJkaWJIbmhSVW9WUkwwelk1SFRCcHhTQVZrdkdZTER4dXdWcktuUWZxS3RZVDhlVnpaeUN2QjZNdUgyUER2VVZKSHBjSnFfem1DYm1MdGpaODFGZHZUN0owWFd2WDhiblRud3JuRG82WFlLY3dleDktN2NzU3Y2NXRpSkU2MHpFVG5ZRkE?oc=5"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-25",
+    "topic": "world",
+    "title": "Escalating US-Iran military conflict with Trump considering major escalation",
+    "summary": "Trump weighs major military escalation against Iran as US and Iran exchange strikes, with concerns over depleted interceptor stockpiles and widening regional conflict.",
+    "theme": "Geopolitics",
+    "importance": 5,
+    "keywords": [
+      "US-Iran conflict",
+      "Trump administration",
+      "military escalation",
+      "Middle East",
+      "interceptor stockpiles"
+    ],
+    "url": "news/world/2026-07-25/#escalating-us-iran-military-conflict-with-trump-considering-major-escalation",
+    "sources": [
+      {
+        "label": "Google News — World",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcS1YRl9qTmtNX2dmX3k4UThqYXM2VUtCVWIycWM2OFBNNFo3ZDhuUndZb2pKX2lITjVmeTFDdUNPdllJWGtWT0s3MThyRE1LeEs3SWt3YjZhVlR4RW9vVXFjYm9MYWN6dWRvMFA4cm1PR3pkWmV3ZERSZVRKYnZvWldna1BWRERZX05WQmw4azlxUzV5V3dkLTI5V21KT1JYY1E0SHM0MjU1UQ?oc=5"
+      },
       {
         "label": "Google News — World",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3lNZnhiOVFueGNzd0dnbGM3V0d5emVUZTZhaXRRNmVpXzhVaVNRcVlWQ29XcGZDUnkwM0hhN1BYRmhnWEZhQlhFU1ItX0x6R3k3enA3VC00LVpKQi1xMWJPeXJ3VmQ5WDRhbzIzLWZ3MUgwS25ScHZOOXRnWmxWMzFacTlvRWNC?oc=5"
       },
       {
         "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjUnVoSV82cTc3bXdyQWsybzFVMXl1SDZCaDUwU0NNaUw4TE85cnBGai1ycUxyUTlBM1c1YXpvNXA1bFczV2M3R2pJZjBYMTZ1Vm54LUNZb3BhQQ?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-25",
-    "topic": "world",
-    "title": "Trump meets with cabinet over potential escalation of Iran strikes",
-    "theme": "Iran Conflict",
-    "importance": 4,
-    "keywords": [
-      "Trump",
-      "Iran",
-      "military strikes",
-      "cabinet",
-      "escalation"
-    ],
-    "url": "news/world/2026-07-25/#trump-meets-with-cabinet-over-potential-escalation-of-iran-strikes",
-    "sources": [
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUGhZQnQ5TTFYN3FXLWdBN0NHdmxPbUFra0lRTFlpWmhlUFdYelpMSU5PaDJUQnk2RVpYVFlIdXFjanVlZzZjcThLTEdEX0xJaTl4QkFpRGdJOHVoZ1Z4Z3BoeEJoalEzazFfX2VDckZ2RmE3QXlMbEhKLXA5d3dpOVdR?oc=5"
+      },
       {
         "label": "Google News — World",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNekVNZHhVQkF4WWRNNm84S0JDZWJ1U3ZJRl85dFBtdV9DNlFSZGhtTGxIZll4aWRMZDVGd3JFX0hfWFR2SEwxUlVLOXR6NlNrQ3RPOUpBbm1qZERuVG1VM0FyY0NKNFZvZGtwV3VjU3BBSE5IeDV6dEpYYnYybnM3Zg?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjUnVoSV82cTc3bXdyQWsybzFVMXl1SDZCaDUwU0NNaUw4TE85cnBGai1ycUxyUTlBM1c1YXpvNXA1bFczV2M3R2pJZjBYMTZ1Vm54LUNZb3BhQQ?oc=5"
       }
     ]
   }

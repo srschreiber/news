@@ -312,5 +312,218 @@
         "estimated_cost_usd": 0.4433
       }
     }
+  },
+  {
+    "timestamp": "2026-07-25T05:16:32.130601+00:00",
+    "mode": "daily",
+    "calls": 20,
+    "web_searches": 25,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 86625,
+        "output": 13566,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-sonnet-5": {
+        "input": 45531,
+        "output": 43440,
+        "cache_write": 141380,
+        "cache_read": 860744
+      }
+    },
+    "estimated_cost_usd": 1.981,
+    "by_topic": {
+      "ai": {
+        "calls": 2,
+        "web_searches": 2,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 6366,
+            "output": 1285,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 4550,
+            "output": 5193,
+            "cache_write": 11868,
+            "cache_read": 41203
+          }
+        },
+        "estimated_cost_usd": 0.1812
+      },
+      "anthropic": {
+        "calls": 2,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 15200,
+            "output": 602,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 11918,
+            "output": 2416,
+            "cache_write": 25726,
+            "cache_read": 73704
+          }
+        },
+        "estimated_cost_usd": 0.2188
+      },
+      "email-security": {
+        "calls": 2,
+        "web_searches": 4,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3489,
+            "output": 546,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 2763,
+            "output": 6174,
+            "cache_write": 33834,
+            "cache_read": 151030
+          }
+        },
+        "estimated_cost_usd": 0.3193
+      },
+      "gaming": {
+        "calls": 2,
+        "web_searches": 3,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 16031,
+            "output": 1790,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 6938,
+            "output": 5807,
+            "cache_write": 10243,
+            "cache_read": 64158
+          }
+        },
+        "estimated_cost_usd": 0.2206
+      },
+      "general": {
+        "calls": 2,
+        "web_searches": 3,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 18750,
+            "output": 6152,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 3031,
+            "output": 5761,
+            "cache_write": 16215,
+            "cache_read": 140892
+          }
+        },
+        "estimated_cost_usd": 0.2781
+      },
+      "gpt": {
+        "calls": 2,
+        "web_searches": 4,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 9765,
+            "output": 1212,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 8561,
+            "output": 6178,
+            "cache_write": 17959,
+            "cache_read": 78617
+          }
+        },
+        "estimated_cost_usd": 0.2651
+      },
+      "postgres": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1418,
+            "output": 113,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 479,
+            "output": 440,
+            "cache_write": 0,
+            "cache_read": 7688
+          }
+        },
+        "estimated_cost_usd": 0.0123
+      },
+      "python": {
+        "calls": 2,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1401,
+            "output": 84,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 467,
+            "output": 1034,
+            "cache_write": 2124,
+            "cache_read": 32940
+          }
+        },
+        "estimated_cost_usd": 0.0466
+      },
+      "security": {
+        "calls": 2,
+        "web_searches": 4,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1975,
+            "output": 199,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 1125,
+            "output": 3371,
+            "cache_write": 5189,
+            "cache_read": 70301
+          }
+        },
+        "estimated_cost_usd": 0.1375
+      },
+      "world": {
+        "calls": 2,
+        "web_searches": 3,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 12230,
+            "output": 1583,
+            "cache_write": 0,
+            "cache_read": 0
+          },
+          "claude-sonnet-5": {
+            "input": 5699,
+            "output": 7066,
+            "cache_write": 18222,
+            "cache_read": 200211
+          }
+        },
+        "estimated_cost_usd": 0.3016
+      }
+    }
   }
 ]
