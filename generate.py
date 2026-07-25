@@ -289,6 +289,8 @@ def _load_dotenv(path: Path = ROOT / ".env") -> None:
         line = line.strip()
         if not line or line.startswith("#") or "=" not in line:
             continue
+        if line.startswith("export "):
+            line = line[len("export "):]
         key, _, val = line.partition("=")
         os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
 
