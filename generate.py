@@ -60,6 +60,7 @@ ROLLUP_MODEL = "claude-sonnet-5"
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 40                 # cap noisy feeds before Stage 1
 TOP_K_TO_RESEARCH = 10                  # only these events reach Stage 2 (per topic)
+TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_SEARCHES_PER_EVENT = 2              # research budget scales with # events...
 WEB_FETCHES_PER_EVENT = 2
@@ -604,6 +605,7 @@ def update_search_index(events: list[dict], date: str, topic: str) -> None:
                 "date": date,
                 "topic": topic,
                 "title": ev["title"],
+                "summary": (ev.get("one_liner") or "").strip(),
                 "theme": ev.get("theme", ""),
                 "importance": ev.get("importance", 0),
                 "keywords": ev.get("keywords", []),
@@ -701,6 +703,30 @@ def _dated_stems(directory: Path) -> list[str]:
     return sorted((p.stem for p in directory.glob("*.md")), reverse=True)
 
 
+def _top_stories_section(index: list[dict]) -> list[str]:
+    """The biggest events across ALL topics for the most recent day."""
+    if not index:
+        return []
+    latest = max(r["date"] for r in index)
+    todays = sorted(
+        (r for r in index if r["date"] == latest),
+        key=lambda r: (r.get("importance", 0)),
+        reverse=True,
+    )[:TOP_STORIES_N]
+    if not todays:
+        return []
+    lines = [f"## Top stories — {latest}", ""]
+    for r in todays:
+        desc = (r.get("summary") or "").strip()
+        desc = f" — {desc}" if desc else ""
+        lines.append(
+            f"- {meter(r.get('importance', 0))} [{r['title']}]({r['url']}){desc} "
+            f"· _{r.get('topic', '')}_"
+        )
+    lines.append("")
+    return lines
+
+
 def rebuild_index() -> None:
     lines = [
         "# Tech News",
@@ -710,6 +736,8 @@ def rebuild_index() -> None:
         "topic, and importance.",
         "",
     ]
+    lines += _top_stories_section(load_search_index())
+
     kind_labels = [
         ("daily", "Daily"),
         ("weekly", "Weekly"),
@@ -719,8 +747,10 @@ def rebuild_index() -> None:
     topics = sorted(
         {t for kind, _ in kind_labels for t in _topics_in(KIND_DIR[kind])}
     )
+    if topics:
+        lines += ["## Browse by topic", ""]
     for topic in topics:
-        lines.append(f"## {topic}\n")
+        lines.append(f"### {topic}\n")
         for kind, label in kind_labels:
             directory = KIND_DIR[kind] / topic
             stems = _dated_stems(directory)[:8]

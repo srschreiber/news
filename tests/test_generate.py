@@ -169,6 +169,24 @@ def test_render_briefing_empty_is_quiet_day():
     assert "Quiet day" in g.render_briefing([], "gaming")
 
 
+# --- home-page top stories -------------------------------------------------- #
+def test_top_stories_section():
+    index = [
+        {"date": "2026-07-25", "topic": "ai", "title": "Big", "summary": "desc",
+         "importance": 5, "url": "news/ai/2026-07-25/#big"},
+        {"date": "2026-07-25", "topic": "world", "title": "Med", "summary": "",
+         "importance": 3, "url": "news/world/2026-07-25/#med"},
+        {"date": "2026-07-24", "topic": "ai", "title": "Old", "summary": "x",
+         "importance": 5, "url": "u3"},
+    ]
+    text = "\n".join(g._top_stories_section(index))
+    assert "Top stories — 2026-07-25" in text     # only the latest day
+    assert "Old" not in text
+    assert "[Big](news/ai/2026-07-25/#big) — desc" in text  # description shown
+    assert text.index("Big") < text.index("Med")   # sorted by importance
+    assert g._top_stories_section([]) == []
+
+
 # --- metrics (per-topic + global cost) -------------------------------------- #
 class _Usage:
     def __init__(self, i, o, searches=0):
