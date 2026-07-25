@@ -20,8 +20,10 @@ JSON only, matching `{extract, sources}`.
 - **`extract`** — the concrete facts you gathered: who, what, how much, which
   version, when, what changed. Dense and factual — this is raw material, not a
   polished summary. No fluff, opinion, or hedging.
-- **`sources`** — only the pages you ACTUALLY read, as `{label, url}`. Use the
-  real outlet name as the label (e.g. "The Register"), never "Google News".
-  Empty list if you read nothing. Never list a page you didn't open.
+- **`sources`** — ONLY the pages you actually opened with `web_fetch` (so at
+  most as many as you fetched), as `{label, url}`. Do NOT list search results you
+  merely saw, and do NOT echo back the provided source URLs unless you fetched
+  them. Use the real outlet name as the label (e.g. "The Register"), never
+  "Google News". Empty list if you fetched nothing.
 
 JSON only. No narration about your process.

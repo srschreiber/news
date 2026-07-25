@@ -380,8 +380,10 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
             e["one_liner"] = (hit.get("summary") or e.get("one_liner", "")).strip()
             # Web pages the model actually read are the most useful links, so
             # list them first; then RSS outlets. Dedupe by outlet/label.
+            # Cap research sources to what it could actually have fetched — the
+            # reader sometimes lists outlets it saw in search but didn't open.
             web = [{"label": s.get("label") or "source", "url": s["url"], "origin": "research"}
-                   for s in hit.get("sources", []) if s.get("url")]
+                   for s in hit.get("sources", []) if s.get("url")][:WEB_FETCHES_PER_EVENT]
             merged, seen = [], set()
             for s in web + list(e.get("sources", [])):
                 if s["label"] in seen:
