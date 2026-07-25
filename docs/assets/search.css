@@ -1,0 +1,61 @@
+#news-search .ns-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+#news-search input[type="search"] {
+  flex: 1 1 16rem;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+#news-search select,
+#news-search input[type="date"] {
+  padding: 0.3rem 0.4rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 0.3rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  font-size: 0.85rem;
+}
+#news-search label {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+  display: inline-flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.ns-status {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color--light);
+}
+.ns-results {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ns-results li {
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.ns-results .ns-title {
+  font-weight: 600;
+}
+.ns-results .ns-meta {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.15rem;
+}
+.ns-results .ns-kw {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0 0.35rem;
+  margin: 0.1rem 0.2rem 0 0;
+  border-radius: 0.25rem;
+  background: var(--md-default-fg-color--lightest);
+}

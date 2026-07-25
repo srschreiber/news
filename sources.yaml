@@ -1,0 +1,77 @@
+# News sources. Each entry:
+#   name:  display name (required)
+#   url:   a direct RSS/Atom feed              } one of url/query
+#   query: a Google News topic search          } is required
+#          (generate.py builds https://news.google.com/rss/search?q=<query>)
+#   topic: which briefing file this feeds into (optional; default "general")
+#
+# Sources are grouped by `topic`: each topic produces its own daily file
+# (docs/news/<topic>/YYYY-MM-DD.md) and its own weekly/monthly/yearly rollups,
+# so e.g. gaming news never gets lumped in with security.
+#
+# Everything flows through the cheap Stage-1 clustering, so extra sources
+# mostly cost input tokens, not research calls.
+
+sources:
+  # --- World news (non-tech) ---
+  - name: "Google News — World"
+    url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en
+    topic: world
+
+  # --- General tech ---
+  - name: TechCrunch
+    url: https://techcrunch.com/feed/
+    topic: general
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    topic: general
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    topic: general
+  - name: Wired
+    url: https://www.wired.com/feed/rss
+    topic: general
+  - name: Engadget
+    url: https://www.engadget.com/rss.xml
+    topic: general
+  - name: Hacker News (front page)
+    url: https://hnrss.org/frontpage
+    topic: general
+  - name: The Register
+    url: https://www.theregister.com/headlines.atom
+    topic: general
+
+  # --- Security ---
+  - name: "Google News — cybersecurity"
+    query: "cybersecurity breach vulnerability"
+    topic: security
+  - name: "Google News — email security"
+    query: "email security phishing OR BEC OR \"email threat\""
+    topic: email-security
+
+  # --- Gaming ---
+  - name: "Google News — gaming industry"
+    query: "video game industry release studio"
+    topic: gaming
+
+  # --- AI ---
+  - name: "Google News — AI models"
+    query: "AI model release LLM"
+    topic: ai
+  - name: "Google News — Anthropic"
+    query: "Anthropic Claude"
+    topic: anthropic
+  - name: "Google News — OpenAI GPT"
+    query: "OpenAI GPT"
+    topic: gpt
+
+  # --- Languages & data ---
+  - name: "Google News — PostgreSQL"
+    query: "PostgreSQL"
+    topic: postgres
+  - name: "Google News — Go language"
+    query: "Golang OR \"Go programming language\""
+    topic: golang
+  - name: "Google News — Python"
+    query: "Python programming language"
+    topic: python

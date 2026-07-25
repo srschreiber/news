@@ -1,0 +1,54 @@
+site_name: Tech News
+site_description: Automated daily tech-news briefings with weekly/monthly/yearly rollups.
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - md_in_html
+
+# Nav is intentionally minimal — index.md is the hub (regenerated each run),
+# and MkDocs auto-discovers the dated topic pages. The custom keyword search
+# lives at search.md alongside Material's built-in search.
+nav:
+  - Home: index.md
+  - Search: search.md
+  - Tags: tags.md
+
+not_in_nav: |
+  news/**
+  weekly/**
+  monthly/**
+  yearly/**
+
+# The design spec lives under docs/ for repo convenience but isn't part of the
+# published site.
+exclude_docs: |
+  superpowers/

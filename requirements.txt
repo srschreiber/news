@@ -1,0 +1,6 @@
+anthropic>=0.69
+feedparser>=6.0
+PyYAML>=6.0
+
+# Site build (used in CI; not needed to run generate.py --dry-run)
+mkdocs-material>=9.5
