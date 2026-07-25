@@ -1005,7 +1005,14 @@ def rebuild_index() -> None:
         "topic, and importance.",
         "",
     ]
-    lines += _top_stories_section(load_search_index())
+    index = load_search_index()
+    lines += _top_stories_section(index)
+
+    # event count per (topic, date) from the index, to annotate daily links
+    counts: dict[tuple, int] = {}
+    for r in index:
+        for t in r.get("topics", []):
+            counts[(t, r["date"])] = counts.get((t, r["date"]), 0) + 1
 
     kind_labels = [
         ("daily", "Daily"),
@@ -1026,7 +1033,13 @@ def rebuild_index() -> None:
             if not stems:
                 continue
             rel = f"{KIND_DIR[kind].name}/{topic}"
-            links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
+            if kind == "daily":
+                links = " · ".join(
+                    f"[{s} ({counts.get((topic, s), 0)} events)]({rel}/{s}.md)"
+                    for s in stems
+                )
+            else:
+                links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
             lines.append(f"- **{label}:** {links}")
         lines.append("")
     (DOCS / "index.md").write_text("\n".join(lines) + "\n")

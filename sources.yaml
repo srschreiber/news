@@ -100,5 +100,5 @@ sources:
 
   # --- Markets ---
   - name: "Google News — markets"
-    query: "stock market OR financial markets"
+    query: "stock market news"
     topic: markets
