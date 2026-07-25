@@ -24,7 +24,10 @@ import json
 import os
 import re
 import sys
+import threading
+import time
 import urllib.parse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Iterable
 
@@ -57,8 +60,9 @@ ROLLUP_MODEL = "claude-sonnet-5"
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 40                 # cap noisy feeds before Stage 1
 TOP_K_TO_RESEARCH = 10                  # only these events reach Stage 2 (per topic)
-WEB_SEARCH_MAX_USES = 15                # hard cap, enforced by the tool
-WEB_FETCH_MAX_USES = 20
+MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
+WEB_SEARCH_MAX_USES = 8                 # hard cap per topic, enforced by the tool
+WEB_FETCH_MAX_USES = 10
 WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # per-page cap so one page can't flood
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 8000
@@ -112,7 +116,8 @@ EVENTS_SCHEMA = {
 
 
 def log(msg: str) -> None:
-    print(f"[generate] {msg}", file=sys.stderr, flush=True)
+    ts = dt.datetime.now(dt.timezone.utc).strftime("%H:%M:%S")
+    print(f"[{ts}Z] {msg}", file=sys.stderr, flush=True)
 
 
 def now_utc() -> dt.datetime:
@@ -295,11 +300,19 @@ def _load_dotenv(path: Path = ROOT / ".env") -> None:
         os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
 
 
-def _client():
-    import anthropic  # here so pure paths don't need the dep/key
+_CLIENT = None
+_CLIENT_LOCK = threading.Lock()
 
-    _load_dotenv()
-    return anthropic.Anthropic()
+
+def _client():
+    global _CLIENT
+    with _CLIENT_LOCK:
+        if _CLIENT is None:
+            import anthropic  # here so pure paths don't need the dep/key
+
+            _load_dotenv()
+            _CLIENT = anthropic.Anthropic()  # httpx-based; safe to share across threads
+    return _CLIENT
 
 
 def _sys(prompt_name: str) -> list[dict]:
@@ -309,6 +322,20 @@ def _sys(prompt_name: str) -> list[dict]:
 
 def _text_of(message) -> str:
     return "".join(b.text for b in message.content if getattr(b, "type", "") == "text")
+
+
+def _extract_briefing(text: str) -> str:
+    """Drop any leading narration the model emits between web searches.
+
+    Stage 2 interleaves reasoning text ("let me check X...") with tool calls;
+    concatenating all text blocks glues that narration before the real briefing.
+    The briefing always starts at a '## ' heading (per the prompt), so cut to it.
+    """
+    text = text.strip()
+    if text.startswith("## "):
+        return text
+    idx = text.find("\n## ")
+    return text[idx + 1:].strip() if idx != -1 else text
 
 
 def stage1_cluster(items: list[dict], topic: str) -> list[dict]:
@@ -375,7 +402,7 @@ def stage2_write(events: list[dict], date: str, topic: str) -> str:
         break
     else:
         log("stage 2 hit MAX_TOOL_LOOP_ITERS — using best output so far")
-    return _text_of(final).strip() if final else ""
+    return _extract_briefing(_text_of(final)) if final else ""
 
 
 def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
@@ -634,6 +661,49 @@ def gather_children(mode: str, topic: str, now: dt.datetime) -> tuple[list[Path]
 # --------------------------------------------------------------------------- #
 # Mode runners
 # --------------------------------------------------------------------------- #
+def _process_topic(topic: str, topic_items: list[dict], date: str, dry_run: bool) -> dict:
+    """Do a topic's Stage 1 (+ Stage 2) and RETURN what to write.
+
+    Runs in a worker thread — it performs API/compute only and never touches the
+    shared files (search-index.json, state.json, index.md); the main thread does
+    all writes so there are no races.
+    """
+    doc_path = KIND_DIR["daily"] / topic / f"{date}.md"
+    title = f"Tech News — {topic} — {date}"
+
+    if not topic_items:
+        log(f"[{topic}] no fresh items — quiet-day doc")
+        return {
+            "topic": topic, "kind": "quiet", "doc_path": doc_path,
+            "fm": front_matter([date[:4], date[:7], topic]),
+            "title": title, "body": quiet_day_body(topic),
+        }
+
+    t0 = time.monotonic()
+    events = attach_sources(stage1_cluster(topic_items, topic), topic_items)
+    top = select_top_k(events)
+    log(f"[{topic}] deduped {len(topic_items)} RSS posts -> {len(events)} events "
+        f"(researching top {len(top)})")
+
+    if dry_run:
+        return {"topic": topic, "kind": "dry", "top": top}
+
+    if not top:
+        return {
+            "topic": topic, "kind": "written", "doc_path": doc_path,
+            "fm": front_matter([date[:4], date[:7], topic]),
+            "title": title, "body": minimal_body_from_items(topic_items), "top": None,
+        }
+
+    body = stage2_write(top, date, topic) or minimal_body_from_items(topic_items)
+    log(f"[{topic}] done in {time.monotonic() - t0:.0f}s")
+    return {
+        "topic": topic, "kind": "written", "doc_path": doc_path,
+        "fm": front_matter(daily_tags(top, date, topic)),
+        "title": title, "body": body, "top": top,
+    }
+
+
 def run_daily(dry_run: bool) -> None:
     run_start = now_utc()
     date = run_start.date().isoformat()
@@ -646,38 +716,37 @@ def run_daily(dry_run: bool) -> None:
     raw = fetch_all(sources)
     items = filter_and_cap(raw, cutoff, seen)
     groups = group_by_topic(items)
-    log(f"fetched {len(raw)} raw, {len(items)} kept across {len(groups)} topics")
-
     all_topics = sorted({s["topic"] for s in sources})
-    for topic in all_topics:
-        topic_items = groups.get(topic, [])
-        doc_path = KIND_DIR["daily"] / topic / f"{date}.md"
-        title = f"Tech News — {topic} — {date}"
+    log(f"fetched {len(raw)} raw RSS posts, {len(items)} kept across "
+        f"{len(all_topics)} topics — researching up to {MAX_TOPIC_CONCURRENCY} in parallel")
 
-        if not topic_items:
-            log(f"[{topic}] no fresh items — quiet-day doc")
-            if not dry_run:
-                write_doc(doc_path, front_matter([date[:4], date[:7], topic]), title, quiet_day_body(topic))
+    # Stage 1 (+2) per topic, in parallel threads. Writes happen after, serially.
+    results: list[dict] = []
+    with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
+        futs = {
+            ex.submit(_process_topic, t, groups.get(t, []), date, dry_run): t
+            for t in all_topics
+        }
+        for fut in as_completed(futs):
+            try:
+                results.append(fut.result())
+            except Exception as e:  # one topic failing must not sink the rest
+                log(f"[{futs[fut]}] failed: {e}")
+
+    # Serialized writes in the main thread (deterministic order).
+    for r in sorted(results, key=lambda r: r["topic"]):
+        if r["kind"] == "dry":
+            print(json.dumps({"topic": r["topic"], "date": date, "top_events": r["top"]},
+                             ensure_ascii=False, indent=2))
             continue
-
-        events = attach_sources(stage1_cluster(topic_items, topic), topic_items)
-        top = select_top_k(events)
-        log(f"[{topic}] {len(events)} events, researching top {len(top)}")
-
-        if dry_run:
-            print(json.dumps({"topic": topic, "date": date, "top_events": top}, ensure_ascii=False, indent=2))
-            continue
-
-        if not top:
-            write_doc(doc_path, front_matter([date[:4], date[:7], topic]), title, minimal_body_from_items(topic_items))
-        else:
-            body = stage2_write(top, date, topic) or minimal_body_from_items(topic_items)
-            write_doc(doc_path, front_matter(daily_tags(top, date, topic)), title, body)
-            update_search_index(top, date, topic)
+        write_doc(r["doc_path"], r["fm"], r["title"], r["body"])
+        if r.get("top"):
+            update_search_index(r["top"], date, r["topic"])
 
     if not dry_run:
         save_state(state, items, run_start)
         rebuild_index()
+    log("daily run complete")
 
 
 def run_rollup(mode: str, dry_run: bool) -> None:

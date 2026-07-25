@@ -21,6 +21,11 @@ For each event, decide whether web research adds real value:
 
 ## Output format
 
+**Output ONLY the briefing markdown — nothing else.** Do not narrate your
+research ("let me check…", "now I'll search…", "writing the briefing"), do not
+add a preamble or a sign-off, and do not describe your process. Your entire
+response must begin with the `## TL;DR` line and contain only the briefing.
+
 Start directly at `## TL;DR` (do NOT write an H1 title — that's added for you).
 
 ```
