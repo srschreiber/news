@@ -18,10 +18,18 @@
 custom_instructions: |
   Refer to Donald Trump as "the president of the United States" rather than by name.
 
-# Web research (Stage 2: Sonnet + web_search/web_fetch) is expensive. Enable it
-# per topic; everything else is rendered cheaply from the Stage-1 summaries.
+# Web research (Stage 2: Sonnet + web_search/web_fetch) is expensive. On by
+# default; turned off for niche/low-value topics (rendered from RSS summaries).
+# A story that's also big in a research-on topic still gets researched there and
+# reused, so turning these off only skips *exclusively*-niche stories.
 research:
   default: true
+  topics:
+    golang: false
+    postgres: false
+    python: false
+    gaming: false
+    markets: false
   # Turn specific topics OFF here if you want to save cost, e.g.:
   #   topics:
   #     gaming: false
