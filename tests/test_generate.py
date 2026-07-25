@@ -187,19 +187,34 @@ def test_top_stories_section():
     assert g._top_stories_section([]) == []
 
 
-# --- Bug 2: Stage 2 narration/early-stop falls back to deterministic render -- #
-def test_stage2_invalid_output_falls_back(monkeypatch):
+# --- hybrid research: enrichment overlay + fallback --------------------------- #
+def test_merge_enrichment_overlays_only_matches():
+    events = [
+        {"title": "A", "one_liner": "orig a", "importance": 5,
+         "sources": [{"label": "RSS", "url": "http://a"}]},
+        {"title": "B", "one_liner": "orig b", "importance": 3,
+         "sources": [{"label": "RSS", "url": "http://b"}]},
+    ]
+    enriched = [{"title": "A", "summary": "researched a",
+                 "sources": [{"label": "Web", "url": "http://a2"}]}]
+    a, b = g.merge_enrichment(events, enriched)
+    assert a["one_liner"] == "researched a" and a["researched"] is True
+    assert {s["url"] for s in a["sources"]} == {"http://a", "http://a2"}  # RSS + web
+    assert b["one_liner"] == "orig b" and "researched" not in b          # untouched
+    assert b["sources"] == [{"label": "RSS", "url": "http://b"}]         # RSS only
+
+
+def test_research_failure_falls_back_to_rss(monkeypatch):
     events = [{"title": "Big thing", "one_liner": "It happened.", "importance": 4,
                "theme": "T", "keywords": ["k"], "source_item_ids": ["i-0"]}]
     items = [{"id": "i-0", "source": "S", "topic": "ai", "title": "t", "summary": "s",
               "link": "https://x", "published": None}]
     monkeypatch.setattr(g, "stage1_cluster", lambda it, tp: events)
-    # simulate the model narrating its intent and stopping (no '## TL;DR')
-    monkeypatch.setattr(g, "stage2_write", lambda ev, d, tp: "Good, now let me write the briefing.")
+    monkeypatch.setattr(g, "stage2_research", lambda ev, d, tp: [])  # research returned nothing
     r = g._process_topic("ai", items, "2026-07-25", dry_run=False, research=True)
     assert r["kind"] == "written"
-    assert r["body"].startswith("## TL;DR")          # fell back to render_briefing
-    assert "Big thing" in r["body"] and "It happened." in r["body"]
+    assert r["body"].startswith("## TL;DR")                     # always a valid doc
+    assert "Big thing" in r["body"] and "It happened." in r["body"]  # RSS summary used
 
 
 # --- metrics (per-topic + global cost) -------------------------------------- #

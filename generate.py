@@ -59,7 +59,8 @@ ROLLUP_MODEL = "claude-sonnet-5"
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 40                 # cap noisy feeds before Stage 1
-TOP_K_TO_RESEARCH = 5                   # only these events reach Stage 2 (per topic)
+EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
+RESEARCH_PER_TOPIC = 3                  # of those, deeply web-researched (rest use RSS summary)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_SEARCHES_PER_EVENT = 2              # research budget scales with # events...
@@ -118,6 +119,40 @@ EVENTS_SCHEMA = {
                     "keywords",
                     "source_item_ids",
                 ],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["events"],
+    "additionalProperties": False,
+}
+
+# Stage 2 returns enriched summaries for the researched events (structured, so
+# we render the doc deterministically — no free-form output to drift or narrate).
+ENRICH_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {"type": "string"},   # echo back verbatim to map
+                    "summary": {"type": "string"},  # enriched, fact-dense
+                    "sources": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "label": {"type": "string"},
+                                "url": {"type": "string"},
+                            },
+                            "required": ["label", "url"],
+                            "additionalProperties": False,
+                        },
+                    },
+                },
+                "required": ["title", "summary", "sources"],
                 "additionalProperties": False,
             },
         }
@@ -288,8 +323,34 @@ def attach_sources(events: list[dict], items: list[dict]) -> list[dict]:
     return out
 
 
-def select_top_k(events: list[dict], k: int = TOP_K_TO_RESEARCH) -> list[dict]:
+def select_top_k(events: list[dict], k: int = EVENTS_PER_TOPIC) -> list[dict]:
     return sorted(events, key=lambda e: e.get("importance", 0), reverse=True)[:k]
+
+
+def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
+    """Overlay researched summaries/sources onto matching events (by title).
+
+    Researched events get the enriched summary + RSS sources merged with any
+    researched web sources (deduped). Non-researched events are unchanged, so
+    their Sources line stays RSS-only.
+    """
+    by_title = {e.get("title"): e for e in enriched}
+    out = []
+    for ev in events:
+        e = dict(ev)
+        hit = by_title.get(ev.get("title"))
+        if hit:
+            e["one_liner"] = (hit.get("summary") or e.get("one_liner", "")).strip()
+            srcs = list(e.get("sources", []))
+            seen = {s.get("url") for s in srcs}
+            for s in hit.get("sources", []):
+                if s.get("url") and s["url"] not in seen:
+                    seen.add(s["url"])
+                    srcs.append({"label": s.get("label") or "source", "url": s["url"]})
+            e["sources"] = srcs
+            e["researched"] = True
+        out.append(e)
+    return out
 
 
 def front_matter(tags: Iterable[str]) -> str:
@@ -466,24 +527,19 @@ def stage1_cluster(items: list[dict], topic: str) -> list[dict]:
     return []
 
 
-def stage2_write(events: list[dict], date: str, topic: str) -> str:
-    """Research (discretionary) + write the daily briefing body (below the H1)."""
+def stage2_research(events: list[dict], date: str, topic: str) -> list[dict]:
+    """Web-research the given events and return structured enrichment:
+    a list of {title, summary, sources}. We render the doc from this, so the
+    model never writes free-form markdown (no narration, no heading drift).
+    Returns [] on failure — caller falls back to the Stage-1 summaries."""
     client = _client()
     n = max(1, len(events))
     search_uses = min(WEB_SEARCH_MAX_USES, n * WEB_SEARCHES_PER_EVENT)
     fetch_uses = min(WEB_FETCH_MAX_USES, n * WEB_FETCHES_PER_EVENT)
     tools = [
-        {
-            "type": "web_search_20260209",
-            "name": "web_search",
-            "max_uses": search_uses,
-        },
-        {
-            "type": "web_fetch_20260209",
-            "name": "web_fetch",
-            "max_uses": fetch_uses,
-            "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS,
-        },
+        {"type": "web_search_20260209", "name": "web_search", "max_uses": search_uses},
+        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": fetch_uses,
+         "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS},
     ]
     user = json.dumps({"date": date, "topic": topic, "events": events}, ensure_ascii=False)
     messages: list[dict] = [{"role": "user", "content": user}]
@@ -492,7 +548,8 @@ def stage2_write(events: list[dict], date: str, topic: str) -> str:
         with client.messages.stream(
             model=WRITE_MODEL,
             max_tokens=STAGE2_MAX_TOKENS,
-            output_config={"effort": STAGE2_EFFORT},
+            output_config={"effort": STAGE2_EFFORT,
+                           "format": {"type": "json_schema", "schema": ENRICH_SCHEMA}},
             system=_sys("write.md"),
             tools=tools,
             messages=messages,
@@ -501,12 +558,18 @@ def stage2_write(events: list[dict], date: str, topic: str) -> str:
         METRICS.add(topic, WRITE_MODEL, final.usage)
         if final.stop_reason == "pause_turn":
             messages.append({"role": "assistant", "content": final.content})
-            log(f"stage 2 pause_turn — resuming ({i + 1}/{MAX_TOOL_LOOP_ITERS})")
+            log(f"[{topic}] stage 2 pause_turn — resuming ({i + 1}/{MAX_TOOL_LOOP_ITERS})")
             continue
         break
     else:
-        log("stage 2 hit MAX_TOOL_LOOP_ITERS — using best output so far")
-    return _extract_briefing(_text_of(final)) if final else ""
+        log(f"[{topic}] stage 2 hit MAX_TOOL_LOOP_ITERS")
+    if not final:
+        return []
+    try:
+        return json.loads(_text_of(final)).get("events", [])
+    except json.JSONDecodeError:
+        log(f"[{topic}] stage 2 enrichment JSON parse failed")
+        return []
 
 
 def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
@@ -880,20 +943,17 @@ def _process_topic(
 
     if not events:
         body, fm, top = minimal_body_from_items(topic_items), base_fm, []
-    elif research:
-        top = select_top_k(events)
-        body = stage2_write(top, date, topic)
-        # Bug guard: Stage 2 can end its turn after narrating without writing the
-        # briefing. If the output isn't a real briefing, fall back to the
-        # deterministic Stage-1 render so the doc is never agent chatter.
-        if not body or "## TL;DR" not in body:
-            log(f"[{topic}] Stage 2 output was not a valid briefing — using summaries")
-            body = render_briefing(top, topic)
-        fm = front_matter(daily_tags(top, date, topic))
     else:
-        top = events
-        body = render_briefing(events, topic)
-        fm = front_matter(daily_tags(events, date, topic))
+        top = select_top_k(events, EVENTS_PER_TOPIC)     # up to 10 shown per topic
+        if research:
+            # Deeply research only the top few; the rest keep their RSS summary.
+            enriched = stage2_research(top[:RESEARCH_PER_TOPIC], date, topic)
+            top = merge_enrichment(top, enriched)
+        # Always render the doc deterministically from the (possibly enriched)
+        # events — so titles/anchors match the index and no free-form output can
+        # drift or leak narration.
+        body = render_briefing(top, topic)
+        fm = front_matter(daily_tags(top, date, topic))
 
     log(f"[{topic}] done in {time.monotonic() - t0:.0f}s")
     return {"topic": topic, "kind": "written", "doc_path": doc_path,
