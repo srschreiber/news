@@ -59,7 +59,7 @@ ROLLUP_MODEL = "claude-sonnet-5"
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 40                 # cap noisy feeds before Stage 1
-TOP_K_TO_RESEARCH = 10                  # only these events reach Stage 2 (per topic)
+TOP_K_TO_RESEARCH = 5                   # only these events reach Stage 2 (per topic)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_SEARCHES_PER_EVENT = 2              # research budget scales with # events...
