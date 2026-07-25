@@ -61,8 +61,10 @@ LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 40                 # cap noisy feeds before Stage 1
 TOP_K_TO_RESEARCH = 10                  # only these events reach Stage 2 (per topic)
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
-WEB_SEARCH_MAX_USES = 8                 # hard cap per topic, enforced by the tool
-WEB_FETCH_MAX_USES = 10
+WEB_SEARCHES_PER_EVENT = 2              # research budget scales with # events...
+WEB_FETCHES_PER_EVENT = 2
+WEB_SEARCH_MAX_USES = 20                # ...bounded by this per-topic backstop
+WEB_FETCH_MAX_USES = 20
 WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # per-page cap so one page can't flood
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 8000
@@ -76,6 +78,15 @@ SUMMARY_MAX_CHARS = 600
 GOOGLE_NEWS_RSS = (
     "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 )
+
+METRICS_FILE = ROOT / "metrics.json"
+# Estimated USD per 1M tokens (standard rates; cache write = 1.25x input,
+# cache read = 0.1x input). These are approximations for cost tracking.
+PRICES = {
+    "claude-haiku-4-5": {"input": 1.0, "output": 5.0},
+    "claude-sonnet-5": {"input": 3.0, "output": 15.0},
+}
+WEB_SEARCH_COST_PER_1K = 10.0  # ~$10 per 1,000 web searches
 
 METER_FILLED = "🔥"
 METER_EMPTY = "◯"
@@ -168,6 +179,23 @@ def load_sources(path: Path = SOURCES_FILE) -> list[dict]:
         s["_url"] = resolve_source_url(s)
         s["topic"] = (s.get("topic") or DEFAULT_TOPIC).strip()
     return sources
+
+
+def load_research_config(path: Path = SOURCES_FILE) -> dict:
+    """Per-topic web-research toggle from sources.yaml:
+
+        research:
+          default: false
+          topics:
+            ai: true
+    """
+    data = yaml.safe_load(path.read_text()) or {}
+    r = data.get("research", {}) or {}
+    return {"default": bool(r.get("default", False)), "topics": r.get("topics", {}) or {}}
+
+
+def research_enabled(topic: str, cfg: dict) -> bool:
+    return bool(cfg["topics"].get(topic, cfg["default"]))
 
 
 def entry_datetime(entry: dict) -> dt.datetime | None:
@@ -300,6 +328,76 @@ def _load_dotenv(path: Path = ROOT / ".env") -> None:
         os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
 
 
+def _cost_of(by_model: dict, web_searches: int) -> float:
+    total = web_searches * WEB_SEARCH_COST_PER_1K / 1000.0
+    for model, t in by_model.items():
+        p = PRICES.get(model)
+        if not p:
+            continue
+        total += (
+            t["input"] * p["input"]
+            + t["output"] * p["output"]
+            + t["cache_write"] * p["input"] * 1.25
+            + t["cache_read"] * p["input"] * 0.1
+        ) / 1_000_000.0
+    return total
+
+
+class Metrics:
+    """Thread-safe accumulator of token usage + web searches → estimated USD,
+    tracked per topic (topics run in parallel) and aggregated globally."""
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self.topics: dict[str, dict] = {}
+
+    def add(self, topic: str, model: str, usage) -> None:
+        if usage is None:
+            return
+        with self._lock:
+            top = self.topics.setdefault(topic, {"calls": 0, "web_searches": 0, "by_model": {}})
+            top["calls"] += 1
+            m = top["by_model"].setdefault(
+                model, {"input": 0, "output": 0, "cache_write": 0, "cache_read": 0}
+            )
+            m["input"] += getattr(usage, "input_tokens", 0) or 0
+            m["output"] += getattr(usage, "output_tokens", 0) or 0
+            m["cache_write"] += getattr(usage, "cache_creation_input_tokens", 0) or 0
+            m["cache_read"] += getattr(usage, "cache_read_input_tokens", 0) or 0
+            stu = getattr(usage, "server_tool_use", None)
+            if stu is not None:
+                top["web_searches"] += getattr(stu, "web_search_requests", 0) or 0
+
+    def estimate_usd(self) -> float:
+        return sum(_cost_of(v["by_model"], v["web_searches"]) for v in self.topics.values())
+
+    def record(self) -> dict:
+        by_topic, agg_model, calls, ws = {}, {}, 0, 0
+        for topic, v in sorted(self.topics.items()):
+            by_topic[topic] = {
+                "calls": v["calls"],
+                "web_searches": v["web_searches"],
+                "tokens_by_model": v["by_model"],
+                "estimated_cost_usd": round(_cost_of(v["by_model"], v["web_searches"]), 4),
+            }
+            calls += v["calls"]
+            ws += v["web_searches"]
+            for model, t in v["by_model"].items():
+                a = agg_model.setdefault(model, {"input": 0, "output": 0, "cache_write": 0, "cache_read": 0})
+                for k in t:
+                    a[k] += t[k]
+        return {
+            "calls": calls,
+            "web_searches": ws,
+            "tokens_by_model": agg_model,
+            "estimated_cost_usd": round(self.estimate_usd(), 4),
+            "by_topic": by_topic,
+        }
+
+
+METRICS = Metrics()
+
+
 _CLIENT = None
 _CLIENT_LOCK = threading.Lock()
 
@@ -356,6 +454,7 @@ def stage1_cluster(items: list[dict], topic: str) -> list[dict]:
             messages=[{"role": "user", "content": user}],
             output_config={"format": {"type": "json_schema", "schema": EVENTS_SCHEMA}},
         )
+        METRICS.add(topic, CLUSTER_MODEL, resp.usage)
         try:
             events = json.loads(_text_of(resp)).get("events", [])
             if not events:
@@ -369,16 +468,19 @@ def stage1_cluster(items: list[dict], topic: str) -> list[dict]:
 def stage2_write(events: list[dict], date: str, topic: str) -> str:
     """Research (discretionary) + write the daily briefing body (below the H1)."""
     client = _client()
+    n = max(1, len(events))
+    search_uses = min(WEB_SEARCH_MAX_USES, n * WEB_SEARCHES_PER_EVENT)
+    fetch_uses = min(WEB_FETCH_MAX_USES, n * WEB_FETCHES_PER_EVENT)
     tools = [
         {
             "type": "web_search_20260209",
             "name": "web_search",
-            "max_uses": WEB_SEARCH_MAX_USES,
+            "max_uses": search_uses,
         },
         {
             "type": "web_fetch_20260209",
             "name": "web_fetch",
-            "max_uses": WEB_FETCH_MAX_USES,
+            "max_uses": fetch_uses,
             "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS,
         },
     ]
@@ -395,6 +497,7 @@ def stage2_write(events: list[dict], date: str, topic: str) -> str:
             messages=messages,
         ) as stream:
             final = stream.get_final_message()
+        METRICS.add(topic, WRITE_MODEL, final.usage)
         if final.stop_reason == "pause_turn":
             messages.append({"role": "assistant", "content": final.content})
             log(f"stage 2 pause_turn — resuming ({i + 1}/{MAX_TOOL_LOOP_ITERS})")
@@ -418,6 +521,7 @@ def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
         system=_sys("rollup.md"),
         messages=[{"role": "user", "content": user}],
     )
+    METRICS.add(topic, ROLLUP_MODEL, resp.usage)
     return _text_of(resp).strip()
 
 
@@ -458,6 +562,24 @@ def save_state(state: dict, items: list[dict], run_start: dt.datetime) -> None:
         json.dumps({"last_run": run_start.isoformat(), "seen_links": seen}, indent=2)
         + "\n"
     )
+
+
+def record_metrics(mode: str, run_start: dt.datetime) -> None:
+    """Log a cost summary and append a per-run record to metrics.json."""
+    rec = {"timestamp": run_start.isoformat(), "mode": mode, **METRICS.record()}
+    history: list = []
+    if METRICS_FILE.exists():
+        try:
+            history = json.loads(METRICS_FILE.read_text())
+        except json.JSONDecodeError:
+            history = []
+    history.append(rec)
+    METRICS_FILE.write_text(json.dumps(history, indent=2) + "\n")
+    log(f"cost: ~${rec['estimated_cost_usd']:.3f} total  "
+        f"(calls={rec['calls']}, web_searches={rec['web_searches']})")
+    for topic, tv in rec["by_topic"].items():
+        log(f"  {topic}: ~${tv['estimated_cost_usd']:.3f} "
+            f"(searches={tv['web_searches']}, calls={tv['calls']})")
 
 
 # --------------------------------------------------------------------------- #
@@ -514,6 +636,41 @@ def write_doc(path: Path, fm: str, title: str, body: str) -> None:
 
 def quiet_day_body(topic: str) -> str:
     return f"## TL;DR\n\n- Quiet day — no notable {topic} news in this window.\n"
+
+
+def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
+    """Deterministically render a briefing from Stage-1 events — no Stage 2, no
+    web research. Uses the one-sentence summary Haiku already produced. Cheapest
+    path; also guarantees format (meters, anchors, citations)."""
+    if not events:
+        return quiet_day_body(topic)
+    ev = sorted(events, key=lambda e: e.get("importance", 0), reverse=True)
+
+    lines = ["## TL;DR", ""]
+    for e in ev[:tldr_n]:
+        lines.append(f"- {meter(e.get('importance', 0))} [{e['title']}](#{slugify(e['title'])})")
+    lines.append("")
+
+    by_theme: dict[str, list[dict]] = {}
+    order: list[str] = []
+    for e in ev:
+        t = (e.get("theme") or "Other").strip() or "Other"
+        if t not in by_theme:
+            by_theme[t] = []
+            order.append(t)
+        by_theme[t].append(e)
+
+    for t in order:
+        lines += [f"## {t}", ""]
+        for e in by_theme[t]:
+            lines.append(f"### {e['title']}")
+            summary = (e.get("one_liner") or "").strip()
+            lines.append(f"{meter(e.get('importance', 0))} {summary}".rstrip())
+            srcs = ", ".join(f"[{s['label']}]({s['url']})" for s in e.get("sources", []))
+            if srcs:
+                lines.append(f"Sources: {srcs}")
+            lines.append("")
+    return "\n".join(lines).strip() + "\n"
 
 
 def minimal_body_from_items(items: list[dict]) -> str:
@@ -661,50 +818,52 @@ def gather_children(mode: str, topic: str, now: dt.datetime) -> tuple[list[Path]
 # --------------------------------------------------------------------------- #
 # Mode runners
 # --------------------------------------------------------------------------- #
-def _process_topic(topic: str, topic_items: list[dict], date: str, dry_run: bool) -> dict:
-    """Do a topic's Stage 1 (+ Stage 2) and RETURN what to write.
+def _process_topic(
+    topic: str, topic_items: list[dict], date: str, dry_run: bool, research: bool
+) -> dict:
+    """Do a topic's Stage 1 (+ optional Stage 2 research) and RETURN what to write.
 
     Runs in a worker thread — it performs API/compute only and never touches the
     shared files (search-index.json, state.json, index.md); the main thread does
     all writes so there are no races.
+
+    research=True  -> Stage 2 (Sonnet + web tools) on the top-K events.
+    research=False -> render the briefing straight from the Stage-1 summaries
+                      (Haiku only; cheap and fast).
     """
+    base_fm = front_matter([date[:4], date[:7], topic])
     doc_path = KIND_DIR["daily"] / topic / f"{date}.md"
     title = f"Tech News — {topic} — {date}"
 
     if not topic_items:
         log(f"[{topic}] no fresh items — quiet-day doc")
-        return {
-            "topic": topic, "kind": "quiet", "doc_path": doc_path,
-            "fm": front_matter([date[:4], date[:7], topic]),
-            "title": title, "body": quiet_day_body(topic),
-        }
+        return {"topic": topic, "kind": "quiet", "doc_path": doc_path,
+                "fm": base_fm, "title": title, "body": quiet_day_body(topic)}
 
     t0 = time.monotonic()
     events = attach_sources(stage1_cluster(topic_items, topic), topic_items)
-    top = select_top_k(events)
-    log(f"[{topic}] deduped {len(topic_items)} RSS posts -> {len(events)} events "
-        f"(researching top {len(top)})")
+    mode = "research" if research else "summarize"
+    log(f"[{topic}] deduped {len(topic_items)} RSS posts -> {len(events)} events ({mode})")
 
     if dry_run:
-        return {"topic": topic, "kind": "dry", "top": top}
+        return {"topic": topic, "kind": "dry", "top": select_top_k(events)}
 
-    if not top:
-        return {
-            "topic": topic, "kind": "written", "doc_path": doc_path,
-            "fm": front_matter([date[:4], date[:7], topic]),
-            "title": title, "body": minimal_body_from_items(topic_items), "top": None,
-        }
+    if not events:
+        body, fm, index_events = minimal_body_from_items(topic_items), base_fm, None
+    elif research:
+        top = select_top_k(events)
+        body = stage2_write(top, date, topic) or minimal_body_from_items(topic_items)
+        fm, index_events = front_matter(daily_tags(top, date, topic)), top
+    else:
+        body = render_briefing(events, topic)
+        fm, index_events = front_matter(daily_tags(events, date, topic)), events
 
-    body = stage2_write(top, date, topic) or minimal_body_from_items(topic_items)
     log(f"[{topic}] done in {time.monotonic() - t0:.0f}s")
-    return {
-        "topic": topic, "kind": "written", "doc_path": doc_path,
-        "fm": front_matter(daily_tags(top, date, topic)),
-        "title": title, "body": body, "top": top,
-    }
+    return {"topic": topic, "kind": "written", "doc_path": doc_path,
+            "fm": fm, "title": title, "body": body, "top": index_events}
 
 
-def run_daily(dry_run: bool) -> None:
+def run_daily(dry_run: bool, no_research: bool = False) -> None:
     run_start = now_utc()
     date = run_start.date().isoformat()
     state = load_state()
@@ -713,18 +872,24 @@ def run_daily(dry_run: bool) -> None:
     log(f"daily {date}: cutoff={cutoff.isoformat()} seen_links={len(seen)}")
 
     sources = load_sources()
+    cfg = load_research_config()
     raw = fetch_all(sources)
     items = filter_and_cap(raw, cutoff, seen)
     groups = group_by_topic(items)
     all_topics = sorted({s["topic"] for s in sources})
+
+    def wants_research(t: str) -> bool:
+        return (not no_research) and research_enabled(t, cfg)
+
+    researched = [t for t in all_topics if wants_research(t)]
     log(f"fetched {len(raw)} raw RSS posts, {len(items)} kept across "
-        f"{len(all_topics)} topics — researching up to {MAX_TOPIC_CONCURRENCY} in parallel")
+        f"{len(all_topics)} topics; web research on for: {researched or 'none'}")
 
     # Stage 1 (+2) per topic, in parallel threads. Writes happen after, serially.
     results: list[dict] = []
     with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
         futs = {
-            ex.submit(_process_topic, t, groups.get(t, []), date, dry_run): t
+            ex.submit(_process_topic, t, groups.get(t, []), date, dry_run, wants_research(t)): t
             for t in all_topics
         }
         for fut in as_completed(futs):
@@ -746,11 +911,12 @@ def run_daily(dry_run: bool) -> None:
     if not dry_run:
         save_state(state, items, run_start)
         rebuild_index()
+        record_metrics("daily", run_start)
     log("daily run complete")
 
 
 def run_rollup(mode: str, dry_run: bool) -> None:
-    now = now_utc()
+    run_start = now = now_utc()
     # topics = those present in the child kind's directory, plus configured ones
     child_base = KIND_DIR[ROLLUP_CHILD_KIND[mode]]
     topics = sorted(set(_topics_in(child_base)) | {s["topic"] for s in load_sources()})
@@ -787,6 +953,7 @@ def run_rollup(mode: str, dry_run: bool) -> None:
 
     if not dry_run:
         rebuild_index()
+        record_metrics(mode, run_start)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -799,10 +966,14 @@ def main(argv: list[str] | None = None) -> int:
         "--dry-run", action="store_true",
         help="Run Stage 1 / child selection and print, without Stage 2 or writing.",
     )
+    parser.add_argument(
+        "--no-research", action="store_true",
+        help="Force web research OFF for all topics (overrides sources.yaml research config).",
+    )
     args = parser.parse_args(argv)
 
     if args.mode == "daily":
-        run_daily(args.dry_run)
+        run_daily(args.dry_run, no_research=args.no_research)
     else:
         run_rollup(args.mode, args.dry_run)
     return 0

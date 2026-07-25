@@ -12,6 +12,14 @@
 # Everything flows through the cheap Stage-1 clustering, so extra sources
 # mostly cost input tokens, not research calls.
 
+# Web research (Stage 2: Sonnet + web_search/web_fetch) is expensive. Enable it
+# per topic; everything else is rendered cheaply from the Stage-1 summaries.
+research:
+  default: false
+  topics:
+    ai: true
+    world: true
+
 sources:
   # --- World news (non-tech) ---
   - name: "Google News — World"

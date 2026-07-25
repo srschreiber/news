@@ -134,3 +134,64 @@ def test_prune_seen():
 def test_parse_date_stem():
     assert g._parse_date_stem("2026-07-24") == dt.date(2026, 7, 24)
     assert g._parse_date_stem("2026-W30") is None
+
+
+# --- research config -------------------------------------------------------- #
+def test_research_enabled():
+    cfg = {"default": False, "topics": {"ai": True, "world": True}}
+    assert g.research_enabled("ai", cfg) is True
+    assert g.research_enabled("world", cfg) is True
+    assert g.research_enabled("gaming", cfg) is False
+    cfg2 = {"default": True, "topics": {"gaming": False}}
+    assert g.research_enabled("anything", cfg2) is True
+    assert g.research_enabled("gaming", cfg2) is False
+
+
+# --- deterministic (no-research) renderer ----------------------------------- #
+def test_render_briefing():
+    events = [
+        {"title": "Go 1.18 ships generics", "one_liner": "Type params land.",
+         "importance": 5, "theme": "Languages", "keywords": ["Go"],
+         "sources": [{"label": "go.dev", "url": "https://go.dev"}]},
+        {"title": "Minor patch", "one_liner": "Bugfix.", "importance": 2,
+         "theme": "Languages", "keywords": [], "sources": []},
+    ]
+    body = g.render_briefing(events, "golang")
+    assert body.startswith("## TL;DR")
+    assert "🔥🔥🔥🔥🔥 [Go 1.18 ships generics](#go-118-ships-generics)" in body
+    assert "### Go 1.18 ships generics" in body
+    assert "Sources: [go.dev](https://go.dev)" in body
+    # highest importance first in TL;DR
+    assert body.index("Go 1.18") < body.index("Minor patch")
+
+
+def test_render_briefing_empty_is_quiet_day():
+    assert "Quiet day" in g.render_briefing([], "gaming")
+
+
+# --- metrics (per-topic + global cost) -------------------------------------- #
+class _Usage:
+    def __init__(self, i, o, searches=0):
+        self.input_tokens = i
+        self.output_tokens = o
+        self.cache_creation_input_tokens = 0
+        self.cache_read_input_tokens = 0
+        self.server_tool_use = type("S", (), {"web_search_requests": searches})() if searches else None
+
+
+def test_metrics_per_topic_and_global():
+    m = g.Metrics()
+    m.add("ai", "claude-haiku-4-5", _Usage(1000, 500))          # $0.0035
+    m.add("ai", "claude-sonnet-5", _Usage(2000, 1000, searches=3))  # tokens + 3 searches
+    m.add("gaming", "claude-haiku-4-5", _Usage(1000, 500))      # $0.0035
+    rec = m.record()
+    assert set(rec["by_topic"]) == {"ai", "gaming"}
+    assert rec["web_searches"] == 3
+    # gaming: haiku only, no searches
+    assert abs(rec["by_topic"]["gaming"]["estimated_cost_usd"] - 0.0035) < 1e-6
+    # ai should cost more than gaming (extra sonnet call + searches)
+    assert rec["by_topic"]["ai"]["estimated_cost_usd"] > rec["by_topic"]["gaming"]["estimated_cost_usd"]
+    # global = sum of topics
+    assert abs(rec["estimated_cost_usd"]
+               - (rec["by_topic"]["ai"]["estimated_cost_usd"]
+                  + rec["by_topic"]["gaming"]["estimated_cost_usd"])) < 1e-6

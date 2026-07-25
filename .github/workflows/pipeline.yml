@@ -62,7 +62,7 @@ jobs:
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add docs state.json
+          git add docs state.json metrics.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
