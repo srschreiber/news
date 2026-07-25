@@ -1,5 +1,67 @@
 [
   {
+    "timestamp": "2026-07-25T18:34:30.826420+00:00",
+    "mode": "daily",
+    "calls": 8,
+    "web_searches": 8,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 77180,
+        "output": 7858,
+        "cache_write": 104922,
+        "cache_read": 44247
+      },
+      "claude-sonnet-5": {
+        "input": 3883,
+        "output": 1322,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.3635,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 21391,
+            "output": 4748,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0451
+      },
+      "(read)": {
+        "calls": 6,
+        "web_searches": 8,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 55789,
+            "output": 3110,
+            "cache_write": 104922,
+            "cache_read": 44247
+          }
+        },
+        "estimated_cost_usd": 0.2869
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-sonnet-5": {
+            "input": 3883,
+            "output": 1322,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0315
+      }
+    }
+  },
+  {
     "timestamp": "2026-07-25T18:20:37.790156+00:00",
     "mode": "daily",
     "calls": 4,
