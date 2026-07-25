@@ -54,7 +54,8 @@ KIND_DIR = {
 DEFAULT_TOPIC = "general"
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
-WRITE_MODEL = "claude-sonnet-5"         # Stage 2 — research + writing quality
+READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
+WRITE_MODEL = "claude-sonnet-5"         # Stage 2b — polishes final summaries
 ROLLUP_MODEL = "claude-sonnet-5"
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
@@ -64,16 +65,17 @@ RESEARCH_PER_TOPIC = 3                  # of a topic's top events, consider thes
 MIN_RESEARCH_IMPORTANCE = 4             # only research events at least this important (1-5)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
-WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (enforced per API call)
+WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (Haiku read call)
 WEB_FETCHES_PER_EVENT = 2               # HARD per-event fetch cap
 GLOBAL_SEARCH_SAFETY = 50               # run-wide safety net (rarely hit)
 MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~25 events/run
-WEB_FETCH_MAX_CONTENT_TOKENS = 3000     # per-page cap — biggest cost driver, keep tight
+WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # HARD per-page cap — fine now, it lands on cheap Haiku
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
-STAGE2_MAX_TOKENS = 5000                # short, dense summaries — small ceiling
-STAGE2_EFFORT = "low"                   # per-event research is scoped; low trims thinking cost
+READ_MAX_TOKENS = 2000                  # Haiku read: just a factual extract
+STAGE2_MAX_TOKENS = 5000                # Sonnet polish: short dense summaries (batched)
+STAGE2_EFFORT = "low"                   # scoped writing task; low trims thinking cost
 ROLLUP_MAX_TOKENS = 5000
 ROLLUP_EFFORT = "medium"
 SEEN_LINKS_RETENTION_DAYS = 7
@@ -129,26 +131,41 @@ EVENTS_SCHEMA = {
     "additionalProperties": False,
 }
 
-# Stage 2 researches ONE event per call and returns this structured object, so
-# we render the doc deterministically (no free-form output to drift or narrate).
-ENRICH_SCHEMA = {
+# Stage 2a (Haiku read): a factual extract of ONE event + the sources it used.
+READ_SCHEMA = {
     "type": "object",
     "properties": {
-        "summary": {"type": "string"},  # enriched, fact-dense
+        "extract": {"type": "string"},
         "sources": {
             "type": "array",
             "items": {
                 "type": "object",
-                "properties": {
-                    "label": {"type": "string"},  # real outlet name
-                    "url": {"type": "string"},
-                },
+                "properties": {"label": {"type": "string"}, "url": {"type": "string"}},
                 "required": ["label", "url"],
                 "additionalProperties": False,
             },
         },
     },
-    "required": ["summary", "sources"],
+    "required": ["extract", "sources"],
+    "additionalProperties": False,
+}
+
+# Stage 2b (Sonnet polish): a final summary per event, keyed by its ref — batched
+# so Sonnet writes all summaries in one cheap call from Haiku's small extracts.
+POLISH_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"ref": {"type": "string"}, "summary": {"type": "string"}},
+                "required": ["ref", "summary"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["events"],
     "additionalProperties": False,
 }
 
@@ -428,25 +445,38 @@ def select_research(
 
 
 def research_events(selected: list[dict], date: str) -> list[dict]:
-    """Research each selected event in its OWN call (so the per-event search cap
-    is hard-enforced), in parallel. Returns enrichment tagged with each event's
-    ref so merge_enrichment can overlay it."""
+    """Two-stage research: HAIKU reads each selected event in parallel (its own
+    call -> hard per-event search cap), then SONNET polishes all extracts in one
+    batched call. Returns enrichment ({ref, summary, sources}) for merge."""
     if not selected:
         return []
     for i, e in enumerate(selected):
         e["ref"] = f"e{i}"
-    enrichment: list[dict] = []
+
+    # Stage 2a — Haiku reads pages (parallel).
+    reads: list[dict] = []
     with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
-        futs = {ex.submit(stage2_research, e, date): e for e in selected}
+        futs = {ex.submit(stage2a_read, e, date): e for e in selected}
         for fut in as_completed(futs):
             ev = futs[fut]
             try:
-                res = fut.result()
-                if res:
-                    enrichment.append({"ref": ev["ref"], **res})
-            except Exception as exc:  # a failed event just keeps its RSS summary
-                log(f"[{ev['ref']}] research failed: {exc}")
-    return enrichment
+                r = fut.result()
+            except Exception as exc:  # a failed read just keeps its RSS summary
+                log(f"[{ev['ref']}] read failed: {exc}")
+                r = None
+            if r:
+                reads.append({"ref": ev["ref"], "title": ev["title"],
+                              "one_liner": ev.get("one_liner", ""),
+                              "extract": r["extract"], "sources": r.get("sources", [])})
+
+    # Stage 2b — Sonnet polishes all extracts in one call.
+    polished = stage2b_polish(reads, date)
+    return [
+        {"ref": rd["ref"],
+         "summary": polished.get(rd["ref"]) or rd["extract"],
+         "sources": rd["sources"]}
+        for rd in reads
+    ]
 
 
 def front_matter(tags: Iterable[str]) -> str:
@@ -625,21 +655,20 @@ def stage1_cluster(items: list[dict]) -> list[dict]:
     return []
 
 
-def stage2_research(event: dict, date: str) -> dict | None:
-    """Research ONE event in its own call — so the per-event search cap
-    (WEB_SEARCHES_PER_EVENT) is a HARD ceiling the API enforces via max_uses.
-    Returns {summary, sources} (real-outlet labels) or None to skip. Code renders
-    all markdown, so output tokens are just the content."""
+def stage2a_read(event: dict, date: str) -> dict | None:
+    """Stage 2a — HAIKU reads one event: googles it (web_search) and reads the
+    best page(s) (web_fetch, up to 8000 tokens — cheap on Haiku), and returns a
+    factual extract + the outlets it actually used. Uses the basic web-tool
+    variants (Haiku tier). Returns None on any failure (event keeps RSS summary)."""
     client = _client()
     tools = [
-        {"type": "web_search_20260209", "name": "web_search", "max_uses": WEB_SEARCHES_PER_EVENT},
-        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
+        {"type": "web_search_20250305", "name": "web_search", "max_uses": WEB_SEARCHES_PER_EVENT},
+        {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
          "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS},
     ]
     payload = {
         "title": event["title"], "one_liner": event.get("one_liner", ""),
-        "importance": event.get("importance", 0), "topics": event.get("topics", []),
-        "keywords": event.get("keywords", []),
+        "keywords": event.get("keywords", []), "topics": event.get("topics", []),
         "sources": [s["url"] for s in event.get("sources", [])],
     }
     user = json.dumps(
@@ -648,18 +677,21 @@ def stage2_research(event: dict, date: str) -> dict | None:
     )
     messages: list[dict] = [{"role": "user", "content": user}]
     final = None
-    for i in range(MAX_TOOL_LOOP_ITERS):
-        with client.messages.stream(
-            model=WRITE_MODEL,
-            max_tokens=STAGE2_MAX_TOKENS,
-            output_config={"effort": STAGE2_EFFORT,
-                           "format": {"type": "json_schema", "schema": ENRICH_SCHEMA}},
-            system=_sys("write.md"),
-            tools=tools,
-            messages=messages,
-        ) as stream:
-            final = stream.get_final_message()
-        METRICS.add("(research)", WRITE_MODEL, final.usage)
+    for _ in range(MAX_TOOL_LOOP_ITERS):
+        try:
+            with client.messages.stream(
+                model=READ_MODEL,
+                max_tokens=READ_MAX_TOKENS,
+                output_config={"format": {"type": "json_schema", "schema": READ_SCHEMA}},
+                system=_sys("read.md"),
+                tools=tools,
+                messages=messages,
+            ) as stream:
+                final = stream.get_final_message()
+        except Exception as e:  # e.g. Haiku can't use these web tools -> degrade
+            log(f"read failed ({event.get('title', '?')[:40]}): {e}")
+            return None
+        METRICS.add("(read)", READ_MODEL, final.usage)
         if final.stop_reason == "pause_turn":
             messages.append({"role": "assistant", "content": final.content})
             continue
@@ -668,9 +700,42 @@ def stage2_research(event: dict, date: str) -> dict | None:
         return None
     try:
         obj = json.loads(_text_of(final))
-        return obj if (obj.get("summary") or "").strip() else None
+        return obj if (obj.get("extract") or "").strip() else None
     except json.JSONDecodeError:
         return None
+
+
+def stage2b_polish(reads: list[dict], date: str) -> dict:
+    """Stage 2b — SONNET writes the final summaries from Haiku's extracts, in ONE
+    batched call (Sonnet sees only the short extracts, never raw pages). Returns
+    {ref: summary}. On failure, callers fall back to the raw extract."""
+    if not reads:
+        return {}
+    client = _client()
+    payload = [
+        {"ref": r["ref"], "title": r["title"], "one_liner": r.get("one_liner", ""),
+         "extract": r["extract"]}
+        for r in reads
+    ]
+    user = json.dumps({"date": date, "events": payload}, ensure_ascii=False)
+    try:
+        resp = client.messages.create(
+            model=WRITE_MODEL,
+            max_tokens=STAGE2_MAX_TOKENS,
+            output_config={"effort": STAGE2_EFFORT,
+                           "format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
+            system=_sys("write.md"),
+            messages=[{"role": "user", "content": user}],
+        )
+    except Exception as e:
+        log(f"polish failed: {e}")
+        return {}
+    METRICS.add("(write)", WRITE_MODEL, resp.usage)
+    try:
+        events = json.loads(_text_of(resp)).get("events", [])
+        return {e["ref"]: e["summary"] for e in events if e.get("ref")}
+    except json.JSONDecodeError:
+        return {}
 
 
 def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
