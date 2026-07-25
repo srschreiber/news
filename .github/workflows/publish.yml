@@ -1,0 +1,54 @@
+name: publish-site
+
+# Build + deploy the MkDocs site from already-committed docs — NO AI run, no
+# ANTHROPIC_API_KEY needed. Use this to publish cosmetic/content changes (CSS,
+# templates, mkdocs.yml, hand-edited docs) without spending on a pipeline run.
+#
+# Note: the news-pipeline bot commits with the default GITHUB_TOKEN, whose
+# pushes do NOT trigger workflows — so pipeline runs won't double-fire this;
+# they build + deploy on their own. Human/PAT pushes here DO trigger it.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "mkdocs.yml"
+      - ".github/workflows/publish.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Serialize with the pipeline's own deploy so two runs never deploy Pages at once.
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/configure-pages@v5
+      - run: mkdocs build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

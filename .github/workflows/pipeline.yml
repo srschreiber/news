@@ -79,6 +79,10 @@ jobs:
   deploy:
     needs: generate
     runs-on: ubuntu-latest
+    # Shared with publish-site so the two workflows never deploy Pages at once.
+    concurrency:
+      group: pages-deploy
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

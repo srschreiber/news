@@ -2,6 +2,8 @@
 
 Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Use the [keyword search](search.md) to filter by term, date, topic, and importance.
 
+⭐ Like this? [Star it on GitHub](https://github.com/srschreiber/rss-news-generator).
+
 ## Top stories — 2026-07-25
 
 - 🔥🔥🔥🔥◯ [Anthropic launches Claude Opus 5 AI model at half the cost of competitor flagships](news/anthropic/2026-07-25/#anthropic-launches-claude-opus-5-ai-model-at-half-the-cost-of-competitor-flagships) — Anthropic released Claude Opus 5 on July 24, 2026, priced at $5 per million input tokens and $25 per million output tokens—half the cost of its flagship Claude Fable 5 ($10/$50)—while delivering near-frontier performance, topping Frontier-Bench v0.1 and scoring within 0.5% of Fable 5 on CursorBench 3.2 at half the cost. It uses about one-seventh the reasoning tokens and less than half the latency of Opus 4.8, with customers like Harvey reporting 26% fewer tokens for equivalent performance and financial-modeling tests showing nine points higher accuracy with a third fewer turns and 60% less time. Opus 5, now default for Claude Max and top-tier on Claude Pro, scored 2.3 on Anthropic's behavioral audit—its most aligned model yet—though it still trails Mythos 5 on cybersecurity and biology tasks, marking Anthropic's fourth major 2026 release. · _ai, anthropic_

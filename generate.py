@@ -807,7 +807,8 @@ def save_state(state: dict, items: list[dict], run_start: dt.datetime) -> None:
 
 
 def record_metrics(mode: str, run_start: dt.datetime) -> None:
-    """Log a cost summary and append a per-run record to metrics.json."""
+    """Log a cost summary and prepend a per-run record to metrics.json so the
+    newest run is always first (top of the file)."""
     rec = {"timestamp": run_start.isoformat(), "mode": mode, **METRICS.record()}
     history: list = []
     if METRICS_FILE.exists():
@@ -815,7 +816,7 @@ def record_metrics(mode: str, run_start: dt.datetime) -> None:
             history = json.loads(METRICS_FILE.read_text())
         except json.JSONDecodeError:
             history = []
-    history.append(rec)
+    history.insert(0, rec)
     METRICS_FILE.write_text(json.dumps(history, indent=2) + "\n")
     log(f"cost: ~${rec['estimated_cost_usd']:.3f} total  "
         f"(calls={rec['calls']}, web_searches={rec['web_searches']})")
@@ -1013,6 +1014,9 @@ def rebuild_index() -> None:
         "Daily tech-news briefings by topic, plus weekly / monthly / yearly "
         "rollups. Use the [keyword search](search.md) to filter by term, date, "
         "topic, and importance.",
+        "",
+        "⭐ Like this? [Star it on GitHub]"
+        "(https://github.com/srschreiber/rss-news-generator).",
         "",
     ]
     index = load_search_index()

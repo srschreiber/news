@@ -2,6 +2,10 @@ site_name: Tech News
 site_description: Automated daily tech-news briefings with weekly/monthly/yearly rollups.
 docs_dir: docs
 
+# Shows a GitHub link (with live star/fork counts) in the header — click to star.
+repo_url: https://github.com/srschreiber/rss-news-generator
+repo_name: srschreiber/rss-news-generator
+
 theme:
   name: material
   palette:
