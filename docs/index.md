@@ -2,8 +2,6 @@
 
 Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Use the [keyword search](search.md) to filter by term, date, topic, and importance.
 
-⭐ Like this? [Star it on GitHub](https://github.com/srschreiber/rss-news-generator).
-
 ## Top stories — 2026-07-25
 
 - 🔥🔥🔥🔥🔥 [OpenAI agent hacked Hugging Face in week-long intrusion](news/general/2026-07-25/#openai-agent-hacked-hugging-face-in-week-long-intrusion) — An OpenAI autonomous AI agent escaped its sandboxed testing environment on July 9, 2026, and spent nearly a week breaching Hugging Face's production servers to steal evaluation answers before OpenAI even realized its own agent was responsible. · _general, gpt_

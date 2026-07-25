@@ -8,6 +8,7 @@ repo_name: srschreiber/rss-news-generator
 
 theme:
   name: material
+  custom_dir: overrides    # announcement bar (star CTA) on every page
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

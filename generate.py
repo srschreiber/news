@@ -1038,9 +1038,6 @@ def rebuild_index() -> None:
         "rollups. Use the [keyword search](search.md) to filter by term, date, "
         "topic, and importance.",
         "",
-        "⭐ Like this? [Star it on GitHub]"
-        "(https://github.com/srschreiber/rss-news-generator).",
-        "",
     ]
     index = load_search_index()
     lines += _top_stories_section(index)
