@@ -58,25 +58,26 @@ WRITE_MODEL = "claude-sonnet-5"         # Stage 2 — research + writing quality
 ROLLUP_MODEL = "claude-sonnet-5"
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
-MAX_ITEMS_PER_FEED = 40                 # cap noisy feeds before Stage 1
+MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
 EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
-RESEARCH_PER_TOPIC = 3                  # of those, deeply web-researched (rest use RSS summary)
+RESEARCH_PER_TOPIC = 3                  # of a topic's top events, consider these for research
+MIN_RESEARCH_IMPORTANCE = 4             # only research events at least this important (1-5)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
-WEB_SEARCHES_PER_EVENT = 3              # HARD per-event search cap (enforced per API call)
-WEB_FETCHES_PER_EVENT = 3               # HARD per-event fetch cap
+WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (enforced per API call)
+WEB_FETCHES_PER_EVENT = 2               # HARD per-event fetch cap
 GLOBAL_SEARCH_SAFETY = 50               # run-wide safety net (rarely hit)
-MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~16 events/run
-WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # per-page cap so one page can't flood
+MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~25 events/run
+WEB_FETCH_MAX_CONTENT_TOKENS = 3000     # per-page cap — biggest cost driver, keep tight
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
 STAGE2_MAX_TOKENS = 5000                # short, dense summaries — small ceiling
-STAGE2_EFFORT = "medium"                # writing task; medium trims thinking tokens
+STAGE2_EFFORT = "low"                   # per-event research is scoped; low trims thinking cost
 ROLLUP_MAX_TOKENS = 5000
 ROLLUP_EFFORT = "medium"
 SEEN_LINKS_RETENTION_DAYS = 7
-SUMMARY_MAX_CHARS = 600
+SUMMARY_MAX_CHARS = 300
 
 GOOGLE_NEWS_RSS = (
     "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
@@ -404,9 +405,14 @@ def select_research(
     #2, ...) so distinct topics are covered before going deeper. A story spanning
     several topics is chosen once (researched once, reused everywhere). Capped at
     `max_events` as the run-wide safety net."""
+    # Each topic's top RESEARCH_PER_TOPIC events, but only those important enough
+    # to be worth researching. If none of a topic's top events clear the bar, that
+    # topic contributes nothing (no research spent on a quiet/low-value topic).
     by_topic = {
-        t: sorted((e for e in events if t in e.get("topics", [])),
-                  key=lambda e: e.get("importance", 0), reverse=True)[:RESEARCH_PER_TOPIC]
+        t: [e for e in
+            sorted((e for e in events if t in e.get("topics", [])),
+                   key=lambda e: e.get("importance", 0), reverse=True)[:RESEARCH_PER_TOPIC]
+            if e.get("importance", 0) >= MIN_RESEARCH_IMPORTANCE]
         for t in research_topics
     }
     chosen, chosen_ids = [], set()

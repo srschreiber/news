@@ -255,6 +255,15 @@ def test_select_research_dedupes_cross_topic():
     titles = [e["title"] for e in sel]
     assert titles.count("Opus 5") == 1                  # researched once despite 3 topics
     assert "Game" in titles
+    assert "Minor" not in titles                        # importance 1 < threshold -> skipped
+
+
+def test_select_research_skips_unimportant_topics():
+    events = [
+        {"title": "meh1", "importance": 2, "topics": ["python"]},
+        {"title": "meh2", "importance": 3, "topics": ["python"]},
+    ]
+    assert g.select_research(events, ["python"]) == []   # no top event clears the bar
 
 
 # --- metrics (per-topic + global cost) -------------------------------------- #
