@@ -343,8 +343,12 @@ def _source_badge(origin: str) -> str:
 
 
 def payload_items(items: list[dict]) -> list[dict]:
-    """Strip private fields before sending to the model."""
-    return [{k: v for k, v in it.items() if not k.startswith("_")} for it in items]
+    """Trim items to just what clustering needs (id, outlet, topic, title,
+    summary). Drops `link` and `published`: the Google News redirect URLs are
+    long (~250 chars each — ~25% of the clustering payload) and clustering never
+    uses them (sources are resolved separately by `id` in attach_sources)."""
+    keep = ("id", "source", "topic", "title", "summary")
+    return [{k: it[k] for k in keep if k in it} for it in items]
 
 
 def attach_sources(events: list[dict], items: list[dict]) -> list[dict]:
@@ -1028,7 +1032,7 @@ def _top_stories_section(index: list[dict]) -> list[str]:
 
 def rebuild_index() -> None:
     lines = [
-        "# Tech News",
+        "# Sam's News",
         "",
         "Daily tech-news briefings by topic, plus weekly / monthly / yearly "
         "rollups. Use the [keyword search](search.md) to filter by term, date, "
@@ -1125,9 +1129,9 @@ def _parse_date_stem(stem: str) -> dt.date | None:
 
 
 ROLLUP_TITLES = {
-    "weekly": "Tech News — {topic} — Week {stem}",
-    "monthly": "Tech News — {topic} — {stem}",
-    "yearly": "Tech News — {topic} — {stem} in Review",
+    "weekly": "Sam's News — {topic} — Week {stem}",
+    "monthly": "Sam's News — {topic} — {stem}",
+    "yearly": "Sam's News — {topic} — {stem} in Review",
 }
 ROLLUP_CHILD_KIND = {"weekly": "daily", "monthly": "weekly", "yearly": "monthly"}
 
@@ -1170,7 +1174,7 @@ def _write_topic_doc(topic: str, shown: list[dict], date: str) -> None:
     Docs and the search index are both rebuilt from this run's events, so they
     stay consistent by construction."""
     doc_path = KIND_DIR["daily"] / topic / f"{date}.md"
-    title = f"Tech News — {topic} — {date}"
+    title = f"Sam's News — {topic} — {date}"
     if shown:
         write_doc(doc_path, front_matter(daily_tags(shown, date, topic)),
                   title, render_briefing(shown, topic))

@@ -80,6 +80,16 @@ def test_per_feed_cap():
     assert len(kept) == 40
 
 
+def test_payload_items_drops_link_and_private_fields():
+    items = [{"id": "s-0", "source": "The Reg", "topic": "ai", "title": "T",
+              "summary": "S", "link": "https://news.google.com/rss/…verylong",
+              "published": "2026-07-25", "_published_dt": object()}]
+    out = g.payload_items(items)
+    assert out == [{"id": "s-0", "source": "The Reg", "topic": "ai",
+                    "title": "T", "summary": "S"}]
+    assert "link" not in out[0] and "published" not in out[0]
+
+
 def test_group_by_topic():
     items = [_item("a", None, topic="gaming"), _item("b", None, topic="ai"), _item("c", None, topic="gaming")]
     groups = g.group_by_topic(items)
