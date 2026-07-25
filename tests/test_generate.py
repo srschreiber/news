@@ -128,6 +128,31 @@ def test_compute_cutoff_uses_last_run_then_fallback():
     assert g.compute_cutoff({"last_run": None}, now) == now - dt.timedelta(hours=g.LOOKBACK_HOURS)
 
 
+def test_compute_cutoff_clamps_to_start_of_day_on_same_day_rerun():
+    # A re-run later the same day must re-cover the WHOLE day, not just since the
+    # earlier run — otherwise the re-run sees an empty slice and clobbers content.
+    now = dt.datetime(2026, 7, 24, 18, 0, tzinfo=UTC)
+    same_day = g.compute_cutoff({"last_run": "2026-07-24T09:00:00+00:00"}, now)
+    assert same_day == dt.datetime(2026, 7, 24, 0, 0, tzinfo=UTC)
+
+
+def test_filter_keeps_items_seen_today_but_drops_prior_days():
+    # Same-day regenerate: an item first seen today is re-processed; one seen
+    # yesterday stays deduped.
+    now = dt.datetime(2026, 7, 24, 12, 0, tzinfo=UTC)
+    cutoff = now.replace(hour=0, minute=0)
+    items = [
+        _item("seen-today", now - dt.timedelta(hours=1)),
+        _item("seen-yesterday", now - dt.timedelta(hours=2)),
+    ]
+    seen = {"seen-today": "2026-07-24", "seen-yesterday": "2026-07-23"}
+    kept = {it["link"] for it in g.filter_and_cap(items, cutoff, seen, today="2026-07-24")}
+    assert kept == {"seen-today"}
+    # Without `today`, both are treated as seen and dropped (back-compat).
+    kept_legacy = {it["link"] for it in g.filter_and_cap(items, cutoff, seen)}
+    assert kept_legacy == set()
+
+
 def test_prune_seen():
     now = dt.datetime(2026, 7, 24, tzinfo=UTC)
     seen = {"keep": "2026-07-20", "drop": "2026-07-01"}

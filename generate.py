@@ -288,10 +288,14 @@ def filter_and_cap(
     cutoff: dt.datetime,
     seen_links: dict[str, str],
     max_per_feed: int = MAX_ITEMS_PER_FEED,
+    today: str | None = None,
 ) -> list[dict]:
     """Keep items published since `cutoff` and not already seen; cap per source.
 
     Items with no publish date are kept (many feeds omit it) unless already seen.
+    `seen` means seen on a *prior* day: when `today` is given, items first seen
+    today are still kept, so a same-day re-run can rebuild the full day. Cross-day
+    dedup (items seen yesterday or earlier) always applies.
     """
     kept: list[dict] = []
     per_source: dict[str, int] = {}
@@ -302,7 +306,8 @@ def filter_and_cap(
         reverse=True,
     )
     for it in ordered:
-        if it["link"] and it["link"] in seen_links:
+        link = it["link"]
+        if link and link in seen_links and (today is None or seen_links[link] < today):
             continue
         pub = it.get("_published_dt")
         if pub is not None and pub < cutoff:
@@ -770,10 +775,15 @@ def load_state() -> dict:
 
 
 def compute_cutoff(state: dict, now: dt.datetime) -> dt.datetime:
+    """Window start for a daily run. Normally `last_run`, but never later than the
+    start of the current day: a same-day re-run then re-covers the *whole* day and
+    regenerates today's docs completely, instead of seeing an empty slice. Normal
+    once-a-day cron is unaffected (last_run is yesterday, already < midnight)."""
+    midnight = now.replace(hour=0, minute=0, second=0, microsecond=0)
     last = state.get("last_run")
     if last:
         try:
-            return dt.datetime.fromisoformat(last)
+            return min(dt.datetime.fromisoformat(last), midnight)
         except ValueError:
             pass
     return now - dt.timedelta(hours=LOOKBACK_HOURS)
@@ -1034,10 +1044,12 @@ def rebuild_index() -> None:
                 continue
             rel = f"{KIND_DIR[kind].name}/{topic}"
             if kind == "daily":
-                links = " · ".join(
-                    f"[{s} ({counts.get((topic, s), 0)} events)]({rel}/{s}.md)"
-                    for s in stems
-                )
+                def _daily_link(s: str) -> str:
+                    n = counts.get((topic, s), 0)
+                    unit = "event" if n == 1 else "events"
+                    return f"[{s} ({n} {unit})]({rel}/{s}.md)"
+
+                links = " · ".join(_daily_link(s) for s in stems)
             else:
                 links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
             lines.append(f"- **{label}:** {links}")
@@ -1155,7 +1167,7 @@ def run_daily(dry_run: bool, no_research: bool = False) -> None:
     sources = load_sources()
     cfg = load_research_config()
     raw = fetch_all(sources)
-    items = filter_and_cap(raw, cutoff, seen)
+    items = filter_and_cap(raw, cutoff, seen, today=date)
     all_topics = sorted({s["topic"] for s in sources})
 
     # Stage 1: ONE global clustering pass across all feeds/topics, then derive
@@ -1171,6 +1183,20 @@ def run_daily(dry_run: bool, no_research: bool = False) -> None:
             for e in sorted(events, key=lambda e: e.get("importance", 0), reverse=True)[:30]
         ]
         print(json.dumps(preview, ensure_ascii=False, indent=2))
+        return
+
+    # No-op re-run guard: if nothing new survived dedup AND today's docs already
+    # exist, this is a same-day re-run — preserve the already-published content
+    # rather than clobbering it with quiet-day placeholders and wiping the index.
+    # (A genuinely quiet *first* run of the day has no docs yet, so it falls
+    # through and writes quiet-day docs as before.)
+    if not events and any(
+        (KIND_DIR["daily"] / t / f"{date}.md").exists() for t in all_topics
+    ):
+        log("no new items; preserving today's existing docs (no-op re-run)")
+        save_state(state, items, run_start)
+        record_metrics("daily", run_start)
+        log("daily run complete")
         return
 
     # Research each qualifying story ONCE (union of research-enabled topics'
