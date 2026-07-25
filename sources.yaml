@@ -12,6 +12,12 @@
 # Everything flows through the cheap Stage-1 clustering, so extra sources
 # mostly cost input tokens, not research calls.
 
+# Free-text editorial instructions appended to both LLM prompts (clustering +
+# research). Use for house style or naming rules. Applied context-aware by the
+# model (not a blind find/replace).
+custom_instructions: |
+  Refer to Donald Trump as "the president of the United States" rather than by name.
+
 # Web research (Stage 2: Sonnet + web_search/web_fetch) is expensive. Enable it
 # per topic; everything else is rendered cheaply from the Stage-1 summaries.
 research:
@@ -83,3 +89,8 @@ sources:
   - name: "Google News — Python"
     query: "Python programming language"
     topic: python
+
+  # --- Markets ---
+  - name: "Google News — markets"
+    query: "stock market OR financial markets"
+    topic: markets

@@ -22,6 +22,9 @@ theme:
     - search.share
     - content.code.copy
 
+extra_css:
+  - assets/extra.css
+
 plugins:
   - search
   - tags:

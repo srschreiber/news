@@ -93,13 +93,18 @@ def test_meter():
     assert g.meter(9) == "🔥🔥🔥🔥🔥"   # clamps down to 5
 
 
-def test_attach_sources_dedupes_and_resolves():
-    items = [_item("http://a", None, source="TC"), _item("http://a", None, source="Verge")]
-    items[0]["id"] = "x1"; items[1]["id"] = "x2"; items[1]["link"] = "http://b"
-    events = [{"title": "E", "source_item_ids": ["x1", "x2", "missing"]}]
+def test_attach_sources_dedupes_by_outlet():
+    # two items from the SAME outlet (e.g. Google News feed) collapse to one
+    items = [_item("http://a", None, source="Google News"),
+             _item("http://b", None, source="Google News"),
+             _item("http://c", None, source="The Register")]
+    for i, it in enumerate(items):
+        it["id"] = f"x{i}"
+    events = [{"title": "E", "source_item_ids": ["x0", "x1", "x2", "missing"]}]
     out = g.attach_sources(events, items)
-    urls = [s["url"] for s in out[0]["sources"]]
-    assert urls == ["http://a", "http://b"]
+    labels = [s["label"] for s in out[0]["sources"]]
+    assert labels == ["Google News", "The Register"]      # deduped by outlet
+    assert all(s["origin"] == "rss" for s in out[0]["sources"])
 
 
 def test_select_top_k_by_importance():
@@ -206,20 +211,22 @@ def test_dedupe_cross_topic_collapses_same_story():
 
 
 # --- hybrid research: enrichment overlay + fallback --------------------------- #
-def test_merge_enrichment_overlays_only_matches():
+def test_merge_enrichment_overlays_by_ref():
     events = [
-        {"title": "A", "one_liner": "orig a", "importance": 5,
-         "sources": [{"label": "RSS", "url": "http://a"}]},
+        {"title": "A", "ref": "e0", "one_liner": "orig a", "importance": 5,
+         "sources": [{"label": "RSS", "url": "http://a", "origin": "rss"}]},
         {"title": "B", "one_liner": "orig b", "importance": 3,
-         "sources": [{"label": "RSS", "url": "http://b"}]},
+         "sources": [{"label": "RSS", "url": "http://b", "origin": "rss"}]},
     ]
-    enriched = [{"title": "A", "summary": "researched a",
+    enriched = [{"ref": "e0", "summary": "researched a",
                  "sources": [{"label": "Web", "url": "http://a2"}]}]
     a, b = g.merge_enrichment(events, enriched)
     assert a["one_liner"] == "researched a" and a["researched"] is True
     assert {s["url"] for s in a["sources"]} == {"http://a", "http://a2"}  # RSS + web
-    assert b["one_liner"] == "orig b" and "researched" not in b          # untouched
-    assert b["sources"] == [{"label": "RSS", "url": "http://b"}]         # RSS only
+    origins = {s["url"]: s["origin"] for s in a["sources"]}
+    assert origins["http://a2"] == "research" and origins["http://a"] == "rss"
+    assert b["one_liner"] == "orig b" and "researched" not in b          # no ref -> untouched
+    assert b["sources"] == [{"label": "RSS", "url": "http://b", "origin": "rss"}]
 
 
 def test_merge_enrichment_empty_keeps_rss():

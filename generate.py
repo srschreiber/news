@@ -63,11 +63,12 @@ EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_PER_TOPIC = 3                  # of those, deeply web-researched (rest use RSS summary)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
-WEB_SEARCHES_PER_EVENT = 2              # research budget scales with # events...
-WEB_FETCHES_PER_EVENT = 2
-WEB_SEARCH_MAX_USES = 20                # ...bounded by this per-topic backstop
-WEB_FETCH_MAX_USES = 20
+WEB_SEARCHES_PER_EVENT = 3              # HARD per-event search cap (enforced per API call)
+WEB_FETCHES_PER_EVENT = 3               # HARD per-event fetch cap
+GLOBAL_SEARCH_SAFETY = 50               # run-wide safety net (rarely hit)
+MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~16 events/run
 WEB_FETCH_MAX_CONTENT_TOKENS = 8000     # per-page cap so one page can't flood
+MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
 STAGE2_MAX_TOKENS = 5000                # short, dense summaries — small ceiling
@@ -127,37 +128,26 @@ EVENTS_SCHEMA = {
     "additionalProperties": False,
 }
 
-# Stage 2 returns enriched summaries for the researched events (structured, so
-# we render the doc deterministically — no free-form output to drift or narrate).
+# Stage 2 researches ONE event per call and returns this structured object, so
+# we render the doc deterministically (no free-form output to drift or narrate).
 ENRICH_SCHEMA = {
     "type": "object",
     "properties": {
-        "events": {
+        "summary": {"type": "string"},  # enriched, fact-dense
+        "sources": {
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
-                    "title": {"type": "string"},   # echo back verbatim to map
-                    "summary": {"type": "string"},  # enriched, fact-dense
-                    "sources": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "label": {"type": "string"},
-                                "url": {"type": "string"},
-                            },
-                            "required": ["label", "url"],
-                            "additionalProperties": False,
-                        },
-                    },
+                    "label": {"type": "string"},  # real outlet name
+                    "url": {"type": "string"},
                 },
-                "required": ["title", "summary", "sources"],
+                "required": ["label", "url"],
                 "additionalProperties": False,
             },
-        }
+        },
     },
-    "required": ["events"],
+    "required": ["summary", "sources"],
     "additionalProperties": False,
 }
 
@@ -234,6 +224,13 @@ def research_enabled(topic: str, cfg: dict) -> bool:
     return bool(cfg["topics"].get(topic, cfg["default"]))
 
 
+def load_custom_instructions(path: Path = SOURCES_FILE) -> str:
+    """Free-text editorial instructions from sources.yaml, appended to both LLM
+    prompts (e.g. house style, or 'refer to Trump as the president')."""
+    data = yaml.safe_load(path.read_text()) or {}
+    return (data.get("custom_instructions") or "").strip()
+
+
 def entry_datetime(entry: dict) -> dt.datetime | None:
     for key in ("published_parsed", "updated_parsed"):
         st = entry.get(key)
@@ -242,13 +239,23 @@ def entry_datetime(entry: dict) -> dt.datetime | None:
     return None
 
 
+def entry_outlet(entry: dict, fallback: str) -> str:
+    """Real publishing outlet. Google News RSS items carry the true outlet in a
+    <source> element (feedparser: entry['source']['title']) — use that so links
+    read 'The Register' instead of the feed name 'Google News — …'."""
+    src = entry.get("source")
+    if isinstance(src, dict) and src.get("title"):
+        return src["title"].strip()
+    return fallback
+
+
 def normalize_entry(
     source_name: str, topic: str, idx: int, source_key: str, entry: dict
 ) -> dict:
     published = entry_datetime(entry)
     return {
         "id": f"{source_key}-{idx}",
-        "source": source_name,
+        "source": entry_outlet(entry, source_name),
         "topic": topic,
         "title": (entry.get("title") or "").strip(),
         "summary": clean_summary(entry.get("summary") or entry.get("description")),
@@ -302,6 +309,12 @@ def meter(score: int) -> str:
     return METER_FILLED * score + METER_EMPTY * (5 - score)
 
 
+def _source_badge(origin: str) -> str:
+    """GitHub-style pill tagging a source as from the RSS feed or from research."""
+    label = "Research" if origin == "research" else "RSS"
+    return f'<span class="src-badge src-{origin}">{label}</span>'
+
+
 def payload_items(items: list[dict]) -> list[dict]:
     """Strip private fields before sending to the model."""
     return [{k: v for k, v in it.items() if not k.startswith("_")} for it in items]
@@ -312,13 +325,19 @@ def attach_sources(events: list[dict], items: list[dict]) -> list[dict]:
     by_id = {it["id"]: it for it in items}
     out = []
     for ev in events:
-        sources, seen = [], set()
+        # Dedupe by outlet (feed label), not by link — Google News gives each
+        # article a unique redirect URL, so 40 articles from one feed would
+        # otherwise become 40 "sources". One link per outlet.
+        sources, seen_labels = [], set()
         for sid in ev.get("source_item_ids", []):
             it = by_id.get(sid)
-            if not it or not it.get("link") or it["link"] in seen:
+            if not it or not it.get("link"):
                 continue
-            seen.add(it["link"])
-            sources.append({"label": it["source"], "url": it["link"]})
+            label = it["source"]
+            if label in seen_labels:
+                continue
+            seen_labels.add(label)
+            sources.append({"label": label, "url": it["link"], "origin": "rss"})
         out.append({**ev, "sources": sources})
     return out
 
@@ -334,20 +353,24 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
     researched web sources (deduped). Non-researched events are unchanged, so
     their Sources line stays RSS-only.
     """
-    by_title = {e.get("title"): e for e in enriched}
+    by_ref = {e.get("ref"): e for e in enriched if e.get("ref")}
     out = []
     for ev in events:
         e = dict(ev)
-        hit = by_title.get(ev.get("title"))
+        hit = by_ref.get(ev.get("ref"))
         if hit:
             e["one_liner"] = (hit.get("summary") or e.get("one_liner", "")).strip()
-            srcs = list(e.get("sources", []))
-            seen = {s.get("url") for s in srcs}
-            for s in hit.get("sources", []):
-                if s.get("url") and s["url"] not in seen:
-                    seen.add(s["url"])
-                    srcs.append({"label": s.get("label") or "source", "url": s["url"]})
-            e["sources"] = srcs
+            # Web pages the model actually read are the most useful links, so
+            # list them first; then RSS outlets. Dedupe by outlet/label.
+            web = [{"label": s.get("label") or "source", "url": s["url"], "origin": "research"}
+                   for s in hit.get("sources", []) if s.get("url")]
+            merged, seen = [], set()
+            for s in web + list(e.get("sources", [])):
+                if s["label"] in seen:
+                    continue
+                seen.add(s["label"])
+                merged.append(s)
+            e["sources"] = merged
             e["researched"] = True
         out.append(e)
     return out
@@ -371,39 +394,52 @@ def assign_topics(events: list[dict], items: list[dict]) -> list[dict]:
     return events
 
 
-def select_research(events: list[dict], research_topics: list[str]) -> list[dict]:
-    """Union of each research-enabled topic's top RESEARCH_PER_TOPIC events.
+def select_research(
+    events: list[dict], research_topics: list[str], max_events: int = MAX_RESEARCHED_EVENTS
+) -> list[dict]:
+    """Pick which events to research, BREADTH-first and deduped.
 
-    A story spanning several topics is chosen once (deduped by title), so it's
-    researched a single time and reused across every topic doc it appears in."""
-    chosen: dict[str, dict] = {}
-    for topic in research_topics:
-        ranked = sorted(
-            (e for e in events if topic in e.get("topics", [])),
-            key=lambda e: e.get("importance", 0),
-            reverse=True,
-        )[:RESEARCH_PER_TOPIC]
-        for e in ranked:
-            chosen[e["title"]] = e
-    return list(chosen.values())
+    Each research-enabled topic contributes its top RESEARCH_PER_TOPIC events, but
+    we interleave round-robin (round 0 = every topic's #1, round 1 = every topic's
+    #2, ...) so distinct topics are covered before going deeper. A story spanning
+    several topics is chosen once (researched once, reused everywhere). Capped at
+    `max_events` as the run-wide safety net."""
+    by_topic = {
+        t: sorted((e for e in events if t in e.get("topics", [])),
+                  key=lambda e: e.get("importance", 0), reverse=True)[:RESEARCH_PER_TOPIC]
+        for t in research_topics
+    }
+    chosen, chosen_ids = [], set()
+    for rnd in range(RESEARCH_PER_TOPIC):
+        for t in research_topics:
+            lst = by_topic[t]
+            if rnd < len(lst) and id(lst[rnd]) not in chosen_ids:
+                chosen_ids.add(id(lst[rnd]))
+                chosen.append(lst[rnd])
+                if len(chosen) >= max_events:
+                    return chosen
+    return chosen
 
 
 def research_events(selected: list[dict], date: str) -> list[dict]:
-    """Research the selected events once each, in parallel batches grouped by
-    primary topic (so cost is attributed per topic). Returns enrichment list."""
+    """Research each selected event in its OWN call (so the per-event search cap
+    is hard-enforced), in parallel. Returns enrichment tagged with each event's
+    ref so merge_enrichment can overlay it."""
     if not selected:
         return []
-    groups: dict[str, list[dict]] = {}
-    for e in selected:
-        groups.setdefault(e.get("primary_topic", DEFAULT_TOPIC), []).append(e)
+    for i, e in enumerate(selected):
+        e["ref"] = f"e{i}"
     enrichment: list[dict] = []
     with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
-        futs = {ex.submit(stage2_research, evs, date, tp): tp for tp, evs in groups.items()}
+        futs = {ex.submit(stage2_research, e, date): e for e in selected}
         for fut in as_completed(futs):
+            ev = futs[fut]
             try:
-                enrichment += fut.result()
-            except Exception as e:  # a failed batch just means those keep RSS summaries
-                log(f"[{futs[fut]}] research batch failed: {e}")
+                res = fut.result()
+                if res:
+                    enrichment.append({"ref": ev["ref"], **res})
+            except Exception as exc:  # a failed event just keeps its RSS summary
+                log(f"[{ev['ref']}] research failed: {exc}")
     return enrichment
 
 
@@ -531,6 +567,9 @@ def _client():
 
 def _sys(prompt_name: str) -> list[dict]:
     text = (PROMPTS_DIR / prompt_name).read_text()
+    ci = load_custom_instructions()
+    if ci:
+        text += "\n\n## Editorial instructions (must follow)\n" + ci + "\n"
     return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
 
 
@@ -580,21 +619,27 @@ def stage1_cluster(items: list[dict]) -> list[dict]:
     return []
 
 
-def stage2_research(events: list[dict], date: str, topic: str) -> list[dict]:
-    """Web-research the given events and return structured enrichment:
-    a list of {title, summary, sources}. We render the doc from this, so the
-    model never writes free-form markdown (no narration, no heading drift).
-    Returns [] on failure — caller falls back to the Stage-1 summaries."""
+def stage2_research(event: dict, date: str) -> dict | None:
+    """Research ONE event in its own call — so the per-event search cap
+    (WEB_SEARCHES_PER_EVENT) is a HARD ceiling the API enforces via max_uses.
+    Returns {summary, sources} (real-outlet labels) or None to skip. Code renders
+    all markdown, so output tokens are just the content."""
     client = _client()
-    n = max(1, len(events))
-    search_uses = min(WEB_SEARCH_MAX_USES, n * WEB_SEARCHES_PER_EVENT)
-    fetch_uses = min(WEB_FETCH_MAX_USES, n * WEB_FETCHES_PER_EVENT)
     tools = [
-        {"type": "web_search_20260209", "name": "web_search", "max_uses": search_uses},
-        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": fetch_uses,
+        {"type": "web_search_20260209", "name": "web_search", "max_uses": WEB_SEARCHES_PER_EVENT},
+        {"type": "web_fetch_20260209", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
          "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS},
     ]
-    user = json.dumps({"date": date, "topic": topic, "events": events}, ensure_ascii=False)
+    payload = {
+        "title": event["title"], "one_liner": event.get("one_liner", ""),
+        "importance": event.get("importance", 0), "topics": event.get("topics", []),
+        "keywords": event.get("keywords", []),
+        "sources": [s["url"] for s in event.get("sources", [])],
+    }
+    user = json.dumps(
+        {"date": date, "max_searches": WEB_SEARCHES_PER_EVENT, "event": payload},
+        ensure_ascii=False,
+    )
     messages: list[dict] = [{"role": "user", "content": user}]
     final = None
     for i in range(MAX_TOOL_LOOP_ITERS):
@@ -608,21 +653,18 @@ def stage2_research(events: list[dict], date: str, topic: str) -> list[dict]:
             messages=messages,
         ) as stream:
             final = stream.get_final_message()
-        METRICS.add(topic, WRITE_MODEL, final.usage)
+        METRICS.add("(research)", WRITE_MODEL, final.usage)
         if final.stop_reason == "pause_turn":
             messages.append({"role": "assistant", "content": final.content})
-            log(f"[{topic}] stage 2 pause_turn — resuming ({i + 1}/{MAX_TOOL_LOOP_ITERS})")
             continue
         break
-    else:
-        log(f"[{topic}] stage 2 hit MAX_TOOL_LOOP_ITERS")
     if not final:
-        return []
+        return None
     try:
-        return json.loads(_text_of(final)).get("events", [])
+        obj = json.loads(_text_of(final))
+        return obj if (obj.get("summary") or "").strip() else None
     except json.JSONDecodeError:
-        log(f"[{topic}] stage 2 enrichment JSON parse failed")
-        return []
+        return None
 
 
 def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
@@ -786,7 +828,10 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
             lines.append(f"### {e['title']}")
             summary = (e.get("one_liner") or "").strip()
             lines.append(f"{meter(e.get('importance', 0))} {summary}".rstrip())
-            srcs = ", ".join(f"[{s['label']}]({s['url']})" for s in e.get("sources", []))
+            srcs = ", ".join(
+                f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"
+                for s in e.get("sources", [])[:MAX_SOURCES_PER_EVENT]
+            )
             if srcs:
                 lines.append(f"Sources: {srcs}")
             lines.append("")
