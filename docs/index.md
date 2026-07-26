@@ -24,48 +24,60 @@ Most recent per topic — see the [archive](archive.md) for the full back-catalo
 ### ai
 
 - **Daily:** [2026-07-26 (1 event)](news/ai/2026-07-26.md) · [2026-07-25 (1 event)](news/ai/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/ai/2026-W30.md)
 
 ### anthropic
 
 - **Daily:** [2026-07-26 (3 events)](news/anthropic/2026-07-26.md) · [2026-07-25 (1 event)](news/anthropic/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/anthropic/2026-W30.md)
 
 ### email-security
 
 - **Daily:** [2026-07-26 (0 events)](news/email-security/2026-07-26.md) · [2026-07-25 (0 events)](news/email-security/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/email-security/2026-W30.md)
 
 ### gaming
 
 - **Daily:** [2026-07-26 (5 events)](news/gaming/2026-07-26.md) · [2026-07-25 (10 events)](news/gaming/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/gaming/2026-W30.md)
 
 ### general
 
 - **Daily:** [2026-07-26 (10 events)](news/general/2026-07-26.md) · [2026-07-25 (10 events)](news/general/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/general/2026-W30.md)
 
 ### golang
 
 - **Daily:** [2026-07-26 (0 events)](news/golang/2026-07-26.md) · [2026-07-25 (0 events)](news/golang/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/golang/2026-W30.md)
 
 ### gpt
 
 - **Daily:** [2026-07-26 (1 event)](news/gpt/2026-07-26.md) · [2026-07-25 (4 events)](news/gpt/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/gpt/2026-W30.md)
 
 ### markets
 
 - **Daily:** [2026-07-26 (7 events)](news/markets/2026-07-26.md) · [2026-07-25 (3 events)](news/markets/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/markets/2026-W30.md)
 
 ### postgres
 
 - **Daily:** [2026-07-26 (0 events)](news/postgres/2026-07-26.md) · [2026-07-25 (0 events)](news/postgres/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/postgres/2026-W30.md)
 
 ### python
 
 - **Daily:** [2026-07-26 (0 events)](news/python/2026-07-26.md) · [2026-07-25 (0 events)](news/python/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/python/2026-W30.md)
 
 ### security
 
 - **Daily:** [2026-07-26 (0 events)](news/security/2026-07-26.md) · [2026-07-25 (0 events)](news/security/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/security/2026-W30.md)
 
 ### world
 
 - **Daily:** [2026-07-26 (10 events)](news/world/2026-07-26.md) · [2026-07-25 (10 events)](news/world/2026-07-25.md)
+- **Weekly:** [2026-W30](weekly/world/2026-W30.md)
 

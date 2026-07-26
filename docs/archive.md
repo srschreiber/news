@@ -17,3 +17,53 @@ Full history of daily briefings, grouped by month. Use the [keyword search](sear
 - **security:** [2026-07-26 (0 events)](news/security/2026-07-26.md) · [2026-07-25 (0 events)](news/security/2026-07-25.md)
 - **world:** [2026-07-26 (10 events)](news/world/2026-07-26.md) · [2026-07-25 (10 events)](news/world/2026-07-25.md)
 
+## Rollups
+
+### ai
+
+- **Weekly:** [2026-W30](weekly/ai/2026-W30.md)
+
+### anthropic
+
+- **Weekly:** [2026-W30](weekly/anthropic/2026-W30.md)
+
+### email-security
+
+- **Weekly:** [2026-W30](weekly/email-security/2026-W30.md)
+
+### gaming
+
+- **Weekly:** [2026-W30](weekly/gaming/2026-W30.md)
+
+### general
+
+- **Weekly:** [2026-W30](weekly/general/2026-W30.md)
+
+### golang
+
+- **Weekly:** [2026-W30](weekly/golang/2026-W30.md)
+
+### gpt
+
+- **Weekly:** [2026-W30](weekly/gpt/2026-W30.md)
+
+### markets
+
+- **Weekly:** [2026-W30](weekly/markets/2026-W30.md)
+
+### postgres
+
+- **Weekly:** [2026-W30](weekly/postgres/2026-W30.md)
+
+### python
+
+- **Weekly:** [2026-W30](weekly/python/2026-W30.md)
+
+### security
+
+- **Weekly:** [2026-W30](weekly/security/2026-W30.md)
+
+### world
+
+- **Weekly:** [2026-W30](weekly/world/2026-W30.md)
+
