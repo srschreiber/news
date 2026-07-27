@@ -59,19 +59,10 @@ REPO_URL = "https://github.com/srschreiber/news"
 WOTD_FEED_URL = "https://www.merriam-webster.com/wotd/feed/rss2"
 WORDS_FILE = DOCS / "words.json"   # accumulated WOTD history, feeds the quiz page
 WORDS_HISTORY_MAX = 90             # cap the stored word history
-# Wikipedia "On this day" (free, no key, verifiable) — biased toward tech/science
-# so the home-page fact leans conceptual rather than trivia.
+# Wikipedia "On this day" (free, no key, verifiable) — Wikipedia's curated
+# `selected` events for the calendar date.
 ONTHISDAY_URL = "https://en.wikipedia.org/api/rest_v1/feed/onthisday/selected/{mm}/{dd}"
 ONTHISDAY_UA = "sam-news/1.0 (https://github.com/srschreiber/news)"
-FACT_PREFER = (
-    "computer", "software", "internet", "technolog", "comput", "digital",
-    "science", "scientist", "physics", "chemistry", "mathematic", "astronom",
-    "space", "nasa", "satellite", "rocket", "telescope", "quantum",
-    "semiconductor", "transistor", "electric", "engine", "invent", "patent",
-    "discover", "algorithm", "telephone", "radio", "aviation", "aircraft",
-    "dna", "vaccine", "medicine", "economic", "financ", "market", "currency",
-    "stock exchange", "bank",
-)
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
@@ -1165,9 +1156,9 @@ def _parse_fact(e: dict) -> dict | None:
 
 
 def fetch_fact_of_the_day(now: dt.datetime | None = None) -> dict | None:
-    """A verifiable 'on this day' fact from Wikipedia, biased toward tech/science
-    so it leans conceptual. Returns {year, text, link} or None on failure — the
-    home page just omits the card then. Deterministic, no LLM."""
+    """A verifiable 'on this day' fact from Wikipedia's curated `selected` events.
+    Returns {year, text, link} or None on failure — the home page just omits the
+    card then. Deterministic, no LLM. Shows the first (most recent) event."""
     now = now or now_utc()
     url = ONTHISDAY_URL.format(mm=f"{now.month:02d}", dd=f"{now.day:02d}")
     try:
@@ -1177,11 +1168,7 @@ def fetch_fact_of_the_day(now: dt.datetime | None = None) -> dict | None:
         log(f"fact-of-the-day fetch failed: {e}")
         return None
     facts = [f for f in (_parse_fact(e) for e in data.get("selected", [])) if f]
-    if not facts:
-        return None
-    # Prefer topic-relevant (tech/science/finance) events; stable otherwise.
-    facts.sort(key=lambda f: -sum(1 for k in FACT_PREFER if k in f["text"].lower()))
-    return facts[0]
+    return facts[0] if facts else None
 
 
 def _fact_card(f: dict) -> list[str]:
