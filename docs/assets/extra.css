@@ -32,3 +32,31 @@
   font-weight: 700;
   text-decoration: underline;
 }
+
+/* Per-story "copy link to share" button next to each story heading. */
+.share-link {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-size: 0.62em;
+  font-weight: 600;
+  margin-left: 0.45rem;
+  padding: 0 0.2rem;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.4;
+  vertical-align: middle;
+  transition: opacity 0.15s ease;
+  white-space: nowrap;
+}
+h3:hover > .share-link,
+.share-link:hover,
+.share-link:focus,
+.share-link.copied {
+  opacity: 1;
+}
+.share-link.copied {
+  color: #1a7f37;
+}
+[data-md-color-scheme="slate"] .share-link.copied {
+  color: #3fb950;
+}
