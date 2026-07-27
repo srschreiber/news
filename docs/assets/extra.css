@@ -1,3 +1,8 @@
+/* Narrower left nav so it doesn't crunch the main content (wide screens only). */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary { width: 10rem; }
+}
+
 /* GitHub-style pill badges tagging each source's origin (RSS vs Research). */
 .src-badge {
   display: inline-block;
