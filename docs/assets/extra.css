@@ -124,6 +124,13 @@
 }
 .fact-text { margin-top: 0.3rem; }
 .fact-src { font-size: 0.78rem; white-space: nowrap; }
+.md-typeset .fact.funfact { border-left-color: #2ea043; }   /* green accent */
+.wl-date {
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 
 /* Word of the day card on the home page. */
 .md-typeset .wotd {

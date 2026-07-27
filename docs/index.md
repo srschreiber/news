@@ -30,6 +30,11 @@ Today's biggest stories across every topic. Pick a topic from the sidebar to div
 <div class="fact-text">A major oil spill from the Colonial Pipeline was discovered in Mecklenburg County, North Carolina (system map pictured). <a class="fact-src" href="https://en.wikipedia.org/wiki/2020_Colonial_Pipeline_oil_spill" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
+<div class="fact funfact">
+<div class="fact-label">💡 Fact of the day</div>
+<div class="fact-text">In 1886, Coca-Cola sold nine servings of its drinks per day in its first year; now it has over 2.2 billion servings consumed daily worldwide, which is about 25,500 every second. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+</div>
+
 
 ---
 

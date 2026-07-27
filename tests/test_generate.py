@@ -239,6 +239,17 @@ def test_parse_wotd_falls_back_to_shortdef():
     assert w["definition"] == "acceptable or fine"
 
 
+def test_factsite_snippet():
+    raw = ('<html><body><nav>menu</nav>'
+           '<h2>Fact of the Day</h2><script>var x=1;</script>'
+           '<div class="fotd">Honey never spoils.</div>'
+           '<footer>...</footer></body></html>')
+    s = g._factsite_snippet(raw)
+    assert "Honey never spoils." in s
+    assert "<" not in s and "var x" not in s   # tags + scripts stripped
+    assert g._factsite_snippet("<html>no widget here</html>") == ""
+
+
 def test_parse_fact():
     e = {"year": 1976, "text": "Apple Computer was founded.",
          "pages": [{"content_urls": {"desktop": {"page": "https://en.wikipedia.org/wiki/Apple"}}}]}

@@ -63,6 +63,12 @@ WORDS_HISTORY_MAX = 90             # cap the stored word history
 # `selected` events for the calendar date.
 ONTHISDAY_URL = "https://en.wikipedia.org/api/rest_v1/feed/onthisday/selected/{mm}/{dd}"
 ONTHISDAY_UA = "sam-news/1.0 (https://github.com/srschreiber/news)"
+# thefactsite.com has no API — fetch the homepage and let Haiku extract the
+# 'Fact of the Day' widget verbatim from a tiny pre-sliced snippet (~$0.0005).
+FACTSITE_URL = "https://www.thefactsite.com/"
+FACTSITE_FOTD = "https://www.thefactsite.com/fact-of-the-day/"
+FUNFACTS_FILE = DOCS / "funfacts.json"   # accumulated fun-fact history for the Facts page
+FUNFACTS_HISTORY_MAX = 120
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
@@ -182,6 +188,14 @@ POLISH_SCHEMA = {
         }
     },
     "required": ["events"],
+    "additionalProperties": False,
+}
+
+
+FUNFACT_SCHEMA = {
+    "type": "object",
+    "properties": {"fact": {"type": "string"}},
+    "required": ["fact"],
     "additionalProperties": False,
 }
 
@@ -1184,6 +1198,85 @@ def _fact_card(f: dict) -> list[str]:
     ]
 
 
+def _factsite_snippet(raw: str) -> str:
+    """Text slice around thefactsite.com's 'Fact of the Day' widget, tags
+    stripped — keeps the Haiku input tiny. Pure/testable."""
+    i = raw.lower().find("fact of the day")
+    if i < 0:
+        return ""
+    seg = raw[i:i + 1600]
+    seg = re.sub(r"(?is)<script.*?</script>", " ", seg)
+    seg = re.sub(r"(?is)<[^>]+>", " ", seg)
+    return html.unescape(re.sub(r"\s+", " ", seg)).strip()
+
+
+def fetch_fun_fact() -> dict | None:
+    """thefactsite.com 'Fact of the Day': fetch the homepage, slice the widget,
+    and have Haiku extract the fact verbatim from a tiny snippet (~$0.0005).
+    Returns {text} or None — the card is simply omitted on any failure. Not an
+    API, so this degrades gracefully if the page changes."""
+    try:
+        req = urllib.request.Request(FACTSITE_URL, headers={"User-Agent": ONTHISDAY_UA})
+        raw = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", "ignore")
+    except Exception as e:
+        log(f"fun-fact fetch failed: {e}")
+        return None
+    snippet = _factsite_snippet(raw)
+    if not snippet:
+        return None
+    try:
+        resp = _client().messages.create(
+            model=CLUSTER_MODEL,
+            max_tokens=150,
+            output_config={"format": {"type": "json_schema", "schema": FUNFACT_SCHEMA}},
+            system=("You are given text scraped from around a website's 'Fact of "
+                    "the Day' widget. Return JSON {\"fact\": \"...\"} containing "
+                    "ONLY that day's fact, copied verbatim from the text. Do not "
+                    "invent, summarize, or add anything. If there is no clear "
+                    "single fact, return an empty string."),
+            messages=[{"role": "user", "content": snippet}],
+        )
+    except Exception as e:
+        log(f"fun-fact parse failed: {e}")
+        return None
+    METRICS.add("(funfact)", CLUSTER_MODEL, resp.usage)
+    try:
+        fact = (json.loads(_text_of(resp)).get("fact") or "").strip()
+    except json.JSONDecodeError:
+        return None
+    return {"text": fact} if fact else None
+
+
+def _funfact_card(f: dict) -> list[str]:
+    esc = html.escape
+    return [
+        '<div class="fact funfact">',
+        '<div class="fact-label">\U0001F4A1 Fact of the day</div>',
+        f'<div class="fact-text">{esc(f["text"])} '
+        '<a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" '
+        'target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>',
+        "</div>",
+        "",
+    ]
+
+
+def record_fun_fact(f: dict) -> None:
+    """Append today's fun fact + date to docs/funfacts.json (deduped against the
+    last entry). The Facts page reads this history."""
+    hist: list = []
+    if FUNFACTS_FILE.exists():
+        try:
+            hist = json.loads(FUNFACTS_FILE.read_text())
+        except json.JSONDecodeError:
+            hist = []
+    if hist and hist[-1].get("text") == f["text"]:
+        return
+    hist.append({"date": now_utc().date().isoformat(), "text": f["text"]})
+    FUNFACTS_FILE.write_text(
+        json.dumps(hist[-FUNFACTS_HISTORY_MAX:], ensure_ascii=False, indent=2) + "\n"
+    )
+
+
 def record_word_of_the_day(w: dict) -> None:
     """Append today's word to docs/words.json (deduped against the last entry so
     same-day re-runs don't duplicate). The quiz page reads the recent tail."""
@@ -1219,6 +1312,10 @@ def rebuild_index() -> None:
     fact = fetch_fact_of_the_day()
     if fact:
         lines += _fact_card(fact)
+    fun = fetch_fun_fact()
+    if fun:
+        record_fun_fact(fun)
+        lines += _funfact_card(fun)
     lines += [
         "",
         "---",
