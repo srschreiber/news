@@ -48,6 +48,10 @@
   background: var(--md-default-fg-color--lightest);
 }
 .imp i.on { background: #f6ad3c; }
+/* Colour the filled bars by importance: 1–2 red, 3 amber, 4–5 green. */
+.imp-1 i.on, .imp-2 i.on { background: #e5484d; }
+.imp-3 i.on { background: #f6ad3c; }
+.imp-4 i.on, .imp-5 i.on { background: #2ea043; }
 .imp i:nth-child(1) { height: 34%; }
 .imp i:nth-child(2) { height: 50%; }
 .imp i:nth-child(3) { height: 67%; }

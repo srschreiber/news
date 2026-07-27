@@ -343,7 +343,7 @@ def meter(score: int) -> str:
     `.imp` in extra.css; mirrored in search.js so search results match."""
     n = max(1, min(5, int(score or 0)))
     bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(5))
-    return (f'<span class="imp" title="Importance {n}/5" '
+    return (f'<span class="imp imp-{n}" title="Importance {n}/5" '
             f'aria-label="Importance {n} of 5">{bars}</span>')
 
 

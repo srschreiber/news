@@ -226,26 +226,26 @@ headings, giving free navigation without splitting into multiple files.
 # Tech News — 2026-07-24
 
 ## TL;DR
-- 🔥🔥🔥🔥🔥 [Go 1.18 ships generics](#go-118-ships-generics)
-- 🔥🔥🔥🔥◯ [Company ABC raised $40M Series B led by XYZ](#company-abc-raised-40m-series-b)
+- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [Go 1.18 ships generics](#go-118-ships-generics)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Company ABC raised $40M Series B led by XYZ](#company-abc-raised-40m-series-b)
 - ...
 
 ## Programming Languages
 
 ### Go 1.18 ships generics
-🔥🔥🔥🔥🔥 Type parameters land in the stable release after years of proposals.
+<span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> Type parameters land in the stable release after years of proposals.
 <fuller detail from research if any>.
 Sources: [Ars Technica](url), [The Register](url), [go.dev release notes](url)
 
 ## Funding
 
 ### Company ABC raised $40M Series B
-🔥🔥🔥🔥◯ Led by XYZ Capital; funds international expansion.
+<span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> Led by XYZ Capital; funds international expansion.
 Sources: [TechCrunch](url), [The Verge](url)
 ```
 
 Each event is an `###` under its theme `##` (so both the TL;DR anchors and the
-Material ToC resolve to it). Each carries a 5-slot importance meter (`🔥` filled,
+Material ToC resolve to it). Each carries a 5-slot importance meter (`<span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span>` filled,
 `◯` empty) mapping to the 1–5 score — clean labels: 1 = meh, 2 = notable,
 3 = big deal, 4 = major, 5 = huge — and ends with a "Sources:" trail combining
 RSS article links and any researched web links.
@@ -332,7 +332,7 @@ whatever briefing was produced — a capped run degrades, it doesn't fail.
 | Research | web_fetch (article link) + web_search server tools, discretionary per event |
 | Dedup | In Stage 1 — events clustered across feeds; provenance recorded |
 | Doc layout | TL;DR + theme sections |
-| Importance score | 1–5 per event, rendered as a 🔥/◯ meter (meh → huge) |
+| Importance score | 1–5 per event, rendered as a <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span>/◯ meter (meh → huge) |
 | Citations | Mandatory for every story; researched facts cite their page |
 | Cost guardrails | TOP_K_TO_RESEARCH + max_uses caps + loop cap + max_tokens + per-feed cap + caching |
 | Site | MkDocs (Material) on GitHub Pages |
