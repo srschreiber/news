@@ -1,12 +1,10 @@
-# World (5)
+# World (3)
 
 ## Latest — 2026-07-27
 
-- <span class="imp" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [US pauses Iran military strikes, markets rally on reduced tensions](../news/markets/2026-07-27.md#us-pauses-iran-military-strikes-markets-rally-on-reduced-tensions)
-- <span class="imp" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Houthis attack Saudi Arabia as Iran conflict widens to Red Sea](../news/world/2026-07-27.md#houthis-attack-saudi-arabia-as-iran-conflict-widens-to-red-sea)
-- <span class="imp" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Hundreds of thousands evacuated in France and Spain as wildfires rage](../news/world/2026-07-27.md#hundreds-of-thousands-evacuated-in-france-and-spain-as-wildfires-rage)
-- <span class="imp" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Wildberries warehouse in St. Petersburg targeted by Ukrainian drone strikes](../news/world/2026-07-27.md#wildberries-warehouse-in-st-petersburg-targeted-by-ukrainian-drone-strikes)
-- <span class="imp" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Berlin Pride attack suspect attempted to join ISIS, prosecutors say](../news/world/2026-07-27.md#berlin-pride-attack-suspect-attempted-to-join-isis-prosecutors-say)
+- <span class="imp" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [U.S. and Iran Pause Military Hostilities, Stock Markets Rally](../news/markets/2026-07-27.md#us-and-iran-pause-military-hostilities-stock-markets-rally)
+- <span class="imp" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Paris Terror Attack Leaves Three Women Stabbed](../news/world/2026-07-27.md#paris-terror-attack-leaves-three-women-stabbed)
+- <span class="imp" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Major Wildfires Force Hundreds of Thousands to Evacuate in France and Spain](../news/world/2026-07-27.md#major-wildfires-force-hundreds-of-thousands-to-evacuate-in-france-and-spain)
 
 ## Earlier
 

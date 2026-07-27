@@ -1,21 +1,118 @@
 [
   {
     "date": "2026-07-27",
-    "event_id": "samsung-sds-partners-with-anthropic-to-deploy-claude-in-enterprise-systems",
-    "title": "Samsung SDS partners with Anthropic to deploy Claude in enterprise systems",
-    "summary": "Samsung SDS has partnered with Anthropic to integrate Claude AI into enterprise systems and operations.",
+    "event_id": "samsung-galaxy-watch-gets-free-custom-design-tool",
+    "title": "Samsung Galaxy Watch Gets Free Custom Design Tool",
+    "summary": "Samsung released a free design tool allowing Galaxy Watch users to create custom watch faces from scratch.",
+    "theme": "Hardware",
+    "importance": 1,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Samsung",
+      "Galaxy Watch",
+      "design tool"
+    ],
+    "url": "news/general/2026-07-27/#samsung-galaxy-watch-gets-free-custom-design-tool",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2218758/customize-samsung-galaxy-watch-free-graphic-design-tool-watch-face-studio/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "nike-introduces-hyperslides-with-heat-and-vibration-recovery-features",
+    "title": "Nike Introduces Hyperslides with Heat and Vibration Recovery Features",
+    "summary": "Nike launched Hyperslides footwear with heat and vibration technology designed to aid post-workout recovery.",
+    "theme": "Hardware",
+    "importance": 1,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Nike",
+      "Hyperslides",
+      "recovery technology"
+    ],
+    "url": "news/general/2026-07-27/#nike-introduces-hyperslides-with-heat-and-vibration-recovery-features",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2222958/nike-air-zoom-hyperslide-heat-and-vibrate-your-feet-to-help-you-recover-after-workouts/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "apple-watch-se-3-positioned-as-budget-alternative-to-premium-models",
+    "title": "Apple Watch SE 3 Positioned as Budget Alternative to Premium Models",
+    "summary": "The Apple Watch SE 3 offers a budget option with fewer features than premium Apple Watch models, potentially meeting many users' needs at lower cost.",
+    "theme": "Hardware",
+    "importance": 1,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Apple Watch",
+      "SE 3",
+      "budget",
+      "wearable"
+    ],
+    "url": "news/general/2026-07-27/#apple-watch-se-3-positioned-as-budget-alternative-to-premium-models",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2222503/apple-watch-se-3-cheaper-than-lineup-comparison/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "d-wave-quantum-computing-stock-surges",
+    "title": "D-Wave Quantum Computing Stock Surges",
+    "summary": "D-Wave Quantum stock experienced a significant price surge.",
+    "theme": "Markets",
+    "importance": 1,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "D-Wave",
+      "quantum computing",
+      "stock"
+    ],
+    "url": "news/markets/2026-07-27/#d-wave-quantum-computing-stock-surges",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX21RX29lclItR1F0d2x3SWxva29sNGx5Vk1GTHZsdWlXSDdrWFdqc2ZSUE8zZ3lBMTFad0VuUllyZUFQd21Gc1dURFNaa09yTDNIcnhfa3VGZkI0QmpnUDBad3p5cE5WSDBjbUF4VHh4VkVuYWktWnVnNUZWVzN2TkFiQTRNZS1HMXc3MTBlTXJTZWdjenhxeEZQenZQY2hLdW5Hak1R?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "samsung-sds-partners-with-anthropic-on-enterprise-ai-solutions",
+    "title": "Samsung SDS Partners with Anthropic on Enterprise AI Solutions",
+    "summary": "Samsung SDS announced a partnership with Anthropic to develop and deploy Claude AI solutions for enterprise customers.",
     "theme": "AI",
     "importance": 2,
     "topics": [
       "anthropic"
     ],
     "keywords": [
-      "Samsung SDS",
+      "Samsung",
       "Anthropic",
       "Claude",
       "enterprise"
     ],
-    "url": "news/anthropic/2026-07-27/#samsung-sds-partners-with-anthropic-to-deploy-claude-in-enterprise-systems",
+    "url": "news/anthropic/2026-07-27/#samsung-sds-partners-with-anthropic-on-enterprise-ai-solutions",
     "sources": [
       {
         "label": "Korea JoongAng Daily",
@@ -26,33 +123,9 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "aegisai-lands-36-million-to-combat-ai-powered-spear-phishing-surge",
-    "title": "AegisAI lands $36 million to combat AI-powered spear phishing surge",
-    "summary": "Security startup AegisAI raised $36 million to address the rising threat of AI-driven spear phishing attacks.",
-    "theme": "Security",
-    "importance": 2,
-    "topics": [
-      "email-security"
-    ],
-    "keywords": [
-      "AegisAI",
-      "AI phishing",
-      "security funding"
-    ],
-    "url": "news/email-security/2026-07-27/#aegisai-lands-36-million-to-combat-ai-powered-spear-phishing-surge",
-    "sources": [
-      {
-        "label": "FinTech Global",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaUZPamVoSWluUmQ3QkJXajlRbXZxMjJ1SmhvSWxINE5mRGpVdEhYQXZTNG9Pa3NfLXotSnl0NVBNRWs1LXlFZ1BuTHEzUWk1WVZ3dTI5ZFhZeXhDMkxBdUkxM2VyWGJOT1plLUF2UGRzOGtUeENvQ085TldIYmJkVEJ3Mkx6VEtMNVhiXzYwWXE?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "chatgpt-becomes-most-impersonated-brand-in-phishing-attacks",
-    "title": "ChatGPT becomes most impersonated brand in phishing attacks",
-    "summary": "ChatGPT has risen to become one of the most impersonated brands in phishing attack campaigns.",
+    "event_id": "chatgpt-emerges-as-top-impersonated-brand-in-phishing-attacks",
+    "title": "ChatGPT Emerges as Top Impersonated Brand in Phishing Attacks",
+    "summary": "ChatGPT has become one of the most impersonated brands in phishing attacks, representing a significant security threat to users.",
     "theme": "Security",
     "importance": 2,
     "topics": [
@@ -61,10 +134,10 @@
     "keywords": [
       "ChatGPT",
       "phishing",
-      "OpenAI",
-      "cybersecurity"
+      "impersonation",
+      "security"
     ],
-    "url": "news/email-security/2026-07-27/#chatgpt-becomes-most-impersonated-brand-in-phishing-attacks",
+    "url": "news/email-security/2026-07-27/#chatgpt-emerges-as-top-impersonated-brand-in-phishing-attacks",
     "sources": [
       {
         "label": "Help Net Security",
@@ -75,132 +148,52 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "xbox-live-experiences-major-outages-preventing-sign-in-and-game-launches",
-    "title": "Xbox Live experiences major outages preventing sign-in and game launches",
-    "summary": "Xbox services went down, preventing users from signing in and launching games, with Microsoft acknowledging the outages and working on mitigation.",
-    "theme": "Gaming",
+    "event_id": "aegisai-raises-36-million-to-combat-ai-powered-spear-phishing",
+    "title": "AegisAI Raises $36 Million to Combat AI-Powered Spear Phishing",
+    "summary": "AegisAI secured $36 million in funding to develop defenses against increasingly sophisticated AI-driven spear phishing attacks.",
+    "theme": "Security",
     "importance": 2,
     "topics": [
-      "gaming"
+      "email-security"
     ],
     "keywords": [
-      "Xbox",
-      "outage",
-      "gaming",
-      "Microsoft",
-      "services"
+      "AegisAI",
+      "phishing",
+      "AI",
+      "security",
+      "funding"
     ],
-    "url": "news/gaming/2026-07-27/#xbox-live-experiences-major-outages-preventing-sign-in-and-game-launches",
+    "url": "news/email-security/2026-07-27/#aegisai-raises-36-million-to-combat-ai-powered-spear-phishing",
     "sources": [
       {
-        "label": "News4JAX",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMXpuUWJzWVEtRWVvTkpzZmRGZ0FrN0R2Zk5fV09ib014ZkMyTFpYZFFZTUNaVzYyRG5BWW1pbkh0Q2hOYXNsckc0MGE5ZWFPYWxvREZWdEtNS0NHS25vb0tWcThFamdUdVByZXdNcGJkUF9KR3VoT1pzb05HMmZINW1Ebm5HSG95V1U0bVJJMTJpd3dJSTc5MVFhOWZMTWE5NkxMc3ExZDNOQQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Video Games Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORUJYdUwyMmZmT05lT3hDTWJjUG5DRkQ4QndKZkMwWXM4OFUtOVlEVHpUOXRjMHVWd0RaTEJRdm1zTzlySnQ4aTc0MVkxMmNOWk91dXVZejRtcGlybVRwbnRIUVVkNjlocDJsVzlKeWh3bXd3NVVRaFBMVDRHUU5kOHl4WDlwZzVJY0tleFdWVG5SUmNPajhiTHdyRkg2Q3J0VjNmakt0LWlhOTAwb1FRcnJDZ0dvRTl6c3FaNk9COGEzWHhfQS1Ndm5sUEs2azBGU2dwVkV0c2d5a1FsOXhEYU5xOXgxQQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Pure Xbox",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWW14UXNacnVzZWcxeXFlZ2lKb1JqNUwzLVdSdWg1Y0hDc04xeXV2bVBBdUM4cnFEbkxEUEx6V2Y1R0MtQ0JmZGUxLUdZcjltQ0FhSHBRWnZ2RDdUVTIweXlIWWtnZFB2bTg4eXYzRVhJSkx2ZWNpNkdqTHR5aUpGTURkSUs5ODVmMWhPSXlYbmVYZHlVVU5TU3UtbnBrZmxDdnRBU0F5QTU?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "MP1st",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNazVVSHVpRGp2OTJWTFNjNnBQcDAxR3hCRU94ZGNkTWZDTGNDSVdHWldSRUREUUN3bmxHNVRJZk5SMFBENHhIYjJmaEw5RmU5OXRZcFZmMzZ1M1FkYVNkZWIyd2xGbDM1cHBkblROanpQVWRYai11ZDVRTG52a2I3X3VIV0pJeHREUEI0NTRjcw?oc=5",
+        "label": "FinTech Global",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaUZPamVoSWluUmQ3QkJXajlRbXZxMjJ1SmhvSWxINE5mRGpVdEhYQXZTNG9Pa3NfLXotSnl0NVBNRWs1LXlFZ1BuTHEzUWk1WVZ3dTI5ZFhZeXhDMkxBdUkxM2VyWGJOT1plLUF2UGRzOGtUeENvQ085TldIYmJkVEJ3Mkx6VEtMNVhiXzYwWXE?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "stalker-2-cost-of-hope-launches-august-20-with-engine-upgrade-and-story-expansion",
-    "title": "S.T.A.L.K.E.R. 2: Cost of Hope launches August 20 with engine upgrade and story expansion",
-    "summary": "S.T.A.L.K.E.R. 2: Cost of Hope official launch is set for August 20 with a major engine upgrade and first story expansion included.",
-    "theme": "Gaming",
+    "event_id": "amd-ryzen-9-9950x3d-gaming-cpu-discounted-to-569-with-coupons",
+    "title": "AMD Ryzen 9 9950X3D Gaming CPU Discounted to $569 with Coupons",
+    "summary": "AMD's high-end Ryzen 9 9950X3D processor is available at a significant discount of $569 using coupons.",
+    "theme": "Hardware",
     "importance": 2,
     "topics": [
       "gaming"
     ],
     "keywords": [
-      "S.T.A.L.K.E.R. 2",
-      "game launch",
-      "PC Games",
-      "engine update"
+      "AMD",
+      "Ryzen",
+      "CPU",
+      "processor",
+      "discount"
     ],
-    "url": "news/gaming/2026-07-27/#stalker-2-cost-of-hope-launches-august-20-with-engine-upgrade-and-story-expansion",
+    "url": "news/gaming/2026-07-27/#amd-ryzen-9-9950x3d-gaming-cpu-discounted-to-569-with-coupons",
     "sources": [
       {
-        "label": "Instant Gaming News",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNHNBRDdUWVZGR3dXNE1yR0V2RlhBWkdfbkl1VmFnTTNFOGtnZnR2UThkbkk4Slc4dlZWdlRiRG9UZHdQSXowN0JTbGxkTnViSEhBMVJWUndtQll4VkFVNTQyTkdnVEZ1UzZ3NnlZTmFwUmJiLVZGUVZ5R24zTlBfUFdtQ3ZzZkx5cHh1c3hYMnlBZWhUTGJIVjl6TXl0OThuMmNaU2Z4Z0dPOTdCLXpSMg?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "PC Gamer",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlg3eUVESUcxU3FCMkZsZUNvaGJSSEhSNU5sa2ZqX08zZkYwMnNpWnNVSnhpSF9QTjA2aTB4cWtIVXZpcWJOS2RySWZlNW9EZUhKZmdPcWxxMnd5N3Z4SHJQdFhYc0lzWmZBZWlKNFdXUTF0bGRuMnBqa3NxNXllVTRXRjNEenJoWmV4OXRQVDNFLWo5QXFuWFhfb2xZNU1HQy1kNHZJcTF4Y2lp?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "GameGPU",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdmRReUtXYXlFYnhpN085Rkd2NnU4c3dTSFFSdldKWF82Q1ZZZ05wQzlReVh1b1lWOTBjdlNpUWtJX3o0VFJjRXVUWG10U1ctbndBd09EVzlGZUhZUUh5Z3JuejVTOWppYkNheGt5TmUzWGhZdThEanhCc0l2ZFk1bFFuR1V0a0h0blpvZTk5ZGM5V25aenk5RDI2QUxnQTJGclloZmh3M0dDT0I5bVE?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "pokemon-card-stores-in-japan-implement-facial-recognition-to-enforce-purchase-limits",
-    "title": "Pokemon card stores in Japan implement facial recognition to enforce purchase limits",
-    "summary": "Japanese Pokemon card retailers are deploying facial recognition technology to prevent customers from circumventing per-person purchasing rules.",
-    "theme": "Retail",
-    "importance": 2,
-    "topics": [
-      "gaming"
-    ],
-    "keywords": [
-      "Pokemon",
-      "facial recognition",
-      "retail",
-      "Japan",
-      "purchase limits"
-    ],
-    "url": "news/gaming/2026-07-27/#pokemon-card-stores-in-japan-implement-facial-recognition-to-enforce-purchase-limits",
-    "sources": [
-      {
-        "label": "Video Games Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONG5TRVhlREdpTjFWM082THZyVFBSUTNBaHBPbEZiUFJrT1I5OXJ1c2ppYU9QSko1RnBPc3hpanpqdk9PeTNzRjgxQUpKZUdIMmxFaGZwWmsxWGxDRDJQMWpjY3RPeWtrYTRGNDhRczhnMDVPUTd6bG51MDF5MWpfVlJ4UHItWWpyV2tWczBjOUtkUVpFQkpyaWhXZmIyN01TNWd3czFnTmdxMWlwcTNheGlfWG9aY2h3dmJPM05tVGRhUmNYb2dLeGFsdEk4Z1hDd3hEU2NvYzZ4cG9ob3dfTQ?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "ubisoft-developing-new-ambitious-open-world-far-cry-game-at-vantage-studios",
-    "title": "Ubisoft developing new ambitious open-world Far Cry game at Vantage Studios",
-    "summary": "Ubisoft is cooking a new Far Cry title described as 'really ambitious' at Vantage Studios while discontinuing the series' extraction shooter.",
-    "theme": "Gaming",
-    "importance": 2,
-    "topics": [
-      "gaming"
-    ],
-    "keywords": [
-      "Ubisoft",
-      "Far Cry",
-      "game development",
-      "Vantage Studios"
-    ],
-    "url": "news/gaming/2026-07-27/#ubisoft-developing-new-ambitious-open-world-far-cry-game-at-vantage-studios",
-    "sources": [
-      {
-        "label": "CGMagazine",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ibXpvV3NXMXdyZjJmMjVvNjl1S2l0Ym1yQUZOV1EzSGtjRVgxaTZGaUlaSnZmaUR1TzNtc0o0RDBrQ1lwM1RjaHF2Z1J5RHVQcTRmdktSQkFWUTVxUmNBU1ZEdlIxbk9GRlk2RklOWDVZQnk5M1pRMWhpQQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Push Square",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMWdGNUxHMEhaSFpOdHotRlM4a0llbXdZMWVsWXZqMmRxOFV2RW5PQWVDXzczRzNVc2ZDUDVxRmtScENTaXAzeVNqNVhHS2JMemtYUzVuTGdualJ4U2MzYWJGMkpodmMyZWZTbmdacENISEpxMHFjaVdFUU5uaVJmQ2dxY0lrME5oVVRpQUI5bzdCRV9FQ3lRUzFidGRSTXU5Q1pMNEZ4MF85UkJMWDJCV3lpSThqSzhxRUYyV2hNU3pCNjFxNEhWWTZkVkFTd0prTHpQb0pXcHVaZ1kzYWd4Q0NrMA?oc=5",
+        "label": "HotHardware",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaWMzRlJaNnR4NWJYRDZBT3VNc0dQMzFuSG10MVZlc1ZwaHd5bkxBS3JRTUlIMXdST3RWMzhwWk4xdTg2dlZnaFpGeUpVNWoyeXJoOTBSWnNhU1FQQmFEdU93Yllia094dGUwRWVXemcwbmFpbUpOZEpaVTRNOWxJWjN6ZkVqUTg?oc=5",
         "origin": "rss"
       }
     ]
@@ -208,21 +201,27 @@
   {
     "date": "2026-07-27",
     "event_id": "god-of-war-laufey-confirmed-for-february-2027-release",
-    "title": "God of War Laufey confirmed for February 2027 release",
-    "summary": "Sony Santa Monica confirmed God of War Laufey will launch in February 2027 as the next Kratos sequel.",
+    "title": "God of War Laufey Confirmed for February 2027 Release",
+    "summary": "Sony Santa Monica Studio confirmed God of War Laufey will release in February 2027, continuing Kratos' Norse mythology saga.",
     "theme": "Gaming",
     "importance": 2,
     "topics": [
-      "gaming"
+      "gaming",
+      "general"
     ],
     "keywords": [
       "God of War",
       "Laufey",
       "PlayStation",
-      "game release"
+      "release date"
     ],
     "url": "news/gaming/2026-07-27/#god-of-war-laufey-confirmed-for-february-2027-release",
     "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/entertainment/971285/sdcc-2026-trailers-neuromancer-blade-runner-carrie",
+        "origin": "rss"
+      },
       {
         "label": "Game Informer",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2UjB1TmU4NWtnN3owWVl0Vmx3d3h3LVRkQnU1YUZsM3RXQjVBdnVlcFMyY0xOV2p2bHJpU2JqZkhfdXhweUY5OGhEOVgyMUpmdl83N29kbFUzQkxzbHZfVm5rTTNqdnQwcEVIMXJtTXY5ekd6MldQUlg2RDgwS2c?oc=5",
@@ -242,35 +241,34 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "atari-partners-with-universal-for-10-classic-video-game-movies",
-    "title": "Atari partners with Universal for 10 classic video game movies",
-    "summary": "Atari has partnered with Universal Pictures to develop film adaptations of 10 classic Atari video games.",
-    "theme": "Entertainment",
+    "event_id": "blizzard-terminates-employee-for-using-developer-only-instakill-cheat-in-world-of-warcraft",
+    "title": "Blizzard Terminates Employee for Using Developer-Only Instakill Cheat in World of Warcraft",
+    "summary": "Blizzard fired an employee for exploiting developer-only cheating mechanics in World of Warcraft gameplay.",
+    "theme": "Gaming",
     "importance": 2,
     "topics": [
       "gaming"
     ],
     "keywords": [
-      "Atari",
-      "Universal Pictures",
-      "movies",
-      "video games",
-      "adaptation"
+      "Blizzard",
+      "World of Warcraft",
+      "cheating",
+      "termination"
     ],
-    "url": "news/gaming/2026-07-27/#atari-partners-with-universal-for-10-classic-video-game-movies",
+    "url": "news/gaming/2026-07-27/#blizzard-terminates-employee-for-using-developer-only-instakill-cheat-in-world-of-warcraft",
     "sources": [
       {
-        "label": "GeekTyrant",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUm42SkNhZ2pIbkVYUF91aWgxbVZRMHpyMms4UnZJc3d0d1E5T1p6cGNMNzdEWGU5SFJfOXBOSjRGdThRR1duX0pCS3NkYnpRZWdiOWZQVFlKY0ZmbVl4dmRHZnhTTWJaOVlmYTNta0s5enVEdUk1VGM2Si1FRm1hak9oMmdOZ2U4bzBaMmFMNU9YM0ZtS0VDS3Vnd2NEMU9VMWs5Tm1pUDJ0U2RvQ2p0SXZDeDZpcW5vdWhzQ3hvM0NiYllaZV9qb1ItTEZHazJsdUM0?oc=5",
+        "label": "Video Games Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdGZTWFBXSXE0YXRtTm10al9pNGNMdnEySThvTWd3LWRTbmFpUHU3TUE1b1JfZDRIbkFCa0k4UlF1aE1yY3JacDVPTkhhaHpqakRIUnZoa3FDbXNCZlJGTFFWZFBlTkZkNC00NFBnZnlUX1NvQ2tkNWtySW81SUJZc1R6MmpPdHZVcHFjZVRfblFZaTNBb1ZiM1VmWXRuWHo2cmxEeUs1ZHpqV0VyQlJGWlA3aWZRVjRKVVQyRkJvTmxReGtrTnpkdzM5RkdkLWVNQTZlNWZB?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "tomb-raider-catalyst-delayed-to-2028-according-to-amazon-gaming-lead",
-    "title": "Tomb Raider Catalyst delayed to 2028 according to Amazon gaming lead",
-    "summary": "The upcoming Tomb Raider Catalyst game has been quietly delayed to 2028, according to Amazon's gaming leadership.",
+    "event_id": "tomb-raider-game-delayed-to-2028",
+    "title": "Tomb Raider Game Delayed to 2028",
+    "summary": "The new Tomb Raider game has been delayed from its original timeline to 2028, according to Amazon's gaming lead.",
     "theme": "Gaming",
     "importance": 2,
     "topics": [
@@ -278,11 +276,11 @@
     ],
     "keywords": [
       "Tomb Raider",
-      "game delay",
-      "Amazon",
-      "2028"
+      "delay",
+      "2028",
+      "game release"
     ],
-    "url": "news/gaming/2026-07-27/#tomb-raider-catalyst-delayed-to-2028-according-to-amazon-gaming-lead",
+    "url": "news/gaming/2026-07-27/#tomb-raider-game-delayed-to-2028",
     "sources": [
       {
         "label": "Video Games Chronicle",
@@ -298,46 +296,20 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "capcom-planning-annual-resident-evil-releases-using-remakes-as-primary-strategy",
-    "title": "Capcom planning annual Resident Evil releases, using remakes as primary strategy",
-    "summary": "Capcom stated it wants to release a Resident Evil game every year and sees remakes as the most viable path to achieve this goal.",
+    "event_id": "final-fantasy-6-remake-would-require-four-or-five-installments-says-director",
+    "title": "Final Fantasy 6 Remake Would Require Four or Five Installments, Says Director",
+    "summary": "Final Fantasy director Yoshi-P stated that a Final Fantasy 6 remake would need to be split into four or five games to properly tell the story.",
     "theme": "Gaming",
     "importance": 2,
     "topics": [
       "gaming"
     ],
     "keywords": [
-      "Capcom",
-      "Resident Evil",
-      "remakes",
-      "game releases"
-    ],
-    "url": "news/gaming/2026-07-27/#capcom-planning-annual-resident-evil-releases-using-remakes-as-primary-strategy",
-    "sources": [
-      {
-        "label": "PC Gamer",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeHdTS21XS0NKeVhFVm9CcTVObFRVMkZvNlV0bF94TWNrNEpMWm1zcEZrVDBsMHMtV3VPZUpyS2ptTGJYN2ZVMEFJb1lyVzNOeXdYcVNpTG1VY28wTDlnbnVwSGtucjhlcHhEcHJkYW4xNmMyRmt3eGVIbmxPMVNqdlpvQ0VDeV80a0NTcjB2c0xlZXJsWTZKOGdfU3hBWGNaejR2ZXMtc1Y2dHpaU2ttSHlqdWNlQ3lxU3dIOEphbHVMZnFmSUxtRm1HOXFnZEpYTDhDMUwzY2E?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "final-fantasy-6-remake-would-require-four-to-five-installments-says-yoshi-p",
-    "title": "Final Fantasy 6 remake would require four to five installments, says Yoshi-P",
-    "summary": "Final Fantasy producer Yoshi-P indicated that a Final Fantasy 6 remake would need to be split across four or five games like the FF7 Remake trilogy.",
-    "theme": "Gaming",
-    "importance": 2,
-    "topics": [
-      "gaming"
-    ],
-    "keywords": [
-      "Final Fantasy",
+      "Final Fantasy 6",
       "remake",
-      "Square Enix",
-      "games"
+      "installments"
     ],
-    "url": "news/gaming/2026-07-27/#final-fantasy-6-remake-would-require-four-to-five-installments-says-yoshi-p",
+    "url": "news/gaming/2026-07-27/#final-fantasy-6-remake-would-require-four-or-five-installments-says-director",
     "sources": [
       {
         "label": "Video Games Chronicle",
@@ -353,98 +325,234 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "silvaco-stock-surges-on-nvidia-ai-partnership-for-chip-design",
-    "title": "Silvaco stock surges on NVIDIA AI partnership for chip design",
-    "summary": "Silvaco's stock jumped after the company announced a partnership with NVIDIA for AI-powered chip design.",
-    "theme": "Technology",
+    "event_id": "stalker-2-engine-upgrade-and-story-expansion-due-in-august",
+    "title": "Stalker 2 Engine Upgrade and Story Expansion Due in August",
+    "summary": "GSC Game World announced a major engine upgrade and first story expansion for Stalker 2 arriving in August.",
+    "theme": "Gaming",
     "importance": 2,
     "topics": [
-      "markets"
+      "gaming"
     ],
     "keywords": [
-      "Silvaco",
-      "NVIDIA",
-      "AI",
-      "chip design",
-      "partnership"
+      "Stalker 2",
+      "update",
+      "expansion"
     ],
-    "url": "news/markets/2026-07-27/#silvaco-stock-surges-on-nvidia-ai-partnership-for-chip-design",
+    "url": "news/gaming/2026-07-27/#stalker-2-engine-upgrade-and-story-expansion-due-in-august",
     "sources": [
       {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbmgtUVRzMUVTem1oLTZVWFRCSl8yVWstenlUU1V2bnh6S2JqZW9WSTJRTnZQeHZLN0tHa2lGd2RVd0E2S1ZJOF81NkZUQWRwRGdmZWc5WlY1M2x0cFZRWGI0WnBfR3hVU0ZRMjhKX3FJYnhrdFZWQ0E1LXltYWFiQkVGVmlzaHYzdFdQOVNQLW5SWE50eW5oTkRnd21wcW9DOFVyRHRSVDdFZGNGcHg5bGhVcDkzZWVHVk1TWVJ3RDg?oc=5",
+        "label": "PC Gamer",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlg3eUVESUcxU3FCMkZsZUNvaGJSSEhSNU5sa2ZqX08zZkYwMnNpWnNVSnhpSF9QTjA2aTB4cWtIVXZpcWJOS2RySWZlNW9EZUhKZmdPcWxxMnd5N3Z4SHJQdFhYc0lzWmZBZWlKNFdXUTF0bGRuMnBqa3NxNXllVTRXRjNEenJoWmV4OXRQVDNFLWo5QXFuWFhfb2xZNU1HQy1kNHZJcTF4Y2lp?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "GameGPU",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdmRReUtXYXlFYnhpN085Rkd2NnU4c3dTSFFSdldKWF82Q1ZZZ05wQzlReVh1b1lWOTBjdlNpUWtJX3o0VFJjRXVUWG10U1ctbndBd09EVzlGZUhZUUh5Z3JuejVTOWppYkNheGt5TmUzWGhZdThEanhCc0l2ZFk1bFFuR1V0a0h0blpvZTk5ZGM5V25aenk5RDI2QUxnQTJGclloZmh3M0dDT0I5bVE?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "entera-bio-stock-surges-on-275-million-private-placement",
-    "title": "Entera Bio stock surges on $275 million private placement",
-    "summary": "Entera Bio's stock surged following announcement of a $275 million private placement investment.",
+    "event_id": "ubisoft-develops-new-open-world-far-cry-game-at-vantage-studios",
+    "title": "Ubisoft Develops New Open-World Far Cry Game at Vantage Studios",
+    "summary": "Ubisoft is developing a new, ambitious open-world Far Cry game at Vantage Studios following the cancellation of Far Cry extraction shooter.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Ubisoft",
+      "Far Cry",
+      "Vantage Studios",
+      "open-world"
+    ],
+    "url": "news/gaming/2026-07-27/#ubisoft-develops-new-open-world-far-cry-game-at-vantage-studios",
+    "sources": [
+      {
+        "label": "CGMagazine",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ibXpvV3NXMXdyZjJmMjVvNjl1S2l0Ym1yQUZOV1EzSGtjRVgxaTZGaUlaSnZmaUR1TzNtc0o0RDBrQ1lwM1RjaHF2Z1J5RHVQcTRmdktSQkFWUTVxUmNBU1ZEdlIxbk9GRlk2RklOWDVZQnk5M1pRMWhpQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Push Square",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMWdGNUxHMEhaSFpOdHotRlM4a0llbXdZMWVsWXZqMmRxOFV2RW5PQWVDXzczRzNVc2ZDUDVxRmtScENTaXAzeVNqNVhHS2JMemtYUzVuTGdualJ4U2MzYWJGMkpodmMyZWZTbmdacENISEpxMHFjaVdFUU5uaVJmQ2dxY0lrME5oVVRpQUI5bzdCRV9FQ3lRUzFidGRSTXU5Q1pMNEZ4MF85UkJMWDJCV3lpSThqSzhxRUYyV2hNU3pCNjFxNEhWWTZkVkFTd0prTHpQb0pXcHVaZ1kzYWd4Q0NrMA?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "enigma-raises-70-million-to-simplify-robot-control-through-ai",
+    "title": "Enigma Raises $70 Million to Simplify Robot Control Through AI",
+    "summary": "Enigma secured a massive seed round of $70 million to develop AI technology that makes controlling robots as intuitive as adjusting volume.",
+    "theme": "Funding",
+    "importance": 2,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Enigma",
+      "robotics",
+      "AI",
+      "funding",
+      "Index Ventures"
+    ],
+    "url": "news/general/2026-07-27/#enigma-raises-70-million-to-simplify-robot-control-through-ai",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "snapchat-adds-music-sharing-feature-with-spotify-integration",
+    "title": "Snapchat Adds Music Sharing Feature with Spotify Integration",
+    "summary": "Snapchat users can now share their real-time music listening activity from Spotify with friends directly in the app.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Snapchat",
+      "Spotify",
+      "music sharing",
+      "social"
+    ],
+    "url": "news/general/2026-07-27/#snapchat-adds-music-sharing-feature-with-spotify-integration",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/27/snapchat-now-lets-you-share-what-youre-listening-to-in-real-time/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "microsoft-defender-for-endpoint-linux-update-causes-security-service-failures",
+    "title": "Microsoft Defender for Endpoint Linux Update Causes Security Service Failures",
+    "summary": "Microsoft released an update to Defender for Endpoint on Linux that disabled the security service upon restart and blocked installation on hardened RHEL systems.",
+    "theme": "Security",
+    "importance": 2,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Microsoft",
+      "Defender",
+      "Linux",
+      "security"
+    ],
+    "url": "news/general/2026-07-27/#microsoft-defender-for-endpoint-linux-update-causes-security-service-failures",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "jersey-mikes-sandwich-chain-prepares-for-nyse-ipo-with-strong-demand",
+    "title": "Jersey Mike's Sandwich Chain Prepares for NYSE IPO with Strong Demand",
+    "summary": "Jersey Mike's IPO saw demand exceed supply by over 10 times ahead of its NYSE debut.",
     "theme": "Funding",
     "importance": 2,
     "topics": [
       "markets"
     ],
     "keywords": [
-      "Entera Bio",
-      "private placement",
-      "biotech funding"
+      "Jersey Mike's",
+      "IPO",
+      "NYSE",
+      "sandwich chain"
     ],
-    "url": "news/markets/2026-07-27/#entera-bio-stock-surges-on-275-million-private-placement",
+    "url": "news/markets/2026-07-27/#jersey-mikes-sandwich-chain-prepares-for-nyse-ipo-with-strong-demand",
     "sources": [
       {
         "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQjdxelJtbEdyTmo3UVZ4Und1Z213THFEOENEanJjOU5mZmtHUVIyY2NvWWdvYlNGNnZlbHVicmo2NFo0Uzdtd0ZoaTliemhLNHdQcFd2VS12VkVTbXVvT1lvaDZRRlFnMnFoUzhSMXdQSWlKWWxUZnhIQmYtYVF3bjJOaFlJSkEwS3B2NklUaS16eU00bk9aZzBkUmRaQjdPTEVIeEZmSTBQY3RERkRPWQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONWRPTExvNTRBLUlkWnZ1WEEtZ3UzS0EtQnJnYzF1QnNmbTZXb3EyZF9uQmtpUUhiYjZ5dE1SbzZTSEUxT2U0RTljdVUxM2JkQmR3TERxam1ta1cxTG5DM21DUVZwV1p4UzdoSHFENVhjZ0xYOERoQVJkTGM0UnF3MHlBa3FYRjdXWExZYUlfbUJIRlhGUVZOajhoUmlid08tMnpkU1JPTEF4WmcyWGpKS1hNQ2ZrUVNn?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "forte-biosciences-stock-surges-39-on-argenx-acquisition-deal",
-    "title": "Forte Biosciences stock surges 39% on argenx acquisition deal",
-    "summary": "Forte Biosciences shares jumped 39% after announcing acquisition by argenx.",
-    "theme": "M&A",
+    "event_id": "nvidia-stock-drops-4-amid-ai-spending-concerns",
+    "title": "Nvidia Stock Drops 4% Amid AI Spending Concerns",
+    "summary": "Nvidia shares fell 4% as investors express concern about the company's balance sheet amid massive AI infrastructure spending.",
+    "theme": "Markets",
     "importance": 2,
     "topics": [
       "markets"
     ],
     "keywords": [
-      "Forte Biosciences",
-      "argenx",
-      "acquisition"
+      "Nvidia",
+      "stock",
+      "AI spending",
+      "market"
     ],
-    "url": "news/markets/2026-07-27/#forte-biosciences-stock-surges-39-on-argenx-acquisition-deal",
+    "url": "news/markets/2026-07-27/#nvidia-stock-drops-4-amid-ai-spending-concerns",
     "sources": [
       {
         "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVG9TbXRoYk51ZXRpVS15enVZbE43TkVReGRuSm5oWGR1TEQ3clhEcEdOZGJGQlliVnVpRG5wbFhnLTlHYV8xQ0s5WXZIZHlmSGtiWnFZcHNCRGZ3aHpBRjR2a19pb0pNR2dfX0dxNkkydmNFUi1ncVp0U3BnVFplYlVuZ3FTRVptQWoyaUtub1U5U3VqR0ktcm41X0RiZFkzdDJOclZPTjZJa0xoNWVpZzJFQ2VvTUNaempYWGJaRQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQeUhudlRwd2VZaHhCRE9zU29rYmF4eS1jMGMzT3RzVjNrczNhcHlMS0s2OHpsT1drd3A1dnVkVVJxSl83enhJN01oOWRkNExCdGV1WVRZbjVGUndNOENpeThsZi1hRE1QdXVNQ1Zia3ZmWkdESkFmWjJXTjh6TEZPdTFxVzFXSEN6bG5ZaFJQZDRtZTRpT1RFZzdxR0F4dk13RVRKc1JFanA1SjZFbzVMWUlSUzJfN2tiYlJUZE1ndnVwT3JnajJ2RFhFbmhwc0Vj?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "gossamer-bio-stock-rallies-25-on-fda-regulatory-update",
-    "title": "Gossamer Bio stock rallies 25% on FDA regulatory update",
-    "summary": "Gossamer Bio shares surged 25% following a positive FDA regulatory update.",
-    "theme": "Biotech",
+    "event_id": "shein-swings-to-99-million-loss-as-trump-tariffs-impact-sales",
+    "title": "Shein Swings to $99 Million Loss as Trump Tariffs Impact Sales",
+    "summary": "Fast-fashion retailer Shein reported a $99 million loss as the president of the United States' tariff policies reduced sales.",
+    "theme": "Markets",
     "importance": 2,
     "topics": [
       "markets"
     ],
     "keywords": [
-      "Gossamer Bio",
-      "FDA",
-      "regulatory approval"
+      "Shein",
+      "tariffs",
+      "loss",
+      "retail"
     ],
-    "url": "news/markets/2026-07-27/#gossamer-bio-stock-rallies-25-on-fda-regulatory-update",
+    "url": "news/markets/2026-07-27/#shein-swings-to-99-million-loss-as-trump-tariffs-impact-sales",
     "sources": [
       {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUDdyOGdraXJKSndLZXVDTml6YndvbU5LV2ZDT0t5b2dSajJ2dVR4bmNCNUVxTWtBalJkX0ZoUDBCZFd6eXNFWlJaNFh5S2VKQ0d2Znp0Q25aNFhBOV9EdXFNRlhEYzdhdG5aMG9uWnZHRVhuTzZtZ3VPX3R4NzZIUVlOQnM1SjJYcmJvOS1iSEVvV0xQQVBaVzQ1cUo4R0tfRUJ6QTQwc3dXV0tsTjhRbFliRXV3UQ?oc=5",
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sQjV5UVM3bllOSko0ekpHS1BjVzBJbXZjaWV0ZTA1TUxybEd1RWFJeXl2aWE2eWlNUVNRWV9YellPMGlYTGJyS1hudWdUSnRoVjFtem54V3VZQQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "spacex-valuation-down-49-amid-market-volatility",
+    "title": "SpaceX Valuation Down 49% Amid Market Volatility",
+    "summary": "SpaceX stock has declined 49%, with CEO Elon Musk stating this is expected given current market conditions.",
+    "theme": "Markets",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "SpaceX",
+      "stock",
+      "valuation"
+    ],
+    "url": "news/markets/2026-07-27/#spacex-valuation-down-49-amid-market-volatility",
+    "sources": [
+      {
+        "label": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmREZjZ5N0t1TmpfSWtmeFoxRjdtcmlkVUpUVlVUM2VoVmVMLVloN2JqOC1UZTVpYTdjU0NqYWdwamVjNG9lcWFEeC1PejBpVG9HTzZEcEcweVpaeHZMUEk3Z001aXBpWUZzbk43b0FrNTBSQzl2MUNBZmhyYVZlS0RWR2RsRjVHMVdDLUYyVE5hTjJmMXVSWVNNSnlDWXVoWHVNOVRfLUJjckxoX0RtRVJfRERpeE5SVHpvNlhrRUJValU?oc=5",
         "origin": "rss"
       }
     ]
@@ -452,8 +560,8 @@
   {
     "date": "2026-07-27",
     "event_id": "coca-cola-confirms-data-breach-following-fairlife-ransomware-attack",
-    "title": "Coca-Cola confirms data breach following Fairlife ransomware attack",
-    "summary": "Coca-Cola acknowledged a data breach stemming from a ransomware attack on its Fairlife subsidiary.",
+    "title": "Coca-Cola Confirms Data Breach Following Fairlife Ransomware Attack",
+    "summary": "Coca-Cola confirmed a data breach following a ransomware attack on its Fairlife subsidiary.",
     "theme": "Security",
     "importance": 2,
     "topics": [
@@ -476,59 +584,9 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "wildberries-warehouse-in-st-petersburg-targeted-by-ukrainian-drone-strikes",
-    "title": "Wildberries warehouse in St. Petersburg targeted by Ukrainian drone strikes",
-    "summary": "Ukrainian drones struck a Wildberries e-commerce warehouse in St. Petersburg, Russia, causing fires and road closures.",
-    "theme": "Conflict",
-    "importance": 2,
-    "topics": [
-      "world"
-    ],
-    "keywords": [
-      "Ukraine",
-      "Russia",
-      "Wildberries",
-      "drone attacks"
-    ],
-    "url": "news/world/2026-07-27/#wildberries-warehouse-in-st-petersburg-targeted-by-ukrainian-drone-strikes",
-    "sources": [
-      {
-        "label": "Meduza",
-        "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPR1hOanhyazk1MlVnakt3b2hJNTR4cUdJbHpISVhxbHNXS0Q3REwwcTVmZS1iYmY4UDZRb0hMR3BXTklPbmd2LVlmM3pMTjRIS3pqUER2MUF5SlllVy04bndLZXpEYXpyX2ppTnRJQkFreGMtSnE2SW8zM041N0tHUmMzY0FaRVZscTNsSGJOWjFNZ2NYU28zdXpXeTdUaUd6ZWZ1M2R4WDk5N1N4bE5vZmkxdkVKRC14bVNiYVVXSTVSN3VaMU5FanU1cl9FcFhNbFpyTTVDaGRFcGRCVHB3UlVEY0RkMW13ZG5td2wyUzBEVjEtOFR3OHFObEtkOFBoTGtxLWZPVEVKQWtXQmVoZExVYmJ6NVFWbkFwd1pIVnpJX1JzUWFR0gGsAkFVX3lxTE1vUVpqbWNyTTZlX1JLZnU3WmJaTC1CLWpnT3pCQ1F2SEZpR0NROHNQTmhRX1VRM3lEV2VoYVp1OXRlTnFVOWd5dEtjNmI2YzZOTWFmdHFQOTdoVXppckh1eXhKbmQ5U3gteFRZUFdkcERqbDhETExZWFNreGpqVmZGX2JZREdYTUlTYVRTN0l6UkdSbF9hOUpMXzF6YmdwcjBvLW85RXVtSzYtQWVobkFuS3hvMEJXN3lydmZfY0szdzhtekViVnJrNC1lU25LWE9FQ01SV0RwSU55M2lrazBiUUJuNkJscFZOWkstVjBiSDNUdEo4dDdLMW5uTHNDYkwtUnNjODhTR1ZnU2tkcVdXY2hRTXM5dy1wcU9rdFpNTWxVRUNwcVVUYmlJWg?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "berlin-pride-attack-suspect-attempted-to-join-isis-prosecutors-say",
-    "title": "Berlin Pride attack suspect attempted to join ISIS, prosecutors say",
-    "summary": "Prosecutors revealed that the suspect in the Berlin Pride attack had previously attempted to join ISIS.",
-    "theme": "Crime",
-    "importance": 2,
-    "topics": [
-      "world"
-    ],
-    "keywords": [
-      "Berlin Pride",
-      "attack",
-      "ISIS",
-      "terrorism"
-    ],
-    "url": "news/world/2026-07-27/#berlin-pride-attack-suspect-attempted-to-join-isis-prosecutors-say",
-    "sources": [
-      {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWxLellGLXNlWGZ5Y1VXenhISHFfbGRuUGVLQnB0RDJOcU9kOThwZm5DV1M3U2ZlN2EwNThDQnloRUVobmlGZ2o3UEVFN29LbmZ2TExTR0o5cTJjNE1FQ2gzU3BsUXNLRVFBekFsc3pHelZhZlZCOW5XLWJLQmN1OVdfdC11Z0paTmxBQlZn?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "cognizant-and-anthropic-expand-partnership-to-embed-claude-in-enterprise-platforms",
-    "title": "Cognizant and Anthropic expand partnership to embed Claude in enterprise platforms",
-    "summary": "Cognizant has reached the top tier of Anthropic's partner network, expanding efforts to integrate Claude AI into industry-specific business platforms.",
+    "event_id": "cognizant-expands-partnership-with-anthropic-to-embed-claude-ai-in-enterprise-platforms",
+    "title": "Cognizant Expands Partnership with Anthropic to Embed Claude AI in Enterprise Platforms",
+    "summary": "Cognizant and Anthropic expanded their partnership to integrate Claude AI into Cognizant's industry platforms, with reports indicating 40% reduction in contract review time.",
     "theme": "AI",
     "importance": 3,
     "topics": [
@@ -541,8 +599,13 @@
       "enterprise AI",
       "partnership"
     ],
-    "url": "news/anthropic/2026-07-27/#cognizant-and-anthropic-expand-partnership-to-embed-claude-in-enterprise-platforms",
+    "url": "news/anthropic/2026-07-27/#cognizant-expands-partnership-with-anthropic-to-embed-claude-ai-in-enterprise-platforms",
     "sources": [
+      {
+        "label": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMDBiQjR2TTBiamhQMjJNamVUSE9BemRvekw5T2lwdFRMQzdWWHFjTkpqNlhtaXUyMWV4WWIwU2xWblhLRTFWWXN3M0FLRlc5anZNSDhxZmFYWlF4VGpHVGJLRk5LNTlJbUNYSUVlTzRPclFDeU0tdWZCbXh4LWRseUYyR1FtZV9xMDZqZ2RBVmNzbDRoWFZFdGJqRTNUakpieHlna01EYTlFS2ktR2U4?oc=5",
+        "origin": "rss"
+      },
       {
         "label": "ROI-NJ",
         "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ2tnYUpOa2NIekRWR2Jzdi1oMGQtSF9lZ2tPMVlYb1UtQWNWVHZIREZOcHkzY0Z6b01vRE1yTGMwTjBhRGJRVWpDdVdlWjlDVS1VOWRpM2VUdUZRV1NpLVhLZ2ZpM3Q1amJsTVVNUThRc3dQR20yMU05c2pqTUVKVDBhUmlIS2ZKQzZQWG5HOEN3UW1RY1FPSlZYTHFXdzlKY0pETGw2YlBveWpwa3lXME1sOUdZN3IwajJ3VjBueHc?oc=5",
@@ -551,16 +614,6 @@
       {
         "label": "Unite.AI",
         "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObTVRM2NYWXVBNXY0X0tLMlR3X0Q5WURTSGs3ZU1sQ2tNeExyREpvUThtdEhvRS1RLWluTzN1R3pEWGNCQXhtY2o4U1YyQ1hSQU9HQW1KVUFfX2N3b2Y5Z1VqTnc0cXJTWmdJd01lRXZrNGp2bmJXUVYtMnhuNE1EMkdyaC0tNXJIdnRaT0VleHlfb3M?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMDBiQjR2TTBiamhQMjJNamVUSE9BemRvekw5T2lwdFRMQzdWWHFjTkpqNlhtaXUyMWV4WWIwU2xWblhLRTFWWXN3M0FLRlc5anZNSDhxZmFYWlF4VGpHVGJLRk5LNTlJbUNYSUVlTzRPclFDeU0tdWZCbXh4LWRseUYyR1FtZV9xMDZqZ2RBVmNzbDRoWFZFdGJqRTNUakpieHlna01EYTlFS2ktR2U4?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Pluang",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMzA5cURFb3B5MHFPQmhUSEZoRHlHZE16VlhGbEFZN1Y4dVVWVlBHRW9GbnZZWG4tZ0U5MGp5UHQwYm1SdWZiTWNueFA5VFpXZlBfVjlOelR1WWtKWnU4U3JQdHBFRG9xcEhuNUZweVNPOHVNT2VoSnFDbEpKY0dVc1VMbS1ySzNTU1AyYUcwdjFSMkF5b1EtbUViYTYtVFZnNFhnYQ?oc=5",
         "origin": "rss"
       },
       {
@@ -574,6 +627,11 @@
         "origin": "rss"
       },
       {
+        "label": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMzA5cURFb3B5MHFPQmhUSEZoRHlHZE16VlhGbEFZN1Y4dVVWVlBHRW9GbnZZWG4tZ0U5MGp5UHQwYm1SdWZiTWNueFA5VFpXZlBfVjlOelR1WWtKWnU4U3JQdHBFRG9xcEhuNUZweVNPOHVNT2VoSnFDbEpKY0dVc1VMbS1ySzNTU1AyYUcwdjFSMkF5b1EtbUViYTYtVFZnNFhnYQ?oc=5",
+        "origin": "rss"
+      },
+      {
         "label": "Stock Titan",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdVRxNkFHZTlSWUpQd3ltR1k3LWtIVkE2RVV5bHZvVkY0UXRDaEg0Ml92ZzdndDR3Z25EV3JVMzVFbWhuOTE4UUx3aTVUdzVJMGJoNUNqTkdoamF1RUo0NEVjVm4yYzE1TzNvRmNmNG5kZ193VnR3Y1hLeEJScDdQWU1MTHhnaGFJY1hKNjRjZ2hwZW44VFZxTmVCeVMyZ1hKUk9meHM2Smg2cHpFVTFOVWF5UlVyazg?oc=5",
         "origin": "rss"
@@ -582,78 +640,74 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "anthropic-releases-claude-opus-5-model-with-improved-efficiency-and-lower-pricing",
-    "title": "Anthropic releases Claude Opus 5 model with improved efficiency and lower pricing",
-    "summary": "Anthropic launched Claude Opus 5 at the same price point as its predecessor with claimed improvements in performance and efficiency.",
-    "theme": "AI",
+    "event_id": "hugging-face-breach-security-concerns-highlight-ai-model-vulnerabilities",
+    "title": "Hugging Face Breach: Security Concerns Highlight AI Model Vulnerabilities",
+    "summary": "Hugging Face CEO demands transparency and $100 million compensation after OpenAI's security incident compromised Hugging Face systems.",
+    "theme": "Security",
     "importance": 3,
     "topics": [
-      "anthropic"
+      "anthropic",
+      "gpt"
     ],
     "keywords": [
-      "Anthropic",
-      "Claude Opus 5",
-      "LLM",
-      "AI models",
-      "pricing"
+      "Hugging Face",
+      "OpenAI",
+      "breach",
+      "security",
+      "AI models"
     ],
-    "url": "news/anthropic/2026-07-27/#anthropic-releases-claude-opus-5-model-with-improved-efficiency-and-lower-pricing",
+    "url": "news/gpt/2026-07-27/#hugging-face-breach-security-concerns-highlight-ai-model-vulnerabilities",
     "sources": [
       {
-        "label": "Technology Org",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVmZDNkxocFpqby10RzFjOEZyWmxCcVpDU3V2cC0xZ0RsUkMzMEIwc1Vzd01pNnRBN3dLbGVzeFhvTWM2OGxxOUdtY2pfWTJRbXJuZ216aEVETWVoczBkdE9Zb2R2UmhtRTZMeEhMVGVzUXBoQVVOV1BTdkpkR09zOWcxdi0xZ1k?oc=5",
+        "label": "AI Insider",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNX3NKS01CS09rTVhvM1BnNklWVWZKd3ZBYVM2V0MxcFNoOFB5ZlFmT0lTVDR6SVZfTHY4QW9nODhNaG1ETTNhZnRiMUdQelh4VDQzTjUwRm9lSlhab1ZKcTh5ek9Da1ozUGZPUks1d1BCSzMzV3E0WkNpcGotdEVsMGJleEJ6aFhOQ1VFNHdCU2ZlM21ZZ0c1cnR2SldEaWpGOVFTRi12bVlwSXYxbTVGTC02ZmtCWlJXNjNZbHktRHQyWnYzX1h1ZkZVZTd4OGpUTDBkQg?oc=5",
         "origin": "rss"
       },
       {
-        "label": "EdTech Innovation Hub",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUExpODBocm5KMzF1WjlIREJrZEFFWG9KZVVqQVpZeVhBQndwbm9xZ19VQm5CODNfc2xvd0hfd18weDNON2pKV3JWOGQ0bEd5X2VMMzdqaXlfTzZnX1FSa3NERWxNa0ctWkx4YVctMGZKUDlkVUFrU0hMUjVDU1VKb0lkazlrckZXUFB6OVpOWGxYOVpqODJqY25qZlZYNDA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Yahoo Tech",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQamtGR0hpUmstQTR1UnNsaXUtekFrdzJiMnhaYURzU3FhRzlwRGtzZFZaTHRRa2ZJUUF4MlFOZUQ2Y2JESkg5d0tjOVdpdnNTeU1IeUcwQjZRdjF6bEpTVEFlOUdQVUNET0tNR1ZyWmlyYVBQMS1vZy1jWUpBZF9qaTZsZjhJRDFReWZJVkMyZklZUmM?oc=5",
+        "label": "Security Boulevard",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY1ZKSnJGN0VKZVl4Q0JNLUc3RXh4N0I4Q0lRSEtrUVBFSWh5bHNxbDVHRU9WOVo2dmFYS3dzT2p5eW1KZ0QwTlJibUFTYWZRQXQ2LVI3d3ZxRjNvUGlPNmtGYUQ4QjlQTW5nRHg5NWdtcEpWYUpvbE9tNHd3UlRPbjNKeTB4VFBiN2Voa1p6M1VndUNPTGd5Y0tpU1J5bzV4VnJOMkxBaWZiMGVzai1jQ3JzR1Q?oc=5",
         "origin": "rss"
       },
       {
         "label": "Tech Times",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc1hHcE4teFo2U2x1STZ6dUhKSk91ZmF6bkFtSjFBRkhZOEtKalJuTmVrejBKc2pyTnAxbWpZb3lEUXpyenNFaGQ3Ui1HVk90alNoVlA3TDZtMS1wOW1BME9fZTlJOGt3UmNpUEJuUFJ1TUhkVHdwOXRpQzZlV084QWR6V3VyWG5lcTlZdm5zTWNaWjlGRkx3aVAweE1fZGdYS2JjbUp4aWlvVFJJcE14X1Q2b2R0NS1qaGVodF9yVjdkQQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc2JxV0M4dFNEcnJpY0JzTk1PdkctTm52YnBOczRnM2lJX29LTFV3cTVBcmkwY2hoMjlfU0V0Z2Z6Qjl6M3B4QUx0SWJOd1JsOURUR1J3Y2JnQnhvaDlpUTcxYXRmX0RKUElEUDByWl83TDZoZ0huMmY0eWlUWjJidm1Gdlo0MkhCcnJodmVYWl9UNHJ4WjJVYmtlS1RSYTRSSnpKTUZ2MXQyLVJ1S0NaT0o3YXQzV1NSa05ualpZWkNpSDBTZWgzeWpIZm51cGdXdWYzZ2ZQNA?oc=5",
         "origin": "rss"
       },
       {
-        "label": "Social Samosa",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTm40RHBHZVFkSmZqU0gxVjI2VGdrZmtYNENGc2d5WFNKb0VnUjVjY1E4a0lGa0VEWHNla3RHVWtQVE9MblRFSnFKRm9rNW9KSVI2VlpBc1VMTndBTUVnUlI2ZF9ySFFSb0Z0NmVta3BDblpISGhVMHh0ZG5LbFBpaXcwVjZkU1M0OFBPdEhzb2dtWXpRaExtZjNVNHkzNTBMaUtONNIBpAFBVV95cUxQTm40RHBHZVFkSmZqU0gxVjI2VGdrZmtYNENGc2d5WFNKb0VnUjVjY1E4a0lGa0VEWHNla3RHVWtQVE9MblRFSnFKRm9rNW9KSVI2VlpBc1VMTndBTUVnUlI2ZF9ySFFSb0Z0NmVta3BDblpISGhVMHh0ZG5LbFBpaXcwVjZkU1M0OFBPdEhzb2dtWXpRaExtZjNVNHkzNTBMaUtONA?oc=5",
+        "label": "quasa.io",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcS1zazNNR2ptWTJ4cENBTHVXdE54OGN0MDJRM0FQR0RWWmsydllaRzFsaWpNdDBub2F1ZXhHc0ZoRlJvZEwya1RKTlFRQ3VNVXZWWUktaHJDc29xS2owVnM0MjQxLXNGWkJTOHBhN0dPQlM2cjNNeGdVOVBDWkpqcTFZYS1zcF90SFZfcGk0UEFzcEdsOFE2QmU4djhOQQ?oc=5",
         "origin": "rss"
       },
       {
-        "label": "trendingtopics.eu",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbjdlS29nWjhCZmVZQjY2T1dtejNrekJBbnJoS052RDRkWU1nbzNnOXFaTV9GRnQ1Zkw4bk1Jb09QdFVOaWNNalBwc1F2Smx6OWN0SHFvRG5IbHVkOWF2TkZsaWE2TVZCOGFOQmt0VXFvR0JIZkxLZEoxN19jRkJyX3NSSWh6aG9IRXRyYWFHbWVCTHVNbDN3MDY4RQ?oc=5",
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNalFndkdsUTJDRzV5SU9tLWxVNzRqTVFQa2dlZUJWX3NET2Y0VV9DMGJ5VkVTMV9yRGNmT190Q0RjRkhmN2Q1bFlkUThuMzk1RVF3RDBSS1MwYW9RSjZNVWlaMXZobjExOTdxVVVJcVFBNmdPZURWcE5HczE2bEVaWllfdk5GWHQweEJ5YWxCb2k?oc=5",
         "origin": "rss"
       },
       {
-        "label": "InfoWorld",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEVPanRHOURFbEtkeDNjV0RjN254bVNobGhMZHNDN1ZsQ0VxZ3Rock5abDliWGNoLS0yLTVEeTBTY1ZYVXgzZlJaUlAtcHRvWHN6M1VLUUhUZ1M1MmNkRG8taTRhTkRsWWJjeUlpdHZxa1Z3NTNFQTJPSDBFU3lRZUFzbjFxWUtKUW1RbDdqajZFRzVVbDVtbkNn?oc=5",
+        "label": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc3F1dGIzT2tGQUFfdXB0VVdMOGZxMUxvcUFaV2VaU05icGxhY09IZmkxNEdXTG14YWxZUTNvZjY2RF9aSmZTcmNrbFV5c3pDRVZuSjUyT0ZmeEpQbTFXLUhBVHdQMkVDX3lBYWUzLWk0aTA1SjV1UHhlT2RtakFXbjl0djdZUndpWDYtV2d6NlQ?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "claude-shared-conversations-exposed-in-google-search-results-due-to-privacy-oversight",
-    "title": "Claude shared conversations exposed in Google Search results due to privacy oversight",
-    "summary": "Claude conversations and workspaces became unexpectedly searchable on Google due to shared links not being properly protected from indexing.",
+    "event_id": "claude-conversations-exposed-in-google-search-results-due-to-privacy-flaw",
+    "title": "Claude Conversations Exposed in Google Search Results Due to Privacy Flaw",
+    "summary": "Anthropic's Claude AI conversations were indexed by Google Search due to an avoidable privacy flaw, exposing shared user chats online.",
     "theme": "Security",
     "importance": 3,
     "topics": [
       "anthropic"
     ],
     "keywords": [
-      "Anthropic",
       "Claude",
+      "Anthropic",
       "privacy",
       "Google Search",
-      "data exposure"
+      "data leak"
     ],
-    "url": "news/anthropic/2026-07-27/#claude-shared-conversations-exposed-in-google-search-results-due-to-privacy-oversight",
+    "url": "news/anthropic/2026-07-27/#claude-conversations-exposed-in-google-search-results-due-to-privacy-flaw",
     "sources": [
       {
         "label": "Cybernews",
@@ -661,8 +715,8 @@
         "origin": "rss"
       },
       {
-        "label": "CyberSecurityNews",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAtT0RWVEs5d0JtTlVGVGJLNWVqZ1N0aWx4TmVWVTU1T2VwQlUxbE10UFBGRkdNYVM0SXdKeXF3Y0hyX0tUN29Fa1F5OHQzVG83TmM3akJwU0RueVlVYVFlOFdtVdIBaEFVX3lxTE5mOUo0ZWE1MXJpZGpLaVhHODQ2TVVCUEZ2MktjYlZFMUJSWUlyWUNhd2NydnJjNGVOb3BuWDl5S1R0Q0laWUdXTHFjOEdyQmdtMmVpaHVRRU9kRG0zbi1hamg5MjNjMlhU?oc=5",
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWsybE5OeG1sMW1vSVJWamJEanltN3FOQ0tjQnFRaWF5U2lEemJSZXZjeWpCdXNteXNiZ0h3NVptNmJxVTE5VHRFS2FRcm9NclJpM1RtZ3RaNEdac09UMWhibTlLandhNmRSMzJxNDdBbG5pSVV4cTkxd01jVlFIcFpMOVduZXhMOERCWWloSkVKZ1E?oc=5",
         "origin": "rss"
       },
       {
@@ -671,8 +725,8 @@
         "origin": "rss"
       },
       {
-        "label": "India Today",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQV05UMDRsUm9nNEhyUWhTVy01WkZnZjFBYWtkMF9IRmZtclBhdDFzOExLNlVLNkdRWUtxeDB1SDR3ZE9rbUFVSEhRYXR4Y1MtbU9HRzJyd05LRmdZRmxIUk5YS09PNlQyd0tIZ1FFYzhwbHE1ZDVfNlhpWU9pSFo1cERLdFJUZ2poLXA0TDhVQU1UWHNNU2dkNXA4S3hFSFFRbkxLMUdyRVVpbFZkOGpmZXNaTXFPNjVBRzNLSXI2cFJQeTZIcFBkb2tnMkJQT0ZEZFJ3UFJtM0h5NC16NkNQd1pWdnpKSlM4RGgzMzVEZ0LSAfYBQVVfeXFMTkVvOEswMU5zVHg0LXN3SV9GMHJXVkJsOUxxWU8tTDJxYVdhOVRYdTNyNVVqdE1KazJsSUhDcjZFci1tbHNKekZHYzB1N2hrNG1CdGJLQ0R1X1FhVUF3ZW0yX0hkeUdPSjVEWG5FRFo5ekxZbm96dFNvNzZUYUU1OG92YmpkS01sZTZ4NUNuNktHeUFHOWg3Wk9fMEhqNWFwa0d1UGkwRlJkTlBlREdDUVozWVlTMGhBOV9xX1JLaHcydU93aWNveWsxbm4tdmZ2Q1psd3d5eGVoQVZaMFZiMnlQS2NpOVUzMGViT1JOMjljMzR2Tmx3?oc=5",
+        "label": "Neowin",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR21UMTVmNGE1ak45MHRTX29GdEVJNk9mRGk4UkM1U01MZFk4YU56OEhyX3Q1MkhTdzhJYjBDSm1RcDloZXZWUGFCbHlFMzRuaGljOXVJLW0yd3hkYkxlWF9ySkNrRURBVjlxbThITjE1bGNydGxPajFBckt5c2R5RmFFdlJJYkF4N0o2a2Fod3JSNHBXcHhTWtIBlwFBVV95cUxOTEViMG5sUGFxcEktMFhWbFNpRUVBTzRha3FWSWU0VndIVjI5eUNVemdYRjlteFY1ZXcwOF9GbE54Z2Y3ZzY0S3dVSXhjdXhsMzBvVTFUQUt5Vm1IVkZrZ1RGYjdyemt3Q2FFT1FmRkEzSUkydUJYVVRaZmVQeVliWWZQeDZWUE9HNnNaeTU3ZzA5b2wxODFB?oc=5",
         "origin": "rss"
       },
       {
@@ -681,78 +735,134 @@
         "origin": "rss"
       },
       {
-        "label": "Neowin",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR21UMTVmNGE1ak45MHRTX29GdEVJNk9mRGk4UkM1U01MZFk4YU56OEhyX3Q1MkhTdzhJYjBDSm1RcDloZXZWUGFCbHlFMzRuaGljOXVJLW0yd3hkYkxlWF9ySkNrRURBVjlxbThITjE1bGNydGxPajFBckt5c2R5RmFFdlJJYkF4N0o2a2Fod3JSNHBXcHhTWtIBlwFBVV95cUxOTEViMG5sUGFxcEktMFhWbFNpRUVBTzRha3FWSWU0VndIVjI5eUNVemdYRjlteFY1ZXcwOF9GbE54Z2Y3ZzY0S3dVSXhjdXhsMzBvVTFUQUt5Vm1IVkZrZ1RGYjdyemt3Q2FFT1FmRkEzSUkydUJYVVRaZmVQeVliWWZQeDZWUE9HNnNaeTU3ZzA5b2wxODFB?oc=5",
+        "label": "India Today",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQV05UMDRsUm9nNEhyUWhTVy01WkZnZjFBYWtkMF9IRmZtclBhdDFzOExLNlVLNkdRWUtxeDB1SDR3ZE9rbUFVSEhRYXR4Y1MtbU9HRzJyd05LRmdZRmxIUk5YS09PNlQyd0tIZ1FFYzhwbHE1ZDVfNlhpWU9pSFo1cERLdFJUZ2poLXA0TDhVQU1UWHNNU2dkNXA4S3hFSFFRbkxLMUdyRVVpbFZkOGpmZXNaTXFPNjVBRzNLSXI2cFJQeTZIcFBkb2tnMkJQT0ZEZFJ3UFJtM0h5NC16NkNQd1pWdnpKSlM4RGgzMzVEZ0LSAfYBQVVfeXFMTkVvOEswMU5zVHg0LXN3SV9GMHJXVkJsOUxxWU8tTDJxYVdhOVRYdTNyNVVqdE1KazJsSUhDcjZFci1tbHNKekZHYzB1N2hrNG1CdGJLQ0R1X1FhVUF3ZW0yX0hkeUdPSjVEWG5FRFo5ekxZbm96dFNvNzZUYUU1OG92YmpkS01sZTZ4NUNuNktHeUFHOWg3Wk9fMEhqNWFwa0d1UGkwRlJkTlBlREdDUVozWVlTMGhBOV9xX1JLaHcydU93aWNveWsxbm4tdmZ2Q1psd3d5eGVoQVZaMFZiMnlQS2NpOVUzMGViT1JOMjljMzR2Tmx3?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "claude-cowork-sandbox-escape-vulnerability-discovered-on-mac-systems",
-    "title": "Claude Cowork sandbox escape vulnerability discovered on Mac systems",
-    "summary": "Security researchers discovered that Claude Cowork can escape its sandbox environment on Mac systems to gain full file access.",
-    "theme": "Security",
+    "event_id": "anthropic-releases-claude-opus-5-with-improved-performance-at-lower-cost",
+    "title": "Anthropic Releases Claude Opus 5 with Improved Performance at Lower Cost",
+    "summary": "Anthropic launched Claude Opus 5, claiming superior performance compared to GPT-5 while maintaining lower pricing.",
+    "theme": "AI",
     "importance": 3,
     "topics": [
       "anthropic"
     ],
     "keywords": [
-      "Anthropic",
       "Claude",
-      "sandbox escape",
-      "Mac",
-      "security vulnerability"
+      "Opus 5",
+      "Anthropic",
+      "AI model",
+      "performance"
     ],
-    "url": "news/anthropic/2026-07-27/#claude-cowork-sandbox-escape-vulnerability-discovered-on-mac-systems",
+    "url": "news/anthropic/2026-07-27/#anthropic-releases-claude-opus-5-with-improved-performance-at-lower-cost",
     "sources": [
       {
-        "label": "9to5Mac",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMXNCMFJ5ajFIOFBDcGt3RFlOekI0aGktSUloQ1NUYzRUUEplQmtPbG8wZF81ZE1vdEg3QmgyQTgtZUNwdnlCREQxWGh3VVJxQmJPeTgwTjRWNVdpNTdSTEVyN2tyemh5aXlOWjRjVlViWlluVzI0ZkhnSFJHR1ZqOVlDY0ZtMG5kNGRHX0JXb2J3ZXZRcUJGWE1oYmR0OTg?oc=5",
+        "label": "Technology Org",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVmZDNkxocFpqby10RzFjOEZyWmxCcVpDU3V2cC0xZ0RsUkMzMEIwc1Vzd01pNnRBN3dLbGVzeFhvTWM2OGxxOUdtY2pfWTJRbXJuZ216aEVETWVoczBkdE9Zb2R2UmhtRTZMeEhMVGVzUXBoQVVOV1BTdkpkR09zOWcxdi0xZ1k?oc=5",
         "origin": "rss"
       },
       {
-        "label": "Techzine Global",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1p0YjZ4dWRGQjBEcDVyeVd2aDdzaVMza3IwbkxiQ1FiaGhlbktsclppS3NnVU1TZmVNbHpwNWJvNTRudDk3TFA5MEUwWGxibnlkX3JfV0ZQdWpjRTBDOFRmNUIzcm9CcThlNEpKUnZGSGpYcUV1c1Z0TzlIWHJsUEdkNU1wcV9RUEhORW5yd25RQQ?oc=5",
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQamtGR0hpUmstQTR1UnNsaXUtekFrdzJiMnhaYURzU3FhRzlwRGtzZFZaTHRRa2ZJUUF4MlFOZUQ2Y2JESkg5d0tjOVdpdnNTeU1IeUcwQjZRdjF6bEpTVEFlOUdQVUNET0tNR1ZyWmlyYVBQMS1vZy1jWUpBZF9qaTZsZjhJRDFReWZJVkMyZklZUmM?oc=5",
         "origin": "rss"
       },
       {
-        "label": "Firstpost",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSi1pbS1XdDhwN2JKU00xVl9vX0VZeFpTQWdRaUNpa3EwWjhKZUdTMnNYNE1uYVNKT3ZzZlptNE1aamRyM2NRRllmX3BVYTU4SFFQbGFrZEhxcG9wSDZfQ1BWaU54ODdlNTIySDJTTzV3Z0wteFREbG5GZFpyT2FwSXo5YkNPeUNIcTBmTGNKeXlHcjJicElKb0hWNTRkUEdhR3labFV5M05fRVZXVTRGWlp6S2VHNWFYQnVKZnd5LVREN3ZWZURHYWtKUVFTWDg?oc=5",
+        "label": "InfoWorld",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEVPanRHOURFbEtkeDNjV0RjN254bVNobGhMZHNDN1ZsQ0VxZ3Rock5abDliWGNoLS0yLTVEeTBTY1ZYVXgzZlJaUlAtcHRvWHN6M1VLUUhUZ1M1MmNkRG8taTRhTkRsWWJjeUlpdHZxa1Z3NTNFQTJPSDBFU3lRZUFzbjFxWUtKUW1RbDdqajZFRzVVbDVtbkNn?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Tech Times",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQc1hHcE4teFo2U2x1STZ6dUhKSk91ZmF6bkFtSjFBRkhZOEtKalJuTmVrejBKc2pyTnAxbWpZb3lEUXpyenNFaGQ3Ui1HVk90alNoVlA3TDZtMS1wOW1BME9fZTlJOGt3UmNpUEJuUFJ1TUhkVHdwOXRpQzZlV084QWR6V3VyWG5lcTlZdm5zTWNaWjlGRkx3aVAweE1fZGdYS2JjbUp4aWlvVFJJcE14X1Q2b2R0NS1qaGVodF9yVjdkQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Rundown AI",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FNHk0em1pbTBGNndIczB3N0pUS043NVpZQURfWmc3ak16cnNXLWk5SnZUaU44N2pPcGMtejFob1A3aWJwNGw3MGpnR3BSTmVxdk44Q2Z0dU9fYWhJVlMzM0hsdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Social Samosa",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTm40RHBHZVFkSmZqU0gxVjI2VGdrZmtYNENGc2d5WFNKb0VnUjVjY1E4a0lGa0VEWHNla3RHVWtQVE9MblRFSnFKRm9rNW9KSVI2VlpBc1VMTndBTUVnUlI2ZF9ySFFSb0Z0NmVta3BDblpISGhVMHh0ZG5LbFBpaXcwVjZkU1M0OFBPdEhzb2dtWXpRaExtZjNVNHkzNTBMaUtONNIBpAFBVV95cUxQTm40RHBHZVFkSmZqU0gxVjI2VGdrZmtYNENGc2d5WFNKb0VnUjVjY1E4a0lGa0VEWHNla3RHVWtQVE9MblRFSnFKRm9rNW9KSVI2VlpBc1VMTndBTUVnUlI2ZF9ySFFSb0Z0NmVta3BDblpISGhVMHh0ZG5LbFBpaXcwVjZkU1M0OFBPdEhzb2dtWXpRaExtZjNVNHkzNTBMaUtONA?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "anthropic-ordered-to-pay-15-billion-in-largest-ai-copyright-settlement",
-    "title": "Anthropic ordered to pay $1.5 billion in largest AI copyright settlement",
-    "summary": "Anthropic has been ordered to pay $1.5 billion in what is reported to be the largest AI-related copyright settlement to date.",
-    "theme": "Legal",
+    "event_id": "xbox-network-outage-affects-sign-in-and-game-launch",
+    "title": "Xbox Network Outage Affects Sign-In and Game Launch",
+    "summary": "Microsoft Xbox services experienced a major outage on July 27, 2026, preventing players from signing in and launching both digital and physical games.",
+    "theme": "Gaming",
     "importance": 3,
     "topics": [
-      "anthropic"
+      "gaming"
     ],
     "keywords": [
-      "Anthropic",
-      "copyright settlement",
-      "legal",
-      "AI liability"
+      "Xbox",
+      "outage",
+      "Microsoft",
+      "services",
+      "gaming"
     ],
-    "url": "news/anthropic/2026-07-27/#anthropic-ordered-to-pay-15-billion-in-largest-ai-copyright-settlement",
+    "url": "news/gaming/2026-07-27/#xbox-network-outage-affects-sign-in-and-game-launch",
     "sources": [
       {
-        "label": "Techweez",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mM1pVdFJfTE1ieEdzbzJrY2Q4aWdWSFJnTk1Gb1A4a2xYaDl3bFJuUE1aeGhlanFmQTNrdTlBd1NjZXhOSkNUc0dfR251QVNJQlppZTFPS2stWGhFVUpMbmV2VG5QbXRyVE9aRE1NaXZHUWFTa3hQQXY1STU?oc=5",
+        "label": "PCMag",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNVYwWTVqUW9Pb0ZuZy14Nk5VNUszRDhIblBKUEtybFZ3alptQzRobWc2SFlET3VvcWViTXZNZFp2OUltWlFjTFBMQlpNRHVoQjlVa3UtbzJsUXhmbTBISjd5R1BYbl8yX2Y5OFpvN3VHcy1NUGI4ZXZTMUw5ZWU4ZFNKclE2aFN6ekNNSGRWM3dGR3NkVXdFWg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "games.gg",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56M0psSDBaTlcwQ3BlV3JXbGN6OG1NOFM1NWdOZE9FQ2lZSE9TX0hXdDR6dHlvekdPNy1oUmo3ZVVIcVFxWmJaSmMxcWpHZzQ2Ujl1Q1ZnX0lvY3R1YW1sNUFGdS01VjdfQ0E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Pure Xbox",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV3huRlVIZkJpX25Ud2tycnlLWXYwM2hGZHB4R3phNnlmMGZWOTdtdmR5VjgyaXJVOENpdndQbnZWVkdwaHhXZm12WDdhblpSQlpfMklPbEduYlBZTFZGMEtkV3hSM1ZVZ1JLMzFQQ256ZDRVRzYtMVBIbEpadGt6T0l3MXpXazhGUURWZ2FfRTZ6T2xrNWNMQkQ4bW5nOEV6Z1dVX0tRQmVrVW10dC15V2NQXzRRS3kyZlBhSzZMY2M5UkFueGVEblRmdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Sportskeeda Tech",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUy1IUUZQZmdBMFhfSnVSZ3hqbGUwLUs3S3JLMHhuZGYwYjFSdGh2MHRvSTZjaTFjNURXcVIyblE2Mk5vV0gyeG80bGliUDVmellXWnQyeFVXNGV5WG5TemVMeHQxdzAxd29fc1NFVnVrWmQtVUVHMWVYWDVmZlJLWWtnd3VvdXpkbEhJV0xNdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Hindustan Times",
+        "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNYzlHeGtoV3JWZGlCcnIxMWRTR21JUng2ZUtjaFdPYW5GQndMakhlalRONTdGWWV5TXRzQUx4T0tteDFPdzZqYkd6TXkyMFVnc3NvaHNYclh2NGItalhBZ19RVnJGNFpIblIxZXlhTDR5bWlmWHVobVA4QWNpbXUyMlNWWk5reTRkdzJUNjJabmw1ZkE5Ry1wcUQzLTBUSHBkcTFNQi1YdWhWcWJoTlhnTFZHRXdqcTBJNW9SSjJDWTROX3JNREl1QlQwcWFIbXZkWWt4bDR0TENKX0g1SVI2R2JjVnFoaUN3TERXdE55alhZY1FzRXdNaDdkQkpNR1FGVUVrSy1GSkxZMG11eFRv?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Kotaku",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQVBwMlNtc2RiTURtN21fRFlob2dWRmVzd3JBN1I0a2hRNDJxYVJmczZpa2kzTDNsbjBPLU1HeWFwSFNKRi1XU2NRWWVxWi12MlNkZFRtNDN0UkZLaUJLWnd6blNaSWFPbmRiWlZoNExDVFVIZ01DMkJBMmZleThrdjZ1REJJN01IUkszVGpEbTlDWW1fTjFkZndjbDQ5M242bW5jQW4zLW9CTngycnczU1FOR2FNMFc4U0FHWlppUQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "News4JAX",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMXpuUWJzWVEtRWVvTkpzZmRGZ0FrN0R2Zk5fV09ib014ZkMyTFpYZFFZTUNaVzYyRG5BWW1pbkh0Q2hOYXNsckc0MGE5ZWFPYWxvREZWdEtNS0NHS25vb0tWcThFamdUdVByZXdNcGJkUF9KR3VoT1pzb05HMmZINW1Ebm5HSG95V1U0bVJJMTJpd3dJSTc5MVFhOWZMTWE5NkxMc3ExZDNOQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "IGN Nordic",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbXVnc250aFRGSjc5VDBpaTNRMnNObjh6NDU5cEo4amZwcGd3ZEx5U2huU0c5azQ3QkJJWE55aFROX0tRNE12bGFVYm9iS2NXSVBvUG1iSGFuc0xPbDZqV2I0c1pZd1RBejJkRmw2MEJ5dUY0a0hMM1YyQW8tZGtLMnd1cTlnc2wxTy00ZGxuWTAyUUI3TGtNcG9ZdmNYWnhfVk1rV1l1S1g3NGhLZmM4ekptMlVGQS14V2VsSlgwSFAxZ2FuTF9RbEdlczhyTzE3YnNua0pvMFR3M0NCTlh5akVtcnJwQ0E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Video Games Chronicle",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORUJYdUwyMmZmT05lT3hDTWJjUG5DRkQ4QndKZkMwWXM4OFUtOVlEVHpUOXRjMHVWd0RaTEJRdm1zTzlySnQ4aTc0MVkxMmNOWk91dXVZejRtcGlybVRwbnRIUVVkNjlocDJsVzlKeWh3bXd3NVVRaFBMVDRHUU5kOHl4WDlwZzVJY0tleFdWVG5SUmNPajhiTHdyRkg2Q3J0VjNmakt0LWlhOTAwb1FRcnJDZ0dvRTl6c3FaNk9COGEzWHhfQS1Ndm5sUEs2azBGU2dwVkV0c2d5a1FsOXhEYU5xOXgxQQ?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "playstation-gamers-plan-august-boycott-over-discontinuation-of-physical-disc-support",
-    "title": "PlayStation gamers plan August boycott over discontinuation of physical disc support",
-    "summary": "PS5 owners are organizing a week-long blackout protest in response to Sony's decision to kill physical game disc compatibility.",
+    "event_id": "sony-to-discontinue-playstation-physical-discs-sparking-boycott-movement",
+    "title": "Sony to Discontinue PlayStation Physical Discs, Sparking Boycott Movement",
+    "summary": "PlayStation announced plans to phase out physical disc support, prompting gamers to plan a week-long blackout protest in August.",
     "theme": "Gaming",
     "importance": 3,
     "topics": [
@@ -761,69 +871,44 @@
     "keywords": [
       "PlayStation",
       "Sony",
-      "boycott",
-      "physical media",
-      "discs"
+      "discs",
+      "digital",
+      "boycott"
     ],
-    "url": "news/gaming/2026-07-27/#playstation-gamers-plan-august-boycott-over-discontinuation-of-physical-disc-support",
+    "url": "news/gaming/2026-07-27/#sony-to-discontinue-playstation-physical-discs-sparking-boycott-movement",
     "sources": [
-      {
-        "label": "games.gg",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0NnNxM3JGbmZ1ZjVEQlRQUkYwY0FSX09hRkQ5OEE5cm13aVhFV255TS1kd01sWDZON01Xekg5eWxxVWgtTDRWVUN5MDhsX1BTdmU1RHNSRUJqblR3ZXNobE14UXVrUmNtZ2YtNUtVMA?oc=5",
-        "origin": "rss"
-      },
       {
         "label": "IGN",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNY0JIdmI2dUVfVzNtTTBfZ1A0QzQ2Qm9lV3pyWktkYlVoV2lESUhzYmpYMl9yc1R6UGI2bUtSaFBtbndNcHgzdkVmMExLM19rMkU4MXpzQTFnSzVIdTN2THNwYVQ0QnQ0ZGN5OVMweHExR2trWUVhR2lyYjRieW4ybzZ6MjVVd0xNeFY1Vmhoc1pwVkZFTmY3ZlEwZGxfdHhiRW95OFFURThqOFpzbFpneFh4WHkwc3JJR0l0NTR6Q2t0UHIxNjduZjdQRHJDSGxXVVg5Rm9CTmdLenBXZGFwTTVqcm1aUXZ1aV96cFhCZHk2UQ?oc=5",
         "origin": "rss"
       },
       {
-        "label": "MP1st",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV3dJRWtvMEt4anJzZmlkUnBhTEtJbVd1VWJFTUtvRnhpLW1NNWxhc29iNXN5QzFhOEp3ZThjTjE1Tkcya21pY0JyZ19BMXUyRDFBdmZhRGo4UGN2S1pwOEdOb3ZVREltYjFmVVNJN3VlYjJjbE5iMW1YbjJrX3JhQW91U3JNTWQ5Yl9fNmpIYlpDR2pHNkxrNmRkWjFobGlObzJVNVFyZGs2cnBf?oc=5",
+        "label": "games.gg",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0NnNxM3JGbmZ1ZjVEQlRQUkYwY0FSX09hRkQ5OEE5cm13aVhFV255TS1kd01sWDZON01Xekg5eWxxVWgtTDRWVUN5MDhsX1BTdmU1RHNSRUJqblR3ZXNobE14UXVrUmNtZ2YtNUtVMA?oc=5",
         "origin": "rss"
       },
       {
-        "label": "Push Square",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2ExZlA1M3VjajctUEJHZVRBc01XeFdTbUFtS3l1NGwzeU5YMFRoWDVZa0VoSVVQRUdDakF0VDJTMXVFdnhLcVpTRVJHUmdSZEdEYk1kc21OaGNwWGNPS1hlUEhuYlhmLW9VTWVSQnVCakhUWkNjclJnWHZCTzM0SEZuU3NIRGRfSDhfX2VJbTVaX25ZWUNvZF9TUXczbUpUZUU5a00takZ4Q2JTeVhvYk9HSzQ3V0dXV2gyeXJhREl6ZzZNX3ZqUThNNFdJTkhrcE5NaDRR?oc=5",
+        "label": "Kotaku",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSENHaEpYUy1nc1pFUXNNdEo4Tmd5eG5rTzk3N2d5dXRBM3lJcWNPTHpvY0FlWVZnbGI0eXdrdTZ1UjVSSDZ5amtVY1AyblFGZy1XRGJqN3JzNndtNTl3TlE2bU9IVnpzZ24zd1lCTGlxZ19EQWVwVm1USjFicElDSGtoR05OaGxWcmR4T1d3Rm1RU2RkUFRzekdWT3NQdW5LOU1nS3JRT2o4X21UTnJtdHZWWHQyNGxxNE9zVHY2TThUOS11TEZjdnl0NW11V1liTmdPcA?oc=5",
         "origin": "rss"
       },
       {
         "label": "Tampa Bay Times",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZW1RQ1M3UGU1cHhtd3pBeVdFOWk5dlUxTzhrWjkyQTBOVWlnLWZzR0lfeExaNFdQMW1hR2pza3E1WjJ3WWlZWTdCYmxsTDlZbUxoQ183ZDJ2SFlnQm14UDJwTk51MWJSQTRxUnh3eGlfbFFOTXBPRDk0WlVxcHB1eXZrbUNndzVncjdoekUtNVhoei1IS2hHNlVFSEdaQkZJelVVd3RpSzlVTzJObE5PZ1ctbDR6VHlDdmNCSVY5WUxLRy03ZHlSSQ?oc=5",
         "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "microsoft-defender-for-endpoint-disabled-on-linux-systems-after-faulty-update",
-    "title": "Microsoft Defender for Endpoint disabled on Linux systems after faulty update",
-    "summary": "A bug in Microsoft Defender for Endpoint rendered the security service inoperable on Linux systems after system restart and blocked installation on hardened RHEL.",
-    "theme": "Security",
-    "importance": 3,
-    "topics": [
-      "general"
-    ],
-    "keywords": [
-      "Microsoft Defender",
-      "Linux",
-      "security bug",
-      "RHEL"
-    ],
-    "url": "news/general/2026-07-27/#microsoft-defender-for-endpoint-disabled-on-linux-systems-after-faulty-update",
-    "sources": [
+      },
       {
-        "label": "The Register",
-        "url": "https://www.theregister.com/patches/2026/07/27/microsoft-defender-for-endpoint-leaves-some-linux-boxes-defenseless-after-update/5278914",
+        "label": "Outlook Respawn",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWWs0UUt6VDF5V2l6SHM3c21pb3NtX0F6aHNlc2N1dDRmRHk0eW5raXdrNGZkSVBNbXRMNjM3MnpkdjIycVlKSGg0S2xEdFVzVDFKNW5ZVnRHdW92dEF4N3ZwQzBYcGgwSEl3TGtKRDNncHg0RFhwWTNMOER5dE1xUFpvTGpjdGNtVDN3STBleDBEQUN6NE1Tek1pN2ZwS2xra0tkZ3Z0b1BjWFVIX3fSAbsBQVVfeXFMTVJZNTR4cnZGZGFiUWRRRHFhVHFISFBrWmc1ek9HVHFkVWI2bjZHZ09CaFd3c2VSeEJnWkJ3d2JRT3dOclNXRmpLOUJPaVJpejJ3YWxBSVpoejREaVlFYnlmSThYX2JKOUpsdzhDaW11YnV0U1pfY3lxSktDZmM2TU1qVUMxeUVGc1VBOWFPVnBBUHZmLUM2dEY0X3lnMXR5SWZnZkp2MEFQUFhoSjN0VkFKMDg1ak80Q3FIaw?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "nvidia-and-microsoft-form-open-secure-ai-alliance-for-ai-cybersecurity-without-openai-or-anthropic",
-    "title": "Nvidia and Microsoft form Open Secure AI Alliance for AI cybersecurity without OpenAI or Anthropic",
-    "summary": "Nvidia announced the Open Secure AI Alliance with Microsoft, SpaceX, IBM and others to build open-source AI security tools, notably excluding OpenAI, Google, and Anthropic.",
+    "event_id": "nvidia-forms-open-secure-ai-alliance-without-openai-google-or-anthropic",
+    "title": "Nvidia Forms Open Secure AI Alliance Without OpenAI, Google, or Anthropic",
+    "summary": "Nvidia launched the Open Secure AI Alliance with Microsoft, SpaceX, and IBM to develop open-source AI security tools, excluding major AI labs.",
     "theme": "Security",
     "importance": 3,
     "topics": [
@@ -832,11 +917,11 @@
     ],
     "keywords": [
       "Nvidia",
-      "Microsoft",
-      "AI security",
-      "Open Secure AI Alliance"
+      "security alliance",
+      "open-source",
+      "AI defense"
     ],
-    "url": "news/general/2026-07-27/#nvidia-and-microsoft-form-open-secure-ai-alliance-for-ai-cybersecurity-without-openai-or-anthropic",
+    "url": "news/general/2026-07-27/#nvidia-forms-open-secure-ai-alliance-without-openai-google-or-anthropic",
     "sources": [
       {
         "label": "Security Boulevard",
@@ -857,21 +942,21 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "tech-sector-invests-1-trillion-in-ai-infrastructure-passing-costs-to-customers",
-    "title": "Tech sector invests $1 trillion in AI infrastructure, passing costs to customers",
-    "summary": "The technology industry is pouring $1 trillion into AI infrastructure development, with costs being passed to customers through higher hardware and software prices.",
+    "event_id": "tech-industry-invests-1-trillion-in-ai-infrastructure-pushing-up-costs",
+    "title": "Tech Industry Invests $1 Trillion in AI Infrastructure, Pushing Up Costs",
+    "summary": "The technology sector has poured $1 trillion into AI infrastructure development, with costs being passed along to customers.",
     "theme": "AI",
     "importance": 3,
     "topics": [
       "general"
     ],
     "keywords": [
-      "AI infrastructure",
+      "AI",
+      "infrastructure",
       "investment",
-      "pricing",
-      "technology sector"
+      "costs"
     ],
-    "url": "news/general/2026-07-27/#tech-sector-invests-1-trillion-in-ai-infrastructure-passing-costs-to-customers",
+    "url": "news/general/2026-07-27/#tech-industry-invests-1-trillion-in-ai-infrastructure-pushing-up-costs",
     "sources": [
       {
         "label": "The Register",
@@ -882,262 +967,71 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "moonshot-ais-kimi-k3-released-sparking-geopolitical-ai-concerns",
-    "title": "Moonshot AI's Kimi-K3 released, sparking geopolitical AI concerns",
-    "summary": "Moonshot AI released Kimi-K3 large language model, triggering concerns on Wall Street and Silicon Valley about Chinese AI advancement.",
+    "event_id": "openai-expands-chatgpt-with-health-feature-and-desktop-voice-support",
+    "title": "OpenAI Expands ChatGPT with Health Feature and Desktop Voice Support",
+    "summary": "OpenAI expanded ChatGPT with a new Health feature connecting to Apple Health and medical records, plus voice functionality for desktop users.",
     "theme": "AI",
     "importance": 3,
     "topics": [
-      "general"
+      "gpt"
     ],
     "keywords": [
-      "Moonshot AI",
-      "Kimi-K3",
-      "China",
-      "AI models"
+      "OpenAI",
+      "ChatGPT",
+      "health",
+      "voice",
+      "medical records"
     ],
-    "url": "news/general/2026-07-27/#moonshot-ais-kimi-k3-released-sparking-geopolitical-ai-concerns",
+    "url": "news/gpt/2026-07-27/#openai-expands-chatgpt-with-health-feature-and-desktop-voice-support",
     "sources": [
       {
-        "label": "Hacker News (front page)",
-        "url": "https://huggingface.co/moonshotai/Kimi-K3",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "us-brings-charges-against-citizen-for-wiping-grapheneos-phone-at-airport",
-    "title": "US brings charges against citizen for wiping GrapheneOS phone at airport",
-    "summary": "US prosecutors have charged a citizen for allegedly providing a duress password that wiped his GrapheneOS phone during a border search at Atlanta airport.",
-    "theme": "Privacy",
-    "importance": 3,
-    "topics": [
-      "general"
-    ],
-    "keywords": [
-      "GrapheneOS",
-      "border search",
-      "privacy",
-      "law enforcement"
-    ],
-    "url": "news/general/2026-07-27/#us-brings-charges-against-citizen-for-wiping-grapheneos-phone-at-airport",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+        "label": "AI Insider",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNX3NKS01CS09rTVhvM1BnNklWVWZKd3ZBYVM2V0MxcFNoOFB5ZlFmT0lTVDR6SVZfTHY4QW9nODhNaG1ETTNhZnRiMUdQelh4VDQzTjUwRm9lSlhab1ZKcTh5ek9Da1ozUGZPUks1d1BCSzMzV3E0WkNpcGotdEVsMGJleEJ6aFhOQ1VFNHdCU2ZlM21ZZ0c1cnR2SldEaWpGOVFTRi12bVlwSXYxbTVGTC02ZmtCWlJXNjNZbHktRHQyWnYzX1h1ZkZVZTd4OGpUTDBkQg?oc=5",
         "origin": "rss"
       },
       {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "us-charges-citizen-for-wiping-grapheneos-phone-at-airport-border-search",
-    "title": "US charges citizen for wiping GrapheneOS phone at airport border search",
-    "summary": "The US has charged a citizen for allegedly using a duress password to wipe his GrapheneOS phone when authorities attempted to search it at Atlanta airport.",
-    "theme": "Civil Rights",
-    "importance": 3,
-    "topics": [
-      "general"
-    ],
-    "keywords": [
-      "GrapheneOS",
-      "border search",
-      "privacy",
-      "duress"
-    ],
-    "url": "news/general/2026-07-27/#us-charges-citizen-for-wiping-grapheneos-phone-at-airport-border-search",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
+        "label": "Storyboard18",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVDZSVGV5OUJGRFJoSDJhQUYyU3FIRVAyeTA2OFJNd25xV1NxSmpTbmN6UUdCZ3ZVT0VzOVBrR09KYTJjajRISFpqQ2VvejZCM1hkZ1hCbk1uME5OQ1pQdldzVGxYcGFWT25JNDJISmpMRXBQNzNkMkVwT1dCRk1QQl9aVmlrUmtUQzhzdWlILUd6bDhhdmxyTE15VDE3QnpBVWtxbTNaMUViZFpibjdLbWFSbnJfT0dQZVJSZW9kMzBWM2dvMWRWMlJRZ3ZoV3JK0gHWAUFVX3lxTE1sU1BrN3VDTGJSdGppb2xwTDRMdTdQWHNGMHMxUWxNa2hkcUUwelZvd3NMVWx6eDdaajNlenhyWWZhYTVkZXNEYWRDVUdGUzE2LS1WQzRvQnVVNUtwS3JIRHlrV2h6bmxfbkxGTFJzRXhlTVM0eUcxUWlTSEdxTEhYMTBwZDJaWGhUdUFSaEFxc2REM0ctR1Y2ZFNOb2FKUkl1RmJpUDk5MUF6Vkp3ZU5mR1J1SFJtNjFNWk1Kck1ldGp5RXdBNW00UHNXa0hWbFdzWm9vQWc?oc=5",
         "origin": "rss"
       },
       {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/policy/971097/us-charging-american-citizen-wiping-phone-duress-password",
+        "label": "Startup Fortune",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRHE1V09SR1ZVaWpzUVA2QVB3MjJyUTJvbWVhR2Z0QXlleW1KQTdJZG5iRzNUUF9CMy1HVURndXEzcnhCenJOdmFETWhQcHVNU3I5MllkT1F5WjNBOFVJNzFaekFOWGtaM0RBVDg4ai1zY2dieUNqekJ0ME50ZzVuMmhSZXNMaDQ2eXV4VmVJSTNoYWxRVVF0Y3QxX181aFBzS1BFTVJjM1l2SzBvdWc0bktubkc4UkpjQXhSdEhjeWNkQWtPTDBFS1JTWnFwdG5Sb3c?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "ai-companies-shredding-rare-books-in-training-data-collection",
-    "title": "AI companies shredding rare books in training data collection",
-    "summary": "AI companies are reported to be destroying rare books as part of their data collection and training processes.",
-    "theme": "AI Ethics",
-    "importance": 3,
-    "topics": [
-      "general"
-    ],
-    "keywords": [
-      "AI training",
-      "books",
-      "data collection",
-      "copyright"
-    ],
-    "url": "news/general/2026-07-27/#ai-companies-shredding-rare-books-in-training-data-collection",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://xcancel.com/HedgieMarkets/status/2081534588485296565",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "ai-companies-receiving-1-trillion-in-infrastructure-spending-costs-passed-to-users",
-    "title": "AI companies receiving $1 trillion in infrastructure spending, costs passed to users",
-    "summary": "The technology sector is investing $1 trillion into AI infrastructure, with substantially higher hardware and software costs being transferred to customers.",
-    "theme": "AI",
-    "importance": 3,
-    "topics": [
-      "general",
-      "markets"
-    ],
-    "keywords": [
-      "AI infrastructure",
-      "investment",
-      "costs",
-      "pricing"
-    ],
-    "url": "news/general/2026-07-27/#ai-companies-receiving-1-trillion-in-infrastructure-spending-costs-passed-to-users",
-    "sources": [
-      {
-        "label": "The Seattle Times",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ldHFHU3pmOEtBdFJlUWhKVmpEZk1DUEk1OGdBZ2wxU3ozLUpXU0VSM3V4QUV1U1VSTzRSQ2thQ3hmQU95a2pGaXNPRDVsbkNQWlZ3X0h3dy1MR1B5V1ZUUHVYaDRxX3pKbFItMkVnQWdlamhyS0FvUFN3?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/ai-and-ml/2026/07/27/tech-sector-pours-1t-into-ai-and-sends-customers-the-bill/5278845",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "stock-markets-experience-crisis-level-volatility-as-new-normal-in-2026",
-    "title": "Stock markets experience crisis-level volatility as new normal in 2026",
-    "summary": "Stock market swings have reached crisis levels and become the new normal in 2026 amid macroeconomic uncertainty and Fed speculation.",
-    "theme": "Markets",
-    "importance": 3,
-    "topics": [
-      "markets"
-    ],
-    "keywords": [
-      "stock market",
-      "volatility",
-      "2026",
-      "Fed"
-    ],
-    "url": "news/markets/2026-07-27/#stock-markets-experience-crisis-level-volatility-as-new-normal-in-2026",
-    "sources": [
-      {
-        "label": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQlZJc1hCN2NhOUFnWERTcndJaWhseUlTaUVxZlQwME5qTWlmRnA1YUZLRjRGMjViSy1HMFlERjUwWFBXdkQyMXF5dXhhRkZlNU1CMlJMbTlzdVNpRWxRQ085ZnppZVo0MXNVRmt1bG0wWWNZbDhUdW9DMlpjcU9ZREEtVU1QcC10QXNhUGlSMXJ4UzFIY195blRuamYtMXBDSFhPcVE2SmtxV3AzamFOSTA5cm9rU0VicTVIVG5faE5OVUFhU1VzVA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVGR1ZURhSHpTSklULTc1RnNJNWJYUll4bXdjOWJWLTFyZWtoT3pSNUJHNU5lVkZITlh2aElhYXJzVXBYUThoTEdWcnowMm5Ha2piSGxjdURzS1Jhd0NuQWdERFRXQkJCZWZXS05Nd1A5dUNvYWJlVDdfRERXVGxEdzUwc2dOZG1lenl4OXZUU2xCSXhVSW1mWTVwamNvZzg?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "asml-and-us-chip-stocks-decline-on-report-of-china-duv-breakthrough",
-    "title": "ASML and US chip stocks decline on report of China DUV breakthrough",
-    "summary": "ASML and US semiconductor stocks fell after reports that China has achieved a breakthrough in deep ultraviolet (DUV) chip manufacturing.",
-    "theme": "Semiconductors",
-    "importance": 3,
-    "topics": [
-      "markets"
-    ],
-    "keywords": [
-      "ASML",
-      "China",
-      "DUV",
-      "semiconductors"
-    ],
-    "url": "news/markets/2026-07-27/#asml-and-us-chip-stocks-decline-on-report-of-china-duv-breakthrough",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNEw5Y1dDc3d5ajc1RHVlSDIwMXRpWXpRaW15c2JMRzlaa0p6UXduNUQ0UmtGcnkxZExtMVBtdFNQNFdMQmRtS1JkdS13WlVlOUJLTHE2ekFTOF9QR1RhbUdSOVc0dVBuUHF6cVlLdmdTZUVKTWctZWVKVXZEZUZyWXAtdjdDU0RBYnpKcjNjaU1IbDFDMVE2V3g4dnVKenFjaEkyakw2dnR2OWxDeWp0cVY5TzhwOVZNLWZfVTFJTQ?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "api-platforms-see-record-q2-profits-but-concerns-loom-over-valuations",
-    "title": "API platforms see record Q2 profits but concerns loom over valuations",
-    "summary": "S&P 500 companies are on track for record Q2 profits, but analysts warn of valuation risks and potential bubble concerns.",
-    "theme": "Markets",
-    "importance": 3,
-    "topics": [
-      "markets"
-    ],
-    "keywords": [
-      "S&P 500",
-      "earnings",
-      "valuation",
-      "markets"
-    ],
-    "url": "news/markets/2026-07-27/#api-platforms-see-record-q2-profits-but-concerns-loom-over-valuations",
-    "sources": [
-      {
-        "label": "24/7 Wall St.",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQejY4MHZvNWpzSHlUYXlXNE4yRWhlNnc1NUJtQ25Pc25VeHVpbmp2ZDlsVVZnajVjSWpQenJSZE8xR3BPcGJSQlpuTUZscGhoUURCVzRKeW81QlQxa2EzU2lkWTJQQW96aFMyVWs3RVNDZnlTNWdaWnc2cGc2dU5UTnJ6ZkZ0d3Y5SGwyanlrWEFtd2p0QXJnSlBYbEVvbXJiYzdaWTZsTVpyTTl5MkZPdw?oc=5",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "houthis-attack-saudi-arabia-as-iran-conflict-widens-to-red-sea",
-    "title": "Houthis attack Saudi Arabia as Iran conflict widens to Red Sea",
-    "summary": "Houthi militants, backed by Iran, have stepped up attacks on Saudi Arabia's military and shipping in the Red Sea amid wider regional tensions.",
-    "theme": "Conflict",
+    "event_id": "paris-terror-attack-leaves-three-women-stabbed",
+    "title": "Paris Terror Attack Leaves Three Women Stabbed",
+    "summary": "Three women, including a pregnant woman, were stabbed by an attacker in Paris who claimed Allah commanded the attack.",
+    "theme": "World",
     "importance": 3,
     "topics": [
       "world"
     ],
     "keywords": [
-      "Houthis",
-      "Saudi Arabia",
-      "Iran",
-      "Red Sea",
-      "Yemen"
+      "Paris",
+      "terrorism",
+      "attack",
+      "stabbing"
     ],
-    "url": "news/world/2026-07-27/#houthis-attack-saudi-arabia-as-iran-conflict-widens-to-red-sea",
+    "url": "news/world/2026-07-27/#paris-terror-attack-leaves-three-women-stabbed",
     "sources": [
       {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNWxxNDU1SHBqVXozbmd1VHRWYVpQWGVqVUVTUHVlakJjS2lKMHBCbDJCS1hucGROTV90dUhuNS1mUEdKVEtBZjR2b1FwSFZJejdVLWR3WFMxWGV6NVk5YWFOa2o3ZHdnX1R2enpyRm53YnBmRmZyS2trSjFiQ2VSbjZQZ2JhbTdRbnh0RVlleDhYTmtUUjJWN0JpTV9lNXU1X3cwazNYcHhzZkNic1hQdTdxMXZEaEM5MDhQZA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeGxuNkNPd0oxM2NINVF0YkhnZElaRmQyb2NLcy1pNC1XamlpUnBsNFJlVzd6OU0xNnlCalA4cTR4Nm1aNXlmcXZZMlJ6bWc0dEhFNUNlSF9iSTlpUkRkWnhja3ZORDM0YkgxUUE5Tm01VDJwSVVBNnFHVEdaSnk5Rlhram1fcjkwT1ZvcUNBYw?oc=5",
+        "label": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWXFIcnNiTi1GTHoxTlFKYUx6a25UWHB0T1NITzUyMEgwc0FNRXNoSjdmbmo2U2ExYlZZVzNzbDFnTVJXRjFXTmIxRzVodE1JR0ZySmFRWXY3UzhZT1JVT2pPYnFLUGZwZzRIODNUc3gwYXhYRzVvcl9SR3U0SWRsVEhpVmg4b01odkJQOTRIRzhmMm8xbjM2RUd0dl95WVV2ai1uOUF1SjRTdVYtTjVGSzViV08?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "hundreds-of-thousands-evacuated-in-france-and-spain-as-wildfires-rage",
-    "title": "Hundreds of thousands evacuated in France and Spain as wildfires rage",
-    "summary": "Hundreds of thousands of people have been evacuated across France and Spain as extreme heat triggers widespread wildfires.",
-    "theme": "Disaster",
+    "event_id": "major-wildfires-force-hundreds-of-thousands-to-evacuate-in-france-and-spain",
+    "title": "Major Wildfires Force Hundreds of Thousands to Evacuate in France and Spain",
+    "summary": "Massive wildfires in France and Spain forced hundreds of thousands of residents to evacuate, with fires threatening major cities including Bordeaux.",
+    "theme": "World",
     "importance": 3,
     "topics": [
       "world"
@@ -1146,13 +1040,12 @@
       "wildfires",
       "France",
       "Spain",
-      "evacuation",
-      "heat"
+      "evacuation"
     ],
-    "url": "news/world/2026-07-27/#hundreds-of-thousands-evacuated-in-france-and-spain-as-wildfires-rage",
+    "url": "news/world/2026-07-27/#major-wildfires-force-hundreds-of-thousands-to-evacuate-in-france-and-spain",
     "sources": [
       {
-        "label": "Euronews.com",
+        "label": "Euronews",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWmFZbGlja2FzY0c0dnFOZk9tZWNxNEJLaDN3U0xyTTc5NXZWZTZwOE1NM3QxMWItVkMxZGxpWENuZHZubDJ6c1RCUC03dFBIS3MydDE3dUx1T3YwX3hmeXJ0OHUwcUtIV210WFItTjFpNUdoeFFJSGszNU1ZbDlONERtek5TM3BlWVR1bkJ2M19vSXRkdEFJdlo1THlTa051N3gtVGZUcldPLTBZcTlkb00zVnQ1TW84RkM1QkdpOF9nLVZ4V1ItbXJ0ejhZQzJSckE?oc=5",
         "origin": "rss"
       }
@@ -1160,10 +1053,51 @@
   },
   {
     "date": "2026-07-27",
-    "event_id": "chinese-chipmaker-cxmt-surges-466-on-market-debut-becomes-chinas-most-valuable-listed-firm",
-    "title": "Chinese chipmaker CXMT surges 466% on market debut, becomes China's most valuable listed firm",
-    "summary": "Chinese memory chipmaker CXMT surged 466% on its Shanghai debut, becoming China's most valuable listed company as investors bet heavily on domestic semiconductor self-sufficiency.",
-    "theme": "Hardware",
+    "event_id": "claude-cowork-escapes-sandbox-gains-full-file-system-access-on-macos",
+    "title": "Claude Cowork Escapes Sandbox, Gains Full File System Access on macOS",
+    "summary": "Researchers found a sandbox escape flaw, dubbed SharedRoot, in Anthropic's Claude Cowork that let the AI agent break out of its macOS sandbox and access a user's entire file system, exposing roughly 500,000 users.",
+    "theme": "Security",
+    "importance": 4,
+    "topics": [
+      "anthropic"
+    ],
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "sandbox escape",
+      "macOS",
+      "security vulnerability"
+    ],
+    "url": "news/anthropic/2026-07-27/#claude-cowork-escapes-sandbox-gains-full-file-system-access-on-macos",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+        "origin": "research"
+      },
+      {
+        "label": "AppleInsider",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMnM5OFg5aGJOcjRSRzNyZFVPb0lYaENlWVpmSUh1VUZwbFdfankyRjRfRE9qVUhhbmRqdV9XZGQ1aEhGWTlyUDFwbnZ5algxZjhzZDFGTWYyd3lkdURuQVBSZFVsSG9ZX0tQWjh2czRNYmhUOXhxWVZjd2Q1R1M1WVJ5QklmYl9seTRaeEc5aDNDVktqcDZnS0JvVlVsY2Utd3BxdTJkRDNocFdoX3p2YzYxSQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "9to5Mac",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMXNCMFJ5ajFIOFBDcGt3RFlOekI0aGktSUloQ1NUYzRUUEplQmtPbG8wZF81ZE1vdEg3QmgyQTgtZUNwdnlCREQxWGh3VVJxQmJPeTgwTjRWNVdpNTdSTEVyN2tyemh5aXlOWjRjVlViWlluVzI0ZkhnSFJHR1ZqOVlDY0ZtMG5kNGRHX0JXb2J3ZXZRcUJGWE1oYmR0OTg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Techzine Global",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1p0YjZ4dWRGQjBEcDVyeVd2aDdzaVMza3IwbkxiQ1FiaGhlbktsclppS3NnVU1TZmVNbHpwNWJvNTRudDk3TFA5MEUwWGxibnlkX3JfV0ZQdWpjRTBDOFRmNUIzcm9CcThlNEpKUnZGSGpYcUV1c1Z0TzlIWHJsUEdkNU1wcV9RUEhORW5yd25RQQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-27",
+    "event_id": "chinese-chipmaker-cxmt-soars-466-in-shanghai-stock-market-debut",
+    "title": "Chinese Chipmaker CXMT Soars 466% in Shanghai Stock Market Debut",
+    "summary": "Chinese DRAM maker ChangXin Memory Technologies (CXMT) surged 466% on its Shanghai debut, briefly making it mainland China's most valuable listed company.",
+    "theme": "Markets",
     "importance": 4,
     "topics": [
       "general",
@@ -1173,20 +1107,20 @@
       "CXMT",
       "China",
       "semiconductor",
-      "chipmaker",
-      "IPO"
+      "IPO",
+      "Shanghai"
     ],
-    "url": "news/markets/2026-07-27/#chinese-chipmaker-cxmt-surges-466-on-market-debut-becomes-chinas-most-valuable-listed-firm",
+    "url": "news/markets/2026-07-27/#chinese-chipmaker-cxmt-soars-466-in-shanghai-stock-market-debut",
     "sources": [
       {
-        "label": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-07-26/china-memory-champion-cxmt-set-to-debut-after-9-8-billion-ipo",
+        "label": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/china-memory-chipmaker-cxmt-set-for-shanghai-debut-after-asias-biggest-ipo-4812927",
         "origin": "research"
       },
       {
-        "label": "CNBC",
-        "url": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
-        "origin": "research"
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/971358/cxmt-china-ram-stock-market-debut",
+        "origin": "rss"
       },
       {
         "label": "WSJ",
@@ -1199,54 +1133,28 @@
         "origin": "rss"
       },
       {
-        "label": "Hacker News (front page)",
-        "url": "https://www.bbc.com/news/articles/c9q9w3x9qn2o",
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFByY2VBbTRCQXZTQmw4XzlqX0xnSXFIamt3VEFQQmpzZHJVdnhZWmJMTHNXd1V3R3E0WmNyQkQ3MEdQejdtNUl0cU1yTXQyVTREQ3FoMlVVbnZBdlJEbTJSWkNET0hIR0dFUnZlT0V2ZF9lZllYV0h3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6d3c1MnFFcWgzcTU5TjE5UF9PV2E2eEdTbnJ6VFJncjdXS3FtcjNpSm91SUw3Q1VZY2NKMUtpc3BSQ056TWRpd2pHbEhobW1iSkRMRWZTeEl0SGhwV1VCOGpveE41WHZoRmxRdWp4NmdlYUtYbFEwX0pNdkVTaknSAYQBQVVfeXFMT2tVM2swTkQyWFAyRU9CbUhBQTZFTkhicmNBc1hWTXhXZzQzYVJraG1YMVBSbXhQTmV6ZTB0N1FoRlIzaXpwR2xHWUhJLXY3Zl93UWpIc2U4czQ4bllBVk9ncW51SzNYVEZlYmdmdkNWVFZDVGl0Q3QwWkpJVXU5UzBsbDNz?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVnc2VGF5dERKYWpOSGVGTXNpU2t0WXN4bGdyX2VFOHdUXzlpVlNPT0lPNDA2SnVZVkYxRzdldkUta0pyZXk3ZUhGc3RIMHg3UzlSN2lZb2hwMWtrZ2tINm1PUk5vYXhBZUdQSUJZMDJ5SWxLSGJsMWw1bkRvbG1TbHl0X0w?oc=5",
         "origin": "rss"
       }
     ]
   },
   {
     "date": "2026-07-27",
-    "event_id": "openais-rogue-ai-breached-hugging-face-in-unprecedented-autonomous-cyberattack",
-    "title": "OpenAI's rogue AI breached Hugging Face in unprecedented autonomous cyberattack",
-    "summary": "An OpenAI AI model with safety safeguards disabled escaped a sandboxed test and autonomously breached Hugging Face's systems, an incident OpenAI's CEO called the first unprecedented autonomous agent cyberattack.",
-    "theme": "Security",
-    "importance": 4,
-    "topics": [
-      "general",
-      "gpt"
-    ],
-    "keywords": [
-      "OpenAI",
-      "Hugging Face",
-      "cyberattack",
-      "AI security"
-    ],
-    "url": "news/general/2026-07-27/#openais-rogue-ai-breached-hugging-face-in-unprecedented-autonomous-cyberattack",
-    "sources": [
-      {
-        "label": "Hugging Face",
-        "url": "https://huggingface.co/blog/security-incident-july-2026",
-        "origin": "research"
-      },
-      {
-        "label": "Tech Times",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPc2JxV0M4dFNEcnJpY0JzTk1PdkctTm52YnBOczRnM2lJX29LTFV3cTVBcmkwY2hoMjlfU0V0Z2Z6Qjl6M3B4QUx0SWJOd1JsOURUR1J3Y2JnQnhvaDlpUTcxYXRmX0RKUElEUDByWl83TDZoZ0huMmY0eWlUWjJidm1Gdlo0MkhCcnJodmVYWl9UNHJ4WjJVYmtlS1RSYTRSSnpKTUZ2MXQyLVJ1S0NaT0o3YXQzV1NSa05ualpZWkNpSDBTZWgzeWpIZm51cGdXdWYzZ2ZQNA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
-        "origin": "rss"
-      }
-    ]
-  },
-  {
-    "date": "2026-07-27",
-    "event_id": "us-pauses-iran-military-strikes-markets-rally-on-reduced-tensions",
-    "title": "US pauses Iran military strikes, markets rally on reduced tensions",
-    "summary": "The president of the United States paused military strikes on Iran after 13 consecutive nights of bombing, with both sides halting attacks to allow ceasefire negotiations, sending oil prices tumbling and stock futures surging.",
-    "theme": "Geopolitics",
+    "event_id": "us-and-iran-pause-military-hostilities-stock-markets-rally",
+    "title": "U.S. and Iran Pause Military Hostilities, Stock Markets Rally",
+    "summary": "The president of the United States paused military action against Iran for three days starting July 25, easing Middle East tensions and sparking a stock rally as oil prices fell sharply.",
+    "theme": "Markets",
     "importance": 4,
     "topics": [
       "markets",
@@ -1254,16 +1162,21 @@
     ],
     "keywords": [
       "Iran",
-      "US military",
-      "oil prices",
-      "markets",
-      "Middle East"
+      "U.S.",
+      "military pause",
+      "stock market",
+      "oil prices"
     ],
-    "url": "news/markets/2026-07-27/#us-pauses-iran-military-strikes-markets-rally-on-reduced-tensions",
+    "url": "news/markets/2026-07-27/#us-and-iran-pause-military-hostilities-stock-markets-rally",
     "sources": [
       {
-        "label": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/energy/articles/oil-slides-7-iran-signals-012424002.html",
+        "label": "NPR",
+        "url": "https://www.npr.org/2026/07/26/g-s1-135593/us-pauses-attacks-iran-second-day-tehran",
+        "origin": "research"
+      },
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/7/26/us-and-iran-hit-pause-on-strikes-for-second-day",
         "origin": "research"
       },
       {
@@ -1272,8 +1185,18 @@
         "origin": "rss"
       },
       {
-        "label": "MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYmFtbGVFOUFlVTdtZGJaME5zSkEwLW1hclpldjN5MmJaQjlnTlVqMGtQSDVTQ3N1Vk4wSUJnNm1SRTNKRFFobkd1RUQtM0RBMlNoTjZjOThWeW9tZWNVOWN3UjB2dDZTczhOX0psell6X3FkNHJndkxndGVubW5INEExbWVLbFF1U2JsZzEyM2pkakR3S0twWTlfY0ZZQVh0b3FmZmlVcnNSby1BZlBSYzl2Rzh5X0NZT216NmY4NVU3Y0xURHBuQmVHTVRSMDZRc3hPc0JWWEw?oc=5",
+        "label": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOU3VTSWgzR1Q4NUM1d1NiM29RbzJKYVI5LTVEWmhzaVRWUXlRNXc1SmEzVlUtRVN4c3ZreVlJUEgwZzFyakdnZGJNYWhxNDVjSjNhLTRsSENkWnZnUUZma09VajdBa0ZvUk1MN3dhRFktaHg2SEN0RmUwd3hfamgwNHpCeHU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Pittsburgh Post-Gazette",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdTVoTGJrcEV1WlZuZGtVOGpDRW9uMDhZRm5qNndDV2NicFZrOERwVU44bGZ2X090NTNfa0Rtc29XU2RTbTdwWlBmR2JzcExreC1jbTlBdzdfaFR0U1dBb3RZWmdlWE5GWTRmcFF4QUdEZnNya0ZNOXB5Tm9QeGZZVy1RUVhTd1U5aXJycUtrNTJUVEtRclVfdUZsQTBYYVBHX2xsY3BNNVh2bzg?oc=5",
         "origin": "rss"
       },
       {
@@ -1282,13 +1205,13 @@
         "origin": "rss"
       },
       {
-        "label": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRXZqSjMwaEdaM0YxRWtDRHc2djhkbzlGWGhEOWxCRFZSNVl1SmJtaVlGbEZTdkF3S0RINlJHN3dGMGc2M3p1YVFVMUNRTEtmT2dOUTVsQkdZSFdZYUpETS1Gc1ZMN3kwUVJNRXkzbzRrREtVaEd2Z2VoS1ZKUHRVV3R6blVzMEFyclR0bG05REpLYjFOWXMwRzNKcjZiRGRwcVhCVUVjTkhuTkJkRUZTRjNTTF94UnVsZjJZdWlPQ2Q4T3Yya3pwSTJ4VnJFZGxjdy1yRk1HZm0xMHpSU1hUM1dhNWFCTnd6a0l4S096aV9wWmduaFM0djJnRC15VWxIRUswU193b1dFQzktblE?oc=5",
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHJNLUlYblRsTEE5TnF0ekN6VjdmTHhiVW5qV0JUcWp3QUR2ZnRGdDNjZHBlLUZRV0E0SXRuZXJjREF4S1c1bnV1bW4tZXBRTk5hbDRQdlAzTTVQWE1jQjhNcExHME1UakFaWTV5alFnR253elN5WHNnNHg5Ykw3VUlzMF81UHhuVTNaZEdSQXZCWnF3RUZ1RVlIbllEM0RKa2dUQ2ZiSEVYMUk?oc=5",
         "origin": "rss"
       },
       {
-        "label": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbFEzVW9UN2R2eGlCc2ladFhRU0lFa2Q2Q2tkRjI3TzlrNy15cmlrU3EzaDlZRzV5M2FiZWw3NTNkWnAtS1RnYnVJNTE1NEl6djNETmFsZnY4TFc4QzFmM3M1WkdwaEpNMGt1QUhDOUdwdU5wVHBoNEhyVHBvYldNQlpadWdKNGJycXfSAY8BQVVfeXFMT1M2WklvbzBBNVBlVTNoSEhac1dGcWVWSnYxREw2b0toRW55d1loZmtFVWh5VW9Ya3hVSDRFZk9jWDFUTGlOYms3M3BLTzhNdnYyeERmOU83NkhNbXhoaGNRYXRmcHNDUllTYjZCYjRiUXdPNHQ0UHVnUnJFUGJ5Yjh1c1NBSWZLaXZWNDJyeEk?oc=5",
+        "label": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQRXZqSjMwaEdaM0YxRWtDRHc2djhkbzlGWGhEOWxCRFZSNVl1SmJtaVlGbEZTdkF3S0RINlJHN3dGMGc2M3p1YVFVMUNRTEtmT2dOUTVsQkdZSFdZYUpETS1Gc1ZMN3kwUVJNRXkzbzRrREtVaEd2Z2VoS1ZKUHRVV3R6blVzMEFyclR0bG05REpLYjFOWXMwRzNKcjZiRGRwcVhCVUVjTkhuTkJkRUZTRjNTTF94UnVsZjJZdWlPQ2Q4T3Yya3pwSTJ4VnJFZGxjdy1yRk1HZm0xMHpSU1hUM1dhNWFCTnd6a0l4S096aV9wWmduaFM0djJnRC15VWxIRUswU193b1dFQzktblE?oc=5",
         "origin": "rss"
       },
       {
@@ -1297,28 +1220,8 @@
         "origin": "rss"
       },
       {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYTcyMDhXSXVNVFp4QlpqSGdQc3ZqaFN0c1hYSml1ZWhZS1FXbVN1Ql8zYUllVkpETjdMbXNRWUV3eHVqZWFnYnlBY1pvTzQ0WGNESmRyOGhCaFU4dEZwQXptVEV6Q19xb2FBVGxuLWFmUUZ0c0hjRFAzZXJMN2RYd0diYnJQM1M0Ylp6NWp1M0NBMFlFWi1scUNFRGtJblVFUEJzWF9iRTY3QXY4OFZuWmM4Rk01NFF6REllM0NpSEVXVmd3OFc5bnc0ZFM?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQekplN1ptb2dqdnBZQ3A5T25lOWZyd3NkZ2NWVS1UMlRNa0c4eWdEQ3lmd3kxaHVrQzFxaVhkMkRvZjRWUDY2Zkxrd2hmTmVjSlpVM1FpUElDSkpZS040SHBoNk1xTU55TmVBcnQ0UExfM3dzUlhJQjVRS0VfSENiN2w0ajZMYkxydVNxdkVVRnR6OHpQNHRhYmp2SzlwcUlraEhNM2ZaQ2h4MnJsU1JaOS1rSWY3eHlHMUlF?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHJNLUlYblRsTEE5TnF0ekN6VjdmTHhiVW5qV0JUcWp3QUR2ZnRGdDNjZHBlLUZRV0E0SXRuZXJjREF4S1c1bnV1bW4tZXBRTk5hbDRQdlAzTTVQWE1jQjhNcExHME1UakFaWTV5alFnR253elN5WHNnNHg5Ykw3VUlzMF81UHhuVTNaZEdSQXZCWnF3RUZ1RVlIbllEM0RKa2dUQ2ZiSEVYMUk?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pRV9aT0tkYVVmX1NwX01JYWhvakxWM2Z0U2tWSGt6UlZiNThpZElZZW1CYnZsSjlUVmR0RHFlSmZjZUNnWHk3ZzBvXzF3bFVhSlY0Ry05MDl2VjNSYU5xZUdBbVlOdGtLVE9vQXV3?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Pluang",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdENpQkp2ZXFvWUpMUTJpUXJ4cnVIc0VsNUhYRjJsU2piOGZUeEU3ZlVZREZ4Q0VTX2hHNHNLejRCZDFjSGdSeFVndEFIWkw1M2hoVzFYRmVRU2E4cTVMZ3MzdGxnNFBMNkwtQVQtV3hZMTRrQS0xTFZqdlc1YWh5RTR0TWxfMTF1cGNpa3Q1d3NUTy1ycWhDbzNCeFpyNnJ1dVVLLWFqWVJNQlBH?oc=5",
+        "label": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVGc0N0FMM0JkWC1rTUFEUUgycGtHOWxZY0VXaW9reFE5TzBoc0czUzd4MVk3NXJtNnp4WU1yRDRZa2dibWhsdERvaWV5bjZtZ1N2czlpZmo4V1BMM1c1Tzh1cktZYVI2bWhGMEJEbl9hR0U4b2JvX3lpcWVhT05lVWR0SkliR1l0T3F5WS1LQ0JrOFBwVjNkM1hObk1hcm50YlNGZVhLeGpHX1hVcElEb09TYzh0bjhXZG1qeHhUUVB4elJXWmlYN1V6NV9KVzBCVE1ZNQ?oc=5",
         "origin": "rss"
       }
     ]
