@@ -1055,8 +1055,9 @@ def _top_stories_section(index: list[dict]) -> list[str]:
         desc = (r.get("summary") or "").strip()
         desc = f" — {desc}" if desc else ""
         topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
+        href = r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
         lines.append(
-            f"- {meter(r.get('importance', 0))} [{r['title']}]({r['url']}){desc} "
+            f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){desc} "
             f"· _{topics}_"
         )
     lines.append("")

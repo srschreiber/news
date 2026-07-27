@@ -337,7 +337,7 @@ def test_top_stories_section():
     text = "\n".join(g._top_stories_section(index))
     assert "Top stories — 2026-07-25" in text     # only the latest day
     assert "Old" not in text
-    assert "[Big](news/ai/2026-07-25/#big) — desc" in text  # description shown
+    assert "[Big](news/ai/2026-07-25.md#big) — desc" in text  # .md link + description
     assert text.index("Big") < text.index("Med")   # sorted by importance
     assert g._top_stories_section([]) == []
 
