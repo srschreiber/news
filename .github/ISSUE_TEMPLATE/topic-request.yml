@@ -1,0 +1,44 @@
+name: Topic request
+description: Suggest a new topic for Sam's News
+title: "Topic request: "
+labels: ["topic-request"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic name
+      description: What should this topic be called?
+      placeholder: e.g. Space, Rust, Climate
+    validations:
+      required: true
+  - type: textarea
+    id: feeds
+    attributes:
+      label: RSS feeds / sources
+      description: >-
+        One per line. Direct RSS/Atom feed URLs are best; a Google News search
+        query (in quotes) also works.
+      placeholder: |
+        https://example.com/feed.xml
+        "quantum computing news"
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Why is this topic worth adding?
+    validations:
+      required: true
+  - type: dropdown
+    id: swallow
+    attributes:
+      label: What is the airspeed velocity of an unladen swallow?
+      description: A required question, obviously.
+      options:
+        - "African"
+        - "European"
+        - "What do you mean? An African or European swallow?"
+        - "I don't know that... AAAAAAAAH!"
+    validations:
+      required: true

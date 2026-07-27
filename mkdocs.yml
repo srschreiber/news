@@ -57,6 +57,21 @@ markdown_extensions:
 # lives at search.md alongside Material's built-in search.
 nav:
   - Home: index.md
+  # Topic pages are generated (docs/topics/*.md); titles carry the story count.
+  # Adding a topic to sources.yaml? Add its topics/<topic>.md line here too.
+  - Topics:
+      - topics/general.md
+      - topics/world.md
+      - topics/ai.md
+      - topics/anthropic.md
+      - topics/gpt.md
+      - topics/security.md
+      - topics/email-security.md
+      - topics/gaming.md
+      - topics/golang.md
+      - topics/python.md
+      - topics/postgres.md
+      - topics/markets.md
   - Archive: archive.md
   - Search: search.md
   - Tags: tags.md

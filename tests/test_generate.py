@@ -213,6 +213,13 @@ def test_render_briefing_empty_is_quiet_day():
     assert "Quiet day" in g.render_briefing([], "gaming")
 
 
+def test_topic_display():
+    assert g.topic_display("ai") == "AI"
+    assert g.topic_display("gpt") == "GPT"
+    assert g.topic_display("email-security") == "Email Security"
+    assert g.topic_display("markets") == "Markets"
+
+
 def test_daily_link_pluralizes_and_counts():
     counts = {("ai", "2026-07-25"): 1, ("ai", "2026-07-24"): 3}
     assert g._daily_link("ai", "2026-07-25", counts) == \

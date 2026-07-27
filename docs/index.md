@@ -1,6 +1,6 @@
 # Sam's News
 
-Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Browse the full history in the [archive](archive.md), or use the [keyword search](search.md) to filter by term, date, and topic.
+Today's biggest stories across every topic. Pick a topic from the sidebar to dive in, browse the full [archive](archive.md), or [search](search.md) by keyword, date, and topic.
 
 ## Top stories — 2026-07-27
 
@@ -17,67 +17,8 @@ Daily tech-news briefings by topic, plus weekly / monthly / yearly rollups. Brow
 - <span class="imp" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Moonshot AI's Kimi-K3 released, sparking geopolitical AI concerns](news/general/2026-07-27/#moonshot-ais-kimi-k3-released-sparking-geopolitical-ai-concerns) — Moonshot AI released Kimi-K3 large language model, triggering concerns on Wall Street and Silicon Valley about Chinese AI advancement. · _general_
 - <span class="imp" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [US brings charges against citizen for wiping GrapheneOS phone at airport](news/general/2026-07-27/#us-brings-charges-against-citizen-for-wiping-grapheneos-phone-at-airport) — US prosecutors have charged a citizen for allegedly providing a duress password that wiped his GrapheneOS phone during a border search at Atlanta airport. · _general_
 
-## Browse by topic
 
-Most recent per topic — see the [archive](archive.md) for the full back-catalog.
+---
 
-### ai
-
-- **Daily:** [2026-07-27 (0 events)](news/ai/2026-07-27.md) · [2026-07-26 (1 event)](news/ai/2026-07-26.md) · [2026-07-25 (1 event)](news/ai/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/ai/2026-W30.md)
-
-### anthropic
-
-- **Daily:** [2026-07-27 (6 events)](news/anthropic/2026-07-27.md) · [2026-07-26 (3 events)](news/anthropic/2026-07-26.md) · [2026-07-25 (1 event)](news/anthropic/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/anthropic/2026-W30.md)
-
-### email-security
-
-- **Daily:** [2026-07-27 (2 events)](news/email-security/2026-07-27.md) · [2026-07-26 (0 events)](news/email-security/2026-07-26.md) · [2026-07-25 (0 events)](news/email-security/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/email-security/2026-W30.md)
-
-### gaming
-
-- **Daily:** [2026-07-27 (10 events)](news/gaming/2026-07-27.md) · [2026-07-26 (5 events)](news/gaming/2026-07-26.md) · [2026-07-25 (10 events)](news/gaming/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/gaming/2026-W30.md)
-
-### general
-
-- **Daily:** [2026-07-27 (10 events)](news/general/2026-07-27.md) · [2026-07-26 (10 events)](news/general/2026-07-26.md) · [2026-07-25 (10 events)](news/general/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/general/2026-W30.md)
-
-### golang
-
-- **Daily:** [2026-07-27 (0 events)](news/golang/2026-07-27.md) · [2026-07-26 (0 events)](news/golang/2026-07-26.md) · [2026-07-25 (0 events)](news/golang/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/golang/2026-W30.md)
-
-### gpt
-
-- **Daily:** [2026-07-27 (2 events)](news/gpt/2026-07-27.md) · [2026-07-26 (1 event)](news/gpt/2026-07-26.md) · [2026-07-25 (4 events)](news/gpt/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/gpt/2026-W30.md)
-
-### markets
-
-- **Daily:** [2026-07-27 (10 events)](news/markets/2026-07-27.md) · [2026-07-26 (7 events)](news/markets/2026-07-26.md) · [2026-07-25 (3 events)](news/markets/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/markets/2026-W30.md)
-
-### postgres
-
-- **Daily:** [2026-07-27 (0 events)](news/postgres/2026-07-27.md) · [2026-07-26 (0 events)](news/postgres/2026-07-26.md) · [2026-07-25 (0 events)](news/postgres/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/postgres/2026-W30.md)
-
-### python
-
-- **Daily:** [2026-07-27 (0 events)](news/python/2026-07-27.md) · [2026-07-26 (0 events)](news/python/2026-07-26.md) · [2026-07-25 (0 events)](news/python/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/python/2026-W30.md)
-
-### security
-
-- **Daily:** [2026-07-27 (1 event)](news/security/2026-07-27.md) · [2026-07-26 (0 events)](news/security/2026-07-26.md) · [2026-07-25 (0 events)](news/security/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/security/2026-W30.md)
-
-### world
-
-- **Daily:** [2026-07-27 (5 events)](news/world/2026-07-27.md) · [2026-07-26 (10 events)](news/world/2026-07-26.md) · [2026-07-25 (10 events)](news/world/2026-07-25.md)
-- **Weekly:** [2026-W30](weekly/world/2026-W30.md)
+Don't see a topic you want? [➕ Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml){ .md-button .md-button--primary }
 

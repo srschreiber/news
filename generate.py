@@ -52,6 +52,7 @@ KIND_DIR = {
     "yearly": DOCS / "yearly",
 }
 DEFAULT_TOPIC = "general"
+REPO_URL = "https://github.com/srschreiber/news"
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
@@ -1054,48 +1055,93 @@ def _daily_link(topic: str, stem: str, counts: dict[tuple, int]) -> str:
     return f"[{stem} ({n} {unit})]({KIND_DIR['daily'].name}/{topic}/{stem}.md)"
 
 
+TOPIC_DISPLAY = {"ai": "AI", "gpt": "GPT", "api": "API"}
+
+
+def topic_display(topic: str) -> str:
+    """Human-friendly topic label for headings/nav (ai -> AI, email-security ->
+    Email Security)."""
+    return TOPIC_DISPLAY.get(topic, topic.replace("-", " ").title())
+
+
 def rebuild_index() -> None:
     lines = [
         "# Sam's News",
         "",
-        "Daily tech-news briefings by topic, plus weekly / monthly / yearly "
-        "rollups. Browse the full history in the [archive](archive.md), or use "
-        "the [keyword search](search.md) to filter by term, date, and topic.",
+        "Today's biggest stories across every topic. Pick a topic from the "
+        "sidebar to dive in, browse the full [archive](archive.md), or "
+        "[search](search.md) by keyword, date, and topic.",
         "",
     ]
-    index = load_search_index()
-    lines += _top_stories_section(index)
-    counts = _event_counts(index)
-
-    kind_labels = [
-        ("daily", "Daily"),
-        ("weekly", "Weekly"),
-        ("monthly", "Monthly"),
-        ("yearly", "Yearly"),
+    lines += _top_stories_section(load_search_index())
+    lines += [
+        "",
+        "---",
+        "",
+        "Don't see a topic you want? "
+        "[➕ Request a new topic]"
+        f"({REPO_URL}/issues/new?template=topic-request.yml)"
+        "{ .md-button .md-button--primary }",
+        "",
     ]
-    topics = sorted(
-        {t for kind, _ in kind_labels for t in _topics_in(KIND_DIR[kind])}
-    )
-    if topics:
-        lines += ["## Browse by topic", "",
-                  "Most recent per topic — see the [archive](archive.md) for the "
-                  "full back-catalog.", ""]
-    for topic in topics:
-        lines.append(f"### {topic}\n")
-        for kind, label in kind_labels:
-            directory = KIND_DIR[kind] / topic
-            stems = _dated_stems(directory)[:8]
-            if not stems:
-                continue
-            if kind == "daily":
-                links = " · ".join(_daily_link(topic, s, counts) for s in stems)
-            else:
-                rel = f"{KIND_DIR[kind].name}/{topic}"
-                links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
-            lines.append(f"- **{label}:** {links}")
-        lines.append("")
     (DOCS / "index.md").write_text("\n".join(lines) + "\n")
     log("rebuilt docs/index.md")
+
+
+def rebuild_topic_pages() -> None:
+    """One page per topic (docs/topics/<topic>.md) for the sidebar nav tree: the
+    latest briefing's headlines, earlier dates, and links to any rollups. The
+    page title carries the latest story count so the sidebar shows '(N)'.
+    Built from the search index + filesystem — no LLM, regenerated each run."""
+    index = load_search_index()
+    by_topic: dict[str, dict[str, list[dict]]] = {}
+    for r in index:
+        for t in r.get("topics", []):
+            by_topic.setdefault(t, {}).setdefault(r["date"], []).append(r)
+
+    topics = sorted({s["topic"] for s in load_sources()})
+    news_dir = KIND_DIR["daily"].name
+    for topic in topics:
+        dates = by_topic.get(topic, {})
+        latest = max(dates) if dates else None
+        latest_events = sorted(
+            dates.get(latest, []), key=lambda r: r.get("importance", 0), reverse=True
+        ) if latest else []
+        disp = topic_display(topic)
+        lines = [f"# {disp} ({len(latest_events)})" if latest else f"# {disp}", ""]
+
+        if latest:
+            lines += [f"## Latest — {latest}", ""]
+            for r in latest_events:
+                lines.append(f"- {meter(r.get('importance', 0))} [{r['title']}](../{r['url']})")
+            lines.append("")
+            earlier = sorted((d for d in dates if d != latest), reverse=True)
+            if earlier:
+                lines += ["## Earlier", ""]
+                parts = []
+                for d in earlier:
+                    c = len(dates[d])
+                    unit = "story" if c == 1 else "stories"
+                    parts.append(f"[{d} ({c} {unit})](../{news_dir}/{topic}/{d}.md)")
+                lines += [" · ".join(parts), ""]
+        else:
+            lines += ["_No briefings yet._", ""]
+
+        rollups = []
+        for kind, label in (("weekly", "Weekly"), ("monthly", "Monthly"), ("yearly", "Yearly")):
+            stems = _dated_stems(KIND_DIR[kind] / topic)[:8]
+            if not stems:
+                continue
+            rel = f"../{KIND_DIR[kind].name}/{topic}"
+            links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
+            rollups.append(f"- **{label}:** {links}")
+        if rollups:
+            lines += ["## Rollups", ""] + rollups + [""]
+
+        path = DOCS / "topics" / f"{topic}.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(lines) + "\n")
+    log(f"rebuilt {len(topics)} topic pages")
 
 
 def rebuild_archive() -> None:
@@ -1332,6 +1378,7 @@ def run_daily(dry_run: bool, no_research: bool = False) -> None:
     save_state(state, items, run_start)
     rebuild_index()
     rebuild_archive()
+    rebuild_topic_pages()
     record_metrics("daily", run_start)
     log("daily run complete")
 
@@ -1375,6 +1422,7 @@ def run_rollup(mode: str, dry_run: bool) -> None:
     if not dry_run:
         rebuild_index()
         rebuild_archive()
+        rebuild_topic_pages()
         record_metrics(mode, run_start)
 
 
