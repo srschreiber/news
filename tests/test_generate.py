@@ -239,6 +239,17 @@ def test_parse_wotd_falls_back_to_shortdef():
     assert w["definition"] == "acceptable or fine"
 
 
+def test_parse_fact():
+    e = {"year": 1976, "text": "Apple Computer was founded.",
+         "pages": [{"content_urls": {"desktop": {"page": "https://en.wikipedia.org/wiki/Apple"}}}]}
+    f = g._parse_fact(e)
+    assert f == {"year": 1976, "text": "Apple Computer was founded.",
+                 "link": "https://en.wikipedia.org/wiki/Apple"}
+    assert g._parse_fact({"year": None, "text": "x"}) is None
+    # missing pages -> empty link, still valid
+    assert g._parse_fact({"year": 1969, "text": "Moon landing."})["link"] == ""
+
+
 def test_topic_display():
     assert g.topic_display("ai") == "AI"
     assert g.topic_display("gpt") == "GPT"

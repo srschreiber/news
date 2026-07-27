@@ -25,6 +25,11 @@ Today's biggest stories across every topic. Pick a topic from the sidebar to div
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Paris Terror Attack Leaves Three Women Stabbed](news/world/2026-07-27/#paris-terror-attack-leaves-three-women-stabbed) — Three women, including a pregnant woman, were stabbed by an attacker in Paris who claimed Allah commanded the attack. · _world_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Major Wildfires Force Hundreds of Thousands to Evacuate in France and Spain](news/world/2026-07-27/#major-wildfires-force-hundreds-of-thousands-to-evacuate-in-france-and-spain) — Massive wildfires in France and Spain forced hundreds of thousands of residents to evacuate, with fires threatening major cities including Bordeaux. · _world_
 
+<div class="fact">
+<div class="fact-label">📅 On this day &middot; 2020</div>
+<div class="fact-text">A major oil spill from the Colonial Pipeline was discovered in Mecklenburg County, North Carolina (system map pictured). <a class="fact-src" href="https://en.wikipedia.org/wiki/2020_Colonial_Pipeline_oil_spill" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+</div>
+
 
 ---
 

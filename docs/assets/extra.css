@@ -106,6 +106,25 @@
 .wl-page { font-size: 0.8rem; color: var(--md-default-fg-color--light); }
 .wq-btn:disabled { opacity: 0.45; cursor: default; }
 
+/* "On this day" fact card on the home page (blue accent vs the amber WOTD). */
+.md-typeset .fact {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid #2b6cb0;
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  margin: 1.3rem 0;
+  background: var(--md-code-bg-color);
+}
+.fact-label {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+}
+.fact-text { margin-top: 0.3rem; }
+.fact-src { font-size: 0.78rem; white-space: nowrap; }
+
 /* Word of the day card on the home page. */
 .md-typeset .wotd {
   border: 1px solid var(--md-default-fg-color--lightest);

@@ -27,6 +27,7 @@ import sys
 import threading
 import time
 import urllib.parse
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Iterable
@@ -58,6 +59,19 @@ REPO_URL = "https://github.com/srschreiber/news"
 WOTD_FEED_URL = "https://www.merriam-webster.com/wotd/feed/rss2"
 WORDS_FILE = DOCS / "words.json"   # accumulated WOTD history, feeds the quiz page
 WORDS_HISTORY_MAX = 90             # cap the stored word history
+# Wikipedia "On this day" (free, no key, verifiable) — biased toward tech/science
+# so the home-page fact leans conceptual rather than trivia.
+ONTHISDAY_URL = "https://en.wikipedia.org/api/rest_v1/feed/onthisday/selected/{mm}/{dd}"
+ONTHISDAY_UA = "sam-news/1.0 (https://github.com/srschreiber/news)"
+FACT_PREFER = (
+    "computer", "software", "internet", "technolog", "comput", "digital",
+    "science", "scientist", "physics", "chemistry", "mathematic", "astronom",
+    "space", "nasa", "satellite", "rocket", "telescope", "quantum",
+    "semiconductor", "transistor", "electric", "engine", "invent", "patent",
+    "discover", "algorithm", "telephone", "radio", "aviation", "aircraft",
+    "dna", "vaccine", "medicine", "economic", "financ", "market", "currency",
+    "stock exchange", "bank",
+)
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
@@ -1136,6 +1150,53 @@ def _wotd_card(w: dict) -> list[str]:
     return ['<div class="wotd">'] + inner + ['</div>', '']
 
 
+def _parse_fact(e: dict) -> dict | None:
+    year, text = e.get("year"), (e.get("text") or "").strip()
+    if not (year and text):
+        return None
+    link = ""
+    for p in e.get("pages") or []:
+        try:
+            link = p["content_urls"]["desktop"]["page"]
+            break
+        except (KeyError, TypeError):
+            continue
+    return {"year": int(year), "text": text, "link": link}
+
+
+def fetch_fact_of_the_day(now: dt.datetime | None = None) -> dict | None:
+    """A verifiable 'on this day' fact from Wikipedia, biased toward tech/science
+    so it leans conceptual. Returns {year, text, link} or None on failure — the
+    home page just omits the card then. Deterministic, no LLM."""
+    now = now or now_utc()
+    url = ONTHISDAY_URL.format(mm=f"{now.month:02d}", dd=f"{now.day:02d}")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": ONTHISDAY_UA})
+        data = json.load(urllib.request.urlopen(req, timeout=15))
+    except Exception as e:
+        log(f"fact-of-the-day fetch failed: {e}")
+        return None
+    facts = [f for f in (_parse_fact(e) for e in data.get("selected", [])) if f]
+    if not facts:
+        return None
+    # Prefer topic-relevant (tech/science/finance) events; stable otherwise.
+    facts.sort(key=lambda f: -sum(1 for k in FACT_PREFER if k in f["text"].lower()))
+    return facts[0]
+
+
+def _fact_card(f: dict) -> list[str]:
+    esc = html.escape
+    src = (f' <a class="fact-src" href="{esc(f["link"])}" target="_blank" '
+           'rel="noopener">Wikipedia&nbsp;&rarr;</a>') if f.get("link") else ""
+    return [
+        '<div class="fact">',
+        f'<div class="fact-label">\U0001F4C5 On this day &middot; {esc(str(f["year"]))}</div>',
+        f'<div class="fact-text">{esc(f["text"])}{src}</div>',
+        "</div>",
+        "",
+    ]
+
+
 def record_word_of_the_day(w: dict) -> None:
     """Append today's word to docs/words.json (deduped against the last entry so
     same-day re-runs don't duplicate). The quiz page reads the recent tail."""
@@ -1168,6 +1229,9 @@ def rebuild_index() -> None:
         record_word_of_the_day(wotd)
         lines += _wotd_card(wotd)
     lines += _top_stories_section(load_search_index())
+    fact = fetch_fact_of_the_day()
+    if fact:
+        lines += _fact_card(fact)
     lines += [
         "",
         "---",
