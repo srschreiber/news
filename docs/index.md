@@ -2,6 +2,14 @@
 
 Today's biggest stories across every topic. Pick a topic from the sidebar to dive in, browse the full [archive](archive.md), or [search](search.md) by keyword, date, and topic.
 
+<div class="wotd">
+<div class="wotd-label">📖 Word of the day</div>
+<div class="wotd-word">parochial <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">Parochial is a formal word that is usually used in a disapproving way to describe something that is limited in range or scope, as to a narrow region or area.</div>
+<div class="wotd-ex">For some, college can be an expansive experience that lifts them out of a parochial mindset.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/parochial-2026-07-27" target="_blank" rel="noopener">Merriam-Webster</a>
+</div>
+
 ## Top stories — 2026-07-27
 
 - <span class="imp" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Chinese chipmaker CXMT surges 466% on market debut, becomes China's most valuable listed firm](news/markets/2026-07-27/#chinese-chipmaker-cxmt-surges-466-on-market-debut-becomes-chinas-most-valuable-listed-firm) — Chinese memory chipmaker CXMT surged 466% on its Shanghai debut, becoming China's most valuable listed company as investors bet heavily on domestic semiconductor self-sufficiency. · _general, markets_
@@ -20,5 +28,5 @@ Today's biggest stories across every topic. Pick a topic from the sidebar to div
 
 ---
 
-Don't see a topic you want? [➕ Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml){ .md-button .md-button--primary }
+Don't see a topic you want? [➕ Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml){ .md-button .md-button--primary .request-topic }
 

@@ -213,6 +213,32 @@ def test_render_briefing_empty_is_quiet_day():
     assert "Quiet day" in g.render_briefing([], "gaming")
 
 
+def test_parse_wotd():
+    summary = (
+        '<p><strong><font>Merriam-Webster\'s Word of the Day for July 27, 2026 is:'
+        '</font></strong></p>'
+        '<p><strong>parochial</strong> &#x2022; \\puh-ROH-kee-ul\\&nbsp; &#x2022; '
+        '<em>adjective</em><br />'
+        '<p><em>Parochial</em> is a formal word used to describe something limited '
+        'in range or scope.</p>'
+        '<p>// It lifts them out of a <em>parochial</em> mindset.</p>'
+        '<p><a href="https://m-w.com/dictionary/parochial">See the entry &gt;</a></p>'
+        '</p>'
+        '<p><strong>Examples:</strong><br /><p>Some long editorial quote.</p></p>'
+    )
+    w = g._parse_wotd("parochial", summary, "limited in range or scope")
+    assert w["word"] == "parochial"
+    assert w["part_of_speech"] == "adjective"
+    assert "limited in range or scope" in w["definition"]
+    assert w["example"].startswith("It lifts them out of a")
+    assert "See the entry" not in w["definition"]  # link stripped
+
+
+def test_parse_wotd_falls_back_to_shortdef():
+    w = g._parse_wotd("cromulent", "<p>no structure here</p>", "acceptable or fine")
+    assert w["definition"] == "acceptable or fine"
+
+
 def test_topic_display():
     assert g.topic_display("ai") == "AI"
     assert g.topic_display("gpt") == "GPT"

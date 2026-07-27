@@ -53,6 +53,11 @@ KIND_DIR = {
 }
 DEFAULT_TOPIC = "general"
 REPO_URL = "https://github.com/srschreiber/news"
+# Merriam-Webster's Word of the Day — reputable, curated for usable (not archaic)
+# words, and each entry ships a definition + example.
+WOTD_FEED_URL = "https://www.merriam-webster.com/wotd/feed/rss2"
+WORDS_FILE = DOCS / "words.json"   # accumulated WOTD history, feeds the quiz page
+WORDS_HISTORY_MAX = 90             # cap the stored word history
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
@@ -1064,6 +1069,91 @@ def topic_display(topic: str) -> str:
     return TOPIC_DISPLAY.get(topic, topic.replace("-", " ").title())
 
 
+def _parse_wotd(word: str, summary_html: str, shortdef: str | None) -> dict | None:
+    """Pull {part_of_speech, definition, example} out of a Merriam-Webster WOTD
+    entry's summary HTML. Pure/testable. Falls back to the short definition."""
+    text = re.sub(r"(?is)<a\s.*?</a>", "", summary_html or "")  # drop 'See the entry >'
+    text = re.sub(r"(?is)</?(p|br|div)\s*/?>", "\n", text)      # paragraph/break -> newline
+    text = re.sub(r"(?is)<[^>]+>", " ", text)
+    text = html.unescape(text)
+    lines = [re.sub(r"\s+", " ", ln).strip() for ln in text.splitlines() if ln.strip()]
+
+    pos = definition = example = ""
+    seen_pron = False
+    for ln in lines:
+        if "•" in ln and not seen_pron:            # "word • \pron\ • adjective"
+            seen_pron = True
+            pos = ln.split("•")[-1].strip()
+            continue
+        if not seen_pron:
+            continue
+        if ln.startswith("//"):
+            example = example or ln.lstrip("/").strip()
+        elif not definition and not ln.lower().startswith(("examples", "did you know")):
+            definition = ln
+    if not definition and isinstance(shortdef, str):
+        definition = shortdef.strip()
+    if not (word and definition):
+        return None
+    return {"word": word.strip(), "part_of_speech": pos,
+            "definition": definition, "example": example}
+
+
+def fetch_word_of_the_day() -> dict | None:
+    """Merriam-Webster's Word of the Day (usable words w/ definition + example).
+    Returns {word, part_of_speech, definition, example, link} or None on any
+    failure — the home page simply omits the card then."""
+    try:
+        d = feedparser.parse(WOTD_FEED_URL)
+    except Exception as e:
+        log(f"word-of-the-day fetch failed: {e}")
+        return None
+    if not d.entries:
+        return None
+    e = d.entries[0]
+    parsed = _parse_wotd(e.get("title") or "", e.get("summary") or "",
+                         e.get("merriam_shortdef"))
+    if parsed:
+        parsed["link"] = e.get("link") or "https://www.merriam-webster.com/word-of-the-day"
+    return parsed
+
+
+def _wotd_card(w: dict) -> list[str]:
+    """Render the Word of the Day as a raw-HTML card (no blank lines inside so
+    Markdown treats it as one HTML block)."""
+    esc = html.escape
+    pos = (f' <span class="wotd-pos">{esc(w["part_of_speech"])}</span>'
+           if w.get("part_of_speech") else "")
+    inner = [
+        '<div class="wotd-label">\U0001F4D6 Word of the day</div>',
+        f'<div class="wotd-word">{esc(w["word"])}{pos}</div>',
+        f'<div class="wotd-def">{esc(w["definition"])}</div>',
+    ]
+    if w.get("example"):
+        inner.append(f'<div class="wotd-ex">{esc(w["example"])}</div>')
+    inner.append(f'<a class="wotd-src" href="{esc(w.get("link", ""))}" '
+                 'target="_blank" rel="noopener">Merriam-Webster</a>')
+    return ['<div class="wotd">'] + inner + ['</div>', '']
+
+
+def record_word_of_the_day(w: dict) -> None:
+    """Append today's word to docs/words.json (deduped against the last entry so
+    same-day re-runs don't duplicate). The quiz page reads the recent tail."""
+    hist: list = []
+    if WORDS_FILE.exists():
+        try:
+            hist = json.loads(WORDS_FILE.read_text())
+        except json.JSONDecodeError:
+            hist = []
+    if hist and hist[-1].get("word") == w["word"]:
+        return
+    hist.append({"word": w["word"], "part_of_speech": w.get("part_of_speech", ""),
+                 "definition": w["definition"], "example": w.get("example", ""),
+                 "link": w.get("link", "")})
+    hist = hist[-WORDS_HISTORY_MAX:]
+    WORDS_FILE.write_text(json.dumps(hist, ensure_ascii=False, indent=2) + "\n")
+
+
 def rebuild_index() -> None:
     lines = [
         "# Sam's News",
@@ -1073,6 +1163,10 @@ def rebuild_index() -> None:
         "[search](search.md) by keyword, date, and topic.",
         "",
     ]
+    wotd = fetch_word_of_the_day()
+    if wotd:
+        record_word_of_the_day(wotd)
+        lines += _wotd_card(wotd)
     lines += _top_stories_section(load_search_index())
     lines += [
         "",
@@ -1081,7 +1175,7 @@ def rebuild_index() -> None:
         "Don't see a topic you want? "
         "[➕ Request a new topic]"
         f"({REPO_URL}/issues/new?template=topic-request.yml)"
-        "{ .md-button .md-button--primary }",
+        "{ .md-button .md-button--primary .request-topic }",
         "",
     ]
     (DOCS / "index.md").write_text("\n".join(lines) + "\n")
@@ -1113,7 +1207,10 @@ def rebuild_topic_pages() -> None:
         if latest:
             lines += [f"## Latest — {latest}", ""]
             for r in latest_events:
-                lines.append(f"- {meter(r.get('importance', 0))} [{r['title']}](../{r['url']})")
+                # index url is directory-form (…/<date>/#slug); use the .md form
+                # so MkDocs validates/rewrites it cleanly.
+                href = "../" + r["url"].replace("/#", ".md#")
+                lines.append(f"- {meter(r.get('importance', 0))} [{r['title']}]({href})")
             lines.append("")
             earlier = sorted((d for d in dates if d != latest), reverse=True)
             if earlier:

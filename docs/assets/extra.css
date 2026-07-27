@@ -54,6 +54,81 @@
 .imp i:nth-child(4) { height: 83%; }
 .imp i:nth-child(5) { height: 100%; }
 
+/* Space the "Request a new topic" button off the preceding text. */
+.md-typeset .request-topic { margin-left: 0.5rem; }
+
+/* Word quiz + word-list pages. */
+.wq-btn,
+.wq-opt {
+  cursor: pointer;
+  font: inherit;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border-radius: 6px;
+  padding: 0.5rem 0.8rem;
+}
+.wq-progress { font-size: 0.72rem; color: var(--md-default-fg-color--light); text-transform: uppercase; letter-spacing: 0.05em; }
+.wq-def { margin: 0.5rem 0 0.9rem; font-size: 1.05rem; }
+.wq-options { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+.wq-opt:hover:not(:disabled) { border-color: #f6ad3c; }
+.wq-opt.correct { background: rgba(46, 160, 67, 0.18); border-color: #1a7f37; color: #1a7f37; }
+.wq-opt.wrong { background: rgba(220, 60, 60, 0.15); border-color: #c0392b; color: #c0392b; }
+.wq-feedback { margin-top: 0.9rem; }
+.wq-ok { color: #1a7f37; font-weight: 700; }
+.wq-no { color: #c0392b; font-weight: 700; }
+.wq-ex { margin-top: 0.4rem; font-style: italic; color: var(--md-default-fg-color--light); }
+.wq-btn { margin-top: 0.8rem; }
+.wq-done { font-size: 1.2rem; text-align: center; padding: 1rem; }
+
+.wl-cards { display: grid; gap: 0.8rem; }
+.wl-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid #f6ad3c;
+  border-radius: 4px;
+  padding: 0.6rem 0.9rem;
+  background: var(--md-code-bg-color);
+}
+.wl-word { font-size: 1.15rem; font-weight: 700; }
+.wl-def { margin-top: 0.25rem; }
+.wl-ex { margin-top: 0.3rem; font-style: italic; color: var(--md-default-fg-color--light); }
+.wl-src { display: inline-block; margin-top: 0.35rem; font-size: 0.7rem; }
+.wl-pager { display: flex; align-items: center; justify-content: center; gap: 1rem; margin-top: 1.1rem; }
+.wl-page { font-size: 0.8rem; color: var(--md-default-fg-color--light); }
+.wq-btn:disabled { opacity: 0.45; cursor: default; }
+
+/* Word of the day card on the home page. */
+.md-typeset .wotd {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid #f6ad3c;
+  border-radius: 4px;
+  padding: 0.7rem 1rem;
+  margin: 0 0 1.3rem;
+  background: var(--md-code-bg-color);
+}
+.wotd-label {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+}
+.wotd-word { font-size: 1.3rem; font-weight: 700; margin-top: 0.15rem; }
+.wotd-pos {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+  margin-left: 0.35rem;
+}
+.wotd-def { margin-top: 0.3rem; }
+.wotd-ex {
+  margin-top: 0.35rem;
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+.wotd-src { display: inline-block; margin-top: 0.5rem; font-size: 0.7rem; }
+
 /* Slicker content bullets: an amber ▸ marker instead of the default grey disc. */
 .md-typeset ul:not(.takeaways) > li::marker {
   content: "▸";
