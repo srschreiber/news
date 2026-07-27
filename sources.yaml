@@ -64,11 +64,50 @@ sources:
     topic: general
 
   # --- Security ---
+  # Direct feeds from reputable outlets (higher signal than a lone news query).
+  - name: Krebs on Security
+    url: https://krebsonsecurity.com/feed/
+    topic: security
+  - name: BleepingComputer
+    url: https://www.bleepingcomputer.com/feed/
+    topic: security
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    topic: security
+  - name: Dark Reading
+    url: https://www.darkreading.com/rss.xml
+    topic: security
+  - name: The Record
+    url: https://therecord.media/feed/
+    topic: security
+  - name: SecurityWeek
+    url: https://www.securityweek.com/feed/
+    topic: security
+  - name: Schneier on Security
+    url: https://www.schneier.com/feed/atom/
+    topic: security
+  - name: "CISA Advisories"
+    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+    topic: security
   - name: "Google News — cybersecurity"
     query: "cybersecurity breach vulnerability"
     topic: security
+
+  # --- Email security --- (few pure-RSS outlets; mix vendor research + queries)
+  - name: "Proofpoint — Threat Insight"
+    url: https://www.proofpoint.com/us/rss.xml
+    topic: email-security
+  - name: "Microsoft Security Blog"
+    url: https://www.microsoft.com/en-us/security/blog/feed/
+    topic: email-security
   - name: "Google News — email security"
     query: "email security phishing OR BEC OR \"email threat\""
+    topic: email-security
+  - name: "Google News — business email compromise"
+    query: "\"business email compromise\" OR \"email account takeover\""
+    topic: email-security
+  - name: "Google News — phishing campaigns"
+    query: "phishing campaign OR \"phishing attack\""
     topic: email-security
 
   # --- Gaming ---
