@@ -21,8 +21,11 @@
   var INDEX = [];
 
   function meter(score) {
-    score = Math.max(1, Math.min(5, score | 0));
-    return "🔥".repeat(score) + "◯".repeat(5 - score);
+    var n = Math.max(1, Math.min(5, score | 0));
+    var bars = "";
+    for (var i = 0; i < 5; i++) bars += i < n ? '<i class="on"></i>' : "<i></i>";
+    return '<span class="imp" title="Importance ' + n + '/5" aria-label="Importance ' +
+      n + ' of 5">' + bars + "</span>";
   }
 
   function terms(s) {

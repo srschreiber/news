@@ -98,9 +98,12 @@ def test_group_by_topic():
 
 # --- rendering helpers ------------------------------------------------------ #
 def test_meter():
-    assert g.meter(4) == "🔥🔥🔥🔥◯"
-    assert g.meter(0) == "🔥◯◯◯◯"   # clamps up to 1
-    assert g.meter(9) == "🔥🔥🔥🔥🔥"   # clamps down to 5
+    m = g.meter(4)
+    assert m.count('<i class="on">') == 4      # 4 filled bars
+    assert m.count("<i") == 5                   # 5 bars total
+    assert 'aria-label="Importance 4 of 5"' in m
+    assert g.meter(0).count('<i class="on">') == 1   # clamps up to 1
+    assert g.meter(9).count('<i class="on">') == 5   # clamps down to 5
 
 
 def test_attach_sources_dedupes_by_outlet():
@@ -198,7 +201,8 @@ def test_render_briefing():
     ]
     body = g.render_briefing(events, "golang")
     assert body.startswith("## TL;DR")
-    assert "🔥🔥🔥🔥🔥 [Go 1.18 ships generics](#go-118-ships-generics)" in body
+    assert "[Go 1.18 ships generics](#go-118-ships-generics)" in body
+    assert '<span class="imp"' in body   # custom signal-bar meter
     assert "### Go 1.18 ships generics" in body
     assert "Sources: [go.dev](https://go.dev)" in body
     # highest importance first in TL;DR
@@ -231,7 +235,7 @@ def test_event_counts_from_index():
     assert counts[("general", "2026-07-24")] == 1
 
 
-def test_render_briefing_renders_takeaways_as_bullets():
+def test_render_briefing_renders_takeaways_as_card():
     events = [
         {"title": "Opus 5 launches", "one_liner": "Near-frontier at half the price.",
          "importance": 5, "theme": "AI", "keywords": [],
@@ -239,10 +243,20 @@ def test_render_briefing_renders_takeaways_as_bullets():
          "sources": [{"label": "Anthropic", "url": "https://a", "origin": "research"}]},
     ]
     body = g.render_briefing(events, "ai")
-    assert "- $5/M input, $25/M output" in body
-    assert "- Tops Frontier-Bench v0.1" in body
-    # bullets sit between the summary line and the Sources line
-    assert body.index("Near-frontier") < body.index("- $5/M") < body.index("Sources:")
+    assert '<ul class="takeaways">' in body
+    assert "<li>$5/M input, $25/M output</li>" in body
+    assert "<li>Tops Frontier-Bench v0.1</li>" in body
+    # the card sits between the summary line and the Sources line
+    assert body.index("Near-frontier") < body.index("takeaways") < body.index("Sources:")
+
+
+def test_render_briefing_takeaways_html_escaped():
+    events = [
+        {"title": "T", "one_liner": "x", "importance": 3, "theme": "T",
+         "keywords": [], "takeaways": ["a < b & c"], "sources": []},
+    ]
+    body = g.render_briefing(events, "ai")
+    assert "<li>a &lt; b &amp; c</li>" in body
 
 
 def test_render_briefing_no_takeaways_still_ok():
@@ -252,7 +266,7 @@ def test_render_briefing_no_takeaways_still_ok():
     ]
     body = g.render_briefing(events, "golang")
     assert "Bugfix shipped." in body
-    assert "\n- " not in body.split("## Languages")[1]  # no stray bullets in body
+    assert "takeaways" not in body.split("## Languages")[1]  # no empty card
 
 
 # --- home-page top stories -------------------------------------------------- #

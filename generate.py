@@ -333,8 +333,12 @@ def group_by_topic(items: list[dict]) -> dict[str, list[dict]]:
 
 
 def meter(score: int) -> str:
-    score = max(1, min(5, int(score)))
-    return METER_FILLED * score + METER_EMPTY * (5 - score)
+    """Importance as a custom 5-segment amber signal-bar meter (HTML). Styled by
+    `.imp` in extra.css; mirrored in search.js so search results match."""
+    n = max(1, min(5, int(score or 0)))
+    bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(5))
+    return (f'<span class="imp" title="Importance {n}/5" '
+            f'aria-label="Importance {n} of 5">{bars}</span>')
 
 
 def _source_badge(origin: str) -> str:
@@ -929,12 +933,15 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
             lines.append(f"### {e['title']}")
             summary = (e.get("one_liner") or "").strip()
             lines.append(f"{meter(e.get('importance', 0))} {summary}".rstrip())
-            # Key takeaways as bullets (research adds these for data-dense
-            # stories) so readers can skim instead of parsing a block of text.
+            # Key takeaways as a styled "key facts" card (research adds these for
+            # data-dense stories) so readers skim instead of parsing a block of
+            # text. Raw HTML list -> deterministic markers via .takeaways CSS.
             takeaways = [t.strip() for t in e.get("takeaways", []) if t.strip()]
             if takeaways:
                 lines.append("")
-                lines += [f"- {t}" for t in takeaways]
+                lines.append('<ul class="takeaways">')
+                lines += [f"<li>{html.escape(t)}</li>" for t in takeaways]
+                lines.append("</ul>")
             lines.append("")
             srcs = ", ".join(
                 f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"

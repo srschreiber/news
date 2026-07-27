@@ -33,6 +33,62 @@
   text-decoration: underline;
 }
 
+/* Custom importance meter: 5 increasing amber signal bars (replaces 🔥). */
+.imp {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 0.82em;
+  margin-right: 0.45rem;
+  vertical-align: -0.12em;
+}
+.imp i {
+  width: 3px;
+  border-radius: 1px;
+  background: var(--md-default-fg-color--lightest);
+}
+.imp i.on { background: #f6ad3c; }
+.imp i:nth-child(1) { height: 34%; }
+.imp i:nth-child(2) { height: 50%; }
+.imp i:nth-child(3) { height: 67%; }
+.imp i:nth-child(4) { height: 83%; }
+.imp i:nth-child(5) { height: 100%; }
+
+/* Slicker content bullets: an amber ▸ marker instead of the default grey disc. */
+.md-typeset ul:not(.takeaways) > li::marker {
+  content: "▸";
+  color: #f6ad3c;
+}
+/* Rows led by an importance meter (TL;DR, Top stories) drop the bullet — the
+   meter is the visual lead. */
+.md-typeset ul > li:has(> .imp:first-child)::marker {
+  content: "";
+}
+
+/* "Key facts" takeaways card (replaces plain bullets). */
+.md-typeset .takeaways {
+  list-style: none;
+  margin: 0.5rem 0 0.9rem;
+  padding: 0.55rem 0.9rem;
+  border-left: 3px solid #f6ad3c;
+  background: var(--md-code-bg-color);
+  border-radius: 0 4px 4px 0;
+}
+.md-typeset .takeaways li {
+  position: relative;
+  padding-left: 1.15rem;
+  margin: 0.28rem 0;
+  font-size: 0.8rem;
+  line-height: 1.55;
+}
+.md-typeset .takeaways li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #f6ad3c;
+  font-weight: 700;
+}
+
 /* Per-story "copy link to share" button next to each story heading. */
 .share-link {
   border: 0;
