@@ -2,7 +2,7 @@ name: news-pipeline
 
 on:
   schedule:
-    - cron: "30 14 * * *"   # daily  14:30 UTC = 6:30 AM PST (7:30 during PDT)
+    - cron: "30 13 * * *"   # daily  13:30 UTC = 5:30 AM PST / 6:30 AM PDT
     - cron: "0 15 * * 0"    # weekly Sun 15:00 UTC
     - cron: "0 16 1 * *"    # monthly 1st 16:00 UTC
     - cron: "0 17 1 1 *"    # yearly Jan 1 17:00 UTC
