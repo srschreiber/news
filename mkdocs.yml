@@ -3,20 +3,27 @@ site_description: Automated daily tech-news briefings with weekly/monthly/yearly
 docs_dir: docs
 
 # Shows a GitHub link (with live star/fork counts) in the header — click to star.
-repo_url: https://github.com/srschreiber/rss-news-generator
-repo_name: srschreiber/rss-news-generator
+repo_url: https://github.com/srschreiber/news
+repo_name: srschreiber/news
 
 theme:
   name: material
-  custom_dir: overrides    # announcement bar (star CTA) on every page
+  custom_dir: overrides    # footer star CTA (partials/copyright.html)
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   palette:
+    # Newspaper look: black masthead + amber accent.
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: black
+      accent: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

@@ -5,7 +5,7 @@ tech-news site — clustered, summarized, and cited by Claude — for **~$0.20/d
 No server, no database: everything (feeds, prompts, generated docs, run state,
 and per-run cost metrics) is a git file.
 
-**▶ Live demo:** https://srschreiber.github.io/rss-news-generator/
+**▶ Live demo:** https://srschreiber.github.io/news/
 
 > _If this is useful, a ⭐ on the repo is appreciated._
 
