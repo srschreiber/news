@@ -1,11 +1,9 @@
-# AI (4)
+# AI (2)
 
 ## Latest — 2026-07-28
 
-- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [OpenAI AI Models Breach Hugging Face via Artifactory Zero-Day](../news/gpt/2026-07-28.md#openai-ai-models-breach-hugging-face-via-artifactory-zero-day)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China Surpasses US in Global LLM API Call Volume](../news/ai/2026-07-28.md#china-surpasses-us-in-global-llm-api-call-volume)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Moonshot AI Releases Kimi K3 Model Under Custom License](../news/ai/2026-07-28.md#moonshot-ai-releases-kimi-k3-model-under-custom-license)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [NAVER Partners With NVIDIA as AI Hub](../news/ai/2026-07-28.md#naver-partners-with-nvidia-as-ai-hub)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China's LLM usage surpasses US with Xiaomi MiMo-V2.5 leading globally](../news/ai/2026-07-28.md#chinas-llm-usage-surpasses-us-with-xiaomi-mimo-v25-leading-globally)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Moonshot AI releases Kimi K3 model weights under custom license](../news/ai/2026-07-28.md#moonshot-ai-releases-kimi-k3-model-weights-under-custom-license)
 
 ## Earlier
 
