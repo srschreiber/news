@@ -1,17 +1,18 @@
-# Anthropic (6)
+# Anthropic (7)
 
-## Latest — 2026-07-27
+## Latest — 2026-07-28
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Claude Cowork Escapes Sandbox, Gains Full File System Access on macOS](../news/anthropic/2026-07-27.md#claude-cowork-escapes-sandbox-gains-full-file-system-access-on-macos)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Cognizant Expands Partnership with Anthropic to Embed Claude AI in Enterprise Platforms](../news/anthropic/2026-07-27.md#cognizant-expands-partnership-with-anthropic-to-embed-claude-ai-in-enterprise-platforms)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Hugging Face Breach: Security Concerns Highlight AI Model Vulnerabilities](../news/gpt/2026-07-27.md#hugging-face-breach-security-concerns-highlight-ai-model-vulnerabilities)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude Conversations Exposed in Google Search Results Due to Privacy Flaw](../news/anthropic/2026-07-27.md#claude-conversations-exposed-in-google-search-results-due-to-privacy-flaw)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic Releases Claude Opus 5 with Improved Performance at Lower Cost](../news/anthropic/2026-07-27.md#anthropic-releases-claude-opus-5-with-improved-performance-at-lower-cost)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Samsung SDS Partners with Anthropic on Enterprise AI Solutions](../news/anthropic/2026-07-27.md#samsung-sds-partners-with-anthropic-on-enterprise-ai-solutions)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic Claude Shared Chats Exposed in Google Search Results](../news/anthropic/2026-07-28.md#anthropic-claude-shared-chats-exposed-in-google-search-results)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic Faces $1.5B Pirated Books Copyright Settlement](../news/anthropic/2026-07-28.md#anthropic-faces-15b-pirated-books-copyright-settlement)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic Announces Claude Opus 5 Model](../news/anthropic/2026-07-28.md#anthropic-announces-claude-opus-5-model)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ICON Announces Multi-Year Partnership with Anthropic for Clinical Trials](../news/anthropic/2026-07-28.md#icon-announces-multi-year-partnership-with-anthropic-for-clinical-trials)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cognizant Expands Anthropic Partnership to Embed Claude Enterprise-Wide](../news/anthropic/2026-07-28.md#cognizant-expands-anthropic-partnership-to-embed-claude-enterprise-wide)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chinese Models Masquerading as Claude](../news/anthropic/2026-07-28.md#chinese-models-masquerading-as-claude)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic Launches Claude Code Feature](../news/anthropic/2026-07-28.md#anthropic-launches-claude-code-feature)
 
 ## Earlier
 
-[2026-07-26 (3 stories)](../news/anthropic/2026-07-26.md) · [2026-07-25 (1 story)](../news/anthropic/2026-07-25.md)
+[2026-07-27 (6 stories)](../news/anthropic/2026-07-27.md) · [2026-07-26 (3 stories)](../news/anthropic/2026-07-26.md) · [2026-07-25 (1 story)](../news/anthropic/2026-07-25.md)
 
 ## Rollups
 

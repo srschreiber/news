@@ -1,20 +1,21 @@
-# Gaming (9)
+# Gaming (10)
 
-## Latest — 2026-07-27
+## Latest — 2026-07-28
 
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Xbox Network Outage Affects Sign-In and Game Launch](../news/gaming/2026-07-27.md#xbox-network-outage-affects-sign-in-and-game-launch)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Sony to Discontinue PlayStation Physical Discs, Sparking Boycott Movement](../news/gaming/2026-07-27.md#sony-to-discontinue-playstation-physical-discs-sparking-boycott-movement)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [AMD Ryzen 9 9950X3D Gaming CPU Discounted to $569 with Coupons](../news/gaming/2026-07-27.md#amd-ryzen-9-9950x3d-gaming-cpu-discounted-to-569-with-coupons)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [God of War Laufey Confirmed for February 2027 Release](../news/gaming/2026-07-27.md#god-of-war-laufey-confirmed-for-february-2027-release)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Blizzard Terminates Employee for Using Developer-Only Instakill Cheat in World of Warcraft](../news/gaming/2026-07-27.md#blizzard-terminates-employee-for-using-developer-only-instakill-cheat-in-world-of-warcraft)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Tomb Raider Game Delayed to 2028](../news/gaming/2026-07-27.md#tomb-raider-game-delayed-to-2028)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Final Fantasy 6 Remake Would Require Four or Five Installments, Says Director](../news/gaming/2026-07-27.md#final-fantasy-6-remake-would-require-four-or-five-installments-says-director)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stalker 2 Engine Upgrade and Story Expansion Due in August](../news/gaming/2026-07-27.md#stalker-2-engine-upgrade-and-story-expansion-due-in-august)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Ubisoft Develops New Open-World Far Cry Game at Vantage Studios](../news/gaming/2026-07-27.md#ubisoft-develops-new-open-world-far-cry-game-at-vantage-studios)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Xbox Services Outage Blocks Digital and Physical Games](../news/gaming/2026-07-28.md#xbox-services-outage-blocks-digital-and-physical-games)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft Offers Free PC Versions of Ubisoft Games to Xbox Owners](../news/gaming/2026-07-28.md#microsoft-offers-free-pc-versions-of-ubisoft-games-to-xbox-owners)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Valve Fixes Steam Bug Causing Online-Only Game Downloads](../news/gaming/2026-07-28.md#valve-fixes-steam-bug-causing-online-only-game-downloads)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Papaya Gaming Must Pay $719M to Skillz for Unjust Profits](../news/gaming/2026-07-28.md#papaya-gaming-must-pay-719m-to-skillz-for-unjust-profits)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Resident Evil Requiem Breaks Sales Record for Series](../news/gaming/2026-07-28.md#resident-evil-requiem-breaks-sales-record-for-series)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Final Fantasy XIV Coming to Nintendo Switch 2](../news/gaming/2026-07-28.md#final-fantasy-xiv-coming-to-nintendo-switch-2)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Halo Reaches Xbox Game Pass](../news/gaming/2026-07-28.md#halo-reaches-xbox-game-pass)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Gaxos.ai Sells Gaming Assets to Focus on AI and Health](../news/gaming/2026-07-28.md#gaxosai-sells-gaming-assets-to-focus-on-ai-and-health)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Epic Games Hires Blizzard Battle.net Lead to Improve Store](../news/gaming/2026-07-28.md#epic-games-hires-blizzard-battlenet-lead-to-improve-store)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Capcom Aims for Annual Resident Evil Releases](../news/gaming/2026-07-28.md#capcom-aims-for-annual-resident-evil-releases)
 
 ## Earlier
 
-[2026-07-26 (5 stories)](../news/gaming/2026-07-26.md) · [2026-07-25 (10 stories)](../news/gaming/2026-07-25.md)
+[2026-07-27 (9 stories)](../news/gaming/2026-07-27.md) · [2026-07-26 (5 stories)](../news/gaming/2026-07-26.md) · [2026-07-25 (10 stories)](../news/gaming/2026-07-25.md)
 
 ## Rollups
 

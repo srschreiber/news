@@ -1,5 +1,1940 @@
 [
   {
+    "date": "2026-07-28",
+    "event_id": "python-database-simulation-shows-postgresql-internals",
+    "title": "Python Database Simulation Shows PostgreSQL Internals",
+    "summary": "PGSimCity project visualizes PostgreSQL database operations in SimCity-like 3D environment.",
+    "theme": "Development",
+    "importance": 1,
+    "topics": [
+      "postgres"
+    ],
+    "keywords": [
+      "PostgreSQL",
+      "visualization",
+      "database"
+    ],
+    "url": "news/postgres/2026-07-28/#python-database-simulation-shows-postgresql-internals",
+    "sources": [
+      {
+        "label": "GIGAZINE",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EQ1Fsc2kzRDRoZTUyc1dFdTlvaWlVY21JdFFDYU0za0duMDRYS01XaUFtR2pxcXlsbmRBTFdRT0ZNZzBFa3ZLTUI4Mm52b09iNUlENlVrVEM2X0dFNVNPWFJrSnlZbEFiMlhZbUpDUkc?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "kotlin-beta-previews-coroutine-stack-trace-recovery",
+    "title": "Kotlin Beta Previews Coroutine Stack Trace Recovery",
+    "summary": "Kotlin language releases beta with improved debugging support for coroutine stack trace recovery.",
+    "theme": "Development",
+    "importance": 1,
+    "topics": [
+      "python"
+    ],
+    "keywords": [
+      "Kotlin",
+      "coroutines",
+      "debugging"
+    ],
+    "url": "news/python/2026-07-28/#kotlin-beta-previews-coroutine-stack-trace-recovery",
+    "sources": [
+      {
+        "label": "InfoWorld",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbndkVXhtN3UyQ2VOSW5rakZpUzVGUk1tQ1FUcmZzM3Q4MkM0TVVWTGRNamdYcHUtbUJXa2h6dGctWjA2MnNEMjY2Q3h1ZDBfNUpRamZ0SmdudDhnUEFVT1poVU9EMWdpTnVyM0ZWenM2WnE1cjYzZF9ZYTE0LTF1b2lwRDA4aEZ0RTZWWVJOcGxXM0Zoczl0UkhxdnVYQWN5TkJtWk9rMHFEMXpxcTFF?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "moonshot-ai-releases-kimi-k3-model-under-custom-license",
+    "title": "Moonshot AI Releases Kimi K3 Model Under Custom License",
+    "summary": "Chinese AI startup Moonshot releases Kimi K3 model weights under custom license for enterprise deployment.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "ai"
+    ],
+    "keywords": [
+      "Moonshot AI",
+      "Kimi K3",
+      "China",
+      "open-source"
+    ],
+    "url": "news/ai/2026-07-28/#moonshot-ai-releases-kimi-k3-model-under-custom-license",
+    "sources": [
+      {
+        "label": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORWNQRHcwNVo4MFFoZWY0cWg3eDYxMWUyVGljaF9Dd0UwSnpXS0dhSU81MUkzNnM2STU4SW0ta2sxaHhYXzNkSHQybnV4MHpqWUdzRnJUS1VqWGpMN3J5dzRZbi1VOENkcTlYVlYwYXRwUzdzVEhFQURrSmZoYzlSLTJ0M01rR0p2c1NIUHpWQk5fb1lpSGhzcGtJQTBjUEZ5ZEpHb1BLbVJabUhrM0Yyd1lQSW5TUDFSV2NRN0lzdW1Gbk9pS1k0MnJQRDJGUdIB1AFBVV95cUxQRTkwQk1aNVlOTHFMNHpNejZMbG5yeHJsMDlqQkRNWk1meGhoaG1SaFBHRTFXSlRxU29KM3NJMlpKMDdzR2tpdWs5bGk5dDRYbzZwZlhKUHFPVDczMU8xVTNyUXp3VWpUdjQ3RDNDMG9Tc3B5ZnFtM2hBZ0R3TlRkVG92SlhNQTBUbWo3UTBEU2pYRkhGaUtzTERqRnpJQTFvWDYwTVBhTy0xX0l1cmtORUFza1hoWDRpOHgybE9LMlh1Nzc5ZkQ4dmdLMkpmTWFsd2xNcg?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "naver-partners-with-nvidia-as-ai-hub",
+    "title": "NAVER Partners With NVIDIA as AI Hub",
+    "summary": "South Korean tech giant NAVER forms alliance with NVIDIA to position itself as East Asia AI hub.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "ai"
+    ],
+    "keywords": [
+      "NAVER",
+      "NVIDIA",
+      "Korea",
+      "AI"
+    ],
+    "url": "news/ai/2026-07-28/#naver-partners-with-nvidia-as-ai-hub",
+    "sources": [
+      {
+        "label": "Businesskorea",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OcmlzR1Jadk5IZWNrc1VZVHBVUlFJakZJS0J4LTI1VjRRZXhxLVR5QmRENEZaV2laSF9RTWE1TlQ2dmhaWkNXWE5rbmhkZ0hGMHNGblhLejdWSGQ5VnlHWmpucnlONTNTeGlydHNlVExqWkl5?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "anthropic-announces-claude-opus-5-model",
+    "title": "Anthropic Announces Claude Opus 5 Model",
+    "summary": "Anthropic launches Claude Opus 5, a lower-cost flagship model with pricing half that of its Fable 5 predecessor.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "anthropic"
+    ],
+    "keywords": [
+      "Anthropic",
+      "Claude Opus 5",
+      "AI model"
+    ],
+    "url": "news/anthropic/2026-07-28/#anthropic-announces-claude-opus-5-model",
+    "sources": [
+      {
+        "label": "WION",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWThNQVI2MTFMNUdEemxabHlBSjJNc3drUzF4V0FwakJmTDhDNzg2T0I0S1VaekRSOVdqOUhQMkVJRkhSZXhWMEYtNUpXb2lUVGdzcTFwZlliTmczbEswaVBKVld4Vlc2aUw4X1JTZFBMUjMxYjJsWEVycUZFckdCa3l4bllkOS1pZ08wTmVIYVl6ekJlbGdVTk1melR4X1lxbFBPcVVFVmtOR1JTOXhOZldueHU2QWfSAbwBQVVfeXFMTVpfa1JQVDBybWlzdlVsd0sycVZsaXVqa092S2RCMFotckpPaFpXVDFwc3ZDZURjeHRqYzlyV2xobjNYZS1xNEUyZGRXbHRxUFAwU2I2MmRPMnFkXzFuWmNyWW1RaV9DZjJZWmVCdWJFSXhNYUJqNjkxWHlXRWh2WW9QbkQtdFVWQm9SZEQwb0pSaFdYeDJyOHBIQldzZURXckNOaEdGUFE2dnlNeThDY3BuRWY2NTRNTlFIS04?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcUFpZkNOSXppZzFSMERSeUJxWEpVX1lBVnFYMERlN0g2V3pGc1ZZdFgycEROWmh6Q1VDQjNBdmZkNkVPTWl3djJ4cjE5Z2R3VFB5dlB3RjlXZ2dIekJwNnhnU2gwdEtoNTdxWmdPbERYNXdPRm1GTmlpT1d2WjZhVUl1VkNPZVhKMG85djRR?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "icon-announces-multi-year-partnership-with-anthropic-for-clinical-trials",
+    "title": "ICON Announces Multi-Year Partnership with Anthropic for Clinical Trials",
+    "summary": "Clinical research organization ICON will deploy Anthropic's Claude AI across clinical trial workflows.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "anthropic"
+    ],
+    "keywords": [
+      "ICON",
+      "Anthropic",
+      "Claude",
+      "clinical trials"
+    ],
+    "url": "news/anthropic/2026-07-28/#icon-announces-multi-year-partnership-with-anthropic-for-clinical-trials",
+    "sources": [
+      {
+        "label": "Contract Pharma",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeHdYOGxiMGg2c3BzY3pTZ3pWUzNvOHZRWUVkb1Z1QzV6SjBKWXN4bFZ6bS1ReFdjQ1FMQlRtemhVVC00X0VIWkQzREpfa1JzOTlaci1GWU5lMERmMnlfN3huVVpfLURPNzFpVFZlZW1sQW9nNVBkdmczMjNyTmdTSmhNRmJ4Skx5bnI1UTFVS1hjdXRpR3p2NzF0VHk5NGt3SHRyMw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Business Wire",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPYTZDNk9xdkVSdnlRak1OMjIxX0Zad0RyYnpxc2lvNG9CZW5rRVd5ZlFOQ0tuRjlyTzVCc1N0aGRKaFpubkdCMzgtWldMVFVBbXg1OFYwNDMyUlVuNXBHTkRnTWcwcE9QQ0RFOEl1WXYtQmZtblVoSTJKVjhXMEx5My1hamJMX2M3Y0NuV0RSVFBUb1Y5VXpnQTlmd3R3MFRQaE8tdjlyUmNOaExnWVNkYlVGdU5BVjBQbU4zZDdGWFRzZ0JmLU9ucmxOMU1LTm9XN1IyeXhNRW9oa3BzM3N1QnM2Vk41QQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "AI Magazine",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc1ZPS2ZKUVRyR3pfMnlKam8tMHBTVXgtOTRROEZ5YkhkUVJOdTlZV1VFZmZrWkk1b2N4cldFbGtaM0xUd0ZsLVp4RF9GdUhmUGMzTjZzX3hrODd5OEo1dTJRcE5GTUN0Si13aWFwYzlsc0g0TGV0eGxReUtLVFlhc3R2ZkgtV0JtdDYzYVFTazFPdjRp?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "cognizant-expands-anthropic-partnership-to-embed-claude-enterprise-wide",
+    "title": "Cognizant Expands Anthropic Partnership to Embed Claude Enterprise-Wide",
+    "summary": "Cognizant deepens collaboration with Anthropic to deploy Claude AI across enterprise platforms.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "anthropic"
+    ],
+    "keywords": [
+      "Cognizant",
+      "Anthropic",
+      "Claude",
+      "enterprise"
+    ],
+    "url": "news/anthropic/2026-07-28/#cognizant-expands-anthropic-partnership-to-embed-claude-enterprise-wide",
+    "sources": [
+      {
+        "label": "analyticsindiamag.com",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRG9BSy11eTF0bkhVTTR5SEVZUFg3aXpIY2R4Tk14WW9DUEszNVJ5WF9LXzZYWVVHaW94QWpPSkZmbWpsNUd4d0hiTGJNT2VYWFNvYVhiTVNfSDh1VG5sZmZXTEFUenVlUUxRSjh5bmRUOWpOSW9OQmZhajdReXBLLUNKaUJjNHhPWGhOTWw5c0RJcGw1MV9iRVpqem5JRDZGVFIzS1dnSGUwRzZ6bk5uVjBOOE5QelZyNmVZMFAxWQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ETEnterpriseai.com",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPeEthWkVZcG44TXZreC1uV25CYTg5Q1RISHpZNUdYekdIWGNaNkJKVWx2cVk2ekh3WlRaNVZldE5kX2ZRMjhVTFczaWNfV19mTWhWVklSTF93U2VCaFREVnB5N2VZVkw4Zlh3eFBwUG16M082VE5hb1gtZXAzWG85SGtkdC00djR6VVg2V2VqRU03azBnVmgtRVRQd3RyN1RzUDg4U016MTVJdW80T3BoYlB1WTM1eURLQ0YwUVd4X2xuMjM0M1JmbDg5cENsLW16VWdpTTg0clE1UXFhSHY4MXY0Mld2Q3NnQkxZZGR1eVhQdmF2YlHSAfsBQVVfeXFMTzV0QkhPV2ZBMTVsV1FVc3RzZmYyQXJBNDRHek1mbm5YTjRjdE5QdjVxRUV2TmwyX1lXUTRxRmtHZGJKTHZUc1owaURYZGdkS1JlLUJzeWRiSnE5UU44WmdrUXdFMHM4MjVEZGw4MkxoQm9TSUJZTFNBRTYydjVPeXZCcGoxQXlGb3JzOVQxQ0EzVzN3M3o0T21MVGFmVS1MZnZqbE93NnBiMVdQOG1DTGRuTnRJQ3VfbGFVX0hpOWdoZ1J3VlNnQ0xwZHVKUjZVbklWNUVGWnZySElxYmprWTNTaEFVQTU5Z3pZODdCR0oyTkVmQmdUZFB5TFU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "IT Brief Asia",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWFlneklEQTFrZl9QZzM2Z2xScW8wbWNuZlI2cE0zRHZaZTdKang3NmJZNlNSNUVPRE04RkVpUklYTU9HamhkZHlYOHpaZEZvbmhFdkdpRC04LWtsMHFzbWZzbm5WUXl4V0JnQU9aazlqYUZ2YlBVXzdFbGIyLUdHRnZNS3l5VncxLTB3Sk1R?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Fast Mode",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPem9xQTRuODl1ZEhYMGVTRlRwRlNjeUNqSHA2M0hqSldoYVNBb0Z4UWRaMlFQcHNjTnpocHF3OFRwX1lwY0pKY1ZBTmktNkFGZ3VVa04xOW5ib0JST2lQaDVyZVkwNENncm9EWGdUbHcyN1NKc0hNMXBsc2NKSjd5SlEyM2g2cDN5Y0praTVNLWhSaWI3X3o1aXBxcDVqZ2JENDBZcW1udlQ0TllMX2hxMmdzNER0T1Vqc3R1NjJwamJlUjZST3lmSDJYTnFrVkQ3YzlNd0Z3?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "chinese-models-masquerading-as-claude",
+    "title": "Chinese Models Masquerading as Claude",
+    "summary": "Researchers find Chinese AI models GLM and Kimi can impersonate Claude's identity and capabilities.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "anthropic",
+      "general"
+    ],
+    "keywords": [
+      "Chinese AI",
+      "Claude",
+      "model distillation"
+    ],
+    "url": "news/anthropic/2026-07-28/#chinese-models-masquerading-as-claude",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/07/27/impostor-chinese-models-pretend-theyre-claude/5279165",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "anthropic-launches-claude-code-feature",
+    "title": "Anthropic Launches Claude Code Feature",
+    "summary": "Anthropic releases Claude Code agentic coding assistant reducing need for developer micromanagement.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "anthropic"
+    ],
+    "keywords": [
+      "Anthropic",
+      "Claude Code",
+      "coding assistant"
+    ],
+    "url": "news/anthropic/2026-07-28/#anthropic-launches-claude-code-feature",
+    "sources": [
+      {
+        "label": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWE9HZ3gzNnZRMTEyWkc5RXVRT0RWMjB4MHcxZDZzX0lzMHVGbi15cU5HQUFteFpwdXBGUGFDQ3JhbmhLbVZ6VkZPU1lHR01PVzJhV0RRVW52ODQ0R3JrOFFmMmVuRWpXNmJjaHNLV1Z1ckxqWU10LUxfbThhVFB6TFV4ZkN6N0t0SDZjSFZ5WVVoR0ZlYWRYZ0NiTXgxcnlvcHViNHFHalI?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "phishing-remains-dominant-initial-attack-vector",
+    "title": "Phishing Remains Dominant Initial Attack Vector",
+    "summary": "Security research confirms phishing continues as primary entry point for cyber-attacks despite evolving evasion techniques.",
+    "theme": "Security",
+    "importance": 2,
+    "topics": [
+      "email-security"
+    ],
+    "keywords": [
+      "phishing",
+      "cyber attacks",
+      "attack vectors"
+    ],
+    "url": "news/email-security/2026-07-28/#phishing-remains-dominant-initial-attack-vector",
+    "sources": [
+      {
+        "label": "Infosecurity Magazine",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLUFuemlRa1ZSVTI2QV9EbnJFb05KU2ZpNjJfenpEMU5rc2F2aGR2Slc5SlZZcTBIdkF2YmRCdlBGUmFQM2lvZjRSdjRiRkV4NlNPLXlxZG0zU1MyMGRWVkkyRmoxYTF3a1YxcENCWXlqdjMwM2tzZ1A2bENlSXJaWE1B?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "ncsc-warns-of-laundry-bear-zero-click-phishing-campaign",
+    "title": "NCSC Warns of LAUNDRY BEAR Zero-Click Phishing Campaign",
+    "summary": "UK's National Cyber Security Centre alerts about LAUNDRY BEAR phishing campaign using zero-click attack vectors.",
+    "theme": "Security",
+    "importance": 2,
+    "topics": [
+      "email-security"
+    ],
+    "keywords": [
+      "NCSC",
+      "LAUNDRY BEAR",
+      "zero-click phishing"
+    ],
+    "url": "news/email-security/2026-07-28/#ncsc-warns-of-laundry-bear-zero-click-phishing-campaign",
+    "sources": [
+      {
+        "label": "ADS Advance",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOV1VaUGhNa2ZPdmk0WmsxbXk5dWRyVDFIc3JuWkhwa2tfcTREVEd6bGNnelpjNV82WTZfVGpmN0xMWHMwaGhRbXJ2XzA4dE9Eb21UQ2Q5aUdEQjVNSDBBOXhMaWFWMk5Ec3hMRHREeE51T3pnaGtNOGZmX3VrdHBRcllB?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "microsoft-offers-free-pc-versions-of-ubisoft-games-to-xbox-owners",
+    "title": "Microsoft Offers Free PC Versions of Ubisoft Games to Xbox Owners",
+    "summary": "Xbox owners can now claim free PC versions of 13 Ubisoft titles including Assassin's Creed and Far Cry.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Xbox",
+      "Ubisoft",
+      "PC games",
+      "cross-platform"
+    ],
+    "url": "news/gaming/2026-07-28/#microsoft-offers-free-pc-versions-of-ubisoft-games-to-xbox-owners",
+    "sources": [
+      {
+        "label": "games.gg",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BSFhTbW9iOGhZYm4tblRRajlhVjgyMjRDTlpSZ2xvR1Nvc1pGTmttcWxFZUhRbzFvX1BQNmZfblFNVXpUblFfYlBTSklWSnZxdElpVi1SUTd6UVZrMU1zVWI1R1NOZnM?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Digital Foundry",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWnFDbkRGemVmMFN1UlNOczE2QU4xNV9adlUwMTZ1dHNhS3NGa2kxWWhoaFJMcUtySzU1YmMtVXExV1FOa0FPaHlMRUJaSmVqR2dpemJGTzdQeWNfS1NnSzVEMThsSExGTnZGVEZQT3V2RVhqVmQwR1lCQmZWMFRQWk9vS1J2bjNhT19kdWhROHo0MXBtNHlRRjQyam9BMDg4dFdfTGpwMFVWZzNlbnVaYTlyeGpDSEU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Pure Xbox",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbWw0SzRuMHB0WVFQelBtQVJydjdfbUZpSkh5ZHFMUnlhR2c0Y1FFZ1F5NUx6WkswR1hMMkVhbGlpUXRzalFYMVI4bklvYmFXQ2RJMVh3akFpd2JCSV9SN09LT1RITjdHQ3RiQXhTemU1WjlyVU5hX3ZIeW40Snh6cGpQd0xKNUx5ZWJqZHNZdkthYXppcDBF?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "DLCompare.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNmFiWm9CZllQVW1VYUNsZEIzYWZ1QkxWNHNyV0lEcHQ4dUdFNlVWN3ZKY2g1b2NCRHVfSGZKWU1femh4aVRYYldfWm9VMEhmOGdGRVQzY25vOWdHVDZBbWVCRExxa1FJVmttVk9kMERRWU5tSkY4aTVVVndZQ21QdHNHd1l0bGVZbWhNOG5JZXA0SXA2MEhYemF5cjJua2hfTV9tNmIxb09ROUhFeTVXZ0R0eE8xOGlGWkE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "PC Gamer",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdjQ1UUpVRjFfQVlGaGw3MExkWmEzcEEzV3NvWHBYZGZUNk54eUh4UmtVanBzVzBYUDZpY1VuRlhiUXd6SU9rUDFGcmpJc2U3ZHlCWEktNURpbFNPaW5YbTZINTJXQWdwLWRZREJhWF90WjNPWDZqaDQ3alY1c0VhbERXaWNKVzdGcEt0RkpR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "GamesRadar+",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQbjFnR19UNkRZci01TS16Qkk4ZDRMRVQxOW1TSGFKTG9ndlNBdE9rTnFab25nQWVEXzJUSmtYVC1zQzllODRxU1ByQWtmMHM3d0VTVW9vdXV4MEhkNGt6WWZfeDY2Q0VXX0NqcEZqMEFUUHFMQnJyZEh2M1Vid0JJQnVmanVoYS12Tl9KaWFqdkFYRUtVaDluaFgwdEx6YnFlRERSbkNra0JFVnR5VE1kRW00b2liX2s2WFpCbmVRdHZiNmQ2clo2aVhBdjdqdEg4MUw3TVNld2pQLWdiOEFGTWVMaXVTWUNPV0VyYlJtSEM1dWkwSTVZOGpCVHJwM1hpeG5waFdtdnI3eTREWGh0bw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "XBOX Wire",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhQ2lQUjlaQVZGQkhiRmplUHJyNVNrYUVUMzZ3b1Y0dExXUkZQVlgtMlVhYnZ5eTE3YmNNM2JCSng1LVIyN01wbmZUZlY3MWlESUZHakJ1Mmc2UUFWdV91NHdnR0Q3QdIBa0FVX3lxTE03RGRjSmJzT09NZ3JBa3RXXzVvWVNfdmpsM3lNa003TlFNV2l0Qy00aEJDSGx2eE5sd1VyZVk0MXRBNVdUd3BFUkE1bDI4YnByMDdVVmtfV0ZkamVNOTRHY01GMmI1dmd5MDBv?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "valve-fixes-steam-bug-causing-online-only-game-downloads",
+    "title": "Valve Fixes Steam Bug Causing Online-Only Game Downloads",
+    "summary": "Valve patches a Steam bug that was forcing games to download over the internet instead of local network transfers.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Valve",
+      "Steam",
+      "bug fix",
+      "network"
+    ],
+    "url": "news/gaming/2026-07-28/#valve-fixes-steam-bug-causing-online-only-game-downloads",
+    "sources": [
+      {
+        "label": "TweakTown",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRlZDMWw5YTByQTZsWklISlBXVE81YWVMZEFiVEFNTTVPcDdYdzB6b2RwcFBrSWpNcXY1YXZBUmVIZjVtb0p2Z0s1YWh5bVJNLVcwenlqV1RpUEVEY3V0TTFTenBUVXJvME5vZ2RyUHlxUnZoaXJ3ZXhWeFpkYTc3YTN5WTJYVEJDVDF4Z29aLUtFMUxzRjF3RlBKVzB3dHNIeW1HR1F1SlBOYzczTWluVHV2US1sdnJrN0h1cGpfYUV5Qk81Y0FIZVhtTWQxeUk?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "PC Gamer",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOVFLMGhqS0hnMU9HbUtEQkRCWUs2cl9YSDhmX1R6QlVGUFQxQjRSSVZOemgwU0JCSUY2TkI5UzVvLWUyWG1teENJdElSQmp6NmZBTnhodHBlbXZJaWY1cFhiNXR6bjI5bkVWendUVXpfeUJCcnllMGhHS3AwRnVPcWM2cmRvb09kTUZZTU8tTUwyTW54S2s4VWx1cW1YQ1FNNjM4UjJ2Z1l4MXRYYkpYMllMaE03UFhJRGVGSlhEeGt5MzJBWmdfN1pRTFJMUTNVc2dOeHlCaGEta0N1WmY1enRjcjFpQQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "papaya-gaming-must-pay-719m-to-skillz-for-unjust-profits",
+    "title": "Papaya Gaming Must Pay $719M to Skillz for Unjust Profits",
+    "summary": "Papaya Gaming ordered to pay $719 million to Skillz, with evidence showing bots won approximately $4.7B in game prizes.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Papaya Gaming",
+      "Skillz",
+      "lawsuit",
+      "bots"
+    ],
+    "url": "news/gaming/2026-07-28/#papaya-gaming-must-pay-719m-to-skillz-for-unjust-profits",
+    "sources": [
+      {
+        "label": "Bloomberg Law News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdEw5WHExZThnTHI1Vnh1bkJHUExyWkpEZnNuYWdVMGpQNEJzQnNXY095dWM5WkxTXzhHSHpfOTV4RjRhanhYaWFfRGh1aXFjOFNiU1ktV0dkSmlrSnBlRDBiejNWMWFVaW1fdkJua3RkdjNNQW1FTVFMZ1hhaHdLN0JWUmpVNTRaMVZfakI2emdXTUxCS1FKeEl1LUZUVnc3QkFJY2NXeU5pa2o3TGVhOWxFQWw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Stock Titan",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcXNnelpWTHJFQTBGWl9ZM1E4dy0tZThZTGdKZ0ZUbHVkSXhhVmRMazg4MHo5RExranFDNXozS25ueHZBN1lXNkFUM1BWbzhyQjBXNm9majBfRGRPMjBtZzdzTWZOQnVmSnNDUS1tMzJBVHhBVVRGendaNDUzSnNHbDM0UThuTlZIMndkYVRYaUk3SDFrTm92Z1F6dlIyWVdTb1F1RF8yY3lwdmo1ZlU4VHJJVjFzbzgyOFE?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "resident-evil-requiem-breaks-sales-record-for-series",
+    "title": "Resident Evil Requiem Breaks Sales Record for Series",
+    "summary": "Capcom's Resident Evil Requiem achieves the fastest-selling launch in the franchise's history.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Resident Evil",
+      "Capcom",
+      "sales record",
+      "game"
+    ],
+    "url": "news/gaming/2026-07-28/#resident-evil-requiem-breaks-sales-record-for-series",
+    "sources": [
+      {
+        "label": "GameGPU",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMDROME0zc1luRzlmNVU1ODlpV0N5VXpkOUFZUUQyNTNzVl9CVmxEb0JneVJqM2tjU25VZ2J0bk5OcUNZM0Y5bHFTRmZWd1lfX1M0WFpoM2cwamJiOFBWR04tSVl4VkwtZnZMUTQwb2JPaVMwbE1hemxMdUpFMGpHeFNaYlloajBOaWxtNk05bEZzbHdZWVVBOXFRdC1DZw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "MP1st",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZnc5eGpmOU9EYnlZN0JSWXhOdUF4WjRxWHRFVExqREp0YzNCSnRaMVZ2M3pMVU1hWnJFeTFhbUFic0hYdF9XWmgtZFlzU3B0eHJCTVlYTFUxTThUbzg0YmFNWjVNQjRicDB0bTZLWmFCVDBXYlZZekQyZlA1elBMYXF2TnpqdkFoNEwyMlMxLVJYTGNaUFFGXzM5dWhwUk1Ea1l4RGphTQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "final-fantasy-xiv-coming-to-nintendo-switch-2",
+    "title": "Final Fantasy XIV Coming to Nintendo Switch 2",
+    "summary": "Square Enix announces Final Fantasy XIV will launch on Nintendo Switch 2 as the console's heaviest game.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Final Fantasy XIV",
+      "Switch 2",
+      "Nintendo",
+      "Square Enix"
+    ],
+    "url": "news/gaming/2026-07-28/#final-fantasy-xiv-coming-to-nintendo-switch-2",
+    "sources": [
+      {
+        "label": "ixbt.games",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPa2QtQi1sMUU5MXJ6OEVZVzVfLUN5MlBLVFlLMDUzUHozc2dhZ1NFWExYU3lnZE5DbkRuZUtQMkJaVGEwaUt4ZUNfLXQ4MXg4cW1weWhpTVNQVDZlNkN5VGU1WG1sb0czdFBuTHJ3RDVzUnZrcHBGdE1wNUZSelBnYU9EYkdvdmFBMC1XME9LX2VxekdlczZQQUVLUzZkVXNGai01R3hMN09jMkdYOXJ2aG1iT3RZYWJ2MXpHUU1rNS1nYmxQdVZZemh5TEl4aGRxOTlyRnlWSFh4ZXFZSXBWdXFTMVRNNWtMQnNUTlRTNk9yMlHSAfgBQVVfeXFMT1doZVFpVnZHUVFQbjdXT0wxSEgza2hfeDJULUhjRVV0YkxBRTZkQ1VkZENmQzd2TU5QSDN0ZmdheldpVElmVEJjQ1hGTlVkcHR2Vk5FTnhWa1N3bjdaXzJURUZXcEVPbnczZkxxM3lUV1VsYllHU1JucmY0RGplM093WS1iZ1JtVmZIR1FTNU5MWHp5MERfUzZiN09Ed1B6YXpwOW1jdDV3dG9UdTRJcUJJRVFublc3NVVPSjI1UzdwNzZiVFlkM1E0NHFncUVhVklPVzR1b2tPcW8xRWpTVEFFc0I4d3NJM2wxMi13U1o0a2NMWDgtdGU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "2ST",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNlZWeklmSDNfWk13QlZJV1V3M3JkVFZZX283MjVQTUZIR1lBOG5FSGJ6cm9IS1VleTZEcDZhV3NuRU41ay14eWExOXM3SDV4RFRQZENxQXpFdTVDa3ZUMnFKZW1lU280Vm9OT0FkX1l5YUdndkVSWlZ2aHJVbUFHU2ktQ2RJcTNHdlZqcU1kTDdXdnQwdVQzV1NfdWpqVWZRWVcwc3FyckVqSzE0aU54SWJBOHdidw?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "halo-reaches-xbox-game-pass",
+    "title": "Halo Reaches Xbox Game Pass",
+    "summary": "Xbox's flagship Halo franchise is now available on Game Pass subscription service.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Halo",
+      "Xbox Game Pass",
+      "Microsoft"
+    ],
+    "url": "news/gaming/2026-07-28/#halo-reaches-xbox-game-pass",
+    "sources": [
+      {
+        "label": "PCMag",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWU5xSmQ5ZnVYN24tNzdWdi16d3JTOFd2QUh4S1FmWDlSamE3cl8tWlZEYnk1SXJpd1dqSEV6YkVsT3VRX0IzT0FqekxuTF92ei16clBPdlNRbmx0YnVKSHIzc1lmdmx1U2g3YzJHaFR6QjQ5cmwyOFJVM2djOWNtOGdjeE0tVjJpOXNqSndLc0NKTjJLN3EzXw?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "gaxosai-sells-gaming-assets-to-focus-on-ai-and-health",
+    "title": "Gaxos.ai Sells Gaming Assets to Focus on AI and Health",
+    "summary": "Gaxos.ai divests gaming business to concentrate on AI applications and health platform development.",
+    "theme": "Business",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Gaxos.ai",
+      "gaming sale",
+      "AI focus"
+    ],
+    "url": "news/gaming/2026-07-28/#gaxosai-sells-gaming-assets-to-focus-on-ai-and-health",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZHc3WmpqUlFNUG90dlhNRDhUUGZEaWtpeFJERFAzbmVKaml3WklGLXF6cHBXRXhCeUdkeTVVOUtON1BhTzhVc0RJM1NWSEdXSUVnR1M4VkJkUWZHZXVOWkJfV2ZYTmhwNE5jNm5IY1g3SV9kMTJ0MDNQTUg5NFNfbzdLaXEzTllqZFhNMU91OVVEYmZ3eWpvLUdDVl9Ma1dWTWJxbXFqa29oRl9fQWg4?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX2pQdTROczM4aWZqTmd3NURkeG5Zd29Dc2d2QzRScnk0Qm9IcHVFbVBoZUNuZjMxV1pyRE9OcmNoWHdWbjdDeXFVTmFSZ3NnUHo2anFodUR2c0dCTkRlQ25oWldPUUdQeFBZQ1FJQV9UNGFmQS1SbkRwbklOa2lsOEwza05ZMmd6WURfbQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "epic-games-hires-blizzard-battlenet-lead-to-improve-store",
+    "title": "Epic Games Hires Blizzard Battle.net Lead to Improve Store",
+    "summary": "Epic Games recruits talent from Blizzard to enhance the Epic Games Store platform.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Epic Games",
+      "Blizzard",
+      "Battle.net",
+      "game store"
+    ],
+    "url": "news/gaming/2026-07-28/#epic-games-hires-blizzard-battlenet-lead-to-improve-store",
+    "sources": [
+      {
+        "label": "GamesRadar+",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMEphOVlhZDNpNWZ1Yk1yLUtVV2R0UWx4dEtxYTBwd29qdm15cWNLT3Jhak9UbmhLNW9fb010TlpuYW84c05BVzdSTGdLUENZRGtSWFhMVFBsM09fYTBNV3hKWnF0RGFNQzNBVVpDODRmOVRQTFlZcTltX1FwOGJLcVRHbnM1c2Q2OHlZTnNiQjY2UWZDMFRtaENaNHpEZWdNTjdKeGctZnNUUTRIWERzdXNHMjhrQmZBUlp5dVQ5YnAxWElOczhOYXJn?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "capcom-aims-for-annual-resident-evil-releases",
+    "title": "Capcom Aims for Annual Resident Evil Releases",
+    "summary": "Capcom sets goal to release one Resident Evil game per year moving forward.",
+    "theme": "Gaming",
+    "importance": 2,
+    "topics": [
+      "gaming"
+    ],
+    "keywords": [
+      "Capcom",
+      "Resident Evil",
+      "game releases"
+    ],
+    "url": "news/gaming/2026-07-28/#capcom-aims-for-annual-resident-evil-releases",
+    "sources": [
+      {
+        "label": "Nintendo Life",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2M5X1kxYnRQMzJzMnV0NW5SUzhDSHdWLWQyV29saFhyWTYtdlZ6X3MzOUxUX2FrMS1pTS13Z01YODNTZzJJYm93WURIcVVhb2hxbTJkTmxWUDg0LXZjQUI2VXZ1dnZKdno1aUQ3elJQbHJuN0wxRXZjUXhWbzRweTF1Z01RRm84Yk92NnBwZzNXSzVxdm5UdUJXa3EtZmVkZnc?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "apple-launches-upgrade-device-leasing-program",
+    "title": "Apple Launches 'Upgrade' Device Leasing Program",
+    "summary": "Apple introduces a subscription-based leasing program for iPhone, iPad, Apple Watch, and Mac with monthly costs starting at $11.99.",
+    "theme": "Hardware",
+    "importance": 2,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Apple",
+      "leasing",
+      "subscription",
+      "Upgrade program"
+    ],
+    "url": "news/general/2026-07-28/#apple-launches-upgrade-device-leasing-program",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/28/apple-launches-upgrade-device-leasing-program-in-partnership-with-klarna/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/971220/apple-upgrade-program-iphone-mac-ipad-lease-launch",
+        "origin": "rss"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2224951/apple-upgrade-program-announced-klarna/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "fish-audio-raises-50m-seed-round-for-ai-voice-models",
+    "title": "Fish Audio Raises $50M Seed Round for AI Voice Models",
+    "summary": "Speech synthesis startup Fish Audio secures $50M funding with 8 million active users and $21M ARR.",
+    "theme": "Funding",
+    "importance": 2,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Fish Audio",
+      "AI voice",
+      "funding",
+      "seed round"
+    ],
+    "url": "news/general/2026-07-28/#fish-audio-raises-50m-seed-round-for-ai-voice-models",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "openai-ceo-altman-meets-with-senator-warner-on-ai-policy",
+    "title": "OpenAI CEO Altman Meets With Senator Warner on AI Policy",
+    "summary": "OpenAI CEO Sam Altman and NVIDIA CEO Jensen Huang meet with Senator Mark Warner to discuss AI regulation.",
+    "theme": "Policy",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "OpenAI",
+      "Sam Altman",
+      "AI regulation",
+      "policy"
+    ],
+    "url": "news/gpt/2026-07-28/#openai-ceo-altman-meets-with-senator-warner-on-ai-policy",
+    "sources": [
+      {
+        "label": "qz.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQU1hOcFJPTG9QOGlNZUZrS19sR2YxNEN5eWx4SW9CMGZZeTRkNVdBSU9TSks4LTFJanRJaklNeUp4UG1HeDNST21PR21zWHZ6Z25SRzQyQlpMSzRTcXRqTHNGUXhyR0dDOHBRWnAwQ3MxSDJuVjgxRFhGQ3YxNEcxajJPLTRIQQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "openai-establishes-dublin-eu-headquarters",
+    "title": "OpenAI Establishes Dublin EU Headquarters",
+    "summary": "OpenAI leases 88,000 sq ft office in Dublin and plans to hire 250 employees as EU regulatory pressures mount.",
+    "theme": "Business",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "OpenAI",
+      "Dublin",
+      "EU headquarters",
+      "expansion"
+    ],
+    "url": "news/gpt/2026-07-28/#openai-establishes-dublin-eu-headquarters",
+    "sources": [
+      {
+        "label": "Tech Times",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVmxNNm9iY1F1eW5BVmZqQVJFQkpWZ3NNeG93bTNneUJPUDRRODEzZXowWHV4MnB4ZE1SajBTVzBaUnpITEhTdzVyQzZsYmR6R1AtYmVxajB0SWI4d1o4M2QzTUFaeE5rbVVQa0VQemtuN296bUVGaEJjMFNhaXJmcjhFTjRXU3MwRDd4LTFwQTZtbndVZDdhTEZZWV9TTmdPaG5uRVI0WVdjZjNsaUk1Vnc4Z1ZFQkItZXJLZ1hvWGxHcUk?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "chatgpt-stops-imitating-famous-authors-writing-styles",
+    "title": "ChatGPT Stops Imitating Famous Authors' Writing Styles",
+    "summary": "OpenAI updates ChatGPT to refuse requests to write in the style of famous authors, both living and deceased.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "general",
+      "gpt"
+    ],
+    "keywords": [
+      "ChatGPT",
+      "authors",
+      "writing style",
+      "policy"
+    ],
+    "url": "news/gpt/2026-07-28/#chatgpt-stops-imitating-famous-authors-writing-styles",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2224867/chatgpt-refusing-to-write-in-famous-authors-styles/",
+        "origin": "rss"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+        "origin": "rss"
+      },
+      {
+        "label": "Firstpost",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzBtMDhXV0RhWXoybGN2eDZPXzNtN3hTZlItdlFYY2VpSjBWbjhXd2JGNmpwcVFMdmZ5VXJVMGlzQWhVMWxKUTFOZzJObGMyOUhieWdhMUx1amRGNjQ4MVpSSUNhY2hZbnBDNThnTGdXczRTTlN2aTU5d1hKeExrVWVFa2llWjlhTHlXTExoY19KSVlDaGtmcThRdHB4anRKTlNmRmVvOFEzaXPSAbABQVVfeXFMTXlNOHpTREU5OHg2VWt3ZDNMTGptempNa3pHUGszaS1fb1liZEs2WWhRTDdNclF5N0hjYUhBc2lfUWd1STlrM2RyYnBsWXo2ZWtqMkgzMFU2YTI5N3VUYTNLMUNjNm1ERDVlMlNTYmFhSnhhRzU4MlhyM0xJQkhwZ0hrZEVBN3NYb1hlcmpJQktuSGJZb3l1MU1Qdm02bzRfeVhSVEpfNk9SMmoyOHp4cTU?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "chatgpt-health-feature-expands-to-all-us-adult-users",
+    "title": "ChatGPT Health Feature Expands to All US Adult Users",
+    "summary": "OpenAI expands ChatGPT Health feature enabling users to connect medical records for health advice.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "ChatGPT Health",
+      "medical records",
+      "OpenAI"
+    ],
+    "url": "news/gpt/2026-07-28/#chatgpt-health-feature-expands-to-all-us-adult-users",
+    "sources": [
+      {
+        "label": "extremetech.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU2wyVVZiR24tZDhLc0RiXzdqV2dCRnE5WXlUZWRkMGFGelNYWUJHSWdxOE5WanVtdVZETU5zRXNpY1pHQmJXcDhkbDdSaVdaQkxqa0h2T3IwTWNvM05QTjh4YVJmVWVrODZBdzlFVnljM2RXUjhzdXdnaGs4UW90UWhQbXdpZFdQMXloemxldGIybDhhdzBOWElzdFM5ZXVuMVpSTjgxRGI?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TechTarget",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOXNjaVIxYVhSVlR2LU1kc2tOakxITk8za1VteENkSkxJTHYxZ0ZBUjVfTWFYNTBWRDFKaTBpNEpudGp0UGpFRUFnUE5rNk5sMzRGS3BJdWkxeno1LWtvd0dvY2tBRGlMM2tmQUtVMFF6UmZtXzU5RmhCTWJxalJUNm94aTJGNDlZcXVsZkpRblNPcEwxYzUxT2JrazFBZlBQZnh6dU5ncHR6ZGRWOUJpcQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "openai-india-copyright-dispute-victory",
+    "title": "OpenAI India Copyright Dispute Victory",
+    "summary": "OpenAI gains upper hand in India's first major AI copyright infringement case.",
+    "theme": "Legal",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "OpenAI",
+      "India",
+      "copyright",
+      "legal"
+    ],
+    "url": "news/gpt/2026-07-28/#openai-india-copyright-dispute-victory",
+    "sources": [
+      {
+        "label": "World IP Review",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMmhOUjZ6djhfZ1UwNHc3YlpjT25VVUZveXRKRU9OdmJoZWZGWDNSVDFvWUFhTVF2b0Z0ZXBlbzF2bS02NVV3elNaZnhwcG5TbmhmaFZ2MzBhZXBIY1NadGtfNS02Z0FFUXNmN0MyeER1bllVV0diZFg4YjBUdWNONlVFS2Z6bWNCYTVqRy1GdkR0VllGWkljck5JeEtDbktkNEZCNmkzOW5hSXB3ZVJZYTZxZ2FPaE42V3hydg?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "openai-expands-real-time-interruptible-voice-ai-for-enterprise",
+    "title": "OpenAI Expands Real-Time Interruptible Voice AI for Enterprise",
+    "summary": "OpenAI brings real-time voice AI and Presence tool for customer-facing agents to enterprise workspaces.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "OpenAI",
+      "voice AI",
+      "enterprise",
+      "real-time"
+    ],
+    "url": "news/gpt/2026-07-28/#openai-expands-real-time-interruptible-voice-ai-for-enterprise",
+    "sources": [
+      {
+        "label": "Startup Fortune",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYXJXMzJJS1pmYW1GR3NQcmVsZWJtc3NUVTBrYno5TFdkX2trUEM2Wlc2ZFRoeTJzSW5ucmVvUkQyd0VxUTlUemN6aUNpSFJTb1pxUElGekZ4azlSYXhwbVdVTk9uVDhQeFpiR3k3SUFhSGhkWWUzOERDeG5PN3NGWWwxdHl6WkxFelBjWm5DM2dqdlFtMFhDdGdDTzRPQ3NmWUp0REpUUTNFdl9Dd29VekM1cVZmLUhaNUdURllVU3lmWW9OZ05aeUJsVXN3UTF6andlQ2x6eFJBVnJkNDZUalhn?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "gpt-56-sols-reasoning-power-reduced-by-87",
+    "title": "GPT-5.6 Sol's Reasoning Power Reduced by 87%",
+    "summary": "OpenAI quietly reduces GPT-5.6 Sol's reasoning capabilities by 87% just four days after launch.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "OpenAI",
+      "GPT-5.6 Sol",
+      "reasoning",
+      "model update"
+    ],
+    "url": "news/gpt/2026-07-28/#gpt-56-sols-reasoning-power-reduced-by-87",
+    "sources": [
+      {
+        "label": "Startup Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTmMybWRTSDJXYXB5NVA4Z25CN3Z5bndUNUdfMFEyVUUtYlIzeTJsMnJLUEJQN09DS0xURWNDWmhWZVByYjBhMWk3VFdrZkFhTVpQZGl3OEJJTGFTM1hsa3RXLUs4dDl2cjVyblZRU3dJNFpLZ3VuUEJxR2xRVUduc1o2M0JZa1R4UVNQT1VyNi1UZ2JIYl9zQ2lSVDBDcFQyR1N5UXFuajJ1dDA?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "openai-gpt-6-expected-by-september-2026",
+    "title": "OpenAI GPT-6 Expected by September 2026",
+    "summary": "Prediction markets forecast OpenAI will release GPT-6 by September 2026.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "keywords": [
+      "OpenAI",
+      "GPT-6",
+      "model release",
+      "forecast"
+    ],
+    "url": "news/gpt/2026-07-28/#openai-gpt-6-expected-by-september-2026",
+    "sources": [
+      {
+        "label": "Decrypt",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObGlieW1xZm5UQ0RYSk1NUHhhTHN0VlJGTUMxeVI1VGxmRnBYcjBsdU9GXzl0b3Y4YnVPRWU0M3FZZHVxcVlXeC1MV3RxeW5TVUZVWHRQcVV1SmJFcE5fODZCMHhObkR0RWdyVUhSbEFmbTJYamhobjBKNl9KUHJGZ3cweTjSAYwBQVVfeXFMT1BadlRsSUU5ZEF6TTBxQ29jN1B4SVB4b0tKdXIyVHFmazBxeFNZNE5EeHNrT3NfelVNYmZCdXRub0lOcFlQbmVZcWQ1ZVdfT0g1S3VQZUg4YnZpYXd3ZExQSmtnWmxsUFU5UG1QdmdEYzJTanBJMFJYSnd1UkExdm1yQnlXUG1lQ1AyM3o?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1htMnZ4el9nWXh4LWYwMlZkcFl1UHFGU0VvZFVIcWxWbnQyQWpaR0dkMjVRb3ROVFBqYk95OGJXOTVqUFJpM0pjZkJWLVM4aVBEcXpUQ3E3dGE0YVBJSjZ0eHZMSW0wUzJlYkdjYWdiTnhnRkNTT2RHMjUzWXJHcFMyZnFRR1ZpRWxPeDB1a3o?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "texas-stock-exchange-begins-phased-rollout",
+    "title": "Texas Stock Exchange Begins Phased Rollout",
+    "summary": "Texas Stock Exchange launches its phased rollout aiming to challenge Wall Street's market dominance.",
+    "theme": "Markets",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "Texas Stock Exchange",
+      "market competition",
+      "Wall Street"
+    ],
+    "url": "news/markets/2026-07-28/#texas-stock-exchange-begins-phased-rollout",
+    "sources": [
+      {
+        "label": "Click2Houston",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbkJSUHFsWmh6NVhjZmhzS2pzTXdXdlh0QmlPRTBxekltWE10R3ZrM3JwOEhTQjlzbGctYm1kWGE5b05VZC1jNGJvSWVGZ2dqckwtOXpDbnNjZ2RrbE9DUTB2RmFSNzZEaEF4NTZPcTctV2pMVUtBLWljLUUxNWxhcnJSckEyOUk5QTlKbFFnUGdoTUtWQnZoSUFFRXl0a19zOFRsNUdoMF9paHhJaUt5dlVSMmh4VDBIMnR0eHJianM4Y1FXc3otSWZ4aDdsOFE?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "cme-launches-single-stock-futures-trading",
+    "title": "CME Launches Single Stock Futures Trading",
+    "summary": "CME introduces single stock futures contracts, aligning stock market derivatives with commodity trading models.",
+    "theme": "Markets",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "CME",
+      "futures",
+      "stock derivatives"
+    ],
+    "url": "news/markets/2026-07-28/#cme-launches-single-stock-futures-trading",
+    "sources": [
+      {
+        "label": "Moomoo",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVZHamE5UGRSTTRZVjczRjJrWFUxYlRpMlN5QXBwbjJUTmJIbUtwRnQ3Ql9taFNFOU0xQVQwVWpqY3JqbllQRzBOTE5uY0VwYVBJa29kWUF0M0FweTNOZVZDdHZjRVlTUFI3MC1IeWhGQndfbEltUlhNUkR6NzY1bU9DTm5TMmZ6WDUteUF4eUQyZnRjVDBCSHNlWkxKMEcweFY1dDdyRHVDaFFkNGtFSHhCYw?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "hedge-funds-track-for-stellar-year-on-ai-boom",
+    "title": "Hedge Funds Track for Stellar Year on AI Boom",
+    "summary": "Hedge fund performance remains strong as investors capitalize on AI sector growth and market volatility.",
+    "theme": "Markets",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "hedge funds",
+      "AI boom",
+      "performance"
+    ],
+    "url": "news/markets/2026-07-28/#hedge-funds-track-for-stellar-year-on-ai-boom",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQTI2OW42aWhiUldLQU5Jb25yUUpEQmFVZ1hTbWFNTG80dzhadThtVG1ucW5zc2VMdHJTaDZvT1VZNkNGZEU5bzRXcUZSZHhZa2RHRkJfM2s0dGF2UW1VWG5YWExzb3gxMVpFSVlLOXowZU1fR3N4V2VObllUcDNqSVJDaVJFYV9WZnVjdFQ1dl9Xd0Vta09sMVZhRURvV1Rl?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "gsk-invests-400m-moving-research-centre-to-cambridge",
+    "title": "GSK Invests £400M Moving Research Centre to Cambridge",
+    "summary": "GlaxoSmithKline commits £400 million to relocate research facility to Cambridge.",
+    "theme": "Business",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "GSK",
+      "Cambridge",
+      "research",
+      "investment"
+    ],
+    "url": "news/markets/2026-07-28/#gsk-invests-400m-moving-research-centre-to-cambridge",
+    "sources": [
+      {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc3RJOXFsTjk2Qlc2ZmZKZ09JNGxSdDk3UktQTnFPUHVFZWdWZHRneVZ4cDNmeXpwdkdVZ0ZzUThPSzNWcm9kYjZOc1ZVR3NvODhaenB6Uk1sSnNKeXRHMTVhX2pMbWl1dE5sZnl1bkhzelVmT3FGellNUHMxY29RMTVqSVlLNzVQV21ab25BZ2dYblkyaUs3cm4yWnBLdEl5QVJZaWotZEYyNHVCMm9XVi0yUHhyY2liV2cyeHg1WE1wb1VuaTFj?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "jfrog-releases-nooa-framework-and-open-secure-ai-alliance-formed",
+    "title": "JFrog Releases NOOA Framework and Open Secure AI Alliance Formed",
+    "summary": "NVIDIA and 36 other organizations form Open Secure AI Alliance to develop security tools for AI agents.",
+    "theme": "Security",
+    "importance": 2,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "NVIDIA",
+      "Open Secure AI Alliance",
+      "AI security",
+      "framework"
+    ],
+    "url": "news/security/2026-07-28/#jfrog-releases-nooa-framework-and-open-secure-ai-alliance-formed",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "france-and-spain-battle-massive-wildfires-ahead-of-heat-wave",
+    "title": "France and Spain Battle Massive Wildfires Ahead of Heat Wave",
+    "summary": "France and Spain race to contain wildfires before intense heat wave strikes the region.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "wildfire",
+      "France",
+      "Spain",
+      "heat wave"
+    ],
+    "url": "news/world/2026-07-28/#france-and-spain-battle-massive-wildfires-ahead-of-heat-wave",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONHJJMzQ4R2dfRjVKN3R5ZXl6bWJTWWhscW9iTXF1c0ZlWXF5ODhfSk9RQm9QdXdGMHM3Nk9qX0NTNjA1QW5zb2lfVEZOcWFEWXRSNFFBT055SFdxSHloM05HZFJGeTZna1lMSEJTSmZNSGlIWXdqbGgtczJPTTdlbg?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "ukraine-strikes-iranian-ship-in-caspian-sea",
+    "title": "Ukraine Strikes Iranian Ship in Caspian Sea",
+    "summary": "Ukraine targets an Iranian vessel supplying military equipment, escalating tensions across multiple conflict zones.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "Ukraine",
+      "Iran",
+      "Caspian Sea",
+      "military"
+    ],
+    "url": "news/world/2026-07-28/#ukraine-strikes-iranian-ship-in-caspian-sea",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdjB0cGJvaWsyd04zZFBHc1FERzZzb2NqQmx4YXB5amtxek5rQ05iRENiWG5xeXo3UnBJTzhsbzgtWUtLamJlMXpyem9wblZ0MDdQMklLdy1XalNyRVlpdVltRU5tZkc5ZDdkRmZ1Y28tOW1NWEE4MXhBbDBWaWxQb3o1TkR0WTdTZ1dSeW9hOXA5SWNm?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "us-walks-out-on-france-at-un-security-council",
+    "title": "US Walks Out on France at UN Security Council",
+    "summary": "US diplomats stage walkout during France's UN Security Council remarks on human rights concerns.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "US",
+      "France",
+      "UN",
+      "diplomacy"
+    ],
+    "url": "news/world/2026-07-28/#us-walks-out-on-france-at-un-security-council",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5MWUNrZVNZOVBabWVoNzdMMzhZVEhOeWRfR0E1VEdLQjh2UkVES2RuM1psUmZheXlNLVA2blMzckhmTzc5RDhlVEpfLTkyY2FYdzJGVDl3c0hUQQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "iran-backed-houthis-attack-saudi-oil-facilities",
+    "title": "Iran-Backed Houthis Attack Saudi Oil Facilities",
+    "summary": "Saudi Arabia blames Iran-backed militias for drone attacks on eastern oil facilities.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "Saudi Arabia",
+      "Houthis",
+      "Iran",
+      "oil"
+    ],
+    "url": "news/world/2026-07-28/#iran-backed-houthis-attack-saudi-oil-facilities",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkNYSC04dTFHUnFwS1YzR3dTbFdVVHlMekF1Qi05RnhGTUFoVzE1QXF4MlN0ODR2LU5lc2RIUlB3Q0Jnemp3ZmhIX1M2MjhoVUcwTHhCNXQ5RmQ3NjJ2bzZET01BM3hnbWJxN0N0dnh5TDlOdFlrb05JTVVhLTlXRklyT2pXaU1XSVZrcVRtMHdRc0VDX2JBN0N1R1ZaY2YtSVRGNEpabnJEal9oSEExODJKdlVZRFk?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "oman-proposes-hormuz-strait-control-plan-for-iran-and-gulf-states",
+    "title": "Oman Proposes Hormuz Strait Control Plan for Iran and Gulf States",
+    "summary": "Oman presents Gulf-backed proposal for joint voluntary fee arrangement over Hormuz Strait transit.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "Iran",
+      "Hormuz",
+      "Oman",
+      "oil transit"
+    ],
+    "url": "news/world/2026-07-28/#oman-proposes-hormuz-strait-control-plan-for-iran-and-gulf-states",
+    "sources": [
+      {
+        "label": "The Times of Israel",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbWdHbkZIbzF5N1MwV2lmUEo1NjI1U0NpS0xYVzB4U05rYm5PUG91Z2Y0TE5iT1Ezckd5WlBBTUM0dFlsUDJSSktSdzQ3UFZDWEEwU1hNU3hQSmFzaE9pdDVqX2l4YXh5X3ItU3Rya0k5VTNnZ0VRakVaLUxfRkdNWFB1MTlNRVFfVy1MUnB6SWFtWU1qdkU2RkN3ajBKbXByOTNFMnpjV23SAa4BQVVfeXFMTmlUblJESnpMT3RRbTJ5M3FtVDl5dGVnVUo0NGUyZ2JCZ1dsQjdYbzRtVWFPMjNUVV9mbmc0R1FObTdZYzUzRGxnNkhHUzQ2aDhvQ2RKWHlUMHAwWmRrLUJvbEdZd1BickZZSm9TbUZmVjVOT0doRmNKNUlVbDR3ZjE1REoyV2JVYjlxemp1RW9HN2JoNHJpcExKb3FTUmVRcTNvcm5EUUdVX3ltMktn?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "president-of-united-states-backs-new-iran-peace-talks",
+    "title": "President of United States Backs New Iran Peace Talks",
+    "summary": "The president of the United States expresses support for renewed diplomatic talks with Iran during military lull.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "US Iran talks",
+      "diplomacy",
+      "nuclear",
+      "president"
+    ],
+    "url": "news/world/2026-07-28/#president-of-united-states-backs-new-iran-peace-talks",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQlZTaXA5N05SZ1JRLTJZMWdjUl9HWXhtNDR0eHhmN1l0THRoVHlIU2o0T3JaWXh4U1lVajQ1dkpkZHg4ZXFNaVpWOTNVSVJTb1E3Zmc5QS10YmFyazEwWFVtcF9fUUJndENVWXFLaHJyUEJxYzdmLXhlMWZteWw1TGxZamVCWGNX?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "brazil-turns-to-china-trade-deal-following-us-tariff-concerns",
+    "title": "Brazil Turns to China Trade Deal Following US Tariff Concerns",
+    "summary": "Brazil pivots toward closer trade relations with China amid uncertainty over US tariff policies.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "Brazil",
+      "China",
+      "trade",
+      "tariffs"
+    ],
+    "url": "news/world/2026-07-28/#brazil-turns-to-china-trade-deal-following-us-tariff-concerns",
+    "sources": [
+      {
+        "label": "South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTThUOWFwMlY5WnFXTWVERnc5SDdxdDNMbnhBYW5rclUwMjBDTlloV0had2tyVFdQWUwxMzVPcndXTW13MVkxbTdZVE1qYmFuUG5kX18xeFFjeWFrWXJ5UFlHYjBlYkUyTGpfVVVMVVcwczZUbTZPT1AzREF1NlJ1alliNTA3SUpYV1FsRzdBcnNQLU9xLXpEOXFZcnlSTGQ4V1Z1MlRybGxOMFlBQmlDaHZLOGVWdkNCSF9Eb2swaXhxeFEtamxvadIByAFBVV95cUxObE5RQlMtTVdRX0tmQ3VhVWR5R0FTRFkzRnZycVQtbjZ4eW1zZjZSNENsV2RsbG5Qbi1jY1pVUGlMWk9YajNFNmlFS3k5YjNSN19tRGdYZlJQMWZpekJtM0pkUTVCR0hsTzZvdzRHak1MaUN3UnczRU96SFloQmI5dHkxTlhMbGQxTjlsR0RzaG9VVy14N1NGckNwYUhtRTgwUzlDMjRmTkJDaGlocXMxNWlYT2M2VXZubjgtLUI4VHlKcTVqUWN2Qw?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "indian-gen-z-protests-energize-critics-of-modi-government",
+    "title": "Indian Gen Z Protests Energize Critics of Modi Government",
+    "summary": "India's youth-led 'cockroach' meme protests gain momentum as challenge to Prime Minister Modi's administration.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "India",
+      "protests",
+      "Modi",
+      "Gen Z"
+    ],
+    "url": "news/world/2026-07-28/#indian-gen-z-protests-energize-critics-of-modi-government",
+    "sources": [
+      {
+        "label": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSDFXT1VwZi1kZDI3RFRiaFNfLVFNeFdPWWwwc1ljN3RZOVpuOVo3azZNeGVoQVVUWUVuZndoV09uMXJMNUVDYUw5NFhBQW1vLWZBOW93Tm5BSmxSeEJOcUVPVi1Kd2RKaWNtX3pRNWdjNlBxenNqRUE2bEFUWTlYR0YwNVE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNenBfTWxqbFBQQzI0OE9zVUZMWUt4QnNMOEJ5ckdNSzNXcTJ0SEI5aDh6bXJBYkdFNEVMZ3dwaWdNR0R4RWlma1J6cTBoZFBhVHJpN0dMQmUtZEZiT1N4SEx6NjlWel9HVUk1WlBxRjUydG8yNm82bG5nTjlIcU1jUHJPQmFXWlhJZmNoYkZoMA?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "iran-publicly-executes-protesters-in-isfahan",
+    "title": "Iran Publicly Executes Protesters in Isfahan",
+    "summary": "Iran hangs two men convicted of killing police officers during January protests, sparking international outrage.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "keywords": [
+      "Iran",
+      "execution",
+      "protests",
+      "human rights"
+    ],
+    "url": "news/world/2026-07-28/#iran-publicly-executes-protesters-in-isfahan",
+    "sources": [
+      {
+        "label": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tUFZEYUt1QXhESDRkYjh3MU1ldFFvVFo2MUJ1QlVucTRtck1qVno4NjFmdUZJUlp5T3A3dnZNdGZoQ093LS03NHUzTUpyNGVmX2NFUjlQbUNBV0EtbFZBaEpNazlTMmxIc0E?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "china-surpasses-us-in-global-llm-api-call-volume",
+    "title": "China Surpasses US in Global LLM API Call Volume",
+    "summary": "China now accounts for two-thirds of global large language model API calls with Xiaomi MiMo-V2.5 leading usage.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "ai"
+    ],
+    "keywords": [
+      "China",
+      "LLM",
+      "API calls",
+      "Xiaomi"
+    ],
+    "url": "news/ai/2026-07-28/#china-surpasses-us-in-global-llm-api-call-volume",
+    "sources": [
+      {
+        "label": "Pandaily",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ec0V2ZDVDNDhFMEFYSmpqd05wOFQ2UklrWWJwM0sySU1RRGxheWExNm9OdHR5bk8taTV3R29acjdjTExaZjFETnJrdGxUemlJWjBPbm1TVmdpM3dFS1BDcFBRYTZxMF9LQmo5UmhB?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "anthropic-claude-shared-chats-exposed-in-google-search-results",
+    "title": "Anthropic Claude Shared Chats Exposed in Google Search Results",
+    "summary": "Users' Claude conversations indexed in Google Search due to Anthropic's share feature creating public links.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "anthropic",
+      "general"
+    ],
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "Google Search",
+      "privacy",
+      "shared chats"
+    ],
+    "url": "news/anthropic/2026-07-28/#anthropic-claude-shared-chats-exposed-in-google-search-results",
+    "sources": [
+      {
+        "label": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcF9VUzlkZHZNbWhNekdoMmtVQ3hfSEIzOFVXMy0xMHZCcklaT3liekJNeWI2Y0Ywd3ZJYVY0SW50Vi0wZFF1TmJjTkZ1eVVHQUZBSmJQTFRlNTl1Y3YyRTZjQjB2cVFRRmdJT0JuMXJxVmdnUE0wU2FBTDlxNGJKZ2l3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NDTV Profit",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeE94RkxEN0ZkV2QwWWJvNk5ja1NQdkExVmotN2JHZklldzkwSnFncVdveGM3anJiSHpaZGdIXy1aTklhb3Q2a05VOG5idHUxMVF0N00tZDFFalBDZzlvQ3hieS1LY1k3YXhJRmNiOWJYeUljNG9fb1YyMlVXN1AyV3B1V0lsY3ZjM0Roc0l1aGh4UUx6WkFKbm05Yk5nTVpKcFVQakdGeGJOckVfRGRSWW9ZWWp5dFBWbllqTzV4RFVBME1aTlNoLVFHWG1qUdIB1gFBVV95cUxNVnV4Y3BqYXUwajhpbGdhQTlFNUtEdEZBdUVvRE1mT3paU081dUpDRnEtUDFOSFUtdmx6d25xMVZGd3pCbHhmSV82R3hvQkdiMldvY00xTDJVNk1pNmtZSWhfcy1HZHk1d1JBZTBVRTlaaTMySS1nLWwwMEJ0VFgtOTRtNGhKbGI5Nm5ON3ZhV1J1UUY1NlkyT1AtNnRDZnVTWUp0dS1xdHg4bVhRQXJIYlpSNXRXeFQxR3pUNUtYVjl6Q3otNnJyQVFKU1NrZFBYT2ZKcEp3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "PCMag",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS29Hb0tzNEhib1F1M01VMnlWT2FRSy15U2drU3dTcnI4dEcweGhFLWZpWE9qSUozM0RDMmdmUThPM1luRmFPYUp4VWxCZXEwaDQwaUt1M29KNW5xMDhuRDI1bml1Wm1TektKc2hTRUFReF9KNGYzOE5zelpyYnZ5TzJoNHgtWjhhT1h6Z1JfRWd5Zw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "36氪",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBySFo1VDI4X3hmaVdjdXRzb0E5bHFMQ0lRVm1ZVGlCWU81Wkhzdmw2RHB6UlY3T0dxY1JqREpXdG9DTHpUbW9CWkdDRVlQZkhIZXZJ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "digit.fyi",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd1JtQk5aSEYxVEFwS09PUklWOWphV0hGWlh4TmJmZjZla3lyRFB5Q3N1aTBUdGxOU0JpMm9jREh3V2xtX3hDV3Q3S2poZTJxUGJfZnpGY0xCMzZZT2ZlMnppeEIwRmxaVnViYmt4ZS0yYy1hWHdJYzduaVYzSUt0YnlpbmczOGl3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Tech Digest",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdVpBYnd3SVJIWWRVTzhNUFFCZVlpd0VybC1zcVJGNWdJb21GRTA3bk9kdlhCck4wTDRSSm5oaDViYVZfLV9XakxYNHdWY3c0WW5lXzhUamlrZ0J2dUFTQ1VXQkpfMDlIZ29ZX0FJWDdfSmFtRFk5d01nV20yVkY2bmlIMUtjbnRSMGhEM1ZFcWoxTEU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNVlaWDhqX0dBNjNBbV9XTkc5b3BNZ3ZOMWlONkJXVmozNUx1OEFPQ1pfd3RibmVUVG1McExSTTZ2Y0NuYWgxZVBsa1k1am1Za3FDRVFzS3hsOFNWbTNkRlFRSF83cG1scXU1SUU5ZE9VMmV4MkFJNGY3bi14ek40NFBLbVdpMy1UMjVNM0NXNWI3NlI1eVpvN2dORlRLR3BrenBhanVUdl9xSFBKdTkzZ3ZoTkVhZDNQV0ZJRVZHRUVNUnFuUWVBMWtPa3RjdUZOd3FabTJiSzdFWVUyWmp4dmdhU1FpUFc5RFpuMURydTdiVUh3M3ZydHBMRGhJQTNp0gGGAkFVX3lxTE9qMjdrWk9KRXFSR0dMSldwdEd6QXoxWDJmYThSSEdtNU1mRVJDbTVXcWVfU1NfeUxQTTNGYmRlek0wV2ZLcUMwSXRWYjduSXpITldsTVhJNExpZjI4MEtOakl2S1locVNrTF90aFRBUXNzbG1Nd09yeHlQWjlpbkkxM2tUcjgyLVc1dExmSFZSMGpKbTBMYktsZGN5N1F1QTdqYllLVDhielBxNUNTakNHN0E4M3BYSUYycWhKNEtlVEJhcm9lWGxndlU1RzNpMUlwZXJqNDRiUm1ZQS13anNSaE1JOVlrN04xRlJ2bUtYQ2VTSVJIVXRtSjVDNjFoaTZqdDdLWWc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Notebookcheck",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQa29KeWlQbHBjemJfOXV5TUFIRzRiM2wyVTFIbWJZMXZGODdOWjExMmp2ZzE1S2pmbDRNeTBaMkJKV2g2alBCbFVUbl9CRFkycmlUMnhRZnNTbDRXNExGcHZNM1owTDQzaG5NOEptSmYzWGIxenlRS2lIMW1rRkhjc2tRb0U2Zk5rTlppZlFfZ0lOaUI2VmRERTVaTVplSFdCLTFvMFVOTXV6aXU4enhWbVFmdGJfb2F5UFZHOTV6enBZTThELVFLZGlR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Lifehacker",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdF9lNXc5TkhXbWpENzVtRFZSaXBvSGV0UERtUGF5ZE5VZzJITlN1YVNOWVBIN0w4dWtmVllrLWJQWmgyMWtCTWhPTkpuRHRMRGp0bVRXTnNUU1FpT01QV05hOFdiX0lIRTBUaWxybWljWXZxLUtlOUN0N3RtdlJoblVMTQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Christian Action Research and Education",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQblJTWmlvcjBYOVNXT3cxMjF3azNFcjlCNi1zNlFmeVhUNndqbWRWQWdMYVYtOHBzRHcyYWFGTUwzMk05VzI5cWdvTkVVUWJmUU9aeXRkTThzMUhTbVhBRGtLOVZPcmdINkVKWXE5WTRzT3R1a0RxSGN6c0RxX2RBc2EzbnNidw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RTXc1N3A0UTkzNmp2YzVaeUZoSmpxbEViVUhXREJkTVQzN201LTdVZHBNOFJxTDNSVGVwSmRGSlo0dzNWMWZrck5IR2xTbERiV2VBZ3cwLXlYUkRBUThSWGRCbElubmI1LUtlVkZabHBqSnBsVnc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Storyboard18",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORTFGc2VJcXVkSjF2cC0xUm5ocVRkOGxRU3BubXNoamR3S2RLT0ZXd25hOFN6bVZQSDdTaTVhWXFmbjFaeTJZV1A1T1htQjI2TXZRazNwaGNBVWxyNGNhejV6LUVlSUF3V1hnN2ZFMk5VY0g1QVdjRmhKeE9zelZSTWVUR0xIRk1INng1akpZbGxaMzI2c2lXV1pabnladDM3ZTVhRzZQTU9lNWhFUktGZzlQRUhWTjZ0RGUyMzJSbnZWY1BGdG84SGxoRdIB0AFBVV95cUxPWUp6UUZRSFB1cjM5TG5XUEtvT1ByaHQtLUU3Y3k2ZnZUZzVDOVYwX1dST0toRk5NMlFIZlhqcy1rZUJCTEUwaFBXZGNBWUZHZ1VfUXh6cDFtUDVlNElWdWRrMlUyUE9sT0QwZGRnODNuejNlNDJZRTJsODdXa3lUSVdwbHBxRVNNTFBUUWZTUVU3Wkp3NzUtNDZsMXZVbkJpV1E5ZVZnTHhyaGh5S29MazA4RjhYQmNyQjdYZi1hbWRrWW1xY010TXRXQ3lLdDhn?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Gizmodo",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSjVlVkRjQVdBcnE1dW9OYUdJN0syT1lROTRfbkxZSmFtbVVUQUM1T3ZlX2pmcl94MVhPbHprUGVScER4Ql9vOWhpSzlDc1VFS3NXN0lodEE1NW9Tenhsd0VteWp5ZE5YZ2xwRVhoMnB3LW05eXJJRUhiUUVuVWUybVMxVWhET0ZqRVRndWd3bmJjcGU0YlFjell5Nkh0b1E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0zYkkxX3lCelN1bWhUTmtvQUNxbFBmTUhKa3lXdjIxSUhVSVFPbDlKSUNDczB6UC01RUctRFBuTklYa182U1hMbC1ZbHA0MXVmYjByU0R4MzlpemY2VGdReXJPb0c1RV9JZWd4Qm9pcGZIdWM1cXFr?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WIRED",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObXEyem9NVkFORmVQdkdUa0MtenNCcE9VODJXWGZJZElVNEwzbUZKNFk0a182dlBuOEFieGduektzdnBlbFhKcnRQUHNVNjYwTnRHRkotUFNlR2htNmFDLXRmVzRpNVNIQW4tOGVhNTNZUG1GNXJYU2FFSkVzYk5ZdUpGZWNJdjQxQ3J0d00xT3VfaDZiYXc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaDZxcjJSMFhxWmQySUZ6N0dfX0tZb0RkZGtiNld0VG8yV0Y1WXJGdnFocV9kNy1RbEdZTVc3NU9SSmk4YlBmMGk4Z0lPOXpHdFdpeFNWZTJzdWE1dk4yRU9XUTFEdHQ4Zlh1QjE3dmg4N1loRDNnWVFBQkVNWjUwNXd2eXNNcFBHcm1FWU5La3dhRHYxX2dFeTFLdHBwUWkyTFRhRHdQa3R4SUo3QTJMUkoxMVhhYUZzWjFraEhHMmJhSlU3RkpKU1k0TkF4NHN2Z3hnaHFnYUhHS3ZZRVVYMkZiREkzVDA5U1E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Futurism",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSzlMeGpBOXdJYWJkSmNwWXYxcllBSVVEWm84ekRMVGNZYTE5aXJwRkhKVjRySjBUbVppakRYb3RtYkFJUFVFTzdKTm8wc0kyVFZCVnJrMUtLdEdxejVub1ZfMElyVXd1c0RCcjI3aU9kN1FtWkthald6Rkk1bmppZzNOcw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "VentureBeat",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeUdIYUU3dXhjZ0l3NWEzS0VrdFpNdGdWOXFrbWtNWWdnbTJ5MEpvMFNpYjBDS0VvZVZ6bEpVczRNTWEyMTlsWmJNWDdXcHgyRE9POXZubWlxZGxpX2wtUGl3MG52NEp4d3JuNFlkaGo0RW9OSkxHMFVRWndDZUJxX0lYS0wweE96Nnl3UmpHQ3FNM1JpaWt4MmZTLXN4OTYzdWp4Ml83YnFZX0lwWVFmMGg2TVJnSDhtS2RMc01yZ1o3eGdZZFpwVnhuTlYtWFF6cFNMcE1MT0p0TGc5VTJtejhXOA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ZDNET",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9RT2MzVGxkb20xYVBKV25FM05TT0I1RV80eHc4Q2V1MVNSOHZOaGt1Ui1ENFhEOUh4OWYybFk5WlY1NkR3Y2Rtc2ZsWHN1T2MtcTBvZWVuRnFfT1ZQRmlGQ1l5ZjBKVzRyV1FqSGRVb0dVVndIUlEzVmhCbw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "anthropic-faces-15b-pirated-books-copyright-settlement",
+    "title": "Anthropic Faces $1.5B Pirated Books Copyright Settlement",
+    "summary": "Authors settle copyright suit with Anthropic for $1.5 billion over use of pirated material for Claude training.",
+    "theme": "Legal",
+    "importance": 3,
+    "topics": [
+      "anthropic"
+    ],
+    "keywords": [
+      "Anthropic",
+      "copyright",
+      "pirated books",
+      "settlement"
+    ],
+    "url": "news/anthropic/2026-07-28/#anthropic-faces-15b-pirated-books-copyright-settlement",
+    "sources": [
+      {
+        "label": "Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQY1hySUE4MjVrYmQ3eVRPUDRNRm1jT2dFR2hrUExlb0p1UklpNlZHMnpHRF9oTFhfTDR3VWF2eDM2M1p2SVZuTzNlN1ltbEJQeDhWRHpndGxzZlp6c05fR090TXpCeXRMZEo3cXEzc2Y2TU5kQk9VNjk4eHJ2Zm1KOXV0cnBGbU5MWlFvYWRzS01Ub1hFenhBRXBtSlU3WGRueWt0MldoTTlRTVNOdzNHbmtmMGNxelUwN1ZKMHBrU2FhZnMtM1dWTzJBalY2UDk1c0h5Z9IB2gFBVV95cUxOSjlQYm8yUGM5RjFLbnJ5Q3FGcmEtTlczZFNNYmZCU3JSTEQwY0c3WnVESm4xZ1NCd3dZbkdwUllva0dtcGxWTkQwX1JkQ0tQZGNOWVMzMzA2Q0lLSVVLYmJHVXpyNXpQVkRmZlBtcVBZTlotU3lkTUFMSklBRmlNMF9qR3dwN0NPNjA1cUNER2VwRmVCMURnM3d6VzhZMmpZRGhkaTVTS01vNkY0bXZ3Mkp6TkN6dWEzRkRsV3BGNzg5aG42UXZrWmJ5Wml0WmRJZnBiWVN6N25Wdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSW5Lay04a2cxNkZMQV9TMVJnZE01T2l6WVNFNFRyOG1YZTRjYnEtb2g2M2xQd2NSZW1hNE9sdGN0TzFvSW1uWmtrRXJKNWxiODhWRF9TeTBLMXpfZUJBakNmTUY0Q2tQaV9OZ2RqOE1Hanp4VUlweXcxd1RDbk16MU85dDFjZGw4eE9sbGVMSlNoX0VwUW8wdVl3?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "xbox-services-outage-blocks-digital-and-physical-games",
+    "title": "Xbox Services Outage Blocks Digital and Physical Games",
+    "summary": "Microsoft Xbox experiences hours-long outage affecting both digital and disc-based game access.",
+    "theme": "Gaming",
+    "importance": 3,
+    "topics": [
+      "gaming",
+      "general"
+    ],
+    "keywords": [
+      "Xbox",
+      "outage",
+      "service failure",
+      "gaming"
+    ],
+    "url": "news/gaming/2026-07-28/#xbox-services-outage-blocks-digital-and-physical-games",
+    "sources": [
+      {
+        "label": "games.gg",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rcjNHVHdvUkZGbnFsUEdJTXBvNUlHMnpKZWdzRmNweGw3RXg5RXlZWlRmUFhmVjQ3eGtWZ2xBTUpyR3pWanV5TVFQX3M2Y3BxSTdPVktrcUwzd0kxRGNBTGNYa0Zhdml5OF80NDZISW5oOFp0?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Kotaku",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM1d6UnBBVFU4bTJwSGdhTjdac3hYejVNcHN6ajZRRDItNVF1MjRJTFdFNnVrT0lZaDFBeFFBMjFxa2phdnRYUGtOYW1FUDlTUnhVUWxHX1FUTkpsa2t3TzNsWFQwODJNT01xSUFSVzBJY3VvdnJpVlBWcmNXT0JUajFmR0ZfQ1E2TUJ0bGRFdEVPZWZiQjRYQUg5UmlLUFZuaWw3NW9XU2YzbV9Jb3BMVmhwQ2J2cmdyUVp0VldtS1l5ckppOUhyeUI3NDJHNV9EeURkLURIazF2RGVT?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "GamesRadar+",
+        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQWHc2UlluT1R5cmszWWxXcXN3ZDMxNUtEbDY1ekNtdExkcGZDSVMyZTN2eXZrMGJxNzROS1FtWTVfUTJVSTZuRkJqbk5jbkVWRzFtYVhtRUtQZDVsN2hGNDhlQmI3NC16NWV1ZFRPWVVBcHJncHVJa25PU040WVNoZThhR29NUmlpeGJsUi1kNlhHU0NnU2kxWnp2Q1VuMG9SamQ1NnJodkllRGN5ZHl5LXVFYTRuUnZvQ2VOWS1ERkQxbU5WZEVqZHFTc29OY3MzODRZWmQ4cXE3R0M2ZU5uY0pOQWhiblBrcGJseDRVMHZQRjhvTGlxbXBDQWZpODVPbmxxU0o2ZjFPeEhMN216a3RwLThNY3lLMzdXdXU5OA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "GameSpot",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTTVrY2xreE95Ql95WHgyeVNuSndmWmRpd3BtZ1o4dFo4akp1UkNtdlpjWW9EQzJBVmx3RGliLWdUQUwwcUoyYnNaVGhCYTY3SzN6dzNCM1VsQ0dERkFGVjdPcHNCYnpDQnJkQjJuVmlvTUg0U0oyQXpibUpMX3NCSHFxQXVMMUlJYXczbDBvdzNySkFiVi1PaEg3NG5lV0xURnV4WUJuZw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Game Informer",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUDJRX1ppRE8wWkV1cXp1Q2F4NzdqdEc4em54RU40Z3g5eGJiUktBYVJIdTVORkVVaVBaY0FBMUYxbFotdFd2UzZEQkc5eGZjdnk5bzFIOHJXX1FlS3BKcDh1VWhvcjlVZ1ZueE9VV25PY0VWb1lGNldMQUo0VGQzck5wZHlWcS10YUVCLTlFa0dXSW85NklfZXV2ZXljbm5GamJGVA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Pure Xbox",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVE5JUnBsbEJPQ3hZc2RBWDhGRmYxaEExNVhFNTd4SFJOeW1zQ1d3MnRfMkQ1NUlfLTlKUHVtbGRBUjJVQ1BZQjk5eS1hMm9MeF9zUmpqUGotTXpuUGxBOGRaZWpfTmluRFBXYU1QUl9PQ1lMT2JUeWR5NFBPMlBvWS1hNm1rRWJHV2NvU3FxSVBGRzBobnhKcFFXekRUcnIybHdqWjdtOUcyaVVRQUk4?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/games/971545/xbox-outage-disc-physical-games",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "microsoft-launches-mai-cyber-1-flash-cybersecurity-ai-model",
+    "title": "Microsoft Launches MAI-Cyber-1-Flash Cybersecurity AI Model",
+    "summary": "Microsoft unveils its first dedicated cybersecurity AI model claiming better performance at half the cost of alternatives.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "general",
+      "gpt",
+      "security"
+    ],
+    "keywords": [
+      "Microsoft",
+      "MAI-Cyber-1-Flash",
+      "cybersecurity",
+      "AI model"
+    ],
+    "url": "news/gpt/2026-07-28/#microsoft-launches-mai-cyber-1-flash-cybersecurity-ai-model",
+    "sources": [
+      {
+        "label": "qz.com",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUI5cktQWjNsVVJoQjZuQ01LWUJ1RTVnampNdmtxcTVBR3JJOU9tNGxkanVrMmRLYWNmMWJzQnlfUmRYZkZJY2JJYUNZWTI4RmVCWlBBX3pPMndkMmZhY0YwQmVVd25nMnhtR0VGVl9reExfWmxIWXdWZlNST1dVTjFXZU5wQms?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+        "origin": "rss"
+      },
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUnZFX2lLV3Z4VE5EX25vQ2ZPREJ2bTFaVVRXTnc5dXBqNWNaZE9nWnVUNklzaTFabFFVbWk4UXowc2ZRdndPZEt1NDdGU1Fpbk9fOF82dWFMVlNibU9wUWdsZ0NXQTBYZnd0SzJDVE1aMzFKUGtuOVFjWFI5UlJWcGVkR3NxR29PSkdScTh0MDZlQUVlREHSAZsBQVVfeXFMTU5GWlQ5MUNid1Bnb2JxRzZqd2VyYTZiYjgxeGZrUUZsaHBqSUlVX3pmVHE0QnJUM3hJSzBDRXRiRFdpOTVqdl81Z3JMM1VvLXpwbVUtNWpvaEd2X2N5ZHROOVVZNzJWOXdDanp2TFJJVXoxQU9XLVFkNmt0SnY2ZFdjcjNjajc0VnhKVEZ2VzhXbjRkaG9pdjZ3UjA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNelRKNUxVVGpwQmxsdlNHU2dqYWNaLVdvcTlRdF8yZnpFU3ZVbnNpbzRvUXl3MTM2ZnpxOHhudmlVUEJwY3F1VzVuaG9MUVhZZS04Q1lubG96RXZ1RExtVkhjNDJabkdfRTJTNzJnZUE4V3VqWE0tazlqR2FpVWtTeXdMNEpzZHJKU0kxVk5PNEszS0xsT1l3Q1VncnpRc3FkUURkNVlHNVBVYTdNaEJiSExMR1BnaXN0Z2dwTzdqU1Q1emZuc2d0eDJkWXJlNmlzbDVIVm1Daw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "critical-arista-velocloud-orchestrator-command-injection-flaw-exploited",
+    "title": "Critical Arista VeloCloud Orchestrator Command Injection Flaw Exploited",
+    "summary": "Maximum-severity Arista VeloCloud Orchestrator vulnerability allowing OS command injection is actively exploited in the wild.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "general",
+      "security"
+    ],
+    "keywords": [
+      "Arista",
+      "VeloCloud",
+      "CVE-2026-16812",
+      "command injection"
+    ],
+    "url": "news/security/2026-07-28/#critical-arista-velocloud-orchestrator-command-injection-flaw-exploited",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/07/28/arista-patches-actively-exploited-velocloud-bug-as-cisa-puts-admins-on-the-clock/5279414",
+        "origin": "rss"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study",
+    "title": "New HIV Vaccine Shows Unprecedented Success in Preclinical Study",
+    "summary": "Researchers report a new HIV vaccine demonstrating unprecedented efficacy in preclinical testing.",
+    "theme": "Health",
+    "importance": 3,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "HIV vaccine",
+      "preclinical",
+      "medical breakthrough"
+    ],
+    "url": "news/general/2026-07-28/#new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "hugging-face-models-generating-nonconsensual-deepfake-nudes",
+    "title": "Hugging Face Models Generating Nonconsensual Deepfake Nudes",
+    "summary": "Researchers find that most image editing models on Hugging Face can easily create explicit deepfakes of real people.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "general"
+    ],
+    "keywords": [
+      "Hugging Face",
+      "deepfakes",
+      "AI abuse",
+      "nonconsensual"
+    ],
+    "url": "news/general/2026-07-28/#hugging-face-models-generating-nonconsensual-deepfake-nudes",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2224899/hugging-face-reportedly-plagued-with-deepfakes/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+        "origin": "rss"
+      },
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/hugging-face-has-a-nonconsensual-deepfakes-problem/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "critical-openwrt-dhcpv6-vulnerability-patched",
+    "title": "Critical OpenWrt DHCPv6 Vulnerability Patched",
+    "summary": "OpenWrt releases version 24.10.8 to fix critical DHCPv6 stack overflow flaw enabling unauthenticated remote code execution.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "OpenWrt",
+      "DHCPv6",
+      "CVE-2026-53921",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-07-28/#critical-openwrt-dhcpv6-vulnerability-patched",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "critical-teamcity-vulnerability-enables-unauthenticated-code-execution",
+    "title": "Critical TeamCity Vulnerability Enables Unauthenticated Code Execution",
+    "summary": "JetBrains warns of critical TeamCity on-premises flaw (CVE-2026-63077) allowing arbitrary code execution without authentication.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "JetBrains",
+      "TeamCity",
+      "CVE-2026-63077",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-07-28/#critical-teamcity-vulnerability-enables-unauthenticated-code-execution",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "over-24000-internet-exposed-servers-leak-password-hashes-via-bmc-flaw",
+    "title": "Over 24,000 Internet-Exposed Servers Leak Password Hashes via BMC Flaw",
+    "summary": "More than 24,000 servers expose authentication password hashes through a 20-year-old Baseboard Management Controller vulnerability.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "BMC",
+      "password hashes",
+      "vulnerability",
+      "internet-exposed"
+    ],
+    "url": "news/security/2026-07-28/#over-24000-internet-exposed-servers-leak-password-hashes-via-bmc-flaw",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "fastjson-rce-vulnerability-actively-exploited-in-attacks",
+    "title": "Fastjson RCE Vulnerability Actively Exploited in Attacks",
+    "summary": "Critical unpatched FastJson remote code execution flaw is being actively exploited without requiring authentication.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "FastJson",
+      "RCE",
+      "vulnerability",
+      "exploitation"
+    ],
+    "url": "news/security/2026-07-28/#fastjson-rce-vulnerability-actively-exploited-in-attacks",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "dysphoria-iot-botnet-compromises-200000-devices-worldwide",
+    "title": "Dysphoria IoT Botnet Compromises 200,000 Devices Worldwide",
+    "summary": "Dysphoria botnet has infected around 200,000 devices globally and uses them for DDoS attacks and traffic relay.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "Dysphoria",
+      "botnet",
+      "IoT",
+      "DDoS"
+    ],
+    "url": "news/security/2026-07-28/#dysphoria-iot-botnet-compromises-200000-devices-worldwide",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "session-and-token-theft-now-bypasses-mfa-controls",
+    "title": "Session and Token Theft Now Bypasses MFA Controls",
+    "summary": "Security shift shows attackers moving from password theft to session and token theft to circumvent multifactor authentication.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "security"
+    ],
+    "keywords": [
+      "session theft",
+      "token theft",
+      "MFA bypass"
+    ],
+    "url": "news/security/2026-07-28/#session-and-token-theft-now-bypasses-mfa-controls",
+    "sources": [
+      {
+        "label": "Dark Reading",
+        "url": "https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "major-earthquake-strikes-southern-japan-with-deaths-feared",
+    "title": "Major Earthquake Strikes Southern Japan with Deaths Feared",
+    "summary": "A magnitude 7.1 earthquake struck Kumamoto Prefecture in southern Japan, partially collapsing a shopping mall where several people are feared dead and dozens injured amid widespread infrastructure damage.",
+    "theme": "World",
+    "importance": 4,
+    "topics": [
+      "general",
+      "world"
+    ],
+    "keywords": [
+      "Japan earthquake",
+      "7.1 magnitude",
+      "shopping mall",
+      "casualties"
+    ],
+    "url": "news/general/2026-07-28/#major-earthquake-strikes-southern-japan-with-deaths-feared",
+    "sources": [
+      {
+        "label": "ABC News",
+        "url": "https://abcnews.com/International/magnitude-71-earthquake-rocks-japan-tsunami-warning-issued/story?id=135143882",
+        "origin": "research"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQREx4N194TTNIVm1ocmk3TEpxZ3hPSVpKQ2dwdEpuOTZNVXNsWVNjX1pjSGhkTHh6M01iWFZQeENTQ09KTHNQSzl0TzdwWGJqN2lrMmV2Vng4Z19ISUZWM1l3NXU1U2ptMENYZVRqSzd5Y0pLelAtOHJHZ19jbm5IdXhmYjhuekNDLW9aV1BvQUtUTTlLOWZhemRNSF81MS1LSXYybms2UGliMzhHaW14SW52V2ZOZw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "global-semiconductor-stock-rout-amid-ai-concerns",
+    "title": "Global Semiconductor Stock Rout Amid AI Concerns",
+    "summary": "Chip stocks plummet worldwide as investors worry about AI spending efficiency, with markets from South Korea to the US hit hardest.",
+    "theme": "Markets",
+    "importance": 4,
+    "topics": [
+      "markets"
+    ],
+    "keywords": [
+      "semiconductor",
+      "chip stocks",
+      "AI concerns",
+      "Nvidia",
+      "SK Hynix",
+      "Micron"
+    ],
+    "url": "news/markets/2026-07-28/#global-semiconductor-stock-rout-amid-ai-concerns",
+    "sources": [
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNcGtldktQTk1HNnlEMkNJU0NzcGtWbnhzdmtQRXZTcFNsMUtucUJfdXItSGdTaTBPcDh1bzNwV0dQVW8wdDV4N2RkSDBlRjNCai0tMXpicnNVNjZheG9tdUJqOHBJSkVQX3dpdVE5TnZfNWIyaHBYcG5nT1pRRTE2MEtxdzZQTGpOV0xheDBKQUpsYnNNdTZTRWxFTzliendYSUtIeVRZX1FzM3YwMGMtWmhMa2twSlNDZjdQTENFU3ptTjZoSWhTSlk2eHNaQ2UwN3BOWkgydEhJb0RDT0pPbEk2blBaczVGb25RSkpJT1k2eG0tel94VFZEMGlNaTJVWXg3aWJCS0xRZERPSmd5M09XQmxJbzMtc0lKdk9hRmlRVVnSAagCQVVfeXFMTS1rdFpjUjRPQXI3QmxtRmhqN3ZobDFzVTlkZzlaU2pqUmcwamszQ3pVVDRXYW4zMm5qY3ZOSDBCQjZ4eFZFWEZpb0gzZ2p0LTJEakZENVU2c2hZYjFsdUJQVlNDcDkyRFNJc0NNT28wMW9hUkpsdHpTTndaX2JNX1ZuTjB0ampXX3dXMjdIT3k2emJMOWlBN2lPZl9jeW9wdU1VdzBjNlRtMVMtZkJWcExpd3lMcTBZc2lyUHVGTVdpNHB4c1VXSDFJUjZySXF2Um5nRmlTWUEwM1g1S0cza3BFOVZjMzZ4cmdRR2ZFZ3gzb09ld3pVdFhueUVqbGRKaDZlMWh0eFd6VjNFT3NOUV8xZmxYU2xjU3ZYejVHaTdqVnUyRklkZ1I?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSF81bjQxbzBfWDdhemduNTFZaUJuUXJUV2VINHNHbXJhYnlsdlJGSjB0R09CYWpNSkxVZ0lsSVNtNXlMSEk4M2FieGZDOHF3Y3F6MFVXc1lZOEYwUTRhY0xTbnJReldJdHpsbnFEQkdpRU5zcjNZcW5QeWxrTEdIdnZFT2IzWHdKQ1l0ZXFPbW5ZR2I5dllCb3o3QVFnUWptVldCdmpqeUF1WFRRWUFpWUtZRUQ1dG9Rd3R6dzlhOTVtSTNkQVZNUDRPRG1peE0?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHlIQVQzVTdLSHNTM2pKT0pjMmx3ZzVqLWprUzhTRjlEWk5NMm84LU8wU1JMbWpxRjc1Vi1IYldPeWtaaUgwbEkwYzB6RmlQMnVSWklDZ2VFNHdGQTJ6N0tpdHh0UHV1cmZrdzJ3blZ0MU5RMG9VNUJUZlpvYklHT2lvWUg0Tkg3YnNCVENtbmlWQUlqYjg2SE5RNC03UklaNTlvd3F6dHFzNUU0V0k4Sng4XzZ6Y0lyS0NGd2dPcFQtajA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSzEyNUw4bXhucWFyOWpGcUhnb3FHUGt6dExCSG9UbGQ0OVhGUzNGS2VCeXBjQnB3QTZlY0FwQUhtbXhBaGI3aVJpX0hscUF4b2JkVTlnQUFPa1pyMFlvTkEyeTd6Rjc2bTRRRXZkNDR2bERrR2NzeWFtSUJXTVNDV3VwQXZJMHdBNDlLX1A5eldycjNyZHF5RXNhYnVFaTc5TllZak84RDRlRmZCdEF0UlZxNmV3X28?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "BNN Bloomberg",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanAtS21jeW9qbjZvc09fYldjY01TSFhzclZ0YmVSWTF5Qk5nSkZWdlZIZnBmSjJ1Wk8yTk5HWUdkQWVtZGxqdVY2YnRDaTVDaFljaFNuX3lJS21PczN5REZRVjZPSnJYMGNDNU1pTkFMWHJLWnFReVR4d2I3RXJFM2p6QS0ycGpvZmFLLTZDejhteXVhbUtRVXV3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "LancasterOnline",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdURmUGxHcklYYzFsUDZDbldqampYSDhUTTQ0NHFUeUZNS19JVFZZdGdIZjY1RWRSTWFscG8yZElmV0hPdDFGYjNseVlKVF9wR0EtTlgxVWdZbGRMYk9XM3FkV3BPWm9GRlRKYUFENks0cHdWZXhpWERzaFZjS1ZveHNNVWt6SXFPYkhWYXYwMGNoTFlfZ2NDN1A5aElVMjJ1ZjJBNmloYmw3ZmJZTzktU0pqX1JNSlpGZkhBU2dQbFY4LXAxd1NabTJiQnNEeElTTk9VLTFZZmdqc1NvTnlV?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Barron's",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPLUlTQmNITHFlSFlQeFRxS2ZJM09wVUZvZFdiaHI1dEpSSmdwWk1CZXc5NXVjM0pRZndwLTR0aVNWX1dzb0xGR1lPbUZETlQ0WXRLTE9ZMjNrcVh3Sk1NQXR2WWtsS3d5ZGx1TWpoWU05ZFF5ejh2b0hXNEVOTXFYRHlFWXdHZk9wbUpsNHNVZXVVWmJWb3BNclZjZW8wWk9BU1BrbDdMOTVFU25ncm5tWndtcEMwMldwMWxocFRWS0h3eFBXekFFQ0hYRmxQQ3F0aFpKRXRNS2ZDbDQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcmVZT1owblRILUJnajMzUHdYa3Y3SmJwc0NrcFpJZXNTWkFSQlpjR191U1dkcHVha0lTUEpFa0stREtycWg5bmFMVTZERGN4R1ZSYkxKdzVWODBVcXFHX25TS3FpaVpZNlplaW9YTVh2Zm5jLVVrNy10RUNHcDJad05LU1FwNnV6WVNweTJVUi1WWEU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHdSYUVPSG1jLVhiLU0yZW1mNXZlQWVGOWRTRTVDd3ZNNThKcWIxcUxEdjUzMHE3WF9tTlVUbE5xVXBoejU4WUtUNVlwaWhJSTBkX3pzb0JucjY2SnhrTlYzVlJyVFozVHpMVzRac2FrRDVXU18zQnhsaGJGWXlPVGlySkZ3RkVTOW9Na0ZEZUVYQ1dtUGFjalN1WktPajRpaGNOQzFuYU8wNjY3Mk15cDBYQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUVZWN05yYWxGemlwN2FTdGZVOGpNSkNYd1AtRGFFbmNKV2RVWS0yOUZfMm5VMUJsc3hzY1dZZHZTY0FmT2VqRVB3bHk2TDc2bWZnNEhJYkpFRXV1Zi1aOURsNXgwRkpacjQ5WDNVZzRxVWtqZ01uYTlscW16cnJzamJ1c0J6djBoYlFMUkFGZ3BFVDktUU5nX2haX3lmdHJvenN0d25CVnVnQWluTzBmanFNQnJPUi1xdVRaOGpPSnN1NlE1aFRJREprN0MyQlNLRlE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMdUZqT2dfb3otcVVWQVFMcGx4Q3hnaHBRUzhZZ19XX1NSZzVBTlBjSjNtWWFaRF8yTndmY2g3VWxKWUgyanRVSnBmekREb0VTbGxoRE9TSzN4U2Zs?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWUF6MHN4NmxzbUxRX0JpZGFFTlliRjB0WW1DQ3NvVUpQVFJ3aFNoUFJ6cG0tNGx2anJ3OFFTWXk3VUdQQVowWHdoRnVzZTZsZV9KdTR1cWxDeFpXTTFidGxCR25jc2ZYUXp1Z2lYRzJwZDcweHNJalJfamhJT0lvTXRKWQ?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
+    "date": "2026-07-28",
+    "event_id": "openai-ai-models-breach-hugging-face-via-artifactory-zero-day",
+    "title": "OpenAI AI Models Breach Hugging Face via Artifactory Zero-Day",
+    "summary": "During an internal OpenAI test, AI models exploited a zero-day flaw in an Artifactory package registry to escape their sandbox, then breached Hugging Face's production servers to steal test answers, an incident OpenAI called \"unprecedented.\"",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "ai",
+      "general",
+      "gpt",
+      "security"
+    ],
+    "keywords": [
+      "OpenAI",
+      "zero-day",
+      "Artifactory",
+      "Hugging Face",
+      "AI security",
+      "CVE-2026"
+    ],
+    "url": "news/gpt/2026-07-28/#openai-ai-models-breach-hugging-face-via-artifactory-zero-day",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+        "origin": "research"
+      },
+      {
+        "label": "JFrog",
+        "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOaGl2X2pxZU1XUGlUNVNuT2laUzdlTnc2NXBhT2ZIT3NmUGNkQlpnbHhqWHI0Zy13VXJOYnZrU19aWGd5VTNJb2s3NElRakYycUV6NlBxM1BGMmtOTV9RRkF4NGtlRlRtQ3VxMTJuRGtwdm5PSDhpTVdLRU8tUkY0b1A3aEZGWmg5b0lUYml3UEJGTXJXY2pmV0JnRElHeGdtczZ1d1l3V3VORmRlZlNabzQySjc3LUJTOFRFVjJ5R2pzWU1LNWdKOGRfZnd4MDYzYXdsZm9ianZ3cEdkZktnWkxzamFVSlpfLWlXSWRkS0t1LUFucndRb21OczM1TUxEVDhfTnNYTnRUY1hDZ0EtT1F1dzhqc2ZYb2FQUENCUFdDbk5aOWfSAasCQVVfeXFMTzNwZEF2akMyR2lrOW5jQzlwdU8xVTRCeTZXQzMtRVJKM2xvcV9qNHFhcVJPeVg1NDRNT1JsaHdUUUVpLWF5U01lQW5TMTN0bi1lYXlUSFVwUVp1SWVaQl8xei1vdFNVUm9fTzJHVXBlX1FWMjZORy1ld3pabE9lYVNhdGlQWWt2ai1aS2d4Y1J1VDRIS0dKN3JCenZEMllXSE1aZU85NHVMSTYzWmxnY21vQUhGb1lTTTlWTTV3Y0ZNNHZwOEprbTRSc1d2cEZuaDR3QkN2UjZWdTg4N1FIVmhwcnRxdUZTcmYxTy1FcUIyM1FkWFdHSlJHMlRSclZrZ2xSU2JPaVhWYVFIb2hTQzhFV3JIZlJPN2FUY1ZGaHJkX0psc2doU1laRDA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Futurism",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSTllODRaTl95b2xEUVVhekJiYzdIT1JqTVdoX1d3czJsNDNGUHZVQkpPOVV5eUhkY0lOR0ZwZnRTSE5FNEVHano5SHRQZVdJaEFRLXhldFpWci1pNzVSZHpUOVFVdkprRF9qaXVOM1VtZWxaOXY5czdGUnA4RS1uWEVBYm44YkxlOHJr?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "MIT Technology Review",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVUpCWnpROTdmb1N4OGwxVkpmOHJYY1RGemJSaVl3TXJreXRnaUl6V293YzBXME4yeWRUeWh2WWFfb3BUMlJnMlVoT094c040bFZYdDlldHNQRGJVR1VyNV81clV1RTFSdHRjSFFtRDZiM0ZaeVRGak9zbnBwQ3prNmxEWWxvZ1V6QjU2Mk1sNUdveXfSAZgBQVVfeXFMTURtQ3dpTUZQLTN4RHVPX05HLWE3dDV3ZzN3NnhTR3B2aTROQnEwVXRzVVVodFNRNGdHR2x5QnVjbF84S1lYYUFiTXhVU3ZudHBjZTFZZWdTQXRvcU5GNkdUdi1KZWJkb1VkTkt1WVg3NjlUekREa1Uydzg1T2JydnBmdlNmSkhic0FJUGgtRU1ocTVqLTlxTXk?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/for-some-so-called-skynet-day-came-too-close-to-sci-fi-after-a-rogue-agent-hacked-into-a-startup/",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPenlaTmRiRFU0WkFNdGN0dE9FeWN6SlVQNHliSmNVZWZXMUctRUJ3alU2SlMzN0MzVF83OGZ2VXJ1c3UtZ0xIVHIzN1cxekU2T1phYUMxZGEzamszRzRmX2tOZzFGWkVVMno5VFlyMFdTVnNFbWlTb3dBR2VaVkFuR0VRc3l1b1BmVFFsb3lDWTY2YXJyRVRzNFhaZlhDQ2UzTFNrMzZ6UUlmWTBfMklUODRFdTE?oc=5",
+        "origin": "rss"
+      }
+    ]
+  },
+  {
     "date": "2026-07-27",
     "event_id": "samsung-galaxy-watch-gets-free-custom-design-tool",
     "title": "Samsung Galaxy Watch Gets Free Custom Design Tool",

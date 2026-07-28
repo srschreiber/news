@@ -1,21 +1,23 @@
-# General (10)
+# General (12)
 
-## Latest — 2026-07-27
+## Latest — 2026-07-28
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Chinese Chipmaker CXMT Soars 466% in Shanghai Stock Market Debut](../news/markets/2026-07-27.md#chinese-chipmaker-cxmt-soars-466-in-shanghai-stock-market-debut)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Nvidia Forms Open Secure AI Alliance Without OpenAI, Google, or Anthropic](../news/general/2026-07-27.md#nvidia-forms-open-secure-ai-alliance-without-openai-google-or-anthropic)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Tech Industry Invests $1 Trillion in AI Infrastructure, Pushing Up Costs](../news/general/2026-07-27.md#tech-industry-invests-1-trillion-in-ai-infrastructure-pushing-up-costs)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [God of War Laufey Confirmed for February 2027 Release](../news/gaming/2026-07-27.md#god-of-war-laufey-confirmed-for-february-2027-release)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Enigma Raises $70 Million to Simplify Robot Control Through AI](../news/general/2026-07-27.md#enigma-raises-70-million-to-simplify-robot-control-through-ai)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Snapchat Adds Music Sharing Feature with Spotify Integration](../news/general/2026-07-27.md#snapchat-adds-music-sharing-feature-with-spotify-integration)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft Defender for Endpoint Linux Update Causes Security Service Failures](../news/general/2026-07-27.md#microsoft-defender-for-endpoint-linux-update-causes-security-service-failures)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Samsung Galaxy Watch Gets Free Custom Design Tool](../news/general/2026-07-27.md#samsung-galaxy-watch-gets-free-custom-design-tool)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Nike Introduces Hyperslides with Heat and Vibration Recovery Features](../news/general/2026-07-27.md#nike-introduces-hyperslides-with-heat-and-vibration-recovery-features)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Apple Watch SE 3 Positioned as Budget Alternative to Premium Models](../news/general/2026-07-27.md#apple-watch-se-3-positioned-as-budget-alternative-to-premium-models)
+- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [OpenAI AI Models Breach Hugging Face via Artifactory Zero-Day](../news/gpt/2026-07-28.md#openai-ai-models-breach-hugging-face-via-artifactory-zero-day)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Major Earthquake Strikes Southern Japan with Deaths Feared](../news/general/2026-07-28.md#major-earthquake-strikes-southern-japan-with-deaths-feared)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic Claude Shared Chats Exposed in Google Search Results](../news/anthropic/2026-07-28.md#anthropic-claude-shared-chats-exposed-in-google-search-results)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Xbox Services Outage Blocks Digital and Physical Games](../news/gaming/2026-07-28.md#xbox-services-outage-blocks-digital-and-physical-games)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Microsoft Launches MAI-Cyber-1-Flash Cybersecurity AI Model](../news/gpt/2026-07-28.md#microsoft-launches-mai-cyber-1-flash-cybersecurity-ai-model)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Critical Arista VeloCloud Orchestrator Command Injection Flaw Exploited](../news/security/2026-07-28.md#critical-arista-velocloud-orchestrator-command-injection-flaw-exploited)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [New HIV Vaccine Shows Unprecedented Success in Preclinical Study](../news/general/2026-07-28.md#new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Hugging Face Models Generating Nonconsensual Deepfake Nudes](../news/general/2026-07-28.md#hugging-face-models-generating-nonconsensual-deepfake-nudes)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chinese Models Masquerading as Claude](../news/anthropic/2026-07-28.md#chinese-models-masquerading-as-claude)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Apple Launches 'Upgrade' Device Leasing Program](../news/general/2026-07-28.md#apple-launches-upgrade-device-leasing-program)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Fish Audio Raises $50M Seed Round for AI Voice Models](../news/general/2026-07-28.md#fish-audio-raises-50m-seed-round-for-ai-voice-models)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ChatGPT Stops Imitating Famous Authors' Writing Styles](../news/gpt/2026-07-28.md#chatgpt-stops-imitating-famous-authors-writing-styles)
 
 ## Earlier
 
-[2026-07-26 (10 stories)](../news/general/2026-07-26.md) · [2026-07-25 (10 stories)](../news/general/2026-07-25.md)
+[2026-07-27 (10 stories)](../news/general/2026-07-27.md) · [2026-07-26 (10 stories)](../news/general/2026-07-26.md) · [2026-07-25 (10 stories)](../news/general/2026-07-25.md)
 
 ## Rollups
 
