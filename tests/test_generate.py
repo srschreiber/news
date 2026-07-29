@@ -141,6 +141,13 @@ def test_compute_cutoff_uses_last_run_then_fallback():
     assert g.compute_cutoff({"last_run": None}, now) == now - dt.timedelta(hours=g.LOOKBACK_HOURS)
 
 
+def test_already_ran_today():
+    assert g._already_ran_today({"last_run": "2026-07-28T13:31:00+00:00"}, "2026-07-28")
+    assert not g._already_ran_today({"last_run": "2026-07-27T13:31:00+00:00"}, "2026-07-28")
+    assert not g._already_ran_today({}, "2026-07-28")                 # no prior run
+    assert not g._already_ran_today({"last_run": "garbage"}, "2026-07-28")  # unparseable
+
+
 def test_compute_cutoff_clamps_to_start_of_day_on_same_day_rerun():
     # A re-run later the same day must re-cover the WHOLE day, not just since the
     # earlier run — otherwise the re-run sees an empty slice and clobbers content.

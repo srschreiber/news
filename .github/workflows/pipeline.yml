@@ -2,7 +2,13 @@ name: news-pipeline
 
 on:
   schedule:
-    - cron: "30 13 * * *"   # daily  13:30 UTC = 5:30 AM PST / 6:30 AM PDT
+    # GitHub often delays/drops scheduled runs, so the daily has three redundant
+    # slots. --skip-if-done (scheduled runs only) means whichever fires first
+    # does the work and the rest exit for free; the concurrency group serializes
+    # them so a later slot sees the earlier run's committed state.
+    - cron: "30 13 * * *"   # daily attempt 1  13:30 UTC = 5:30 PST / 6:30 PDT
+    - cron: "30 14 * * *"   # daily attempt 2
+    - cron: "30 15 * * *"   # daily attempt 3
     - cron: "0 15 * * 0"    # weekly Sun 15:00 UTC
     - cron: "0 16 1 * *"    # monthly 1st 16:00 UTC
     - cron: "0 17 1 1 *"    # yearly Jan 1 17:00 UTC
@@ -40,23 +46,27 @@ jobs:
       - name: Determine mode
         id: mode
         run: |
+          SKIP=""
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            MODE="${{ inputs.mode }}"
+            MODE="${{ inputs.mode }}"        # manual runs always force a full run
           else
             case "${{ github.event.schedule }}" in
               "0 15 * * 0") MODE="weekly" ;;
               "0 16 1 * *") MODE="monthly" ;;
               "0 17 1 1 *") MODE="yearly" ;;
-              *)            MODE="daily" ;;
+              *)            MODE="daily" ;;   # 13:30 / 14:30 / 15:30 daily slots
             esac
+            # Redundant daily slots: skip if today's daily already ran.
+            [ "$MODE" = "daily" ] && SKIP="--skip-if-done"
           fi
           echo "mode=$MODE" >> "$GITHUB_OUTPUT"
-          echo "Running mode: $MODE"
+          echo "skip=$SKIP" >> "$GITHUB_OUTPUT"
+          echo "Running mode: $MODE $SKIP"
 
       - name: Generate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python generate.py "${{ steps.mode.outputs.mode }}"
+        run: python generate.py "${{ steps.mode.outputs.mode }}" ${{ steps.mode.outputs.skip }}
 
       - name: Commit results
         run: |

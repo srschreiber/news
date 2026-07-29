@@ -1544,10 +1544,30 @@ def _write_topic_doc(topic: str, shown: list[dict], date: str) -> None:
                   title, quiet_day_body(topic))
 
 
-def run_daily(dry_run: bool, no_research: bool = False) -> None:
+def _already_ran_today(state: dict, date: str) -> bool:
+    """True if state's last_run is on `date` (UTC). Used to skip redundant
+    scheduled cron slots without re-running."""
+    last = state.get("last_run")
+    if not last:
+        return False
+    try:
+        return dt.datetime.fromisoformat(last).date().isoformat() == date
+    except ValueError:
+        return False
+
+
+def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = False) -> None:
     run_start = now_utc()
     date = run_start.date().isoformat()
     state = load_state()
+    # Redundant scheduled cron slots (see pipeline.yml) pass --skip-if-done so
+    # only the first slot to run does work; the rest exit for free. The workflow
+    # concurrency group serializes runs, so a later slot sees the earlier run's
+    # committed state. Manual (workflow_dispatch) runs never set this — they
+    # always force a full regenerate.
+    if skip_if_done and _already_ran_today(state, date):
+        log(f"daily already ran today ({date}); skipping redundant scheduled slot")
+        return
     cutoff = compute_cutoff(state, run_start)
     seen = state.get("seen_links", {})
     log(f"daily {date}: cutoff={cutoff.isoformat()} seen_links={len(seen)}")
@@ -1686,10 +1706,14 @@ def main(argv: list[str] | None = None) -> int:
         "--no-research", action="store_true",
         help="Force web research OFF for all topics (overrides sources.yaml research config).",
     )
+    parser.add_argument(
+        "--skip-if-done", action="store_true",
+        help="Exit early if today's daily already ran (for redundant scheduled cron slots).",
+    )
     args = parser.parse_args(argv)
 
     if args.mode == "daily":
-        run_daily(args.dry_run, no_research=args.no_research)
+        run_daily(args.dry_run, no_research=args.no_research, skip_if_done=args.skip_if_done)
     else:
         run_rollup(args.mode, args.dry_run)
     return 0
