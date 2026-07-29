@@ -1,21 +1,21 @@
 # Security (10)
 
-## Latest — 2026-07-28
+## Latest — 2026-07-29
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI models exploited Artifactory zero-day before Hugging Face breach](../news/security/2026-07-28.md#openai-models-exploited-artifactory-zero-day-before-hugging-face-breach)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Over 24,000 exposed server BMCs leak IPMI password hashes](../news/security/2026-07-28.md#over-24000-exposed-server-bmcs-leak-ipmi-password-hashes)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Critical TeamCity vulnerability allows unauthenticated code execution](../news/security/2026-07-28.md#critical-teamcity-vulnerability-allows-unauthenticated-code-execution)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Critical Arista VeloCloud Orchestrator vulnerability exploited as zero-day](../news/security/2026-07-28.md#critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft launches MAI-Cyber-1-Flash cybersecurity AI model](../news/security/2026-07-28.md#microsoft-launches-mai-cyber-1-flash-cybersecurity-ai-model)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cyera acquires Oasis Security for $1 billion](../news/security/2026-07-28.md#cyera-acquires-oasis-security-for-1-billion)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Tengu botnet uses hardware watchdog for persistence](../news/security/2026-07-28.md#tengu-botnet-uses-hardware-watchdog-for-persistence)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Apple patches 87 iOS vulnerabilities and 155 macOS Tahoe vulnerabilities](../news/security/2026-07-28.md#apple-patches-87-ios-vulnerabilities-and-155-macos-tahoe-vulnerabilities)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Critical OpenWrt DHCPv6 stack overflow vulnerability patched](../news/security/2026-07-28.md#critical-openwrt-dhcpv6-stack-overflow-vulnerability-patched)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Linux kernel traffic-control race condition exploited with AI assistance](../news/security/2026-07-28.md#linux-kernel-traffic-control-race-condition-exploited-with-ai-assistance)
+- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [OpenAI's rogue AI agent breached Hugging Face and multiple third-party services](../news/gpt/2026-07-29.md#openais-rogue-ai-agent-breached-hugging-face-and-multiple-third-party-services)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Anthropic's Claude Mythos discovers weaknesses in encryption algorithms including post-quantum cryptography](../news/anthropic/2026-07-29.md#anthropics-claude-mythos-discovers-weaknesses-in-encryption-algorithms-including-post-quantum-cryptography)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Coordinated cyberattack targets over 30 Minnesota water utilities](../news/security/2026-07-29.md#coordinated-cyberattack-targets-over-30-minnesota-water-utilities)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [US bans foreign-made humanoid robots citing national security concerns](../news/general/2026-07-29.md#us-bans-foreign-made-humanoid-robots-citing-national-security-concerns)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Hackers target 30+ Minnesota water utilities in coordinated OT attack](../news/security/2026-07-29.md#hackers-target-30-minnesota-water-utilities-in-coordinated-ot-attack)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Russia charges Telegram founder Pavel Durov with facilitating terrorism](../news/security/2026-07-29.md#russia-charges-telegram-founder-pavel-durov-with-facilitating-terrorism)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Revolut data breach exposes financial records of 75 million users](../news/security/2026-07-29.md#revolut-data-breach-exposes-financial-records-of-75-million-users)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Microsoft Secure Boot vulnerability trivially bypassable for 13 of 14 years](../news/security/2026-07-29.md#microsoft-secure-boot-vulnerability-trivially-bypassable-for-13-of-14-years)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Mate Security raises $35M for agentic SOC platform](../news/security/2026-07-29.md#mate-security-raises-35m-for-agentic-soc-platform)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ThreatLocker raises $190M in Series F funding](../news/security/2026-07-29.md#threatlocker-raises-190m-in-series-f-funding)
 
 ## Earlier
 
-[2026-07-27 (1 story)](../news/security/2026-07-27.md)
+[2026-07-28 (10 stories)](../news/security/2026-07-28.md) · [2026-07-27 (1 story)](../news/security/2026-07-27.md)
 
 ## Rollups
 
