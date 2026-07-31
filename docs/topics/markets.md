@@ -1,19 +1,17 @@
-# Markets (8)
+# Markets (6)
 
-## Latest — 2026-07-30
+## Latest — 2026-07-31
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [South Korean stock market enters bear market territory amid chip stock collapse](../news/markets/2026-07-30.md#south-korean-stock-market-enters-bear-market-territory-amid-chip-stock-collapse)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Federal Reserve holds interest rates steady as market volatility spikes](../news/markets/2026-07-30.md#federal-reserve-holds-interest-rates-steady-as-market-volatility-spikes)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Wall Street recovers from prior day losses as Microsoft and AI stocks rally](../news/markets/2026-07-30.md#wall-street-recovers-from-prior-day-losses-as-microsoft-and-ai-stocks-rally)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Reformation's IPO sees strong demand despite low pricing](../news/markets/2026-07-30.md#reformations-ipo-sees-strong-demand-despite-low-pricing)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Jersey Mike's IPO attracts 15x demand for available shares](../news/markets/2026-07-30.md#jersey-mikes-ipo-attracts-15x-demand-for-available-shares)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Meta extends record losing streak as stock tanks 9%](../news/markets/2026-07-30.md#meta-extends-record-losing-streak-as-stock-tanks-9)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Nasdaq enters correction territory amid market turmoil](../news/markets/2026-07-30.md#nasdaq-enters-correction-territory-amid-market-turmoil)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Micron Technology stock surges amid market recovery](../news/markets/2026-07-30.md#micron-technology-stock-surges-amid-market-recovery)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [South Korea's KOSPI stock index surges 18% on chip sector rebound](../news/markets/2026-07-31.md#south-koreas-kospi-stock-index-surges-18-on-chip-sector-rebound)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Amazon Q2 earnings beat expectations as AWS cloud business booms](../news/markets/2026-07-31.md#amazon-q2-earnings-beat-expectations-as-aws-cloud-business-booms)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Microsoft posts largest one-day market cap gain in U.S. stock history](../news/markets/2026-07-31.md#microsoft-posts-largest-one-day-market-cap-gain-in-us-stock-history)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Novo Nordisk stock plunges on disappointing heart drug trial results](../news/markets/2026-07-31.md#novo-nordisk-stock-plunges-on-disappointing-heart-drug-trial-results)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [UK aims for single trading feed within 18 months to revitalize markets](../news/markets/2026-07-31.md#uk-aims-for-single-trading-feed-within-18-months-to-revitalize-markets)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [AI Situational Awareness hedge fund plunges 67% in July amid market rout](../news/markets/2026-07-31.md#ai-situational-awareness-hedge-fund-plunges-67-in-july-amid-market-rout)
 
 ## Earlier
 
-[2026-07-29 (4 stories)](../news/markets/2026-07-29.md) · [2026-07-28 (4 stories)](../news/markets/2026-07-28.md) · [2026-07-27 (7 stories)](../news/markets/2026-07-27.md) · [2026-07-26 (7 stories)](../news/markets/2026-07-26.md) · [2026-07-25 (3 stories)](../news/markets/2026-07-25.md)
+[2026-07-30 (8 stories)](../news/markets/2026-07-30.md) · [2026-07-29 (4 stories)](../news/markets/2026-07-29.md) · [2026-07-28 (4 stories)](../news/markets/2026-07-28.md) · [2026-07-27 (7 stories)](../news/markets/2026-07-27.md) · [2026-07-26 (7 stories)](../news/markets/2026-07-26.md) · [2026-07-25 (3 stories)](../news/markets/2026-07-25.md)
 
 ## Rollups
 
