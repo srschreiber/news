@@ -15,4 +15,5 @@
 ## Rollups
 
 - **Weekly:** [2026-W30](../weekly/gpt/2026-W30.md)
+- **Monthly:** [2026-07](../monthly/gpt/2026-07.md)
 

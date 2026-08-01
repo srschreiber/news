@@ -14,4 +14,5 @@
 ## Rollups
 
 - **Weekly:** [2026-W30](../weekly/email-security/2026-W30.md)
+- **Monthly:** [2026-07](../monthly/email-security/2026-07.md)
 
