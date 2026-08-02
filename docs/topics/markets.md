@@ -13,6 +13,6 @@
 
 ## Rollups
 
-- **Weekly:** [2026-W30](../weekly/markets/2026-W30.md)
+- **Weekly:** [2026-W31](../weekly/markets/2026-W31.md) · [2026-W30](../weekly/markets/2026-W30.md)
 - **Monthly:** [2026-07](../monthly/markets/2026-07.md)
 

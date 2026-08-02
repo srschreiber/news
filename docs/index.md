@@ -30,6 +30,11 @@ Today's biggest stories across every topic. Pick a topic from the sidebar to div
 <div class="fact-text">A taxi driver is murdered in Bangkok by a teenager addicted to video games leading to the Thai government banning the sale of Grand Theft Auto. <a class="fact-src" href="https://en.wikipedia.org/wiki/Murder_of_Khuan_Phokaeng" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
+<div class="fact funfact">
+<div class="fact-label">💡 Fact of the day</div>
+<div class="fact-text">According to the FDA, Kraft Singles are labeled as &quot;pasteurized prepared cheese product&quot; due to containing under 51% real cheese. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+</div>
+
 
 ---
 
