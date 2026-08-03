@@ -1,22 +1,26 @@
-# World (7)
+# World (10)
 
 _Part of the [World](../feeds/world.md) feed._
 
-## Latest — 2026-07-29
+## Latest — 2026-08-03
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran resumes missile attacks as US and Saudi forces strike Iran-backed militias in Iraq](../news/markets/2026-07-29.md#iran-resumes-missile-attacks-as-us-and-saudi-forces-strike-iran-backed-militias-in-iraq)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Russia charges Telegram founder Pavel Durov with facilitating terrorism](../news/security/2026-07-29.md#russia-charges-telegram-founder-pavel-durov-with-facilitating-terrorism)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Japan struck by powerful earthquake with over 100 aftershocks killing 13 people](../news/world/2026-07-29.md#japan-struck-by-powerful-earthquake-with-over-100-aftershocks-killing-13-people)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [France evacuates thousands as wildfires displace 330,000 in southwest Europe](../news/world/2026-07-29.md#france-evacuates-thousands-as-wildfires-displace-330000-in-southwest-europe)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Ukraine strikes Russian refineries following Zelenskyy's Trump meeting](../news/world/2026-07-29.md#ukraine-strikes-russian-refineries-following-zelenskyys-trump-meeting)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Peru inaugurates Keiko Fujimori as president after narrow election victory](../news/world/2026-07-29.md#peru-inaugurates-keiko-fujimori-as-president-after-narrow-election-victory)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Iran to receive Chinese shoulder-fired air-defense systems within weeks](../news/world/2026-07-29.md#iran-to-receive-chinese-shoulder-fired-air-defense-systems-within-weeks)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [The president of the United States claims Iran talks will begin Monday](../news/world/2026-08-03.md#the-president-of-the-united-states-claims-iran-talks-will-begin-monday)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Romania diverts Danube water to nuclear reactor during drought](../news/world/2026-08-03.md#romania-diverts-danube-water-to-nuclear-reactor-during-drought)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Rhine falls to record low levels as European drought strains river transport](../news/world/2026-08-03.md#rhine-falls-to-record-low-levels-as-european-drought-strains-river-transport)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [New Zealand makes English an official language](../news/world/2026-08-03.md#new-zealand-makes-english-an-official-language)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Denmark extends military conscription in response to Russia and geopolitical threats](../news/world/2026-08-03.md#denmark-extends-military-conscription-in-response-to-russia-and-geopolitical-threats)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Ukraine hits Wildberries e-commerce warehouse in infrastructure strike](../news/world/2026-08-03.md#ukraine-hits-wildberries-e-commerce-warehouse-in-infrastructure-strike)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Russia reports Ukrainian drone attack on holiday beach kills seven including three children](../news/world/2026-08-03.md#russia-reports-ukrainian-drone-attack-on-holiday-beach-kills-seven-including-three-children)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Spain's Ceuta overwhelmed with migrants after border surge from Morocco](../news/world/2026-08-03.md#spains-ceuta-overwhelmed-with-migrants-after-border-surge-from-morocco)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [South Korea records highest temperature on record amid extreme heat wave](../news/world/2026-08-03.md#south-korea-records-highest-temperature-on-record-amid-extreme-heat-wave)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Greek wildfire forces helicopter collision, killing two firefighters](../news/world/2026-08-03.md#greek-wildfire-forces-helicopter-collision-killing-two-firefighters)
 
 ## Earlier
 
-[2026-07-28 (4 stories)](../news/world/2026-07-28.md) · [2026-07-27 (3 stories)](../news/world/2026-07-27.md) · [2026-07-26 (10 stories)](../news/world/2026-07-26.md) · [2026-07-25 (10 stories)](../news/world/2026-07-25.md)
+[2026-08-02 (10 stories)](../news/world/2026-08-02.md) · [2026-08-01 (10 stories)](../news/world/2026-08-01.md) · [2026-07-31 (8 stories)](../news/world/2026-07-31.md) · [2026-07-30 (6 stories)](../news/world/2026-07-30.md) · [2026-07-29 (7 stories)](../news/world/2026-07-29.md) · [2026-07-28 (4 stories)](../news/world/2026-07-28.md) · [2026-07-27 (3 stories)](../news/world/2026-07-27.md) · [2026-07-26 (10 stories)](../news/world/2026-07-26.md) · [2026-07-25 (10 stories)](../news/world/2026-07-25.md)
 
 ## Rollups
 
-- **Weekly:** [2026-W30](../weekly/world/2026-W30.md)
+- **Weekly:** [2026-W31](../weekly/world/2026-W31.md) · [2026-W30](../weekly/world/2026-W30.md)
+- **Monthly:** [2026-07](../monthly/world/2026-07.md)
 

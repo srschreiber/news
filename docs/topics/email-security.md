@@ -1,13 +1,17 @@
-# Email Security (2)
+# Email Security (1)
 
 _Part of the [Technology](../feeds/technology.md) feed._
 
-## Latest — 2026-07-27
+## Latest — 2026-08-02
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ChatGPT Emerges as Top Impersonated Brand in Phishing Attacks](../news/email-security/2026-07-27.md#chatgpt-emerges-as-top-impersonated-brand-in-phishing-attacks)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [AegisAI Raises $36 Million to Combat AI-Powered Spear Phishing](../news/email-security/2026-07-27.md#aegisai-raises-36-million-to-combat-ai-powered-spear-phishing)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Hotel Wi-Fi Phishing Attack Targets Microsoft Logins](../news/email-security/2026-08-02.md#hotel-wi-fi-phishing-attack-targets-microsoft-logins)
+
+## Earlier
+
+[2026-08-01 (4 stories)](../news/email-security/2026-08-01.md) · [2026-07-31 (1 story)](../news/email-security/2026-07-31.md) · [2026-07-27 (2 stories)](../news/email-security/2026-07-27.md)
 
 ## Rollups
 
-- **Weekly:** [2026-W30](../weekly/email-security/2026-W30.md)
+- **Weekly:** [2026-W31](../weekly/email-security/2026-W31.md) · [2026-W30](../weekly/email-security/2026-W30.md)
+- **Monthly:** [2026-07](../monthly/email-security/2026-07.md)
 

@@ -1,26 +1,26 @@
-# Tech (11)
+# Tech (10)
 
 _Part of the [Technology](../feeds/technology.md) feed._
 
-## Latest — 2026-07-29
+## Latest — 2026-08-03
 
-- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [OpenAI's rogue AI agent breached Hugging Face and multiple third-party services](../news/gpt/2026-07-29.md#openais-rogue-ai-agent-breached-hugging-face-and-multiple-third-party-services)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Anthropic's Claude Mythos discovers weaknesses in encryption algorithms including post-quantum cryptography](../news/anthropic/2026-07-29.md#anthropics-claude-mythos-discovers-weaknesses-in-encryption-algorithms-including-post-quantum-cryptography)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Coordinated cyberattack targets over 30 Minnesota water utilities](../news/security/2026-07-29.md#coordinated-cyberattack-targets-over-30-minnesota-water-utilities)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI and Anthropic ask US government to slow AI development](../news/anthropic/2026-07-29.md#openai-and-anthropic-ask-us-government-to-slow-ai-development)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [DoorDash launches FAA-approved drone delivery service](../news/tech/2026-07-29.md#doordash-launches-faa-approved-drone-delivery-service)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [US bans foreign-made humanoid robots citing national security concerns](../news/tech/2026-07-29.md#us-bans-foreign-made-humanoid-robots-citing-national-security-concerns)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Hackers target 30+ Minnesota water utilities in coordinated OT attack](../news/security/2026-07-29.md#hackers-target-30-minnesota-water-utilities-in-coordinated-ot-attack)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Document-borne AI worms can self-propagate through Copilot for Word](../news/tech/2026-07-29.md#document-borne-ai-worms-can-self-propagate-through-copilot-for-word)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Double Fine announces layoffs after split from Xbox](../news/gaming/2026-07-29.md#double-fine-announces-layoffs-after-split-from-xbox)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Google discontinues Nobel Prize-winning AlphaFold project](../news/tech/2026-07-29.md#google-discontinues-nobel-prize-winning-alphafold-project)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Pole raises $5.7M seed round to build AI-first browser for knowledge workers](../news/tech/2026-07-29.md#pole-raises-57m-seed-round-to-build-ai-first-browser-for-knowledge-workers)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Alibaba launches Qwen3.8-Max AI model to compete with OpenAI and Anthropic](../news/anthropic/2026-08-03.md#alibaba-launches-qwen38-max-ai-model-to-compete-with-openai-and-anthropic)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [ExfilSquad hackers leak data of over 100,000 UK police officers and staff](../news/security/2026-08-03.md#exfilsquad-hackers-leak-data-of-over-100000-uk-police-officers-and-staff)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [US water system cyberattacks attributed to Iran-linked hackers across 7 states](../news/tech/2026-08-03.md#us-water-system-cyberattacks-attributed-to-iran-linked-hackers-across-7-states)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Palworld expanding to mobile with MMORPG spin-off](../news/gaming/2026-08-03.md#palworld-expanding-to-mobile-with-mmorpg-spin-off)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Xbox price increases by up to €200 or £170 in EU and UK](../news/gaming/2026-08-03.md#xbox-price-increases-by-up-to-200-or-170-in-eu-and-uk)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Sony's Spider-Man: Brand New Day achieves $927 million opening weekend at box office](../news/gaming/2026-08-03.md#sonys-spider-man-brand-new-day-achieves-927-million-opening-weekend-at-box-office)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Horizon3 raises $250 million at $2 billion valuation for AI-powered security](../news/tech/2026-08-03.md#horizon3-raises-250-million-at-2-billion-valuation-for-ai-powered-security)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Samsung bans smart TV apps that expose users' internet connections](../news/tech/2026-08-03.md#samsung-bans-smart-tv-apps-that-expose-users-internet-connections)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [MediaTek launches $5 billion AI datacenter chip initiative](../news/tech/2026-08-03.md#mediatek-launches-5-billion-ai-datacenter-chip-initiative)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AirLLM enables 70B model inference on single 4GB GPU](../news/tech/2026-08-03.md#airllm-enables-70b-model-inference-on-single-4gb-gpu)
 
 ## Earlier
 
-[2026-07-28 (11 stories)](../news/tech/2026-07-28.md) · [2026-07-27 (10 stories)](../news/tech/2026-07-27.md) · [2026-07-26 (10 stories)](../news/tech/2026-07-26.md) · [2026-07-25 (10 stories)](../news/tech/2026-07-25.md)
+[2026-08-02 (8 stories)](../news/tech/2026-08-02.md) · [2026-08-01 (12 stories)](../news/tech/2026-08-01.md) · [2026-07-31 (12 stories)](../news/tech/2026-07-31.md) · [2026-07-30 (15 stories)](../news/tech/2026-07-30.md) · [2026-07-29 (11 stories)](../news/tech/2026-07-29.md) · [2026-07-28 (11 stories)](../news/tech/2026-07-28.md) · [2026-07-27 (10 stories)](../news/tech/2026-07-27.md) · [2026-07-26 (10 stories)](../news/tech/2026-07-26.md) · [2026-07-25 (10 stories)](../news/tech/2026-07-25.md)
 
 ## Rollups
 
-- **Weekly:** [2026-W30](../weekly/tech/2026-W30.md)
+- **Weekly:** [2026-W31](../weekly/tech/2026-W31.md) · [2026-W30](../weekly/tech/2026-W30.md)
+- **Monthly:** [2026-07](../monthly/tech/2026-07.md)
 
