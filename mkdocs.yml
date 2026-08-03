@@ -62,7 +62,7 @@ nav:
   # sources.yaml — a feed is its overview page followed by its topic pages.
   - Feeds:
       - Technology:
-          - feeds/technology.md
+          - Top stories: feeds/technology.md
           - topics/tech.md
           - topics/ai.md
           - topics/anthropic.md
@@ -74,11 +74,11 @@ nav:
           - topics/python.md
           - topics/postgres.md
       - World:
-          - feeds/world.md
+          - Top stories: feeds/world.md
           - topics/world.md
           - topics/markets.md
       - Science:
-          - feeds/science.md
+          - Top stories: feeds/science.md
           - topics/science.md
           - topics/space.md
           - topics/health.md
