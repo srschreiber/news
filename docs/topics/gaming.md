@@ -1,5 +1,7 @@
 # Gaming (4)
 
+_Part of the [Technology](../feeds/technology.md) feed._
+
 ## Latest — 2026-07-29
 
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Double Fine announces layoffs after split from Xbox](../news/gaming/2026-07-29.md#double-fine-announces-layoffs-after-split-from-xbox)

@@ -1,5 +1,7 @@
 # Anthropic (2)
 
+_Part of the [Technology](../feeds/technology.md) feed._
+
 ## Latest — 2026-07-29
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Anthropic's Claude Mythos discovers weaknesses in encryption algorithms including post-quantum cryptography](../news/anthropic/2026-07-29.md#anthropics-claude-mythos-discovers-weaknesses-in-encryption-algorithms-including-post-quantum-cryptography)

@@ -18,10 +18,28 @@
 custom_instructions: |
   Refer to Donald Trump as "the president of the United States" rather than by name.
 
-# Web research (Stage 2: Sonnet + web_search/web_fetch) is expensive. On by
+# Feeds group topics into broad sections. Each feed gets its own page + top
+# stories (across its topics), and its own research budget (max stories the feed
+# may web-research per run). The home page is divided into these feeds; a topic
+# not listed in any feed falls into a synthesized "Other" feed.
+feeds:
+  technology:
+    title: Technology
+    research_budget: 6
+    topics: [tech, ai, anthropic, gpt, security, email-security, gaming, golang, python, postgres]
+  world:
+    title: World
+    research_budget: 3
+    topics: [world, markets]
+  science:
+    title: Science
+    research_budget: 3
+    topics: [science, space, health]
+
+# Web research (Stage 2: Haiku reads + Sonnet polishes) is the main cost. On by
 # default; turned off for niche/low-value topics (rendered from RSS summaries).
-# A story that's also big in a research-on topic still gets researched there and
-# reused, so turning these off only skips *exclusively*-niche stories.
+# This is an additional per-topic gate on top of each feed's research_budget:
+# a topic set false here is never researched even if its feed has budget left.
 research:
   default: true
   topics:
@@ -30,9 +48,6 @@ research:
     python: false
     gaming: false
     markets: false
-  # Turn specific topics OFF here if you want to save cost, e.g.:
-  #   topics:
-  #     gaming: false
 
 sources:
   # --- World news (non-tech) ---
@@ -43,25 +58,25 @@ sources:
   # --- General tech ---
   - name: TechCrunch
     url: https://techcrunch.com/feed/
-    topic: general
+    topic: tech
   - name: The Verge
     url: https://www.theverge.com/rss/index.xml
-    topic: general
+    topic: tech
   - name: Ars Technica
     url: https://feeds.arstechnica.com/arstechnica/index
-    topic: general
+    topic: tech
   - name: Wired
     url: https://www.wired.com/feed/rss
-    topic: general
+    topic: tech
   - name: Engadget
     url: https://www.engadget.com/rss.xml
-    topic: general
+    topic: tech
   - name: Hacker News (front page)
     url: https://hnrss.org/frontpage
-    topic: general
+    topic: tech
   - name: The Register
     url: https://www.theregister.com/headlines.atom
-    topic: general
+    topic: tech
 
   # --- Security ---
   # Direct feeds from reputable outlets (higher signal than a lone news query).
@@ -141,3 +156,40 @@ sources:
   - name: "Google News — markets"
     query: "stock market news"
     topic: markets
+
+  # === SCIENCE FEED ===
+  # --- General science ---
+  - name: ScienceDaily
+    url: https://www.sciencedaily.com/rss/top/science.xml
+    topic: science
+  - name: "Phys.org"
+    url: https://phys.org/rss-feed/
+    topic: science
+  - name: "Quanta Magazine"
+    url: https://www.quantamagazine.org/feed/
+    topic: science
+  - name: "Google News — science"
+    query: "science research discovery"
+    topic: science
+
+  # --- Space / NASA ---
+  - name: "NASA — Breaking News"
+    url: https://www.nasa.gov/rss/dyn/breaking_news.rss
+    topic: space
+  - name: "Space.com"
+    url: https://www.space.com/feeds/all
+    topic: space
+  - name: "Google News — space"
+    query: "space exploration NASA"
+    topic: space
+
+  # --- Health / Medicine ---
+  - name: "ScienceDaily — Health"
+    url: https://www.sciencedaily.com/rss/top/health.xml
+    topic: health
+  - name: "STAT News"
+    url: https://www.statnews.com/feed/
+    topic: health
+  - name: "Google News — medical research"
+    query: "medical research OR medicine breakthrough"
+    topic: health

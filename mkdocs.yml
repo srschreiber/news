@@ -57,21 +57,31 @@ markdown_extensions:
 # lives at search.md alongside Material's built-in search.
 nav:
   - Home: index.md
-  # Topic pages are generated (docs/topics/*.md); titles carry the story count.
-  # Adding a topic to sources.yaml? Add its topics/<topic>.md line here too.
-  - Topics:
-      - topics/general.md
-      - topics/world.md
-      - topics/ai.md
-      - topics/anthropic.md
-      - topics/gpt.md
-      - topics/security.md
-      - topics/email-security.md
-      - topics/gaming.md
-      - topics/golang.md
-      - topics/python.md
-      - topics/postgres.md
-      - topics/markets.md
+  # Feed + topic pages are generated each run (docs/feeds/*.md, docs/topics/*.md);
+  # titles carry story counts. Keep this tree in sync with `feeds:` in
+  # sources.yaml — a feed is its overview page followed by its topic pages.
+  - Feeds:
+      - Technology:
+          - feeds/technology.md
+          - topics/tech.md
+          - topics/ai.md
+          - topics/anthropic.md
+          - topics/gpt.md
+          - topics/security.md
+          - topics/email-security.md
+          - topics/gaming.md
+          - topics/golang.md
+          - topics/python.md
+          - topics/postgres.md
+      - World:
+          - feeds/world.md
+          - topics/world.md
+          - topics/markets.md
+      - Science:
+          - feeds/science.md
+          - topics/science.md
+          - topics/space.md
+          - topics/health.md
   - Words:
       - All words: words.md
       - Quiz: quiz.md

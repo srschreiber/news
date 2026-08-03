@@ -332,21 +332,32 @@ def test_render_briefing_no_takeaways_still_ok():
 
 
 # --- home-page top stories -------------------------------------------------- #
+_FEEDS = {
+    "technology": {"title": "Technology", "topics": ["ai", "tech", "gaming"], "research_budget": 6},
+    "world": {"title": "World", "topics": ["world", "markets"], "research_budget": 3},
+}
+_TOPIC_FEED = {"ai": "technology", "tech": "technology", "gaming": "technology",
+               "world": "world", "markets": "world"}
+_CFG = {"default": True, "topics": {}}
+
+
 def test_top_stories_section():
     index = [
-        {"date": "2026-07-25", "topic": "ai", "title": "Big", "summary": "desc",
-         "importance": 5, "url": "news/ai/2026-07-25/#big"},
-        {"date": "2026-07-25", "topic": "world", "title": "Med", "summary": "",
-         "importance": 3, "url": "news/world/2026-07-25/#med"},
-        {"date": "2026-07-24", "topic": "ai", "title": "Old", "summary": "x",
-         "importance": 5, "url": "u3"},
+        {"date": "2026-07-25", "topics": ["ai"], "primary_feed": "technology",
+         "title": "Big", "summary": "desc", "importance": 5, "url": "news/ai/2026-07-25/#big"},
+        {"date": "2026-07-25", "topics": ["world"], "primary_feed": "world",
+         "title": "Med", "summary": "", "importance": 3, "url": "news/world/2026-07-25/#med"},
+        {"date": "2026-07-24", "topics": ["ai"], "primary_feed": "technology",
+         "title": "Old", "summary": "x", "importance": 5, "url": "u3"},
     ]
-    text = "\n".join(g._top_stories_section(index))
+    text = "\n".join(g._top_stories_section(index, _FEEDS, _TOPIC_FEED))
     assert "Top stories — 2026-07-25" in text     # only the latest day
     assert "Old" not in text
+    assert "### [Technology](feeds/technology.md)" in text   # divided by feed
+    assert "### [World](feeds/world.md)" in text
     assert "[Big](news/ai/2026-07-25.md#big) — desc" in text  # .md link + description
-    assert text.index("Big") < text.index("Med")   # sorted by importance
-    assert g._top_stories_section([]) == []
+    assert text.index("Technology") < text.index("World")    # feed config order
+    assert g._top_stories_section([], _FEEDS, _TOPIC_FEED) == []
 
 
 def test_dedupe_cross_topic_collapses_same_story():
@@ -394,21 +405,39 @@ def test_merge_enrichment_empty_keeps_rss():
 
 # --- global clustering: topic assignment + research selection ---------------- #
 def test_assign_topics_and_primary():
-    items = [{"id": "ai-0", "topic": "ai"}, {"id": "gen-0", "topic": "general"},
+    items = [{"id": "ai-0", "topic": "ai"}, {"id": "gen-0", "topic": "tech"},
              {"id": "ai-1", "topic": "ai"}]
     events = [{"title": "E", "source_item_ids": ["ai-0", "gen-0", "ai-1"]}]
-    g.assign_topics(events, items)
-    assert events[0]["topics"] == ["ai", "general"]     # sorted union of feeds
-    assert events[0]["primary_topic"] == "ai"           # ai contributed 2 vs general 1
+    g.assign_topics(events, items, {"ai": "technology", "tech": "technology"})
+    assert events[0]["topics"] == ["ai", "tech"]        # sorted union of topics
+    assert events[0]["primary_topic"] == "ai"           # ai contributed 2 vs tech 1
+    assert events[0]["feeds"] == ["technology"]         # feed derived from topics
+    assert events[0]["primary_feed"] == "technology"
+
+
+def test_load_feeds_maps_topics_and_synthesizes_other(tmp_path):
+    cfg = tmp_path / "s.yaml"
+    cfg.write_text(
+        "feeds:\n"
+        "  technology: {title: Technology, research_budget: 6, topics: [ai, tech]}\n"
+        "  world: {title: World, research_budget: 2, topics: [world]}\n"
+    )
+    feeds, tf = g.load_feeds(["ai", "tech", "world", "orphan"], path=cfg)
+    assert tf == {"ai": "technology", "tech": "technology", "world": "world",
+                  "orphan": g.DEFAULT_FEED}                 # orphan -> synthesized feed
+    assert feeds["technology"]["research_budget"] == 6
+    assert "orphan" in feeds[g.DEFAULT_FEED]["topics"]
 
 
 def test_select_research_dedupes_cross_topic():
     events = [
-        {"title": "Opus 5", "importance": 5, "topics": ["ai", "anthropic", "general"]},
+        {"title": "Opus 5", "importance": 5, "topics": ["ai", "anthropic", "tech"]},
         {"title": "Game", "importance": 4, "topics": ["gaming"]},
         {"title": "Minor", "importance": 1, "topics": ["ai"]},
     ]
-    sel = g.select_research(events, ["ai", "anthropic", "general", "gaming"])
+    feeds = {"technology": {"title": "T", "research_budget": 6,
+                            "topics": ["ai", "anthropic", "tech", "gaming"]}}
+    sel = g.select_research(events, feeds, _CFG)
     titles = [e["title"] for e in sel]
     assert titles.count("Opus 5") == 1                  # researched once despite 3 topics
     assert "Game" in titles
@@ -420,7 +449,26 @@ def test_select_research_skips_unimportant_topics():
         {"title": "meh1", "importance": 2, "topics": ["python"]},
         {"title": "meh2", "importance": 3, "topics": ["python"]},
     ]
-    assert g.select_research(events, ["python"]) == []   # no top event clears the bar
+    feeds = {"technology": {"title": "T", "research_budget": 6, "topics": ["python"]}}
+    assert g.select_research(events, feeds, _CFG) == []   # no top event clears the bar
+
+
+def test_select_research_respects_per_feed_budget():
+    events = [
+        {"title": "T1", "importance": 5, "topics": ["ai"]},
+        {"title": "T2", "importance": 5, "topics": ["tech"]},
+        {"title": "W1", "importance": 5, "topics": ["world"]},
+    ]
+    feeds = {
+        "technology": {"title": "T", "research_budget": 1, "topics": ["ai", "tech"]},
+        "world": {"title": "W", "research_budget": 5, "topics": ["world"]},
+    }
+    sel = g.select_research(events, feeds, _CFG)
+    titles = {e["title"] for e in sel}
+    assert len(titles & {"T1", "T2"}) == 1              # tech feed budget=1 -> only one
+    assert "W1" in titles                                # world feed has room
+    # no_research short-circuits to nothing
+    assert g.select_research(events, feeds, _CFG, no_research=True) == []
 
 
 # --- metrics (per-topic + global cost) -------------------------------------- #

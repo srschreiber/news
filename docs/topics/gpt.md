@@ -1,5 +1,7 @@
 # GPT (3)
 
+_Part of the [Technology](../feeds/technology.md) feed._
+
 ## Latest — 2026-07-29
 
 - <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [OpenAI's rogue AI agent breached Hugging Face and multiple third-party services](../news/gpt/2026-07-29.md#openais-rogue-ai-agent-breached-hugging-face-and-multiple-third-party-services)
