@@ -1,11 +1,10 @@
-# AI (2)
+# AI (1)
 
 _Part of the [Technology](../feeds/technology.md) feed._
 
 ## Latest — 2026-08-03
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Crusoe Cloud releases fastokens v2 boosting AI inference speed](../news/ai/2026-08-03.md#crusoe-cloud-releases-fastokens-v2-boosting-ai-inference-speed)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Sakana AI launches Japanese language model API](../news/ai/2026-08-03.md#sakana-ai-launches-japanese-language-model-api)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Alibaba and MiniMax plan to open-source new AI models](../news/ai/2026-08-03.md#alibaba-and-minimax-plan-to-open-source-new-ai-models)
 
 ## Earlier
 

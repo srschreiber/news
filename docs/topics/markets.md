@@ -1,13 +1,12 @@
-# Markets (4)
+# Markets (3)
 
 _Part of the [World](../feeds/world.md) feed._
 
 ## Latest — 2026-08-03
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Stock markets rally after the president of the United States calls off Iran military strike](../news/markets/2026-08-03.md#stock-markets-rally-after-the-president-of-the-united-states-calls-off-iran-military-strike)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Amazon stock surpasses $3 trillion market capitalization](../news/markets/2026-08-03.md#amazon-stock-surpasses-3-trillion-market-capitalization)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Bristol-Myers Squibb and AstraZeneca discuss potential megamerger](../news/markets/2026-08-03.md#bristol-myers-squibb-and-astrazeneca-discuss-potential-megamerger)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [SpaceX stock lockup expiring amid post-IPO price decline](../news/markets/2026-08-03.md#spacex-stock-lockup-expiring-amid-post-ipo-price-decline)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Bristol Myers Squibb and AstraZeneca in reported merger discussions](../news/markets/2026-08-03.md#bristol-myers-squibb-and-astrazeneca-in-reported-merger-discussions)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Stock markets rally as Trump halts Iran military strike](../news/markets/2026-08-03.md#stock-markets-rally-as-trump-halts-iran-military-strike)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Amazon stock hits $3 trillion market capitalization](../news/markets/2026-08-03.md#amazon-stock-hits-3-trillion-market-capitalization)
 
 ## Earlier
 
