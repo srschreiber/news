@@ -25,15 +25,15 @@ custom_instructions: |
 feeds:
   technology:
     title: Technology
-    research_budget: 6
+    research_budget: 4
     topics: [tech, ai, anthropic, gpt, security, email-security, gaming, golang, python, postgres]
   world:
     title: World
-    research_budget: 3
+    research_budget: 2
     topics: [world, markets]
   science:
     title: Science
-    research_budget: 3
+    research_budget: 2
     topics: [science, space, health]
 
 # Web research (Stage 2: Haiku reads + Sonnet polishes) is the main cost. On by
