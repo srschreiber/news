@@ -4,21 +4,21 @@ Full history of daily briefings, grouped by month. Use the [keyword search](sear
 
 ## 2026-08
 
-- **ai:** [2026-08-04 (3 events)](news/ai/2026-08-04.md) · [2026-08-03 (1 event)](news/ai/2026-08-03.md) · [2026-08-02 (2 events)](news/ai/2026-08-02.md) · [2026-08-01 (0 events)](news/ai/2026-08-01.md)
-- **anthropic:** [2026-08-04 (9 events)](news/anthropic/2026-08-04.md) · [2026-08-03 (5 events)](news/anthropic/2026-08-03.md) · [2026-08-02 (2 events)](news/anthropic/2026-08-02.md) · [2026-08-01 (3 events)](news/anthropic/2026-08-01.md)
-- **email-security:** [2026-08-04 (1 event)](news/email-security/2026-08-04.md) · [2026-08-03 (0 events)](news/email-security/2026-08-03.md) · [2026-08-02 (1 event)](news/email-security/2026-08-02.md) · [2026-08-01 (4 events)](news/email-security/2026-08-01.md)
-- **gaming:** [2026-08-04 (10 events)](news/gaming/2026-08-04.md) · [2026-08-03 (10 events)](news/gaming/2026-08-03.md) · [2026-08-02 (10 events)](news/gaming/2026-08-02.md) · [2026-08-01 (4 events)](news/gaming/2026-08-01.md)
-- **golang:** [2026-08-04 (0 events)](news/golang/2026-08-04.md) · [2026-08-03 (0 events)](news/golang/2026-08-03.md) · [2026-08-02 (0 events)](news/golang/2026-08-02.md) · [2026-08-01 (0 events)](news/golang/2026-08-01.md)
-- **gpt:** [2026-08-04 (11 events)](news/gpt/2026-08-04.md) · [2026-08-03 (10 events)](news/gpt/2026-08-03.md) · [2026-08-02 (5 events)](news/gpt/2026-08-02.md) · [2026-08-01 (5 events)](news/gpt/2026-08-01.md)
-- **health:** [2026-08-04 (2 events)](news/health/2026-08-04.md) · [2026-08-03 (7 events)](news/health/2026-08-03.md)
-- **markets:** [2026-08-04 (3 events)](news/markets/2026-08-04.md) · [2026-08-03 (3 events)](news/markets/2026-08-03.md) · [2026-08-02 (4 events)](news/markets/2026-08-02.md) · [2026-08-01 (3 events)](news/markets/2026-08-01.md)
-- **postgres:** [2026-08-04 (0 events)](news/postgres/2026-08-04.md) · [2026-08-03 (0 events)](news/postgres/2026-08-03.md) · [2026-08-02 (0 events)](news/postgres/2026-08-02.md) · [2026-08-01 (0 events)](news/postgres/2026-08-01.md)
-- **python:** [2026-08-04 (1 event)](news/python/2026-08-04.md) · [2026-08-03 (0 events)](news/python/2026-08-03.md) · [2026-08-02 (0 events)](news/python/2026-08-02.md) · [2026-08-01 (0 events)](news/python/2026-08-01.md)
-- **science:** [2026-08-04 (10 events)](news/science/2026-08-04.md) · [2026-08-03 (10 events)](news/science/2026-08-03.md)
-- **security:** [2026-08-04 (10 events)](news/security/2026-08-04.md) · [2026-08-03 (10 events)](news/security/2026-08-03.md) · [2026-08-02 (2 events)](news/security/2026-08-02.md) · [2026-08-01 (11 events)](news/security/2026-08-01.md)
-- **space:** [2026-08-04 (10 events)](news/space/2026-08-04.md) · [2026-08-03 (4 events)](news/space/2026-08-03.md)
-- **tech:** [2026-08-04 (11 events)](news/tech/2026-08-04.md) · [2026-08-03 (11 events)](news/tech/2026-08-03.md) · [2026-08-02 (8 events)](news/tech/2026-08-02.md) · [2026-08-01 (12 events)](news/tech/2026-08-01.md)
-- **world:** [2026-08-04 (10 events)](news/world/2026-08-04.md) · [2026-08-03 (10 events)](news/world/2026-08-03.md) · [2026-08-02 (10 events)](news/world/2026-08-02.md) · [2026-08-01 (10 events)](news/world/2026-08-01.md)
+- **ai:** [2026-08-05 (3 events)](news/ai/2026-08-05.md) · [2026-08-04 (3 events)](news/ai/2026-08-04.md) · [2026-08-03 (1 event)](news/ai/2026-08-03.md) · [2026-08-02 (2 events)](news/ai/2026-08-02.md) · [2026-08-01 (0 events)](news/ai/2026-08-01.md)
+- **anthropic:** [2026-08-05 (5 events)](news/anthropic/2026-08-05.md) · [2026-08-04 (9 events)](news/anthropic/2026-08-04.md) · [2026-08-03 (5 events)](news/anthropic/2026-08-03.md) · [2026-08-02 (2 events)](news/anthropic/2026-08-02.md) · [2026-08-01 (3 events)](news/anthropic/2026-08-01.md)
+- **email-security:** [2026-08-05 (2 events)](news/email-security/2026-08-05.md) · [2026-08-04 (1 event)](news/email-security/2026-08-04.md) · [2026-08-03 (0 events)](news/email-security/2026-08-03.md) · [2026-08-02 (1 event)](news/email-security/2026-08-02.md) · [2026-08-01 (4 events)](news/email-security/2026-08-01.md)
+- **gaming:** [2026-08-05 (9 events)](news/gaming/2026-08-05.md) · [2026-08-04 (10 events)](news/gaming/2026-08-04.md) · [2026-08-03 (10 events)](news/gaming/2026-08-03.md) · [2026-08-02 (10 events)](news/gaming/2026-08-02.md) · [2026-08-01 (4 events)](news/gaming/2026-08-01.md)
+- **golang:** [2026-08-05 (0 events)](news/golang/2026-08-05.md) · [2026-08-04 (0 events)](news/golang/2026-08-04.md) · [2026-08-03 (0 events)](news/golang/2026-08-03.md) · [2026-08-02 (0 events)](news/golang/2026-08-02.md) · [2026-08-01 (0 events)](news/golang/2026-08-01.md)
+- **gpt:** [2026-08-05 (7 events)](news/gpt/2026-08-05.md) · [2026-08-04 (11 events)](news/gpt/2026-08-04.md) · [2026-08-03 (10 events)](news/gpt/2026-08-03.md) · [2026-08-02 (5 events)](news/gpt/2026-08-02.md) · [2026-08-01 (5 events)](news/gpt/2026-08-01.md)
+- **health:** [2026-08-05 (5 events)](news/health/2026-08-05.md) · [2026-08-04 (2 events)](news/health/2026-08-04.md) · [2026-08-03 (7 events)](news/health/2026-08-03.md)
+- **markets:** [2026-08-05 (3 events)](news/markets/2026-08-05.md) · [2026-08-04 (3 events)](news/markets/2026-08-04.md) · [2026-08-03 (3 events)](news/markets/2026-08-03.md) · [2026-08-02 (4 events)](news/markets/2026-08-02.md) · [2026-08-01 (3 events)](news/markets/2026-08-01.md)
+- **postgres:** [2026-08-05 (2 events)](news/postgres/2026-08-05.md) · [2026-08-04 (0 events)](news/postgres/2026-08-04.md) · [2026-08-03 (0 events)](news/postgres/2026-08-03.md) · [2026-08-02 (0 events)](news/postgres/2026-08-02.md) · [2026-08-01 (0 events)](news/postgres/2026-08-01.md)
+- **python:** [2026-08-05 (0 events)](news/python/2026-08-05.md) · [2026-08-04 (1 event)](news/python/2026-08-04.md) · [2026-08-03 (0 events)](news/python/2026-08-03.md) · [2026-08-02 (0 events)](news/python/2026-08-02.md) · [2026-08-01 (0 events)](news/python/2026-08-01.md)
+- **science:** [2026-08-05 (10 events)](news/science/2026-08-05.md) · [2026-08-04 (10 events)](news/science/2026-08-04.md) · [2026-08-03 (10 events)](news/science/2026-08-03.md)
+- **security:** [2026-08-05 (11 events)](news/security/2026-08-05.md) · [2026-08-04 (10 events)](news/security/2026-08-04.md) · [2026-08-03 (10 events)](news/security/2026-08-03.md) · [2026-08-02 (2 events)](news/security/2026-08-02.md) · [2026-08-01 (11 events)](news/security/2026-08-01.md)
+- **space:** [2026-08-05 (4 events)](news/space/2026-08-05.md) · [2026-08-04 (10 events)](news/space/2026-08-04.md) · [2026-08-03 (4 events)](news/space/2026-08-03.md)
+- **tech:** [2026-08-05 (14 events)](news/tech/2026-08-05.md) · [2026-08-04 (11 events)](news/tech/2026-08-04.md) · [2026-08-03 (11 events)](news/tech/2026-08-03.md) · [2026-08-02 (8 events)](news/tech/2026-08-02.md) · [2026-08-01 (12 events)](news/tech/2026-08-01.md)
+- **world:** [2026-08-05 (10 events)](news/world/2026-08-05.md) · [2026-08-04 (10 events)](news/world/2026-08-04.md) · [2026-08-03 (10 events)](news/world/2026-08-03.md) · [2026-08-02 (10 events)](news/world/2026-08-02.md) · [2026-08-01 (10 events)](news/world/2026-08-01.md)
 
 ## 2026-07
 

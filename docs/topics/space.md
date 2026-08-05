@@ -1,21 +1,15 @@
-# Space (10)
+# Space (4)
 
 _Part of the [Science](../feeds/science.md) feed._
 
-## Latest — 2026-08-04
+## Latest — 2026-08-05
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Wildfires in Spokane, Washington force evacuation of 65,000](../news/science/2026-08-04.md#wildfires-in-spokane-washington-force-evacuation-of-65000)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [NASA launches moon cave exploration drone powered by laser](../news/space/2026-08-04.md#nasa-launches-moon-cave-exploration-drone-powered-by-laser)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [NASA crew-13 mission prepares for September launch to ISS](../news/space/2026-08-04.md#nasa-crew-13-mission-prepares-for-september-launch-to-iss)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Spirit rover data reveals hidden trace of ancient Martian water](../news/space/2026-08-04.md#spirit-rover-data-reveals-hidden-trace-of-ancient-martian-water)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Elon Musk and Jeff Bezos backing NASA moon race against China](../news/space/2026-08-04.md#elon-musk-and-jeff-bezos-backing-nasa-moon-race-against-china)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [ISS astronaut captures spectacular photo of Pacific typhoon](../news/space/2026-08-04.md#iss-astronaut-captures-spectacular-photo-of-pacific-typhoon)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [SpaceX Falcon 9 upper stage on collision course with moon](../news/space/2026-08-04.md#spacex-falcon-9-upper-stage-on-collision-course-with-moon)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Europa may harbor signs of life in buried ocean beneath ice](../news/space/2026-08-04.md#europa-may-harbor-signs-of-life-in-buried-ocean-beneath-ice)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Astronomers realize more of galaxy already scanned for alien signals than thought](../news/space/2026-08-04.md#astronomers-realize-more-of-galaxy-already-scanned-for-alien-signals-than-thought)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Canadian astronaut prepares for NASA ISS mission](../news/space/2026-08-04.md#canadian-astronaut-prepares-for-nasa-iss-mission)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [SpaceX plans to launch and catch next Starship test flight in late August](../news/space/2026-08-05.md#spacex-plans-to-launch-and-catch-next-starship-test-flight-in-late-august)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Spain, Iceland, and Greenland prepare for total solar eclipse on August 12](../news/space/2026-08-05.md#spain-iceland-and-greenland-prepare-for-total-solar-eclipse-on-august-12)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Voyager 2 probe power budget extended through strategic shutdown choreography](../news/space/2026-08-05.md#voyager-2-probe-power-budget-extended-through-strategic-shutdown-choreography)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [AST SpaceMobile launches three BlueBird direct-to-cell satellites via SpaceX](../news/space/2026-08-05.md#ast-spacemobile-launches-three-bluebird-direct-to-cell-satellites-via-spacex)
 
 ## Earlier
 
-[2026-08-03 (4 stories)](../news/space/2026-08-03.md)
+[2026-08-04 (10 stories)](../news/space/2026-08-04.md) · [2026-08-03 (4 stories)](../news/space/2026-08-03.md)
 

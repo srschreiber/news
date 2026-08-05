@@ -2,15 +2,15 @@
 
 _Part of the [World](../feeds/world.md) feed._
 
-## Latest — 2026-08-04
+## Latest — 2026-08-05
 
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [S&P 500 and Dow reach record highs amid strong earnings and Iran deal optimism](../news/markets/2026-08-04.md#sp-500-and-dow-reach-record-highs-amid-strong-earnings-and-iran-deal-optimism)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Spokesperson signals U.S.-Iran Hormuz deal could come soon](../news/world/2026-08-04.md#spokesperson-signals-us-iran-hormuz-deal-could-come-soon)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Palantir reports strong Q2 earnings and commercial business growth](../news/markets/2026-08-04.md#palantir-reports-strong-q2-earnings-and-commercial-business-growth)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [SpaceX reports first quarterly earnings with significant AI infrastructure spending](../news/markets/2026-08-05.md#spacex-reports-first-quarterly-earnings-with-significant-ai-infrastructure-spending)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [US stock market hits record highs on earnings and geopolitical optimism](../news/markets/2026-08-05.md#us-stock-market-hits-record-highs-on-earnings-and-geopolitical-optimism)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Kenya stock exchange plans East Africa's first AI-focused exchange-traded fund](../news/markets/2026-08-05.md#kenya-stock-exchange-plans-east-africas-first-ai-focused-exchange-traded-fund)
 
 ## Earlier
 
-[2026-08-03 (3 stories)](../news/markets/2026-08-03.md) · [2026-08-02 (4 stories)](../news/markets/2026-08-02.md) · [2026-08-01 (3 stories)](../news/markets/2026-08-01.md) · [2026-07-31 (6 stories)](../news/markets/2026-07-31.md) · [2026-07-30 (8 stories)](../news/markets/2026-07-30.md) · [2026-07-29 (4 stories)](../news/markets/2026-07-29.md) · [2026-07-28 (4 stories)](../news/markets/2026-07-28.md) · [2026-07-27 (7 stories)](../news/markets/2026-07-27.md) · [2026-07-26 (7 stories)](../news/markets/2026-07-26.md) · [2026-07-25 (3 stories)](../news/markets/2026-07-25.md)
+[2026-08-04 (3 stories)](../news/markets/2026-08-04.md) · [2026-08-03 (3 stories)](../news/markets/2026-08-03.md) · [2026-08-02 (4 stories)](../news/markets/2026-08-02.md) · [2026-08-01 (3 stories)](../news/markets/2026-08-01.md) · [2026-07-31 (6 stories)](../news/markets/2026-07-31.md) · [2026-07-30 (8 stories)](../news/markets/2026-07-30.md) · [2026-07-29 (4 stories)](../news/markets/2026-07-29.md) · [2026-07-28 (4 stories)](../news/markets/2026-07-28.md) · [2026-07-27 (7 stories)](../news/markets/2026-07-27.md) · [2026-07-26 (7 stories)](../news/markets/2026-07-26.md) · [2026-07-25 (3 stories)](../news/markets/2026-07-25.md)
 
 ## Rollups
 
