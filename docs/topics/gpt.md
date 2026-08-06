@@ -1,20 +1,21 @@
-# GPT (7)
+# GPT (8)
 
 _Part of the [Technology](../feeds/technology.md) feed._
 
-## Latest — 2026-08-05
+## Latest — 2026-08-06
 
-- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [OpenAI and Anthropic AI agents conducted unauthorized hacking during UK government security tests](../news/gpt/2026-08-05.md#openai-and-anthropic-ai-agents-conducted-unauthorized-hacking-during-uk-government-security-tests)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Open-weight AI models approaching frontier capabilities while lacking safety mitigations](../news/gpt/2026-08-05.md#open-weight-ai-models-approaching-frontier-capabilities-while-lacking-safety-mitigations)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [White House to meet major AI companies on safety testing following Hugging Face incident](../news/gpt/2026-08-05.md#white-house-to-meet-major-ai-companies-on-safety-testing-following-hugging-face-incident)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chinese military-linked researchers used OpenAI and Anthropic models for defense system training](../news/gpt/2026-08-05.md#chinese-military-linked-researchers-used-openai-and-anthropic-models-for-defense-system-training)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [US attorneys general demand OpenAI halt risky AI testing operations](../news/gpt/2026-08-05.md#us-attorneys-general-demand-openai-halt-risky-ai-testing-operations)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cambodian scam centers used ChatGPT to conduct investment fraud targeting Indian nationals](../news/gpt/2026-08-05.md#cambodian-scam-centers-used-chatgpt-to-conduct-investment-fraud-targeting-indian-nationals)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [OpenAI adds education plugins to ChatGPT for K-12 teachers and university instructors](../news/gpt/2026-08-05.md#openai-adds-education-plugins-to-chatgpt-for-k-12-teachers-and-university-instructors)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI and Anthropic AI agents hacked external systems during security testing](../news/tech/2026-08-06.md#openai-and-anthropic-ai-agents-hacked-external-systems-during-security-testing)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Adobe releases ChatGPT plugin with 70 tools](../news/gpt/2026-08-06.md#adobe-releases-chatgpt-plugin-with-70-tools)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft AI executive mandates OpenAI's top model as developer default](../news/gpt/2026-08-06.md#microsoft-ai-executive-mandates-openais-top-model-as-developer-default)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI disrupts Poipet scam network using ChatGPT](../news/gpt/2026-08-06.md#openai-disrupts-poipet-scam-network-using-chatgpt)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Meta's Muse Code undercuts Anthropic and OpenAI on pricing](../news/anthropic/2026-08-06.md#metas-muse-code-undercuts-anthropic-and-openai-on-pricing)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [OpenAI says it stopped Asian scam campaign hijacking ChatGPT](../news/email-security/2026-08-06.md#openai-says-it-stopped-asian-scam-campaign-hijacking-chatgpt)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Vietnam's FPT becomes OpenAI partner for GPT-5.6 deployment](../news/gpt/2026-08-06.md#vietnams-fpt-becomes-openai-partner-for-gpt-56-deployment)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Senator presses OpenAI and Anthropic on AI hacking incidents](../news/gpt/2026-08-06.md#senator-presses-openai-and-anthropic-on-ai-hacking-incidents)
 
 ## Earlier
 
-[2026-08-04 (11 stories)](../news/gpt/2026-08-04.md) · [2026-08-03 (10 stories)](../news/gpt/2026-08-03.md) · [2026-08-02 (5 stories)](../news/gpt/2026-08-02.md) · [2026-08-01 (5 stories)](../news/gpt/2026-08-01.md) · [2026-07-31 (2 stories)](../news/gpt/2026-07-31.md) · [2026-07-30 (8 stories)](../news/gpt/2026-07-30.md) · [2026-07-29 (3 stories)](../news/gpt/2026-07-29.md) · [2026-07-28 (5 stories)](../news/gpt/2026-07-28.md) · [2026-07-27 (3 stories)](../news/gpt/2026-07-27.md) · [2026-07-26 (1 story)](../news/gpt/2026-07-26.md) · [2026-07-25 (4 stories)](../news/gpt/2026-07-25.md)
+[2026-08-05 (7 stories)](../news/gpt/2026-08-05.md) · [2026-08-04 (11 stories)](../news/gpt/2026-08-04.md) · [2026-08-03 (10 stories)](../news/gpt/2026-08-03.md) · [2026-08-02 (5 stories)](../news/gpt/2026-08-02.md) · [2026-08-01 (5 stories)](../news/gpt/2026-08-01.md) · [2026-07-31 (2 stories)](../news/gpt/2026-07-31.md) · [2026-07-30 (8 stories)](../news/gpt/2026-07-30.md) · [2026-07-29 (3 stories)](../news/gpt/2026-07-29.md) · [2026-07-28 (5 stories)](../news/gpt/2026-07-28.md) · [2026-07-27 (3 stories)](../news/gpt/2026-07-27.md) · [2026-07-26 (1 story)](../news/gpt/2026-07-26.md) · [2026-07-25 (4 stories)](../news/gpt/2026-07-25.md)
 
 ## Rollups
 
