@@ -1,4 +1,4 @@
-# Anthropic (3)
+# Anthropic (4)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -7,6 +7,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude voice mode launched by Anthropic](../news/anthropic/2026-08-09.md#claude-voice-mode-launched-by-anthropic)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic makes Claude Code automatic mode default for paid plans](../news/anthropic/2026-08-09.md#anthropic-makes-claude-code-automatic-mode-default-for-paid-plans)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Claude Code auto mode deployment despite test concerns](../news/anthropic/2026-08-09.md#claude-code-auto-mode-deployment-despite-test-concerns)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic sets Claude Code automatic mode as default for paid plans](../news/anthropic/2026-08-09.md#anthropic-sets-claude-code-automatic-mode-as-default-for-paid-plans)
 
 ## Earlier
 

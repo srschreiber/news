@@ -1,6 +1,6 @@
-# Technology (13)
+# Technology (14)
 
-## Top stories — 2026-08-09 · _refreshed 23:25 UTC_
+## Top stories — 2026-08-09 · _refreshed 23:56 UTC_
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Defense manufacturer IEH compromised by phishing attack exposing export-controlled data](../news/email-security/2026-08-09.md#defense-manufacturer-ieh-compromised-by-phishing-attack-exposing-export-controlled-data) — U.S. defense manufacturer IEH was hit by a phishing attack that exposed potentially sensitive export-controlled data. · _email-security_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity test environments](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-test-environments) <span class="src-badge src-research">AI</span> — Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe. · _gpt, tech_
@@ -10,6 +10,7 @@
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [ChatGPT voice mode improvements](../news/tech/2026-08-09.md#chatgpt-voice-mode-improvements) <span class="src-badge src-research">AI</span> — Israeli Prime Minister Netanyahu rejected the president of the United States' 15-point Gaza disarmament plan, insisting Israeli forces will not withdraw until Hamas is fully disarmed. · _tech_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Ransomware gangs target IT managers instead of executives](../news/tech/2026-08-09.md#ransomware-gangs-target-it-managers-instead-of-executives) <span class="src-badge src-research">AI</span> — Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe. · _tech_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide) — OpenAI acquires NextSlide and integrates its team into ChatGPT development. · _gpt_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI Academy trains 220 Phoenix educators in ChatGPT classroom applications](../news/gpt/2026-08-09.md#openai-academy-trains-220-phoenix-educators-in-chatgpt-classroom-applications) — OpenAI Academy conducts training program for over 220 Phoenix educators on practical ChatGPT use in education. · _gpt_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss & Co. suffers social engineering cyberattack](../news/security/2026-08-09.md#levi-strauss-co-suffers-social-engineering-cyberattack) — Levi Strauss & Co. experiences social engineering cyberattack resulting in exposure of corporate data. · _security_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [FCC proposes ban on lidar-equipped foreign drones in US](../news/tech/2026-08-09.md#fcc-proposes-ban-on-lidar-equipped-foreign-drones-in-us) — The FCC moves to ban lidar-equipped drones from foreign manufacturers, classifying the technology as military-grade. · _tech_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Windows 11 Weather app consumes over 1 GB of RAM](../news/tech/2026-08-09.md#windows-11-weather-app-consumes-over-1-gb-of-ram) — Windows 11's built-in Weather app wastes more than 1 GB of RAM, raising efficiency concerns. · _tech_
@@ -22,8 +23,8 @@ _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 - [Tech](../topics/tech.md) — 10 stories
 - [AI](../topics/ai.md) — 0 stories
-- [Anthropic](../topics/anthropic.md) — 3 stories
-- [GPT](../topics/gpt.md) — 7 stories
+- [Anthropic](../topics/anthropic.md) — 4 stories
+- [GPT](../topics/gpt.md) — 8 stories
 - [Security](../topics/security.md) — 2 stories
 - [Email Security](../topics/email-security.md) — 2 stories
 - [Golang](../topics/golang.md) — 0 stories

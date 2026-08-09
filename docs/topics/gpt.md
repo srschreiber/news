@@ -1,4 +1,4 @@
-# GPT (7)
+# GPT (8)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -11,6 +11,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI removes ChatGPT text input limits and introduces new model variants](../news/gpt/2026-08-09.md#openai-removes-chatgpt-text-input-limits-and-introduces-new-model-variants)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI introduces unlimited free ChatGPT text chats](../news/gpt/2026-08-09.md#openai-introduces-unlimited-free-chatgpt-text-chats)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI Academy trains 220 Phoenix educators in ChatGPT classroom applications](../news/gpt/2026-08-09.md#openai-academy-trains-220-phoenix-educators-in-chatgpt-classroom-applications)
 
 ## Earlier
 

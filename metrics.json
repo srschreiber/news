@@ -1,5 +1,48 @@
 [
   {
+    "timestamp": "2026-08-09T23:56:04.656521+00:00",
+    "mode": "daily",
+    "calls": 2,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 3108,
+        "output": 1030,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.0083,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 2851,
+            "output": 997,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0078
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 257,
+            "output": 33,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0004
+      }
+    }
+  },
+  {
     "timestamp": "2026-08-09T23:25:43.727934+00:00",
     "mode": "daily",
     "calls": 4,
