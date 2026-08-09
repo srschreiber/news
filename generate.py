@@ -546,29 +546,27 @@ def select_research(
         else:
             budget = int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET))
         rtopics = [t for t in spec.get("topics", []) if research_enabled(t, cfg)]
+        # Collect each topic's top candidates. Shuffle first so equal-importance
+        # ties are broken randomly rather than by sources.yaml order, then sort
+        # highest importance first so the best stories always fill the budget.
+        candidates: list[dict] = []
+        seen_cand: set[int] = set()
         random.shuffle(rtopics)
-        # Each topic's top RESEARCH_PER_TOPIC important-enough events.
-        by_topic = {
-            t: [e for e in
-                sorted((e for e in events if t in e.get("topics", [])),
-                       key=lambda e: e.get("importance", 0), reverse=True)[:RESEARCH_PER_TOPIC]
-                if e.get("importance", 0) >= MIN_RESEARCH_IMPORTANCE]
-            for t in rtopics
-        }
+        for t in rtopics:
+            for e in sorted((e for e in events if t in e.get("topics", [])),
+                            key=lambda e: e.get("importance", 0), reverse=True)[:RESEARCH_PER_TOPIC]:
+                if e.get("importance", 0) >= MIN_RESEARCH_IMPORTANCE and id(e) not in seen_cand:
+                    seen_cand.add(id(e))
+                    candidates.append(e)
+        candidates.sort(key=lambda e: e.get("importance", 0), reverse=True)
         picked = 0
-        for rnd in range(RESEARCH_PER_TOPIC):
-            if picked >= budget:
+        for e in candidates:
+            if picked >= budget or len(chosen) >= max_events:
                 break
-            for t in rtopics:
-                if picked >= budget:
-                    break
-                lst = by_topic[t]
-                if rnd < len(lst) and id(lst[rnd]) not in chosen_ids:
-                    chosen_ids.add(id(lst[rnd]))
-                    chosen.append(lst[rnd])
-                    picked += 1
-                    if len(chosen) >= max_events:
-                        return chosen
+            if id(e) not in chosen_ids:
+                chosen_ids.add(id(e))
+                chosen.append(e)
+                picked += 1
     return chosen
 
 
