@@ -19,3 +19,7 @@ _Part of the [Science](../feeds/science.md) feed._
 
 [2026-08-08 (10 stories)](../news/science/2026-08-08.md) · [2026-08-07 (11 stories)](../news/science/2026-08-07.md) · [2026-08-06 (10 stories)](../news/science/2026-08-06.md) · [2026-08-05 (10 stories)](../news/science/2026-08-05.md) · [2026-08-04 (10 stories)](../news/science/2026-08-04.md) · [2026-08-03 (10 stories)](../news/science/2026-08-03.md)
 
+## Rollups
+
+- **Weekly:** [2026-W32](../weekly/science/2026-W32.md)
+

@@ -39,61 +39,73 @@ Full history of daily briefings, grouped by month. Use the [keyword search](sear
 
 ### ai
 
-- **Weekly:** [2026-W31](weekly/ai/2026-W31.md) · [2026-W30](weekly/ai/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/ai/2026-W32.md) · [2026-W31](weekly/ai/2026-W31.md) · [2026-W30](weekly/ai/2026-W30.md)
 - **Monthly:** [2026-07](monthly/ai/2026-07.md)
 
 ### anthropic
 
-- **Weekly:** [2026-W31](weekly/anthropic/2026-W31.md) · [2026-W30](weekly/anthropic/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/anthropic/2026-W32.md) · [2026-W31](weekly/anthropic/2026-W31.md) · [2026-W30](weekly/anthropic/2026-W30.md)
 - **Monthly:** [2026-07](monthly/anthropic/2026-07.md)
 
 ### email-security
 
-- **Weekly:** [2026-W31](weekly/email-security/2026-W31.md) · [2026-W30](weekly/email-security/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/email-security/2026-W32.md) · [2026-W31](weekly/email-security/2026-W31.md) · [2026-W30](weekly/email-security/2026-W30.md)
 - **Monthly:** [2026-07](monthly/email-security/2026-07.md)
 
 ### gaming
 
-- **Weekly:** [2026-W31](weekly/gaming/2026-W31.md) · [2026-W30](weekly/gaming/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/gaming/2026-W32.md) · [2026-W31](weekly/gaming/2026-W31.md) · [2026-W30](weekly/gaming/2026-W30.md)
 - **Monthly:** [2026-07](monthly/gaming/2026-07.md)
 
 ### golang
 
-- **Weekly:** [2026-W31](weekly/golang/2026-W31.md) · [2026-W30](weekly/golang/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/golang/2026-W32.md) · [2026-W31](weekly/golang/2026-W31.md) · [2026-W30](weekly/golang/2026-W30.md)
 - **Monthly:** [2026-07](monthly/golang/2026-07.md)
 
 ### gpt
 
-- **Weekly:** [2026-W31](weekly/gpt/2026-W31.md) · [2026-W30](weekly/gpt/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/gpt/2026-W32.md) · [2026-W31](weekly/gpt/2026-W31.md) · [2026-W30](weekly/gpt/2026-W30.md)
 - **Monthly:** [2026-07](monthly/gpt/2026-07.md)
+
+### health
+
+- **Weekly:** [2026-W32](weekly/health/2026-W32.md)
 
 ### markets
 
-- **Weekly:** [2026-W31](weekly/markets/2026-W31.md) · [2026-W30](weekly/markets/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/markets/2026-W32.md) · [2026-W31](weekly/markets/2026-W31.md) · [2026-W30](weekly/markets/2026-W30.md)
 - **Monthly:** [2026-07](monthly/markets/2026-07.md)
 
 ### postgres
 
-- **Weekly:** [2026-W31](weekly/postgres/2026-W31.md) · [2026-W30](weekly/postgres/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/postgres/2026-W32.md) · [2026-W31](weekly/postgres/2026-W31.md) · [2026-W30](weekly/postgres/2026-W30.md)
 - **Monthly:** [2026-07](monthly/postgres/2026-07.md)
 
 ### python
 
-- **Weekly:** [2026-W31](weekly/python/2026-W31.md) · [2026-W30](weekly/python/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/python/2026-W32.md) · [2026-W31](weekly/python/2026-W31.md) · [2026-W30](weekly/python/2026-W30.md)
 - **Monthly:** [2026-07](monthly/python/2026-07.md)
+
+### science
+
+- **Weekly:** [2026-W32](weekly/science/2026-W32.md)
 
 ### security
 
-- **Weekly:** [2026-W31](weekly/security/2026-W31.md) · [2026-W30](weekly/security/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/security/2026-W32.md) · [2026-W31](weekly/security/2026-W31.md) · [2026-W30](weekly/security/2026-W30.md)
 - **Monthly:** [2026-07](monthly/security/2026-07.md)
+
+### space
+
+- **Weekly:** [2026-W32](weekly/space/2026-W32.md)
 
 ### tech
 
-- **Weekly:** [2026-W31](weekly/tech/2026-W31.md) · [2026-W30](weekly/tech/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/tech/2026-W32.md) · [2026-W31](weekly/tech/2026-W31.md) · [2026-W30](weekly/tech/2026-W30.md)
 - **Monthly:** [2026-07](monthly/tech/2026-07.md)
 
 ### world
 
-- **Weekly:** [2026-W31](weekly/world/2026-W31.md) · [2026-W30](weekly/world/2026-W30.md)
+- **Weekly:** [2026-W32](weekly/world/2026-W32.md) · [2026-W31](weekly/world/2026-W31.md) · [2026-W30](weekly/world/2026-W30.md)
 - **Monthly:** [2026-07](monthly/world/2026-07.md)
 
