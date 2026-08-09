@@ -26,7 +26,7 @@ feeds:
   technology:
     title: Technology
     research_budget: 6
-    topics: [tech, ai, anthropic, gpt, security, email-security, gaming, golang, python, postgres]
+    topics: [tech, ai, anthropic, gpt, security, email-security, golang, python, postgres]
     scoring_context: >
       Score for a tech-industry reader. 5 = industry-shaping (landmark model release,
       critical zero-day exploited at scale, major platform shutdown). 3 = significant
@@ -80,7 +80,6 @@ research:
     golang: false
     postgres: false
     python: false
-    gaming: false
     markets: false
 
 sources:
@@ -158,11 +157,6 @@ sources:
   - name: "Google News — phishing campaigns"
     query: "phishing campaign OR \"phishing attack\""
     topic: email-security
-
-  # --- Gaming ---
-  - name: "Google News — gaming"
-    query: "gaming news"
-    topic: gaming
 
   # --- AI ---
   - name: "Google News — AI models"
