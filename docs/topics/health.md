@@ -1,9 +1,10 @@
-# Health (5)
+# Health (6)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Sanofi experiences shortage of two Pompe disease medicines](../news/health/2026-08-09.md#sanofi-experiences-shortage-of-two-pompe-disease-medicines)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Seven-day meditation retreat rewires brain and triggers psychedelic-like patterns](../news/health/2026-08-09.md#seven-day-meditation-retreat-rewires-brain-and-triggers-psychedelic-like-patterns)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stress hormone cortisol elevated in frequent cannabis users upon waking](../news/health/2026-08-09.md#stress-hormone-cortisol-elevated-in-frequent-cannabis-users-upon-waking)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Full-fat dairy shows no weight gain and improves blood pressure in study](../news/health/2026-08-09.md#full-fat-dairy-shows-no-weight-gain-and-improves-blood-pressure-in-study)

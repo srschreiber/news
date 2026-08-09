@@ -1,10 +1,11 @@
-# World (13)
+# World (14)
 
 _Part of the [World](../feeds/world.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran negotiates Strait of Hormuz deal with US mediation](../news/markets/2026-08-09.md#iran-negotiates-strait-of-hormuz-deal-with-us-mediation)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Middle East tensions over Strait of Hormuz access amid Iran negotiations](../news/markets/2026-08-09.md#middle-east-tensions-over-strait-of-hormuz-access-amid-iran-negotiations)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Netanyahu rejects the president of the United States-backed Gaza peace plan](../news/world/2026-08-09.md#netanyahu-rejects-the-president-of-the-united-states-backed-gaza-peace-plan)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukraine reports North Korean troop deployment to Russia](../news/world/2026-08-09.md#ukraine-reports-north-korean-troop-deployment-to-russia)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Yemen's Houthis target Saudi Aramco facility amid regional tensions](../news/world/2026-08-09.md#yemens-houthis-target-saudi-aramco-facility-amid-regional-tensions)

@@ -1,67 +1,6 @@
 [
   {
     "date": "2026-08-09",
-    "event_id": "installed-building-products-increases-dividends-and-buybacks-amid-softer-earnings",
-    "title": "Installed Building Products increases dividends and buybacks amid softer earnings",
-    "summary": "IBP stock rises 9.5% after announcing higher dividends and share buybacks despite mixed earnings performance.",
-    "theme": "Funding",
-    "importance": 1,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Installed Building Products",
-      "IBP",
-      "dividends",
-      "buybacks",
-      "earnings"
-    ],
-    "url": "news/markets/2026-08-09/#installed-building-products-increases-dividends-and-buybacks-amid-softer-earnings",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ01keE1qWW14MUtjM3Y1SEFEaG1KZ2hxdTI1MjVpcG9FVF9BNFNKS1l4cUxGNUFGRW54N0p3RVNMR1RTYVZrN2YteElPbTEzTThWUDA3bk1FQnY5MVhUWjVYbS1Rb1ktOWNrZlNQZjdjNmExWmdUQWdkbFZBcDlBRUdsSzBJVjFiWm81Y1NkUFRfLWpaWERHWHE5T0lobEE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "researched": false
-  },
-  {
-    "date": "2026-08-09",
-    "event_id": "itt-raises-full-year-guidance-after-mixed-q2-2026-results",
-    "title": "ITT raises full-year guidance after mixed Q2 2026 results",
-    "summary": "ITT stock climbs 8.8% following mixed second-quarter results and revised upward full-year earnings guidance.",
-    "theme": "Funding",
-    "importance": 1,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "ITT",
-      "earnings",
-      "guidance",
-      "Q2 2026"
-    ],
-    "url": "news/markets/2026-08-09/#itt-raises-full-year-guidance-after-mixed-q2-2026-results",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYlphSHlTcEZwaExWUFhiRHVKeldkSVdUbFJRSzJ2YkNSamY3ak1TZHVoWUlURUZYWmRLQXB0cUFvVk0zaE14Zi02eksycm1JUU9HZjIxS1JiU2d0cERTX2hhZlBPRzliVzlsd0hRR1ROWG9Rbi15MDJMMVI2TEZhV3hrMjctd1lWZHc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "researched": false
-  },
-  {
-    "date": "2026-08-09",
     "event_id": "suns-corona-to-be-visible-during-august-12-total-solar-eclipse",
     "title": "Sun's corona to be visible during August 12 total solar eclipse",
     "summary": "The August 12 total solar eclipse will provide a rare unobstructed view of the sun's outer corona.",
@@ -815,6 +754,36 @@
   },
   {
     "date": "2026-08-09",
+    "event_id": "hp-partners-with-nasa-on-mission-critical-systems",
+    "title": "HP partners with NASA on mission-critical systems",
+    "summary": "HP and NASA announce collaboration to support mission-critical work on Earth and in space.",
+    "theme": "Technology",
+    "importance": 2,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "HP",
+      "NASA",
+      "technology partnership",
+      "space missions"
+    ],
+    "url": "news/space/2026-08-09/#hp-partners-with-nasa-on-mission-critical-systems",
+    "sources": [
+      {
+        "label": "HP",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5XMWY3ZDlUZDJld2pmYmRxckpxQXZMaHBjTFNnanlpTGtuaEtDckRqZ29TWXBmUmJDMFBDUndWNFZSWkZpcE5SNkhSRFVTUDZlcWJ6cUhWb3QzXzh1TFVSMHFzN19yZkFPU3l0V2R4YkpSX2kyQlNEYXhLanBOdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "researched": false
+  },
+  {
+    "date": "2026-08-09",
     "event_id": "fcc-proposes-ban-on-lidar-equipped-foreign-drones-in-us",
     "title": "FCC proposes ban on lidar-equipped foreign drones in US",
     "summary": "The FCC moves to ban lidar-equipped drones from foreign manufacturers, classifying the technology as military-grade.",
@@ -1154,7 +1123,7 @@
     "date": "2026-08-09",
     "event_id": "openai-removes-chatgpt-text-input-limits-and-introduces-new-model-variants",
     "title": "OpenAI removes ChatGPT text input limits and introduces new model variants",
-    "summary": "OpenAI is removing text chat usage limits for ChatGPT Free and Go users and rolling out new GPT-5.6 model variants with reduced error rates, as the service crosses 1 billion weekly users.",
+    "summary": "Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe.",
     "theme": "AI",
     "importance": 3,
     "topics": [
@@ -1174,6 +1143,11 @@
     "url": "news/gpt/2026-08-09/#openai-removes-chatgpt-text-input-limits-and-introduces-new-model-variants",
     "sources": [
       {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/",
+        "origin": "research"
+      },
+      {
         "label": "Gizchina.com",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUHZWREgwN29IRVEzNzBDSVpTYmkzaXZlNDlCWFdIaG9Fby1yeFQ1dHJ2Qkd2RDh0alNvS0FSX3Vqa2Njd2RYbk9aeGt5RkF2UUJIcFJEZXg4UGx3VGFmSDBFTEtha3c3eEQ5elA2d1V6c1lsQ2Eza2U5ZTJ4X09OQWNwaE9qaHhH?oc=5",
         "origin": "rss"
@@ -1188,9 +1162,39 @@
   },
   {
     "date": "2026-08-09",
+    "event_id": "sanofi-experiences-shortage-of-two-pompe-disease-medicines",
+    "title": "Sanofi experiences shortage of two Pompe disease medicines",
+    "summary": "Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe.",
+    "theme": "Healthcare",
+    "importance": 3,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Sanofi",
+      "Pompe disease",
+      "medicine shortage",
+      "pharmaceutical supply"
+    ],
+    "url": "news/health/2026-08-09/#sanofi-experiences-shortage-of-two-pompe-disease-medicines",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/",
+        "origin": "research"
+      }
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-09",
     "event_id": "situational-awareness-hedge-fund-invests-400m-in-source-foundry-chip-startup",
     "title": "Situational Awareness hedge fund invests $400M in Source Foundry chip startup",
-    "summary": "OpenAI is removing text chat usage limits for ChatGPT Free and Go users and rolling out new GPT-5.6 model variants with reduced error rates, as the service crosses 1 billion weekly users.",
+    "summary": "Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe.",
     "theme": "Funding",
     "importance": 3,
     "topics": [
@@ -1210,6 +1214,11 @@
     ],
     "url": "news/markets/2026-08-09/#situational-awareness-hedge-fund-invests-400m-in-source-foundry-chip-startup",
     "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/",
+        "origin": "research"
+      },
       {
         "label": "Yahoo Finance",
         "url": "https://finance.yahoo.com/technology/articles/situational-awareness-invested-500-million-052325217.html",
@@ -1265,6 +1274,36 @@
       {
         "label": "CNBC",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PSlBQSkZDeVFXczJmMmRVYU4zbFdIejBqeUVSa1Z2cHNMaXUtVHZ5eUVKUEZzb2RMUWpYVE1aQWV0b21BNkM0VE9WNFI2dTFsUGNQUXNfOWtNV211WkhlLUxOTm9zOW01UHJVU0o2eDM1Wm5TREVz0gF8QVVfeXFMT1FxMFFZOTZCbGpROU5BX0xLVW9kMmtFLTBRRk9PTm5DaXJpdTJyRUpiNk5XcTQ5eUtmLThVUWIxOW5MSjE2NEhLZWtfV0ZFS1hiV0t5d2V3VmdacWdXTG0wSlV3MHYwY0NsMUVrb0pSSWpvYlM5Sm1vUEc5cg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "researched": false
+  },
+  {
+    "date": "2026-08-09",
+    "event_id": "chinese-fintech-billionaire-faces-regulatory-crackdown-after-beijing-intervention",
+    "title": "Chinese fintech billionaire faces regulatory crackdown after Beijing intervention",
+    "summary": "A Chinese billionaire who created a Charles Schwab-like fintech platform becomes target of Beijing's regulatory actions.",
+    "theme": "Markets",
+    "importance": 3,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "China",
+      "fintech",
+      "regulation",
+      "Beijing crackdown"
+    ],
+    "url": "news/markets/2026-08-09/#chinese-fintech-billionaire-faces-regulatory-crackdown-after-beijing-intervention",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV1QwWlhBb0h2OW4yTW1IMURhZlJWdm1pYUFwdnlHMG1yYlhDWVMxWW0ySTRLMGZSaVRHOGhsQlhEOHF1Sk1aelFrb21LRFp5OGwyODBVdUpwT3g3Z0MzVWxzVGNZQWtTUzF1ZFRXNm1qUXBSekJZYjdEVDdoZTJwNHhHRFl1STRGeDVsQmExcHJnRENsUDNoeUN2LWotdFIxSHZBRUpSSlJ4VkE3MWVTMll3?oc=5",
         "origin": "rss"
       }
     ],
@@ -1421,7 +1460,7 @@
     "date": "2026-08-09",
     "event_id": "anthropic-enables-claude-code-auto-mode-by-default",
     "title": "Anthropic enables Claude Code auto mode by default",
-    "summary": "OpenAI is removing text chat usage limits for ChatGPT Free and Go users and rolling out new GPT-5.6 model variants with reduced error rates, as the service crosses 1 billion weekly users.",
+    "summary": "Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe.",
     "theme": "AI",
     "importance": 3,
     "topics": [
@@ -1440,6 +1479,11 @@
     ],
     "url": "news/tech/2026-08-09/#anthropic-enables-claude-code-auto-mode-by-default",
     "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/",
+        "origin": "research"
+      },
       {
         "label": "Yahoo Finance",
         "url": "https://finance.yahoo.com/technology/articles/situational-awareness-invested-500-million-052325217.html",
@@ -1477,7 +1521,7 @@
     "date": "2026-08-09",
     "event_id": "ransomware-gangs-target-it-managers-instead-of-executives",
     "title": "Ransomware gangs target IT managers instead of executives",
-    "summary": "OpenAI is removing text chat usage limits for ChatGPT Free and Go users and rolling out new GPT-5.6 model variants with reduced error rates, as the service crosses 1 billion weekly users.",
+    "summary": "Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe.",
     "theme": "Security",
     "importance": 3,
     "topics": [
@@ -1496,6 +1540,11 @@
     ],
     "url": "news/tech/2026-08-09/#ransomware-gangs-target-it-managers-instead-of-executives",
     "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/",
+        "origin": "research"
+      },
       {
         "label": "Yahoo Finance",
         "url": "https://finance.yahoo.com/technology/articles/situational-awareness-invested-500-million-052325217.html",
@@ -1554,7 +1603,7 @@
     "date": "2026-08-09",
     "event_id": "ai-agents-escape-cybersecurity-test-environments",
     "title": "AI agents escape cybersecurity test environments",
-    "summary": "OpenAI is removing text chat usage limits for ChatGPT Free and Go users and rolling out new GPT-5.6 model variants with reduced error rates, as the service crosses 1 billion weekly users.",
+    "summary": "Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe.",
     "theme": "Security",
     "importance": 4,
     "topics": [
@@ -1573,6 +1622,11 @@
     ],
     "url": "news/gpt/2026-08-09/#ai-agents-escape-cybersecurity-test-environments",
     "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/09/sanofi-pompe-disease-drug-shortage-myozyme-nexviazyme/",
+        "origin": "research"
+      },
       {
         "label": "Yahoo Finance",
         "url": "https://finance.yahoo.com/technology/articles/situational-awareness-invested-500-million-052325217.html",
@@ -1669,6 +1723,48 @@
       {
         "label": "Barron's",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBiZ3BVWi1meU5mUDd6T3R6cGlBaDJYbHg2WWN6UndTVmgtY2Z4VW9OQ0NPLXNrdnNoVkwxckF5WDFNMjhseHlTZExqNTlxbENBLUxZQk93QlF3Q2hsLTFZWXdzNENoUWxwV2MwZFlKdGo2VnhlYkpyRmpn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "researched": false
+  },
+  {
+    "date": "2026-08-09",
+    "event_id": "middle-east-tensions-over-strait-of-hormuz-access-amid-iran-negotiations",
+    "title": "Middle East tensions over Strait of Hormuz access amid Iran negotiations",
+    "summary": "Negotiations over Strait of Hormuz access remain elusive as Middle East tensions persist and impact global oil markets.",
+    "theme": "Geopolitics",
+    "importance": 4,
+    "topics": [
+      "markets",
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Strait of Hormuz",
+      "Iran",
+      "Middle East",
+      "oil markets",
+      "sanctions"
+    ],
+    "url": "news/markets/2026-08-09/#middle-east-tensions-over-strait-of-hormuz-access-amid-iran-negotiations",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PSlBQSkZDeVFXczJmMmRVYU4zbFdIejBqeUVSa1Z2cHNMaXUtVHZ5eUVKUEZzb2RMUWpYVE1aQWV0b21BNkM0VE9WNFI2dTFsUGNQUXNfOWtNV211WkhlLUxOTm9zOW01UHJVU0o2eDM1Wm5TREVz0gF8QVVfeXFMT1FxMFFZOTZCbGpROU5BX0xLVW9kMmtFLTBRRk9PTm5DaXJpdTJyRUpiNk5XcTQ5eUtmLThVUWIxOW5MSjE2NEhLZWtfV0ZFS1hiV0t5d2V3VmdacWdXTG0wSlV3MHYwY0NsMUVrb0pSSWpvYlM5Sm1vUEc5cg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcE9CeWQ3UUhJR3ZMYjlnV1JmT0ZYV3NLWUc2UG82SnNwS0ZtelczaFNDa25xaDB1cG5FTWdfdl8yVEFLOUc0RnBCbjBkTURvcEs3SUloSHRaemE0c0gxbTdtZlNvT2lnY1dQSTctWVY2V1E1RHZZZEhTUDNIRUs4bFFIUWNtWTdkRklJdWZvcWJiS1pN?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU1M4M3hUYVVJOXdSZlRlQW1raDdLdW1OcjNNTTc3Vl9mUDI5d3BWbDh4WmVxcUpuSFBzRmJqTnR2d3FFVTRuajZreHVvSjFMYnVsZHZaSWpUdDNNemY1N2hjZGp5dzViTmd1MGI2VFdYbkw1MFFHYnJvWDJpaWYwaS1jZUtORkt6TTVqaGhXc1g?oc=5",
         "origin": "rss"
       }
     ],

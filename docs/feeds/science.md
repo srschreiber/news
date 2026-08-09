@@ -1,7 +1,8 @@
-# Science (17)
+# Science (19)
 
-## Top stories — 2026-08-09 · _refreshed 19:28 UTC_
+## Top stories — 2026-08-09 · _refreshed 23:25 UTC_
 
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Sanofi experiences shortage of two Pompe disease medicines](../news/health/2026-08-09.md#sanofi-experiences-shortage-of-two-pompe-disease-medicines) <span class="src-badge src-research">AI</span> — Sanofi is facing shortages of its two Pompe disease treatments, Myozyme and Nexviazyme, forcing postponed infusions and reduced dosages for patients in the US and Europe. · _health_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [New catalyst reduces platinum use in hydrogen fuel cells by 75%](../news/science/2026-08-09.md#new-catalyst-reduces-platinum-use-in-hydrogen-fuel-cells-by-75) <span class="src-badge src-research">AI</span> — A reported breakthrough claiming a new catalyst cuts platinum use in hydrogen fuel cells by 75% while maintaining performance could not be verified, as the original source was inaccessible and no matching research was found. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Total solar eclipse August 12 reveals sun's corona](../news/space/2026-08-09.md#total-solar-eclipse-august-12-reveals-suns-corona) <span class="src-badge src-research">AI</span> — A total solar eclipse on August 12, 2026 will cross Greenland, Iceland and parts of Spain and Portugal, giving observers a rare direct view of the sun's corona during up to 2 minutes 18 seconds of totality. · _space, world_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [NASA advances Artemis plan for permanent lunar base](../news/space/2026-08-09.md#nasa-advances-artemis-plan-for-permanent-lunar-base) <span class="src-badge src-research">AI</span> — NASA is advancing its Artemis program toward a permanent lunar base near the south pole, with a $20–30 billion plan targeting completion by 2036 and a first crewed landing in late 2028. · _space_
@@ -19,12 +20,13 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Dinosaurs evolved to giant sizes but rarely to tiny forms](../news/science/2026-08-09.md#dinosaurs-evolved-to-giant-sizes-but-rarely-to-tiny-forms) — Research suggests dinosaurs' evolutionary constraint against miniaturization may have been caused partly by competition with early mammals. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Hong Kong weather observatory records highest temperature at 36.9°C during Typhoon Dolphin](../news/science/2026-08-09.md#hong-kong-weather-observatory-records-highest-temperature-at-369c-during-typhoon-dolphin) — Hong Kong's meteorological service recorded a record high of 36.9°C (98°F) as Typhoon Dolphin brought warm air over the city. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Air-breathing satellite thruster tests very low Earth orbit frontier](../news/space/2026-08-09.md#air-breathing-satellite-thruster-tests-very-low-earth-orbit-frontier) — Air-breathing electric propulsion technology could enable satellites to operate in very low Earth orbit, a previously unexplored frontier. · _space_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [HP partners with NASA on mission-critical systems](../news/space/2026-08-09.md#hp-partners-with-nasa-on-mission-critical-systems) — HP and NASA announce collaboration to support mission-critical work on Earth and in space. · _space_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
 - [Science](../topics/science.md) — 10 stories
-- [Space](../topics/space.md) — 4 stories
-- [Health](../topics/health.md) — 5 stories
+- [Space](../topics/space.md) — 5 stories
+- [Health](../topics/health.md) — 6 stories
 
