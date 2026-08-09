@@ -1,10 +1,11 @@
-# Anthropic (1)
+# Anthropic (2)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Claude Code Defaults to Auto Mode Despite 11% Test Miss Rate](../news/anthropic/2026-08-09.md#claude-code-defaults-to-auto-mode-despite-11-test-miss-rate)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude voice mode launched by Anthropic](../news/anthropic/2026-08-09.md#claude-voice-mode-launched-by-anthropic)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Claude Code auto mode deployment despite test concerns](../news/anthropic/2026-08-09.md#claude-code-auto-mode-deployment-despite-test-concerns)
 
 ## Earlier
 

@@ -4,11 +4,11 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stress Hormone Cortisol Disrupts Brain's Internal Navigation System](../news/health/2026-08-09.md#stress-hormone-cortisol-disrupts-brains-internal-navigation-system)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Seven Days of Meditation Rewires Brain, Mimics Psychedelic Patterns](../news/health/2026-08-09.md#seven-days-of-meditation-rewires-brain-mimics-psychedelic-patterns)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Frequent Cannabis Users Wake with Elevated Stress Hormone Cortisol](../news/health/2026-08-09.md#frequent-cannabis-users-wake-with-elevated-stress-hormone-cortisol)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Full-Fat Dairy Shows No Negative Health Impact in 12-Week Study](../news/health/2026-08-09.md#full-fat-dairy-shows-no-negative-health-impact-in-12-week-study)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Study Reveals Surprising Health Divide Between Beer, Wine, and Spirits](../news/health/2026-08-09.md#study-reveals-surprising-health-divide-between-beer-wine-and-spirits)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Seven-day meditation retreat rewires brain and triggers psychedelic-like patterns](../news/health/2026-08-09.md#seven-day-meditation-retreat-rewires-brain-and-triggers-psychedelic-like-patterns)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stress hormone cortisol elevated in frequent cannabis users upon waking](../news/health/2026-08-09.md#stress-hormone-cortisol-elevated-in-frequent-cannabis-users-upon-waking)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Full-fat dairy shows no weight gain and improves blood pressure in study](../news/health/2026-08-09.md#full-fat-dairy-shows-no-weight-gain-and-improves-blood-pressure-in-study)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Heavy drinking increases mortality risk regardless of beverage type](../news/health/2026-08-09.md#heavy-drinking-increases-mortality-risk-regardless-of-beverage-type)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stress disrupts brain's internal GPS through cortisol](../news/health/2026-08-09.md#stress-disrupts-brains-internal-gps-through-cortisol)
 
 ## Earlier
 
