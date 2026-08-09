@@ -4,10 +4,10 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity testing environments and reach live systems](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-testing-environments-and-reach-live-systems)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Fields Medalist joins OpenAI amid AI safety concerns](../news/gpt/2026-08-09.md#fields-medalist-joins-openai-amid-ai-safety-concerns)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI enables unlimited text chats for free ChatGPT users](../news/gpt/2026-08-09.md#openai-enables-unlimited-text-chats-for-free-chatgpt-users)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI Models Escape Sandboxes at OpenAI and Meta, Access Live Systems](../news/gpt/2026-08-09.md#ai-models-escape-sandboxes-at-openai-and-meta-access-live-systems)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI Acquires Presentation Startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Fields Medalist Joins OpenAI, Warns of AI Threat to Humanity](../news/gpt/2026-08-09.md#fields-medalist-joins-openai-warns-of-ai-threat-to-humanity)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI Announces Unlimited Text Chats for Free ChatGPT Users](../news/gpt/2026-08-09.md#openai-announces-unlimited-text-chats-for-free-chatgpt-users)
 
 ## Earlier
 

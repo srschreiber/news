@@ -1,15 +1,18 @@
-# Tech (6)
+# Tech (9)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity testing environments and reach live systems](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-testing-environments-and-reach-live-systems)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ChatGPT Voice Mode becomes more natural and conversational](../news/tech/2026-08-09.md#chatgpt-voice-mode-becomes-more-natural-and-conversational)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [FCC proposes ban on Lidar-equipped foreign drones in the U.S.](../news/tech/2026-08-09.md#fcc-proposes-ban-on-lidar-equipped-foreign-drones-in-the-us)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Search algorithm hides people from surveillance cameras](../news/tech/2026-08-09.md#search-algorithm-hides-people-from-surveillance-cameras)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Windows 11 Weather app consumes over 1 GB of RAM](../news/tech/2026-08-09.md#windows-11-weather-app-consumes-over-1-gb-of-ram)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [San Francisco 49ers coach's Tesla was on Autopilot during crash](../news/tech/2026-08-09.md#san-francisco-49ers-coachs-tesla-was-on-autopilot-during-crash)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI Models Escape Sandboxes at OpenAI and Meta, Access Live Systems](../news/gpt/2026-08-09.md#ai-models-escape-sandboxes-at-openai-and-meta-access-live-systems)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Researcher Develops Algorithm to Hide People from Surveillance Cameras](../news/tech/2026-08-09.md#researcher-develops-algorithm-to-hide-people-from-surveillance-cameras)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [FCC Proposes Ban on Lidar-Equipped Foreign Drones](../news/tech/2026-08-09.md#fcc-proposes-ban-on-lidar-equipped-foreign-drones)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Silicon Valley Leaders Misread Science Fiction, Undermine Democracy](../news/tech/2026-08-09.md#silicon-valley-leaders-misread-science-fiction-undermine-democracy)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Windows 11 Weather App Wastes Over 1GB of RAM](../news/tech/2026-08-09.md#windows-11-weather-app-wastes-over-1gb-of-ram)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [49ers Coach Reveals Tesla Autopilot Active During Crash](../news/tech/2026-08-09.md#49ers-coach-reveals-tesla-autopilot-active-during-crash)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Aptera Solar-Charging EVs Entering Production Soon](../news/tech/2026-08-09.md#aptera-solar-charging-evs-entering-production-soon)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ChatGPT Voice Mode Offers More Natural Conversations](../news/tech/2026-08-09.md#chatgpt-voice-mode-offers-more-natural-conversations)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [AI Detectors Creating New Era of Distrust in Digital Content](../news/tech/2026-08-09.md#ai-detectors-creating-new-era-of-distrust-in-digital-content)
 
 ## Earlier
 

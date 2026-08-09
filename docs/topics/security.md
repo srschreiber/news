@@ -4,7 +4,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss suffers data breach from social engineering cyberattack](../news/security/2026-08-09.md#levi-strauss-suffers-data-breach-from-social-engineering-cyberattack)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss Suffers Social Engineering Cyberattack](../news/security/2026-08-09.md#levi-strauss-suffers-social-engineering-cyberattack)
 
 ## Earlier
 

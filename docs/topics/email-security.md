@@ -1,11 +1,10 @@
-# Email Security (2)
+# Email Security (1)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Houthis escalate attacks on Saudi Arabian infrastructure](../news/email-security/2026-08-09.md#houthis-escalate-attacks-on-saudi-arabian-infrastructure)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [U.S. Defense Contractor IEH hit by phishing attack exposing export-controlled data](../news/email-security/2026-08-09.md#us-defense-contractor-ieh-hit-by-phishing-attack-exposing-export-controlled-data)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [U.S. Defense Manufacturer IEH Targeted by Phishing Attack](../news/email-security/2026-08-09.md#us-defense-manufacturer-ieh-targeted-by-phishing-attack)
 
 ## Earlier
 

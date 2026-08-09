@@ -1,10 +1,11 @@
-# Space (1)
+# Space (2)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse on August 12 to reveal coronal features](../news/space/2026-08-09.md#total-solar-eclipse-on-august-12-to-reveal-coronal-features)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Air-Breathing Satellite Thruster Tests New Orbital Frontier](../news/space/2026-08-09.md#air-breathing-satellite-thruster-tests-new-orbital-frontier)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total Solar Eclipse on August 12 to Reveal Sun's Atmosphere](../news/space/2026-08-09.md#total-solar-eclipse-on-august-12-to-reveal-suns-atmosphere)
 
 ## Earlier
 
