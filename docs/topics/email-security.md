@@ -1,9 +1,10 @@
-# Email Security (1)
+# Email Security (2)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Defense manufacturer IEH compromised by phishing attack exposing export-controlled data](../news/email-security/2026-08-09.md#defense-manufacturer-ieh-compromised-by-phishing-attack-exposing-export-controlled-data)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [US defense manufacturer IEH hit by phishing attack](../news/email-security/2026-08-09.md#us-defense-manufacturer-ieh-hit-by-phishing-attack)
 
 ## Earlier

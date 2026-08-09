@@ -5,6 +5,7 @@ _Part of the [Technology](../feeds/technology.md) feed · RSS only._
 ## Latest — 2026-08-09
 
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Roblox shares plummet 70% on player decline and AI pivot](../news/gaming/2026-08-09.md#roblox-shares-plummet-70-on-player-decline-and-ai-pivot)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Roblox stock plummets 70% following player decline, company pursues AI solutions](../news/gaming/2026-08-09.md#roblox-stock-plummets-70-following-player-decline-company-pursues-ai-solutions)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Blizzard achieves first back-to-back growth years in nearly a decade](../news/gaming/2026-08-09.md#blizzard-achieves-first-back-to-back-growth-years-in-nearly-a-decade)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Blizzard becomes Microsoft's top studio](../news/gaming/2026-08-09.md#blizzard-becomes-microsofts-top-studio)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Battlefield 6 bans hundreds of thousands of cheaters pre-launch](../news/gaming/2026-08-09.md#battlefield-6-bans-hundreds-of-thousands-of-cheaters-pre-launch)
@@ -12,8 +13,7 @@ _Part of the [Technology](../feeds/technology.md) feed · RSS only._
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cancelled Quake 4 expansion released on GitHub by former XCOM 2 developer](../news/gaming/2026-08-09.md#cancelled-quake-4-expansion-released-on-github-by-former-xcom-2-developer)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [US gamers play Xbox One more than Xbox Series X|S](../news/gaming/2026-08-09.md#us-gamers-play-xbox-one-more-than-xbox-series-xs)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [LGD Gaming player TaiLung banned from The International 2026](../news/gaming/2026-08-09.md#lgd-gaming-player-tailung-banned-from-the-international-2026)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Lies of P adds difficulty options nearly two years after launch](../news/gaming/2026-08-09.md#lies-of-p-adds-difficulty-options-nearly-two-years-after-launch)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Five Nights at Freddy's pizzeria opening at American Dream mall in 2027](../news/gaming/2026-08-09.md#five-nights-at-freddys-pizzeria-opening-at-american-dream-mall-in-2027)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Blizzard named Microsoft's top studio in leaked company communication](../news/gaming/2026-08-09.md#blizzard-named-microsofts-top-studio-in-leaked-company-communication)
 
 ## Earlier
 

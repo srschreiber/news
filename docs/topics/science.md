@@ -13,7 +13,7 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Bacteria trap toxic uranium in stable form during contamination cleanup](../news/science/2026-08-09.md#bacteria-trap-toxic-uranium-in-stable-form-during-contamination-cleanup)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chemists break decades-old barrier in electron transfer reactions](../news/science/2026-08-09.md#chemists-break-decades-old-barrier-in-electron-transfer-reactions)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Dinosaurs evolved to giant sizes but rarely to tiny forms](../news/science/2026-08-09.md#dinosaurs-evolved-to-giant-sizes-but-rarely-to-tiny-forms)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Tiny particles defy action-reaction symmetry in active matter systems](../news/science/2026-08-09.md#tiny-particles-defy-action-reaction-symmetry-in-active-matter-systems)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Hong Kong weather observatory records highest temperature at 36.9°C during Typhoon Dolphin](../news/science/2026-08-09.md#hong-kong-weather-observatory-records-highest-temperature-at-369c-during-typhoon-dolphin)
 
 ## Earlier
 
