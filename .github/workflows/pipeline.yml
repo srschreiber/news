@@ -7,8 +7,8 @@ on:
     # clusters only new RSS items each hour and merges them into today's event
     # store, so runs with nothing new exit cheaply after a timestamp update.
     - cron: "0 12-23 * * *"  # hourly 5am–4pm PDT
-    - cron: "0 15 * * 0"     # weekly Sun 15:00 UTC
-    - cron: "0 16 1 * *"     # monthly 1st 16:00 UTC
+    # - cron: "0 15 * * 0"   # weekly Sun 15:00 UTC  (disabled)
+    # - cron: "0 16 1 * *"  # monthly 1st 16:00 UTC (disabled)
     - cron: "0 17 1 1 *"     # yearly Jan 1 17:00 UTC
   workflow_dispatch:
     inputs:
