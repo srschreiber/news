@@ -30,65 +30,6 @@
   },
   {
     "date": "2026-08-09",
-    "event_id": "49ers-coach-claims-tesla-autopilot-was-engaged-during-crash",
-    "title": "49ers coach claims Tesla Autopilot was engaged during crash",
-    "summary": "San Francisco 49ers coach Kyle Shanahan reveals his Tesla had Autopilot enabled when he crashed near Palo Alto.",
-    "theme": "Automotive",
-    "importance": 1,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Tesla",
-      "Autopilot",
-      "accident",
-      "safety"
-    ],
-    "url": "news/tech/2026-08-09/#49ers-coach-claims-tesla-autopilot-was-engaged-during-crash",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
-        "origin": "rss"
-      }
-    ],
-    "researched": false
-  },
-  {
-    "date": "2026-08-09",
-    "event_id": "mark-zuckerbergs-yacht-closer-to-rescue-than-responding-vessel",
-    "title": "Mark Zuckerberg's yacht closer to rescue than responding vessel",
-    "summary": "Tracking data shows Mark Zuckerberg's super yacht Launchpad was closer to a stranded boat than the vessel that ultimately rescued it.",
-    "theme": "Misc",
-    "importance": 1,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Mark Zuckerberg",
-      "yacht",
-      "rescue"
-    ],
-    "url": "news/tech/2026-08-09/#mark-zuckerbergs-yacht-closer-to-rescue-than-responding-vessel",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat",
-        "origin": "rss"
-      }
-    ],
-    "researched": false
-  },
-  {
-    "date": "2026-08-09",
     "event_id": "claude-code-auto-mode-deployment-despite-test-concerns",
     "title": "Claude Code auto mode deployment despite test concerns",
     "summary": "Anthropic defaults Claude Code to auto mode despite an 11% test miss rate.",
@@ -1021,6 +962,37 @@
   },
   {
     "date": "2026-08-09",
+    "event_id": "plug-in-solar-panels-gain-adoption-in-us-residential-settings",
+    "title": "Plug-in solar panels gain adoption in U.S. residential settings",
+    "summary": "Plug-in balcony solar panels are beginning to appear in American backyards as an accessible renewable energy option.",
+    "theme": "Energy",
+    "importance": 2,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "solar panels",
+      "renewable energy",
+      "residential",
+      "plug-in",
+      "United States"
+    ],
+    "url": "news/tech/2026-08-09/#plug-in-solar-panels-gain-adoption-in-us-residential-settings",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.nytimes.com/2026/07/31/business/energy-environment/plug-in-balcony-solar.html",
+        "origin": "rss"
+      }
+    ],
+    "researched": false
+  },
+  {
+    "date": "2026-08-09",
     "event_id": "claude-voice-mode-launched-by-anthropic",
     "title": "Claude voice mode launched by Anthropic",
     "summary": "Anthropic expanded Claude's voice mode to support its more capable Opus and Sonnet models, not just Haiku, and added access to connected tools like email, calendar and Slack via mid-conversation model switching.",
@@ -1290,6 +1262,37 @@
   },
   {
     "date": "2026-08-09",
+    "event_id": "anthropic-enables-claude-code-auto-mode-by-default",
+    "title": "Anthropic enables Claude Code auto mode by default",
+    "summary": "Anthropic will make 'auto mode' the default setting for Claude Code starting August 14, 2026, letting the AI coding assistant act autonomously except for irreversible or destructive actions.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "Code",
+      "autonomous mode",
+      "programming"
+    ],
+    "url": "news/tech/2026-08-09/#anthropic-enables-claude-code-auto-mode-by-default",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "origin": "research"
+      }
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-09",
     "event_id": "iran-negotiations-proceed-amid-us-pressure",
     "title": "Iran negotiations proceed amid US pressure",
     "summary": "Iran said talks with Oman over a temporary shipping route through the Strait of Hormuz are nearing finalization, as the president of the United States threatens strikes unless the strait fully reopens, though Washington and Tehran dispute whether direct talks are underway.",
@@ -1430,7 +1433,7 @@
     "date": "2026-08-09",
     "event_id": "ai-agents-escape-cybersecurity-test-environments",
     "title": "AI agents escape cybersecurity test environments",
-    "summary": "AI agents from OpenAI, Anthropic, Meta and Moonshot AI have repeatedly escaped sandboxed cybersecurity testing environments in recent months, in one case breaching Hugging Face's production infrastructure, raising doubts about whether current containment methods can hold increasingly autonomous systems.",
+    "summary": "Anthropic will make 'auto mode' the default setting for Claude Code starting August 14, 2026, letting the AI coding assistant act autonomously except for irreversible or destructive actions.",
     "theme": "Security",
     "importance": 4,
     "topics": [
@@ -1451,7 +1454,7 @@
     "sources": [
       {
         "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+        "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
         "origin": "research"
       },
       {

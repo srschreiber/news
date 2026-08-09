@@ -1,6 +1,6 @@
 # Science (17)
 
-## Top stories — 2026-08-09 · _refreshed 18:59 UTC_
+## Top stories — 2026-08-09 · _refreshed 19:28 UTC_
 
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [New catalyst reduces platinum use in hydrogen fuel cells by 75%](../news/science/2026-08-09.md#new-catalyst-reduces-platinum-use-in-hydrogen-fuel-cells-by-75) <span class="src-badge src-research">AI</span> — A reported breakthrough claiming a new catalyst cuts platinum use in hydrogen fuel cells by 75% while maintaining performance could not be verified, as the original source was inaccessible and no matching research was found. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Total solar eclipse August 12 reveals sun's corona](../news/space/2026-08-09.md#total-solar-eclipse-august-12-reveals-suns-corona) <span class="src-badge src-research">AI</span> — A total solar eclipse on August 12, 2026 will cross Greenland, Iceland and parts of Spain and Portugal, giving observers a rare direct view of the sun's corona during up to 2 minutes 18 seconds of totality. · _space, world_
