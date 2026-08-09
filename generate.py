@@ -360,6 +360,7 @@ def filter_and_cap(
     seen_links: dict[str, str],
     max_per_feed: int = MAX_ITEMS_PER_FEED,
     today: str | None = None,
+    source_last_ts: dict[str, str] | None = None,
 ) -> list[dict]:
     """Keep items published since `cutoff` and not already seen; cap per source.
 
@@ -367,6 +368,10 @@ def filter_and_cap(
     `seen` means seen on a *prior* day: when `today` is given, items first seen
     today are still kept, so a same-day re-run can rebuild the full day. Cross-day
     dedup (items seen yesterday or earlier) always applies.
+
+    `source_last_ts` maps source name -> ISO timestamp of the newest item already
+    processed for that source. Items at-or-before that timestamp are skipped so
+    hourly incremental runs only cluster genuinely new RSS items.
     """
     kept: list[dict] = []
     per_source: dict[str, int] = {}
@@ -376,12 +381,22 @@ def filter_and_cap(
         or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
         reverse=True,
     )
+    parsed_src_ts: dict[str, dt.datetime] = {}
+    if source_last_ts:
+        for src, ts_str in source_last_ts.items():
+            try:
+                parsed_src_ts[src] = dt.datetime.fromisoformat(ts_str)
+            except (ValueError, TypeError):
+                pass
     for it in ordered:
         link = it["link"]
         if link and link in seen_links and (today is None or seen_links[link] < today):
             continue
         pub = it.get("_published_dt")
         if pub is not None and pub < cutoff:
+            continue
+        src_floor = parsed_src_ts.get(it.get("source", ""))
+        if pub is not None and src_floor is not None and pub <= src_floor:
             continue
         n = per_source.get(it["source"], 0)
         if n >= max_per_feed:
@@ -918,16 +933,88 @@ def prune_seen(seen: dict[str, str], now: dt.datetime) -> dict[str, str]:
     return {k: v for k, v in seen.items() if v >= horizon}
 
 
-def save_state(state: dict, items: list[dict], run_start: dt.datetime) -> None:
+def save_state(
+    state: dict,
+    items: list[dict],
+    run_start: dt.datetime,
+    today_events_data: dict | None = None,
+    feed_last_refresh: dict[str, str] | None = None,
+) -> None:
     seen = prune_seen(dict(state.get("seen_links", {})), run_start)
     today = run_start.date().isoformat()
     for it in items:
         if it.get("link"):
             seen[it["link"]] = today
-    STATE_FILE.write_text(
-        json.dumps({"last_run": run_start.isoformat(), "seen_links": seen}, indent=2)
-        + "\n"
-    )
+
+    # Advance per-source timestamp pointers to the newest item each source served
+    # this run, so subsequent hourly runs skip already-processed items.
+    source_last_ts: dict[str, str] = dict(state.get("source_last_ts", {}))
+    for it in items:
+        src = it.get("source") or ""
+        pub: dt.datetime | None = it.get("_published_dt")
+        if src and pub:
+            pub_str = pub.isoformat()
+            if pub_str > source_last_ts.get(src, ""):
+                source_last_ts[src] = pub_str
+
+    # Merge incoming feed refresh timestamps with what's already stored.
+    merged_feed_refresh: dict[str, str] = dict(state.get("feed_last_refresh") or {})
+    if feed_last_refresh:
+        merged_feed_refresh.update(feed_last_refresh)
+
+    payload: dict = {
+        "last_run": run_start.isoformat(),
+        "seen_links": seen,
+        "source_last_ts": source_last_ts,
+        "feed_last_refresh": merged_feed_refresh,
+    }
+    if today_events_data is not None:
+        payload["today_events"] = today_events_data
+    elif "today_events" in state:
+        payload["today_events"] = state["today_events"]
+    STATE_FILE.write_text(json.dumps(payload, indent=2) + "\n")
+
+
+def _load_today_events(state: dict, date: str) -> list[dict]:
+    """Return stored events from a previous run today, or [] if no match."""
+    stored = state.get("today_events")
+    if not isinstance(stored, dict) or stored.get("date") != date:
+        return []
+    events = stored.get("events", [])
+    return events if isinstance(events, list) else []
+
+
+def _merge_new_events(
+    stored: list[dict], new_events: list[dict]
+) -> tuple[list[dict], list[dict]]:
+    """Merge new_events into stored events. Returns (all_events, truly_new).
+
+    Events are matched by slugified title. Duplicate events get new unique
+    source URLs appended to the existing event. Genuinely new events are added
+    and also returned in truly_new so only they get researched this run.
+    """
+    by_id: dict[str, dict] = {}
+    for ev in stored:
+        eid = ev.get("event_id") or slugify(ev.get("title", ""))
+        ev["event_id"] = eid
+        by_id[eid] = ev
+
+    truly_new: list[dict] = []
+    for ev in new_events:
+        eid = slugify(ev.get("title", ""))
+        ev["event_id"] = eid
+        if eid in by_id:
+            existing = by_id[eid]
+            existing_urls = {s.get("url") for s in existing.get("sources", [])}
+            for src in ev.get("sources", []):
+                if src.get("url") not in existing_urls:
+                    existing.setdefault("sources", []).append(src)
+                    existing_urls.add(src.get("url"))
+        else:
+            by_id[eid] = ev
+            truly_new.append(ev)
+
+    return list(by_id.values()), truly_new
 
 
 def record_metrics(mode: str, run_start: dt.datetime) -> None:
@@ -1438,7 +1525,7 @@ def rebuild_index() -> None:
     log("rebuilt docs/index.md")
 
 
-def rebuild_feed_pages() -> None:
+def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
     """One page per feed (docs/feeds/<feed>.md): the feed's top stories across all
     its topics for the latest day, plus its member topics with story counts. The
     page title carries the story count so the sidebar shows '(N)'. Built from the
@@ -1447,6 +1534,7 @@ def rebuild_feed_pages() -> None:
     all_topics = sorted({s["topic"] for s in load_sources()})
     feeds, topic_feed = load_feeds(all_topics)
     latest = max((r["date"] for r in index), default=None)
+    refresh_map: dict[str, str] = feed_last_refresh or {}
 
     for fkey, spec in feeds.items():
         ftopics = spec["topics"]
@@ -1458,7 +1546,15 @@ def rebuild_feed_pages() -> None:
         )) if latest else []
         lines = [f"# {spec['title']} ({len(rows)})" if rows else f"# {spec['title']}", ""]
         if rows:
-            lines += [f"## Top stories — {latest}", ""]
+            refresh_note = ""
+            ts_str = refresh_map.get(fkey)
+            if ts_str:
+                try:
+                    rt = dt.datetime.fromisoformat(ts_str)
+                    refresh_note = f" · _refreshed {rt.strftime('%H:%M UTC')}_"
+                except (ValueError, TypeError):
+                    pass
+            lines += [f"## Top stories — {latest}{refresh_note}", ""]
             lines += [_story_line(r, prefix="../") for r in rows]
             lines.append("")
         else:
@@ -1713,67 +1809,74 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     run_start = now_utc()
     date = run_start.date().isoformat()
     state = load_state()
-    # Redundant scheduled cron slots (see pipeline.yml) pass --skip-if-done so
-    # only the first slot to run does work; the rest exit for free. The workflow
-    # concurrency group serializes runs, so a later slot sees the earlier run's
-    # committed state. Manual (workflow_dispatch) runs never set this — they
-    # always force a full regenerate.
     if skip_if_done and _already_ran_today(state, date):
         log(f"daily already ran today ({date}); skipping redundant scheduled slot")
         return
     cutoff = compute_cutoff(state, run_start)
     seen = state.get("seen_links", {})
-    log(f"daily {date}: cutoff={cutoff.isoformat()} seen_links={len(seen)}")
+    source_last_ts: dict[str, str] = state.get("source_last_ts") or {}
+    log(f"daily {date}: cutoff={cutoff.isoformat()} "
+        f"seen_links={len(seen)} src_ts_pointers={len(source_last_ts)}")
 
     sources = load_sources()
     cfg = load_research_config()
     raw = fetch_all(sources)
-    items = filter_and_cap(raw, cutoff, seen, today=date)
+    # Only cluster items newer than each source's last-processed timestamp so
+    # hourly incremental runs don't reprocess events already clustered today.
+    items = filter_and_cap(raw, cutoff, seen, today=date, source_last_ts=source_last_ts)
     all_topics = sorted({s["topic"] for s in sources})
     feeds, topic_feed = load_feeds(all_topics)
 
-    # Stage 1: ONE global clustering pass across all feeds/topics, then derive
+    # Load events written by earlier runs today (empty on the first run).
+    stored_events = _load_today_events(state, date)
+
+    # Stage 1: ONE global clustering pass over genuinely new items, then derive
     # each event's topics + feeds + merged sources from its source items.
-    events = (assign_topics(attach_sources(stage1_cluster(items, feeds), items), items, topic_feed)
-              if items else [])
-    spanning = sum(1 for e in events if len(e.get("topics", [])) > 1)
-    log(f"clustered {len(items)} items -> {len(events)} global events ({spanning} cross-topic)")
+    new_events = (assign_topics(attach_sources(stage1_cluster(items, feeds), items), items, topic_feed)
+                  if items else [])
+    spanning = sum(1 for e in new_events if len(e.get("topics", [])) > 1)
+    log(f"clustered {len(items)} items -> {len(new_events)} new events "
+        f"({spanning} cross-topic), {len(stored_events)} stored from earlier today")
+
+    # Merge: source-merge duplicate events, collect genuinely new ones.
+    all_events, truly_new = _merge_new_events(stored_events, new_events)
 
     if dry_run:
         preview = [
             {"title": e["title"], "importance": e.get("importance"),
              "topics": e.get("topics"), "primary": e.get("primary_topic")}
-            for e in sorted(events, key=lambda e: e.get("importance", 0), reverse=True)[:30]
+            for e in sorted(all_events, key=lambda e: e.get("importance", 0), reverse=True)[:30]
         ]
         print(json.dumps(preview, ensure_ascii=False, indent=2))
         return
 
-    # No-op re-run guard: if nothing new survived dedup AND today's docs already
-    # exist, this is a same-day re-run — preserve the already-published content
-    # rather than clobbering it with quiet-day placeholders and wiping the index.
-    # (A genuinely quiet *first* run of the day has no docs yet, so it falls
-    # through and writes quiet-day docs as before.)
-    if not events and any(
-        (KIND_DIR["daily"] / t / f"{date}.md").exists() for t in all_topics
-    ):
-        log("no new items; preserving today's existing docs (no-op re-run)")
-        save_state(state, items, run_start)
-        record_metrics("daily", run_start)
-        log("daily run complete")
-        return
+    # No-op guard: nothing new since the last run.
+    if not truly_new:
+        if stored_events:
+            log("no new events since last run; updating source timestamps only")
+            save_state(state, items, run_start,
+                       today_events_data={"date": date, "events": all_events})
+            record_metrics("daily", run_start)
+            return
+        # First run of the day with no items — preserve existing docs if present.
+        if any((KIND_DIR["daily"] / t / f"{date}.md").exists() for t in all_topics):
+            log("no new items; preserving today's existing docs (no-op re-run)")
+            save_state(state, items, run_start)
+            record_metrics("daily", run_start)
+            return
 
-    # Research each qualifying story ONCE (per-feed budget), then reuse the
-    # enrichment everywhere the story appears.
-    selected = select_research(events, feeds, cfg, no_research=no_research)
+    # Research only the truly_new events; stored events are already enriched.
+    selected = select_research(truly_new, feeds, cfg, no_research=no_research)
     budgets = ", ".join(f"{k}={v['research_budget']}" for k, v in feeds.items())
-    log(f"researching {len(selected)} unique stories (per-feed budgets: {budgets})")
-    events = merge_enrichment(events, research_events(selected, date))
+    log(f"researching {len(selected)} new stories (per-feed budgets: {budgets})")
+    all_events = merge_enrichment(all_events, research_events(selected, date))
 
-    # Per-topic docs: each topic shows the top events whose topics include it.
+    # Per-topic docs: each topic shows the top events whose topics include it,
+    # drawn from the full merged set (stored + new).
     per_topic: dict[str, list[dict]] = {}
     for topic in all_topics:
         per_topic[topic] = sorted(
-            (e for e in events if topic in e.get("topics", [])),
+            (e for e in all_events if topic in e.get("topics", [])),
             key=lambda e: e.get("importance", 0), reverse=True,
         )[:EVENTS_PER_TOPIC]
         _write_topic_doc(topic, per_topic[topic], date)
@@ -1796,11 +1899,22 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
                 shown.append((e, display_topic[e["title"]]))
     build_search_index(shown, date)
 
-    save_state(state, items, run_start)
+    # Mark feeds that got new content this run so the feed pages can show a
+    # "refreshed HH:MM UTC" note (only updated when content actually changes).
+    affected = {fkey for ev in truly_new for fkey in ev.get("feeds", [])}
+    new_refresh = {fkey: run_start.isoformat() for fkey in affected}
+    feed_last_refresh: dict[str, str] = {
+        **dict(state.get("feed_last_refresh") or {}),
+        **new_refresh,
+    }
+
+    save_state(state, items, run_start,
+               today_events_data={"date": date, "events": all_events},
+               feed_last_refresh=new_refresh)
     rebuild_index()
     rebuild_archive()
     rebuild_topic_pages()
-    rebuild_feed_pages()
+    rebuild_feed_pages(feed_last_refresh=feed_last_refresh)
     record_metrics("daily", run_start)
     log("daily run complete")
 
