@@ -1397,36 +1397,6 @@
   },
   {
     "date": "2026-08-09",
-    "event_id": "canadas-british-columbia-declares-wildfire-emergency",
-    "title": "Canada's British Columbia declares wildfire emergency",
-    "summary": "British Columbia declares state of emergency as more than 20,000 residents flee uncontrolled wildfires.",
-    "theme": "Natural Disaster",
-    "importance": 3,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "wildfire",
-      "British Columbia",
-      "emergency",
-      "Canada"
-    ],
-    "url": "news/world/2026-08-09/#canadas-british-columbia-declares-wildfire-emergency",
-    "sources": [
-      {
-        "label": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOGpzM0lFcDJEUXlsRWdoazhKYnNIWmhMaDZOUjJPeDVvYXVrclZROTA5WHVFX2Z6NmVQcHEzQ2VaRU8tbmUyS1VOZVdGVklmbXhlRWRhVml2SVRaYzNNc2NGX2tSelFjM0UzUXZCbWZWYmtOSFh3TzFzSXJDSEZKLWg3U3g1MGdocVZxU0lkTzYxN3JsTDU5R0dobkhrMnVGcEw5Z0FB0gGrAUFVX3lxTFBwcDBwNVIxRmhKWnQ5TC1NNzctd09GQmdzSXBHNHFmT2ZrRzB4UlcwT2I2QjExTDZCbm50N0lwMWlNZjJMN05uN29adFE4RzhNTUZQZ29ncTJ1QllYOW5kamV4YTJjc1ZqUEs2S0tEMENiNHhVaFZWUEhvUUN1Z1lrcFhSY01WbWZOVEU0dWVjTDJmVFRrZ1dVMFRQQm1VeFFhMVRjU05IbU5GTQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "researched": false
-  },
-  {
-    "date": "2026-08-09",
     "event_id": "defense-manufacturer-ieh-compromised-by-phishing-attack-exposing-export-controlled-data",
     "title": "Defense manufacturer IEH compromised by phishing attack exposing export-controlled data",
     "summary": "U.S. defense manufacturer IEH was hit by a phishing attack that exposed potentially sensitive export-controlled data.",
@@ -1491,6 +1461,37 @@
       }
     ],
     "researched": true
+  },
+  {
+    "date": "2026-08-09",
+    "event_id": "openai-models-demonstrate-autonomous-hacking-capabilities-against-tech-startup",
+    "title": "OpenAI models demonstrate autonomous hacking capabilities against tech startup",
+    "summary": "OpenAI's AI models autonomously hacked a tech startup, signaling a significant shift in cybersecurity threats.",
+    "theme": "AI",
+    "importance": 4,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "autonomous hacking",
+      "AI security",
+      "cybersecurity",
+      "machine learning"
+    ],
+    "url": "news/gpt/2026-08-09/#openai-models-demonstrate-autonomous-hacking-capabilities-against-tech-startup",
+    "sources": [
+      {
+        "label": "Technology Org",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd2hRajYySTRxUnY3Y0c3RThvR0g5TzgzQWI3dE45bEQ1UjhGVXV1ZGxXY1NDWGJxeVhyWlFBeHZLYmhMcUNKOFZyVWU0ZWF1RURNb1hTUVg3dUQzWDJCSllZMkJhOTU5RnNFRVljenNXN0tRQ1JaN0I4WXExUng1RFNwaGZsaURVNUNwMkwwRjROVElkbUtGNUp4d25BcmRwazdFRGZESTU5amV0MDZqSHVNbGNiWWlDV09sclZ5OEw1SkpsN2hGTmU0azI?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "researched": false
   },
   {
     "date": "2026-08-09",
@@ -1687,6 +1688,37 @@
       {
         "label": "nytimes.com",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPazZWbERPVkQ3VzBVNTE1a1YyQkJaLTlmZElEWV9aMHZpQkhmMGd6cUk5cm1GYzF1cGNOSHRmR3N2bTYwb1VDN1lOSVJ0dG1tX0ZYSUJld0wxR0hoUEZqeVgwRzMxNFVrZUxKOG95SGRsQ2lIcEpsb1M4SHV2cXdHNmk0SmM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "researched": false
+  },
+  {
+    "date": "2026-08-09",
+    "event_id": "british-columbia-wildfires-force-mass-evacuation-as-state-of-emergency-declared",
+    "title": "British Columbia wildfires force mass evacuation as state of emergency declared",
+    "summary": "Out-of-control wildfires in British Columbia have forced thousands to evacuate as the Canadian government declares a state of emergency.",
+    "theme": "Disaster",
+    "importance": 4,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "wildfire",
+      "British Columbia",
+      "evacuation",
+      "state of emergency",
+      "Canada"
+    ],
+    "url": "news/world/2026-08-09/#british-columbia-wildfires-force-mass-evacuation-as-state-of-emergency-declared",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lSXhoYzMzTUlSUzc2YmZwQU9vZzNVTWs3MDFab3hKRWtoUXFmYzN3amdRQWk0MXNRU3dXVlZuZHoyQ2VtNXVPZ19kbXdqU3Vyak9TT3lTdlNhUQ?oc=5",
         "origin": "rss"
       }
     ],

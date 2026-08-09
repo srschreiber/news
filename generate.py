@@ -1560,6 +1560,8 @@ def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
         else:
             lines += ["_No stories yet._", ""]
 
+        lines += ["_Bars indicate estimated story importance (1 = minor · 5 = major)._", ""]
+
         # Member topics with their latest-day counts, linking to topic pages.
         counts = _event_counts(index)
         lines += ["## Topics", ""]

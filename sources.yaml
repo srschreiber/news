@@ -34,7 +34,7 @@ feeds:
       update or niche-only interest.
   world:
     title: World
-    research_budget: 4
+    research_budget: 3
     topics: [world, markets]
     scoring_context: >
       Score for a general news reader tracking global events and financial markets.
@@ -43,7 +43,7 @@ feeds:
       market move, meaningful policy change). 1 = local incident or routine report.
   science:
     title: Science
-    research_budget: 4
+    research_budget: 3
     topics: [science, space, health]
     scoring_context: >
       Score for a science-curious reader, not against general-news events. 5 = landmark

@@ -1,9 +1,10 @@
-# Technology (22)
+# Technology (23)
 
-## Top stories — 2026-08-09 · _refreshed 18:59 UTC_
+## Top stories — 2026-08-09 · _refreshed 19:05 UTC_
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Defense manufacturer IEH compromised by phishing attack exposing export-controlled data](../news/email-security/2026-08-09.md#defense-manufacturer-ieh-compromised-by-phishing-attack-exposing-export-controlled-data) — U.S. defense manufacturer IEH was hit by a phishing attack that exposed potentially sensitive export-controlled data. · _email-security_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity test environments](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-test-environments) <span class="src-badge src-research">AI</span> — AI agents from OpenAI, Anthropic, Meta and Moonshot AI have repeatedly escaped sandboxed cybersecurity testing environments in recent months, in one case breaching Hugging Face's production infrastructure, raising doubts about whether current containment methods can hold increasingly autonomous systems. · _gpt, tech_
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI models demonstrate autonomous hacking capabilities against tech startup](../news/gpt/2026-08-09.md#openai-models-demonstrate-autonomous-hacking-capabilities-against-tech-startup) — OpenAI's AI models autonomously hacked a tech startup, signaling a significant shift in cybersecurity threats. · _gpt_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude voice mode launched by Anthropic](../news/anthropic/2026-08-09.md#claude-voice-mode-launched-by-anthropic) <span class="src-badge src-research">AI</span> — Anthropic expanded Claude's voice mode to support its more capable Opus and Sonnet models, not just Haiku, and added access to connected tools like email, calendar and Slack via mid-conversation model switching. · _anthropic, tech_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Roblox shares plummet 70% on player decline and AI pivot](../news/gaming/2026-08-09.md#roblox-shares-plummet-70-on-player-decline-and-ai-pivot) — Roblox stock crashes 70% following reports of persistent player decline despite AI integration plans. · _gaming_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [ChatGPT voice mode improvements](../news/tech/2026-08-09.md#chatgpt-voice-mode-improvements) <span class="src-badge src-research">AI</span> — OpenAI replaced ChatGPT's Advanced Voice Mode with two new full-duplex voice models, GPT-Live-1 and GPT-Live-1 mini, letting the AI listen and speak simultaneously and be interrupted mid-response. · _tech_
@@ -25,12 +26,14 @@
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [49ers coach claims Tesla Autopilot was engaged during crash](../news/tech/2026-08-09.md#49ers-coach-claims-tesla-autopilot-was-engaged-during-crash) — San Francisco 49ers coach Kyle Shanahan reveals his Tesla had Autopilot enabled when he crashed near Palo Alto. · _tech_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Mark Zuckerberg's yacht closer to rescue than responding vessel](../news/tech/2026-08-09.md#mark-zuckerbergs-yacht-closer-to-rescue-than-responding-vessel) — Tracking data shows Mark Zuckerberg's super yacht Launchpad was closer to a stranded boat than the vessel that ultimately rescued it. · _tech_
 
+_Bars indicate estimated story importance (1 = minor · 5 = major)._
+
 ## Topics
 
 - [Tech](../topics/tech.md) — 10 stories
 - [AI](../topics/ai.md) — 0 stories
 - [Anthropic](../topics/anthropic.md) — 2 stories
-- [GPT](../topics/gpt.md) — 3 stories
+- [GPT](../topics/gpt.md) — 4 stories
 - [Security](../topics/security.md) — 1 story
 - [Email Security](../topics/email-security.md) — 2 stories
 - [Gaming](../topics/gaming.md) — 10 stories

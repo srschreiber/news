@@ -20,6 +20,8 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Hong Kong weather observatory records highest temperature at 36.9°C during Typhoon Dolphin](../news/science/2026-08-09.md#hong-kong-weather-observatory-records-highest-temperature-at-369c-during-typhoon-dolphin) — Hong Kong's meteorological service recorded a record high of 36.9°C (98°F) as Typhoon Dolphin brought warm air over the city. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Air-breathing satellite thruster tests very low Earth orbit frontier](../news/space/2026-08-09.md#air-breathing-satellite-thruster-tests-very-low-earth-orbit-frontier) — Air-breathing electric propulsion technology could enable satellites to operate in very low Earth orbit, a previously unexplored frontier. · _space_
 
+_Bars indicate estimated story importance (1 = minor · 5 = major)._
+
 ## Topics
 
 - [Science](../topics/science.md) — 10 stories

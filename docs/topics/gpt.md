@@ -1,10 +1,11 @@
-# GPT (3)
+# GPT (4)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity test environments](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-test-environments)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI models demonstrate autonomous hacking capabilities against tech startup](../news/gpt/2026-08-09.md#openai-models-demonstrate-autonomous-hacking-capabilities-against-tech-startup)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI introduces unlimited free ChatGPT text chats](../news/gpt/2026-08-09.md#openai-introduces-unlimited-free-chatgpt-text-chats)
 
