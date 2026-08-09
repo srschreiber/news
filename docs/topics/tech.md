@@ -6,6 +6,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity test environments](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-test-environments)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude voice mode launched by Anthropic](../news/anthropic/2026-08-09.md#claude-voice-mode-launched-by-anthropic)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Situational Awareness hedge fund invests $400M in Source Foundry chip startup](../news/markets/2026-08-09.md#situational-awareness-hedge-fund-invests-400m-in-source-foundry-chip-startup)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [ChatGPT voice mode improvements](../news/tech/2026-08-09.md#chatgpt-voice-mode-improvements)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic enables Claude Code auto mode by default](../news/tech/2026-08-09.md#anthropic-enables-claude-code-auto-mode-by-default)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Ransomware gangs target IT managers instead of executives](../news/tech/2026-08-09.md#ransomware-gangs-target-it-managers-instead-of-executives)
@@ -13,7 +14,6 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Windows 11 Weather app consumes over 1 GB of RAM](../news/tech/2026-08-09.md#windows-11-weather-app-consumes-over-1-gb-of-ram)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Historian Jill Lepore critiques Silicon Valley's tech leadership](../news/tech/2026-08-09.md#historian-jill-lepore-critiques-silicon-valleys-tech-leadership)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Surveillance camera evasion pattern prevents detection](../news/tech/2026-08-09.md#surveillance-camera-evasion-pattern-prevents-detection)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [AI detectors fuel new era of mistrust](../news/tech/2026-08-09.md#ai-detectors-fuel-new-era-of-mistrust)
 
 ## Earlier
 

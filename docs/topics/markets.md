@@ -1,9 +1,11 @@
-# Markets (3)
+# Markets (5)
 
 _Part of the [World](../feeds/world.md) feed · RSS only._
 
 ## Latest — 2026-08-09
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran negotiates Strait of Hormuz deal with US mediation](../news/markets/2026-08-09.md#iran-negotiates-strait-of-hormuz-deal-with-us-mediation)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Situational Awareness hedge fund invests $400M in Source Foundry chip startup](../news/markets/2026-08-09.md#situational-awareness-hedge-fund-invests-400m-in-source-foundry-chip-startup)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Atlassian stock surges 30% on margin expansion despite growth guidance reduction](../news/markets/2026-08-09.md#atlassian-stock-surges-30-on-margin-expansion-despite-growth-guidance-reduction)
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Installed Building Products increases dividends and buybacks amid softer earnings](../news/markets/2026-08-09.md#installed-building-products-increases-dividends-and-buybacks-amid-softer-earnings)
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [ITT raises full-year guidance after mixed Q2 2026 results](../news/markets/2026-08-09.md#itt-raises-full-year-guidance-after-mixed-q2-2026-results)

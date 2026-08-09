@@ -1,4 +1,4 @@
-# GPT (5)
+# GPT (6)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -7,6 +7,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity test environments](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-test-environments)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI models demonstrate autonomous hacking capabilities against tech startup](../news/gpt/2026-08-09.md#openai-models-demonstrate-autonomous-hacking-capabilities-against-tech-startup)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI offers unlimited free text chats and upgrades paid ChatGPT](../news/gpt/2026-08-09.md#openai-offers-unlimited-free-text-chats-and-upgrades-paid-chatgpt)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI removes ChatGPT text limits](../news/gpt/2026-08-09.md#openai-removes-chatgpt-text-limits)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI introduces unlimited free ChatGPT text chats](../news/gpt/2026-08-09.md#openai-introduces-unlimited-free-chatgpt-text-chats)
 
