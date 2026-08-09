@@ -6,9 +6,9 @@ on:
     # slots. --skip-if-done (scheduled runs only) means whichever fires first
     # does the work and the rest exit for free; the concurrency group serializes
     # them so a later slot sees the earlier run's committed state.
-    - cron: "30 13 * * *"   # daily attempt 1  13:30 UTC = 5:30 PST / 6:30 PDT
-    - cron: "30 14 * * *"   # daily attempt 2
-    - cron: "30 15 * * *"   # daily attempt 3
+    - cron: "30 11 * * *"   # daily attempt 1  11:30 UTC = 3:30 PST / 4:30 PDT
+    - cron: "30 12 * * *"   # daily attempt 2
+    - cron: "30 13 * * *"   # daily attempt 3
     - cron: "0 15 * * 0"    # weekly Sun 15:00 UTC
     - cron: "0 16 1 * *"    # monthly 1st 16:00 UTC
     - cron: "0 17 1 1 *"    # yearly Jan 1 17:00 UTC

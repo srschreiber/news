@@ -79,7 +79,7 @@ LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
 EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_PER_TOPIC = 3                  # of a topic's top events, consider these for research
-MIN_RESEARCH_IMPORTANCE = 4             # only research events at least this important (1-5)
+MIN_RESEARCH_IMPORTANCE = 3             # only research events at least this important (1-5)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (Haiku read call)
@@ -1096,12 +1096,12 @@ def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
     return kept
 
 
-def _story_line(r: dict) -> str:
+def _story_line(r: dict, prefix: str = "") -> str:
     """One home/feed story bullet: meter, title link, summary, topics."""
     desc = (r.get("summary") or "").strip()
     desc = f" — {desc}" if desc else ""
     topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
-    href = r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
+    href = prefix + r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
     return (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){desc} "
             f"· _{topics}_")
 
@@ -1435,7 +1435,7 @@ def rebuild_feed_pages() -> None:
         lines = [f"# {spec['title']} ({len(rows)})" if rows else f"# {spec['title']}", ""]
         if rows:
             lines += [f"## Top stories — {latest}", ""]
-            lines += [_story_line(r) for r in rows]
+            lines += [_story_line(r, prefix="../") for r in rows]
             lines.append("")
         else:
             lines += ["_No stories yet._", ""]
