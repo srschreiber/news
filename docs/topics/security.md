@@ -1,10 +1,11 @@
-# Security (1)
+# Security (2)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss & Co. suffers social engineering cyberattack](../news/security/2026-08-09.md#levi-strauss-co-suffers-social-engineering-cyberattack)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss suffers social engineering cyberattack exposing corporate data](../news/security/2026-08-09.md#levi-strauss-suffers-social-engineering-cyberattack-exposing-corporate-data)
 
 ## Earlier
 

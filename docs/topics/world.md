@@ -1,4 +1,4 @@
-# World (12)
+# World (13)
 
 _Part of the [World](../feeds/world.md) feed · AI-researched._
 
@@ -15,6 +15,7 @@ _Part of the [World](../feeds/world.md) feed · AI-researched._
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran negotiates Strait of Hormuz access with Oman as US maintains limited engagement](../news/world/2026-08-09.md#iran-negotiates-strait-of-hormuz-access-with-oman-as-us-maintains-limited-engagement)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukraine reports up to 50,000 North Korean troops deploying to Russia](../news/world/2026-08-09.md#ukraine-reports-up-to-50000-north-korean-troops-deploying-to-russia)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Netanyahu rejects president's Gaza peace plan](../news/world/2026-08-09.md#netanyahu-rejects-presidents-gaza-peace-plan)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Iranian demands disrupt Trump's plan to end regional conflict](../news/markets/2026-08-09.md#iranian-demands-disrupt-trumps-plan-to-end-regional-conflict)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Total solar eclipse August 12 reveals sun's corona](../news/space/2026-08-09.md#total-solar-eclipse-august-12-reveals-suns-corona)
 
 ## Earlier
