@@ -523,6 +523,7 @@ def assign_topics(events: list[dict], items: list[dict],
 def select_research(
     events: list[dict], feeds: dict, cfg: dict, no_research: bool = False,
     max_events: int = MAX_RESEARCHED_EVENTS,
+    remaining_budget: dict[str, int] | None = None,
 ) -> list[dict]:
     """Pick which events to research, per-FEED budget, breadth-first within a feed.
 
@@ -531,12 +532,18 @@ def select_research(
     importance gate; round-robin across the feed's topics up to that feed's
     `research_budget`. A story chosen once (it may span topics/feeds) is never
     chosen again — researched once, reused everywhere. `max_events` is the overall
-    run-wide safety net."""
+    run-wide safety net.
+
+    `remaining_budget` overrides per-feed budgets with today's remaining capacity
+    (full budget minus events already researched in earlier runs today)."""
     if no_research:
         return []
     chosen, chosen_ids = [], set()
-    for spec in feeds.values():
-        budget = int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET))
+    for fkey, spec in feeds.items():
+        if remaining_budget is not None:
+            budget = remaining_budget.get(fkey, 0)
+        else:
+            budget = int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET))
         rtopics = [t for t in spec.get("topics", []) if research_enabled(t, cfg)]
         # Each topic's top RESEARCH_PER_TOPIC important-enough events.
         by_topic = {
@@ -939,6 +946,7 @@ def save_state(
     run_start: dt.datetime,
     today_events_data: dict | None = None,
     feed_last_refresh: dict[str, str] | None = None,
+    research_used_today: dict[str, int] | None = None,
 ) -> None:
     seen = prune_seen(dict(state.get("seen_links", {})), run_start)
     today = run_start.date().isoformat()
@@ -962,17 +970,34 @@ def save_state(
     if feed_last_refresh:
         merged_feed_refresh.update(feed_last_refresh)
 
+    if research_used_today is not None:
+        research_used_payload: dict = {"date": today, "by_feed": research_used_today}
+    elif isinstance(state.get("research_used_today"), dict) and state["research_used_today"].get("date") == today:
+        research_used_payload = state["research_used_today"]
+    else:
+        research_used_payload = {"date": today, "by_feed": {}}
+
     payload: dict = {
         "last_run": run_start.isoformat(),
         "seen_links": seen,
         "source_last_ts": source_last_ts,
         "feed_last_refresh": merged_feed_refresh,
+        "research_used_today": research_used_payload,
     }
     if today_events_data is not None:
         payload["today_events"] = today_events_data
     elif "today_events" in state:
         payload["today_events"] = state["today_events"]
     STATE_FILE.write_text(json.dumps(payload, indent=2) + "\n")
+
+
+def _load_research_used(state: dict, date: str) -> dict[str, int]:
+    """Return per-feed research counts already used today, or {} if no match."""
+    stored = state.get("research_used_today")
+    if not isinstance(stored, dict) or stored.get("date") != date:
+        return {}
+    by_feed = stored.get("by_feed", {})
+    return {k: int(v) for k, v in by_feed.items() if isinstance(v, int)} if isinstance(by_feed, dict) else {}
 
 
 def _load_today_events(state: dict, date: str) -> list[dict]:
@@ -1829,8 +1854,9 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     all_topics = sorted({s["topic"] for s in sources})
     feeds, topic_feed = load_feeds(all_topics)
 
-    # Load events written by earlier runs today (empty on the first run).
+    # Load events and research usage from earlier runs today.
     stored_events = _load_today_events(state, date)
+    research_used = _load_research_used(state, date)
 
     # Stage 1: ONE global clustering pass over genuinely new items, then derive
     # each event's topics + feeds + merged sources from its source items.
@@ -1867,10 +1893,16 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             record_metrics("daily", run_start)
             return
 
-    # Research only the truly_new events; stored events are already enriched.
-    selected = select_research(truly_new, feeds, cfg, no_research=no_research)
-    budgets = ", ".join(f"{k}={v['research_budget']}" for k, v in feeds.items())
-    log(f"researching {len(selected)} new stories (per-feed budgets: {budgets})")
+    # Research only the truly_new events, consuming only remaining daily budget.
+    remaining = {
+        fkey: max(0, int(spec.get("research_budget", 0)) - research_used.get(fkey, 0))
+        for fkey, spec in feeds.items()
+    }
+    budgets = ", ".join(f"{k}={remaining[k]}/{spec['research_budget']}"
+                        for k, spec in feeds.items())
+    selected = select_research(truly_new, feeds, cfg, no_research=no_research,
+                               remaining_budget=remaining)
+    log(f"researching {len(selected)} new stories (remaining budget: {budgets})")
     all_events = merge_enrichment(all_events, research_events(selected, date))
 
     # Per-topic docs: each topic shows the top events whose topics include it,
@@ -1901,6 +1933,12 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
                 shown.append((e, display_topic[e["title"]]))
     build_search_index(shown, date)
 
+    # Update per-feed research usage counts for today.
+    updated_research_used = dict(research_used)
+    for ev in selected:
+        fkey = ev.get("primary_feed") or DEFAULT_FEED
+        updated_research_used[fkey] = updated_research_used.get(fkey, 0) + 1
+
     # Mark feeds that got new content this run so the feed pages can show a
     # "refreshed HH:MM UTC" note (only updated when content actually changes).
     affected = {fkey for ev in truly_new for fkey in ev.get("feeds", [])}
@@ -1912,7 +1950,8 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
 
     save_state(state, items, run_start,
                today_events_data={"date": date, "events": all_events},
-               feed_last_refresh=new_refresh)
+               feed_last_refresh=new_refresh,
+               research_used_today=updated_research_used)
     rebuild_index()
     rebuild_archive()
     rebuild_topic_pages()
