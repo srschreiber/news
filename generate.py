@@ -1006,7 +1006,12 @@ def _load_today_events(state: dict, date: str) -> list[dict]:
     if not isinstance(stored, dict) or stored.get("date") != date:
         return []
     events = stored.get("events", [])
-    return events if isinstance(events, list) else []
+    if not isinstance(events, list):
+        return []
+    # Strip ref — it's a per-run temporary key. Stale refs from a prior run
+    # collide with new ref assignments in research_events() and cause
+    # merge_enrichment() to overwrite the wrong events' summaries.
+    return [{k: v for k, v in e.items() if k != "ref"} for e in events]
 
 
 def _merge_new_events(
