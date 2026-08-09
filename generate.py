@@ -22,6 +22,7 @@ import datetime as dt
 import html
 import json
 import os
+import random
 import re
 import sys
 import threading
@@ -545,6 +546,7 @@ def select_research(
         else:
             budget = int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET))
         rtopics = [t for t in spec.get("topics", []) if research_enabled(t, cfg)]
+        random.shuffle(rtopics)
         # Each topic's top RESEARCH_PER_TOPIC important-enough events.
         by_topic = {
             t: [e for e in
