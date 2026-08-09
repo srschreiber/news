@@ -446,8 +446,8 @@ def test_select_research_dedupes_cross_topic():
 
 def test_select_research_skips_unimportant_topics():
     events = [
-        {"title": "meh1", "importance": 2, "topics": ["python"]},
-        {"title": "meh2", "importance": 3, "topics": ["python"]},
+        {"title": "meh1", "importance": 1, "topics": ["python"]},
+        {"title": "meh2", "importance": 2, "topics": ["python"]},
     ]
     feeds = {"technology": {"title": "T", "research_budget": 6, "topics": ["python"]}}
     assert g.select_research(events, feeds, _CFG) == []   # no top event clears the bar

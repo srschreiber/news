@@ -1,6 +1,6 @@
 # World (10)
 
-_Part of the [World](../feeds/world.md) feed._
+_Part of the [World](../feeds/world.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 

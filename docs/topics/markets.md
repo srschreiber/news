@@ -1,6 +1,6 @@
 # Markets (6)
 
-_Part of the [World](../feeds/world.md) feed._
+_Part of the [World](../feeds/world.md) feed · RSS only._
 
 ## Latest — 2026-08-09
 

@@ -27,14 +27,48 @@ feeds:
     title: Technology
     research_budget: 2
     topics: [tech, ai, anthropic, gpt, security, email-security, gaming, golang, python, postgres]
+    scoring_context: >
+      Score for a tech-industry reader. 5 = industry-shaping (landmark model release,
+      critical zero-day exploited at scale, major platform shutdown). 3 = significant
+      (notable product launch, substantial breach, widely-adopted tool). 1 = minor
+      update or niche-only interest.
   world:
     title: World
     research_budget: 2
     topics: [world, markets]
+    scoring_context: >
+      Score for a general news reader tracking global events and financial markets.
+      5 = globally consequential (major military escalation, historic political event,
+      severe market crash). 3 = significant (notable geopolitical development, major
+      market move, meaningful policy change). 1 = local incident or routine report.
   science:
     title: Science
     research_budget: 2
     topics: [science, space, health]
+    scoring_context: >
+      Score for a science-curious reader, not against general-news events. 5 = landmark
+      within science (Nobel-calibre discovery, major FDA approval, first-ever mission
+      milestone). 3 = significant (well-replicated study with real-world implications,
+      meaningful drug trial result, notable space mission update). 1 = routine research
+      note or incremental finding.
+  tech-research:
+    title: Tech Research
+    research_budget: 0
+    topics: [tech-research]
+    scoring_context: >
+      Score for a CS researcher or ML practitioner reading papers and lab blogs.
+      5 = landmark result (widely-cited breakthrough, new SOTA on a major benchmark,
+      transformative method). 3 = significant (solid paper from a top venue or lab,
+      practical technique with clear applications). 1 = incremental or narrow niche.
+  patent-ip:
+    title: Patents
+    research_budget: 0
+    topics: [patent-ip]
+    scoring_context: >
+      Score for a patent attorney, IP counsel, or tech legal reader. 5 = major
+      precedent (Supreme Court or landmark Federal Circuit ruling reshaping a whole
+      industry). 3 = significant (notable court decision, major USPTO policy change,
+      high-profile patent dispute outcome). 1 = routine filing or minor procedural order.
 
 # Web research (Stage 2: Haiku reads + Sonnet polishes) is the main cost. On by
 # default; turned off for niche/low-value topics (rendered from RSS summaries).
@@ -48,6 +82,8 @@ research:
     python: false
     gaming: false
     markets: false
+    tech-research: false
+    patent-ip: false
 
 sources:
   # --- World news (non-tech) ---
@@ -193,3 +229,74 @@ sources:
   - name: "Google News — medical research"
     query: "medical research OR medicine breakthrough"
     topic: health
+
+  # === TECH RESEARCH FEED (research disabled — raw RSS summaries only) ===
+  # --- arXiv CS categories ---
+  - name: "arXiv — Computation and Language"
+    url: https://rss.arxiv.org/rss/cs.CL
+    topic: tech-research
+  - name: "arXiv — Artificial Intelligence"
+    url: https://rss.arxiv.org/rss/cs.AI
+    topic: tech-research
+  - name: "arXiv — Machine Learning"
+    url: https://rss.arxiv.org/rss/cs.LG
+    topic: tech-research
+  - name: "arXiv — Computer Vision"
+    url: https://rss.arxiv.org/rss/cs.CV
+    topic: tech-research
+  - name: "arXiv — Robotics"
+    url: https://rss.arxiv.org/rss/cs.RO
+    topic: tech-research
+  - name: "arXiv — Cryptography and Security"
+    url: https://rss.arxiv.org/rss/cs.CR
+    topic: tech-research
+  - name: "arXiv — Distributed Computing"
+    url: https://rss.arxiv.org/rss/cs.DC
+    topic: tech-research
+  # --- Industrial research labs ---
+  - name: "Google Research Blog"
+    url: https://research.google/blog/rss/
+    topic: tech-research
+  - name: "Microsoft Research Blog"
+    url: https://www.microsoft.com/en-us/research/feed/
+    topic: tech-research
+  - name: "Apple Machine Learning Research"
+    url: https://machinelearning.apple.com/rss.xml
+    topic: tech-research
+  - name: "NVIDIA Technical Blog"
+    url: https://developer.nvidia.com/blog/tag/research/feed/
+    topic: tech-research
+  - name: "Meta Engineering — ML"
+    url: https://engineering.fb.com/category/ml-applications/feed/
+    topic: tech-research
+  # --- University research labs ---
+  - name: "Stanford AI Lab"
+    url: https://ai.stanford.edu/blog/feed.xml
+    topic: tech-research
+  - name: "Berkeley AI Research (BAIR)"
+    url: https://bair.berkeley.edu/blog/feed.xml
+    topic: tech-research
+  - name: "MIT — Computers"
+    url: https://news.mit.edu/topic/mitcomputers-rss.xml
+    topic: tech-research
+  - name: "MIT — Artificial Intelligence"
+    url: https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml
+    topic: tech-research
+  # --- Applied engineering ---
+  - name: "IEEE Spectrum"
+    url: https://spectrum.ieee.org/feeds/feed.rss
+    topic: tech-research
+
+  # === PATENTS FEED (research disabled — raw RSS summaries only) ===
+  - name: "Patently-O"
+    url: https://patentlyo.com/feed
+    topic: patent-ip
+  - name: "IPWatchdog"
+    url: https://ipwatchdog.com/feed/
+    topic: patent-ip
+  - name: "Federal Circuit — Opinions and Orders"
+    url: https://www.cafc.uscourts.gov/category/opinion-order/feed/
+    topic: patent-ip
+  - name: "USPTO PTAB Decisions"
+    url: https://data.uspto.gov/ptab-feed/notifications.rss
+    topic: patent-ip

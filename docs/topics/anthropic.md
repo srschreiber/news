@@ -1,6 +1,6 @@
 # Anthropic (2)
 
-_Part of the [Technology](../feeds/technology.md) feed._
+_Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 

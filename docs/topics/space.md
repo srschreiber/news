@@ -1,6 +1,6 @@
 # Space (3)
 
-_Part of the [Science](../feeds/science.md) feed._
+_Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 

@@ -298,6 +298,7 @@ def load_feeds(all_topics: list[str], path: Path = SOURCES_FILE) -> tuple[dict, 
             "title": (spec.get("title") or key.replace("-", " ").title()),
             "topics": topics,
             "research_budget": int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET)),
+            "scoring_context": (spec.get("scoring_context") or "").strip(),
         }
         for t in topics:
             topic_feed.setdefault(t, key)
@@ -708,12 +709,32 @@ def _client():
     return _CLIENT
 
 
-def _sys(prompt_name: str) -> list[dict]:
+def _sys(prompt_name: str, extra: str = "") -> list[dict]:
     text = (PROMPTS_DIR / prompt_name).read_text()
     ci = load_custom_instructions()
     if ci:
         text += "\n\n## Editorial instructions (must follow)\n" + ci + "\n"
+    if extra:
+        text += "\n\n" + extra
     return [{"type": "text", "text": text, "cache_control": {"type": "ephemeral"}}]
+
+
+def _feed_scoring_context(feeds: dict) -> str:
+    """Build a feed-scoring block to inject into the cluster prompt."""
+    lines = [
+        "## Feed scoring contexts",
+        "",
+        "Score importance 1–5 relative to the **primary feed** of each event's topics,",
+        "not against a single global baseline. Use the reader context below:",
+        "",
+    ]
+    for spec in feeds.values():
+        ctx = spec.get("scoring_context", "").strip()
+        if not ctx:
+            continue
+        topics_str = ", ".join(spec["topics"])
+        lines.append(f"- **{spec['title']}** (topics: {topics_str}): {ctx}")
+    return "\n".join(lines)
 
 
 def _text_of(message) -> str:
@@ -734,7 +755,7 @@ def _extract_briefing(text: str) -> str:
     return text[idx + 1:].strip() if idx != -1 else text
 
 
-def stage1_cluster(items: list[dict]) -> list[dict]:
+def stage1_cluster(items: list[dict], feeds: dict) -> list[dict]:
     """Cluster+score+extract keywords via Haiku with structured output.
 
     ONE global pass over items from all feeds/topics — the same story surfaced
@@ -747,7 +768,7 @@ def stage1_cluster(items: list[dict]) -> list[dict]:
         resp = client.messages.create(
             model=CLUSTER_MODEL,
             max_tokens=STAGE1_MAX_TOKENS,
-            system=_sys("cluster.md"),
+            system=_sys("cluster.md", extra=_feed_scoring_context(feeds)),
             messages=[{"role": "user", "content": user}],
             output_config={"format": {"type": "json_schema", "schema": EVENTS_SCHEMA}},
         )
@@ -1161,7 +1182,8 @@ def _daily_link(topic: str, stem: str, counts: dict[tuple, int]) -> str:
     return f"[{stem} ({n} {unit})]({KIND_DIR['daily'].name}/{topic}/{stem}.md)"
 
 
-TOPIC_DISPLAY = {"ai": "AI", "gpt": "GPT", "api": "API"}
+TOPIC_DISPLAY = {"ai": "AI", "gpt": "GPT", "api": "API",
+                 "tech-research": "Tech Research", "patent-ip": "Patent / IP"}
 
 
 def topic_display(topic: str) -> str:
@@ -1468,6 +1490,7 @@ def rebuild_topic_pages() -> None:
 
     topics = sorted({s["topic"] for s in load_sources()})
     feeds, topic_feed = load_feeds(topics)
+    research_cfg = load_research_config()
     news_dir = KIND_DIR["daily"].name
     for topic in topics:
         dates = by_topic.get(topic, {})
@@ -1478,7 +1501,8 @@ def rebuild_topic_pages() -> None:
         disp = topic_display(topic)
         lines = [f"# {disp} ({len(latest_events)})" if latest else f"# {disp}", ""]
         fkey = topic_feed.get(topic, DEFAULT_FEED)
-        lines += [f"_Part of the [{feeds[fkey]['title']}](../feeds/{fkey}.md) feed._", ""]
+        badge = "AI-researched" if research_enabled(topic, research_cfg) else "RSS only"
+        lines += [f"_Part of the [{feeds[fkey]['title']}](../feeds/{fkey}.md) feed · {badge}._", ""]
 
         if latest:
             lines += [f"## Latest — {latest}", ""]
@@ -1708,7 +1732,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
 
     # Stage 1: ONE global clustering pass across all feeds/topics, then derive
     # each event's topics + feeds + merged sources from its source items.
-    events = (assign_topics(attach_sources(stage1_cluster(items), items), items, topic_feed)
+    events = (assign_topics(attach_sources(stage1_cluster(items, feeds), items), items, topic_feed)
               if items else [])
     spanning = sum(1 for e in events if len(e.get("topics", [])) > 1)
     log(f"clustered {len(items)} items -> {len(events)} global events ({spanning} cross-topic)")
