@@ -1,4 +1,4 @@
-# World (10)
+# World (11)
 
 _Part of the [World](../feeds/world.md) feed · AI-researched._
 
@@ -10,10 +10,11 @@ _Part of the [World](../feeds/world.md) feed · AI-researched._
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Syria reaches agreement with Russia on control of military bases](../news/world/2026-08-09.md#syria-reaches-agreement-with-russia-on-control-of-military-bases)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Taiwan develops drone 'hellscape' defense strategy against potential Chinese invasion](../news/world/2026-08-09.md#taiwan-develops-drone-hellscape-defense-strategy-against-potential-chinese-invasion)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [British Columbia wildfires force mass evacuation as state of emergency declared](../news/world/2026-08-09.md#british-columbia-wildfires-force-mass-evacuation-as-state-of-emergency-declared)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Israel rejects the president of the United States' Gaza peace plan](../news/world/2026-08-09.md#israel-rejects-the-president-of-the-united-states-gaza-peace-plan)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran negotiates Strait of Hormuz access with Oman as US maintains limited engagement](../news/world/2026-08-09.md#iran-negotiates-strait-of-hormuz-access-with-oman-as-us-maintains-limited-engagement)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukraine reports up to 50,000 North Korean troops deploying to Russia](../news/world/2026-08-09.md#ukraine-reports-up-to-50000-north-korean-troops-deploying-to-russia)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Total solar eclipse August 12 reveals sun's corona](../news/space/2026-08-09.md#total-solar-eclipse-august-12-reveals-suns-corona)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Iran negotiations proceed amid US pressure](../news/world/2026-08-09.md#iran-negotiations-proceed-amid-us-pressure)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Houthis attack Saudi oil facility and claim broader operations](../news/world/2026-08-09.md#houthis-attack-saudi-oil-facility-and-claim-broader-operations)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Russia and Ukraine exchange strikes as UN confirms warehouse destruction](../news/world/2026-08-09.md#russia-and-ukraine-exchange-strikes-as-un-confirms-warehouse-destruction)
 
 ## Earlier
 
