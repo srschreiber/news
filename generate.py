@@ -73,7 +73,7 @@ FUNFACTS_HISTORY_MAX = 120
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
 WRITE_MODEL = "claude-sonnet-5"         # Stage 2b — polishes final summaries
-ROLLUP_MODEL = "claude-sonnet-5"
+ROLLUP_MODEL = "claude-haiku-4-5"
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
@@ -981,6 +981,7 @@ def build_search_index(shown: list[tuple], date: str) -> None:
                 "keywords": ev.get("keywords", []),
                 "url": f"news/{display_topic}/{date}/#{slugify(ev['title'])}",
                 "sources": ev.get("sources", []),
+                "researched": bool(ev.get("researched", False)),
             }
         )
     index.sort(key=lambda r: (r["date"], -r.get("importance", 0)), reverse=True)
@@ -1123,7 +1124,8 @@ def _story_line(r: dict, prefix: str = "") -> str:
     desc = f" — {desc}" if desc else ""
     topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
     href = prefix + r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
-    return (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){desc} "
+    badge = ' <span class="src-badge src-research">AI</span>' if r.get("researched") else ""
+    return (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){badge}{desc} "
             f"· _{topics}_")
 
 

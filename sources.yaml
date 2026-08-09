@@ -25,7 +25,7 @@ custom_instructions: |
 feeds:
   technology:
     title: Technology
-    research_budget: 2
+    research_budget: 6
     topics: [tech, ai, anthropic, gpt, security, email-security, gaming, golang, python, postgres]
     scoring_context: >
       Score for a tech-industry reader. 5 = industry-shaping (landmark model release,
@@ -34,7 +34,7 @@ feeds:
       update or niche-only interest.
   world:
     title: World
-    research_budget: 2
+    research_budget: 4
     topics: [world, markets]
     scoring_context: >
       Score for a general news reader tracking global events and financial markets.
@@ -43,7 +43,7 @@ feeds:
       market move, meaningful policy change). 1 = local incident or routine report.
   science:
     title: Science
-    research_budget: 2
+    research_budget: 4
     topics: [science, space, health]
     scoring_context: >
       Score for a science-curious reader, not against general-news events. 5 = landmark
@@ -53,7 +53,7 @@ feeds:
       note or incremental finding.
   tech-research:
     title: Tech Research
-    research_budget: 0
+    research_budget: 3
     topics: [tech-research]
     scoring_context: >
       Score for a CS researcher or ML practitioner reading papers and lab blogs.
@@ -62,7 +62,7 @@ feeds:
       practical technique with clear applications). 1 = incremental or narrow niche.
   patent-ip:
     title: Patents
-    research_budget: 0
+    research_budget: 2
     topics: [patent-ip]
     scoring_context: >
       Score for a patent attorney, IP counsel, or tech legal reader. 5 = major
@@ -82,8 +82,6 @@ research:
     python: false
     gaming: false
     markets: false
-    tech-research: false
-    patent-ip: false
 
 sources:
   # --- World news (non-tech) ---
