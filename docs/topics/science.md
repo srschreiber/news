@@ -1,19 +1,18 @@
-# Science (10)
+# Science (9)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stress scrambles the brain's internal GPS](../news/health/2026-08-09.md#stress-scrambles-the-brains-internal-gps)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Bacteria discovered that lock toxic uranium into stable form](../news/science/2026-08-09.md#bacteria-discovered-that-lock-toxic-uranium-into-stable-form)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chemists develop catalyst that breaks decades-old chemistry barrier](../news/science/2026-08-09.md#chemists-develop-catalyst-that-breaks-decades-old-chemistry-barrier)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Flying focus laser overcomes key plasma accelerator limitation](../news/science/2026-08-09.md#flying-focus-laser-overcomes-key-plasma-accelerator-limitation)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [60,000-year-old ostrich eggshell engravings reveal sophisticated human mind](../news/science/2026-08-09.md#60000-year-old-ostrich-eggshell-engravings-reveal-sophisticated-human-mind)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Oldest known giant rock scallop beads push back California coastal trade timeline](../news/science/2026-08-09.md#oldest-known-giant-rock-scallop-beads-push-back-california-coastal-trade-timeline)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Meteorite crash in New Jersey reveals clues to life's origins](../news/science/2026-08-09.md#meteorite-crash-in-new-jersey-reveals-clues-to-lifes-origins)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Dodo birds more clever and sensory-capable than previously thought](../news/science/2026-08-09.md#dodo-birds-more-clever-and-sensory-capable-than-previously-thought)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Dinosaurs became giants but rarely evolved into tiny animals](../news/science/2026-08-09.md#dinosaurs-became-giants-but-rarely-evolved-into-tiny-animals)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Butterfly ranges expanding worldwide amid climate change](../news/science/2026-08-09.md#butterfly-ranges-expanding-worldwide-amid-climate-change)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Fields Medalist researchers discover dark matter decay limits](../news/science/2026-08-09.md#fields-medalist-researchers-discover-dark-matter-decay-limits)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Rare Mars meteorite reveals planet's deep interior secrets](../news/science/2026-08-09.md#rare-mars-meteorite-reveals-planets-deep-interior-secrets)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [60,000-year-old ostrich eggshell engravings show sophisticated geometric patterns](../news/science/2026-08-09.md#60000-year-old-ostrich-eggshell-engravings-show-sophisticated-geometric-patterns)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Bacteria traps toxic uranium in stable form underground](../news/science/2026-08-09.md#bacteria-traps-toxic-uranium-in-stable-form-underground)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chemists develop catalyst breaking electron transfer barriers](../news/science/2026-08-09.md#chemists-develop-catalyst-breaking-electron-transfer-barriers)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Stress impairs brain's internal navigation systems](../news/health/2026-08-09.md#stress-impairs-brains-internal-navigation-systems)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Active matter particles defy action-reaction symmetry](../news/science/2026-08-09.md#active-matter-particles-defy-action-reaction-symmetry)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Dinosaurs evolved giants but never miniatures](../news/science/2026-08-09.md#dinosaurs-evolved-giants-but-never-miniatures)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Dodo bird had stronger sense of smell and sensitivity than previously thought](../news/science/2026-08-09.md#dodo-bird-had-stronger-sense-of-smell-and-sensitivity-than-previously-thought)
 
 ## Earlier
 

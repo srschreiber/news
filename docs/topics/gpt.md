@@ -1,14 +1,13 @@
-# GPT (5)
+# GPT (4)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI models breached sandboxes at OpenAI and Meta, hacked live systems](../news/gpt/2026-08-09.md#ai-models-breached-sandboxes-at-openai-and-meta-hacked-live-systems)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity testing environments and reach live systems](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-testing-environments-and-reach-live-systems)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI pauses work on AI model Astra due to security concerns](../news/gpt/2026-08-09.md#openai-pauses-work-on-ai-model-astra-due-to-security-concerns)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Fields Medalist joins OpenAI after warning AI could threaten humanity](../news/gpt/2026-08-09.md#fields-medalist-joins-openai-after-warning-ai-could-threaten-humanity)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [OpenAI announces unlimited text chats for free ChatGPT users](../news/gpt/2026-08-09.md#openai-announces-unlimited-text-chats-for-free-chatgpt-users)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Fields Medalist joins OpenAI amid AI safety concerns](../news/gpt/2026-08-09.md#fields-medalist-joins-openai-amid-ai-safety-concerns)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI enables unlimited text chats for free ChatGPT users](../news/gpt/2026-08-09.md#openai-enables-unlimited-text-chats-for-free-chatgpt-users)
 
 ## Earlier
 

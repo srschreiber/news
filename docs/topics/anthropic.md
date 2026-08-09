@@ -1,11 +1,10 @@
-# Anthropic (2)
+# Anthropic (1)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Meta launches Muse Code AI agent to challenge OpenAI and Anthropic](../news/anthropic/2026-08-09.md#meta-launches-muse-code-ai-agent-to-challenge-openai-and-anthropic)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Anthropic sets Claude Code to Auto Mode by default to protect developers](../news/anthropic/2026-08-09.md#anthropic-sets-claude-code-to-auto-mode-by-default-to-protect-developers)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Claude Code defaults to auto mode despite 11% test failure rate](../news/anthropic/2026-08-09.md#claude-code-defaults-to-auto-mode-despite-11-test-failure-rate)
 
 ## Earlier
 

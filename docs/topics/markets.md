@@ -1,15 +1,11 @@
-# Markets (6)
+# Markets (2)
 
 _Part of the [World](../feeds/world.md) feed · RSS only._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Stock market showing pattern observed only 4 times since 1997](../news/markets/2026-08-09.md#stock-market-showing-pattern-observed-only-4-times-since-1997)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Stock market volatility spike eases in Korea as leveraged trades flush out](../news/markets/2026-08-09.md#stock-market-volatility-spike-eases-in-korea-as-leveraged-trades-flush-out)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Wall Street assesses surprise July jobs report as stocks jump](../news/markets/2026-08-09.md#wall-street-assesses-surprise-july-jobs-report-as-stocks-jump)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [European stocks draw investor interest as earnings strengthen](../news/markets/2026-08-09.md#european-stocks-draw-investor-interest-as-earnings-strengthen)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Federal Reserve news spells bad news for stock market investors](../news/markets/2026-08-09.md#federal-reserve-news-spells-bad-news-for-stock-market-investors)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Warren Buffett compares stock market to church with casino attached](../news/markets/2026-08-09.md#warren-buffett-compares-stock-market-to-church-with-casino-attached)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Stock market shows warning signals appearing only 4 times since 1997](../news/markets/2026-08-09.md#stock-market-shows-warning-signals-appearing-only-4-times-since-1997)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI-driven tech volatility reaches dot-com era extremes](../news/markets/2026-08-09.md#ai-driven-tech-volatility-reaches-dot-com-era-extremes)
 
 ## Earlier
 

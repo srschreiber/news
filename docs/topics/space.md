@@ -1,12 +1,10 @@
-# Space (3)
+# Space (1)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Air-breathing electric propulsion enables exploration of very low Earth orbit](../news/space/2026-08-09.md#air-breathing-electric-propulsion-enables-exploration-of-very-low-earth-orbit)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse on August 12 to reveal outer atmosphere](../news/space/2026-08-09.md#total-solar-eclipse-on-august-12-to-reveal-outer-atmosphere)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [SpaceX launches Starlink satellites from California](../news/space/2026-08-09.md#spacex-launches-starlink-satellites-from-california)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse on August 12 to reveal coronal features](../news/space/2026-08-09.md#total-solar-eclipse-on-august-12-to-reveal-coronal-features)
 
 ## Earlier
 

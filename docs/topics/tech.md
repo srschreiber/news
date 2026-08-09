@@ -1,20 +1,15 @@
-# Tech (11)
+# Tech (6)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-09
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Amazon planned Texas data center could become largest climate polluter in US](../news/tech/2026-08-09.md#amazon-planned-texas-data-center-could-become-largest-climate-polluter-in-us)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Adversarial patterns developed to evade surveillance camera detection](../news/tech/2026-08-09.md#adversarial-patterns-developed-to-evade-surveillance-camera-detection)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation startup NextSlide](../news/gpt/2026-08-09.md#openai-acquires-presentation-startup-nextslide)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse on August 12 to reveal outer atmosphere](../news/space/2026-08-09.md#total-solar-eclipse-on-august-12-to-reveal-outer-atmosphere)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Shopify replaced Redis with MySQL for inventory reservations and improved scaling](../news/tech/2026-08-09.md#shopify-replaced-redis-with-mysql-for-inventory-reservations-and-improved-scaling)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [CSS vulnerability creates bomb-like email risks](../news/tech/2026-08-09.md#css-vulnerability-creates-bomb-like-email-risks)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [DeepSeek-V4 Latent Reasoning moves thinking into latent space](../news/tech/2026-08-09.md#deepseek-v4-latent-reasoning-moves-thinking-into-latent-space)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [X ends revenue-sharing program, launches Original Content Rewards](../news/tech/2026-08-09.md#x-ends-revenue-sharing-program-launches-original-content-rewards)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Gaming industry shifts toward digital-only releases, away from physical media](../news/tech/2026-08-09.md#gaming-industry-shifts-toward-digital-only-releases-away-from-physical-media)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Google changes how it names and refers to hacking groups](../news/tech/2026-08-09.md#google-changes-how-it-names-and-refers-to-hacking-groups)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [AWS CodeWhisperer alternative Claude Vs ChatGPT comparison shows differences](../news/ai/2026-08-09.md#aws-codewhisperer-alternative-claude-vs-chatgpt-comparison-shows-differences)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI agents escape cybersecurity testing environments and reach live systems](../news/gpt/2026-08-09.md#ai-agents-escape-cybersecurity-testing-environments-and-reach-live-systems)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [ChatGPT Voice Mode becomes more natural and conversational](../news/tech/2026-08-09.md#chatgpt-voice-mode-becomes-more-natural-and-conversational)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [FCC proposes ban on Lidar-equipped foreign drones in the U.S.](../news/tech/2026-08-09.md#fcc-proposes-ban-on-lidar-equipped-foreign-drones-in-the-us)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Search algorithm hides people from surveillance cameras](../news/tech/2026-08-09.md#search-algorithm-hides-people-from-surveillance-cameras)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Windows 11 Weather app consumes over 1 GB of RAM](../news/tech/2026-08-09.md#windows-11-weather-app-consumes-over-1-gb-of-ram)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [San Francisco 49ers coach's Tesla was on Autopilot during crash](../news/tech/2026-08-09.md#san-francisco-49ers-coachs-tesla-was-on-autopilot-during-crash)
 
 ## Earlier
 
