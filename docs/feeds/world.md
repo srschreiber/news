@@ -1,19 +1,22 @@
-# World (1)
+# World (10)
 
-<<<<<<< Updated upstream
-## Top stories — 2026-08-10 · _refreshed 00:01 UTC_
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T00:12:34.371591+00:00">refreshed 00:12 UTC</time></em>
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Retail investors increase US stock market participation](../news/markets/2026-08-10.md#retail-investors-increase-us-stock-market-participation) — Retail investors are turning back to US stocks. · _markets_
-=======
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T00:03:58.565435+00:00">refreshed 00:03 UTC</time></em>
-
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Retail investors shift back toward US stocks](../news/markets/2026-08-10.md#retail-investors-shift-back-toward-us-stocks) — Retail investors are returning to US stock investments. · _markets_
->>>>>>> Stashed changes
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Russia and Ukraine conduct escalating cross-border strikes](../news/world/2026-08-10.md#russia-and-ukraine-conduct-escalating-cross-border-strikes) — Russia and Ukraine exchanged lethal overnight attacks with civilian casualties and damage to Odesa port. · _world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Stock market volatility and crash warnings signal market uncertainty](../news/markets/2026-08-10.md#stock-market-volatility-and-crash-warnings-signal-market-uncertainty) — Multiple financial analyses warn of potential stock market decline and investor caution in August 2026. · _markets_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [SpaceX reports first earnings as a public company](../news/markets/2026-08-10.md#spacex-reports-first-earnings-as-a-public-company) — SpaceX released its inaugural earnings report following its public company listing. · _markets_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Russia and Syria reach agreement on military base operations](../news/world/2026-08-10.md#russia-and-syria-reach-agreement-on-military-base-operations) <span class="src-badge src-research">AI</span> — Syria and Russia signed a memorandum on August 9, 2026 to end Russia's dedicated military use of the Hmeimim air base and Tartus naval base, converting them into joint training centers as Syria's new government rebalances ties between Moscow and the West. · _world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Houthi attacks continue in Yemen with regional spillover](../news/world/2026-08-10.md#houthi-attacks-continue-in-yemen-with-regional-spillover) <span class="src-badge src-research">AI</span> — Houthi forces killed seven to eleven people and wounded dozens in a missile-and-drone attack on Yemen's port city of Mokha on August 9, 2026, while also striking a major Saudi Aramco refinery, escalating regional tensions since the 2022 ceasefire collapse. · _world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Puerto Rico implements water rationing due to severe drought](../news/world/2026-08-10.md#puerto-rico-implements-water-rationing-due-to-severe-drought) — Puerto Rico began mandatory water rationing as hundreds of thousands face supply shortages from intense drought. · _world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Typhoon Dolphin disrupts China's eastern coast with major flight cancellations](../news/world/2026-08-10.md#typhoon-dolphin-disrupts-chinas-eastern-coast-with-major-flight-cancellations) — Typhoon Dolphin caused Shanghai to cancel over 1,300 flights as China's strongest storm of the year hit the eastern coast. · _world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Danube water crisis forces Romania to extend nuclear reactor operation](../news/world/2026-08-10.md#danube-water-crisis-forces-romania-to-extend-nuclear-reactor-operation) — Romania extended nuclear reactor output by nine days and conducted blasts to divert water amid record Danube River lows. · _world_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Pope Leo XIV renews appeal to end Ukraine and Sudan wars](../news/world/2026-08-10.md#pope-leo-xiv-renews-appeal-to-end-ukraine-and-sudan-wars) — The Pope called for an end to the cycle of violence in Ukraine and Sudan and urged diplomatic solutions. · _world_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Iran geopolitical situation update amid Middle East tensions](../news/world/2026-08-10.md#iran-geopolitical-situation-update-amid-middle-east-tensions) — Institute for the Study of War published a special report on Iran's strategic position and Israeli dilemmas. · _world_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
-- [World](../topics/world.md) — 0 stories
-- [Markets](../topics/markets.md) — 1 story
+- [World](../topics/world.md) — 8 stories
+- [Markets](../topics/markets.md) — 2 stories
 

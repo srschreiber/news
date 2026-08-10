@@ -1,15 +1,8 @@
-# Security (2)
+# Security
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-## Latest — 2026-08-09
-
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss & Co. suffers social engineering cyberattack](../news/security/2026-08-09.md#levi-strauss-co-suffers-social-engineering-cyberattack)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss suffers social engineering cyberattack exposing corporate data](../news/security/2026-08-09.md#levi-strauss-suffers-social-engineering-cyberattack-exposing-corporate-data)
-
-## Earlier
-
-[2026-08-08 (10 stories)](../news/security/2026-08-08.md) · [2026-08-07 (11 stories)](../news/security/2026-08-07.md) · [2026-08-06 (12 stories)](../news/security/2026-08-06.md) · [2026-08-05 (11 stories)](../news/security/2026-08-05.md) · [2026-08-04 (10 stories)](../news/security/2026-08-04.md) · [2026-08-03 (10 stories)](../news/security/2026-08-03.md) · [2026-08-02 (2 stories)](../news/security/2026-08-02.md) · [2026-08-01 (11 stories)](../news/security/2026-08-01.md) · [2026-07-31 (10 stories)](../news/security/2026-07-31.md) · [2026-07-30 (11 stories)](../news/security/2026-07-30.md) · [2026-07-29 (10 stories)](../news/security/2026-07-29.md) · [2026-07-28 (10 stories)](../news/security/2026-07-28.md) · [2026-07-27 (1 story)](../news/security/2026-07-27.md)
+_No briefings yet._
 
 ## Rollups
 

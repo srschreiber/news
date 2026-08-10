@@ -1,14 +1,11 @@
-# Markets (1)
+# Markets (2)
 
 _Part of the [World](../feeds/world.md) feed · RSS only._
 
 ## Latest — 2026-08-10
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Retail investors shift back toward US stocks](../news/markets/2026-08-10.md#retail-investors-shift-back-toward-us-stocks)
-
-## Earlier
-
-[2026-08-09 (10 stories)](../news/markets/2026-08-09.md) · [2026-08-08 (2 stories)](../news/markets/2026-08-08.md) · [2026-08-07 (1 story)](../news/markets/2026-08-07.md) · [2026-08-06 (2 stories)](../news/markets/2026-08-06.md) · [2026-08-05 (3 stories)](../news/markets/2026-08-05.md) · [2026-08-04 (3 stories)](../news/markets/2026-08-04.md) · [2026-08-03 (3 stories)](../news/markets/2026-08-03.md) · [2026-08-02 (4 stories)](../news/markets/2026-08-02.md) · [2026-08-01 (3 stories)](../news/markets/2026-08-01.md) · [2026-07-31 (6 stories)](../news/markets/2026-07-31.md) · [2026-07-30 (8 stories)](../news/markets/2026-07-30.md) · [2026-07-29 (4 stories)](../news/markets/2026-07-29.md) · [2026-07-28 (4 stories)](../news/markets/2026-07-28.md) · [2026-07-27 (7 stories)](../news/markets/2026-07-27.md) · [2026-07-26 (7 stories)](../news/markets/2026-07-26.md) · [2026-07-25 (3 stories)](../news/markets/2026-07-25.md)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Stock market volatility and crash warnings signal market uncertainty](../news/markets/2026-08-10.md#stock-market-volatility-and-crash-warnings-signal-market-uncertainty)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [SpaceX reports first earnings as a public company](../news/markets/2026-08-10.md#spacex-reports-first-earnings-as-a-public-company)
 
 ## Rollups
 
