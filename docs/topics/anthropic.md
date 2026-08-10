@@ -1,8 +1,10 @@
-# Anthropic
+# Anthropic (1)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-_No briefings yet._
+## Latest — 2026-08-10
+
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic shifts Claude Code to automatic mode by default for paid plans](../news/anthropic/2026-08-10.md#anthropic-shifts-claude-code-to-automatic-mode-by-default-for-paid-plans)
 
 ## Rollups
 

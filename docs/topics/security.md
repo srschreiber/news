@@ -1,8 +1,10 @@
-# Security
+# Security (1)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-_No briefings yet._
+## Latest — 2026-08-10
+
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss & Co. hit by social engineering cyberattack](../news/security/2026-08-10.md#levi-strauss-co-hit-by-social-engineering-cyberattack)
 
 ## Rollups
 
