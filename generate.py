@@ -81,6 +81,7 @@ ROLLUP_MODEL = "claude-haiku-4-5"
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
+RESEARCH_CLUSTER_BATCH = 60            # max items per research clustering call (avoids token limit)
 EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_PER_TOPIC = 3                  # of a topic's top events, consider these for research
 MIN_RESEARCH_IMPORTANCE = 3             # only research events at least this important (1-5)
@@ -914,9 +915,28 @@ def stage1_cluster(
 
 
 def stage1_research_cluster(items: list[dict], feeds: dict) -> list[dict]:
-    """Cluster research items using the research-specific prompt and schema."""
-    return stage1_cluster(items, feeds, prompt_name="research_cluster.md",
-                          schema=RESEARCH_SCHEMA, label="(research-clustering)")
+    """Cluster research items in batches to stay within output token limits."""
+    if not items:
+        return []
+    batches = [items[i:i + RESEARCH_CLUSTER_BATCH]
+               for i in range(0, len(items), RESEARCH_CLUSTER_BATCH)]
+    if len(batches) == 1:
+        return stage1_cluster(items, feeds, prompt_name="research_cluster.md",
+                              schema=RESEARCH_SCHEMA, label="(research-clustering)")
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for idx, batch in enumerate(batches):
+        evs = stage1_cluster(
+            batch, feeds, prompt_name="research_cluster.md",
+            schema=RESEARCH_SCHEMA,
+            label=f"(research-clustering {idx + 1}/{len(batches)})",
+        )
+        for ev in evs:
+            key = slugify(ev.get("title", ""))
+            if key not in seen:
+                seen.add(key)
+                merged.append(ev)
+    return merged
 
 
 def stage2a_read(event: dict, date: str) -> dict | None:
