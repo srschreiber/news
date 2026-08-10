@@ -1,6 +1,6 @@
-# Technology (38)
+# Technology (36)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T18:49:52.090904+00:00">refreshed 18:49 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T19:52:04.424783+00:00">refreshed 19:52 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](../news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model) — Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU. · _ai_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns) — OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers. · _anthropic, gpt, security_
@@ -79,8 +79,6 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft named Leader in IDC MarketScape for MDR/MXDR](../news/email-security/2026-08-10.md#microsoft-named-leader-in-idc-marketscape-for-mdrmxdr) — Microsoft is recognized as a Leader in the 2026 IDC MarketScape for managed detection and response services. · _email-security_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Model Context Protocol Version 2.0 C# SDK announced](../news/python/2026-08-10.md#model-context-protocol-version-20-c-sdk-announced) — A C# SDK for Model Context Protocol Version 2.0 has been announced for developers. · _python_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Adobe rolls out AI-powered product discovery for shopping](../news/ai/2026-08-10.md#adobe-rolls-out-ai-powered-product-discovery-for-shopping) — Adobe launches AI-powered product discovery features integrated with large language models to improve online shopping experiences. · _ai_
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Brex Monitors AI Agent Networks Rather Than Code](../news/ai/2026-08-10.md#brex-monitors-ai-agent-networks-rather-than-code) — Brex shifts AI agent oversight from code inspection to network monitoring, assuming agents could perform any task. · _ai_
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Eye Tracking Reveals Divergence Between Human Reading and AI Processing](../news/ai/2026-08-10.md#eye-tracking-reveals-divergence-between-human-reading-and-ai-processing) — Neuroscience research using eye tracking shows where human reading comprehension and AI text processing differ. · _ai_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NeoFS S3 Gateway v0.45.1 improves performance](../news/golang/2026-08-10.md#neofs-s3-gateway-v0451-improves-performance) — NeoFS S3 Gateway version 0.45.1 optimizes read and write performance through SDK RC21 updates. · _golang_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
@@ -91,9 +89,9 @@ _Bars indicate estimated story importance (1 = minor · 5 = major)._
 - [AI](../topics/ai.md) — 10 stories
 - [Anthropic](../topics/anthropic.md) — 10 stories
 - [GPT](../topics/gpt.md) — 10 stories
-- [Security](../topics/security.md) — 11 stories
+- [Security](../topics/security.md) — 12 stories
 - [Email Security](../topics/email-security.md) — 3 stories
 - [Golang](../topics/golang.md) — 1 story
 - [Python](../topics/python.md) — 1 story
-- [Postgres](../topics/postgres.md) — 2 stories
+- [Postgres](../topics/postgres.md) — 3 stories
 

@@ -54,6 +54,7 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
 ### [Science](feeds/science.md)
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [The president of the United States questions childhood vaccine schedule](news/health/2026-08-10.md#the-president-of-the-united-states-questions-childhood-vaccine-schedule) — The Trump administration changes course to question the standard childhood vaccine schedule. · _health_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
 
     <ul class="takeaways">
@@ -70,7 +71,22 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Experimental GLP-1 pill achieves 12% weight loss in 36 weeks](news/health/2026-08-10.md#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks) — An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks. · _health_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Discovery of slow electrons in 2D materials for memory devices](news/science/2026-08-10.md#discovery-of-slow-electrons-in-2d-materials-for-memory-devices) — Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI improves tropical cyclone forecasting by 30 hours](news/science/2026-08-10.md#ai-improves-tropical-cyclone-forecasting-by-30-hours) — AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms. · _science_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Infected tadpoles cool themselves rather than fever to combat viruses](news/science/2026-08-10.md#infected-tadpoles-cool-themselves-rather-than-fever-to-combat-viruses) — Researchers discover that infected tadpoles reduce body temperature rather than increase it to fight viral infections, challenging conventional understanding of fever as a universal immune response. · _science_
+
+### [Computer Science](research-feeds/tech-research.md)
+
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [GeoPT enables physics-informed AI models to simulate real-world physical scenarios with improved efficiency and accuracy](research/tech-research/2026-08-10.md#geopt-enables-physics-informed-ai-models-to-simulate-real-world-physical-scenarios-with-improved-efficiency-and-accuracy) <span class="src-badge src-research">AI Researched</span> — MIT and Tsinghua researchers unveiled GeoPT, a physics-informed AI pre-training method that lets models simulate how objects respond to forces like wind, water, and collisions, potentially reducing the need for costly physical testing. · _tech-research_
+
+    <ul class="takeaways">
+    <li>Trained on 1.3 million samples of synthetic particle-shape interactions</li>
+    <li>Reaches peak performance twice as fast as leading models</li>
+    <li>Needs up to 60% less training data</li>
+    <li>Simulated boat hulls handling air and waves 4x faster than baselines</li>
+    <li>Tested on fighter jets, vehicle collisions, and untrained 3D light physics</li>
+    <li>Presented at ICML in July 2026</li>
+    </ul>
+
+    Sources: [MIT News](https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810) <span class="src-badge src-research">Web Search</span>, [MIT — Computers](https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810) <span class="src-badge src-rss">RSS</span>, [MIT — Artificial Intelligence](https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810) <span class="src-badge src-rss">RSS</span>
+
 
 ### [Climate & Ecological Resilience](research-feeds/climate-resilience.md)
 

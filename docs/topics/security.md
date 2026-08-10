@@ -1,4 +1,4 @@
-# Security (11)
+# Security (12)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -6,6 +6,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra development due to cybersecurity concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-development-due-to-cybersecurity-concerns)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI releases GPT-5.6-Cyber for security researchers](../news/gpt/2026-08-10.md#openai-releases-gpt-56-cyber-for-security-researchers)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability actively exploited in attacks](../news/security/2026-08-10.md#metabase-zero-day-vulnerability-actively-exploited-in-attacks)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Progress LoadMaster critical flaw actively exploited by attackers](../news/security/2026-08-10.md#progress-loadmaster-critical-flaw-actively-exploited-by-attackers)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Belgian eID software vulnerabilities affect 2 million users and 60+ agencies](../news/security/2026-08-10.md#belgian-eid-software-vulnerabilities-affect-2-million-users-and-60-agencies)

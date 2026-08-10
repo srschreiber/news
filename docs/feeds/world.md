@@ -1,6 +1,6 @@
-# World (11)
+# World (10)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T18:49:52.090904+00:00">refreshed 18:49 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T19:52:04.424783+00:00">refreshed 19:52 UTC</time></em>
 
 - <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [Iran closes Strait of Hormuz, demands US concessions](../news/world/2026-08-10.md#iran-closes-strait-of-hormuz-demands-us-concessions) — Iran insists it will keep the Strait of Hormuz closed until the United States agrees to its demands. · _markets, world_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Stock market indicator flashes warning unseen since dot-com bubble](../news/markets/2026-08-10.md#stock-market-indicator-flashes-warning-unseen-since-dot-com-bubble) — A stock market indicator has triggered a warning signal not observed since the dot-com bubble era. · _markets_
@@ -12,12 +12,11 @@
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [US stock market near record highs amid Hormuz uncertainty](../news/markets/2026-08-10.md#us-stock-market-near-record-highs-amid-hormuz-uncertainty) — The U.S. stock market drifts near all-time records as traders monitor the Strait of Hormuz situation and oil prices rise. · _markets_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China leverages capital markets to fund AI and chip competition with U.S.](../news/markets/2026-08-10.md#china-leverages-capital-markets-to-fund-ai-and-chip-competition-with-us) — China is using its capital markets as a strategic tool to fund AI and semiconductor development in its competition against the United States. · _markets_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Berkshire Hathaway reaches highest stock price under CEO Abel](../news/markets/2026-08-10.md#berkshire-hathaway-reaches-highest-stock-price-under-ceo-abel) — Berkshire Hathaway shares climb to their highest level since Abel became CEO, driven by strong earnings and stock buybacks. · _markets_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [JPMorgan raises S&P 500 price target on visible AI monetization](../news/markets/2026-08-10.md#jpmorgan-raises-sp-500-price-target-on-visible-ai-monetization) — JPMorgan increased its S&P 500 price target citing increasingly visible AI monetization opportunities. · _markets_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
-- [World](../topics/world.md) — 12 stories
+- [World](../topics/world.md) — 13 stories
 - [Markets](../topics/markets.md) — 10 stories
 
