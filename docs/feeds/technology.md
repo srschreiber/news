@@ -1,6 +1,6 @@
-# Technology (36)
+# Technology (33)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T19:52:04.424783+00:00">refreshed 19:52 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T20:36:20.469535+00:00">refreshed 20:36 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](../news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model) — Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU. · _ai_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns) — OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers. · _anthropic, gpt, security_
@@ -73,19 +73,16 @@
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Over 181,000 AI meeting recordings exposed in note-taking app breach](../news/tech/2026-08-10.md#over-181000-ai-meeting-recordings-exposed-in-note-taking-app-breach) — A note-taking app left over 181,000 AI meeting recordings wide open, exposing sensitive audio content. · _tech_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Boeing sells eVTOL subsidiaries to Archer Aviation](../news/tech/2026-08-10.md#boeing-sells-evtol-subsidiaries-to-archer-aviation) — Boeing is divesting three electric vertical takeoff and landing subsidiaries, including autonomous aircraft developer Wisk Aero, to Archer Aviation. · _tech_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China's Long March 7A rocket explodes after liftoff](../news/tech/2026-08-10.md#chinas-long-march-7a-rocket-explodes-after-liftoff) — China's Long March 7A rocket experienced a flight anomaly and exploded approximately 85 seconds after launch. · _tech, world_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Sila secures $1.4 billion Pentagon loan for battery production](../news/tech/2026-08-10.md#sila-secures-14-billion-pentagon-loan-for-battery-production) — Battery materials startup Sila receives a $1.4 billion Department of Defense loan to scale production at its Washington State facility. · _tech_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Tencent expands global access to Hy3 large language model](../news/ai/2026-08-10.md#tencent-expands-global-access-to-hy3-large-language-model) — Tencent is broadening international availability of its Hy3 AI language model. · _ai_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Naver invests $7 million in Anthropic](../news/anthropic/2026-08-10.md#naver-invests-7-million-in-anthropic) — South Korea's Naver invests $7 million in Anthropic to shift its AI strategy and expand global partnerships. · _anthropic_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft named Leader in IDC MarketScape for MDR/MXDR](../news/email-security/2026-08-10.md#microsoft-named-leader-in-idc-marketscape-for-mdrmxdr) — Microsoft is recognized as a Leader in the 2026 IDC MarketScape for managed detection and response services. · _email-security_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Model Context Protocol Version 2.0 C# SDK announced](../news/python/2026-08-10.md#model-context-protocol-version-20-c-sdk-announced) — A C# SDK for Model Context Protocol Version 2.0 has been announced for developers. · _python_
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Adobe rolls out AI-powered product discovery for shopping](../news/ai/2026-08-10.md#adobe-rolls-out-ai-powered-product-discovery-for-shopping) — Adobe launches AI-powered product discovery features integrated with large language models to improve online shopping experiences. · _ai_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NeoFS S3 Gateway v0.45.1 improves performance](../news/golang/2026-08-10.md#neofs-s3-gateway-v0451-improves-performance) — NeoFS S3 Gateway version 0.45.1 optimizes read and write performance through SDK RC21 updates. · _golang_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
-- [Tech](../topics/tech.md) — 10 stories
+- [Tech](../topics/tech.md) — 11 stories
 - [AI](../topics/ai.md) — 10 stories
 - [Anthropic](../topics/anthropic.md) — 10 stories
 - [GPT](../topics/gpt.md) — 10 stories

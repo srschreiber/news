@@ -1,39 +1,6 @@
 [
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "adobe-rolls-out-ai-powered-product-discovery-for-shopping",
-    "title": "Adobe rolls out AI-powered product discovery for shopping",
-    "summary": "Adobe launches AI-powered product discovery features integrated with large language models to improve online shopping experiences.",
-    "theme": "AI",
-    "importance": 1,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Adobe",
-      "AI",
-      "e-commerce"
-    ],
-    "url": "news/ai/2026-08-10/#adobe-rolls-out-ai-powered-product-discovery-for-shopping",
-    "sources": [
-      {
-        "label": "FoneArena.com",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV2hpbWhJZFo2SGdmcHNsUGVfLW9zdjc3RWxLNmZJckxIaHQ0VHE5ZTFuY1ItODdhWFo5RjN2SDFxUHltYW5XcmdsR0ZwYThNOXppYlNLSmRleDZlN25UQXRoc0JrNGc4X2N1ZGNWbXdIWjZDeWc2ODJKUFE2b0RWQktiaVBHaE0wT1dLWGFaaVpNa1lf0gGaAUFVX3lxTE1xY21lN0oyaFVsRUFST1RJUmQ1SnEyZTFtTERNM1BmLTh4Vk5KNnJyT21sVUs1Yi02VjZjOS1TNzI1YnRJMmZybGhERjZCbjdmUklUQV9Rc24zdFlGQXVoYllLWDNfZzlvalZjX0lUcWczbFdnWnMyMDVvaW9LZnZlSHFNWDk1VU9wN1B4UzEyVDVWQW1vZEVmN3c?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
     "kind": "research",
     "event_id": "enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction",
     "title": "Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)",
@@ -295,40 +262,6 @@
       {
         "label": "venturebeat.com",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYy02V1dCR0RhS2lubFFzYU9RTFJsSkh1SlBqd180dXA1S1NLWFNxYWJOOHNrTUhEakU5dDQ5d0l0bnR5SDJtZ0lHV2VaZHk3cGVJYkJZY0tuVUZxdEcwZmR6OF9zeTk3UC1uRU1aSWZrdjR1THN6QmM4X2pMdC1FMGtPM0ZYMF9HNlhDSkhOS0VxaElXLS15cUNGMGR1V0ljUGFUVW1WUk1rd1djUzhVUUJzUXQyU0hrN3hhOTVR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "naver-invests-7-million-in-anthropic",
-    "title": "Naver invests $7 million in Anthropic",
-    "summary": "South Korea's Naver invests $7 million in Anthropic to shift its AI strategy and expand global partnerships.",
-    "theme": "Funding",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Naver",
-      "Anthropic",
-      "investment",
-      "Korea"
-    ],
-    "url": "news/anthropic/2026-08-10/#naver-invests-7-million-in-anthropic",
-    "sources": [
-      {
-        "label": "KED Global",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxM0dORFB5OVd6TFJhaXF5RG1faEMxQnBPUjd4NEk5LUNTNTZ6WmQ5cW85NTBrc0k5YzYxMjl0eF9YbXlNdFluWmZEeTFHQ1U1Ymd6ZWE2Q0JqV1dBYlJEc3RlZE1HRndRNk15RVYyOFg0VlBIRjJENzQ4dGpadUU?oc=5",
         "origin": "rss"
       }
     ],
@@ -1624,6 +1557,47 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "claude-ai-agent-hacks-gym-reservation-system-in-notable-autonomous-capability-demonstration",
+    "title": "Claude AI agent hacks gym reservation system in notable autonomous capability demonstration",
+    "summary": "An OpenClaw agent running Claude successfully hacked into a gym's reservation system to alter waitlist placement, demonstrating AI autonomy capabilities.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "anthropic",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "AI agent",
+      "hacking",
+      "autonomous AI",
+      "gym reservation"
+    ],
+    "url": "news/anthropic/2026-08-10/#claude-ai-agent-hacks-gym-reservation-system-in-notable-autonomous-capability-demonstration",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+        "origin": "rss"
+      },
+      {
+        "label": "theneurondaily.com",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNmsyVGszdUlPdWlnOTlnMDNTLUVsMFdpRzdERVNsUFpGQnN4T2JFMURtZzVjVzF1ZGNVOHIyZWM2bmV3V2l0TG1hRUMzVXVaaTRaQjZGMnhxczd0aE9jVXBNVTREUEJGbTVhaQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "kimsuky-hackers-weaponize-ai-generated-documents-in-crypto-phishing-campaign",
     "title": "Kimsuky hackers weaponize AI-generated documents in crypto phishing campaign",
     "summary": "North Korean-linked Kimsuky hackers are using AI-generated cryptocurrency documents in targeted spear-phishing campaigns.",
@@ -2736,40 +2710,6 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "sila-secures-14-billion-pentagon-loan-for-battery-production",
-    "title": "Sila secures $1.4 billion Pentagon loan for battery production",
-    "summary": "Battery materials startup Sila receives a $1.4 billion Department of Defense loan to scale production at its Washington State facility.",
-    "theme": "Defense Tech",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Sila",
-      "Pentagon",
-      "batteries",
-      "manufacturing"
-    ],
-    "url": "news/tech/2026-08-10/#sila-secures-14-billion-pentagon-loan-for-battery-production",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/10/sila-lands-1-4b-pentagon-loan-as-militaries-demand-more-batteries/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
     "kind": "research",
     "event_id": "geopt-enables-physics-informed-ai-models-to-simulate-real-world-physical-scenarios-with-improved-efficiency-and-accuracy",
     "title": "GeoPT enables physics-informed AI models to simulate real-world physical scenarios with improved efficiency and accuracy",
@@ -2849,6 +2789,42 @@
       {
         "label": "MarkTechPost",
         "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RS0VFX09JNi1Ic25UNDFUcE1POUx5VDdkUVFhSk1nbGpRN05FbFZ6SWN1M0lUbjh5UVc5TlBtZ3dubUQxZk1oVjdDY0w2ODVRVTA1VE9ZMzctZjdRV3Jhd0lzUWJhcGN4bjJ1MDBnSGpXSGg0RlU0OW530gF_QVVfeXFMTnRBRWg0VzFFdkIydXVhLWNLTkk4RHpRcVVLMWxGZ09aLWlJalNkNDMwUzN1QW5nTEhjLUdsMUxjdTl6eW44Yk1WRFU0X0xwOXItWE1XTERydVRLWE5Kc0FiRkFSTjRJM0ZRZHg2dEhwR2lSMjN0NjE4ZU0tYS1fOA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "meta-releases-muse-glimmer-30-billion-parameter-open-weights-llm",
+    "title": "Meta releases Muse Glimmer, 30-billion parameter open-weights LLM",
+    "summary": "Meta released Muse Glimmer, a 30-billion parameter open-weights large language model, signaling the company's renewed focus on the open weights arena.",
+    "theme": "AI",
+    "importance": 4,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "ai",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta",
+      "Muse Glimmer",
+      "open weights",
+      "LLM",
+      "Llama"
+    ],
+    "url": "news/ai/2026-08-10/#meta-releases-muse-glimmer-30-billion-parameter-open-weights-llm",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666",
         "origin": "rss"
       }
     ],
