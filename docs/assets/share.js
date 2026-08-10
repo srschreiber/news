@@ -1,3 +1,16 @@
+// Convert feed-page "refreshed" timestamps to the browser's local timezone.
+(function () {
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("time.feed-refresh").forEach(function (el) {
+      var iso = el.getAttribute("datetime");
+      if (!iso) return;
+      var d = new Date(iso);
+      if (isNaN(d)) return;
+      el.textContent = "refreshed " + d.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"});
+    });
+  });
+})();
+
 // Adds a "copy link" button to each story heading on briefing pages so a reader
 // can share a direct link that scrolls straight to that story. Deep-linking
 // itself already works (each heading has a slug anchor) — this just makes it

@@ -1581,7 +1581,10 @@ def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
             if ts_str:
                 try:
                     rt = dt.datetime.fromisoformat(ts_str)
-                    refresh_note = f" · _refreshed {rt.strftime('%H:%M UTC')}_"
+                    utc_label = rt.strftime("%H:%M UTC")
+                    refresh_note = (f' · <em><time class="feed-refresh"'
+                                   f' datetime="{rt.isoformat()}">'
+                                   f'refreshed {utc_label}</time></em>')
                 except (ValueError, TypeError):
                     pass
             lines += [f"## Top stories — {latest}{refresh_note}", ""]

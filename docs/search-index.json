@@ -1,9 +1,15 @@
 [
   {
     "date": "2026-08-10",
+<<<<<<< Updated upstream
     "event_id": "retail-investors-increase-us-stock-market-participation",
     "title": "Retail investors increase US stock market participation",
     "summary": "Retail investors are turning back to US stocks.",
+=======
+    "event_id": "retail-investors-shift-back-toward-us-stocks",
+    "title": "Retail investors shift back toward US stocks",
+    "summary": "Retail investors are returning to US stock investments.",
+>>>>>>> Stashed changes
     "theme": "Markets",
     "importance": 2,
     "topics": [
@@ -16,9 +22,15 @@
     "keywords": [
       "retail investors",
       "US stocks",
+<<<<<<< Updated upstream
       "market participation"
     ],
     "url": "news/markets/2026-08-10/#retail-investors-increase-us-stock-market-participation",
+=======
+      "market sentiment"
+    ],
+    "url": "news/markets/2026-08-10/#retail-investors-shift-back-toward-us-stocks",
+>>>>>>> Stashed changes
     "sources": [
       {
         "label": "The Star",

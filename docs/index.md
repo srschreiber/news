@@ -14,7 +14,11 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
 ### [World](feeds/world.md)
 
+<<<<<<< Updated upstream
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Retail investors increase US stock market participation](news/markets/2026-08-10.md#retail-investors-increase-us-stock-market-participation) — Retail investors are turning back to US stocks. · _markets_
+=======
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Retail investors shift back toward US stocks](news/markets/2026-08-10.md#retail-investors-shift-back-toward-us-stocks) — Retail investors are returning to US stock investments. · _markets_
+>>>>>>> Stashed changes
 
 <div class="fact">
 <div class="fact-label">📅 On this day &middot; 2019</div>
@@ -23,7 +27,7 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
 <div class="fact funfact">
 <div class="fact-label">💡 Fact of the day</div>
-<div class="fact-text">Approximately 2,000 thunderstorms occur worldwide at any given time, totaling around 16 million annually. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+<div class="fact-text">Shakira was turned down by her school choir in second grade, with her teacher criticizing her strong vibrato as sounding &quot;like a goat.&quot; <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
 </div>
 
 
