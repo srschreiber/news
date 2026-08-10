@@ -1,39 +1,50 @@
-# Science (26)
+# Science (27)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:47:27.356390+00:00">refreshed 17:47 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T18:02:34.916774+00:00">refreshed 18:02 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
-    - AI tools Evo1 and Evo2 trained on millions of genomes
-    - ~300 designs synthesized, 16 proved viable
-    - AI-designed phage mix beat resistance that natural phages couldn't
-    - Published in Science; led by Samuel King and Brian Hie
-    - Biosecurity experts flag risks of designing biology from scratch
+
+    <ul class="takeaways">
+    <li>AI tools Evo1 and Evo2 trained on millions of genomes</li>
+    <li>~300 designs synthesized, 16 proved viable</li>
+    <li>AI-designed phage mix beat resistance that natural phages couldn&#x27;t</li>
+    <li>Published in Science; led by Samuel King and Brian Hie</li>
+    <li>Biosecurity experts flag risks of designing biology from scratch</li>
+    </ul>
 
     Sources: [My Stateline](https://www.mystateline.com/news/scientists-engineer-novel-viruses-with-ai-to-fight-unstoppable-bacterial-threats/) <span class="src-badge src-research">Research</span>, [XenoSpectrum](https://xenospectrum.com/en/ai-generated-phage-genome-evo2-stanford/) <span class="src-badge src-research">Research</span>, [Phys.org](https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html) <span class="src-badge src-rss">RSS</span>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [DESI Legacy Imaging Surveys releases largest 2D map of the universe](../news/science/2026-08-10.md#desi-legacy-imaging-surveys-releases-largest-2d-map-of-the-universe) — The DESI Legacy Imaging Surveys team releases a 5.6-trillion-pixel map of the universe containing nearly 4 billion celestial objects. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Experimental GLP-1 pill achieves 12% weight loss in 36 weeks](../news/health/2026-08-10.md#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks) — An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks. · _health_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Western Europe records hottest June-July on temperature record](../news/science/2026-08-10.md#western-europe-records-hottest-june-july-on-temperature-record) <span class="src-badge src-research">AI Researched</span> — Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain. · _science, world_
-    - Combined June-July average of 21.62°C, 2.79°C above normal
-    - Beats previous record set in 2022
-    - Third straight month of exceptional heat in the region
-    - Low river flows on the Seine, Rhine and Danube
-    - Global sea surface temperatures hit record 20.96°C in July
+
+    <ul class="takeaways">
+    <li>Combined June-July average of 21.62°C, 2.79°C above normal</li>
+    <li>Beats previous record set in 2022</li>
+    <li>Third straight month of exceptional heat in the region</li>
+    <li>Low river flows on the Seine, Rhine and Danube</li>
+    <li>Global sea surface temperatures hit record 20.96°C in July</li>
+    </ul>
 
     Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says) <span class="src-badge src-research">Research</span>, [CNN](https://www.cnn.com/2026/08/10/climate/europe-heatwave-wildfire-intl-hnk) <span class="src-badge src-research">Research</span>, [Phys.org](https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html) <span class="src-badge src-rss">RSS</span>, [BBC](https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xMWpJVlAxeHhOb21USlItZ2xPcEZHM0REUmVFMmlpUTU0UnNkNzVFWklUeWJqQkpqaERwUzFNakVwRlk5Yy1QTGhVVEkyVFp1cmZ6T3A2LUc1dw?oc=5) <span class="src-badge src-rss">RSS</span>
 
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI's Astra model demonstrates mathematical breakthroughs](../news/science/2026-08-10.md#openais-astra-model-demonstrates-mathematical-breakthroughs) — OpenAI's unreleased Astra model has made 10 advances in mathematics and computer science including discoveries in geometry, cryptography, and coding theory. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Discovery of slow electrons in 2D materials for memory devices](../news/science/2026-08-10.md#discovery-of-slow-electrons-in-2d-materials-for-memory-devices) — Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI improves tropical cyclone forecasting by 30 hours](../news/science/2026-08-10.md#ai-improves-tropical-cyclone-forecasting-by-30-hours) — AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms. · _science_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Infected tadpoles cool themselves rather than fever to combat viruses](../news/science/2026-08-10.md#infected-tadpoles-cool-themselves-rather-than-fever-to-combat-viruses) — Researchers discover that infected tadpoles reduce body temperature rather than increase it to fight viral infections, challenging conventional understanding of fever as a universal immune response. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Voyager 2 power extended by NASA to continue deep-space mission](../news/space/2026-08-10.md#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission) <span class="src-badge src-research">AI Researched</span> — NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year. · _space_
-    - Voyager 2 launched 1977, now over 21 billion km from Earth
-    - Loses about 4 watts of power annually as its plutonium decays
-    - 'Big Bang' operation swapped devices for lower-power alternatives
-    - Similar fix planned for Voyager 1 in coming months
+
+    <ul class="takeaways">
+    <li>Voyager 2 launched 1977, now over 21 billion km from Earth</li>
+    <li>Loses about 4 watts of power annually as its plutonium decays</li>
+    <li>&#x27;Big Bang&#x27; operation swapped devices for lower-power alternatives</li>
+    <li>Similar fix planned for Voyager 1 in coming months</li>
+    </ul>
 
     Sources: [NASA Jet Propulsion Laboratory](https://www.jpl.nasa.gov/news/nasa-engineers-help-prolong-voyager-2s-science-mission/) <span class="src-badge src-research">Research</span>, [ScienceDaily](https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTRDLUtub0ZkNWo0MDhWX05BMnVoUDBmWWlDeE1vVjNVcnQyMG5uN3lQeEdENHBabm54cUJGVlF0WFFxREkzVFIxOFF2LUZpbjhNaXRNVGdzcG0zSXp1NmVlX0kzTEtnd3VBVGNR?oc=5) <span class="src-badge src-rss">RSS</span>
 
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Inouye Solar Telescope captures highest-resolution image of Sun's surface](../news/space/2026-08-10.md#inouye-solar-telescope-captures-highest-resolution-image-of-suns-surface) — An international research team using the NSF's Inouye Solar Telescope captured the sharpest-ever view of the Sun's surface. · _space_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Andromeda galaxy's star formation slowdown attributed to neighboring galaxy interactions](../news/space/2026-08-10.md#andromeda-galaxys-star-formation-slowdown-attributed-to-neighboring-galaxy-interactions) — Scientists identify that a smaller galactic neighbor has slowed Andromeda's star-formation rate over the last 40 million years through gravitational interactions. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Sionna Therapeutics cystic fibrosis pill fails in mid-stage trial](../news/health/2026-08-10.md#sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial) — Sionna Therapeutics' experimental cystic fibrosis drug provided no added benefit when combined with Vertex's blockbuster Trikafta in a trial. · _health_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Sanofi experiences shortage of Pompe disease medications](../news/health/2026-08-10.md#sanofi-experiences-shortage-of-pompe-disease-medications) — Sanofi is facing supply shortages of two medicines used to treat Pompe disease following FDA warnings over manufacturing deficiencies. · _health_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [FDA rejects radiopharmaceutical therapy due to manufacturing issues](../news/health/2026-08-10.md#fda-rejects-radiopharmaceutical-therapy-due-to-manufacturing-issues) — The FDA has rejected a radiopharmaceutical therapy that would have competed with Novartis treatment due to manufacturing concerns. · _health_
@@ -43,7 +54,6 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Petermann Glacier calves largest ice island since 2012](../news/science/2026-08-10.md#petermann-glacier-calves-largest-ice-island-since-2012) — Petermann Glacier in northwest Greenland calved a 76.4 km² ice island on August 4, the largest Arctic calving event since 2020. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Urban canals reduce local temperatures by over 2°C during heat waves](../news/science/2026-08-10.md#urban-canals-reduce-local-temperatures-by-over-2c-during-heat-waves) — University of Manchester research shows urban canals can cool their immediate surroundings by more than 2°C during heat waves. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [James Webb Space Telescope discovers new early-universe object](../news/science/2026-08-10.md#james-webb-space-telescope-discovers-new-early-universe-object) — Astronomers using JWST data identify a new object from the early universe, demonstrating the telescope's ability to provide deepest views of the cosmos. · _science_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [NASA mission maps heat loss from Earth's rapidly changing poles](../news/science/2026-08-10.md#nasa-mission-maps-heat-loss-from-earths-rapidly-changing-poles) — Satellite data reveal dramatic seasonal temperature swings at Earth's poles, showing how differently surface temperatures evolve across the year. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse August 12 with possible northern lights viewing](../news/space/2026-08-10.md#total-solar-eclipse-august-12-with-possible-northern-lights-viewing) — A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Japanese H3 rocket launches Michibiki 7 navigation satellite](../news/space/2026-08-10.md#japanese-h3-rocket-launches-michibiki-7-navigation-satellite) — Japan's H3 rocket successfully launches the Michibiki 7 navigation satellite to orbit. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chinese rocket explodes less than 90 seconds after liftoff](../news/space/2026-08-10.md#chinese-rocket-explodes-less-than-90-seconds-after-liftoff) — A Chinese rocket launch failed spectacularly, exploding less than 90 seconds after liftoff on August 10. · _space_
