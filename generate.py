@@ -922,7 +922,7 @@ def stage2a_read(event: dict, date: str) -> dict | None:
     tools = [
         _SERPER_TOOL,
         {"type": "web_fetch_20260318", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
-         "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS},
+         "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS, "allowed_callers": ["direct"]},
     ]
     payload = {
         "title": event["title"], "one_liner": event.get("one_liner", ""),
