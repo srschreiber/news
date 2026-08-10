@@ -53,6 +53,9 @@ KIND_DIR = {
     "monthly": DOCS / "monthly",
     "yearly": DOCS / "yearly",
 }
+RESEARCH_DIR = DOCS / "research"          # docs/research/<topic>/<date>.md
+RESEARCH_FEEDS_DIR = DOCS / "research-feeds"    # docs/research-feeds/<feed>.md
+RESEARCH_TOPICS_DIR = DOCS / "research-topics"  # docs/research-topics/<topic>.md
 DEFAULT_TOPIC = "general"
 REPO_URL = "https://github.com/srschreiber/news"
 # Merriam-Webster's Word of the Day — reputable, curated for usable (not archaic)
@@ -141,6 +144,38 @@ EVENTS_SCHEMA = {
                     "theme",
                     "keywords",
                     "source_item_ids",
+                ],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["events"],
+    "additionalProperties": False,
+}
+
+RESEARCH_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {"type": "string"},
+                    "one_liner": {"type": "string"},
+                    "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+                    "evidence_strength": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+                    "study_type": {"type": "string"},
+                    "theme": {"type": "string"},
+                    "keywords": {"type": "array", "items": {"type": "string"}},
+                    "source_item_ids": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                    },
+                },
+                "required": [
+                    "title", "one_liner", "importance", "evidence_strength",
+                    "study_type", "theme", "keywords", "source_item_ids",
                 ],
                 "additionalProperties": False,
             },
@@ -297,6 +332,7 @@ def load_feeds(all_topics: list[str], path: Path = SOURCES_FILE) -> tuple[dict, 
         topics = [str(t).strip() for t in (spec.get("topics") or []) if str(t).strip()]
         feeds[key] = {
             "title": (spec.get("title") or key.replace("-", " ").title()),
+            "kind": (spec.get("kind") or "news").strip(),
             "topics": topics,
             "research_budget": int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET)),
             "scoring_context": (spec.get("scoring_context") or "").strip(),
@@ -421,6 +457,14 @@ def meter(score: int) -> str:
     bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(5))
     return (f'<span class="imp imp-{n}" title="Importance {n}/5" '
             f'aria-label="Importance {n} of 5">{bars}</span>')
+
+
+def _evid_meter(score: int) -> str:
+    """Evidence strength as a 5-bar meter (CSS-styled differently from importance)."""
+    n = max(1, min(5, int(score or 0)))
+    bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(5))
+    return (f'<span class="evid evid-{n}" title="Evidence {n}/5" '
+            f'aria-label="Evidence strength {n} of 5">{bars}</span>')
 
 
 def _source_badge(origin: str) -> str:
@@ -777,32 +821,46 @@ def _extract_briefing(text: str) -> str:
     return text[idx + 1:].strip() if idx != -1 else text
 
 
-def stage1_cluster(items: list[dict], feeds: dict) -> list[dict]:
+def stage1_cluster(
+    items: list[dict], feeds: dict,
+    prompt_name: str = "cluster.md",
+    schema: dict | None = None,
+    label: str = "(clustering)",
+) -> list[dict]:
     """Cluster+score+extract keywords via Haiku with structured output.
 
     ONE global pass over items from all feeds/topics — the same story surfaced
     under multiple topics is merged into a single event (topics + merged sources
     are derived from source_item_ids in code afterwards).
     """
+    if not items:
+        return []
+    schema = schema or EVENTS_SCHEMA
     client = _client()
     user = json.dumps({"items": payload_items(items)}, ensure_ascii=False)
     for attempt in (1, 2):
         resp = client.messages.create(
             model=CLUSTER_MODEL,
             max_tokens=STAGE1_MAX_TOKENS,
-            system=_sys("cluster.md", extra=_feed_scoring_context(feeds)),
+            system=_sys(prompt_name, extra=_feed_scoring_context(feeds)),
             messages=[{"role": "user", "content": user}],
-            output_config={"format": {"type": "json_schema", "schema": EVENTS_SCHEMA}},
+            output_config={"format": {"type": "json_schema", "schema": schema}},
         )
-        METRICS.add("(clustering)", CLUSTER_MODEL, resp.usage)
+        METRICS.add(label, CLUSTER_MODEL, resp.usage)
         try:
             events = json.loads(_text_of(resp)).get("events", [])
             if not events:
-                log("stage 1 returned no events")
+                log(f"stage 1 ({prompt_name}) returned no events")
             return events
         except json.JSONDecodeError as e:
-            log(f"stage 1 JSON parse failed (attempt {attempt}): {e}")
+            log(f"stage 1 ({prompt_name}) JSON parse failed (attempt {attempt}): {e}")
     return []
+
+
+def stage1_research_cluster(items: list[dict], feeds: dict) -> list[dict]:
+    """Cluster research items using the research-specific prompt and schema."""
+    return stage1_cluster(items, feeds, prompt_name="research_cluster.md",
+                          schema=RESEARCH_SCHEMA, label="(research-clustering)")
 
 
 def stage2a_read(event: dict, date: str) -> dict | None:
@@ -1081,22 +1139,29 @@ def load_search_index() -> list[dict]:
 def build_search_index(shown: list[tuple], date: str) -> None:
     """Rebuild the index for `date`: ONE record per shown event, carrying the
     full `topics` list and a canonical `url` into the topic doc where it's shown.
-    `shown` is a list of (event, display_topic) pairs."""
+    `shown` is a list of (event, display_topic) pairs.
+
+    Events with `kind="research"` get url under `research/` and a `kind` field."""
     index = [r for r in load_search_index() if r.get("date") != date]
     for ev, display_topic in shown:
+        kind = ev.get("kind", "news")
+        base_dir = RESEARCH_DIR.name if kind == "research" else KIND_DIR["daily"].name
         index.append(
             {
                 "date": date,
+                "kind": kind,
                 "event_id": slugify(ev["title"]),
                 "title": ev["title"],
                 "summary": (ev.get("one_liner") or "").strip(),
                 "theme": ev.get("theme", ""),
                 "importance": ev.get("importance", 0),
+                "evidence_strength": ev.get("evidence_strength", 0),
+                "study_type": ev.get("study_type", ""),
                 "topics": ev.get("topics", []),
                 "feeds": ev.get("feeds", []),
                 "primary_feed": ev.get("primary_feed", DEFAULT_FEED),
                 "keywords": ev.get("keywords", []),
-                "url": f"news/{display_topic}/{date}/#{slugify(ev['title'])}",
+                "url": f"{base_dir}/{display_topic}/{date}/#{slugify(ev['title'])}",
                 "sources": ev.get("sources", []),
                 "researched": bool(ev.get("researched", False)),
             }
@@ -1164,6 +1229,57 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
                 lines.append("")
                 lines.append('<ul class="takeaways">')
                 lines += [f"<li>{html.escape(t)}</li>" for t in takeaways]
+                lines.append("</ul>")
+            lines.append("")
+            srcs = ", ".join(
+                f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"
+                for s in e.get("sources", [])[:MAX_SOURCES_PER_EVENT]
+            )
+            if srcs:
+                lines.append(f"Sources: {srcs}")
+            lines.append("")
+    return "\n".join(lines).strip() + "\n"
+
+
+def render_research_briefing(events: list[dict], topic: str) -> str:
+    """Render a research briefing with study_type badges and evidence strength bars."""
+    if not events:
+        return quiet_day_body(topic)
+    ev = sorted(events, key=lambda e: e.get("importance", 0), reverse=True)
+
+    lines = ["## TL;DR", ""]
+    for e in ev[:6]:
+        lines.append(f"- {meter(e.get('importance', 0))} [{e['title']}](#{slugify(e['title'])})")
+    lines.append("")
+
+    by_theme: dict[str, list[dict]] = {}
+    order: list[str] = []
+    for e in ev:
+        t = (e.get("theme") or "Other").strip() or "Other"
+        if t not in by_theme:
+            by_theme[t] = []
+            order.append(t)
+        by_theme[t].append(e)
+
+    for t in order:
+        lines += [f"## {t}", ""]
+        for e in by_theme[t]:
+            lines.append(f"### {e['title']}")
+            study = e.get("study_type", "")
+            study_badge = (f'<span class="study-type">{html.escape(study)}</span> '
+                           if study else "")
+            evid = e.get("evidence_strength", 0)
+            lines.append(f"{study_badge}{meter(e.get('importance', 0))} "
+                         f"{_evid_meter(evid)}".rstrip())
+            summary = (e.get("one_liner") or "").strip()
+            if summary:
+                lines.append("")
+                lines.append(summary)
+            takeaways = [tk.strip() for tk in e.get("takeaways", []) if tk.strip()]
+            if takeaways:
+                lines.append("")
+                lines.append('<ul class="takeaways">')
+                lines += [f"<li>{html.escape(tk)}</li>" for tk in takeaways]
                 lines.append("</ul>")
             lines.append("")
             srcs = ", ".join(
@@ -1279,7 +1395,8 @@ def _top_stories_section(index: list[dict], feeds: dict, topic_feed: dict,
         rows = by_feed.get(fkey, [])[:per_feed]
         if not rows:
             continue
-        lines += [f"### [{spec['title']}](feeds/{fkey}.md)", ""]
+        feed_dir = "research-feeds" if spec.get("kind") == "research" else "feeds"
+        lines += [f"### [{spec['title']}]({feed_dir}/{fkey}.md)", ""]
         lines += [_story_line(r) for r in rows]
         lines.append("")
     return lines
@@ -1294,15 +1411,18 @@ def _event_counts(index: list[dict]) -> dict[tuple, int]:
     return counts
 
 
-def _daily_link(topic: str, stem: str, counts: dict[tuple, int]) -> str:
+def _daily_link(topic: str, stem: str, counts: dict[tuple, int],
+                base_dir: str | None = None) -> str:
     """A daily-doc link annotated with its event count, e.g. '2026-07-25 (3 events)'."""
     n = counts.get((topic, stem), 0)
     unit = "event" if n == 1 else "events"
-    return f"[{stem} ({n} {unit})]({KIND_DIR['daily'].name}/{topic}/{stem}.md)"
+    d = base_dir or KIND_DIR["daily"].name
+    return f"[{stem} ({n} {unit})]({d}/{topic}/{stem}.md)"
 
 
 TOPIC_DISPLAY = {"ai": "AI", "gpt": "GPT", "api": "API",
-                 "tech-research": "Tech Research", "patent-ip": "Patent / IP"}
+                 "tech-research": "Tech Research", "patent-ip": "Patent / IP",
+                 "climate-resilience": "Climate & Ecological Resilience"}
 
 
 def topic_display(topic: str) -> str:
@@ -1555,10 +1675,68 @@ def rebuild_index() -> None:
     log("rebuilt docs/index.md")
 
 
+def _feed_page_body(
+    fkey: str, spec: dict, index: list[dict], topic_feed: dict,
+    latest: str | None, refresh_map: dict[str, str],
+    topic_link_dir: str = "topics",
+    story_prefix: str = "../",
+) -> list[str]:
+    """Build the markdown lines for one feed overview page (news or research)."""
+    ftopics = spec["topics"]
+    rows = _dedupe_cross_topic(sorted(
+        (r for r in index if r["date"] == latest
+         and _record_feed(r, topic_feed) == fkey),
+        key=lambda r: r.get("importance", 0), reverse=True,
+    )) if latest else []
+    lines = [f"# {spec['title']} ({len(rows)})" if rows else f"# {spec['title']}", ""]
+    if rows:
+        refresh_note = ""
+        ts_str = refresh_map.get(fkey)
+        if ts_str:
+            try:
+                rt = dt.datetime.fromisoformat(ts_str)
+                utc_label = rt.strftime("%H:%M UTC")
+                refresh_note = (f' · <em><time class="feed-refresh"'
+                               f' datetime="{rt.isoformat()}">'
+                               f'refreshed {utc_label}</time></em>')
+            except (ValueError, TypeError):
+                pass
+        lines += [f"## Top stories — {latest}{refresh_note}", ""]
+        lines += [_story_line(r, prefix=story_prefix) for r in rows]
+        lines.append("")
+    else:
+        lines += ["_No stories yet._", ""]
+    lines += ["_Bars indicate estimated story importance (1 = minor · 5 = major)._", ""]
+    counts = _event_counts(index)
+    lines += ["## Topics", ""]
+    for t in ftopics:
+        n = counts.get((t, latest), 0) if latest else 0
+        unit = "story" if n == 1 else "stories"
+        lines.append(f"- [{topic_display(t)}](../{topic_link_dir}/{t}.md) — {n} {unit}")
+    lines.append("")
+    return lines
+
+
 def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
-    """One page per feed (docs/feeds/<feed>.md): the feed's top stories across all
-    its topics for the latest day, plus its member topics with story counts. The
-    page title carries the story count so the sidebar shows '(N)'. Built from the
+    """One page per news feed (docs/feeds/<feed>.md). Built from the search index —
+    no LLM, regenerated each run. Research feeds are handled separately."""
+    index = load_search_index()
+    all_topics = sorted({s["topic"] for s in load_sources()})
+    feeds, topic_feed = load_feeds(all_topics)
+    latest = max((r["date"] for r in index), default=None)
+    refresh_map: dict[str, str] = feed_last_refresh or {}
+
+    news_feeds = {fk: sp for fk, sp in feeds.items() if sp.get("kind", "news") == "news"}
+    for fkey, spec in news_feeds.items():
+        lines = _feed_page_body(fkey, spec, index, topic_feed, latest, refresh_map)
+        path = DOCS / "feeds" / f"{fkey}.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(lines) + "\n")
+    log(f"rebuilt {len(news_feeds)} news feed pages")
+
+
+def rebuild_research_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
+    """One page per research feed (docs/research-feeds/<feed>.md). Built from the
     search index — no LLM, regenerated each run."""
     index = load_search_index()
     all_topics = sorted({s["topic"] for s in load_sources()})
@@ -1566,112 +1744,110 @@ def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
     latest = max((r["date"] for r in index), default=None)
     refresh_map: dict[str, str] = feed_last_refresh or {}
 
-    for fkey, spec in feeds.items():
-        ftopics = spec["topics"]
-        # This feed's events for the latest day, deduped, by importance.
-        rows = _dedupe_cross_topic(sorted(
-            (r for r in index if r["date"] == latest
-             and _record_feed(r, topic_feed) == fkey),
-            key=lambda r: r.get("importance", 0), reverse=True,
-        )) if latest else []
-        lines = [f"# {spec['title']} ({len(rows)})" if rows else f"# {spec['title']}", ""]
-        if rows:
-            refresh_note = ""
-            ts_str = refresh_map.get(fkey)
-            if ts_str:
-                try:
-                    rt = dt.datetime.fromisoformat(ts_str)
-                    utc_label = rt.strftime("%H:%M UTC")
-                    refresh_note = (f' · <em><time class="feed-refresh"'
-                                   f' datetime="{rt.isoformat()}">'
-                                   f'refreshed {utc_label}</time></em>')
-                except (ValueError, TypeError):
-                    pass
-            lines += [f"## Top stories — {latest}{refresh_note}", ""]
-            lines += [_story_line(r, prefix="../") for r in rows]
-            lines.append("")
-        else:
-            lines += ["_No stories yet._", ""]
-
-        lines += ["_Bars indicate estimated story importance (1 = minor · 5 = major)._", ""]
-
-        # Member topics with their latest-day counts, linking to topic pages.
-        counts = _event_counts(index)
-        lines += ["## Topics", ""]
-        for t in ftopics:
-            n = counts.get((t, latest), 0) if latest else 0
-            unit = "story" if n == 1 else "stories"
-            lines.append(f"- [{topic_display(t)}](../topics/{t}.md) — {n} {unit}")
-        lines.append("")
-
-        path = DOCS / "feeds" / f"{fkey}.md"
+    research_feeds = {fk: sp for fk, sp in feeds.items() if sp.get("kind") == "research"}
+    for fkey, spec in research_feeds.items():
+        lines = _feed_page_body(
+            fkey, spec, index, topic_feed, latest, refresh_map,
+            topic_link_dir="research-topics",
+            story_prefix="../",
+        )
+        path = RESEARCH_FEEDS_DIR / f"{fkey}.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("\n".join(lines) + "\n")
-    log(f"rebuilt {len(feeds)} feed pages")
+    log(f"rebuilt {len(research_feeds)} research feed pages")
+
+
+def _topic_page_body(
+    topic: str, by_topic: dict, feeds: dict, topic_feed: dict, research_cfg: dict,
+    daily_dir: str, feed_link_dir: str = "feeds",
+) -> list[str]:
+    """Build the markdown lines for one topic overview page."""
+    dates = by_topic.get(topic, {})
+    latest = max(dates) if dates else None
+    latest_events = sorted(
+        dates.get(latest, []), key=lambda r: r.get("importance", 0), reverse=True
+    ) if latest else []
+    disp = topic_display(topic)
+    lines = [f"# {disp} ({len(latest_events)})" if latest else f"# {disp}", ""]
+    fkey = topic_feed.get(topic, DEFAULT_FEED)
+    badge = "AI-researched" if research_enabled(topic, research_cfg) else "RSS only"
+    lines += [f"_Part of the [{feeds[fkey]['title']}](../{feed_link_dir}/{fkey}.md) feed · {badge}._", ""]
+    if latest:
+        lines += [f"## Latest — {latest}", ""]
+        for r in latest_events:
+            href = "../" + r["url"].replace("/#", ".md#")
+            lines.append(f"- {meter(r.get('importance', 0))} [{r['title']}]({href})")
+        lines.append("")
+        earlier = sorted((d for d in dates if d != latest), reverse=True)
+        if earlier:
+            lines += ["## Earlier", ""]
+            earlier_counts = {(topic, d): len(dates[d]) for d in earlier}
+            parts = [_daily_link(topic, d, earlier_counts, base_dir=f"../{daily_dir}")
+                     for d in earlier]
+            lines += [" · ".join(parts), ""]
+    else:
+        lines += ["_No briefings yet._", ""]
+    rollups = []
+    for kind, label in (("weekly", "Weekly"), ("monthly", "Monthly"), ("yearly", "Yearly")):
+        stems = _dated_stems(KIND_DIR[kind] / topic)[:8]
+        if not stems:
+            continue
+        rel = f"../{KIND_DIR[kind].name}/{topic}"
+        links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
+        rollups.append(f"- **{label}:** {links}")
+    if rollups:
+        lines += ["## Rollups", ""] + rollups + [""]
+    return lines
 
 
 def rebuild_topic_pages() -> None:
-    """One page per topic (docs/topics/<topic>.md) for the sidebar nav tree: the
-    latest briefing's headlines, earlier dates, and links to any rollups. The
-    page title carries the latest story count so the sidebar shows '(N)'.
-    Built from the search index + filesystem — no LLM, regenerated each run."""
+    """One page per news topic (docs/topics/<topic>.md). Research topics are
+    handled separately by rebuild_research_topic_pages()."""
     index = load_search_index()
     by_topic: dict[str, dict[str, list[dict]]] = {}
     for r in index:
         for t in r.get("topics", []):
             by_topic.setdefault(t, {}).setdefault(r["date"], []).append(r)
 
-    topics = sorted({s["topic"] for s in load_sources()})
-    feeds, topic_feed = load_feeds(topics)
+    all_topics = sorted({s["topic"] for s in load_sources()})
+    feeds, topic_feed = load_feeds(all_topics)
     research_cfg = load_research_config()
-    news_dir = KIND_DIR["daily"].name
-    for topic in topics:
-        dates = by_topic.get(topic, {})
-        latest = max(dates) if dates else None
-        latest_events = sorted(
-            dates.get(latest, []), key=lambda r: r.get("importance", 0), reverse=True
-        ) if latest else []
-        disp = topic_display(topic)
-        lines = [f"# {disp} ({len(latest_events)})" if latest else f"# {disp}", ""]
-        fkey = topic_feed.get(topic, DEFAULT_FEED)
-        badge = "AI-researched" if research_enabled(topic, research_cfg) else "RSS only"
-        lines += [f"_Part of the [{feeds[fkey]['title']}](../feeds/{fkey}.md) feed · {badge}._", ""]
-
-        if latest:
-            lines += [f"## Latest — {latest}", ""]
-            for r in latest_events:
-                # index url is directory-form (…/<date>/#slug); use the .md form
-                # so MkDocs validates/rewrites it cleanly.
-                href = "../" + r["url"].replace("/#", ".md#")
-                lines.append(f"- {meter(r.get('importance', 0))} [{r['title']}]({href})")
-            lines.append("")
-            earlier = sorted((d for d in dates if d != latest), reverse=True)
-            if earlier:
-                lines += ["## Earlier", ""]
-                parts = []
-                for d in earlier:
-                    c = len(dates[d])
-                    unit = "story" if c == 1 else "stories"
-                    parts.append(f"[{d} ({c} {unit})](../{news_dir}/{topic}/{d}.md)")
-                lines += [" · ".join(parts), ""]
-        else:
-            lines += ["_No briefings yet._", ""]
-
-        rollups = []
-        for kind, label in (("weekly", "Weekly"), ("monthly", "Monthly"), ("yearly", "Yearly")):
-            stems = _dated_stems(KIND_DIR[kind] / topic)[:8]
-            if not stems:
-                continue
-            rel = f"../{KIND_DIR[kind].name}/{topic}"
-            links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
-            rollups.append(f"- **{label}:** {links}")
-        if rollups:
-            lines += ["## Rollups", ""] + rollups + [""]
-
+    research_topic_set = {t for sp in feeds.values()
+                          if sp.get("kind") == "research" for t in sp["topics"]}
+    news_topics = [t for t in all_topics if t not in research_topic_set]
+    for topic in news_topics:
+        lines = _topic_page_body(
+            topic, by_topic, feeds, topic_feed, research_cfg,
+            daily_dir=KIND_DIR["daily"].name,
+        )
         path = DOCS / "topics" / f"{topic}.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("\n".join(lines) + "\n")
-    log(f"rebuilt {len(topics)} topic pages")
+    log(f"rebuilt {len(news_topics)} news topic pages")
+
+
+def rebuild_research_topic_pages() -> None:
+    """One page per research topic (docs/research-topics/<topic>.md)."""
+    index = load_search_index()
+    by_topic: dict[str, dict[str, list[dict]]] = {}
+    for r in index:
+        for t in r.get("topics", []):
+            by_topic.setdefault(t, {}).setdefault(r["date"], []).append(r)
+
+    all_topics = sorted({s["topic"] for s in load_sources()})
+    feeds, topic_feed = load_feeds(all_topics)
+    research_cfg = load_research_config()
+    research_topics = sorted({t for sp in feeds.values()
+                               if sp.get("kind") == "research" for t in sp["topics"]})
+    for topic in research_topics:
+        lines = _topic_page_body(
+            topic, by_topic, feeds, topic_feed, research_cfg,
+            daily_dir=RESEARCH_DIR.name, feed_link_dir="research-feeds",
+        )
+        path = RESEARCH_TOPICS_DIR / f"{topic}.md"
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text("\n".join(lines) + "\n")
+    log(f"rebuilt {len(research_topics)} research topic pages")
 
 
 def rebuild_archive() -> None:
@@ -1828,6 +2004,18 @@ def _write_topic_doc(topic: str, shown: list[dict], date: str) -> None:
                   title, quiet_day_body(topic))
 
 
+def _write_research_topic_doc(topic: str, shown: list[dict], date: str) -> None:
+    """Write one research topic's daily doc to docs/research/<topic>/<date>.md."""
+    doc_path = RESEARCH_DIR / topic / f"{date}.md"
+    title = f"Sam's Research — {topic} — {date}"
+    if shown:
+        write_doc(doc_path, front_matter(daily_tags(shown, date, topic)),
+                  title, render_research_briefing(shown, topic))
+    else:
+        write_doc(doc_path, front_matter([date[:4], date[:7], topic]),
+                  title, quiet_day_body(topic))
+
+
 def _already_ran_today(state: dict, date: str) -> bool:
     """True if state's last_run is on `date` (UTC). Used to skip redundant
     scheduled cron slots without re-running."""
@@ -1862,46 +2050,70 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     all_topics = sorted({s["topic"] for s in sources})
     feeds, topic_feed = load_feeds(all_topics)
 
-    # Load events and research usage from earlier runs today.
-    stored_events = _load_today_events(state, date)
+    # Partition topics and items by feed kind (news vs. research).
+    research_topic_set = {t for sp in feeds.values()
+                          if sp.get("kind") == "research" for t in sp["topics"]}
+    news_topics = [t for t in all_topics if t not in research_topic_set]
+    research_topics = [t for t in all_topics if t in research_topic_set]
+    news_items = [it for it in items if it.get("topic", "") not in research_topic_set]
+    r_items = [it for it in items if it.get("topic", "") in research_topic_set]
+
+    # Load stored events from earlier runs today (split by kind).
+    all_stored = _load_today_events(state, date)
+    stored_news = [e for e in all_stored if e.get("kind", "news") == "news"]
+    stored_research = [e for e in all_stored if e.get("kind") == "research"]
     research_used = _load_research_used(state, date)
 
-    # Stage 1: ONE global clustering pass over genuinely new items, then derive
-    # each event's topics + feeds + merged sources from its source items.
-    new_events = (assign_topics(attach_sources(stage1_cluster(items, feeds), items), items, topic_feed)
-                  if items else [])
-    spanning = sum(1 for e in new_events if len(e.get("topics", [])) > 1)
-    log(f"clustered {len(items)} items -> {len(new_events)} new events "
-        f"({spanning} cross-topic), {len(stored_events)} stored from earlier today")
+    # Stage 1: separate clustering passes for news and research.
+    def _cluster_and_assign(raw_items, cluster_fn, kind):
+        if not raw_items:
+            return []
+        evs = assign_topics(
+            attach_sources(cluster_fn(raw_items, feeds), raw_items),
+            raw_items, topic_feed,
+        )
+        for e in evs:
+            e["kind"] = kind
+        return evs
 
-    # Merge: source-merge duplicate events, collect genuinely new ones.
-    all_events, truly_new = _merge_new_events(stored_events, new_events)
+    new_news = _cluster_and_assign(news_items, stage1_cluster, "news")
+    new_research = _cluster_and_assign(r_items, stage1_research_cluster, "research")
+    log(f"clustered {len(news_items)} news items -> {len(new_news)} events; "
+        f"{len(r_items)} research items -> {len(new_research)} events; "
+        f"stored: {len(stored_news)} news, {len(stored_research)} research")
+
+    # Merge new into stored, collect truly new events per kind.
+    all_news, truly_new_news = _merge_new_events(stored_news, new_news)
+    all_research, truly_new_research = _merge_new_events(stored_research, new_research)
+    truly_new = truly_new_news + truly_new_research
 
     if dry_run:
         preview = [
             {"title": e["title"], "importance": e.get("importance"),
-             "topics": e.get("topics"), "primary": e.get("primary_topic")}
-            for e in sorted(all_events, key=lambda e: e.get("importance", 0), reverse=True)[:30]
+             "kind": e.get("kind"), "topics": e.get("topics")}
+            for e in sorted(all_news + all_research,
+                            key=lambda e: e.get("importance", 0), reverse=True)[:30]
         ]
         print(json.dumps(preview, ensure_ascii=False, indent=2))
         return
 
     # No-op guard: nothing new since the last run.
     if not truly_new:
-        if stored_events:
+        if all_stored:
             log("no new events since last run; updating source timestamps only")
             save_state(state, items, run_start,
-                       today_events_data={"date": date, "events": all_events})
+                       today_events_data={"date": date, "events": all_news + all_research})
             record_metrics("daily", run_start)
             return
-        # First run of the day with no items — preserve existing docs if present.
-        if any((KIND_DIR["daily"] / t / f"{date}.md").exists() for t in all_topics):
+        existing = any((KIND_DIR["daily"] / t / f"{date}.md").exists() for t in news_topics) or \
+                   any((RESEARCH_DIR / t / f"{date}.md").exists() for t in research_topics)
+        if existing:
             log("no new items; preserving today's existing docs (no-op re-run)")
             save_state(state, items, run_start)
             record_metrics("daily", run_start)
             return
 
-    # Research only the truly_new events, consuming only remaining daily budget.
+    # Research only the truly_new events, consuming remaining daily budget.
     remaining = {
         fkey: max(0, int(spec.get("research_budget", 0)) - research_used.get(fkey, 0))
         for fkey, spec in feeds.items()
@@ -1910,21 +2122,27 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
                         for k, spec in feeds.items())
     selected = select_research(truly_new, feeds, cfg, no_research=no_research,
                                remaining_budget=remaining)
-    log(f"researching {len(selected)} new stories (remaining budget: {budgets})")
-    all_events = merge_enrichment(all_events, research_events(selected, date))
+    log(f"researching {len(selected)} new events (remaining budget: {budgets})")
+    enriched = research_events(selected, date)
+    all_news = merge_enrichment(all_news, enriched)
+    all_research = merge_enrichment(all_research, enriched)
 
-    # Per-topic docs: each topic shows the top events whose topics include it,
-    # drawn from the full merged set (stored + new).
+    # Per-topic docs: write news docs to docs/news/, research docs to docs/research/.
     per_topic: dict[str, list[dict]] = {}
-    for topic in all_topics:
+    for topic in news_topics:
         per_topic[topic] = sorted(
-            (e for e in all_events if topic in e.get("topics", [])),
+            (e for e in all_news if topic in e.get("topics", [])),
             key=lambda e: e.get("importance", 0), reverse=True,
         )[:EVENTS_PER_TOPIC]
         _write_topic_doc(topic, per_topic[topic], date)
+    for topic in research_topics:
+        per_topic[topic] = sorted(
+            (e for e in all_research if topic in e.get("topics", [])),
+            key=lambda e: e.get("importance", 0), reverse=True,
+        )[:EVENTS_PER_TOPIC]
+        _write_research_topic_doc(topic, per_topic[topic], date)
 
-    # One search-index record per shown event; url -> its primary topic when the
-    # event is shown there, else the first topic where it appears.
+    # One search-index record per shown event.
     display_topic: dict[str, str] = {}
     for topic in all_topics:
         for e in per_topic[topic]:
@@ -1947,8 +2165,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
         fkey = ev.get("primary_feed") or DEFAULT_FEED
         updated_research_used[fkey] = updated_research_used.get(fkey, 0) + 1
 
-    # Mark feeds that got new content this run so the feed pages can show a
-    # "refreshed HH:MM UTC" note (only updated when content actually changes).
+    # Mark feeds that got new content this run.
     affected = {fkey for ev in truly_new for fkey in ev.get("feeds", [])}
     new_refresh = {fkey: run_start.isoformat() for fkey in affected}
     feed_last_refresh: dict[str, str] = {
@@ -1957,13 +2174,15 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     }
 
     save_state(state, items, run_start,
-               today_events_data={"date": date, "events": all_events},
+               today_events_data={"date": date, "events": all_news + all_research},
                feed_last_refresh=new_refresh,
                research_used_today=updated_research_used)
     rebuild_index()
     rebuild_archive()
     rebuild_topic_pages()
+    rebuild_research_topic_pages()
     rebuild_feed_pages(feed_last_refresh=feed_last_refresh)
+    rebuild_research_feed_pages(feed_last_refresh=feed_last_refresh)
     record_metrics("daily", run_start)
     log("daily run complete")
 
@@ -2008,7 +2227,9 @@ def run_rollup(mode: str, dry_run: bool) -> None:
         rebuild_index()
         rebuild_archive()
         rebuild_topic_pages()
+        rebuild_research_topic_pages()
         rebuild_feed_pages()
+        rebuild_research_feed_pages()
         record_metrics(mode, run_start)
 
 
