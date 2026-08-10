@@ -81,12 +81,16 @@ nav:
           - topics/science.md
           - topics/space.md
           - topics/health.md
-      - Tech Research:
-          - Top stories: feeds/tech-research.md
-          - topics/tech-research.md
       - Patents:
           - Top stories: feeds/patent-ip.md
           - topics/patent-ip.md
+  - Research:
+      - Computer Science:
+          - Top studies: research-feeds/tech-research.md
+          - research-topics/tech-research.md
+      - Climate & Ecological Resilience:
+          - Top studies: research-feeds/climate-resilience.md
+          - research-topics/climate-resilience.md
   - Words:
       - All words: words.md
       - Quiz: quiz.md
@@ -97,6 +101,7 @@ nav:
 
 not_in_nav: |
   news/**
+  research/**
   weekly/**
   monthly/**
   yearly/**
