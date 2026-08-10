@@ -1,10 +1,13 @@
-# Anthropic (1)
+# Anthropic (4)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic shifts Claude Code to automatic mode by default for paid plans](../news/anthropic/2026-08-10.md#anthropic-shifts-claude-code-to-automatic-mode-by-default-for-paid-plans)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI agent hacks gym booking system, sparks industry alarm](../news/anthropic/2026-08-10.md#ai-agent-hacks-gym-booking-system-sparks-industry-alarm)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic enables Claude Code auto mode by default starting August 14](../news/anthropic/2026-08-10.md#anthropic-enables-claude-code-auto-mode-by-default-starting-august-14)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic partners with Macquarie and GIC for AI data center development](../news/anthropic/2026-08-10.md#anthropic-partners-with-macquarie-and-gic-for-ai-data-center-development)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic plans custom silicon chip development](../news/anthropic/2026-08-10.md#anthropic-plans-custom-silicon-chip-development)
 
 ## Rollups
 

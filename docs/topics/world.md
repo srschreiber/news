@@ -1,10 +1,19 @@
-# World (1)
+# World (10)
 
 _Part of the [World](../feeds/world.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Italian divers discover Roman shipwreck with hundreds of ancient amphorae off Sicily coast](../news/world/2026-08-10.md#italian-divers-discover-roman-shipwreck-with-hundreds-of-ancient-amphorae-off-sicily-coast)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [7.4 magnitude earthquake strikes Colombia, killing at least 111](../news/tech/2026-08-10.md#74-magnitude-earthquake-strikes-colombia-killing-at-least-111)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukraine reports up to 50,000 North Korean troops deploying to Russia](../news/world/2026-08-10.md#ukraine-reports-up-to-50000-north-korean-troops-deploying-to-russia)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Record-high greenhouse gases, sea level, and ocean heat confirmed in 2025](../news/science/2026-08-10.md#record-high-greenhouse-gases-sea-level-and-ocean-heat-confirmed-in-2025)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Major European rivers reach record low water levels in July](../news/science/2026-08-10.md#major-european-rivers-reach-record-low-water-levels-in-july)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China's Long March 7A rocket explodes less than 90 seconds after liftoff](../news/space/2026-08-10.md#chinas-long-march-7a-rocket-explodes-less-than-90-seconds-after-liftoff)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Royal Navy drone cameras found sending data to China via Chinese-made component](../news/world/2026-08-10.md#royal-navy-drone-cameras-found-sending-data-to-china-via-chinese-made-component)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [The president of the United States demands reparations from Iran in peace talks](../news/world/2026-08-10.md#the-president-of-the-united-states-demands-reparations-from-iran-in-peace-talks)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Turkey's parliament approves pardon-like bill for thousands of PKK militants](../news/world/2026-08-10.md#turkeys-parliament-approves-pardon-like-bill-for-thousands-of-pkk-militants)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Iran appoints hardliner Mohsen Rezaei to top security position](../news/world/2026-08-10.md#iran-appoints-hardliner-mohsen-rezaei-to-top-security-position)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Syria and Russia agree on reorganization of Russian military presence](../news/world/2026-08-10.md#syria-and-russia-agree-on-reorganization-of-russian-military-presence)
 
 ## Rollups
 
