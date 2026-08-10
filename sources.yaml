@@ -45,6 +45,7 @@ feeds:
     title: Science
     research_budget: 3
     topics: [science, space, health]
+    also_includes: [climate-resilience]
     scoring_context: >
       Score for a science-curious reader, not against general-news events. 5 = landmark
       within science (Nobel-calibre discovery, major FDA approval, first-ever mission
@@ -53,7 +54,6 @@ feeds:
       note or incremental finding.
   tech-research:
     title: Computer Science
-    kind: research
     research_budget: 3
     topics: [tech-research]
     scoring_context: >
@@ -63,7 +63,6 @@ feeds:
       practical technique with clear applications). 1 = incremental or narrow niche.
   climate-resilience:
     title: Climate & Ecological Resilience
-    kind: research
     research_budget: 3
     topics: [climate-resilience]
     scoring_context: >
@@ -199,6 +198,9 @@ sources:
 
   # === SCIENCE FEED ===
   # --- General science ---
+  - name: "Live Science"
+    url: https://www.livescience.com/feeds/all
+    topic: science
   - name: ScienceDaily
     url: https://www.sciencedaily.com/rss/top/science.xml
     topic: science
