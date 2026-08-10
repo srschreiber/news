@@ -34,6 +34,40 @@
   },
   {
     "date": "2026-08-10",
+    "kind": "research",
+    "event_id": "enduring-impacts-of-el-niño-on-life-expectancy-in-past-and-future-climates-author-correction",
+    "title": "Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)",
+    "summary": "An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios.",
+    "theme": "Climate",
+    "importance": 1,
+    "evidence_strength": 5,
+    "study_type": "paper",
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "climate-resilience"
+    ],
+    "primary_feed": "climate-resilience",
+    "keywords": [
+      "El Niño",
+      "life expectancy",
+      "climate change",
+      "intergenerational impacts"
+    ],
+    "url": "research/climate-resilience/2026-08-10/#enduring-impacts-of-el-niño-on-life-expectancy-in-past-and-future-climates-author-correction",
+    "sources": [
+      {
+        "label": "Nature Climate Change",
+        "url": "https://www.nature.com/articles/s41558-026-02735-5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
     "kind": "news",
     "event_id": "neofs-s3-gateway-v0451-improves-performance",
     "title": "NeoFS S3 Gateway v0.45.1 improves performance",
@@ -433,40 +467,6 @@
       {
         "label": "techzine.eu",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamN2QTNSbFF0YnJEbUtDcUZxcmtuOTl4S2dNSVNhRDVqakEyUmc2Y1duNU1SS0NwNjZPNzZXTjJRYWR2RVNlVjYwLUprUGhhMmRGSGFWeDV1Y1RhWVZRTkdGV25xdXpoZ3Y4YWlGMUFnNVFPbEdHZjhuZDViY2x0LXV2RkRUM3hGSGFoQzVxRFc5Z2FSYUtsWjRXQko0SElOajhoeHY2VG9SaEk?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "claude-code-auto-mode-set-to-default-in-anthropics-development-environment",
-    "title": "Claude Code auto mode set to default in Anthropic's development environment",
-    "summary": "Anthropic confirms Claude Code's auto mode will be enabled by default.",
-    "theme": "AI",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "Anthropic",
-      "auto mode",
-      "code generation"
-    ],
-    "url": "news/anthropic/2026-08-10/#claude-code-auto-mode-set-to-default-in-anthropics-development-environment",
-    "sources": [
-      {
-        "label": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vNklTVGFuNFNCVHF4NFFkWHdrTld6WEVuaEtBMjRoVnF0QzdVTnJqUjRuOENMVHZvbmQwQ2o5UkhndzZlUVB2T3ROMGNEc0w2dXZhR2YwaDlrQzJPRTdqXzF6X0tYZ0htbU5zNVkwRVJqdDhHNzJj?oc=5",
         "origin": "rss"
       }
     ],
@@ -1386,6 +1386,40 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "bytedance-seed-introduces-seedrealtime-audio-visual-full-duplex-llm",
+    "title": "ByteDance Seed Introduces SeedRealtime Audio-Visual Full-Duplex LLM",
+    "summary": "ByteDance Seed has unveiled SeedRealtime, a multimodal language model capable of watching, listening, and speaking simultaneously.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ByteDance",
+      "SeedRealtime",
+      "multimodal LLM",
+      "audio-visual"
+    ],
+    "url": "news/ai/2026-08-10/#bytedance-seed-introduces-seedrealtime-audio-visual-full-duplex-llm",
+    "sources": [
+      {
+        "label": "MarkTechPost",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPblotSndEOFRxY3pJSVVnOWVEeE1ZaFpUajZmeHcxVXBsLUdmTWZ1ektpY09YVE9UdzdjUllQYVdLMGp5am5acnB4VkZPZDdaWjQxT1RMSnJHdHQ4R2xJaGRzRUhJZllud3VzQmF1Qy1xWHZRSkljVVhLQ2RrX0lHTUpfQjdWYlQwM0JiTXlNc0dQdHRzX3pVWXNuYVRVUTA0NU5CSVNRdXlEWGxJdWlfNEFwTFpULVlEaUhWUURnUUw3QVhuZTcxSm1UUEM2Uk8wOVBvRXlDNXM4YjduZnY0LW0zYnFfRThNazV5NEFBNW1DdHVw0gH6AUFVX3lxTFAyRDQzbEFYWXJNblRuNFNqT3hPSlBadDF3Rlo1ZS1hVzVRdGJLMjlzaGtudE9UWklDMHpQTWNEMTdDSmVEZTVTWFZsbGtReUt1N2hYUUQxOXNacEZzM29WMTkwcHZNX05ONjdYS1prcXNSbWllQ29zUWp2NHNxb0RzbDB4cjd5ZzR6aFVGNmItSXFydmpiMmVXbW44WlhQdWszMjB4dmFHbkxpSExUdzZBUEwyYnVFcHMySHU2LTFHaXRGdk5QMGFNeVd0UjlGdjZvMG1XdHFrRDJtRkQ3QVAzX3BOVjJPcFdEYW01YWd6UjgwYkxpWVhZVUE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "anthropic-enables-claude-code-auto-mode-by-default",
     "title": "Anthropic enables Claude Code auto mode by default",
     "summary": "Anthropic will make Claude Code's autonomous 'auto mode' the default for Pro, Max, and Team users starting August 14, 2026, replacing manual approval prompts with a safety classifier that blocks risky actions.",
@@ -1621,6 +1655,40 @@
       {
         "label": "bloomberg.com",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc0Y5VVJWSkc1aEJOMEF4QlNaeGxsVDg0YklRUzluTE5rVTVKekh5ZnM5VWh4NUcxNXBvNXB3djlZbm1DbHkxNTJhMFI4anFvakJnSndGYTI1WktTS2hOSmhXcUE5c0hXS1lrTmhjTEY3aGNERmlKOWc5TER3MUQtOHk4VHg3T0FwU0NLQmlNR09FbnMwLV9FaE80VU5qWG9HMXg2TDFKVENTeHJ6d0E5Mg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "anthropic-makes-claude-code-auto-mode-the-default",
+    "title": "Anthropic Makes Claude Code Auto Mode the Default",
+    "summary": "Anthropic has made auto mode the default in Claude Code, prioritizing automated code execution over manual review.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude Code",
+      "auto mode",
+      "automation"
+    ],
+    "url": "news/anthropic/2026-08-10/#anthropic-makes-claude-code-auto-mode-the-default",
+    "sources": [
+      {
+        "label": "DevOps.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUs3LXA1cjJQNnlaT1ZOUUtYdGZPQW45bkpGcG1oU091a29wNFRIbm81d25EZlR3eVgycXJiUnpOVjAzOVdJX1Y0aW1LMlF6SzZpNnJDa1ozcXhiREpNXzd5aXNUVDcyUWwyUFBYSFNrQmdQVVlOZDFhczh2N2tmNHVnTTJsVEhqbTBZUEdwQzZoNE1YQlJMTzgyamo5NUF0TDd0dWlJbGVZVk8tNUE?oc=5",
         "origin": "rss"
       }
     ],
@@ -2646,6 +2714,47 @@
     ],
     "takeaways": [],
     "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "research",
+    "event_id": "globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
+    "title": "Globally and intergenerationally unequal exposure to hourly heat extremes",
+    "summary": "A study in Nature Climate Change finds hourly heat extremes will quadruple globally by century's end under high emissions, with population exposure rising sixfold and low- and middle-income countries bearing the brunt.",
+    "theme": "Climate",
+    "importance": 4,
+    "evidence_strength": 5,
+    "study_type": "paper",
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "climate-resilience"
+    ],
+    "primary_feed": "climate-resilience",
+    "keywords": [
+      "heat extremes",
+      "hourly temperature",
+      "climate change",
+      "inequality",
+      "exposure assessment"
+    ],
+    "url": "research/climate-resilience/2026-08-10/#globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
+    "sources": [
+      {
+        "label": "Nature Climate Change",
+        "url": "https://www.nature.com/articles/s41558-026-02724-8",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Global hourly heat extremes projected to rise 4x by end of century under high emissions",
+      "Population exposure to hourly heat extremes projected to rise 6x",
+      "Each hot day gains ~4 extra hot hours, plus 3 hot hours on non-hot days missed by daily metrics",
+      "Low- and middle-income countries already bear over 75% of heat exposure",
+      "Younger generations, especially in low-income countries, face far higher lifetime exposure than earlier cohorts"
+    ],
+    "researched": true
   },
   {
     "date": "2026-08-10",
