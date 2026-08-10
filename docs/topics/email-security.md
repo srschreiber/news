@@ -1,10 +1,8 @@
-# Email Security (1)
+# Email Security
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-## Latest — 2026-08-10
-
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cisco Email Threat Defense achieves FedRAMP High certification](../news/email-security/2026-08-10.md#cisco-email-threat-defense-achieves-fedramp-high-certification)
+_No briefings yet._
 
 ## Rollups
 

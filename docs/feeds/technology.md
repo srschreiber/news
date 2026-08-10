@@ -1,34 +1,20 @@
-# Technology (15)
+# Technology (1)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T23:34:54.519695+00:00">refreshed 23:34 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T23:45:30.790155+00:00">refreshed 23:45 UTC</time></em>
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Polish energy plant breached via private APN network](../news/security/2026-08-10.md#polish-energy-plant-breached-via-private-apn-network) <span class="src-badge src-research">AI Researched</span> — Hackers breached a heat-and-power plant in Poland supplying heat to approximately 50,000 residents by exploiting a private APN (Access Point Name) to gain access to the operational technology (OT) network. The breach occurred in the previous year. · _security_
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [President of the United States signs order cutting vaccines amid false claims](../news/tech/2026-08-10.md#president-of-the-united-states-signs-order-cutting-vaccines-amid-false-claims) <span class="src-badge src-research">AI Researched</span> — The president of the United States signed an executive order cutting vaccines while making false claims that the MMR vaccine is lethal and linked to autism. The order also promotes vaccines that do not exist. · _tech_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude Code auto-mode activated with 89% danger-blocking rate](../news/anthropic/2026-08-10.md#claude-code-auto-mode-activated-with-89-danger-blocking-rate) <span class="src-badge src-research">AI Researched</span> — Anthropic enables Claude Code's auto-mode by default, implementing a safety system that blocks 89% of dangerous operations automatically. Human intervention stops only 14% of dangerous operations, indicating the automated safety measures are significantly more effective than manual review in preventing risky code execution. · _anthropic_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude Opus 5 and pricing strategy ahead of Anthropic IPO](../news/anthropic/2026-08-10.md#claude-opus-5-and-pricing-strategy-ahead-of-anthropic-ipo) <span class="src-badge src-research">AI Researched</span> — Anthropic locks in Sonnet 5 pricing and enables Claude Code auto-mode as it prepares for IPO. · _anthropic_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI launches cybersecurity-focused AI model](../news/gpt/2026-08-10.md#openai-launches-cybersecurity-focused-ai-model) <span class="src-badge src-research">AI Researched</span> — OpenAI introduces a new cyber model in response to emerging AI cyberattack threats. · _gpt_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Meta releases new open-source AI models](../news/tech/2026-08-10.md#meta-releases-new-open-source-ai-models) <span class="src-badge src-research">AI Researched</span> — Meta launches new open-source AI models as part of a strategic initiative to revitalize its AI approach in response to competitive pressures from other major technology companies. · _tech_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Amazon backs power plant risking major US climate pollution](../news/tech/2026-08-10.md#amazon-backs-power-plant-risking-major-us-climate-pollution) — Amazon announces backing of an off-the-grid data center power plant that could become a top source of US climate pollution. · _tech_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic implements global AI watermarking regime](../news/anthropic/2026-08-10.md#anthropic-implements-global-ai-watermarking-regime) — Anthropic initiates EU-spurred global watermarking regime for Claude AI models. · _anthropic_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cisco Email Threat Defense achieves FedRAMP High certification](../news/email-security/2026-08-10.md#cisco-email-threat-defense-achieves-fedramp-high-certification) — Cisco's Email Threat Defense earns FedRAMP Class D (High) certification for security compliance. · _email-security_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [GPT-5.6 Luna developer guide published](../news/gpt/2026-08-10.md#gpt-56-luna-developer-guide-published) — SitePoint releases developer guide for GPT-5.6 Luna. · _gpt_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Zapier transforms marketing with ChatGPT Work](../news/gpt/2026-08-10.md#zapier-transforms-marketing-with-chatgpt-work) — Zapier uses OpenAI's ChatGPT Work to automate core marketing processes. · _gpt_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Jeff Bezos nears stake in Liverpool Football Club](../news/tech/2026-08-10.md#jeff-bezos-nears-stake-in-liverpool-football-club) — Jeff Bezos is reportedly close to acquiring his first ownership stake in a sports team through purchase of shares in the UK's Liverpool Football Club. · _tech_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Zuckerberg's superyacht slow to respond to Coast Guard emergency call](../news/tech/2026-08-10.md#zuckerbergs-superyacht-slow-to-respond-to-coast-guard-emergency-call) — Zuckerberg's superyacht and support ship were slow to heed a Coast Guard call while responding to a stranded vessel. · _tech_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Cold Iron Studios shuts down cloud version of $60 game without refunds](../news/tech/2026-08-10.md#cold-iron-studios-shuts-down-cloud-version-of-60-game-without-refunds) — Developer Cold Iron Studios discontinues the cloud version of a $60 game without offering refunds to players. · _tech_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Google Search decline spurs concerns about future alternatives](../news/tech/2026-08-10.md#google-search-decline-spurs-concerns-about-future-alternatives) — Article discusses Google Search's declining dominance and questions what comes next as a search alternative. · _tech_
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [World Train Map showcases 1247 global train routes](../news/tech/2026-08-10.md#world-train-map-showcases-1247-global-train-routes) — An interactive map documents 1247 train routes across the world. · _tech_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
-- [Tech](../topics/tech.md) — 8 stories
+- [Tech](../topics/tech.md) — 1 story
 - [AI](../topics/ai.md) — 0 stories
-- [Anthropic](../topics/anthropic.md) — 3 stories
-- [GPT](../topics/gpt.md) — 3 stories
-- [Security](../topics/security.md) — 1 story
-- [Email Security](../topics/email-security.md) — 1 story
+- [Anthropic](../topics/anthropic.md) — 0 stories
+- [GPT](../topics/gpt.md) — 0 stories
+- [Security](../topics/security.md) — 0 stories
+- [Email Security](../topics/email-security.md) — 0 stories
 - [Golang](../topics/golang.md) — 0 stories
-- [Python](../topics/python.md) — 1 story
+- [Python](../topics/python.md) — 0 stories
 - [Postgres](../topics/postgres.md) — 0 stories
 
