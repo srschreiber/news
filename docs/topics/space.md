@@ -1,4 +1,4 @@
-# Space (8)
+# Space (9)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
@@ -12,6 +12,7 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Pluto's atmosphere collapsing as planet drifts further from sun](../news/space/2026-08-10.md#plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun)
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA funds 18 space technology innovation concepts with $3.2 million](../news/space/2026-08-10.md#nasa-funds-18-space-technology-innovation-concepts-with-32-million)
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA+ streaming service debuts on discovery+ and HBO Max](../news/space/2026-08-10.md#nasa-streaming-service-debuts-on-discovery-and-hbo-max)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Lego Project Hail Mary set review](../news/space/2026-08-10.md#lego-project-hail-mary-set-review)
 
 ## Rollups
 

@@ -1,12 +1,39 @@
-# Science (26)
+# Science (27)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T16:51:36.696582+00:00">refreshed 16:51 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:03:54.241148+00:00">refreshed 17:03 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
+
+    - AI tools Evo1 and Evo2 trained on millions of genomes
+    - ~300 designs synthesized, 16 proved viable
+    - AI-designed phage mix beat resistance that natural phages couldn't
+    - Published in Science; led by Samuel King and Brian Hie
+    - Biosecurity experts flag risks of designing biology from scratch
+
+    Sources: [My Stateline](https://www.mystateline.com/news/scientists-engineer-novel-viruses-with-ai-to-fight-unstoppable-bacterial-threats/) <span class="src-badge src-research">Research</span>, [XenoSpectrum](https://xenospectrum.com/en/ai-generated-phage-genome-evo2-stanford/) <span class="src-badge src-research">Research</span>, [Phys.org](https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html) <span class="src-badge src-rss">RSS</span>
+
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [DESI Legacy Imaging Surveys releases largest 2D map of the universe](../news/science/2026-08-10.md#desi-legacy-imaging-surveys-releases-largest-2d-map-of-the-universe) — The DESI Legacy Imaging Surveys team releases a 5.6-trillion-pixel map of the universe containing nearly 4 billion celestial objects. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Experimental GLP-1 pill achieves 12% weight loss in 36 weeks](../news/health/2026-08-10.md#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks) — An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks. · _health_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Western Europe records hottest June-July on temperature record](../news/science/2026-08-10.md#western-europe-records-hottest-june-july-on-temperature-record) <span class="src-badge src-research">AI Researched</span> — Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain. · _science, world_
+
+    - Combined June-July average of 21.62°C, 2.79°C above normal
+    - Beats previous record set in 2022
+    - Third straight month of exceptional heat in the region
+    - Low river flows on the Seine, Rhine and Danube
+    - Global sea surface temperatures hit record 20.96°C in July
+
+    Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says) <span class="src-badge src-research">Research</span>, [CNN](https://www.cnn.com/2026/08/10/climate/europe-heatwave-wildfire-intl-hnk) <span class="src-badge src-research">Research</span>, [Phys.org](https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html) <span class="src-badge src-rss">RSS</span>, [BBC](https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xMWpJVlAxeHhOb21USlItZ2xPcEZHM0REUmVFMmlpUTU0UnNkNzVFWklUeWJqQkpqaERwUzFNakVwRlk5Yy1QTGhVVEkyVFp1cmZ6T3A2LUc1dw?oc=5) <span class="src-badge src-rss">RSS</span>
+
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI's Astra model demonstrates mathematical breakthroughs](../news/science/2026-08-10.md#openais-astra-model-demonstrates-mathematical-breakthroughs) — OpenAI's unreleased Astra model has made 10 advances in mathematics and computer science including discoveries in geometry, cryptography, and coding theory. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Voyager 2 power extended by NASA to continue deep-space mission](../news/space/2026-08-10.md#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission) <span class="src-badge src-research">AI Researched</span> — NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year. · _space_
+
+    - Voyager 2 launched 1977, now over 21 billion km from Earth
+    - Loses about 4 watts of power annually as its plutonium decays
+    - 'Big Bang' operation swapped devices for lower-power alternatives
+    - Similar fix planned for Voyager 1 in coming months
+
+    Sources: [NASA Jet Propulsion Laboratory](https://www.jpl.nasa.gov/news/nasa-engineers-help-prolong-voyager-2s-science-mission/) <span class="src-badge src-research">Research</span>, [ScienceDaily](https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTRDLUtub0ZkNWo0MDhWX05BMnVoUDBmWWlDeE1vVjNVcnQyMG5uN3lQeEdENHBabm54cUJGVlF0WFFxREkzVFIxOFF2LUZpbjhNaXRNVGdzcG0zSXp1NmVlX0kzTEtnd3VBVGNR?oc=5) <span class="src-badge src-rss">RSS</span>
+
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Inouye Solar Telescope captures highest-resolution image of Sun's surface](../news/space/2026-08-10.md#inouye-solar-telescope-captures-highest-resolution-image-of-suns-surface) — An international research team using the NSF's Inouye Solar Telescope captured the sharpest-ever view of the Sun's surface. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Sionna Therapeutics cystic fibrosis pill fails in mid-stage trial](../news/health/2026-08-10.md#sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial) — Sionna Therapeutics' experimental cystic fibrosis drug provided no added benefit when combined with Vertex's blockbuster Trikafta in a trial. · _health_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Sanofi experiences shortage of Pompe disease medications](../news/health/2026-08-10.md#sanofi-experiences-shortage-of-pompe-disease-medications) — Sanofi is facing supply shortages of two medicines used to treat Pompe disease following FDA warnings over manufacturing deficiencies. · _health_
@@ -20,7 +47,6 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [NASA mission maps heat loss from Earth's rapidly changing poles](../news/science/2026-08-10.md#nasa-mission-maps-heat-loss-from-earths-rapidly-changing-poles) — Satellite data reveal dramatic seasonal temperature swings at Earth's poles, showing how differently surface temperatures evolve across the year. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Monsoon provides temporary reprieve for Great Barrier Reef coral recovery](../news/science/2026-08-10.md#monsoon-provides-temporary-reprieve-for-great-barrier-reef-coral-recovery) — A late-summer monsoon in 2026 helped slow coral bleaching and aided recovery of the Great Barrier Reef ecosystem. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Planet rotation rates may explain habitability of Venus-like exoplanets](../news/science/2026-08-10.md#planet-rotation-rates-may-explain-habitability-of-venus-like-exoplanets) — Scientists investigate how planetary spin rates influence whether worlds become uninhabitable greenhouse planets or remain capable of supporting life. · _science_
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Optical 'lying mirror' conceals and transforms reflected image information](../news/science/2026-08-10.md#optical-lying-mirror-conceals-and-transforms-reflected-image-information) — UCLA researchers developed a novel mirror using structured surfaces that hides optical information and transforms reflected images instead of revealing them. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse August 12 with possible northern lights viewing](../news/space/2026-08-10.md#total-solar-eclipse-august-12-with-possible-northern-lights-viewing) — A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Japanese H3 rocket launches Michibiki 7 navigation satellite](../news/space/2026-08-10.md#japanese-h3-rocket-launches-michibiki-7-navigation-satellite) — Japan's H3 rocket successfully launches the Michibiki 7 navigation satellite to orbit. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chinese rocket explodes less than 90 seconds after liftoff](../news/space/2026-08-10.md#chinese-rocket-explodes-less-than-90-seconds-after-liftoff) — A Chinese rocket launch failed spectacularly, exploding less than 90 seconds after liftoff on August 10. · _space_
@@ -28,12 +54,13 @@
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Pluto's atmosphere collapsing as planet drifts further from sun](../news/space/2026-08-10.md#plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun) — As Pluto edges away from the sun, its atmosphere is condensing and freezing onto its surface. · _space_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA funds 18 space technology innovation concepts with $3.2 million](../news/space/2026-08-10.md#nasa-funds-18-space-technology-innovation-concepts-with-32-million) — NASA invests $3.2 million in 18 experimental space technology ideas that may never reach practical deployment. · _space_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA+ streaming service debuts on discovery+ and HBO Max](../news/space/2026-08-10.md#nasa-streaming-service-debuts-on-discovery-and-hbo-max) — NASA+ launched on discovery+ with plans to expand to HBO Max. · _space_
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Lego Project Hail Mary set review](../news/space/2026-08-10.md#lego-project-hail-mary-set-review) — A new Lego set inspired by the Project Hail Mary film is assessed for collectibility. · _space_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
 - [Science](../topics/science.md) — 10 stories
-- [Space](../topics/space.md) — 8 stories
+- [Space](../topics/space.md) — 9 stories
 - [Health](../topics/health.md) — 10 stories
 

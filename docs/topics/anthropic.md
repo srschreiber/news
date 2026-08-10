@@ -13,7 +13,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic and partners establish AI data center venture](../news/anthropic/2026-08-10.md#anthropic-and-partners-establish-ai-data-center-venture)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic sets Claude Code auto mode as default](../news/anthropic/2026-08-10.md#anthropic-sets-claude-code-auto-mode-as-default)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Claude Code auto mode set to default in Anthropic's development environment](../news/anthropic/2026-08-10.md#claude-code-auto-mode-set-to-default-in-anthropics-development-environment)
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Washington D.C. leads per-capita Claude AI adoption due to paperwork economy](../news/anthropic/2026-08-10.md#washington-dc-leads-per-capita-claude-ai-adoption-due-to-paperwork-economy)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic defaults Claude Code auto mode to on](../news/anthropic/2026-08-10.md#anthropic-defaults-claude-code-auto-mode-to-on)
 
 ## Rollups
 
