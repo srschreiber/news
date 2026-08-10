@@ -71,6 +71,7 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "news: ${{ steps.mode.outputs.mode }} run $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
             git push
           fi
 
