@@ -88,8 +88,8 @@ WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (Haiku read 
 WEB_FETCHES_PER_EVENT = 2               # HARD per-event fetch cap (per clustered story)
 GLOBAL_SEARCH_SAFETY = 80               # run-wide safety net (rarely hit)
 MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~25 events/run
-WEB_FETCH_MAX_CONTENT_TOKENS = 2000     # HARD per-page cap (Haiku). A news lede + body fits in
-                                        # ~3000 words; with 2 fetches/event, facts get 2 shots.
+WEB_FETCH_MAX_CONTENT_TOKENS = 1000     # Per-page cap. News ledes fit in ~750 words; Haiku gets
+                                        # 2 fetches/event if needed for more detail.
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
