@@ -883,13 +883,14 @@ def stage1_cluster(
 
 
 def _serper_search(query: str, n: int = 5) -> list[dict]:
-    """Search Google via Serper.dev. Returns list of {title, url, snippet}."""
+    """Search Google News via Serper.dev /news endpoint (journalistic sources only).
+    Returns list of {title, url, snippet}."""
     key = os.environ.get("SERPER_DEV_API_KEY", "")
     if not key:
         raise RuntimeError("SERPER_DEV_API_KEY not set")
     data = json.dumps({"q": query, "num": n}).encode()
     req = urllib.request.Request(
-        "https://google.serper.dev/search",
+        "https://google.serper.dev/news",
         data=data,
         headers={"X-API-KEY": key, "Content-Type": "application/json"},
         method="POST",
@@ -898,7 +899,7 @@ def _serper_search(query: str, n: int = 5) -> list[dict]:
         result = json.loads(resp.read())
     return [
         {"title": r["title"], "url": r["link"], "snippet": r.get("snippet", "")}
-        for r in result.get("organic", [])
+        for r in result.get("news", [])
     ]
 
 
