@@ -1,6 +1,6 @@
-# Science (27)
+# Science (26)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:28:09.280183+00:00">refreshed 17:28 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:47:27.356390+00:00">refreshed 17:47 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
 
@@ -54,7 +54,6 @@
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Fruit juice or smoothie daily linked to lower depression scores](../news/health/2026-08-10.md#fruit-juice-or-smoothie-daily-linked-to-lower-depression-scores) — A four-week trial found that adding a daily glass of 100% fruit juice or smoothie to a healthier diet reduced depression scores in participants. · _health_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Pluto's atmosphere collapsing as planet drifts further from sun](../news/space/2026-08-10.md#plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun) — As Pluto edges away from the sun, its atmosphere is condensing and freezing onto its surface. · _space_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA funds 18 space technology innovation concepts with $3.2 million](../news/space/2026-08-10.md#nasa-funds-18-space-technology-innovation-concepts-with-32-million) — NASA invests $3.2 million in 18 experimental space technology ideas that may never reach practical deployment. · _space_
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Lego Project Hail Mary set review](../news/space/2026-08-10.md#lego-project-hail-mary-set-review) — A new Lego set inspired by the Project Hail Mary film is assessed for collectibility. · _space_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
