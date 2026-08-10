@@ -1,6 +1,6 @@
-# Science (24)
+# Science (26)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T15:56:09.345208+00:00">refreshed 15:56 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T16:51:36.696582+00:00">refreshed 16:51 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Experimental GLP-1 pill achieves 12% weight loss in 36 weeks](../news/health/2026-08-10.md#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks) — An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks. · _health_
@@ -23,15 +23,17 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Optical 'lying mirror' conceals and transforms reflected image information](../news/science/2026-08-10.md#optical-lying-mirror-conceals-and-transforms-reflected-image-information) — UCLA researchers developed a novel mirror using structured surfaces that hides optical information and transforms reflected images instead of revealing them. · _science_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse August 12 with possible northern lights viewing](../news/space/2026-08-10.md#total-solar-eclipse-august-12-with-possible-northern-lights-viewing) — A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions. · _space_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Japanese H3 rocket launches Michibiki 7 navigation satellite](../news/space/2026-08-10.md#japanese-h3-rocket-launches-michibiki-7-navigation-satellite) — Japan's H3 rocket successfully launches the Michibiki 7 navigation satellite to orbit. · _space_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Chinese rocket explodes less than 90 seconds after liftoff](../news/space/2026-08-10.md#chinese-rocket-explodes-less-than-90-seconds-after-liftoff) — A Chinese rocket launch failed spectacularly, exploding less than 90 seconds after liftoff on August 10. · _space_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Fruit juice or smoothie daily linked to lower depression scores](../news/health/2026-08-10.md#fruit-juice-or-smoothie-daily-linked-to-lower-depression-scores) — A four-week trial found that adding a daily glass of 100% fruit juice or smoothie to a healthier diet reduced depression scores in participants. · _health_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Pluto's atmosphere collapsing as planet drifts further from sun](../news/space/2026-08-10.md#plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun) — As Pluto edges away from the sun, its atmosphere is condensing and freezing onto its surface. · _space_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA funds 18 space technology innovation concepts with $3.2 million](../news/space/2026-08-10.md#nasa-funds-18-space-technology-innovation-concepts-with-32-million) — NASA invests $3.2 million in 18 experimental space technology ideas that may never reach practical deployment. · _space_
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA+ streaming service debuts on discovery+ and HBO Max](../news/space/2026-08-10.md#nasa-streaming-service-debuts-on-discovery-and-hbo-max) — NASA+ launched on discovery+ with plans to expand to HBO Max. · _space_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
 - [Science](../topics/science.md) — 10 stories
-- [Space](../topics/space.md) — 6 stories
+- [Space](../topics/space.md) — 8 stories
 - [Health](../topics/health.md) — 10 stories
 
