@@ -114,7 +114,7 @@ PRICES = {
     "claude-haiku-4-5": {"input": 1.0, "output": 5.0},
     "claude-sonnet-5": {"input": 3.0, "output": 15.0},
 }
-WEB_SEARCH_COST_PER_1K = 10.0  # ~$10 per 1,000 web searches
+WEB_SEARCH_COST_PER_1K = 1.0   # Serper.dev: $1 per 1,000 searches
 
 METER_FILLED = "🔥"
 METER_EMPTY = "◯"
@@ -747,6 +747,11 @@ class Metrics:
         self._lock = threading.Lock()
         self.topics: dict[str, dict] = {}
 
+    def add_searches(self, topic: str, count: int) -> None:
+        with self._lock:
+            top = self.topics.setdefault(topic, {"calls": 0, "web_searches": 0, "by_model": {}})
+            top["web_searches"] += count
+
     def add(self, topic: str, model: str, usage) -> None:
         if usage is None:
             return
@@ -877,15 +882,46 @@ def stage1_cluster(
     return []
 
 
+def _serper_search(query: str, n: int = 5) -> list[dict]:
+    """Search Google via Serper.dev. Returns list of {title, url, snippet}."""
+    key = os.environ.get("SERPER_DEV_API_KEY", "")
+    if not key:
+        raise RuntimeError("SERPER_DEV_API_KEY not set")
+    data = json.dumps({"q": query, "num": n}).encode()
+    req = urllib.request.Request(
+        "https://google.serper.dev/search",
+        data=data,
+        headers={"X-API-KEY": key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=10) as resp:
+        result = json.loads(resp.read())
+    return [
+        {"title": r["title"], "url": r["link"], "snippet": r.get("snippet", "")}
+        for r in result.get("organic", [])
+    ]
+
+
+_SERPER_TOOL = {
+    "name": "web_search",
+    "description": "Search Google for current coverage of a news event. Returns titles, URLs, and snippets.",
+    "input_schema": {
+        "type": "object",
+        "properties": {"query": {"type": "string"}},
+        "required": ["query"],
+    },
+}
+
+
 def stage2a_read(event: dict, date: str) -> dict | None:
-    """Stage 2a — HAIKU reads one event: googles it (web_search) and reads the
-    best page(s) (web_fetch, up to 8000 tokens — cheap on Haiku), and returns a
-    factual extract + the outlets it actually used. Uses the basic web-tool
-    variants (Haiku tier). Returns None on any failure (event keeps RSS summary)."""
+    """Stage 2a — Haiku researches one event using Serper (cheap Google search)
+    and web_fetch with dynamic filtering. Returns a factual extract + sources,
+    or None on failure (event keeps its RSS summary)."""
+    _load_dotenv()
     client = _client()
     tools = [
-        {"type": "web_search_20250305", "name": "web_search", "max_uses": WEB_SEARCHES_PER_EVENT},
-        {"type": "web_fetch_20250910", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
+        _SERPER_TOOL,
+        {"type": "web_fetch_20260318", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
          "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS},
     ]
     payload = {
@@ -899,6 +935,7 @@ def stage2a_read(event: dict, date: str) -> dict | None:
     )
     messages: list[dict] = [{"role": "user", "content": user}]
     final = None
+    searches_used = 0
     for _ in range(MAX_TOOL_LOOP_ITERS):
         try:
             with client.messages.stream(
@@ -910,11 +947,35 @@ def stage2a_read(event: dict, date: str) -> dict | None:
                 messages=messages,
             ) as stream:
                 final = stream.get_final_message()
-        except Exception as e:  # e.g. Haiku can't use these web tools -> degrade
+        except Exception as e:
             log(f"read failed ({event.get('title', '?')[:40]}): {e}")
             return None
         METRICS.add("(read)", READ_MODEL, final.usage)
+        if final.stop_reason == "tool_use":
+            # Handle our custom Serper search tool calls.
+            messages.append({"role": "assistant", "content": final.content})
+            tool_results = []
+            for block in final.content:
+                if getattr(block, "type", None) != "tool_use" or block.name != "web_search":
+                    continue
+                if searches_used >= WEB_SEARCHES_PER_EVENT:
+                    tool_results.append({"type": "tool_result", "tool_use_id": block.id,
+                                         "content": "Search budget exhausted.", "is_error": True})
+                else:
+                    try:
+                        hits = _serper_search(block.input.get("query", ""))
+                        searches_used += 1
+                        METRICS.add_searches("(read)", 1)
+                        tool_results.append({"type": "tool_result", "tool_use_id": block.id,
+                                             "content": json.dumps(hits)})
+                    except Exception as e:
+                        tool_results.append({"type": "tool_result", "tool_use_id": block.id,
+                                             "content": f"Search failed: {e}", "is_error": True})
+            if tool_results:
+                messages.append({"role": "user", "content": tool_results})
+            continue
         if final.stop_reason == "pause_turn":
+            # web_fetch is being executed by Anthropic's infrastructure.
             messages.append({"role": "assistant", "content": final.content})
             continue
         break
