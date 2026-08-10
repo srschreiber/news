@@ -3,7 +3,6 @@
 ## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:47:27.356390+00:00">refreshed 17:47 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
-
     - AI tools Evo1 and Evo2 trained on millions of genomes
     - ~300 designs synthesized, 16 proved viable
     - AI-designed phage mix beat resistance that natural phages couldn't
@@ -15,7 +14,6 @@
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [DESI Legacy Imaging Surveys releases largest 2D map of the universe](../news/science/2026-08-10.md#desi-legacy-imaging-surveys-releases-largest-2d-map-of-the-universe) — The DESI Legacy Imaging Surveys team releases a 5.6-trillion-pixel map of the universe containing nearly 4 billion celestial objects. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Experimental GLP-1 pill achieves 12% weight loss in 36 weeks](../news/health/2026-08-10.md#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks) — An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks. · _health_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Western Europe records hottest June-July on temperature record](../news/science/2026-08-10.md#western-europe-records-hottest-june-july-on-temperature-record) <span class="src-badge src-research">AI Researched</span> — Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain. · _science, world_
-
     - Combined June-July average of 21.62°C, 2.79°C above normal
     - Beats previous record set in 2022
     - Third straight month of exceptional heat in the region
@@ -28,7 +26,6 @@
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Discovery of slow electrons in 2D materials for memory devices](../news/science/2026-08-10.md#discovery-of-slow-electrons-in-2d-materials-for-memory-devices) — Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI improves tropical cyclone forecasting by 30 hours](../news/science/2026-08-10.md#ai-improves-tropical-cyclone-forecasting-by-30-hours) — AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Voyager 2 power extended by NASA to continue deep-space mission](../news/space/2026-08-10.md#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission) <span class="src-badge src-research">AI Researched</span> — NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year. · _space_
-
     - Voyager 2 launched 1977, now over 21 billion km from Earth
     - Loses about 4 watts of power annually as its plutonium decays
     - 'Big Bang' operation swapped devices for lower-power alternatives
