@@ -34,6 +34,72 @@
   },
   {
     "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "brex-monitors-ai-agent-networks-rather-than-code",
+    "title": "Brex Monitors AI Agent Networks Rather Than Code",
+    "summary": "Brex shifts AI agent oversight from code inspection to network monitoring, assuming agents could perform any task.",
+    "theme": "AI",
+    "importance": 1,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Brex",
+      "AI agents",
+      "network monitoring"
+    ],
+    "url": "news/ai/2026-08-10/#brex-monitors-ai-agent-networks-rather-than-code",
+    "sources": [
+      {
+        "label": "VentureBeat",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYy02V1dCR0RhS2lubFFzYU9RTFJsSkh1SlBqd180dXA1S1NLWFNxYWJOOHNrTUhEakU5dDQ5d0l0bnR5SDJtZ0lHV2VaZHk3cGVJYkJZY0tuVUZxdEcwZmR6OF9zeTk3UC1uRU1aSWZrdjR1THN6QmM4X2pMdC1FMGtPM0ZYMF9HNlhDSkhOS0VxaElXLS15cUNGMGR1V0ljUGFUVW1WUk1rd1djUzhVUUJzUXQyU0hrN3hhOTVR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "eye-tracking-reveals-divergence-between-human-reading-and-ai-processing",
+    "title": "Eye Tracking Reveals Divergence Between Human Reading and AI Processing",
+    "summary": "Neuroscience research using eye tracking shows where human reading comprehension and AI text processing differ.",
+    "theme": "AI",
+    "importance": 1,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "eye tracking",
+      "AI processing",
+      "reading comprehension"
+    ],
+    "url": "news/ai/2026-08-10/#eye-tracking-reveals-divergence-between-human-reading-and-ai-processing",
+    "sources": [
+      {
+        "label": "Neuroscience News",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XV1kxOGd3akd5a3NnOUx0OHByUDJLRkJxQmhZSDFTX19vamN0SXM1bjVLdFNGLXdVRldPYTB0WTFILUdnaW4weFVFNlBqZGExUXdqdkdDbF9xUlVwN1FpcFUtWWNoWmtaQTI4UHk3bVJGV25zcUJTVw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
     "kind": "research",
     "event_id": "enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction",
     "title": "Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)",
@@ -629,6 +695,40 @@
       {
         "label": "ScienceDaily — Health",
         "url": "https://www.sciencedaily.com/releases/2026/08/260808234959.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "federal-circuit-rejects-13-years-of-uspto-provisional-prior-art-policy",
+    "title": "Federal Circuit Rejects 13 Years of USPTO Provisional Prior Art Policy",
+    "summary": "The Federal Circuit overturns long-established USPTO examination policy regarding how provisional filing dates establish prior art.",
+    "theme": "Patents",
+    "importance": 2,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "patent-ip"
+    ],
+    "feeds": [
+      "patent-ip"
+    ],
+    "primary_feed": "patent-ip",
+    "keywords": [
+      "Federal Circuit",
+      "USPTO",
+      "provisional prior art",
+      "patent policy"
+    ],
+    "url": "news/patent-ip/2026-08-10/#federal-circuit-rejects-13-years-of-uspto-provisional-prior-art-policy",
+    "sources": [
+      {
+        "label": "Patently-O",
+        "url": "https://patentlyo.com/patent/2026/08/provisional-prior-art.html",
         "origin": "rss"
       }
     ],
@@ -1802,51 +1902,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "openai-releases-gpt-56-cyber-cybersecurity-model-and-improves-finance-capabilities",
-    "title": "OpenAI releases GPT-5.6-Cyber cybersecurity model and improves finance capabilities",
-    "summary": "OpenAI introduces GPT-5.6-Cyber, a permissive cybersecurity model, and deploys GPT-5.6 Sol for financial work optimization.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-5.6",
-      "cybersecurity",
-      "finance",
-      "AI safety"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-releases-gpt-56-cyber-cybersecurity-model-and-improves-finance-capabilities",
-    "sources": [
-      {
-        "label": "Glitchwire",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSzNfTUgwT1lHcnJoTDVIbnJtOFY1TGxjaS1GczRfRWl5N01SLUpvNHJZcUJtY3NtWFJQdFNkOThuOGc4VGc5Y0M0eXItU1JxODNsR1ZJTHRXUEpLdTNVTVN0T3dDZXItRHhMOGtpZHQzMk40U1VJN3BxQlJmS2pDNHlXRXZVRjY5Ymh3XzY4T1dMVGt5NG1uVFhrNDEtek15RVhjNzFHYmJuN1RVaVE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "axios.com",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEx3dTFaeDJuXzJTOXRxYmtxYUFlYTk1UTVxX2F3RVg5c2lncFZHQm5TS3hvTEJaUzFZUk4tU0ZKNUtSZy1aU1dSY2JaYkRDQ05aSDNOUTZOeWVpUG1ZNjJ5a3lqLUF5VUZ4b0JQcWRIVzFCcGVCTm5GbzNkT3p6eXZPSHhCZHhrWWNCM0I1MUo?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "openai.com",
-        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5zcnVXbFh0UkZYZE1qelZSOW54ZHFROURNeFB4N3N4dUZ1RXhpdElNZHFtU2lHZmlfd3hCOFNFTWx2OVoyMVRuMTNB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks",
     "title": "Experimental GLP-1 pill achieves 12% weight loss in 36 weeks",
     "summary": "An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks.",
@@ -2907,6 +2962,55 @@
       {
         "label": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONU54NWRodEdWNDdjcG1UNGlCaGd4eUZUV01EejJXLXk0VGY5Y2ZDUTlpZXBHdjREcTFHWnhtTHZVQi1UOXJKcEdxczVwN2dBcFdNbnNIZFI0eGpJcVBZbGJzSUR5WFljZGlRNzBXMTE4UHlfamU3WnZnUDF6SDBuRHBxbktRZEtIb1RYRVAxREo3emQzZFUxS0ZvOWx1emE2R21ycTc0SHhwR3ppcVRlZnZxM3EzTWE1SlJDRGlXWjJ5c1BvZlJ0UmJiaDhsZUJRcUZ6VDFVNFZQR3paamlmVy1XaF9ES21NaUpB0gHwAUFVX3lxTE5Lc3hKS0NUVWJLNkdCZmltUllSRmJnUnJaLXBqM3pIVW1fQl9KeElTYU5BM0s2N2NIZDFkSG56UHVCMW5fdTBwNTBuSmRFUmtTUnYybmttb002LUU1SGRUN2g5bV9LWU1zeWQ5dzNISThPMEx1dGo0ZjVrSENadENXaFlHNFc0b0tRLXZVSkJTZkVONHpkMU91alBBcm9Bc0Q2cFRTTWtXSnhuSWc3T01yZ08tZlM3eWR1bmJGQVJ4NWlCQXN3bkV2REFrZGlqcFhQWDRKRGkzdEkyUlI0TmVwbFdhVV9lRTdHQy1EUGo2Uw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "openai-launches-gpt-56-cyber-cybersecurity-model",
+    "title": "OpenAI Launches GPT-5.6-Cyber Cybersecurity Model",
+    "summary": "OpenAI releases GPT-5.6-Cyber, a model trained to refuse less and help defenders discover vulnerabilities.",
+    "theme": "AI",
+    "importance": 4,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-5.6-Cyber",
+      "cybersecurity",
+      "vulnerability detection"
+    ],
+    "url": "news/gpt/2026-08-10/#openai-launches-gpt-56-cyber-cybersecurity-model",
+    "sources": [
+      {
+        "label": "OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdzFyTzkxNlRBM2VZMDE4MGtEWnIwVk1jeUZndW9mNnlURXhwVmp6NlFWVTJvV3JJTWpiS0RYc2xwdHN4N3JYcHUyNlFoT1dWUUFJX1ZOWFVTMFd3cnZ0dXNnV21Vakp4b1p4SktrdHJfLUVxSzk3NlN2Y1VWTTNjOUFJbmFrQjA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdE1MWExOWFFlZnFpQ09FS0l2ZmJrZURkeVAtMW9Walp5OEVrX3lSQ1JxdEJSci1GbmduNXFtWElXVmI1MmQyZzFqaGp0WkRnem9iRWhxWDMtTVNaSDk4cjZEVE1oT0hROEJLZWVMbnZkTjFDRnVGNmc2alFMb3BMRC1iYUZmU1VwdUlCcFNFd3VWWnBLZXB6X0k5OHpSTlFJNE94X2Fhc1ZPNHlXOXZUMXZYVQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTJReHhhSWxUdDFPb0pTYUVxS2Z2YVo4SnFHU3JGd2ZVVXlwRWx4QXhseUJwdlo3Q1Y4UU5pd1R4NExOQW9pSEVFd3ZJRHFXYl9oNElJUkNkMWVVc3puYmNzY2d4RmdWV1RDR2lISUN5dG9LeTNLWGE5b09mQnM4VWV4bUxLenI1aWZLSjJ3OGFuZkl1?oc=5",
         "origin": "rss"
       }
     ],

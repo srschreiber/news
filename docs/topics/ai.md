@@ -1,4 +1,4 @@
-# AI (8)
+# AI (10)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -12,6 +12,8 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Vulnerabilities in LLM-based multi-agent systems expose stealthy attacks](../news/ai/2026-08-10.md#vulnerabilities-in-llm-based-multi-agent-systems-expose-stealthy-attacks)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Tencent expands global access to Hy3 large language model](../news/ai/2026-08-10.md#tencent-expands-global-access-to-hy3-large-language-model)
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Adobe rolls out AI-powered product discovery for shopping](../news/ai/2026-08-10.md#adobe-rolls-out-ai-powered-product-discovery-for-shopping)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Brex Monitors AI Agent Networks Rather Than Code](../news/ai/2026-08-10.md#brex-monitors-ai-agent-networks-rather-than-code)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Eye Tracking Reveals Divergence Between Human Reading and AI Processing](../news/ai/2026-08-10.md#eye-tracking-reveals-divergence-between-human-reading-and-ai-processing)
 
 ## Rollups
 

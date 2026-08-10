@@ -12,7 +12,7 @@
     <li>Younger generations, especially in low-income countries, face far higher lifetime exposure than earlier cohorts</li>
     </ul>
 
-    Sources: [Nature Climate Change](https://www.nature.com/articles/s41558-026-02724-8) <span class="src-badge src-research">Research</span>
+    Sources: [Nature Climate Change](https://www.nature.com/articles/s41558-026-02724-8) <span class="src-badge src-research">Web Search</span>
 
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)](../research/climate-resilience/2026-08-10.md#enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction) — An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios. · _climate-resilience_
 
