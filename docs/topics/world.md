@@ -1,4 +1,4 @@
-# World (13)
+# World (14)
 
 _Part of the [World](../feeds/world.md) feed · AI-researched._
 
@@ -8,6 +8,7 @@ _Part of the [World](../feeds/world.md) feed · AI-researched._
 - <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [US-Iran tensions escalate; oil prices rise as Iran signals Strait of Hormuz closure](../news/world/2026-08-10.md#us-iran-tensions-escalate-oil-prices-rise-as-iran-signals-strait-of-hormuz-closure)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [The president of the United States signals economic pressure shift on Iran nuclear deal](../news/markets/2026-08-10.md#the-president-of-the-united-states-signals-economic-pressure-shift-on-iran-nuclear-deal)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [U.S.-Iran tensions escalate; Hormuz Strait closure signals oil price surge](../news/markets/2026-08-10.md#us-iran-tensions-escalate-hormuz-strait-closure-signals-oil-price-surge)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran maintains Strait of Hormuz closure amid escalating US tensions](../news/markets/2026-08-10.md#iran-maintains-strait-of-hormuz-closure-amid-escalating-us-tensions)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Colombia struck by magnitude 7.4 earthquake killing at least 22](../news/tech/2026-08-10.md#colombia-struck-by-magnitude-74-earthquake-killing-at-least-22)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Russia and Ukraine conduct escalating cross-border strikes](../news/world/2026-08-10.md#russia-and-ukraine-conduct-escalating-cross-border-strikes)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukrainian drone attack on Russia kills 13 and reportedly hits refinery](../news/world/2026-08-10.md#ukrainian-drone-attack-on-russia-kills-13-and-reportedly-hits-refinery)

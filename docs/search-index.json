@@ -305,6 +305,41 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "payroll-pirates-aitm-phishing-campaign-targets-microsoft-365-payroll-systems",
+    "title": "Payroll Pirates AiTM phishing campaign targets Microsoft 365 payroll systems",
+    "summary": "A phishing campaign using adversary-in-the-middle attacks hijacks Microsoft 365 sessions and targets payroll-related emails.",
+    "theme": "Security",
+    "importance": 2,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "Microsoft 365",
+      "payroll",
+      "AiTM",
+      "credential theft"
+    ],
+    "url": "news/email-security/2026-08-10/#payroll-pirates-aitm-phishing-campaign-targets-microsoft-365-payroll-systems",
+    "sources": [
+      {
+        "label": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QSHVTYUJYUzlzLWJ3eXppZEhrbUVPNkdVaUV6RDB5Zldqd0NIZzNTd0t4Y3NDeWRHSzJNWmJ1OWVuTktrS3Q5bXhaN0MzZXM5VGRSNlhTZTJyX2R4WXBzbWszRXZZc0Q4aFpPeNIBckFVX3lxTE1pRmxYSG53UEdKX1Z6bkc1cWkzMjloRDVKeklRenZpY2k2VWJSRTA4d2daZ1ZfdmdBMnlnSmhMUG1hTVVIZFItMkEyajNUYmI3WW9JRWhtRzJadW5sSXZoaXdfNFBLX0QwanFJMU1YSGNDdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial",
     "title": "Sionna Therapeutics cystic fibrosis pill fails in mid-stage trial",
     "summary": "Sionna Therapeutics' experimental cystic fibrosis drug provided no added benefit when combined with Vertex's blockbuster Trikafta in a trial.",
@@ -2056,40 +2091,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "berkshire-hathaway-reaches-highest-stock-price-under-ceo-abel",
-    "title": "Berkshire Hathaway reaches highest stock price under CEO Abel",
-    "summary": "Berkshire Hathaway shares climb to their highest level since Abel became CEO, driven by strong earnings and stock buybacks.",
-    "theme": "Markets",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Berkshire Hathaway",
-      "Greg Abel",
-      "stock performance",
-      "earnings"
-    ],
-    "url": "news/markets/2026-08-10/#berkshire-hathaway-reaches-highest-stock-price-under-ceo-abel",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNX04zZVVjTFN5bjBLYk1NSnpPNmdwX0QxeC1VMkFOREF2VVY1Q2ZSOGRuNUVoUTRObVRubXdaeVN3ZVRJdnZ2amRwd0plTldhSVhmU3ktUVJmWEVrZkxlTWt1RXBWbjJ2bWVaNVg4TjR3WGtEc3VtbmdTR2VzWlFNVWZCb2lqQ2VReTNjMUJMa1AxOXVVN25tZGUxODdfNElsQTFKclpkNU5SaEM4d0t3amQzX0FqbUQyTHBBVTM2ekxjZjVBU2E3UkhiSTBNVk12bFE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "microsoft-launches-horizondb-as-postgresql-alternative",
     "title": "Microsoft launches HorizonDB as PostgreSQL alternative",
     "summary": "Microsoft introduces HorizonDB as an alternative to PostgreSQL databases.",
@@ -3330,6 +3331,72 @@
       {
         "label": "benzinga.com",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVBLRGVJelZ0MmNXTXhjaTdIQkp2LWdNYjEteVdWMUl6UWhxemY5b1JoeFZwNWVXVXRKeC1sTzFvMTNuWVVYNkdCRFpTdGlXeHFYMDNjQ2RQWjdtVWJkZlRvY1VyTzlTWi0yUmhTZmhORm1TNlhMWU9MdTJsblZ4Q1h0djZsbHFiRGZBWkozVmd2cUFqS3hMU0YycDNUY2FNRE9qOVB5R3o0UjVZQVVvTTNtWElzZjFnTEMtWUtiZ0ZzTkpjQ1E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "iran-maintains-strait-of-hormuz-closure-amid-escalating-us-tensions",
+    "title": "Iran maintains Strait of Hormuz closure amid escalating US tensions",
+    "summary": "Iran insists the Strait of Hormuz will remain closed until the US meets Iran's demands, while the president of the United States counters with compensation demands for US soldier deaths.",
+    "theme": "World",
+    "importance": 4,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "markets",
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "Strait of Hormuz",
+      "US tensions",
+      "oil prices",
+      "sanctions"
+    ],
+    "url": "news/markets/2026-08-10/#iran-maintains-strait-of-hormuz-closure-amid-escalating-us-tensions",
+    "sources": [
+      {
+        "label": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT0RhZ2U4MEJrcFo2TERpcFEwbVJqRmxDTGNFd0F0amVhUjJzeWNnNklKdlJGbGFPS0pQZ0oyblQtSHNwQXp0enN6c2lfTnBvUTVYdkN0UG9ESE9TbmNRdmt6dXNNOFVsTk1rT0IybkVkcDZrSkY0S3lCYnNoQ3Z0WHVDaEUzemp4YnJOWEFkd1RHT0lqMlRKMFVsNS1oSHlEb2FsekJn?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "nytimes.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTjVPYzNKci1mcFBISlptNTlUNnFqMjZ3UjZGUWxkQkdWMVRYTnV1eElzRGJMRTNTTW9IVUNoX3Z5Q08xSFFHbnVvNTk5MUxuN1JXcVVtNEt4V0lTU2MtczhuQW4xd2p3QmMwV3g4cC1FS1NmQUhGeWFlN3NlNXRNSmo4Q2VjRHB3SnkwNHBydDh0TjZ5V2Ew?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "HuffPost",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56TFZuWEdjUFdyS0t6NXg5NFdWZ0pVaWZQQWFjNHd4bDdyQUoyRl9ReU9mS25pU1VZaWhrWVlwVXQ3cTJLc2VyQlNJMXE5OWhlcGJoZlVtcEJuMkdPUUxULWtxVlRMRDBnaEU1N0FJcjRla3JzOWtUT1RR0gF_QVVfeXFMUEVQVklhcnVTZGlVQ3lOODBVYVMzSzJPT2J4UzAwd09kUzkzNVBfTmlISG1fNDhPUFotWjlQZHFaX252cmVoVERMRHIwTVpDc2tJWEVIOVFJSWRGMFhIWVNBUnlkQXZTaHBWQTZwOFV5T2dKWjB3NVNmcE1Wb2FZVQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ1Zsc2lob0pqTjZQV2hSLVFPanZTOWpRSzA5Ylh2ak9zSmFHanRnQndTZ2EyMzVLTlNDbUE3dHA5RmVSUmJ3RUlBUXJXclgwY0IxaVBrS3BJbF83ZzYwa0pQNGR2THpVb0pEb2V3bzg3dm1KLXhNU3J6RFQ3dVFJZ0xCR2NtaFlPLVhkYmtPM2dGOVlCVkR4R1NyZ05hYWhTdGVtemRUU0ZuN2RFY3lXWnhsbzduTUE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbndBS2JMdDhPQmtMODBfZVBiRzUyV2pINlpqYzVLVThublNUMjhBMFgzdFVtNF9DYUV6bzd1Y2VUdE9DREROa0U2ZnFBN0lTbjcwVkJxbU00eGp2aVNwWVpNMnB3aEI4ZnVCYVVkak9iNjlmUmxUYVc5ZW9nTkd3RTlfT2hOcUdVY1h0eFlud2xoWVFXOG1lZV9ybEQ3N1pPejJwYXNwcDk2ZnVsRS1fMFNkUTc3UDh1SVk0RldIT0g?oc=5",
         "origin": "rss"
       }
     ],

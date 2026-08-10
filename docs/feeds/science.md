@@ -1,6 +1,6 @@
 # Science (26)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T20:36:20.469535+00:00">refreshed 20:36 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T21:36:28.569384+00:00">refreshed 21:36 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [The president of the United States questions childhood vaccine schedule](../news/health/2026-08-10.md#the-president-of-the-united-states-questions-childhood-vaccine-schedule) — The Trump administration changes course to question the standard childhood vaccine schedule. · _health_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
