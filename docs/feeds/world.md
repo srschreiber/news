@@ -1,6 +1,6 @@
 # World (11)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:53:55.928456+00:00">refreshed 17:53 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T18:02:34.916774+00:00">refreshed 18:02 UTC</time></em>
 
 - <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [Iran closes Strait of Hormuz, demands US concessions](../news/world/2026-08-10.md#iran-closes-strait-of-hormuz-demands-us-concessions) — Iran insists it will keep the Strait of Hormuz closed until the United States agrees to its demands. · _markets, world_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Stock market indicator flashes warning unseen since dot-com bubble](../news/markets/2026-08-10.md#stock-market-indicator-flashes-warning-unseen-since-dot-com-bubble) — A stock market indicator has triggered a warning signal not observed since the dot-com bubble era. · _markets_
