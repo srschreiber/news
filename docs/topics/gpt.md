@@ -12,8 +12,8 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI acquires NextSlide for ChatGPT slide-deck creation](../news/gpt/2026-08-10.md#openai-acquires-nextslide-for-chatgpt-slide-deck-creation)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI launches premium ChatGPT Business seats at $125 per month](../news/gpt/2026-08-10.md#openai-launches-premium-chatgpt-business-seats-at-125-per-month)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI pauses ChatGPT update due to safety concerns](../news/gpt/2026-08-10.md#openai-pauses-chatgpt-update-due-to-safety-concerns)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [OpenAI releases GPT-5.6-Cyber cybersecurity model and improves finance capabilities](../news/gpt/2026-08-10.md#openai-releases-gpt-56-cyber-cybersecurity-model-and-improves-finance-capabilities)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires NextSlide for ChatGPT slide-deck features](../news/gpt/2026-08-10.md#openai-acquires-nextslide-for-chatgpt-slide-deck-features)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation software firm NextSlide](../news/gpt/2026-08-10.md#openai-acquires-presentation-software-firm-nextslide)
 
 ## Rollups
 

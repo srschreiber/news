@@ -35,7 +35,7 @@
   {
     "date": "2026-08-10",
     "kind": "research",
-    "event_id": "enduring-impacts-of-el-niño-on-life-expectancy-in-past-and-future-climates-author-correction",
+    "event_id": "enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction",
     "title": "Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)",
     "summary": "An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios.",
     "theme": "Climate",
@@ -55,7 +55,7 @@
       "climate change",
       "intergenerational impacts"
     ],
-    "url": "research/climate-resilience/2026-08-10/#enduring-impacts-of-el-niño-on-life-expectancy-in-past-and-future-climates-author-correction",
+    "url": "research/climate-resilience/2026-08-10/#enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction",
     "sources": [
       {
         "label": "Nature Climate Change",
@@ -371,39 +371,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "anthropic-and-partners-establish-ai-data-center-venture",
-    "title": "Anthropic and partners establish AI data center venture",
-    "summary": "Anthropic, Macquarie, and GIC have formed a joint venture to develop AI data centers.",
-    "theme": "AI",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "data centers",
-      "AI infrastructure"
-    ],
-    "url": "news/anthropic/2026-08-10/#anthropic-and-partners-establish-ai-data-center-venture",
-    "sources": [
-      {
-        "label": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc0Y5VVJWSkc1aEJOMEF4QlNaeGxsVDg0YklRUzluTE5rVTVKekh5ZnM5VWh4NUcxNXBvNXB3djlZbm1DbHkxNTJhMFI4anFvakJnSndGYTI1WktTS2hOSmhXcUE5c0hXS1lrTmhjTEY3aGNERmlKOWc5TER3MUQtOHk4VHg3T0FwU0NLQmlNR09FbnMwLV9FaE80VU5qWG9HMXg2TDFKVENTeHJ6d0E5Mg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "microsoft-named-leader-in-idc-marketscape-for-mdrmxdr",
     "title": "Microsoft named Leader in IDC MarketScape for MDR/MXDR",
     "summary": "Microsoft is recognized as a Leader in the 2026 IDC MarketScape for managed detection and response services.",
@@ -473,40 +440,6 @@
       {
         "label": "Adgully.com",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUx2TnhJenhtb1MySk5mQU95cjI3S0E4Mzd3SGpfQjEyZlNjUUVreWduUlFCVEhkVUtPSl9nZUFnejg0cXhCak53VER2LTRlMFRyTjRpQWJvZ3pya2QtaDdjTnlKbXJtSVh6OW5PRVVSSGJJbC1WUlF6MFJGbU5qQXFfRUt0VlJ4MkhRRXc2U1RydzFMNFNYRENDY3Z1a3Jv?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-acquires-presentation-software-firm-nextslide",
-    "title": "OpenAI acquires presentation software firm NextSlide",
-    "summary": "OpenAI has acquired the presentation software company NextSlide, integrating its team into the ChatGPT product.",
-    "theme": "AI",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "NextSlide",
-      "acquisition",
-      "ChatGPT"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-acquires-presentation-software-firm-nextslide",
-    "sources": [
-      {
-        "label": "medianama.com",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelFIYWVNTXg1RHFIcHNmLUt1bXFsSnRBbVNYWGJqYnRRWFpSWG9QU2JWcVVBOFpKV1BMZ3ZhYWNxVWxkV3lMMzVMaW51RVVBS1FmS0FjTlQ5azZTbzRTdVFIRUlkZXUtcndIel9fQk9aMlF1QzlCendESWRScXY2aURvblFDdkpl?oc=5",
         "origin": "rss"
       }
     ],
@@ -1661,6 +1594,46 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "anthropic-enhances-claudes-mathematical-capabilities-and-biology-safety",
+    "title": "Anthropic enhances Claude's mathematical capabilities and biology safety",
+    "summary": "Anthropic releases Claude Fable 5 addressing over-restriction of biology questions with 85% reduction in false positives, while also improving mathematical problem-solving.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "mathematics",
+      "biology safety",
+      "false positives"
+    ],
+    "url": "news/anthropic/2026-08-10/#anthropic-enhances-claudes-mathematical-capabilities-and-biology-safety",
+    "sources": [
+      {
+        "label": "Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hN2tYeFF6SEtkVVhzVURqcHVqZ0VPVExEUnlFX21BcmNLaFhqT1BEU25IVS15akdoYVZ3djRLc3B5OXIyRnNxZkcxQUd4TEhXaUlpZzNwZlhuUVk?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "gigazine.net",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdTJReUFBUG5xT215X0JHTXNoemZOWjF2NmxteUdQeEJWaWdCSVlhdEltdVhxUTB6cHVYS3pVRXU4OFpjZTVOcHNyWUZZWThRX09MbUVQb0RMUkZwUUtBaW9MZER2UktDWWpzTW11akc3VG9qVEJmejg5dTlLQVpVag?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "kimsuky-hackers-weaponize-ai-generated-documents-in-crypto-phishing-campaign",
     "title": "Kimsuky hackers weaponize AI-generated documents in crypto phishing campaign",
     "summary": "North Korean-linked Kimsuky hackers are using AI-generated cryptocurrency documents in targeted spear-phishing campaigns.",
@@ -1932,6 +1905,51 @@
       {
         "label": "Yahoo News UK",
         "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPeWNGUzJKWUVJUEpvWEp3WF90RlFjVGhuUlBPTVJXZkRoV2ZES1pGZ1A3MTcya2FCRmxnM3lCWWh4NGpLOFF1NGE2MGZfaEtYVUZJeXZmSmR2cnFZZ3dEdXl4QkowWmRUR3NQSlFzZWFUWEQxSGkydGh1ZFJLdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "openai-releases-gpt-56-cyber-cybersecurity-model-and-improves-finance-capabilities",
+    "title": "OpenAI releases GPT-5.6-Cyber cybersecurity model and improves finance capabilities",
+    "summary": "OpenAI introduces GPT-5.6-Cyber, a permissive cybersecurity model, and deploys GPT-5.6 Sol for financial work optimization.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-5.6",
+      "cybersecurity",
+      "finance",
+      "AI safety"
+    ],
+    "url": "news/gpt/2026-08-10/#openai-releases-gpt-56-cyber-cybersecurity-model-and-improves-finance-capabilities",
+    "sources": [
+      {
+        "label": "Glitchwire",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSzNfTUgwT1lHcnJoTDVIbnJtOFY1TGxjaS1GczRfRWl5N01SLUpvNHJZcUJtY3NtWFJQdFNkOThuOGc4VGc5Y0M0eXItU1JxODNsR1ZJTHRXUEpLdTNVTVN0T3dDZXItRHhMOGtpZHQzMk40U1VJN3BxQlJmS2pDNHlXRXZVRjY5Ymh3XzY4T1dMVGt5NG1uVFhrNDEtek15RVhjNzFHYmJuN1RVaVE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "axios.com",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEx3dTFaeDJuXzJTOXRxYmtxYUFlYTk1UTVxX2F3RVg5c2lncFZHQm5TS3hvTEJaUzFZUk4tU0ZKNUtSZy1aU1dSY2JaYkRDQ05aSDNOUTZOeWVpUG1ZNjJ5a3lqLUF5VUZ4b0JQcWRIVzFCcGVCTm5GbzNkT3p6eXZPSHhCZHhrWWNCM0I1MUo?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "openai.com",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5zcnVXbFh0UkZYZE1qelZSOW54ZHFROURNeFB4N3N4dUZ1RXhpdElNZHFtU2lHZmlfd3hCOFNFTWx2OVoyMVRuMTNB?oc=5",
         "origin": "rss"
       }
     ],

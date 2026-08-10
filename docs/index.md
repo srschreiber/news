@@ -17,7 +17,6 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model) — Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU. · _ai_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns) — OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers. · _anthropic, gpt, security_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability actively exploited in attacks](news/security/2026-08-10.md#metabase-zero-day-vulnerability-actively-exploited-in-attacks) <span class="src-badge src-research">AI Researched</span> — Metabase patched a maximum-severity SQL injection zero-day that let unauthenticated attackers gain full admin access and steal connected database credentials, after it was exploited in the wild against Metabase Cloud customers including Framework and Tally. · _security_
-
     - CVSS 10.0, flaw in POST /api/session/reset_password endpoint
     - Affects versions 0.58–0.63; no CVE assigned yet
     - Exploitation against Metabase Cloud began August 3, 2026
@@ -27,7 +26,6 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
     Sources: [SecurityWeek](https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/) <span class="src-badge src-research">Research</span>, [teiss](https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0tNQmdqYURDUUVsTnRzVXN1a0RIUTN6ZmJ0SVZScWpjWFVSVHNEcU9Zbm5qTFVTaUU0YmJveTRLUm9GLWdrZHA5XzQyVkxwWWZOT2ppWjBGUWdYOW91MDJNWXVwOUR2SmtpTTB4WUl4VC1ZRnhDSTdxeVVGeWR0OHhSQXhOWUx3VGRabk1EbWlkWjBtMHpmbVdZZjRXRlNT?oc=5) <span class="src-badge src-rss">RSS</span>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Progress LoadMaster critical flaw actively exploited by attackers](news/security/2026-08-10.md#progress-loadmaster-critical-flaw-actively-exploited-by-attackers) <span class="src-badge src-research">AI Researched</span> — CISA warned that a critical command-injection flaw in Progress Kemp LoadMaster, an appliance used by roughly 80% of Fortune 500 companies, is being actively exploited by attackers, with roughly 300,000 systems still unpatched. · _security_
-
     - CVE-2026-8037, CVSS 9.6, unauthenticated remote command execution
     - Over 100,000 LoadMaster deployments globally, used by Amazon and US Air Force
     - Patches released June 2026; fixed in GA v7.2.63.1+ and LTSF v7.2.54.17+
@@ -51,7 +49,6 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 ### [Science](feeds/science.md)
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
-
     - AI tools Evo1 and Evo2 trained on millions of genomes
     - ~300 designs synthesized, 16 proved viable
     - AI-designed phage mix beat resistance that natural phages couldn't
@@ -65,7 +62,6 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Discovery of slow electrons in 2D materials for memory devices](news/science/2026-08-10.md#discovery-of-slow-electrons-in-2d-materials-for-memory-devices) — Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI improves tropical cyclone forecasting by 30 hours](news/science/2026-08-10.md#ai-improves-tropical-cyclone-forecasting-by-30-hours) — AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Voyager 2 power extended by NASA to continue deep-space mission](news/space/2026-08-10.md#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission) <span class="src-badge src-research">AI Researched</span> — NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year. · _space_
-
     - Voyager 2 launched 1977, now over 21 billion km from Earth
     - Loses about 4 watts of power annually as its plutonium decays
     - 'Big Bang' operation swapped devices for lower-power alternatives
@@ -77,7 +73,6 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 ### [Climate & Ecological Resilience](research-feeds/climate-resilience.md)
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Globally and intergenerationally unequal exposure to hourly heat extremes](research/climate-resilience/2026-08-10.md#globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes) <span class="src-badge src-research">AI Researched</span> — A study in Nature Climate Change finds hourly heat extremes will quadruple globally by century's end under high emissions, with population exposure rising sixfold and low- and middle-income countries bearing the brunt. · _climate-resilience_
-
     - Global hourly heat extremes projected to rise 4x by end of century under high emissions
     - Population exposure to hourly heat extremes projected to rise 6x
     - Each hot day gains ~4 extra hot hours, plus 3 hot hours on non-hot days missed by daily metrics
@@ -86,7 +81,7 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
     Sources: [Nature Climate Change](https://www.nature.com/articles/s41558-026-02724-8) <span class="src-badge src-research">Research</span>
 
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)](research/climate-resilience/2026-08-10.md#enduring-impacts-of-el-niño-on-life-expectancy-in-past-and-future-climates-author-correction) — An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios. · _climate-resilience_
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)](research/climate-resilience/2026-08-10.md#enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction) — An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios. · _climate-resilience_
 
 ### [Patents](feeds/patent-ip.md)
 
