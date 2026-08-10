@@ -1163,6 +1163,7 @@ def build_search_index(shown: list[tuple], date: str) -> None:
                 "keywords": ev.get("keywords", []),
                 "url": f"{base_dir}/{display_topic}/{date}/#{slugify(ev['title'])}",
                 "sources": ev.get("sources", []),
+                "takeaways": ev.get("takeaways", []),
                 "researched": bool(ev.get("researched", False)),
             }
         )
@@ -1351,15 +1352,39 @@ def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
     return kept
 
 
-def _story_line(r: dict, prefix: str = "") -> str:
-    """One home/feed story bullet: meter, title link, summary, topics."""
+def _story_line(r: dict, prefix: str = "") -> list[str]:
+    """One home/feed story bullet. Returns a list of markdown lines.
+
+    Researched stories with takeaways expand into nested bullets + sources so
+    readers get the key facts without clicking through to the full briefing."""
     desc = (r.get("summary") or "").strip()
     desc = f" — {desc}" if desc else ""
     topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
     href = prefix + r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
     badge = ' <span class="src-badge src-research">AI Researched</span>' if r.get("researched") else ""
-    return (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){badge}{desc} "
+    main = (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){badge}{desc} "
             f"· _{topics}_")
+
+    takeaways = [t.strip() for t in r.get("takeaways", []) if t.strip()]
+    sources = [s for s in r.get("sources", []) if s.get("url")][:MAX_SOURCES_PER_EVENT]
+
+    if not takeaways:
+        return [main]
+
+    # Expand the list item: blank line + 4-space-indented continuation so the
+    # takeaway sub-bullets and sources stay part of the same <li> in rendered HTML.
+    lines = [main, ""]
+    for t in takeaways:
+        lines.append(f"    - {t}")
+    lines.append("")
+    if sources:
+        srcs = ", ".join(
+            f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"
+            for s in sources
+        )
+        lines.append(f"    Sources: {srcs}")
+        lines.append("")
+    return lines
 
 
 def _record_feed(r: dict, topic_feed: dict) -> str:
@@ -1397,7 +1422,8 @@ def _top_stories_section(index: list[dict], feeds: dict, topic_feed: dict,
             continue
         feed_dir = "research-feeds" if spec.get("kind") == "research" else "feeds"
         lines += [f"### [{spec['title']}]({feed_dir}/{fkey}.md)", ""]
-        lines += [_story_line(r) for r in rows]
+        for r in rows:
+            lines += _story_line(r)
         lines.append("")
     return lines
 
@@ -1702,7 +1728,8 @@ def _feed_page_body(
             except (ValueError, TypeError):
                 pass
         lines += [f"## Top stories — {latest}{refresh_note}", ""]
-        lines += [_story_line(r, prefix=story_prefix) for r in rows]
+        for r in rows:
+            lines += _story_line(r, prefix=story_prefix)
         lines.append("")
     else:
         lines += ["_No stories yet._", ""]
