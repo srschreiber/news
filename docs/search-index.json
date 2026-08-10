@@ -776,6 +776,39 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "python-315-releases-with-new-features",
+    "title": "Python 3.15 releases with new features",
+    "summary": "Python 3.15 has been released with several new features for developers.",
+    "theme": "Technology",
+    "importance": 2,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "python"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Python",
+      "3.15",
+      "programming language"
+    ],
+    "url": "news/python/2026-08-10/#python-315-releases-with-new-features",
+    "sources": [
+      {
+        "label": "InfoWorld",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeC1JUlVyQXE5N3ZXaGlZUUdnYTlaSFI5UGpoaDQwWHVXTE45d293aFFOMHc4em5Zbkg3aEZJazIxNFUzOE5xX3gtUG1PMFBxdERWN3BHY01RT0FUcXB5YVFnWXpCbXcyOUZhOUtXeVlMZjBDQUJ4Y2otUHNvd1pHM1BVRjdaUmo0SEpN?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "total-solar-eclipse-august-12-with-possible-northern-lights-viewing",
     "title": "Total solar eclipse August 12 with possible northern lights viewing",
     "summary": "A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions.",
@@ -2388,39 +2421,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "illegal-fishing-accounts-for-up-to-15-of-global-marine-catch",
-    "title": "Illegal fishing accounts for up to 15% of global marine catch",
-    "summary": "University of British Columbia research finds industrial-scale illegal fishing captures up to 15% of global marine wild catch.",
-    "theme": "Climate & Ecological Resilience",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "illegal fishing",
-      "marine",
-      "sustainability"
-    ],
-    "url": "news/science/2026-08-10/#illegal-fishing-accounts-for-up-to-15-of-global-marine-catch",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-illegal-fishing-captures-global-marine.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "voyager-2-power-extended-by-nasa-to-continue-deep-space-mission",
     "title": "Voyager 2 power extended by NASA to continue deep-space mission",
     "summary": "NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year.",
@@ -3491,6 +3491,43 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "european-rivers-hit-record-summer-lows-amid-drought",
+    "title": "European rivers hit record summer lows amid drought",
+    "summary": "Major European rivers including the Rhine, Rhone, and Danube have reached record low water levels in July due to drought.",
+    "theme": "Climate & Ecological Resilience",
+    "importance": 4,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Europe",
+      "drought",
+      "rivers",
+      "Rhine",
+      "Rhone",
+      "Danube",
+      "water scarcity"
+    ],
+    "url": "news/science/2026-08-10/#european-rivers-hit-record-summer-lows-amid-drought",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-drought-dries-major-european-rivers.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "metabase-zero-day-vulnerability-actively-exploited-in-attacks",
     "title": "Metabase zero-day vulnerability actively exploited in attacks",
     "summary": "Metabase patched a maximum-severity SQL injection zero-day that let unauthenticated attackers gain full admin access and steal connected database credentials, after it was exploited in the wild against Metabase Cloud customers including Framework and Tally.",
@@ -4048,40 +4085,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "74-magnitude-earthquake-strikes-western-colombia-killing-47-people",
-    "title": "7.4-magnitude earthquake strikes western Colombia killing 47 people",
-    "summary": "A major 7.4-magnitude earthquake along the Pacific Ring of Fire hits western Colombia, causing building collapses and at least 47 deaths.",
-    "theme": "World",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Colombia",
-      "earthquake",
-      "7.4 magnitude",
-      "Pacific Ring of Fire"
-    ],
-    "url": "news/world/2026-08-10/#74-magnitude-earthquake-strikes-western-colombia-killing-47-people",
-    "sources": [
-      {
-        "label": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeC1FV2UwSUJ1TGdfbjNOa1B6WWJ1R1N4TFBycWJsc016ZDQwSUdzblo1SXU5a2x4cWsySkw1eV90clVKbS1Iekc0RzVTaDNzWGdvamJiT0s0NVprWUdEbmN5WUFsMHM2MlVVbTZTRnNnMFZWQlA1Rk9EM1VDLVNqbGMyZXMtRlZPZGc3Wnd3V1E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "iran-closes-strait-of-hormuz-demands-us-concessions",
     "title": "Iran closes Strait of Hormuz, demands US concessions",
     "summary": "Iran insists it will keep the Strait of Hormuz closed until the United States agrees to its demands.",
@@ -4163,6 +4166,41 @@
       {
         "label": "cnn.com",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "74-magnitude-earthquake-strikes-colombia-killing-over-100",
+    "title": "7.4 magnitude earthquake strikes Colombia, killing over 100",
+    "summary": "A 7.4 magnitude earthquake in Colombia has killed at least 111 people and caused widespread building collapses.",
+    "theme": "World",
+    "importance": 5,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Colombia",
+      "earthquake",
+      "7.4 magnitude",
+      "casualties",
+      "disaster"
+    ],
+    "url": "news/world/2026-08-10/#74-magnitude-earthquake-strikes-colombia-killing-over-100",
+    "sources": [
+      {
+        "label": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2E0OE5yZGJtT1ItYXF5SU9URXp2SzRFcWFIR0tvUmFFei1jcVFxUG4yVTZCb0F3N1hVZXMtalpjUEc0RmhNblhIN0F1ZXhJTHI1b3YyNnFmZE84T0FpWkdjdUVKWEVQb09MV0p2VllfYTJsVGpCMnk3WV9xdHM2dnJBWlc3ZExLSmp5SnlVUQ?oc=5",
         "origin": "rss"
       }
     ],

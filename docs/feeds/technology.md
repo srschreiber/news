@@ -1,6 +1,6 @@
-# Technology (34)
+# Technology (35)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T21:36:28.569384+00:00">refreshed 21:36 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T22:32:03.722490+00:00">refreshed 22:32 UTC</time></em>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](../news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model) — Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU. · _ai_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns) — OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers. · _anthropic, gpt, security_
@@ -77,6 +77,7 @@
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft named Leader in IDC MarketScape for MDR/MXDR](../news/email-security/2026-08-10.md#microsoft-named-leader-in-idc-marketscape-for-mdrmxdr) — Microsoft is recognized as a Leader in the 2026 IDC MarketScape for managed detection and response services. · _email-security_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Payroll Pirates AiTM phishing campaign targets Microsoft 365 payroll systems](../news/email-security/2026-08-10.md#payroll-pirates-aitm-phishing-campaign-targets-microsoft-365-payroll-systems) — A phishing campaign using adversary-in-the-middle attacks hijacks Microsoft 365 sessions and targets payroll-related emails. · _email-security_
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Model Context Protocol Version 2.0 C# SDK announced](../news/python/2026-08-10.md#model-context-protocol-version-20-c-sdk-announced) — A C# SDK for Model Context Protocol Version 2.0 has been announced for developers. · _python_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Python 3.15 releases with new features](../news/python/2026-08-10.md#python-315-releases-with-new-features) — Python 3.15 has been released with several new features for developers. · _python_
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NeoFS S3 Gateway v0.45.1 improves performance](../news/golang/2026-08-10.md#neofs-s3-gateway-v0451-improves-performance) — NeoFS S3 Gateway version 0.45.1 optimizes read and write performance through SDK RC21 updates. · _golang_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
@@ -90,6 +91,6 @@ _Bars indicate estimated story importance (1 = minor · 5 = major)._
 - [Security](../topics/security.md) — 12 stories
 - [Email Security](../topics/email-security.md) — 4 stories
 - [Golang](../topics/golang.md) — 1 story
-- [Python](../topics/python.md) — 1 story
+- [Python](../topics/python.md) — 2 stories
 - [Postgres](../topics/postgres.md) — 3 stories
 
