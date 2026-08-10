@@ -1,19 +1,18 @@
-# Markets (10)
+# Markets (9)
 
 _Part of the [World](../feeds/world.md) feed · RSS only._
 
 ## Latest — 2026-08-10
 
-- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [Iran closes Strait of Hormuz, demands US concessions](../news/world/2026-08-10.md#iran-closes-strait-of-hormuz-demands-us-concessions)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [The president of the United States signals economic pressure shift on Iran nuclear deal](../news/markets/2026-08-10.md#the-president-of-the-united-states-signals-economic-pressure-shift-on-iran-nuclear-deal)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Stock market indicator flashes warning unseen since dot-com bubble](../news/markets/2026-08-10.md#stock-market-indicator-flashes-warning-unseen-since-dot-com-bubble)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Oil prices surge amid Strait of Hormuz tensions](../news/markets/2026-08-10.md#oil-prices-surge-amid-strait-of-hormuz-tensions)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [U.S.-Iran tensions escalate; Hormuz Strait closure signals oil price surge](../news/markets/2026-08-10.md#us-iran-tensions-escalate-hormuz-strait-closure-signals-oil-price-surge)
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iran maintains Strait of Hormuz closure amid escalating US tensions](../news/markets/2026-08-10.md#iran-maintains-strait-of-hormuz-closure-amid-escalating-us-tensions)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Stock market volatility and crash warnings signal market uncertainty](../news/markets/2026-08-10.md#stock-market-volatility-and-crash-warnings-signal-market-uncertainty)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [SpaceX reports first earnings as a public company](../news/markets/2026-08-10.md#spacex-reports-first-earnings-as-a-public-company)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [US stock market near record highs amid Hormuz uncertainty](../news/markets/2026-08-10.md#us-stock-market-near-record-highs-amid-hormuz-uncertainty)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China leverages capital markets to fund AI and chip competition with U.S.](../news/markets/2026-08-10.md#china-leverages-capital-markets-to-fund-ai-and-chip-competition-with-us)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [President of the United States bull market runs on borrowed time](../news/markets/2026-08-10.md#president-of-the-united-states-bull-market-runs-on-borrowed-time)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Nvidia CEO sends strong market signal to investors](../news/markets/2026-08-10.md#nvidia-ceo-sends-strong-market-signal-to-investors)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [US stock market holds near all-time high](../news/markets/2026-08-10.md#us-stock-market-holds-near-all-time-high)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Rubrik stock bounces 9% higher](../news/markets/2026-08-10.md#rubrik-stock-bounces-9-higher)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Post Holdings shares decline](../news/markets/2026-08-10.md#post-holdings-shares-decline)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [The Trade Desk shares plunge](../news/markets/2026-08-10.md#the-trade-desk-shares-plunge)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Navient stock falls during trading](../news/markets/2026-08-10.md#navient-stock-falls-during-trading)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Oklo stock drops 7.6% on disappointing earnings](../news/markets/2026-08-10.md#oklo-stock-drops-76-on-disappointing-earnings)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Sri Lanka stocks rise on real estate gains](../news/markets/2026-08-10.md#sri-lanka-stocks-rise-on-real-estate-gains)
 
 ## Rollups
 

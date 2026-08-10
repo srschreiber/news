@@ -1,10 +1,8 @@
-# Golang (1)
+# Golang
 
 _Part of the [Technology](../feeds/technology.md) feed · RSS only._
 
-## Latest — 2026-08-10
-
-- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NeoFS S3 Gateway v0.45.1 improves performance](../news/golang/2026-08-10.md#neofs-s3-gateway-v0451-improves-performance)
+_No briefings yet._
 
 ## Rollups
 

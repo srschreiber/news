@@ -1,12 +1,8 @@
-# Postgres (3)
+# Postgres
 
 _Part of the [Technology](../feeds/technology.md) feed · RSS only._
 
-## Latest — 2026-08-10
-
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Microsoft launches HorizonDB as PostgreSQL alternative](../news/postgres/2026-08-10.md#microsoft-launches-horizondb-as-postgresql-alternative)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft releases HorizonDB PostgreSQL alternative](../news/postgres/2026-08-10.md#microsoft-releases-horizondb-postgresql-alternative)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Microsoft announces HorizonDB as PostgreSQL alternative](../news/postgres/2026-08-10.md#microsoft-announces-horizondb-as-postgresql-alternative)
+_No briefings yet._
 
 ## Rollups
 

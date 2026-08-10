@@ -1,4 +1,4 @@
-# Tech Research
+# Computer Science
 
 _No stories yet._
 

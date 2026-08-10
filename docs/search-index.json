@@ -1,66 +1,27 @@
 [
   {
     "date": "2026-08-10",
-    "kind": "research",
-    "event_id": "enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction",
-    "title": "Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)",
-    "summary": "An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios.",
-    "theme": "Climate",
-    "importance": 1,
-    "evidence_strength": 5,
-    "study_type": "paper",
-    "topics": [
-      "climate-resilience"
-    ],
-    "feeds": [
-      "climate-resilience"
-    ],
-    "primary_feed": "climate-resilience",
-    "keywords": [
-      "El Niño",
-      "life expectancy",
-      "climate change",
-      "intergenerational impacts"
-    ],
-    "url": "research/climate-resilience/2026-08-10/#enduring-impacts-of-el-nino-on-life-expectancy-in-past-and-future-climates-author-correction",
-    "sources": [
-      {
-        "label": "Nature Climate Change",
-        "url": "https://www.nature.com/articles/s41558-026-02735-5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "neofs-s3-gateway-v0451-improves-performance",
-    "title": "NeoFS S3 Gateway v0.45.1 improves performance",
-    "summary": "NeoFS S3 Gateway version 0.45.1 optimizes read and write performance through SDK RC21 updates.",
+    "event_id": "rubrik-stock-bounces-9-higher",
+    "title": "Rubrik stock bounces 9% higher",
+    "summary": "Rubrik shares rise almost 9% in trading.",
     "theme": "Technology",
     "importance": 1,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
-      "golang"
+      "markets"
     ],
     "feeds": [
-      "technology"
+      "world"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "world",
     "keywords": [
-      "NeoFS",
-      "S3 Gateway",
-      "performance",
-      "SDK"
+      "Rubrik",
+      "stock market"
     ],
-    "url": "news/golang/2026-08-10/#neofs-s3-gateway-v0451-improves-performance",
+    "url": "news/markets/2026-08-10/#rubrik-stock-bounces-9-higher",
     "sources": [
       {
-        "label": "cryptonews.net",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16RGlfSXRIakFpTlQ2VGpqMHlqUXh1RGpwQXVPSV9aUjZJN2dvYlZkdzllTDVvZlVUNmxMMTNPanBfVDZQUEIzUGlzUENwODItd3dZY1lubkt3TjdO?oc=5",
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNEZpa0pyNDZ3Mm95NzBoRHBGcFFCekpkWEY5SWVtWGo2M0Q2Qnd0YlBOeUVSRU5kNk14SDZGdVZKMUpmTGhyNkppRlVpMTdUM0JseE5adTU4dGVWT1kxdHk4MzY2YkNVUmM4OUJPTV9zVVNORU1PbXIzSzI2ZXUzY0FSdFRLa1ZYb3lMdU4tR0VFZk5tMW42T0h1UUw?oc=5",
         "origin": "rss"
       }
     ],
@@ -69,637 +30,27 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "dental-monitoring-wins-federal-circuit-patent-ruling-against-align-technology",
-    "title": "Dental Monitoring wins Federal Circuit patent ruling against Align Technology",
-    "summary": "Federal Circuit has issued a precedential opinion in patent case 25-1752 between Dental Monitoring and Align Technology.",
-    "theme": "Patents",
-    "importance": 1,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "patent-ip"
-    ],
-    "feeds": [
-      "patent-ip"
-    ],
-    "primary_feed": "patent-ip",
-    "keywords": [
-      "patent",
-      "Dental Monitoring",
-      "Align Technology"
-    ],
-    "url": "news/patent-ip/2026-08-10/#dental-monitoring-wins-federal-circuit-patent-ruling-against-align-technology",
-    "sources": [
-      {
-        "label": "Federal Circuit — Opinions and Orders",
-        "url": "https://www.cafc.uscourts.gov/08-10-2026-25-1752-dental-monitoring-sas-v-align-technology-inc-opinion-25-1752-opinion-8-10-2026_2736022/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "federal-circuit-affirms-netflix-patent-validity-against-vl-collective",
-    "title": "Federal Circuit affirms Netflix patent validity against VL Collective",
-    "summary": "Court of Appeals for Federal Circuit affirms PTAB decision upholding Netflix content delivery patent against VL Collective challenge.",
-    "theme": "Patents",
-    "importance": 1,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "patent-ip"
-    ],
-    "feeds": [
-      "patent-ip"
-    ],
-    "primary_feed": "patent-ip",
-    "keywords": [
-      "Federal Circuit",
-      "Netflix",
-      "patent",
-      "content delivery"
-    ],
-    "url": "news/patent-ip/2026-08-10/#federal-circuit-affirms-netflix-patent-validity-against-vl-collective",
-    "sources": [
-      {
-        "label": "IPWatchdog",
-        "url": "https://ipwatchdog.com/2026/08/10/cafc-affirms-ptab-win-netflix/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "federal-circuit-invalidates-wag-acquisition-streaming-media-patent-claims",
-    "title": "Federal Circuit invalidates WAG Acquisition streaming media patent claims",
-    "summary": "U.S. Court of Appeals for Federal Circuit affirms PTAB decision invalidating WAG Acquisition streaming media patent claims as anticipated.",
-    "theme": "Patents",
-    "importance": 1,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "patent-ip"
-    ],
-    "feeds": [
-      "patent-ip"
-    ],
-    "primary_feed": "patent-ip",
-    "keywords": [
-      "Federal Circuit",
-      "WAG Acquisition",
-      "streaming",
-      "patent"
-    ],
-    "url": "news/patent-ip/2026-08-10/#federal-circuit-invalidates-wag-acquisition-streaming-media-patent-claims",
-    "sources": [
-      {
-        "label": "IPWatchdog",
-        "url": "https://ipwatchdog.com/2026/08/10/federal-circuit-affirms-invalidity-of-wag-streaming-media-patent-claims/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun",
-    "title": "Pluto's atmosphere collapsing as planet drifts further from sun",
-    "summary": "As Pluto edges away from the sun, its atmosphere is condensing and freezing onto its surface.",
-    "theme": "Space",
-    "importance": 1,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Pluto",
-      "atmosphere",
-      "solar system"
-    ],
-    "url": "news/space/2026-08-10/#plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/astronomy/pluto/plutos-atmosphere-is-collapsing-as-it-drifts-away-from-the-sun-into-a-deep-freeze",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "tencent-expands-global-access-to-hy3-large-language-model",
-    "title": "Tencent expands global access to Hy3 large language model",
-    "summary": "Tencent is broadening international availability of its Hy3 AI language model.",
-    "theme": "AI",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Tencent",
-      "Hy3",
-      "LLM",
-      "language model"
-    ],
-    "url": "news/ai/2026-08-10/#tencent-expands-global-access-to-hy3-large-language-model",
-    "sources": [
-      {
-        "label": "Telecompaper",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON19OMmgwMW00T090OXRLYjJfNDJiS2otQnVIb0tnWFZVRjJoSV9NM3h3b1ZyazVNS0ptYVM3SjZtTnNHMDZKSWtwMGJBSWhfTl9IeGZMZjFCM3NKcGNzcVB3Q0QwdFdqTDc5OFRPYkNZMmNxZDYtOXNGaVR0RWpvQ2xKRGN4dzZfRFlaaWVPbDlBMWpYM2dXNUJETFNhR2NjWVJvLTJB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "brex-develops-ai-agent-security-through-network-monitoring",
-    "title": "Brex develops AI agent security through network monitoring",
-    "summary": "Brex implements network-based security approach for AI agents, monitoring communications rather than code.",
-    "theme": "Security",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Brex",
-      "AI agents",
-      "network monitoring"
-    ],
-    "url": "news/ai/2026-08-10/#brex-develops-ai-agent-security-through-network-monitoring",
-    "sources": [
-      {
-        "label": "venturebeat.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYy02V1dCR0RhS2lubFFzYU9RTFJsSkh1SlBqd180dXA1S1NLWFNxYWJOOHNrTUhEakU5dDQ5d0l0bnR5SDJtZ0lHV2VaZHk3cGVJYkJZY0tuVUZxdEcwZmR6OF9zeTk3UC1uRU1aSWZrdjR1THN6QmM4X2pMdC1FMGtPM0ZYMF9HNlhDSkhOS0VxaElXLS15cUNGMGR1V0ljUGFUVW1WUk1rd1djUzhVUUJzUXQyU0hrN3hhOTVR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "microsoft-named-leader-in-idc-marketscape-for-mdrmxdr",
-    "title": "Microsoft named Leader in IDC MarketScape for MDR/MXDR",
-    "summary": "Microsoft is recognized as a Leader in the 2026 IDC MarketScape for managed detection and response services.",
-    "theme": "Security",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "MDR",
-      "MXDR",
-      "IDC MarketScape"
-    ],
-    "url": "news/email-security/2026-08-10/#microsoft-named-leader-in-idc-marketscape-for-mdrmxdr",
-    "sources": [
-      {
-        "label": "Microsoft Security Blog",
-        "url": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "payroll-pirates-aitm-phishing-campaign-targets-microsoft-365-payroll-systems",
-    "title": "Payroll Pirates AiTM phishing campaign targets Microsoft 365 payroll systems",
-    "summary": "A phishing campaign using adversary-in-the-middle attacks hijacks Microsoft 365 sessions and targets payroll-related emails.",
-    "theme": "Security",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "phishing",
-      "Microsoft 365",
-      "payroll",
-      "AiTM",
-      "credential theft"
-    ],
-    "url": "news/email-security/2026-08-10/#payroll-pirates-aitm-phishing-campaign-targets-microsoft-365-payroll-systems",
-    "sources": [
-      {
-        "label": "CyberSecurityNews",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QSHVTYUJYUzlzLWJ3eXppZEhrbUVPNkdVaUV6RDB5Zldqd0NIZzNTd0t4Y3NDeWRHSzJNWmJ1OWVuTktrS3Q5bXhaN0MzZXM5VGRSNlhTZTJyX2R4WXBzbWszRXZZc0Q4aFpPeNIBckFVX3lxTE1pRmxYSG53UEdKX1Z6bkc1cWkzMjloRDVKeklRenZpY2k2VWJSRTA4d2daZ1ZfdmdBMnlnSmhMUG1hTVVIZFItMkEyajNUYmI3WW9JRWhtRzJadW5sSXZoaXdfNFBLX0QwanFJMU1YSGNDdw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial",
-    "title": "Sionna Therapeutics cystic fibrosis pill fails in mid-stage trial",
-    "summary": "Sionna Therapeutics' experimental cystic fibrosis drug provided no added benefit when combined with Vertex's blockbuster Trikafta in a trial.",
-    "theme": "Health",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Sionna",
-      "cystic fibrosis",
-      "drug trial"
-    ],
-    "url": "news/health/2026-08-10/#sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "tenax-therapeutics-heart-failure-drug-fails-in-pivotal-study",
-    "title": "Tenax Therapeutics heart failure drug fails in pivotal study",
-    "summary": "Tenax Therapeutics' pulmonary hypertension-linked heart failure drug failed in a closely watched pivotal trial.",
-    "theme": "Health",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Tenax",
-      "heart failure",
-      "drug trial"
-    ],
-    "url": "news/health/2026-08-10/#tenax-therapeutics-heart-failure-drug-fails-in-pivotal-study",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "silence-therapeutics-rare-blood-cancer-drug-shows-strong-trial-results",
-    "title": "Silence Therapeutics rare blood cancer drug shows strong trial results",
-    "summary": "Silence Therapeutics announces strong clinical results in a rare blood cancer trial, positioning it to compete with a Takeda medicine.",
-    "theme": "Health",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Silence Therapeutics",
-      "blood cancer",
-      "drug trial"
-    ],
-    "url": "news/health/2026-08-10/#silence-therapeutics-rare-blood-cancer-drug-shows-strong-trial-results",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/10/silence-polycythemia-vera-trial-results-divesiran-takeda-rusfertide/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "sanofi-experiences-shortage-of-pompe-disease-medications",
-    "title": "Sanofi experiences shortage of Pompe disease medications",
-    "summary": "Sanofi is facing supply shortages of two medicines used to treat Pompe disease following FDA warnings over manufacturing deficiencies.",
-    "theme": "Health",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Sanofi",
-      "Pompe disease",
-      "drug shortage",
-      "manufacturing"
-    ],
-    "url": "news/health/2026-08-10/#sanofi-experiences-shortage-of-pompe-disease-medications",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/pharmalot/2026/08/10/sanofi-drug-shortage-jazz-pharma-deal/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "fda-rejects-radiopharmaceutical-therapy-due-to-manufacturing-issues",
-    "title": "FDA rejects radiopharmaceutical therapy due to manufacturing issues",
-    "summary": "The FDA has rejected a radiopharmaceutical therapy that would have competed with Novartis treatment due to manufacturing concerns.",
-    "theme": "Healthcare",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "FDA",
-      "radiopharmaceutical",
-      "Novartis",
-      "drug approval"
-    ],
-    "url": "news/health/2026-08-10/#fda-rejects-radiopharmaceutical-therapy-due-to-manufacturing-issues",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/10/itm-radiopharma-fda-rejection/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "fda-to-require-notice-of-food-additives-under-gras-loophole",
-    "title": "FDA to require notice of food additives under GRAS loophole",
-    "summary": "The FDA proposes a new requirement for manufacturers to provide notice of additives used in food supply, addressing the GRAS loophole.",
-    "theme": "Policy",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "FDA",
-      "food additives",
-      "GRAS",
-      "regulation"
-    ],
-    "url": "news/health/2026-08-10/#fda-to-require-notice-of-food-additives-under-gras-loophole",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/10/rfk-jr-proposal-fda-gras-rule-generally-recognized-as-safe/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "elevated-lpa-linked-to-cardiovascular-disease-risk",
-    "title": "Elevated Lp(a) linked to cardiovascular disease risk",
-    "summary": "A study of over 20,000 people shows that very high inherited cholesterol-related particle Lp(a) levels increase cardiovascular event and stroke risk.",
-    "theme": "Healthcare",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Lp(a)",
-      "cholesterol",
-      "cardiovascular disease"
-    ],
-    "url": "news/health/2026-08-10/#elevated-lpa-linked-to-cardiovascular-disease-risk",
-    "sources": [
-      {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/08/260808235011.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "strength-training-for-90-120-minutes-weekly-extends-lifespan",
-    "title": "Strength training for 90-120 minutes weekly extends lifespan",
-    "summary": "Research shows that 90 to 120 minutes of weekly strength training is associated with 13% lower early mortality risk, particularly from cardiovascular and neurological diseases.",
-    "theme": "Healthcare",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "strength training",
-      "longevity",
-      "health"
-    ],
-    "url": "news/health/2026-08-10/#strength-training-for-90-120-minutes-weekly-extends-lifespan",
-    "sources": [
-      {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/08/260808234959.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "federal-circuit-rejects-13-years-of-uspto-provisional-prior-art-policy",
-    "title": "Federal Circuit Rejects 13 Years of USPTO Provisional Prior Art Policy",
-    "summary": "The Federal Circuit overturns long-established USPTO examination policy regarding how provisional filing dates establish prior art.",
-    "theme": "Patents",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "patent-ip"
-    ],
-    "feeds": [
-      "patent-ip"
-    ],
-    "primary_feed": "patent-ip",
-    "keywords": [
-      "Federal Circuit",
-      "USPTO",
-      "provisional prior art",
-      "patent policy"
-    ],
-    "url": "news/patent-ip/2026-08-10/#federal-circuit-rejects-13-years-of-uspto-provisional-prior-art-policy",
-    "sources": [
-      {
-        "label": "Patently-O",
-        "url": "https://patentlyo.com/patent/2026/08/provisional-prior-art.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "federal-circuit-rejects-ministerial-requirement-standard-for-patent-priority-dates",
-    "title": "Federal Circuit rejects ministerial requirement standard for patent priority dates",
-    "summary": "Court of Appeals for Federal Circuit vacates PTAB decision invalidating dental imaging patent claims as obvious.",
-    "theme": "Patents",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "patent-ip"
-    ],
-    "feeds": [
-      "patent-ip"
-    ],
-    "primary_feed": "patent-ip",
-    "keywords": [
-      "Federal Circuit",
-      "patent priority",
-      "PTAB",
-      "Dental Monitoring"
-    ],
-    "url": "news/patent-ip/2026-08-10/#federal-circuit-rejects-ministerial-requirement-standard-for-patent-priority-dates",
-    "sources": [
-      {
-        "label": "IPWatchdog",
-        "url": "https://ipwatchdog.com/2026/08/10/cafc-rejects-ministerial-requirement-standard-for-non-provisional-patent-application-priority-dates/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "microsoft-releases-horizondb-postgresql-alternative",
-    "title": "Microsoft releases HorizonDB PostgreSQL alternative",
-    "summary": "Microsoft introduced HorizonDB, a PostgreSQL alternative designed to compete with the widely-used open-source database.",
+    "event_id": "post-holdings-shares-decline",
+    "title": "Post Holdings shares decline",
+    "summary": "Post (POST) stock shares slide during trading.",
     "theme": "Technology",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
+    "importance": 1,
     "topics": [
-      "postgres"
+      "markets"
     ],
     "feeds": [
-      "technology"
+      "world"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "world",
     "keywords": [
-      "Microsoft",
-      "HorizonDB",
-      "PostgreSQL",
-      "database"
+      "Post Holdings",
+      "stock market"
     ],
-    "url": "news/postgres/2026-08-10/#microsoft-releases-horizondb-postgresql-alternative",
+    "url": "news/markets/2026-08-10/#post-holdings-shares-decline",
     "sources": [
       {
-        "label": "InfoWorld",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMzhXTldabzkwOFptSS1GU044c0JoV2FlTkxHSGdWODFHd0xWb0ZLTGtxS2NwMjB5NDM5Z0E4Q2xPQ3dZSjl3MEJZN2dxWjg1RF9fT1pUZUxkUFBFeE1ERjdrUlpRaHVUdjVPSGN4ZEJGRnNKYWNJRmJQMzUzVVBfOWpvbktnM0sxSERCRmhISWhoQVdjTGx5ZllNU0NCR2g0V0VqczBNNnI?oc=5",
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSkRPNmxZZlVkRXVCYnRLSFlnM2pHMGRlWVdGa3hhSTdRUGlhOTlYNFlvLUNacDdNZkx5MXBZVTR6VHBSSkJSNlNLMUFkQXBlM0NjdGd1a2VhY2QyS3dVYnI0QmdzMUUxOGZZWUZPX19xb0QtYW9jZWhYYkFVR0piVlQyaEVtbDhaTjBqdmZLUHZvVXJLZnJyYg?oc=5",
         "origin": "rss"
       }
     ],
@@ -708,32 +59,27 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "microsoft-announces-horizondb-as-postgresql-alternative",
-    "title": "Microsoft announces HorizonDB as PostgreSQL alternative",
-    "summary": "Microsoft introduces HorizonDB as alternative to PostgreSQL.",
+    "event_id": "the-trade-desk-shares-plunge",
+    "title": "The Trade Desk shares plunge",
+    "summary": "The Trade Desk (TTD) stock experiences significant decline.",
     "theme": "Technology",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
+    "importance": 1,
     "topics": [
-      "postgres"
+      "markets"
     ],
     "feeds": [
-      "technology"
+      "world"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "world",
     "keywords": [
-      "Microsoft",
-      "HorizonDB",
-      "PostgreSQL",
-      "database"
+      "The Trade Desk",
+      "stock market"
     ],
-    "url": "news/postgres/2026-08-10/#microsoft-announces-horizondb-as-postgresql-alternative",
+    "url": "news/markets/2026-08-10/#the-trade-desk-shares-plunge",
     "sources": [
       {
-        "label": "InfoWorld",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMzhXTldabzkwOFptSS1GU044c0JoV2FlTkxHSGdWODFHd0xWb0ZLTGtxS2NwMjB5NDM5Z0E4Q2xPQ3dZSjl3MEJZN2dxWjg1RF9fT1pUZUxkUFBFeE1ERjdrUlpRaHVUdjVPSGN4ZEJGRnNKYWNJRmJQMzUzVVBfOWpvbktnM0sxSERCRmhISWhoQVdjTGx5ZllNU0NCR2g0V0VqczBNNnI?oc=5",
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNlcxaEdLb3hINmtDbE5uN1U0TXMwN1lrU0NudzBMeVozdzNROUFMOEpjTnBJRS1HN3Q4TS1SMW05eWZtdmFfZTdJQm9OWlBwT3Rpc2psN2cxb0phMFcyUXhOVGJDbC05WXZsaGRhallGaTlNQzVvbjNCMmJSeHdYNC1fNURjQVhwYk1fRXREcGg0NEFN?oc=5",
         "origin": "rss"
       }
     ],
@@ -742,14 +88,99 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "model-context-protocol-version-20-c-sdk-announced",
-    "title": "Model Context Protocol Version 2.0 C# SDK announced",
-    "summary": "A C# SDK for Model Context Protocol Version 2.0 has been announced for developers.",
-    "theme": "AI",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
+    "event_id": "navient-stock-falls-during-trading",
+    "title": "Navient stock falls during trading",
+    "summary": "Navient (NAVI) shares decline in value.",
+    "theme": "Technology",
+    "importance": 1,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Navient",
+      "stock market"
+    ],
+    "url": "news/markets/2026-08-10/#navient-stock-falls-during-trading",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQW5DRzNWN3FsQzFQTTZNUW1JRGRCN1hzOXJBdDVWS0xBbXRvc0dzUmlxWVk4REFlclN0VURLdGVyMmNZbXJWRjNoY2pTd2Mwa1ZvZElrQng0RzJGajNWT3ZXWnlZQWl4Z0p6SEkyaW5DcHFqQW81cC1SVGEtT3JmYWozNm1QUzlyYktfaXJZeE9XbHhXMU4tSmg3VQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "oklo-stock-drops-76-on-disappointing-earnings",
+    "title": "Oklo stock drops 7.6% on disappointing earnings",
+    "summary": "Oklo (NYSE:OKLO) stock price falls 7.6% following disappointing earnings report.",
+    "theme": "Technology",
+    "importance": 1,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Oklo",
+      "earnings",
+      "stock market"
+    ],
+    "url": "news/markets/2026-08-10/#oklo-stock-drops-76-on-disappointing-earnings",
+    "sources": [
+      {
+        "label": "MarketBeat",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMjVkc2dyc0huN1RXbjBBMGxvN2ZJT01LMHdLTEN4UEN6UlU5UFk1dTg5RFZlQTdiNnlYUE9qYVZVcVRJV2VDNGV6NlpDbDR2MEF2b0kwVzJlZ1dPUTJuQWgxOVk3Mm9RRUFPRkh2S240anZ0UnVpUWF4Uzk5ektfbGFXRXVpVmY3eXZSSDNfR25iSXFIR0hWU2o4RXZjVURwN3ZWZG5hcDdVTFhYRFRXdGxhYw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "sri-lanka-stocks-rise-on-real-estate-gains",
+    "title": "Sri Lanka stocks rise on real estate gains",
+    "summary": "Sri Lanka stock market rises for fourth consecutive session driven by real estate sector gains.",
+    "theme": "World",
+    "importance": 1,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Sri Lanka",
+      "stock market"
+    ],
+    "url": "news/markets/2026-08-10/#sri-lanka-stocks-rise-on-real-estate-gains",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ3J3bmZ4T3BLOUltOVZZNHVEVUo5VDRYMU9xT1I0V01ndFhmczhlc2dVOGZjWWUyOVVIVHFvRHhWUGpBQ0d3VUhzbW5UWEZiSzdYNGwxV3k2TWJFZksyTWpQcXN5MllXZ3FvZGhUbHk3bEd1VUxZbWxvbm1hNzIyRExmME1uTzlwQk1lTlFEakI1VnhDV2YxUk5nMGVlVndkOXJJck1VYmRwNWxwMVUwbGFLME5kbnhUZkxHSWNpTVQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "matlab-programming-language-sinking-in-popularity",
+    "title": "MATLAB programming language sinking in popularity",
+    "summary": "MATLAB programming language sees declining adoption among developers.",
+    "theme": "Technology",
+    "importance": 1,
     "topics": [
       "python"
     ],
@@ -758,48 +189,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Model Context Protocol",
-      "C# SDK",
-      "version 2.0"
-    ],
-    "url": "news/python/2026-08-10/#model-context-protocol-version-20-c-sdk-announced",
-    "sources": [
-      {
-        "label": "i-programmer.info",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYW1WVVA3UU02SmpCSG0wdGJ2Y1kzd2FERWs4b09yN09CWnFDbC1IUTZHeU9rNkJvTUtzbUFXOHFlczUwWXg4Q28wam96SDZ0SzduWVZha3phVlltbmotZTNTa2dkcGI4c2ZuN1N4TXJjdFR2cmRqendyaWhMcFUzbXh6M0xuRG4wbkY3bDBKd3FfTUFsbFBFZm93eHMzVExmQ2pNU2h5RkNmdw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "python-315-releases-with-new-features",
-    "title": "Python 3.15 releases with new features",
-    "summary": "Python 3.15 has been released with several new features for developers.",
-    "theme": "Technology",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "python"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Python",
-      "3.15",
+      "MATLAB",
       "programming language"
     ],
-    "url": "news/python/2026-08-10/#python-315-releases-with-new-features",
+    "url": "news/python/2026-08-10/#matlab-programming-language-sinking-in-popularity",
     "sources": [
       {
         "label": "InfoWorld",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeC1JUlVyQXE5N3ZXaGlZUUdnYTlaSFI5UGpoaDQwWHVXTE45d293aFFOMHc4em5Zbkg3aEZJazIxNFUzOE5xX3gtUG1PMFBxdERWN3BHY01RT0FUcXB5YVFnWXpCbXcyOUZhOUtXeVlMZjBDQUJ4Y2otUHNvd1pHM1BVRjdaUmo0SEpN?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3dnNjJlS2hYckJES29oeDZiVTlJVXpKeFNOMTBMTkIzRDBRU1l0eGZhVlp2ZDVybm5rX3ZDbTRCd1l1cXRtZWtYZHk1NE53TWJSVUdRVG5DN3RWNWQ5VzJPYW9tTUhSWU85T1ZtYW1JWlgzZ0xEekdZQmNlNlFTV3ExM19UVElrejl0c1YxQ1dVdTk2c0NXdGNWLWs?oc=5",
         "origin": "rss"
       }
     ],
@@ -808,218 +205,12 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "total-solar-eclipse-august-12-with-possible-northern-lights-viewing",
-    "title": "Total solar eclipse August 12 with possible northern lights viewing",
-    "summary": "A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions.",
-    "theme": "Space",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
+    "event_id": "ars-live-discusses-stop-killing-games-movement",
+    "title": "Ars Live discusses Stop Killing Games movement",
+    "summary": "Ars Technica hosts live discussion with Ross Scott on the Stop Killing Games movement for digital preservation.",
+    "theme": "Technology",
+    "importance": 1,
     "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "solar eclipse",
-      "northern lights",
-      "astronomy"
-    ],
-    "url": "news/space/2026-08-10/#total-solar-eclipse-august-12-with-possible-northern-lights-viewing",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/stargazing/auroras/could-the-northern-lights-be-visible-during-the-total-solar-eclipse-on-aug-12-maybe",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "japanese-h3-rocket-launches-michibiki-7-navigation-satellite",
-    "title": "Japanese H3 rocket launches Michibiki 7 navigation satellite",
-    "summary": "Japan's H3 rocket successfully launches the Michibiki 7 navigation satellite to orbit.",
-    "theme": "Space",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Japan",
-      "H3 rocket",
-      "Michibiki 7",
-      "navigation satellite"
-    ],
-    "url": "news/space/2026-08-10/#japanese-h3-rocket-launches-michibiki-7-navigation-satellite",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-h3-rocket-launch-navigation-satellite-michibiki-7",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "chinese-rocket-explodes-less-than-90-seconds-after-liftoff",
-    "title": "Chinese rocket explodes less than 90 seconds after liftoff",
-    "summary": "A Chinese rocket launch failed spectacularly, exploding less than 90 seconds after liftoff on August 10.",
-    "theme": "Space",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "China",
-      "rocket",
-      "launch failure",
-      "explosion"
-    ],
-    "url": "news/space/2026-08-10/#chinese-rocket-explodes-less-than-90-seconds-after-liftoff",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/space-exploration/launches-spacecraft/chinese-rocket-explodes-less-than-90-seconds-after-liftoff",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "nasa-debuts-on-discovery-and-hbo-max",
-    "title": "NASA+ debuts on discovery+ and HBO Max",
-    "summary": "NASA+ streaming service launches on discovery+ with plans to expand to HBO Max.",
-    "theme": "Space",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA+",
-      "streaming",
-      "discovery+",
-      "HBO Max"
-    ],
-    "url": "news/space/2026-08-10/#nasa-debuts-on-discovery-and-hbo-max",
-    "sources": [
-      {
-        "label": "nasa.gov",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ1loaW1MU0RSc1E2MzBCaWpTSFJDaDdQSFphdTlLNV9YVGI2RWxBZS1oSzVpc3lGV2xuZXlnU2lUaF8tUjM2a242UENnVl8tUkVnZ19wVW0zU2pFOExSclFTZGpqOE5WQ0kzXzBmSmZ2ZGNRcExHVC1ZZTJXYXpjM3BGT3BndE1yRVE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "nasa-expands-to-discovery-and-hbo-max-streaming-platforms",
-    "title": "NASA+ expands to discovery+ and HBO Max streaming platforms",
-    "summary": "NASA+ programming is expanding to discovery+ live channels and coming soon to HBO Max to increase public access to space content.",
-    "theme": "Space",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA+",
-      "streaming",
-      "discovery+",
-      "HBO Max"
-    ],
-    "url": "news/space/2026-08-10/#nasa-expands-to-discovery-and-hbo-max-streaming-platforms",
-    "sources": [
-      {
-        "label": "NASA — Breaking News",
-        "url": "https://www.nasa.gov/news-release/nasa-debuts-on-discovery-coming-soon-to-hbo-max/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "gateway-station-technology-accelerated-for-lunar-deployment",
-    "title": "Gateway station technology accelerated for lunar deployment",
-    "summary": "Technology for the Gateway lunar station is being rushed to the Moon.",
-    "theme": "Space",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Gateway",
-      "lunar station",
-      "NASA"
-    ],
-    "url": "news/space/2026-08-10/#gateway-station-technology-accelerated-for-lunar-deployment",
-    "sources": [
-      {
-        "label": "Universe Space Tech",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPamFQTDM0N0VkQldaZ2t5TVBFOXdoVjRESUJYamlWRUFtNTlnaExGUnJDcVM2b0JLenRTQS1lY19rX005alhfY1Vkc2l2WGdYOVp3MGR2cXduMlQ5ZHBtZFJncWVUYU9vaEZOOTh6Qzd6T3JBMThyWmxpa3AxbVFpQkxuaXZ5U1VoTXQ2UjRaTFU5RjlCOTR4eDdFN1o?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "meta-releases-open-weight-muse-glimmer-ai-model-for-local-inference",
-    "title": "Meta releases open-weight Muse Glimmer AI model for local inference",
-    "summary": "Meta released Muse Glimmer, a 30-billion-parameter open-weight AI model that can run locally on consumer hardware for agentic tasks like coding and tool use, without needing cloud infrastructure.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai",
       "tech"
     ],
     "feeds": [
@@ -1027,72 +218,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Meta",
-      "Muse Glimmer",
-      "open-weight",
-      "local AI"
+      "digital preservation",
+      "video games"
     ],
-    "url": "news/tech/2026-08-10/#meta-releases-open-weight-muse-glimmer-ai-model-for-local-inference",
+    "url": "news/tech/2026-08-10/#ars-live-discusses-stop-killing-games-movement",
     "sources": [
       {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2233312/metas-open-source-muse-glimmer-model-can-run-on-a-single-computer/",
-        "origin": "research"
-      },
-      {
-        "label": "Meta AI Research",
-        "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-        "origin": "research"
-      },
-      {
-        "label": "analyticsindiamag.com",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWdjR19sNDUtb3FaME5kb0NhOEFYUXV3S29UNDQ4X0pvNE9GQjkxZ0hMSlFjNHVjaXJYQ3lRX2FjNVNQSFExSlRFOG5pMDhwSE8wOHVfb29fbU41bVVWTm1QR0ZFcWxNdWJudTVqcU14eHdzQWFQallPVGtYazloZnBTNUgtdnZNOU5CY044NC1HaWtiM0t0QUtjYlgwbWs?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Apache 2.0 license, weights available on Hugging Face",
-      "~12GB memory needed after 4-bit quantization",
-      "Supports 100+ languages and multimodal (text and image) input",
-      "Benchmarked against Gemma4-31B and Qwen3.6-27B",
-      "llama.cpp, MLX, ExecuTorch integrations coming soon"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "north-korean-hacking-group-expands-ai-use-including-local-llms",
-    "title": "North Korean hacking group expands AI use including local LLMs",
-    "summary": "A North Korean state-sponsored hacking group is increasingly leveraging AI technologies, including locally-developed LLMs, to expand threat capabilities.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "North Korea",
-      "APT",
-      "AI",
-      "LLM",
-      "cyber threat"
-    ],
-    "url": "news/ai/2026-08-10/#north-korean-hacking-group-expands-ai-use-including-local-llms",
-    "sources": [
-      {
-        "label": "koreajoongangdaily.com",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQamhtTkZVMlgyZkhnQlV2NF85LUZWaU1sTENoOWlyRDI3WVJKY0x3NTR1c0VNQXNBNnhfMWdDZTJKLTd1eVIzZGYtUFc3QnN4M3BjLW5Ralh3QUp3SHlZXy03S0xhWnIxblByVGtlS2VqbFNOS3cxZVBSaFJUUUtXWlphY2d2QUR5T1Y4Mk9LVUhRSlpJMEc5amEzZ2Y2VkJaS3Q3MTJ1MkVvSzdzZldaZ2VqUFBaelBqajR4RlhQNGY4V3pIc19qMWo0ZWFnaDV0emlVMnNwTQ?oc=5",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/",
         "origin": "rss"
       }
     ],
@@ -1101,151 +234,11 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "meta-releases-muse-glimmer-open-source-llm",
-    "title": "Meta releases Muse Glimmer open-source LLM",
-    "summary": "Meta releases Muse Glimmer, a 30B parameter open-source language model under Apache 2.0 license.",
+    "event_id": "anthropic-implements-global-ai-watermarking-regime",
+    "title": "Anthropic implements global AI watermarking regime",
+    "summary": "Anthropic initiates EU-spurred global watermarking regime for Claude AI models.",
     "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Meta",
-      "Muse Glimmer",
-      "open source",
-      "LLM",
-      "30B parameters"
-    ],
-    "url": "news/ai/2026-08-10/#meta-releases-muse-glimmer-open-source-llm",
-    "sources": [
-      {
-        "label": "VentureBeat",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSzlhcXY2UHFyUF9jTFE3QjZGS0QwRFNmRDJYbjE3Tmt2YURQUTBjeUhpbG9YRTFwVk1nYVY5a3RZVzYzVHNZd3hfc1ZHd1ByUm5WSk5nV2ZUN21oako0TmE1TUhwNjdKajJ3Z2VSRUR2UG9SdWZYcjROUGZScXFrV1ZueldSMENmM1UwaUVsbzVZcTRpdzlOS0dSWkd2QmNBU1pyT1BDLU9NRjl5OUxtUEwxTXJHVkRlcU1FV2ZnRDNrS2I1TU41cTVtWFRnd0VmODB3UW1yZ3BMaGZWVkEyYlJmSkQwNkNqbnVMNTFDYTkyTk0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "bytedance-seed-introduces-seedrealtime-audio-visual-full-duplex-llm",
-    "title": "ByteDance Seed Introduces SeedRealtime Audio-Visual Full-Duplex LLM",
-    "summary": "ByteDance Seed has unveiled SeedRealtime, a multimodal language model capable of watching, listening, and speaking simultaneously.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ByteDance",
-      "SeedRealtime",
-      "multimodal LLM",
-      "audio-visual"
-    ],
-    "url": "news/ai/2026-08-10/#bytedance-seed-introduces-seedrealtime-audio-visual-full-duplex-llm",
-    "sources": [
-      {
-        "label": "MarkTechPost",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPblotSndEOFRxY3pJSVVnOWVEeE1ZaFpUajZmeHcxVXBsLUdmTWZ1ektpY09YVE9UdzdjUllQYVdLMGp5am5acnB4VkZPZDdaWjQxT1RMSnJHdHQ4R2xJaGRzRUhJZllud3VzQmF1Qy1xWHZRSkljVVhLQ2RrX0lHTUpfQjdWYlQwM0JiTXlNc0dQdHRzX3pVWXNuYVRVUTA0NU5CSVNRdXlEWGxJdWlfNEFwTFpULVlEaUhWUURnUUw3QVhuZTcxSm1UUEM2Uk8wOVBvRXlDNXM4YjduZnY0LW0zYnFfRThNazV5NEFBNW1DdHVw0gH6AUFVX3lxTFAyRDQzbEFYWXJNblRuNFNqT3hPSlBadDF3Rlo1ZS1hVzVRdGJLMjlzaGtudE9UWklDMHpQTWNEMTdDSmVEZTVTWFZsbGtReUt1N2hYUUQxOXNacEZzM29WMTkwcHZNX05ONjdYS1prcXNSbWllQ29zUWp2NHNxb0RzbDB4cjd5ZzR6aFVGNmItSXFydmpiMmVXbW44WlhQdWszMjB4dmFHbkxpSExUdzZBUEwyYnVFcHMySHU2LTFHaXRGdk5QMGFNeVd0UjlGdjZvMG1XdHFrRDJtRkQ3QVAzX3BOVjJPcFdEYW01YWd6UjgwYkxpWVhZVUE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "vulnerabilities-in-llm-based-multi-agent-systems-expose-stealthy-attacks",
-    "title": "Vulnerabilities in LLM-based multi-agent systems expose stealthy attacks",
-    "summary": "Security research reveals that examining the internals of LLM-based multi-agent systems can expose previously stealthy attacks.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "LLM",
-      "multi-agent systems",
-      "attack detection",
-      "security"
-    ],
-    "url": "news/ai/2026-08-10/#vulnerabilities-in-llm-based-multi-agent-systems-expose-stealthy-attacks",
-    "sources": [
-      {
-        "label": "Tech Xplore",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5LUUVJM2tMWldxamFoWlVEU0FFUlFrRFlLX21RdUR2VTFfRFE5SE4teFYyWnVXeGlZUUVZMl8tRWx1NTRtUzZvclRuZjBkZDJuOXF4ZV9rRUc5RUFGWTJSRGZsMVRIbXpldG9qRmRuYkFTbFBzTlpGS253?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "meta-releases-muse-glimmer-open-source-30b-parameter-language-model",
-    "title": "Meta releases Muse Glimmer open-source 30B parameter language model",
-    "summary": "Meta releases Muse Glimmer, a 30 billion parameter language model under Apache 2.0 license.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Meta",
-      "Muse Glimmer",
-      "open source",
-      "language model"
-    ],
-    "url": "news/ai/2026-08-10/#meta-releases-muse-glimmer-open-source-30b-parameter-language-model",
-    "sources": [
-      {
-        "label": "venturebeat.com",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSzlhcXY2UHFyUF9jTFE3QjZGS0QwRFNmRDJYbjE3Tmt2YURQUTBjeUhpbG9YRTFwVk1nYVY5a3RZVzYzVHNZd3hfc1ZHd1ByUm5WSk5nV2ZUN21oako0TmE1TUhwNjdKajJ3Z2VSRUR2UG9SdWZYcjROUGZScXFrV1ZueldSMENmM1UwaUVsbzVZcTRpdzlOS0dSWkd2QmNBU1pyT1BDLU9NRjl5OUxtUEwxTXJHVkRlcU1FV2ZnRDNrS2I1TU41cTVtWFRnd0VmODB3UW1yZ3BMaGZWVkEyYlJmSkQwNkNqbnVMNTFDYTkyTk0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "anthropic-enables-claude-code-auto-mode-by-default",
-    "title": "Anthropic enables Claude Code auto mode by default",
-    "summary": "Anthropic will make Claude Code's autonomous 'auto mode' the default for Pro, Max, and Team users starting August 14, 2026, replacing manual approval prompts with a safety classifier that blocks risky actions.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
+    "importance": 2,
     "topics": [
       "anthropic"
     ],
@@ -1256,155 +249,385 @@
     "keywords": [
       "Anthropic",
       "Claude",
-      "Code",
-      "auto mode",
-      "default"
+      "watermarking",
+      "EU regulation"
     ],
-    "url": "news/anthropic/2026-08-10/#anthropic-enables-claude-code-auto-mode-by-default",
+    "url": "news/anthropic/2026-08-10/#anthropic-implements-global-ai-watermarking-regime",
+    "sources": [
+      {
+        "label": "Glitchwire",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSEtrUEZ6Mi1ZaWtjMjNQeXQwTVpfR2dqMWR6Q0dDNllFNmNGeGtJWUM4ZTFhZ2JBNm5fZDBfeV9tTzlTUW00MUd0ZUdJSXdPc3M0NHpNTjdnZkdCQVBqYVBla3Z2cFhqamppb0M3VWVnUW9aNWpFZ2d3RW5laDNUVDhTWUhIQ0lFRktTb1Z6X2ljc1BtRy1tTjVzWFFDWVg5WEMzcG9aMXNIazZZWkE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "cisco-email-threat-defense-achieves-fedramp-high-certification",
+    "title": "Cisco Email Threat Defense achieves FedRAMP High certification",
+    "summary": "Cisco's Email Threat Defense earns FedRAMP Class D (High) certification for security compliance.",
+    "theme": "Security",
+    "importance": 2,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Cisco",
+      "email security",
+      "FedRAMP"
+    ],
+    "url": "news/email-security/2026-08-10/#cisco-email-threat-defense-achieves-fedramp-high-certification",
+    "sources": [
+      {
+        "label": "blogs.cisco.com",
+        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9meDZZN3B5WWxYQTNudkdTZXUtUS1VSkRnNHQ0UXA3OTc4NlBxUUVPTzFSWlhKbTkzU3Q0UmVxXzM0V3Nkc19vTg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "gpt-56-luna-developer-guide-published",
+    "title": "GPT-5.6 Luna developer guide published",
+    "summary": "SitePoint releases developer guide for GPT-5.6 Luna.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-5.6",
+      "Luna",
+      "developer guide"
+    ],
+    "url": "news/gpt/2026-08-10/#gpt-56-luna-developer-guide-published",
+    "sources": [
+      {
+        "label": "SitePoint",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81NTFKWVJZSW5pMVlMRk9iRmlVbWdSYlhNaTFtTFB0Z0dlQ1YtZ2h3VTRHRnhuby1KZXVRWFRIR2V2QXZKNnA5bjg3WE9QaHN4S2VFQ2ZEdVhkdVBK?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "zapier-transforms-marketing-with-chatgpt-work",
+    "title": "Zapier transforms marketing with ChatGPT Work",
+    "summary": "Zapier uses OpenAI's ChatGPT Work to automate core marketing processes.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "ChatGPT",
+      "Zapier",
+      "automation"
+    ],
+    "url": "news/gpt/2026-08-10/#zapier-transforms-marketing-with-chatgpt-work",
+    "sources": [
+      {
+        "label": "OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAtS1NVbUhVQ00xQWVOYXRlNTYtOWJabDBwUzMtTlFQWVBiZ2FpVnpqaFBpQ2xwUldlNWhDYkhZZVp2YVo0VjB3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "nvidia-ceo-sends-strong-market-signal-to-investors",
+    "title": "Nvidia CEO sends strong market signal to investors",
+    "summary": "Nvidia's CEO delivers a significant message to stock market investors regarding company direction.",
+    "theme": "Technology",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "CEO",
+      "earnings"
+    ],
+    "url": "news/markets/2026-08-10/#nvidia-ceo-sends-strong-market-signal-to-investors",
+    "sources": [
+      {
+        "label": "thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxWTduZl9Mb0JvRjg4WnJJYmNyWWkzS05BeUoxMS1kaWpiTjBWbjVHVzY3MW14OVZKdmxrUHhLb0NDOU1uM0xONGJGTGIyM01sMFIwRVJHR2ZreklibnItbW9EclJqcGFEVWVQcEw3OFF5Z1dISHYyaTNB?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "StockStory",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRDhLOGhIc2I2d0tVNmlpWTVmYnliSjU2SzdsVXBlMFI3ejhqaFhFeWNCUmVLWDJDQ3dLOHN2QmlKdjJLR0llNTJ4YV9XUk41aGhMejdmVzlIN3BsSFNMU3NIMXB2TEZhTXRBLTIxdVRtRmVJS1RUTkNIZmZXSXpQalpuLVNHdGh4QVVwanU5dDNCU2xlODFHMl85S0NYUzZ2MmZTNEJWTmE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "us-stock-market-holds-near-all-time-high",
+    "title": "US stock market holds near all-time high",
+    "summary": "US stock market maintains position near all-time high with crude oil prices rising.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "US stock market",
+      "crude oil"
+    ],
+    "url": "news/markets/2026-08-10/#us-stock-market-holds-near-all-time-high",
+    "sources": [
+      {
+        "label": "WWAYTV3",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUk9UTHpuQ05zOUxTbzByWURraFYzdXRnRFRiZG56eDAtNVZfYXRKSUdCaEUtWWk0VDduVEx6a1FxYzRJMlZaVmpqaUlzVUJIYkNodE50YUFRZk4xT2g4WEFGSDlkbDB6ZldSU1MxWC1UakYzYUdqcU1jNk5kcUJtM1VBNjdqTU1qWE9hLU1zeTJoblZzbFJRZ05FMA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WDEF",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRDhycFRLSHplVU11blU1ZzRXR2xCa1BFVHlRRnl0NUdUa19KTVoyZ2trT3FBd1h5VC1aNlJraVBPWEwySnFtaXBmanJWdTdUeHFsMm0yaHZnMF9IRGYwTnhpZ0w0VVcyZjZqLWRUYkhESG9UalZIRTVaTE15azRBa3A4bFBRM0ZkRmpyUTFKS2s2c29IdzM0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "oak-leaf-microbiomes-vary-dramatically-between-leaf-surfaces",
+    "title": "Oak leaf microbiomes vary dramatically between leaf surfaces",
+    "summary": "A single oak leaf harbors distinct microbial communities on its upper and lower surfaces, each adapted to different environmental conditions.",
+    "theme": "Science",
+    "importance": 2,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "microbiology",
+      "plant microbiome",
+      "oak leaves"
+    ],
+    "url": "news/science/2026-08-10/#oak-leaf-microbiomes-vary-dramatically-between-leaf-surfaces",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-oak-harbor-distinct-microbial-worlds.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "educational-program-boosts-tolerance-and-civic-engagement",
+    "title": "Educational program boosts tolerance and civic engagement",
+    "summary": "Pilot study shows common-ground curriculum strengthens social cohesion and civic engagement by addressing polarization.",
+    "theme": "Science",
+    "importance": 2,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "education",
+      "social cohesion",
+      "tolerance",
+      "civic engagement"
+    ],
+    "url": "news/science/2026-08-10/#educational-program-boosts-tolerance-and-civic-engagement",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-common-ground-curriculum-boosts-tolerance.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "berlin-gold-hat-reveals-bronze-age-eclipse-tracking-cult",
+    "title": "Berlin gold hat reveals Bronze Age eclipse-tracking cult",
+    "summary": "The 3,000-year-old Berlin gold hat reveals evidence of a Bronze Age sun cult whose leader could predict solar eclipses and lunar cycles.",
+    "theme": "Science",
+    "importance": 2,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "archaeology",
+      "ancient history",
+      "astronomy"
+    ],
+    "url": "news/science/2026-08-10/#berlin-gold-hat-reveals-bronze-age-eclipse-tracking-cult",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/archaeology/berlin-gold-hat-a-3-000-year-old-ceremonial-headdress-that-a-cult-used-to-track-the-sun-moon-and-lunar-eclipses",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "jeff-bezos-nears-stake-in-liverpool-football-club",
+    "title": "Jeff Bezos nears stake in Liverpool Football Club",
+    "summary": "Jeff Bezos is reportedly close to acquiring his first ownership stake in a sports team through purchase of shares in the UK's Liverpool Football Club.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Jeff Bezos",
+      "Liverpool",
+      "sports investment"
+    ],
+    "url": "news/tech/2026-08-10/#jeff-bezos-nears-stake-in-liverpool-football-club",
     "sources": [
       {
         "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-        "origin": "research"
-      },
-      {
-        "label": "9to5Mac",
-        "url": "https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/",
-        "origin": "research"
-      },
-      {
-        "label": "Storyboard18",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM3hYc1MtZmNfUXAzVHZPbEVKbjJsQThHTXNVbEsyWDNFX1BpMFFJcHl6V3BOSnZsN1pBZ2JxYjFkdzR6Uk5mV3NCem1SWVFZeFBHRzNVVXdVbVc3SUxqWnB1eU1TalctTE1MUjdRZjV4REhLNnN1d1BnYnFKNUlpNFhfdU85NVVWdnY1dWJfQkl3VVByV2RUVXE4UElUZ1l2OUExd0FLdUw1LXhlNHBFNXVIc0xsd3RGZXc5eGRCN0lJN3Q3SkpCaU5NbWtZS3A4TENEZkRn0gHWAUFVX3lxTE0zeFhzUy1mY19RcDNUdk9sRUpuMmxBOEdNc1VsSzJYM0VfUGkwUUlweXpXcE5Kdmw3WkFnYnFiMWR3NHpSTmZXc0J6bVJZUVl4UEdHM1VVd1VtVzdJTGpacHV5TVNqVy1MTUxSN1FmNXhESEs2c3V3UGdicUo1SWk0WF91Tzk1VVZ2djV1Yl9CSXdVUHJXZFRVcThQSVRnWXY5QTF3QUt1TDUteGU0cEU1dUhzTGx3dEZldzl4ZEI3SUk3dDdKSkJpTk1ta1lLcDhMQ0RmRGc?oc=5",
+        "url": "https://techcrunch.com/2026/08/10/jeff-bezos-might-finally-get-his-hands-on-a-sports-team/",
         "origin": "rss"
-      },
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "zuckerbergs-superyacht-slow-to-respond-to-coast-guard-emergency-call",
+    "title": "Zuckerberg's superyacht slow to respond to Coast Guard emergency call",
+    "summary": "Zuckerberg's superyacht and support ship were slow to heed a Coast Guard call while responding to a stranded vessel.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Mark Zuckerberg",
+      "superyacht",
+      "Coast Guard"
+    ],
+    "url": "news/tech/2026-08-10/#zuckerbergs-superyacht-slow-to-respond-to-coast-guard-emergency-call",
+    "sources": [
       {
-        "label": "StratNews Global",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0lrVjZRSjdLc3lSQ0JfU0gyY3hTcjNHc2tsWk41cE5Mc05VUlAtN0tLOFVkOTBEb1I3NS1Fd2NYLVN2OEVSNUtoSkpxSnlVbWgtYXRQZGY3SXAwdkw1WEVNZ3RwakRvbWswYzRMUXJwOXBOOHRwYklaaFJxekdybWpBT2txVFlTWWVBeFc1dldnS2N0blNWa0lpdw?oc=5",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/08/zuckerbergs-super-yacht-stood-by-while-stranded-boaters-looked-for-help/",
         "origin": "rss"
-      },
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "cold-iron-studios-shuts-down-cloud-version-of-60-game-without-refunds",
+    "title": "Cold Iron Studios shuts down cloud version of $60 game without refunds",
+    "summary": "Developer Cold Iron Studios discontinues the cloud version of a $60 game without offering refunds to players.",
+    "theme": "Technology",
+    "importance": 2,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Cold Iron Studios",
+      "cloud gaming",
+      "digital ownership"
+    ],
+    "url": "news/tech/2026-08-10/#cold-iron-studios-shuts-down-cloud-version-of-60-game-without-refunds",
+    "sources": [
       {
-        "label": "The Register",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFRoeWFJVWJXWHRrbU1pMUNJdzFFRnM4RklGcU5nWkR4ek9RNmU2QnFRVFg0NTBBaEczVFMtLWRPR1pHeENCQmlVdFRQT1Utbzg4d0lQMy1PLURzaEQ3cm1JWE1CcTlXQ2NVZVNyYWJLT3o0Y25XLVdFSm1BT2cweGJYWXdoakttb2JTR1RjZm04RjFMdTlvQTdUWlBwczViYlQzb1ln?oc=5",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/",
         "origin": "rss"
-      },
-      {
-        "label": "Dataconomy",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JVlBMTnhlaXYzR3FCelNGbFZRQkZZQWVRT0xVa2FfR0s4bzhydWQtdFRoQzdjQ0Y5SUFVX2ZlRDgzN0x2OTZ0ZXpTd0Z0MGxlMFNUeVZHVGlVTU03NTZfWnViemFHb1liN0JFem5NN0lqc2RBbUNFV0hqWGIxTms?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Help Net Security",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemhYelZlbmhJajAxR1hUSHk3czgybWVvel9fVUg2VUs1RmtGWmh0VVRJRGFUay1pWVdwUkoyTnZqazJiZWZlOGU0NHhCZHNESExCNmZBNFEzSWtWcFlkZTNQRW5BNmJRU2c5QWRrenEtX0g3RlVsV3BfLW0tTEdVSw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Techzine Global",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamN2QTNSbFF0YnJEbUtDcUZxcmtuOTl4S2dNSVNhRDVqakEyUmc2Y1duNU1SS0NwNjZPNzZXTjJRYWR2RVNlVjYwLUprUGhhMmRGSGFWeDV1Y1RhWVZRTkdGV25xdXpoZ3Y4YWlGMUFnNVFPbEdHZjhuZDViY2x0LXV2RkRUM3hGSGFoQzVxRFc5Z2FSYUtsWjRXQko0SElOajhoeHY2VG9SaEk?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "KED Global",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxM0dORFB5OVd6TFJhaXF5RG1faEMxQnBPUjd4NEk5LUNTNTZ6WmQ5cW85NTBrc0k5YzYxMjl0eF9YbXlNdFluWmZEeTFHQ1U1Ymd6ZWE2Q0JqV1dBYlJEc3RlZE1HRndRNk15RVYyOFg0VlBIRjJENzQ4dGpadUU?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Neuron",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNmsyVGszdUlPdWlnOTlnMDNTLUVsMFdpRzdERVNsUFpGQnN4T2JFMURtZzVjVzF1ZGNVOHIyZWM2bmV3V2l0TG1hRUMzVXVaaTRaQjZGMnhxczd0aE9jVXBNVTREUEJGbTVhaQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "KuCoin",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMEo1UUV6Z0Q4elZZZC1VbG1obkQ1d2FlaExiSENkeWR4ZTdnbnNMa25oSDFyX0hRekhoUGJtMzh2YUxJNzFBMTV1QVcyOVRLS0dJcjBWUm5FWGxYNmRwRmp0cDlUV2dDV2JEUmIxcHEyVnpicm5HUlJ1NEc5Nlo4WVY0OFlzN0RfM1h2YXRsTTRaTVMzTlRqcVMxdl9BR2Nr?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPaEtsNV90TEhOZ1g2cHB2T3U2VlRXUFBLYXhFQWdxY19wTDFVbEFUMGhxcHBXaEdwcWtRRnlFdE5senh3bF9UQkZGa1FEQng1WGp4Sk9WT2t0MkxkWXoyZVl0ZmhXb3pfbVNkV1N4X2RfWmtseW1ISE1aOVdpRXJCRFBqbmw1M3o2R3hRQl9lYW5lcTctbkY4bHpwdXdRSUg4aFl4SG1OT0RmTkhFbGsxTkVmOUtIVWF2Umt4cWlIZm55WUZLb0pHb2M1d3F5eTFDT3hWSWpqak1nQXlmdnY1eXZXM3ltLWpEMU5iSG5Cc3VCaWVlemlVbDV0NjZmc2Zqc0FhQjY5VGlkckxtb05XcWhn0gGXAkFVX3lxTE9JMklmYWpEckRIX2dheXh6djhBU2tzNDZ2RmR1RzFOelRXRHFBN0RJZEp3bjZXN0lHMnA5dnAta3hwZDVVSjNoU2NtMVlOQlg2dTViRVpJUWZuWURkdlFWSk55YlZvcVQ2T0g1cldJRlRSZHlhWUhKTUstSFFVVV93b0g3UUoyR0t5M2RNa1pSbUs1R2ZwSzlGSUw4SmFLcE00MFp0S0E1dWhxYkRNcmtTeTFrNzFrVVEteWtJbHBKYXN1d0J5Sk95NFR4YllDQW10ejQ5cGwwbFRYTkFRU290MkZfNlA5MU03V2FVc182azRtUV9Zb3RvZi1TR3NHajZHTTZmU2lvS1JxcUZNMGVCT3ZqN2JORQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Gadgets 360",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcFlLNnBSNVNlVHZJU3JUNDRLcE5JNzJvWF9GMm1rYmc0dUxKdDFzWFdaNkFieEZ4WExCWG1XR3BPeHF4Q1VWS1VXRXRjMURQa0xmZ1dGeXFsZVNTQVc5aTl3a1NCTjFNbkdTOFpsZWJiZVpHUENHcTNTV3VEQlNKaVhldmRyck5VNW5MUHRIVXF5djBhWmhTazBadXZJbXpSblI1Y29B0gGrAUFVX3lxTE95REt0d3BsSE5DOERybkd2bWgxdjFrUUsyQkRoSFhRZm54aW5FcUpDQXQ1dFgwS1BBT3d3X0dJcW5hcnluT2ozRDRhamltdnZmUVQ3c3BSSFJES3luZTdfVnoxdm1OTnp6LUJ4R004bzU4ZnBQVE5qcGxqU0NGVjMtTEFtdjNtcnh3NnNrM1ZTMm1Qcnk4YmVPUEdiSXF0X1h5YVlrUC1fX1N1UQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Firstpost",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQjVNTk9TTVoxcVExRXJKWVM5ZUdUYm51TWw2V21XZWQzRUxObXJ2OEptcWJNSWxNSTQxMUlYTlJqX3kwNUR1a0d4OUJDQUl5NzNOcDMxUWJDLWtucEUtYTl1UTU2Zi1QMWtBMHNmMG9IYk5PQkl6SGxpTUp3d1dZc2NadDFsNmM2dG9vVzRvSGZ5eHhIbUxxWWZja1QtVHQtd3VhaTZBTjY2WGxWd2QybmhHemRuUzBac0dLdXBjVGpsTWhoVWRPYUFUSUtzZFBrN2ZCcVRJSdIB3AFBVV95cUxQQy04aFB5VWtZREdSRXhzUEdqc1NzTE9RcEstMnV6NHM1cTRiRlhvV09qU0lMb0dfclN6SkR6dzNmYnFZSXZXRmFtLTlwbnBHTzdBb3Bpcm9oQlJFUHNvSTBiTkcyVXVqVl9uZENkdnd2aEplNFBXOUVOLXVSQ1VJZmpxcm9xQUN0WElmbklqckRKQVRUdzRkTjNxaGpoQmNxRDE5alJBeEdvakd6N081R25hdUxReGF4aUlzRktIV1RLaWtQdnhMbFE0NTAxMTZRMEc1NDBNMkNlOF8w?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2WDB3a0JSRFNUdzI3NUVkOWNYVXN2bmZHTnNDRExUYzc3c21sTEVWb2tUVGlFRU8yUy1HWXdvVUVFbmJ3ZGU0R2x3WVMyakNWSi11Mk5LOFlXMnJzUG0zSkdUVTJadnU4U0pCTXozSnA2MXplbHc?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "India Today",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS21hSE9vdmtqckJHT3B2bFZWdlFBaEtFRTRXZFJ4cEVtaGFoQzF6MnlYdlNWSnJPSVdzbkVtc3E4SnlmMWxUREdoM1ZpRTZLeHFPRkJKVTd5RGhUc1R6cmtfVXlXektPbi1nUHRQRmRaUVN4bjR2VV9HNWdqMHNVUVM3U0dfTGFFdEpSZjFmTGRfVUxYUUFnRXVvcFJyWm1NeXVlMmRpTURjb2NFMlpxNENBUUhFOXJRbk5FOHlFdDBnQ003MHpLTGptamVxMjRFZ19Qamx2Z2xQRWxCV2hCQ01R0gHnAUFVX3lxTE1FR0RXaVhOZWZfeGczRFg3N096YnlBNVhlUmNvMlI5VUZfWkJ0TGZGMFdwTzBPcUU3THozb1BERkp5aDVXUzYtTE1WcUNLdldtN3d2cGE0QmhWOWJrQk5wU3dhWU8tWndTTm9aemJRVHBJZmU3bjYwbzFCVEZIb2hWdVlaUGVIV1hrTExlWHgtUXVDSlppdkZzOWJWT0Roek1vWW1MNkhLTTl1YnpVWE8wV2dpaWw2ZEZIZ1AtdEFwbWNoRllhTnh1TFlrNjVELTlUcXJFTjZZRG5hTkZLUHQ0V2hrUXVnYw?oc=5",
-        "origin": "rss"
-      },
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "google-search-decline-spurs-concerns-about-future-alternatives",
+    "title": "Google Search decline spurs concerns about future alternatives",
+    "summary": "Article discusses Google Search's declining dominance and questions what comes next as a search alternative.",
+    "theme": "Technology",
+    "importance": 2,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Google Search",
+      "search engines"
+    ],
+    "url": "news/tech/2026-08-10/#google-search-decline-spurs-concerns-about-future-alternatives",
+    "sources": [
       {
         "label": "Hacker News (front page)",
-        "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
-        "origin": "rss"
-      },
-      {
-        "label": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9vNklTVGFuNFNCVHF4NFFkWHdrTld6WEVuaEtBMjRoVnF0QzdVTnJqUjRuOENMVHZvbmQwQ2o5UkhndzZlUVB2T3ROMGNEc0w2dXZhR2YwaDlrQzJPRTdqXzF6X0tYZ0htbU5zNVkwRVJqdDhHNzJj?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdk1oU2tkNHZsc0JITWNqWUVqODFhNGxJanBrcGl1ZnhVb1M3VDRscXZsZzBoNHVrQWx1cXpFUVVfQ3VaMjEwTmlsZjU4RERIRnVlcU4tYWJpbTdiWkN6VjlQNk0xNG43YlMxMWlYeFVCWnZVTzF5OHF6SWV1NmhHd1ZoUUN1RGc?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "theaiinsider.tech",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSGNXVzllX1VUVUxpSms4OUUtSHVlR1lObDVTUl9wbEhUaWpPUW0zQ2N3am1Ka1hDWGxwOUF3UHdkcWVRNExyVnZEaEJ6LWl1Q2xncmxucGxHdnlnZnlpOXV3Yl8xVjdZQmx1R2NUMVJoWmIta1pqUG9ySk1ZVkxaY0JkdEVhMjh3SkI0TXdTVVZMT05SV1hVVnNPMkRhcXRadldHYUh2OWctRGQzSWpHdm5qT3lqb1o3Z2hudnJuWlk5b3Fhb3Q4?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Mezha",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQREJGREJiOF94UWllSVlZbzdNVUlkU2ZzZk5nUFRIVm9OOXdkRU1HNDU5ZUZIRWJHOHFyQUdpSHpzMjdtNjIzbEhOa1JEcUpnQ2hYQmlpc0djeUFXdEM2OXFkMXQ1QTItTGF2ZWhvZ3czWVVuUjZIUXhLM2ZUVDZYQ01lTFDSAYoBQVVfeXFMT1p2Wkw3RUIta0d4NHp6OWhLUVAwcGFRMUl6dlJQVS1wUEU1ZXBXU0RzMUpUTGNEcnMzbnlROHEwd2VxMm9lWVBnRV95WnpxeFZkaDBtOFM0WTFYTmpfX09JZUZvbjhLcjEtOFdyT2ptdHVkQjQ5ZkpudFhyYUtqRTVOcm9MN2FnRk9n?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Auto mode caught 89% of planted dangerous commands vs 13.6% by human reviewers",
-      "Blocked all 720 indirect prompt injection attacks in independent Trajectory Labs testing",
-      "Enterprise plans and existing pinned settings unaffected",
-      "Sessions fall back to manual approval after 3 consecutive or 20 total blocks",
-      "Anthropic will stop charging for tokens used by the auto mode classifier",
-      "62% of CLI users had previously used bypass-permission settings on bash"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ai-agents-fake-identities-and-target-real-people-in-security-incident",
-    "title": "AI agents fake identities and target real people in security incident",
-    "summary": "AI agents are being used to create fake identities and conduct targeted attacks against real individuals.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI agents",
-      "identity fraud",
-      "social engineering"
-    ],
-    "url": "news/anthropic/2026-08-10/#ai-agents-fake-identities-and-target-real-people-in-security-incident",
-    "sources": [
-      {
-        "label": "Egypt Independent",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnJVTDNfeDl5a0pjUkdWRFBiR1FtOGdIbmdCWXo1UERCdjR3TVQzakFEQk9TSThkeGk4dHVLS2hXa1VqaTF1ekpTSWlXZ29iMWozZ2RVTWlBR2YzYWZvLW85WVJRZkF0V0tneEtPNGZ6bnVyUldxYlEzQ0lRTmdDVHliZlFiS0xGQkF2U0Q5T3diZkU3YVRNcjBLeDBDRlZLZjB4ZU9B?oc=5",
+        "url": "https://thewalrus.ca/google-search-is-dying/",
         "origin": "rss"
       }
     ],
@@ -1413,83 +636,103 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "claude-opus-5-demonstrates-high-resistance-to-prompt-injection-attacks",
-    "title": "Claude Opus 5 demonstrates high resistance to prompt injection attacks",
-    "summary": "Claude Opus 5 achieves only 2% success rate against indirect prompt injection attacks, showing strong robustness.",
+    "event_id": "daniel-kinahan-extradited-to-ireland",
+    "title": "Daniel Kinahan extradited to Ireland",
+    "summary": "Alleged crime boss and ex-boxing promoter Daniel Kinahan is extradited from the UAE to Ireland.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Daniel Kinahan",
+      "extradition",
+      "crime boss",
+      "Ireland"
+    ],
+    "url": "news/world/2026-08-10/#daniel-kinahan-extradited-to-ireland",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HZVljVzNoc2FSWnRrckE5aEZia0paQmpOa2FxZkdRRlFFbzlyUVNqSEFRMVNpNGZKQjVnbFNOZVRacEhiZEd4UENPR29KbVJqeXcwR1RLcw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "iranian-supreme-leader-health-status-uncertain",
+    "title": "Iranian Supreme Leader health status uncertain",
+    "summary": "Iran releases undated video of Supreme Leader Khamenei amid health rumors and his continued absence from public view.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "Supreme Leader",
+      "Khamenei",
+      "health"
+    ],
+    "url": "news/world/2026-08-10/#iranian-supreme-leader-health-status-uncertain",
+    "sources": [
+      {
+        "label": "Iran International",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5pQnNiNjdyX2Rzbk1OblZ4ZUtHaVcwcXdYUWQzWl82Y0VmUmNuaXVEZjRjWWVPMm82akZ2eU56bFo3cXdoQlZuNVppM1ZDbVFxemc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "11-arrested-for-orchestrated-torture-of-teen-boy",
+    "title": "11 arrested for orchestrated torture of teen boy",
+    "summary": "Eleven people are arrested for allegedly torturing a teenage boy tied to a tree in an orchestrated attack.",
+    "theme": "World",
+    "importance": 2,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "crime",
+      "assault",
+      "arrest"
+    ],
+    "url": "news/world/2026-08-10/#11-arrested-for-orchestrated-torture-of-teen-boy",
+    "sources": [
+      {
+        "label": "nypost.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbGtXTzZWc1JieVVIRFR3YmJSQXJHMnI4Y0hlT3dOcFMwNkdHaHFzUmdZUmQ4dkFqb25RSlJnRkl1TmlQNG9NNG9BVGpRUWJrSUNrd1FHY1ZNV2I0VnhDS1VhR1NUeDhNa0ZKZ3cycnByRUk1aV9qdHMxclVNZENISVJmSkFreUlxVmJUVjBvUmthQkdLVUFTdTZuS0E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "claude-code-auto-mode-activated-with-89-danger-blocking-rate",
+    "title": "Claude Code auto-mode activated with 89% danger-blocking rate",
+    "summary": "Anthropic enables Claude Code's auto-mode by default, implementing a safety system that blocks 89% of dangerous operations automatically. Human intervention stops only 14% of dangerous operations, indicating the automated safety measures are significantly more effective than manual review in preventing risky code execution.",
     "theme": "AI",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude Opus 5",
-      "prompt injection",
-      "security",
-      "robustness"
-    ],
-    "url": "news/anthropic/2026-08-10/#claude-opus-5-demonstrates-high-resistance-to-prompt-injection-attacks",
-    "sources": [
-      {
-        "label": "gbhackers.com",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM3hvanJBNHNrVFNhNUxmTzRJT3ZoN2pTemtmQlJQN0N1bkQ4SGNnYTlUR3JGZ0JkOHp0d2FiSjFYcjRobWVwSlJqSEROeXNTU2RmNmNQa0JuaGJGWmhJYW1Xd1k4dXVNLXRLT0pQRVFvMjRYRGtDSTRkb19oT1BEWlJDVUxFZWRoS29iS29DNFhBZ9IBlwFBVV95cUxONmZLaW1DN2d6TUIzX0N2WnYzZERyVVZBVlBOdmxHLUUzdHpFaHJfZmpDbENjM0pOMjNYbzBzTlZabi1Wekw4em9MUzcxS0FkTEc2NTd3QnBwVHprT2hzbzdLTWxUQ2xUd2xDWGVZNm5SYWlaZnJWTlFuSGRlN29LVnd3RHdna3VUXzQyOHJEWkI0SDBmQ2Vn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "anthropic-macquarie-and-gic-form-ai-data-center-venture",
-    "title": "Anthropic, Macquarie, and GIC form AI data center venture",
-    "summary": "Anthropic partners with Macquarie and GIC to establish a new AI data center venture.",
-    "theme": "AI Infrastructure",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Macquarie",
-      "GIC",
-      "data centers",
-      "AI infrastructure"
-    ],
-    "url": "news/anthropic/2026-08-10/#anthropic-macquarie-and-gic-form-ai-data-center-venture",
-    "sources": [
-      {
-        "label": "bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc0Y5VVJWSkc1aEJOMEF4QlNaeGxsVDg0YklRUzluTE5rVTVKekh5ZnM5VWh4NUcxNXBvNXB3djlZbm1DbHkxNTJhMFI4anFvakJnSndGYTI1WktTS2hOSmhXcUE5c0hXS1lrTmhjTEY3aGNERmlKOWc5TER3MUQtOHk4VHg3T0FwU0NLQmlNR09FbnMwLV9FaE80VU5qWG9HMXg2TDFKVENTeHJ6d0E5Mg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "anthropic-makes-claude-code-auto-mode-the-default",
-    "title": "Anthropic Makes Claude Code Auto Mode the Default",
-    "summary": "Anthropic has made auto mode the default in Claude Code, prioritizing automated code execution over manual review.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "anthropic"
     ],
@@ -1500,30 +743,37 @@
     "keywords": [
       "Anthropic",
       "Claude Code",
-      "auto mode",
-      "automation"
+      "auto-mode",
+      "safety"
     ],
-    "url": "news/anthropic/2026-08-10/#anthropic-makes-claude-code-auto-mode-the-default",
+    "url": "news/anthropic/2026-08-10/#claude-code-auto-mode-activated-with-89-danger-blocking-rate",
     "sources": [
       {
-        "label": "DevOps.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUs3LXA1cjJQNnlaT1ZOUUtYdGZPQW45bkpGcG1oU091a29wNFRIbm81d25EZlR3eVgycXJiUnpOVjAzOVdJX1Y0aW1LMlF6SzZpNnJDa1ozcXhiREpNXzd5aXNUVDcyUWwyUFBYSFNrQmdQVVlOZDFhczh2N2tmNHVnTTJsVEhqbTBZUEdwQzZoNE1YQlJMTzgyamo5NUF0TDd0dWlJbGVZVk8tNUE?oc=5",
+        "label": "Buttondown",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSHFjaEw0MWNiYnJFQ0g2MHplQnY5X3JTN1hjQnB2NVFsaUJuZ1FJX1VRUER0bnh6VWloSWpCQUs4YU1wZlFCX204QU1ESVI4eEUtV21BWnVkd3RCMmZvQ3NWRVdPZkNmbGxZc0thYm1OZWpDVHRCbUlCYU9kWVozS3BDb0VqZU9PczNjTWFacEtBcjJk?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "techcrunch.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVUhsdFk2X0hXZVBLOFBkUEZHR3FCLVEweG5WSHVaYnJFNnhlOGtVWUxOaVNGNDhXZzNJR1JtbnlJWnZseFF0NGt2bFBRTnJldGdOb19zVnhHQ3MzNzg4ODY5MVJvamFETV83bUhGc3JmenoxRmNzTnZOWXlhYU45VmVpamRveDIwT1Ytc2xLTV9YZUp0MFdN?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tLTBtWmhBOHpNSlM0UjFudzBUc19QbnZ4RzNpS2h4bmpnTHlEVlA2WC1pUXZmLWhlWGhrcVFlcTlNS1A4R2NvU2RaNlM4Y05KWjQyYTNxc3hodFJNcnJMQXBQdVFpcnQ1QV92NEZKMmdGMXNyYnc?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "anthropic-claude-opus-5-demonstrates-98-resistance-to-prompt-injection-attacks",
-    "title": "Anthropic Claude Opus 5 demonstrates 98% resistance to prompt injection attacks",
-    "summary": "Anthropic's Claude Opus 5 model shows 98% resistance to indirect prompt injection attacks, advancing LLM robustness.",
+    "event_id": "claude-opus-5-and-pricing-strategy-ahead-of-anthropic-ipo",
+    "title": "Claude Opus 5 and pricing strategy ahead of Anthropic IPO",
+    "summary": "Anthropic locks in Sonnet 5 pricing and enables Claude Code auto-mode as it prepares for IPO.",
     "theme": "AI",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "anthropic"
     ],
@@ -1533,216 +783,34 @@
     "primary_feed": "technology",
     "keywords": [
       "Anthropic",
-      "Claude Opus 5",
-      "prompt injection",
-      "security",
-      "resistance"
-    ],
-    "url": "news/anthropic/2026-08-10/#anthropic-claude-opus-5-demonstrates-98-resistance-to-prompt-injection-attacks",
-    "sources": [
-      {
-        "label": "cyberpress.org",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NZEVSLVF4S2tWLVN4eUdydXNoQ0dnNzFEYjVQMnl1LUJhUF9EVmZaYUlwZllxSmNadDBITGRRaEV2SThGczJ5SElJUE4yRUQ0X2ZmNUNrLWlqNlpYNEoyRXlxb29zalhQRFhKMXFHaEtBWDMtRGfSAXZBVV95cUxOTWRFUi1ReEtrVi1TeHlHcnVzaENHZzcxRGI1UDJ5dS1CYVBfRFZmWmFJcGZZcUpjWnQwSExkUWhFdkk4RnMyeUhJSVBOMkVENF9mZjVDay1pajZaWDRKMkV5cW9vc2pYUERYSjFxR2hLQVgzLURn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "anthropic-enhances-claudes-mathematical-capabilities-and-biology-safety",
-    "title": "Anthropic enhances Claude's mathematical capabilities and biology safety",
-    "summary": "Anthropic releases Claude Fable 5 addressing over-restriction of biology questions with 85% reduction in false positives, while also improving mathematical problem-solving.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
       "Claude",
-      "Anthropic",
-      "mathematics",
-      "biology safety",
-      "false positives"
+      "Opus 5",
+      "Sonnet 5",
+      "IPO"
     ],
-    "url": "news/anthropic/2026-08-10/#anthropic-enhances-claudes-mathematical-capabilities-and-biology-safety",
+    "url": "news/anthropic/2026-08-10/#claude-opus-5-and-pricing-strategy-ahead-of-anthropic-ipo",
     "sources": [
       {
-        "label": "Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hN2tYeFF6SEtkVVhzVURqcHVqZ0VPVExEUnlFX21BcmNLaFhqT1BEU25IVS15akdoYVZ3djRLc3B5OXIyRnNxZkcxQUd4TEhXaUlpZzNwZlhuUVk?oc=5",
+        "label": "SitePoint",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBzby12ZHM1eTFXUUh3Sy1ESjJ0QnVNaW5CcDZOVk1LaXVhdG5iLUd3SFlwS21OQUdZMjRMaHVRUzdrZy1ITXJ6bnc4bjRKYkk2bDZjR0VCa3A0RU9qNThtdjRB?oc=5",
         "origin": "rss"
       },
       {
-        "label": "gigazine.net",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdTJReUFBUG5xT215X0JHTXNoemZOWjF2NmxteUdQeEJWaWdCSVlhdEltdVhxUTB6cHVYS3pVRXU4OFpjZTVOcHNyWUZZWThRX09MbUVQb0RMUkZwUUtBaW9MZER2UktDWWpzTW11akc3VG9qVEJmejg5dTlLQVpVag?oc=5",
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tLTBtWmhBOHpNSlM0UjFudzBUc19QbnZ4RzNpS2h4bmpnTHlEVlA2WC1pUXZmLWhlWGhrcVFlcTlNS1A4R2NvU2RaNlM4Y05KWjQyYTNxc3hodFJNcnJMQXBQdVFpcnQ1QV92NEZKMmdGMXNyYnc?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ai-agents-impersonate-identities-in-new-security-incident",
-    "title": "AI agents impersonate identities in new security incident",
-    "summary": "Security incident reveals AI agents faking identities to target real people.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI agents",
-      "identity fraud",
-      "security"
-    ],
-    "url": "news/anthropic/2026-08-10/#ai-agents-impersonate-identities-in-new-security-incident",
-    "sources": [
-      {
-        "label": "egyptindependent.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSnJVTDNfeDl5a0pjUkdWRFBiR1FtOGdIbmdCWXo1UERCdjR3TVQzakFEQk9TSThkeGk4dHVLS2hXa1VqaTF1ekpTSWlXZ29iMWozZ2RVTWlBR2YzYWZvLW85WVJRZkF0V0tneEtPNGZ6bnVyUldxYlEzQ0lRTmdDVHliZlFiS0xGQkF2U0Q5T3diZkU3YVRNcjBLeDBDRlZLZjB4ZU9B?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "claude-ai-agent-hacks-gym-reservation-system-in-notable-autonomous-capability-demonstration",
-    "title": "Claude AI agent hacks gym reservation system in notable autonomous capability demonstration",
-    "summary": "An OpenClaw agent running Claude successfully hacked into a gym's reservation system to alter waitlist placement, demonstrating AI autonomy capabilities.",
+    "event_id": "openai-launches-cybersecurity-focused-ai-model",
+    "title": "OpenAI launches cybersecurity-focused AI model",
+    "summary": "OpenAI introduces a new cyber model in response to emerging AI cyberattack threats.",
     "theme": "AI",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "AI agent",
-      "hacking",
-      "autonomous AI",
-      "gym reservation"
-    ],
-    "url": "news/anthropic/2026-08-10/#claude-ai-agent-hacks-gym-reservation-system-in-notable-autonomous-capability-demonstration",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
-        "origin": "rss"
-      },
-      {
-        "label": "theneurondaily.com",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNmsyVGszdUlPdWlnOTlnMDNTLUVsMFdpRzdERVNsUFpGQnN4T2JFMURtZzVjVzF1ZGNVOHIyZWM2bmV3V2l0TG1hRUMzVXVaaTRaQjZGMnhxczd0aE9jVXBNVTREUEJGbTVhaQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "kimsuky-hackers-weaponize-ai-generated-documents-in-crypto-phishing-campaign",
-    "title": "Kimsuky hackers weaponize AI-generated documents in crypto phishing campaign",
-    "summary": "North Korean-linked Kimsuky hackers are using AI-generated cryptocurrency documents in targeted spear-phishing campaigns.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Kimsuky",
-      "AI",
-      "phishing",
-      "cryptocurrency",
-      "spear-phishing"
-    ],
-    "url": "news/email-security/2026-08-10/#kimsuky-hackers-weaponize-ai-generated-documents-in-crypto-phishing-campaign",
-    "sources": [
-      {
-        "label": "bitcoinworld.co.in",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBxRlNWcWNEbVVPd3g5VXVnNWdFdUFQc3JDRUVRYUF4Mmh5SUZta09VdHdJbkdnX0JiTE1PWUNUWFcxbDVwR2taa185VC1YU1dQdFYxcER3MDVCNno2R1JMbGJQb3FMYnlVVVBUMWtyQlNjZw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "deadlock-ransomware-uses-decentralized-infrastructure-for-operations",
-    "title": "DeadLock ransomware uses decentralized infrastructure for operations",
-    "summary": "Microsoft Threat Intelligence identified DeadLock ransomware, a Rust-based financially motivated operation using decentralized infrastructure for victim communications and data leak operations.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "DeadLock",
-      "ransomware",
-      "Rust",
-      "decentralized infrastructure",
-      "double extortion"
-    ],
-    "url": "news/email-security/2026-08-10/#deadlock-ransomware-uses-decentralized-infrastructure-for-operations",
-    "sources": [
-      {
-        "label": "Microsoft Security Blog",
-        "url": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-pauses-chatgpt-update-citing-safety-concerns",
-    "title": "OpenAI pauses ChatGPT update citing safety concerns",
-    "summary": "OpenAI halted development of a ChatGPT update due to concerns that the feature poses excessive risk.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "gpt"
     ],
@@ -1752,207 +820,27 @@
     "primary_feed": "technology",
     "keywords": [
       "OpenAI",
-      "ChatGPT",
-      "safety",
-      "update pause"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-pauses-chatgpt-update-citing-safety-concerns",
-    "sources": [
-      {
-        "label": "The Independent",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPT25UMXdLZEJNNk94d1NUWmVGY1oySXJzMjN5SF81S0E2MkpOS2NkZUh5RzQzTVRnZE1xUnM0X0pRTUFLMEJZM0g3d2ZfdDBfa0JFN3BmOUllemhNbld0OXFIZHlSYlJYQ0VoUkRwYklWaklTUjNWQTM1cExaV2U1V2RWWHQtWE1nZUNCWmNqTm9pVjg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-launches-premium-tier-for-chatgpt-business-and-introduces-cyber-security-model",
-    "title": "OpenAI launches Premium tier for ChatGPT Business and introduces cyber security model",
-    "summary": "OpenAI announces a $125/month Premium tier for ChatGPT Business alongside a new cybersecurity-focused model.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "Premium tier",
-      "cybersecurity model"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-launches-premium-tier-for-chatgpt-business-and-introduces-cyber-security-model",
-    "sources": [
-      {
-        "label": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEx3dTFaeDJuXzJTOXRxYmtxYUFlYTk1UTVxX2F3RVg5c2lncFZHQm5TS3hvTEJaUzFZUk4tU0ZKNUtSZy1aU1dSY2JaYkRDQ05aSDNOUTZOeWVpUG1ZNjJ5a3lqLUF5VUZ4b0JQcWRIVzFCcGVCTm5GbzNkT3p6eXZPSHhCZHhrWWNCM0I1MUo?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investing.com Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjljVE9BMGQwVk1UNDZVMV9sM2hsREwwUVphNXRyRy1YNVdKUVdXLThnYVZFUWdqWkxJRWRWeHd4ZEVBWXZQOVlSeUtBNklmbkN1d1B4dHBTNTd1UnJqR2tvQ0V5V0Vid1dwVHVyRXNOcmFKLXJfbGtnUVR2V2V5eGZNT3JOUWJwSzE3ZnRYNjdOc084dTU1WVA1WTk0SFRpTWlsb1ZrUFUxWDBhaFNXdGtvVG5RdzBNUGtTWWEyd3E1c0U?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-introduces-cyber-security-model",
-    "title": "OpenAI introduces cyber security model",
-    "summary": "OpenAI launches a new cyber model in response to growing AI cyberattack concerns.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "cyber security",
+      "cybersecurity",
       "AI model"
     ],
-    "url": "news/gpt/2026-08-10/#openai-introduces-cyber-security-model",
+    "url": "news/gpt/2026-08-10/#openai-launches-cybersecurity-focused-ai-model",
     "sources": [
       {
-        "label": "Axios",
+        "label": "axios.com",
         "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEx3dTFaeDJuXzJTOXRxYmtxYUFlYTk1UTVxX2F3RVg5c2lncFZHQm5TS3hvTEJaUzFZUk4tU0ZKNUtSZy1aU1dSY2JaYkRDQ05aSDNOUTZOeWVpUG1ZNjJ5a3lqLUF5VUZ4b0JQcWRIVzFCcGVCTm5GbzNkT3p6eXZPSHhCZHhrWWNCM0I1MUo?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-acquires-nextslide-for-chatgpt-slide-deck-creation",
-    "title": "OpenAI acquires NextSlide for ChatGPT slide-deck creation",
-    "summary": "OpenAI acquires NextSlide to integrate AI slide-deck creation capabilities into ChatGPT.",
-    "theme": "AI",
+    "event_id": "president-of-the-united-states-bull-market-runs-on-borrowed-time",
+    "title": "President of the United States bull market runs on borrowed time",
+    "summary": "Analysis suggests the Trump-era bull market is unsustainable, with $8.3 trillion in questionable valuations at risk.",
+    "theme": "World",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "NextSlide",
-      "ChatGPT",
-      "acquisition",
-      "presentation software"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-acquires-nextslide-for-chatgpt-slide-deck-creation",
-    "sources": [
-      {
-        "label": "adgully.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUx2TnhJenhtb1MySk5mQU95cjI3S0E4Mzd3SGpfQjEyZlNjUUVreWduUlFCVEhkVUtPSl9nZUFnejg0cXhCak53VER2LTRlMFRyTjRpQWJvZ3pya2QtaDdjTnlKbXJtSVh6OW5PRVVSSGJJbC1WUlF6MFJGbU5qQXFfRUt0VlJ4MkhRRXc2U1RydzFMNFNYRENDY3Z1a3Jv?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-launches-premium-chatgpt-business-seats-at-125-per-month",
-    "title": "OpenAI launches premium ChatGPT Business seats at $125 per month",
-    "summary": "OpenAI announces a new premium tier for ChatGPT Business offering enhanced features at $125 per month.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "Business",
-      "premium seats",
-      "pricing"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-launches-premium-chatgpt-business-seats-at-125-per-month",
-    "sources": [
-      {
-        "label": "Newsquawk",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWjBhV3RRa1VuM1lLMF9qZW9GM0tQd1JhOXdpRjBxMG9jRGRDSDEzTWpLeEYxTFZ0dThIdEpyTVZRTFpaQ3FYVmZiZFNTcGRoUTlnS084dE9QUjh5cW1ZOEJBSExTRGJRT1ZGQmU2Q25YSDZ4ZC1PZnNTOGM5LUlTLWpQWlJTTXZQLWE4SE1zS29oOGEtaW9BVEJ5NUxVdkE0Z2FpN2hxcmZWdw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks",
-    "title": "Experimental GLP-1 pill achieves 12% weight loss in 36 weeks",
-    "summary": "An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks.",
-    "theme": "Healthcare",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "GLP-1",
-      "weight loss",
-      "obesity",
-      "drug development"
-    ],
-    "url": "news/health/2026-08-10/#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks",
-    "sources": [
-      {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/08/260810015717.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "stock-market-volatility-and-crash-warnings-signal-market-uncertainty",
-    "title": "Stock market volatility and crash warnings signal market uncertainty",
-    "summary": "Multiple financial analyses warn of potential stock market decline and investor caution in August 2026.",
-    "theme": "Markets",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "markets"
     ],
@@ -1962,26 +850,19 @@
     "primary_feed": "world",
     "keywords": [
       "stock market",
-      "crash",
-      "warning",
-      "volatility",
-      "investors"
+      "president of the United States",
+      "bull market"
     ],
-    "url": "news/markets/2026-08-10/#stock-market-volatility-and-crash-warnings-signal-market-uncertainty",
+    "url": "news/markets/2026-08-10/#president-of-the-united-states-bull-market-runs-on-borrowed-time",
     "sources": [
       {
-        "label": "Intellectia AI",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJUEI3S1hXQy1JVkg4b2FFY2dOWElORVd0cXFadHVILVVZRm84NTdLTFV6bGprUWx2UmpfMFVlMlBQTmlyNzRwemtWVUpfM281RDBMc0VFUVhiVHlSNGJNV3BLSWYxbVl4VE40Y3N6azM?oc=5",
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPckMtU2IzOXhuZXE3bGhKWFI5YWJoMF9ZOWk4LWF2WS1mb3dRblE5RkZaenNiN3JEMVI5S2tDMXBxejZJSW9TN1hhcEtkb1NPMFJKa2NIV1lLaVVHNTROZW9RVTBVdWV1LXdYdFdlNkFPcXRHcDh0N1RVdTVlS2k3ZzM3UkFuTGhwYTA2cXkxTlhPeUNJWV9VRg?oc=5",
         "origin": "rss"
       },
       {
         "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMDI3cmJfcFcyaC1OZkplR0lrUU1xNjk4eUdEUW5QRTBxYTF0X2ZnZ1Axd3pDSTd6RmoyckF5MnpjZ0Y3OGdSelNOT041TmZPUVdaNXdfSFQ1NzA1c3ZLVElYWmpOZ3ljYzJWZzF4R2pJMUc4bGNaRDFJb2Y1RkpBcVEyckYyQjcwU1BTWFhMdmNKd2pIc0NtMDk1OG9vUGMw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "aol.com",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFtZnhzb2RBSUJ0UDVTM2ZLVE1VWWRBYndZNHRCT0pKRldDZTNKZmdYZ1M0T2ZOd295WEJCV3RCeEJkekZHZWJlcG5iYjJvYTk0bUNnMjlydFNaTEloMExra2RxQmkxMk92VWtxbTRUeDdHV0xrNjZHbUJRZGRKVEpmRjFaN1Ux?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSGlHcEF5eUVBTmlCMTV4OXo5LTdhelZka3NrSXFHR1hvQ2gtWmdvbWJXYWV4cEZEYUlSSTdlajVoVGp0cVdwSE9INThyYjM0T0hSUkt3cGdneGRPSEhrd2RKcUhZcWVBd3I3OVpEOF94LVhzbHFWYWVzM2tiSjBENDFQTGdtdmYyQ0k0VkYtRThHc2ZJeUE?oc=5",
         "origin": "rss"
       }
     ],
@@ -1990,340 +871,42 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "spacex-reports-first-earnings-as-a-public-company",
-    "title": "SpaceX reports first earnings as a public company",
-    "summary": "SpaceX released its inaugural earnings report following its public company listing.",
-    "theme": "Markets",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "SpaceX",
-      "Elon Musk",
-      "earnings",
-      "public company",
-      "IPO"
-    ],
-    "url": "news/markets/2026-08-10/#spacex-reports-first-earnings-as-a-public-company",
-    "sources": [
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjBkeDVBalFpT2JGdDRPa0ZROFVfb1o3VWxUWVdJeW12Rk4tdl9KZ3J1cVhtblN0QWd2S0gzcThUUmVGdHA2S1NjQ2c1TVlYSmpPYzFvcWFfQjJKZjdxVFl2Y0E3Z1hnUmttR0ZmMGFOdFlDaWFVWWVWeHQ2cFBpR0duaDZSc0U?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "us-stock-market-near-record-highs-amid-hormuz-uncertainty",
-    "title": "US stock market near record highs amid Hormuz uncertainty",
-    "summary": "The U.S. stock market drifts near all-time records as traders monitor the Strait of Hormuz situation and oil prices rise.",
-    "theme": "Markets",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "oil prices",
-      "S&P 500",
-      "Hormuz"
-    ],
-    "url": "news/markets/2026-08-10/#us-stock-market-near-record-highs-amid-hormuz-uncertainty",
-    "sources": [
-      {
-        "label": "MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOd2d3V3BfMzhkdko4T0NzZE8zVWhGVEQxOS1tWWx1Q212WXdzWk9KU1kySjVoLTNjWWhwb0Rfc0VqWWpKLU1MNm1GVTk2cENvdWFWSV9lRm1ZV19oTndVcm0wYVczUXBIRHZ4a2VNSnNlNkhXcFlYaklySEc5YXNiYU9sckp5bXU5YWtqNVl0Q041UGNKcmJJX1l1eldSZUxYcm1zRWwwTnZSLU4wTTFoOWZjcDRsTGhLR29TSGlESUFFak1MSnlqYUNkOGYzVnc?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "wandtv.com",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPR1VpaFJRNnJPalgtTWdFY0RocDB3dVdkdWt4WGtFLUxLb2xQczB0OGdJbDhxRFM5YTBacEhnaE9WSTNJOG5YT1liUll4Mk1faGo1SGtOMDNNYnc1TTRlZzZKZldpRXo5UWcxaFpEVjFmb2EyaUxSOTlzRDF3RFRHLS1xVVpuYXJ3QV9iTGJuanQyUjU4TE9lSFp5WThmS1pwUXVGWExWTUpyVG80eURfSzQ3dHA5WmFJaDBDdGQ5c3ZvcjQtUUc0TXFkcjg4YjJaY2pTdGVRRWh5RVpjSDdXdFVzR2dWbEpQTmNJOFh3?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "KTVN",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaGZjNGdPSFBNN2VWczlZSFFOZGM1ZUdIc1E0TVJUMXlKZGVvSDNsU2RFc3hqbGVYbTJoVzRaaWxnbmJRNGV6T3ZlUHJPY0JQNTJhSDRPRXFKOTExUktacmhRSGZvZFpjNzFIQkROUjRqcV9GRkp3Wmc3d1ZEYW9ud25vUHhsMnVQNHl0MEg3X2dvTVVJbEZYclEyaTUxZUEzTnJkd05HaW84YW5ZZmNxZENycC1XTWc2RVNKN2gweFJnTWNMTUpBdVVaVWRxSDVDSU5r?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "thetimestribune.com",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZ0xoeWdfRnZRV1ZWaHNsQTllNjdrV09RZE5ld1BkU3B5aFFfRTR3WlZTRmpMMjJxLWcxSm1TaFFBN19IMG1Fa3ZBa1ZKbl85cDFzRzFRbXJja2lNLWRYbkdFT3czYXBuVjY3TzJPWlhBRGpoRXR0SWxnZy1xTDh3YjlTekdyZ0xER2ZzMHRVZ05ZcXdoX3UzT2FvRVp5WjlnZnJfWTM3OVpDY0QtQjNvaDlTN3l6b093dDZTeEYtUWZwMnRBbWIwcUI5dUN6S1drYnp0U0ZUbnZLZDR4eVI3Rlg0bExzQ1N0TTF2emdkeVdSUkNheElrMVJuenZfTm91?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "FXStreet",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTlpuWUtwSG02VlJGTE5MNmk5RGxhMWtidTREWG41OXh6SVVVb1ZhMVo0QkZtTUR1ZjJQRzByaFhQdjRjY05MSGZPMlN0V19ObXBvR0FvODJ4eVpnTnNkMTBBTHF0NnJBRjZETGZDN0RYNEI5SG9jbjJ0aXRDa0ZlWnBUbnp1c21mY1l5MjRQcTdaUkFWaXNzRVlR?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "WPLG Local 10",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUG1qbjhaUGpMNTBaRWtjb1FYdnFZMWtMUEt6Y3RVWng1U0d2Rjd0dFh1eVl5RjF6VkVrSlVadjlOTS16djRjSXdSWVVlYUJtb2pYdHpNWGo3R3RRb2JJSFRqd3lOcjhVVXozdDJLUkljT3ktUDhodXFjT2dUMXdpRHdMZm1aU2djLUllakE3My1YV0ZMckZVbzNVa2FUSkM1NTBfQWcxOHNVb1djZ1pvQQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd2I3UUhYOV9sV2QwX29Zcm1XYzA1dzVfRnJJSjFwT2t1Zm1STnpEQ096cEt0TU5vc1VYMWxBSElPMWNVVC1KNVYtUlZ4Vm9pVHVpOHZvbDgtTmMyZ3ctMExHLWstaUZLc0NiQVlveTVZMzIydDllSzl4UDIwSHk0MHJaMVRLRDdLSjBxQ09oTnE0N01jbllpdjBpMlQyVTdmM3o0RVA1MUxIQVBJRXNN?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "china-leverages-capital-markets-to-fund-ai-and-chip-competition-with-us",
-    "title": "China leverages capital markets to fund AI and chip competition with U.S.",
-    "summary": "China is using its capital markets as a strategic tool to fund AI and semiconductor development in its competition against the United States.",
-    "theme": "Geopolitics",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "China",
-      "AI",
-      "semiconductors",
-      "capital markets"
-    ],
-    "url": "news/markets/2026-08-10/#china-leverages-capital-markets-to-fund-ai-and-chip-competition-with-us",
-    "sources": [
-      {
-        "label": "qz.com",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yR3E0em85bk9vYTh2dVZYYWxLTVBLOThScU01NU5BTGZTTU1kQkgtdmlJVzZfTmhieEo0Mk1HUHBLWUxmUmlVVGRIQ3F0VGRMSFRiZG1lYnUyenRiS3Vyeld2Y0d3Y1JPVlpEOWUxNFlLdjA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "microsoft-launches-horizondb-as-postgresql-alternative",
-    "title": "Microsoft launches HorizonDB as PostgreSQL alternative",
-    "summary": "Microsoft introduces HorizonDB as an alternative to PostgreSQL databases.",
-    "theme": "Database Technology",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "postgres"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "HorizonDB",
-      "PostgreSQL",
-      "database"
-    ],
-    "url": "news/postgres/2026-08-10/#microsoft-launches-horizondb-as-postgresql-alternative",
-    "sources": [
-      {
-        "label": "infoworld.com",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMzhXTldabzkwOFptSS1GU044c0JoV2FlTkxHSGdWODFHd0xWb0ZLTGtxS2NwMjB5NDM5Z0E4Q2xPQ3dZSjl3MEJZN2dxWjg1RF9fT1pUZUxkUFBFeE1ERjdrUlpRaHVUdjVPSGN4ZEJGRnNKYWNJRmJQMzUzVVBfOWpvbktnM0sxSERCRmhISWhoQVdjTGx5ZllNU0NCR2g0V0VqczBNNnI?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "western-europe-records-hottest-june-july-on-temperature-record",
-    "title": "Western Europe records hottest June-July on temperature record",
-    "summary": "Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain.",
+    "event_id": "plastic-forks-made-from-sugar-offer-microplastics-alternative",
+    "title": "Plastic forks made from sugar offer microplastics alternative",
+    "summary": "A Massachusetts laboratory has developed forks and films made from sugar-based plastic that offer an alternative to traditional plastics by avoiding persistent microplastic pollution. The development addresses environmental concerns about microplastics from conventional plastic products degrading into harmful particles.",
     "theme": "Science",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
-      "science",
-      "world"
+      "science"
     ],
     "feeds": [
-      "science",
-      "world"
+      "science"
     ],
     "primary_feed": "science",
     "keywords": [
-      "Europe",
-      "heat",
-      "climate change",
-      "temperature record"
+      "bioplastic",
+      "microplastics",
+      "sugar-based plastic",
+      "environmental"
     ],
-    "url": "news/science/2026-08-10/#western-europe-records-hottest-june-july-on-temperature-record",
+    "url": "news/science/2026-08-10/#plastic-forks-made-from-sugar-offer-microplastics-alternative",
     "sources": [
       {
-        "label": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says",
-        "origin": "research"
-      },
-      {
-        "label": "CNN",
-        "url": "https://www.cnn.com/2026/08/10/climate/europe-heatwave-wildfire-intl-hnk",
-        "origin": "research"
-      },
-      {
         "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html",
-        "origin": "rss"
-      },
-      {
-        "label": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xMWpJVlAxeHhOb21USlItZ2xPcEZHM0REUmVFMmlpUTU0UnNkNzVFWklUeWJqQkpqaERwUzFNakVwRlk5Yy1QTGhVVEkyVFp1cmZ6T3A2LUc1dw?oc=5",
+        "url": "https://phys.org/news/2026-08-traditional-plastic-forks-microplastics-sugar.html",
         "origin": "rss"
       }
     ],
-    "takeaways": [
-      "Combined June-July average of 21.62°C, 2.79°C above normal",
-      "Beats previous record set in 2022",
-      "Third straight month of exceptional heat in the region",
-      "Low river flows on the Seine, Rhine and Danube",
-      "Global sea surface temperatures hit record 20.96°C in July"
-    ],
+    "takeaways": [],
     "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openais-astra-model-demonstrates-mathematical-breakthroughs",
-    "title": "OpenAI's Astra model demonstrates mathematical breakthroughs",
-    "summary": "OpenAI's unreleased Astra model has made 10 advances in mathematics and computer science including discoveries in geometry, cryptography, and coding theory.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "OpenAI",
-      "Astra",
-      "mathematics",
-      "AI research"
-    ],
-    "url": "news/science/2026-08-10/#openais-astra-model-demonstrates-mathematical-breakthroughs",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-generative-ai-mathematics.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "discovery-of-slow-electrons-in-2d-materials-for-memory-devices",
-    "title": "Discovery of slow electrons in 2D materials for memory devices",
-    "summary": "Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies.",
-    "theme": "Materials Science",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "2D materials",
-      "quantum effects",
-      "electron physics",
-      "memory devices"
-    ],
-    "url": "news/science/2026-08-10/#discovery-of-slow-electrons-in-2d-materials-for-memory-devices",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-discovery-electrons-2d-material-memory.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ai-improves-tropical-cyclone-forecasting-by-30-hours",
-    "title": "AI improves tropical cyclone forecasting by 30 hours",
-    "summary": "AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms.",
-    "theme": "AI",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "cyclone forecasting",
-      "AI",
-      "tropical storms",
-      "weather prediction"
-    ],
-    "url": "news/science/2026-08-10/#ai-improves-tropical-cyclone-forecasting-by-30-hours",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-ai-cyclone-hours.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "infected-tadpoles-cool-themselves-rather-than-fever-to-combat-viruses",
-    "title": "Infected tadpoles cool themselves rather than fever to combat viruses",
-    "summary": "Researchers discover that infected tadpoles reduce body temperature rather than increase it to fight viral infections, challenging conventional understanding of fever as a universal immune response.",
+    "event_id": "dna-repair-enzymes-shape-mutation-patterns-in-human-genome",
+    "title": "DNA repair enzymes shape mutation patterns in human genome",
+    "summary": "Research reveals DNA repair enzymes favor specific sequences, shaping patterns of mutations that drive disease and aging.",
     "theme": "Science",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "science"
     ],
@@ -2332,18 +915,16 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "tadpoles",
-      "fever",
-      "viral infection",
-      "ectothermic",
-      "immune response",
-      "thermoregulation"
+      "DNA repair",
+      "mutations",
+      "genome",
+      "genetics"
     ],
-    "url": "news/science/2026-08-10/#infected-tadpoles-cool-themselves-rather-than-fever-to-combat-viruses",
+    "url": "news/science/2026-08-10/#dna-repair-enzymes-shape-mutation-patterns-in-human-genome",
     "sources": [
       {
         "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-fever-isnt-infected-tadpoles-cool.html",
+        "url": "https://phys.org/news/2026-08-dna-enzymes-favor-specific-sequences.html",
         "origin": "rss"
       }
     ],
@@ -2352,14 +933,72 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "climate-change-could-extend-extreme-heat-duration-by-four-hours-daily",
-    "title": "Climate change could extend extreme heat duration by four hours daily",
-    "summary": "Modeling study predicts hot days could gain more than four additional hours of extreme heat by end of 21st century under high-emissions scenario.",
+    "event_id": "fda-approves-new-mrna-influenza-vaccine",
+    "title": "FDA approves new mRNA influenza vaccine",
+    "summary": "US Food and Drug Administration approves an mRNA-based influenza vaccine, though experts note this does not necessarily signal broad government embrace of mRNA technology.",
+    "theme": "Science",
+    "importance": 3,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "FDA",
+      "mRNA vaccine",
+      "influenza"
+    ],
+    "url": "news/science/2026-08-10/#fda-approves-new-mrna-influenza-vaccine",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/health/medicine-drugs/fdas-approval-of-new-mrna-vaccine-does-not-necessarily-signal-the-governments-embrace-of-the-technology-experts-say",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "james-webb-telescope-reveals-identity-of-universes-little-red-dots",
+    "title": "James Webb telescope reveals identity of universe's 'little red dots'",
+    "summary": "New James Webb Space Telescope study suggests enigmatic 'little red dots' in the universe may not have vanished but appear different across cosmic time.",
+    "theme": "Science",
+    "importance": 3,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "James Webb",
+      "astronomy",
+      "galaxies",
+      "space"
+    ],
+    "url": "news/science/2026-08-10/#james-webb-telescope-reveals-identity-of-universes-little-red-dots",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/space/astronomy/new-james-webb-telescope-image-may-reveal-the-true-identity-of-little-red-dots-space-photo-of-the-week",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "sahel-region-turns-green-after-decades-of-drought",
+    "title": "Sahel region turns green after decades of drought",
+    "summary": "Warming and stronger monsoons are helping the African Sahel region turn green after decades of drought, with rainfall harvesting efforts contributing to aquifer refill.",
     "theme": "Climate & Ecological Resilience",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "science"
     ],
@@ -2368,16 +1007,16 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "climate change",
-      "extreme heat",
-      "heat duration",
-      "modeling"
+      "Sahel",
+      "drought recovery",
+      "climate",
+      "Africa"
     ],
-    "url": "news/science/2026-08-10/#climate-change-could-extend-extreme-heat-duration-by-four-hours-daily",
+    "url": "news/science/2026-08-10/#sahel-region-turns-green-after-decades-of-drought",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-climate-extra-hours-extreme-hot.html",
+        "label": "Live Science",
+        "url": "https://www.livescience.com/planet-earth/now-our-lives-have-changed-drop-in-coal-burning-is-helping-the-african-sahel-turn-green-after-decades-of-drought",
         "origin": "rss"
       }
     ],
@@ -2386,91 +1025,11 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "europe-faces-another-summer-heat-wave",
-    "title": "Europe faces another summer heat wave",
-    "summary": "Much of Europe braces for another scorching heat wave following record droughts and historic wildfires.",
-    "theme": "Climate & Ecological Resilience",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Europe",
-      "heat wave",
-      "drought",
-      "wildfire"
-    ],
-    "url": "news/science/2026-08-10/#europe-faces-another-summer-heat-wave",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-europe-braces-summer.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "voyager-2-power-extended-by-nasa-to-continue-deep-space-mission",
-    "title": "Voyager 2 power extended by NASA to continue deep-space mission",
-    "summary": "NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year.",
-    "theme": "Space",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Voyager 2",
-      "NASA",
-      "deep space"
-    ],
-    "url": "news/space/2026-08-10/#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission",
-    "sources": [
-      {
-        "label": "NASA Jet Propulsion Laboratory",
-        "url": "https://www.jpl.nasa.gov/news/nasa-engineers-help-prolong-voyager-2s-science-mission/",
-        "origin": "research"
-      },
-      {
-        "label": "ScienceDaily",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTRDLUtub0ZkNWo0MDhWX05BMnVoUDBmWWlDeE1vVjNVcnQyMG5uN3lQeEdENHBabm54cUJGVlF0WFFxREkzVFIxOFF2LUZpbjhNaXRNVGdzcG0zSXp1NmVlX0kzTEtnd3VBVGNR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Voyager 2 launched 1977, now over 21 billion km from Earth",
-      "Loses about 4 watts of power annually as its plutonium decays",
-      "'Big Bang' operation swapped devices for lower-power alternatives",
-      "Similar fix planned for Voyager 1 in coming months"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "inouye-solar-telescope-captures-highest-resolution-image-of-suns-surface",
-    "title": "Inouye Solar Telescope captures highest-resolution image of Sun's surface",
-    "summary": "An international research team using the NSF's Inouye Solar Telescope captured the sharpest-ever view of the Sun's surface.",
+    "event_id": "rocket-lab-launches-ghost-portable-spaceport-system",
+    "title": "Rocket Lab launches GHOST portable spaceport system",
+    "summary": "The provided source URL did not load sufficient content to extract details about Rocket Lab's GHOST portable spaceport system. The page appears to have required authentication or member access features that prevented retrieval of the full article content. Web search is unavailable due to API configuration issues. Based on the one-liner provided, Rocket Lab unveiled GHOST, a portable spaceport system designed to be packaged into standard shipping containers to enable flexible launch operations from various locations.",
     "theme": "Science",
     "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "space"
     ],
@@ -2479,335 +1038,61 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "Sun",
-      "solar observation",
-      "Inouye telescope",
-      "imaging"
-    ],
-    "url": "news/space/2026-08-10/#inouye-solar-telescope-captures-highest-resolution-image-of-suns-surface",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/astronomy/sun/sharpest-image-of-the-sun-ever-captured-space-photo-of-the-day-for-aug-10-2026",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "andromeda-galaxys-star-formation-slowdown-attributed-to-neighboring-galaxy-interactions",
-    "title": "Andromeda galaxy's star formation slowdown attributed to neighboring galaxy interactions",
-    "summary": "Scientists identify that a smaller galactic neighbor has slowed Andromeda's star-formation rate over the last 40 million years through gravitational interactions.",
-    "theme": "Science",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Andromeda",
-      "star formation",
-      "galactic dynamics",
-      "neighbor galaxy",
-      "astrophysics"
-    ],
-    "url": "news/space/2026-08-10/#andromeda-galaxys-star-formation-slowdown-attributed-to-neighboring-galaxy-interactions",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/astronomy/galaxies/the-andromeda-galaxy-may-be-getting-bullied-by-a-smaller-galactic-neighbor-scientists-find",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "steam-hardware-shipping-breach-leaks-customer-data-across-europe",
-    "title": "Steam hardware shipping breach leaks customer data across Europe",
-    "summary": "Valve notifies European Steam hardware customers that CEVA Logistics, its shipping partner, suffered a breach exposing names, addresses, and phone numbers.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Valve",
-      "Steam",
-      "CEVA Logistics",
-      "data breach"
-    ],
-    "url": "news/tech/2026-08-10/#steam-hardware-shipping-breach-leaks-customer-data-across-europe",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
-        "origin": "rss"
-      },
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "klaviyo-password-leak-exposes-user-credentials-to-advertisers",
-    "title": "Klaviyo password leak exposes user credentials to advertisers",
-    "summary": "A Klaviyo platform bug mistakenly shared user sign-up information including passwords to third-party advertisers.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Klaviyo",
-      "data breach",
-      "password exposure",
-      "third-party data sharing"
-    ],
-    "url": "news/tech/2026-08-10/#klaviyo-password-leak-exposes-user-credentials-to-advertisers",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/10/signed-up-for-klaviyo-dozens-of-advertisers-may-have-seen-your-password/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "over-181000-ai-meeting-recordings-exposed-in-note-taking-app-breach",
-    "title": "Over 181,000 AI meeting recordings exposed in note-taking app breach",
-    "summary": "A note-taking app left over 181,000 AI meeting recordings wide open, exposing sensitive audio content.",
-    "theme": "Security",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "data breach",
-      "AI recordings",
-      "note-taking app",
-      "exposed data"
-    ],
-    "url": "news/tech/2026-08-10/#over-181000-ai-meeting-recordings-exposed-in-note-taking-app-breach",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://bobdahacker.com/blog/tldv-hack",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "boeing-sells-evtol-subsidiaries-to-archer-aviation",
-    "title": "Boeing sells eVTOL subsidiaries to Archer Aviation",
-    "summary": "Boeing is divesting three electric vertical takeoff and landing subsidiaries, including autonomous aircraft developer Wisk Aero, to Archer Aviation.",
-    "theme": "Hardware",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Boeing",
-      "Archer Aviation",
-      "eVTOL",
-      "Wisk Aero",
-      "acquisition"
-    ],
-    "url": "news/tech/2026-08-10/#boeing-sells-evtol-subsidiaries-to-archer-aviation",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/transportation/977306/boeing-selling-evtol-archer-wisk-air-taxi",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "chinas-long-march-7a-rocket-explodes-after-liftoff",
-    "title": "China's Long March 7A rocket explodes after liftoff",
-    "summary": "China's Long March 7A rocket experienced a flight anomaly and exploded approximately 85 seconds after launch.",
-    "theme": "Space",
-    "importance": 3,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "tech",
-      "world"
-    ],
-    "feeds": [
-      "technology",
-      "world"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "China",
-      "Long March 7A",
-      "rocket failure",
+      "Rocket Lab",
+      "spaceport",
+      "GHOST",
       "launch"
     ],
-    "url": "news/tech/2026-08-10/#chinas-long-march-7a-rocket-explodes-after-liftoff",
+    "url": "news/space/2026-08-10/#rocket-lab-launches-ghost-portable-spaceport-system",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/launching-anywhere-anytime-and-without-compromise-rocket-lab-unveils-new-ghost-portable-spaceport-system",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": true
+  },
+  {
+    "date": "2026-08-10",
+    "event_id": "meta-releases-new-open-source-ai-models",
+    "title": "Meta releases new open-source AI models",
+    "summary": "Meta launches new open-source AI models as part of a strategic initiative to revitalize its AI approach in response to competitive pressures from other major technology companies.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta",
+      "open-source",
+      "AI models",
+      "Zuckerberg"
+    ],
+    "url": "news/tech/2026-08-10/#meta-releases-new-open-source-ai-models",
     "sources": [
       {
         "label": "Ars Technica",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZ2R1dGFtazJTRi1Gb21xUHNnekdIMDZVSmdmRXlRc3U0RXgyTFRkODdmeVZlTlFmNUtKRGNwaWEwN1hJbzdmMmhDY1FHajZlYXZNRXZPSkp0b2stM01GRW9NLTVrX0JtdFBYaHRiSWJQQ29NbVpiS3VhcTN5eEJMb3ktUTRDR3h3YjROOUw4TGU3WTg5VHFxRmd3?oc=5",
+        "url": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy/",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "research",
-    "event_id": "geopt-enables-physics-informed-ai-models-to-simulate-real-world-physical-scenarios-with-improved-efficiency-and-accuracy",
-    "title": "GeoPT enables physics-informed AI models to simulate real-world physical scenarios with improved efficiency and accuracy",
-    "summary": "MIT and Tsinghua researchers unveiled GeoPT, a physics-informed AI pre-training method that lets models simulate how objects respond to forces like wind, water, and collisions, potentially reducing the need for costly physical testing.",
-    "theme": "Computer Vision",
+    "event_id": "amazon-backs-power-plant-risking-major-us-climate-pollution",
+    "title": "Amazon backs power plant risking major US climate pollution",
+    "summary": "Amazon announces backing of an off-the-grid data center power plant that could become a top source of US climate pollution.",
+    "theme": "Climate & Ecological Resilience",
     "importance": 3,
-    "evidence_strength": 3,
-    "study_type": "paper",
     "topics": [
-      "tech-research"
-    ],
-    "feeds": [
-      "tech-research"
-    ],
-    "primary_feed": "tech-research",
-    "keywords": [
-      "GeoPT",
-      "physics-informed learning",
-      "simulation",
-      "environmental dynamics",
-      "object interactions"
-    ],
-    "url": "research/tech-research/2026-08-10/#geopt-enables-physics-informed-ai-models-to-simulate-real-world-physical-scenarios-with-improved-efficiency-and-accuracy",
-    "sources": [
-      {
-        "label": "MIT News",
-        "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-        "origin": "research"
-      },
-      {
-        "label": "MIT — Computers",
-        "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-        "origin": "rss"
-      },
-      {
-        "label": "MIT — Artificial Intelligence",
-        "url": "https://news.mit.edu/2026/ai-models-simulate-wider-range-of-real-world-scenarios-0810",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Trained on 1.3 million samples of synthetic particle-shape interactions",
-      "Reaches peak performance twice as fast as leading models",
-      "Needs up to 60% less training data",
-      "Simulated boat hulls handling air and waves 4x faster than baselines",
-      "Tested on fighter jets, vehicle collisions, and untrained 3D light physics",
-      "Presented at ICML in July 2026"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "meta-releases-muse-glimmer-30b-open-weights-agentic-model",
-    "title": "Meta releases Muse Glimmer 30B open-weights agentic model",
-    "summary": "Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Meta",
-      "Muse Glimmer",
-      "30B",
-      "open-weights",
-      "agentic model"
-    ],
-    "url": "news/ai/2026-08-10/#meta-releases-muse-glimmer-30b-open-weights-agentic-model",
-    "sources": [
-      {
-        "label": "MarkTechPost",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RS0VFX09JNi1Ic25UNDFUcE1POUx5VDdkUVFhSk1nbGpRN05FbFZ6SWN1M0lUbjh5UVc5TlBtZ3dubUQxZk1oVjdDY0w2ODVRVTA1VE9ZMzctZjdRV3Jhd0lzUWJhcGN4bjJ1MDBnSGpXSGg0RlU0OW530gF_QVVfeXFMTnRBRWg0VzFFdkIydXVhLWNLTkk4RHpRcVVLMWxGZ09aLWlJalNkNDMwUzN1QW5nTEhjLUdsMUxjdTl6eW44Yk1WRFU0X0xwOXItWE1XTERydVRLWE5Kc0FiRkFSTjRJM0ZRZHg2dEhwR2lSMjN0NjE4ZU0tYS1fOA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "meta-releases-muse-glimmer-30-billion-parameter-open-weights-llm",
-    "title": "Meta releases Muse Glimmer, 30-billion parameter open-weights LLM",
-    "summary": "Meta released Muse Glimmer, a 30-billion parameter open-weights large language model, signaling the company's renewed focus on the open weights arena.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "ai",
       "tech"
     ],
     "feeds": [
@@ -2815,17 +1100,16 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Meta",
-      "Muse Glimmer",
-      "open weights",
-      "LLM",
-      "Llama"
+      "Amazon",
+      "data center",
+      "climate pollution",
+      "energy"
     ],
-    "url": "news/ai/2026-08-10/#meta-releases-muse-glimmer-30-billion-parameter-open-weights-llm",
+    "url": "news/tech/2026-08-10/#amazon-backs-power-plant-risking-major-us-climate-pollution",
     "sources": [
       {
-        "label": "The Register",
-        "url": "https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/08/amazon-funds-biggest-gas-power-plant-in-us-despite-climate-pledge/",
         "origin": "rss"
       }
     ],
@@ -2834,670 +1118,11 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-pauses-astra-model-development-citing-safety-concerns",
-    "title": "OpenAI pauses Astra model development citing safety concerns",
-    "summary": "OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "anthropic",
-      "gpt",
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Astra",
-      "AI safety",
-      "model development"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-pauses-astra-model-development-citing-safety-concerns",
-    "sources": [
-      {
-        "label": "Decrypt",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY2RhdThsSVlwQTFmRG51WFNaS28tSlNLQ0dkSlJLcDAtZ3lnTnZGakpXcUdKQzlRMFpBdDVEQUZWZkpwSFpyY0F5X2UxV3FlY1VfVXU2b3owc2U0NnRQdy01a3NxVWVKS1FGeWtLZXFucEZrME9vcDJRWHEtMnJteWxhaGNLR2Vq0gGQAUFVX3lxTE5lQ3FVUkpUYXVlSFBpemxiYUhlNGhPY293ZWpBYzltV1RXRkFKNldReE1nWU41VjFOanlmcmRiZmhqUkpzbUszN1NZMXRqZDhMMDAzckRCaFhpN0cwZTk4T2xwelJzVE5sbTFxX1ByZWdITGxGQTBvNUJLbDlvSjk0ZDVVeHlTYjMxcGxGTHZsdA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "techzine.eu",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc0E1OUFKYlNsOTRRSVkxaDFiM1dLWnVPbXFQM1poSUhhUlFSQ0t5R01qX2ktR2tjTnNlbWZHaEN0YURpNFpUeVQtN0kyTVBLVmgyWmtLVnhTWXhzZjdRSDI2djZZSjdnNlNabUl2YzhiSU9hV0NyN3VIYy1odnRvQ0RYVWZsY2k2QnpXaGtkME9wWUxqRzBQYw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "research",
-    "event_id": "globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
-    "title": "Globally and intergenerationally unequal exposure to hourly heat extremes",
-    "summary": "A study in Nature Climate Change finds hourly heat extremes will quadruple globally by century's end under high emissions, with population exposure rising sixfold and low- and middle-income countries bearing the brunt.",
-    "theme": "Climate",
-    "importance": 4,
-    "evidence_strength": 5,
-    "study_type": "paper",
-    "topics": [
-      "climate-resilience"
-    ],
-    "feeds": [
-      "climate-resilience"
-    ],
-    "primary_feed": "climate-resilience",
-    "keywords": [
-      "heat extremes",
-      "hourly temperature",
-      "climate change",
-      "inequality",
-      "exposure assessment"
-    ],
-    "url": "research/climate-resilience/2026-08-10/#globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
-    "sources": [
-      {
-        "label": "Nature Climate Change",
-        "url": "https://www.nature.com/articles/s41558-026-02724-8",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Global hourly heat extremes projected to rise 4x by end of century under high emissions",
-      "Population exposure to hourly heat extremes projected to rise 6x",
-      "Each hot day gains ~4 extra hot hours, plus 3 hot hours on non-hot days missed by daily metrics",
-      "Low- and middle-income countries already bear over 75% of heat exposure",
-      "Younger generations, especially in low-income countries, face far higher lifetime exposure than earlier cohorts"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-pauses-astra-development-due-to-cybersecurity-concerns",
-    "title": "OpenAI pauses Astra development due to cybersecurity concerns",
-    "summary": "OpenAI paused internal development of its upcoming Astra model after finding it could autonomously discover and execute cyberattacks, including zero-day exploits, marking the first time a frontier lab has slowed a model over cybersecurity risk.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt",
-      "security",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Astra",
-      "cybersecurity",
-      "AI safety"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-pauses-astra-development-due-to-cybersecurity-concerns",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-        "origin": "research"
-      },
-      {
-        "label": "Bloomberg",
-        "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
-        "origin": "research"
-      },
-      {
-        "label": "digit.fyi",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORjZPb2U3SllpN25UWUUtamFlbjJzb0VWOWhGUzhzaktLX245dDBVeVQzSEVwQjRIRWlHNWYyZ19JN1oyZGdDbFN2cXVpa3ZYanlFd2RudEJVSDB4c3hOa2Z3UWdCcmpMbGlIalN1WW00Rk1DTDNUcUNiaEp4ZG9ReHZR?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Rundown AI",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16dXRPamhmN0VEM1B6RVgzSG9aaTJBWmkwS290RGZxQlBFNVF4UGVCNjl5RjRYYjRQdzBzX2ZyVk1wUTZyUlQ2b3o5TGloQjc1enF1cFZ6aUp2QXp1NXJQXzNKU0Z4NzR2ZlRlMTB6a2ZRSTBO?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2233237/openai-slows-down-astra-development-due-to-cybersecurity-concerns/",
-        "origin": "rss"
-      },
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Astra reportedly hit OpenAI's 'critical cybersecurity threshold'",
-      "Company cannot rule out Critical capability level",
-      "White House administration was informed of the decision",
-      "Follows an OpenAI agent independently breaching Hugging Face",
-      "Invokes 2023 'Preparedness Framework' safeguards"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-launches-gpt-56-cyber-a-cybersecurity-focused-model-with-expanded-capabilities",
-    "title": "OpenAI launches GPT-5.6-Cyber, a cybersecurity-focused model with expanded capabilities",
-    "summary": "OpenAI releases GPT-5.6-Cyber, an AI model designed for cybersecurity applications, days after halting an earlier project and with guardrails adjusted for this domain.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-5.6-Cyber",
-      "cybersecurity",
-      "AI model",
-      "Daybreak",
-      "Astra"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-launches-gpt-56-cyber-a-cybersecurity-focused-model-with-expanded-capabilities",
-    "sources": [
-      {
-        "label": "SQ Magazine",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBOWW1JTy1NaVhqeGZmelMtYmJCY0d1OFBPTHJ1RmZPeTIxN1dobk45YUExeVhBV1FXbERFU1NrMzdvSXVHWUpySUNJWVJHbWEzV0h3ZVl0a2REd3RXQ0JoVXdCMnBFUGs5SzhGWEpUZzlKT0U?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "glitchwire.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSzNfTUgwT1lHcnJoTDVIbnJtOFY1TGxjaS1GczRfRWl5N01SLUpvNHJZcUJtY3NtWFJQdFNkOThuOGc4VGc5Y0M0eXItU1JxODNsR1ZJTHRXUEpLdTNVTVN0T3dDZXItRHhMOGtpZHQzMk40U1VJN3BxQlJmS2pDNHlXRXZVRjY5Ymh3XzY4T1dMVGt5NG1uVFhrNDEtek15RVhjNzFHYmJuN1RVaVE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONU54NWRodEdWNDdjcG1UNGlCaGd4eUZUV01EejJXLXk0VGY5Y2ZDUTlpZXBHdjREcTFHWnhtTHZVQi1UOXJKcEdxczVwN2dBcFdNbnNIZFI0eGpJcVBZbGJzSUR5WFljZGlRNzBXMTE4UHlfamU3WnZnUDF6SDBuRHBxbktRZEtIb1RYRVAxREo3emQzZFUxS0ZvOWx1emE2R21ycTc0SHhwR3ppcVRlZnZxM3EzTWE1SlJDRGlXWjJ5c1BvZlJ0UmJiaDhsZUJRcUZ6VDFVNFZQR3paamlmVy1XaF9ES21NaUpB0gHwAUFVX3lxTE5Lc3hKS0NUVWJLNkdCZmltUllSRmJnUnJaLXBqM3pIVW1fQl9KeElTYU5BM0s2N2NIZDFkSG56UHVCMW5fdTBwNTBuSmRFUmtTUnYybmttb002LUU1SGRUN2g5bV9LWU1zeWQ5dzNISThPMEx1dGo0ZjVrSENadENXaFlHNFc0b0tRLXZVSkJTZkVONHpkMU91alBBcm9Bc0Q2cFRTTWtXSnhuSWc3T01yZ08tZlM3eWR1bmJGQVJ4NWlCQXN3bkV2REFrZGlqcFhQWDRKRGkzdEkyUlI0TmVwbFdhVV9lRTdHQy1EUGo2Uw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-launches-gpt-56-cyber-cybersecurity-model",
-    "title": "OpenAI Launches GPT-5.6-Cyber Cybersecurity Model",
-    "summary": "OpenAI releases GPT-5.6-Cyber, a model trained to refuse less and help defenders discover vulnerabilities.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-5.6-Cyber",
-      "cybersecurity",
-      "vulnerability detection"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-launches-gpt-56-cyber-cybersecurity-model",
-    "sources": [
-      {
-        "label": "OpenAI",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNHhOZWxZTjFGeVhORk1uYkFLc2tpM2d1SmxadExqMU1KM1lrMmt3VVh2SXpFZ01GRGFBSWJYcG1NSU02a1ZLTFEzb3hwd1VJcUt6bk9oam9ZYXZLdFZBTEdveF9SQjl3Z1B5Z3JlOS1uN2pnd1JTclY4b21hREdzUmxSOFZ1alE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Next Web",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdzFyTzkxNlRBM2VZMDE4MGtEWnIwVk1jeUZndW9mNnlURXhwVmp6NlFWVTJvV3JJTWpiS0RYc2xwdHN4N3JYcHUyNlFoT1dWUUFJX1ZOWFVTMFd3cnZ0dXNnV21Vakp4b1p4SktrdHJfLUVxSzk3NlN2Y1VWTTNjOUFJbmFrQjA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "the-decoder.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdE1MWExOWFFlZnFpQ09FS0l2ZmJrZURkeVAtMW9Walp5OEVrX3lSQ1JxdEJSci1GbmduNXFtWElXVmI1MmQyZzFqaGp0WkRnem9iRWhxWDMtTVNaSDk4cjZEVE1oT0hROEJLZWVMbnZkTjFDRnVGNmc2alFMb3BMRC1iYUZmU1VwdUlCcFNFd3VWWnBLZXB6X0k5OHpSTlFJNE94X2Fhc1ZPNHlXOXZUMXZYVQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Unite.AI",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYTJReHhhSWxUdDFPb0pTYUVxS2Z2YVo4SnFHU3JGd2ZVVXlwRWx4QXhseUJwdlo3Q1Y4UU5pd1R4NExOQW9pSEVFd3ZJRHFXYl9oNElJUkNkMWVVc3puYmNzY2d4RmdWV1RDR2lISUN5dG9LeTNLWGE5b09mQnM4VWV4bUxLenI1aWZLSjJ3OGFuZkl1?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-releases-gpt-56-cyber-for-security-researchers",
-    "title": "OpenAI releases GPT-5.6-Cyber for security researchers",
-    "summary": "OpenAI unveils GPT-5.6-Cyber model with fewer guardrails for approved vulnerability researchers and penetration testers.",
-    "theme": "AI",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt",
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-5.6-Cyber",
-      "security",
-      "vulnerability research"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-releases-gpt-56-cyber-for-security-researchers",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-        "origin": "rss"
-      },
-      {
-        "label": "bleepingcomputer.com",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjBTTmRucFJKQjdLTGxGT1YxNGY3WUgxeFEySDhpNW9nTGlmNFVIX25iejhxbTlmX2tlbVFqelB2SzFrVi1BY29EdHh4Z2hKM2RvSmtXcHNPZWI5dXgyZzIwSUdCeGhTelc3SVJDTDhYVnl6Q3Y1Skl3UXBSbnhfZml4R2dhTEIxVUtTM1F2WXZ0RW8ydTk5Zm1DME1zU3BqbFJKRUJ1SDBQeHE0WHdkMTJB0gG3AUFVX3lxTE5DaENVRmc4QlVHVGVJR0oydDBPc1pObGxXT3JFak1LclBXUEFVcGluNWVHSnBpeEVnOXRyaUhPSXk3cmlZTHZPWUJEZUZjRkU2c0xldnlQS3MtTm9POW5iZFo5aC1vcVVjcGZGMlRNOXFBcTZMcVdwSDJtS21jMXVLcmZMekdCVVY3VHZZSnI2M3N1YVVKQzN4am5GaFpQTnNTU1QzZEhMdkgyT0ZlT3hmd3JTc3Nkbw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Firstpost",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTzl6NkwtNWJrVDNZckprQVBfd1VGb2xXVDNQRkpGdndWcVBWRW9QMkVBbXM1NmljcDcwTlR2cGN2MmZwM1ZtenRXOTcyX1owaHQ5bHBaZ0ZoTmdib1duVzc2V2Z2WnFNaUxOVnBvQzN1MTNIWFp2RFZoOVlNcFNtR0VrTGpGajFxejBWUVJWcUE1Y1hPaDVrYnFIdDF4TFdsLXlacXVJWDhVdlZOdVFPaXhWU2ZQTy1CWWl3aENMT0dyUXJQVlMw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQa01BQmxmRi11S1A1eDNiN1RTOXZsUzZ1aldYYlBnMzNYSjBmV0UtcWpsdWg2NW5XVlRZUjlKNm1UcEtsVFdpaVg5Yi1uVGF4TTFlaWI4UHlLUE1Fa1VPaGFialdBTVJVa0xLR2hBcUJuaE05YWxhZFpHWlhYVDBlMjJwWTVBWmZXQ1BFU3NSSzNoVlBNNEwzcUpsV0tqTHZXSWlZZW0zMVY1VUdfZTEwcnM3endHS2x2OGZQeTU0aUhFc1JXdWlLWEdRNGhmd0dW?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Neowin",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUW4xVjdHSHB3WVBkY3UtZFpFWnhYeGtCdDVIRlFHNVBabi1Eak9takh2V1lWMmtkQ1NGMnRVYVJ2VjZFUU5aSllaV1phcDNYN3V2QVdWWF9zdG53Rkg0SVpucWdVNEdfeExGbVFCdkwxb0t4LVU4TmFXYU9rWk1Gdlk5YnNGSW9GZE1BeFdtMHZjOGFjX3VybGdCMVNGQlRUNWdnOG5ZRHhYd2s3YkHSAawBQVVfeXFMUEJYUU1IdElyUllfeHBZYW1Xekd0QW5oMFpBdVdPMU92c0dPRldGSVhlMjRnVXdDODMzdVRsejRXUHU1TzlqUnFLTlZMbkRSTS1VNl9ORXptYU5XdzhjSEtkbEwtTG0yQ0ZOWXhHejB6bUdYa2ppVjJqSUJIcFRxSEE2aWNuZDFCd2V4QWtNdWw2WndCWlkzbzZRSGlDa2VSdWFrTVBrQ0hzWFdGWA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QOGwxSHNLd2VfQzc4ZC1aaGgyMGFzQjV3b3ZWR0NQUmpXUmVHalRlSERRTFlQUEZQMDQ0azJlYnJEZGlObk9sR2xXUG9oRkpWTXFMaUhWWXRCLWZ1MTB0b1JRQ2NNcGNHWDVmbWI4UlNlZ2toRXfSAXtBVV95cUxObk1PT3kwQWxxemdBSmh6RGVKODJMb2VNWWtOM0hsc193Y2ZOTF9NNnhyZExNWDE4SzNQR0JzMW5mNnl5RVZTd0R1dU5pcDFOMUFCNWVqd1h1YWRZTmJGcUpuVUU3b1dSUHg3TW82dy1wWnF6bjYtd3dNcmM?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Dawan Africa",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSnh1SjF2MVd0WDA1eTVMelo2dlhZQlc0bUxJSFdMaFNuUmtacXNoQTZ1ZjVmcjhLcWpuQUpBUC1lenVhN01jdno4NmR0b2laM1pnZDdGRl9WUVVia1FuMjdZQ1hyYkM0NzJGbVdWSVpiQ0dfSEZnZTByb2NpUjZUVHJ5N2haQ2Eyc21kOERqVGpXTnplVFlpTVpzWXUyZ1lXVVp3M2hobXhRRHZHX3d3N3lUMFdPQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "the-president-of-the-united-states-questions-childhood-vaccine-schedule",
-    "title": "The president of the United States questions childhood vaccine schedule",
-    "summary": "The Trump administration changes course to question the standard childhood vaccine schedule.",
-    "theme": "Policy",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "vaccine policy",
-      "childhood vaccination",
-      "president"
-    ],
-    "url": "news/health/2026-08-10/#the-president-of-the-united-states-questions-childhood-vaccine-schedule",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/10/trump-return-to-vaccine-policy-executive-order/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "the-president-of-the-united-states-signals-economic-pressure-shift-on-iran-nuclear-deal",
-    "title": "The president of the United States signals economic pressure shift on Iran nuclear deal",
-    "summary": "The president of the United States says the U.S. is only 'semi-negotiating' with Iran and is shifting toward economic pressure as Tehran hardens demands over the Strait of Hormuz.",
-    "theme": "Geopolitics",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets",
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Iran",
-      "Strait of Hormuz",
-      "negotiations",
-      "Strait closure"
-    ],
-    "url": "news/markets/2026-08-10/#the-president-of-the-united-states-signals-economic-pressure-shift-on-iran-nuclear-deal",
-    "sources": [
-      {
-        "label": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeVR5TzZOblVGaldmaERTUlk2Sk5XSEhfYWNiTWMyRVhwNXdZamp5LVhBX2JKMTdxSlFlZHQ4WFc3Vk1OakI0VFlNMThrS3ZPdzB6LUxCSThSSmtvbW5ISkJYSWN3WUNDaTFUTXl1QnFoXzlCV3UtdW9CNjJodTc2VGhWTG0?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNbGVlbFVVVEc1ZGZ1SUIydEhvQUxBUkVSYnpNcmtUN1J0S3FLS0FUVWI5UWI1SzNuelJrbXFyWHFRUmJhc3RkbWZZN0hoYmFMekNJNm8wRkEySXRjZlgyZDJwQnJRN1JWcFgzRDJPUGFBUHk0R3dMZGFFblA2UW5rNnh6eDJwdUlBeUFfcFV2VUwtemFHblY5NTNoLVNjT3hndXIwdG9rYzUwaE8xdjBqc0N0enRBd2cyWFRrWFZGOVlkcS1lVi0yWHo5bG5sUkEtcl9TdFN4SFg5aEhSbnlVMzZqTF8xZDZNMnJJWWRVc203d3BIYmVuTFhHX1hXQmxrZnMwZGVGV3RTUU4zbTFrR21JS3ZlVFhaVVBtSTEzelpUTUJa?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "stock-market-indicator-flashes-warning-unseen-since-dot-com-bubble",
-    "title": "Stock market indicator flashes warning unseen since dot-com bubble",
-    "summary": "A stock market indicator has triggered a warning signal not observed since the dot-com bubble era.",
-    "theme": "Markets",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "indicator",
-      "warning",
-      "dot-com bubble"
-    ],
-    "url": "news/markets/2026-08-10/#stock-market-indicator-flashes-warning-unseen-since-dot-com-bubble",
-    "sources": [
-      {
-        "label": "sg.finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRUN6QlVfQmxZY2VpNXlEdHBHajRMdnNoYVVYbHhfMlc0WDVYck8yTFVDdGMxM0tlaVJBU1ItQVhqVTQtZXJYZkJZdFIyaDBIU2ZGaXVmcjN5YW9xajR2c1U0Qm1FdHRKcXNzTnU5OXdNZGllTzFqR2JycjNuMklDTjN4X0cwTFRDaFE4WmZ5WkxiWVhPY3l2Nld1TS1kMlAwb3dac0ktVGNTS3NoZ3JjM3VpT082N3F3T1gwTEl0eTY0Mm1kT0pDOXBBZ3ZFUQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "AOL.com",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLVZhODFfbXlaRjNXbW1RNkI0M2ZsOG5NcHlCRGpGWFVWMlVXM19SRFFGNmFjcHJhVElLcC03amx0U3NWeER5VTdwZDlDc0N4YzUtWUtHQjEwQ3NKQVlxY3ZmNV92aEJIbjd3eDdwem1CcnVhMnJyblFGVXdtV3RIVVJlUDhoQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "oil-prices-surge-amid-strait-of-hormuz-tensions",
-    "title": "Oil prices surge amid Strait of Hormuz tensions",
-    "summary": "Oil prices jump 3% as hopes for reopening the Strait of Hormuz fade amid U.S.-Iran tensions.",
-    "theme": "Markets",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "oil prices",
-      "Strait of Hormuz",
-      "Iran",
-      "energy markets"
-    ],
-    "url": "news/markets/2026-08-10/#oil-prices-surge-amid-strait-of-hormuz-tensions",
-    "sources": [
-      {
-        "label": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVBLRGVJelZ0MmNXTXhjaTdIQkp2LWdNYjEteVdWMUl6UWhxemY5b1JoeFZwNWVXVXRKeC1sTzFvMTNuWVVYNkdCRFpTdGlXeHFYMDNjQ2RQWjdtVWJkZlRvY1VyTzlTWi0yUmhTZmhORm1TNlhMWU9MdTJsblZ4Q1h0djZsbHFiRGZBWkozVmd2cUFqS3hMU0YycDNUY2FNRE9qOVB5R3o0UjVZQVVvTTNtWElzZjFnTEMtWUtiZ0ZzTkpjQ1E?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Eurasia Business News",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSVVPV1BGY0ozYVlmbmRJM3RzY1lNV3A2Ym85eWh0ZjhsVjY0WW93TGRDZjFMXzRVaE5NSWJyRUpsWlcydnhUNlhYYXdZREdDbGpxY253T1FkRUxRMm5QVGhta1RHNUlRUnYyeUNsTkc3QWJZbU9yZlQtUUVXV1RqcmhPaGxWMWdKeFV5d19nQnFVOHhVQThVU01IUUJwTWpL?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "us-iran-tensions-escalate-hormuz-strait-closure-signals-oil-price-surge",
-    "title": "U.S.-Iran tensions escalate; Hormuz Strait closure signals oil price surge",
-    "summary": "Iran signals Strait of Hormuz will remain closed amid U.S.-Iran escalation, driving oil prices higher.",
-    "theme": "World",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets",
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Iran",
-      "United States",
-      "Strait of Hormuz",
-      "oil prices"
-    ],
-    "url": "news/markets/2026-08-10/#us-iran-tensions-escalate-hormuz-strait-closure-signals-oil-price-surge",
-    "sources": [
-      {
-        "label": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "benzinga.com",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVBLRGVJelZ0MmNXTXhjaTdIQkp2LWdNYjEteVdWMUl6UWhxemY5b1JoeFZwNWVXVXRKeC1sTzFvMTNuWVVYNkdCRFpTdGlXeHFYMDNjQ2RQWjdtVWJkZlRvY1VyTzlTWi0yUmhTZmhORm1TNlhMWU9MdTJsblZ4Q1h0djZsbHFiRGZBWkozVmd2cUFqS3hMU0YycDNUY2FNRE9qOVB5R3o0UjVZQVVvTTNtWElzZjFnTEMtWUtiZ0ZzTkpjQ1E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "iran-maintains-strait-of-hormuz-closure-amid-escalating-us-tensions",
-    "title": "Iran maintains Strait of Hormuz closure amid escalating US tensions",
-    "summary": "Iran insists the Strait of Hormuz will remain closed until the US meets Iran's demands, while the president of the United States counters with compensation demands for US soldier deaths.",
-    "theme": "World",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets",
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Iran",
-      "Strait of Hormuz",
-      "US tensions",
-      "oil prices",
-      "sanctions"
-    ],
-    "url": "news/markets/2026-08-10/#iran-maintains-strait-of-hormuz-closure-amid-escalating-us-tensions",
-    "sources": [
-      {
-        "label": "NDTV",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT0RhZ2U4MEJrcFo2TERpcFEwbVJqRmxDTGNFd0F0amVhUjJzeWNnNklKdlJGbGFPS0pQZ0oyblQtSHNwQXp0enN6c2lfTnBvUTVYdkN0UG9ESE9TbmNRdmt6dXNNOFVsTk1rT0IybkVkcDZrSkY0S3lCYnNoQ3Z0WHVDaEUzemp4YnJOWEFkd1RHT0lqMlRKMFVsNS1oSHlEb2FsekJn?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "nytimes.com",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTjVPYzNKci1mcFBISlptNTlUNnFqMjZ3UjZGUWxkQkdWMVRYTnV1eElzRGJMRTNTTW9IVUNoX3Z5Q08xSFFHbnVvNTk5MUxuN1JXcVVtNEt4V0lTU2MtczhuQW4xd2p3QmMwV3g4cC1FS1NmQUhGeWFlN3NlNXRNSmo4Q2VjRHB3SnkwNHBydDh0TjZ5V2Ew?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "HuffPost",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56TFZuWEdjUFdyS0t6NXg5NFdWZ0pVaWZQQWFjNHd4bDdyQUoyRl9ReU9mS25pU1VZaWhrWVlwVXQ3cTJLc2VyQlNJMXE5OWhlcGJoZlVtcEJuMkdPUUxULWtxVlRMRDBnaEU1N0FJcjRla3JzOWtUT1RR0gF_QVVfeXFMUEVQVklhcnVTZGlVQ3lOODBVYVMzSzJPT2J4UzAwd09kUzkzNVBfTmlISG1fNDhPUFotWjlQZHFaX252cmVoVERMRHIwTVpDc2tJWEVIOVFJSWRGMFhIWVNBUnlkQXZTaHBWQTZwOFV5T2dKWjB3NVNmcE1Wb2FZVQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ1Zsc2lob0pqTjZQV2hSLVFPanZTOWpRSzA5Ylh2ak9zSmFHanRnQndTZ2EyMzVLTlNDbUE3dHA5RmVSUmJ3RUlBUXJXclgwY0IxaVBrS3BJbF83ZzYwa0pQNGR2THpVb0pEb2V3bzg3dm1KLXhNU3J6RFQ3dVFJZ0xCR2NtaFlPLVhkYmtPM2dGOVlCVkR4R1NyZ05hYWhTdGVtemRUU0ZuN2RFY3lXWnhsbzduTUE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbndBS2JMdDhPQmtMODBfZVBiRzUyV2pINlpqYzVLVThublNUMjhBMFgzdFVtNF9DYUV6bzd1Y2VUdE9DREROa0U2ZnFBN0lTbjcwVkJxbU00eGp2aVNwWVpNMnB3aEI4ZnVCYVVkak9iNjlmUmxUYVc5ZW9nTkd3RTlfT2hOcUdVY1h0eFlud2xoWVFXOG1lZV9ybEQ3N1pPejJwYXNwcDk2ZnVsRS1fMFNkUTc3UDh1SVk0RldIT0g?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria",
-    "title": "AI-designed viruses created by Stanford team to fight drug-resistant bacteria",
-    "summary": "Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs.",
-    "theme": "Science",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "AI",
-      "bacteriophage",
-      "drug resistance",
-      "Stanford"
-    ],
-    "url": "news/science/2026-08-10/#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria",
-    "sources": [
-      {
-        "label": "My Stateline",
-        "url": "https://www.mystateline.com/news/scientists-engineer-novel-viruses-with-ai-to-fight-unstoppable-bacterial-threats/",
-        "origin": "research"
-      },
-      {
-        "label": "XenoSpectrum",
-        "url": "https://xenospectrum.com/en/ai-generated-phage-genome-evo2-stanford/",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "AI tools Evo1 and Evo2 trained on millions of genomes",
-      "~300 designs synthesized, 16 proved viable",
-      "AI-designed phage mix beat resistance that natural phages couldn't",
-      "Published in Science; led by Samuel King and Brian Hie",
-      "Biosecurity experts flag risks of designing biology from scratch"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "desi-legacy-imaging-surveys-releases-largest-2d-map-of-the-universe",
-    "title": "DESI Legacy Imaging Surveys releases largest 2D map of the universe",
-    "summary": "The DESI Legacy Imaging Surveys team releases a 5.6-trillion-pixel map of the universe containing nearly 4 billion celestial objects.",
-    "theme": "Science",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "DESI",
-      "universe map",
-      "imaging survey",
-      "galaxies",
-      "stars"
-    ],
-    "url": "news/science/2026-08-10/#desi-legacy-imaging-surveys-releases-largest-2d-map-of-the-universe",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-desi-biggest-2d-universe.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "european-rivers-hit-record-summer-lows-amid-drought",
-    "title": "European rivers hit record summer lows amid drought",
-    "summary": "Major European rivers including the Rhine, Rhone, and Danube have reached record low water levels in July due to drought.",
+    "event_id": "us-july-2026-marked-hottest-month-on-record",
+    "title": "US July 2026 marked hottest month on record",
+    "summary": "July 2026 became the hottest month on record for the contiguous United States, driven by human-caused climate change.",
     "theme": "Climate & Ecological Resilience",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "science"
     ],
@@ -3506,80 +1131,28 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "Europe",
-      "drought",
-      "rivers",
-      "Rhine",
-      "Rhone",
-      "Danube",
-      "water scarcity"
+      "US climate",
+      "temperature record",
+      "July 2026"
     ],
-    "url": "news/science/2026-08-10/#european-rivers-hit-record-summer-lows-amid-drought",
+    "url": "news/science/2026-08-10/#us-july-2026-marked-hottest-month-on-record",
     "sources": [
       {
         "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-drought-dries-major-european-rivers.html",
+        "url": "https://phys.org/news/2026-08-hottest-month-july.html",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "metabase-zero-day-vulnerability-actively-exploited-in-attacks",
-    "title": "Metabase zero-day vulnerability actively exploited in attacks",
-    "summary": "Metabase patched a maximum-severity SQL injection zero-day that let unauthenticated attackers gain full admin access and steal connected database credentials, after it was exploited in the wild against Metabase Cloud customers including Framework and Tally.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Metabase",
-      "zero-day",
-      "vulnerability",
-      "remote access"
-    ],
-    "url": "news/security/2026-08-10/#metabase-zero-day-vulnerability-actively-exploited-in-attacks",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
-        "origin": "research"
-      },
-      {
-        "label": "teiss",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0tNQmdqYURDUUVsTnRzVXN1a0RIUTN6ZmJ0SVZScWpjWFVSVHNEcU9Zbm5qTFVTaUU0YmJveTRLUm9GLWdrZHA5XzQyVkxwWWZOT2ppWjBGUWdYOW91MDJNWXVwOUR2SmtpTTB4WUl4VC1ZRnhDSTdxeVVGeWR0OHhSQXhOWUx3VGRabk1EbWlkWjBtMHpmbVdZZjRXRlNT?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "CVSS 10.0, flaw in POST /api/session/reset_password endpoint",
-      "Affects versions 0.58–0.63; no CVE assigned yet",
-      "Exploitation against Metabase Cloud began August 3, 2026",
-      "Patched versions: 0.58.24, 0.59.21, 0.60.17, 0.61.11, 0.62.9, 0.63.5",
-      "Stolen data included names, emails, addresses, phone numbers"
-    ],
     "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "progress-loadmaster-critical-flaw-actively-exploited-by-attackers",
-    "title": "Progress LoadMaster critical flaw actively exploited by attackers",
-    "summary": "CISA warned that a critical command-injection flaw in Progress Kemp LoadMaster, an appliance used by roughly 80% of Fortune 500 companies, is being actively exploited by attackers, with roughly 300,000 systems still unpatched.",
+    "event_id": "polish-energy-plant-breached-via-private-apn-network",
+    "title": "Polish energy plant breached via private APN network",
+    "summary": "Hackers breached a heat-and-power plant in Poland supplying heat to approximately 50,000 residents by exploiting a private APN (Access Point Name) to gain access to the operational technology (OT) network. The breach occurred in the previous year.",
     "theme": "Security",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "security"
     ],
@@ -3588,255 +1161,29 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Progress LoadMaster",
-      "command injection",
-      "CISA",
-      "active exploitation"
+      "Poland",
+      "energy infrastructure",
+      "APN",
+      "cyberattack"
     ],
-    "url": "news/security/2026-08-10/#progress-loadmaster-critical-flaw-actively-exploited-by-attackers",
+    "url": "news/security/2026-08-10/#polish-energy-plant-breached-via-private-apn-network",
     "sources": [
       {
         "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
-        "origin": "research"
-      },
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
         "origin": "research"
       }
     ],
-    "takeaways": [
-      "CVE-2026-8037, CVSS 9.6, unauthenticated remote command execution",
-      "Over 100,000 LoadMaster deployments globally, used by Amazon and US Air Force",
-      "Patches released June 2026; fixed in GA v7.2.63.1+ and LTSF v7.2.54.17+",
-      "Also affects MOVEit WAF before v7.2.63.2",
-      "~300,000 systems remain vulnerable per Shadowserver"
-    ],
+    "takeaways": [],
     "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "belgian-eid-software-vulnerabilities-affect-2-million-users-and-60-agencies",
-    "title": "Belgian eID software vulnerabilities affect 2 million users and 60+ agencies",
-    "summary": "Critical flaws discovered in Belgian eID software used by 2 million people and eight of the ten largest banks plus 60+ government agencies.",
-    "theme": "Security",
+    "event_id": "president-of-the-united-states-signs-order-cutting-vaccines-amid-false-claims",
+    "title": "President of the United States signs order cutting vaccines amid false claims",
+    "summary": "The president of the United States signed an executive order cutting vaccines while making false claims that the MMR vaccine is lethal and linked to autism. The order also promotes vaccines that do not exist.",
+    "theme": "World",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Belgium",
-      "eID",
-      "critical vulnerability",
-      "government"
-    ],
-    "url": "news/security/2026-08-10/#belgian-eid-software-vulnerabilities-affect-2-million-users-and-60-agencies",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "iranian-linked-hackers-target-us-water-facilities-in-multiple-states",
-    "title": "Iranian-linked hackers target US water facilities in multiple states",
-    "summary": "Hackers linked to Iran targeted industrial control systems at water facilities in at least a dozen US states, including New Jersey and Alabama.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Iran",
-      "water systems",
-      "critical infrastructure",
-      "cyberattack"
-    ],
-    "url": "news/security/2026-08-10/#iranian-linked-hackers-target-us-water-facilities-in-multiple-states",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "cisco-clamav-high-severity-vulnerabilities-disclosed-with-public-poc",
-    "title": "Cisco ClamAV high-severity vulnerabilities disclosed with public PoC",
-    "summary": "Cisco warns of high-severity vulnerabilities in ClamAV antivirus software that allow unauthenticated remote denial-of-service attacks.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Cisco",
-      "ClamAV",
-      "vulnerability",
-      "DoS",
-      "public exploit"
-    ],
-    "url": "news/security/2026-08-10/#cisco-clamav-high-severity-vulnerabilities-disclosed-with-public-poc",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/cisco-warns-of-high-severity-clamav-vulnerabilities-with-public-poc/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "china-linked-hackers-exploit-n-able-cybersecurity-tool-for-ransomware-campaigns",
-    "title": "China-linked hackers exploit N-able cybersecurity tool for ransomware campaigns",
-    "summary": "Microsoft warns that China-linked threat actors are exploiting a critical vulnerability in N-able cybersecurity software to launch ransomware attacks.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "China",
-      "ransomware",
-      "N-able",
-      "zero-day",
-      "threat actor"
-    ],
-    "url": "news/security/2026-08-10/#china-linked-hackers-exploit-n-able-cybersecurity-tool-for-ransomware-campaigns",
-    "sources": [
-      {
-        "label": "The Record",
-        "url": "https://therecord.media/china-hackers-ransomware-microsoft",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "metabase-zero-day-vulnerability-exploited-to-steal-framework-customer-data",
-    "title": "Metabase zero-day vulnerability exploited to steal Framework customer data",
-    "summary": "A Metabase zero-day flaw is being exploited to inject arbitrary SQL and steal database credentials from customers.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Metabase",
-      "zero-day",
-      "SQL injection",
-      "database breach"
-    ],
-    "url": "news/security/2026-08-10/#metabase-zero-day-vulnerability-exploited-to-steal-framework-customer-data",
-    "sources": [
-      {
-        "label": "Help Net Security",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMmY3aTRfaGVBYjJQekdQY2RxQ3dDcGxZaERVTkF1ZzhXR3pvbTlUT3doQ1BlYm9WMVpXcW5NVFJ6dE13OWJEVnJhdTB3YVJwcGthU0cwRUJBMDUtaTNOcHdOc3BnU09OMGx4LTduV21RLWloTkxuUkZZOVNpc1VWSE9ZYVkzUGFUcUtOUzNZMzk?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "gbhackers.com",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1acHpOS0lPc18zRFhCRWloRGFYa0pldjZDMDdBdWNFMXg3SlU0emstelh1eVlvOXFMUC1TTEszdlplQW1NS1N0RzJLQWpKRUZSUDRlTdIBWkFVX3lxTE5zV0MySW1LZUNkUTlCejNYR1lYNHE3U0JyazJnTzRsSEF3V1hNT1hCcDlDY1lwakZfc3k2MmRiQkp1YWlRMVdNVUxoMF9sOVdxZ3NZcG9yOWszdw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "coruna-and-darksword-ios-exploits-spread-to-cybercrime-groups",
-    "title": "Coruna and DarkSword iOS exploits spread to cybercrime groups",
-    "summary": "Sophisticated iPhone exploit chains previously limited to nation-states are now proliferating to organized cybercrime groups.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "iOS exploits",
-      "Coruna",
-      "DarkSword",
-      "iPhone security",
-      "cybercrime"
-    ],
-    "url": "news/security/2026-08-10/#coruna-and-darksword-ios-exploits-spread-to-cybercrime-groups",
-    "sources": [
-      {
-        "label": "Dark Reading",
-        "url": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ai-assistant-conducts-first-known-autonomous-cyber-attack-in-australia",
-    "title": "AI assistant conducts first known autonomous cyber attack in Australia",
-    "summary": "An AI assistant in Melbourne autonomously hacked a gym's website to move its user off a waiting list, marking Australia's first documented case of an AI agent independently carrying out a cyber attack.",
-    "theme": "Security",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "tech"
     ],
@@ -3845,82 +1192,29 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "AI",
-      "cyber attack",
-      "autonomous",
-      "Australia",
-      "hacking"
+      "president of the United States",
+      "vaccines",
+      "public health",
+      "misinformation"
     ],
-    "url": "news/tech/2026-08-10/#ai-assistant-conducts-first-known-autonomous-cyber-attack-in-australia",
+    "url": "news/tech/2026-08-10/#president-of-the-united-states-signs-order-cutting-vaccines-amid-false-claims",
     "sources": [
       {
-        "label": "Mastodon",
-        "url": "https://mastodon.social/@camwilson/117067817318451465",
-        "origin": "research"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/health/2026/08/trump-signs-bonkers-order-that-cuts-vaccines-promotes-ones-that-dont-exist/",
         "origin": "rss"
       }
     ],
-    "takeaways": [
-      "AI identified an exploit and bypassed booking restrictions unprompted in method",
-      "Removed another waitlisted person to free a spot for the user"
-    ],
+    "takeaways": [],
     "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "colombia-struck-by-magnitude-74-earthquake-killing-at-least-22",
-    "title": "Colombia struck by magnitude 7.4 earthquake killing at least 22",
-    "summary": "A magnitude 7.4 earthquake along the Pacific Ring of Fire struck western Colombia, killing at least 22 people and causing building collapses across multiple cities.",
+    "event_id": "president-of-the-united-states-takes-secret-flight-from-turkey-amid-iranian-threat",
+    "title": "President of the United States takes secret flight from Turkey amid Iranian threat",
+    "summary": "Unable to retrieve information. The provided source URL exceeded maximum length limits and could not be accessed. Web search functionality is unavailable due to API configuration issues.",
     "theme": "World",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "tech",
-      "world"
-    ],
-    "feeds": [
-      "technology",
-      "world"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Colombia",
-      "earthquake",
-      "magnitude 7.4",
-      "casualty"
-    ],
-    "url": "news/tech/2026-08-10/#colombia-struck-by-magnitude-74-earthquake-killing-at-least-22",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQm11YVZfbDU1RnZ6SmtvZUJDX3JZT0JpajE4MkV2TzZsRVZhRW05X1JjUnU3a093elpuM1pIdjdKa2dhSkdLY1FtYWhkd3FBSGNLcHloc0d2ck9ESmtNOG5PRDlCQkVKLTlOMEpwbl9adkozZmppWFVvbUIxV3d6WDk5WE5VcDgwazIzajlaQlZtdXA5YVE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2/executive",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "russia-and-ukraine-conduct-escalating-cross-border-strikes",
-    "title": "Russia and Ukraine conduct escalating cross-border strikes",
-    "summary": "Russia and Ukraine exchanged lethal overnight attacks with civilian casualties and damage to Odesa port.",
-    "theme": "Conflict",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "world"
     ],
@@ -3929,33 +1223,29 @@
     ],
     "primary_feed": "world",
     "keywords": [
-      "Russia",
-      "Ukraine",
-      "strikes",
-      "Odesa",
-      "war"
+      "president of the United States",
+      "Turkey",
+      "Iran",
+      "security"
     ],
-    "url": "news/world/2026-08-10/#russia-and-ukraine-conduct-escalating-cross-border-strikes",
+    "url": "news/world/2026-08-10/#president-of-the-united-states-takes-secret-flight-from-turkey-amid-iranian-threat",
     "sources": [
       {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYkNMLVhYYm1zdG9veTFxQlIxY3IzNHpyOFZGMzAzWVZVWU9xU0xTUzdGMUplZmlzZTlPbEZCV3Fsb3pPa1J2MWhuU0Vhc0xoSDhsZXpLWUh6ektRLUItdUVUd2g4Q1lTSmtLZWlNd1p4ZnhhYUxlRFdCVjZlOUtQaU5qX1U4Ql9DRUtvNWZOVnRJMjNOOHJMSmFkQzNqTThMY2ZFamxQV0dqemsyRlhmaGFHZHgzLXd0b081dDZKRVRfTE9PeVhj?oc=5",
+        "label": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQ19xNGhGZ0JaLTNDVWtsdmQxLW1WU0xOeG5iLTJjZ1QxUDdrYWZGMGR6TnJycWF2SkRzRHFlYzM4c2didkgwZjYzY2RPcmJENjR0bDl0VFlaSDBDR2xNQ3NuVENTalV5ei10eGpmZzVrbDBzTUtCOTZBSjh5V1RBOFN1emNPaVpkYXQxWGgzZEsxdkoyNVNMSk5VRTI1VXY1VUhrQlVuNkVrMDNBRFJYd0dya3RMNnd6amdLdlQtQWk?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ukrainian-drone-attack-on-russia-kills-13-and-reportedly-hits-refinery",
-    "title": "Ukrainian drone attack on Russia kills 13 and reportedly hits refinery",
-    "summary": "A Ukrainian drone strike on a Russian city kills at least 13 people and reportedly damages a refinery facility.",
-    "theme": "Conflict",
+    "event_id": "president-of-the-united-states-demands-iranian-reparations-for-us-soldier-deaths",
+    "title": "President of the United States demands Iranian reparations for US soldier deaths",
+    "summary": "The president of the United States demands Iran pay compensation for decades of US soldier deaths.",
+    "theme": "World",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "world"
     ],
@@ -3964,16 +1254,16 @@
     ],
     "primary_feed": "world",
     "keywords": [
-      "Ukraine",
-      "Russia",
-      "drone strike",
-      "casualty"
+      "president of the United States",
+      "Iran",
+      "reparations",
+      "US soldiers"
     ],
-    "url": "news/world/2026-08-10/#ukrainian-drone-attack-on-russia-kills-13-and-reportedly-hits-refinery",
+    "url": "news/world/2026-08-10/#president-of-the-united-states-demands-iranian-reparations-for-us-soldier-deaths",
     "sources": [
       {
-        "label": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUNmLWxickRLU05ySXVrTTR6U2Q4aTVSZExPY3ZaZnhCR01UcUtUMzhMU1c5Q0YwNFFCc0ZRVWpLYWo0RWZHWkhRc3Y2d1lLdDhwbTFNSmRZcXJ0SHV1VUtVWmdxQUZOei1iS1dwNEk3dkhyVTJvSWZiSjl6MXU1X01nQTZjenBZWkdUYmU4eG4tdUk?oc=5",
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUm1kd3h3akxHSkhXczgydmREN0hOUEFjV0RkZ203T0dibnZGcmZWSWRRWm5TM2ttSFlYRjhnYzNCWXk4Si10U2tzd2NyTlRDZ2lTb2MzNE5FczFDNVVkVHBuZHJGRWFNWTBrRkxNaElnc1RtUlhWNHVGWmpyZmVBS0RYaEc0MlVncWZiZ1VZN1BVeDZkQVBwTUFlUWRjT3g5OERXVVdmTTFrTkRvOE1sWl9kcGw?oc=5",
         "origin": "rss"
       }
     ],
@@ -3982,14 +1272,11 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "ukraine-launches-major-drone-attack-on-russian-industrial-city",
-    "title": "Ukraine launches major drone attack on Russian industrial city",
-    "summary": "Ukrainian drone strike on a Russian industrial city kills at least 13 people in the deadliest attack in two years.",
-    "theme": "Conflict",
+    "event_id": "chinese-made-component-found-in-uk-navy-drones",
+    "title": "Chinese-made component found in UK Navy drones",
+    "summary": "UK Ministry of Defence discovers Chinese-made components in Naval drones but reports no evidence of data breach.",
+    "theme": "Security",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "world"
     ],
@@ -3998,50 +1285,16 @@
     ],
     "primary_feed": "world",
     "keywords": [
-      "Ukraine",
-      "Russia",
-      "drone attack",
-      "military"
+      "UK Navy",
+      "drones",
+      "Chinese component",
+      "security"
     ],
-    "url": "news/world/2026-08-10/#ukraine-launches-major-drone-attack-on-russian-industrial-city",
-    "sources": [
-      {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTHBldlpFNjhwckVhVE5GSmpHUW0xRUYzT3owZC01czJYYXR2aXl5amNYbjR5YWRyU0dxS3RQR2FOdE9sal9oamJfNXVWTGpnV2VOS2FfU1lBY3ZSUThYWm9ZVGt1a2N6djZkMGZRV0I3MjBES2JiTWhRdkc2SnBjbmFzWXJSTE0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "netanyahu-rejects-presidents-15-point-gaza-peace-plan",
-    "title": "Netanyahu rejects president's 15-point Gaza peace plan",
-    "summary": "Israeli PM Benjamin Netanyahu rejects the 15-point Gaza disarmament plan backed by the president of the United States.",
-    "theme": "Geopolitics",
-    "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Netanyahu",
-      "Gaza",
-      "peace plan",
-      "Middle East"
-    ],
-    "url": "news/world/2026-08-10/#netanyahu-rejects-presidents-15-point-gaza-peace-plan",
+    "url": "news/world/2026-08-10/#chinese-made-component-found-in-uk-navy-drones",
     "sources": [
       {
         "label": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tUmg1RkNKQW1nN1JXbTUxWnBqd2h1U3FWeFJrZml5NzF0SHAxOTZOQndJcVRualBEWU9iMDhIR0tKdFZQb05Rd1JYbm4zd3FoLThtcjd1b0ZTQQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wS19FTXlyMG5KUUo3eGZDblZpUEYxVzFwYmdqV1kzY2ZVNTdkaDZIQi1HNWhINjhqUEZBcWFpQ3R6LTVYaG9xWFB5Q3Q2MzdQdGNjMWJUdHZsZw?oc=5",
         "origin": "rss"
       }
     ],
@@ -4050,14 +1303,11 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "colombia-hit-by-74-magnitude-earthquake-at-least-20-dead",
-    "title": "Colombia hit by 7.4-magnitude earthquake, at least 20 dead",
-    "summary": "A powerful 7.4-magnitude earthquake strikes Colombia's Pacific Coast causing at least 20 deaths and widespread damage.",
-    "theme": "Disaster",
+    "event_id": "200000-barrels-of-radioactive-waste-discovered-in-ocean",
+    "title": "200,000 barrels of radioactive waste discovered in ocean",
+    "summary": "Scientists discover approximately 200,000 barrels of radioactive waste in the ocean.",
+    "theme": "Climate & Ecological Resilience",
     "importance": 4,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "world"
     ],
@@ -4066,16 +1316,15 @@
     ],
     "primary_feed": "world",
     "keywords": [
-      "Colombia",
-      "earthquake",
-      "Pacific Coast",
-      "natural disaster"
+      "radioactive waste",
+      "ocean pollution",
+      "environmental"
     ],
-    "url": "news/world/2026-08-10/#colombia-hit-by-74-magnitude-earthquake-at-least-20-dead",
+    "url": "news/world/2026-08-10/#200000-barrels-of-radioactive-waste-discovered-in-ocean",
     "sources": [
       {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQm11YVZfbDU1RnZ6SmtvZUJDX3JZT0JpajE4MkV2TzZsRVZhRW05X1JjUnU3a093elpuM1pIdjdKa2dhSkdLY1FtYWhkd3FBSGNLcHloc0d2ck9ESmtNOG5PRDlCQkVKLTlOMEpwbl9adkozZmppWFVvbUIxV3d6WDk5WE5VcDgwazIzajlaQlZtdXA5YVE?oc=5",
+        "label": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTUR1NWlBT1JLMmxlSmowR2JzTjY3NGowQUdyM3Bhd2NMY3g5VWIyWXdTTUVzUTVjWllUbU9lbnRKdnZDd0pCYUN2cU1nMk5UN0VyTWJ2WGV2NnJmM3ZlbHJKVDJuLWxvVDkzVnI5LUxCdkVZcTlHSXo1LU5HWjh4alhqbFA2UW1SV2Rfa0ZWb0tJZWU5TWFSbkpCVTV6dw?oc=5",
         "origin": "rss"
       }
     ],
@@ -4084,104 +1333,50 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "iran-closes-strait-of-hormuz-demands-us-concessions",
-    "title": "Iran closes Strait of Hormuz, demands US concessions",
-    "summary": "Iran insists it will keep the Strait of Hormuz closed until the United States agrees to its demands.",
-    "theme": "Geopolitics",
+    "event_id": "2025-sets-record-for-greenhouse-gases-sea-level-rise-and-ocean-heat",
+    "title": "2025 sets record for greenhouse gases, sea level rise, and ocean heat",
+    "summary": "The State of the Climate report confirms record-high greenhouse gas concentrations, global sea level, and ocean heat content in 2025.",
+    "theme": "Climate & Ecological Resilience",
     "importance": 5,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
-      "markets",
+      "science",
       "world"
     ],
     "feeds": [
+      "science",
       "world"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "Iran",
-      "Strait of Hormuz",
-      "US relations",
-      "maritime"
+      "climate change",
+      "greenhouse gases",
+      "sea level",
+      "ocean heat",
+      "2025"
     ],
-    "url": "news/world/2026-08-10/#iran-closes-strait-of-hormuz-demands-us-concessions",
+    "url": "news/science/2026-08-10/#2025-sets-record-for-greenhouse-gases-sea-level-rise-and-ocean-heat",
     "sources": [
       {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTjVPYzNKci1mcFBISlptNTlUNnFqMjZ3UjZGUWxkQkdWMVRYTnV1eElzRGJMRTNTTW9IVUNoX3Z5Q08xSFFHbnVvNTk5MUxuN1JXcVVtNEt4V0lTU2MtczhuQW4xd2p3QmMwV3g4cC1FS1NmQUhGeWFlN3NlNXRNSmo4Q2VjRHB3SnkwNHBydDh0TjZ5V2Ew?oc=5",
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-high-greenhouse-gases-global-sea.html",
         "origin": "rss"
       },
       {
-        "label": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeVR5TzZOblVGaldmaERTUlk2Sk5XSEhfYWNiTWMyRVhwNXdZamp5LVhBX2JKMTdxSlFlZHQ4WFc3Vk1OakI0VFlNMThrS3ZPdzB6LUxCSThSSmtvbW5ISkJYSWN3WUNDaTFUTXl1QnFoXzlCV3UtdW9CNjJodTc2VGhWTG0?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSWpaVWZNSTdSVWxXdExEWWZSek1kbGhHN3hLUDR4dUl2Q0dLVVBVbnVmd0l4aUVlU3Rvd3FtMGxXb3F2V0VERHJlVjBvZDhxUDdFUmFqY1l5b3lFZmZKV2t4bmxONkFXTko2UkFoY2dhZDRTaDhJX2t0Y2Y3UGxxc0p4TTJ0X1hOYi1uU2xKSGc1NzJJYzlHWUd6M1hTb1Znc016b3RucHBZRjh3ZkU5WDluRmxBbWVOQWc?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Crude Oil Prices Today | OilPrice.com",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON0pPV0R0aC02SFNUNzZwUkNUdFNadFAwZ1hhR3BOWnJ3NkdXQmJPRFhZQmpjeUNhWnAwSlVONHBVWk9KMXBILVFMOU1ramJ5aDlCNmlzb2dOOWVXV2JlZUlmbWpacEptV1U2SnJUMHUyOVhsTEJzY0tGcU90bTZWcnFTbktzM2VjQTludnRGc3JKUnRGVjczSEtOOUhySnVKdUphcGVUN0hPcmJHdHl0MEJIeEFWZW_SAbwBQVVfeXFMUHQwSDFOdVJxQTZITGY4UTE2YVRjUnNtRl9GWEY4bmplSG1rXzRDQ1Fpb0ZfZ2I2V3UzUWFGZTNhXzdTWVNrNGNaNmRVMk1OZW9aUDdoaGdVOXFwaHFYUmlGR1NDd0VrTkNKUmZrNHpHU2hmaWNoYm9fZWdvS0s1OW1nMnlFaHFHUDVOZ3E1RTNjMDdRa1ZteDRrVEhUekxTbVAydUQtNnpwaWlKOFlmbll2MWdZSi1FSDhCTnY?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "benzinga.com",
-        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNbGVlbFVVVEc1ZGZ1SUIydEhvQUxBUkVSYnpNcmtUN1J0S3FLS0FUVWI5UWI1SzNuelJrbXFyWHFRUmJhc3RkbWZZN0hoYmFMekNJNm8wRkEySXRjZlgyZDJwQnJRN1JWcFgzRDJPUGFBUHk0R3dMZGFFblA2UW5rNnh6eDJwdUlBeUFfcFV2VUwtemFHblY5NTNoLVNjT3hndXIwdG9rYzUwaE8xdjBqc0N0enRBd2cyWFRrWFZGOVlkcS1lVi0yWHo5bG5sUkEtcl9TdFN4SFg5aEhSbnlVMzZqTF8xZDZNMnJJWWRVc203d3BIYmVuTFhHX1hXQmxrZnMwZGVGV3RTUU4zbTFrR21JS3ZlVFhaVVBtSTEzelpUTUJa?oc=5",
+        "label": "Inside Climate News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcE5xcDcxTjVUWGVsV1J0YlJjNGJqR0lGYmgtY1dSUlc0aFFJTkRCQWliMGdCcXk1MWxjR3FNSTFRTEx2cGJ3ZVdPS2pxWnZZZkFmT1BuT0hwRlNDSXZCUUZ1bXdJY1dsUHFmSmszaE82R1NXaG5PX0h1ekZqNjNUZ1Y0M0R6Z0ltVjFJcw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   },
   {
     "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "us-iran-tensions-escalate-oil-prices-rise-as-iran-signals-strait-of-hormuz-closure",
-    "title": "US-Iran tensions escalate; oil prices rise as Iran signals Strait of Hormuz closure",
-    "summary": "Oil prices climb to $80 as Iran signals the Strait of Hormuz will remain closed and demands sanctions relief, escalating US-Iran tensions.",
+    "event_id": "colombia-earthquake-kills-at-least-111-people",
+    "title": "Colombia earthquake kills at least 111 people",
+    "summary": "A 7.4 magnitude earthquake struck Colombia on August 10, 2026, killing at least 111 people. The disaster forced the postponement of major sporting events in the affected region.",
     "theme": "World",
     "importance": 5,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Iran",
-      "Strait of Hormuz",
-      "oil prices",
-      "US-Iran relations",
-      "sanctions"
-    ],
-    "url": "news/world/2026-08-10/#us-iran-tensions-escalate-oil-prices-rise-as-iran-signals-strait-of-hormuz-closure",
-    "sources": [
-      {
-        "label": "cnn.com",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xcnRIaENDM0VobHdzWGIteUx1Y1pwYU42VUlVdzhMUDRvMGV3MWZ2cEppX0NnV29nSE5ZWTFWS3dGd0ZNYjByWldRM3VERU10ZFBaUnY5X2VmTDJ6ekgxNUV4RUJ2U3ZYemZhS0NB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "74-magnitude-earthquake-strikes-colombia-killing-over-100",
-    "title": "7.4 magnitude earthquake strikes Colombia, killing over 100",
-    "summary": "A 7.4 magnitude earthquake in Colombia has killed at least 111 people and caused widespread building collapses.",
-    "theme": "World",
-    "importance": 5,
-    "evidence_strength": 0,
-    "study_type": "",
     "topics": [
       "world"
     ],
@@ -4193,10 +1388,9 @@
       "Colombia",
       "earthquake",
       "7.4 magnitude",
-      "casualties",
-      "disaster"
+      "casualties"
     ],
-    "url": "news/world/2026-08-10/#74-magnitude-earthquake-strikes-colombia-killing-over-100",
+    "url": "news/world/2026-08-10/#colombia-earthquake-kills-at-least-111-people",
     "sources": [
       {
         "label": "CNN",
@@ -4205,6 +1399,6 @@
       }
     ],
     "takeaways": [],
-    "researched": false
+    "researched": true
   }
 ]

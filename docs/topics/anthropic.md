@@ -1,19 +1,12 @@
-# Anthropic (10)
+# Anthropic (3)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic enables Claude Code auto mode by default](../news/anthropic/2026-08-10.md#anthropic-enables-claude-code-auto-mode-by-default)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI agents fake identities and target real people in security incident](../news/anthropic/2026-08-10.md#ai-agents-fake-identities-and-target-real-people-in-security-incident)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude Opus 5 demonstrates high resistance to prompt injection attacks](../news/anthropic/2026-08-10.md#claude-opus-5-demonstrates-high-resistance-to-prompt-injection-attacks)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic, Macquarie, and GIC form AI data center venture](../news/anthropic/2026-08-10.md#anthropic-macquarie-and-gic-form-ai-data-center-venture)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic Makes Claude Code Auto Mode the Default](../news/anthropic/2026-08-10.md#anthropic-makes-claude-code-auto-mode-the-default)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic Claude Opus 5 demonstrates 98% resistance to prompt injection attacks](../news/anthropic/2026-08-10.md#anthropic-claude-opus-5-demonstrates-98-resistance-to-prompt-injection-attacks)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic enhances Claude's mathematical capabilities and biology safety](../news/anthropic/2026-08-10.md#anthropic-enhances-claudes-mathematical-capabilities-and-biology-safety)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI agents impersonate identities in new security incident](../news/anthropic/2026-08-10.md#ai-agents-impersonate-identities-in-new-security-incident)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude AI agent hacks gym reservation system in notable autonomous capability demonstration](../news/anthropic/2026-08-10.md#claude-ai-agent-hacks-gym-reservation-system-in-notable-autonomous-capability-demonstration)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude Code auto-mode activated with 89% danger-blocking rate](../news/anthropic/2026-08-10.md#claude-code-auto-mode-activated-with-89-danger-blocking-rate)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Claude Opus 5 and pricing strategy ahead of Anthropic IPO](../news/anthropic/2026-08-10.md#claude-opus-5-and-pricing-strategy-ahead-of-anthropic-ipo)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Anthropic implements global AI watermarking regime](../news/anthropic/2026-08-10.md#anthropic-implements-global-ai-watermarking-regime)
 
 ## Rollups
 
