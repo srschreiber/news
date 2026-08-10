@@ -1,4 +1,4 @@
-# Security (10)
+# Security (11)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -13,7 +13,8 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Cisco ClamAV high-severity vulnerabilities disclosed with public PoC](../news/security/2026-08-10.md#cisco-clamav-high-severity-vulnerabilities-disclosed-with-public-poc)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [China-linked hackers exploit N-able cybersecurity tool for ransomware campaigns](../news/security/2026-08-10.md#china-linked-hackers-exploit-n-able-cybersecurity-tool-for-ransomware-campaigns)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability exploited to steal Framework customer data](../news/security/2026-08-10.md#metabase-zero-day-vulnerability-exploited-to-steal-framework-customer-data)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Steam hardware shipping breach leaks customer data across Europe](../news/security/2026-08-10.md#steam-hardware-shipping-breach-leaks-customer-data-across-europe)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Coruna and DarkSword iOS exploits spread to cybercrime groups](../news/security/2026-08-10.md#coruna-and-darksword-ios-exploits-spread-to-cybercrime-groups)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Steam hardware shipping breach leaks customer data across Europe](../news/tech/2026-08-10.md#steam-hardware-shipping-breach-leaks-customer-data-across-europe)
 
 ## Rollups
 
