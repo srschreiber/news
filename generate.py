@@ -27,6 +27,7 @@ import re
 import sys
 import threading
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -252,8 +253,12 @@ def now_utc() -> dt.datetime:
 # Pure helpers (unit-tested; no network, no API)
 # --------------------------------------------------------------------------- #
 def slugify(text: str) -> str:
-    """Approximate MkDocs' default heading slug (for deep-link anchors)."""
+    """Approximate MkDocs' default heading slug (for deep-link anchors).
+
+    MkDocs applies NFKD normalization before stripping non-word chars, which
+    converts accented letters to their ASCII base (ñ→n, é→e, etc.)."""
     text = re.sub(r"<[^>]+>", "", text)
+    text = unicodedata.normalize("NFKD", text)
     text = text.lower()
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"\s+", "-", text.strip())
@@ -1447,19 +1452,20 @@ def _story_line(r: dict, prefix: str = "") -> list[str]:
     if not takeaways:
         return [main]
 
-    # Expand the list item: blank line + 4-space-indented continuation so the
-    # takeaway sub-bullets and sources stay part of the same <li> in rendered HTML.
-    lines = [main, ""]
+    # No blank between main and bullets keeps the nested list tight visually.
+    # Blank before Sources is needed so CommonMark treats it as a continuation
+    # block of the outer list item (not a continuation of the last bullet).
+    lines = [main]
     for t in takeaways:
         lines.append(f"    - {t}")
-    lines.append("")
     if sources:
         srcs = ", ".join(
             f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"
             for s in sources
         )
-        lines.append(f"    Sources: {srcs}")
         lines.append("")
+        lines.append(f"    Sources: {srcs}")
+    lines.append("")
     return lines
 
 
