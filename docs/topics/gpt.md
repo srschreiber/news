@@ -1,9 +1,10 @@
-# GPT (4)
+# GPT (5)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra development due to cybersecurity concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-development-due-to-cybersecurity-concerns)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires NextSlide for ChatGPT slide-deck features](../news/gpt/2026-08-10.md#openai-acquires-nextslide-for-chatgpt-slide-deck-features)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires presentation software firm NextSlide](../news/gpt/2026-08-10.md#openai-acquires-presentation-software-firm-nextslide)

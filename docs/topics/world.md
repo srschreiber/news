@@ -1,19 +1,21 @@
-# World (10)
+# World (12)
 
 _Part of the [World](../feeds/world.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
+- <span class="imp imp-5" title="Importance 5/5" aria-label="Importance 5 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> [Iran closes Strait of Hormuz, demands US concessions](../news/world/2026-08-10.md#iran-closes-strait-of-hormuz-demands-us-concessions)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [The president of the United States signals economic pressure shift on Iran nuclear deal](../news/markets/2026-08-10.md#the-president-of-the-united-states-signals-economic-pressure-shift-on-iran-nuclear-deal)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Russia and Ukraine conduct escalating cross-border strikes](../news/world/2026-08-10.md#russia-and-ukraine-conduct-escalating-cross-border-strikes)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukrainian drone attack on Russia kills 13 and reportedly hits refinery](../news/world/2026-08-10.md#ukrainian-drone-attack-on-russia-kills-13-and-reportedly-hits-refinery)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukraine launches major drone attack on Russian industrial city](../news/world/2026-08-10.md#ukraine-launches-major-drone-attack-on-russian-industrial-city)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Netanyahu rejects president's 15-point Gaza peace plan](../news/world/2026-08-10.md#netanyahu-rejects-presidents-15-point-gaza-peace-plan)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Colombia hit by 7.4-magnitude earthquake, at least 20 dead](../news/world/2026-08-10.md#colombia-hit-by-74-magnitude-earthquake-at-least-20-dead)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Western Europe records hottest June-July on temperature record](../news/science/2026-08-10.md#western-europe-records-hottest-june-july-on-temperature-record)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [China's Long March 7A rocket explodes after liftoff](../news/tech/2026-08-10.md#chinas-long-march-7a-rocket-explodes-after-liftoff)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Russia and Syria reach agreement on military base operations](../news/world/2026-08-10.md#russia-and-syria-reach-agreement-on-military-base-operations)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Houthi attacks continue in Yemen with regional spillover](../news/world/2026-08-10.md#houthi-attacks-continue-in-yemen-with-regional-spillover)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Puerto Rico implements water rationing due to severe drought](../news/world/2026-08-10.md#puerto-rico-implements-water-rationing-due-to-severe-drought)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Typhoon Dolphin disrupts China's eastern coast with major flight cancellations](../news/world/2026-08-10.md#typhoon-dolphin-disrupts-chinas-eastern-coast-with-major-flight-cancellations)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Danube water crisis forces Romania to extend nuclear reactor operation](../news/world/2026-08-10.md#danube-water-crisis-forces-romania-to-extend-nuclear-reactor-operation)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Ukraine drone strikes kill 13 in Russian city of Nizhnekamsk](../news/world/2026-08-10.md#ukraine-drone-strikes-kill-13-in-russian-city-of-nizhnekamsk)
 
 ## Rollups
 

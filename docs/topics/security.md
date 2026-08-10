@@ -4,6 +4,7 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra development due to cybersecurity concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-development-due-to-cybersecurity-concerns)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability actively exploited in attacks](../news/security/2026-08-10.md#metabase-zero-day-vulnerability-actively-exploited-in-attacks)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Progress LoadMaster critical flaw actively exploited by attackers](../news/security/2026-08-10.md#progress-loadmaster-critical-flaw-actively-exploited-by-attackers)
@@ -13,7 +14,6 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [China-linked hackers exploit N-able cybersecurity tool for ransomware campaigns](../news/security/2026-08-10.md#china-linked-hackers-exploit-n-able-cybersecurity-tool-for-ransomware-campaigns)
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability exploited to steal Framework customer data](../news/security/2026-08-10.md#metabase-zero-day-vulnerability-exploited-to-steal-framework-customer-data)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Steam hardware shipping breach leaks customer data across Europe](../news/security/2026-08-10.md#steam-hardware-shipping-breach-leaks-customer-data-across-europe)
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [New passkey attacks can recover synced private keys and bypass MFA](../news/security/2026-08-10.md#new-passkey-attacks-can-recover-synced-private-keys-and-bypass-mfa)
 
 ## Rollups
 
