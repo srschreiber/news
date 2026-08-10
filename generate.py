@@ -1031,8 +1031,7 @@ def stage2b_polish(reads: list[dict], date: str) -> dict:
         resp = client.messages.create(
             model=WRITE_MODEL,
             max_tokens=STAGE2_MAX_TOKENS,
-            output_config={"effort": STAGE2_EFFORT,
-                           "format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
+            output_config={"format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
             system=_sys("write.md"),
             messages=[{"role": "user", "content": user}],
         )
@@ -1059,7 +1058,6 @@ def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
     resp = client.messages.create(
         model=ROLLUP_MODEL,
         max_tokens=ROLLUP_MAX_TOKENS,
-        output_config={"effort": ROLLUP_EFFORT},
         system=_sys("rollup.md"),
         messages=[{"role": "user", "content": user}],
     )
