@@ -1300,12 +1300,10 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
     for t in order:
         lines += [f"## {t}", ""]
         for e in by_theme[t]:
-            lines.append(f"### {e['title']}")
+            lines.append(f"### {meter(e.get('importance', 0))} {e['title']}")
             summary = (e.get("one_liner") or "").strip()
-            lines.append(f"{meter(e.get('importance', 0))} {summary}".rstrip())
-            # Key takeaways as a styled "key facts" card (research adds these for
-            # data-dense stories) so readers skim instead of parsing a block of
-            # text. Raw HTML list -> deterministic markers via .takeaways CSS.
+            if summary:
+                lines.append(summary)
             takeaways = [t.strip() for t in e.get("takeaways", []) if t.strip()]
             if takeaways:
                 lines.append("")
@@ -1346,13 +1344,14 @@ def render_research_briefing(events: list[dict], topic: str) -> str:
     for t in order:
         lines += [f"## {t}", ""]
         for e in by_theme[t]:
-            lines.append(f"### {e['title']}")
+            lines.append(f"### {meter(e.get('importance', 0))} {e['title']}")
             study = e.get("study_type", "")
             study_badge = (f'<span class="study-type">{html.escape(study)}</span> '
                            if study else "")
             evid = e.get("evidence_strength", 0)
-            lines.append(f"{study_badge}{meter(e.get('importance', 0))} "
-                         f"{_evid_meter(evid)}".rstrip())
+            secondary = f"{study_badge}{_evid_meter(evid)}".rstrip()
+            if secondary:
+                lines.append(secondary)
             summary = (e.get("one_liner") or "").strip()
             if summary:
                 lines.append("")
@@ -1452,12 +1451,15 @@ def _story_line(r: dict, prefix: str = "") -> list[str]:
     if not takeaways:
         return [main]
 
-    # No blank between main and bullets keeps the nested list tight visually.
-    # Blank before Sources is needed so CommonMark treats it as a continuation
-    # block of the outer list item (not a continuation of the last bullet).
-    lines = [main]
+    # Use <ul class="takeaways"> so bullets get the same card styling as on
+    # daily pages (amber left border, background, small font). The blank after
+    # main is required for Python-Markdown to recognise the indented HTML as a
+    # block element rather than inline continuation of the list item text.
+    lines = [main, ""]
+    lines.append('    <ul class="takeaways">')
     for t in takeaways:
-        lines.append(f"    - {t}")
+        lines.append(f"    <li>{html.escape(t)}</li>")
+    lines.append("    </ul>")
     if sources:
         srcs = ", ".join(
             f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"

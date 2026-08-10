@@ -170,8 +170,10 @@
   color: #f6ad3c;
 }
 /* Rows led by an importance meter (TL;DR, Top stories) drop the bullet — the
-   meter is the visual lead. */
-.md-typeset ul > li:has(> .imp:first-child)::marker {
+   meter is the visual lead. Covers both tight lists (span direct child of li)
+   and loose lists (span wrapped in a <p> by CommonMark). */
+.md-typeset ul > li:has(> .imp:first-child)::marker,
+.md-typeset ul > li:has(> p > .imp:first-child)::marker {
   content: "";
 }
 

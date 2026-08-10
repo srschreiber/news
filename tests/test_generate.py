@@ -210,7 +210,7 @@ def test_render_briefing():
     assert body.startswith("## TL;DR")
     assert "[Go 1.18 ships generics](#go-118-ships-generics)" in body
     assert '<span class="imp imp-' in body   # custom signal-bar meter
-    assert "### Go 1.18 ships generics" in body
+    assert "### " in body and "Go 1.18 ships generics" in body  # bars now part of heading
     assert "Sources: [go.dev](https://go.dev)" in body
     # highest importance first in TL;DR
     assert body.index("Go 1.18") < body.index("Minor patch")
