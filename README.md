@@ -42,12 +42,12 @@ no framework). A daily run is three stages:
 1. **Cluster & score** (`claude-haiku-4-5`) — one global pass over all feeds
    returns structured events: de-duplicated across feeds, each with an
    importance score, theme, and keywords. Cheap; handles the bulk input.
-2. **Read** (`claude-haiku-4-5`) — for each important event, Haiku runs
-   `web_search` + `web_fetch` and returns a small, dense factual extract. The
-   expensive page-reading lands on the cheap model.
-3. **Polish** (`claude-sonnet-5`) — one batched call turns all the small
-   extracts into final summaries + key-fact bullets. Sonnet never sees raw
-   pages, so its share of the cost is tiny.
+2. **Read** (`claude-haiku-4-5`) — for each important event, Haiku searches
+   via [Serper.dev](https://serper.dev) (Google News, $1/1k queries) and fetches
+   the best article(s) with `web_fetch`, returning a dense factual extract.
+   Known RSS source URLs are fetched first before falling back to search.
+3. **Polish** (`claude-haiku-4-5`) — one batched call turns all the small
+   extracts into final summaries + key-fact bullets. Never sees raw pages.
 
 Rollups are a single Sonnet call synthesizing the level below, per topic. All
 markdown is rendered deterministically in code — the models return structured
@@ -55,10 +55,10 @@ data, never free-form docs.
 
 ## Cost
 
-A real-news-day run lands around **$0.20–0.35**, and the breakdown is committed
-each run. The two-stage split is the trick: Haiku ($1/$5 per 1M) does the
-clustering and page-reading (where the tokens are); Sonnet ($3/$15) only stitches
-a few thousand tokens of extracts. Server-side web search is a flat ~$0.01/query.
+A real-news-day run lands around **$0.10–0.20**, and the breakdown is committed
+each run. Haiku ($0.80/$4 per 1M) handles all three stages; Serper.dev Google
+News search costs $1/1k queries (vs $10/1k for Anthropic's built-in search).
+Page reads are capped at 1000 tokens each — enough for a news article lede.
 
 ## Layout
 
@@ -112,6 +112,7 @@ sources:
 ```bash
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...
+export SERPER_DEV_API_KEY=...       # serper.dev — Google News search
 
 python generate.py --dry-run     # cluster + score, print top events (no research, no writes)
 python generate.py               # full daily run
@@ -123,7 +124,7 @@ mkdocs serve                     # preview the site at localhost:8000
 ## Deploy (GitHub)
 
 1. Push to a GitHub repo.
-2. Add repo secret **`ANTHROPIC_API_KEY`**.
+2. Add repo secrets **`ANTHROPIC_API_KEY`** and **`SERPER_DEV_API_KEY`**.
 3. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 4. `pipeline.yml` runs on cron (daily/weekly/monthly/yearly) and via **Run
    workflow**; it generates docs and deploys. `publish.yml` re-deploys the site
