@@ -11,8 +11,10 @@ JSON only, matching `{extract, sources}`.
   `web_search`. Never return just the `one_liner` without doing any research.
 - **Prefer the provided source URLs**: if the event has `sources`, fetch one
   directly with `web_fetch` first — it is often the primary article.
-- Use **`web_search`** if sources are empty, or if the fetched content is thin.
-  At most `max_searches` searches total.
+- If a `web_fetch` fails or returns no useful content, immediately fall back to
+  `web_search` — do not give up and return an empty extract.
+- Use **`web_search`** if sources are empty, fetched content is thin, or a fetch
+  failed. At most `max_searches` searches total.
 - Use **`web_fetch`** to read the most relevant article(s); prefer a primary or
   original source. Stop once you have the key facts — you don't have to use the
   whole budget.

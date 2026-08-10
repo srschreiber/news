@@ -884,6 +884,28 @@ def stage1_cluster(
     return []
 
 
+_TRACKING_PARAMS = frozenset({
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content",
+    "fbclid", "gclid", "msclkid", "ref", "mc_cid", "mc_eid",
+})
+_MAX_URL_LEN = 1024  # web_fetch rejects very long URLs
+
+
+def _clean_url(url: str) -> str | None:
+    """Strip tracking params and enforce a length cap. Returns None if the URL
+    is unusable (too long even after cleaning, or not http/https)."""
+    try:
+        parsed = urllib.parse.urlparse(url)
+    except Exception:
+        return None
+    if parsed.scheme not in ("http", "https"):
+        return None
+    qs = {k: v for k, v in urllib.parse.parse_qsl(parsed.query)
+          if k.lower() not in _TRACKING_PARAMS}
+    clean = parsed._replace(query=urllib.parse.urlencode(qs)).geturl()
+    return clean if len(clean) <= _MAX_URL_LEN else None
+
+
 def _serper_search(query: str, n: int = 5) -> list[dict]:
     """Search Google News via Serper.dev /news endpoint (journalistic sources only).
     Returns list of {title, url, snippet}."""
@@ -930,7 +952,8 @@ def stage2a_read(event: dict, date: str) -> dict | None:
     payload = {
         "title": event["title"], "one_liner": event.get("one_liner", ""),
         "keywords": event.get("keywords", []), "topics": event.get("topics", []),
-        "sources": [s["url"] for s in event.get("sources", [])],
+        "sources": [u for s in event.get("sources", [])
+                    if (u := _clean_url(s.get("url", ""))) is not None],
     }
     user = json.dumps(
         {"date": date, "max_searches": WEB_SEARCHES_PER_EVENT, "event": payload},
