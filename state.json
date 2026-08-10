@@ -4069,13 +4069,6 @@
     "Adgully.com": "2026-08-10T04:15:00+00:00",
     "NASA \u2014 Breaking News": "2026-08-10T14:00:00+00:00",
     "Financial Times": "2026-08-10T08:55:45+00:00",
-    "arXiv \u2014 Computation and Language": "2026-08-10T04:00:00+00:00",
-    "arXiv \u2014 Artificial Intelligence": "2026-08-10T04:00:00+00:00",
-    "arXiv \u2014 Machine Learning": "2026-08-10T04:00:00+00:00",
-    "arXiv \u2014 Computer Vision": "2026-08-10T04:00:00+00:00",
-    "arXiv \u2014 Robotics": "2026-08-10T04:00:00+00:00",
-    "arXiv \u2014 Cryptography and Security": "2026-08-10T04:00:00+00:00",
-    "arXiv \u2014 Distributed Computing": "2026-08-10T04:00:00+00:00",
     "India Today": "2026-08-10T03:26:59+00:00",
     "cbs19.tv": "2026-08-10T03:26:00+00:00",
     "36Kr": "2026-08-10T03:04:14+00:00",
@@ -4161,7 +4154,6 @@
     "Yahoo": "2026-08-10T00:31:00+00:00",
     "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0627\u0633\u062a\u0639\u0644\u0627\u0645\u0627\u062a": "2026-08-10T16:44:50+00:00",
     "The Globe and Mail": "2026-08-10T15:51:57+00:00",
-    "Nature Climate Change": "2026-08-10T00:00:00+00:00",
     "sg.finance.yahoo.com": "2026-08-10T16:55:40+00:00",
     "Mashable SEA": "2026-08-10T16:30:08+00:00",
     "VentureBeat": "2026-08-10T16:22:13+00:00",
@@ -11668,49 +11660,6 @@
         "primary_feed": "science",
         "kind": "news",
         "event_id": "lego-project-hail-mary-set-review"
-      },
-      {
-        "title": "Globally and intergenerationally unequal exposure to hourly heat extremes",
-        "one_liner": "A Nature Climate Change study finds that under high-emissions warming, global hourly heat extremes will quadruple by century's end, with population exposure rising sixfold\u2014far worse than daily temperature averages suggest\u2014and low- and middle-income countries bearing the brunt.",
-        "importance": 4,
-        "evidence_strength": 5,
-        "study_type": "paper",
-        "theme": "Climate",
-        "keywords": [
-          "heat extremes",
-          "hourly metrics",
-          "climate change",
-          "intergenerational equity",
-          "exposure inequality"
-        ],
-        "source_item_ids": [
-          "nature-climate-change-1"
-        ],
-        "sources": [
-          {
-            "label": "Nature Climate Change",
-            "url": "https://www.nature.com/articles/s41558-026-02724-8",
-            "origin": "research"
-          }
-        ],
-        "topics": [
-          "climate-resilience"
-        ],
-        "primary_topic": "climate-resilience",
-        "feeds": [
-          "climate-resilience"
-        ],
-        "primary_feed": "climate-resilience",
-        "kind": "research",
-        "event_id": "globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
-        "takeaways": [
-          "Hourly heat extremes projected to rise 4x by late century under RCP8.5",
-          "Population exposure to hourly heat extremes projected to rise 6x",
-          "Each hot day gains ~4 extra hot hours; 3 hot hours occur even on non-hot days",
-          "Low- and middle-income countries bear over 75% of current and projected exposure",
-          "Younger generations in poorer countries face much higher lifetime heat exposure"
-        ],
-        "researched": true
       }
     ]
   }

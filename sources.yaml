@@ -234,7 +234,7 @@ sources:
     query: "medical research OR medicine breakthrough"
     topic: health
 
-  # === TECH RESEARCH FEED (research disabled — raw RSS summaries only) ===
+  # === TECH RESEARCH FEED (research kind — separate pipeline) ===
   # --- arXiv CS categories ---
   - name: "arXiv — Computation and Language"
     url: https://rss.arxiv.org/rss/cs.CL
@@ -290,6 +290,10 @@ sources:
   - name: "IEEE Spectrum"
     url: https://spectrum.ieee.org/feeds/feed.rss
     topic: tech-research
+  # --- Curated paper feeds ---
+  - name: "Hugging Face Daily Papers"
+    url: https://huggingface.co/papers.rss
+    topic: tech-research
 
   # === CLIMATE & ECOLOGICAL RESILIENCE FEED (research kind) ===
   - name: "Nature Climate Change"
@@ -309,6 +313,25 @@ sources:
     topic: climate-resilience
   - name: "Google News — climate adaptation ecosystem"
     query: "climate change adaptation ecosystem research study"
+    topic: climate-resilience
+  - name: "Nature Sustainability"
+    url: https://www.nature.com/natsustain.rss
+    topic: climate-resilience
+  - name: "Science Advances"
+    url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
+    topic: climate-resilience
+  - name: "PNAS"
+    url: https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas
+    topic: climate-resilience
+  - name: "Environmental Research Letters"
+    url: https://iopscience.iop.org/journal/rss/1748-9326
+    topic: climate-resilience
+  - name: "USGS Publications"
+    url: https://pubs.usgs.gov/rss/all.xml
+    topic: climate-resilience
+  - name: "USFS Treesearch — Wildfire & Fire Ecology"
+    scraper: usfs_treesearch
+    query: "wildfire fire ecology fuel treatment forest restoration"
     topic: climate-resilience
 
   # === PATENTS FEED (research disabled — raw RSS summaries only) ===

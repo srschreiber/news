@@ -106,6 +106,8 @@ SUMMARY_MAX_CHARS = 300
 GOOGLE_NEWS_RSS = (
     "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
 )
+USFS_TREESEARCH_SEARCH = "https://www.fs.usda.gov/treesearch/pubs/search"
+USFS_TREESEARCH_BASE = "https://www.fs.usda.gov"
 
 METRICS_FILE = ROOT / "metrics.json"
 # Estimated USD per 1M tokens (standard rates; cache write = 1.25x input,
@@ -273,13 +275,15 @@ def clean_summary(raw: str | None) -> str:
 
 
 def resolve_source_url(source: dict) -> str:
-    """A source is either a direct feed `url` or a Google News `query`."""
+    """A source is a direct feed `url`, a Google News `query`, or a custom `scraper`."""
     if source.get("url"):
         return source["url"]
+    if source.get("scraper"):
+        return ""  # fetched by custom scraper, not feedparser
     if source.get("query"):
         q = urllib.parse.quote_plus(source["query"])
         return GOOGLE_NEWS_RSS.format(q=q)
-    raise ValueError(f"source {source.get('name')!r} needs a 'url' or 'query'")
+    raise ValueError(f"source {source.get('name')!r} needs a 'url', 'query', or 'scraper'")
 
 
 def load_sources(path: Path = SOURCES_FILE) -> list[dict]:
@@ -289,6 +293,72 @@ def load_sources(path: Path = SOURCES_FILE) -> list[dict]:
         s["_url"] = resolve_source_url(s)
         s["topic"] = (s.get("topic") or DEFAULT_TOPIC).strip()
     return sources
+
+
+def _fetch_usfs_treesearch(source: dict) -> list[dict]:
+    """Scrape USFS Treesearch search results. Returns feedparser-style entry dicts.
+
+    USFS Treesearch has no native RSS; this hits their search endpoint and parses
+    the HTML response. Pub links are /treesearch/pubs/<id>; titles, dates, and
+    abstracts are extracted via regex. Best-effort — structure may change."""
+    query = source.get("query", "wildfire fire ecology fuel treatment")
+    params = urllib.parse.urlencode({
+        "searchtype": "all",
+        "terms": query,
+        "sort": "dateDescend",
+        "perpage": "25",
+    })
+    url = f"{USFS_TREESEARCH_SEARCH}?{params}"
+    req = urllib.request.Request(url, headers={"User-Agent": ONTHISDAY_UA})
+    raw = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+
+    entries: list[dict] = []
+    seen_links: set[str] = set()
+    for m in re.finditer(
+        r'href="(/treesearch/pubs/\d+)"[^>]*>\s*(.*?)\s*</a',
+        raw, re.DOTALL,
+    ):
+        path_str, raw_title = m.group(1), m.group(2)
+        title = html.unescape(re.sub(r"<[^>]+>", " ", raw_title))
+        title = re.sub(r"\s+", " ", title).strip()
+        if not title or len(title) < 15 or path_str in seen_links:
+            continue
+        seen_links.add(path_str)
+        link = USFS_TREESEARCH_BASE + path_str
+
+        # Date: look within ±600 chars of the match for YYYY-MM-DD or YYYY/MM/DD
+        window = raw[max(0, m.start() - 200): m.end() + 600]
+        pub_parsed: tuple | None = None
+        dm = re.search(r"\b(20\d\d)[/-](\d{2})[/-](\d{2})\b", window)
+        if dm:
+            try:
+                pub_parsed = (int(dm.group(1)), int(dm.group(2)),
+                              int(dm.group(3)), 0, 0, 0)
+            except ValueError:
+                pass
+
+        # Abstract snippet: text after a class containing "abstract"
+        summary = ""
+        am = re.search(
+            r'class="[^"]*abstract[^"]*"[^>]*>(.*?)</(?:div|p)',
+            window, re.DOTALL | re.I,
+        )
+        if am:
+            summary = html.unescape(re.sub(r"<[^>]+>", " ", am.group(1)))
+            summary = re.sub(r"\s+", " ", summary).strip()[:SUMMARY_MAX_CHARS]
+
+        entries.append({
+            "title": title,
+            "link": link,
+            "published_parsed": pub_parsed,
+            "summary": summary,
+        })
+    return entries
+
+
+SCRAPERS: dict[str, object] = {
+    "usfs_treesearch": _fetch_usfs_treesearch,
+}
 
 
 def load_research_config(path: Path = SOURCES_FILE) -> dict:
@@ -805,20 +875,6 @@ def _feed_scoring_context(feeds: dict) -> str:
 
 def _text_of(message) -> str:
     return "".join(b.text for b in message.content if getattr(b, "type", "") == "text")
-
-
-def _extract_briefing(text: str) -> str:
-    """Drop any leading narration the model emits between web searches.
-
-    Stage 2 interleaves reasoning text ("let me check X...") with tool calls;
-    concatenating all text blocks glues that narration before the real briefing.
-    The briefing always starts at a '## ' heading (per the prompt), so cut to it.
-    """
-    text = text.strip()
-    if text.startswith("## "):
-        return text
-    idx = text.find("\n## ")
-    return text[idx + 1:].strip() if idx != -1 else text
 
 
 def stage1_cluster(
@@ -1940,6 +1996,20 @@ def fetch_all(sources: list[dict]) -> list[dict]:
     items: list[dict] = []
     for src in sources:
         key = source_slug(src["name"])
+        scraper_name = src.get("scraper")
+        if scraper_name:
+            scraper_fn = SCRAPERS.get(scraper_name)
+            if scraper_fn is None:
+                log(f"unknown scraper {scraper_name!r} for {src['name']!r}, skipping")
+                continue
+            try:
+                entries = scraper_fn(src)  # type: ignore[operator]
+            except Exception as e:
+                log(f"scraper {scraper_name!r} ({src['name']!r}) failed: {e}")
+                continue
+            for i, entry in enumerate(entries):
+                items.append(normalize_entry(src["name"], src["topic"], i, key, entry))
+            continue
         try:
             parsed = feedparser.parse(src["_url"])
         except Exception as e:  # never let one feed kill the run
