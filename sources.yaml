@@ -34,7 +34,7 @@ feeds:
       update or niche-only interest.
   world:
     title: World
-    research_budget: 3
+    research_budget: 6
     topics: [world, markets]
     scoring_context: >
       Score for a general news reader tracking global events and financial markets.
@@ -43,7 +43,7 @@ feeds:
       market move, meaningful policy change). 1 = local incident or routine report.
   science:
     title: Science
-    research_budget: 3
+    research_budget: 6
     topics: [science, space, health]
     also_includes: [climate-resilience]
     scoring_context: >
@@ -54,7 +54,7 @@ feeds:
       note or incremental finding.
   tech-research:
     title: Computer Science
-    research_budget: 3
+    research_budget: 6
     topics: [tech-research]
     scoring_context: >
       Score for a CS researcher or ML practitioner reading papers and lab blogs.
@@ -63,7 +63,7 @@ feeds:
       practical technique with clear applications). 1 = incremental or narrow niche.
   climate-resilience:
     title: Climate & Ecological Resilience
-    research_budget: 3
+    research_budget: 6
     topics: [climate-resilience]
     scoring_context: >
       Score for an ecologist, conservationist, or climate scientist. 5 = landmark
@@ -73,7 +73,7 @@ feeds:
       real-world implications). 1 = incremental or narrow local study.
   patent-ip:
     title: Patents
-    research_budget: 2
+    research_budget: 6
     topics: [patent-ip]
     scoring_context: >
       Score for a patent attorney, IP counsel, or tech legal reader. 5 = major
