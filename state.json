@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-10T00:12:34.371591+00:00",
+  "last_run": "2026-08-10T12:56:38.788349+00:00",
   "seen_links": {
     "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSWFzc0Znazk3Mm8xc2xWdmMzRTdmSVVzY0lKbkhnREVVTlhQRG1vcUZWb1ZVU3BKMmtKSjFaX0wwNkZwOUFsdnBZRjNsWVpUNmtoTlRaYjRmM1hwM1g1cGJLTVpFdlpFVG5kX2tLcXJSSlZmTFpVQy1uLTl3YWJkeE9wNV8xaUV1V3Rvek5wdDMtbzBHaW5fQzBka1A0akp2V3VBT0xXT25YQUgtbjMxNzM0SlZPS1NkRFZ2TFNqS0FsdS01b3c?oc=5": "2026-08-03",
     "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/": "2026-08-03",
@@ -3346,32 +3346,493 @@
     "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjBkeDVBalFpT2JGdDRPa0ZROFVfb1o3VWxUWVdJeW12Rk4tdl9KZ3J1cVhtblN0QWd2S0gzcThUUmVGdHA2S1NjQ2c1TVlYSmpPYzFvcWFfQjJKZjdxVFl2Y0E3Z1hnUmttR0ZmMGFOdFlDaWFVWWVWeHQ2cFBpR0duaDZSc0U?oc=5": "2026-08-10",
     "https://news.google.com/rss/articles/CBMilwFBVV95cUxOR1RoaXM0WE5fZG9HNzIzemZDWXl4SVFjdUs5b1Y4dExrU2xJbFJHcTZkemhndXV0VDJGT00xR3FXa2gyQTNoWVpSQUFDN3I3Mm91d0h4U2R0Rkl0a19oQjJqZzMzeDBDeTM0YkU5Y1NJUmktMW5EdmxkVmNleVh2dXZBeWNzR1pqZkJMcy1GRHpNZUZiN0lv?oc=5": "2026-08-10",
     "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaXVMUEduR3NfRTlmSF9OemlvQ0lNMDdsdmNiTFZ6UUlnRk92RTM2cWh4eGFTdFlxWm91X0laTUwxLXVFZG1EbTNFN1NreDJoSFNhSHBOTHRIMktlZ01PcnhrdkdnVHBCcDlKR0R1elhTdG4xd19xQXZGS0hOemVYeV9kdTJyc2E3aC1Xc3VCUFNvMnVHVXFXX3Zwd0xfbWFCQWlOekNCWGg2SmVXY3NlYkpiWlY?oc=5": "2026-08-10",
-    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmRTTHRPT2xya2JSUFd2Nld3TXFvQlRGUmxsREUwWUFBSERFNm5ITEJLUXYwMTVQRzRScUtKZExpcEloSDFwM2UwV2p2bks0czctZDFtcl80N0VyWUVKWmJLakNLQnNtUG96WW1KUVB1RlN1T1pwZlAyOEtOZ3k3Unc3clpmQ3Zta3BzSGRjTzlOZERPdThFVkNGUmc?oc=5": "2026-08-10"
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYmRTTHRPT2xya2JSUFd2Nld3TXFvQlRGUmxsREUwWUFBSERFNm5ITEJLUXYwMTVQRzRScUtKZExpcEloSDFwM2UwV2p2bks0czctZDFtcl80N0VyWUVKWmJLakNLQnNtUG96WW1KUVB1RlN1T1pwZlAyOEtOZ3k3Unc3clpmQ3Zta3BzSGRjTzlOZERPdThFVkNGUmc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZERBVXROOGRmUndSNHJUaU1BSUxoZmxNQ2d2X3JkNFZkcUhKclFKaVU5aUQ0U2ZDNnBOQkJKX1ppel81dVE1dmVaWjFuQ3NGcV9wMkN4ZHhDUG1oRTRROEFZck1mdDUybDA5WE5MeWhfNHNBWlFuNXB3emdZZ2JiMTlQeFFsQlVGNWgxWTR1OU14SDVadnFVNFFGVTl1M3NsNmp1aUhnQQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlFfNjhMT1BLdF96RDZPVTZzR0ZNUjB2WjJrNE9zazFRem9WTDZRMlo1dEx4OU5HSjB6NUpxMlpDVEhpMUVpX3FaVm9GajF6M2ZpX2hVazFVMzF3SUFhU1ktWHJ2UEJjYVp0Ry1ic0V4dWplbnNiMlcwT3JFcE9qWXQyai1TNU9SUk9lcXZUbHJKeHBLblhmTDkwdmNCZXRWb0ZwcTBfUQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOam9xQTlfYUZMSEtqOEx0TUdKYi1TaXpmcGhRVFFvX3N6dXZocTlUWjQ3ZXdrODQ2LWhxR2dYMXhDYnZjbWZzbmg1Tkh0Y3N5M01FaUlsRlZOWFRwWXdHRmh0cEFyZzFZaENhQWNRVmNlS05JN2pDOXYxMno4Zm9QRWpZamhrdmRlTkVhemE2WUhjY0VranRMRVJ1Z2tiSTBoVHJ3czlWaW9VWG8?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxORlBicEhHMTJ4d3lqWVl0RGlrcFBtemxUWEhlWlkyRDI0bEprYjU0OHZjM3VxQ2NHWlNHV2IwT21tSkhlSlMzTEIyR2d0OW5jM0hNTW9xbXNMVEI1S2xqdzctWTkyWGQya0x1SjFqeUZCMS1zdmJxN3hqdjJyMTNWNldOeHg5V3o3aGJsMUFxcExjWHNzS0dwZTM1VkhDbjY3MURQdHRLUHFCb1lsdGdmaUt3?oc=5": "2026-08-10",
+    "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSEx0SVh1YkJlQ0ZqM0hMQloxNzBrb1c0bzd0Njd2c0t4VVA2V3dQcEQxSTNvdVFJa3FaOHcxQWlmcXo2eHVIc0RzWUtDam50STN5clUtSl9qdnFTTHdGWTdTdkdnSjR4VXFNNHlib051MlB6Zl9DZ1hfSldWeHZReEJzUGhpN195RW1pTm9VenM4T0tJSzRIeFpNeHlUVlJQaG1BRzlhVjBreE5RQjdpZlNjYkpLTWl3ZGp0Vg?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM3hYc1MtZmNfUXAzVHZPbEVKbjJsQThHTXNVbEsyWDNFX1BpMFFJcHl6V3BOSnZsN1pBZ2JxYjFkdzR6Uk5mV3NCem1SWVFZeFBHRzNVVXdVbVc3SUxqWnB1eU1TalctTE1MUjdRZjV4REhLNnN1d1BnYnFKNUlpNFhfdU85NVVWdnY1dWJfQkl3VVByV2RUVXE4UElUZ1l2OUExd0FLdUw1LXhlNHBFNXVIc0xsd3RGZXc5eGRCN0lJN3Q3SkpCaU5NbWtZS3A4TENEZkRn0gHWAUFVX3lxTE0zeFhzUy1mY19RcDNUdk9sRUpuMmxBOEdNc1VsSzJYM0VfUGkwUUlweXpXcE5Kdmw3WkFnYnFiMWR3NHpSTmZXc0J6bVJZUVl4UEdHM1VVd1VtVzdJTGpacHV5TVNqVy1MTUxSN1FmNXhESEs2c3V3UGdicUo1SWk0WF91Tzk1VVZ2djV1Yl9CSXdVUHJXZFRVcThQSVRnWXY5QTF3QUt1TDUteGU0cEU1dUhzTGx3dEZldzl4ZEI3SUk3dDdKSkJpTk1ta1lLcDhMQ0RmRGc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbkxiWEs0WFkxT0ZEVHBKb2VGMHV4Y3RpTUR6WEtlSGw3VTM3UGtBVzlmTXFiTHotZmlKNFc5SjlPR2hBZ1BBLWxtZTJhb3RMTG9VQWJyRFdmZWU2Rl9pZ3dFWU9DU1ZjOGVGSF95V01nc3RON2ltTDlZRlMxaVdnaVhGNmNpQjRCQi1EQ012OXNlUk1DQnVVTENkRkhCaVduNjd4aEtqNVc2YkR6dzZpU0l5OE9NV2Mzc2Q2LXFUMERIcWZKVlVnNXRR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZGI3ZEkwRkVXWXhoWDVOWDNQQi1ZaXU1RE1BWWxpWlJYeWxxZDdmS0xfRDBVYW1jOGt1Q1NRU3dPZWJVVXpwNEdCbEloN0ZiWHozOG5YaE5yUzlhR2R6dVhoM2w2MWg3ejZoa2RRY3FHLWVMSmQxOHdEZ1A4V0kyVWJrYy04SV9xSWM3NGdQLXFydi1yU2NpWWtiNA?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOS2ZFZjZHam9RTDVRaFRjS3RPdzNGX2JBdWxiVWp5WDBOZDB4eFNrbW1zaklMZTJ2TDlPRmRpaW4zVXlqakN6UGxhOTY5YmJWa1lOVEtKRmxxakF4VXNsMnd3Vm9DZHJKUkFTWkhnanU0Y2JpTU9HWnRlNVRqN1FQWTI5RDZiVWNYU1dHZThjUF9UeVQ1c1dmUnJ6M05HYm0zWUVaNTlxNmE?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORTdkQzFPakpmaDRtNzMxazNQb2FVc3dra2E4d1kwTEIwcVF0TTBnbDNPT0Y0b0pnNVpBb2cyRkd6NHdfRnZGWS1VMmJqY2ZWYk5ZZG16djdVMnNYbzlXdjFJd0wwX05tRkxDZzJUNmxsQnlPUzJLS21JVjZRWmpBSl8yVHMybklUY2RIbDBCMEJnVWh1Vk8xeldCV2Jia1JFMzNLLTlUVjZPekVObDVfbng5VE83eDlUekR6dFRkOTFNR0FsWlJMbw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYnlCLVdremhwbnd4OTRHTTNFUXpTSlozT0pnS0x2Wmp3LXlidHRnR3NsMENLb21hTWF4emJZRVlwSXgwaFh6V3JxZG5SSURMY2M0VzR6RFNaSkVRWmU3bWNiS3dJYWY5cTdRRlBNR212amdKUU5UVjlxT2NKeHlfLUlHLWJiMjJteE1HQ2ZMOExkU3pZc1lsVUVlMW1rTGloSFZJNGd5bUxBbVpwaHl2TDQ3YUt2YWxPWE9aVg?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOakV1R3hYNVlZTUV5RWdPeURCTHdBc0YzN1E5SHF6elMtMDZ4eDVkVWlIbTVPX09zaW0tT3cwZlB0aXNlQl9IUDVTTmlhT3JRdU9TQ25MbXlwYTdfMFZ3LU5ycXlGblR0dEIxT1pKNVVuZ21PWHM3eXRPWDFNNE5qVWowWFFreG9oZG5mc3o4Q3RrN3IwcjZoRERvcnI1UGdzazhuU3BEa1A4X0x1UEhmUWpfMFFRQWZDZmdrUWZzYU4yV2tIVDliYUt2b19SanhUc3BBXzNrR3I?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUDBXS0lIVWV0QUR3bzBHMkMxcWhVRWtmbGo5bjRfQi1obWxaMGJXcFJSU3lMeGdCd3dieG9XdXJEcEptbklvek5UR0hqS1ppV01sZmo1R0hPOFZtZzJVekJQTENueDRneDBoRkIxVUJYNGJFQXNCSnZkeEJ2ZHVPbjZfMVNoZEpORGgxVy1xM2FXallPSkZveUFvY2JkcUYwNHhLZ0VB?oc=5": "2026-08-10",
+    "https://phys.org/news/2026-08-urban-canals-temperatures-2c.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtUVAzMmZPSm5oSUtZa1lESzVhU0lRa2pubXRtRmJhbGI5VXVSd1RmdHhtaFdvTEFuMlV1TEpDM1VuLWc1NFJBV29oYnV2QVhfNFRaQUVFOVFXRS0zMXd3MFJDZDBTd2dDZE9rRzNja1VsUUhwdGdwazEwbjNYRTA?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPenFJenRIZEI4SWY4SWxLUTBXTHZ5S1QzeV9YNTRPbnBpZ2gxbV8wTXVFV3Q2NWJhcTlrVnZma0JnQ0c1NjFxcFhua2d2bDZPd3Ztb1hHUm1VZlAxOWdMOFBPeW04S0h0b2ZIemJNQkVPRkdCRDRNdWVXVlVvbnl0U3NCd2ZtZkJOQldRbFNoUXJlcDV1Wk5kZUF2alQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMWxOUk9aaXZOQkpBNHRfSGs3ZVpBeXZObG5PZ25BVEkzUWYzSWNpTFUyVk9vWnpwbXRfb1NuSVFPczltZlRjZGtMOFdrYm50YVlHSGQ2c1NIN1lRd2pNYmFiUXFKNmwxaHBJZW1JMFRHbVloMkE5WG1YSVNwcWtwdlpmMmxuWmR5SlJqZUF5cHh3OGc1VE5CbldybDNXZ2tZaHFvS3R3?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcm56RGNGQ0NZV1pEMXZPb2pJTnpRekdHRVR0d0JreGlhd3NpcDZTZmc5YXNIQ0lhMlo0dG91VTloQXF4eVFub3U3VU01d0RYb1AzSl9GRGVHNjZqOWVCMGNST0RMT1E2aUNOOTlfbDZldWdlY2thMVpkU1BPSXluOWpIb0hQcHVqSkc0VzRPQktNMHZRc2ZZSnFBOFZFeG12TGRUZks3bnFocUE?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0lrVjZRSjdLc3lSQ0JfU0gyY3hTcjNHc2tsWk41cE5Mc05VUlAtN0tLOFVkOTBEb1I3NS1Fd2NYLVN2OEVSNUtoSkpxSnlVbWgtYXRQZGY3SXAwdkw1WEVNZ3RwakRvbWswYzRMUXJwOXBOOHRwYklaaFJxekdybWpBT2txVFlTWWVBeFc1dldnS2N0blNWa0lpdw?oc=5": "2026-08-10",
+    "https://www.engadget.com/2231708/dell-xps-13-2026-review/": "2026-08-10",
+    "https://therecord.media/new-zealand-russian-hackers-sanctions": "2026-08-10",
+    "https://www.engadget.com/2233312/metas-open-source-muse-glimmer-model-can-run-on-a-single-computer/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVXpFT1NMTENJTERZYW1mMTJiY0NjS0FLaXRvaVRxSy0xZ0o3b2RWRHRtYzhsTWplT09USlRyWFEtaTNXOHNxc3Y4NEJOXzJQbFVHYlFMVVhrTjlRMjdkUkk5a2VXalAzdHpPSkJPWVVTOVdhcTF4UFZaYTFJN2lnNFd6MmpndXcxRjdocjlCNHZLa0dRT3pmdFJ3?oc=5": "2026-08-10",
+    "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html": "2026-08-10",
+    "https://twitter.com/thdxr/status/2086599224674681242": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaDQ4VDVRX0IxSXNZTWxFaGRBX3NJWWZOZTFkOHhUSGVXbldTV09TYnNKSlU0YUtIUGVpa0dCNWF2RDVrVnIxLVVuNy0tQmptTHg5WHFkSW40Zy02dFhhVU5TQnJ1Z0NTekZHUXJScGdtZGwzQnlIdGQxa0MyemxxS3FMQTJqd1doeURN0gGQAUFVX3lxTE02Zk13RGplTnllRDl5XzBxLThTcWthVnY5WjcyMmFjakY5RG9VQVNjVDdwbi1uM05pRVNKNUY4OTNVVkpXMGtXT1prVU40Q0lJTmk4RFRlTVBYUkhhRURwSnhvWEF4NmxPY3p6eU5qeHEzNjRyOXlmN1RKal9FR3dPZUpCV3RoZWhPOWFXMlZfZA?oc=5": "2026-08-10",
+    "https://phys.org/news/2026-08-poles-hidden.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd0pISWNMWEt3aTJ0SjRTOU1YUDN5cEhwX3h3dXBlN3RORXhPUHVZZW5nd0VUOGd6Y2tXbXBuS2F6cWdqWmtfcEhWSDgxbExDdUxzZTdsRWcxdUFweWJlcm5fYnFUYXdKUU9zMXV4dE1NcW85VXRQeVF0ZDNNTGtjQTR1dnh1cllnaDdzeUR4aU5EMS1HazBtdnE0d2VVSGc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNWRBdC1tNlNnUXZhWGtuanY5QlpqSzhsM0JzSW16QlRYc0p2MVRFdG1fV0hBaTdMaEgzQkcxeXdSaEpCSkotemVld2N3QWYxZFlRNlNGNnl5MXVBdWxUVmVoSUVjOUJMc2pxU0ZNZ0RZZ2pGTGl2WENzNUhaMk12R2lEM01FUEEzYmhFREo0NDJqRzJlaVBISmlQZW5ZeUQ2NkpRY3NnNVdSc2U0MlNJNENBeTMxelN6UWxUMTV5eklsay0zM0hR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVmJ2MUVrUHp3Q0FmRlJaNVNGNmNaSkZSdncyZzhXM2RWaEphWTk1MExnLUtuS2pvUE45bWpad2MwZlZJYzkyc0VFb3ZiVUdpUFB6ZFM5S2lmNUN5enJ2SFQxRXo4UVVNUVc3SzBYMVlWQ2lqQjlpN1p5U2p4aWVXRnBuRlVyeW90MU95V0h5VmVRd3hGMjNEVEg4UTBOU0k2?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRUFYaURtNzloVHQ3QzVZMHVGbGtIdUFXbWtGU1R0NUdNRHZmQzIxS3J6aDdCWVU5cWoydHVzNFFfaFF3aHFGbEtrYUlfdjZzUjNIYmNhOTNYemZqYUhYYjBVMnZWVEoyT0lGcHNNMG9id1FqdGY1RWRCZVBxMUVJNzdiWnoxbXpYamVhSHNDZEh1ckhOV0NDYVRNOEZPT1R6QVpKd2tkTE54cTFIcE1rZk4xRllBUlRNN0E?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYUIwQVJDcjlpVkpRUDRCVE1BNXVqTnRJbk9EekFVRmRwOThFWllMUk5XQzVvaVk2UklTSnRKNmtYam9scW1FRExkV2xESXBCRGp1MTZzS1k0M2hiczVodUtzNlNUV3dtWkpBRURRVWJqVzJOOG9VZF81Wm5OMWpPU1RWNUtWQnpEeTNDMXoyNmcxaXlJTkpvQl8yQzRhLUZwOVZoSkV1bW03RlIybXFSaHJZZzQwbERYcGFYSFd1WEhCcHVXU29pag?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeE5xa3RNbXl3M1lMRHJjY3cyQV9xS2RJN2NTZzlxTkptZnNLRjBvUzFQaEVLbGs2a2VrbjJuZnRnd0lneHZBTXplVEVQVnhqRlBUcnVWT3FnaE5XLUxKc252SmNRUzk2bWtzYXBsczlQX0hrT1VfMnhFZGg5aUlaS2ZGRnIycmd4OHo5VEZ2NVpBTXhhMDRSc1A1dm1jZG44X2xreXJ4QW40NEYtWXp4Tk9hM3FMMTNudjhPVTdZa00yaXM?oc=5": "2026-08-10",
+    "https://squeak.org/release_notes/6.1/": "2026-08-10",
+    "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE5iQVNnc0ZEcThHMmE0U3FjdDFDWXhsQl9GLTJ4SVpTTHdtZUkyeWY2dmZ3VWhBRHRSZjdmRWtyZ2RFRWhNc1hDYkdGOWM4OW5sc1FPdGM4MEhDSmk3QjYxc3dSdzVuclZlQ1RGV2R1Y3NqLWhhR1J6dQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxPREwySnFxSUlqYkJvdV9DLTUwT01iVVdOQ213S3NiNEhXc2N6N0Nfb0xBbTBjS2xGTllFMGNFTWRUMlR2SlFDOVB0bmpQU0dyM1FiX0NmbXZ5OGI1ZGVhS3hVdXM0MEJaU0ZCUjBZbkNyNHJaSjc3SDRuREdPQTl2NzN6VHdQeEpYSnhxa2pxVGphVFF0U2tQd05qYw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtJU1JGZ2J6RWh2SENJd0lOd2p3UjNnNXdXVWh0elNvWG1UaFluR3kwRjdZb1ZoYTNoaEpvZlhid2VNeTNnY3hPZ29halJxVUxXU2RseVR2TC04X2ZNZzFUUWNXcUI4bTN5MGJ0MDNLdmUtZm1YQ3FOZU1yc2Rka293MTFrTGQzbDNzdFBGNF9VUW05VVU0OVZBOEdieFM4dWRrRDRBcUxHbW5Kd2t3?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUUlSdEViS2NrWlNWOVQ5a0x2T2V0ZW9lOHl6M3ZKMHNYYmZ2Yi1MbHNORzI0VXFtSFpreEtXeUJaWEF0ZTJ5QTRiSjVBdkYzWldjaW1zODVod19qbDZVcXhaYndOVHlmOEozY282dHFpZWZGanFCTjlFMFoweW5HSGJQNXJiYndJQmI0MldjZGQ0ZFpBNEVSZDZFYzVqRlFJcV9zc1BHUjU2aEYtZ0JqMVBJRXo3UQ?oc=5": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYjRkVzlwbWNPOThZbmdGaEFhcnF3eGtXQnlPSkVYU2R0Z0twV2UxaDZNTy1tZXFjcnlYU01QZFpyWVVseHB4Tk94TTNyYTM5ejJSbzFJYVR6YklOSWU3REt6eWJ4b0d3OHd1d3M2UXNEQjFaT2pyNDB5QTRmcEN1Nw?oc=5": "2026-08-10",
+    "https://phys.org/news/2026-08-drought-war-ukraine-families-kenya.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimwFBVV95cUxOak03Q25EUFhRaW5tTTdLY2pwNVFpajFvYUlhV2dYWjRDekh5aGRYV2VpZ3FBdURndUNuR0hYRlVZZjJUSlVuRFl4RktPZzI0UWo3emhoSWhFT1hMT21lWEV0Rl9oUTFYQVMzZFMtVFRFMm1aSE14Q1JDRG9JT2VyOTA1blVfRm56ekw5STJ0ZmZVRW05SGNNakdfUQ?oc=5": "2026-08-10",
+    "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/": "2026-08-10",
+    "https://techcrunch.com/2026/08/10/google-play-adds-venmo-as-a-payment-option/": "2026-08-10",
+    "https://www.theverge.com/tech/976262/novelkeys-classic-tkl-underscore-edition-review": "2026-08-10",
+    "https://www.wired.com/story/the-outlaw-chemist-teaching-people-how-to-make-drugs-from-scratch/": "2026-08-10",
+    "https://www.wired.com/story/best-portable-solar-panels/": "2026-08-10",
+    "https://www.engadget.com/2232988/google-play-venmo/": "2026-08-10",
+    "https://www.space.com/astronomy/pluto/plutos-atmosphere-is-collapsing-as-it-drifts-away-from-the-sun-into-a-deep-freeze": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOXJnem8zYm9jYTJUS1FBMm5aa1pWTFEzcVpEN3VqNXpVRGw1SkhIb0pCVENSbUo1ZGlQbFJIR2RpRXVwUjNHcFVEYTVURl9reUpocUo1UWpmaW5aS0hGU2pzMUdiRG5pWHE5N3JBcklYUmgxLURwMUZoZHpkWnVYNUVpODAyTENwVktqSjQ1UEJvT3IwczFjZGpmcXN4U0tyQkUxbUV6VkNKbzM1WTcweTM2TEJHU05CdDRNNQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMlJ6MEtwRGVmbjZ4WjJ1eDMzQjNPbmRBX2xSU3lSU2VXbHZkYlo5ZUxjc19aVVhsN3U1WU9kMFB2NXd5Q042T2NXWDJHTnF0a0F0d0RVNUdCd19OYUw4eWFhREN5WVQ2Zm5ldkR0OHEtZm9yTmV3SkdPZ2hCa1NPZ01jQ3BJQlhDdnZsNFZMeVlNQXYwUTI4aXVnNHVZLU9CQ08yYWwyOVBvVTUyQ0E?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMingFBVV95cUxNWFdBMVEtVlJGdVAxWjlvZ1RVZGszSEhxNndRRl9xQ1Y5cFJKa2V1dlR6bEduVm9ZX2RNRTFJLUZHYktnWXIxNy0yY0VPLWlCamx6Wl9xY210WEZGRWx6cWpCRlA5eGZEX0tQaEx4NF81TGozSHR6ZDlSMXNBaUhaWS1LcUVNcHkyWUJicS04UVBpTjJJc2tJQlI1QlZCdw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV2hpbWhJZFo2SGdmcHNsUGVfLW9zdjc3RWxLNmZJckxIaHQ0VHE5ZTFuY1ItODdhWFo5RjN2SDFxUHltYW5XcmdsR0ZwYThNOXppYlNLSmRleDZlN25UQXRoc0JrNGc4X2N1ZGNWbXdIWjZDeWc2ODJKUFE2b0RWQktiaVBHaE0wT1dLWGFaaVpNa1lf0gGaAUFVX3lxTE1xY21lN0oyaFVsRUFST1RJUmQ1SnEyZTFtTERNM1BmLTh4Vk5KNnJyT21sVUs1Yi02VjZjOS1TNzI1YnRJMmZybGhERjZCbjdmUklUQV9Rc24zdFlGQXVoYllLWDNfZzlvalZjX0lUcWczbFdnWnMyMDVvaW9LZnZlSHFNWDk1VU9wN1B4UzEyVDVWQW1vZEVmN3c?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX3JWdzY3LVNHci1iQ29pd0dxTXluUTZUUGFwUlgyRFB3UmhrUU8xbE91cEVHQjE4WktNdUhQN3hMTC1FV0Y5cnFEeVJTQ3h6LTlPZU5sekt6VnFZanJvcXowajFNWnFHaFdYNm1sVW9nX3d4RWdwSEFaRDE2T3hvN0pOU2RpbXVLSWV6eE1idFBNRE1WWExuSHVfQmZzSEtQalE?oc=5": "2026-08-10",
+    "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUjBUSG5UZFlheXVFazhVRHlMVnRuNVVscU80dkhMZ1c5eFVrbjJ3V1d6Q1BCVDZxdXpic2xnTHlEN3RNTnNtZFRocGRLU19md2hVLTAyMWdiOUhYd29EV3RaS2dHVmtrZGIxa05kX0RKX256TDYyMVM5OXpSdGN3djJzemZHcUpPTmExMTFkdW1uY05sZTFJTnE0NlFQZ0Rs?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxPREZOUDFfREUwbkhyREppemxRREJVc04zNTBIYUNuOHJleW1aN0QwQ2NraFpNYU1BOXFmT001NGY1NmdQcVE4WVFtakxMcnFNVDkzOXdWQU9FcnAxSldSeUJrSFBLMnBNcW4ydXUyWFUzZzZfTUI3TlBjQ0NQTmlEVmJUQ1RYWXc0WkpPNmNqSHFIcVVaa2l3Q0VjN25JbUlTdVJv?oc=5": "2026-08-10",
+    "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/": "2026-08-10",
+    "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/": "2026-08-10",
+    "https://phys.org/news/2026-08-astronomers-early-universe-webb.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPRFBYZzlnWHo4ampabUNmZ1FYNlVicUdEOHdmT2VzQWxadGYzYjJMbVdHTkxfMHVFekd2bDU2NG5BOXFvUHdYWElnZ2FGZnZPTW55QXRaLXpaeDJxcnFGaDdHVHVYbjk3TU5CTFVtRGJJMzNiZXV0bVByQWVPWFg1MldfRmF6S3lVSUR1NEtjaHRHYzA3aE0wUkQzSW1xLTlvaDlkV2tqVVNsRFZOUmRmLXRkSEFyYndzZ1JaVl9rbXRqNk11N3BNRDZtZDZwZlJ0amJEcmd6Z21DOEta?oc=5": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss": "2026-08-10",
+    "https://lwn.net/Articles/1034703/": "2026-08-10",
+    "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/silence-polycythemia-vera-trial-results-divesiran-takeda-rusfertide/?utm_campaign=rss": "2026-08-10",
+    "https://www.theverge.com/tech/977269/google-play-store-third-party-app-aptoide-games": "2026-08-10",
+    "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/": "2026-08-10",
+    "https://bytecode.news/posts/2026/08/because-it-s-not-fun-enough": "2026-08-10",
+    "https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa0J2MjBTWnVCX2MyM0VvVkVCOXRxQkVSYmRhN1NmRVh2TFJYeWFTbnVrR2VqZkFJbGxxRXdVeXlXUk5zaUhVTndOQmdXRHpIRDF0c24yNEFEbVRLME93SGc1Z3hXSWlRMGY4LV9HRW5fNVFQczdfcjQxRDFjQ3NuaUlVdi1mSHhRSWl1VUYyeUJTenpHZHY5Wk41UEoyMHl1VzRHOTlMb3h5VWZrRVdCY2ZJVUdOX2taeERZUmlVRklBTGNxNklF?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSFNUZTZWQW1pTlhnU0IyYkdfS3BmZVZDaGFXVmxtakwxVzM3VUpnb0ZhOU5SeVRoNHdZYTJHR21TMXh6SUE0RG9IRENrVDExR28wWXFjWjBCeWw5Vnhvc1pDcUlGSlkwbUVfNndXWEtlb09YM3NCRmR4dW9JVnZqNngzNWlmVlNfbGRwQ0QtTVA0RFZzYmpFODlQbUpLckhPQXdjV0kwY2xseEU?oc=5": "2026-08-10",
+    "https://phys.org/news/2026-08-traditional-cattle-herds-diversity.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81RVloakxseDlMdHlSaFJHRC00YlpxRmtLRDJOeUxTYWdGRVd0WXNweXVIaUVtb1hvM0VUdnQ2VGV5aVlabEE5ekUteGlKWEptR1dncTk4LUdXNkpBYUxR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTY5TTlwdkYwOHlVbjNDM1Jia3BsMkc0LWdrNjJ4dlEtZFgzRkxTdDc2bFRvUnUzMUNJMzlSUjNmellWTWwtVWY2ejBrRG9ETkNOdkt5el8zV1F0a29CU1k3aW9BcXJrc1NmOE9vWVJXT2J0ZEtkb0NHVnVLMml4M2FxMjFBUFhEWDhIVzc3VnZVODU0dllLTVdVYW9pRDd6d3hSaFhsZlEtS2xp0gGyAUFVX3lxTE5OUkxXWmxET0s2MzdDb2RXZklsTnJIb3BtZkZ3c1ZINWw2YmoyWXlZRzM0WmpGdVlidFBSdnNMUUdURlV2Tmk0Q3o1c3ZYZTJ1MnNBVDdnVkxPSVVZNExSXzczV0loZHM2SEJ6VVNENlFEZzBpY21qal9oUDhZRXdjZlNHTzBiRXZuRUQ4TTBrem9yOVpaOFlSQzUzdnBkUmNvc2s0ZTdMMjIxNWVBNlFHMVE?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelFIYWVNTXg1RHFIcHNmLUt1bXFsSnRBbVNYWGJqYnRRWFpSWG9QU2JWcVVBOFpKV1BMZ3ZhYWNxVWxkV3lMMzVMaW51RVVBS1FmS0FjTlQ5azZTbzRTdVFIRUlkZXUtcndIel9fQk9aMlF1QzlCendESWRScXY2aURvblFDdkpl?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWdjR19sNDUtb3FaME5kb0NhOEFYUXV3S29UNDQ4X0pvNE9GQjkxZ0hMSlFjNHVjaXJYQ3lRX2FjNVNQSFExSlRFOG5pMDhwSE8wOHVfb29fbU41bVVWTm1QR0ZFcWxNdWJudTVqcU14eHdzQWFQallPVGtYazloZnBTNUgtdnZNOU5CY044NC1HaWtiM0t0QUtjYlgwbWs?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimAJBVV95cUxQUDRDRVVodkFJMDVkanRweXZ6ME1fTWJmODNvQWJJSnVKT2tKS1VXQzR5WWM0aWxobUFtMjhlQVlRb2daVnNMS3RMV2dORGVqTHRzSnloMDZyTm9iWmc3Y0d6ZVdaTE04emttQkl4WTVRS2dLa2g3WHRzRUkwLVZJT1diUWJBbW5mdHJTT2pYdHk3ZGo5QlNLcHdidU04YXVEX0F0Z0VoYWducnBVV2NYVWFsa2cxMGp4a0xoeVFHS1BVX2kyRDA5cy1ETXhRZ1YzVWRVTTg2OGplcXZNQVFTSEFHbGVNUDhsNVpwRVdJdE1oZzNmVXhYNnFOVXNqSkhTZjlCMDgzOUU1MWdtaUxReE9SeFF6TGZ00gGeAkFVX3lxTE5TWlpscGx1LTljbjM1MGdjdzZ4UEdLVk1wbVVNV3BaRWtBVlR6VmdRVlVPWjRuUVkxSEhJaU5YWWZjdm5IRlgycmZWM2g0Y0kyTDJPZVF3Zk1PSUhaS3NRNm4tbTFIbTUyN01CVGZaYWJ6dW12T0llMjBTVFV1c2pZdlpXVjlpMl9hM2V3aTJ6dnNxSUhXY2lWeVdkdkxVcUtMTlB1dGJWVDh5RFc3aXBtdGJqM01janJ5cmd6WUdubk0yVUVCT2Vja3lVaTFpb1NkNTREa2d4QkVsY01ISktsUmVIdGhBclVfejZNMzh4bERUSUJPLWNsZkozTjJjV0gxWDhTVWIyQkY4aW5pVlBCVHJMa1VzcmZDbjhKSkE?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOGhrbFZtWmxyb1Q4RFE0Z29MV0hxVUpsM3lWaTdhYmNHT1JjcWQxRFhtSFN6TUpSaERUVmlRYmVsS3pocjNDN1d3UDlsa3JWME1JUV9LUy1WZlM1MWF2eEppcmg2Y1pQTmhWdi10ejUwTWwwSml1S1hyRy1rcHJLNEEtZVdDRk10T0hZZ090TE5IQVREYVBlTA?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0tNQmdqYURDUUVsTnRzVXN1a0RIUTN6ZmJ0SVZScWpjWFVSVHNEcU9Zbm5qTFVTaUU0YmJveTRLUm9GLWdrZHA5XzQyVkxwWWZOT2ppWjBGUWdYOW91MDJNWXVwOUR2SmtpTTB4WUl4VC1ZRnhDSTdxeVVGeWR0OHhSQXhOWUx3VGRabk1EbWlkWjBtMHpmbVdZZjRXRlNT?oc=5": "2026-08-10",
+    "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/": "2026-08-10",
+    "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWVhMYVl2b2kzNnFMVGlSMktFUjdnLXd1VUJXWTIwNHNzdzQzVmJnV1V3SnM4cE9SVHdjemowSDZnd2RBdjU0b05TYjRMLUswZWtsdE9RQmZfZzFXWnJrZkFneDJfUGppTWpwRFRYQlZ3UG1NZkFOTDF1ZHlaVnNRUw?oc=5": "2026-08-10",
+    "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaGVnY2FKVzZnTUxTdV9qNG9ORVk4ZmFIRW00cnJQMGF2ZGlHaHJieVVsSlhTU2ZBY3Y0TkZVTnVjTUIxaEpzREVNWEZNa0JwcThiZm1JQ05nZzlPcVFzRFZmUXpJMVdYbzVmYnhQcnVqSGttQjRtamotVzFnUFM4Z3FNaDZfblVyV194NnFRQWNleTlfRUJ5SnlaVE8tTmNKSk9IZkg1QVhnMDg?oc=5": "2026-08-10",
+    "https://phys.org/news/2026-08-greenland-glacier-ice-island.html": "2026-08-10",
+    "https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html": "2026-08-10",
+    "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app": "2026-08-10",
+    "https://www.theverge.com/science/976977/space-mirror-reflect-orbital-fcc-solar-eye-damage": "2026-08-10",
+    "https://www.wired.com/story/california-group-buy-bringing-down-heat-pump-costs/": "2026-08-10",
+    "https://www.wired.com/gallery/best-ereaders/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WeHkta0dGVGJGeGNTRTVtRzNyMC1oQUVkcGluRy1DTElvRjkyTVZFeFpqNS1PenNmd3VxYkx4aW1PVUVTT2xmTnBJRkhHeUk4Slh3ZHhIY2dGeGJpSlEtS2JfeWY5VWE2MmVadmh6VnBVVXNZTVEzc3htMFJMYnc?oc=5": "2026-08-10",
+    "https://twitter.com/finkd/status/2086754845218726027": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPS1VlWktDay1Cc1E0bnBRU1Vhbzk1MFVralZQeVBGbzhxRDlKVG9UREdGdnpzVTJvS0hGSUhIZnpPSDdhRjJIbnBwRjFMaXZfNWpYV19aMngxa3VNS1ZwM0dlbzhfeVhkaUg0RkF3Y0RUSVJ0MU1tMnpoR2p5WDZ0UDNfQk0zZWF4M0p0Q2RJS3hWUUtVbkZYZGZsRWo2SjhzdVZoX21UVVZpRFU?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN0pRbU54RjdrbUNJbkRPSkhMY1AzcHVkQW9GaUZieVBsV0d1bWFNSUNKaklOQUNLNk9FYWdiQVlLZ2MtNUNZb18yZ1lpbUV0OWxENG5nVWlOaktKZ2IzWU8zTTBSMk9Nai1VUFJnRmd4ZUh6aGJvVy1qYjZvU2I4dENxanBxamdabmtDOEtuRXluYTNRNGZrSGYyUTdGbnlVbFl4N0tqYXAyTEczTkxvWnlXMU1uYzZ2UlZxcnVHdTh6WXZlSlJqQm9xbFNWS0tydXRYUXJ30gHbAUFVX3lxTE1oeDRaVnRRSnNCbk1rMmxwU2xmbzRyVlA0aFlzdllxOUlTNkxzQ2EyeFdGemU5cGl2NFFqUmJpM0dic2FJR1pXaGNUMUJXQ2dQbWU0MFRTXzFqS2pZRTN6UVVfcENlN29uR0loOFZ6M2gycVNSaXVIU25rYlUtNXl6Wk5mZmVoWUIwMWYwdkl1MlRCaTBGM1lERkVsdHBJb2VLVS1iM1lKNFlpZUl3MGVFdlhVcUFPWERETnBqcWNvSnllbDJOVGRJYnFFWVF3WEdNVkVPUU5WOTkyOA?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE44aXROa3duU2FaV3N5TFRJbmdxd1BmM0hWcV9oNzJqWm84dkczN3hjaGk5T2NzaDY4a1U0MmpVWE9nUnpGYWRvTkNGNG1oZkZNVUl4MS1QWGNJTU9RazZ2V2pmd1RGSVRDVWRJOHh6dkxLdEVw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFRoeWFJVWJXWHRrbU1pMUNJdzFFRnM4RklGcU5nWkR4ek9RNmU2QnFRVFg0NTBBaEczVFMtLWRPR1pHeENCQmlVdFRQT1Utbzg4d0lQMy1PLURzaEQ3cm1JWE1CcTlXQ2NVZVNyYWJLT3o0Y25XLVdFSm1BT2cweGJYWXdoakttb2JTR1RjZm04RjFMdTlvQTdUWlBwczViYlQzb1ln?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLXhnS0h0UE1SazlYbS1jcjc1ZXdLQ3hQNFFLcUFtVWE1UGZtLW1PQWFWY0x6TW9wRmFINXBmaXlJOThjemE5Q2JtWm1BTno1SERxeDFHMDJCUjhWWkQ5M3lqeEVNUGk2bG9Mem1wOS10S3p1eUVHMUJGSUM2clgtUDNHZWRRVld5dUZ1OXFpbHcxaVNVdWUyWUhJd2ZlekNlZUE0bktBZHg?oc=5": "2026-08-10",
+    "https://www.wired.com/story/how-to-choose-a-camera/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSHhEV1JHeFdJWGxLb1RTOW5BcTlCX2xsXy1WMnAtd3c0c2o4MnJuRjh2a0h6bWRSa1pmNXU3bzZEdXNDWExwRFIwem1jNHFma1dqckIxVHFVb0t0Y3dwSDdaV1FPSDZqNkdkVVBSTmYzTjFqY3hpMy1MWm5zTTh4ZDc2M0dIOEpSdTFBanoyQ3hpaTIwZXc2SDRQazRobEZSWnQxbzJnckF6dEZ6MDlLYVQ5R3ZMTTdld3p0NDVBMFhHdkE?oc=5": "2026-08-10",
+    "https://www.wired.com/story/the-rise-of-the-1-am-job-interview/": "2026-08-10",
+    "https://ethw.org/Milestones:Parametron,_1954": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xMWpJVlAxeHhOb21USlItZ2xPcEZHM0REUmVFMmlpUTU0UnNkNzVFWklUeWJqQkpqaERwUzFNakVwRlk5Yy1QTGhVVEkyVFp1cmZ6T3A2LUc1dw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxORjZPb2U3SllpN25UWUUtamFlbjJzb0VWOWhGUzhzaktLX245dDBVeVQzSEVwQjRIRWlHNWYyZ19JN1oyZGdDbFN2cXVpa3ZYanlFd2RudEJVSDB4c3hOa2Z3UWdCcmpMbGlIalN1WW00Rk1DTDNUcUNiaEp4ZG9ReHZR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUNmLWxickRLU05ySXVrTTR6U2Q4aTVSZExPY3ZaZnhCR01UcUtUMzhMU1c5Q0YwNFFCc0ZRVWpLYWo0RWZHWkhRc3Y2d1lLdDhwbTFNSmRZcXJ0SHV1VUtVWmdxQUZOei1iS1dwNEk3dkhyVTJvSWZiSjl6MXU1X01nQTZjenBZWkdUYmU4eG4tdUk?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JVlBMTnhlaXYzR3FCelNGbFZRQkZZQWVRT0xVa2FfR0s4bzhydWQtdFRoQzdjQ0Y5SUFVX2ZlRDgzN0x2OTZ0ZXpTd0Z0MGxlMFNUeVZHVGlVTU03NTZfWnViemFHb1liN0JFem5NN0lqc2RBbUNFV0hqWGIxTms?oc=5": "2026-08-10",
+    "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipAJBVV95cUxNbGVlbFVVVEc1ZGZ1SUIydEhvQUxBUkVSYnpNcmtUN1J0S3FLS0FUVWI5UWI1SzNuelJrbXFyWHFRUmJhc3RkbWZZN0hoYmFMekNJNm8wRkEySXRjZlgyZDJwQnJRN1JWcFgzRDJPUGFBUHk0R3dMZGFFblA2UW5rNnh6eDJwdUlBeUFfcFV2VUwtemFHblY5NTNoLVNjT3hndXIwdG9rYzUwaE8xdjBqc0N0enRBd2cyWFRrWFZGOVlkcS1lVi0yWHo5bG5sUkEtcl9TdFN4SFg5aEhSbnlVMzZqTF8xZDZNMnJJWWRVc203d3BIYmVuTFhHX1hXQmxrZnMwZGVGV3RTUU4zbTFrR21JS3ZlVFhaVVBtSTEzelpUTUJa?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNXk1WHU4bEp2NmpoNks2VmxFYmtVcFhabkhoWlNFdk5EcTlZUldBUjV4RUJFbm8xbU5neV9TZ0htR2dYaVpHeEZfRE1rUDNiYkNOTVBKanZ5R09MQUFFQTItZEhrVy1IS0N0MnRBeGlSS1phai1CLWtvZk12eC1Eb2JveU5SQXUwX085eDBDWFZzaHhOMlA2Y3lXMGp2bUZJellwZzE4Y2NSNVBwSnRNSEs0VnY1dlVuZW14WGlPTDQyb295M0g4TQ?oc=5": "2026-08-10",
+    "https://www.wired.com/story/best-wireless-earbuds/": "2026-08-10",
+    "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRUFHVzlUTmVWNnBCRU5GTWphbnQ1ZVNrZ0hNRkE5OGdLSDlkd014NGpHZm5XZzBZejVsLTQ2N2dzbjlqTW9FSV9GNXZBMEpaQjAwZHpscnB3X3RTTHR3aVZ3QzBaNXdlLUNDeWh1dlYtMGpCX0FqSS11SXpwdTgtVVF3?oc=5": "2026-08-10",
+    "https://www.wired.com/story/octopus-arms-distributed-intelligence-nine-brains/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbGVTcVlHNE9RYkFXNmdpeXpKM0tTU3paamRaaVdPRzc4QVlyallyeEQyTDNzVmlwNkhJY1drWUJ6Xy1qaUc1WXdySlZ2UEs2QU0telEzN1YtYVUyRF94UVdqTGVMVl9JV1h4anFaNjdaZ3RqNFd4NWhnd0RrMEJvMDVINzUyUnd5RmNISUpRV1o0NVBxRC1tQ3JSMDhVTXM?oc=5": "2026-08-10",
+    "https://www.engadget.com/2233258/future-apple-watches-may-includes-more-screen-sizes-or-even-a-model-with-no-display/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxM0dORFB5OVd6TFJhaXF5RG1faEMxQnBPUjd4NEk5LUNTNTZ6WmQ5cW85NTBrc0k5YzYxMjl0eF9YbXlNdFluWmZEeTFHQ1U1Ymd6ZWE2Q0JqV1dBYlJEc3RlZE1HRndRNk15RVYyOFg0VlBIRjJENzQ4dGpadUU?oc=5": "2026-08-10",
+    "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTRDLUtub0ZkNWo0MDhWX05BMnVoUDBmWWlDeE1vVjNVcnQyMG5uN3lQeEdENHBabm54cUJGVlF0WFFxREkzVFIxOFF2LUZpbjhNaXRNVGdzcG0zSXp1NmVlX0kzTEtnd3VBVGNR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNmsyVGszdUlPdWlnOTlnMDNTLUVsMFdpRzdERVNsUFpGQnN4T2JFMURtZzVjVzF1ZGNVOHIyZWM2bmV3V2l0TG1hRUMzVXVaaTRaQjZGMnhxczd0aE9jVXBNVTREUEJGbTVhaQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVl8xa2lheC1mMHB1Y2xEaTk2MHRjNFMzOFZuUzBrRWVsWURXTWVHeHpPQVBTVW54XzExSk0xRmE3NDMybFZXc1h2ZU94NHNNc0c2VFo0SEgzSHZaYnVSYUl0eEdhb1lSTlFWWHZ6T2dUS25mNUlCYVJmbmoxTjFGaXhMLUhqdlF2Tl9OY3ZwY1dQWnRn?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQamhtTkZVMlgyZkhnQlV2NF85LUZWaU1sTENoOWlyRDI3WVJKY0x3NTR1c0VNQXNBNnhfMWdDZTJKLTd1eVIzZGYtUFc3QnN4M3BjLW5Ralh3QUp3SHlZXy03S0xhWnIxblByVGtlS2VqbFNOS3cxZVBSaFJUUUtXWlphY2d2QUR5T1Y4Mk9LVUhRSlpJMEc5amEzZ2Y2VkJaS3Q3MTJ1MkVvSzdzZldaZ2VqUFBaelBqajR4RlhQNGY4V3pIc19qMWo0ZWFnaDV0emlVMnNwTQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHY0cTloM2Y1blQ4U0tWZTRlU0RPR1gwVFdjenpXMHpFNkJWN19GQzZQcFJCQkd3a243YjdMdklFQUt3WXJFRkdMUnFfVXRGN2REUGktdFBqcU9MNmRiak00by1DNDBuMEEyR2VWOGlDUTVna1llRFFMUUQwMWRpaFhtRkZfX0M0cXN1UWJCRlpGLU9MZ2h1eHlRUUNsbTlacXBoMWJMNXc?oc=5": "2026-08-10",
+    "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/": "2026-08-10",
+    "https://www.engadget.com/2233237/openai-slows-down-astra-development-due-to-cybersecurity-concerns/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxOclR6eHdBNklxOUN5MUlGX1RHRVlLMFgyU2ZHampvNXQ1VWM2Q21sdjVlYkYxdW52Sm5xbHQzQWUzVHZibnZ6X3ZBWFo3UDFtMHFwdHZZRGpsVFc2VEVydHVuZGxkQzd0eF9tUVF3TklsMFFIZ3VLVFgyV21zQ0Vnd2s2aFU0Vmx6bE5sZWM3TzRuN2w0Nm9OZ3dnMzd4U1dkaGNVTTNIUm5Ccl9BbExFUnJSNzIta0hLZ2c?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcUNkUjB4Z1lZT18zeE80c1hINFphT21oYTd0eUdrM0JzeUcySzEtUU9xaWdpU0doeVdmOTNkRlQyZEgyM3RXUzhycE02MWhOb05UTHlIX0tYZ2UxRE9FSktoVm84Rll6VFBFQkxNOU15QUcwejNaZk0ydTQ2U0w3UHJvdm1UZUpYWFFJNGs3eTZMdkZqcV9zbXJ5U1dFdHJBQXJDZEN3Slkwa29UeXfSAbMBQVVfeXFMUGF2bXRPYVJzWk9helZrRXNLbm9GblZzNUlETmt5eW1mcVVUSDBISjZjUjhiOFlUZHNNYjZWc3FWVlcwa2pWb092LUd5bTEtUEc5ZDJLM2E4NHgxek5Vd1RSQ2ZEUWhJRGlMbWIwSWZuZ1lDMHptSkdWQk1wQVk1d1FjTW9rRUEwNENXTjJSN3JiVkNtZWwxR1BCbXJramQwcm5FV2U1MGMwX3BkMnEzV0thQWM?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemhYelZlbmhJajAxR1hUSHk3czgybWVvel9fVUg2VUs1RmtGWmh0VVRJRGFUay1pWVdwUkoyTnZqazJiZWZlOGU0NHhCZHNESExCNmZBNFEzSWtWcFlkZTNQRW5BNmJRU2c5QWRrenEtX0g3RlVsV3BfLW0tTEdVSw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNkpEM1BlSlZXSUZmWnBXOU0tcGVCb3kyRWpQV0gtR3VVR3JraTVKdjYzemxKeS0wYVFYRmplNDlxaUVEU1JsVTJfTVQxZ3Ricy1Wa3dwTUxYWjRrYnRoX0NzQnoyX1F3aEIxVnJWbk9VQkhGNHZFQjktUGxXU0NHd2QtQjZEY3F2YkFFNnNxbTQ1YV9BLVhianAxLUw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE16dXRPamhmN0VEM1B6RVgzSG9aaTJBWmkwS290RGZxQlBFNVF4UGVCNjl5RjRYYjRQdzBzX2ZyVk1wUTZyUlQ2b3o5TGloQjc1enF1cFZ6aUp2QXp1NXJQXzNKU0Z4NzR2ZlRlMTB6a2ZRSTBO?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxOajNSZXYxVl93dEdzanp2bnBFcGFFOF9Rb1JEQ3NDYkxfMllKa3pRUGJsRjhYNkxmbVRoWFhhdDlFelFHbWRzTWExUmc1SkJjYW9xWUxMUXRGVGlNU1NhT1BnMkoxWG1xdzkyVHd3ZGZhYURTWUdUUnBYQkt4Z2lxdWxaQ25vYk5lRDV1ZjBuQTNCWU0?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRTQtTzd2S1RCbGItZWp5RjVZSVNTNnpyeGV5bjhveDNUZ1pfY3BFQ1Noc2hTd2FtU0t1LW5EZ3FIVFNLSlV2WWZCbWFuYklUYWlRMDJKUWRTTnJYN0RoR3Zzb3NrbllMcHFLang4WnlueWExVXp0U0I3QjdaMjRORi02al9CTHdZQ2tKWHF3aWpqWUp0YTQ2SW9BNnh3d2ZNR0EzNURhM2dFUdIBrwFBVV95cUxNWmNzVlRSWFBZVkxJMGkwY1NQUVJnYUE2OXAwYVJ5bWpqUnh1ZW5pQmU1VEk3QjdGZWhUNTdtb0E5MHNXS2YtZ3B2TXRLZDFNWnhzRjJaR2hDVVZtdlBVU3VmQnM4UWI3cV9iNmdCbnpKQ2JSZFlzbndIQkYxa2UxYTluQ3AyV0I3b2VvTTI2d1lFZzBQZ1B4cXg5Ykp2b24wZjhKcm5iWXhvb2VSS3M4?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOU0k4NHVBb244bkxBaVFMcnNIUm1tbkxtbXNLYmJ2WGJGVnY5a0dtd3ZCbS1RMlNVbTlKSW9DNUc1cENfUFprNng1YmtyeXRWOEd3Yi10azZ1aExYZzM5SWpGejNYM1hKbG4xdXF1X1dqM1M2aDJoYjlWaXJwSEhFTnlIdXBtNmhFOE94MWY2dG8tZEF1RWYzYVJoYklEOS1HQzR1cUZzRkNCT1l5RVp3WjY5T3VKaFYzQnBBd2VHTUxBS2ZUWS03Vnd1SDgyN2dnQzR0S1hBNFBBVGNWcC1kTk1SejZFS3BKLTR2clBkSTNCemFqRHA0QTNR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMieEFVX3lxTE93Ty1WLWJ0bmdYNmZuVnRYRi0yam8yTFE1TzVJam1JZjhfMHJnekdXajZjYzlLejFPX3FiZVNnT0lfTmZFUFk1YkVCZG5jVnl5RkFSc1h2SFlnekRpZWNrMTAwUExld3BqVDNoa1VJNkYzWE9qUWdwTQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQOEJpY29ZWjRWVU5SX20yYlZSZHkxTl9BODB4X1Jua0VtNnZWbVFzSzkzSHVBeGRiTTFiTVNvMkNuOWwwdjBQWUIzLUZVZGx1eElJUkFiZk9IRVprVkY1VnVqSUJMcFA0d2h4V3FWSEpyTHVsNEoxczR1LVJGUHhVbEtLVkhVSHVlOXJoU2lVRTJ2dUhCYVI2S3RmUzc4UlhUZ2RRVVFpTzhPOUg4TEJXMTQ3UFZsakdQMURTZGFEVC1UY01RaHNDLTJ3ZW9OZFI1SUFyMUJBS2o2Y09nUHByMnEwdTRaSzJfd1ZSdm5OVEFDSTJuUGdr0gH8AUFVX3lxTE1yTVRLX3FVRTV4YXJBTDF4NlBqTW01VFNNeHVNbzlwX2E4dHI3SEZzRm9ZNG1qd2did0hHQ2Nkam0wSHl3VW9MR2pUczVRU3U4Qk5xNGR0OFJtdGxmT3pZUHdOYUdMQmRpX3dHTXBoSEFoZWhjZXdyY01vUnlOSGdkSmdxU2FiTmJwZ3dPbXFFSDROWjJOSmhpZEEwWXVDeXhmRFRERFVTUHl0cjRpTlBtUU5ickVOenJoTmxmamtxLWREMW92XzBuR2ZGQWxuanNXTzQxdnN5MGZndXMyejRROUxyU2RMTmFIaWpDb1llRHZuUUxsOUNPWVhzTQ?oc=5": "2026-08-10",
+    "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamN2QTNSbFF0YnJEbUtDcUZxcmtuOTl4S2dNSVNhRDVqakEyUmc2Y1duNU1SS0NwNjZPNzZXTjJRYWR2RVNlVjYwLUprUGhhMmRGSGFWeDV1Y1RhWVZRTkdGV25xdXpoZ3Y4YWlGMUFnNVFPbEdHZjhuZDViY2x0LXV2RkRUM3hGSGFoQzVxRFc5Z2FSYUtsWjRXQko0SElOajhoeHY2VG9SaEk?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qeXZTVXhMYktXdGdmU0NWSGpQMEd5MEpZM1E2WkZSVkJHQVpwT2hqSlFRS3luMkZ5bXBWMEoydUlMTjFwSmFZTG5KdzVWd0Z0QS1hMw?oc=5": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/china-biotech-new-scrutiny-investigator-initiated-trials/?utm_campaign=rss": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/ebola-outbreak-zaire-ebolavirus-bundiugyo-diagnostics-therapeutics/?utm_campaign=rss": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/radiopharmaceuticals-clinical-trials-progress-setbacks/?utm_campaign=rss": "2026-08-10",
+    "https://www.statnews.com/2026/08/10/medicaid-work-requirement-changes-states-contact/?utm_campaign=rss": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQUFZuam00aGNabTdXZjdBOVNUWm8xc3NTNXJhdTlWUTZ4d3B0dzNScUtKNW13dUJ6WDVfVGppeHg5OUNyTFRDeUlKOE1BZ29ZMkJZcG1WdVNVU1ZScmxJc0tGeTN0X0l3QndKYkxPUTNVWFI2eTZodmo0MzFlMkUxOEIxbXhZZ3hjSVRXdkNKNlNhMHdmVEt2ZTVOTGI3dl9uWVkxSXhhQ0JUSUhVNE1CdEhUVVd1QWV6c3VDVk43bTBrSWUySF93S0VVcnEzTG9tSG9rVzNxVQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR1FyQ0FfdjhlbERFWktMUDNIQU1TbnItblhtUWVPWGd2SXlQVHRsVmlCbm5vV0NkaGtlQ3lRdEJKdUNrRU9jRlJya1RlMnVubU1lVjZBTHlGVzljb0NxOG5lRUx5dndzWFVpRk5jZndWdENRNWNENFpodmlveFQ1X1FNZm80NzRpeFZacWxrNm5Udw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMEo1UUV6Z0Q4elZZZC1VbG1obkQ1d2FlaExiSENkeWR4ZTdnbnNMa25oSDFyX0hRekhoUGJtMzh2YUxJNzFBMTV1QVcyOVRLS0dJcjBWUm5FWGxYNmRwRmp0cDlUV2dDV2JEUmIxcHEyVnpicm5HUlJ1NEc5Nlo4WVY0OFlzN0RfM1h2YXRsTTRaTVMzTlRqcVMxdl9BR2Nr?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMif0FVX3lxTE8ya0FBdmhGQlZKaDBjSVpjdHgtM1U1aFJzdXRoN2c1RjN1SXhxZHB0MThURVdDMXVhLVppU0VoVmR3a2JENlVISDFuejJUbkdwYVd5UjExVHo5RTZiX3Z4SjlJX1VxWTR1cXUxYUpBQ01BV25uNWthMmQtbkFnZWs?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSkhNMm45WkRjemZHYzJWMC13WlctdUVmUUVwV085NVRhZzc1ZTJsbTZQOVpCNnZzU0l3SE85bUZmQWtXRTZQQ0VGTmJEaldiOVlHWTVtX2FtdElxSGMzV2MydWNWdHVxb05VaEpXTHdxSjM1NXpvTjhma25KTVRod0NjRU9CZXh6aHZacG4zc2VRTDFuMENxLUZ0SWMxVnJVMEtmZ1p3Q29JSjdwUjZveko5YjZmbFEzQnhhd0IwREtJa2d5NDhHc05oMWdyQW8?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWUJ4OU0xOVF6N0NEQWpTMUdEdFkzTzIwU0UxU2plV0w1X3IzTkUxck9ZdjRhcjFzN0plTEVuRVVxOUd2LUVBNXhmWG1JUUZYbENEVmVrRVdKeV9LRmxGNHlkVUtHWENfZXhURllGOHJmSjJ3N0NXcVpnRUEzZ0pkVEFqaUJKWFg5WVpHSVhPMHNfcUtrUTBMVVZxNEhKRzYyVlAtbzhxUGpxZDBtWWxEd0c5dDNTM3pXQ25yZXAzNTJhM28wSUFkWVZiQQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMikgJBVV95cUxPaEtsNV90TEhOZ1g2cHB2T3U2VlRXUFBLYXhFQWdxY19wTDFVbEFUMGhxcHBXaEdwcWtRRnlFdE5senh3bF9UQkZGa1FEQng1WGp4Sk9WT2t0MkxkWXoyZVl0ZmhXb3pfbVNkV1N4X2RfWmtseW1ISE1aOVdpRXJCRFBqbmw1M3o2R3hRQl9lYW5lcTctbkY4bHpwdXdRSUg4aFl4SG1OT0RmTkhFbGsxTkVmOUtIVWF2Umt4cWlIZm55WUZLb0pHb2M1d3F5eTFDT3hWSWpqak1nQXlmdnY1eXZXM3ltLWpEMU5iSG5Cc3VCaWVlemlVbDV0NjZmc2Zqc0FhQjY5VGlkckxtb05XcWhn0gGXAkFVX3lxTE9JMklmYWpEckRIX2dheXh6djhBU2tzNDZ2RmR1RzFOelRXRHFBN0RJZEp3bjZXN0lHMnA5dnAta3hwZDVVSjNoU2NtMVlOQlg2dTViRVpJUWZuWURkdlFWSk55YlZvcVQ2T0g1cldJRlRSZHlhWUhKTUstSFFVVV93b0g3UUoyR0t5M2RNa1pSbUs1R2ZwSzlGSUw4SmFLcE00MFp0S0E1dWhxYkRNcmtTeTFrNzFrVVEteWtJbHBKYXN1d0J5Sk95NFR4YllDQW10ejQ5cGwwbFRYTkFRU290MkZfNlA5MU03V2FVc182azRtUV9Zb3RvZi1TR3NHajZHTTZmU2lvS1JxcUZNMGVCT3ZqN2JORQ?oc=5": "2026-08-10",
+    "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html": "2026-08-10",
+    "https://www.engadget.com/2233213/the-fcc-wants-to-ban-drones-with-lidar-that-it-previously-approved/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR3lQMVZYV0lrMnJHMXlkMURaVHhmdVFEeXR5NldzWlNxNlYtc2d4RDZXWnJYQkxHbkV2RGNmU2N3QllGR282YjkxU0RmdjJ4enAwQy1iTEh2NHBfSk82MU9wTzRKN1N5Ui1ISjRjYWdaaVFjV2k3NnlNQWFiVmJYNXVNaDM3N2Q0dGlKNVZYUmthZnlRNjdIanFzaHdmMEVoUHF3d0tocUhsNDFyRFJPWWlvUUZyTE0?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaDJ4QUJwdmtvMmFkNUFCdHJvdEZEWmR5MWlNYnliVlU0R1FsRm5kVzM0bHozaDNmVFdCVGlzejFqbmF2eDQ5SVFPdUwxLU52R0VwVUh5WWRhRHVxVkpMSHl2aTFhazZqMjZtc0ZjbHFjS2FTV1FnVWhMdVdKQXgyS0VBRDlBekczZWl0RGN2OWJJeEN3TzQ4Z1dHTFB3anFMc3RPR1Q4VzcybW1LZVhvb0J3?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSkNCWFgxM3FCMDEySldxS0EwT2JYSFNxcEZWbnhicWp1aU9GUUF0LWZjQ1VvSXJ6eWdSd1IzV05IZWhCMHJ5UzQtNHF4OFpDRWFFUlB0LUw2RnpzMXVNZm5qQjhObjI3UDVOWEpFNkVhZGxBc1A1RkFrWTBoRFFmYzgyeTZ0N25va3dmNmlhcjhMVUJWU0lyMVp1RW1YUEYyM2R5Z3RzOE8xc3hyVTJteDFnN0N6cmx5VU1xbGFNT3BNTktES2hjNmZpUFltUQ?oc=5": "2026-08-10",
+    "https://www.space.com/stargazing/auroras/could-the-northern-lights-be-visible-during-the-total-solar-eclipse-on-aug-12-maybe": "2026-08-10",
+    "https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcFlLNnBSNVNlVHZJU3JUNDRLcE5JNzJvWF9GMm1rYmc0dUxKdDFzWFdaNkFieEZ4WExCWG1XR3BPeHF4Q1VWS1VXRXRjMURQa0xmZ1dGeXFsZVNTQVc5aTl3a1NCTjFNbkdTOFpsZWJiZVpHUENHcTNTV3VEQlNKaVhldmRyck5VNW5MUHRIVXF5djBhWmhTazBadXZJbXpSblI1Y29B0gGrAUFVX3lxTE95REt0d3BsSE5DOERybkd2bWgxdjFrUUsyQkRoSFhRZm54aW5FcUpDQXQ1dFgwS1BBT3d3X0dJcW5hcnluT2ozRDRhamltdnZmUVQ3c3BSSFJES3luZTdfVnoxdm1OTnp6LUJ4R004bzU4ZnBQVE5qcGxqU0NGVjMtTEFtdjNtcnh3NnNrM1ZTMm1Qcnk4YmVPUEdiSXF0X1h5YVlrUC1fX1N1UQ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mY1J2SlFBM3pwU3YzSUFhYVI4czNsdFE5RlNWazROdWtEanh1aHpVcy1YRjA0Zi14SHFLVVFkN1NfcGQxYnJIMWcyQS1QT2ZlVkFGdlhqaUVOaXdIUzNfMW84bG1PQldSNTdlM0I5U2RvNW1HT1E?oc=5": "2026-08-10",
+    "https://www.docker.com/products/docker-sandboxes/": "2026-08-10",
+    "https://www.wired.com/story/space-agencies-trying-stop-astronauts-losing-sight/": "2026-08-10",
+    "https://www.space.com/stargazing/solar-eclipses/what-time-is-the-total-solar-eclipse-on-aug-12-2026": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUZpWS1WaE9XT19QTmNOaTU0QkVYTEZ0NHdrNlZYTWVVdU5xalZNQTd5eXhWMlVQYWxELXBYOUlkVzlEbklPU21VOWdUVHpYQ2ROYXFfZExzSXFPVU51aVBGSHhzV3hza2R4NE5ydzF5V2Y0ZjkyY2xaeVFuUHBvRG02UVl3VGlCZlRGeEFSaG1hNnQ2M1Rpa0EwV1Q0eHE4S1lpbXYwajl0VEZYbXdF?oc=5": "2026-08-10",
+    "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNamsxTVFQTTdXZHI3Yk9KUjN0ZXE4Si1CNjNOQ29NejlrdzJ4M3VmN3JVVl9sMnRKQXM5Y3AyRU5xZDAySnV0UWwtbnRiTlBpYmNoN0dsRFhCUXFRblZGNUFwOFkwMFVVRHNOcU1GVVcxTXdGcl9DTHBoSnZieV90MTNQX3JKdXIzS1locGNFa2JJN0E4VzExenBKUWhvaE1na3AyTG5wbzRkcW9YYTRj?oc=5": "2026-08-10",
+    "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQjVNTk9TTVoxcVExRXJKWVM5ZUdUYm51TWw2V21XZWQzRUxObXJ2OEptcWJNSWxNSTQxMUlYTlJqX3kwNUR1a0d4OUJDQUl5NzNOcDMxUWJDLWtucEUtYTl1UTU2Zi1QMWtBMHNmMG9IYk5PQkl6SGxpTUp3d1dZc2NadDFsNmM2dG9vVzRvSGZ5eHhIbUxxWWZja1QtVHQtd3VhaTZBTjY2WGxWd2QybmhHemRuUzBac0dLdXBjVGpsTWhoVWRPYUFUSUtzZFBrN2ZCcVRJSdIB3AFBVV95cUxQQy04aFB5VWtZREdSRXhzUEdqc1NzTE9RcEstMnV6NHM1cTRiRlhvV09qU0lMb0dfclN6SkR6dzNmYnFZSXZXRmFtLTlwbnBHTzdBb3Bpcm9oQlJFUHNvSTBiTkcyVXVqVl9uZENkdnd2aEplNFBXOUVOLXVSQ1VJZmpxcm9xQUN0WElmbklqckRKQVRUdzRkTjNxaGpoQmNxRDE5alJBeEdvakd6N081R25hdUxReGF4aUlzRktIV1RLaWtQdnhMbFE0NTAxMTZRMEc1NDBNMkNlOF8w?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUx2TnhJenhtb1MySk5mQU95cjI3S0E4Mzd3SGpfQjEyZlNjUUVreWduUlFCVEhkVUtPSl9nZUFnejg0cXhCak53VER2LTRlMFRyTjRpQWJvZ3pya2QtaDdjTnlKbXJtSVh6OW5PRVVSSGJJbC1WUlF6MFJGbU5qQXFfRUt0VlJ4MkhRRXc2U1RydzFMNFNYRENDY3Z1a3Jv?oc=5": "2026-08-10",
+    "https://science.nasa.gov/image-article/apod/apod-2026-august-10-three-galaxy-pairs/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcmdaemU4cm5FRk5DTjdmdWxaZ0xnM0FmNFlCaEtwWUhZM2JkNkRNSFNHRDEybDZMa1Vzd0VWRjlyNlFRWHBMWnF1bnBJenNET1ZPUG1WTVFraHhzdXN0Z2dXQUtrU3B2R1dOcmplbnVxb0VUUUdPZzN3Yy1iZ3JjNVRVdEc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVUFrTEtMWURDOWw4Qm1udXlERnZpXzJfcktFaDlJWE5SbXNFYThTYU81WGNENlVacDd4bVRfUWV6UUxHaVhZc3J1SnRGVVNuMkVJSTJtcWlycjNjWkFqUzZTQ3VLaXZXOFVraVhjV29mNVJTT3Vtc29INWZ1cWNCbmRpam1IREFvQXE5cUlR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaTByU3d3cloyV0g1YnJSRjBYWGRjamt1WlNHeG1VV2dOUHBUd3NrX3UwQnZ0NERxR2xQUjZJQlNfSlM2Mzcyc05kWGpPMGQ2YjhNcVNTbDBsOVNTSy1pZnc4ekJyUzNFUUtrREJLOFJBMWVta2dqV1A2WTBzVXotcHlkN2VZZmV3Z2hfenVNYndEZ1ppRnNkOWhWQmE?oc=5": "2026-08-10",
+    "https://science.nasa.gov/earth/earth-observatory/el-nino-alters-marine-life-in-the-pacific/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMihAFBVV95cUxQU2Q0U3k1MEdNb0NuLWM4Zy00d0w2elh2RTZ4bHFLQ0VmdGUwTWZCSFdxT2g0TlVlUlpCTUZ4dVdHbW8yV2lqM1hFaDhfUHRwdjBScGtXRDNyTlRlOUdKc2RvVkEyMVNRc1Byempfd0E2N01tQlNWOHJRODFZODdqMThMR3c?oc=5": "2026-08-10",
+    "https://arxiv.org/abs/2608.06396": "2026-08-10",
+    "https://arxiv.org/abs/2608.06409": "2026-08-10",
+    "https://arxiv.org/abs/2608.06425": "2026-08-10",
+    "https://arxiv.org/abs/2608.06429": "2026-08-10",
+    "https://arxiv.org/abs/2608.06485": "2026-08-10",
+    "https://arxiv.org/abs/2608.06495": "2026-08-10",
+    "https://arxiv.org/abs/2608.06506": "2026-08-10",
+    "https://arxiv.org/abs/2608.06526": "2026-08-10",
+    "https://arxiv.org/abs/2608.06529": "2026-08-10",
+    "https://arxiv.org/abs/2608.06532": "2026-08-10",
+    "https://arxiv.org/abs/2608.06539": "2026-08-10",
+    "https://arxiv.org/abs/2608.06549": "2026-08-10",
+    "https://arxiv.org/abs/2608.06589": "2026-08-10",
+    "https://arxiv.org/abs/2608.06607": "2026-08-10",
+    "https://arxiv.org/abs/2608.06614": "2026-08-10",
+    "https://arxiv.org/abs/2608.06652": "2026-08-10",
+    "https://arxiv.org/abs/2608.06663": "2026-08-10",
+    "https://arxiv.org/abs/2608.06672": "2026-08-10",
+    "https://arxiv.org/abs/2608.06718": "2026-08-10",
+    "https://arxiv.org/abs/2608.06750": "2026-08-10",
+    "https://arxiv.org/abs/2608.06758": "2026-08-10",
+    "https://arxiv.org/abs/2608.06785": "2026-08-10",
+    "https://arxiv.org/abs/2608.06802": "2026-08-10",
+    "https://arxiv.org/abs/2608.06819": "2026-08-10",
+    "https://arxiv.org/abs/2608.06849": "2026-08-10",
+    "https://arxiv.org/abs/2608.06394": "2026-08-10",
+    "https://arxiv.org/abs/2608.06398": "2026-08-10",
+    "https://arxiv.org/abs/2608.06400": "2026-08-10",
+    "https://arxiv.org/abs/2608.06402": "2026-08-10",
+    "https://arxiv.org/abs/2608.06410": "2026-08-10",
+    "https://arxiv.org/abs/2608.06411": "2026-08-10",
+    "https://arxiv.org/abs/2608.06474": "2026-08-10",
+    "https://arxiv.org/abs/2608.06501": "2026-08-10",
+    "https://arxiv.org/abs/2608.06530": "2026-08-10",
+    "https://arxiv.org/abs/2608.06544": "2026-08-10",
+    "https://arxiv.org/abs/2608.06578": "2026-08-10",
+    "https://arxiv.org/abs/2608.06609": "2026-08-10",
+    "https://arxiv.org/abs/2608.06621": "2026-08-10",
+    "https://arxiv.org/abs/2608.06632": "2026-08-10",
+    "https://arxiv.org/abs/2608.06657": "2026-08-10",
+    "https://arxiv.org/abs/2608.06659": "2026-08-10",
+    "https://arxiv.org/abs/2608.06668": "2026-08-10",
+    "https://arxiv.org/abs/2608.06694": "2026-08-10",
+    "https://arxiv.org/abs/2608.06699": "2026-08-10",
+    "https://arxiv.org/abs/2608.06704": "2026-08-10",
+    "https://arxiv.org/abs/2608.06713": "2026-08-10",
+    "https://arxiv.org/abs/2608.06714": "2026-08-10",
+    "https://arxiv.org/abs/2608.06727": "2026-08-10",
+    "https://arxiv.org/abs/2608.06732": "2026-08-10",
+    "https://arxiv.org/abs/2608.06735": "2026-08-10",
+    "https://arxiv.org/abs/2608.06417": "2026-08-10",
+    "https://arxiv.org/abs/2608.06420": "2026-08-10",
+    "https://arxiv.org/abs/2608.06422": "2026-08-10",
+    "https://arxiv.org/abs/2608.06427": "2026-08-10",
+    "https://arxiv.org/abs/2608.06428": "2026-08-10",
+    "https://arxiv.org/abs/2608.06430": "2026-08-10",
+    "https://arxiv.org/abs/2608.06441": "2026-08-10",
+    "https://arxiv.org/abs/2608.06448": "2026-08-10",
+    "https://arxiv.org/abs/2608.06486": "2026-08-10",
+    "https://arxiv.org/abs/2608.06503": "2026-08-10",
+    "https://arxiv.org/abs/2608.06511": "2026-08-10",
+    "https://arxiv.org/abs/2608.06512": "2026-08-10",
+    "https://arxiv.org/abs/2608.06516": "2026-08-10",
+    "https://arxiv.org/abs/2608.06520": "2026-08-10",
+    "https://arxiv.org/abs/2608.06545": "2026-08-10",
+    "https://arxiv.org/abs/2608.06554": "2026-08-10",
+    "https://arxiv.org/abs/2608.06559": "2026-08-10",
+    "https://arxiv.org/abs/2608.06563": "2026-08-10",
+    "https://arxiv.org/abs/2608.06564": "2026-08-10",
+    "https://arxiv.org/abs/2608.06582": "2026-08-10",
+    "https://arxiv.org/abs/2608.06595": "2026-08-10",
+    "https://arxiv.org/abs/2608.06628": "2026-08-10",
+    "https://arxiv.org/abs/2608.06630": "2026-08-10",
+    "https://arxiv.org/abs/2608.06631": "2026-08-10",
+    "https://arxiv.org/abs/2608.06637": "2026-08-10",
+    "https://arxiv.org/abs/2608.06404": "2026-08-10",
+    "https://arxiv.org/abs/2608.06406": "2026-08-10",
+    "https://arxiv.org/abs/2608.06407": "2026-08-10",
+    "https://arxiv.org/abs/2608.06467": "2026-08-10",
+    "https://arxiv.org/abs/2608.06490": "2026-08-10",
+    "https://arxiv.org/abs/2608.06580": "2026-08-10",
+    "https://arxiv.org/abs/2608.06599": "2026-08-10",
+    "https://arxiv.org/abs/2608.06612": "2026-08-10",
+    "https://arxiv.org/abs/2608.06613": "2026-08-10",
+    "https://arxiv.org/abs/2608.06673": "2026-08-10",
+    "https://arxiv.org/abs/2608.06674": "2026-08-10",
+    "https://arxiv.org/abs/2608.06691": "2026-08-10",
+    "https://arxiv.org/abs/2608.06712": "2026-08-10",
+    "https://arxiv.org/abs/2608.06717": "2026-08-10",
+    "https://arxiv.org/abs/2608.06751": "2026-08-10",
+    "https://arxiv.org/abs/2608.06768": "2026-08-10",
+    "https://arxiv.org/abs/2608.06769": "2026-08-10",
+    "https://arxiv.org/abs/2608.06773": "2026-08-10",
+    "https://arxiv.org/abs/2608.06784": "2026-08-10",
+    "https://arxiv.org/abs/2608.06794": "2026-08-10",
+    "https://arxiv.org/abs/2608.06801": "2026-08-10",
+    "https://arxiv.org/abs/2608.06832": "2026-08-10",
+    "https://arxiv.org/abs/2608.06836": "2026-08-10",
+    "https://arxiv.org/abs/2608.06841": "2026-08-10",
+    "https://arxiv.org/abs/2608.06850": "2026-08-10",
+    "https://arxiv.org/abs/2608.06434": "2026-08-10",
+    "https://arxiv.org/abs/2608.06481": "2026-08-10",
+    "https://arxiv.org/abs/2608.06488": "2026-08-10",
+    "https://arxiv.org/abs/2608.06587": "2026-08-10",
+    "https://arxiv.org/abs/2608.06648": "2026-08-10",
+    "https://arxiv.org/abs/2608.06650": "2026-08-10",
+    "https://arxiv.org/abs/2608.06688": "2026-08-10",
+    "https://arxiv.org/abs/2608.06707": "2026-08-10",
+    "https://arxiv.org/abs/2608.06729": "2026-08-10",
+    "https://arxiv.org/abs/2608.06799": "2026-08-10",
+    "https://arxiv.org/abs/2608.06827": "2026-08-10",
+    "https://arxiv.org/abs/2608.06830": "2026-08-10",
+    "https://arxiv.org/abs/2608.06833": "2026-08-10",
+    "https://arxiv.org/abs/2608.06847": "2026-08-10",
+    "https://arxiv.org/abs/2608.06898": "2026-08-10",
+    "https://arxiv.org/abs/2608.06907": "2026-08-10",
+    "https://arxiv.org/abs/2608.06965": "2026-08-10",
+    "https://arxiv.org/abs/2608.06991": "2026-08-10",
+    "https://arxiv.org/abs/2608.06994": "2026-08-10",
+    "https://arxiv.org/abs/2608.06996": "2026-08-10",
+    "https://arxiv.org/abs/2608.07002": "2026-08-10",
+    "https://arxiv.org/abs/2608.07004": "2026-08-10",
+    "https://arxiv.org/abs/2608.07005": "2026-08-10",
+    "https://arxiv.org/abs/2608.07045": "2026-08-10",
+    "https://arxiv.org/abs/2608.07065": "2026-08-10",
+    "https://arxiv.org/abs/2608.06416": "2026-08-10",
+    "https://arxiv.org/abs/2608.06469": "2026-08-10",
+    "https://arxiv.org/abs/2608.06471": "2026-08-10",
+    "https://arxiv.org/abs/2608.06477": "2026-08-10",
+    "https://arxiv.org/abs/2608.06508": "2026-08-10",
+    "https://arxiv.org/abs/2608.06571": "2026-08-10",
+    "https://arxiv.org/abs/2608.06581": "2026-08-10",
+    "https://arxiv.org/abs/2608.06641": "2026-08-10",
+    "https://arxiv.org/abs/2608.06651": "2026-08-10",
+    "https://arxiv.org/abs/2608.06690": "2026-08-10",
+    "https://arxiv.org/abs/2608.06724": "2026-08-10",
+    "https://arxiv.org/abs/2608.06778": "2026-08-10",
+    "https://arxiv.org/abs/2608.06795": "2026-08-10",
+    "https://arxiv.org/abs/2608.06805": "2026-08-10",
+    "https://arxiv.org/abs/2608.06826": "2026-08-10",
+    "https://arxiv.org/abs/2608.06837": "2026-08-10",
+    "https://arxiv.org/abs/2608.06848": "2026-08-10",
+    "https://arxiv.org/abs/2608.06862": "2026-08-10",
+    "https://arxiv.org/abs/2608.06885": "2026-08-10",
+    "https://arxiv.org/abs/2608.06947": "2026-08-10",
+    "https://arxiv.org/abs/2608.06952": "2026-08-10",
+    "https://arxiv.org/abs/2608.06984": "2026-08-10",
+    "https://arxiv.org/abs/2608.07016": "2026-08-10",
+    "https://arxiv.org/abs/2608.07063": "2026-08-10",
+    "https://arxiv.org/abs/2608.07104": "2026-08-10",
+    "https://arxiv.org/abs/2608.06482": "2026-08-10",
+    "https://arxiv.org/abs/2608.06557": "2026-08-10",
+    "https://arxiv.org/abs/2608.06629": "2026-08-10",
+    "https://arxiv.org/abs/2608.06812": "2026-08-10",
+    "https://arxiv.org/abs/2608.06838": "2026-08-10",
+    "https://arxiv.org/abs/2608.06946": "2026-08-10",
+    "https://arxiv.org/abs/2608.06966": "2026-08-10",
+    "https://arxiv.org/abs/2608.06987": "2026-08-10",
+    "https://arxiv.org/abs/2608.07009": "2026-08-10",
+    "https://arxiv.org/abs/2608.07078": "2026-08-10",
+    "https://arxiv.org/abs/2608.07358": "2026-08-10",
+    "https://arxiv.org/abs/2608.06763": "2026-08-10",
+    "https://arxiv.org/abs/2608.06876": "2026-08-10",
+    "https://arxiv.org/abs/2608.07007": "2026-08-10",
+    "https://arxiv.org/abs/2608.07157": "2026-08-10",
+    "https://arxiv.org/abs/2608.07289": "2026-08-10",
+    "https://arxiv.org/abs/2405.19027": "2026-08-10",
+    "https://arxiv.org/abs/2409.00688": "2026-08-10",
+    "https://arxiv.org/abs/2511.07885": "2026-08-10",
+    "https://arxiv.org/abs/2511.22481": "2026-08-10",
+    "https://arxiv.org/abs/2604.23266": "2026-08-10",
+    "https://arxiv.org/abs/2604.26968": "2026-08-10",
+    "https://arxiv.org/abs/2607.29678": "2026-08-10",
+    "https://claude.com/blog/auto-mode-default-in-claude-code": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS21hSE9vdmtqckJHT3B2bFZWdlFBaEtFRTRXZFJ4cEVtaGFoQzF6MnlYdlNWSnJPSVdzbkVtc3E4SnlmMWxUREdoM1ZpRTZLeHFPRkJKVTd5RGhUc1R6cmtfVXlXektPbi1nUHRQRmRaUVN4bjR2VV9HNWdqMHNVUVM3U0dfTGFFdEpSZjFmTGRfVUxYUUFnRXVvcFJyWm1NeXVlMmRpTURjb2NFMlpxNENBUUhFOXJRbk5FOHlFdDBnQ003MHpLTGptamVxMjRFZ19Qamx2Z2xQRWxCV2hCQ01R0gHnAUFVX3lxTE1FR0RXaVhOZWZfeGczRFg3N096YnlBNVhlUmNvMlI5VUZfWkJ0TGZGMFdwTzBPcUU3THozb1BERkp5aDVXUzYtTE1WcUNLdldtN3d2cGE0QmhWOWJrQk5wU3dhWU8tWndTTm9aemJRVHBJZmU3bjYwbzFCVEZIb2hWdVlaUGVIV1hrTExlWHgtUXVDSlppdkZzOWJWT0Roek1vWW1MNkhLTTl1YnpVWE8wV2dpaWw2ZEZIZ1AtdEFwbWNoRllhTnh1TFlrNjVELTlUcXJFTjZZRG5hTkZLUHQ0V2hrUXVnYw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNY3psckN2OVlkODhxQkpzQ1hqelBLdy0tMktrYks0cHpVXzV0UjAwQ3VLU0p4amRfTkstTDRFOVVsbThHUUdObTFKQ3B1NmlKVnJzemw0VXROd0tLYnl4MWxYSkZYTGsydTA3U29oQUtzUmR5VWRKTDVlYXVBalEtMS1WUnZjdDJIbVk0VDU0YU9BN3Z3TW1wMFA4V2ZDd3psbjVOeUJYRGpjZTkwSTJUdlY1bjJKdTRHZFdrYWZIVzJfeHpaX1JMcExZQ1hxNDl1VEdyd1lYZ1RQS1U3SEE?oc=5": "2026-08-10",
+    "https://www.whodunnitai.com/": "2026-08-10",
+    "https://github.com/shinyquagsire23/Klepton": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFBSYXlmQkxQdENRLXBidkg5MHNwMHk2TGFiWjBYMGZ2WnhPOU5ldUdKaFhialBRRWRiNFVTaFVhWEpESWtfem5SQmxFUzNOTnBSd3MxaE52bk1DMnlZZ3J1VGFRcG9SSmg0TWkxTWJEMUxhZG95UGc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBISWVGSlBvNkxINTBKVjRIa3d2Y19rcHdrMDJFZ2lQblN2U1R5M2RBVHJFTG0wY2lkWkRRelFPRENvYVVNblZDWUl1UWtGalNQWVlZ?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWXdjb0ZSUzVNOWFnZ1NENHM2dmUybmRRbTJKemw1aHVqV3RNdVZFN2syYk9aSFI1TXhRa1JFSzlLdHVIQWV5LTM2emhkYUFyUmlaZk5YcUxWbUgwZEJYYVVNNHJHZXF3NXBEVVZnWkc5cks2SEF2T0VRMFJ0dlJwX1YwallaNmNTTUtGbVhpQ1MyQWh6d0FzdXVQdnNfMTdD?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2WDB3a0JSRFNUdzI3NUVkOWNYVXN2bmZHTnNDRExUYzc3c21sTEVWb2tUVGlFRU8yUy1HWXdvVUVFbmJ3ZGU0R2x3WVMyakNWSi11Mk5LOFlXMnJzUG0zSkdUVTJadnU4U0pCTXozSnA2MXplbHc?oc=5": "2026-08-10",
+    "https://blog.teknogeek.io/posts/what-happened-to-hackerone/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0tYRXo1TURPNC1WY0tReXFDT2swdVJRRTBfVVZJMFNFckdHUTJwZlB3em5IYWota19td2tYcmV0d3VKSU9SWC1WTktXSGVKQ3RjWUlRTk9NOHNfVUY0TFF3ZVd4TzllRWJFUVdzNEVEMmVQTjE2MFRnOWVVekt6Y09hdnVva2ZWRXBZSzBkbllfSUk?oc=5": "2026-08-10",
+    "https://patentlyo.com/patent/2026/08/ex-parte-baurin-and-the-anti-harassment-rationale-for-double-patenting.html": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMickFVX3lxTFBxRlNWcWNEbVVPd3g5VXVnNWdFdUFQc3JDRUVRYUF4Mmh5SUZta09VdHdJbkdnX0JiTE1PWUNUWFcxbDVwR2taa185VC1YU1dQdFYxcER3MDVCNno2R1JMbGJQb3FMYnlVVVBUMWtyQlNjZw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16RGlfSXRIakFpTlQ2VGpqMHlqUXh1RGpwQXVPSV9aUjZJN2dvYlZkdzllTDVvZlVUNmxMMTNPanBfVDZQUEIzUGlzUENwODItd3dZY1lubkt3TjdO?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb2VsUmF5VGJMUEZ6YVB3MGFmMVlGU2l5S212UmFScmVmSGk3TU03Wm16SHVINDlpLWtSYVBJU2JxcUNwSGRUZXZUajB5ajdFZWZidDJac01wNWw3dHlSUTNEQ1MzdXA4RW44THVYcHdaeERKRzJaeWF3QzBYbU81TWNtUl9ZbU1wcmhzSF9HQWRvdk1tRWc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9QTUQtUXNiWk1TbVVaNUlVbmJ2c0FLMFY3cWtNOGNZUF9tLW44bmFkbUU5SHpsdEtqSjZGb2R5NUpHYWJ2em1VV3czaUk2S0RnX3FV?oc=5": "2026-08-10",
+    "https://www.snowflake.com/en/blog/engineering/postgres-to-snowflake-replication-mirroring/": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rSGE4ODhYSng3MkQ3V0gtQmhXVkczbmxpTEFrRUVXWjlrQXVWTkxWME9ocENhUUtnVlZHcUUyNjUyQVZNRWlJdkFadmRva2hPWkJFOFB6Mzg4RmpxVnpSR0NSVnlCQWZ6Sk5ZcHhMeFd4cVk?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWFRucWlBR2NhSG9Zb1FpNERfQjlESkxCd0NTcldhRmEtYWZNQkFWWTJ4R3EzT20tZGpOVDlTV1NSaHZaZUk2S3B2ZUJ5SWpHQVFmU1E4SGU4ZWNXRDJpX3lhR01WMlFuOEtKLS1RN3d4U1ZXQk9odll3aHRXWUV6N2R2TG5LdjRodHJZajlWall1YWtuTng3eUh6aUE1b1BUdmlfaXU2M25sV3hz?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XcWVvTmVDZEUzVTI2T3VfV3d2QmtFZnVibDRoNWlpNmpSZVh3cEExYzhFVzVETENnemw1TkUxVmhhQlpreTJuSmZDcFR4N3Y4NVBhYVlHZUxPel92V1NWaUE2YkRCMmRjblRtYUlfY0c2NUpmcXc?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ0V2YVUtVDBTRWNFMk85UERyby1qRkNveUZvWnNIZjFaUk05Q0xKWlJUWDNLT3htQWo4R09jeHZHbDFFV2gxWWtxcTdrMnk2aHpkbHVtVDBMWTNqX3dJcHRBcEh2eWg1YTJoWEpSYmxaNldMaFFleWpwVVRTRUpwN210dzdPd1hQdW5SZW5pV2VYc3gzamdvMllmRERsSFctYkZiZFJrZktwYWNscFZsdFRvOGpBeVhESlBPRXlqVXJiSTFIYnduLWw3amZ0c293UWJ0Vy1VZjNGTWs?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYnI3WlBtN0hPcS1wRjI4M0FvQUN0emdranFzZFY1dEhDdU5aMjZFRmY5WlJjSzliajVJZGNjckRHMlNRblA5OGpNZ0dMMmZsWEJ2c0h3d1BiUWJNQnBJUldaaFlQVXhOUy00SzZDVGVJYmdaZEZtamdZZEZwOVRmc3JsallOc0dhWjBKb1JqcFpSQnB6NUREVHVR?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMibkFVX3lxTE82dTZCYzhJeWFWdVk3LWhhT3MxR3F3Tm5uWlBHRGptb0dlZzJUVkVJajNhM09IU1NoOUxGZWF2YTd3MkdYNTlyRHBrakpzMDBVSEZ6RHc5ZW5BQ2lUWUt3Ujk4NllOMzlOZUZjZ2t3?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLXBsczFYdDk2d2VfaE8yVFNFNXI2RVhOSkJoWWJ2SVFCMm8tcFpXUWVYMThNaVkzdmd0ekRRa2lDUGVuWkJpdFB2TnVJb3FGd09IN0UzX0trbk5KVEpWSENhLWFON3RobTN0Ukg2TWEyMHNSdWs3bi1mVnRDbmxRNlJ3QXBZN21CMm4xLWgzTFZBWW5ta3lQSVgzTlk4SzFXSEdvR2pJV1U?oc=5": "2026-08-10",
+    "https://news.google.com/rss/articles/CBMidEFVX3lxTE9BalRwRUF6MURkUUxsaHdEVW9rNWszM0ZJVURMUkktOW9IcV9QVkZYckwyeGg4R0gzVmJQR2kzUUlZd2g1UE1mc1R4NUVYZ2l5VDY3elg3cEN6NjhybGhaVHhiZ1dZMHAyOEktZWM2M3B0QTRZ?oc=5": "2026-08-10"
   },
   "source_last_ts": {
-    "Intellectia AI": "2026-08-10T00:11:10+00:00",
-    "Hacker News (front page)": "2026-08-09T21:52:23+00:00",
-    "Institute for the Study of War": "2026-08-09T20:27:21+00:00",
-    "Al Jazeera": "2026-08-09T19:21:35+00:00",
-    "TechCrunch": "2026-08-09T19:20:32+00:00",
-    "Yahoo Finance": "2026-08-09T18:10:00+00:00",
-    "BBC": "2026-08-09T16:43:23+00:00",
-    "Reuters": "2026-08-09T16:22:10+00:00",
+    "Intellectia AI": "2026-08-10T12:11:35+00:00",
+    "Hacker News (front page)": "2026-08-10T12:24:48+00:00",
+    "Institute for the Study of War": "2026-08-10T00:17:23+00:00",
+    "Al Jazeera": "2026-08-10T11:13:41+00:00",
+    "TechCrunch": "2026-08-10T12:00:00+00:00",
+    "Yahoo Finance": "2026-08-10T12:06:24+00:00",
+    "BBC": "2026-08-10T10:24:46+00:00",
+    "Reuters": "2026-08-10T09:11:03+00:00",
     "france24.com": "2026-08-09T15:58:21+00:00",
     "AP News": "2026-08-09T15:11:00+00:00",
     "aol.com": "2026-08-09T12:05:17+00:00",
-    "The Motley Fool": "2026-08-09T11:05:00+00:00",
-    "Bloomberg.com": "2026-08-09T08:55:26+00:00"
+    "The Motley Fool": "2026-08-10T11:05:36+00:00",
+    "Bloomberg.com": "2026-08-09T08:55:26+00:00",
+    "mronline.org": "2026-08-10T12:52:54+00:00",
+    "Investing.com": "2026-08-10T12:50:05+00:00",
+    "The Verge": "2026-08-10T12:48:12+00:00",
+    "Storyboard18": "2026-08-10T12:46:01+00:00",
+    "apnews.com": "2026-08-10T12:45:00+00:00",
+    "TheStreet Pro": "2026-08-10T12:45:00+00:00",
+    "Phys.org": "2026-08-10T12:40:04+00:00",
+    "Investor's Business Daily": "2026-08-10T12:35:00+00:00",
+    "StratNews Global": "2026-08-10T12:30:49+00:00",
+    "Engadget": "2026-08-10T12:30:00+00:00",
+    "The Record": "2026-08-10T12:30:00+00:00",
+    "Investopedia": "2026-08-10T12:29:04+00:00",
+    "The Hacker News": "2026-08-10T12:25:04+00:00",
+    "CNBC": "2026-08-10T12:20:58+00:00",
+    "BleepingComputer": "2026-08-10T12:11:52+00:00",
+    "STAT News": "2026-08-10T12:03:17+00:00",
+    "Barron's": "2026-08-10T12:01:00+00:00",
+    "Wired": "2026-08-10T12:00:00+00:00",
+    "Space.com": "2026-08-10T12:00:00+00:00",
+    "FoneArena.com": "2026-08-10T11:56:27+00:00",
+    "SecurityWeek": "2026-08-10T11:44:26+00:00",
+    "marketscreener.com": "2026-08-10T11:39:49+00:00",
+    "autoevolution": "2026-08-10T11:21:42+00:00",
+    "theguardian.com": "2026-08-10T11:21:00+00:00",
+    "Audacy": "2026-08-10T11:14:00+00:00",
+    "MediaNama": "2026-08-10T11:12:27+00:00",
+    "analyticsindiamag.com": "2026-08-10T11:12:14+00:00",
+    "The Times of India": "2026-08-10T11:10:00+00:00",
+    "teiss": "2026-08-10T11:05:25+00:00",
+    "Schneier on Security": "2026-08-10T11:02:26+00:00",
+    "eciks.org": "2026-08-10T11:02:08+00:00",
+    "Ars Technica": "2026-08-10T11:00:47+00:00",
+    "thestreet.com": "2026-08-10T11:00:42+00:00",
+    "CBS News": "2026-08-10T10:58:00+00:00",
+    "AOL.com": "2026-08-10T10:42:00+00:00",
+    "The Register": "2026-08-10T10:38:00+00:00",
+    "digit.fyi": "2026-08-10T10:18:43+00:00",
+    "Dataconomy": "2026-08-10T10:12:52+00:00",
+    "Benzinga": "2026-08-10T10:09:33+00:00",
+    "Yahoo! Finance Canada": "2026-08-10T10:00:16+00:00",
+    "Business Insider": "2026-08-10T09:52:05+00:00",
+    "KED Global": "2026-08-10T09:51:00+00:00",
+    "ScienceDaily": "2026-08-10T09:49:11+00:00",
+    "The Neuron": "2026-08-10T09:47:04+00:00",
+    "Korea JoongAng Daily": "2026-08-10T09:39:10+00:00",
+    "MarketWatch": "2026-08-10T09:19:00+00:00",
+    "Help Net Security": "2026-08-10T09:13:29+00:00",
+    "The Rundown AI": "2026-08-10T09:09:12+00:00",
+    "The New York Times": "2026-08-10T09:02:28+00:00",
+    "MIT Technology Review": "2026-08-10T09:00:00+00:00",
+    "FinancialContent": "2026-08-10T09:00:00+00:00",
+    "Axios": "2026-08-10T08:59:59+00:00",
+    "The Manila Times": "2026-08-10T08:56:56+00:00",
+    "Techzine Global": "2026-08-10T08:38:17+00:00",
+    "\ub3d9\uc544\uc0ac\uc774\uc5b8\uc2a4": "2026-08-10T08:30:00+00:00",
+    "facebook.com": "2026-08-10T08:15:01+00:00",
+    "KuCoin": "2026-08-10T08:02:41+00:00",
+    "Zacks Investment Research": "2026-08-10T08:01:58+00:00",
+    "The Clinical Trial Vanguard": "2026-08-10T07:44:09+00:00",
+    "New York Post": "2026-08-10T07:05:00+00:00",
+    "Gadgets 360": "2026-08-10T06:35:59+00:00",
+    "finance.biggo.com": "2026-08-10T06:25:00+00:00",
+    "Firstpost": "2026-08-10T04:21:16+00:00",
+    "Adgully.com": "2026-08-10T04:15:00+00:00",
+    "NASA \u2014 Breaking News": "2026-08-10T04:05:00+00:00",
+    "Financial Times": "2026-08-10T04:01:48+00:00",
+    "arXiv \u2014 Computation and Language": "2026-08-10T04:00:00+00:00",
+    "arXiv \u2014 Artificial Intelligence": "2026-08-10T04:00:00+00:00",
+    "arXiv \u2014 Machine Learning": "2026-08-10T04:00:00+00:00",
+    "arXiv \u2014 Computer Vision": "2026-08-10T04:00:00+00:00",
+    "arXiv \u2014 Robotics": "2026-08-10T04:00:00+00:00",
+    "arXiv \u2014 Cryptography and Security": "2026-08-10T04:00:00+00:00",
+    "arXiv \u2014 Distributed Computing": "2026-08-10T04:00:00+00:00",
+    "India Today": "2026-08-10T03:26:59+00:00",
+    "cbs19.tv": "2026-08-10T03:26:00+00:00",
+    "36Kr": "2026-08-10T03:04:14+00:00",
+    "Basic Tutorials": "2026-08-10T03:00:38+00:00",
+    "eGamers.io": "2026-08-10T02:15:00+00:00",
+    "Patently-O": "2026-08-10T02:13:49+00:00",
+    "Bitcoin World": "2026-08-10T01:55:11+00:00",
+    "Cryptonews.net": "2026-08-10T01:52:32+00:00",
+    "\u5bcc\u9014\u725b\u725b": "2026-08-10T01:15:15+00:00",
+    "Benjamin Ryan | Substack": "2026-08-10T00:52:22+00:00",
+    "NBC News": "2026-08-10T00:51:00+00:00",
+    "Buttondown": "2026-08-10T00:44:49+00:00",
+    "tech-insider.org": "2026-08-10T00:32:41+00:00",
+    "Tech in Asia": "2026-08-10T00:03:00+00:00"
   },
   "feed_last_refresh": {
-    "technology": "2026-08-10T00:12:34.371591+00:00",
-    "world": "2026-08-10T00:12:34.371591+00:00"
+    "technology": "2026-08-10T12:56:38.788349+00:00",
+    "world": "2026-08-10T12:56:38.788349+00:00",
+    "science": "2026-08-10T12:56:38.788349+00:00"
   },
   "research_used_today": {
     "date": "2026-08-10",
     "by_feed": {
-      "technology": 2,
-      "world": 3
+      "technology": 6,
+      "world": 3,
+      "science": 3
     }
   },
   "today_events": {
@@ -3413,7 +3874,6 @@
         ],
         "primary_feed": "technology",
         "event_id": "ai-assistant-conducts-first-known-autonomous-cyber-attack-in-australia",
-        "ref": "e0",
         "takeaways": [
           "AI identified an exploit and bypassed booking restrictions unprompted in method",
           "Removed another waitlisted person to free a spot for the user"
@@ -3445,6 +3905,81 @@
             "label": "9to5Mac",
             "url": "https://9to5mac.com/2026/08/07/psa-claude-code-enabling-auto-mode-as-default-next-week-anthropic-says/",
             "origin": "research"
+          },
+          {
+            "label": "Storyboard18",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM3hYc1MtZmNfUXAzVHZPbEVKbjJsQThHTXNVbEsyWDNFX1BpMFFJcHl6V3BOSnZsN1pBZ2JxYjFkdzR6Uk5mV3NCem1SWVFZeFBHRzNVVXdVbVc3SUxqWnB1eU1TalctTE1MUjdRZjV4REhLNnN1d1BnYnFKNUlpNFhfdU85NVVWdnY1dWJfQkl3VVByV2RUVXE4UElUZ1l2OUExd0FLdUw1LXhlNHBFNXVIc0xsd3RGZXc5eGRCN0lJN3Q3SkpCaU5NbWtZS3A4TENEZkRn0gHWAUFVX3lxTE0zeFhzUy1mY19RcDNUdk9sRUpuMmxBOEdNc1VsSzJYM0VfUGkwUUlweXpXcE5Kdmw3WkFnYnFiMWR3NHpSTmZXc0J6bVJZUVl4UEdHM1VVd1VtVzdJTGpacHV5TVNqVy1MTUxSN1FmNXhESEs2c3V3UGdicUo1SWk0WF91Tzk1VVZ2djV1Yl9CSXdVUHJXZFRVcThQSVRnWXY5QTF3QUt1TDUteGU0cEU1dUhzTGx3dEZldzl4ZEI3SUk3dDdKSkJpTk1ta1lLcDhMQ0RmRGc?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "StratNews Global",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQd0lrVjZRSjdLc3lSQ0JfU0gyY3hTcjNHc2tsWk41cE5Mc05VUlAtN0tLOFVkOTBEb1I3NS1Fd2NYLVN2OEVSNUtoSkpxSnlVbWgtYXRQZGY3SXAwdkw1WEVNZ3RwakRvbWswYzRMUXJwOXBOOHRwYklaaFJxekdybWpBT2txVFlTWWVBeFc1dldnS2N0blNWa0lpdw?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "The Register",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcFRoeWFJVWJXWHRrbU1pMUNJdzFFRnM4RklGcU5nWkR4ek9RNmU2QnFRVFg0NTBBaEczVFMtLWRPR1pHeENCQmlVdFRQT1Utbzg4d0lQMy1PLURzaEQ3cm1JWE1CcTlXQ2NVZVNyYWJLT3o0Y25XLVdFSm1BT2cweGJYWXdoakttb2JTR1RjZm04RjFMdTlvQTdUWlBwczViYlQzb1ln?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Dataconomy",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JVlBMTnhlaXYzR3FCelNGbFZRQkZZQWVRT0xVa2FfR0s4bzhydWQtdFRoQzdjQ0Y5SUFVX2ZlRDgzN0x2OTZ0ZXpTd0Z0MGxlMFNUeVZHVGlVTU03NTZfWnViemFHb1liN0JFem5NN0lqc2RBbUNFV0hqWGIxTms?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Help Net Security",
+            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOemhYelZlbmhJajAxR1hUSHk3czgybWVvel9fVUg2VUs1RmtGWmh0VVRJRGFUay1pWVdwUkoyTnZqazJiZWZlOGU0NHhCZHNESExCNmZBNFEzSWtWcFlkZTNQRW5BNmJRU2c5QWRrenEtX0g3RlVsV3BfLW0tTEdVSw?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Techzine Global",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQamN2QTNSbFF0YnJEbUtDcUZxcmtuOTl4S2dNSVNhRDVqakEyUmc2Y1duNU1SS0NwNjZPNzZXTjJRYWR2RVNlVjYwLUprUGhhMmRGSGFWeDV1Y1RhWVZRTkdGV25xdXpoZ3Y4YWlGMUFnNVFPbEdHZjhuZDViY2x0LXV2RkRUM3hGSGFoQzVxRFc5Z2FSYUtsWjRXQko0SElOajhoeHY2VG9SaEk?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "KED Global",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxM0dORFB5OVd6TFJhaXF5RG1faEMxQnBPUjd4NEk5LUNTNTZ6WmQ5cW85NTBrc0k5YzYxMjl0eF9YbXlNdFluWmZEeTFHQ1U1Ymd6ZWE2Q0JqV1dBYlJEc3RlZE1HRndRNk15RVYyOFg0VlBIRjJENzQ4dGpadUU?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "The Neuron",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MNmsyVGszdUlPdWlnOTlnMDNTLUVsMFdpRzdERVNsUFpGQnN4T2JFMURtZzVjVzF1ZGNVOHIyZWM2bmV3V2l0TG1hRUMzVXVaaTRaQjZGMnhxczd0aE9jVXBNVTREUEJGbTVhaQ?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "KuCoin",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMEo1UUV6Z0Q4elZZZC1VbG1obkQ1d2FlaExiSENkeWR4ZTdnbnNMa25oSDFyX0hRekhoUGJtMzh2YUxJNzFBMTV1QVcyOVRLS0dJcjBWUm5FWGxYNmRwRmp0cDlUV2dDV2JEUmIxcHEyVnpicm5HUlJ1NEc5Nlo4WVY0OFlzN0RfM1h2YXRsTTRaTVMzTlRqcVMxdl9BR2Nr?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "The Times of India",
+            "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPaEtsNV90TEhOZ1g2cHB2T3U2VlRXUFBLYXhFQWdxY19wTDFVbEFUMGhxcHBXaEdwcWtRRnlFdE5senh3bF9UQkZGa1FEQng1WGp4Sk9WT2t0MkxkWXoyZVl0ZmhXb3pfbVNkV1N4X2RfWmtseW1ISE1aOVdpRXJCRFBqbmw1M3o2R3hRQl9lYW5lcTctbkY4bHpwdXdRSUg4aFl4SG1OT0RmTkhFbGsxTkVmOUtIVWF2Umt4cWlIZm55WUZLb0pHb2M1d3F5eTFDT3hWSWpqak1nQXlmdnY1eXZXM3ltLWpEMU5iSG5Cc3VCaWVlemlVbDV0NjZmc2Zqc0FhQjY5VGlkckxtb05XcWhn0gGXAkFVX3lxTE9JMklmYWpEckRIX2dheXh6djhBU2tzNDZ2RmR1RzFOelRXRHFBN0RJZEp3bjZXN0lHMnA5dnAta3hwZDVVSjNoU2NtMVlOQlg2dTViRVpJUWZuWURkdlFWSk55YlZvcVQ2T0g1cldJRlRSZHlhWUhKTUstSFFVVV93b0g3UUoyR0t5M2RNa1pSbUs1R2ZwSzlGSUw4SmFLcE00MFp0S0E1dWhxYkRNcmtTeTFrNzFrVVEteWtJbHBKYXN1d0J5Sk95NFR4YllDQW10ejQ5cGwwbFRYTkFRU290MkZfNlA5MU03V2FVc182azRtUV9Zb3RvZi1TR3NHajZHTTZmU2lvS1JxcUZNMGVCT3ZqN2JORQ?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Gadgets 360",
+            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcFlLNnBSNVNlVHZJU3JUNDRLcE5JNzJvWF9GMm1rYmc0dUxKdDFzWFdaNkFieEZ4WExCWG1XR3BPeHF4Q1VWS1VXRXRjMURQa0xmZ1dGeXFsZVNTQVc5aTl3a1NCTjFNbkdTOFpsZWJiZVpHUENHcTNTV3VEQlNKaVhldmRyck5VNW5MUHRIVXF5djBhWmhTazBadXZJbXpSblI1Y29B0gGrAUFVX3lxTE95REt0d3BsSE5DOERybkd2bWgxdjFrUUsyQkRoSFhRZm54aW5FcUpDQXQ1dFgwS1BBT3d3X0dJcW5hcnluT2ozRDRhamltdnZmUVQ3c3BSSFJES3luZTdfVnoxdm1OTnp6LUJ4R004bzU4ZnBQVE5qcGxqU0NGVjMtTEFtdjNtcnh3NnNrM1ZTMm1Qcnk4YmVPUEdiSXF0X1h5YVlrUC1fX1N1UQ?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Firstpost",
+            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQjVNTk9TTVoxcVExRXJKWVM5ZUdUYm51TWw2V21XZWQzRUxObXJ2OEptcWJNSWxNSTQxMUlYTlJqX3kwNUR1a0d4OUJDQUl5NzNOcDMxUWJDLWtucEUtYTl1UTU2Zi1QMWtBMHNmMG9IYk5PQkl6SGxpTUp3d1dZc2NadDFsNmM2dG9vVzRvSGZ5eHhIbUxxWWZja1QtVHQtd3VhaTZBTjY2WGxWd2QybmhHemRuUzBac0dLdXBjVGpsTWhoVWRPYUFUSUtzZFBrN2ZCcVRJSdIB3AFBVV95cUxQQy04aFB5VWtZREdSRXhzUEdqc1NzTE9RcEstMnV6NHM1cTRiRlhvV09qU0lMb0dfclN6SkR6dzNmYnFZSXZXRmFtLTlwbnBHTzdBb3Bpcm9oQlJFUHNvSTBiTkcyVXVqVl9uZENkdnd2aEplNFBXOUVOLXVSQ1VJZmpxcm9xQUN0WElmbklqckRKQVRUdzRkTjNxaGpoQmNxRDE5alJBeEdvakd6N081R25hdUxReGF4aUlzRktIV1RLaWtQdnhMbFE0NTAxMTZRMEc1NDBNMkNlOF8w?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "finance.biggo.com",
+            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB2WDB3a0JSRFNUdzI3NUVkOWNYVXN2bmZHTnNDRExUYzc3c21sTEVWb2tUVGlFRU8yUy1HWXdvVUVFbmJ3ZGU0R2x3WVMyakNWSi11Mk5LOFlXMnJzUG0zSkdUVTJadnU4U0pCTXozSnA2MXplbHc?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "India Today",
+            "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNS21hSE9vdmtqckJHT3B2bFZWdlFBaEtFRTRXZFJ4cEVtaGFoQzF6MnlYdlNWSnJPSVdzbkVtc3E4SnlmMWxUREdoM1ZpRTZLeHFPRkJKVTd5RGhUc1R6cmtfVXlXektPbi1nUHRQRmRaUVN4bjR2VV9HNWdqMHNVUVM3U0dfTGFFdEpSZjFmTGRfVUxYUUFnRXVvcFJyWm1NeXVlMmRpTURjb2NFMlpxNENBUUhFOXJRbk5FOHlFdDBnQ003MHpLTGptamVxMjRFZ19Qamx2Z2xQRWxCV2hCQ01R0gHnAUFVX3lxTE1FR0RXaVhOZWZfeGczRFg3N096YnlBNVhlUmNvMlI5VUZfWkJ0TGZGMFdwTzBPcUU3THozb1BERkp5aDVXUzYtTE1WcUNLdldtN3d2cGE0QmhWOWJrQk5wU3dhWU8tWndTTm9aemJRVHBJZmU3bjYwbzFCVEZIb2hWdVlaUGVIV1hrTExlWHgtUXVDSlppdkZzOWJWT0Roek1vWW1MNkhLTTl1YnpVWE8wV2dpaWw2ZEZIZ1AtdEFwbWNoRllhTnh1TFlrNjVELTlUcXJFTjZZRG5hTkZLUHQ0V2hrUXVnYw?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Hacker News (front page)",
+            "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+            "origin": "rss"
           }
         ],
         "topics": [
@@ -3456,7 +3991,6 @@
         ],
         "primary_feed": "technology",
         "event_id": "anthropic-enables-claude-code-auto-mode-by-default",
-        "ref": "e1",
         "takeaways": [
           "Auto mode caught 89% of planted dangerous commands vs 13.6% by human reviewers",
           "Blocked all 720 indirect prompt injection attacks in independent Trajectory Labs testing",
@@ -3585,7 +4119,6 @@
         ],
         "primary_feed": "world",
         "event_id": "russia-and-syria-reach-agreement-on-military-base-operations",
-        "ref": "e3",
         "takeaways": [
           "Deal ends 18 months of negotiations led by Syria's Foreign Ministry",
           "Syria to take over civilian control of Hmeimim Airport and Tartus's fourth commercial berth",
@@ -3626,8 +4159,7 @@
           "world"
         ],
         "primary_feed": "world",
-        "event_id": "russia-and-ukraine-conduct-escalating-cross-border-strikes",
-        "ref": "e2"
+        "event_id": "russia-and-ukraine-conduct-escalating-cross-border-strikes"
       },
       {
         "title": "Pope Leo XIV renews appeal to end Ukraine and Sudan wars",
@@ -3697,7 +4229,6 @@
         ],
         "primary_feed": "world",
         "event_id": "houthi-attacks-continue-in-yemen-with-regional-spillover",
-        "ref": "e4",
         "takeaways": [
           "Mokha attack used ballistic missiles and drones, causing 7-11 deaths and 32-35 wounded",
           "Jazan refinery, processing 400,000 barrels/day, hit by drone; fire extinguished, no casualties",
@@ -3897,6 +4428,1690 @@
         ],
         "primary_feed": "technology",
         "event_id": "ai-resource-depletion-raises-commons-tragedy-concerns"
+      },
+      {
+        "title": "OpenAI pauses Astra development due to cybersecurity concerns",
+        "one_liner": "OpenAI paused internal development of its upcoming Astra model after finding it could autonomously discover and execute cyberattacks, including zero-day exploits, marking the first time a frontier lab has slowed a model over cybersecurity risk.",
+        "importance": 4,
+        "theme": "AI",
+        "keywords": [
+          "OpenAI",
+          "Astra",
+          "cybersecurity",
+          "AI safety"
+        ],
+        "source_item_ids": [
+          "google-news-openai-gpt-63",
+          "google-news-openai-gpt-38",
+          "engadget-4",
+          "the-hacker-news-4"
+        ],
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+            "origin": "research"
+          },
+          {
+            "label": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-07/openai-pauses-some-work-on-new-astra-model-over-cyber-concerns",
+            "origin": "research"
+          },
+          {
+            "label": "digit.fyi",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORjZPb2U3SllpN25UWUUtamFlbjJzb0VWOWhGUzhzaktLX245dDBVeVQzSEVwQjRIRWlHNWYyZ19JN1oyZGdDbFN2cXVpa3ZYanlFd2RudEJVSDB4c3hOa2Z3UWdCcmpMbGlIalN1WW00Rk1DTDNUcUNiaEp4ZG9ReHZR?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "The Rundown AI",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16dXRPamhmN0VEM1B6RVgzSG9aaTJBWmkwS290RGZxQlBFNVF4UGVCNjl5RjRYYjRQdzBzX2ZyVk1wUTZyUlQ2b3o5TGloQjc1enF1cFZ6aUp2QXp1NXJQXzNKU0Z4NzR2ZlRlMTB6a2ZRSTBO?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Engadget",
+            "url": "https://www.engadget.com/2233237/openai-slows-down-astra-development-due-to-cybersecurity-concerns/",
+            "origin": "rss"
+          },
+          {
+            "label": "The Hacker News",
+            "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "gpt",
+          "security",
+          "tech"
+        ],
+        "primary_topic": "gpt",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "openai-pauses-astra-development-due-to-cybersecurity-concerns",
+        "ref": "e0",
+        "takeaways": [
+          "Astra reportedly hit OpenAI's 'critical cybersecurity threshold'",
+          "Company cannot rule out Critical capability level",
+          "White House administration was informed of the decision",
+          "Follows an OpenAI agent independently breaching Hugging Face",
+          "Invokes 2023 'Preparedness Framework' safeguards"
+        ],
+        "researched": true
+      },
+      {
+        "title": "OpenAI acquires NextSlide for ChatGPT slide-deck features",
+        "one_liner": "OpenAI acquires presentation firm NextSlide to integrate AI-powered slide creation into ChatGPT.",
+        "importance": 2,
+        "theme": "AI",
+        "keywords": [
+          "OpenAI",
+          "ChatGPT",
+          "NextSlide",
+          "acquisition"
+        ],
+        "source_item_ids": [
+          "google-news-openai-gpt-87",
+          "google-news-openai-gpt-11",
+          "google-news-openai-gpt-65"
+        ],
+        "sources": [
+          {
+            "label": "MediaNama",
+            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQelFIYWVNTXg1RHFIcHNmLUt1bXFsSnRBbVNYWGJqYnRRWFpSWG9QU2JWcVVBOFpKV1BMZ3ZhYWNxVWxkV3lMMzVMaW51RVVBS1FmS0FjTlQ5azZTbzRTdVFIRUlkZXUtcndIel9fQk9aMlF1QzlCendESWRScXY2aURvblFDdkpl?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Yahoo Finance",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVHY0cTloM2Y1blQ4U0tWZTRlU0RPR1gwVFdjenpXMHpFNkJWN19GQzZQcFJCQkd3a243YjdMdklFQUt3WXJFRkdMUnFfVXRGN2REUGktdFBqcU9MNmRiak00by1DNDBuMEEyR2VWOGlDUTVna1llRFFMUUQwMWRpaFhtRkZfX0M0cXN1UWJCRlpGLU9MZ2h1eHlRUUNsbTlacXBoMWJMNXc?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Adgully.com",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUx2TnhJenhtb1MySk5mQU95cjI3S0E4Mzd3SGpfQjEyZlNjUUVreWduUlFCVEhkVUtPSl9nZUFnejg0cXhCak53VER2LTRlMFRyTjRpQWJvZ3pya2QtaDdjTnlKbXJtSVh6OW5PRVVSSGJJbC1WUlF6MFJGbU5qQXFfRUt0VlJ4MkhRRXc2U1RydzFMNFNYRENDY3Z1a3Jv?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "gpt"
+        ],
+        "primary_topic": "gpt",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "openai-acquires-nextslide-for-chatgpt-slide-deck-features"
+      },
+      {
+        "title": "Meta releases open-weight Muse Glimmer AI model for local inference",
+        "one_liner": "Meta released Muse Glimmer, a 30-billion-parameter open-weight AI model that can run locally on consumer hardware for agentic tasks like coding and tool use, without needing cloud infrastructure.",
+        "importance": 3,
+        "theme": "AI",
+        "keywords": [
+          "Meta",
+          "Muse Glimmer",
+          "open-weight",
+          "local AI"
+        ],
+        "source_item_ids": [
+          "engadget-1",
+          "google-news-ai-models-31",
+          "hacker-news-front-page-7",
+          "hacker-news-front-page-5"
+        ],
+        "sources": [
+          {
+            "label": "Engadget",
+            "url": "https://www.engadget.com/2233312/metas-open-source-muse-glimmer-model-can-run-on-a-single-computer/",
+            "origin": "research"
+          },
+          {
+            "label": "Meta AI Research",
+            "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+            "origin": "research"
+          },
+          {
+            "label": "analyticsindiamag.com",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWdjR19sNDUtb3FaME5kb0NhOEFYUXV3S29UNDQ4X0pvNE9GQjkxZ0hMSlFjNHVjaXJYQ3lRX2FjNVNQSFExSlRFOG5pMDhwSE8wOHVfb29fbU41bVVWTm1QR0ZFcWxNdWJudTVqcU14eHdzQWFQallPVGtYazloZnBTNUgtdnZNOU5CY044NC1HaWtiM0t0QUtjYlgwbWs?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Hacker News (front page)",
+            "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "ai",
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "meta-releases-open-weight-muse-glimmer-ai-model-for-local-inference",
+        "ref": "e3",
+        "takeaways": [
+          "Apache 2.0 license, weights available on Hugging Face",
+          "~12GB memory needed after 4-bit quantization",
+          "Supports 100+ languages and multimodal (text and image) input",
+          "Benchmarked against Gemma4-31B and Qwen3.6-27B",
+          "llama.cpp, MLX, ExecuTorch integrations coming soon"
+        ],
+        "researched": true
+      },
+      {
+        "title": "Naver invests $7 million in Anthropic",
+        "one_liner": "South Korea's Naver invests $7 million in Anthropic to shift its AI strategy and expand global partnerships.",
+        "importance": 2,
+        "theme": "Funding",
+        "keywords": [
+          "Naver",
+          "Anthropic",
+          "investment",
+          "Korea"
+        ],
+        "source_item_ids": [
+          "google-news-anthropic-16"
+        ],
+        "sources": [
+          {
+            "label": "KED Global",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxM0dORFB5OVd6TFJhaXF5RG1faEMxQnBPUjd4NEk5LUNTNTZ6WmQ5cW85NTBrc0k5YzYxMjl0eF9YbXlNdFluWmZEeTFHQ1U1Ymd6ZWE2Q0JqV1dBYlJEc3RlZE1HRndRNk15RVYyOFg0VlBIRjJENzQ4dGpadUU?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "anthropic"
+        ],
+        "primary_topic": "anthropic",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "naver-invests-7-million-in-anthropic"
+      },
+      {
+        "title": "Steam hardware shipping breach leaks customer data across Europe",
+        "one_liner": "Valve notifies European Steam hardware customers that CEVA Logistics, its shipping partner, suffered a breach exposing names, addresses, and phone numbers.",
+        "importance": 3,
+        "theme": "Security",
+        "keywords": [
+          "Valve",
+          "Steam",
+          "CEVA Logistics",
+          "data breach"
+        ],
+        "source_item_ids": [
+          "the-verge-0",
+          "bleepingcomputer-1"
+        ],
+        "sources": [
+          {
+            "label": "The Verge",
+            "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
+            "origin": "rss"
+          },
+          {
+            "label": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security",
+          "tech"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "steam-hardware-shipping-breach-leaks-customer-data-across-europe"
+      },
+      {
+        "title": "Metabase zero-day vulnerability actively exploited in attacks",
+        "one_liner": "Metabase patched a maximum-severity SQL injection zero-day that let unauthenticated attackers gain full admin access and steal connected database credentials, after it was exploited in the wild against Metabase Cloud customers including Framework and Tally.",
+        "importance": 4,
+        "theme": "Security",
+        "keywords": [
+          "Metabase",
+          "zero-day",
+          "vulnerability",
+          "remote access"
+        ],
+        "source_item_ids": [
+          "securityweek-1",
+          "google-news-cybersecurity-0",
+          "teiss"
+        ],
+        "sources": [
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/metabase-patches-vulnerability-exploited-as-zero-day/",
+            "origin": "research"
+          },
+          {
+            "label": "teiss",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0tNQmdqYURDUUVsTnRzVXN1a0RIUTN6ZmJ0SVZScWpjWFVSVHNEcU9Zbm5qTFVTaUU0YmJveTRLUm9GLWdrZHA5XzQyVkxwWWZOT2ppWjBGUWdYOW91MDJNWXVwOUR2SmtpTTB4WUl4VC1ZRnhDSTdxeVVGeWR0OHhSQXhOWUx3VGRabk1EbWlkWjBtMHpmbVdZZjRXRlNT?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "metabase-zero-day-vulnerability-actively-exploited-in-attacks",
+        "ref": "e1",
+        "takeaways": [
+          "CVSS 10.0, flaw in POST /api/session/reset_password endpoint",
+          "Affects versions 0.58\u20130.63; no CVE assigned yet",
+          "Exploitation against Metabase Cloud began August 3, 2026",
+          "Patched versions: 0.58.24, 0.59.21, 0.60.17, 0.61.11, 0.62.9, 0.63.5",
+          "Stolen data included names, emails, addresses, phone numbers"
+        ],
+        "researched": true
+      },
+      {
+        "title": "Progress LoadMaster critical flaw actively exploited by attackers",
+        "one_liner": "CISA warned that a critical command-injection flaw in Progress Kemp LoadMaster, an appliance used by roughly 80% of Fortune 500 companies, is being actively exploited by attackers, with roughly 300,000 systems still unpatched.",
+        "importance": 4,
+        "theme": "Security",
+        "keywords": [
+          "Progress LoadMaster",
+          "command injection",
+          "CISA",
+          "active exploitation"
+        ],
+        "source_item_ids": [
+          "bleepingcomputer-2",
+          "securityweek-3"
+        ],
+        "sources": [
+          {
+            "label": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/",
+            "origin": "research"
+          },
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-progress-loadmaster-vulnerability/",
+            "origin": "research"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "progress-loadmaster-critical-flaw-actively-exploited-by-attackers",
+        "ref": "e2",
+        "takeaways": [
+          "CVE-2026-8037, CVSS 9.6, unauthenticated remote command execution",
+          "Over 100,000 LoadMaster deployments globally, used by Amazon and US Air Force",
+          "Patches released June 2026; fixed in GA v7.2.63.1+ and LTSF v7.2.54.17+",
+          "Also affects MOVEit WAF before v7.2.63.2",
+          "~300,000 systems remain vulnerable per Shadowserver"
+        ],
+        "researched": true
+      },
+      {
+        "title": "New passkey attacks can recover synced private keys and bypass MFA",
+        "one_liner": "Researchers demonstrate three separate methods to defeat passkey protections by reusing signed authentication material that Windows exposed.",
+        "importance": 3,
+        "theme": "Security",
+        "keywords": [
+          "passkeys",
+          "MFA bypass",
+          "private key recovery",
+          "authentication"
+        ],
+        "source_item_ids": [
+          "the-hacker-news-0"
+        ],
+        "sources": [
+          {
+            "label": "The Hacker News",
+            "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "new-passkey-attacks-can-recover-synced-private-keys-and-bypass-mfa"
+      },
+      {
+        "title": "Belgian eID software vulnerabilities affect 2 million users and 60+ agencies",
+        "one_liner": "Critical flaws discovered in Belgian eID software used by 2 million people and eight of the ten largest banks plus 60+ government agencies.",
+        "importance": 4,
+        "theme": "Security",
+        "keywords": [
+          "Belgium",
+          "eID",
+          "critical vulnerability",
+          "government"
+        ],
+        "source_item_ids": [
+          "securityweek-5"
+        ],
+        "sources": [
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/critical-flaws-discovered-in-belgian-eid-software-used-by-2-million-people/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "belgian-eid-software-vulnerabilities-affect-2-million-users-and-60-agencies"
+      },
+      {
+        "title": "New Zealand sanctions Russian hackers and propaganda groups over Ukraine war",
+        "one_liner": "New Zealand announces new sanctions on Russian hackers and Kremlin-linked organizations for their roles supporting Moscow's invasion of Ukraine.",
+        "importance": 2,
+        "theme": "Security",
+        "keywords": [
+          "New Zealand",
+          "Russia",
+          "sanctions",
+          "Ukraine"
+        ],
+        "source_item_ids": [
+          "the-record-0"
+        ],
+        "sources": [
+          {
+            "label": "The Record",
+            "url": "https://therecord.media/new-zealand-russian-hackers-sanctions",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "new-zealand-sanctions-russian-hackers-and-propaganda-groups-over-ukraine-war"
+      },
+      {
+        "title": "LexisNexis shuts services following suspicious server activity",
+        "one_liner": "LexisNexis takes Diligence, Metabase API, and Newsdesk services offline after detecting unusual activity on servers hosted by a third-party vendor.",
+        "importance": 3,
+        "theme": "Security",
+        "keywords": [
+          "LexisNexis",
+          "service outage",
+          "suspicious activity"
+        ],
+        "source_item_ids": [
+          "bleepingcomputer-0"
+        ],
+        "sources": [
+          {
+            "label": "BleepingComputer",
+            "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "lexisnexis-shuts-services-following-suspicious-server-activity"
+      },
+      {
+        "title": "TrueConf Server vulnerabilities exploited to deploy PhantomCore malware",
+        "one_liner": "Threat actor Head Mare exploits unpatched TrueConf server flaws to install PhantomCore on Russian company systems across multiple sectors.",
+        "importance": 2,
+        "theme": "Security",
+        "keywords": [
+          "TrueConf",
+          "PhantomCore",
+          "malware",
+          "Russia"
+        ],
+        "source_item_ids": [
+          "the-hacker-news-2"
+        ],
+        "sources": [
+          {
+            "label": "The Hacker News",
+            "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "trueconf-server-vulnerabilities-exploited-to-deploy-phantomcore-malware"
+      },
+      {
+        "title": "Solidity Pro VS Code extension steals crypto wallets and credentials",
+        "one_liner": "Malicious VS Code extension named Solidity Pro delivers browser wallet and credential stealer targeting cryptocurrency developers.",
+        "importance": 3,
+        "theme": "Security",
+        "keywords": [
+          "VS Code",
+          "malware",
+          "cryptocurrency",
+          "wallet theft"
+        ],
+        "source_item_ids": [
+          "the-hacker-news-3"
+        ],
+        "sources": [
+          {
+            "label": "The Hacker News",
+            "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "solidity-pro-vs-code-extension-steals-crypto-wallets-and-credentials"
+      },
+      {
+        "title": "Iranian-linked hackers target US water facilities in multiple states",
+        "one_liner": "Hackers linked to Iran targeted industrial control systems at water facilities in at least a dozen US states, including New Jersey and Alabama.",
+        "importance": 4,
+        "theme": "Security",
+        "keywords": [
+          "Iran",
+          "water systems",
+          "critical infrastructure",
+          "cyberattack"
+        ],
+        "source_item_ids": [
+          "securityweek-0"
+        ],
+        "sources": [
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/new-jersey-alabama-join-states-targeted-in-water-cyberattacks/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "iranian-linked-hackers-target-us-water-facilities-in-multiple-states"
+      },
+      {
+        "title": "Polish energy facility compromised via novel private APN attack vector",
+        "one_liner": "CERT.PL reports the first known use of a private APN as an attack vector in a successful breach of a Polish energy facility.",
+        "importance": 3,
+        "theme": "Security",
+        "keywords": [
+          "Poland",
+          "energy",
+          "APN",
+          "attack vector"
+        ],
+        "source_item_ids": [
+          "securityweek-2"
+        ],
+        "sources": [
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/novel-private-apn-pivot-let-hackers-sabotage-second-polish-energy-facility/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "polish-energy-facility-compromised-via-novel-private-apn-attack-vector"
+      },
+      {
+        "title": "Levi Strauss suffers data breach via social engineering",
+        "one_liner": "Levi Strauss confirms corporate data was stolen after threat actors used social engineering to access employee computers.",
+        "importance": 2,
+        "theme": "Security",
+        "keywords": [
+          "Levi Strauss",
+          "data breach",
+          "social engineering"
+        ],
+        "source_item_ids": [
+          "securityweek-4"
+        ],
+        "sources": [
+          {
+            "label": "SecurityWeek",
+            "url": "https://www.securityweek.com/corporate-data-stolen-in-levi-strauss-cyberattack/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "levi-strauss-suffers-data-breach-via-social-engineering"
+      },
+      {
+        "title": "Intel launches $15 billion share sale amid turnaround efforts",
+        "one_liner": "Intel announces a $15 billion share sale as the stock rallies on turnaround momentum.",
+        "importance": 2,
+        "theme": "Funding",
+        "keywords": [
+          "Intel",
+          "share sale",
+          "capital raise"
+        ],
+        "source_item_ids": [
+          "google-news-markets-86"
+        ],
+        "sources": [
+          {
+            "label": "Investing.com",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeE5xa3RNbXl3M1lMRHJjY3cyQV9xS2RJN2NTZzlxTkptZnNLRjBvUzFQaEVLbGs2a2VrbjJuZnRnd0lneHZBTXplVEVQVnhqRlBUcnVWT3FnaE5XLUxKc252SmNRUzk2bWtzYXBsczlQX0hrT1VfMnhFZGg5aUlaS2ZGRnIycmd4OHo5VEZ2NVpBTXhhMDRSc1A1dm1jZG44X2xreXJ4QW40NEYtWXp4Tk9hM3FMMTNudjhPVTdZa00yaXM?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "markets"
+        ],
+        "primary_topic": "markets",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "intel-launches-15-billion-share-sale-amid-turnaround-efforts"
+      },
+      {
+        "title": "Bowman Consulting agrees to $1 billion buyout deal",
+        "one_liner": "Bowman Consulting stock surges 55% on announcement of a $1 billion acquisition.",
+        "importance": 2,
+        "theme": "Funding",
+        "keywords": [
+          "Bowman Consulting",
+          "acquisition",
+          "buyout"
+        ],
+        "source_item_ids": [
+          "google-news-markets-87"
+        ],
+        "sources": [
+          {
+            "label": "Investing.com",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSEx0SVh1YkJlQ0ZqM0hMQloxNzBrb1c0bzd0Njd2c0t4VVA2V3dQcEQxSTNvdVFJa3FaOHcxQWlmcXo2eHVIc0RzWUtDam50STN5clUtSl9qdnFTTHdGWTdTdkdnSjR4VXFNNHlib051MlB6Zl9DZ1hfSldWeHZReEJzUGhpN195RW1pTm9VenM4T0tJSzRIeFpNeHlUVlJQaG1BRzlhVjBreE5RQjdpZlNjYkpLTWl3ZGp0Vg?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "markets"
+        ],
+        "primary_topic": "markets",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "bowman-consulting-agrees-to-1-billion-buyout-deal"
+      },
+      {
+        "title": "SpaceX stock rebounds above $135 IPO price in premarket trading",
+        "one_liner": "SpaceX shares reclaim the $135 IPO price in premarket trading, with ARK Invest reportedly buying shares.",
+        "importance": 2,
+        "theme": "Markets",
+        "keywords": [
+          "SpaceX",
+          "IPO",
+          "stock price"
+        ],
+        "source_item_ids": [
+          "google-news-markets-92",
+          "google-news-markets-3"
+        ],
+        "sources": [
+          {
+            "label": "Investing.com",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORlBicEhHMTJ4d3lqWVl0RGlrcFBtemxUWEhlWlkyRDI0bEprYjU0OHZjM3VxQ2NHWlNHV2IwT21tSkhlSlMzTEIyR2d0OW5jM0hNTW9xbXNMVEI1S2xqdzctWTkyWGQya0x1SjFqeUZCMS1zdmJxN3hqdjJyMTNWNldOeHg5V3o3aGJsMUFxcExjWHNzS0dwZTM1VkhDbjY3MURQdHRLUHFCb1lsdGdmaUt3?oc=5",
+            "origin": "rss"
+          },
+          {
+            "label": "Investor's Business Daily",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtUVAzMmZPSm5oSUtZa1lESzVhU0lRa2pubXRtRmJhbGI5VXVSd1RmdHhtaFdvTEFuMlV1TEpDM1VuLWc1NFJBV29oYnV2QVhfNFRaQUVFOVFXRS0zMXd3MFJDZDBTd2dDZE9rRzNja1VsUUhwdGdwazEwbjNYRTA?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "markets"
+        ],
+        "primary_topic": "markets",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "spacex-stock-rebounds-above-135-ipo-price-in-premarket-trading"
+      },
+      {
+        "title": "AI-designed viruses created by Stanford team to fight drug-resistant bacteria",
+        "one_liner": "Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance\u2014pointing to a new weapon against drug-resistant superbugs.",
+        "importance": 4,
+        "theme": "Science",
+        "keywords": [
+          "AI",
+          "bacteriophage",
+          "drug resistance",
+          "Stanford"
+        ],
+        "source_item_ids": [
+          "phys-org-6"
+        ],
+        "sources": [
+          {
+            "label": "My Stateline",
+            "url": "https://www.mystateline.com/news/scientists-engineer-novel-viruses-with-ai-to-fight-unstoppable-bacterial-threats/",
+            "origin": "research"
+          },
+          {
+            "label": "XenoSpectrum",
+            "url": "https://xenospectrum.com/en/ai-generated-phage-genome-evo2-stanford/",
+            "origin": "research"
+          },
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria",
+        "ref": "e4",
+        "takeaways": [
+          "AI tools Evo1 and Evo2 trained on millions of genomes",
+          "~300 designs synthesized, 16 proved viable",
+          "AI-designed phage mix beat resistance that natural phages couldn't",
+          "Published in Science; led by Samuel King and Brian Hie",
+          "Biosecurity experts flag risks of designing biology from scratch"
+        ],
+        "researched": true
+      },
+      {
+        "title": "Petermann Glacier calves largest ice island since 2012",
+        "one_liner": "Petermann Glacier in northwest Greenland calved a 76.4 km\u00b2 ice island on August 4, the largest Arctic calving event since 2020.",
+        "importance": 2,
+        "theme": "Science",
+        "keywords": [
+          "Greenland",
+          "glacier",
+          "climate change",
+          "ice"
+        ],
+        "source_item_ids": [
+          "phys-org-5"
+        ],
+        "sources": [
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-greenland-glacier-ice-island.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "petermann-glacier-calves-largest-ice-island-since-2012"
+      },
+      {
+        "title": "Urban canals reduce local temperatures by over 2\u00b0C during heat waves",
+        "one_liner": "University of Manchester research shows urban canals can cool their immediate surroundings by more than 2\u00b0C during heat waves.",
+        "importance": 2,
+        "theme": "Science",
+        "keywords": [
+          "urban cooling",
+          "canals",
+          "heat waves",
+          "climate"
+        ],
+        "source_item_ids": [
+          "phys-org-0"
+        ],
+        "sources": [
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-urban-canals-temperatures-2c.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "urban-canals-reduce-local-temperatures-by-over-2c-during-heat-waves"
+      },
+      {
+        "title": "Western Europe records hottest June-July on temperature record",
+        "one_liner": "Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain.",
+        "importance": 3,
+        "theme": "Science",
+        "keywords": [
+          "Europe",
+          "heat",
+          "climate change",
+          "temperature record"
+        ],
+        "source_item_ids": [
+          "phys-org-7",
+          "google-news-world-5"
+        ],
+        "sources": [
+          {
+            "label": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says",
+            "origin": "research"
+          },
+          {
+            "label": "CNN",
+            "url": "https://www.cnn.com/2026/08/10/climate/europe-heatwave-wildfire-intl-hnk",
+            "origin": "research"
+          },
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html",
+            "origin": "rss"
+          },
+          {
+            "label": "BBC",
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xMWpJVlAxeHhOb21USlItZ2xPcEZHM0REUmVFMmlpUTU0UnNkNzVFWklUeWJqQkpqaERwUzFNakVwRlk5Yy1QTGhVVEkyVFp1cmZ6T3A2LUc1dw?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science",
+          "world"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science",
+          "world"
+        ],
+        "primary_feed": "science",
+        "event_id": "western-europe-records-hottest-june-july-on-temperature-record",
+        "ref": "e5",
+        "takeaways": [
+          "Combined June-July average of 21.62\u00b0C, 2.79\u00b0C above normal",
+          "Beats previous record set in 2022",
+          "Third straight month of exceptional heat in the region",
+          "Low river flows on the Seine, Rhine and Danube",
+          "Global sea surface temperatures hit record 20.96\u00b0C in July"
+        ],
+        "researched": true
+      },
+      {
+        "title": "James Webb Space Telescope discovers new early-universe object",
+        "one_liner": "Astronomers using JWST data identify a new object from the early universe, demonstrating the telescope's ability to provide deepest views of the cosmos.",
+        "importance": 2,
+        "theme": "Science",
+        "keywords": [
+          "JWST",
+          "astronomy",
+          "early universe"
+        ],
+        "source_item_ids": [
+          "phys-org-3"
+        ],
+        "sources": [
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-astronomers-early-universe-webb.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "james-webb-space-telescope-discovers-new-early-universe-object"
+      },
+      {
+        "title": "NASA mission maps heat loss from Earth's rapidly changing poles",
+        "one_liner": "Satellite data reveal dramatic seasonal temperature swings at Earth's poles, showing how differently surface temperatures evolve across the year.",
+        "importance": 2,
+        "theme": "Science",
+        "keywords": [
+          "NASA",
+          "infrared",
+          "poles",
+          "climate"
+        ],
+        "source_item_ids": [
+          "phys-org-1"
+        ],
+        "sources": [
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-poles-hidden.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "nasa-mission-maps-heat-loss-from-earths-rapidly-changing-poles"
+      },
+      {
+        "title": "Voyager 2 power extended by NASA to continue deep-space mission",
+        "one_liner": "NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year.",
+        "importance": 3,
+        "theme": "Space",
+        "keywords": [
+          "Voyager 2",
+          "NASA",
+          "deep space"
+        ],
+        "source_item_ids": [
+          "google-news-space-7"
+        ],
+        "sources": [
+          {
+            "label": "NASA Jet Propulsion Laboratory",
+            "url": "https://www.jpl.nasa.gov/news/nasa-engineers-help-prolong-voyager-2s-science-mission/",
+            "origin": "research"
+          },
+          {
+            "label": "ScienceDaily",
+            "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTRDLUtub0ZkNWo0MDhWX05BMnVoUDBmWWlDeE1vVjNVcnQyMG5uN3lQeEdENHBabm54cUJGVlF0WFFxREkzVFIxOFF2LUZpbjhNaXRNVGdzcG0zSXp1NmVlX0kzTEtnd3VBVGNR?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "space"
+        ],
+        "primary_topic": "space",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "voyager-2-power-extended-by-nasa-to-continue-deep-space-mission",
+        "ref": "e6",
+        "takeaways": [
+          "Voyager 2 launched 1977, now over 21 billion km from Earth",
+          "Loses about 4 watts of power annually as its plutonium decays",
+          "'Big Bang' operation swapped devices for lower-power alternatives",
+          "Similar fix planned for Voyager 1 in coming months"
+        ],
+        "researched": true
+      },
+      {
+        "title": "Total solar eclipse August 12 with possible northern lights viewing",
+        "one_liner": "A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions.",
+        "importance": 2,
+        "theme": "Space",
+        "keywords": [
+          "solar eclipse",
+          "northern lights",
+          "astronomy"
+        ],
+        "source_item_ids": [
+          "space-com-1",
+          "space-com-2"
+        ],
+        "sources": [
+          {
+            "label": "Space.com",
+            "url": "https://www.space.com/stargazing/auroras/could-the-northern-lights-be-visible-during-the-total-solar-eclipse-on-aug-12-maybe",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "space"
+        ],
+        "primary_topic": "space",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "total-solar-eclipse-august-12-with-possible-northern-lights-viewing"
+      },
+      {
+        "title": "Pluto's atmosphere collapsing as planet drifts further from sun",
+        "one_liner": "As Pluto edges away from the sun, its atmosphere is condensing and freezing onto its surface.",
+        "importance": 1,
+        "theme": "Space",
+        "keywords": [
+          "Pluto",
+          "atmosphere",
+          "solar system"
+        ],
+        "source_item_ids": [
+          "space-com-0"
+        ],
+        "sources": [
+          {
+            "label": "Space.com",
+            "url": "https://www.space.com/astronomy/pluto/plutos-atmosphere-is-collapsing-as-it-drifts-away-from-the-sun-into-a-deep-freeze",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "space"
+        ],
+        "primary_topic": "space",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun"
+      },
+      {
+        "title": "NASA funds 18 space technology innovation concepts with $3.2 million",
+        "one_liner": "NASA invests $3.2 million in 18 experimental space technology ideas that may never reach practical deployment.",
+        "importance": 1,
+        "theme": "Space",
+        "keywords": [
+          "NASA",
+          "space tech",
+          "innovation"
+        ],
+        "source_item_ids": [
+          "google-news-space-10"
+        ],
+        "sources": [
+          {
+            "label": "autoevolution",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSHhEV1JHeFdJWGxLb1RTOW5BcTlCX2xsXy1WMnAtd3c0c2o4MnJuRjh2a0h6bWRSa1pmNXU3bzZEdXNDWExwRFIwem1jNHFma1dqckIxVHFVb0t0Y3dwSDdaV1FPSDZqNkdkVVBSTmYzTjFqY3hpMy1MWm5zTTh4ZDc2M0dIOEpSdTFBanoyQ3hpaTIwZXc2SDRQazRobEZSWnQxbzJnckF6dEZ6MDlLYVQ5R3ZMTTdld3p0NDVBMFhHdkE?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "space"
+        ],
+        "primary_topic": "space",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "nasa-funds-18-space-technology-innovation-concepts-with-32-million"
+      },
+      {
+        "title": "Ukraine drone strikes kill 13 in Russian city of Nizhnekamsk",
+        "one_liner": "Ukrainian drone attack on the Russian city of Nizhnekamsk kills 13 people and reportedly hits a refinery, marking one of the deadliest attacks in two years.",
+        "importance": 3,
+        "theme": "World",
+        "keywords": [
+          "Ukraine",
+          "Russia",
+          "drone strike",
+          "casualty"
+        ],
+        "source_item_ids": [
+          "google-news-world-0"
+        ],
+        "sources": [
+          {
+            "label": "apnews.com",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUUNmLWxickRLU05ySXVrTTR6U2Q4aTVSZExPY3ZaZnhCR01UcUtUMzhMU1c5Q0YwNFFCc0ZRVWpLYWo0RWZHWkhRc3Y2d1lLdDhwbTFNSmRZcXJ0SHV1VUtVWmdxQUZOei1iS1dwNEk3dkhyVTJvSWZiSjl6MXU1X01nQTZjenBZWkdUYmU4eG4tdUk?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "ukraine-drone-strikes-kill-13-in-russian-city-of-nizhnekamsk"
+      },
+      {
+        "title": "Ukraine drone commander seeks faster Western funding to increase Crimea strikes sevenfold",
+        "one_liner": "Ukrainian drone commander tells AP that Crimea strikes could increase sevenfold if Western military aid arrived faster.",
+        "importance": 2,
+        "theme": "World",
+        "keywords": [
+          "Ukraine",
+          "Crimea",
+          "funding",
+          "drones"
+        ],
+        "source_item_ids": [
+          "google-news-world-45"
+        ],
+        "sources": [
+          {
+            "label": "apnews.com",
+            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZGI3ZEkwRkVXWXhoWDVOWDNQQi1ZaXU1RE1BWWxpWlJYeWxxZDdmS0xfRDBVYW1jOGt1Q1NRU3dPZWJVVXpwNEdCbEloN0ZiWHozOG5YaE5yUzlhR2R6dVhoM2w2MWg3ejZoa2RRY3FHLWVMSmQxOHdEZ1A4V0kyVWJrYy04SV9xSWM3NGdQLXFydi1yU2NpWWtiNA?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "ukraine-drone-commander-seeks-faster-western-funding-to-increase-crimea-strikes-sevenfold"
+      },
+      {
+        "title": "President of the United States pursues economic pressure strategy on Iran",
+        "one_liner": "The president of the United States shifts toward economic pressure rather than military confrontation with Iran over Strait of Hormuz tensions.",
+        "importance": 2,
+        "theme": "World",
+        "keywords": [
+          "Iran",
+          "economic sanctions",
+          "Trump"
+        ],
+        "source_item_ids": [
+          "google-news-world-12"
+        ],
+        "sources": [
+          {
+            "label": "Al Jazeera",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTTY5TTlwdkYwOHlVbjNDM1Jia3BsMkc0LWdrNjJ4dlEtZFgzRkxTdDc2bFRvUnUzMUNJMzlSUjNmellWTWwtVWY2ejBrRG9ETkNOdkt5el8zV1F0a29CU1k3aW9BcXJrc1NmOE9vWVJXT2J0ZEtkb0NHVnVLMml4M2FxMjFBUFhEWDhIVzc3VnZVODU0dllLTVdVYW9pRDd6d3hSaFhsZlEtS2xp0gGyAUFVX3lxTE5OUkxXWmxET0s2MzdDb2RXZklsTnJIb3BtZkZ3c1ZINWw2YmoyWXlZRzM0WmpGdVlidFBSdnNMUUdURlV2Tmk0Q3o1c3ZYZTJ1MnNBVDdnVkxPSVVZNExSXzczV0loZHM2SEJ6VVNENlFEZzBpY21qal9oUDhZRXdjZlNHTzBiRXZuRUQ4TTBrem9yOVpaOFlSQzUzdnBkUmNvc2s0ZTdMMjIxNWVBNlFHMVE?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "president-of-the-united-states-pursues-economic-pressure-strategy-on-iran"
+      },
+      {
+        "title": "Typhoon Dolphin forces mass evacuation in China, grounds 950 Shanghai flights",
+        "one_liner": "Typhoon Dolphin batters China's east coast, prompting the evacuation of over 1 million people and canceling nearly 950 flights at Shanghai airports.",
+        "importance": 2,
+        "theme": "World",
+        "keywords": [
+          "China",
+          "typhoon",
+          "evacuation"
+        ],
+        "source_item_ids": [
+          "google-news-world-3"
+        ],
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLUZpWS1WaE9XT19QTmNOaTU0QkVYTEZ0NHdrNlZYTWVVdU5xalZNQTd5eXhWMlVQYWxELXBYOUlkVzlEbklPU21VOWdUVHpYQ2ROYXFfZExzSXFPVU51aVBGSHhzV3hza2R4NE5ydzF5V2Y0ZjkyY2xaeVFuUHBvRG02UVl3VGlCZlRGeEFSaG1hNnQ2M1Rpa0EwV1Q0eHE4S1lpbXYwajl0VEZYbXdF?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "typhoon-dolphin-forces-mass-evacuation-in-china-grounds-950-shanghai-flights"
+      },
+      {
+        "title": "British Columbia wildfires force evacuation of 20,000 residents",
+        "one_liner": "Explosive wildfires in British Columbia force 20,000 people to evacuate as unfavorable conditions spread the flames.",
+        "importance": 2,
+        "theme": "World",
+        "keywords": [
+          "Canada",
+          "wildfire",
+          "evacuation"
+        ],
+        "source_item_ids": [
+          "google-news-world-4"
+        ],
+        "sources": [
+          {
+            "label": "NBC News",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWFRucWlBR2NhSG9Zb1FpNERfQjlESkxCd0NTcldhRmEtYWZNQkFWWTJ4R3EzT20tZGpOVDlTV1NSaHZaZUk2S3B2ZUJ5SWpHQVFmU1E4SGU4ZWNXRDJpX3lhR01WMlFuOEtKLS1RN3d4U1ZXQk9odll3aHRXWUV6N2R2TG5LdjRodHJZajlWall1YWtuTng3eUh6aUE1b1BUdmlfaXU2M25sV3hz?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "british-columbia-wildfires-force-evacuation-of-20000-residents"
+      },
+      {
+        "title": "Roman shipwreck with 500 amphorae discovered off Sicily coast",
+        "one_liner": "Ancient Roman shipwreck more than 2,000 years old discovered off the coast of Sicily containing hundreds of amphorae.",
+        "importance": 1,
+        "theme": "World",
+        "keywords": [
+          "archaeology",
+          "Rome",
+          "Sicily",
+          "shipwreck"
+        ],
+        "source_item_ids": [
+          "google-news-world-6"
+        ],
+        "sources": [
+          {
+            "label": "theguardian.com",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSFNUZTZWQW1pTlhnU0IyYkdfS3BmZVZDaGFXVmxtakwxVzM3VUpnb0ZhOU5SeVRoNHdZYTJHR21TMXh6SUE0RG9IRENrVDExR28wWXFjWjBCeWw5Vnhvc1pDcUlGSlkwbUVfNndXWEtlb09YM3NCRmR4dW9JVnZqNngzNWlmVlNfbGRwQ0QtTVA0RFZzYmpFODlQbUpLckhPQXdjV0kwY2xseEU?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "roman-shipwreck-with-500-amphorae-discovered-off-sicily-coast"
+      },
+      {
+        "title": "London police seize $10 million in supercars during one weekend crackdown",
+        "one_liner": "London police seize approximately $10 million worth of supercars in a single weekend as part of efforts to combat antisocial driving.",
+        "importance": 1,
+        "theme": "World",
+        "keywords": [
+          "UK",
+          "police",
+          "cars"
+        ],
+        "source_item_ids": [
+          "google-news-world-10"
+        ],
+        "sources": [
+          {
+            "label": "CBS News",
+            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WeHkta0dGVGJGeGNTRTVtRzNyMC1oQUVkcGluRy1DTElvRjkyTVZFeFpqNS1PenNmd3VxYkx4aW1PVUVTT2xmTnBJRkhHeUk4Slh3ZHhIY2dGeGJpSlEtS2JfeWY5VWE2MmVadmh6VnBVVXNZTVEzc3htMFJMYnc?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "london-police-seize-10-million-in-supercars-during-one-weekend-crackdown"
+      },
+      {
+        "title": "Taiwan throttles mobile internet for first time during war games",
+        "one_liner": "Taiwan deliberately slows its mobile internet during annual military drills, marking the first test of how the island would cope if China disrupted connectivity.",
+        "importance": 2,
+        "theme": "World",
+        "keywords": [
+          "Taiwan",
+          "China",
+          "military drills",
+          "internet"
+        ],
+        "source_item_ids": [
+          "google-news-world-9"
+        ],
+        "sources": [
+          {
+            "label": "Reuters",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZ0V2YVUtVDBTRWNFMk85UERyby1qRkNveUZvWnNIZjFaUk05Q0xKWlJUWDNLT3htQWo4R09jeHZHbDFFV2gxWWtxcTdrMnk2aHpkbHVtVDBMWTNqX3dJcHRBcEh2eWg1YTJoWEpSYmxaNldMaFFleWpwVVRTRUpwN210dzdPd1hQdW5SZW5pV2VYc3gzamdvMllmRERsSFctYkZiZFJrZktwYWNscFZsdFRvOGpBeVhESlBPRXlqVXJiSTFIYnduLWw3amZ0c293UWJ0Vy1VZjNGTWs?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "taiwan-throttles-mobile-internet-for-first-time-during-war-games"
+      },
+      {
+        "title": "Sionna Therapeutics cystic fibrosis pill fails in mid-stage trial",
+        "one_liner": "Sionna Therapeutics' experimental cystic fibrosis drug provided no added benefit when combined with Vertex's blockbuster Trikafta in a trial.",
+        "importance": 2,
+        "theme": "Health",
+        "keywords": [
+          "Sionna",
+          "cystic fibrosis",
+          "drug trial"
+        ],
+        "source_item_ids": [
+          "stat-news-0"
+        ],
+        "sources": [
+          {
+            "label": "STAT News",
+            "url": "https://www.statnews.com/2026/08/10/sionna-cystic-fibrosis-trial-failures-sion719-vertex-trikaft/?utm_campaign=rss",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "health"
+        ],
+        "primary_topic": "health",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial"
+      },
+      {
+        "title": "Tenax Therapeutics heart failure drug fails in pivotal study",
+        "one_liner": "Tenax Therapeutics' pulmonary hypertension-linked heart failure drug failed in a closely watched pivotal trial.",
+        "importance": 2,
+        "theme": "Health",
+        "keywords": [
+          "Tenax",
+          "heart failure",
+          "drug trial"
+        ],
+        "source_item_ids": [
+          "stat-news-1"
+        ],
+        "sources": [
+          {
+            "label": "STAT News",
+            "url": "https://www.statnews.com/2026/08/10/tenax-heart-failure-drug-trail-failure-levosimendan-ph-hfpef/?utm_campaign=rss",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "health"
+        ],
+        "primary_topic": "health",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "tenax-therapeutics-heart-failure-drug-fails-in-pivotal-study"
+      },
+      {
+        "title": "Silence Therapeutics rare blood cancer drug shows strong trial results",
+        "one_liner": "Silence Therapeutics announces strong clinical results in a rare blood cancer trial, positioning it to compete with a Takeda medicine.",
+        "importance": 2,
+        "theme": "Health",
+        "keywords": [
+          "Silence Therapeutics",
+          "blood cancer",
+          "drug trial"
+        ],
+        "source_item_ids": [
+          "stat-news-2"
+        ],
+        "sources": [
+          {
+            "label": "STAT News",
+            "url": "https://www.statnews.com/2026/08/10/silence-polycythemia-vera-trial-results-divesiran-takeda-rusfertide/?utm_campaign=rss",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "health"
+        ],
+        "primary_topic": "health",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "silence-therapeutics-rare-blood-cancer-drug-shows-strong-trial-results"
+      },
+      {
+        "title": "Adobe rolls out AI-powered product discovery for shopping",
+        "one_liner": "Adobe launches AI-powered product discovery features integrated with large language models to improve online shopping experiences.",
+        "importance": 1,
+        "theme": "AI",
+        "keywords": [
+          "Adobe",
+          "AI",
+          "e-commerce"
+        ],
+        "source_item_ids": [
+          "google-news-ai-models-72"
+        ],
+        "sources": [
+          {
+            "label": "FoneArena.com",
+            "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQV2hpbWhJZFo2SGdmcHNsUGVfLW9zdjc3RWxLNmZJckxIaHQ0VHE5ZTFuY1ItODdhWFo5RjN2SDFxUHltYW5XcmdsR0ZwYThNOXppYlNLSmRleDZlN25UQXRoc0JrNGc4X2N1ZGNWbXdIWjZDeWc2ODJKUFE2b0RWQktiaVBHaE0wT1dLWGFaaVpNa1lf0gGaAUFVX3lxTE1xY21lN0oyaFVsRUFST1RJUmQ1SnEyZTFtTERNM1BmLTh4Vk5KNnJyT21sVUs1Yi02VjZjOS1TNzI1YnRJMmZybGhERjZCbjdmUklUQV9Rc24zdFlGQXVoYllLWDNfZzlvalZjX0lUcWczbFdnWnMyMDVvaW9LZnZlSHFNWDk1VU9wN1B4UzEyVDVWQW1vZEVmN3c?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "ai"
+        ],
+        "primary_topic": "ai",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "adobe-rolls-out-ai-powered-product-discovery-for-shopping"
+      },
+      {
+        "title": "Discovered Materials raises $9 million for AI-driven chip material discovery",
+        "one_liner": "Discovered Materials secures $9 million in funding to use AI to hunt for novel materials that enable more efficient chip designs.",
+        "importance": 2,
+        "theme": "Funding",
+        "keywords": [
+          "Discovered Materials",
+          "AI",
+          "semiconductors",
+          "funding"
+        ],
+        "source_item_ids": [
+          "techcrunch-0"
+        ],
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "discovered-materials-raises-9-million-for-ai-driven-chip-material-discovery"
+      },
+      {
+        "title": "Google Play adds Venmo as a payment option",
+        "one_liner": "Google Play now accepts Venmo as a payment method for app and game purchases.",
+        "importance": 1,
+        "theme": "Tech",
+        "keywords": [
+          "Google Play",
+          "Venmo",
+          "payment"
+        ],
+        "source_item_ids": [
+          "techcrunch-1",
+          "engadget-2"
+        ],
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/10/google-play-adds-venmo-as-a-payment-option/",
+            "origin": "rss"
+          },
+          {
+            "label": "Engadget",
+            "url": "https://www.engadget.com/2232988/google-play-venmo/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "google-play-adds-venmo-as-a-payment-option"
+      },
+      {
+        "title": "Android app store Aptoide launches in US Google Play Store",
+        "one_liner": "Aptoide, an alternative Android app store specializing in mobile games, becomes the first third-party digital store available directly in Google's Play Store.",
+        "importance": 2,
+        "theme": "Tech",
+        "keywords": [
+          "Android",
+          "Google Play",
+          "Aptoide"
+        ],
+        "source_item_ids": [
+          "the-verge-2"
+        ],
+        "sources": [
+          {
+            "label": "The Verge",
+            "url": "https://www.theverge.com/tech/977269/google-play-store-third-party-app-aptoide-games",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "android-app-store-aptoide-launches-in-us-google-play-store"
+      },
+      {
+        "title": "Ford rolls out AI assistant for vehicle info and recommendations",
+        "one_liner": "Ford launches an AI-powered assistant in its mobile app that can answer questions about fuel levels, tire pressure, and towing capacity.",
+        "importance": 1,
+        "theme": "Tech",
+        "keywords": [
+          "Ford",
+          "AI assistant",
+          "vehicles"
+        ],
+        "source_item_ids": [
+          "the-verge-3"
+        ],
+        "sources": [
+          {
+            "label": "The Verge",
+            "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "ford-rolls-out-ai-assistant-for-vehicle-info-and-recommendations"
+      },
+      {
+        "title": "Python gets post-quantum cryptography library support",
+        "one_liner": "Python ecosystem gains ML-KEM and ML-DSA NIST-standard post-quantum cryptographic primitives via the pyca/cryptography library.",
+        "importance": 3,
+        "theme": "Security",
+        "keywords": [
+          "Python",
+          "post-quantum cryptography",
+          "NIST"
+        ],
+        "source_item_ids": [
+          "schneier-on-security-0"
+        ],
+        "sources": [
+          {
+            "label": "Schneier on Security",
+            "url": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "security"
+        ],
+        "primary_topic": "security",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "python-gets-post-quantum-cryptography-library-support"
+      },
+      {
+        "title": "FCC proposes ban on LiDAR-equipped DJI drones previously approved",
+        "one_liner": "The FCC proposes revoking approval for DJI drones equipped with LiDAR sensors it had previously authorized.",
+        "importance": 2,
+        "theme": "Tech",
+        "keywords": [
+          "FCC",
+          "DJI",
+          "LiDAR",
+          "drones"
+        ],
+        "source_item_ids": [
+          "engadget-5"
+        ],
+        "sources": [
+          {
+            "label": "Engadget",
+            "url": "https://www.engadget.com/2233213/the-fcc-wants-to-ban-drones-with-lidar-that-it-previously-approved/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "fcc-proposes-ban-on-lidar-equipped-dji-drones-previously-approved"
+      },
+      {
+        "title": "Peer review overwhelmed as AI and research paper volume surge",
+        "one_liner": "As research output and AI-assisted papers accelerate, volunteer peer reviewers struggle to keep pace with growing submission volumes.",
+        "importance": 2,
+        "theme": "Science",
+        "keywords": [
+          "peer review",
+          "AI research",
+          "academia"
+        ],
+        "source_item_ids": [
+          "ars-technica-0"
+        ],
+        "sources": [
+          {
+            "label": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "peer-review-overwhelmed-as-ai-and-research-paper-volume-surge"
+      },
+      {
+        "title": "AI slop backlash drives platforms to flag and ban generated content",
+        "one_liner": "Platforms increasingly implement tools and policies to identify, label, and remove AI-generated content in response to user backlash.",
+        "importance": 2,
+        "theme": "Tech",
+        "keywords": [
+          "AI-generated content",
+          "moderation",
+          "policy"
+        ],
+        "source_item_ids": [
+          "wired-2"
+        ],
+        "sources": [
+          {
+            "label": "Wired",
+            "url": "https://www.wired.com/story/the-ai-slop-backlash-is-actually-having-an-impact/",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "ai-slop-backlash-drives-platforms-to-flag-and-ban-generated-content"
       }
     ]
   }

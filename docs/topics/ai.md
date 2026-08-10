@@ -1,8 +1,11 @@
-# AI
+# AI (2)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-_No briefings yet._
+## Latest — 2026-08-10
+
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Meta releases open-weight Muse Glimmer AI model for local inference](../news/tech/2026-08-10.md#meta-releases-open-weight-muse-glimmer-ai-model-for-local-inference)
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Adobe rolls out AI-powered product discovery for shopping](../news/ai/2026-08-10.md#adobe-rolls-out-ai-powered-product-discovery-for-shopping)
 
 ## Rollups
 

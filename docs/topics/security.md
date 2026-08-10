@@ -1,8 +1,19 @@
-# Security
+# Security (10)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-_No briefings yet._
+## Latest — 2026-08-10
+
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra development due to cybersecurity concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-development-due-to-cybersecurity-concerns)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability actively exploited in attacks](../news/security/2026-08-10.md#metabase-zero-day-vulnerability-actively-exploited-in-attacks)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Progress LoadMaster critical flaw actively exploited by attackers](../news/security/2026-08-10.md#progress-loadmaster-critical-flaw-actively-exploited-by-attackers)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Belgian eID software vulnerabilities affect 2 million users and 60+ agencies](../news/security/2026-08-10.md#belgian-eid-software-vulnerabilities-affect-2-million-users-and-60-agencies)
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iranian-linked hackers target US water facilities in multiple states](../news/security/2026-08-10.md#iranian-linked-hackers-target-us-water-facilities-in-multiple-states)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Steam hardware shipping breach leaks customer data across Europe](../news/security/2026-08-10.md#steam-hardware-shipping-breach-leaks-customer-data-across-europe)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [New passkey attacks can recover synced private keys and bypass MFA](../news/security/2026-08-10.md#new-passkey-attacks-can-recover-synced-private-keys-and-bypass-mfa)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [LexisNexis shuts services following suspicious server activity](../news/security/2026-08-10.md#lexisnexis-shuts-services-following-suspicious-server-activity)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Solidity Pro VS Code extension steals crypto wallets and credentials](../news/security/2026-08-10.md#solidity-pro-vs-code-extension-steals-crypto-wallets-and-credentials)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Polish energy facility compromised via novel private APN attack vector](../news/security/2026-08-10.md#polish-energy-facility-compromised-via-novel-private-apn-attack-vector)
 
 ## Rollups
 

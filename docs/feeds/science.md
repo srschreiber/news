@@ -1,12 +1,24 @@
-# Science
+# Science (11)
 
-_No stories yet._
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T12:56:38.788349+00:00">refreshed 12:56 UTC</time></em>
+
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [AI-designed viruses created by Stanford team to fight drug-resistant bacteria](../news/science/2026-08-10.md#ai-designed-viruses-created-by-stanford-team-to-fight-drug-resistant-bacteria) <span class="src-badge src-research">AI Researched</span> — Stanford researchers used AI models to design 16 viable bacteriophages with genomes not found in nature, which outperformed natural viruses at overcoming bacterial resistance—pointing to a new weapon against drug-resistant superbugs. · _science_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Western Europe records hottest June-July on temperature record](../news/science/2026-08-10.md#western-europe-records-hottest-june-july-on-temperature-record) <span class="src-badge src-research">AI Researched</span> — Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain. · _science, world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Voyager 2 power extended by NASA to continue deep-space mission](../news/space/2026-08-10.md#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission) <span class="src-badge src-research">AI Researched</span> — NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year. · _space_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Sionna Therapeutics cystic fibrosis pill fails in mid-stage trial](../news/health/2026-08-10.md#sionna-therapeutics-cystic-fibrosis-pill-fails-in-mid-stage-trial) — Sionna Therapeutics' experimental cystic fibrosis drug provided no added benefit when combined with Vertex's blockbuster Trikafta in a trial. · _health_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Petermann Glacier calves largest ice island since 2012](../news/science/2026-08-10.md#petermann-glacier-calves-largest-ice-island-since-2012) — Petermann Glacier in northwest Greenland calved a 76.4 km² ice island on August 4, the largest Arctic calving event since 2020. · _science_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Urban canals reduce local temperatures by over 2°C during heat waves](../news/science/2026-08-10.md#urban-canals-reduce-local-temperatures-by-over-2c-during-heat-waves) — University of Manchester research shows urban canals can cool their immediate surroundings by more than 2°C during heat waves. · _science_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [James Webb Space Telescope discovers new early-universe object](../news/science/2026-08-10.md#james-webb-space-telescope-discovers-new-early-universe-object) — Astronomers using JWST data identify a new object from the early universe, demonstrating the telescope's ability to provide deepest views of the cosmos. · _science_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [NASA mission maps heat loss from Earth's rapidly changing poles](../news/science/2026-08-10.md#nasa-mission-maps-heat-loss-from-earths-rapidly-changing-poles) — Satellite data reveal dramatic seasonal temperature swings at Earth's poles, showing how differently surface temperatures evolve across the year. · _science_
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Total solar eclipse August 12 with possible northern lights viewing](../news/space/2026-08-10.md#total-solar-eclipse-august-12-with-possible-northern-lights-viewing) — A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions. · _space_
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Pluto's atmosphere collapsing as planet drifts further from sun](../news/space/2026-08-10.md#plutos-atmosphere-collapsing-as-planet-drifts-further-from-sun) — As Pluto edges away from the sun, its atmosphere is condensing and freezing onto its surface. · _space_
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [NASA funds 18 space technology innovation concepts with $3.2 million](../news/space/2026-08-10.md#nasa-funds-18-space-technology-innovation-concepts-with-32-million) — NASA invests $3.2 million in 18 experimental space technology ideas that may never reach practical deployment. · _space_
 
 _Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
-- [Science](../topics/science.md) — 0 stories
-- [Space](../topics/space.md) — 0 stories
-- [Health](../topics/health.md) — 0 stories
+- [Science](../topics/science.md) — 6 stories
+- [Space](../topics/space.md) — 4 stories
+- [Health](../topics/health.md) — 3 stories
 

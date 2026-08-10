@@ -1,8 +1,11 @@
-# GPT
+# GPT (2)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
-_No briefings yet._
+## Latest — 2026-08-10
+
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra development due to cybersecurity concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-development-due-to-cybersecurity-concerns)
+- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [OpenAI acquires NextSlide for ChatGPT slide-deck features](../news/gpt/2026-08-10.md#openai-acquires-nextslide-for-chatgpt-slide-deck-features)
 
 ## Rollups
 
