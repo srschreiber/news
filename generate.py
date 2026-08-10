@@ -1241,7 +1241,7 @@ def _story_line(r: dict, prefix: str = "") -> str:
     desc = f" — {desc}" if desc else ""
     topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
     href = prefix + r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
-    badge = ' <span class="src-badge src-research">AI</span>' if r.get("researched") else ""
+    badge = ' <span class="src-badge src-research">AI Researched</span>' if r.get("researched") else ""
     return (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){badge}{desc} "
             f"· _{topics}_")
 
