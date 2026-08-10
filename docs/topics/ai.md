@@ -1,12 +1,15 @@
-# AI (5)
+# AI (8)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 ## Latest — 2026-08-10
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](../news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Meta releases open-weight Muse Glimmer AI model for local inference](../news/tech/2026-08-10.md#meta-releases-open-weight-muse-glimmer-ai-model-for-local-inference)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [North Korean hacking group expands AI use including local LLMs](../news/ai/2026-08-10.md#north-korean-hacking-group-expands-ai-use-including-local-llms)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Meta releases Muse Glimmer open-source LLM](../news/ai/2026-08-10.md#meta-releases-muse-glimmer-open-source-llm)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [ByteDance Seed Introduces SeedRealtime Audio-Visual Full-Duplex LLM](../news/ai/2026-08-10.md#bytedance-seed-introduces-seedrealtime-audio-visual-full-duplex-llm)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Vulnerabilities in LLM-based multi-agent systems expose stealthy attacks](../news/ai/2026-08-10.md#vulnerabilities-in-llm-based-multi-agent-systems-expose-stealthy-attacks)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Tencent expands global access to Hy3 large language model](../news/ai/2026-08-10.md#tencent-expands-global-access-to-hy3-large-language-model)
 - <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Adobe rolls out AI-powered product discovery for shopping](../news/ai/2026-08-10.md#adobe-rolls-out-ai-powered-product-discovery-for-shopping)
 

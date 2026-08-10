@@ -1,7 +1,8 @@
-# Technology (33)
+# Technology (35)
 
-## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:28:09.280183+00:00">refreshed 17:28 UTC</time></em>
+## Top stories — 2026-08-10 · <em><time class="feed-refresh" datetime="2026-08-10T17:47:27.356390+00:00">refreshed 17:47 UTC</time></em>
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](../news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model) — Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU. · _ai_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](../news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns) — OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers. · _anthropic, gpt, security_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability actively exploited in attacks](../news/security/2026-08-10.md#metabase-zero-day-vulnerability-actively-exploited-in-attacks) <span class="src-badge src-research">AI Researched</span> — Metabase patched a maximum-severity SQL injection zero-day that let unauthenticated attackers gain full admin access and steal connected database credentials, after it was exploited in the wild against Metabase Cloud customers including Framework and Tally. · _security_
 
@@ -36,16 +37,8 @@
     Sources: [Mastodon](https://mastodon.social/@camwilson/117067817318451465) <span class="src-badge src-research">Research</span>, [Hacker News (front page)](https://www.abc.net.au/news/2026-08-10/ai-assistant-hacks-gym-website-aus-cyber-attack/107007986) <span class="src-badge src-rss">RSS</span>
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Colombia struck by magnitude 7.4 earthquake killing at least 22](../news/tech/2026-08-10.md#colombia-struck-by-magnitude-74-earthquake-killing-at-least-22) — A magnitude 7.4 earthquake along the Pacific Ring of Fire struck western Colombia, killing at least 22 people and causing building collapses across multiple cities. · _tech, world_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Meta releases open-weight Muse Glimmer AI model for local inference](../news/tech/2026-08-10.md#meta-releases-open-weight-muse-glimmer-ai-model-for-local-inference) <span class="src-badge src-research">AI Researched</span> — Meta released Muse Glimmer, a 30-billion-parameter open-weight AI model that can run locally on consumer hardware for agentic tasks like coding and tool use, without needing cloud infrastructure. · _ai, tech_
-
-    - Apache 2.0 license, weights available on Hugging Face
-    - ~12GB memory needed after 4-bit quantization
-    - Supports 100+ languages and multimodal (text and image) input
-    - Benchmarked against Gemma4-31B and Qwen3.6-27B
-    - llama.cpp, MLX, ExecuTorch integrations coming soon
-
-    Sources: [Engadget](https://www.engadget.com/2233312/metas-open-source-muse-glimmer-model-can-run-on-a-single-computer/) <span class="src-badge src-research">Research</span>, [Meta AI Research](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) <span class="src-badge src-research">Research</span>, [analyticsindiamag.com](https://news.google.com/rss/articles/CBMinwFBVV95cUxQQWdjR19sNDUtb3FaME5kb0NhOEFYUXV3S29UNDQ4X0pvNE9GQjkxZ0hMSlFjNHVjaXJYQ3lRX2FjNVNQSFExSlRFOG5pMDhwSE8wOHVfb29fbU41bVVWTm1QR0ZFcWxNdWJudTVqcU14eHdzQWFQallPVGtYazloZnBTNUgtdnZNOU5CY044NC1HaWtiM0t0QUtjYlgwbWs?oc=5) <span class="src-badge src-rss">RSS</span>, [Hacker News (front page)](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) <span class="src-badge src-rss">RSS</span>
-
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [ByteDance Seed Introduces SeedRealtime Audio-Visual Full-Duplex LLM](../news/ai/2026-08-10.md#bytedance-seed-introduces-seedrealtime-audio-visual-full-duplex-llm) — ByteDance Seed has unveiled SeedRealtime, a multimodal language model capable of watching, listening, and speaking simultaneously. · _ai_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Vulnerabilities in LLM-based multi-agent systems expose stealthy attacks](../news/ai/2026-08-10.md#vulnerabilities-in-llm-based-multi-agent-systems-expose-stealthy-attacks) — Security research reveals that examining the internals of LLM-based multi-agent systems can expose previously stealthy attacks. · _ai_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Anthropic enables Claude Code auto mode by default](../news/anthropic/2026-08-10.md#anthropic-enables-claude-code-auto-mode-by-default) <span class="src-badge src-research">AI Researched</span> — Anthropic will make Claude Code's autonomous 'auto mode' the default for Pro, Max, and Team users starting August 14, 2026, replacing manual approval prompts with a safety classifier that blocks risky actions. · _anthropic_
 
     - Auto mode caught 89% of planted dangerous commands vs 13.6% by human reviewers
@@ -84,7 +77,7 @@ _Bars indicate estimated story importance (1 = minor · 5 = major)._
 ## Topics
 
 - [Tech](../topics/tech.md) — 10 stories
-- [AI](../topics/ai.md) — 5 stories
+- [AI](../topics/ai.md) — 8 stories
 - [Anthropic](../topics/anthropic.md) — 10 stories
 - [GPT](../topics/gpt.md) — 10 stories
 - [Security](../topics/security.md) — 11 stories

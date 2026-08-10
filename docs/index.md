@@ -14,6 +14,7 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
 ### [Technology](feeds/technology.md)
 
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Meta releases Muse Glimmer 30B open-weights agentic model](news/ai/2026-08-10.md#meta-releases-muse-glimmer-30b-open-weights-agentic-model) — Meta AI releases Muse Glimmer, a 30 billion parameter open-weights agentic model capable of running on a single consumer GPU. · _ai_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [OpenAI pauses Astra model development citing safety concerns](news/gpt/2026-08-10.md#openai-pauses-astra-model-development-citing-safety-concerns) — OpenAI has paused development of its next AI model Astra due to concerns about its potential dangers. · _anthropic, gpt, security_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Metabase zero-day vulnerability actively exploited in attacks](news/security/2026-08-10.md#metabase-zero-day-vulnerability-actively-exploited-in-attacks) <span class="src-badge src-research">AI Researched</span> — Metabase patched a maximum-severity SQL injection zero-day that let unauthenticated attackers gain full admin access and steal connected database credentials, after it was exploited in the wild against Metabase Cloud customers including Framework and Tally. · _security_
 
@@ -37,7 +38,6 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Belgian eID software vulnerabilities affect 2 million users and 60+ agencies](news/security/2026-08-10.md#belgian-eid-software-vulnerabilities-affect-2-million-users-and-60-agencies) — Critical flaws discovered in Belgian eID software used by 2 million people and eight of the ten largest banks plus 60+ government agencies. · _security_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Iranian-linked hackers target US water facilities in multiple states](news/security/2026-08-10.md#iranian-linked-hackers-target-us-water-facilities-in-multiple-states) — Hackers linked to Iran targeted industrial control systems at water facilities in at least a dozen US states, including New Jersey and Alabama. · _security_
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Cisco ClamAV high-severity vulnerabilities disclosed with public PoC](news/security/2026-08-10.md#cisco-clamav-high-severity-vulnerabilities-disclosed-with-public-poc) — Cisco warns of high-severity vulnerabilities in ClamAV antivirus software that allow unauthenticated remote denial-of-service attacks. · _security_
 
 ### [World](feeds/world.md)
 
@@ -46,7 +46,7 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Russia and Ukraine conduct escalating cross-border strikes](news/world/2026-08-10.md#russia-and-ukraine-conduct-escalating-cross-border-strikes) — Russia and Ukraine exchanged lethal overnight attacks with civilian casualties and damage to Odesa port. · _world_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Ukrainian drone attack on Russia kills 13 and reportedly hits refinery](news/world/2026-08-10.md#ukrainian-drone-attack-on-russia-kills-13-and-reportedly-hits-refinery) — A Ukrainian drone strike on a Russian city kills at least 13 people and reportedly damages a refinery facility. · _world_
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Netanyahu rejects president's 15-point Gaza peace plan](news/world/2026-08-10.md#netanyahu-rejects-presidents-15-point-gaza-peace-plan) — Israeli PM Benjamin Netanyahu rejects the 15-point Gaza disarmament plan backed by the president of the United States. · _world_
-- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Russia seeks 409,000 new soldiers as military recruitment slows in Ukraine conflict](news/world/2026-08-10.md#russia-seeks-409000-new-soldiers-as-military-recruitment-slows-in-ukraine-conflict) — Russia launches effort to recruit 409,000 new soldiers amid slowing recruitment for its ongoing war in Ukraine. · _world_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [SpaceX reports first earnings as a public company](news/markets/2026-08-10.md#spacex-reports-first-earnings-as-a-public-company) — SpaceX released its inaugural earnings report following its public company listing. · _markets_
 
 ### [Science](feeds/science.md)
 
@@ -62,18 +62,31 @@ Today's biggest stories, divided by feed. Pick a feed or topic from the sidebar 
 
 - <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [DESI Legacy Imaging Surveys releases largest 2D map of the universe](news/science/2026-08-10.md#desi-legacy-imaging-surveys-releases-largest-2d-map-of-the-universe) — The DESI Legacy Imaging Surveys team releases a 5.6-trillion-pixel map of the universe containing nearly 4 billion celestial objects. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Experimental GLP-1 pill achieves 12% weight loss in 36 weeks](news/health/2026-08-10.md#experimental-glp-1-pill-achieves-12-weight-loss-in-36-weeks) — An experimental once-daily GLP-1 pill called aleniglipron helped obese or overweight participants lose up to 12.1% of body weight in 36 weeks. · _health_
-- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Western Europe records hottest June-July on temperature record](news/science/2026-08-10.md#western-europe-records-hottest-june-july-on-temperature-record) <span class="src-badge src-research">AI Researched</span> — Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain. · _science, world_
-
-    - Combined June-July average of 21.62°C, 2.79°C above normal
-    - Beats previous record set in 2022
-    - Third straight month of exceptional heat in the region
-    - Low river flows on the Seine, Rhine and Danube
-    - Global sea surface temperatures hit record 20.96°C in July
-
-    Sources: [Al Jazeera](https://www.aljazeera.com/news/2026/8/10/june-and-july-hottest-on-record-in-western-europe-monitor-says) <span class="src-badge src-research">Research</span>, [CNN](https://www.cnn.com/2026/08/10/climate/europe-heatwave-wildfire-intl-hnk) <span class="src-badge src-research">Research</span>, [Phys.org](https://phys.org/news/2026-08-western-europe-experienced-hottest-june.html) <span class="src-badge src-rss">RSS</span>, [BBC](https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xMWpJVlAxeHhOb21USlItZ2xPcEZHM0REUmVFMmlpUTU0UnNkNzVFWklUeWJqQkpqaERwUzFNakVwRlk5Yy1QTGhVVEkyVFp1cmZ6T3A2LUc1dw?oc=5) <span class="src-badge src-rss">RSS</span>
-
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Discovery of slow electrons in 2D materials for memory devices](news/science/2026-08-10.md#discovery-of-slow-electrons-in-2d-materials-for-memory-devices) — Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies. · _science_
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [AI improves tropical cyclone forecasting by 30 hours](news/science/2026-08-10.md#ai-improves-tropical-cyclone-forecasting-by-30-hours) — AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms. · _science_
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Voyager 2 power extended by NASA to continue deep-space mission](news/space/2026-08-10.md#voyager-2-power-extended-by-nasa-to-continue-deep-space-mission) <span class="src-badge src-research">AI Researched</span> — NASA engineers extended Voyager 2's operational life by rebalancing its dwindling power supply, allowing its three remaining science instruments to keep running for at least another year. · _space_
+
+    - Voyager 2 launched 1977, now over 21 billion km from Earth
+    - Loses about 4 watts of power annually as its plutonium decays
+    - 'Big Bang' operation swapped devices for lower-power alternatives
+    - Similar fix planned for Voyager 1 in coming months
+
+    Sources: [NASA Jet Propulsion Laboratory](https://www.jpl.nasa.gov/news/nasa-engineers-help-prolong-voyager-2s-science-mission/) <span class="src-badge src-research">Research</span>, [ScienceDaily](https://news.google.com/rss/articles/CBMibkFVX3lxTFAwOTRDLUtub0ZkNWo0MDhWX05BMnVoUDBmWWlDeE1vVjNVcnQyMG5uN3lQeEdENHBabm54cUJGVlF0WFFxREkzVFIxOFF2LUZpbjhNaXRNVGdzcG0zSXp1NmVlX0kzTEtnd3VBVGNR?oc=5) <span class="src-badge src-rss">RSS</span>
+
+
+### [Climate & Ecological Resilience](research-feeds/climate-resilience.md)
+
+- <span class="imp imp-4" title="Importance 4/5" aria-label="Importance 4 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> [Globally and intergenerationally unequal exposure to hourly heat extremes](research/climate-resilience/2026-08-10.md#globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes) <span class="src-badge src-research">AI Researched</span> — A study in Nature Climate Change finds hourly heat extremes will quadruple globally by century's end under high emissions, with population exposure rising sixfold and low- and middle-income countries bearing the brunt. · _climate-resilience_
+
+    - Global hourly heat extremes projected to rise 4x by end of century under high emissions
+    - Population exposure to hourly heat extremes projected to rise 6x
+    - Each hot day gains ~4 extra hot hours, plus 3 hot hours on non-hot days missed by daily metrics
+    - Low- and middle-income countries already bear over 75% of heat exposure
+    - Younger generations, especially in low-income countries, face far higher lifetime exposure than earlier cohorts
+
+    Sources: [Nature Climate Change](https://www.nature.com/articles/s41558-026-02724-8) <span class="src-badge src-research">Research</span>
+
+- <span class="imp imp-1" title="Importance 1/5" aria-label="Importance 1 of 5"><i class="on"></i><i></i><i></i><i></i><i></i></span> [Enduring impacts of El Niño on life expectancy in past and future climates (Author Correction)](research/climate-resilience/2026-08-10.md#enduring-impacts-of-el-niño-on-life-expectancy-in-past-and-future-climates-author-correction) — An author correction to a study examining how El Niño events affect human life expectancy across historical and projected future climate scenarios. · _climate-resilience_
 
 ### [Patents](feeds/patent-ip.md)
 
