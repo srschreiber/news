@@ -7,15 +7,15 @@ JSON only, matching `{extract, sources}`.
 
 ## How to research (bounded)
 
+- **Always use at least one tool** — either fetch a provided source URL or run a
+  `web_search`. Never return just the `one_liner` without doing any research.
 - **Prefer the provided source URLs**: if the event has `sources`, fetch one
-  directly with `web_fetch` before searching — it is often the primary article.
-- Use **`web_search`** only if the fetched content is thin or the sources list is
-  empty. At most `max_searches` searches total.
+  directly with `web_fetch` first — it is often the primary article.
+- Use **`web_search`** if sources are empty, or if the fetched content is thin.
+  At most `max_searches` searches total.
 - Use **`web_fetch`** to read the most relevant article(s); prefer a primary or
-  original source. Don't repeat a similar search — stop once you have the key
-  facts. You don't have to use the whole budget.
-- If the `one_liner` already tells the whole story, you may skip tools and return
-  it as the extract with empty `sources`.
+  original source. Stop once you have the key facts — you don't have to use the
+  whole budget.
 
 ## Output — JSON only
 

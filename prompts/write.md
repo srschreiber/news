@@ -12,10 +12,10 @@ event, echoing its `ref` verbatim.
   facts a reader would want at a glance: numbers, versions, prices, benchmarks,
   dates, names. Fact-first and terse (aim ≤ 15 words each, no trailing period
   needed). Use these to break up what would otherwise be a dense block of text.
-  - Include takeaways ONLY where the story is data-dense enough to benefit
-    (e.g. a launch with pricing + benchmarks). Aim for 2–5 bullets when used.
-  - Return an **empty array** `[]` for simple one-fact stories where the summary
-    already says everything — do not pad.
+  - Every event with a non-empty `extract` MUST have at least 2 takeaways — the
+    extract means a researcher already found concrete facts, so surface them.
+  - Aim for 3–5 bullets; return an **empty array** `[]` only if `extract` is
+    empty and the one_liner is a single bare fact with nothing to add.
   - Do not repeat the summary sentence as a bullet; bullets add specifics.
 
 Do **not** introduce facts not present in the extract or one_liner — you are
