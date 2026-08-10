@@ -476,30 +476,31 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "anthropic-defaults-claude-code-auto-mode-to-on",
-    "title": "Anthropic defaults Claude Code auto mode to on",
-    "summary": "Anthropic confirms Claude Code's auto mode will be enabled by default.",
-    "theme": "AI",
+    "event_id": "microsoft-named-leader-in-idc-marketscape-for-mdrmxdr",
+    "title": "Microsoft named Leader in IDC MarketScape for MDR/MXDR",
+    "summary": "Microsoft is recognized as a Leader in the 2026 IDC MarketScape for managed detection and response services.",
+    "theme": "Security",
     "importance": 2,
     "evidence_strength": 0,
     "study_type": "",
     "topics": [
-      "anthropic"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Anthropic",
-      "Claude Code",
-      "auto mode"
+      "Microsoft",
+      "MDR",
+      "MXDR",
+      "IDC MarketScape"
     ],
-    "url": "news/anthropic/2026-08-10/#anthropic-defaults-claude-code-auto-mode-to-on",
+    "url": "news/email-security/2026-08-10/#microsoft-named-leader-in-idc-marketscape-for-mdrmxdr",
     "sources": [
       {
-        "label": "Mashable SEA",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTzNtUGdZeGV6OXp1MWtTdHloRFpwZ1ZxeEhoS0Rnc2hOY3R6UC1ORFZPNmRoaGVUVDZjVC1TTWd3OGREdmtJcjRWQ29TR0VzNDREcFg4a20wZnBJMFQ3Wkd4VEJCVHpiWnhtZGdTc2g4blNzWXFfQTkzZGoybG5PWmtPcnc5M1BQUllObVktd0lJdHpXYjNKTG1meFVNcldR?oc=5",
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
         "origin": "rss"
       }
     ],
@@ -646,74 +647,6 @@
       {
         "label": "Pulse 2.0",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0Z1pkdGc2ZWE3N0s1ZEJiSXB4S0QxYmZGdjJVdmRtUnNPRHpEaXZWM25TSHBaM3E5aWJIZHBDb2Y4bGpfaWtES2t4eXNPbDBpS1NPSjlCN2E1RzIzejFESzZjMFJwZ1g3dkxSeHRzRUxrd0ROSWEtNNIBfkFVX3lxTE1FelNuN20yQ2dCSzhvTFJaems4MDlWdFNVWFl0dHN1YnBfZ1VmT3UtZnBhUWNpNkNOUm9IMWNHSjZLWXBZblF4UzZrWkhYU2tFRHAySjdfRDEtNDdPTjFjSVdHc3RSWFdzYWV3NmZFRjJycF81VWdsTEF1a0twZw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-detects-potential-critical-cyber-risk-from-astra-tool",
-    "title": "OpenAI detects potential critical cyber risk from Astra tool",
-    "summary": "OpenAI flagged a potential critical cybersecurity vulnerability related to its Astra tool.",
-    "theme": "Security",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Astra",
-      "vulnerability",
-      "cyber risk"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-detects-potential-critical-cyber-risk-from-astra-tool",
-    "sources": [
-      {
-        "label": "digit.fyi",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORjZPb2U3SllpN25UWUUtamFlbjJzb0VWOWhGUzhzaktLX245dDBVeVQzSEVwQjRIRWlHNWYyZ19JN1oyZGdDbFN2cXVpa3ZYanlFd2RudEJVSDB4c3hOa2Z3UWdCcmpMbGlIalN1WW00Rk1DTDNUcUNiaEp4ZG9ReHZR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "openai-adds-advertising-technology-to-compete-for-ad-revenue",
-    "title": "OpenAI adds advertising technology to compete for ad revenue",
-    "summary": "OpenAI developed advertising technology to compete for advertising dollars in the AI market.",
-    "theme": "Technology",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "advertising",
-      "ad tech",
-      "monetization"
-    ],
-    "url": "news/gpt/2026-08-10/#openai-adds-advertising-technology-to-compete-for-ad-revenue",
-    "sources": [
-      {
-        "label": "MarTech",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SVm1zOS1TTlJTU3h4SlA2OWQ3SlhpM1k3bDlzbDg1YTVfVHMzQWtGd19TXzRTeXNYQlp1OGFLQjBWdnMyNGRFUHN2anlRSE1icVdid3BURWZZcTdMUlROZ0Y3SmhlWlYzRk1XQTU5V0Q2cHRTTktoYw?oc=5",
         "origin": "rss"
       }
     ],
@@ -990,72 +923,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "intel-launches-15-billion-share-sale-amid-turnaround-efforts",
-    "title": "Intel launches $15 billion share sale amid turnaround efforts",
-    "summary": "Intel announces a $15 billion share sale as the stock rallies on turnaround momentum.",
-    "theme": "Funding",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Intel",
-      "share sale",
-      "capital raise"
-    ],
-    "url": "news/markets/2026-08-10/#intel-launches-15-billion-share-sale-amid-turnaround-efforts",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeE5xa3RNbXl3M1lMRHJjY3cyQV9xS2RJN2NTZzlxTkptZnNLRjBvUzFQaEVLbGs2a2VrbjJuZnRnd0lneHZBTXplVEVQVnhqRlBUcnVWT3FnaE5XLUxKc252SmNRUzk2bWtzYXBsczlQX0hrT1VfMnhFZGg5aUlaS2ZGRnIycmd4OHo5VEZ2NVpBTXhhMDRSc1A1dm1jZG44X2xreXJ4QW40NEYtWXp4Tk9hM3FMMTNudjhPVTdZa00yaXM?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "bowman-consulting-agrees-to-1-billion-buyout-deal",
-    "title": "Bowman Consulting agrees to $1 billion buyout deal",
-    "summary": "Bowman Consulting stock surges 55% on announcement of a $1 billion acquisition.",
-    "theme": "Funding",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Bowman Consulting",
-      "acquisition",
-      "buyout"
-    ],
-    "url": "news/markets/2026-08-10/#bowman-consulting-agrees-to-1-billion-buyout-deal",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSEx0SVh1YkJlQ0ZqM0hMQloxNzBrb1c0bzd0Njd2c0t4VVA2V3dQcEQxSTNvdVFJa3FaOHcxQWlmcXo2eHVIc0RzWUtDam50STN5clUtSl9qdnFTTHdGWTdTdkdnSjR4VXFNNHlib051MlB6Zl9DZ1hfSldWeHZReEJzUGhpN195RW1pTm9VenM4T0tJSzRIeFpNeHlUVlJQaG1BRzlhVjBreE5RQjdpZlNjYkpLTWl3ZGp0Vg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "microsoft-releases-horizondb-postgresql-alternative",
     "title": "Microsoft releases HorizonDB PostgreSQL alternative",
     "summary": "Microsoft introduced HorizonDB, a PostgreSQL alternative designed to compete with the widely-used open-source database.",
@@ -1258,74 +1125,6 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "monsoon-provides-temporary-reprieve-for-great-barrier-reef-coral-recovery",
-    "title": "Monsoon provides temporary reprieve for Great Barrier Reef coral recovery",
-    "summary": "A late-summer monsoon in 2026 helped slow coral bleaching and aided recovery of the Great Barrier Reef ecosystem.",
-    "theme": "Science",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Great Barrier Reef",
-      "coral bleaching",
-      "monsoon",
-      "climate"
-    ],
-    "url": "news/science/2026-08-10/#monsoon-provides-temporary-reprieve-for-great-barrier-reef-coral-recovery",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-monsoon-cooling-great-barrier-reef.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
-    "event_id": "planet-rotation-rates-may-explain-habitability-of-venus-like-exoplanets",
-    "title": "Planet rotation rates may explain habitability of Venus-like exoplanets",
-    "summary": "Scientists investigate how planetary spin rates influence whether worlds become uninhabitable greenhouse planets or remain capable of supporting life.",
-    "theme": "Science",
-    "importance": 2,
-    "evidence_strength": 0,
-    "study_type": "",
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Venus",
-      "exoplanets",
-      "planetary rotation",
-      "habitability"
-    ],
-    "url": "news/science/2026-08-10/#planet-rotation-rates-may-explain-habitability-of-venus-like-exoplanets",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-planets-hellish.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-10",
-    "kind": "news",
     "event_id": "total-solar-eclipse-august-12-with-possible-northern-lights-viewing",
     "title": "Total solar eclipse August 12 with possible northern lights viewing",
     "summary": "A total solar eclipse on August 12, 2026, may align with northern lights visibility under rare atmospheric conditions.",
@@ -1418,6 +1217,40 @@
       {
         "label": "Space.com",
         "url": "https://www.space.com/space-exploration/launches-spacecraft/chinese-rocket-explodes-less-than-90-seconds-after-liftoff",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "nasa-debuts-on-discovery-and-hbo-max",
+    "title": "NASA+ debuts on discovery+ and HBO Max",
+    "summary": "NASA+ streaming service launches on discovery+ with plans to expand to HBO Max.",
+    "theme": "Space",
+    "importance": 2,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA+",
+      "streaming",
+      "discovery+",
+      "HBO Max"
+    ],
+    "url": "news/space/2026-08-10/#nasa-debuts-on-discovery-and-hbo-max",
+    "sources": [
+      {
+        "label": "nasa.gov",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZ1loaW1MU0RSc1E2MzBCaWpTSFJDaDdQSFphdTlLNV9YVGI2RWxBZS1oSzVpc3lGV2xuZXlnU2lUaF8tUjM2a242UENnVl8tUkVnZ19wVW0zU2pFOExSclFTZGpqOE5WQ0kzXzBmSmZ2ZGNRcExHVC1ZZTJXYXpjM3BGT3BndE1yRVE?oc=5",
         "origin": "rss"
       }
     ],
@@ -1762,6 +1595,41 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "anthropic-macquarie-and-gic-form-ai-data-center-venture",
+    "title": "Anthropic, Macquarie, and GIC form AI data center venture",
+    "summary": "Anthropic partners with Macquarie and GIC to establish a new AI data center venture.",
+    "theme": "AI Infrastructure",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Macquarie",
+      "GIC",
+      "data centers",
+      "AI infrastructure"
+    ],
+    "url": "news/anthropic/2026-08-10/#anthropic-macquarie-and-gic-form-ai-data-center-venture",
+    "sources": [
+      {
+        "label": "bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc0Y5VVJWSkc1aEJOMEF4QlNaeGxsVDg0YklRUzluTE5rVTVKekh5ZnM5VWh4NUcxNXBvNXB3djlZbm1DbHkxNTJhMFI4anFvakJnSndGYTI1WktTS2hOSmhXcUE5c0hXS1lrTmhjTEY3aGNERmlKOWc5TER3MUQtOHk4VHg3T0FwU0NLQmlNR09FbnMwLV9FaE80VU5qWG9HMXg2TDFKVENTeHJ6d0E5Mg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "kimsuky-hackers-weaponize-ai-generated-documents-in-crypto-phishing-campaign",
     "title": "Kimsuky hackers weaponize AI-generated documents in crypto phishing campaign",
     "summary": "North Korean-linked Kimsuky hackers are using AI-generated cryptocurrency documents in targeted spear-phishing campaigns.",
@@ -1896,6 +1764,74 @@
       {
         "label": "Investing.com Nigeria",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjljVE9BMGQwVk1UNDZVMV9sM2hsREwwUVphNXRyRy1YNVdKUVdXLThnYVZFUWdqWkxJRWRWeHd4ZEVBWXZQOVlSeUtBNklmbkN1d1B4dHBTNTd1UnJqR2tvQ0V5V0Vid1dwVHVyRXNOcmFKLXJfbGtnUVR2V2V5eGZNT3JOUWJwSzE3ZnRYNjdOc084dTU1WVA1WTk0SFRpTWlsb1ZrUFUxWDBhaFNXdGtvVG5RdzBNUGtTWWEyd3E1c0U?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "openai-introduces-cyber-security-model",
+    "title": "OpenAI introduces cyber security model",
+    "summary": "OpenAI launches a new cyber model in response to growing AI cyberattack concerns.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "cyber security",
+      "AI model"
+    ],
+    "url": "news/gpt/2026-08-10/#openai-introduces-cyber-security-model",
+    "sources": [
+      {
+        "label": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEx3dTFaeDJuXzJTOXRxYmtxYUFlYTk1UTVxX2F3RVg5c2lncFZHQm5TS3hvTEJaUzFZUk4tU0ZKNUtSZy1aU1dSY2JaYkRDQ05aSDNOUTZOeWVpUG1ZNjJ5a3lqLUF5VUZ4b0JQcWRIVzFCcGVCTm5GbzNkT3p6eXZPSHhCZHhrWWNCM0I1MUo?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "openai-acquires-nextslide-for-chatgpt-slide-deck-creation",
+    "title": "OpenAI acquires NextSlide for ChatGPT slide-deck creation",
+    "summary": "OpenAI acquires NextSlide to integrate AI slide-deck creation capabilities into ChatGPT.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "NextSlide",
+      "ChatGPT",
+      "acquisition",
+      "presentation software"
+    ],
+    "url": "news/gpt/2026-08-10/#openai-acquires-nextslide-for-chatgpt-slide-deck-creation",
+    "sources": [
+      {
+        "label": "adgully.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUx2TnhJenhtb1MySk5mQU95cjI3S0E4Mzd3SGpfQjEyZlNjUUVreWduUlFCVEhkVUtPSl9nZUFnejg0cXhCak53VER2LTRlMFRyTjRpQWJvZ3pya2QtaDdjTnlKbXJtSVh6OW5PRVVSSGJJbC1WUlF6MFJGbU5qQXFfRUt0VlJ4MkhRRXc2U1RydzFMNFNYRENDY3Z1a3Jv?oc=5",
         "origin": "rss"
       }
     ],
@@ -2151,6 +2087,74 @@
   {
     "date": "2026-08-10",
     "kind": "news",
+    "event_id": "jpmorgan-raises-sp-500-price-target-on-visible-ai-monetization",
+    "title": "JPMorgan raises S&P 500 price target on visible AI monetization",
+    "summary": "JPMorgan increased its S&P 500 price target citing increasingly visible AI monetization opportunities.",
+    "theme": "Markets",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "JPMorgan",
+      "S&P 500",
+      "AI monetization",
+      "price target"
+    ],
+    "url": "news/markets/2026-08-10/#jpmorgan-raises-sp-500-price-target-on-visible-ai-monetization",
+    "sources": [
+      {
+        "label": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNb2pPUWdiZVh4WEVxZ3Fud1E3VUxNN3pGR2drMjN4Q1llb1VYaFExRmtjcE1uMlpBdGJZWUJaZjB2bTNmUEs2TkhOTk9WTUVxSExzRlBoVk5CcEl2bk1Wa0o4Y0ZhRW96TWk4RFlHcVBtQi0tVU01Zy1GMjdseHJUV1FSSTVtMkdQM3RRY2p6eDBDa2JtTUllTlVFdE40OXhS?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "microsoft-launches-horizondb-as-postgresql-alternative",
+    "title": "Microsoft launches HorizonDB as PostgreSQL alternative",
+    "summary": "Microsoft introduces HorizonDB as an alternative to PostgreSQL databases.",
+    "theme": "Database Technology",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "HorizonDB",
+      "PostgreSQL",
+      "database"
+    ],
+    "url": "news/postgres/2026-08-10/#microsoft-launches-horizondb-as-postgresql-alternative",
+    "sources": [
+      {
+        "label": "infoworld.com",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMzhXTldabzkwOFptSS1GU044c0JoV2FlTkxHSGdWODFHd0xWb0ZLTGtxS2NwMjB5NDM5Z0E4Q2xPQ3dZSjl3MEJZN2dxWjg1RF9fT1pUZUxkUFBFeE1ERjdrUlpRaHVUdjVPSGN4ZEJGRnNKYWNJRmJQMzUzVVBfOWpvbktnM0sxSERCRmhISWhoQVdjTGx5ZllNU0NCR2g0V0VqczBNNnI?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
     "event_id": "western-europe-records-hottest-june-july-on-temperature-record",
     "title": "Western Europe records hottest June-July on temperature record",
     "summary": "Western Europe just recorded its hottest June-July on record, according to Copernicus, intensifying drought and fueling historic wildfires across France and Spain.",
@@ -2242,37 +2246,65 @@
   {
     "date": "2026-08-10",
     "kind": "news",
-    "event_id": "steam-hardware-shipping-breach-leaks-customer-data-across-europe",
-    "title": "Steam hardware shipping breach leaks customer data across Europe",
-    "summary": "Valve notifies European Steam hardware customers that CEVA Logistics, its shipping partner, suffered a breach exposing names, addresses, and phone numbers.",
-    "theme": "Security",
+    "event_id": "discovery-of-slow-electrons-in-2d-materials-for-memory-devices",
+    "title": "Discovery of slow electrons in 2D materials for memory devices",
+    "summary": "Researchers discovered slow electrons in 2D materials that could enable next-generation memory technologies.",
+    "theme": "Materials Science",
     "importance": 3,
     "evidence_strength": 0,
     "study_type": "",
     "topics": [
-      "security",
-      "tech"
+      "science"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "Valve",
-      "Steam",
-      "CEVA Logistics",
-      "data breach"
+      "2D materials",
+      "quantum effects",
+      "electron physics",
+      "memory devices"
     ],
-    "url": "news/security/2026-08-10/#steam-hardware-shipping-breach-leaks-customer-data-across-europe",
+    "url": "news/science/2026-08-10/#discovery-of-slow-electrons-in-2d-materials-for-memory-devices",
     "sources": [
       {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-discovery-electrons-2d-material-memory.html",
         "origin": "rss"
-      },
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "ai-improves-tropical-cyclone-forecasting-by-30-hours",
+    "title": "AI improves tropical cyclone forecasting by 30 hours",
+    "summary": "AI-enhanced cyclone forecasts could provide 30 additional hours of warning time for tropical storms.",
+    "theme": "AI",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "cyclone forecasting",
+      "AI",
+      "tropical storms",
+      "weather prediction"
+    ],
+    "url": "news/science/2026-08-10/#ai-improves-tropical-cyclone-forecasting-by-30-hours",
+    "sources": [
       {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-ai-cyclone-hours.html",
         "origin": "rss"
       }
     ],
@@ -2350,6 +2382,46 @@
       {
         "label": "Space.com",
         "url": "https://www.space.com/astronomy/sun/sharpest-image-of-the-sun-ever-captured-space-photo-of-the-day-for-aug-10-2026",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "steam-hardware-shipping-breach-leaks-customer-data-across-europe",
+    "title": "Steam hardware shipping breach leaks customer data across Europe",
+    "summary": "Valve notifies European Steam hardware customers that CEVA Logistics, its shipping partner, suffered a breach exposing names, addresses, and phone numbers.",
+    "theme": "Security",
+    "importance": 3,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "security",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Valve",
+      "Steam",
+      "CEVA Logistics",
+      "data breach"
+    ],
+    "url": "news/tech/2026-08-10/#steam-hardware-shipping-breach-leaks-customer-data-across-europe",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/games/977314/valve-steam-hardware-shipping-data-breach",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/",
         "origin": "rss"
       }
     ],
@@ -2577,47 +2649,6 @@
   },
   {
     "date": "2026-08-10",
-    "kind": "research",
-    "event_id": "globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
-    "title": "Globally and intergenerationally unequal exposure to hourly heat extremes",
-    "summary": "A Nature Climate Change study finds that under high-emissions warming, global hourly heat extremes will quadruple by century's end, with population exposure rising sixfold—far worse than daily temperature averages suggest—and low- and middle-income countries bearing the brunt.",
-    "theme": "Climate",
-    "importance": 4,
-    "evidence_strength": 5,
-    "study_type": "paper",
-    "topics": [
-      "climate-resilience"
-    ],
-    "feeds": [
-      "climate-resilience"
-    ],
-    "primary_feed": "climate-resilience",
-    "keywords": [
-      "heat extremes",
-      "hourly metrics",
-      "climate change",
-      "intergenerational equity",
-      "exposure inequality"
-    ],
-    "url": "research/climate-resilience/2026-08-10/#globally-and-intergenerationally-unequal-exposure-to-hourly-heat-extremes",
-    "sources": [
-      {
-        "label": "Nature Climate Change",
-        "url": "https://www.nature.com/articles/s41558-026-02724-8",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Hourly heat extremes projected to rise 4x by late century under RCP8.5",
-      "Population exposure to hourly heat extremes projected to rise 6x",
-      "Each hot day gains ~4 extra hot hours; 3 hot hours occur even on non-hot days",
-      "Low- and middle-income countries bear over 75% of current and projected exposure",
-      "Younger generations in poorer countries face much higher lifetime heat exposure"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-10",
     "kind": "news",
     "event_id": "openai-pauses-astra-development-due-to-cybersecurity-concerns",
     "title": "OpenAI pauses Astra development due to cybersecurity concerns",
@@ -2751,6 +2782,45 @@
       {
         "label": "sg.finance.yahoo.com",
         "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRUN6QlVfQmxZY2VpNXlEdHBHajRMdnNoYVVYbHhfMlc0WDVYck8yTFVDdGMxM0tlaVJBU1ItQVhqVTQtZXJYZkJZdFIyaDBIU2ZGaXVmcjN5YW9xajR2c1U0Qm1FdHRKcXNzTnU5OXdNZGllTzFqR2JycjNuMklDTjN4X0cwTFRDaFE4WmZ5WkxiWVhPY3l2Nld1TS1kMlAwb3dac0ktVGNTS3NoZ3JjM3VpT082N3F3T1gwTEl0eTY0Mm1kT0pDOXBBZ3ZFUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "oil-prices-surge-amid-strait-of-hormuz-tensions",
+    "title": "Oil prices surge amid Strait of Hormuz tensions",
+    "summary": "Oil prices jump 3% as hopes for reopening the Strait of Hormuz fade amid U.S.-Iran tensions.",
+    "theme": "Markets",
+    "importance": 4,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "oil prices",
+      "Strait of Hormuz",
+      "Iran",
+      "energy markets"
+    ],
+    "url": "news/markets/2026-08-10/#oil-prices-surge-amid-strait-of-hormuz-tensions",
+    "sources": [
+      {
+        "label": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOVBLRGVJelZ0MmNXTXhjaTdIQkp2LWdNYjEteVdWMUl6UWhxemY5b1JoeFZwNWVXVXRKeC1sTzFvMTNuWVVYNkdCRFpTdGlXeHFYMDNjQ2RQWjdtVWJkZlRvY1VyTzlTWi0yUmhTZmhORm1TNlhMWU9MdTJsblZ4Q1h0djZsbHFiRGZBWkozVmd2cUFqS3hMU0YycDNUY2FNRE9qOVB5R3o0UjVZQVVvTTNtWElzZjFnTEMtWUtiZ0ZzTkpjQ1E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Eurasia Business News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSVVPV1BGY0ozYVlmbmRJM3RzY1lNV3A2Ym85eWh0ZjhsVjY0WW93TGRDZjFMXzRVaE5NSWJyRUpsWlcydnhUNlhYYXdZREdDbGpxY253T1FkRUxRMm5QVGhta1RHNUlRUnYyeUNsTkc3QWJZbU9yZlQtUUVXV1RqcmhPaGxWMWdKeFV5d19nQnFVOHhVQThVU01IUUJwTWpL?oc=5",
         "origin": "rss"
       }
     ],
@@ -3103,6 +3173,41 @@
       {
         "label": "gbhackers.com",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1acHpOS0lPc18zRFhCRWloRGFYa0pldjZDMDdBdWNFMXg3SlU0emstelh1eVlvOXFMUC1TTEszdlplQW1NS1N0RzJLQWpKRUZSUDRlTdIBWkFVX3lxTE5zV0MySW1LZUNkUTlCejNYR1lYNHE3U0JyazJnTzRsSEF3V1hNT1hCcDlDY1lwakZfc3k2MmRiQkp1YWlRMVdNVUxoMF9sOVdxZ3NZcG9yOWszdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-10",
+    "kind": "news",
+    "event_id": "coruna-and-darksword-ios-exploits-spread-to-cybercrime-groups",
+    "title": "Coruna and DarkSword iOS exploits spread to cybercrime groups",
+    "summary": "Sophisticated iPhone exploit chains previously limited to nation-states are now proliferating to organized cybercrime groups.",
+    "theme": "Security",
+    "importance": 4,
+    "evidence_strength": 0,
+    "study_type": "",
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "iOS exploits",
+      "Coruna",
+      "DarkSword",
+      "iPhone security",
+      "cybercrime"
+    ],
+    "url": "news/security/2026-08-10/#coruna-and-darksword-ios-exploits-spread-to-cybercrime-groups",
+    "sources": [
+      {
+        "label": "Dark Reading",
+        "url": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
         "origin": "rss"
       }
     ],
