@@ -545,7 +545,7 @@ def _evid_meter(score: int) -> str:
 
 def _source_badge(origin: str) -> str:
     """GitHub-style pill tagging a source as from the RSS feed or from research."""
-    label = "Research" if origin == "research" else "RSS"
+    label = "Web Search" if origin == "research" else "RSS"
     return f'<span class="src-badge src-{origin}">{label}</span>'
 
 
