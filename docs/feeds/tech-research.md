@@ -1,12 +1,20 @@
-# Computer Science
+# Computer Science (1)
 
-_Feed <time class="feed-refresh" datetime="2026-08-10T19:52:04.424783+00:00">refreshed 19:52 UTC</time>._
+_Feed <time class="feed-refresh" datetime="2026-08-11T14:17:16.794201+00:00">refreshed 14:17 UTC</time>._
 
 ## Top stories
 
-_No stories yet._
+<div id="period-view" class="period-view" data-prefix="../../"></div>
+
+<script id="period-view-data" type="application/json">
+{"daily": [{"title": "New process for generating clean hydrogen from rocks and water", "url": "news/tech-research/2026-08-11/#new-process-for-generating-clean-hydrogen-from-rocks-and-water", "importance": 3, "date": "2026-08-11", "summary": "Researchers developed a method to generate clean hydrogen by applying electrical charges to rocks and water, tapping into natural serpentinization processes, with a Canadian mine study showing the approach could power hundreds of homes annually from depths of 2-3 kilometers.", "takeaways": ["Method involves lowering electrodes into boreholes to fracture rocks and trigger hydrogen production", "Kidd Creek mine, Ontario produces ~140 tons hydrogen annually from 15,000 boreholes at 2-3 km depth", "Hydrogen generation via serpentinization: water reacting with iron-containing Earth's crust minerals", "Over 70% of continental crust potentially suitable for this hydrogen generation", "Eden GeoPower pioneering technology; offers advantage of using hydrogen where found vs. long-distance transport"], "sources": [{"label": "IEEE Spectrum", "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen", "origin": "research"}, {"label": "Singularity Hub", "url": "https://singularityhub.com/2026/05/19/70-of-the-rock-under-our-feet-can-produce-hydrogen-tapping-it-could-power-your-town/", "origin": "research"}], "topics": ["tech-research"], "researched": true}], "weekly": [{"title": "New process for generating clean hydrogen from rocks and water", "url": "news/tech-research/2026-08-11/#new-process-for-generating-clean-hydrogen-from-rocks-and-water", "importance": 3, "date": "2026-08-11", "summary": "Researchers developed a method to generate clean hydrogen by applying electrical charges to rocks and water, tapping into natural serpentinization processes, with a Canadian mine study showing the approach could power hundreds of homes annually from depths of 2-3 kilometers.", "takeaways": ["Method involves lowering electrodes into boreholes to fracture rocks and trigger hydrogen production", "Kidd Creek mine, Ontario produces ~140 tons hydrogen annually from 15,000 boreholes at 2-3 km depth", "Hydrogen generation via serpentinization: water reacting with iron-containing Earth's crust minerals", "Over 70% of continental crust potentially suitable for this hydrogen generation", "Eden GeoPower pioneering technology; offers advantage of using hydrogen where found vs. long-distance transport"], "sources": [{"label": "IEEE Spectrum", "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen", "origin": "research"}, {"label": "Singularity Hub", "url": "https://singularityhub.com/2026/05/19/70-of-the-rock-under-our-feet-can-produce-hydrogen-tapping-it-could-power-your-town/", "origin": "research"}], "topics": ["tech-research"], "researched": true}], "monthly": [{"title": "New process for generating clean hydrogen from rocks and water", "url": "news/tech-research/2026-08-11/#new-process-for-generating-clean-hydrogen-from-rocks-and-water", "importance": 3, "date": "2026-08-11", "summary": "Researchers developed a method to generate clean hydrogen by applying electrical charges to rocks and water, tapping into natural serpentinization processes, with a Canadian mine study showing the approach could power hundreds of homes annually from depths of 2-3 kilometers.", "takeaways": ["Method involves lowering electrodes into boreholes to fracture rocks and trigger hydrogen production", "Kidd Creek mine, Ontario produces ~140 tons hydrogen annually from 15,000 boreholes at 2-3 km depth", "Hydrogen generation via serpentinization: water reacting with iron-containing Earth's crust minerals", "Over 70% of continental crust potentially suitable for this hydrogen generation", "Eden GeoPower pioneering technology; offers advantage of using hydrogen where found vs. long-distance transport"], "sources": [{"label": "IEEE Spectrum", "url": "https://spectrum.ieee.org/stimulated-geologic-hydrogen", "origin": "research"}, {"label": "Singularity Hub", "url": "https://singularityhub.com/2026/05/19/70-of-the-rock-under-our-feet-can-produce-hydrogen-tapping-it-could-power-your-town/", "origin": "research"}], "topics": ["tech-research"], "researched": true}]}
+</script>
+
+<script src="../../assets/period-view.js" defer></script>
+
+_Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 
-- [Tech Research](../topics/tech-research.md) — 0 stories
+- [Tech Research](../topics/tech-research.md) — 1 story
 
