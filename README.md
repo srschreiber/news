@@ -107,7 +107,12 @@ mutating that page, a *new* event is created for today, backlinked to the
 earlier version ("Update to: ..."), so a reader can click back day by day.
 Among several qualifying candidates across days, the most recent one wins,
 so a multi-day chain always points to its immediately preceding link, never
-a scattered set of every earlier day it resembles.
+a scattered set of every earlier day it resembles. Every event also carries
+a `lineage_id`, inherited unchanged across every copy in a chain regardless
+of how much the title/event_id drift day to day — not used anywhere yet,
+but a stable key a future feature could group on to render a full story's
+timeline in one shot instead of walking `updates_url` links one page at a
+time.
 
 ### 3. Read (research)
 

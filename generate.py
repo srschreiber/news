@@ -1735,6 +1735,7 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
             "topics": r.get("topics", []),
             "date": date,
             "md_url": _index_url_to_md(r["url"]),
+            "lineage_id": r.get("lineage_id", ""),
         }
     save_embedding_cache(cache)
 
@@ -1784,6 +1785,7 @@ def _merge_new_events(
     for ev in stored:
         eid = ev.get("event_id") or slugify(ev.get("title", ""))
         ev["event_id"] = eid
+        ev.setdefault("lineage_id", eid)
         by_id[eid] = ev
 
     # Only candidates that survive the exact-title check need matching at all.
@@ -1871,13 +1873,17 @@ def _merge_new_events(
                 # Most recent qualifying candidate wins — a multi-day chain
                 # always points to its immediately preceding link, never a
                 # scattered set of every earlier day it resembles.
-                _, best = max(qualifying, key=lambda kv: kv[1]["date"])
+                best_cid, best = max(qualifying, key=lambda kv: kv[1]["date"])
                 cand_text = f"{best['title']} {best.get('one_liner', '')}".strip()
                 relation = _classify_relation(_embed_text(ev), cand_text)
                 if relation in _MERGE_RELATIONS:
                     ev["updates_title"] = best["title"]
                     ev["updates_url"] = best["md_url"]
                     ev["received_at"] = now_iso
+                    # Inherit the chain's stable id (not this copy's own
+                    # event_id) so every link in a multi-day chain shares one
+                    # lineage_id, however titles drift along the way.
+                    ev["lineage_id"] = best.get("lineage_id") or best_cid
                     eid = ev["event_id"]
                     by_id[eid] = ev
                     updated.append(ev)  # always re-researched, like a same-day update
@@ -1885,6 +1891,7 @@ def _merge_new_events(
 
         eid = ev["event_id"]
         ev["received_at"] = now_iso
+        ev.setdefault("lineage_id", eid)
         by_id[eid] = ev
         truly_new.append(ev)
 
@@ -1947,6 +1954,7 @@ def build_search_index(shown: list[tuple], date: str) -> None:
                 "takeaways": ev.get("takeaways", []),
                 "researched": bool(ev.get("researched", False)),
                 "received_at": ev.get("received_at", ""),
+                "lineage_id": ev.get("lineage_id", ""),
             }
         )
     index.sort(key=lambda r: (r["date"], -r.get("importance", 0)), reverse=True)

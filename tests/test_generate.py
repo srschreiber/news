@@ -517,6 +517,48 @@ def test_merge_new_events_different_topic_not_merged():
     assert updated == []
 
 
+def test_merge_new_events_truly_new_gets_own_lineage_id():
+    new = [{"title": "Brand New Story", "topics": ["ai"], "importance": 3,
+            "keywords": [], "sources": []}]
+    all_events, truly_new, updated = g._merge_new_events([], new, _NOW)
+    assert len(truly_new) == 1
+    assert truly_new[0]["lineage_id"] == truly_new[0]["event_id"]
+
+
+def test_merge_new_events_exact_title_match_keeps_legacy_lineage_id():
+    # Legacy stored events written before lineage_id existed backfill to
+    # their own event_id, so old data doesn't need a migration.
+    stored = [{"title": "Big Story", "event_id": "big-story", "topics": ["ai"],
+               "importance": 4, "keywords": [], "sources": [], "researched": True}]
+    new = [{"title": "Big Story", "topics": ["ai"], "importance": 4, "keywords": [],
+            "sources": [{"url": "https://b", "label": "B"}]}]
+    all_events, truly_new, updated = g._merge_new_events(stored, new, _NOW)
+    assert all_events[0]["lineage_id"] == "big-story"
+
+
+def test_merge_new_events_cross_day_update_inherits_lineage_id(monkeypatch):
+    # A multi-day chain should share one lineage_id across every copy, even
+    # as titles/event_ids change day to day — this is what would let a
+    # future feature reconstruct the whole chain without parsing URLs.
+    monkeypatch.setattr(g, "_voyage_embed", lambda texts: [[1.0, 0.0] for _ in texts])
+    monkeypatch.setattr(g, "_classify_relation", lambda a, b: "update")
+
+    cross_day = {
+        "colombia-earthquake-kills-at-least-111-people": {
+            "embedding": [1.0, 0.0], "title": "Colombia earthquake kills at least 111 people",
+            "one_liner": "", "topics": ["world"], "date": "2026-08-10",
+            "md_url": "../world/2026-08-10.md#colombia-earthquake-kills-at-least-111-people",
+            "lineage_id": "colombia-earthquake-kills-at-least-111-people",
+        },
+    }
+    new = [{"title": "Colombia earthquake death toll rises sharply overnight",
+            "topics": ["world"], "importance": 5, "keywords": [], "sources": []}]
+    all_events, truly_new, updated = g._merge_new_events([], new, _NOW, cross_day)
+    assert len(updated) == 1
+    assert updated[0]["lineage_id"] == "colombia-earthquake-kills-at-least-111-people"
+    assert updated[0]["event_id"] != updated[0]["lineage_id"]  # new day, new id, same lineage
+
+
 def test_merge_new_events_cross_day_skipped_without_embeddings():
     # cross_day matching requires embeddings_ok (real VOYAGE_API_KEY + a
     # successful call) — with none available in the test env, a cross_day
