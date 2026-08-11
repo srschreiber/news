@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# OpenAI (9)
+# OpenAI (10)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 

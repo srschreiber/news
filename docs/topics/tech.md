@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Tech (11)
+# Tech (12)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
