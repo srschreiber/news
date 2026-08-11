@@ -1,4 +1,4 @@
-# Science (5)
+# Science (6)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
@@ -8,6 +8,7 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [July 2026 marks hottest month on record for contiguous United States](../news/science/2026-08-10.md#july-2026-marks-hottest-month-on-record-for-contiguous-united-states)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Major European rivers reach record low water levels in July](../news/science/2026-08-10.md#major-european-rivers-reach-record-low-water-levels-in-july)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Regions home to 900 million people experienced record July heat in 2026](../news/science/2026-08-10.md#regions-home-to-900-million-people-experienced-record-july-heat-in-2026)
+- <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Microplastics transport hazardous additives through marine environments](../news/science/2026-08-10.md#microplastics-transport-hazardous-additives-through-marine-environments)
 - <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [FDA approves new mRNA influenza vaccine](../news/science/2026-08-10.md#fda-approves-new-mrna-influenza-vaccine)
 
 ## Rollups

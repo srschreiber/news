@@ -1,4 +1,4 @@
-# Security (12)
+# Security (11)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
@@ -15,7 +15,6 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Ceva Logistics data breach exposes customer information across retail, gaming, shipping](../news/security/2026-08-10.md#ceva-logistics-data-breach-exposes-customer-information-across-retail-gaming-shipping)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Gunra ransomware gang targets critical infrastructure via firewall vulnerabilities](../news/security/2026-08-10.md#gunra-ransomware-gang-targets-critical-infrastructure-via-firewall-vulnerabilities)
 - <span class="imp imp-3" title="Importance 3/5" aria-label="Importance 3 of 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span> [Progress LoadMaster vulnerabilities actively exploited by ransomware gangs](../news/security/2026-08-10.md#progress-loadmaster-vulnerabilities-actively-exploited-by-ransomware-gangs)
-- <span class="imp imp-2" title="Importance 2/5" aria-label="Importance 2 of 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> [Levi Strauss suffers social engineering cyberattack, corporate data stolen](../news/tech/2026-08-10.md#levi-strauss-suffers-social-engineering-cyberattack-corporate-data-stolen)
 
 ## Rollups
 
