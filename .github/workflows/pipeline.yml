@@ -2,9 +2,7 @@ name: news-pipeline
 
 on:
   schedule:
-    # Every 15 minutes, all day. Runs with no new RSS items exit cheaply
-    # (just HTTP fetches + timestamp update — no Voyage/Haiku/Sonnet calls).
-    - cron: "*/15 * * * *"
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 # Only one pipeline run at a time (they all commit to main).
