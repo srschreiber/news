@@ -25,16 +25,16 @@ custom_instructions: |
 feeds:
   technology:
     title: Technology
-    research_budget: 6
-    topics: [tech, ai, anthropic, gpt, security, email-security, golang, python, postgres]
+    topics: [tech, ai, anthropic, gpt, security, email-security, golang, python, postgres, tech-research]
     scoring_context: >
       Score for a tech-industry reader. 5 = industry-shaping (landmark model release,
       critical zero-day exploited at scale, major platform shutdown). 3 = significant
       (notable product launch, substantial breach, widely-adopted tool). 1 = minor
-      update or niche-only interest.
+      update or niche-only interest. For tech-research specifically: score for a CS
+      researcher or ML practitioner — 5 = widely-cited breakthrough or new SOTA,
+      3 = solid paper from a top venue/lab, 1 = incremental or narrow niche.
   world:
     title: World
-    research_budget: 6
     topics: [world, markets]
     scoring_context: >
       Score for a general news reader tracking global events and financial markets.
@@ -43,48 +43,23 @@ feeds:
       market move, meaningful policy change). 1 = local incident or routine report.
   science:
     title: Science
-    research_budget: 6
-    topics: [science, space, health]
-    also_includes: [climate-resilience]
+    topics: [science, space, health, climate-resilience, diet-exercise]
     scoring_context: >
       Score for a science-curious reader, not against general-news events. 5 = landmark
       within science (Nobel-calibre discovery, major FDA approval, first-ever mission
       milestone). 3 = significant (well-replicated study with real-world implications,
       meaningful drug trial result, notable space mission update). 1 = routine research
-      note or incremental finding.
-  tech-research:
-    title: Computer Science
-    research_budget: 6
-    topics: [tech-research]
-    scoring_context: >
-      Score for a CS researcher or ML practitioner reading papers and lab blogs.
-      5 = landmark result (widely-cited breakthrough, new SOTA on a major benchmark,
-      transformative method). 3 = significant (solid paper from a top venue or lab,
-      practical technique with clear applications). 1 = incremental or narrow niche.
-  climate-resilience:
-    title: Climate & Ecological Resilience
-    research_budget: 6
-    topics: [climate-resilience]
-    scoring_context: >
-      Score for an ecologist, conservationist, or climate scientist. 5 = landmark
-      finding (new mechanistic understanding of fire-climate coupling, breakthrough
-      in restoration methodology, large-scale synthesis across many ecosystems).
-      3 = significant (well-designed field study or modeling advance with clear
-      real-world implications). 1 = incremental or narrow local study.
-  patent-ip:
-    title: Patents
-    research_budget: 6
-    topics: [patent-ip]
-    scoring_context: >
-      Score for a patent attorney, IP counsel, or tech legal reader. 5 = major
-      precedent (Supreme Court or landmark Federal Circuit ruling reshaping a whole
-      industry). 3 = significant (notable court decision, major USPTO policy change,
-      high-profile patent dispute outcome). 1 = routine filing or minor procedural order.
-
+      note or incremental finding. For climate-resilience specifically: score for an
+      ecologist or climate scientist — 5 = landmark finding (new mechanistic
+      understanding, breakthrough restoration method), 3 = well-designed field study
+      with real-world implications, 1 = incremental or narrow local study. For
+      diet-exercise: score for a health-conscious general reader — 5 = major dietary
+      or exercise-science finding that changes guidance, 3 = solid study with practical
+      takeaways, 1 = routine or niche finding.
 # Web research (Stage 2: Haiku reads + Sonnet polishes) is the main cost. On by
 # default; turned off for niche/low-value topics (rendered from RSS summaries).
-# This is an additional per-topic gate on top of each feed's research_budget:
-# a topic set false here is never researched even if its feed has budget left.
+# Each research-enabled topic (subfeed) gets its own budget — see
+# RESEARCH_BUDGET_PER_TOPIC in generate.py — rather than sharing one per-feed pool.
 research:
   default: true
   topics:
@@ -239,7 +214,7 @@ sources:
     query: "medical research OR medicine breakthrough"
     topic: health
 
-  # === TECH RESEARCH FEED (research kind — separate pipeline) ===
+  # === TECH RESEARCH SUBFEED (part of Technology) ===
   # --- arXiv CS categories ---
   - name: "arXiv — Computation and Language"
     url: https://rss.arxiv.org/rss/cs.CL
@@ -295,8 +270,14 @@ sources:
   - name: "Hugging Face Daily Papers"
     url: https://huggingface.co/papers.rss
     topic: tech-research
+  - name: "Quanta Magazine"
+    url: https://www.quantamagazine.org/feed/
+    topic: tech-research
+  - name: "DeepMind Blog"
+    url: https://www.deepmind.com/blog/rss.xml
+    topic: tech-research
 
-  # === CLIMATE & ECOLOGICAL RESILIENCE FEED (research kind) ===
+  # === CLIMATE & ECOLOGICAL RESILIENCE SUBFEED (part of Science) ===
   - name: "Nature Climate Change"
     url: https://www.nature.com/nclimate.rss
     topic: climate-resilience
@@ -334,17 +315,35 @@ sources:
     scraper: usfs_treesearch
     query: "wildfire fire ecology fuel treatment forest restoration"
     topic: climate-resilience
+  - name: "Carbon Brief"
+    url: https://www.carbonbrief.org/feed/
+    topic: climate-resilience
+  - name: "Mongabay"
+    url: https://news.mongabay.com/feed/
+    topic: climate-resilience
+  - name: "Yale Environment 360"
+    url: https://e360.yale.edu/feed.xml
+    topic: climate-resilience
 
-  # === PATENTS FEED (research disabled — raw RSS summaries only) ===
-  - name: "Patently-O"
-    url: https://patentlyo.com/feed
-    topic: patent-ip
-  - name: "IPWatchdog"
-    url: https://ipwatchdog.com/feed/
-    topic: patent-ip
-  - name: "Federal Circuit — Opinions and Orders"
-    url: https://www.cafc.uscourts.gov/category/opinion-order/feed/
-    topic: patent-ip
-  - name: "USPTO PTAB Decisions"
-    url: https://data.uspto.gov/ptab-feed/notifications.rss
-    topic: patent-ip
+  # === DIET & EXERCISE SUBFEED (part of Science) ===
+  - name: "ScienceDaily — Fitness"
+    url: https://www.sciencedaily.com/rss/health_medicine/fitness.xml
+    topic: diet-exercise
+  - name: "ScienceDaily — Nutrition"
+    url: https://www.sciencedaily.com/rss/health_medicine/nutrition.xml
+    topic: diet-exercise
+  - name: "Nature Metabolism"
+    url: https://www.nature.com/natmetab.rss
+    topic: diet-exercise
+  - name: "Precision Nutrition"
+    url: https://www.precisionnutrition.com/blog/feed
+    topic: diet-exercise
+  - name: "SELF"
+    url: https://www.self.com/feed/rss
+    topic: diet-exercise
+  - name: "Runner's World"
+    url: https://www.runnersworld.com/rss/all.xml/
+    topic: diet-exercise
+  - name: "Google News — nutrition exercise science"
+    query: "nutrition exercise science study research"
+    topic: diet-exercise

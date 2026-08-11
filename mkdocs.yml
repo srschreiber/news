@@ -72,6 +72,7 @@ nav:
           - topics/golang.md
           - topics/python.md
           - topics/postgres.md
+          - "Computer Science": topics/tech-research.md
       - World:
           - Top stories: feeds/world.md
           - topics/world.md
@@ -81,15 +82,8 @@ nav:
           - topics/science.md
           - topics/space.md
           - topics/health.md
-      - Patents:
-          - Top stories: feeds/patent-ip.md
-          - topics/patent-ip.md
-      - "Computer Science":
-          - Top stories: feeds/tech-research.md
-          - topics/tech-research.md
-      - "Climate & Ecological Resilience":
-          - Top stories: feeds/climate-resilience.md
-          - topics/climate-resilience.md
+          - "Climate & Ecological Resilience": topics/climate-resilience.md
+          - "Diet & Exercise": topics/diet-exercise.md
   - Words:
       - All words: words.md
       - Quiz: quiz.md

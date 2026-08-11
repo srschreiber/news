@@ -80,7 +80,9 @@ ROLLUP_MODEL = "claude-haiku-4-5"
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
 EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
-RESEARCH_PER_TOPIC = 3                  # of a topic's top events, consider these for research
+RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic), not per feed —
+                                        # every subfeed gets guaranteed research depth instead of
+                                        # a few feed-wide "winners" starving the rest.
 MIN_RESEARCH_IMPORTANCE = 3             # only research events at least this important (1-5)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
@@ -216,6 +218,41 @@ FALLBACK_SCHEMA = {
         },
     },
     "required": ["found"],
+    "additionalProperties": False,
+}
+
+
+# One-off historical backfill: a date-scoped Serper search may turn up several
+# distinct stories for that day, unlike the single-story FALLBACK_SCHEMA.
+BACKFILL_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {"type": "string"},
+                    "summary": {"type": "string"},
+                    "takeaways": {"type": "array", "items": {"type": "string"}},
+                    "importance": {"type": "integer"},
+                    "keywords": {"type": "array", "items": {"type": "string"}},
+                    "sources": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {"label": {"type": "string"}, "url": {"type": "string"}},
+                            "required": ["label", "url"],
+                            "additionalProperties": False,
+                        },
+                    },
+                },
+                "required": ["title", "summary", "importance"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["events"],
     "additionalProperties": False,
 }
 
@@ -634,40 +671,35 @@ def select_research(
     events: list[dict], feeds: dict, cfg: dict, no_research: bool = False,
     max_events: int = MAX_RESEARCHED_EVENTS,
     remaining_budget: dict[str, int] | None = None,
+    budget_per_topic: int = RESEARCH_BUDGET_PER_TOPIC,
 ) -> list[dict]:
-    """Pick which events to research, per-FEED budget, breadth-first within a feed.
+    """Pick which events to research, per-SUBFEED (topic) budget.
 
-    For each feed: consider its research-enabled topics (per-topic `research:`
-    gate still applies); take each topic's top RESEARCH_PER_TOPIC events above the
-    importance gate; round-robin across the feed's topics up to that feed's
-    `research_budget`. A story chosen once (it may span topics/feeds) is never
-    chosen again — researched once, reused everywhere. `max_events` is the overall
-    run-wide safety net.
+    Every research-enabled topic gets its own guaranteed slice of the budget,
+    rather than competing feed-wide against every other topic in the same
+    feed for a shared pool (which starved low-traffic topics in a busy feed).
+    A story chosen once (it may span topics) is never chosen again —
+    researched once, reused everywhere. `max_events` is the run-wide safety net.
 
-    `remaining_budget` overrides per-feed budgets with today's remaining capacity
-    (full budget minus events already researched in earlier runs today)."""
+    `remaining_budget`, keyed by topic, overrides each topic's budget with
+    today's remaining capacity (full budget minus events already researched
+    in earlier runs today)."""
     if no_research:
         return []
     chosen, chosen_ids = [], set()
-    for fkey, spec in feeds.items():
-        if remaining_budget is not None:
-            budget = remaining_budget.get(fkey, 0)
-        else:
-            budget = int(spec.get("research_budget", DEFAULT_RESEARCH_BUDGET))
-        rtopics = [t for t in spec.get("topics", []) if research_enabled(t, cfg)]
-        # Collect each topic's top candidates. Shuffle first so equal-importance
-        # ties are broken randomly rather than by sources.yaml order, then sort
-        # highest importance first so the best stories always fill the budget.
-        candidates: list[dict] = []
-        seen_cand: set[int] = set()
-        random.shuffle(rtopics)
-        for t in rtopics:
-            for e in sorted((e for e in events if t in e.get("topics", [])),
-                            key=lambda e: e.get("importance", 0), reverse=True)[:RESEARCH_PER_TOPIC]:
-                if e.get("importance", 0) >= MIN_RESEARCH_IMPORTANCE and id(e) not in seen_cand:
-                    seen_cand.add(id(e))
-                    candidates.append(e)
-        candidates.sort(key=lambda e: e.get("importance", 0), reverse=True)
+    all_topics = [t for spec in feeds.values() for t in spec.get("topics", [])]
+    # Shuffle so equal-importance ties are broken randomly across topics,
+    # not by sources.yaml order.
+    random.shuffle(all_topics)
+    for t in all_topics:
+        if not research_enabled(t, cfg):
+            continue
+        budget = remaining_budget.get(t, 0) if remaining_budget is not None else budget_per_topic
+        candidates = sorted(
+            (e for e in events
+             if t in e.get("topics", []) and e.get("importance", 0) >= MIN_RESEARCH_IMPORTANCE),
+            key=lambda e: e.get("importance", 0), reverse=True,
+        )
         picked = 0
         for e in candidates:
             if picked >= budget or len(chosen) >= max_events:
@@ -955,13 +987,18 @@ def _fetch_page_text(url: str) -> str:
     return text[:WEB_FETCH_MAX_CONTENT_TOKENS * 4]  # ~4 chars/token
 
 
-def _serper_search(query: str, n: int = 5) -> list[dict]:
+def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]:
     """Search Google News via Serper.dev /news endpoint (journalistic sources only).
+    `tbs` is Google's raw time-based-search operator, e.g. a custom date range:
+    "cdr:1,cd_min:8/1/2026,cd_max:8/1/2026" — used for date-scoped backfills.
     Returns list of {title, url, snippet}."""
     key = os.environ.get("SERPER_DEV_API_KEY", "")
     if not key:
         raise RuntimeError("SERPER_DEV_API_KEY not set")
-    data = json.dumps({"q": query, "num": n}).encode()
+    body: dict = {"q": query, "num": n}
+    if tbs:
+        body["tbs"] = tbs
+    data = json.dumps(body).encode()
     req = urllib.request.Request(
         "https://google.serper.dev/news",
         data=data,
@@ -1114,6 +1151,111 @@ def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
         "sources": sources_out,
         "researched": True,
     }
+
+
+def backfill_topic_day(topic: str, date_str: str, feeds: dict, topic_feed: dict,
+                       sources: list[dict], n_results: int = 8, max_pages: int = 4,
+                       max_events: int = 3) -> list[dict]:
+    """One-off historical backfill: date-scoped Serper search + Haiku extraction
+    for a topic that was quiet on `date_str` (YYYY-MM-DD). Returns 0+ synthesized,
+    already-researched events shaped like fallback_search_event()'s output — a
+    docs/news/<topic>/<date_str>.md write and a search-index update still need
+    to happen at the call site (this is a research-only helper, no side effects)."""
+    query = _topic_fallback_query(topic, sources)
+    d = dt.date.fromisoformat(date_str)
+    mmddyyyy = f"{d.month}/{d.day}/{d.year}"
+    tbs = f"cdr:1,cd_min:{mmddyyyy},cd_max:{mmddyyyy}"
+    try:
+        hits = _serper_search(query, n=n_results, tbs=tbs)
+        METRICS.add_searches("(backfill)", 1)
+    except Exception as e:
+        log(f"backfill search failed ({topic} {date_str}): {e}")
+        return []
+    if not hits:
+        return []
+
+    urls = [u for h in hits if (u := _clean_url(h["url"])) is not None][:max_pages]
+    pages = [{"url": u, "content": t} for u in urls if (t := _fetch_page_text(u))]
+
+    fkey = topic_feed.get(topic, DEFAULT_FEED)
+    scoring_context = feeds.get(fkey, {}).get("scoring_context", "")
+    payload = {
+        "topic": topic,
+        "date": date_str,
+        "scoring_context": scoring_context,
+        "search_results": [{"title": h["title"], "url": h["url"], "snippet": h.get("snippet", "")}
+                           for h in hits],
+        "pages": pages,
+    }
+    client = _client()
+    try:
+        resp = client.messages.create(
+            model=READ_MODEL,
+            max_tokens=READ_MAX_TOKENS,
+            output_config={"format": {"type": "json_schema", "schema": BACKFILL_SCHEMA}},
+            system=_sys("backfill.md"),
+            messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+        )
+    except Exception as e:
+        log(f"backfill extraction failed ({topic} {date_str}): {e}")
+        return []
+    METRICS.add("(backfill)", READ_MODEL, resp.usage)
+    try:
+        obj = json.loads(_text_of(resp))
+    except json.JSONDecodeError:
+        return []
+
+    out = []
+    for ev in obj.get("events", [])[:max_events]:
+        if not (ev.get("title") or "").strip():
+            continue
+        sources_out = [{"label": s["label"], "url": s["url"], "origin": "research"}
+                       for s in ev.get("sources", []) if s.get("url")][:MAX_SOURCES_PER_EVENT]
+        out.append({
+            "title": ev["title"].strip(),
+            "one_liner": (ev.get("summary") or "").strip(),
+            "takeaways": [t.strip() for t in ev.get("takeaways", []) if t.strip()],
+            "importance": max(1, min(5, int(ev.get("importance") or 3))),
+            "keywords": [k.strip() for k in ev.get("keywords", []) if k.strip()],
+            "theme": topic_display(topic),
+            "topics": [topic],
+            "primary_topic": topic,
+            "feeds": [fkey],
+            "primary_feed": fkey,
+            "sources": sources_out,
+            "researched": True,
+        })
+    return out
+
+
+def backfill_write_index(date_str: str, topic: str, events: list[dict]) -> None:
+    """Replace `topic`'s search-index records for `date_str` with `events`,
+    leaving every other topic/date untouched. build_search_index() can't be
+    reused here — it replaces ALL records for a date, which would wipe out
+    unrelated topics' real same-day events."""
+    index = [r for r in load_search_index()
+            if not (r["date"] == date_str and topic in r.get("topics", []))]
+    base_dir = KIND_DIR["daily"].name
+    for ev in events:
+        index.append({
+            "date": date_str,
+            "event_id": slugify(ev["title"]),
+            "title": ev["title"],
+            "summary": ev.get("one_liner", ""),
+            "theme": ev.get("theme", ""),
+            "importance": ev.get("importance", 0),
+            "topics": ev.get("topics", []),
+            "feeds": ev.get("feeds", []),
+            "primary_feed": ev.get("primary_feed", DEFAULT_FEED),
+            "keywords": ev.get("keywords", []),
+            "url": f"{base_dir}/{topic}/{date_str}/#{slugify(ev['title'])}",
+            "sources": ev.get("sources", []),
+            "takeaways": ev.get("takeaways", []),
+            "researched": bool(ev.get("researched", False)),
+        })
+    index.sort(key=lambda r: (r["date"], -r.get("importance", 0)), reverse=True)
+    SEARCH_INDEX_FILE.parent.mkdir(parents=True, exist_ok=True)
+    SEARCH_INDEX_FILE.write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n")
 
 
 def stage2b_polish(reads: list[dict], date: str) -> dict:
@@ -1570,7 +1712,8 @@ def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None
     if feeds:
         payload["feedMeta"] = {
             fk: {"title": spec["title"],
-                 "subfeeds": [{"key": t, "title": topic_display(t)} for t in spec.get("topics", [])]}
+                 "subfeeds": [{"key": t, "title": topic_display(t)}
+                             for t in spec.get("topics", []) + spec.get("also_includes", [])]}
             for fk, spec in feeds.items()
         }
     blob = json.dumps(payload, ensure_ascii=False).replace("</script>", "<\\/script>")
@@ -1608,8 +1751,9 @@ def _daily_link(topic: str, stem: str, counts: dict[tuple, int],
 
 
 TOPIC_DISPLAY = {"ai": "AI", "gpt": "OpenAI", "api": "API",
-                 "tech-research": "Tech Research", "patent-ip": "Patent / IP",
-                 "climate-resilience": "Climate & Ecological Resilience"}
+                 "tech-research": "Tech Research",
+                 "climate-resilience": "Climate & Ecological Resilience",
+                 "diet-exercise": "Diet & Exercise"}
 
 
 def topic_display(topic: str) -> str:

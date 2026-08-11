@@ -538,22 +538,33 @@ def test_select_research_skips_unimportant_topics():
     assert g.select_research(events, feeds, _CFG) == []   # no top event clears the bar
 
 
-def test_select_research_respects_per_feed_budget():
+def test_select_research_respects_per_topic_budget():
     events = [
-        {"title": "T1", "importance": 5, "topics": ["ai"]},
-        {"title": "T2", "importance": 5, "topics": ["tech"]},
+        {"title": "A1", "importance": 5, "topics": ["ai"]},
+        {"title": "A2", "importance": 4, "topics": ["ai"]},
+        {"title": "A3", "importance": 3, "topics": ["ai"]},
         {"title": "W1", "importance": 5, "topics": ["world"]},
     ]
     feeds = {
-        "technology": {"title": "T", "research_budget": 1, "topics": ["ai", "tech"]},
-        "world": {"title": "W", "research_budget": 5, "topics": ["world"]},
+        "technology": {"title": "T", "topics": ["ai", "tech"]},
+        "world": {"title": "W", "topics": ["world"]},
     }
-    sel = g.select_research(events, feeds, _CFG)
+    sel = g.select_research(events, feeds, _CFG, budget_per_topic=2)
     titles = {e["title"] for e in sel}
-    assert len(titles & {"T1", "T2"}) == 1              # tech feed budget=1 -> only one
-    assert "W1" in titles                                # world feed has room
+    assert len(titles & {"A1", "A2", "A3"}) == 2         # ai topic budget=2 -> best two only
+    assert {"A1", "A2"} <= titles                        # the two highest-importance ones win
+    assert "W1" in titles                                # world topic has its own separate budget
     # no_research short-circuits to nothing
     assert g.select_research(events, feeds, _CFG, no_research=True) == []
+
+
+def test_select_research_gives_every_subfeed_its_own_budget():
+    # A feed with many topics no longer starves the low-traffic ones — each
+    # topic gets budget_per_topic regardless of how many topics share the feed.
+    events = [{"title": f"T{i}", "importance": 5, "topics": [f"topic{i}"]} for i in range(5)]
+    feeds = {"technology": {"title": "T", "topics": [f"topic{i}" for i in range(5)]}}
+    sel = g.select_research(events, feeds, _CFG, budget_per_topic=1)
+    assert {e["title"] for e in sel} == {f"T{i}" for i in range(5)}  # every topic got its pick
 
 
 # --- metrics (per-topic + global cost) -------------------------------------- #
