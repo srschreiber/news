@@ -1367,18 +1367,20 @@ def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
     return kept
 
 
-def _story_line(r: dict, prefix: str = "") -> list[str]:
+def _story_line(r: dict, prefix: str = "", date_label: str | None = None) -> list[str]:
     """One home/feed story bullet. Returns a list of markdown lines.
 
     Researched stories with takeaways expand into nested bullets + sources so
-    readers get the key facts without clicking through to the full briefing."""
+    readers get the key facts without clicking through to the full briefing.
+    date_label, if set, is appended as a dim annotation for backfilled stories."""
     desc = (r.get("summary") or "").strip()
     desc = f" — {desc}" if desc else ""
     topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
     href = prefix + r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
     badge = ' <span class="src-badge src-research">AI Researched</span>' if r.get("researched") else ""
+    date_str = f" · _{date_label}_" if date_label else ""
     main = (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){badge}{desc} "
-            f"· _{topics}_")
+            f"· _{topics}_{date_str}")
 
     takeaways = [t.strip() for t in r.get("takeaways", []) if t.strip()]
     sources = [s for s in r.get("sources", []) if s.get("url")][:MAX_SOURCES_PER_EVENT]
@@ -1418,30 +1420,46 @@ def _record_feed(r: dict, topic_feed: dict) -> str:
 
 
 def _top_stories_section(index: list[dict], feeds: dict, topic_feed: dict,
-                         per_feed: int = 6) -> list[str]:
-    """Home 'Top stories', divided into feeds: each feed's biggest events for the
-    most recent day (deduped), newest feed order following the config."""
+                         target: int = 10, lookback_days: int = 10) -> list[str]:
+    """Home 'Top stories', divided into feeds.
+
+    Today's stories always appear. If fewer than `target` total, backfills from
+    the past `lookback_days` days (highest importance first) until the target is
+    reached. Backfilled stories are labelled with their date."""
     if not index:
         return []
     latest = max(r["date"] for r in index)
-    todays = _dedupe_cross_topic(sorted(
-        (r for r in index if r["date"] == latest),
+    cutoff = (dt.date.fromisoformat(latest) - dt.timedelta(days=lookback_days)).isoformat()
+
+    eligible = _dedupe_cross_topic(sorted(
+        (r for r in index if r["date"] >= cutoff),
         key=lambda r: r.get("importance", 0), reverse=True,
     ))
-    if not todays:
+    today = [r for r in eligible if r["date"] == latest]
+    past = [r for r in eligible if r["date"] < latest]
+
+    shown = list(today)
+    for r in past:
+        if len(shown) >= target:
+            break
+        shown.append(r)
+
+    if not shown:
         return []
+
     by_feed: dict[str, list[dict]] = {}
-    for r in todays:
+    for r in shown:
         by_feed.setdefault(_record_feed(r, topic_feed), []).append(r)
 
     lines = [f"## Top stories — {latest}", ""]
     for fkey, spec in feeds.items():
-        rows = by_feed.get(fkey, [])[:per_feed]
+        rows = sorted(by_feed.get(fkey, []), key=lambda r: r.get("importance", 0), reverse=True)
         if not rows:
             continue
         lines += [f"### [{spec['title']}](feeds/{fkey}.md)", ""]
         for r in rows:
-            lines += _story_line(r)
+            label = r["date"] if r["date"] != latest else None
+            lines += _story_line(r, date_label=label)
         lines.append("")
     return lines
 
