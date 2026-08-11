@@ -676,43 +676,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "nasa-shares-research-from-international-space-station-supporting-moon-and-mars-missions",
-    "title": "NASA shares research from International Space Station supporting Moon and Mars missions",
-    "summary": "NASA released findings from research conducted on the International Space Station that will aid future human missions to the Moon and Mars.",
-    "theme": "Space",
-    "importance": 2,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "International Space Station",
-      "Moon",
-      "Mars",
-      "research"
-    ],
-    "url": "news/space/2026-08-11/#nasa-shares-research-from-international-space-station-supporting-moon-and-mars-missions",
-    "sources": [
-      {
-        "label": "Mirage News",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0pzLUk2VS1maHdSNDF3cENNWTJNaDZRb0RGRHBJMURCbGJWYTJ2LWVQZGFWMlJoUlQxUGcyMFE3QUZyQ19lVm11YmxyRmlWSzVWNTZmbk54NTVYVDIzVVN6QUl4Zkp5QjdFaXdJNVFRNkpHeEZrSTR3X21lSWVZYXpTRWg0bzE0ZHc?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "NASA (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU9BYnZZc0JKT05RRmV3MHk3UF9reV9oQ1N4Y3pDbWVrYzBDU184QmpOUllkS3RUU01aNUJ1QzNGZUlrdktEc3NJeTY0MWV1X0pkNWFoUTktaFpqcThoVGlyM19vSm5US250MzdocTk2QU5Gd1NUUEpsS2V0Z3hpb21ZMXJGY0hLOHRWOUFmNlBrRWw1anNOcXVVdDFrN0cxcnQ5d3VKdVUwV3ZCbjJUVnFSSFZhVWM?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "claude-advances-riemann-zeta-function-research-to-672-zero-point-bound",
     "title": "Claude advances Riemann zeta function research to 67.2% zero point bound",
     "summary": "An unreleased research version of Anthropic's Claude advanced the Riemann zeta function research by raising the lower bound of non-trivial zeros to 67.2%—a 25.6 percentage point gain in one day and a half—demonstrating AI's capacity to tackle genuinely open mathematical problems.",
@@ -2112,6 +2075,59 @@
       "Could reduce crewed Mars mission duration from ~3 years total to ~2 years total with nuclear power source",
       "Tungsten electrode reached 5,000+ degrees Fahrenheit across five test ignitions",
       "Uses condensable metal propellant (CoMeT); applicable to robotic solar system missions"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "nasa-thruster-test-aims-to-reduce-mars-travel-time",
+    "title": "NASA thruster test aims to reduce Mars travel time",
+    "summary": "NASA tested a lithium-fed magnetoplasmadynamic thruster achieving 120 kilowatts—25 times more powerful than its Psyche thruster—marking the highest power level for an electric propulsion system ever tested in the United States. The breakthrough could significantly reduce travel time for human missions to Mars.",
+    "theme": "Space",
+    "importance": 3,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "thruster",
+      "Mars",
+      "propulsion",
+      "travel time"
+    ],
+    "url": "news/space/2026-08-11/#nasa-thruster-test-aims-to-reduce-mars-travel-time",
+    "sources": [
+      {
+        "label": "Futurism",
+        "url": "https://futurism.com/space/nasa-fires-up-elcetric-thruster-mars",
+        "origin": "research"
+      },
+      {
+        "label": "Iosco County News Herald",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTVBKYkVldHJURGhJclFKeTNOQ3RQNFc4TlRhRXBDS0tOc1J0VEVOWXBXeXlHa2JwZUhYZ0RFcXVxcFg1QnZGNklONFZMNEQtR2JEXzlud25ZNlR1RFJFNkhhT2dlY0x1eXBJNW9GX1Z6ZmpSTC02aW1tbHlNTFZLbjAyX3JJSExGLUNKRHU4Z28?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "swiowanewssource.com",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZDJUME1yZG9WNno4V05UU1RMdlBTZzBKZjZLV0hMb2dvNjZWU2ZhRlVpNWs3eXoxWVhaWUdGWWQ0RzFYUHNQanU5SXd1bzFvOEtpTmtvTDBFR0tTV05hZk03Wlp5cHJNS3FfNDRMeFBXeTdhUmY2MVRUaFZ0OWZlSzVGcFNnSXdwTTYtTE5pUzlMT2NXZlF3S3p3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WyomingNews.com",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0l1bzl4OVBSMUFiYVctd3p4ZWhpOXhTVWlURHpZNnJ0WUhta0lwd3hRcWJua1pZS3o3MG1YQWxhUmVMc09NY0plTlJRSElFT3ZnVmo3aHpVanpuamFEZHl6WHBfUi1hTWl5VVljcHIwVVFvd2tFRmV5MUNESGVnN0lrVTJ6UkwxOWg5UWRKMFo3eDl0dmhLU3U0T2JVanpWWWZQR0h1ZU04UTRNeFQ2bVZiWm5MS3FMbVIxa0N0OXRmQUZocTdzM2lJMjRhLW4wd3JUX1NfcWlwQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Magnetoplasmadynamic thruster achieved 120 kilowatts at JPL test",
+      "25 times more powerful than NASA's Psyche thruster; highest U.S. electric propulsion power level tested",
+      "Tungsten electrode heats to 5,000+ degrees Fahrenheit",
+      "Electric propulsion uses 90% less propellant than chemical rockets",
+      "Prototype concept studied since 1960s; combined with nuclear power could reduce Mars travel time"
     ],
     "researched": true
   },
