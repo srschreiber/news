@@ -181,7 +181,7 @@ def test_prune_seen():
     assert "keep" in pruned and "drop" not in pruned
 
 
-# --- rollup date parsing ---------------------------------------------------- #
+# --- archive date-stem parsing ----------------------------------------------- #
 def test_parse_date_stem():
     assert g._parse_date_stem("2026-07-24") == dt.date(2026, 7, 24)
     assert g._parse_date_stem("2026-W30") is None

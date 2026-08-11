@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
-"""Generate tech-news briefings and rollups, partitioned by topic.
+"""Generate daily tech-news briefings, partitioned by topic.
 
-Modes:
-  daily    fetch RSS sources -> cluster+score (Haiku) -> research+write (Sonnet)
-  weekly   roll up the last 7 daily docs (per topic)
-  monthly  roll up the month's weekly docs (per topic)
-  yearly   roll up the year's monthly docs (per topic)
+Pipeline: fetch RSS sources -> cluster+score (Haiku) -> research+write (Sonnet).
 
 Sources are grouped by `topic` (sources.yaml). Each topic produces its own
-files: docs/<kind>/<topic>/<stem>.md. Untagged sources fall into "general".
+daily file: docs/news/<topic>/<date>.md. Untagged sources fall into "general".
 
 Design: docs/superpowers/specs/2026-07-24-rss-news-generator-design.md
 
@@ -47,13 +43,7 @@ DOCS = ROOT / "docs"
 STATE_FILE = ROOT / "state.json"
 SEARCH_INDEX_FILE = DOCS / "search-index.json"
 
-# base dir per doc kind; actual docs live under <base>/<topic>/
-KIND_DIR = {
-    "daily": DOCS / "news",
-    "weekly": DOCS / "weekly",
-    "monthly": DOCS / "monthly",
-    "yearly": DOCS / "yearly",
-}
+KIND_DIR = {"daily": DOCS / "news"}  # actual docs live under <base>/<topic>/
 DEFAULT_TOPIC = "general"
 REPO_URL = "https://github.com/srschreiber/news"
 # Merriam-Webster's Word of the Day — reputable, curated for usable (not archaic)
@@ -77,7 +67,6 @@ READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheap
 WRITE_MODEL = "claude-sonnet-5"         # Stage 2b — polishes final summaries; more careful
                                         # with nuance/fact-fidelity than Haiku, worth the
                                         # cost since it only runs once per batched run
-ROLLUP_MODEL = "claude-haiku-4-5"
 VOYAGE_MODEL = "voyage-4-large"          # story-update matching embeddings. Best-quality
                                         # tier: at our volume (title+summary per event, a
                                         # few dozen/day) even this tier costs a fraction of
@@ -115,8 +104,6 @@ STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all fe
 READ_MAX_TOKENS = 2000                  # Haiku read: just a factual extract
 STAGE2_MAX_TOKENS = 5000                # Sonnet polish: short dense summaries (batched)
 STAGE2_EFFORT = "low"                   # scoped writing task; low trims thinking cost
-ROLLUP_MAX_TOKENS = 5000
-ROLLUP_EFFORT = "medium"
 SEEN_LINKS_RETENTION_DAYS = 7
 SUMMARY_MAX_CHARS = 300
 
@@ -642,7 +629,7 @@ def meter(score: int) -> str:
 
 def _source_badge(origin: str) -> str:
     """GitHub-style pill tagging a source as from the RSS feed or from research."""
-    label = "Web Search" if origin == "research" else "RSS"
+    label = "AI Web Searched" if origin == "research" else "RSS"
     return f'<span class="src-badge src-{origin}">{label}</span>'
 
 
@@ -1487,22 +1474,6 @@ def stage2b_polish(reads: list[dict], date: str) -> dict:
         }
     except json.JSONDecodeError:
         return {}
-
-
-def rollup_write(period_label: str, topic: str, docs: list[dict]) -> str:
-    """One Sonnet call, no tools: synthesize child docs into a rollup body."""
-    client = _client()
-    user = json.dumps(
-        {"period": period_label, "topic": topic, "documents": docs}, ensure_ascii=False
-    )
-    resp = client.messages.create(
-        model=ROLLUP_MODEL,
-        max_tokens=ROLLUP_MAX_TOKENS,
-        system=_sys("rollup.md"),
-        messages=[{"role": "user", "content": user}],
-    )
-    METRICS.add(topic, ROLLUP_MODEL, resp.usage)
-    return _text_of(resp).strip()
 
 
 # --------------------------------------------------------------------------- #
@@ -2586,16 +2557,6 @@ def _topic_page_body(
             lines += [" · ".join(parts), ""]
     else:
         lines += ["_No briefings yet._", ""]
-    rollups = []
-    for kind, label in (("weekly", "Weekly"), ("monthly", "Monthly"), ("yearly", "Yearly")):
-        stems = _dated_stems(KIND_DIR[kind] / topic)[:8]
-        if not stems:
-            continue
-        rel = f"../{KIND_DIR[kind].name}/{topic}"
-        links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
-        rollups.append(f"- **{label}:** {links}")
-    if rollups:
-        lines += ["## Rollups", ""] + rollups + [""]
     return lines
 
 
@@ -2623,7 +2584,7 @@ def rebuild_topic_pages() -> None:
 
 def rebuild_archive() -> None:
     """Full back-catalog: every daily doc grouped by month -> topic (with event
-    counts), plus all rollups. Regenerated each run alongside the index."""
+    counts). Regenerated each run alongside the index."""
     index = load_search_index()
     counts = _event_counts(index)
 
@@ -2653,25 +2614,6 @@ def rebuild_archive() -> None:
             links = " · ".join(_daily_link(topic, s, counts) for s in stems)
             lines.append(f"- **{topic}:** {links}")
         lines.append("")
-
-    # rollups, grouped by topic
-    roll_kinds = [("weekly", "Weekly"), ("monthly", "Monthly"), ("yearly", "Yearly")]
-    roll_topics = sorted({t for k, _ in roll_kinds for t in _topics_in(KIND_DIR[k])})
-    if roll_topics:
-        lines += ["## Rollups", ""]
-        for topic in roll_topics:
-            rows = []
-            for kind, label in roll_kinds:
-                stems = _dated_stems(KIND_DIR[kind] / topic)
-                if not stems:
-                    continue
-                rel = f"{KIND_DIR[kind].name}/{topic}"
-                links = " · ".join(f"[{s}]({rel}/{s}.md)" for s in stems)
-                rows.append(f"- **{label}:** {links}")
-            if rows:
-                lines.append(f"### {topic}\n")
-                lines += rows
-                lines.append("")
 
     (DOCS / "archive.md").write_text("\n".join(lines) + "\n")
     log("rebuilt docs/archive.md")
@@ -2711,18 +2653,6 @@ def fetch_all(sources: list[dict]) -> list[dict]:
     return items
 
 
-# --------------------------------------------------------------------------- #
-# Rollup child selection
-# --------------------------------------------------------------------------- #
-def _read_doc_stripped(path: Path) -> str:
-    text = path.read_text()
-    if text.startswith("---"):
-        end = text.find("\n---", 3)
-        if end != -1:
-            text = text[end + 4 :]
-    return text.strip()
-
-
 def _parse_date_stem(stem: str) -> dt.date | None:
     # Strictly YYYY-MM-DD; reject ISO-week ("2026-W30") and other forms that
     # date.fromisoformat() would otherwise accept on Python 3.11+.
@@ -2734,46 +2664,8 @@ def _parse_date_stem(stem: str) -> dt.date | None:
         return None
 
 
-ROLLUP_TITLES = {
-    "weekly": "Sam's News — {topic} — Week {stem}",
-    "monthly": "Sam's News — {topic} — {stem}",
-    "yearly": "Sam's News — {topic} — {stem} in Review",
-}
-ROLLUP_CHILD_KIND = {"weekly": "daily", "monthly": "weekly", "yearly": "monthly"}
-
-
-def gather_children(mode: str, topic: str, now: dt.datetime) -> tuple[list[Path], str]:
-    """Return (child doc paths, output filename stem) for a topic's rollup."""
-    child_dir = KIND_DIR[ROLLUP_CHILD_KIND[mode]] / topic
-    today = now.date()
-    if mode == "weekly":
-        start = today - dt.timedelta(days=6)
-        kids = [
-            p for p in sorted(child_dir.glob("*.md"))
-            if (d := _parse_date_stem(p.stem)) and start <= d <= today
-        ]
-        iso_year, iso_week, _ = today.isocalendar()
-        return kids, f"{iso_year}-W{iso_week:02d}"
-    if mode == "monthly":
-        target = (today.replace(day=1) - dt.timedelta(days=1)) if today.day == 1 else today
-        kids = []
-        for p in sorted(child_dir.glob("*.md")):
-            m = re.match(r"(\d{4})-W(\d{2})", p.stem)
-            if not m:
-                continue
-            monday = dt.date.fromisocalendar(int(m.group(1)), int(m.group(2)), 1)
-            if monday.year == target.year and monday.month == target.month:
-                kids.append(p)
-        return kids, f"{target.year}-{target.month:02d}"
-    if mode == "yearly":
-        target_year = today.year - 1 if (today.month == 1 and today.day == 1) else today.year
-        kids = [p for p in sorted(child_dir.glob("*.md")) if p.stem.startswith(str(target_year))]
-        return kids, str(target_year)
-    raise ValueError(mode)
-
-
 # --------------------------------------------------------------------------- #
-# Mode runners
+# Daily run
 # --------------------------------------------------------------------------- #
 def _write_topic_doc(topic: str, shown: list[dict], date: str) -> None:
     """Write one topic's daily doc from the events shown under it (quiet if none).
@@ -2946,56 +2838,8 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     log("daily run complete")
 
 
-def run_rollup(mode: str, dry_run: bool) -> None:
-    run_start = now = now_utc()
-    # topics = those present in the child kind's directory, plus configured ones
-    child_base = KIND_DIR[ROLLUP_CHILD_KIND[mode]]
-    topics = sorted(set(_topics_in(child_base)) | {s["topic"] for s in load_sources()})
-
-    for topic in topics:
-        children, stem = gather_children(mode, topic, now)
-        out_path = KIND_DIR[mode] / topic / f"{stem}.md"
-        title = ROLLUP_TITLES[mode].format(topic=topic, stem=stem)
-        log(f"[{topic}] {mode} {stem}: {len(children)} child docs")
-
-        if not children:
-            if not dry_run:
-                write_doc(out_path, front_matter([stem, topic]), title, "## TL;DR\n\n- Nothing to roll up yet.\n")
-            continue
-
-        docs = [
-            {
-                "title": p.stem,
-                "path": Path(os.path.relpath(p, out_path.parent)).as_posix(),
-                "markdown": _read_doc_stripped(p),
-            }
-            for p in children
-        ]
-
-        if dry_run:
-            print(json.dumps({"topic": topic, "period": stem, "children": [d["title"] for d in docs]}, indent=2))
-            continue
-
-        body = rollup_write(f"{mode} ({stem})", topic, docs)
-        if not body:
-            links = "\n".join(f"- [{d['title']}]({d['path']})" for d in docs)
-            body = f"## TL;DR\n\n- Rollup unavailable; child docs:\n\n{links}\n"
-        write_doc(out_path, front_matter([stem, topic]), title, body)
-
-    if not dry_run:
-        rebuild_index()
-        rebuild_archive()
-        rebuild_topic_pages()
-        rebuild_feed_pages()
-        record_metrics(mode, run_start)
-
-
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Generate tech-news briefings.")
-    parser.add_argument(
-        "mode", nargs="?", default="daily",
-        choices=["daily", "weekly", "monthly", "yearly"],
-    )
+    parser = argparse.ArgumentParser(description="Generate daily tech-news briefings.")
     parser.add_argument(
         "--dry-run", action="store_true",
         help="Run Stage 1 / child selection and print, without Stage 2 or writing.",
@@ -3009,11 +2853,7 @@ def main(argv: list[str] | None = None) -> int:
         help="Exit early if today's daily already ran (for redundant scheduled cron slots).",
     )
     args = parser.parse_args(argv)
-
-    if args.mode == "daily":
-        run_daily(args.dry_run, no_research=args.no_research, skip_if_done=args.skip_if_done)
-    else:
-        run_rollup(args.mode, args.dry_run)
+    run_daily(args.dry_run, no_research=args.no_research, skip_if_done=args.skip_if_done)
     return 0
 
 

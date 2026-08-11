@@ -20,9 +20,9 @@ and per-run cost metrics) is a git file.
 ## Why
 
 Reading a dozen feeds every morning is noise. This distills them into per-topic
-briefings with a TL;DR, an importance meter, key-fact bullets, and real source
-citations — plus weekly/monthly/yearly rollups and keyword search — so you skim
-one page instead of scrolling twenty.
+briefings with an importance meter, key-fact bullets, and real source
+citations — plus keyword search — so you skim one page instead of scrolling
+twenty.
 
 ## Features
 
@@ -30,10 +30,9 @@ one page instead of scrolling twenty.
   de-duplicated into one event and researched **once**, then reused everywhere.
 - **Importance scoring** — each event gets a 1–5 🔥 meter; only important
   stories get web research (configurable per topic).
-- **Cited sources** — every story links its real outlets with RSS/Research
-  badges; summaries stay short, with skimmable key-fact bullets. Depth is in the
-  links.
-- **Rollups** — weekly → monthly → yearly digests cascade automatically.
+- **Cited sources** — every story links its real outlets with RSS/AI Web
+  Searched badges; summaries stay short, with skimmable key-fact bullets.
+  Depth is in the links.
 - **Search + archive + tags** — client-side keyword search with date/topic
   filters, a full month-by-month archive, and auto-tagging.
 - **Cost-transparent** — a per-run cost + token breakdown is committed to
@@ -141,11 +140,6 @@ key-fact bullets in a single pass, prioritizing fact-fidelity over the small
 per-run cost difference from Haiku. Never sees raw pages — only the
 extracts, so it can't reintroduce facts a researcher didn't find.
 
-### Rollups
-
-A single Haiku call synthesizes the level below (daily → weekly → monthly →
-yearly), per topic.
-
 ## Cost
 
 A real-news-day run lands around **$0.05–0.20** depending on hourly volume,
@@ -166,8 +160,8 @@ through. See `not_in_nav` in `mkdocs.yml`.
 
 ```
 sources.yaml            # feeds + Google News queries + research/editorial config
-prompts/                # cluster.md, read.md, write.md, rollup.md (edit freely)
-generate.py             # the pipeline (daily | weekly | monthly | yearly)
+prompts/                # cluster.md, read.md, write.md (edit freely)
+generate.py             # the pipeline (daily only)
 state.json              # last_run + recently-seen links (dedup across runs)
 metrics.json            # per-run cost + token breakdown (newest first)
 embedding_cache.json    # last N days' embeddings for cross-day story matching
@@ -176,7 +170,6 @@ docs/
   index.md  archive.md  search.md  tags.md
   feeds/<feed>.md  topics/<topic>.md   # not in the nav tree, still built
   news/<topic>/YYYY-MM-DD.md
-  weekly|monthly|yearly/<topic>/...
   search-index.json     # per-event index for keyword search
 overrides/              # MkDocs Material theme tweaks
 mkdocs.yml
@@ -189,7 +182,7 @@ mkdocs.yml
 
 Edit `sources.yaml`. Each source has a `name`, one of `url:` (direct RSS/Atom)
 or `query:` (Google News search — the URL is built for you), and a `topic:`
-(default `general`). Each topic gets its own daily file and rollups.
+(default `general`). Each topic gets its own daily file.
 
 ```yaml
 # Turn web research off for niche/low-value topics to save cost:
@@ -220,13 +213,11 @@ export ANTHROPIC_API_KEY=sk-ant-...
 export SERPER_DEV_API_KEY=...       # serper.dev — Google News search
 export VOYAGE_API_KEY=...           # voyageai.com — embeddings for story-update
                                      # matching and clustering pregrouping.
-                                     # Required for `daily` mode: clustering
-                                     # raises rather than degrading if unset
-                                     # (rollup modes don't need it)
+                                     # Required: clustering raises rather
+                                     # than degrading if unset.
 
 python generate.py --dry-run     # cluster + score, print top events (no research, no writes)
 python generate.py               # full daily run
-python generate.py weekly        # weekly rollup (also: monthly, yearly)
 python generate.py --no-research # daily run with web research forced off
 mkdocs serve                     # preview the site at localhost:8000
 ```
@@ -235,10 +226,10 @@ mkdocs serve                     # preview the site at localhost:8000
 
 1. Push to a GitHub repo.
 2. Add repo secrets **`ANTHROPIC_API_KEY`**, **`SERPER_DEV_API_KEY`**, and
-   **`VOYAGE_API_KEY`** (required for `daily` mode; rollup modes don't need it).
+   **`VOYAGE_API_KEY`** (all required).
 3. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-4. `pipeline.yml` runs on cron (daily/weekly/monthly/yearly) and via **Run
-   workflow**; it generates docs and deploys. `publish.yml` re-deploys the site
+4. `pipeline.yml` runs hourly on cron and via **Run workflow**; it generates
+   docs and deploys. `publish.yml` re-deploys the site
    on any docs/theme change **without an LLM run** — so UI tweaks cost nothing.
 
 ## Cost controls

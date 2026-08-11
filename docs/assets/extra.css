@@ -320,8 +320,6 @@
   color: var(--md-default-fg-color--light);
 }
 .pv-meta-label {
-  display: inline-block;
-  min-width: 4.6rem;
   font-weight: 600;
   margin-right: 0.15rem;
 }

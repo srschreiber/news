@@ -1,5 +1,5 @@
 site_name: Sam's News
-site_description: Automated daily tech-news briefings with weekly/monthly/yearly rollups.
+site_description: Automated daily tech-news briefings, clustered and researched by Claude.
 docs_dir: docs
 
 # Shows a GitHub link (with live star/fork counts) in the header — click to star.
@@ -70,9 +70,6 @@ nav:
 
 not_in_nav: |
   news/**
-  weekly/**
-  monthly/**
-  yearly/**
   feeds/**
   topics/**
   archive.md

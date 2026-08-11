@@ -7,16 +7,7 @@ on:
     # clusters only new RSS items each hour and merges them into today's event
     # store, so runs with nothing new exit cheaply after a timestamp update.
     - cron: "0 12-23 * * *"  # hourly 5am–4pm PDT
-    # - cron: "0 15 * * 0"   # weekly Sun 15:00 UTC  (disabled)
-    # - cron: "0 16 1 * *"  # monthly 1st 16:00 UTC (disabled)
-    - cron: "0 17 1 1 *"     # yearly Jan 1 17:00 UTC
-  workflow_dispatch:
-    inputs:
-      mode:
-        description: "Pipeline mode"
-        type: choice
-        default: daily
-        options: [daily, weekly, monthly, yearly]
+  workflow_dispatch: {}
 
 # Only one pipeline run at a time (they all commit to main).
 concurrency:
@@ -41,28 +32,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Determine mode
-        id: mode
-        run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            MODE="${{ inputs.mode }}"
-          else
-            case "${{ github.event.schedule }}" in
-              "0 15 * * 0") MODE="weekly" ;;
-              "0 16 1 * *") MODE="monthly" ;;
-              "0 17 1 1 *") MODE="yearly" ;;
-              *)            MODE="daily" ;;
-            esac
-          fi
-          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
-          echo "Running mode: $MODE"
-
       - name: Generate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPER_DEV_API_KEY: ${{ secrets.SERPER_DEV_API_KEY }}
           VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
-        run: python generate.py "${{ steps.mode.outputs.mode }}"
+        run: python generate.py
 
       - name: Commit results
         run: |
@@ -72,7 +47,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "news: ${{ steps.mode.outputs.mode }} run $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "news: daily run $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main
             git push
           fi
