@@ -78,8 +78,11 @@ WRITE_MODEL = "claude-sonnet-5"         # Stage 2b — polishes final summaries;
                                         # with nuance/fact-fidelity than Haiku, worth the
                                         # cost since it only runs once per batched run
 ROLLUP_MODEL = "claude-haiku-4-5"
-VOYAGE_MODEL = "voyage-3-lite"          # story-update matching embeddings — cheap,
-                                        # titles are short, no dependency needed (raw REST)
+VOYAGE_MODEL = "voyage-4-large"          # story-update matching embeddings. Best-quality
+                                        # tier: at our volume (title+summary per event, a
+                                        # few dozen/day) even this tier costs a fraction of
+                                        # a cent/day — cost isn't a reason to trade down
+                                        # accuracy here, where a false merge is the real risk.
 MERGE_COS_THRESHOLD = 0.86               # embedding similarity floor before even asking
                                         # Haiku to validate a same-story merge candidate
 
@@ -1482,6 +1485,12 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
 
 
 def _cosine(a: list[float], b: list[float]) -> float:
+    # A dimension mismatch (e.g. a cached embedding from a since-changed
+    # VOYAGE_MODEL) would otherwise silently truncate via zip() into a
+    # meaningless partial score — treat it as "no evidence of similarity"
+    # instead of a wrong one.
+    if not a or not b or len(a) != len(b):
+        return 0.0
     dot = sum(x * y for x, y in zip(a, b))
     na = sum(x * x for x in a) ** 0.5
     nb = sum(y * y for y in b) ** 0.5
