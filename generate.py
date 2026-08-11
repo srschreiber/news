@@ -84,16 +84,12 @@ RESEARCH_PER_TOPIC = 3                  # of a topic's top events, consider thes
 MIN_RESEARCH_IMPORTANCE = 3             # only research events at least this important (1-5)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
-WEB_SEARCHES_PER_EVENT = 2              # HARD per-event search cap (Haiku read call)
-WEB_FETCHES_PER_EVENT = 3               # HARD per-event fetch cap (per clustered story)
-GLOBAL_SEARCH_SAFETY = 80               # run-wide safety net (rarely hit)
-MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY // WEB_SEARCHES_PER_EVENT  # ~25 events/run
-WEB_FETCH_MAX_CONTENT_TOKENS = 1000     # Per-page cap (~750 words). No dynamic filtering on
-                                        # Haiku, so second fetch is a different URL, not deeper
-                                        # into the same page. News inverted pyramid means key
-                                        # facts are always first, so 1000 tokens is sufficient.
+WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
+GLOBAL_SEARCH_SAFETY = 40              # max Serper searches per run (1 per event)
+MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY
+WEB_FETCH_MAX_CONTENT_TOKENS = 1000     # per-page cap (~4000 chars). News inverted pyramid
+                                        # means key facts are always first.
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
-MAX_TOOL_LOOP_ITERS = 8                 # incl. pause_turn resumes
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
 READ_MAX_TOKENS = 2000                  # Haiku read: just a factual extract
 STAGE2_MAX_TOKENS = 5000                # Sonnet polish: short dense summaries (batched)
@@ -906,6 +902,26 @@ def _clean_url(url: str) -> str | None:
     return clean if len(clean) <= _MAX_URL_LEN else None
 
 
+def _fetch_page_text(url: str) -> str:
+    """Fetch a URL and return stripped plain text, capped at WEB_FETCH_MAX_CONTENT_TOKENS tokens."""
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"},
+        )
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            raw = resp.read(400_000).decode("utf-8", "ignore")
+    except Exception:
+        return ""
+    raw = re.sub(r"<(script|style)[^>]*>.*?</(script|style)>", " ", raw,
+                 flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<[^>]+>", " ", raw)
+    text = html.unescape(text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text[:WEB_FETCH_MAX_CONTENT_TOKENS * 4]  # ~4 chars/token
+
+
 def _serper_search(query: str, n: int = 5) -> list[dict]:
     """Search Google News via Serper.dev /news endpoint (journalistic sources only).
     Returns list of {title, url, snippet}."""
@@ -927,88 +943,64 @@ def _serper_search(query: str, n: int = 5) -> list[dict]:
     ]
 
 
-_SERPER_TOOL = {
-    "name": "web_search",
-    "description": "Search Google for current coverage of a news event. Returns titles, URLs, and snippets.",
-    "input_schema": {
-        "type": "object",
-        "properties": {"query": {"type": "string"}},
-        "required": ["query"],
-    },
-}
-
-
 def stage2a_read(event: dict, date: str) -> dict | None:
-    """Stage 2a — Haiku researches one event using Serper (cheap Google search)
-    and web_fetch with dynamic filtering. Returns a factual extract + sources,
-    or None on failure (event keeps its RSS summary)."""
-    _load_dotenv()
-    client = _client()
-    tools = [
-        _SERPER_TOOL,
-        {"type": "web_fetch_20260318", "name": "web_fetch", "max_uses": WEB_FETCHES_PER_EVENT,
-         "max_content_tokens": WEB_FETCH_MAX_CONTENT_TOKENS, "allowed_callers": ["direct"]},
-    ]
-    payload = {
-        "title": event["title"], "one_liner": event.get("one_liner", ""),
-        "keywords": event.get("keywords", []), "topics": event.get("topics", []),
-        "sources": [u for s in event.get("sources", [])
-                    if (u := _clean_url(s.get("url", ""))) is not None],
-    }
-    user = json.dumps(
-        {"date": date, "max_searches": WEB_SEARCHES_PER_EVENT, "event": payload},
-        ensure_ascii=False,
-    )
-    messages: list[dict] = [{"role": "user", "content": user}]
-    final = None
-    searches_used = 0
-    for _ in range(MAX_TOOL_LOOP_ITERS):
-        try:
-            with client.messages.stream(
-                model=READ_MODEL,
-                max_tokens=READ_MAX_TOKENS,
-                output_config={"format": {"type": "json_schema", "schema": READ_SCHEMA}},
-                system=_sys("read.md"),
-                tools=tools,
-                messages=messages,
-            ) as stream:
-                final = stream.get_final_message()
-        except Exception as e:
-            log(f"read failed ({event.get('title', '?')[:40]}): {e}")
-            return None
-        METRICS.add("(read)", READ_MODEL, final.usage)
-        if final.stop_reason == "tool_use":
-            # Handle our custom Serper search tool calls.
-            messages.append({"role": "assistant", "content": final.content})
-            tool_results = []
-            for block in final.content:
-                if getattr(block, "type", None) != "tool_use" or block.name != "web_search":
-                    continue
-                if searches_used >= WEB_SEARCHES_PER_EVENT:
-                    tool_results.append({"type": "tool_result", "tool_use_id": block.id,
-                                         "content": "Search budget exhausted.", "is_error": True})
-                else:
-                    try:
-                        hits = _serper_search(block.input.get("query", ""))
-                        searches_used += 1
-                        METRICS.add_searches("(read)", 1)
-                        tool_results.append({"type": "tool_result", "tool_use_id": block.id,
-                                             "content": json.dumps(hits)})
-                    except Exception as e:
-                        tool_results.append({"type": "tool_result", "tool_use_id": block.id,
-                                             "content": f"Search failed: {e}", "is_error": True})
-            if tool_results:
-                messages.append({"role": "user", "content": tool_results})
-            continue
-        if final.stop_reason == "pause_turn":
-            # web_fetch is being executed by Anthropic's infrastructure.
-            messages.append({"role": "assistant", "content": final.content})
-            continue
-        break
-    if not final:
-        return None
+    """Stage 2a — deterministic fetch: Serper search + urllib page fetches, then one
+    Haiku call. No tool loop — each token is paid once. Returns {extract, sources}."""
+    # 1. Serper search (Python, no LLM cost)
     try:
-        obj = json.loads(_text_of(final))
+        hits = _serper_search(event["title"], n=5)
+        METRICS.add_searches("(read)", 1)
+    except Exception as e:
+        log(f"serper failed ({event['title'][:40]}): {e}")
+        hits = []
+
+    # 2. Collect URLs: prefer RSS source first, fill slots with Serper results
+    rss_urls = [u for s in event.get("sources", [])
+                if (u := _clean_url(s.get("url", ""))) is not None]
+    serper_urls = [u for h in hits if (u := _clean_url(h["url"])) is not None]
+    seen: set[str] = set()
+    urls_to_fetch: list[str] = []
+    for u in (rss_urls[:1] + serper_urls):
+        if u not in seen and len(urls_to_fetch) < WEB_FETCHES_PER_EVENT:
+            urls_to_fetch.append(u)
+            seen.add(u)
+
+    # 3. Fetch pages (Python, no LLM cost)
+    pages = []
+    for url in urls_to_fetch:
+        text = _fetch_page_text(url)
+        if text:
+            pages.append({"url": url, "content": text})
+
+    # 4. One-shot extraction — single Haiku call, no tools
+    payload = {
+        "date": date,
+        "event": {
+            "title": event["title"],
+            "one_liner": event.get("one_liner", ""),
+            "keywords": event.get("keywords", []),
+        },
+        "search_results": [
+            {"title": h["title"], "url": h["url"], "snippet": h.get("snippet", "")}
+            for h in hits
+        ],
+        "pages": pages,
+    }
+    client = _client()
+    try:
+        resp = client.messages.create(
+            model=READ_MODEL,
+            max_tokens=READ_MAX_TOKENS,
+            output_config={"format": {"type": "json_schema", "schema": READ_SCHEMA}},
+            system=_sys("read.md"),
+            messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+        )
+    except Exception as e:
+        log(f"read failed ({event['title'][:40]}): {e}")
+        return None
+    METRICS.add("(read)", READ_MODEL, resp.usage)
+    try:
+        obj = json.loads(_text_of(resp))
         return obj if (obj.get("extract") or "").strip() else None
     except json.JSONDecodeError:
         return None
