@@ -21,7 +21,3 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 [2026-08-10 (1 event)](../news/health/2026-08-10.md)
 
-## Rollups
-
-- **Weekly:** [2026-W32](../weekly/health/2026-W32.md)
-

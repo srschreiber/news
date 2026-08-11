@@ -21,8 +21,3 @@ _Part of the [World](../feeds/world.md) feed · AI-researched._
 
 [2026-08-10 (10 events)](../news/world/2026-08-10.md)
 
-## Rollups
-
-- **Weekly:** [2026-W32](../weekly/world/2026-W32.md) · [2026-W31](../weekly/world/2026-W31.md) · [2026-W30](../weekly/world/2026-W30.md)
-- **Monthly:** [2026-07](../monthly/world/2026-07.md)
-
