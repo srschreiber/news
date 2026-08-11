@@ -25,11 +25,33 @@
   var PAGE_SIZE = 6;
   var feedMeta = DATA.feedMeta || {};
 
-  var period = PERIODS.find(function (p) { return (DATA[p] || []).length > 0; }) || "daily";
-  var sortBy = "importance";
-  var feedFilter = "";
-  var subfeedFilter = "";
+  // Hydrate from the URL (?period=weekly&feed=technology&subfeed=ai&sort=date)
+  // so a shared link reproduces the same filtered view. Invalid/stale values
+  // (e.g. a period with no data) just fall back to the normal default rather
+  // than erroring — a shared link should degrade gracefully, not break.
+  var urlParams = new URLSearchParams(location.search);
+  var urlPeriod = urlParams.get("period");
+  var period = (PERIODS.indexOf(urlPeriod) !== -1 && (DATA[urlPeriod] || []).length > 0)
+    ? urlPeriod
+    : PERIODS.find(function (p) { return (DATA[p] || []).length > 0; }) || "daily";
+  var sortBy = urlParams.get("sort") === "date" ? "date" : "importance";
+  var feedFilter = urlParams.get("feed") || "";
+  var subfeedFilter = urlParams.get("subfeed") || "";
   var page = 1;
+  // The URL is only rewritten once the reader actually interacts — a plain
+  // page load stays a plain URL; hydration above is read-only until then.
+  var urlSyncArmed = false;
+
+  function syncUrl() {
+    if (!urlSyncArmed) return;
+    var p = new URLSearchParams();
+    p.set("period", period);
+    p.set("sort", sortBy);
+    if (feedFilter) p.set("feed", feedFilter);
+    if (subfeedFilter) p.set("subfeed", subfeedFilter);
+    var newUrl = location.pathname + "?" + p.toString() + location.hash;
+    history.replaceState(null, "", newUrl);
+  }
 
   // Feeds present in the data itself (drives the Feed dropdown + its auto-hide).
   var ALL_FEEDS = collectTagged("feeds");
@@ -190,6 +212,7 @@
       }
     }
     mount.innerHTML = html;
+    syncUrl();
     bind();
   }
 
@@ -197,28 +220,32 @@
     PERIODS.forEach(function (p) {
       var btn = mount.querySelector('[data-period="' + p + '"]');
       if (btn && !btn.disabled) {
-        btn.addEventListener("click", function () { period = p; page = 1; render(); });
+        btn.addEventListener("click", function () {
+          urlSyncArmed = true; period = p; page = 1; render();
+        });
       }
     });
     var feedSel = document.getElementById("pv-feed-select");
     if (feedSel) feedSel.addEventListener("change", function () {
-      feedFilter = feedSel.value; subfeedFilter = ""; page = 1; render();
+      urlSyncArmed = true; feedFilter = feedSel.value; subfeedFilter = ""; page = 1; render();
     });
     var subSel = document.getElementById("pv-subfeed-select");
     if (subSel) subSel.addEventListener("change", function () {
-      subfeedFilter = subSel.value; page = 1; render();
+      urlSyncArmed = true; subfeedFilter = subSel.value; page = 1; render();
     });
     var sortSel = document.getElementById("pv-sort-select");
     if (sortSel) sortSel.addEventListener("change", function () {
-      sortBy = sortSel.value; render();
+      urlSyncArmed = true; sortBy = sortSel.value; render();
     });
     mount.querySelectorAll("[data-filter-feed]").forEach(function (b) {
       b.addEventListener("click", function () {
+        urlSyncArmed = true;
         feedFilter = b.getAttribute("data-filter-feed"); subfeedFilter = ""; page = 1; render();
       });
     });
     mount.querySelectorAll("[data-filter-subfeed]").forEach(function (b) {
       b.addEventListener("click", function () {
+        urlSyncArmed = true;
         subfeedFilter = b.getAttribute("data-filter-subfeed"); page = 1; render();
       });
     });
