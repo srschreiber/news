@@ -1688,6 +1688,11 @@ def rebuild_index() -> None:
     all_topics = sorted({s["topic"] for s in load_sources()})
     feeds, _topic_feed = load_feeds(all_topics)
     lines = [
+        "---",
+        "hide:",
+        "  - toc",
+        "---",
+        "",
         "# Sam's News",
         "",
         "Today's biggest stories. Switch to Weekly or Monthly if today's quiet. "
