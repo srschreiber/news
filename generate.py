@@ -194,6 +194,32 @@ POLISH_SCHEMA = {
 }
 
 
+# Fallback search: when a topic clusters zero RSS events for the day, one
+# Serper search + Haiku call checks whether there's genuine news anyway.
+FALLBACK_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "found": {"type": "boolean"},
+        "title": {"type": "string"},
+        "summary": {"type": "string"},
+        "takeaways": {"type": "array", "items": {"type": "string"}},
+        "importance": {"type": "integer"},
+        "keywords": {"type": "array", "items": {"type": "string"}},
+        "sources": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"label": {"type": "string"}, "url": {"type": "string"}},
+                "required": ["label", "url"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["found"],
+    "additionalProperties": False,
+}
+
+
 FUNFACT_SCHEMA = {
     "type": "object",
     "properties": {"fact": {"type": "string"}},
@@ -1013,6 +1039,83 @@ def stage2a_read(event: dict, date: str) -> dict | None:
         return None
 
 
+def _topic_fallback_query(topic: str, sources: list[dict]) -> str:
+    """A search query for a quiet topic: reuse its configured Google News
+    query if it has one (closest match to what the topic actually covers),
+    else fall back to the topic's display name."""
+    for s in sources:
+        if s.get("topic") == topic and s.get("query"):
+            return s["query"]
+    return f"{topic_display(topic)} news"
+
+
+def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
+                          sources: list[dict]) -> dict | None:
+    """When a topic clusters zero RSS events for the day, try ONE Serper
+    search to see if there's real news anyway (e.g. slow-publishing academic
+    RSS feeds miss something a live news search would catch). Returns a
+    synthesized, already-researched event, or None if nothing genuinely
+    newsworthy turns up — callers should still fall back to "Quiet day"."""
+    query = _topic_fallback_query(topic, sources)
+    try:
+        hits = _serper_search(query, n=5)
+        METRICS.add_searches("(fallback)", 1)
+    except Exception as e:
+        log(f"fallback search failed ({topic}): {e}")
+        return None
+    if not hits:
+        return None
+
+    urls = [u for h in hits if (u := _clean_url(h["url"])) is not None][:WEB_FETCHES_PER_EVENT]
+    pages = [{"url": u, "content": t} for u in urls if (t := _fetch_page_text(u))]
+
+    fkey = topic_feed.get(topic, DEFAULT_FEED)
+    scoring_context = feeds.get(fkey, {}).get("scoring_context", "")
+    payload = {
+        "topic": topic,
+        "scoring_context": scoring_context,
+        "search_results": [{"title": h["title"], "url": h["url"], "snippet": h.get("snippet", "")}
+                           for h in hits],
+        "pages": pages,
+    }
+    client = _client()
+    try:
+        resp = client.messages.create(
+            model=READ_MODEL,
+            max_tokens=READ_MAX_TOKENS,
+            output_config={"format": {"type": "json_schema", "schema": FALLBACK_SCHEMA}},
+            system=_sys("fallback.md"),
+            messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+        )
+    except Exception as e:
+        log(f"fallback extraction failed ({topic}): {e}")
+        return None
+    METRICS.add("(fallback)", READ_MODEL, resp.usage)
+    try:
+        obj = json.loads(_text_of(resp))
+    except json.JSONDecodeError:
+        return None
+    if not obj.get("found") or not (obj.get("title") or "").strip():
+        return None
+
+    sources_out = [{"label": s["label"], "url": s["url"], "origin": "research"}
+                   for s in obj.get("sources", []) if s.get("url")][:MAX_SOURCES_PER_EVENT]
+    return {
+        "title": obj["title"].strip(),
+        "one_liner": (obj.get("summary") or "").strip(),
+        "takeaways": [t.strip() for t in obj.get("takeaways", []) if t.strip()],
+        "importance": max(1, min(5, int(obj.get("importance") or 3))),
+        "keywords": [k.strip() for k in obj.get("keywords", []) if k.strip()],
+        "theme": topic_display(topic),
+        "topics": [topic],
+        "primary_topic": topic,
+        "feeds": [fkey],
+        "primary_feed": fkey,
+        "sources": sources_out,
+        "researched": True,
+    }
+
+
 def stage2b_polish(reads: list[dict], date: str) -> dict:
     """Stage 2b — SONNET writes the final summaries from Haiku's extracts, in ONE
     batched call (Sonnet sees only the short extracts, never raw pages). Returns
@@ -1102,6 +1205,7 @@ def save_state(
     run_start: dt.datetime,
     today_events_data: dict | None = None,
     feed_last_refresh: dict[str, str] | None = None,
+    fallback_tried_data: dict | None = None,
 ) -> None:
     seen = prune_seen(dict(state.get("seen_links", {})), run_start)
     today = run_start.date().isoformat()
@@ -1135,6 +1239,10 @@ def save_state(
         payload["today_events"] = today_events_data
     elif "today_events" in state:
         payload["today_events"] = state["today_events"]
+    if fallback_tried_data is not None:
+        payload["fallback_tried"] = fallback_tried_data
+    elif "fallback_tried" in state:
+        payload["fallback_tried"] = state["fallback_tried"]
     STATE_FILE.write_text(json.dumps(payload, indent=2) + "\n")
 
 
@@ -1150,6 +1258,17 @@ def _load_today_events(state: dict, date: str) -> list[dict]:
     # collide with new ref assignments in research_events() and cause
     # merge_enrichment() to overwrite the wrong events' summaries.
     return [{k: v for k, v in e.items() if k != "ref"} for e in events]
+
+
+def _load_fallback_tried(state: dict, date: str) -> set[str]:
+    """Topics already attempted for the once-per-day Serper fallback search
+    today (regardless of whether they found anything) — avoids re-searching
+    the same quiet topic on every hourly run."""
+    stored = state.get("fallback_tried")
+    if not isinstance(stored, dict) or stored.get("date") != date:
+        return set()
+    topics = stored.get("topics", [])
+    return set(topics) if isinstance(topics, list) else set()
 
 
 def _merge_new_events(
@@ -2051,6 +2170,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
 
     # Load stored events from earlier runs today.
     all_stored = _load_today_events(state, date)
+    fallback_tried = _load_fallback_tried(state, date)
 
     # Stage 1: one unified clustering pass over all feeds.
     if items:
@@ -2097,13 +2217,26 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
 
-    # Per-topic docs: write all topics to docs/news/.
+    # Per-topic docs: write all topics to docs/news/. A topic with zero RSS
+    # events gets ONE Serper-backed fallback search per day (not no_research,
+    # not already tried today) before it's written up as "Quiet day" — some
+    # topics (e.g. slow-publishing academic feeds) miss real news that a live
+    # search would catch.
     per_topic: dict[str, list[dict]] = {}
     for topic in all_topics:
         per_topic[topic] = sorted(
             (e for e in all_events if topic in e.get("topics", [])),
             key=lambda e: e.get("importance", 0), reverse=True,
         )[:EVENTS_PER_TOPIC]
+        if (not per_topic[topic] and not no_research
+                and topic not in fallback_tried
+                and research_enabled(topic, cfg)):
+            fallback_tried.add(topic)
+            fb = fallback_search_event(topic, feeds, topic_feed, sources)
+            if fb:
+                log(f"fallback search found news for quiet topic '{topic}': {fb['title'][:60]}")
+                all_events.append(fb)
+                per_topic[topic] = [fb]
         _write_topic_doc(topic, per_topic[topic], date)
 
     # One search-index record per shown event.
@@ -2133,7 +2266,8 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
 
     save_state(state, items, run_start,
                today_events_data={"date": date, "events": all_events},
-               feed_last_refresh=new_refresh)
+               feed_last_refresh=new_refresh,
+               fallback_tried_data={"date": date, "topics": sorted(fallback_tried)})
     rebuild_index()
     rebuild_archive()
     rebuild_topic_pages()

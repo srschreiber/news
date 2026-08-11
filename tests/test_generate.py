@@ -197,6 +197,31 @@ def test_research_enabled():
     assert g.research_enabled("gaming", cfg2) is False
 
 
+# --- quiet-topic fallback search --------------------------------------------- #
+def test_topic_fallback_query_prefers_configured_google_news_query():
+    sources = [
+        {"topic": "climate-resilience", "name": "Nature Climate Change", "url": "https://x"},
+        {"topic": "climate-resilience", "name": "Google News — wildfire ecology",
+         "query": "wildfire ecology research fire effects forest"},
+        {"topic": "world", "query": "world news"},
+    ]
+    assert g._topic_fallback_query("climate-resilience", sources) == \
+        "wildfire ecology research fire effects forest"
+
+
+def test_topic_fallback_query_falls_back_to_topic_display_name():
+    sources = [{"topic": "golang", "name": "Go Blog", "url": "https://x"}]
+    assert g._topic_fallback_query("golang", sources) == "Golang news"
+    assert g._topic_fallback_query("unconfigured-topic", []) == "Unconfigured Topic news"
+
+
+def test_load_fallback_tried_scoped_to_date():
+    state = {"fallback_tried": {"date": "2026-08-11", "topics": ["climate-resilience", "golang"]}}
+    assert g._load_fallback_tried(state, "2026-08-11") == {"climate-resilience", "golang"}
+    assert g._load_fallback_tried(state, "2026-08-12") == set()  # stale date -> reset
+    assert g._load_fallback_tried({}, "2026-08-11") == set()
+
+
 # --- deterministic (no-research) renderer ----------------------------------- #
 def test_render_briefing():
     events = [
