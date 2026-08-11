@@ -83,6 +83,8 @@ VOYAGE_MODEL = "voyage-4-large"          # story-update matching embeddings. Bes
                                         # few dozen/day) even this tier costs a fraction of
                                         # a cent/day — cost isn't a reason to trade down
                                         # accuracy here, where a false merge is the real risk.
+CROSS_DAY_LOOKBACK_DAYS = 5              # how far back a story can still be "updated" —
+                                        # beyond this, a new development reads as new news
 MERGE_COS_THRESHOLD = 0.86               # embedding similarity floor before even asking
                                         # Haiku to validate a same-story merge candidate
 
@@ -117,6 +119,8 @@ USFS_TREESEARCH_SEARCH = "https://www.fs.usda.gov/treesearch/pubs/search"
 USFS_TREESEARCH_BASE = "https://www.fs.usda.gov"
 
 METRICS_FILE = ROOT / "metrics.json"
+EMBEDDING_CACHE_FILE = ROOT / "embedding_cache.json"  # internal only — never
+                                        # served as part of the public site
 # Estimated USD per 1M tokens (standard rates; cache write = 1.25x input,
 # cache read = 0.1x input). These are approximations for cost tracking.
 PRICES = {
@@ -1538,8 +1542,71 @@ def _merge_sources(existing: dict, ev: dict) -> None:
             existing_urls.add(src.get("url"))
 
 
+def _index_url_to_md(url: str) -> str:
+    """search-index's directory-URL form ('news/tech/2026-08-10/#slug') into a
+    daily-doc-relative markdown link ('../tech/2026-08-10.md#slug') — for
+    linking from one docs/news/<topic>/<date>.md file to another. Real
+    markdown-syntax link, so MkDocs's build-time resolver handles it (unlike
+    the period-view widget's runtime-injected <a> tags)."""
+    path, _, anchor = url.partition("#")
+    topic, date_part = path.strip("/").split("/")[1:3]
+    return f"../{topic}/{date_part}.md#{anchor}"
+
+
+def load_embedding_cache(today: str, lookback_days: int = CROSS_DAY_LOOKBACK_DAYS) -> dict:
+    """{event_id: {embedding, title, one_liner, topics, date, md_url}} for the
+    last `lookback_days` days — pruned on load so the file never grows
+    unbounded. Internal only: powers cross-day story-update matching, never
+    served as part of the public site."""
+    if not EMBEDDING_CACHE_FILE.exists():
+        return {}
+    try:
+        cache = json.loads(EMBEDDING_CACHE_FILE.read_text())
+    except json.JSONDecodeError:
+        return {}
+    cutoff = (dt.date.fromisoformat(today) - dt.timedelta(days=lookback_days)).isoformat()
+    return {eid: v for eid, v in cache.items() if v.get("date", "") >= cutoff}
+
+
+def save_embedding_cache(cache: dict) -> None:
+    EMBEDDING_CACHE_FILE.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n")
+
+
+def update_embedding_cache(all_events: list[dict], date: str) -> None:
+    """Refresh the cross-day embedding cache from today's final published
+    search-index records (which have the correct, already-resolved doc URLs),
+    joined with today's event embeddings (embedding any stragglers that
+    never went through candidate-matching this run). Keeps the last
+    CROSS_DAY_LOOKBACK_DAYS days; older entries are pruned automatically."""
+    need_embed = [e for e in all_events if "_embedding" not in e]
+    if need_embed:
+        vecs = _voyage_embed([_embed_text(e) for e in need_embed])
+        if vecs is not None and len(vecs) == len(need_embed):
+            for e, v in zip(need_embed, vecs):
+                e["_embedding"] = v
+
+    emb_by_id = {e["event_id"]: e["_embedding"] for e in all_events if e.get("_embedding")}
+    cache = load_embedding_cache(date)
+    for r in load_search_index():
+        if r["date"] != date:
+            continue
+        emb = emb_by_id.get(r["event_id"])
+        if not emb:
+            continue
+        cache[r["event_id"]] = {
+            "embedding": emb,
+            "title": r["title"],
+            "one_liner": r.get("summary", ""),
+            "topics": r.get("topics", []),
+            "date": date,
+            "md_url": _index_url_to_md(r["url"]),
+        }
+    save_embedding_cache(cache)
+
+
 def _merge_new_events(
-    stored: list[dict], new_events: list[dict], now: dt.datetime, min_shared: int = 3
+    stored: list[dict], new_events: list[dict], now: dt.datetime,
+    cross_day: dict | None = None, min_shared: int = 3,
 ) -> tuple[list[dict], list[dict], list[dict]]:
     """Merge new_events into stored events. Returns (all_events, truly_new, updated).
 
@@ -1555,16 +1622,29 @@ def _merge_new_events(
     3. **Token-overlap fallback** (title/keyword overlap, same topic): the
        original heuristic, used only when embeddings are unavailable.
 
-    A match from (2) or (3) is treated as an UPDATE, not a new story: the
-    ORIGINAL title/event_id/URL anchor is kept so shared links never break;
-    summary/importance/keywords refresh from the new clustering pass, sources
-    merge, and it's returned in `updated` — always re-researched this run
-    (not budget-gated like `truly_new`), since a story a reader already
-    trusts deserves fresh takeaways, not stale ones under a bumped headline.
+    A same-day match from (2) or (3) is treated as an UPDATE, not a new
+    story: the ORIGINAL title/event_id/URL anchor is kept so shared links
+    never break; summary/importance/keywords refresh from the new clustering
+    pass, sources merge, and it's returned in `updated` — always
+    re-researched this run (not budget-gated like `truly_new`), since a
+    story a reader already trusts deserves fresh takeaways, not stale ones
+    under a bumped headline.
+
+    When no same-day match is found, `cross_day` (the embedding cache from
+    `load_embedding_cache`, spanning the last CROSS_DAY_LOOKBACK_DAYS days)
+    is checked too. A match there does NOT rewrite the earlier day's already-
+    published page — instead a new event is created for TODAY, backlinked to
+    the earlier version ("Update to: ..."), so a reader can jump back day by
+    day without ever risking a stale/broken link to a page that moved. Among
+    several qualifying candidates across days, the MOST RECENT one wins, so
+    a multi-day chain always points to its immediately preceding link, not
+    an arbitrary earlier one in the window.
 
     `truly_new` is genuinely new events (subject to select_research's
-    per-topic budget); `updated` is existing stories whose facts changed.
+    per-topic budget); `updated` is existing or cross-day-linked stories
+    whose facts changed.
     """
+    cross_day = cross_day or {}
     now_iso = now.isoformat()
     by_id: dict[str, dict] = {}
     for ev in stored:
@@ -1647,6 +1727,35 @@ def _merge_new_events(
             updated_ids.add(match_id)
             updated.append(existing)
             continue
+
+        # No same-day match — check the last CROSS_DAY_LOOKBACK_DAYS days.
+        # Copy, don't move: today's event stands on its own (its own
+        # event_id/importance/takeaways), backlinked to the earlier version
+        # rather than reopening and rewriting that day's already-published,
+        # possibly-bookmarked page.
+        if embeddings_ok and "_embedding" in ev and cross_day:
+            qualifying = [
+                (cid, c) for cid, c in cross_day.items()
+                if (new_topics & set(c.get("topics", ())))
+                and c.get("embedding")
+                and _cosine(ev["_embedding"], c["embedding"]) >= MERGE_COS_THRESHOLD
+            ]
+            if qualifying:
+                # Most recent qualifying candidate wins — a multi-day chain
+                # always points to its immediately preceding link, never a
+                # scattered set of every earlier day it resembles.
+                _, best = max(qualifying, key=lambda kv: kv[1]["date"])
+                cand_text = f"{best['title']} {best.get('one_liner', '')}".strip()
+                relation = _classify_relation(_embed_text(ev), cand_text)
+                if relation in _MERGE_RELATIONS:
+                    ev["updates_title"] = best["title"]
+                    ev["updates_url"] = best["md_url"]
+                    ev["received_at"] = now_iso
+                    eid = ev["event_id"]
+                    by_id[eid] = ev
+                    tokens_by_id[eid] = _story_tokens(ev)
+                    updated.append(ev)  # always re-researched, like a same-day update
+                    continue
 
         eid = ev["event_id"]
         ev["received_at"] = now_iso
@@ -1790,6 +1899,8 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
             related_title = title_by_id.get(e.get("related_to"))
             if related_title:
                 lines.append(f"See also: [{related_title}](#{slugify(related_title)})")
+            if e.get("updates_title") and e.get("updates_url"):
+                lines.append(f"Update to: [{e['updates_title']}]({e['updates_url']})")
             lines.append("")
     return "\n".join(lines).strip() + "\n"
 
@@ -2560,7 +2671,10 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
         f"stored: {len(all_stored)}")
 
     # Merge new into stored, collect truly new events and updates to existing ones.
-    all_events, truly_new, updated = _merge_new_events(all_stored, new_events, run_start)
+    # cross_day lets a new item link back to (not rewrite) a story from an
+    # earlier day it updates — see _merge_new_events for why.
+    cross_day = load_embedding_cache(date)
+    all_events, truly_new, updated = _merge_new_events(all_stored, new_events, run_start, cross_day)
     if updated:
         log(f"{len(updated)} existing event(s) updated with new info: "
             + ", ".join(e["title"][:50] for e in updated))
@@ -2642,6 +2756,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
                 seen_titles.add(e["title"])
                 shown.append((e, display_topic[e["title"]]))
     build_search_index(shown, date)
+    update_embedding_cache(all_events, date)
 
     # Mark feeds that got new content this run.
     affected = {fkey for ev in truly_new + updated for fkey in ev.get("feeds", [])}

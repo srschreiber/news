@@ -81,11 +81,21 @@ stories — three fallbacks, in order:
    the embedding call fails; matches on shared significant title/keyword
    tokens within the same topic.
 
-A merge keeps the **original title and URL anchor** (so shared links never
-break) but refreshes importance/keywords immediately and queues the story for
-re-research — unlike brand-new events, an update is never budget-gated,
-since a story readers already trust deserves fresh takeaways, not stale ones
-under a bumped headline.
+A same-day merge keeps the **original title and URL anchor** (so shared
+links never break) but refreshes importance/keywords immediately and queues
+the story for re-research — unlike brand-new events, an update is never
+budget-gated, since a story readers already trust deserves fresh takeaways,
+not stale ones under a bumped headline.
+
+**Updates can span days too**, without ever rewriting an already-published
+page. A rolling embedding cache (`embedding_cache.json`, last
+`CROSS_DAY_LOOKBACK_DAYS` days, not part of the public site) lets a new item
+match against a story from an earlier day the same way — but instead of
+mutating that page, a *new* event is created for today, backlinked to the
+earlier version ("Update to: ..."), so a reader can click back day by day.
+Among several qualifying candidates across days, the most recent one wins,
+so a multi-day chain always points to its immediately preceding link, never
+a scattered set of every earlier day it resembles.
 
 ### 3. Read (research)
 
@@ -128,6 +138,8 @@ prompts/                # cluster.md, read.md, write.md, rollup.md (edit freely)
 generate.py             # the pipeline (daily | weekly | monthly | yearly)
 state.json              # last_run + recently-seen links (dedup across runs)
 metrics.json            # per-run cost + token breakdown (newest first)
+embedding_cache.json    # last N days' embeddings for cross-day story matching
+                        # (internal only — not part of the public site)
 docs/
   index.md  archive.md  search.md  tags.md
   news/<topic>/YYYY-MM-DD.md
@@ -207,6 +219,8 @@ fails the run):
 - `MAX_ITEMS_PER_FEED`, `STAGE2_MAX_TOKENS`, `STAGE2_EFFORT` — input/output trims.
 - `MERGE_COS_THRESHOLD` — embedding similarity floor before a story-update
   merge is even considered (then validated by a cheap Haiku call).
+- `CROSS_DAY_LOOKBACK_DAYS` — how many days back a story can still be linked
+  as an update before a new development just reads as new news.
 
 ## Tests
 

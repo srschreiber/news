@@ -521,6 +521,48 @@ def test_merge_new_events_different_topic_not_merged():
     assert updated == []
 
 
+def test_merge_new_events_cross_day_skipped_without_embeddings():
+    # cross_day matching requires embeddings_ok (real VOYAGE_API_KEY + a
+    # successful call) — with none available in the test env, a cross_day
+    # cache is passed but simply has no effect (falls through to truly_new),
+    # rather than erroring.
+    cross_day = {
+        "colombia-earthquake-kills-at-least-111-people": {
+            "embedding": [1.0, 0.0], "title": "Colombia earthquake kills at least 111 people",
+            "one_liner": "", "topics": ["world"], "date": "2026-08-10",
+            "md_url": "../world/2026-08-10.md#colombia-earthquake-kills-at-least-111-people",
+        },
+    }
+    new = [{"title": "Colombia earthquake death toll rises sharply overnight",
+            "topics": ["world"], "importance": 5, "keywords": [], "sources": []}]
+    all_events, truly_new, updated = g._merge_new_events([], new, _NOW, cross_day)
+    assert len(truly_new) == 1
+    assert updated == []
+    assert "updates_title" not in truly_new[0]
+
+
+def test_index_url_to_md_converts_directory_url_to_relative_markdown_link():
+    assert g._index_url_to_md("news/tech/2026-08-10/#some-slug") == \
+        "../tech/2026-08-10.md#some-slug"
+
+
+def test_embedding_cache_round_trip(tmp_path, monkeypatch):
+    cache_file = tmp_path / "embedding_cache.json"
+    monkeypatch.setattr(g, "EMBEDDING_CACHE_FILE", cache_file)
+
+    g.save_embedding_cache({
+        "old-story": {"embedding": [1.0], "title": "Old", "one_liner": "", "topics": ["world"],
+                      "date": "2026-08-01", "md_url": "../world/2026-08-01.md#old-story"},
+        "recent-story": {"embedding": [1.0], "title": "Recent", "one_liner": "",
+                         "topics": ["world"], "date": "2026-08-10",
+                         "md_url": "../world/2026-08-10.md#recent-story"},
+    })
+    # 5-day lookback from 2026-08-11 -> cutoff 2026-08-06 -> "old-story" pruned
+    loaded = g.load_embedding_cache("2026-08-11")
+    assert "recent-story" in loaded
+    assert "old-story" not in loaded
+
+
 # --- hybrid research: enrichment overlay + fallback --------------------------- #
 def test_merge_enrichment_overlays_by_ref():
     events = [
