@@ -1602,7 +1602,7 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
     out: list[list[float]] = []
     for i in range(0, len(texts), _VOYAGE_BATCH):
         chunk = texts[i: i + _VOYAGE_BATCH]
-        for attempt in range(4):
+        for attempt in range(6):
             try:
                 data = json.dumps({"input": chunk, "model": VOYAGE_MODEL}).encode()
                 req = urllib.request.Request(
@@ -1622,7 +1622,7 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
                 out.extend(vecs)
                 break
             except urllib.error.HTTPError as e:
-                if e.code == 429 and attempt < 3:
+                if e.code == 429 and attempt < 5:
                     import time, random
                     # Voyage docs recommend exponential backoff with jitter; no Retry-After header.
                     wait = 2 ** (attempt + 2) + random.uniform(0, 1)
@@ -1727,7 +1727,7 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
     joined with today's event embeddings (embedding any stragglers that
     never went through candidate-matching this run). Keeps the last
     CROSS_DAY_LOOKBACK_DAYS days; older entries are pruned automatically."""
-    need_embed = [e for e in all_events if "_embedding" not in e]
+    need_embed = [e for e in all_events if "_embedding" not in e][:_VOYAGE_BATCH]
     if need_embed:
         vecs = _voyage_embed([_embed_text(e) for e in need_embed])
         if vecs is not None and len(vecs) == len(need_embed):
