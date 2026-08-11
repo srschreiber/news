@@ -791,14 +791,6 @@ def select_research(
     return chosen
 
 
-def _new_facts(existing_summary: str, extract: str) -> bool:
-    """True if extract contains numbers not already in the existing summary.
-    Cheap heuristic: new death tolls, prices, percentages, versions → rewrite."""
-    import re
-    old = set(re.findall(r"\b\d[\d,\.]*\b", existing_summary))
-    new = set(re.findall(r"\b\d[\d,\.]*\b", extract))
-    return bool(new - old)
-
 
 def research_events(selected: list[dict], date: str) -> list[dict]:
     """Two-stage research: HAIKU reads each selected event in parallel (its own
@@ -825,38 +817,17 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
                               "one_liner": ev.get("one_liner", ""),
                               "extract": r["extract"], "sources": r.get("sources", [])})
 
-    # Stage 2b — polish extracts that have new facts; skip rewrite for updates
-    # whose extract doesn't introduce new numbers (same story, no new data).
-    ev_by_ref = {e["ref"]: e for e in selected}
-    needs_polish, keep_existing = [], []
-    for rd in reads:
-        ev = ev_by_ref.get(rd["ref"], {})
-        existing_summary = ev.get("summary", "")
-        if existing_summary and not _new_facts(existing_summary, rd["extract"]):
-            keep_existing.append(rd)
-        else:
-            needs_polish.append(rd)
-    if keep_existing:
-        log(f"skipping rewrite for {len(keep_existing)} update(s) with no new facts")
-    polished = stage2b_polish(needs_polish, date)
+    # Stage 2b — polish all extracts (only truly-new events reach here).
+    polished = stage2b_polish(reads, date)
     out = []
     for rd in reads:
-        ev = ev_by_ref.get(rd["ref"], {})
-        if rd in keep_existing:
-            out.append({
-                "ref": rd["ref"],
-                "summary": ev.get("summary", rd["extract"]),
-                "takeaways": ev.get("takeaways", []),
-                "sources": rd["sources"],
-            })
-        else:
-            p = polished.get(rd["ref"]) or {}
-            out.append({
-                "ref": rd["ref"],
-                "summary": p.get("summary") or rd["extract"],
-                "takeaways": p.get("takeaways", []),
-                "sources": rd["sources"],
-            })
+        p = polished.get(rd["ref"]) or {}
+        out.append({
+            "ref": rd["ref"],
+            "summary": p.get("summary") or rd["extract"],
+            "takeaways": p.get("takeaways", []),
+            "sources": rd["sources"],
+        })
     return out
 
 
@@ -2888,11 +2859,8 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     # on a 15-min cadence, re-researching updates alone on every tick is
     # expensive and rarely adds value (the existing research is still fresh).
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
-    if not no_research and truly_new:
-        selected += updated
     selected = selected[:MAX_RESEARCH_PER_RUN]
-    n_updates_selected = sum(1 for u in updated if u in selected)
-    log(f"researching {len(selected)} events ({n_updates_selected} of them updates)")
+    log(f"researching {len(selected)} new events")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
 
