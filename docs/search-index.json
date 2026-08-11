@@ -214,6 +214,37 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "alibaba-cloud-reduces-reliance-on-llm-for-customer-support",
+    "title": "Alibaba Cloud reduces reliance on LLM for customer support",
+    "summary": "Alibaba Cloud has reduced its use of large language models in handling support ticket operations.",
+    "theme": "AI",
+    "importance": 2,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Alibaba Cloud",
+      "LLM",
+      "customer support",
+      "AI deployment"
+    ],
+    "url": "news/ai/2026-08-11/#alibaba-cloud-reduces-reliance-on-llm-for-customer-support",
+    "sources": [
+      {
+        "label": "Techzine Global",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1NneGI3V1lHSjhiT2g2Z0tQeHJadldScmUxUEYxMUJUZ3V4NmJRSlhmS09fZEh6NGZ6d2s2OG01WWYtOGNYWWszVWZuWmNJUVJGWVdoYmJDeDU4djhPSGNmcmcwTmI2Q3A3NFdrLUZObHhTX1cyZVdzMEF5TnIzX3dzbUFMOS1BVnBQaE8tSmQtUGkwTUl3WXBWcGNPXzNlUUhlak1uWUZ6SlFQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "forest-restoration-efforts-expand-globally-but-face-significant-complexity-challenges",
     "title": "Forest restoration efforts expand globally but face significant complexity challenges",
     "summary": "While governments and companies pledge to restore hundreds of millions of hectares of forests worldwide, ecosystem restoration proves far more complex than simple tree planting.",
@@ -637,37 +668,6 @@
       {
         "label": "Phys.org",
         "url": "https://phys.org/news/2026-08-decoding-reveals-odor.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-11",
-    "event_id": "nasa-funds-interworld-slingshot-concept-for-solar-system-resource-mapping",
-    "title": "NASA funds 'Interworld Slingshot' concept for solar system resource mapping",
-    "summary": "NASA provided funding for the 'Interworld Slingshot' concept aimed at mapping resources across the solar system.",
-    "theme": "Space",
-    "importance": 2,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "solar system",
-      "resources",
-      "space exploration"
-    ],
-    "url": "news/space/2026-08-11/#nasa-funds-interworld-slingshot-concept-for-solar-system-resource-mapping",
-    "sources": [
-      {
-        "label": "Universe Today",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYXRUejVVTUw5U0VjWnFMbExITGd2enZOczVjeGxaZVJKQjRwSnVadWlqa1MzV2xhajVqR1RRLUhnN3diYXBJOU9RMXk0TE1NbFpuUGp3Yk5zY1pNSkx4YW4zeENQUE1melEtZUo4VFlJWjdtM05fa2hVd3NweGdDalMwaFhrSVhJRjlxZXowM3RqZFVjbVpjMjBwdVJqX1BDOGRTLVNIbnNqZGo5?oc=5",
         "origin": "rss"
       }
     ],
@@ -1170,52 +1170,6 @@
       "29 House Democrats demanded testimony from OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei",
       "Monitoring systems had been disconnected during earlier tests",
       "US, UK, and Canadian officials declared AI-driven breaches are now unavoidable"
-    ],
-    "researched": true
-  },
-  {
-    "date": "2026-08-11",
-    "event_id": "openai-expands-daybreak-with-specialized-cybersecurity-model",
-    "title": "OpenAI expands Daybreak with specialized cybersecurity model",
-    "summary": "OpenAI expanded its Daybreak cybersecurity platform with a specialized model called GPT-5.6-Cyber and a two-tiered access structure, partnering with 16 organizations to support authorized vulnerability research and penetration testing as AI-driven cyber threats escalate.",
-    "theme": "AI",
-    "importance": 3,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Daybreak",
-      "cybersecurity",
-      "AI model"
-    ],
-    "url": "news/gpt/2026-08-11/#openai-expands-daybreak-with-specialized-cybersecurity-model",
-    "sources": [
-      {
-        "label": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/10/open-ai-daybreak-cybersecurity.html",
-        "origin": "research"
-      },
-      {
-        "label": "CyberScoop",
-        "url": "https://cyberscoop.com/openai-daybreak-expansion-specialized-cyber-services/",
-        "origin": "research"
-      },
-      {
-        "label": "SecurityBrief New Zealand",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWHVZNUpudDJOV085ZUFZWnNjMGltVjVTenNmeXE4Q3dnTTFlWnJ4TjNPX0pNc3BRQk1ZODlLeEh3ZXF4Q2M1X0JmNXpxbTBvdHl0b0lDdlY0T0N0alE4WFVqZ0VFUm9rWlF2bWx3U0FWOTFva1NBWEF3NjM0TG45bnNlalVGQmo5YjJxbThB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "New model: GPT-5.6-Cyber for authorized vulnerability research and red teaming",
-      "Two-tiered access structure: Red and Blue programs for controlled deployment",
-      "Partnerships with 16 major organizations approved for cybersecurity services",
-      "Designed for exploit validation, penetration testing, and authorized security research"
     ],
     "researched": true
   },
@@ -2128,6 +2082,59 @@
       "Tungsten electrode heats to 5,000+ degrees Fahrenheit",
       "Electric propulsion uses 90% less propellant than chemical rockets",
       "Prototype concept studied since 1960s; combined with nuclear power could reduce Mars travel time"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "nasa-invites-isro-to-participate-in-moon-base-lunar-south-pole-programme",
+    "title": "NASA invites ISRO to participate in Moon Base lunar South Pole programme",
+    "summary": "NASA invited India's ISRO to participate in its Moon Base programme to establish a permanent lunar South Pole outpost, building on existing US-India space cooperation.",
+    "theme": "Space",
+    "importance": 3,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "ISRO",
+      "Moon Base",
+      "lunar South Pole",
+      "international partnership"
+    ],
+    "url": "news/space/2026-08-11/#nasa-invites-isro-to-participate-in-moon-base-lunar-south-pole-programme",
+    "sources": [
+      {
+        "label": "Rediff",
+        "url": "https://www.rediff.com/news/report/nasa-invites-isro-to-join-humanitys-first-moon-base-mission/20260811.htm",
+        "origin": "research"
+      },
+      {
+        "label": "Open The Magazine",
+        "url": "https://openthemagazine.com/india/nasa-invites-isro-to-join-moon-base-programme-as-india-us-space-partnership-goes-lunar",
+        "origin": "research"
+      },
+      {
+        "label": "Telangana Today",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNTRkTGhPSlk2WUNSSEItQ2Fabld3QVRnd1NJUjdyYUpnbzNBQkdBNHlDdUpLOEZHdEJYZnZ4Y29MZEdqeS1JYmNZdjVfVElSaUpoeG4zeHlVWmpKOUdOV1h1MmRMbURKR0hJdExRUkRwRDNGejNRbjNBVkFsSVdaWDhDM3doT1BzZk02OUUzamhZekRyc05CQ2VscVl2d3VIVEkw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ndtv.com",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUtUek0tSVBZN2JHLVhtMW9zMWdhM0NoVmtyc2g5M29hTENFdjloNXBhb1VMN3VSSi1zMnhhRllvZEVzdlc1MDVWZldacUY3WVVPVldtXzlhVHNQZ05EZWhqWk9BYTJpVi1fQzR2V0U1YjRZRjBiTjJpb2d2VDFkVEQ1eWFsbXNSUm1UcmxDRjNBNWdDV2txamd3UdIBowFBVV95cUxQNW5IMjVKRjNuOE95ZUxkVl9PS0VQRXFKRlVqZTMzV3JuMnIybDZLYkJwN1dEVE5DTFJJWjdDOWZuVDVhc1R2eERkdU1pLU0zSmhmOG91bExEZV90dVB3WmFhWnVSclp0ZlJvUXRHSjkyNW8wVlIwcXZ2ODdNSk41c3lHbExiVVk2Z0RZb0ItVE4wYlc3ZmdjV2Z6d0g5Yk4wem5z?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Invitation extended during Civil Space Joint Working Group meeting in Bengaluru",
+      "Moon Base aims to enable astronauts to live, work, and explore lunar South Pole",
+      "Built on Artemis Accords and TRUST (Transforming Relationship Utilising Strategic Technology) initiative",
+      "Both nations agreed to advance open scientific data sharing and human spaceflight collaboration",
+      "Both reaffirmed commitment to UN COPUOS guidelines for outer space sustainability"
     ],
     "researched": true
   },
@@ -3123,6 +3130,63 @@
       "DeepSeek introduced V4 Flash 0731, a lightweight agent-focused model priced at 1/105th the cost of competing solutions",
       "Chinese AI startups pursuing IPOs as strategic milestones in competition with American firms",
       "All four companies targeting 2027 public listings"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "openai-launches-gpt-56-cyber-model-for-offensive-hacking-research",
+    "title": "OpenAI launches GPT-5.6-Cyber model for offensive hacking research",
+    "summary": "OpenAI launched GPT-5.6-Cyber on August 11, 2026, an offense-grade hacking model for cybersecurity research available exclusively through its Daybreak Red tier.",
+    "theme": "AI",
+    "importance": 4,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-5.6-Cyber",
+      "Daybreak",
+      "cybersecurity",
+      "hacking"
+    ],
+    "url": "news/gpt/2026-08-11/#openai-launches-gpt-56-cyber-model-for-offensive-hacking-research",
+    "sources": [
+      {
+        "label": "Infosecurity Magazine",
+        "url": "https://www.infosecurity-magazine.com/news/openai-daybreak-blue-red-gpt-cyber/",
+        "origin": "research"
+      },
+      {
+        "label": "forbes.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV3o4eTlBa2pGMnNrN1p0QW9Zekk3d1M0WmJfQVphU3BYRVBGNWl3NFBDZnF5cXhkc2FFQWxqRVRja1FGRmNpVXU3TU1sQTB1WUd0M3JyRG43MEZhQ2xWWWNSa0lGSGVFNTBHWVM3U29mWTFZS2h4dzBaRFVCeVoyVlB6MVQ3ZEVzR1dxMlNEMFNzZWdGU2FIandBNlBBQWY0ME05TXRwQ3FFaGtNZjRILWRXWWU0dw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "uctoday.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPX1cxc0NZZHJJSF9CZ25fQ3pJX0M0R3g4eVJHR1V2c1kyQ0NRQndWZ2IzSVZiTnZYUEh4RVhVT0M0Y0IxVnFlRS1wNGVhdGdzRlN1RjlLUE9PZXRKQU9IMlNyMlBTQ2VRTWtGb0VHbmhKYXBQSmctRUpuaFhzRmZJRGJ2UzVmb0VQcnRRU09TRVNFaExCNFFVMXUwRzNCM19hYlNFckR5a1lDTDV2TmgzWlVOWE9jWFZrcHZF?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "indianexpress.com",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYVo3QWxFanRZWlZ5THhFUjNzS2RNcDQxYWlnTG1fT3c1STdyUExONVcwbzdFU09lWFNrdGhlS1Q5YlR3QTZYZlVpeVgxVmV0RWpURVY5TFNIemgyakQwRlk2RlB3TTY4aFlIMFVSZHFaWFprZlI1Rkc2LTktQzhEVk9MYUNXcFlqTi1NSUs3NmFzbWx4TUR0cllTOUEyWGtTUDFOS0FqXzkzZkRXZEY1czJRLUFhM1RuM0J6aWFNR2RMRkNCVjROZG9ZbEhwdGNpWGkwV2hLUjNQZ9IB4AFBVV95cUxPamRHWkhjaEZSakNnRXF2dDBkOVpWWk00RUtqQ3ZnN3NPNzJndHl5dUVaMW5ZUVpxOWFucU9VOHNicGhHYlh3UlpkQUN4SXNCbHFVclgyc0NpSmxaZUJDOXZib2pzXzdrRkg4NVNEVGdBek90eGVEdktoZWhxbTFZaDh6b1BFM09ROFVlNWl1V0E1elI5SS1IbjM0cXVRbmVFTmluYjVZLVFwMDRrOEt3dmNub1lmQVg4WWRUXzJiWktuWk9RLXdNZ3lubzEtVlFKX2FwNkQyY0RFY0FyRk9JOQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "siliconangle.com",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaW9qSzJndjItVXdLamp6dWx0UlE5amF3MU1NMl9CZEgxTDVYZnNJd0FPMFN6ZlF4bW9oY1o1eXBnNHl6T3hwSW0weDNFc0lHeV84M21IbTduOXF1c0F2YkhqalExNGNyWGJVZEkzM2JHRERjX1p2Y25MNUl2SmRIUDdpeUdtNGNocWNvbkNRM2ZFME9PcVE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "GPT-5.6-Cyber completed 95% of sensitive cybersecurity requests (exploit-chain, auth bypass, privilege escalation)",
+      "Predecessor GPT-5.6-Cyber achieved only 57.3% completion on same tasks",
+      "OpenAI used model to discover CVE-2026-15903, high-severity Chrome V8 vulnerability",
+      "Two-tier access: Daybreak Blue for defensive work; Daybreak Red for offensive and defensive tasks"
     ],
     "researched": true
   },
