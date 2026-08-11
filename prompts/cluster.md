@@ -22,10 +22,12 @@ you only cluster and score. Return structured JSON only.
    - Bad (a theme): "Security", "Funding", "AI". If your title could describe ten
      different stories, split it.
 
-3. **Score importance 1–5** relative to the primary feed of each event (see
-   **Feed scoring contexts** below), weighing breadth of impact, consequence,
-   and novelty within that audience. Do not compare science stories against tech
-   stories — judge each event against what matters to its own readers.
+3. **Score importance 1–10** (decimals OK, e.g. 7.5) relative to the primary
+   feed of each event (see **Feed scoring contexts** below), weighing breadth of
+   impact, consequence, and novelty within that audience. Do not compare science
+   stories against tech stories — judge each event against what matters to its
+   own readers. Use the full range: reserve 9–10 for rare landmark events, use
+   4–6 for solid but routine stories.
 
 4. **Assign a short `theme`** (e.g. "AI", "Funding", "Policy", "Hardware",
    "Security") for grouping within a briefing.

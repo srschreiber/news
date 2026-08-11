@@ -89,7 +89,7 @@ EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic), not per feed —
                                         # every subfeed gets guaranteed research depth instead of
                                         # a few feed-wide "winners" starving the rest.
-MIN_RESEARCH_IMPORTANCE = 3             # only research events at least this important (1-5)
+MIN_RESEARCH_IMPORTANCE = 6             # only research events at least this important (1-10)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
@@ -137,7 +137,7 @@ EVENTS_SCHEMA = {
                 "properties": {
                     "title": {"type": "string"},
                     "one_liner": {"type": "string"},
-                    "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+                    "importance": {"type": "number", "minimum": 1, "maximum": 10},
                     "theme": {"type": "string"},
                     "keywords": {"type": "array", "items": {"type": "string"}},
                     "source_item_ids": {
@@ -176,7 +176,7 @@ GROUPED_EVENTS_SCHEMA = {
                     "group_id": {"type": "string"},
                     "title": {"type": "string"},
                     "one_liner": {"type": "string"},
-                    "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+                    "importance": {"type": "number", "minimum": 1, "maximum": 10},
                     "theme": {"type": "string"},
                     "keywords": {"type": "array", "items": {"type": "string"}},
                     "discard_from_group": {
@@ -280,7 +280,7 @@ BACKFILL_SCHEMA = {
                     "title": {"type": "string"},
                     "summary": {"type": "string"},
                     "takeaways": {"type": "array", "items": {"type": "string"}},
-                    "importance": {"type": "integer"},
+                    "importance": {"type": "number", "minimum": 1, "maximum": 10},
                     "keywords": {"type": "array", "items": {"type": "string"}},
                     "sources": {
                         "type": "array",
@@ -618,13 +618,15 @@ def group_by_topic(items: list[dict]) -> dict[str, list[dict]]:
     return groups
 
 
-def meter(score: int) -> str:
-    """Importance as a custom 5-segment amber signal-bar meter (HTML). Styled by
+def meter(score: float) -> str:
+    """Importance as a custom 10-segment amber signal-bar meter (HTML). Styled by
     `.imp` in extra.css; mirrored in search.js so search results match."""
-    n = max(1, min(5, int(score or 0)))
-    bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(5))
-    return (f'<span class="imp imp-{n}" title="Importance {n}/5" '
-            f'aria-label="Importance {n} of 5">{bars}</span>')
+    raw = float(score or 0)
+    n = max(1, min(10, round(raw)))
+    label = int(raw) if raw == int(raw) else raw
+    bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(10))
+    return (f'<span class="imp imp-{n}" title="Importance {label}/10" '
+            f'aria-label="Importance {label} of 10">{bars}</span>')
 
 
 def _source_badge(origin: str) -> str:
@@ -969,7 +971,7 @@ def _feed_scoring_context(feeds: dict) -> str:
     lines = [
         "## Feed scoring contexts",
         "",
-        "Score importance 1–5 relative to the **primary feed** of each event's topics,",
+        "Score importance 1–10 (decimals OK, e.g. 7.5) relative to the **primary feed** of each event's topics,",
         "not against a single global baseline. Use the reader context below:",
         "",
     ]
@@ -1328,7 +1330,7 @@ def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
         "title": obj["title"].strip(),
         "one_liner": (obj.get("summary") or "").strip(),
         "takeaways": [t.strip() for t in obj.get("takeaways", []) if t.strip()],
-        "importance": max(1, min(5, int(obj.get("importance") or 3))),
+        "importance": round(max(1.0, min(10.0, float(obj.get("importance") or 5))), 1),
         "keywords": [k.strip() for k in obj.get("keywords", []) if k.strip()],
         "theme": topic_display(topic),
         "topics": [topic],
@@ -1403,7 +1405,7 @@ def backfill_topic_day(topic: str, date_str: str, feeds: dict, topic_feed: dict,
             "title": ev["title"].strip(),
             "one_liner": (ev.get("summary") or "").strip(),
             "takeaways": [t.strip() for t in ev.get("takeaways", []) if t.strip()],
-            "importance": max(1, min(5, int(ev.get("importance") or 3))),
+            "importance": round(max(1.0, min(10.0, float(ev.get("importance") or 5))), 1),
             "keywords": [k.strip() for k in ev.get("keywords", []) if k.strip()],
             "theme": topic_display(topic),
             "topics": [topic],

@@ -99,12 +99,12 @@ def test_group_by_topic():
 
 # --- rendering helpers ------------------------------------------------------ #
 def test_meter():
-    m = g.meter(4)
-    assert m.count('<i class="on">') == 4      # 4 filled bars
-    assert m.count("<i") == 5                   # 5 bars total
-    assert 'aria-label="Importance 4 of 5"' in m
-    assert g.meter(0).count('<i class="on">') == 1   # clamps up to 1
-    assert g.meter(9).count('<i class="on">') == 5   # clamps down to 5
+    m = g.meter(7)
+    assert m.count('<i class="on">') == 7      # 7 filled bars
+    assert m.count("<i") == 10                  # 10 bars total
+    assert 'aria-label="Importance 7 of 10"' in m
+    assert g.meter(0).count('<i class="on">') == 1    # clamps up to 1
+    assert g.meter(11).count('<i class="on">') == 10  # clamps down to 10
 
 
 def test_attach_sources_dedupes_by_outlet():
@@ -829,8 +829,8 @@ def test_load_feeds_maps_topics_and_synthesizes_other(tmp_path):
 
 def test_select_research_dedupes_cross_topic():
     events = [
-        {"title": "Opus 5", "importance": 5, "topics": ["ai", "anthropic", "tech"]},
-        {"title": "Game", "importance": 4, "topics": ["gaming"]},
+        {"title": "Opus 5", "importance": 8, "topics": ["ai", "anthropic", "tech"]},
+        {"title": "Game", "importance": 7, "topics": ["gaming"]},
         {"title": "Minor", "importance": 1, "topics": ["ai"]},
     ]
     feeds = {"technology": {"title": "T", "research_budget": 6,
@@ -845,18 +845,18 @@ def test_select_research_dedupes_cross_topic():
 def test_select_research_skips_unimportant_topics():
     events = [
         {"title": "meh1", "importance": 1, "topics": ["python"]},
-        {"title": "meh2", "importance": 2, "topics": ["python"]},
+        {"title": "meh2", "importance": 5, "topics": ["python"]},
     ]
     feeds = {"technology": {"title": "T", "research_budget": 6, "topics": ["python"]}}
-    assert g.select_research(events, feeds, _CFG) == []   # no top event clears the bar
+    assert g.select_research(events, feeds, _CFG) == []   # no top event clears the bar (< 6)
 
 
 def test_select_research_respects_per_topic_budget():
     events = [
-        {"title": "A1", "importance": 5, "topics": ["ai"]},
-        {"title": "A2", "importance": 4, "topics": ["ai"]},
-        {"title": "A3", "importance": 3, "topics": ["ai"]},
-        {"title": "W1", "importance": 5, "topics": ["world"]},
+        {"title": "A1", "importance": 9, "topics": ["ai"]},
+        {"title": "A2", "importance": 8, "topics": ["ai"]},
+        {"title": "A3", "importance": 6, "topics": ["ai"]},
+        {"title": "W1", "importance": 7, "topics": ["world"]},
     ]
     feeds = {
         "technology": {"title": "T", "topics": ["ai", "tech"]},
@@ -874,7 +874,7 @@ def test_select_research_respects_per_topic_budget():
 def test_select_research_gives_every_subfeed_its_own_budget():
     # A feed with many topics no longer starves the low-traffic ones — each
     # topic gets budget_per_topic regardless of how many topics share the feed.
-    events = [{"title": f"T{i}", "importance": 5, "topics": [f"topic{i}"]} for i in range(5)]
+    events = [{"title": f"T{i}", "importance": 8, "topics": [f"topic{i}"]} for i in range(5)]
     feeds = {"technology": {"title": "T", "topics": [f"topic{i}" for i in range(5)]}}
     sel = g.select_research(events, feeds, _CFG, budget_per_topic=1)
     assert {e["title"] for e in sel} == {f"T{i}" for i in range(5)}  # every topic got its pick

@@ -12,12 +12,13 @@ describe and score what's given. Return structured JSON only.
 
 ## Rules
 
-1. **Score importance 1–5** relative to the primary feed of each group's
-   topics (see **Feed scoring contexts** below), weighing breadth of impact,
-   consequence, and novelty within that audience. Do not compare science
-   stories against tech stories — judge each group against what matters to
-   its own readers. `outlet_count` is a useful signal — wider coverage often
-   (not always) means a bigger story.
+1. **Score importance 1–10** (decimals OK, e.g. 7.5) relative to the primary
+   feed of each group's topics (see **Feed scoring contexts** below), weighing
+   breadth of impact, consequence, and novelty within that audience. Do not
+   compare science stories against tech stories — judge each group against what
+   matters to its own readers. `outlet_count` is a useful signal — wider
+   coverage often (not always) means a bigger story. Use the full range: reserve
+   9–10 for rare landmark events, use 4–6 for solid but routine stories.
 2. **`title`** — a clean, specific headline (use the representative `title`
    as a starting point; sharpen it if `also_reported` gives more precise
    wording). Never a broad theme ("Security", "Funding") — always the atomic
