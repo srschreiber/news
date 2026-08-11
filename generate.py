@@ -64,7 +64,7 @@ FUNFACTS_HISTORY_MAX = 120
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
-WRITE_MODEL = "claude-sonnet-5"         # Stage 2b — polishes final summaries; more careful
+WRITE_MODEL = "claude-haiku-4-5-20251001"  # Stage 2b — polishes final summaries
                                         # with nuance/fact-fidelity than Haiku, worth the
                                         # cost since it only runs once per batched run
 VOYAGE_MODEL = "voyage-4-large"          # story-update matching embeddings. Best-quality
@@ -90,6 +90,7 @@ RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic),
                                         # every subfeed gets guaranteed research depth instead of
                                         # a few feed-wide "winners" starving the rest.
 MIN_RESEARCH_IMPORTANCE = 6             # only research events at least this important (1-10)
+MAX_RESEARCH_PER_RUN = 2               # cap total events researched per run (new + updates combined)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
@@ -790,6 +791,15 @@ def select_research(
     return chosen
 
 
+def _new_facts(existing_summary: str, extract: str) -> bool:
+    """True if extract contains numbers not already in the existing summary.
+    Cheap heuristic: new death tolls, prices, percentages, versions → rewrite."""
+    import re
+    old = set(re.findall(r"\b\d[\d,\.]*\b", existing_summary))
+    new = set(re.findall(r"\b\d[\d,\.]*\b", extract))
+    return bool(new - old)
+
+
 def research_events(selected: list[dict], date: str) -> list[dict]:
     """Two-stage research: HAIKU reads each selected event in parallel (its own
     call -> hard per-event search cap), then SONNET polishes all extracts in one
@@ -815,17 +825,38 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
                               "one_liner": ev.get("one_liner", ""),
                               "extract": r["extract"], "sources": r.get("sources", [])})
 
-    # Stage 2b — Sonnet polishes all extracts in one call.
-    polished = stage2b_polish(reads, date)
+    # Stage 2b — polish extracts that have new facts; skip rewrite for updates
+    # whose extract doesn't introduce new numbers (same story, no new data).
+    ev_by_ref = {e["ref"]: e for e in selected}
+    needs_polish, keep_existing = [], []
+    for rd in reads:
+        ev = ev_by_ref.get(rd["ref"], {})
+        existing_summary = ev.get("summary", "")
+        if existing_summary and not _new_facts(existing_summary, rd["extract"]):
+            keep_existing.append(rd)
+        else:
+            needs_polish.append(rd)
+    if keep_existing:
+        log(f"skipping rewrite for {len(keep_existing)} update(s) with no new facts")
+    polished = stage2b_polish(needs_polish, date)
     out = []
     for rd in reads:
-        p = polished.get(rd["ref"]) or {}
-        out.append({
-            "ref": rd["ref"],
-            "summary": p.get("summary") or rd["extract"],
-            "takeaways": p.get("takeaways", []),
-            "sources": rd["sources"],
-        })
+        ev = ev_by_ref.get(rd["ref"], {})
+        if rd in keep_existing:
+            out.append({
+                "ref": rd["ref"],
+                "summary": ev.get("summary", rd["extract"]),
+                "takeaways": ev.get("takeaways", []),
+                "sources": rd["sources"],
+            })
+        else:
+            p = polished.get(rd["ref"]) or {}
+            out.append({
+                "ref": rd["ref"],
+                "summary": p.get("summary") or rd["extract"],
+                "takeaways": p.get("takeaways", []),
+                "sources": rd["sources"],
+            })
     return out
 
 
@@ -2860,7 +2891,9 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
     if not no_research and truly_new:
         selected += updated
-    log(f"researching {len(selected)} events ({len([u for u in updated if u in selected])} of them updates)")
+    selected = selected[:MAX_RESEARCH_PER_RUN]
+    n_updates_selected = sum(1 for u in updated if u in selected)
+    log(f"researching {len(selected)} events ({n_updates_selected} of them updates)")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
 

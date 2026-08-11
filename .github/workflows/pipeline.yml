@@ -2,7 +2,7 @@ name: news-pipeline
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch: {}
 
 # Only one pipeline run at a time (they all commit to main).
