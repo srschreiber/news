@@ -1772,6 +1772,7 @@ def _merge_new_events(
         eid = ev.get("event_id") or slugify(ev.get("title", ""))
         ev["event_id"] = eid
         ev.setdefault("lineage_id", eid)
+        ev.setdefault("received_at", now_iso)
         by_id[eid] = ev
 
     # Only candidates that survive the exact-title check need matching at all.
@@ -2293,7 +2294,7 @@ def _wotd_card(w: dict) -> list[str]:
         inner.append(f'<div class="wotd-ex">{esc(w["example"])}</div>')
     inner.append(f'<a class="wotd-src" href="{esc(w.get("link", ""))}" '
                  'target="_blank" rel="noopener">Merriam-Webster</a>')
-    return ['<div class="wotd">'] + inner + ['</div>', '']
+    return ['<div class="wotd" id="wotd">'] + inner + ['</div>', '']
 
 
 def _parse_fact(e: dict) -> dict | None:
@@ -2331,7 +2332,7 @@ def _fact_card(f: dict) -> list[str]:
     src = (f' <a class="fact-src" href="{esc(f["link"])}" target="_blank" '
            'rel="noopener">Wikipedia&nbsp;&rarr;</a>') if f.get("link") else ""
     return [
-        '<div class="fact">',
+        '<div class="fact" id="on-this-day">',
         f'<div class="fact-label">\U0001F4C5 On this day &middot; {esc(str(f["year"]))}</div>',
         f'<div class="fact-text">{esc(f["text"])}{src}</div>',
         "</div>",
@@ -2391,7 +2392,7 @@ def fetch_fun_fact() -> dict | None:
 def _funfact_card(f: dict) -> list[str]:
     esc = html.escape
     return [
-        '<div class="fact funfact">',
+        '<div class="fact funfact" id="fun-fact">',
         '<div class="fact-label">\U0001F4A1 Fact of the day</div>',
         f'<div class="fact-text">{esc(f["text"])} '
         '<a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" '
@@ -2429,7 +2430,8 @@ def record_word_of_the_day(w: dict) -> None:
             hist = []
     if hist and hist[-1].get("word") == w["word"]:
         return
-    hist.append({"word": w["word"], "part_of_speech": w.get("part_of_speech", ""),
+    hist.append({"date": now_utc().date().isoformat(),
+                 "word": w["word"], "part_of_speech": w.get("part_of_speech", ""),
                  "definition": w["definition"], "example": w.get("example", ""),
                  "link": w.get("link", "")})
     hist = hist[-WORDS_HISTORY_MAX:]
@@ -2446,18 +2448,68 @@ def rebuild_index() -> None:
         "---",
         "",
     ]
+    today_str = now_utc().date().isoformat()
+
+    # Use cached WOTD if already fetched today (avoids re-hitting the API on
+    # every 15-minute run; the Merriam-Webster word-of-the-day doesn't change
+    # intra-day anyway).
+    wotd = None
+    if WORDS_FILE.exists():
+        try:
+            _wh = json.loads(WORDS_FILE.read_text())
+            if _wh and isinstance(_wh[-1], dict) and _wh[-1].get("date") == today_str:
+                wotd = _wh[-1]
+        except (json.JSONDecodeError, IndexError, TypeError):
+            pass
+    if not wotd:
+        wotd = fetch_word_of_the_day()
+        if wotd:
+            record_word_of_the_day(wotd)
+
+    # "On this day" fact: Wikipedia, free HTTP call, always fresh.
+    fact = fetch_fact_of_the_day()
+
+    # Use cached fun fact if already fetched today (avoids a Haiku call on
+    # every run — thefactsite's fact-of-the-day doesn't change intra-day).
+    fun = None
+    if FUNFACTS_FILE.exists():
+        try:
+            _fh = json.loads(FUNFACTS_FILE.read_text())
+            if _fh and isinstance(_fh[-1], dict) and _fh[-1].get("date") == today_str:
+                fun = _fh[-1]
+        except (json.JSONDecodeError, IndexError, TypeError):
+            pass
+    if not fun:
+        fun = fetch_fun_fact()
+        if fun:
+            record_fun_fact(fun)
+
+    # Compact teaser bar linking down to the cards below the stories section.
+    teaser_parts = []
+    esc = html.escape
+    if wotd:
+        teaser_parts.append(
+            f'<a href="#wotd">\U0001F4D6 Word of the day: <strong>{esc(wotd["word"])}</strong></a>'
+        )
+    if fun:
+        teaser_parts.append('<a href="#fun-fact">\U0001F4A1 Fact of the day</a>')
+    if fact:
+        teaser_parts.append('<a href="#on-this-day">\U0001F4C5 On this day</a>')
+    if teaser_parts:
+        lines += [
+            '<div class="daily-teasers">',
+            "\n".join(teaser_parts),
+            "</div>",
+            "",
+        ]
+
     lines += ["## Top stories", ""]
     lines += _period_view_block(load_search_index(), feeds=feeds)
-    wotd = fetch_word_of_the_day()
     if wotd:
-        record_word_of_the_day(wotd)
         lines += _wotd_card(wotd)
-    fact = fetch_fact_of_the_day()
     if fact:
         lines += _fact_card(fact)
-    fun = fetch_fun_fact()
     if fun:
-        record_fun_fact(fun)
         lines += _funfact_card(fun)
     lines += [
         "",

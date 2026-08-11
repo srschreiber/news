@@ -2,11 +2,9 @@ name: news-pipeline
 
 on:
   schedule:
-    # Hourly daily runs: 12:00–23:00 UTC = 5am–4pm PDT. Staying within a single
-    # UTC day avoids date-boundary edge cases. The incremental run architecture
-    # clusters only new RSS items each hour and merges them into today's event
-    # store, so runs with nothing new exit cheaply after a timestamp update.
-    - cron: "0 12-23 * * *"  # hourly 5am–4pm PDT
+    # Every 15 minutes, all day. Runs with no new RSS items exit cheaply
+    # (just HTTP fetches + timestamp update — no Voyage/Haiku/Sonnet calls).
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 # Only one pipeline run at a time (they all commit to main).
@@ -43,7 +41,7 @@ jobs:
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add docs state.json metrics.json
+          git add docs state.json metrics.json embedding_cache.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

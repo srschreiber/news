@@ -34,7 +34,8 @@
   var period = (PERIODS.indexOf(urlPeriod) !== -1 && (DATA[urlPeriod] || []).length > 0)
     ? urlPeriod
     : PERIODS.find(function (p) { return (DATA[p] || []).length > 0; }) || "daily";
-  var sortBy = urlParams.get("sort") === "date" ? "date" : "importance";
+  var _validSorts = { date: 1, received: 1, importance: 1 };
+  var sortBy = _validSorts[urlParams.get("sort")] ? urlParams.get("sort") : "importance";
   var feedFilter = urlParams.get("feed") || "";
   var subfeedFilter = urlParams.get("subfeed") || "";
   var page = 1;
@@ -115,6 +116,12 @@
         if (a.date !== b.date) return a.date < b.date ? 1 : -1;
         return (b.importance || 0) - (a.importance || 0);
       });
+    } else if (sortBy === "received") {
+      list.sort(function (a, b) {
+        var ra = a.receivedAt || "", rb = b.receivedAt || "";
+        if (ra !== rb) return ra < rb ? 1 : -1;
+        return (b.importance || 0) - (a.importance || 0);
+      });
     }
     return list;
   }
@@ -175,6 +182,7 @@
       '<select id="pv-sort-select">' +
       '<option value="importance"' + (sortBy === "importance" ? " selected" : "") + ">Importance</option>" +
       '<option value="date"' + (sortBy === "date" ? " selected" : "") + ">Date</option>" +
+      '<option value="received"' + (sortBy === "received" ? " selected" : "") + ">Last updated</option>" +
       "</select></label></div>";
     html += "</div>";
     if (feedFilter || subfeedFilter) {

@@ -62,9 +62,7 @@ markdown_extensions:
 # search.
 nav:
   - Home: index.md
-  - Words:
-      - All words: words.md
-      - Quiz: quiz.md
+  - Words: words.md
   - Facts: facts.md
   - Search: search.md
 
@@ -73,6 +71,7 @@ not_in_nav: |
   feeds/**
   topics/**
   archive.md
+  quiz.md
 
 # The design spec lives under docs/ for repo convenience but isn't part of the
 # published site.
