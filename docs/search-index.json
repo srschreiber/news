@@ -333,6 +333,43 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "key-nutrients-can-reduce-fatigue-during-running-dietitian-explains",
+    "title": "Key nutrients can reduce fatigue during running, dietitian explains",
+    "summary": "Common nutrient deficiencies can make running feel harder, with strategies to close the gaps for improved energy.",
+    "theme": "Nutrition & Exercise",
+    "importance": 3.5,
+    "topics": [
+      "diet-exercise"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "running",
+      "fatigue",
+      "nutrients",
+      "diet"
+    ],
+    "url": "news/diet-exercise/2026-08-11/#key-nutrients-can-reduce-fatigue-during-running-dietitian-explains",
+    "sources": [
+      {
+        "label": "Runner's World",
+        "url": "https://www.runnersworld.com/nutrition-weight-loss/a73406187/running-fatigue-key-nutrients/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-11T21:36:33.624086+00:00",
+    "lineage_id": "key-nutrients-can-reduce-fatigue-during-running-dietitian-explains",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "ai-breakthrough-resolves-5000-year-old-mystery-in-female-sexology-research",
     "title": "AI breakthrough resolves 5,000-year-old mystery in female sexology research",
     "summary": "Artificial intelligence contributed to resolving a centuries-old question in the field of female sexology.",
@@ -2096,46 +2133,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "color-sensing-yeast-advances-biofactory-programming-and-precision",
-    "title": "Color-sensing yeast advances biofactory programming and precision",
-    "summary": "Scientists engineered baker's yeast with color-sensing capabilities to enable more programmable and precise biofactories for producing medicines and chemicals, enhancing control in one of biotechnology's most important microorganisms.",
-    "theme": "Science",
-    "importance": 6.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "yeast",
-      "synthetic biology",
-      "biofactories",
-      "medicine"
-    ],
-    "url": "news/science/2026-08-11/#color-sensing-yeast-advances-biofactory-programming-and-precision",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-yeast-biofactories-programmable-precise.html",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Baker's yeast engineered with color-sensing capabilities for biofactory applications",
-      "Color-sensing enhancement allows improved control and precision in medicine/chemical production"
-    ],
-    "researched": true,
-    "received_at": "2026-08-11T20:35:30.283329+00:00",
-    "lineage_id": "color-sensing-yeast-advances-biofactory-programming-and-precision",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "malicious-sim-cards-can-execute-code-in-cellular-iot-devices",
     "title": "Malicious SIM cards can execute code in cellular IoT devices",
     "summary": "Researchers demonstrated that malicious SIM cards can execute arbitrary code on cellular IoT devices by exploiting a standards-compliant RUN AT command, with vulnerable devices found in EV chargers, routers, and industrial systems. The attack requires physical SIM access but highlights risks in widely deployed Qualcomm and Quectel modules.",
@@ -2183,48 +2180,6 @@
     "researched": true,
     "received_at": "2026-08-11T20:35:30.283329+00:00",
     "lineage_id": "malicious-sim-cards-can-execute-code-in-cellular-iot-devices",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-11",
-    "event_id": "gunra-ransomware-targets-government-and-critical-infrastructure-worldwide",
-    "title": "Gunra ransomware targets government and critical infrastructure worldwide",
-    "summary": "US and South Korean agencies warn of Gunra ransomware actively targeting government and critical infrastructure organizations globally.",
-    "theme": "Security",
-    "importance": 6.0,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Gunra ransomware",
-      "government",
-      "critical infrastructure",
-      "cyber threat"
-    ],
-    "url": "news/security/2026-08-11/#gunra-ransomware-targets-government-and-critical-infrastructure-worldwide",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-        "origin": "rss"
-      },
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-11T20:35:30.283329+00:00",
-    "lineage_id": "gunra-ransomware-targets-government-and-critical-infrastructure-worldwide",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2599,6 +2554,49 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "pangenome-guided-breeding-reunites-stress-tolerance-and-yield-in-himalayan-grain",
+    "title": "Pangenome-guided breeding reunites stress tolerance and yield in Himalayan grain",
+    "summary": "Scientists at Murdoch University's Centre for Crop and Food Innovation (CCFI) demonstrated that pangenome-guided breeding can overcome the traditional trade-off between crop stress tolerance and yield in a Himalayan grain species. The research represents a proof-of-concept that pangenome approaches enable simultaneous improvement of both stress adaptation and productivity traits, addressing a longstanding agronomic constraint where crop varieties optimized for drought or other stress resistance typically sacrifice yield potential.",
+    "theme": "Agriculture",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "pangenome",
+      "breeding",
+      "crop yield",
+      "stress tolerance",
+      "Himalayan grain"
+    ],
+    "url": "news/science/2026-08-11/#pangenome-guided-breeding-reunites-stress-tolerance-and-yield-in-himalayan-grain",
+    "sources": [
+      {
+        "label": "Google News",
+        "url": "https://www.google.com/goto?url=CAEShQEB7keqTVQQES8qgYKui6U2TpecYYVxEq1Ze2w_9oLq8xIkKQqECOVnQDN0RBSMaG-CPmnWFJpcOC1XocPgNQPv2H1jP6F4k-Ber0ovA7bIjGK3742hlKfYb-UrGxDlYXewZq9Jbi8raGzuyKFJcg7Sm8Bjovs04tKgBkzUNw3ij8jWza2k",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-himalayan-grain-potential-pangenome-higher.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": true,
+    "received_at": "2026-08-11T21:36:33.624086+00:00",
+    "lineage_id": "pangenome-guided-breeding-reunites-stress-tolerance-and-yield-in-himalayan-grain",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "forest-fires-projected-to-double-without-aggressive-climate-action-global-nature-watch-warns",
     "title": "Forest fires projected to double without aggressive climate action, Global Nature Watch warns",
     "summary": "Global Nature Watch's 25-year analysis finds forest fires now burn twice the area they did 20 years ago, and warns fires could double again without stronger climate action, calling recent extremes 'the new normal.'",
@@ -2689,6 +2687,44 @@
     "researched": true,
     "received_at": "2026-08-11T21:13:24.488232+00:00",
     "lineage_id": "openai-ipo-timeline-uncertain-valuation-cuts-suggest-public-offering-may-not-occur",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "gunra-ransomware-gang-exploits-fortinet-flaws-bypasses-multi-factor-authentication",
+    "title": "Gunra ransomware gang exploits Fortinet flaws, bypasses multi-factor authentication",
+    "summary": "A ransomware-as-a-service group is successfully targeting critical infrastructure using leaked Conti malware code and unpatched Fortinet firewall and VPN vulnerabilities.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ransomware",
+      "Fortinet",
+      "MFA bypass",
+      "critical infrastructure",
+      "Gunra"
+    ],
+    "url": "news/security/2026-08-11/#gunra-ransomware-gang-exploits-fortinet-flaws-bypasses-multi-factor-authentication",
+    "sources": [
+      {
+        "label": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-11T21:36:33.624086+00:00",
+    "lineage_id": "gunra-ransomware-gang-exploits-fortinet-flaws-bypasses-multi-factor-authentication",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
