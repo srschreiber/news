@@ -1602,26 +1602,34 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
     out: list[list[float]] = []
     for i in range(0, len(texts), _VOYAGE_BATCH):
         chunk = texts[i: i + _VOYAGE_BATCH]
-        try:
-            data = json.dumps({"input": chunk, "model": VOYAGE_MODEL}).encode()
-            req = urllib.request.Request(
-                "https://api.voyageai.com/v1/embeddings",
-                data=data,
-                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-                method="POST",
-            )
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                result = json.loads(resp.read())
-            # Rounded — cosine similarity doesn't need full float precision, and
-            # this halves what a 512-dim vector costs in state.json.
-            vecs = [[round(x, 4) for x in d["embedding"]] for d in result.get("data", [])]
-            if len(vecs) != len(chunk):
-                log(f"voyage embed: expected {len(chunk)} vectors, got {len(vecs)}")
+        for attempt in range(4):
+            try:
+                data = json.dumps({"input": chunk, "model": VOYAGE_MODEL}).encode()
+                req = urllib.request.Request(
+                    "https://api.voyageai.com/v1/embeddings",
+                    data=data,
+                    headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                    method="POST",
+                )
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    result = json.loads(resp.read())
+                # Rounded — cosine similarity doesn't need full float precision, and
+                # this halves what a 512-dim vector costs in state.json.
+                vecs = [[round(x, 4) for x in d["embedding"]] for d in result.get("data", [])]
+                if len(vecs) != len(chunk):
+                    log(f"voyage embed: expected {len(chunk)} vectors, got {len(vecs)}")
+                    return None
+                out.extend(vecs)
+                break
+            except urllib.error.HTTPError as e:
+                if e.code == 429 and attempt < 3:
+                    import time; time.sleep(2 ** attempt)
+                    continue
+                log(f"voyage embed failed (chunk {i//_VOYAGE_BATCH}): {e}")
                 return None
-            out.extend(vecs)
-        except Exception as e:
-            log(f"voyage embed failed (chunk {i//_VOYAGE_BATCH}): {e}")
-            return None
+            except Exception as e:
+                log(f"voyage embed failed (chunk {i//_VOYAGE_BATCH}): {e}")
+                return None
     return out
 
 
@@ -1802,20 +1810,22 @@ def _merge_new_events(
         else:
             candidates.append(ev)
 
-    # Batch-embed this run's candidates plus any stored event still missing
-    # an embedding (persists on the event dict across runs — never re-embed
-    # the same stored event twice).
-    embeddings_ok = False
-    if candidates:
-        need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev]
-        texts = [_embed_text(c) for c in candidates] + [_embed_text(ev) for ev in need_stored_embed]
-        vecs = _voyage_embed(texts)
-        if vecs is not None and len(vecs) == len(texts):
-            embeddings_ok = True
-            for c, v in zip(candidates, vecs[: len(candidates)]):
-                c["_embedding"] = v
-            for ev, v in zip(need_stored_embed, vecs[len(candidates):]):
+    # Embed any events still missing a vector: candidates that didn't get a
+    # centroid from stage1 (rare), plus stored events from state that predate
+    # the centroid carry-through. Skip anything already embedded — stage1
+    # centroids count, so well-formed runs only embed the stored backlog once.
+    need_candidate_embed = [c for c in candidates if "_embedding" not in c]
+    need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev]
+    need_embed = need_candidate_embed + need_stored_embed
+    embeddings_ok = all("_embedding" in c for c in candidates)  # true if all candidates have centroid
+    if need_embed:
+        vecs = _voyage_embed([_embed_text(e) for e in need_embed])
+        if vecs is not None and len(vecs) == len(need_embed):
+            for ev, v in zip(need_embed, vecs):
                 ev["_embedding"] = v
+            embeddings_ok = all("_embedding" in c for c in candidates)
+        else:
+            embeddings_ok = False
 
     truly_new: list[dict] = []
     updated: list[dict] = []
