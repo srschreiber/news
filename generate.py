@@ -2117,7 +2117,7 @@ def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
 
 
 def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int = 30,
-                  cap_daily: int = 40, cap_weekly: int = 30, cap_monthly: int = 50) -> dict:
+                  cap_daily: int = 10_000, cap_weekly: int = 30, cap_monthly: int = 50) -> dict:
     """Split scope-filtered `records` into daily/weekly/monthly windows, anchored
     on the most recent date present. Each window is deduped (same story surfaced
     under multiple topics) and importance-sorted."""
