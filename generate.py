@@ -93,7 +93,9 @@ CLUSTER_COS_THRESHOLD = 0.90            # stricter than MERGE_COS_THRESHOLD: no 
                                         # tokens, over-clustering silently mixes two stories
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
-MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
+MAX_ITEMS_PER_FEED = 60                 # cap noisy feeds before Stage 1 — high headroom is cheap
+                                        # now that embedding pregrouping keeps Haiku's clustering
+                                        # input small regardless of raw item count
 EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic), not per feed —
                                         # every subfeed gets guaranteed research depth instead of
@@ -102,7 +104,9 @@ MIN_RESEARCH_IMPORTANCE = 3             # only research events at least this imp
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
-GLOBAL_SEARCH_SAFETY = 40              # max Serper searches per run (1 per event)
+GLOBAL_SEARCH_SAFETY = 80              # max Serper searches per run (1 per event) — 19 topics x
+                                        # RESEARCH_BUDGET_PER_TOPIC already theoretical-maxes near
+                                        # this; the old 40 was the actual binding constraint
 MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY
 WEB_FETCH_MAX_CONTENT_TOKENS = 1000     # per-page cap (~4000 chars). News inverted pyramid
                                         # means key facts are always first.
@@ -1109,19 +1113,29 @@ def stage1_cluster(
     under multiple topics is merged into a single event (topics + merged sources
     are derived from source_item_ids in code afterwards).
 
-    Tries embedding pre-grouping first (see _embedding_cluster_items) for the
-    default prompt/schema — falls back to the original send-every-raw-item
-    approach if Voyage is unavailable, or unconditionally for a caller that
-    passed a custom prompt_name/schema (whose contract this optimization
-    doesn't know how to satisfy)."""
+    For the default prompt/schema, this REQUIRES embedding pre-grouping (see
+    _embedding_cluster_items) and raises if Voyage is unavailable, rather than
+    falling back to the far more expensive send-every-raw-item approach. This
+    is a deliberate hard failure, not an oversight: run_daily() only persists
+    seen_links/source_last_ts (marking today's RSS items processed) after a
+    clean run, so a crash here means those same items are simply retried next
+    run once Voyage is fixed — no silent cost blowup, no silently dropped
+    news. A caller that passes a custom prompt_name/schema (whose contract
+    this optimization doesn't know how to satisfy) is unaffected — it never
+    goes through the embedding path."""
     if not items:
         return []
     if schema is None and prompt_name == "cluster.md":
         groups = _embedding_cluster_items(items)
-        if groups is not None:
-            payload = {"groups": _cluster_groups_payload(groups)}
-            events = _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
-            return _ungroup_events(events, groups)
+        if groups is None:
+            raise RuntimeError(
+                "Voyage embeddings unavailable (VOYAGE_API_KEY unset or the "
+                "embed call failed) — refusing to fall back to raw-item "
+                "clustering. Fix Voyage and rerun; today's items are untouched."
+            )
+        payload = {"groups": _cluster_groups_payload(groups)}
+        events = _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
+        return _ungroup_events(events, groups)
     return _call_stage1({"items": payload_items(items)}, prompt_name, schema or EVENTS_SCHEMA, feeds, label)
 
 

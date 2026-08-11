@@ -666,10 +666,22 @@ def test_embedding_cache_round_trip(tmp_path, monkeypatch):
 # --- embedding-pregrouped clustering (stage 1 cost optimization) ----------- #
 def test_embedding_cluster_items_returns_none_without_embeddings():
     # No VOYAGE_API_KEY in the test env -> _voyage_embed returns None ->
-    # caller falls back to the original send-every-raw-item approach.
+    # stage1_cluster (see below) now raises rather than falling back.
     items = [{"id": "1", "title": "A", "summary": "x", "source": "S", "topic": "tech"}]
     assert g._embedding_cluster_items(items) is None
     assert g._embedding_cluster_items([]) == []
+
+
+def test_stage1_cluster_raises_without_embeddings_instead_of_raw_item_fallback():
+    # No VOYAGE_API_KEY in the test env. The old raw-item-to-Haiku fallback
+    # was removed by design: a hard failure here means run_daily() never
+    # reaches save_state(), so today's items are simply retried next run
+    # once Voyage is fixed, instead of either a silent cost blowup or
+    # (worse) those items getting marked seen and permanently dropped.
+    items = [{"id": "1", "title": "A", "summary": "x", "source": "S",
+              "topic": "tech", "link": "https://a"}]
+    with pytest.raises(RuntimeError, match="Voyage"):
+        g.stage1_cluster(items, {})
 
 
 def test_cluster_groups_payload_picks_richest_summary_as_representative():

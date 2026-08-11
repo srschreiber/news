@@ -53,27 +53,33 @@ code afterward — the models return structured JSON, never free-form docs.
 | `claude-haiku-4-5` | Clustering + scoring, research reads, story-relation classification |
 | `claude-sonnet-5` | Final polish — one batched call per run, prioritized for fact-fidelity over cost |
 | [Serper.dev](https://serper.dev) | Google News search ($1/1k queries) — research reads and the daily fallback search |
-| [Voyage AI](https://voyageai.com) | Text embeddings for story-update matching and clustering pregrouping (optional — story-update matching skips unmatched events, clustering falls back to raw Haiku grouping, if unset) |
+| [Voyage AI](https://voyageai.com) | Text embeddings for story-update matching and clustering pregrouping — **required** for a daily run; clustering fails the job rather than degrading if unset/unreachable (see below) |
 
 ### 1. Cluster & score
 
 Runs over that run's **new** RSS items only — hourly incremental runs never
 re-read items already clustered earlier today, which is what keeps them
-cheap. If `VOYAGE_API_KEY` is set, items are pre-grouped by embedding
-similarity first (single pass, running-centroid average, threshold
-`CLUSTER_COS_THRESHOLD` — stricter than the story-update threshold since
-there's no Haiku backstop for this step): a group of near-duplicate
-headlines from different outlets collapses into one small payload (one
-representative title/summary + up to two `also_reported` headlines) instead
-of every raw item, which is what makes clustering itself cheap on high-
-volume days. One Haiku call then scores and titles each pre-formed group —
-it doesn't re-group, only describes and can flag `discard_from_group` if a
-headline the embedding pass lumped in clearly isn't the same event. Falls
-back to sending every raw item straight to Haiku for full clustering if
-Voyage is unavailable. Either way, the result is structured events: the
-same story surfacing under multiple feeds is merged into one, each with an
-importance score (1–5, judged against that feed's `scoring_context`), a
-theme, and keywords.
+cheap. Items are pre-grouped by Voyage embedding similarity first (single
+pass, running-centroid average, threshold `CLUSTER_COS_THRESHOLD` —
+stricter than the story-update threshold since there's no Haiku backstop
+for this step): a group of near-duplicate headlines from different outlets
+collapses into one small payload (one representative title/summary + up to
+two `also_reported` headlines) instead of every raw item, which is what
+makes clustering itself cheap on high-volume days. One Haiku call then
+scores and titles each pre-formed group — it doesn't re-group, only
+describes and can flag `discard_from_group` if a headline the embedding
+pass lumped in clearly isn't the same event. The result is structured
+events: the same story surfacing under multiple feeds is merged into one,
+each with an importance score (1–5, judged against that feed's
+`scoring_context`), a theme, and keywords.
+
+If `VOYAGE_API_KEY` is unset or the embed call fails, `stage1_cluster`
+raises rather than falling back to the far more expensive send-every-raw-
+item-to-Haiku approach — a deliberate hard failure, not a bug. `run_daily`
+only advances `seen_links`/`source_last_ts` (marking RSS items processed)
+after a clean run, so a crash here leaves today's items untouched for the
+next scheduled run to retry once Voyage is back — no silent cost blowup,
+no silently dropped news, and a failed GitHub Actions run to flag it.
 
 ### 2. Story updates & merging
 
@@ -213,10 +219,10 @@ pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...
 export SERPER_DEV_API_KEY=...       # serper.dev — Google News search
 export VOYAGE_API_KEY=...           # voyageai.com — embeddings for story-update
-                                     # matching and clustering pregrouping
-                                     # (optional: story-update matching skips
-                                     # unmatched events, clustering falls back
-                                     # to raw Haiku grouping, if unset)
+                                     # matching and clustering pregrouping.
+                                     # Required for `daily` mode: clustering
+                                     # raises rather than degrading if unset
+                                     # (rollup modes don't need it)
 
 python generate.py --dry-run     # cluster + score, print top events (no research, no writes)
 python generate.py               # full daily run
@@ -229,7 +235,7 @@ mkdocs serve                     # preview the site at localhost:8000
 
 1. Push to a GitHub repo.
 2. Add repo secrets **`ANTHROPIC_API_KEY`**, **`SERPER_DEV_API_KEY`**, and
-   optionally **`VOYAGE_API_KEY`**.
+   **`VOYAGE_API_KEY`** (required for `daily` mode; rollup modes don't need it).
 3. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 4. `pipeline.yml` runs on cron (daily/weekly/monthly/yearly) and via **Run
    workflow**; it generates docs and deploys. `publish.yml` re-deploys the site
@@ -237,8 +243,9 @@ mkdocs serve                     # preview the site at localhost:8000
 
 ## Cost controls
 
-All in `generate.py` constants, and every cap degrades gracefully (a hit never
-fails the run):
+All in `generate.py` constants, and every cap degrades gracefully (a hit
+never fails the run) — the one exception is `VOYAGE_API_KEY` itself, a hard
+dependency for `daily` mode by design (see [Cluster & score](#1-cluster--score)):
 
 - `MIN_RESEARCH_IMPORTANCE` — only research events at least this important.
 - `RESEARCH_BUDGET_PER_TOPIC` / `GLOBAL_SEARCH_SAFETY` — every research-enabled
