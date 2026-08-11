@@ -1523,8 +1523,14 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
     `url` is left in its raw directory-URL form (e.g. "news/tech/2026-08-11/#slug")
     — unlike markdown-rendered links, this is injected as a raw <a href> at
     runtime by JS, so it must match MkDocs's actual served path (no .md suffix;
-    MkDocs's build-time .md link rewriting never sees this)."""
-    item = {
+    MkDocs's build-time .md link rewriting never sees this).
+
+    `feeds`/`subfeeds` carry both the machine key (for filtering) and the
+    display title (for the clickable badges) — feeds are the broad section
+    (Technology, World, ...), subfeeds are the finer topic within it (Tech,
+    AI, Anthropic, ...)."""
+    feeds = feeds or {}
+    return {
         "title": r["title"],
         "url": r["url"],
         "importance": r.get("importance", 0),
@@ -1535,23 +1541,32 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
             {"label": s["label"], "url": s["url"], "origin": s.get("origin", "rss")}
             for s in r.get("sources", []) if s.get("url")
         ][:MAX_SOURCES_PER_EVENT],
-        "topics": r.get("topics", []),
+        "subfeeds": [{"key": t, "title": topic_display(t)} for t in r.get("topics", [])],
+        "feeds": [{"key": fk, "title": feeds[fk]["title"]} for fk in r.get("feeds", []) if fk in feeds],
         "researched": bool(r.get("researched", False)),
     }
-    if feeds is not None:
-        item["feeds"] = [feeds[fk]["title"] for fk in r.get("feeds", []) if fk in feeds]
-    return item
 
 
 def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None = None) -> list[str]:
     """Markdown lines embedding a client-rendered Daily/Weekly/Monthly story
     widget (docs/assets/period-view.js). No LLM involved — pure aggregation of
     the search index, done here in Python; the JS just switches between the
-    three precomputed, already-sorted-and-deduped windows."""
+    three precomputed, already-sorted-and-deduped windows.
+
+    When `feeds` is given, also embeds a static feed -> subfeed(topic) map
+    (`feedMeta`) so the widget's Feed filter can narrow its Subfeed options to
+    exactly what that feed configures, independent of which topics happen to
+    have stories in the current window."""
     data = _period_lists(records)
     if not any(data.values()):
         return ["_No stories yet._", ""]
     payload = {period: [_period_item(r, feeds) for r in rows] for period, rows in data.items()}
+    if feeds:
+        payload["feedMeta"] = {
+            fk: {"title": spec["title"],
+                 "subfeeds": [{"key": t, "title": topic_display(t)} for t in spec.get("topics", [])]}
+            for fk, spec in feeds.items()
+        }
     blob = json.dumps(payload, ensure_ascii=False).replace("</script>", "<\\/script>")
     return [
         f'<div id="period-view" class="period-view" data-prefix="{prefix}"></div>',
@@ -1585,7 +1600,7 @@ def _daily_link(topic: str, stem: str, counts: dict[tuple, int],
     return f"[{stem} ({n} {unit})]({d}/{topic}/{stem}.md)"
 
 
-TOPIC_DISPLAY = {"ai": "AI", "gpt": "GPT", "api": "API",
+TOPIC_DISPLAY = {"ai": "AI", "gpt": "OpenAI", "api": "API",
                  "tech-research": "Tech Research", "patent-ip": "Patent / IP",
                  "climate-resilience": "Climate & Ecological Resilience"}
 
@@ -1849,6 +1864,7 @@ def rebuild_index() -> None:
 def _feed_page_body(
     fkey: str, spec: dict, index: list[dict],
     latest: str | None, refresh_map: dict[str, str],
+    feeds: dict,
     topic_link_dir: str = "topics",
     story_prefix: str = "../../",
 ) -> list[str]:
@@ -1876,7 +1892,7 @@ def _feed_page_body(
         except (ValueError, TypeError):
             pass
     lines += ["## Top stories", ""]
-    lines += _period_view_block(records, prefix=story_prefix)
+    lines += _period_view_block(records, prefix=story_prefix, feeds=feeds)
     counts = _event_counts(index)
     lines += ["## Topics", ""]
     all_shown_topics = ftopics + [t for t in sorted(also_topics) if t not in ftopics]
@@ -1898,7 +1914,7 @@ def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
     refresh_map: dict[str, str] = feed_last_refresh or {}
 
     for fkey, spec in feeds.items():
-        lines = _feed_page_body(fkey, spec, index, latest, refresh_map)
+        lines = _feed_page_body(fkey, spec, index, latest, refresh_map, feeds)
         path = DOCS / "feeds" / f"{fkey}.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("\n".join(lines) + "\n")
@@ -1914,14 +1930,14 @@ def _topic_page_body(
     latest = max(dates) if dates else None
     latest_count = len(dates.get(latest, [])) if latest else 0
     disp = topic_display(topic)
-    lines = [f"# {disp} ({latest_count})" if latest else f"# {disp}", ""]
+    lines = ["---", "hide:", "  - toc", "---", "", f"# {disp} ({latest_count})" if latest else f"# {disp}", ""]
     fkey = topic_feed.get(topic, DEFAULT_FEED)
     badge = "AI-researched" if research_enabled(topic, research_cfg) else "RSS only"
     lines += [f"_Part of the [{feeds[fkey]['title']}](../{feed_link_dir}/{fkey}.md) feed · {badge}._", ""]
     if latest:
         records = [r for rows in dates.values() for r in rows]
         lines += ["## Latest", ""]
-        lines += _period_view_block(records, prefix="../../")
+        lines += _period_view_block(records, prefix="../../", feeds=feeds)
         earlier = sorted((d for d in dates if d != latest), reverse=True)
         if earlier:
             lines += ["## Earlier", ""]

@@ -295,7 +295,7 @@ def test_parse_fact():
 
 def test_topic_display():
     assert g.topic_display("ai") == "AI"
-    assert g.topic_display("gpt") == "GPT"
+    assert g.topic_display("gpt") == "OpenAI"
     assert g.topic_display("email-security") == "Email Security"
     assert g.topic_display("markets") == "Markets"
 
@@ -407,14 +407,18 @@ def test_period_view_block_embeds_json_and_script():
     assert g._period_view_block([]) == ["_No stories yet._", ""]
 
 
-def test_period_view_block_includes_feed_titles():
+def test_period_view_block_includes_feed_and_subfeed_titles():
     records = [
         {"date": "2026-07-25", "topics": ["ai"], "title": "Big", "importance": 5,
          "keywords": [], "url": "u1", "feeds": ["technology"]},
     ]
-    feeds = {"technology": {"title": "Technology"}}
+    feeds = {"technology": {"title": "Technology", "topics": ["ai", "tech"]}}
     text = "\n".join(g._period_view_block(records, feeds=feeds))
-    assert '"feeds": ["Technology"]' in text
+    assert '"feeds": [{"key": "technology", "title": "Technology"}]' in text
+    assert '"subfeeds": [{"key": "ai", "title": "AI"}]' in text
+    # static feed -> subfeed map, independent of which topics have stories today
+    assert '"feedMeta"' in text
+    assert '"subfeeds": [{"key": "ai", "title": "AI"}, {"key": "tech", "title": "Tech"}]' in text
 
 
 def test_dedupe_cross_topic_collapses_same_story():

@@ -247,14 +247,26 @@
 .pv-item:last-child { border-bottom: none; }
 .pv-title { font-weight: 600; }
 .pv-summary { margin: 0.25rem 0 0.35rem; }
-.pv-meta {
+.pv-date {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
+.pv-sources { margin-top: 0.35rem; font-size: 0.82rem; }
+.pv-empty { color: var(--md-default-fg-color--light); }
+
+.pv-meta-row {
+  margin-top: 0.3rem;
   font-size: 0.78rem;
   color: var(--md-default-fg-color--light);
 }
-.pv-date { font-variant-numeric: tabular-nums; }
-.pv-sources { margin-top: 0.35rem; font-size: 0.82rem; }
-.pv-empty { color: var(--md-default-fg-color--light); }
-.pv-feed-badge {
+.pv-meta-label {
+  font-weight: 600;
+  margin-right: 0.15rem;
+}
+.pv-feed-badge,
+.pv-subfeed-badge {
   display: inline-block;
   font-size: 0.6rem;
   font-weight: 700;
@@ -262,14 +274,47 @@
   line-height: 1.6;
   padding: 0 0.4rem;
   border-radius: 999px;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0 0.15rem 0.15rem 0;
+}
+.pv-feed-badge {
   background: rgba(220, 60, 60, 0.12);
   color: #c0392b;
   border: 1px solid rgba(220, 60, 60, 0.35);
   text-transform: uppercase;
-  vertical-align: middle;
-  white-space: nowrap;
 }
+.pv-feed-badge:hover { background: rgba(220, 60, 60, 0.22); }
 [data-md-color-scheme="slate"] .pv-feed-badge { color: #ff6b6b; }
+.pv-subfeed-badge {
+  background: rgba(43, 108, 176, 0.12);
+  color: #2b6cb0;
+  border: 1px solid rgba(43, 108, 176, 0.35);
+}
+.pv-subfeed-badge:hover { background: rgba(43, 108, 176, 0.22); }
+[data-md-color-scheme="slate"] .pv-subfeed-badge { color: #6ab0f3; }
+
+.pv-pager {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+.pv-page {
+  font: inherit;
+  cursor: pointer;
+  min-width: 1.9rem;
+  border-radius: 4px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
+.pv-page:hover { border-color: #f6ad3c; }
+.pv-page.pv-active { background: #f6ad3c; border-color: #f6ad3c; color: #1a1a1a; }
 
 /* Per-story "copy link to share" button next to each story heading. */
 .share-link {
