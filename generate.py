@@ -1453,7 +1453,7 @@ def _top_stories_section(index: list[dict], feeds: dict, topic_feed: dict,
 
     lines = [f"## Top stories — {latest}", ""]
     for fkey, spec in feeds.items():
-        rows = sorted(by_feed.get(fkey, []), key=lambda r: r.get("importance", 0), reverse=True)
+        rows = by_feed.get(fkey, [])
         if not rows:
             continue
         lines += [f"### [{spec['title']}](feeds/{fkey}.md)", ""]
