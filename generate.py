@@ -1727,8 +1727,6 @@ def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None
         "",
         f'<script src="{prefix}assets/period-view.js" defer></script>',
         "",
-        "_Bars indicate estimated story importance (1 = minor · 5 = major)._",
-        "",
     ]
 
 
@@ -1977,12 +1975,6 @@ def rebuild_index() -> None:
         "hide:",
         "  - toc",
         "---",
-        "",
-        "# Sam's News",
-        "",
-        "Today's biggest stories. Switch to Weekly or Monthly if today's quiet. "
-        "Pick a feed or topic from the sidebar to dive in, browse the full "
-        "[archive](archive.md), or [search](search.md) by keyword, date, and topic.",
         "",
     ]
     wotd = fetch_word_of_the_day()
