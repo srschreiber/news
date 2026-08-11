@@ -1416,44 +1416,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "new-phishing-attack-exploits-ssltls-certificates-to-target-premium-brand-customers-via-whatsapp",
-    "title": "New phishing attack exploits SSL/TLS certificates to target premium brand customers via WhatsApp",
-    "summary": "A reported phishing campaign allegedly uses fake SSL/TLS certificates to target premium brand customers via WhatsApp, but the source page was inaccessible and contained no verifiable details.",
-    "theme": "Security",
-    "importance": 6.0,
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "phishing",
-      "SSL/TLS",
-      "WhatsApp",
-      "email security",
-      "social engineering"
-    ],
-    "url": "news/email-security/2026-08-11/#new-phishing-attack-exploits-ssltls-certificates-to-target-premium-brand-customers-via-whatsapp",
-    "sources": [
-      {
-        "label": "CyberSecurityNews",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51eFlabGN4S2tZN0dNN3lfNGoyTmVNbDRLVmZaU0JoX3NpVjZUR2ZjQlhBb2xDSW5ucm55R2dRQ293cDVBUTFWcTdyX3BQcDVzaWxTT0NKZjZYZ1BRYmN30gFkQVVfeXFMTVZmc1p2NWVvVHFPVndlMEFwd2pyTl9YVjhWOFc0Qm5YRmk2U0ZLWXZDeVZtaVpaSy1NU2htUDk3eUZZemhxVktxdjhtSnBhNEhaRTdnTmdqMkRQWjBHdmpGbVFZQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": true,
-    "received_at": "2026-08-11T20:35:30.283329+00:00",
-    "lineage_id": "new-phishing-attack-exploits-ssltls-certificates-to-target-premium-brand-customers-via-whatsapp",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "openai-launches-chatgpt-ads-across-five-international-markets",
     "title": "OpenAI Launches ChatGPT Ads Across Five International Markets",
     "summary": "OpenAI expanded ChatGPT advertising to the UK, Mexico, Brazil, Japan, and South Korea, targeting free and Go-tier users while sparing paid subscribers.",
@@ -2085,54 +2047,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "americans-opposition-to-data-center-construction-surges-sharply-survey-finds",
-    "title": "Americans' opposition to data center construction surges sharply, survey finds",
-    "summary": "A national survey shows 71% of Americans oppose AI data center construction in their communities, with opposition surging sharply as several states halt new permits, creating tension with the president of the United States' push for rapid development to compete with China.",
-    "theme": "Science",
-    "importance": 6.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "data centers",
-      "opposition",
-      "survey",
-      "environmental impact"
-    ],
-    "url": "news/science/2026-08-11/#americans-opposition-to-data-center-construction-surges-sharply-survey-finds",
-    "sources": [
-      {
-        "label": "Gallup",
-        "url": "https://www.google.com/goto?url=CAESgwEB7keqTebJXvql7gMv8S43sRmAu4W0dvoIt4SCsvCEXrJf7823078qTLP4RZvq8qmYqWQYOmqU4Kc5Mri15pUPsexN_n1U1BL0_MYa15zBzi3iIYJHY3co2i1eQ_3EKFR-i9zl923DbP019J9qo2kRWpI9KAf3_5BtmTTdcqRNwa3sEg==",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-opposition-local-centers-sharply-survey.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "71% of Americans oppose AI data center construction locally; 48% strongly opposed",
-      "Opposition surged dramatically in recent months; described as most bipartisan issue since beer",
-      "Concerns center on energy consumption, water usage, local environmental impact",
-      "Several states halted new data center permits in response to public opposition",
-      "67 data centers under construction/development as of survey date, concentrated in few states"
-    ],
-    "researched": true,
-    "received_at": "2026-08-11T20:35:30.283329+00:00",
-    "lineage_id": "americans-opposition-to-data-center-construction-surges-sharply-survey-finds",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "malicious-sim-cards-can-execute-code-in-cellular-iot-devices",
     "title": "Malicious SIM cards can execute code in cellular IoT devices",
     "summary": "Researchers demonstrated that malicious SIM cards can execute arbitrary code on cellular IoT devices by exploiting a standards-compliant RUN AT command, with vulnerable devices found in EV chargers, routers, and industrial systems. The attack requires physical SIM access but highlights risks in widely deployed Qualcomm and Quectel modules.",
@@ -2507,6 +2421,45 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "new-phishing-attack-exploits-ssltls-certificates-to-target-premium-brand-customers-via-whatsapp",
+    "title": "New phishing attack exploits SSL/TLS certificates to target premium brand customers via WhatsApp",
+    "summary": "Attackers are exploiting SSL/TLS certificate legitimacy to launch phishing campaigns targeting customers of high-value brands via WhatsApp.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "SSL/TLS",
+      "WhatsApp",
+      "brand impersonation",
+      "email security",
+      "phishing",
+      "social engineering"
+    ],
+    "url": "news/email-security/2026-08-11/#new-phishing-attack-exploits-ssltls-certificates-to-target-premium-brand-customers-via-whatsapp",
+    "sources": [
+      {
+        "label": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51eFlabGN4S2tZN0dNN3lfNGoyTmVNbDRLVmZaU0JoX3NpVjZUR2ZjQlhBb2xDSW5ucm55R2dRQ293cDVBUTFWcTdyX3BQcDVzaWxTT0NKZjZYZ1BRYmN30gFkQVVfeXFMTVZmc1p2NWVvVHFPVndlMEFwd2pyTl9YVjhWOFc0Qm5YRmk2U0ZLWXZDeVZtaVpaSy1NU2htUDk3eUZZemhxVktxdjhtSnBhNEhaRTdnTmdqMkRQWjBHdmpGbVFZQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-11T21:43:51.945505+00:00",
+    "lineage_id": "new-phishing-attack-exploits-ssltls-certificates-to-target-premium-brand-customers-via-whatsapp",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "nvidia-releases-nemotron-35-lightning-open-weight-model-emphasizing-inference-speed",
     "title": "Nvidia releases Nemotron 3.5 Lightning open-weight model emphasizing inference speed",
     "summary": "Nvidia released Nemotron 3.5 Lightning, an open-weight mixture-of-experts model optimized for fast inference rather than peak performance, aimed at local agentic AI use cases.",
@@ -2590,6 +2543,59 @@
     "researched": true,
     "received_at": "2026-08-11T21:36:33.624086+00:00",
     "lineage_id": "pangenome-guided-breeding-reunites-stress-tolerance-and-yield-in-himalayan-grain",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "astronomers-map-4-billion-cosmic-objects-in-largest-ever-2d-celestial-survey",
+    "title": "Astronomers map 4 billion cosmic objects in largest-ever 2D celestial survey",
+    "summary": "Astronomers released the largest-ever 2D celestial map cataloging nearly 4 billion cosmic objects across 75% of the sky. Created from 263,407 telescope exposures across three surveys, the 5.6-trillion-pixel map captures visible and near-infrared light and serves as a reference tool for detecting gravitational lenses, supernovae, and signatures of dark matter and dark energy.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "celestial map",
+      "astronomy",
+      "cosmic survey",
+      "sky mapping"
+    ],
+    "url": "news/science/2026-08-11/#astronomers-map-4-billion-cosmic-objects-in-largest-ever-2d-celestial-survey",
+    "sources": [
+      {
+        "label": "Sci.News",
+        "url": "https://www.sci.news/astronomy/universe-map-14982.html",
+        "origin": "research"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/scientists-create-largest-2d-map-of-the-universe-with-5-6-trillion-pixels-and-nearly-4-billion-cosmic-objects",
+        "origin": "research"
+      },
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/space/astronomy/astronomers-created-the-largest-ever-2d-map-of-the-universe-charting-4-billion-objects-in-the-night-sky",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Nearly 4 billion stars, galaxies, and cosmic objects mapped across ~75% of the sky",
+      "5.6 trillion pixels created from 263,407 combined telescope exposures",
+      "163 scientists contributed to data collection; 20 astronomers produced final dataset",
+      "Covers visible and near-infrared wavelengths unobstructed by Milky Way dust and stars",
+      "Publicly accessible via Legacy Survey Sky Viewer; expected to remain most comprehensive 2D map for years"
+    ],
+    "researched": true,
+    "received_at": "2026-08-11T21:43:51.945505+00:00",
+    "lineage_id": "astronomers-map-4-billion-cosmic-objects-in-largest-ever-2d-celestial-survey",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2696,7 +2702,7 @@
     "date": "2026-08-11",
     "event_id": "gunra-ransomware-gang-exploits-fortinet-flaws-bypasses-multi-factor-authentication",
     "title": "Gunra ransomware gang exploits Fortinet flaws, bypasses multi-factor authentication",
-    "summary": "A ransomware-as-a-service group is successfully targeting critical infrastructure using leaked Conti malware code and unpatched Fortinet firewall and VPN vulnerabilities.",
+    "summary": "The Gunra ransomware gang has weaponized Fortinet security flaws to circumvent multi-factor authentication defenses.",
     "theme": "Security",
     "importance": 7.0,
     "topics": [
@@ -2707,11 +2713,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "ransomware",
       "Fortinet",
+      "Gunra",
+      "Gunra ransomware",
       "MFA bypass",
       "critical infrastructure",
-      "Gunra"
+      "cybersecurity",
+      "ransomware",
+      "vulnerability"
     ],
     "url": "news/security/2026-08-11/#gunra-ransomware-gang-exploits-fortinet-flaws-bypasses-multi-factor-authentication",
     "sources": [
@@ -2719,11 +2728,16 @@
         "label": "Dark Reading",
         "url": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa",
         "origin": "rss"
+      },
+      {
+        "label": "Dark Reading",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVm5qb05yLVduWHl0TFVLNVNPWkZwdlRNMTdHSlhlY3dXd0c5M09VYm9uTjFaTGVYbEg1ZnoxeTZHM3RsOTRSM3pyTE9vMGc0UElUdElhWWNpbmIxcW9CWTZHNXQzZmx0MmQ5SzZuaXE2RHlsYjV3dTVVMXBYOTdIN1JPLVFDY1M0X1Y4c256ME90a2hueF94MWJ6bDc2VTJQdTlsS2xSQQ?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-11T21:36:33.624086+00:00",
+    "received_at": "2026-08-11T21:43:51.945505+00:00",
     "lineage_id": "gunra-ransomware-gang-exploits-fortinet-flaws-bypasses-multi-factor-authentication",
     "related_title": "",
     "related_url": "",
@@ -2836,7 +2850,7 @@
     "date": "2026-08-11",
     "event_id": "vulnerability-in-openai-anthropic-and-google-llm-apis-exposes-hidden-reasoning-traces",
     "title": "Vulnerability in OpenAI, Anthropic, and Google LLM APIs exposes hidden reasoning traces",
-    "summary": "Security researchers found a vulnerability in the APIs of OpenAI, Anthropic, and Google that can expose models' hidden chain-of-thought reasoning traces, exploiting a shared architectural flaw.",
+    "summary": "A security vulnerability in major LLM APIs allows attackers to access hidden reasoning processes and internal model traces.",
     "theme": "Security",
     "importance": 8.0,
     "topics": [
@@ -2847,12 +2861,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
+      "API vulnerability",
       "Anthropic",
       "Google",
       "LLM",
-      "API vulnerability",
-      "prompt injection"
+      "LLM API vulnerability",
+      "OpenAI",
+      "prompt injection",
+      "reasoning traces"
     ],
     "url": "news/ai/2026-08-11/#vulnerability-in-openai-anthropic-and-google-llm-apis-exposes-hidden-reasoning-traces",
     "sources": [
@@ -2877,8 +2893,8 @@
       "Exploits how providers protect chain-of-thought reasoning",
       "Demonstrated on Claude, GPT, and Gemini models"
     ],
-    "researched": true,
-    "received_at": "2026-08-11T20:35:30.283329+00:00",
+    "researched": false,
+    "received_at": "2026-08-11T21:43:51.945505+00:00",
     "lineage_id": "vulnerability-in-openai-anthropic-and-google-llm-apis-exposes-hidden-reasoning-traces",
     "related_title": "",
     "related_url": "",
@@ -3566,7 +3582,7 @@
     "date": "2026-08-11",
     "event_id": "major-ai-companies-compete-for-ipo-listing-including-anthropic-openai-deepseek-and-moonshot-ai",
     "title": "Major AI companies compete for IPO listing including Anthropic, OpenAI, DeepSeek, and Moonshot AI",
-    "summary": "Four major AI companies—Anthropic and OpenAI from the U.S., plus Chinese rivals DeepSeek and Moonshot AI—are competing to pursue initial public offerings, with IPO targets set for 2027 as the generative AI market matures.",
+    "summary": "Multiple large language model companies including Anthropic, OpenAI, DeepSeek, and Moonshot AI are reportedly pursuing initial public offerings in a competitive race.",
     "theme": "AI",
     "importance": 8.0,
     "topics": [
@@ -3578,10 +3594,10 @@
     "primary_feed": "technology",
     "keywords": [
       "Anthropic",
-      "OpenAI",
       "DeepSeek",
-      "Moonshot AI",
       "IPO",
+      "Moonshot AI",
+      "OpenAI",
       "artificial intelligence"
     ],
     "url": "news/gpt/2026-08-11/#major-ai-companies-compete-for-ipo-listing-including-anthropic-openai-deepseek-and-moonshot-ai",
@@ -3603,8 +3619,8 @@
       "Chinese AI startups pursuing IPOs as strategic milestones in competition with American firms",
       "All four companies targeting 2027 public listings"
     ],
-    "researched": true,
-    "received_at": "2026-08-11T20:35:30.283329+00:00",
+    "researched": false,
+    "received_at": "2026-08-11T21:43:51.945505+00:00",
     "lineage_id": "major-ai-companies-compete-for-ipo-listing-including-anthropic-openai-deepseek-and-moonshot-ai",
     "related_title": "",
     "related_url": "",
