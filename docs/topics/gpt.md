@@ -1,4 +1,4 @@
-# GPT (5)
+# GPT (6)
 
 _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 

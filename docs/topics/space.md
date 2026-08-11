@@ -1,4 +1,4 @@
-# Space (4)
+# Space (6)
 
 _Part of the [Science](../feeds/science.md) feed · AI-researched._
 

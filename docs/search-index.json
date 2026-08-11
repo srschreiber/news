@@ -109,37 +109,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "anthropics-claude-code-auto-mode-becomes-default-for-paid-users",
-    "title": "Anthropic's Claude Code auto mode becomes default for paid users",
-    "summary": "Anthropic made Claude Code's auto mode the default for paid Claude users, enabling autonomous coding actions.",
-    "theme": "AI",
-    "importance": 2,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude Code",
-      "auto mode",
-      "coding"
-    ],
-    "url": "news/anthropic/2026-08-11/#anthropics-claude-code-auto-mode-becomes-default-for-paid-users",
-    "sources": [
-      {
-        "label": "infoworld.com",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQkpOQlI3NlNCa3dpT2F4U3RkUXJPXzdiNHNGMEhWemhoNEo0dFNIaUhoVDVvV1VEX2VrbW1qMkFmV2hGSXlTQ3o3RDJ1MXU3QU52NTgxcUFhV3VkSjl6ZUwxYjVrV0E4Yi1mMm9mc005Wkw5Tkhxdjk1ZXNWYXhOZ25GQ1M5dF95MlAxaFFYRk9aZGtQdDlOU1dVZElJSEo5cXU3c19TSnByVzNm?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "openais-only-ethics-officer-departs-after-less-than-a-year",
     "title": "OpenAI's only ethics officer departs after less than a year",
     "summary": "OpenAI's ethics lead reportedly left the company last month and was not replaced.",
@@ -579,6 +548,43 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "nasa-shares-research-from-international-space-station-supporting-moon-and-mars-missions",
+    "title": "NASA shares research from International Space Station supporting Moon and Mars missions",
+    "summary": "NASA released findings from research conducted on the International Space Station that will aid future human missions to the Moon and Mars.",
+    "theme": "Space",
+    "importance": 2,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "International Space Station",
+      "Moon",
+      "Mars",
+      "research"
+    ],
+    "url": "news/space/2026-08-11/#nasa-shares-research-from-international-space-station-supporting-moon-and-mars-missions",
+    "sources": [
+      {
+        "label": "Mirage News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM0pzLUk2VS1maHdSNDF3cENNWTJNaDZRb0RGRHBJMURCbGJWYTJ2LWVQZGFWMlJoUlQxUGcyMFE3QUZyQ19lVm11YmxyRmlWSzVWNTZmbk54NTVYVDIzVVN6QUl4Zkp5QjdFaXdJNVFRNkpHeEZrSTR3X21lSWVZYXpTRWg0bzE0ZHc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NASA (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU9BYnZZc0JKT05RRmV3MHk3UF9reV9oQ1N4Y3pDbWVrYzBDU184QmpOUllkS3RUU01aNUJ1QzNGZUlrdktEc3NJeTY0MWV1X0pkNWFoUTktaFpqcThoVGlyM19vSm5US250MzdocTk2QU5Gd1NUUEpsS2V0Z3hpb21ZMXJGY0hLOHRWOUFmNlBrRWw1anNOcXVVdDFrN0cxcnQ5d3VKdVUwV3ZCbjJUVnFSSFZhVWM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "claude-advances-riemann-zeta-function-research-to-672-zero-point-bound",
     "title": "Claude advances Riemann zeta function research to 67.2% zero point bound",
     "summary": "An unreleased research version of Anthropic's Claude advanced the Riemann zeta function research by raising the lower bound of non-trivial zeros to 67.2%—a 25.6 percentage point gain in one day and a half—demonstrating AI's capacity to tackle genuinely open mathematical problems.",
@@ -810,6 +816,75 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "anthropic-to-watermark-claude-generated-content-in-response-to-eu-regulations",
+    "title": "Anthropic to watermark Claude-generated content in response to EU regulations",
+    "summary": "Anthropic announced it will embed invisible, machine-readable watermarks into Claude-generated text and signed provenance metadata into images starting August 2, 2026, applying worldwide to comply with the EU AI Act's transparency requirements and help platforms verify AI-generated content.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "watermarking",
+      "EU regulation",
+      "AI-generated content"
+    ],
+    "url": "news/anthropic/2026-08-11/#anthropic-to-watermark-claude-generated-content-in-response-to-eu-regulations",
+    "sources": [
+      {
+        "label": "Northeast Times",
+        "url": "https://northeasttimes.com/2026/08/11/anthropic-will-embed-invisible-watermarks-in-all-claude-ai-text/",
+        "origin": "research"
+      },
+      {
+        "label": "Interesting Engineering",
+        "url": "https://interestingengineering.com/ai-robotics/anthropic-claude-text-invisible-watermarks",
+        "origin": "research"
+      },
+      {
+        "label": "CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONXR3dlAxb2poS0JHa1pNVnN0SjFpcFhDUU52VGh6Zy1rRnFJUk5BcVJ3TmxJdlVXUnNSSHlIelhmSDFqREZ6emJPWGtvaFNTOWpXaWh1aGRrNk40T0lfS09HMGNTYVFLRy1hWTlwdmxsN0ptcHluV0hSODRETVZ6X1g1MnJBc3NjY2V5VEQtSDladjRTdzJFNkNBWVkzelFFaFdVdFQxOFREdXM?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "sea.mashable.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUXNjZEdJVUxsSE9xTElhTjVOb3Y3YTFqeHdiQVlsbE9QbmJSd1hfQW1mUW42YnYzLTJob3A4eGJxQXhYcWtyWGVBaTVBSnBQVEdGOTlpLTlibW96X3dDaUhwUmlSZ3VwTWRxamc0LUZDOXNCQXR1NXBZVDU1eldSZk1jSzF0dXNfWHloSTZ3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "siliconrepublic.com",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTktMNU5zQVdNcUxka0hRVTh6bGVpaVY3ZGJCSE9GM2l3dFI2NnRtcnJjalNlOXo5RGFHM1ZQN2ZaLVg2Q052ZFBTWjRBM2Jrc0hhczhhVWdmVXp3bWJKYUQ4cW10WE13X2szTGozUTk4T3YwRmRKdXp1bzhiZ2FhXzNLcXlVWk5yaHduckNCX2Etdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "theverge.com",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVlXWHJVOVhXbkRUbmdqZzhmY1BvOWNkelROTjhVaWlycnFlQmNqQ1g2UXJzdEM5MmlPd0N6UkZpa2JmVm5veE9uZnlCMWRGY0RMY2hZVFBpc1hFQVJVZVgtNFpvbnJXUGxaWkZwdi16d2g0M3lnc1Q4SzlKb1VGX1VVVkNuZlFpYWdtaHlJRVJZRmxRbVZ1YUNEcWFZUjh6TmdLTzhZU3k0QQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQXzVZZkhyRmNacGhLM0RTMWMtSTZIRFlSQjRHX3FsMHBDUGlESjZCR2paWlhkeWxmQUlHMmhEenotSGNUS3VFSkxCV1F1eFJjWUNxXzBGUzlaejB3NW1vVFFKd0NtMXo4R08weHQ1R2RTS0xvTTdnQ1ZDeDhNbTBoOW9PWnpuSWc3VjVlNUFXLU5xT3Bkekl3a2VxMFpxbDFKUV90WEtvRHFoLTJGUTZJNjFZeGI0ZjA5M3JxX2RR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Watermarks applied across all Claude products including API, chatbot, cloud deployments",
+      "Machine-readable, imperceptible watermarks survive copying/pasting but weaken with heavy revision",
+      "C2PA standard used for image metadata (.svg, .png, .jpg); metadata vulnerable to format conversions",
+      "Applied worldwide regardless of user location",
+      "Company plans technical guidance and detection tools for verification",
+      "Transition period allows retroactive watermarks on pre-August 2 Claude models"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "openai-expands-daybreak-cybersecurity-research-with-new-gpt-56-cyber-model",
     "title": "OpenAI expands Daybreak cybersecurity research with new GPT-5.6-Cyber model",
     "summary": "OpenAI expanded its Daybreak cybersecurity research program with a new GPT-5.6-Cyber model designed for vetted defenders to identify vulnerabilities before attackers exploit them, operating under a two-tiered access system.",
@@ -934,6 +1009,11 @@
       {
         "label": "Yahoo Finance",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOGN2R0d6QmN5TDVlMDVqeHJkbmRxR0pDVWk1Yk40dF9fX2xFSXdRbEg5cC1SZm4xUk1TemJRSFFJN09ZVnl1NFAzX3djd1dFUUt2Y3lFY2R3b3pUR2FON3RjZTVvWTFYYllBWVFmX25iQ2xNcDFmdUsyamlJVHRMMElQLXJXXzh6S1U0ZHBQcjJXbkpCTlQzRg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbk1EQy05OTlNYjNjRlNmTWFsVW1WZWh0Y09rOXFraDM5MXF2dDd6RVB3YkRmWkJRVUJfbGhqalh2azAxc05xRjVrMTEzSXFsNWstM3pGa1FNcEF4Wk9WT1lleFQ0M0o5RUwzNjNjUklSYkFlYThIcXdaNURQbUg1dHBrcGYzT3VJLXdwMnhkV0dwVFdPTVYxTkQ3M243Zm5ucjBZUnlOSlZzeFJBMXZYbUlR?oc=5",
         "origin": "rss"
       }
     ],
@@ -1452,6 +1532,63 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "nasa-invites-isro-to-join-lunar-base-mission",
+    "title": "NASA invites ISRO to join lunar base mission",
+    "summary": "NASA invited the Indian Space Research Organisation on August 11, 2026, to participate in the Moon Base mission to establish humanity's first permanent lunar outpost near the South Pole, building on existing U.S.-India space cooperation under the Artemis Accords.",
+    "theme": "Space",
+    "importance": 3,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "ISRO",
+      "Moon Base",
+      "lunar exploration",
+      "international partnership"
+    ],
+    "url": "news/space/2026-08-11/#nasa-invites-isro-to-join-lunar-base-mission",
+    "sources": [
+      {
+        "label": "Rediff",
+        "url": "https://www.rediff.com/news/report/nasa-invites-isro-to-join-humanitys-first-moon-base-mission/20260811.htm",
+        "origin": "research"
+      },
+      {
+        "label": "Tribune",
+        "url": "https://tribune.com.pk/story/2623315/nasa-invites-india-to-join-its-moon-base-mission",
+        "origin": "research"
+      },
+      {
+        "label": "DT Next",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZDdUTDQzSm43aHhsaWxUY3RRLXVBZXEtZGhaTHBFcWQ5Vy1FWjBvcDNKYWcxTVctUlVaSWFIbDhQc2poSmJqeTNKckhGekxxOWM0OWl2dE9CZ0l0Y25BaGR2Yi1Sc1hUb1JBRElGNjVad1JWdk1zcGhLcFZxQ0tCOGNjSGpNVW_SAZQBQVVfeXFMT1FJUldtT3hZLWp1QmZuZVZmMy1maWxaMnNPb3lONjlHdDlkZ0VjOEZTeHlYVlhUX0xXdnFtTXk5ZGNpOHdiS1FEdUhRbEp4engzb3ZwdUUzLWNLSzRpelFnYy05QXVWODc5bzRMdmptSkdJS19yYzFNQWIwYldrWENzSlJoa1k1Rk9YUjN1NkxhZUNvbQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ThePrint",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ3FsOEVfdHZtTGdBd1liVElaVFFUdi05bkUwa2RHLTh5aVE4cGVpRm5CS0YxbDdFNUFMTVNUdE4tTGw0dWlDNVNTdGU2Sy1MRFIyaHdtU0NHcFV5UFBQNnc4dUhrVGZwd1hZWVFXdW92bENtZnFaQ19DNW1vNFplUTFQMU9yQdIBiwFBVV95cUxOQ3FfNVhlTW1aZC1oX1c3QURZUGxjYS1Od0ZVMDNVS281SkIwR3lXMXpQVktQUW44cUZQa3hVREhSNVFjRGxrN2EwUDFPbUwtMVdxQUZyUmVNMzFqNmpLMVNLX3l5ajh0Sk5jZ0JMaVVHNlhvV2h6djUxd1BUYW1XM2lEcmtMNVRuNE1j?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ddindia.co.in",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMldBUlZyUEhQaGJESGV1UnF2dVRGZHZDQ19QTGNEUGtBbGVMT2h3ZldpWEpPcHlmNExkSjJaVjJnMTZ6b3FfUVdVZTZlVl9KUGZDWGlNU05UNGlwMWZFUnVMcFlYSGJyNS1scGJkZC1hS3FzbXlQQWpwMG1WVHZNVWFWSXQwNWNRc0pDdzhSUmRHQnNu?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Invitation announced August 11 following India-US Civil Space Joint Working Group meeting",
+      "Moon Base aims to enable astronauts to live, work, explore near lunar South Pole",
+      "Builds on Artemis Accords and TRUST (Transforming Relationship Utilising Strategic Technology) initiative",
+      "Discussions included open scientific data sharing and UN COPUOS outer space sustainability guidelines"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "openai-completes-7-billion-employee-tender-offer",
     "title": "OpenAI completes $7 billion employee tender offer",
     "summary": "OpenAI completed a $7 billion tender offer on August 10, 2026, allowing employees to sell shares and valuing the company at $852 billion, suggesting a potential IPO delay despite the company's confidential SEC filing in June.",
@@ -1518,38 +1655,6 @@
       {
         "label": "Wired",
         "url": "https://www.wired.com/story/a-zoom-screen-sharing-bug-let-anyone-take-over-other-devices-on-a-call/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-11",
-    "event_id": "cyberattack-on-logistics-firm-ceva-disrupts-eight-european-warehouses",
-    "title": "Cyberattack on logistics firm CEVA disrupts eight European warehouses",
-    "summary": "A cyberattack on CEVA Logistics exposed customer data and disrupted operations at eight European warehouses, affecting major clients including Valve and ING.",
-    "theme": "Security",
-    "importance": 3,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "CEVA",
-      "logistics",
-      "cyberattack",
-      "data breach",
-      "warehouse"
-    ],
-    "url": "news/tech/2026-08-11/#cyberattack-on-logistics-firm-ceva-disrupts-eight-european-warehouses",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/cyber-crime/2026/08/11/cyberattack-on-logistics-giant-ceva-delivers-customer-data-into-the-wrong-hands/5286229",
         "origin": "rss"
       }
     ],
@@ -2151,6 +2256,111 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "openai-releases-gpt-56-cyber-an-offensive-grade-hacking-model",
+    "title": "OpenAI releases GPT-5.6-Cyber, an offensive-grade hacking model",
+    "summary": "OpenAI launched GPT-5.6-Cyber on August 11, 2026, a specialized model designed to complete offensive hacking tasks for vetted security researchers at 95% compliance—far exceeding standard models—enabling faster discovery of zero-day vulnerabilities and privilege-escalation flaws across major software systems.",
+    "theme": "AI",
+    "importance": 4,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-5.6-Cyber",
+      "offensive security",
+      "hacking model",
+      "cybersecurity"
+    ],
+    "url": "news/gpt/2026-08-11/#openai-releases-gpt-56-cyber-an-offensive-grade-hacking-model",
+    "sources": [
+      {
+        "label": "Forbes",
+        "url": "https://www.forbes.com/sites/jonmarkman/2026/08/11/openai-ships-gpt-56-cyber-its-first-offense-grade-hacking-model/",
+        "origin": "research"
+      },
+      {
+        "label": "Trending Topics",
+        "url": "https://www.trendingtopics.eu/openai-gives-selected-partners-access-to-hacking-model-gpt-5-6-cyber/",
+        "origin": "research"
+      },
+      {
+        "label": "Gadgets 360",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVDVhd2JBblQwZVBPeEhkSF9tQWpWcF9GQTNTQTdFUVctN0IxdFdneTdlLVhrdnBjSE45SkVjSFE0UEFZUjVOcFdCYzFxbG5RNmx1TDFCbTd2SWtLNG1xMXVOTEN1bl9lZGlfczZVMWtMOGhOS0FCQTlFSzFlTk1vWGhyYVczcmF3bGRXWV9DV201Nmw5dXgtT2dNSFRXYVZpWVVFenRoQ0FSQ29xT2dKRVJ6dGZiYm1kc3fSAb8BQVVfeXFMTjd4QjZqZF94TnJFS0RYRFRHT0stNDN0dkVYRGJ6N1ZRdFQ4NE5Dc0tiUkcwUnNLOFFid3Uxd3phQ1QwS1lHSUR2eV9XVTBtWXBYYnVxYV9Xa1liYVNoWEt0RTVfYmFMdXdqR3k1VGs2eEZvOUdRNXVOQUR1cmZvZ0YtVFJzZTh5R1hrN3g3WGNtMjlpVmxMRVpGUEE3OE9Rd1Brd1RSb1pxSHl5WXIxcXBPZWsyTjhsM3R3Z1JkTTA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yellow.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8tMWQ5NXJZQm8zS0JFQWtXY3dTMndGN0VEck80TVdfOXNUQ0pnaUhPdHhGR3dpRlI1TkpVa2NacWFTUlVFc2hHcjFrQWp0dWJvUEdpNjh1d2JfVjBodm50UHF6bEhpMHF6UTN1M1JGMnlMNGNQUEE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "helpnetsecurity.com",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9UVnJ5QjFJN1VocmpCM1BDcThTMER0Q3k4dG9ZdDJVVHRKbnJFcWtnWDNMV1dFZHNyeTZ4NFJkb0xZOXlJUlRWQVpONkx2SFpDUkh6UHdZc0k5eDFuWUlRM29panowWEltUWIxM1RZeUk2amV0X3lWRE9n?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "95% compliance rate on exploit chains vs. 1.5% for safeguarded GPT-5.6",
+      "Access restricted to vetted firms through OpenAI's Daybreak Red program",
+      "Discovered 2 Chrome V8 vulnerabilities, 5+ mobile OS flaws, 3 database vulnerabilities, 400+ kernel privilege-escalation bugs",
+      "Reference customers include SpecterOps, Palo Alto Networks, IBM, CrowdStrike",
+      "SpecterOps completed work in under a day that earlier models failed over weeks"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "the-president-of-the-united-states-considers-splitting-mmr-vaccine-into-separate-shots",
+    "title": "The president of the United States considers splitting MMR vaccine into separate shots",
+    "summary": "The president of the United States signed an executive order on August 10, 2026, calling for the MMR vaccine to be split into separate shots and childhood vaccines spaced further apart, despite medical experts warning that splitting MMR increases risk of missed doses and leaves children unprotected.",
+    "theme": "Health",
+    "importance": 4,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "MMR vaccine",
+      "public health",
+      "vaccine policy",
+      "measles"
+    ],
+    "url": "news/health/2026-08-11/#the-president-of-the-united-states-considers-splitting-mmr-vaccine-into-separate-shots",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/11/how-we-know-splitting-up-mmr-vaccine-could-be-dangerous/",
+        "origin": "research"
+      },
+      {
+        "label": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/08/10/trump-administration-order-would-upend-nations-childhood-vaccine-schedule/",
+        "origin": "research"
+      },
+      {
+        "label": "Medical Economics",
+        "url": "https://www.medicaleconomics.com/view/trump-signs-executive-order-calling-for-split-mmr-one-vaccine-per-visit",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Executive order calls for MMR vaccine split into three separate shots",
+      "Also directs spacing out childhood vaccines more broadly and narrowing recommendations",
+      "MMR vaccine in use since 1971 combining three shots into one injection",
+      "Order directs states to revise vaccine rules",
+      "Medical experts warn splitting increases risk of missed doses and unprotected children"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "colombia-earthquake-kills-at-least-111-people",
     "title": "Colombia earthquake kills at least 111 people",
     "summary": "A magnitude 7.4 earthquake struck western Colombia on August 11, 2026, killing at least 111 people and causing widespread damage across the region. The country declared a state of national emergency, and the president of the United States pledged $15.5 million in assistance.",
@@ -2443,6 +2653,57 @@
       "AI could boost fossil fuel productivity and increase global emissions by up to nearly 5%",
       "AI-driven productivity gains will boost oil/gas production more than clean energy development",
       "AI environmental impact on fossil fuels expected to outpace AI data center energy consumption"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "gunra-ransomware-exploits-fortinet-vulnerabilities-targeting-critical-infrastructure",
+    "title": "Gunra ransomware exploits Fortinet vulnerabilities targeting critical infrastructure",
+    "summary": "Gunra, a Conti-derived ransomware-as-a-service group, is exploiting known Fortinet and Schneider Electric vulnerabilities to breach critical infrastructure worldwide, with U.S. and South Korean agencies issuing joint warnings on August 10–11, 2026, as the group has listed 51 victims since April 2025 and demands ransoms exceeding $10 million.",
+    "theme": "Security",
+    "importance": 4,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Gunra",
+      "ransomware",
+      "Fortinet",
+      "critical infrastructure",
+      "RaaS",
+      "zero-day"
+    ],
+    "url": "news/tech/2026-08-11/#gunra-ransomware-exploits-fortinet-vulnerabilities-targeting-critical-infrastructure",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+        "origin": "research"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/ransomware-south-korea-fbi-gunra",
+        "origin": "research"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/cyber-crime/2026/08/11/feds-warn-gunra-ransomware-is-exploiting-known-bugs-to-hit-critical-infrastructure/5286263",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Exploits CVE-2025-24472 (Fortinet FortiOS/FortiProxy) and CVE-2024-5559 (Schneider Electric)",
+      "51 victims listed since April 2025; primarily in South Korea, Brazil, Spain, Thailand, Hong Kong, Australia",
+      "Ransoms exceed $10 million with 5–7 day payment deadlines",
+      "Uses Impacket tools (psexec.py, smbclient.py, secretsdump.py) for lateral movement",
+      "Employs double extortion: data theft plus encryption; publishes unpaid victims' data",
+      "Launched formal RaaS operations in January 2026 with configurable ransomware builders",
+      "Linux variant has cryptographic weakness allowing encryption key recovery"
     ],
     "researched": true
   },
