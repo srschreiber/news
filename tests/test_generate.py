@@ -484,11 +484,11 @@ def test_merge_new_events_exact_title_merges_sources_only():
     assert all_events[0]["researched"] is True  # untouched — not treated as an update
 
 
-def test_merge_new_events_token_overlap_treated_as_update():
-    # No VOYAGE_API_KEY in the test env, so this exercises the token-overlap
-    # fallback path directly. min_shared=3 needs a headline close enough in
-    # wording to share tokens — a bigger rewrite needs the embedding path
-    # (untested here — would require mocking the Voyage/Haiku network calls).
+def test_merge_new_events_no_embeddings_fails_closed_to_new():
+    # No VOYAGE_API_KEY in the test env, so embeddings_ok is False. Without
+    # the (removed) token-overlap heuristic, a near-duplicate headline with
+    # no exact title match is no longer merged — it fails closed as a
+    # distinct new event rather than merging on unvalidated evidence.
     stored = [{"title": "Colombia earthquake kills at least 111 people",
                "event_id": "colombia-earthquake-kills-at-least-111-people",
                "topics": ["world"], "importance": 4,
@@ -497,14 +497,10 @@ def test_merge_new_events_token_overlap_treated_as_update():
             "topics": ["world"], "importance": 5,
             "keywords": ["Colombia", "earthquake", "death toll"], "sources": []}]
     all_events, truly_new, updated = g._merge_new_events(stored, new, _NOW)
-    assert len(all_events) == 1                       # merged, not a second event
-    assert truly_new == []
-    assert len(updated) == 1
-    ev = updated[0]
-    assert ev["title"] == "Colombia earthquake kills at least 111 people"  # anchor preserved
-    assert ev["importance"] == 5                        # bumped to the higher figure
-    assert ev.get("researched") is None                 # stale takeaways flagged for re-research
-    assert ev["received_at"] == _NOW.isoformat()
+    assert len(all_events) == 2                        # not merged — treated as distinct
+    assert len(truly_new) == 1
+    assert updated == []
+    assert all_events[0]["title"] == "Colombia earthquake kills at least 111 people"  # untouched
 
 
 def test_merge_new_events_different_topic_not_merged():
@@ -561,6 +557,92 @@ def test_embedding_cache_round_trip(tmp_path, monkeypatch):
     loaded = g.load_embedding_cache("2026-08-11")
     assert "recent-story" in loaded
     assert "old-story" not in loaded
+
+
+# --- embedding-pregrouped clustering (stage 1 cost optimization) ----------- #
+def test_embedding_cluster_items_returns_none_without_embeddings():
+    # No VOYAGE_API_KEY in the test env -> _voyage_embed returns None ->
+    # caller falls back to the original send-every-raw-item approach.
+    items = [{"id": "1", "title": "A", "summary": "x", "source": "S", "topic": "tech"}]
+    assert g._embedding_cluster_items(items) is None
+    assert g._embedding_cluster_items([]) == []
+
+
+def test_cluster_groups_payload_picks_richest_summary_as_representative():
+    groups = [
+        [
+            {"id": "1", "title": "Short headline", "summary": "brief", "source": "A", "topic": "tech"},
+            {"id": "2", "title": "Longer headline with detail", "summary": "a much longer and more detailed summary",
+             "source": "B", "topic": "tech"},
+            {"id": "3", "title": "Another outlet", "summary": "mid", "source": "C", "topic": "ai"},
+        ],
+    ]
+    payload = g._cluster_groups_payload(groups)
+    assert len(payload) == 1
+    g0 = payload[0]
+    assert g0["group_id"] == "g0"
+    assert g0["title"] == "Longer headline with detail"  # richest summary wins
+    assert set(g0["also_reported"]) == {"Short headline", "Another outlet"}
+    assert g0["outlet_count"] == 3
+    assert g0["topics"] == ["ai", "tech"]
+
+
+def test_ungroup_events_reconstructs_source_item_ids():
+    groups = [
+        [{"id": "1", "title": "A"}, {"id": "2", "title": "B"}],
+        [{"id": "3", "title": "C"}],
+    ]
+    events = [
+        {"group_id": "g0", "title": "Merged story", "importance": 4},
+        {"group_id": "g1", "title": "Other story", "importance": 2},
+    ]
+    out = g._ungroup_events(events, groups)
+    assert out[0]["source_item_ids"] == ["1", "2"]
+    assert out[1]["source_item_ids"] == ["3"]
+    assert "group_id" not in out[0]  # internal key dropped before downstream use
+
+
+def test_ungroup_events_honors_discard_from_group():
+    groups = [[{"id": "1", "title": "A"}, {"id": "2", "title": "Mismatched headline"}]]
+    events = [{"group_id": "g0", "title": "Merged story", "importance": 4,
+              "discard_from_group": ["Mismatched headline"]}]
+    out = g._ungroup_events(events, groups)
+    assert out[0]["source_item_ids"] == ["1"]  # "2" excluded
+    assert "discard_from_group" not in out[0]
+
+
+def test_ungroup_events_discard_everything_keeps_original_membership():
+    # Discarding the whole group would leave a sourceless event — worse than
+    # an occasional mis-grouped citation, so fall back to keeping everyone.
+    groups = [[{"id": "1", "title": "A"}, {"id": "2", "title": "B"}]]
+    events = [{"group_id": "g0", "title": "Merged story", "importance": 4,
+              "discard_from_group": ["A", "B"]}]
+    out = g._ungroup_events(events, groups)
+    assert out[0]["source_item_ids"] == ["1", "2"]
+
+
+def test_embedding_cluster_items_groups_by_similarity(monkeypatch):
+    # Items 1 & 2 are near-identical vectors (same story, different outlets);
+    # item 3 is orthogonal (a different story) -> two clusters expected.
+    fake_vecs = {
+        "1": [1.0, 0.0],
+        "2": [0.99, 0.01],  # cos sim with item 1 ~1.0, well above threshold
+        "3": [0.0, 1.0],    # orthogonal -> its own cluster
+    }
+    def fake_embed(texts):
+        # texts are built as "title summary" — recover id via title = the id
+        return [fake_vecs[t.split()[0]] for t in texts]
+    monkeypatch.setattr(g, "_voyage_embed", fake_embed)
+
+    items = [
+        {"id": "1", "title": "1", "summary": "", "source": "A", "topic": "tech"},
+        {"id": "2", "title": "2", "summary": "", "source": "B", "topic": "tech"},
+        {"id": "3", "title": "3", "summary": "", "source": "C", "topic": "tech"},
+    ]
+    groups = g._embedding_cluster_items(items)
+    assert groups is not None
+    sizes = sorted(len(grp) for grp in groups)
+    assert sizes == [1, 2]  # items 1+2 merged, item 3 stands alone
 
 
 # --- hybrid research: enrichment overlay + fallback --------------------------- #

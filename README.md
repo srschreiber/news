@@ -53,20 +53,32 @@ code afterward — the models return structured JSON, never free-form docs.
 | `claude-haiku-4-5` | Clustering + scoring, research reads, story-relation classification |
 | `claude-sonnet-5` | Final polish — one batched call per run, prioritized for fact-fidelity over cost |
 | [Serper.dev](https://serper.dev) | Google News search ($1/1k queries) — research reads and the daily fallback search |
-| [Voyage AI](https://voyageai.com) | Text embeddings for story-update matching (optional — degrades to a keyword-overlap heuristic if unset) |
+| [Voyage AI](https://voyageai.com) | Text embeddings for story-update matching and clustering pregrouping (optional — story-update matching skips unmatched events, clustering falls back to raw Haiku grouping, if unset) |
 
 ### 1. Cluster & score
 
-One Haiku call per run, over that run's **new** RSS items only — hourly
-incremental runs never re-read items already clustered earlier today, which
-is what keeps them cheap. Returns structured events: the same story surfacing
-under multiple feeds is merged into one, each with an importance score
-(1–5, judged against that feed's `scoring_context`), a theme, and keywords.
+Runs over that run's **new** RSS items only — hourly incremental runs never
+re-read items already clustered earlier today, which is what keeps them
+cheap. If `VOYAGE_API_KEY` is set, items are pre-grouped by embedding
+similarity first (single pass, running-centroid average, threshold
+`CLUSTER_COS_THRESHOLD` — stricter than the story-update threshold since
+there's no Haiku backstop for this step): a group of near-duplicate
+headlines from different outlets collapses into one small payload (one
+representative title/summary + up to two `also_reported` headlines) instead
+of every raw item, which is what makes clustering itself cheap on high-
+volume days. One Haiku call then scores and titles each pre-formed group —
+it doesn't re-group, only describes and can flag `discard_from_group` if a
+headline the embedding pass lumped in clearly isn't the same event. Falls
+back to sending every raw item straight to Haiku for full clustering if
+Voyage is unavailable. Either way, the result is structured events: the
+same story surfacing under multiple feeds is merged into one, each with an
+importance score (1–5, judged against that feed's `scoring_context`), a
+theme, and keywords.
 
 ### 2. Story updates & merging
 
 Before research, every new event is checked against today's already-published
-stories — three fallbacks, in order:
+stories, in order:
 
 1. **Exact title match** — the same RSS item resurfacing; just merges in any
    new source URLs.
@@ -76,10 +88,10 @@ stories — three fallbacks, in order:
    relationship: `duplicate`/`update` (merge), `follow_on` (a distinct but
    caused-by event — an aftershock, a lawsuit filed over an incident — gets
    its own story, cross-linked from the original via "See also"), `related`
-   (same subject, different event — no link), or `new`.
-3. **Keyword-overlap fallback** — used only if `VOYAGE_API_KEY` is unset or
-   the embedding call fails; matches on shared significant title/keyword
-   tokens within the same topic.
+   (same subject, different event — no link), or `new`. Requires
+   `VOYAGE_API_KEY`; if it's unset or the embed call fails, no match is
+   attempted for that event — it fails closed as a new story rather than
+   merging on unvalidated evidence.
 
 A same-day merge keeps the **original title and URL anchor** (so shared
 links never break) but refreshes importance/keywords immediately and queues
@@ -186,8 +198,10 @@ pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...
 export SERPER_DEV_API_KEY=...       # serper.dev — Google News search
 export VOYAGE_API_KEY=...           # voyageai.com — embeddings for story-update
-                                     # matching (optional: falls back to a
-                                     # keyword-overlap heuristic if unset)
+                                     # matching and clustering pregrouping
+                                     # (optional: story-update matching skips
+                                     # unmatched events, clustering falls back
+                                     # to raw Haiku grouping, if unset)
 
 python generate.py --dry-run     # cluster + score, print top events (no research, no writes)
 python generate.py               # full daily run
@@ -219,6 +233,9 @@ fails the run):
 - `MAX_ITEMS_PER_FEED`, `STAGE2_MAX_TOKENS`, `STAGE2_EFFORT` — input/output trims.
 - `MERGE_COS_THRESHOLD` — embedding similarity floor before a story-update
   merge is even considered (then validated by a cheap Haiku call).
+- `CLUSTER_COS_THRESHOLD` — embedding similarity floor for pre-grouping raw
+  items before clustering; stricter than `MERGE_COS_THRESHOLD` since there's
+  no Haiku backstop for this step.
 - `CROSS_DAY_LOOKBACK_DAYS` — how many days back a story can still be linked
   as an update before a new development just reads as new news.
 

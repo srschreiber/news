@@ -87,6 +87,10 @@ CROSS_DAY_LOOKBACK_DAYS = 5              # how far back a story can still be "up
                                         # beyond this, a new development reads as new news
 MERGE_COS_THRESHOLD = 0.86               # embedding similarity floor before even asking
                                         # Haiku to validate a same-story merge candidate
+CLUSTER_COS_THRESHOLD = 0.90            # stricter than MERGE_COS_THRESHOLD: no Haiku
+                                        # backstop here, so precision matters more than
+                                        # recall — under-clustering just costs a few more
+                                        # tokens, over-clustering silently mixes two stories
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
@@ -157,6 +161,43 @@ EVENTS_SCHEMA = {
                     "theme",
                     "keywords",
                     "source_item_ids",
+                ],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["events"],
+    "additionalProperties": False,
+}
+
+# Stage 1, embedding-pregrouped variant: Haiku only titles/scores/keywords
+# each already-formed group — source_item_ids is reconstructed in Python
+# from the group membership computed by _embedding_cluster_items, not asked
+# of the model.
+GROUPED_EVENTS_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "events": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "group_id": {"type": "string"},
+                    "title": {"type": "string"},
+                    "one_liner": {"type": "string"},
+                    "importance": {"type": "integer", "enum": [1, 2, 3, 4, 5]},
+                    "theme": {"type": "string"},
+                    "keywords": {"type": "array", "items": {"type": "string"}},
+                    "discard_from_group": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "also_reported headlines that don't actually "
+                                       "belong to this event.",
+                    },
+                },
+                "required": [
+                    "group_id", "title", "one_liner", "importance", "theme", "keywords",
+                    "discard_from_group",
                 ],
                 "additionalProperties": False,
             },
@@ -954,23 +995,89 @@ def _text_of(message) -> str:
     return "".join(b.text for b in message.content if getattr(b, "type", "") == "text")
 
 
-def stage1_cluster(
-    items: list[dict], feeds: dict,
-    prompt_name: str = "cluster.md",
-    schema: dict | None = None,
-    label: str = "(clustering)",
-) -> list[dict]:
-    """Cluster+score+extract keywords via Haiku with structured output.
+def _embedding_cluster_items(items: list[dict]) -> list[list[dict]] | None:
+    """Greedy embedding-based grouping of raw items into same-event clusters,
+    before Haiku ever sees them — collapses hundreds of raw items (many
+    outlets covering the same story) down to the handful of distinct events
+    Haiku actually needs to score, cutting clustering's input tokens sharply.
+    Returns None (caller falls back to sending Haiku every raw item) if
+    VOYAGE_API_KEY is unset or the embed call fails — an optimization, never
+    a requirement for the pipeline to run.
 
-    ONE global pass over items from all feeds/topics — the same story surfaced
-    under multiple topics is merged into a single event (topics + merged sources
-    are derived from source_item_ids in code afterwards).
-    """
+    Single pass, each item joins the most-similar existing cluster above
+    CLUSTER_COS_THRESHOLD or starts a new one; a joined cluster's centroid is
+    the running average of its members, so it stays representative as it
+    grows rather than anchored to whichever item arrived first."""
     if not items:
         return []
-    schema = schema or EVENTS_SCHEMA
+    texts = [f"{it.get('title', '')} {it.get('summary', '')}".strip() for it in items]
+    vecs = _voyage_embed(texts)
+    if vecs is None or len(vecs) != len(items):
+        return None
+
+    clusters: list[dict] = []
+    for it, emb in zip(items, vecs):
+        best, best_score = None, 0.0
+        for c in clusters:
+            score = _cosine(emb, c["centroid"])
+            if score > best_score:
+                best, best_score = c, score
+        if best is not None and best_score >= CLUSTER_COS_THRESHOLD:
+            best["items"].append(it)
+            n = len(best["items"])
+            best["centroid"] = [(cv * (n - 1) + ev) / n for cv, ev in zip(best["centroid"], emb)]
+        else:
+            clusters.append({"items": [it], "centroid": list(emb)})
+    return [c["items"] for c in clusters]
+
+
+def _cluster_groups_payload(groups: list[list[dict]]) -> list[dict]:
+    """Compact per-group payload for cluster_grouped.md: one representative
+    (the richest summary) plus a couple of other outlets' headlines for
+    context, rather than every member's full text."""
+    payload = []
+    for i, members in enumerate(groups):
+        rep = max(members, key=lambda it: len(it.get("summary", "")))
+        others = [m["title"] for m in members if m is not rep][:2]
+        payload.append({
+            "group_id": f"g{i}",
+            "title": rep.get("title", ""),
+            "summary": rep.get("summary", ""),
+            "also_reported": others,
+            "outlet_count": len({m.get("source", "") for m in members}),
+            "topics": sorted({m.get("topic", "") for m in members if m.get("topic")}),
+        })
+    return payload
+
+
+def _ungroup_events(events: list[dict], groups: list[list[dict]]) -> list[dict]:
+    """Reconstruct source_item_ids from group membership (computed
+    deterministically in Python, not asked of Haiku) and drop the internal
+    group_id key used only to key the response. Honors discard_from_group —
+    Haiku's chance to flag an also_reported headline that doesn't actually
+    belong, since the embedding grouping has no other validation backstop.
+    If discarding would empty the group, keeps the original membership
+    instead — an empty, sourceless event is worse than an occasional
+    mis-grouped citation."""
+    members_by_gid = {f"g{i}": members for i, members in enumerate(groups)}
+    out = []
+    for e in events:
+        e = dict(e)
+        gid = e.pop("group_id", None)
+        members = members_by_gid.get(gid, [])
+        discard = set(e.pop("discard_from_group", []) or [])
+        kept = [it for it in members if it.get("title") not in discard] or members
+        e["source_item_ids"] = [it["id"] for it in kept]
+        out.append(e)
+    return out
+
+
+def _call_stage1(user_payload: dict, prompt_name: str, schema: dict,
+                 feeds: dict, label: str) -> list[dict]:
+    """Shared Haiku call + retry-on-parse-failure for stage 1, whichever
+    payload shape (raw items or embedding-pregrouped) is being sent."""
     client = _client()
-    user = json.dumps({"items": payload_items(items)}, ensure_ascii=False)
+    user = json.dumps(user_payload, ensure_ascii=False)
     for attempt in (1, 2):
         resp = client.messages.create(
             model=CLUSTER_MODEL,
@@ -988,6 +1095,34 @@ def stage1_cluster(
         except json.JSONDecodeError as e:
             log(f"stage 1 ({prompt_name}) JSON parse failed (attempt {attempt}): {e}")
     return []
+
+
+def stage1_cluster(
+    items: list[dict], feeds: dict,
+    prompt_name: str = "cluster.md",
+    schema: dict | None = None,
+    label: str = "(clustering)",
+) -> list[dict]:
+    """Cluster+score+extract keywords via Haiku with structured output.
+
+    ONE global pass over items from all feeds/topics — the same story surfaced
+    under multiple topics is merged into a single event (topics + merged sources
+    are derived from source_item_ids in code afterwards).
+
+    Tries embedding pre-grouping first (see _embedding_cluster_items) for the
+    default prompt/schema — falls back to the original send-every-raw-item
+    approach if Voyage is unavailable, or unconditionally for a caller that
+    passed a custom prompt_name/schema (whose contract this optimization
+    doesn't know how to satisfy)."""
+    if not items:
+        return []
+    if schema is None and prompt_name == "cluster.md":
+        groups = _embedding_cluster_items(items)
+        if groups is not None:
+            payload = {"groups": _cluster_groups_payload(groups)}
+            events = _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
+            return _ungroup_events(events, groups)
+    return _call_stage1({"items": payload_items(items)}, prompt_name, schema or EVENTS_SCHEMA, feeds, label)
 
 
 _TRACKING_PARAMS = frozenset({
@@ -1606,23 +1741,22 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
 
 def _merge_new_events(
     stored: list[dict], new_events: list[dict], now: dt.datetime,
-    cross_day: dict | None = None, min_shared: int = 3,
+    cross_day: dict | None = None,
 ) -> tuple[list[dict], list[dict], list[dict]]:
     """Merge new_events into stored events. Returns (all_events, truly_new, updated).
 
-    Events are matched three ways, in order:
+    Events are matched two ways, in order:
     1. **Exact title match** (same slugified title): just merges in new source
        URLs — the common case when the same RSS item resurfaces.
     2. **Embedding similarity + Haiku validation** (same topic, cosine sim >=
        MERGE_COS_THRESHOLD, then a cheap same-story check): catches a story
        that evolved with a very different headline (e.g. "Colombia quake
        kills 111" -> "South American disaster toll climbs") — semantically
-       the same event with near-zero shared words. Falls back to (3) if
-       VOYAGE_API_KEY isn't set or the embed call fails.
-    3. **Token-overlap fallback** (title/keyword overlap, same topic): the
-       original heuristic, used only when embeddings are unavailable.
+       the same event with near-zero shared words. Requires VOYAGE_API_KEY;
+       if it's unset or the embed call fails, no match is attempted for that
+       event (fails closed — no LLM-unvalidated heuristic merge).
 
-    A same-day match from (2) or (3) is treated as an UPDATE, not a new
+    A same-day match from (2) is treated as an UPDATE, not a new
     story: the ORIGINAL title/event_id/URL anchor is kept so shared links
     never break; summary/importance/keywords refresh from the new clustering
     pass, sources merge, and it's returned in `updated` — always
@@ -1651,7 +1785,6 @@ def _merge_new_events(
         eid = ev.get("event_id") or slugify(ev.get("title", ""))
         ev["event_id"] = eid
         by_id[eid] = ev
-    tokens_by_id = {eid: _story_tokens(ev) for eid, ev in by_id.items()}
 
     # Only candidates that survive the exact-title check need matching at all.
     candidates: list[dict] = []
@@ -1704,15 +1837,9 @@ def _merge_new_events(
                     # Distinct event, but worth cross-linking from its parent
                     # rather than showing up as if unconnected.
                     ev["related_to"] = best_id
-        else:
-            new_tokens = _story_tokens(ev)
-            match_id = next(
-                (sid for sid, stoks in tokens_by_id.items()
-                 if len(new_tokens & stoks) >= min_shared
-                 and new_topics & set(by_id[sid].get("topics", ()))
-                 and sid not in updated_ids),
-                None,
-            )
+        # (no else branch — without embeddings, no match is attempted; the
+        # event falls through to truly_new rather than merging on a weaker,
+        # LLM-unvalidated heuristic.)
 
         if match_id:
             existing = by_id[match_id]
@@ -1753,14 +1880,12 @@ def _merge_new_events(
                     ev["received_at"] = now_iso
                     eid = ev["event_id"]
                     by_id[eid] = ev
-                    tokens_by_id[eid] = _story_tokens(ev)
                     updated.append(ev)  # always re-researched, like a same-day update
                     continue
 
         eid = ev["event_id"]
         ev["received_at"] = now_iso
         by_id[eid] = ev
-        tokens_by_id[eid] = _story_tokens(ev)
         truly_new.append(ev)
 
     return list(by_id.values()), truly_new, updated
@@ -1821,6 +1946,7 @@ def build_search_index(shown: list[tuple], date: str) -> None:
                 "sources": ev.get("sources", []),
                 "takeaways": ev.get("takeaways", []),
                 "researched": bool(ev.get("researched", False)),
+                "received_at": ev.get("received_at", ""),
             }
         )
     index.sort(key=lambda r: (r["date"], -r.get("importance", 0)), reverse=True)
@@ -2015,6 +2141,7 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
         "subfeeds": [{"key": t, "title": topic_display(t)} for t in r.get("topics", [])],
         "feeds": [{"key": fk, "title": feeds[fk]["title"]} for fk in r.get("feeds", []) if fk in feeds],
         "researched": bool(r.get("researched", False)),
+        "receivedAt": r.get("received_at") or "",
     }
 
 

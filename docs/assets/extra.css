@@ -271,6 +271,17 @@
   border-radius: 3px;
 }
 .pv-filter:hover { background: var(--md-default-fg-color--lightest); }
+.pv-clear {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 999px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color--light);
+  padding: 0.25rem 0.75rem;
+  font-size: 0.78rem;
+}
+.pv-clear:hover { border-color: #e5484d; color: #e5484d; }
 .md-typeset ul.pv-list {
   list-style: none;
   padding-left: 0;
@@ -291,6 +302,12 @@
   color: var(--md-default-fg-color--light);
 }
 .pv-empty { color: var(--md-default-fg-color--light); }
+.pv-received {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color--light);
+}
 
 .pv-meta-row {
   margin-top: 0.3rem;
@@ -369,6 +386,7 @@
   white-space: nowrap;
 }
 h3:hover > .share-link,
+.pv-title:hover > .share-link,
 .share-link:hover,
 .share-link:focus,
 .share-link.copied {

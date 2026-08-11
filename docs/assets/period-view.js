@@ -78,6 +78,13 @@
     });
   }
 
+  function localTime(iso) {
+    if (!iso) return "";
+    var d = new Date(iso);
+    if (isNaN(d)) return "";
+    return d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+  }
+
   function meter(score) {
     var n = Math.max(1, Math.min(5, score | 0));
     var bars = "";
@@ -169,19 +176,25 @@
       '<option value="importance"' + (sortBy === "importance" ? " selected" : "") + ">Importance</option>" +
       '<option value="date"' + (sortBy === "date" ? " selected" : "") + ">Date</option>" +
       "</select></label></div>";
-    html += "</div></div>";
+    html += "</div>";
+    if (feedFilter || subfeedFilter) {
+      html += '<button type="button" class="pv-clear" id="pv-clear-filters">Clear filters ✕</button>';
+    }
+    html += "</div>";
 
     if (!list.length) {
       html += '<p class="pv-empty">No stories in this window yet.</p>';
     } else {
       html += '<ul class="pv-list">';
-      list.forEach(function (r) {
+      list.forEach(function (r, i) {
         var href = prefix + r.url;
         var badge = r.researched ? ' <span class="src-badge src-research">AI Researched</span>' : "";
         var dateNote = period !== "daily" ? '<span class="pv-date">' + esc(r.date) + "</span>" : "";
         html += '<li class="pv-item">';
         html += '<div class="pv-title">' + meter(r.importance) + ' <a href="' + href + '">' +
-          esc(r.title) + "</a>" + badge + (dateNote ? " " + dateNote : "") + "</div>";
+          esc(r.title) + "</a>" + badge + (dateNote ? " " + dateNote : "") +
+          ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
+          'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
         if (r.summary) html += '<div class="pv-summary">' + esc(r.summary) + "</div>";
         html += badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed");
         html += badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
@@ -199,6 +212,8 @@
           html += '<div class="pv-meta-row pv-sources"><span class="pv-meta-label">Sources:</span> ' +
             srcs + "</div>";
         }
+        var localReceived = localTime(r.receivedAt);
+        if (localReceived) html += '<div class="pv-received">Received ' + localReceived + "</div>";
         html += "</li>";
       });
       html += "</ul>";
@@ -238,6 +253,10 @@
     if (sortSel) sortSel.addEventListener("change", function () {
       urlSyncArmed = true; sortBy = sortSel.value; render();
     });
+    var clearBtn = document.getElementById("pv-clear-filters");
+    if (clearBtn) clearBtn.addEventListener("click", function () {
+      urlSyncArmed = true; feedFilter = ""; subfeedFilter = ""; page = 1; render();
+    });
     mount.querySelectorAll("[data-filter-feed]").forEach(function (b) {
       b.addEventListener("click", function () {
         urlSyncArmed = true;
@@ -254,6 +273,26 @@
       b.addEventListener("click", function () {
         page = parseInt(b.getAttribute("data-page"), 10) || 1; render();
         mount.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+    mount.querySelectorAll("[data-share-index]").forEach(function (btn) {
+      var link = btn.parentElement && btn.parentElement.querySelector("a[href]");
+      if (!link) return;
+      btn.addEventListener("click", function () {
+        var url = link.href;  // browser-resolved absolute URL, incl. #fragment
+        var flash = function () {
+          btn.classList.add("copied");
+          btn.textContent = "✓ copied";
+          setTimeout(function () {
+            btn.classList.remove("copied");
+            btn.textContent = "🔗";
+          }, 1400);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(flash, flash);
+        } else {
+          flash();
+        }
       });
     });
   }
