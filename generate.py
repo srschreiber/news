@@ -1496,8 +1496,7 @@ def stage2b_polish(reads: list[dict], date: str) -> dict:
         resp = client.messages.create(
             model=WRITE_MODEL,
             max_tokens=STAGE2_MAX_TOKENS,
-            output_config={"effort": STAGE2_EFFORT,
-                           "format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
+            output_config={"format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
             system=_sys("write.md"),
             messages=[{"role": "user", "content": user}],
         )
@@ -1686,12 +1685,11 @@ def _cosine(a: list[float], b: list[float]) -> float:
 
 
 def _embed_text(ev: dict) -> str:
-    """Text representation of an event for embedding/matching. Title alone is
-    often too generic to disambiguate similar-sounding stories (e.g. two
-    different Iran-related security stories) — one_liner carries the specific
-    facts (who, what, how) that actually distinguish one event from another."""
-    summary = (ev.get("one_liner") or "").strip()
-    return f"{ev['title']} {summary}".strip()
+    """Text representation of an event for embedding/matching. Uses the richest
+    available description: researched summary > one_liner > title only."""
+    title = ev.get("title", "").strip()
+    body = (ev.get("summary") or ev.get("one_liner") or "").strip()
+    return f"{title} {body}".strip()
 
 
 def _classify_relation(text_a: str, text_b: str) -> str:
