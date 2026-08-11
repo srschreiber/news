@@ -1,4 +1,6 @@
-// Convert feed-page "refreshed" timestamps to the browser's local timezone.
+// Convert feed-page "refreshed" and per-story "received" timestamps to the
+// browser's local timezone (both are generated in UTC, since the pipeline
+// doesn't know the reader's timezone).
 (function () {
   document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll("time.feed-refresh").forEach(function (el) {
@@ -7,6 +9,13 @@
       var d = new Date(iso);
       if (isNaN(d)) return;
       el.textContent = "refreshed " + d.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"});
+    });
+    document.querySelectorAll("time.received-time").forEach(function (el) {
+      var iso = el.getAttribute("datetime");
+      if (!iso) return;
+      var d = new Date(iso);
+      if (isNaN(d)) return;
+      el.textContent = "Received " + d.toLocaleTimeString([], {hour: "2-digit", minute: "2-digit"});
     });
   });
 })();

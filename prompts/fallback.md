@@ -17,7 +17,11 @@ Return JSON only, matching the schema.
   - **`title`** — a short factual headline (not clickbait).
   - **`summary`** — 1–2 sentences: what happened and why it matters.
   - **`takeaways`** — 2–5 short bullet facts (numbers, names, dates). Empty
-    array only if there's truly nothing concrete beyond the summary.
+    array only if there's truly nothing concrete beyond the summary. Every
+    fact must be specifically about `title` — `pages` may mention other
+    products, models, or events in passing; never pull a number or claim
+    from one of those into this story's takeaways. If a source qualifies a
+    stat (e.g. "response rate" vs. "success rate"), keep that qualifier.
   - **`importance`** — 1–5, scored using `scoring_context`.
   - **`keywords`** — 3–6 short tags for this story.
   - **`sources`** — ONLY pages you actually drew facts from (from `pages`),

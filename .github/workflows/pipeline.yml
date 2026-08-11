@@ -61,6 +61,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPER_DEV_API_KEY: ${{ secrets.SERPER_DEV_API_KEY }}
+          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
         run: python generate.py "${{ steps.mode.outputs.mode }}"
 
       - name: Commit results

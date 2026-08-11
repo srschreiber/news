@@ -196,7 +196,8 @@
             return '<a href="' + esc(s.url) + '" rel="noopener" target="_blank">' + esc(s.label) +
               '</a> <span class="src-badge src-' + esc(s.origin || "rss") + '">' + label + "</span>";
           }).join(", ");
-          html += '<div class="pv-sources">Sources: ' + srcs + "</div>";
+          html += '<div class="pv-meta-row pv-sources"><span class="pv-meta-label">Sources:</span> ' +
+            srcs + "</div>";
         }
         html += "</li>";
       });

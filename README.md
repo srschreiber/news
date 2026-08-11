@@ -39,26 +39,43 @@ one page instead of scrolling twenty.
 Everything runs through one endpoint (the Anthropic Messages API — direct SDK,
 no framework). A daily run is three stages:
 
-1. **Cluster & score** (`claude-haiku-4-5`) — one global pass over all feeds
-   returns structured events: de-duplicated across feeds, each with an
-   importance score, theme, and keywords. Cheap; handles the bulk input.
-2. **Read** (`claude-haiku-4-5`) — for each important event, Haiku searches
-   via [Serper.dev](https://serper.dev) (Google News, $1/1k queries) and fetches
-   the best article(s) with `web_fetch`, returning a dense factual extract.
-   Known RSS source URLs are fetched first before falling back to search.
-3. **Polish** (`claude-haiku-4-5`) — one batched call turns all the small
-   extracts into final summaries + key-fact bullets. Never sees raw pages.
+1. **Cluster & score** (`claude-haiku-4-5`) — one global pass over each run's
+   *new* RSS items only (hourly incremental runs stay cheap) returns
+   structured events: de-duplicated across feeds, each with an importance
+   score, theme, and keywords.
+2. **Read** (`claude-haiku-4-5`) — Python calls [Serper.dev](https://serper.dev)
+   (Google News, $1/1k queries) and fetches pages directly (urllib, no LLM
+   tool loop); one Haiku call per event turns the pre-fetched content into a
+   dense factual extract. A topic with zero RSS events gets one fallback
+   search per day before it's written up as quiet. Known RSS source URLs are
+   fetched first.
+3. **Polish** (`claude-sonnet-5`) — one batched call turns all the small
+   extracts into final summaries + key-fact bullets, prioritizing fidelity to
+   the source's precise wording (a "response rate" never becomes a "success
+   rate"). Never sees raw pages.
 
-Rollups are a single Sonnet call synthesizing the level below, per topic. All
+**Story updates merge instead of duplicating.** When a new item's headline is
+close enough to something already published today (embedding similarity via
+[Voyage AI](https://voyageai.com), validated by a cheap Haiku classification —
+falls back to keyword overlap if `VOYAGE_API_KEY` isn't set), it updates the
+existing story in place rather than appearing as a second one: importance and
+keywords refresh immediately, and it's queued for re-research so takeaways
+catch up to the new facts. A caused-by-but-distinct follow-on (an aftershock,
+a lawsuit filed over an incident) gets its own story instead, cross-linked
+from the original.
+
+Rollups are a single Haiku call synthesizing the level below, per topic. All
 markdown is rendered deterministically in code — the models return structured
 data, never free-form docs.
 
 ## Cost
 
-A real-news-day run lands around **$0.10–0.20**, and the breakdown is committed
-each run. Haiku ($0.80/$4 per 1M) handles all three stages; Serper.dev Google
-News search costs $1/1k queries (vs $10/1k for Anthropic's built-in search).
-Page reads are capped at 1000 tokens each — enough for a news article lede.
+A real-news-day run lands around **$0.05–0.20** depending on hourly volume,
+and the full breakdown is committed each run to `metrics.json`. Cluster and
+read stay on Haiku ($1/$5 per 1M); polish runs on Sonnet ($3/$15 per 1M) for
+better fact-fidelity, but only once per batched run. Serper.dev Google News
+search costs $1/1k queries (vs $10/1k for Anthropic's built-in search). Page
+reads are capped at 1000 tokens each — enough for a news article lede.
 
 ## Layout
 
@@ -113,6 +130,9 @@ sources:
 pip install -r requirements.txt
 export ANTHROPIC_API_KEY=sk-ant-...
 export SERPER_DEV_API_KEY=...       # serper.dev — Google News search
+export VOYAGE_API_KEY=...           # voyageai.com — embeddings for story-update
+                                     # matching (optional: falls back to a
+                                     # keyword-overlap heuristic if unset)
 
 python generate.py --dry-run     # cluster + score, print top events (no research, no writes)
 python generate.py               # full daily run
@@ -124,7 +144,8 @@ mkdocs serve                     # preview the site at localhost:8000
 ## Deploy (GitHub)
 
 1. Push to a GitHub repo.
-2. Add repo secrets **`ANTHROPIC_API_KEY`** and **`SERPER_DEV_API_KEY`**.
+2. Add repo secrets **`ANTHROPIC_API_KEY`**, **`SERPER_DEV_API_KEY`**, and
+   optionally **`VOYAGE_API_KEY`**.
 3. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 4. `pipeline.yml` runs on cron (daily/weekly/monthly/yearly) and via **Run
    workflow**; it generates docs and deploys. `publish.yml` re-deploys the site
@@ -136,11 +157,13 @@ All in `generate.py` constants, and every cap degrades gracefully (a hit never
 fails the run):
 
 - `MIN_RESEARCH_IMPORTANCE` — only research events at least this important.
-- `RESEARCH_PER_TOPIC` / `MAX_RESEARCHED_EVENTS` — how many stories get web
-  research (breadth-first, with a run-wide safety cap).
-- `WEB_SEARCHES_PER_EVENT` / `WEB_FETCHES_PER_EVENT` — hard per-event tool caps.
+- `RESEARCH_BUDGET_PER_TOPIC` / `GLOBAL_SEARCH_SAFETY` — every research-enabled
+  subfeed gets its own guaranteed budget, plus a run-wide safety cap.
+- `WEB_FETCHES_PER_EVENT` — hard per-event page-fetch cap.
 - `WEB_FETCH_MAX_CONTENT_TOKENS` — per-page ingest cap (lands on cheap Haiku).
 - `MAX_ITEMS_PER_FEED`, `STAGE2_MAX_TOKENS`, `STAGE2_EFFORT` — input/output trims.
+- `MERGE_COS_THRESHOLD` — embedding similarity floor before a story-update
+  merge is even considered (then validated by a cheap Haiku call).
 
 ## Tests
 

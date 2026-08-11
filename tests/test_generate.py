@@ -7,6 +7,7 @@ import pytest
 import generate as g
 
 UTC = dt.timezone.utc
+_NOW = dt.datetime(2026, 8, 11, 15, 0, tzinfo=UTC)
 
 
 # --- slug / summary -------------------------------------------------------- #
@@ -448,6 +449,65 @@ def test_dedupe_cross_topic_collapses_same_story():
     assert len(kept) == 2                                  # 3 Opus 5 -> 1, plus Google
     assert sum("Opus 5" in t for t in titles) == 1
     assert any("Google" in t for t in titles)
+
+
+# --- story-update merging (evolving headlines within the same day) --------- #
+def test_cosine_similarity():
+    assert g._cosine([1, 0], [1, 0]) == pytest.approx(1.0)
+    assert g._cosine([1, 0], [0, 1]) == pytest.approx(0.0)
+    assert g._cosine([1, 1], [1, 1]) == pytest.approx(1.0)
+    assert g._cosine([], []) == 0.0
+
+
+def test_merge_new_events_exact_title_merges_sources_only():
+    stored = [{"title": "Big Story", "event_id": "big-story", "topics": ["ai"],
+               "importance": 4, "keywords": [], "sources": [{"url": "https://a", "label": "A"}],
+               "researched": True}]
+    new = [{"title": "Big Story", "topics": ["ai"], "importance": 4, "keywords": [],
+            "sources": [{"url": "https://b", "label": "B"}]}]
+    all_events, truly_new, updated = g._merge_new_events(stored, new, _NOW)
+    assert truly_new == []
+    assert updated == []
+    urls = {s["url"] for s in all_events[0]["sources"]}
+    assert urls == {"https://a", "https://b"}
+    assert all_events[0]["researched"] is True  # untouched — not treated as an update
+
+
+def test_merge_new_events_token_overlap_treated_as_update():
+    # No VOYAGE_API_KEY in the test env, so this exercises the token-overlap
+    # fallback path directly. min_shared=3 needs a headline close enough in
+    # wording to share tokens — a bigger rewrite needs the embedding path
+    # (untested here — would require mocking the Voyage/Haiku network calls).
+    stored = [{"title": "Colombia earthquake kills at least 111 people",
+               "event_id": "colombia-earthquake-kills-at-least-111-people",
+               "topics": ["world"], "importance": 4,
+               "keywords": ["Colombia", "earthquake"], "sources": [], "researched": True}]
+    new = [{"title": "Colombia earthquake kills at least 200 people",
+            "topics": ["world"], "importance": 5,
+            "keywords": ["Colombia", "earthquake", "death toll"], "sources": []}]
+    all_events, truly_new, updated = g._merge_new_events(stored, new, _NOW)
+    assert len(all_events) == 1                       # merged, not a second event
+    assert truly_new == []
+    assert len(updated) == 1
+    ev = updated[0]
+    assert ev["title"] == "Colombia earthquake kills at least 111 people"  # anchor preserved
+    assert ev["importance"] == 5                        # bumped to the higher figure
+    assert ev.get("researched") is None                 # stale takeaways flagged for re-research
+    assert ev["received_at"] == _NOW.isoformat()
+
+
+def test_merge_new_events_different_topic_not_merged():
+    stored = [{"title": "Colombia earthquake kills at least 111 people",
+               "event_id": "colombia-earthquake-kills-at-least-111-people",
+               "topics": ["world"], "importance": 4,
+               "keywords": ["Colombia", "earthquake"], "sources": []}]
+    new = [{"title": "Colombia earthquake research reveals fault line details",
+            "topics": ["science"], "importance": 3,
+            "keywords": ["Colombia", "earthquake"], "sources": []}]
+    all_events, truly_new, updated = g._merge_new_events(stored, new, _NOW)
+    assert len(all_events) == 2   # different topic -> not treated as the same story
+    assert len(truly_new) == 1
+    assert updated == []
 
 
 # --- hybrid research: enrichment overlay + fallback --------------------------- #

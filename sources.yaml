@@ -43,19 +43,25 @@ feeds:
       market move, meaningful policy change). 1 = local incident or routine report.
   science:
     title: Science
-    topics: [science, space, health, climate-resilience, diet-exercise]
+    topics: [science, space, health, diet-exercise]
+    also_includes: [climate-resilience, climate-change, conservation]
     scoring_context: >
       Score for a science-curious reader, not against general-news events. 5 = landmark
       within science (Nobel-calibre discovery, major FDA approval, first-ever mission
       milestone). 3 = significant (well-replicated study with real-world implications,
       meaningful drug trial result, notable space mission update). 1 = routine research
-      note or incremental finding. For climate-resilience specifically: score for an
-      ecologist or climate scientist — 5 = landmark finding (new mechanistic
-      understanding, breakthrough restoration method), 3 = well-designed field study
-      with real-world implications, 1 = incremental or narrow local study. For
-      diet-exercise: score for a health-conscious general reader — 5 = major dietary
-      or exercise-science finding that changes guidance, 3 = solid study with practical
-      takeaways, 1 = routine or niche finding.
+      note or incremental finding. For diet-exercise: score for a health-conscious
+      general reader — 5 = major dietary or exercise-science finding that changes
+      guidance, 3 = solid study with practical takeaways, 1 = routine or niche finding.
+  environment:
+    title: Environment
+    topics: [climate-resilience, climate-change, conservation]
+    scoring_context: >
+      Score for an ecologist, climate scientist, or conservationist reading beyond
+      general news. 5 = landmark (major IPCC-caliber finding, breakthrough restoration
+      or conservation method, large-scale synthesis across ecosystems). 3 = significant
+      (well-designed field study or policy development with clear real-world
+      implications). 1 = incremental or narrow local finding.
 # Web research (Stage 2: Haiku reads + Sonnet polishes) is the main cost. On by
 # default; turned off for niche/low-value topics (rendered from RSS summaries).
 # Each research-enabled topic (subfeed) gets its own budget — see
@@ -277,33 +283,15 @@ sources:
     url: https://www.deepmind.com/blog/rss.xml
     topic: tech-research
 
-  # === CLIMATE & ECOLOGICAL RESILIENCE SUBFEED (part of Science) ===
-  - name: "Nature Climate Change"
-    url: https://www.nature.com/nclimate.rss
-    topic: climate-resilience
+  # === CLIMATE & ECOLOGICAL RESILIENCE SUBFEED (part of Environment) ===
   - name: "Nature Ecology & Evolution"
     url: https://www.nature.com/natecolevol.rss
-    topic: climate-resilience
-  - name: "Science — Climate"
-    url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
     topic: climate-resilience
   - name: "Google News — wildfire ecology research"
     query: "wildfire ecology research fire effects forest"
     topic: climate-resilience
   - name: "Google News — forest restoration ecology"
     query: "forest restoration ecology climate resilience treatment"
-    topic: climate-resilience
-  - name: "Google News — climate adaptation ecosystem"
-    query: "climate change adaptation ecosystem research study"
-    topic: climate-resilience
-  - name: "Nature Sustainability"
-    url: https://www.nature.com/natsustain.rss
-    topic: climate-resilience
-  - name: "Science Advances"
-    url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
-    topic: climate-resilience
-  - name: "PNAS"
-    url: https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas
     topic: climate-resilience
   - name: "Environmental Research Letters"
     url: https://iopscience.iop.org/journal/rss/1748-9326
@@ -315,15 +303,55 @@ sources:
     scraper: usfs_treesearch
     query: "wildfire fire ecology fuel treatment forest restoration"
     topic: climate-resilience
+
+  # === CLIMATE CHANGE SUBFEED (part of Environment) ===
+  - name: "Nature Climate Change"
+    url: https://www.nature.com/nclimate.rss
+    topic: climate-change
+  - name: "Science — Climate"
+    url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
+    topic: climate-change
   - name: "Carbon Brief"
     url: https://www.carbonbrief.org/feed/
-    topic: climate-resilience
-  - name: "Mongabay"
-    url: https://news.mongabay.com/feed/
-    topic: climate-resilience
+    topic: climate-change
   - name: "Yale Environment 360"
     url: https://e360.yale.edu/feed.xml
-    topic: climate-resilience
+    topic: climate-change
+  - name: "Mongabay"
+    url: https://news.mongabay.com/feed/
+    topic: climate-change
+  - name: "Inside Climate News"
+    url: https://insideclimatenews.org/feed/
+    topic: climate-change
+  - name: "Grist"
+    url: https://grist.org/feed/
+    topic: climate-change
+  - name: "The Guardian — Climate Crisis"
+    url: https://www.theguardian.com/environment/climate-crisis/rss
+    topic: climate-change
+  - name: "Google News — climate change"
+    query: "climate change warming emissions policy"
+    topic: climate-change
+
+  # === CONSERVATION SUBFEED (part of Environment) ===
+  - name: "IUCN"
+    url: https://www.iucn.org/rss.xml
+    topic: conservation
+  - name: "The Guardian — Conservation"
+    url: https://www.theguardian.com/environment/conservation/rss
+    topic: conservation
+  - name: "Nature Sustainability"
+    url: https://www.nature.com/natsustain.rss
+    topic: conservation
+  - name: "Science Advances"
+    url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
+    topic: conservation
+  - name: "PNAS"
+    url: https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas
+    topic: conservation
+  - name: "Google News — wildlife conservation biodiversity"
+    query: "wildlife conservation biodiversity habitat species"
+    topic: conservation
 
   # === DIET & EXERCISE SUBFEED (part of Science) ===
   - name: "ScienceDaily — Fitness"

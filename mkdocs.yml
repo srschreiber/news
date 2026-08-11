@@ -82,8 +82,12 @@ nav:
           - topics/science.md
           - topics/space.md
           - topics/health.md
-          - "Climate & Ecological Resilience": topics/climate-resilience.md
           - "Diet & Exercise": topics/diet-exercise.md
+      - Environment:
+          - Top stories: feeds/environment.md
+          - "Climate & Ecological Resilience": topics/climate-resilience.md
+          - "Climate Change": topics/climate-change.md
+          - Conservation: topics/conservation.md
   - Words:
       - All words: words.md
       - Quiz: quiz.md

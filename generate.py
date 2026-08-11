@@ -74,8 +74,14 @@ FUNFACTS_HISTORY_MAX = 120
 
 CLUSTER_MODEL = "claude-haiku-4-5"      # Stage 1 — cheap, handles bulk input
 READ_MODEL = "claude-haiku-4-5"         # Stage 2a — reads/fetches pages cheaply
-WRITE_MODEL = "claude-haiku-4-5"        # Stage 2b — polishes final summaries
+WRITE_MODEL = "claude-sonnet-5"         # Stage 2b — polishes final summaries; more careful
+                                        # with nuance/fact-fidelity than Haiku, worth the
+                                        # cost since it only runs once per batched run
 ROLLUP_MODEL = "claude-haiku-4-5"
+VOYAGE_MODEL = "voyage-3-lite"          # story-update matching embeddings — cheap,
+                                        # titles are short, no dependency needed (raw REST)
+MERGE_COS_THRESHOLD = 0.86               # embedding similarity floor before even asking
+                                        # Haiku to validate a same-story merge candidate
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 25                 # cap noisy feeds before Stage 1
@@ -263,6 +269,26 @@ FUNFACT_SCHEMA = {
     "required": ["fact"],
     "additionalProperties": False,
 }
+
+
+# Cheap same-story validation before merging two events with a high embedding
+# similarity — guards against embeddings false-positiving on generic phrasing
+# (e.g. two unrelated earthquakes that both mention "death toll rising").
+SAME_STORY_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "relation": {
+            "type": "string",
+            "enum": ["duplicate", "update", "follow_on", "related", "new"],
+        },
+    },
+    "required": ["relation"],
+    "additionalProperties": False,
+}
+# Only these relations should merge into the existing story; follow_on (a
+# caused-by-but-distinct event, e.g. an aftershock) gets its own event, and
+# related/new obviously aren't the same story at all.
+_MERGE_RELATIONS = {"duplicate", "update"}
 
 
 def log(msg: str) -> None:
@@ -636,6 +662,24 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
     return out
 
 
+def _also_includes_map(feeds: dict | None) -> dict[str, set[str]]:
+    """topic -> set of extra feed keys that cross-list it via `also_includes`."""
+    also_map: dict[str, set[str]] = {}
+    for fkey, spec in (feeds or {}).items():
+        for t in spec.get("also_includes", []):
+            also_map.setdefault(t, set()).add(fkey)
+    return also_map
+
+
+def _feeds_for_topics(topics: list[str], topic_feed: dict, feeds: dict | None) -> list[str]:
+    """Every feed a set of topics should appear under: each topic's primary
+    feed, plus any feed that cross-lists one of them via `also_includes`."""
+    also_map = _also_includes_map(feeds)
+    primary_feeds = {topic_feed.get(t, DEFAULT_FEED) for t in topics}
+    cross_listed = {fk for t in topics for fk in also_map.get(t, ())}
+    return sorted(primary_feeds | cross_listed)
+
+
 def assign_topics(events: list[dict], items: list[dict],
                   topic_feed: dict | None = None, feeds: dict | None = None) -> list[dict]:
     """Derive each event's topics from the source items it clustered.
@@ -646,10 +690,6 @@ def assign_topics(events: list[dict], items: list[dict],
     cross-lists one of its topics via `also_includes`) and `primary_feed`
     (feed of the primary topic)."""
     topic_feed = topic_feed or {}
-    also_map: dict[str, set[str]] = {}
-    for fkey, spec in (feeds or {}).items():
-        for t in spec.get("also_includes", []):
-            also_map.setdefault(t, set()).add(fkey)
     by_id = {it["id"]: it for it in items}
     for e in events:
         tops = [by_id[sid]["topic"] for sid in e.get("source_item_ids", []) if sid in by_id]
@@ -660,9 +700,7 @@ def assign_topics(events: list[dict], items: list[dict],
         e["primary_topic"] = (
             min(counts, key=lambda t: (-counts[t], t)) if counts else DEFAULT_TOPIC
         )
-        primary_feeds = {topic_feed.get(t, DEFAULT_FEED) for t in e["topics"]}
-        cross_listed = {fk for t in e["topics"] for fk in also_map.get(t, ())}
-        e["feeds"] = sorted(primary_feeds | cross_listed)
+        e["feeds"] = _feeds_for_topics(e["topics"], topic_feed, feeds)
         e["primary_feed"] = topic_feed.get(e["primary_topic"], DEFAULT_FEED)
     return events
 
@@ -1146,10 +1184,11 @@ def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
         "theme": topic_display(topic),
         "topics": [topic],
         "primary_topic": topic,
-        "feeds": [fkey],
+        "feeds": _feeds_for_topics([topic], topic_feed, feeds),
         "primary_feed": fkey,
         "sources": sources_out,
         "researched": True,
+        "received_at": now_utc().isoformat(),
     }
 
 
@@ -1220,7 +1259,7 @@ def backfill_topic_day(topic: str, date_str: str, feeds: dict, topic_feed: dict,
             "theme": topic_display(topic),
             "topics": [topic],
             "primary_topic": topic,
-            "feeds": [fkey],
+            "feeds": _feeds_for_topics([topic], topic_feed, feeds),
             "primary_feed": fkey,
             "sources": sources_out,
             "researched": True,
@@ -1275,7 +1314,8 @@ def stage2b_polish(reads: list[dict], date: str) -> dict:
         resp = client.messages.create(
             model=WRITE_MODEL,
             max_tokens=STAGE2_MAX_TOKENS,
-            output_config={"format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
+            output_config={"effort": STAGE2_EFFORT,
+                           "format": {"type": "json_schema", "schema": POLISH_SCHEMA}},
             system=_sys("write.md"),
             messages=[{"role": "user", "content": user}],
         )
@@ -1413,37 +1453,190 @@ def _load_fallback_tried(state: dict, date: str) -> set[str]:
     return set(topics) if isinstance(topics, list) else set()
 
 
-def _merge_new_events(
-    stored: list[dict], new_events: list[dict]
-) -> tuple[list[dict], list[dict]]:
-    """Merge new_events into stored events. Returns (all_events, truly_new).
+def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
+    """Embed a batch of texts via Voyage AI (cheap, no SDK dependency — raw
+    REST). Returns None if VOYAGE_API_KEY isn't set or the call fails;
+    callers fall back to the token-overlap heuristic in that case — this
+    upgrade is optional, never a hard requirement for the pipeline to run."""
+    if not texts:
+        return []
+    key = os.environ.get("VOYAGE_API_KEY", "")
+    if not key:
+        return None
+    try:
+        data = json.dumps({"input": texts, "model": VOYAGE_MODEL}).encode()
+        req = urllib.request.Request(
+            "https://api.voyageai.com/v1/embeddings",
+            data=data,
+            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            result = json.loads(resp.read())
+        # Rounded — cosine similarity doesn't need full float precision, and
+        # this halves what a 512-dim vector costs in state.json.
+        return [[round(x, 4) for x in d["embedding"]] for d in result.get("data", [])]
+    except Exception as e:
+        log(f"voyage embed failed: {e}")
+        return None
 
-    Events are matched by slugified title. Duplicate events get new unique
-    source URLs appended to the existing event. Genuinely new events are added
-    and also returned in truly_new so only they get researched this run.
+
+def _cosine(a: list[float], b: list[float]) -> float:
+    dot = sum(x * y for x, y in zip(a, b))
+    na = sum(x * x for x in a) ** 0.5
+    nb = sum(y * y for y in b) ** 0.5
+    return dot / (na * nb) if na and nb else 0.0
+
+
+def _classify_relation(title_a: str, title_b: str) -> str:
+    """Cheap Haiku classification before committing to an embedding-suggested
+    merge: duplicate/update (same event — merge), follow_on (caused by but
+    distinct, e.g. an aftershock — link, don't merge), related (same subject,
+    different event), or new (unrelated). Fails closed ("new") on error — a
+    missed update/link costs far less than a bad merge."""
+    client = _client()
+    try:
+        resp = client.messages.create(
+            model=READ_MODEL,
+            max_tokens=20,
+            output_config={"format": {"type": "json_schema", "schema": SAME_STORY_SCHEMA}},
+            system=_sys("same_story.md"),
+            messages=[{"role": "user",
+                      "content": json.dumps({"a": title_a, "b": title_b}, ensure_ascii=False)}],
+        )
+        METRICS.add("(merge-check)", READ_MODEL, resp.usage)
+        return json.loads(_text_of(resp)).get("relation", "new")
+    except Exception as e:
+        log(f"relation check failed: {e}")
+        return "new"
+
+
+def _merge_sources(existing: dict, ev: dict) -> None:
+    """Append ev's source URLs onto existing that aren't already there."""
+    existing_urls = {s.get("url") for s in existing.get("sources", [])}
+    for src in ev.get("sources", []):
+        if src.get("url") not in existing_urls:
+            existing.setdefault("sources", []).append(src)
+            existing_urls.add(src.get("url"))
+
+
+def _merge_new_events(
+    stored: list[dict], new_events: list[dict], now: dt.datetime, min_shared: int = 3
+) -> tuple[list[dict], list[dict], list[dict]]:
+    """Merge new_events into stored events. Returns (all_events, truly_new, updated).
+
+    Events are matched three ways, in order:
+    1. **Exact title match** (same slugified title): just merges in new source
+       URLs — the common case when the same RSS item resurfaces.
+    2. **Embedding similarity + Haiku validation** (same topic, cosine sim >=
+       MERGE_COS_THRESHOLD, then a cheap same-story check): catches a story
+       that evolved with a very different headline (e.g. "Colombia quake
+       kills 111" -> "South American disaster toll climbs") — semantically
+       the same event with near-zero shared words. Falls back to (3) if
+       VOYAGE_API_KEY isn't set or the embed call fails.
+    3. **Token-overlap fallback** (title/keyword overlap, same topic): the
+       original heuristic, used only when embeddings are unavailable.
+
+    A match from (2) or (3) is treated as an UPDATE, not a new story: the
+    ORIGINAL title/event_id/URL anchor is kept so shared links never break;
+    summary/importance/keywords refresh from the new clustering pass, sources
+    merge, and it's returned in `updated` — always re-researched this run
+    (not budget-gated like `truly_new`), since a story a reader already
+    trusts deserves fresh takeaways, not stale ones under a bumped headline.
+
+    `truly_new` is genuinely new events (subject to select_research's
+    per-topic budget); `updated` is existing stories whose facts changed.
     """
+    now_iso = now.isoformat()
     by_id: dict[str, dict] = {}
     for ev in stored:
         eid = ev.get("event_id") or slugify(ev.get("title", ""))
         ev["event_id"] = eid
         by_id[eid] = ev
+    tokens_by_id = {eid: _story_tokens(ev) for eid, ev in by_id.items()}
 
-    truly_new: list[dict] = []
+    # Only candidates that survive the exact-title check need matching at all.
+    candidates: list[dict] = []
     for ev in new_events:
         eid = slugify(ev.get("title", ""))
         ev["event_id"] = eid
         if eid in by_id:
-            existing = by_id[eid]
-            existing_urls = {s.get("url") for s in existing.get("sources", [])}
-            for src in ev.get("sources", []):
-                if src.get("url") not in existing_urls:
-                    existing.setdefault("sources", []).append(src)
-                    existing_urls.add(src.get("url"))
+            _merge_sources(by_id[eid], ev)
         else:
-            by_id[eid] = ev
-            truly_new.append(ev)
+            candidates.append(ev)
 
-    return list(by_id.values()), truly_new
+    # Batch-embed this run's candidates plus any stored event still missing
+    # an embedding (persists on the event dict across runs — never re-embed
+    # the same stored event twice).
+    embeddings_ok = False
+    if candidates:
+        need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev]
+        texts = [c["title"] for c in candidates] + [ev["title"] for ev in need_stored_embed]
+        vecs = _voyage_embed(texts)
+        if vecs is not None and len(vecs) == len(texts):
+            embeddings_ok = True
+            for c, v in zip(candidates, vecs[: len(candidates)]):
+                c["_embedding"] = v
+            for ev, v in zip(need_stored_embed, vecs[len(candidates):]):
+                ev["_embedding"] = v
+
+    truly_new: list[dict] = []
+    updated: list[dict] = []
+    updated_ids: set[str] = set()
+    for ev in candidates:
+        new_topics = set(ev.get("topics", []))
+        match_id = None
+
+        if embeddings_ok and "_embedding" in ev:
+            best_id, best_score = None, 0.0
+            for sid, stored_ev in by_id.items():
+                if sid in updated_ids or not (new_topics & set(stored_ev.get("topics", ()))):
+                    continue
+                stored_vec = stored_ev.get("_embedding")
+                if not stored_vec:
+                    continue
+                score = _cosine(ev["_embedding"], stored_vec)
+                if score > best_score:
+                    best_id, best_score = sid, score
+            if best_id and best_score >= MERGE_COS_THRESHOLD:
+                relation = _classify_relation(ev["title"], by_id[best_id]["title"])
+                if relation in _MERGE_RELATIONS:
+                    match_id = best_id
+                elif relation in ("follow_on", "related"):
+                    # Distinct event, but worth cross-linking from its parent
+                    # rather than showing up as if unconnected.
+                    ev["related_to"] = best_id
+        else:
+            new_tokens = _story_tokens(ev)
+            match_id = next(
+                (sid for sid, stoks in tokens_by_id.items()
+                 if len(new_tokens & stoks) >= min_shared
+                 and new_topics & set(by_id[sid].get("topics", ()))
+                 and sid not in updated_ids),
+                None,
+            )
+
+        if match_id:
+            existing = by_id[match_id]
+            _merge_sources(existing, ev)
+            existing["one_liner"] = ev.get("one_liner") or existing.get("one_liner", "")
+            existing["importance"] = max(existing.get("importance", 0), ev.get("importance", 0))
+            existing["keywords"] = sorted(
+                set(existing.get("keywords", [])) | set(ev.get("keywords", []))
+            )
+            existing.pop("researched", None)  # facts changed — takeaways are now stale
+            existing["received_at"] = now_iso
+            updated_ids.add(match_id)
+            updated.append(existing)
+            continue
+
+        eid = ev["event_id"]
+        ev["received_at"] = now_iso
+        by_id[eid] = ev
+        tokens_by_id[eid] = _story_tokens(ev)
+        truly_new.append(ev)
+
+    return list(by_id.values()), truly_new, updated
 
 
 def record_metrics(mode: str, run_start: dt.datetime, refresh: bool = False) -> None:
@@ -1537,6 +1730,7 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
     if not events:
         return quiet_day_body(topic)
     ev = sorted(events, key=lambda e: e.get("importance", 0), reverse=True)
+    title_by_id = {e["event_id"]: e["title"] for e in ev if e.get("event_id")}
 
     lines = ["## TL;DR", ""]
     for e in ev[:tldr_n]:
@@ -1572,6 +1766,12 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
             )
             if srcs:
                 lines.append(f"Sources: {srcs}")
+            received = e.get("received_at")
+            if received:
+                lines.append(f'<time class="received-time" datetime="{received}"></time>')
+            related_title = title_by_id.get(e.get("related_to"))
+            if related_title:
+                lines.append(f"See also: [{related_title}](#{slugify(related_title)})")
             lines.append("")
     return "\n".join(lines).strip() + "\n"
 
@@ -1751,6 +1951,7 @@ def _daily_link(topic: str, stem: str, counts: dict[tuple, int],
 TOPIC_DISPLAY = {"ai": "AI", "gpt": "OpenAI", "api": "API",
                  "tech-research": "Tech Research",
                  "climate-resilience": "Climate & Ecological Resilience",
+                 "climate-change": "Climate Change",
                  "diet-exercise": "Diet & Exercise"}
 
 
@@ -1977,6 +2178,8 @@ def rebuild_index() -> None:
         "---",
         "",
     ]
+    lines += ["## Top stories", ""]
+    lines += _period_view_block(load_search_index(), feeds=feeds)
     wotd = fetch_word_of_the_day()
     if wotd:
         record_word_of_the_day(wotd)
@@ -1988,16 +2191,12 @@ def rebuild_index() -> None:
     if fun:
         record_fun_fact(fun)
         lines += _funfact_card(fun)
-    lines += ["## Top stories", ""]
-    lines += _period_view_block(load_search_index(), feeds=feeds)
     lines += [
         "",
         "---",
         "",
         "Don't see a topic you want? "
-        "[➕ Request a new topic]"
-        f"({REPO_URL}/issues/new?template=topic-request.yml)"
-        "{ .md-button .md-button--primary .request-topic }",
+        f"[Request a new topic]({REPO_URL}/issues/new?template=topic-request.yml).",
         "",
     ]
     (DOCS / "index.md").write_text("\n".join(lines) + "\n")
@@ -2342,8 +2541,11 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     log(f"clustered {len(items)} items -> {len(new_events)} events; "
         f"stored: {len(all_stored)}")
 
-    # Merge new into stored, collect truly new events.
-    all_events, truly_new = _merge_new_events(all_stored, new_events)
+    # Merge new into stored, collect truly new events and updates to existing ones.
+    all_events, truly_new, updated = _merge_new_events(all_stored, new_events, run_start)
+    if updated:
+        log(f"{len(updated)} existing event(s) updated with new info: "
+            + ", ".join(e["title"][:50] for e in updated))
 
     if dry_run:
         preview = [
@@ -2355,8 +2557,8 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
         print(json.dumps(preview, ensure_ascii=False, indent=2))
         return
 
-    # No-op guard: nothing new since the last run.
-    if not truly_new:
+    # No-op guard: nothing new or updated since the last run.
+    if not truly_new and not updated:
         if all_stored:
             log("no new events since last run; updating source timestamps only")
             save_state(state, items, run_start,
@@ -2370,9 +2572,13 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             record_metrics("daily", run_start, refresh=True)
             return
 
-    # Research only the truly_new events, consuming the feed budget.
+    # truly_new competes for the feed's per-topic research budget; updated
+    # events always get re-researched regardless of budget — a story readers
+    # already trust deserves fresh takeaways, not stale ones under a new headline.
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
-    log(f"researching {len(selected)} new events")
+    if not no_research:
+        selected += updated
+    log(f"researching {len(selected)} events ({len(updated) if not no_research else 0} of them updates)")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
 
@@ -2383,10 +2589,14 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     # search would catch.
     per_topic: dict[str, list[dict]] = {}
     for topic in all_topics:
-        per_topic[topic] = sorted(
+        ranked = sorted(
             (e for e in all_events if topic in e.get("topics", [])),
             key=lambda e: e.get("importance", 0), reverse=True,
-        )[:EVENTS_PER_TOPIC]
+        )
+        # Same real-world story sometimes survives clustering as two distinct
+        # events (different exact headlines/sources) — collapse near-duplicates
+        # by title/keyword overlap before writing the daily doc.
+        per_topic[topic] = _dedupe_cross_topic(ranked)[:EVENTS_PER_TOPIC]
         if (not per_topic[topic] and not no_research
                 and topic not in fallback_tried
                 and research_enabled(topic, cfg)):
@@ -2416,7 +2626,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     build_search_index(shown, date)
 
     # Mark feeds that got new content this run.
-    affected = {fkey for ev in truly_new for fkey in ev.get("feeds", [])}
+    affected = {fkey for ev in truly_new + updated for fkey in ev.get("feeds", [])}
     new_refresh = {fkey: run_start.isoformat() for fkey in affected}
     feed_last_refresh: dict[str, str] = {
         **dict(state.get("feed_last_refresh") or {}),

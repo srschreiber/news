@@ -19,6 +19,10 @@ event, echoing its `ref` verbatim.
   - Do not repeat the summary sentence as a bullet; bullets add specifics.
 
 Do **not** introduce facts not present in the extract or one_liner — you are
-polishing, not researching.
+polishing, not researching. Preserve the precise meaning of any metric in the
+extract — if it's qualified as a response rate, refusal rate, benchmark
+score, correlation, or projected/estimated figure, keep that qualifier rather
+than tightening it into an unqualified claim (e.g. "task-success rate"). If a
+number's meaning is ambiguous in the extract, omit it rather than guess.
 
 JSON only. No markdown, no narration.

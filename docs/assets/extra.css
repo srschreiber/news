@@ -63,9 +63,6 @@
 .imp i:nth-child(4) { height: 83%; }
 .imp i:nth-child(5) { height: 100%; }
 
-/* Space the "Request a new topic" button off the preceding text. */
-.md-typeset .request-topic { margin-left: 0.5rem; }
-
 /* Word quiz + word-list pages. */
 .wq-btn,
 .wq-opt {
@@ -204,13 +201,12 @@
 /* Daily/Weekly/Monthly period-view widget (home, feed, and topic pages). */
 .pv-toolbar {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 0.6rem;
   margin: 0.6rem 0 1.1rem;
 }
-.pv-periods { display: flex; gap: 0.4rem; }
+.pv-periods { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .pv-btn {
   font: inherit;
   cursor: pointer;
@@ -294,7 +290,6 @@
   font-weight: 400;
   color: var(--md-default-fg-color--light);
 }
-.pv-sources { margin-top: 0.35rem; font-size: 0.82rem; }
 .pv-empty { color: var(--md-default-fg-color--light); }
 
 .pv-meta-row {
