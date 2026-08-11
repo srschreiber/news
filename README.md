@@ -12,6 +12,11 @@ and per-run cost metrics) is a git file.
 <!-- Replace with a real screenshot of the site once deployed: -->
 <!-- ![Screenshot of the briefing site](docs/assets/screenshot.png) -->
 
+**Contents:** [Why](#why) · [Features](#features) ·
+[How it works](#how-it-works) · [Cost](#cost) · [Layout](#layout) ·
+[Configure sources](#configure-sources) · [Run locally](#run-locally) ·
+[Deploy](#deploy-github) · [Cost controls](#cost-controls) · [Tests](#tests)
+
 ## Why
 
 Reading a dozen feeds every morning is noise. This distills them into per-topic
@@ -36,37 +41,75 @@ one page instead of scrolling twenty.
 
 ## How it works
 
-Everything runs through one endpoint (the Anthropic Messages API — direct SDK,
-no framework). A daily run is three stages:
+Everything runs through the Anthropic Messages API directly (no agent
+framework), plus two small external services for search and embeddings. A
+daily run walks four stages; all markdown is rendered deterministically in
+code afterward — the models return structured JSON, never free-form docs.
 
-1. **Cluster & score** (`claude-haiku-4-5`) — one global pass over each run's
-   *new* RSS items only (hourly incremental runs stay cheap) returns
-   structured events: de-duplicated across feeds, each with an importance
-   score, theme, and keywords.
-2. **Read** (`claude-haiku-4-5`) — Python calls [Serper.dev](https://serper.dev)
-   (Google News, $1/1k queries) and fetches pages directly (urllib, no LLM
-   tool loop); one Haiku call per event turns the pre-fetched content into a
-   dense factual extract. A topic with zero RSS events gets one fallback
-   search per day before it's written up as quiet. Known RSS source URLs are
-   fetched first.
-3. **Polish** (`claude-sonnet-5`) — one batched call turns all the small
-   extracts into final summaries + key-fact bullets, prioritizing fidelity to
-   the source's precise wording (a "response rate" never becomes a "success
-   rate"). Never sees raw pages.
+### Models & providers
 
-**Story updates merge instead of duplicating.** When a new item's headline is
-close enough to something already published today (embedding similarity via
-[Voyage AI](https://voyageai.com), validated by a cheap Haiku classification —
-falls back to keyword overlap if `VOYAGE_API_KEY` isn't set), it updates the
-existing story in place rather than appearing as a second one: importance and
-keywords refresh immediately, and it's queued for re-research so takeaways
-catch up to the new facts. A caused-by-but-distinct follow-on (an aftershock,
-a lawsuit filed over an incident) gets its own story instead, cross-linked
-from the original.
+| | Role |
+|---|---|
+| `claude-haiku-4-5` | Clustering + scoring, research reads, story-relation classification |
+| `claude-sonnet-5` | Final polish — one batched call per run, prioritized for fact-fidelity over cost |
+| [Serper.dev](https://serper.dev) | Google News search ($1/1k queries) — research reads and the daily fallback search |
+| [Voyage AI](https://voyageai.com) | Text embeddings for story-update matching (optional — degrades to a keyword-overlap heuristic if unset) |
 
-Rollups are a single Haiku call synthesizing the level below, per topic. All
-markdown is rendered deterministically in code — the models return structured
-data, never free-form docs.
+### 1. Cluster & score
+
+One Haiku call per run, over that run's **new** RSS items only — hourly
+incremental runs never re-read items already clustered earlier today, which
+is what keeps them cheap. Returns structured events: the same story surfacing
+under multiple feeds is merged into one, each with an importance score
+(1–5, judged against that feed's `scoring_context`), a theme, and keywords.
+
+### 2. Story updates & merging
+
+Before research, every new event is checked against today's already-published
+stories — three fallbacks, in order:
+
+1. **Exact title match** — the same RSS item resurfacing; just merges in any
+   new source URLs.
+2. **Embedding similarity + Haiku classification** — Voyage embeds the
+   candidate title and compares it (cosine similarity) against stored events
+   in the same topic. Above a threshold, a cheap Haiku call classifies the
+   relationship: `duplicate`/`update` (merge), `follow_on` (a distinct but
+   caused-by event — an aftershock, a lawsuit filed over an incident — gets
+   its own story, cross-linked from the original via "See also"), `related`
+   (same subject, different event — no link), or `new`.
+3. **Keyword-overlap fallback** — used only if `VOYAGE_API_KEY` is unset or
+   the embedding call fails; matches on shared significant title/keyword
+   tokens within the same topic.
+
+A merge keeps the **original title and URL anchor** (so shared links never
+break) but refreshes importance/keywords immediately and queues the story for
+re-research — unlike brand-new events, an update is never budget-gated,
+since a story readers already trust deserves fresh takeaways, not stale ones
+under a bumped headline.
+
+### 3. Read (research)
+
+For each selected event, Python — not the model — calls Serper and fetches
+the resulting pages directly (`urllib`, no LLM tool loop); known RSS source
+URLs are fetched first. One Haiku call then turns the pre-fetched page text
+into a dense factual extract, instructed to stay strictly on that one story
+(pages often mention unrelated products/events in passing) and to preserve
+exactly what a metric measures (a "response rate" is never compressed into a
+"success rate"). A topic that clusters zero events for the day gets one
+fallback Serper search before it's written up as quiet — some topics (slow-
+publishing academic feeds) miss real news that a live search catches.
+
+### 4. Polish
+
+One batched Sonnet call turns every event's extract into a final summary +
+key-fact bullets in a single pass, prioritizing fact-fidelity over the small
+per-run cost difference from Haiku. Never sees raw pages — only the
+extracts, so it can't reintroduce facts a researcher didn't find.
+
+### Rollups
+
+A single Haiku call synthesizes the level below (daily → weekly → monthly →
+yearly), per topic.
 
 ## Cost
 
