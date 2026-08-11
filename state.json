@@ -1,14 +1,241 @@
 {
-  "last_run": "2026-08-11T00:13:54.386589+00:00",
-  "seen_links": {},
-  "source_last_ts": {},
+  "last_run": "2026-08-11T00:17:17.755988+00:00",
+  "seen_links": {
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU1pIUkw2M01wdEJpbnA4dFZGTnlUSHFrbUhpbDVKRHgtS0pKWnBuZWVaRC14Y294WmVQSHFqc0JhMVFWM3Y1N19mUTJIeEtjNHJyZm43UGFNSmg0ajhJNEhMOEVpY0QxcnVKcHJzbHpiUjVKVzJsMFNwVVN0WEE0cWJBMEpSUS1ZZnNhLVRockNKZFI4dlR1RFJoNnpwc0hRejJyM3F0d05Jay1mOWlOMnhVbw?oc=5": "2026-08-11",
+    "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2E0OE5yZGJtT1ItYXF5SU9URXp2SzRFcWFIR0tvUmFFei1jcVFxUG4yVTZCb0F3N1hVZXMtalpjUEc0RmhNblhIN0F1ZXhJTHI1b3YyNnFmZE84T0FpWkdjdUVKWEVQb09MV0p2VllfYTJsVGpCMnk3WV9xdHM2dnJBWlc3ZExLSmp5SnlVUQ?oc=5": "2026-08-11",
+    "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/": "2026-08-11",
+    "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUks0Z2RkYWMzdEVvN1RCcGdEc1FpUl9pbVNPNi1HUDU1eTk1ckZzZTlOWmNldU9zM0I5c0w3ZWtDb3NsSlp1LTBuV2V6OFRhTHFtTlQzMGY2c1BNZzVWZDlPMV9qNWM3cjNqSGQ1WVQtWkltVWpqb2NYWnpiaWhKeDI4aEVWM1k?oc=5": "2026-08-11",
+    "https://phys.org/news/2026-08-microplastics-hazardous-plastic-additives-marine.html": "2026-08-11"
+  },
+  "source_last_ts": {
+    "Investing.com South Africa": "2026-08-11T00:14:40+00:00",
+    "CNN": "2026-08-11T00:06:00+00:00",
+    "TechCrunch": "2026-08-11T00:03:18+00:00",
+    "WSJ": "2026-08-11T00:01:00+00:00",
+    "Phys.org": "2026-08-11T00:00:01+00:00"
+  },
   "feed_last_refresh": {
-    "technology": "2026-08-11T00:13:54.386589+00:00",
-    "world": "2026-08-10T23:59:58.887043+00:00",
-    "science": "2026-08-10T23:59:58.887043+00:00",
+    "technology": "2026-08-11T00:17:17.755988+00:00",
+    "world": "2026-08-11T00:17:17.755988+00:00",
+    "science": "2026-08-11T00:17:17.755988+00:00",
     "patent-ip": "2026-08-10T19:52:04.424783+00:00",
     "climate-resilience": "2026-08-10T17:37:27.410919+00:00",
     "tech-research": "2026-08-10T19:52:04.424783+00:00"
   },
-  "today_events": []
+  "today_events": {
+    "date": "2026-08-11",
+    "events": [
+      {
+        "title": "7.4 magnitude earthquake strikes Colombia, kills at least 111",
+        "one_liner": "A 7.4-magnitude earthquake struck western Colombia on August 10, 2026, killing at least 111 people and damaging over 1,600 buildings, marking the country's strongest quake in a decade.",
+        "importance": 5,
+        "theme": "Natural Disaster",
+        "keywords": [
+          "Colombia",
+          "earthquake",
+          "7.4 magnitude",
+          "casualty"
+        ],
+        "source_item_ids": [
+          "google-news-world-2"
+        ],
+        "sources": [
+          {
+            "label": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20",
+            "origin": "research"
+          },
+          {
+            "label": "NBC News",
+            "url": "https://www.nbcnews.com/world/latin-america/strong-earthquake-colombia-ecuador-people-evacuating-homes-buildings-rcna591709",
+            "origin": "research"
+          },
+          {
+            "label": "CNN",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2E0OE5yZGJtT1ItYXF5SU9URXp2SzRFcWFIR0tvUmFFei1jcVFxUG4yVTZCb0F3N1hVZXMtalpjUEc0RmhNblhIN0F1ZXhJTHI1b3YyNnFmZE84T0FpWkdjdUVKWEVQb09MV0p2VllfYTJsVGpCMnk3WV9xdHM2dnJBWlc3ZExLSmp5SnlVUQ?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "world"
+        ],
+        "primary_topic": "world",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "74-magnitude-earthquake-strikes-colombia-kills-at-least-111",
+        "ref": "e1",
+        "takeaways": [
+          "7.4-magnitude earthquake, highest in Colombia in 10 years",
+          "At least 111 killed, 87 injured; toll expected to rise",
+          "Epicenter near San Jos\u00e9 del Palmar, Choc\u00f3 region, ~250 miles west of Bogot\u00e1",
+          "Over 1,600 buildings damaged; dozens collapsed across Cali, Pereira, Manizales, Quibd\u00f3",
+          "Two aftershocks of 2.8 and 4.8 magnitude followed",
+          "Multiple airports suspended flights; no tsunami threat",
+          "Choc\u00f3 region is rural and poorest in Colombia, accessible mainly by boat or plane"
+        ],
+        "researched": true
+      },
+      {
+        "title": "OpenAI completes $7 billion employee tender offer",
+        "one_liner": "OpenAI completed a $7 billion tender offer on August 10, 2026, allowing employees to sell shares and valuing the company at $852 billion, suggesting a potential IPO delay despite the company's confidential SEC filing in June.",
+        "importance": 3,
+        "theme": "Funding",
+        "keywords": [
+          "OpenAI",
+          "tender offer",
+          "$7 billion",
+          "employee equity"
+        ],
+        "source_item_ids": [
+          "techcrunch-0"
+        ],
+        "sources": [
+          {
+            "label": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+            "origin": "research"
+          },
+          {
+            "label": "CNBC",
+            "url": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
+            "origin": "research"
+          }
+        ],
+        "topics": [
+          "tech"
+        ],
+        "primary_topic": "tech",
+        "feeds": [
+          "technology"
+        ],
+        "primary_feed": "technology",
+        "event_id": "openai-completes-7-billion-employee-tender-offer",
+        "ref": "e0",
+        "takeaways": [
+          "$7 billion tender offer completed August 10, 2026",
+          "Company valued at $852 billion, matching March 2026 fundraising round",
+          "Employees can now sell shares without public offering",
+          "CEO Sam Altman noted missed internal goals in April 2026",
+          "Focus shifting to enterprise business strategy"
+        ],
+        "researched": true
+      },
+      {
+        "title": "Cathie Wood's ARK Investment Trust rebalances portfolio, sells Deere & Co and adds Broadcom",
+        "one_liner": "ARK Investment Trust, led by Cathie Wood, sold positions in Deere & Co while adding Broadcom stock to its portfolio.",
+        "importance": 2,
+        "theme": "Markets",
+        "keywords": [
+          "ARK Investment",
+          "Cathie Wood",
+          "Deere",
+          "Broadcom",
+          "portfolio rebalance"
+        ],
+        "source_item_ids": [
+          "google-news-markets-2"
+        ],
+        "sources": [
+          {
+            "label": "Investing.com South Africa",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU1pIUkw2M01wdEJpbnA4dFZGTnlUSHFrbUhpbDVKRHgtS0pKWnBuZWVaRC14Y294WmVQSHFqc0JhMVFWM3Y1N19mUTJIeEtjNHJyZm43UGFNSmg0ajhJNEhMOEVpY0QxcnVKcHJzbHpiUjVKVzJsMFNwVVN0WEE0cWJBMEpSUS1ZZnNhLVRockNKZFI4dlR1RFJoNnpwc0hRejJyM3F0d05Jay1mOWlOMnhVbw?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "markets"
+        ],
+        "primary_topic": "markets",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "cathie-woods-ark-investment-trust-rebalances-portfolio-sells-deere-co-and-adds-broadcom"
+      },
+      {
+        "title": "U.S. stock market edges down from records as oil prices climb and Nvidia declines",
+        "one_liner": "U.S. stock indices retreated from record highs following a 5% climb in oil prices and weakness in Nvidia stock.",
+        "importance": 2,
+        "theme": "Markets",
+        "keywords": [
+          "stock market",
+          "S&P 500",
+          "Nasdaq",
+          "oil prices",
+          "Nvidia"
+        ],
+        "source_item_ids": [
+          "google-news-markets-1"
+        ],
+        "sources": [
+          {
+            "label": "WSJ",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUks0Z2RkYWMzdEVvN1RCcGdEc1FpUl9pbVNPNi1HUDU1eTk1ckZzZTlOWmNldU9zM0I5c0w3ZWtDb3NsSlp1LTBuV2V6OFRhTHFtTlQzMGY2c1BNZzVWZDlPMV9qNWM3cjNqSGQ1WVQtWkltVWpqb2NYWnpiaWhKeDI4aEVWM1k?oc=5",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "markets"
+        ],
+        "primary_topic": "markets",
+        "feeds": [
+          "world"
+        ],
+        "primary_feed": "world",
+        "event_id": "us-stock-market-edges-down-from-records-as-oil-prices-climb-and-nvidia-declines"
+      },
+      {
+        "title": "Microplastics transport hazardous chemical additives through marine environments",
+        "one_liner": "Research reveals that microplastics in ocean environments transport hazardous chemical additives\u2014antioxidants, plasticizers, and flame retardants\u2014through marine ecosystems, compounding plastic pollution's ecological impact.",
+        "importance": 3,
+        "theme": "Science",
+        "keywords": [
+          "microplastics",
+          "marine pollution",
+          "plastic additives",
+          "chemical pollution",
+          "ocean"
+        ],
+        "source_item_ids": [
+          "phys-org-0"
+        ],
+        "sources": [
+          {
+            "label": "Cambridge Prisms: Plastics",
+            "url": "https://www.cambridge.org/core/journals/cambridge-prisms-plastics/article/decades-of-scientific-research-show-that-plastic-pellets-pose-hazards-to-the-environment/4CD2D51366EFD43DED7466F86AE6A7C6",
+            "origin": "research"
+          },
+          {
+            "label": "The Pew Charitable Trusts",
+            "url": "https://www.pew.org/en/research-and-analysis/reports/2025/12/breaking-the-plastic-wave-2025",
+            "origin": "research"
+          },
+          {
+            "label": "Phys.org",
+            "url": "https://phys.org/news/2026-08-microplastics-hazardous-plastic-additives-marine.html",
+            "origin": "rss"
+          }
+        ],
+        "topics": [
+          "science"
+        ],
+        "primary_topic": "science",
+        "feeds": [
+          "science"
+        ],
+        "primary_feed": "science",
+        "event_id": "microplastics-transport-hazardous-chemical-additives-through-marine-environments",
+        "ref": "e2",
+        "takeaways": [
+          "Microplastics carry antioxidants, plasticizers, and flame retardants through oceans",
+          "Plastic pellets (nurdles) identified as major marine pollutant component",
+          "Pollution poses both physical litter and chemical management risks to marine life",
+          "Microplastic pollution described as pervasive with significant ecological risk potential"
+        ],
+        "researched": true
+      }
+    ]
+  }
 }

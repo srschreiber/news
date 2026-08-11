@@ -1,9 +1,120 @@
 [
   {
     "date": "2026-08-11",
+    "event_id": "cathie-woods-ark-investment-trust-rebalances-portfolio-sells-deere-co-and-adds-broadcom",
+    "title": "Cathie Wood's ARK Investment Trust rebalances portfolio, sells Deere & Co and adds Broadcom",
+    "summary": "ARK Investment Trust, led by Cathie Wood, sold positions in Deere & Co while adding Broadcom stock to its portfolio.",
+    "theme": "Markets",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "ARK Investment",
+      "Cathie Wood",
+      "Deere",
+      "Broadcom",
+      "portfolio rebalance"
+    ],
+    "url": "news/markets/2026-08-11/#cathie-woods-ark-investment-trust-rebalances-portfolio-sells-deere-co-and-adds-broadcom",
+    "sources": [
+      {
+        "label": "Investing.com South Africa",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU1pIUkw2M01wdEJpbnA4dFZGTnlUSHFrbUhpbDVKRHgtS0pKWnBuZWVaRC14Y294WmVQSHFqc0JhMVFWM3Y1N19mUTJIeEtjNHJyZm43UGFNSmg0ajhJNEhMOEVpY0QxcnVKcHJzbHpiUjVKVzJsMFNwVVN0WEE0cWJBMEpSUS1ZZnNhLVRockNKZFI4dlR1RFJoNnpwc0hRejJyM3F0d05Jay1mOWlOMnhVbw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "us-stock-market-edges-down-from-records-as-oil-prices-climb-and-nvidia-declines",
+    "title": "U.S. stock market edges down from records as oil prices climb and Nvidia declines",
+    "summary": "U.S. stock indices retreated from record highs following a 5% climb in oil prices and weakness in Nvidia stock.",
+    "theme": "Markets",
+    "importance": 2,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock market",
+      "S&P 500",
+      "Nasdaq",
+      "oil prices",
+      "Nvidia"
+    ],
+    "url": "news/markets/2026-08-11/#us-stock-market-edges-down-from-records-as-oil-prices-climb-and-nvidia-declines",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUks0Z2RkYWMzdEVvN1RCcGdEc1FpUl9pbVNPNi1HUDU1eTk1ckZzZTlOWmNldU9zM0I5c0w3ZWtDb3NsSlp1LTBuV2V6OFRhTHFtTlQzMGY2c1BNZzVWZDlPMV9qNWM3cjNqSGQ1WVQtWkltVWpqb2NYWnpiaWhKeDI4aEVWM1k?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "microplastics-transport-hazardous-chemical-additives-through-marine-environments",
+    "title": "Microplastics transport hazardous chemical additives through marine environments",
+    "summary": "Research reveals that microplastics in ocean environments transport hazardous chemical additives—antioxidants, plasticizers, and flame retardants—through marine ecosystems, compounding plastic pollution's ecological impact.",
+    "theme": "Science",
+    "importance": 3,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "microplastics",
+      "marine pollution",
+      "plastic additives",
+      "chemical pollution",
+      "ocean"
+    ],
+    "url": "news/science/2026-08-11/#microplastics-transport-hazardous-chemical-additives-through-marine-environments",
+    "sources": [
+      {
+        "label": "Cambridge Prisms: Plastics",
+        "url": "https://www.cambridge.org/core/journals/cambridge-prisms-plastics/article/decades-of-scientific-research-show-that-plastic-pellets-pose-hazards-to-the-environment/4CD2D51366EFD43DED7466F86AE6A7C6",
+        "origin": "research"
+      },
+      {
+        "label": "The Pew Charitable Trusts",
+        "url": "https://www.pew.org/en/research-and-analysis/reports/2025/12/breaking-the-plastic-wave-2025",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-microplastics-hazardous-plastic-additives-marine.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Microplastics carry antioxidants, plasticizers, and flame retardants through oceans",
+      "Plastic pellets (nurdles) identified as major marine pollutant component",
+      "Pollution poses both physical litter and chemical management risks to marine life",
+      "Microplastic pollution described as pervasive with significant ecological risk potential"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "openai-completes-7-billion-employee-tender-offer",
     "title": "OpenAI completes $7 billion employee tender offer",
-    "summary": "OpenAI completed a $7 billion employee tender offer, valuing the company at $852 billion and allowing staff to sell shares without a public listing, though the company had previously filed confidentially for a potential IPO.",
+    "summary": "OpenAI completed a $7 billion tender offer on August 10, 2026, allowing employees to sell shares and valuing the company at $852 billion, suggesting a potential IPO delay despite the company's confidential SEC filing in June.",
     "theme": "Funding",
     "importance": 3,
     "topics": [
@@ -16,8 +127,8 @@
     "keywords": [
       "OpenAI",
       "tender offer",
-      "employee equity",
-      "$7 billion"
+      "$7 billion",
+      "employee equity"
     ],
     "url": "news/tech/2026-08-11/#openai-completes-7-billion-employee-tender-offer",
     "sources": [
@@ -34,10 +145,59 @@
     ],
     "takeaways": [
       "$7 billion tender offer completed August 10, 2026",
-      "Company valued at $852 billion, matching March 2026 fundraising valuation",
-      "Employees can liquidate shares without requiring IPO",
-      "SEC confidential filing made June 2026 for potential IPO",
-      "CEO cited underperformance in prior 12 months, expects strong upcoming results"
+      "Company valued at $852 billion, matching March 2026 fundraising round",
+      "Employees can now sell shares without public offering",
+      "CEO Sam Altman noted missed internal goals in April 2026",
+      "Focus shifting to enterprise business strategy"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "74-magnitude-earthquake-strikes-colombia-kills-at-least-111",
+    "title": "7.4 magnitude earthquake strikes Colombia, kills at least 111",
+    "summary": "A 7.4-magnitude earthquake struck western Colombia on August 10, 2026, killing at least 111 people and damaging over 1,600 buildings, marking the country's strongest quake in a decade.",
+    "theme": "Natural Disaster",
+    "importance": 5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Colombia",
+      "earthquake",
+      "7.4 magnitude",
+      "casualty"
+    ],
+    "url": "news/world/2026-08-11/#74-magnitude-earthquake-strikes-colombia-kills-at-least-111",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20",
+        "origin": "research"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://www.nbcnews.com/world/latin-america/strong-earthquake-colombia-ecuador-people-evacuating-homes-buildings-rcna591709",
+        "origin": "research"
+      },
+      {
+        "label": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2E0OE5yZGJtT1ItYXF5SU9URXp2SzRFcWFIR0tvUmFFei1jcVFxUG4yVTZCb0F3N1hVZXMtalpjUEc0RmhNblhIN0F1ZXhJTHI1b3YyNnFmZE84T0FpWkdjdUVKWEVQb09MV0p2VllfYTJsVGpCMnk3WV9xdHM2dnJBWlc3ZExLSmp5SnlVUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "7.4-magnitude earthquake, highest in Colombia in 10 years",
+      "At least 111 killed, 87 injured; toll expected to rise",
+      "Epicenter near San José del Palmar, Chocó region, ~250 miles west of Bogotá",
+      "Over 1,600 buildings damaged; dozens collapsed across Cali, Pereira, Manizales, Quibdó",
+      "Two aftershocks of 2.8 and 4.8 magnitude followed",
+      "Multiple airports suspended flights; no tsunami threat",
+      "Chocó region is rural and poorest in Colombia, accessible mainly by boat or plane"
     ],
     "researched": true
   },
