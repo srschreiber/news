@@ -1601,8 +1601,11 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
     key = os.environ.get("VOYAGE_API_KEY", "")
     if not key:
         return None
+    import time, random
     out: list[list[float]] = []
     for i in range(0, len(texts), _VOYAGE_BATCH):
+        if i > 0:
+            time.sleep(3)  # proactive pause between chunks to stay under Voyage TPM limits
         chunk = texts[i: i + _VOYAGE_BATCH]
         for attempt in range(6):
             try:
@@ -1625,7 +1628,6 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
                 break
             except urllib.error.HTTPError as e:
                 if e.code == 429 and attempt < 5:
-                    import time, random
                     # Voyage docs recommend exponential backoff with jitter; no Retry-After header.
                     wait = 2 ** (attempt + 2) + random.uniform(0, 1)
                     log(f"voyage embed 429 (chunk {i//_VOYAGE_BATCH}), retrying in {wait:.1f}s")
@@ -1729,7 +1731,7 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
     joined with today's event embeddings (embedding any stragglers that
     never went through candidate-matching this run). Keeps the last
     CROSS_DAY_LOOKBACK_DAYS days; older entries are pruned automatically."""
-    need_embed = [e for e in all_events if "_embedding" not in e][:_VOYAGE_BATCH]
+    need_embed = [e for e in all_events if "_embedding" not in e]
     if need_embed:
         vecs = _voyage_embed([_embed_text(e) for e in need_embed])
         if vecs is not None and len(vecs) == len(need_embed):
@@ -1824,8 +1826,7 @@ def _merge_new_events(
     # RPM limit; embeddings persist in state.json so the backlog drains over
     # several runs without ever hammering the API.
     need_candidate_embed = [c for c in candidates if "_embedding" not in c]
-    stored_backfill_cap = max(0, _VOYAGE_BATCH - len(need_candidate_embed))
-    need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev][:stored_backfill_cap]
+    need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev]
     need_embed = need_candidate_embed + need_stored_embed
     embeddings_ok = all("_embedding" in c for c in candidates)  # true if all candidates have centroid
     if need_embed:
