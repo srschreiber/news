@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Postgres
 
 _Part of the [Technology](../feeds/technology.md) feed · RSS only._

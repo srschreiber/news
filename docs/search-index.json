@@ -1,6 +1,37 @@
 [
   {
     "date": "2026-08-11",
+    "event_id": "federal-circuit-ruling-in-range-of-motion-products-patent-dispute",
+    "title": "Federal Circuit ruling in range of motion products patent dispute",
+    "summary": "The Federal Circuit issues precedential decision in patent case Range of Motion Products LLC v. Armaid Company Inc.",
+    "theme": "Patents",
+    "importance": 1,
+    "topics": [
+      "patent-ip"
+    ],
+    "feeds": [
+      "patent-ip"
+    ],
+    "primary_feed": "patent-ip",
+    "keywords": [
+      "Federal Circuit",
+      "patent",
+      "Range of Motion Products",
+      "Armaid"
+    ],
+    "url": "news/patent-ip/2026-08-11/#federal-circuit-ruling-in-range-of-motion-products-patent-dispute",
+    "sources": [
+      {
+        "label": "Federal Circuit — Opinions and Orders",
+        "url": "https://www.cafc.uscourts.gov/08-11-2026-23-2427-range-of-motion-products-llc-v-armaid-company-inc-order-23-2427-order-8-11-2026_2737015/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "jackie-iconic-california-bald-eagle-dies-after-illness",
     "title": "Jackie, iconic California bald eagle, dies after illness",
     "summary": "Jackie, a bald eagle who became an internet sensation and symbol of species recovery in California, dies from illness.",
@@ -78,37 +109,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "gic-and-macquarie-establish-us-data-center-platform-for-anthropic",
-    "title": "GIC and Macquarie establish US data center platform for Anthropic",
-    "summary": "Singapore's GIC and Australian firm Macquarie partnered to establish a US data center infrastructure platform for Anthropic.",
-    "theme": "Technology",
-    "importance": 2,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "data center",
-      "GIC",
-      "Macquarie"
-    ],
-    "url": "news/anthropic/2026-08-11/#gic-and-macquarie-establish-us-data-center-platform-for-anthropic",
-    "sources": [
-      {
-        "label": "Mingtiandi",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaDhsRzZhSUUzeGwwaVNGbEdBcmQ4MW9KTGpfNWUzR3RtTGhBdHBWbzZ6SlhJeGhKMmVtZWtTbUJabWZuOXc4XzNqQ0JYc2pOQi1rNGc3TGgwalNDNlBuMlp6X2VKaG1yUnlpOENpZW9ucjVMSHhLa1Nrcm5aM2dsT1UwenAyRFpWRW9KOG9TM0lsWnExUnBaRTVET09QVV9HckNSWUNLVGhabEwtdVFrRHBYc1ZzaUJuMi11QzlMZWFhanZPSDE0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "openais-only-ethics-officer-departs-after-less-than-a-year",
     "title": "OpenAI's only ethics officer departs after less than a year",
     "summary": "OpenAI's ethics lead reportedly left the company last month and was not replaced.",
@@ -143,6 +143,68 @@
       {
         "label": "Firstpost",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTFlYVFJhUkJ4SEF4QVdsSVZyTDB1WWY1VDBVMzRqTE1lLUhKREJxa2hvWE5QZmRnUHFoOWhISzR1ZWZzbnVzUVRMVF9WdDQ4UGx5dU5BMGk0Qk5RNjhneEJLeHVSUTV2RmNzY1poNUhJeEVIUnNkc2ZNLVZrVC1pdXhmVF9udV9GS3RiX216dzl1aXA4ZzdHWnkyY0l1ZHpQSFRHLWpFS0PSAa4BQVVfeXFMUGdoVUNhZ19ZclBmbVhSUXE3NkVNdHhoTnhWWGN1Qm8tN2lnRDhaVkk4S1hXUFdQSXRFRDdzQ2FpdW5ocEp1NVNhTTJfOF9uLTFNZHZ4WFRnTmEwLW11bU9ya3VyR1BoWkF4MkJMWUFzemRfTjc3dmRGSUhXaWZ4cE1IN3NENWpzeFJqVmxxR2pOMkxJckdOTE5BSVhSNkE1UVVBcTl3bEY5Z2xfSkpn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "openai-expands-daybreak-cybersecurity-program-and-partner-network",
+    "title": "OpenAI expands Daybreak cybersecurity program and partner network",
+    "summary": "OpenAI is expanding its Daybreak cyber program to strengthen partnerships in the cybersecurity sector.",
+    "theme": "Security",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Daybreak",
+      "cybersecurity",
+      "program"
+    ],
+    "url": "news/gpt/2026-08-11/#openai-expands-daybreak-cybersecurity-program-and-partner-network",
+    "sources": [
+      {
+        "label": "tahawultech.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONFJLX1duTk1hbmczSVZ3XzhJbFl6R2V6bEhTd1UwcGJXYmRuUG1BTW1FT2JicE5VV3I2dkhFdTQwQ0EybXBobkRqTmtOQkdGVVI0RnJOcEx3MzV3cHZabGZGaXNHck5NdEVvMG1zZU0tY0RyX0pPSkRBLVpLaXR6bl9heGxzYl91UkpRWEtOSkozV3VfMWk0M1Z2OUk3UTdG?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "openai-cfo-announces-move-toward-zero-day-close-accounting-practice",
+    "title": "OpenAI CFO announces move toward zero-day close accounting practice",
+    "summary": "OpenAI's CFO highlights the company's shift toward zero-day close financial operations.",
+    "theme": "Business",
+    "importance": 2,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "CFO",
+      "zero-day close",
+      "accounting"
+    ],
+    "url": "news/gpt/2026-08-11/#openai-cfo-announces-move-toward-zero-day-close-accounting-practice",
+    "sources": [
+      {
+        "label": "CFO Dive",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkFRZDVxQXVLVEpVYWQ5akY3am5QcDdSWDBwbEVhQ185eGZUWmwyVkJNT1RDQ0E5cHJBM0FubHhpb21TUnZLelkzTVNOT2xFd3lPcXc4SjlLZEdDYjJwOTk2ckRqZWI4OE1JT0pCb1dDTXRRREhuRnYybTRxRHhvVEFpeEg?oc=5",
         "origin": "rss"
       }
     ],
@@ -365,35 +427,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "emerging-market-investment-flows-turn-positive-as-equity-exodus-slows",
-    "title": "Emerging market investment flows turn positive as equity exodus slows",
-    "summary": "Emerging market investment flows shifted positive as the equity exodus from those markets slowed, according to the Institute of International Finance.",
-    "theme": "Markets",
-    "importance": 2,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "emerging markets",
-      "investment flows"
-    ],
-    "url": "news/markets/2026-08-11/#emerging-market-investment-flows-turn-positive-as-equity-exodus-slows",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWUFoOU9ZZTV2MWx6TmttaVZaQm5nVjZlaFFlcVhwbkw4SWlra2haOFlMUnk1QU9ieUQ3by1TVHh6dlFoX2cxR0UwWWw1dmtNekN2OVlUQ1ppTGhEano0TkllSm1ueHExSU43b2FZZFJ5WHNOeWRTQkZGa2ZLWFd6YWZsbmVnQnVqb3JwUGJTOWM3cFNCT2xMZlRWY2RSZTRUc3Qwa05JM21jekFPdkUyUE4ydU1KUk50anc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "ancient-maltese-seafarers-navigated-by-stars",
     "title": "Ancient Maltese seafarers navigated by stars",
     "summary": "Archaeological research indicates that ancient Maltese seafarers likely used celestial navigation.",
@@ -576,6 +609,38 @@
       },
       {
         "label": "NASA (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU9BYnZZc0JKT05RRmV3MHk3UF9reV9oQ1N4Y3pDbWVrYzBDU184QmpOUllkS3RUU01aNUJ1QzNGZUlrdktEc3NJeTY0MWV1X0pkNWFoUTktaFpqcThoVGlyM19vSm5US250MzdocTk2QU5Gd1NUUEpsS2V0Z3hpb21ZMXJGY0hLOHRWOUFmNlBrRWw1anNOcXVVdDFrN0cxcnQ5d3VKdVUwV3ZCbjJUVnFSSFZhVWM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "nasa-highlights-space-station-research-supporting-lunar-and-mars-missions",
+    "title": "NASA highlights space station research supporting lunar and Mars missions",
+    "summary": "NASA shares current space station research advancing exploration goals for the Moon and Mars.",
+    "theme": "Space",
+    "importance": 2,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "space station",
+      "Moon",
+      "Mars",
+      "research"
+    ],
+    "url": "news/space/2026-08-11/#nasa-highlights-space-station-research-supporting-lunar-and-mars-missions",
+    "sources": [
+      {
+        "label": "nasa.gov",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTU9BYnZZc0JKT05RRmV3MHk3UF9reV9oQ1N4Y3pDbWVrYzBDU184QmpOUllkS3RUU01aNUJ1QzNGZUlrdktEc3NJeTY0MWV1X0pkNWFoUTktaFpqcThoVGlyM19vSm5US250MzdocTk2QU5Gd1NUUEpsS2V0Z3hpb21ZMXJGY0hLOHRWOUFmNlBrRWw1anNOcXVVdDFrN0cxcnQ5d3VKdVUwV3ZCbjJUVnFSSFZhVWM?oc=5",
         "origin": "rss"
       }
@@ -885,6 +950,70 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "anthropic-claude-introduces-ai-watermarking-for-content-transparency",
+    "title": "Anthropic Claude introduces AI watermarking for content transparency",
+    "summary": "Anthropic's Claude AI now embeds invisible watermarks in all generated text to comply with EU transparency requirements, with watermarks applied globally across all Claude products.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "AI watermarking",
+      "content detection",
+      "EU regulation"
+    ],
+    "url": "news/anthropic/2026-08-11/#anthropic-claude-introduces-ai-watermarking-for-content-transparency",
+    "sources": [
+      {
+        "label": "Northeast Times",
+        "url": "https://northeasttimes.com/2026/08/11/anthropic-will-embed-invisible-watermarks-in-all-claude-ai-text/",
+        "origin": "research"
+      },
+      {
+        "label": "Business Insider",
+        "url": "https://www.businessinsider.com/anthropic-watermarking-feature-stops-undetected-ai-generated-writing-2026-8",
+        "origin": "research"
+      },
+      {
+        "label": "digit.fyi",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NUmtYT1UtM0gwRmdiOG5TRHduTjNzTGRfSnp1SmFkVk5HenNvS2ZjN2pVMUlWNFJvZUtqem95NVF3UWRNNGtNM2wyR3JySGFEd3hTMXJPazZKQ1ZpNUdtYUNVMy12SkJXTWw2R1B5ai00M2txeG1uS0ZSM2s?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10eGdicG5wZFg0SzkyU1Q5d0JyNHNvRUNxUmQ2YkNGSFd0RUhEeElOd1FMT1BCYk5SemhmRjBQRndGYVhVX2MxY09TVmwtZE16T0QxNmE0OW01TF91ZllldmxDNU9iQzBoaXBBZXdGX3o?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "azertag.az",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVRjQ2RPRUM3OWRVWXB5elN2VE8wdlAzdEJxZXJfcnBVTlpXcDNnY0dITDBkRE5hVWxjSklrN1Z6S0dYcDFJRnZob1lVczh1VjF6T3l1Rmg0Z0ljM2dVV3RhZEIyWXVRVm1QZl9hYy1NVENKYlAxc3RrRmJ4LWJrWlVVSWUtV053T2lfU1piOE0tWTVvdUlrZ05PVkRpQ21SbTF6bFpzNkRMQzJoX0RaRDdzN0pSRk1odVE0OU1rQkwyQ2x4WUE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "StartupHub.ai",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOElPQ3pVYXlhSXU4NWx5cnFjV2djRm5TQm9VQ0d4Yl9VclRzS0JWOXFFaEZZRnhLZ1VUQV9ZRFFnMUxLbm5SNTBNWDZ0VFU1MDgxYjJtcUlpcXExODFzNHhHMm1MVmQ4Q0pWbExLVXdFa3UyMEZtem1BV0NWTVZwSnpOSExSQmdlWUFac1RMUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Invisible watermarks applied to all Claude-generated text starting August 2, 2026",
+      "Watermarks survive copying and pasting; heavy editing/translation can werase signal",
+      "Deployed across Claude Platform API, chatbot, Code, Cowork, Tag, and cloud services",
+      "Implements EU AI Act Article 50(2) Code of Practice on Transparency",
+      "C2PA signed metadata attached to .svg, .png, .jpg files; can disappear during conversions",
+      "Third-party detection tools will be provided; support for older models in development"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "openai-expands-daybreak-cybersecurity-research-with-new-gpt-56-cyber-model",
     "title": "OpenAI expands Daybreak cybersecurity research with new GPT-5.6-Cyber model",
     "summary": "OpenAI expanded its Daybreak cybersecurity research program with a new GPT-5.6-Cyber model designed for vetted defenders to identify vulnerabilities before attackers exploit them, operating under a two-tiered access system.",
@@ -1050,6 +1179,37 @@
       {
         "label": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc0dRZm9CY1R4NUt2WkRwOTJMZWtmRGR0dHJfbnpYTS1NUTJPdHFFMDhjc1U4b3drcElqYnZJU2xQTWkxY0VvQUdZT0RyclhOTEVOcndNcTZaa25Hb3Z3WC1ua0FSeWxzNjNadUdZUGtGQ3FiZTZIdGV0OGpKRUtBbXh2T1VrUWtqWjVPWDB6eHE0dWJJNE1JTmQ2Z3FmeEJwb1pTUGJ2Xzh3ZzVGdmpFMVFPckxxSHZJUEpPVHJSOWZBUEVDb2drd1g3X191UmlJ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "intel-secondary-offering-experiences-strong-demand-with-one-third-of-investors-unallocated-shares",
+    "title": "Intel secondary offering experiences strong demand with one-third of investors unallocated shares",
+    "summary": "Intel's secondary share offering saw such strong demand that a third of investors received no shares.",
+    "theme": "Markets",
+    "importance": 3,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Intel",
+      "secondary offering",
+      "share allocation",
+      "demand"
+    ],
+    "url": "news/markets/2026-08-11/#intel-secondary-offering-experiences-strong-demand-with-one-third-of-investors-unallocated-shares",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWGVlSjVSdUwySjQ4TnFkN19EcXNNLWhTQ2czazZpMmEta1VjVmpxYmE0bnI5cnBOSnF0ZVpwT3BuaXltUUlFYTRVNV8yX0RMZGhhcGJ1Z3RXRS1zYzkxaEwxMUpNY0lvTjM4YnpjV0hOUXJjRHlzRGhhV0dIWnY4RncxVFZqeDhpWHVjYzc1bnBKdFpCOGlLYklvOEwwclBOeFNmdlVqWXJvYkl2dk5kX3luSmRjSVItN25MeE50eHpGaW5Ia2dLY0lINDZmdFFGZzhsdHJKSzV2RF84QUE?oc=5",
         "origin": "rss"
       }
     ],
@@ -1704,6 +1864,53 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "meta-releases-muse-glimmer-30b-open-weight-model-signaling-return-to-open-source-ai",
+    "title": "Meta Releases Muse Glimmer, 30B Open-Weight Model Signaling Return to Open-Source AI",
+    "summary": "Meta has released Muse Glimmer, a 30-billion parameter open-weight language model with a 120K+ context window designed to run locally on consumer hardware. The release marks Meta's significant return to the open-source AI ecosystem after more than a year and demonstrates the viability of running capable agentic AI workloads on-device, reshaping the competitive landscape between proprietary and open models.",
+    "theme": "AI",
+    "importance": 4,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta",
+      "Muse Glimmer",
+      "open-weight LLM",
+      "local AI",
+      "agentic AI"
+    ],
+    "url": "news/ai/2026-08-11/#meta-releases-muse-glimmer-30b-open-weight-model-signaling-return-to-open-source-ai",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666",
+        "origin": "research"
+      },
+      {
+        "label": "NVIDIA Technical Blog",
+        "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia/",
+        "origin": "research"
+      },
+      {
+        "label": "Towards Data Science",
+        "url": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Meta released Muse Glimmer, a 30B open-weight dense model with 120K+ context window",
+      "The model is designed for local, on-device deployment and agentic AI workflows on consumer hardware like NVIDIA GPUs",
+      "This represents Meta's first major open-weight model release in over a year",
+      "Independent testing shows a 122B variant achieving 80/100 performance parity with Claude while costing 787× less per task"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "anthropic-adds-invisible-watermarks-to-claude-generated-text-globally",
     "title": "Anthropic adds invisible watermarks to Claude-generated text globally",
     "summary": "Anthropic announced it will embed invisible, machine-readable watermarks in all Claude-generated text and attach signed provenance metadata to supported file types globally, complying with EU AI Act transparency requirements. The watermarks are designed to persist through copying and pasting, though heavy editing or format changes may strip them.",
@@ -2032,6 +2239,44 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "widespread-aitm-phishing-campaign-hijacks-microsoft-365-accounts-to-steal-payroll-data",
+    "title": "Widespread AitM Phishing Campaign Hijacks Microsoft 365 Accounts to Steal Payroll Data",
+    "summary": "Cybersecurity researchers have identified an active, large-scale phishing campaign using adversary-in-the-middle (AitM) techniques to compromise Microsoft 365 accounts across multiple sectors. The attackers use voicemail-themed emails and residential proxies to capture credentials and MFA codes, then harvest payroll and finance-related emails from compromised accounts.",
+    "theme": "Email Security",
+    "importance": 4,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AitM phishing",
+      "Microsoft 365",
+      "credential theft",
+      "MFA bypass",
+      "payroll attacks"
+    ],
+    "url": "news/email-security/2026-08-11/#widespread-aitm-phishing-campaign-hijacks-microsoft-365-accounts-to-steal-payroll-data",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Hundreds of organizations targeted across healthcare, education, manufacturing, government, and professional services in the U.S., Canada, and Europe",
+      "Campaign uses six-stage redirection chain through Google, Google Meet, Google Ads, and Amazon S3 to bypass email filters",
+      "Attackers employ residential proxies to mask malicious sign-ins as ordinary consumer traffic and maintain compromised sessions every ~8 hours",
+      "Activity shares tactical overlaps with Microsoft-tracked Payroll Pirate (Storm-2755) and Storm-2657 threat clusters dating to early 2025",
+      "Phishing pages fingerprint victim browsers and systems, capturing OS, browser, timezone, and WebDriver status before redirecting to AitM infrastructure"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "openai-expands-daybreak-cybersecurity-program-with-gpt-56-cyber-model",
     "title": "OpenAI expands Daybreak cybersecurity program with GPT-5.6-Cyber model",
     "summary": "OpenAI expanded its Daybreak cybersecurity program with two access tiers and launched GPT-5.6-Cyber, a specialized model for security researchers that completed 95% of advanced vulnerability tasks compared to 1.5% for standard safeguards. The model has already identified multiple previously unknown vulnerabilities in major software systems.",
@@ -2309,6 +2554,54 @@
       "Discovered 2 Chrome V8 vulnerabilities, 5+ mobile OS flaws, 3 database vulnerabilities, 400+ kernel privilege-escalation bugs",
       "Reference customers include SpecterOps, Palo Alto Networks, IBM, CrowdStrike",
       "SpecterOps completed work in under a day that earlier models failed over weeks"
+    ],
+    "researched": true
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "openai-valuation-reaches-852-billion-following-employee-secondary-share-sale",
+    "title": "OpenAI valuation reaches $852 billion following employee secondary share sale",
+    "summary": "OpenAI completed a $7 billion employee share buyback at an $852 billion valuation, marking the company's third major liquidity event as it moves toward a potential public offering.",
+    "theme": "AI",
+    "importance": 4,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "valuation",
+      "funding",
+      "secondary sale",
+      "ChatGPT"
+    ],
+    "url": "news/gpt/2026-08-11/#openai-valuation-reaches-852-billion-following-employee-secondary-share-sale",
+    "sources": [
+      {
+        "label": "Bitget News",
+        "url": "https://www.google.com/goto?url=CAESbQHuR6pNN-jzCjuMkjVSETED6iYcOdWQXrLlxYEToW7djmJhzqJzrVSWCInax_CKHeqJwQaFZVVw_uxJD7LNSbPhVL42_bgqwnAybi8h5zWhCqjNKLjabWb74M3DVl0T9Xp1Iv2DAtykhrFe2Mc%3D",
+        "origin": "research"
+      },
+      {
+        "label": "BigGo Finance",
+        "url": "https://www.google.com/goto?url=CAESewHuR6pNAsR0gULv6CuJ8NBsuWgWjWY5D4lZSvew8GJ6_RmId3tTCncDIyXgIFm2i72KDdwlMlXThe4X9ndHm5xq-qS7SwyRF-Jx3WNmzd5W6DM7nku_u7SRXK72u4yzxodlMP_uj3b4AOp3RfN3RmzR1ozm8GDd95pntw%3D%3D",
+        "origin": "research"
+      },
+      {
+        "label": "ibtimes.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0VlanRNSjJGNlhyenNCNUJWcElwdHAwMklsV2llcndra2RDVF9nTHM0bkNZaUhuTl9xXzh4dWpQZjNJbkhkZHZ4YW45RFN3Y3pPTnNvMHVSVjJ0X2xIbGJ4bGszYzBndnVVRmFsWkRMeDdYbTJPcEZIQVFXVlRrUUphdjI0bUJVa2hvdVRodTBIdHRhbUo0TmRySENZRUJvUllZTmZoUmhFUzNCY3gxU0JybVMxeXQz?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "$7 billion self-funded employee share repurchase on August 10, 2026",
+      "$852 billion valuation—same as March 2026 funding round",
+      "600+ employees participated; average individual proceeds of $11 million",
+      "Third liquidity event: $1.5B (2024), $6.6B (Oct 2025), $7B (Aug 2026)",
+      "Anthropic valued higher at $965 billion on secondary markets"
     ],
     "researched": true
   },
