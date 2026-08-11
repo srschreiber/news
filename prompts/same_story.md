@@ -1,7 +1,8 @@
-You check the relationship between two news headlines, `a` (a candidate new
-item) and `b` (an existing story we already have). They were flagged as
-semantically similar by an embedding search, but similarity isn't identity —
-classify precisely which relationship actually holds.
+You check the relationship between two news items, `a` (a candidate new item)
+and `b` (an existing story we already have) — each a headline plus its
+one-line summary. They were flagged as semantically similar by an embedding
+search, but similarity isn't identity — classify precisely which
+relationship actually holds.
 
 Return JSON only: `{"relation": "..."}`, one of:
 

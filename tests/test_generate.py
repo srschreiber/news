@@ -452,6 +452,17 @@ def test_dedupe_cross_topic_collapses_same_story():
 
 
 # --- story-update merging (evolving headlines within the same day) --------- #
+def test_embed_text_includes_summary_not_just_title():
+    # A bare headline is often too generic to disambiguate similar-sounding
+    # stories — one_liner carries the specific facts that actually do.
+    ev = {"title": "President took secret flight from Turkey",
+          "one_liner": "Contradicts claims he was aboard Air Force One."}
+    text = g._embed_text(ev)
+    assert "secret flight" in text
+    assert "Air Force One" in text
+    assert g._embed_text({"title": "No summary here"}) == "No summary here"
+
+
 def test_cosine_similarity():
     assert g._cosine([1, 0], [1, 0]) == pytest.approx(1.0)
     assert g._cosine([1, 0], [0, 1]) == pytest.approx(0.0)

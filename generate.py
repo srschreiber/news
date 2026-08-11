@@ -1488,7 +1488,16 @@ def _cosine(a: list[float], b: list[float]) -> float:
     return dot / (na * nb) if na and nb else 0.0
 
 
-def _classify_relation(title_a: str, title_b: str) -> str:
+def _embed_text(ev: dict) -> str:
+    """Text representation of an event for embedding/matching. Title alone is
+    often too generic to disambiguate similar-sounding stories (e.g. two
+    different Iran-related security stories) — one_liner carries the specific
+    facts (who, what, how) that actually distinguish one event from another."""
+    summary = (ev.get("one_liner") or "").strip()
+    return f"{ev['title']} {summary}".strip()
+
+
+def _classify_relation(text_a: str, text_b: str) -> str:
     """Cheap Haiku classification before committing to an embedding-suggested
     merge: duplicate/update (same event — merge), follow_on (caused by but
     distinct, e.g. an aftershock — link, don't merge), related (same subject,
@@ -1502,7 +1511,7 @@ def _classify_relation(title_a: str, title_b: str) -> str:
             output_config={"format": {"type": "json_schema", "schema": SAME_STORY_SCHEMA}},
             system=_sys("same_story.md"),
             messages=[{"role": "user",
-                      "content": json.dumps({"a": title_a, "b": title_b}, ensure_ascii=False)}],
+                      "content": json.dumps({"a": text_a, "b": text_b}, ensure_ascii=False)}],
         )
         METRICS.add("(merge-check)", READ_MODEL, resp.usage)
         return json.loads(_text_of(resp)).get("relation", "new")
@@ -1571,7 +1580,7 @@ def _merge_new_events(
     embeddings_ok = False
     if candidates:
         need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev]
-        texts = [c["title"] for c in candidates] + [ev["title"] for ev in need_stored_embed]
+        texts = [_embed_text(c) for c in candidates] + [_embed_text(ev) for ev in need_stored_embed]
         vecs = _voyage_embed(texts)
         if vecs is not None and len(vecs) == len(texts):
             embeddings_ok = True
@@ -1599,7 +1608,7 @@ def _merge_new_events(
                 if score > best_score:
                     best_id, best_score = sid, score
             if best_id and best_score >= MERGE_COS_THRESHOLD:
-                relation = _classify_relation(ev["title"], by_id[best_id]["title"])
+                relation = _classify_relation(_embed_text(ev), _embed_text(by_id[best_id]))
                 if relation in _MERGE_RELATIONS:
                     match_id = best_id
                 elif relation in ("follow_on", "related"):
