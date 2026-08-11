@@ -87,8 +87,10 @@ stories, in order:
    in the same topic. Above a threshold, a cheap Haiku call classifies the
    relationship: `duplicate`/`update` (merge), `follow_on` (a distinct but
    caused-by event — an aftershock, a lawsuit filed over an incident — gets
-   its own story, cross-linked from the original via "See also"), `related`
-   (same subject, different event — no link), or `new`. Requires
+   its own story, cross-linked from the original via "See also" — shown
+   everywhere that story appears, including the home/feed/topic widgets, not
+   just its daily page), `related` (same subject, different event — no
+   link), or `new`. Requires
    `VOYAGE_API_KEY`; if it's unset or the embed call fails, no match is
    attempted for that event — it fails closed as a new story rather than
    merging on unvalidated evidence.
@@ -149,6 +151,13 @@ reads are capped at 1000 tokens each — enough for a news article lede.
 
 ## Layout
 
+Nav is intentionally minimal (Home · Words · Facts · Search) — the home page
+aggregates every feed/topic with its own filters, so there's rarely a reason
+to browse to a dedicated page. `feeds/*.md`, `topics/*.md`, and `archive.md`
+still build and are fully reachable by direct URL (a home-page share link,
+a bookmark, search) — they're just not offered as a nav tree to click
+through. See `not_in_nav` in `mkdocs.yml`.
+
 ```
 sources.yaml            # feeds + Google News queries + research/editorial config
 prompts/                # cluster.md, read.md, write.md, rollup.md (edit freely)
@@ -159,6 +168,7 @@ embedding_cache.json    # last N days' embeddings for cross-day story matching
                         # (internal only — not part of the public site)
 docs/
   index.md  archive.md  search.md  tags.md
+  feeds/<feed>.md  topics/<topic>.md   # not in the nav tree, still built
   news/<topic>/YYYY-MM-DD.md
   weekly|monthly|yearly/<topic>/...
   search-index.json     # per-event index for keyword search

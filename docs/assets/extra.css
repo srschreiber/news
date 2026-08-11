@@ -308,6 +308,11 @@
   font-variant-numeric: tabular-nums;
   color: var(--md-default-fg-color--light);
 }
+.pv-related {
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+}
 
 .pv-meta-row {
   margin-top: 0.3rem;
@@ -315,6 +320,8 @@
   color: var(--md-default-fg-color--light);
 }
 .pv-meta-label {
+  display: inline-block;
+  min-width: 4.6rem;
   font-weight: 600;
   margin-right: 0.15rem;
 }

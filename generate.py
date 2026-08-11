@@ -1734,7 +1734,8 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
             "one_liner": r.get("summary", ""),
             "topics": r.get("topics", []),
             "date": date,
-            "md_url": _index_url_to_md(r["url"]),
+            "md_url": _index_url_to_md(r["url"]),  # for the markdown-rendered daily doc
+            "url": r["url"],  # raw directory-URL form, for the JS-rendered period-view widget
             "lineage_id": r.get("lineage_id", ""),
         }
     save_embedding_cache(cache)
@@ -1878,7 +1879,8 @@ def _merge_new_events(
                 relation = _classify_relation(_embed_text(ev), cand_text)
                 if relation in _MERGE_RELATIONS:
                     ev["updates_title"] = best["title"]
-                    ev["updates_url"] = best["md_url"]
+                    ev["updates_url"] = best["md_url"]  # markdown-relative, for render_briefing
+                    ev["updates_index_url"] = best.get("url", "")  # directory-URL, for search-index/period-view
                     ev["received_at"] = now_iso
                     # Inherit the chain's stable id (not this copy's own
                     # event_id) so every link in a multi-day chain shares one
@@ -1935,8 +1937,20 @@ def build_search_index(shown: list[tuple], date: str) -> None:
     full `topics` list and a canonical `url` into the topic doc where it's shown.
     `shown` is a list of (event, display_topic) pairs."""
     index = [r for r in load_search_index() if r.get("date") != date]
+    base_dir = KIND_DIR["daily"].name
+    # related_to points at another event_id shown today (a distinct-but-connected
+    # story) — resolve it to that event's own title/url here, once, so the
+    # client doesn't need a second lookup. If that target didn't make the cut
+    # for display today, it's simply omitted (not every clustered event ships).
+    shown_by_id = {
+        (ev.get("event_id") or slugify(ev["title"])): {
+            "title": ev["title"],
+            "url": f"{base_dir}/{dt_}/{date}/#{slugify(ev['title'])}",
+        }
+        for ev, dt_ in shown
+    }
     for ev, display_topic in shown:
-        base_dir = KIND_DIR["daily"].name
+        related = shown_by_id.get(ev.get("related_to"))
         index.append(
             {
                 "date": date,
@@ -1955,6 +1969,10 @@ def build_search_index(shown: list[tuple], date: str) -> None:
                 "researched": bool(ev.get("researched", False)),
                 "received_at": ev.get("received_at", ""),
                 "lineage_id": ev.get("lineage_id", ""),
+                "related_title": related["title"] if related else "",
+                "related_url": related["url"] if related else "",
+                "updates_title": ev.get("updates_title", ""),
+                "updates_url": ev.get("updates_index_url", ""),
             }
         )
     index.sort(key=lambda r: (r["date"], -r.get("importance", 0)), reverse=True)
@@ -1984,7 +2002,7 @@ def quiet_day_body(topic: str) -> str:
     return f"## TL;DR\n\n- Quiet day — no notable {topic} news in this window.\n"
 
 
-def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
+def render_briefing(events: list[dict], topic: str) -> str:
     """Deterministically render a briefing from Stage-1 events — no Stage 2, no
     web research. Uses the one-sentence summary Haiku already produced. Cheapest
     path; also guarantees format (meters, anchors, citations)."""
@@ -1993,10 +2011,7 @@ def render_briefing(events: list[dict], topic: str, tldr_n: int = 6) -> str:
     ev = sorted(events, key=lambda e: e.get("importance", 0), reverse=True)
     title_by_id = {e["event_id"]: e["title"] for e in ev if e.get("event_id")}
 
-    lines = ["## TL;DR", ""]
-    for e in ev[:tldr_n]:
-        lines.append(f"- {meter(e.get('importance', 0))} [{e['title']}](#{slugify(e['title'])})")
-    lines.append("")
+    lines: list[str] = []
 
     by_theme: dict[str, list[dict]] = {}
     order: list[str] = []
@@ -2150,6 +2165,10 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
         "feeds": [{"key": fk, "title": feeds[fk]["title"]} for fk in r.get("feeds", []) if fk in feeds],
         "researched": bool(r.get("researched", False)),
         "receivedAt": r.get("received_at") or "",
+        "relatedTitle": r.get("related_title") or "",
+        "relatedUrl": r.get("related_url") or "",
+        "updatesTitle": r.get("updates_title") or "",
+        "updatesUrl": r.get("updates_url") or "",
     }
 
 

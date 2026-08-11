@@ -233,12 +233,11 @@ def test_render_briefing():
          "theme": "Languages", "keywords": [], "sources": []},
     ]
     body = g.render_briefing(events, "golang")
-    assert body.startswith("## TL;DR")
-    assert "[Go 1.18 ships generics](#go-118-ships-generics)" in body
+    assert body.startswith("## Languages")   # no TL;DR block — straight into themes
     assert '<span class="imp imp-' in body   # custom signal-bar meter
     assert "### " in body and "Go 1.18 ships generics" in body  # bars now part of heading
     assert "Sources: [go.dev](https://go.dev)" in body
-    # highest importance first in TL;DR
+    # highest importance first within the theme
     assert body.index("Go 1.18") < body.index("Minor patch")
 
 
@@ -582,6 +581,69 @@ def test_merge_new_events_cross_day_skipped_without_embeddings():
 def test_index_url_to_md_converts_directory_url_to_relative_markdown_link():
     assert g._index_url_to_md("news/tech/2026-08-10/#some-slug") == \
         "../tech/2026-08-10.md#some-slug"
+
+
+def test_build_search_index_resolves_related_to_link(tmp_path, monkeypatch):
+    monkeypatch.setattr(g, "SEARCH_INDEX_FILE", tmp_path / "search-index.json")
+    original = {"title": "Colombia earthquake kills at least 111 people",
+                "event_id": "colombia-earthquake-kills-at-least-111-people",
+                "topics": ["world"], "feeds": ["world"], "importance": 4,
+                "keywords": [], "sources": [], "takeaways": []}
+    follow_on = {"title": "Colombia declares national mourning",
+                 "event_id": "colombia-declares-national-mourning",
+                 "topics": ["world"], "feeds": ["world"], "importance": 3,
+                 "keywords": [], "sources": [], "takeaways": [],
+                 "related_to": "colombia-earthquake-kills-at-least-111-people"}
+    g.build_search_index([(original, "world"), (follow_on, "world")], "2026-08-11")
+
+    rec = next(r for r in g.load_search_index()
+               if r["event_id"] == "colombia-declares-national-mourning")
+    assert rec["related_title"] == "Colombia earthquake kills at least 111 people"
+    assert rec["related_url"] == \
+        "news/world/2026-08-11/#colombia-earthquake-kills-at-least-111-people"
+
+
+def test_build_search_index_related_to_missing_target_omitted(tmp_path, monkeypatch):
+    # related_to points at an event that didn't make the cut for display
+    # today — no crash, just no related link on the record.
+    monkeypatch.setattr(g, "SEARCH_INDEX_FILE", tmp_path / "search-index.json")
+    ev = {"title": "Solo story", "event_id": "solo-story", "topics": ["world"],
+          "feeds": ["world"], "importance": 3, "keywords": [], "sources": [],
+          "takeaways": [], "related_to": "never-shown-event"}
+    g.build_search_index([(ev, "world")], "2026-08-11")
+    rec = g.load_search_index()[0]
+    assert rec["related_title"] == ""
+    assert rec["related_url"] == ""
+
+
+def test_build_search_index_carries_updates_fields(tmp_path, monkeypatch):
+    monkeypatch.setattr(g, "SEARCH_INDEX_FILE", tmp_path / "search-index.json")
+    ev = {"title": "Colombia earthquake death toll rises sharply overnight",
+          "event_id": "colombia-earthquake-death-toll-rises-sharply-overnight",
+          "topics": ["world"], "feeds": ["world"], "importance": 5,
+          "keywords": [], "sources": [], "takeaways": [],
+          "updates_title": "Colombia earthquake kills at least 111 people",
+          "updates_index_url": "news/world/2026-08-10/#colombia-earthquake-kills-at-least-111-people"}
+    g.build_search_index([(ev, "world")], "2026-08-11")
+    rec = g.load_search_index()[0]
+    assert rec["updates_title"] == "Colombia earthquake kills at least 111 people"
+    assert rec["updates_url"] == \
+        "news/world/2026-08-10/#colombia-earthquake-kills-at-least-111-people"
+
+
+def test_period_item_carries_related_and_updates_fields():
+    r = {
+        "title": "T", "url": "news/world/2026-08-11/#t", "importance": 3, "date": "2026-08-11",
+        "summary": "s", "takeaways": [], "sources": [], "topics": [], "feeds": [],
+        "related_title": "Earlier story", "related_url": "news/world/2026-08-11/#earlier",
+        "updates_title": "Yesterday's story", "updates_url": "news/world/2026-08-10/#yesterday",
+        "received_at": "2026-08-11T15:00:00+00:00",
+    }
+    item = g._period_item(r)
+    assert item["relatedTitle"] == "Earlier story"
+    assert item["relatedUrl"] == "news/world/2026-08-11/#earlier"
+    assert item["updatesTitle"] == "Yesterday's story"
+    assert item["updatesUrl"] == "news/world/2026-08-10/#yesterday"
 
 
 def test_embedding_cache_round_trip(tmp_path, monkeypatch):

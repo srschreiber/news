@@ -191,8 +191,9 @@
         var badge = r.researched ? ' <span class="src-badge src-research">AI Researched</span>' : "";
         var dateNote = period !== "daily" ? '<span class="pv-date">' + esc(r.date) + "</span>" : "";
         html += '<li class="pv-item">';
-        html += '<div class="pv-title">' + meter(r.importance) + ' <a href="' + href + '">' +
-          esc(r.title) + "</a>" + badge + (dateNote ? " " + dateNote : "") +
+        html += '<div class="pv-title">' + meter(r.importance) +
+          ' <span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
+          badge + (dateNote ? " " + dateNote : "") +
           ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
           'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
         if (r.summary) html += '<div class="pv-summary">' + esc(r.summary) + "</div>";
@@ -214,6 +215,14 @@
         }
         var localReceived = localTime(r.receivedAt);
         if (localReceived) html += '<div class="pv-received">Received ' + localReceived + "</div>";
+        if (r.relatedTitle && r.relatedUrl) {
+          html += '<div class="pv-related">See also: <a href="' + prefix + r.relatedUrl + '">' +
+            esc(r.relatedTitle) + "</a></div>";
+        }
+        if (r.updatesTitle && r.updatesUrl) {
+          html += '<div class="pv-related">Update to: <a href="' + prefix + r.updatesUrl + '">' +
+            esc(r.updatesTitle) + "</a></div>";
+        }
         html += "</li>";
       });
       html += "</ul>";
@@ -276,10 +285,15 @@
       });
     });
     mount.querySelectorAll("[data-share-index]").forEach(function (btn) {
-      var link = btn.parentElement && btn.parentElement.querySelector("a[href]");
-      if (!link) return;
+      var titleEl = btn.parentElement && btn.parentElement.querySelector("[data-url]");
+      if (!titleEl) return;
+      // Titles aren't links (clicking one would land on a page showing the
+      // same info already visible here) — resolve the relative URL to
+      // absolute via a detached <a> purely so the copied link still works.
+      var resolver = document.createElement("a");
+      resolver.href = titleEl.getAttribute("data-url");
+      var url = resolver.href;
       btn.addEventListener("click", function () {
-        var url = link.href;  // browser-resolved absolute URL, incl. #fragment
         var flash = function () {
           btn.classList.add("copied");
           btn.textContent = "✓ copied";

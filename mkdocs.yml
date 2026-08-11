@@ -52,47 +52,20 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-# Nav is intentionally minimal — index.md is the hub (regenerated each run),
-# and MkDocs auto-discovers the dated topic pages. The custom keyword search
-# lives at search.md alongside Material's built-in search.
+# Nav is intentionally minimal — index.md is the hub (regenerated each run)
+# and is meant to be where people mostly stay: it aggregates every feed/topic
+# with its own filters, so there's rarely a reason to browse to a dedicated
+# feed/topic page. Those pages (docs/feeds/*.md, docs/topics/*.md) still
+# build and are fully reachable by direct URL — from a home-page share link,
+# a bookmark, or search — just not offered as a nav tree to click through.
+# The custom keyword search lives at search.md alongside Material's built-in
+# search.
 nav:
   - Home: index.md
-  # Feed + topic pages are generated each run (docs/feeds/*.md, docs/topics/*.md);
-  # titles carry story counts. Keep this tree in sync with `feeds:` in
-  # sources.yaml — a feed is its overview page followed by its topic pages.
-  - Feeds:
-      - Technology:
-          - Top stories: feeds/technology.md
-          - topics/tech.md
-          - topics/ai.md
-          - topics/anthropic.md
-          - topics/gpt.md
-          - topics/security.md
-          - topics/email-security.md
-          - topics/golang.md
-          - topics/python.md
-          - topics/postgres.md
-          - "Computer Science": topics/tech-research.md
-      - World:
-          - Top stories: feeds/world.md
-          - topics/world.md
-          - topics/markets.md
-      - Science:
-          - Top stories: feeds/science.md
-          - topics/science.md
-          - topics/space.md
-          - topics/health.md
-          - "Diet & Exercise": topics/diet-exercise.md
-      - Environment:
-          - Top stories: feeds/environment.md
-          - "Climate & Ecological Resilience": topics/climate-resilience.md
-          - "Climate Change": topics/climate-change.md
-          - Conservation: topics/conservation.md
   - Words:
       - All words: words.md
       - Quiz: quiz.md
   - Facts: facts.md
-  - Archive: archive.md
   - Search: search.md
 
 not_in_nav: |
@@ -100,6 +73,9 @@ not_in_nav: |
   weekly/**
   monthly/**
   yearly/**
+  feeds/**
+  topics/**
+  archive.md
 
 # The design spec lives under docs/ for repo convenience but isn't part of the
 # published site.
