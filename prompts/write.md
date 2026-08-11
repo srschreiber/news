@@ -6,8 +6,9 @@ one_liner. You have no tools — work only from what's given.
 Return `{"events": [{ref, summary, takeaways}, ...]}` — one entry per input
 event, echoing its `ref` verbatim.
 
-- **`summary`** — 1–2 sentences: what happened and, in a clause, why it matters.
-  This is the lead, not the whole story. Facts only — no fluff, hype, or hedging.
+- **`summary`** — 1–2 sentences MAX (≤ 280 characters): what happened and why it
+  matters. Lead sentence only — not the whole story. Facts only, no fluff. If you
+  are writing a third sentence, stop and cut.
 - **`takeaways`** — an array of short bullet strings pulling out the key concrete
   facts a reader would want at a glance: numbers, versions, prices, benchmarks,
   dates, names. Fact-first and terse (aim ≤ 15 words each, no trailing period

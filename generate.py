@@ -228,7 +228,7 @@ POLISH_SCHEMA = {
                 "type": "object",
                 "properties": {
                     "ref": {"type": "string"},
-                    "summary": {"type": "string"},
+                    "summary": {"type": "string", "maxLength": 300},
                     "takeaways": {"type": "array", "items": {"type": "string"}},
                 },
                 "required": ["ref", "summary", "takeaways"],
@@ -248,7 +248,7 @@ FALLBACK_SCHEMA = {
     "properties": {
         "found": {"type": "boolean"},
         "title": {"type": "string"},
-        "summary": {"type": "string"},
+        "summary": {"type": "string", "maxLength": 300},
         "takeaways": {"type": "array", "items": {"type": "string"}},
         "importance": {"type": "integer"},
         "keywords": {"type": "array", "items": {"type": "string"}},
@@ -2158,7 +2158,7 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
         "url": r["url"],
         "importance": r.get("importance", 0),
         "date": r["date"],
-        "summary": (r.get("summary") or "").strip(),
+        "summary": (r.get("summary") or "").strip()[:300],
         "takeaways": [t.strip() for t in r.get("takeaways", []) if t.strip()],
         "sources": [
             {"label": s["label"], "url": s["url"], "origin": s.get("origin", "rss")}
