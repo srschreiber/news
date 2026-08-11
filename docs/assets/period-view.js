@@ -221,7 +221,7 @@
             srcs + "</div>";
         }
         var localReceived = localTime(r.receivedAt);
-        if (localReceived) html += '<div class="pv-received">Received ' + localReceived + "</div>";
+        if (localReceived) html += '<div class="pv-received">Last updated ' + localReceived + "</div>";
         if (r.relatedTitle && r.relatedUrl) {
           html += '<div class="pv-related">See also: <a href="' + prefix + r.relatedUrl + '">' +
             esc(r.relatedTitle) + "</a></div>";
