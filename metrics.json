@@ -1,5 +1,106 @@
 [
   {
+    "timestamp": "2026-08-11T16:45:08.742621+00:00",
+    "mode": "daily",
+    "calls": 30,
+    "web_searches": 21,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 92199,
+        "output": 10323,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-sonnet-5": {
+        "input": 10098,
+        "output": 4654,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.2649,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 7778,
+            "output": 3214,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0238
+      },
+      "(fallback)": {
+        "calls": 1,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3580,
+            "output": 322,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0062
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 384,
+            "output": 47,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0006
+      },
+      "(merge-check)": {
+        "calls": 6,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3305,
+            "output": 54,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0036
+      },
+      "(read)": {
+        "calls": 20,
+        "web_searches": 20,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 77152,
+            "output": 6686,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1306
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-sonnet-5": {
+            "input": 10098,
+            "output": 4654,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1001
+      }
+    }
+  },
+  {
     "timestamp": "2026-08-11T16:07:15.948890+00:00",
     "mode": "backfill",
     "calls": 22,
