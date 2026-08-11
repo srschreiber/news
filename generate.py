@@ -1981,8 +1981,6 @@ def rebuild_index() -> None:
     if wotd:
         record_word_of_the_day(wotd)
         lines += _wotd_card(wotd)
-    lines += ["## Top stories", ""]
-    lines += _period_view_block(load_search_index(), feeds=feeds)
     fact = fetch_fact_of_the_day()
     if fact:
         lines += _fact_card(fact)
@@ -1990,6 +1988,8 @@ def rebuild_index() -> None:
     if fun:
         record_fun_fact(fun)
         lines += _funfact_card(fun)
+    lines += ["## Top stories", ""]
+    lines += _period_view_block(load_search_index(), feeds=feeds)
     lines += [
         "",
         "---",
