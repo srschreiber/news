@@ -116,6 +116,7 @@
     html += "</div>";
 
     var periodPool = DATA[period] || [];
+    html += '<div class="pv-filters">';
 
     if (!scopeFeed && ALL_FEEDS.length > 1) {
       var feedCounts = countBy("feeds", periodPool);
@@ -141,11 +142,12 @@
       html += "</select></label></div>";
     }
 
-    html += '<div class="pv-sort"><label>Sort ' +
+    html += '<div class="pv-filter pv-sort"><label>Sort ' +
       '<select id="pv-sort-select">' +
       '<option value="importance"' + (sortBy === "importance" ? " selected" : "") + ">Importance</option>" +
       '<option value="date"' + (sortBy === "date" ? " selected" : "") + ">Date</option>" +
-      "</select></label></div></div>";
+      "</select></label></div>";
+    html += "</div></div>";
 
     if (!list.length) {
       html += '<p class="pv-empty">No stories in this window yet.</p>';

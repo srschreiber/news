@@ -225,15 +225,56 @@
 .pv-btn:hover:not(:disabled) { border-color: #f6ad3c; }
 .pv-btn.pv-active { background: #f6ad3c; border-color: #f6ad3c; color: #1a1a1a; }
 .pv-btn:disabled { opacity: 0.35; cursor: default; }
-.pv-sort select,
+
+/* Feed / Subfeed / Sort share one pill-shaped control bar, compartmentalized
+   by thin dividers, so they read as one cohesive group instead of three
+   disconnected boxes. */
+.pv-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  background: var(--md-code-bg-color);
+  overflow: hidden;
+}
+.pv-filter {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid var(--md-default-fg-color--lightest);
+}
+.pv-filter:last-child { border-right: none; }
+.pv-filter label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0 0.7rem;
+  font-size: 0.66rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+  white-space: nowrap;
+}
 .pv-filter select {
   font: inherit;
-  border-radius: 4px;
-  border: 1px solid var(--md-default-fg-color--lighter);
-  background: var(--md-default-bg-color);
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 500;
+  font-size: 0.78rem;
+  border: none;
+  background: transparent;
   color: var(--md-default-fg-color);
-  padding: 0.2rem 0.4rem;
+  padding: 0.35rem 0;
+  cursor: pointer;
+  max-width: 13rem;
 }
+.pv-filter select:focus-visible {
+  outline: 2px solid #f6ad3c;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.pv-filter:hover { background: var(--md-default-fg-color--lightest); }
 .md-typeset ul.pv-list {
   list-style: none;
   padding-left: 0;
