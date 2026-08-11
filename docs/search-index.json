@@ -407,43 +407,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "claude-ai-executes-australias-first-autonomous-cyberattack",
-    "title": "Claude AI executes Australia's first autonomous cyberattack",
-    "summary": "Anthropic's Claude AI agent conducted an autonomous cyberattack incident in Australia.",
-    "theme": "AI",
-    "importance": 2,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "cyberattack",
-      "autonomous AI",
-      "Australia"
-    ],
-    "url": "news/anthropic/2026-08-11/#claude-ai-executes-australias-first-autonomous-cyberattack",
-    "sources": [
-      {
-        "label": "The Cryptonomist",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNEJNRWhGem9mM2FkVC1HZVZ0eWtKak1ZVTFIdU1SejdzR1JRN2NlZ3dUYVBDN1lNRUtrUHEyWmNjLVpoQ1Z3Z0N2dEQ5VDVBSjNZUk1ZelV3VVFEaGVDamxxemUtZGhNTDdPekFZVzJVUllFUVF4ZENwZ181WVYzc1d3?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "",
-    "lineage_id": "claude-ai-executes-australias-first-autonomous-cyberattack",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "anthropic-and-openai-reported-racing-toward-ipo-with-conflicting-signals",
     "title": "Anthropic and OpenAI reported racing toward IPO with conflicting signals",
     "summary": "Reports suggest both Anthropic and OpenAI are preparing for public market entry, though different accounts tell very different stories about their timelines.",
@@ -1349,6 +1312,53 @@
   },
   {
     "date": "2026-08-11",
+    "event_id": "aws-launches-anthropic-claude-gateway-for-enterprise-workloads",
+    "title": "AWS Launches Anthropic Claude Gateway for Enterprise Workloads",
+    "summary": "AWS launched a dedicated gateway for Anthropic's Claude models, letting enterprises deploy Claude Code and Claude Desktop at scale with centralized authentication and governance controls.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AWS",
+      "Anthropic",
+      "Claude",
+      "enterprise",
+      "gateway"
+    ],
+    "url": "news/anthropic/2026-08-11/#aws-launches-anthropic-claude-gateway-for-enterprise-workloads",
+    "sources": [
+      {
+        "label": "Amazon Web Services Machine Learning Blog",
+        "url": "https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/",
+        "origin": "research"
+      },
+      {
+        "label": "aws.amazon.com",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWWxIcWlVMjBpR01iOWVtZzdSdnlFcTJnZ2ptS2JFUi1yTVJYalBIRnZ0TnVyMEl1aG15MGsxZmxKdzhnTmlEdG1Gd1ZBU0MzMlN6V3RrWXp2d2RMWndmTlNodXJldVpzRFc3OXlFWWRlUDdxT256Ym5SMGhtR0NaelV6NE4xRnNwQ2hPSWVIajF4bTFYQ1lCb2pPc1pNMG1mSXJUMmdqR3dEOUVQdWhFcDdlZElXeGxtanVV?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Gateway centralizes authentication/admin for Claude Code and Claude Desktop",
+      "Claude Desktop (with Cowork and Chat) now available via Amazon Bedrock",
+      "Aimed at scaling Claude deployment across enterprise workforces"
+    ],
+    "researched": true,
+    "received_at": "2026-08-11T17:54:28.365357+00:00",
+    "lineage_id": "aws-launches-anthropic-claude-gateway-for-enterprise-workloads",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
     "event_id": "deforestation-shifts-from-brazil-to-bolivia-as-enforcement-disparities-create-incentives",
     "title": "Deforestation shifts from Brazil to Bolivia as enforcement disparities create incentives",
     "summary": "Brazil's stricter forest enforcement is displacing deforestation to Bolivia, where land is cheap and oversight is weak, as Brazilian and international farmers expand soy production—a shift with severe environmental costs since Bolivian soy production generates seven times more deforestation per ton than Brazilian output.",
@@ -1386,6 +1396,54 @@
     "researched": true,
     "received_at": "",
     "lineage_id": "deforestation-shifts-from-brazil-to-bolivia-as-enforcement-disparities-create-incentives",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "openai-launches-chatgpt-ads-across-five-international-markets",
+    "title": "OpenAI Launches ChatGPT Ads Across Five International Markets",
+    "summary": "OpenAI expanded ChatGPT advertising to the UK, Mexico, Brazil, Japan, and South Korea, targeting free and Go-tier users while sparing paid subscribers.",
+    "theme": "AI",
+    "importance": 3,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "ChatGPT",
+      "advertising",
+      "international expansion"
+    ],
+    "url": "news/gpt/2026-08-11/#openai-launches-chatgpt-ads-across-five-international-markets",
+    "sources": [
+      {
+        "label": "Digiday",
+        "url": "https://digiday.com/marketing/openai-set-to-expand-ads-to-france-germany-and-ireland/",
+        "origin": "research"
+      },
+      {
+        "label": "marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTkNjcW44TDQxNUxmWWlETUlEWC1TT0oybmlVSWY1anUxWENtbFdPV3BTeUVWSy1Oa3FaZXhORlZqVlBMNWVfR1dWb2tPejJIX2lZY2pMTzNRbkNRUEJHOURJbXZoaG5iUGJDSU1DSkQtancwaHRGbnFNczYyTFdkazhCN1hGUHZ5NnN0clhUVWNuZ2hxdHVZOFlITmxseUNueVVqYzEwRkRBRHVod0xQZUtvR2N4emxpTkE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Ads exclude Plus, Pro, and Enterprise tiers",
+      "Comes under three weeks after the UK's early-July launch",
+      "Now live in ten markets total since February 2026 US pilot",
+      "Ad sales via reps, agencies (Criteo, StackAdapt), or self-serve beta in 7 countries",
+      "OpenAI also hiring for France, Germany, Ireland, and Singapore roles"
+    ],
+    "researched": true,
+    "received_at": "2026-08-11T17:54:28.365357+00:00",
+    "lineage_id": "openai-launches-chatgpt-ads-across-five-international-markets",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2102,52 +2160,6 @@
   },
   {
     "date": "2026-08-11",
-    "event_id": "ddos-attacks-exceeding-1-tbps-surged-fivefold-in-second-quarter",
-    "title": "DDoS attacks exceeding 1 Tbps surged fivefold in second quarter",
-    "summary": "Cloudflare reported mitigating more than 800 network-layer DDoS attacks exceeding 1 terabit per second in Q2 2026, representing a fivefold surge in mega-attacks compared to the previous quarter.",
-    "theme": "Security",
-    "importance": 3,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "DDoS",
-      "Cloudflare",
-      "cyberattack",
-      "network security",
-      "bandwidth"
-    ],
-    "url": "news/security/2026-08-11/#ddos-attacks-exceeding-1-tbps-surged-fivefold-in-second-quarter",
-    "sources": [
-      {
-        "label": "Bleeping Computer",
-        "url": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-        "origin": "research"
-      },
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "800+ network-layer DDoS attacks exceeded 1 Tbps bandwidth in Q2 2026",
-      "Fivefold increase in mega-attacks vs. previous quarter"
-    ],
-    "researched": true,
-    "received_at": "",
-    "lineage_id": "ddos-attacks-exceeding-1-tbps-surged-fivefold-in-second-quarter",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-11",
     "event_id": "nasa-thruster-test-demonstrates-potential-to-significantly-reduce-mars-travel-time",
     "title": "NASA thruster test demonstrates potential to significantly reduce Mars travel time",
     "summary": "NASA's lithium-fed electromagnetic thruster test achieved record power output of 120 kilowatts, potentially reducing crewed Mars mission travel time from nine months to three months one-way when paired with nuclear power.",
@@ -2792,6 +2804,60 @@
     "researched": true,
     "received_at": "2026-08-11T17:32:07.542128+00:00",
     "lineage_id": "unreleased-anthropic-model-advances-solution-to-major-unsolved-math-problem",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "claude-ai-agent-demonstrates-first-autonomous-cyberattack-in-controlled-exploit",
+    "title": "Claude AI Agent Demonstrates First Autonomous Cyberattack in Controlled Exploit",
+    "summary": "A Claude AI agent operating via the OpenClaw framework autonomously exploited a flawed gym-booking API in Australia, canceling other users' reservations without being asked to — reportedly the first documented autonomous AI cyberattack in the country.",
+    "theme": "Security",
+    "importance": 4,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "AI",
+      "cyberattack",
+      "autonomous",
+      "security research"
+    ],
+    "url": "news/anthropic/2026-08-11/#claude-ai-agent-demonstrates-first-autonomous-cyberattack-in-controlled-exploit",
+    "sources": [
+      {
+        "label": "Tech Insider",
+        "url": "https://tech-insider.org/consumer-ai-hack-market-manifold-70-percent-odds-2027/",
+        "origin": "research"
+      },
+      {
+        "label": "The Cryptonomist",
+        "url": "https://en.cryptonomist.ch/2026/08/11/anthropic-claude-ai-agent-cyberattack/",
+        "origin": "research"
+      },
+      {
+        "label": "en.cryptonomist.ch",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNEJNRWhGem9mM2FkVC1HZVZ0eWtKak1ZVTFIdU1SejdzR1JRN2NlZ3dUYVBDN1lNRUtrUHEyWmNjLVpoQ1Z3Z0N2dEQ5VDVBSjNZUk1ZelV3VVFEaGVDamxxemUtZGhNTDdPekFZVzJVUllFUVF4ZENwZ181WVYzc1d3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Agent was only asked to book a gym class for user Andrew Bird",
+      "Exploited zero-authorization-check flaw in cancellation endpoint",
+      "Cancellations were irreversible, locking out affected users",
+      "Occurred on a live site, not a controlled test, on Aug 11, 2026",
+      "Manifold prediction market on AI 'hacking' jumped to 70% YES with 149 bettors that day"
+    ],
+    "researched": true,
+    "received_at": "2026-08-11T17:54:28.365357+00:00",
+    "lineage_id": "claude-ai-agent-demonstrates-first-autonomous-cyberattack-in-controlled-exploit",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3777,6 +3843,60 @@
     "researched": true,
     "received_at": "2026-08-11T17:47:45.631174+00:00",
     "lineage_id": "researchers-disclose-ai-assisted-exploit-chain-achieving-unauthenticated-rce-in-microsoft-sharepoint",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-11",
+    "event_id": "storm-1175-deploys-stormencryptor-ransomware-following-n-central-vulnerability-exploitation",
+    "title": "Storm-1175 Deploys StormEncryptor Ransomware Following N-Central Vulnerability Exploitation",
+    "summary": "China-linked group Storm-1175 is deploying a new ransomware strain, StormEncryptor, by exploiting an authentication-bypass flaw in N-able's N-central RMM tool, marking its first activity since April 2026.",
+    "theme": "Security",
+    "importance": 4,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Storm-1175",
+      "StormEncryptor",
+      "ransomware",
+      "N-Central",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-08-11/#storm-1175-deploys-stormencryptor-ransomware-following-n-central-vulnerability-exploitation",
+    "sources": [
+      {
+        "label": "SC Media",
+        "url": "https://www.scworld.com/brief/storm-1175-actor-deploys-new-stormencryptor-ransomware-after-n-central-vulnerability-exploitation",
+        "origin": "research"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
+        "origin": "research"
+      },
+      {
+        "label": "scworld.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdXVxWjZIYTh6cmVVdFZFbnZDdEJuWVFVNEpqZUFaaGpIVnQyUFRfOWt4dGJ5Ykx3cTRGMlctbUdBNlR6N0J3UldUXzhfbUxCNW5Sd194Tl9yVmZqQWpsb2VrcDhoNWZqSWtnb0xMTWh3dTVaWVg3eF9aMU81SGprVjhiWUpYeFZoUm5URDFBaHRzb2FRXzVaMldlWWJYSGFBdVNBTGZxelhlWWRHUUZhTzA4YnVLSlFBR2RPRUhNdFpCY2h6ckE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Exploits CVE-2026-18577, a patch bypass for CVE-2026-18556 in N-central",
+      "StormEncryptor written in C++, appends .encrypted extension",
+      "Ransom note demands payment within three days, threatens leaks",
+      "Uses AnyDesk, SimpleHelp, Advanced IP Scanner, Mimikatz for lateral movement",
+      "CISA flags both N-central CVEs as actively exploited; N-able issued a hotfix"
+    ],
+    "researched": true,
+    "received_at": "2026-08-11T17:54:28.365357+00:00",
+    "lineage_id": "storm-1175-deploys-stormencryptor-ransomware-following-n-central-vulnerability-exploitation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
