@@ -66,6 +66,17 @@
 
   function hasTag(list, key) { return (list || []).some(function (t) { return t.key === key; }); }
 
+  // Counts for the dropdown labels, e.g. "Science (5)" — scoped to the current
+  // period. Feed counts ignore the subfeed filter (so switching feeds shows
+  // the full picture); subfeed counts respect whichever feed is selected.
+  function countBy(key, pool) {
+    var counts = {};
+    (pool || DATA[period] || []).forEach(function (r) {
+      (r[key] || []).forEach(function (t) { counts[t.key] = (counts[t.key] || 0) + 1; });
+    });
+    return counts;
+  }
+
   function rows() {
     var list = (DATA[period] || []).slice();
     if (feedFilter) list = list.filter(function (r) { return hasTag(r.feeds, feedFilter); });
@@ -104,23 +115,28 @@
     });
     html += "</div>";
 
+    var periodPool = DATA[period] || [];
+
     if (!scopeFeed && ALL_FEEDS.length > 1) {
+      var feedCounts = countBy("feeds", periodPool);
       html += '<div class="pv-filter"><label>Feed ' +
-        '<select id="pv-feed-select"><option value="">All feeds</option>';
+        '<select id="pv-feed-select"><option value="">All feeds (' + periodPool.length + ")</option>";
       ALL_FEEDS.forEach(function (f) {
         html += '<option value="' + esc(f.key) + '"' + (f.key === feedFilter ? " selected" : "") + ">" +
-          esc(f.title) + "</option>";
+          esc(f.title) + " (" + (feedCounts[f.key] || 0) + ")</option>";
       });
       html += "</select></label></div>";
     }
 
+    var subPool = feedFilter ? periodPool.filter(function (r) { return hasTag(r.feeds, feedFilter); }) : periodPool;
     var subOpts = subfeedOptions();
     if (subOpts.length > 1) {
+      var subCounts = countBy("subfeeds", subPool);
       html += '<div class="pv-filter"><label>Subfeed ' +
-        '<select id="pv-subfeed-select"><option value="">All subfeeds</option>';
+        '<select id="pv-subfeed-select"><option value="">All subfeeds (' + subPool.length + ")</option>";
       subOpts.forEach(function (t) {
         html += '<option value="' + esc(t.key) + '"' + (t.key === subfeedFilter ? " selected" : "") + ">" +
-          esc(t.title) + "</option>";
+          esc(t.title) + " (" + (subCounts[t.key] || 0) + ")</option>";
       });
       html += "</select></label></div>";
     }
