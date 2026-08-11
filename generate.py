@@ -2853,12 +2853,13 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             return
 
     # truly_new competes for the feed's per-topic research budget; updated
-    # events always get re-researched regardless of budget — a story readers
-    # already trust deserves fresh takeaways, not stale ones under a new headline.
+    # events get re-researched only when there are also new events this run —
+    # on a 15-min cadence, re-researching updates alone on every tick is
+    # expensive and rarely adds value (the existing research is still fresh).
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
-    if not no_research:
+    if not no_research and truly_new:
         selected += updated
-    log(f"researching {len(selected)} events ({len(updated) if not no_research else 0} of them updates)")
+    log(f"researching {len(selected)} events ({len([u for u in updated if u in selected])} of them updates)")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
 
