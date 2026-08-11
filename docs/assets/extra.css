@@ -38,35 +38,22 @@
   text-decoration: underline;
 }
 
-/* Custom importance meter: 10 increasing amber signal bars (replaces 🔥). */
+/* Importance score badge: numeric 1–10, colour-coded by tier. */
 .imp {
-  display: inline-flex;
-  align-items: flex-end;
-  gap: 2px;
-  height: 0.82em;
-  margin-right: 0.45rem;
-  vertical-align: -0.12em;
-}
-.imp i {
-  width: 3px;
-  border-radius: 1px;
+  display: inline-block;
+  font-size: 0.72em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  margin-right: 0.4rem;
+  vertical-align: 0.1em;
+  color: #fff;
   background: var(--md-default-fg-color--lightest);
 }
-.imp i.on { background: #f6ad3c; }
-/* Colour the filled bars by importance: 1–3 red, 4–6 amber, 7–10 green. */
-.imp-1 i.on, .imp-2 i.on, .imp-3 i.on { background: #e5484d; }
-.imp-4 i.on, .imp-5 i.on, .imp-6 i.on { background: #f6ad3c; }
-.imp-7 i.on, .imp-8 i.on, .imp-9 i.on, .imp-10 i.on { background: #2ea043; }
-.imp i:nth-child(1)  { height: 10%; }
-.imp i:nth-child(2)  { height: 20%; }
-.imp i:nth-child(3)  { height: 30%; }
-.imp i:nth-child(4)  { height: 40%; }
-.imp i:nth-child(5)  { height: 50%; }
-.imp i:nth-child(6)  { height: 60%; }
-.imp i:nth-child(7)  { height: 70%; }
-.imp i:nth-child(8)  { height: 80%; }
-.imp i:nth-child(9)  { height: 90%; }
-.imp i:nth-child(10) { height: 100%; }
+.imp-low  { background: #e5484d; }   /* 1–3 */
+.imp-mid  { background: #f6ad3c; }   /* 4–6 */
+.imp-high { background: #2ea043; }   /* 7–10 */
 
 /* Word quiz + word-list pages. */
 .wq-btn,

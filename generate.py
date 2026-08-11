@@ -619,14 +619,14 @@ def group_by_topic(items: list[dict]) -> dict[str, list[dict]]:
 
 
 def meter(score: float) -> str:
-    """Importance as a custom 10-segment amber signal-bar meter (HTML). Styled by
-    `.imp` in extra.css; mirrored in search.js so search results match."""
+    """Importance as a numeric badge (e.g. '7.5'). Styled by `.imp` in extra.css;
+    mirrored in period-view.js and search.js so all views match."""
     raw = float(score or 0)
-    n = max(1, min(10, round(raw)))
-    label = int(raw) if raw == int(raw) else raw
-    bars = "".join('<i class="on"></i>' if i < n else "<i></i>" for i in range(10))
-    return (f'<span class="imp imp-{n}" title="Importance {label}/10" '
-            f'aria-label="Importance {label} of 10">{bars}</span>')
+    n = max(1.0, min(10.0, raw))
+    label = int(n) if n == int(n) else round(n, 1)
+    tier = "high" if n >= 7 else ("mid" if n >= 4 else "low")
+    return (f'<span class="imp imp-{tier}" title="Importance {label}/10" '
+            f'aria-label="Importance {label} of 10">{label}</span>')
 
 
 def _source_badge(origin: str) -> str:

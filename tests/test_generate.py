@@ -100,11 +100,14 @@ def test_group_by_topic():
 # --- rendering helpers ------------------------------------------------------ #
 def test_meter():
     m = g.meter(7)
-    assert m.count('<i class="on">') == 7      # 7 filled bars
-    assert m.count("<i") == 10                  # 10 bars total
+    assert ">7<" in m
+    assert 'imp-high' in m
     assert 'aria-label="Importance 7 of 10"' in m
-    assert g.meter(0).count('<i class="on">') == 1    # clamps up to 1
-    assert g.meter(11).count('<i class="on">') == 10  # clamps down to 10
+    assert g.meter(7.5).count("7.5") == 3      # appears in title, aria-label, and body
+    assert "imp-low" in g.meter(2)
+    assert "imp-mid" in g.meter(5)
+    assert ">1<" in g.meter(0)                 # clamps up to 1
+    assert ">10<" in g.meter(11)               # clamps down to 10
 
 
 def test_attach_sources_dedupes_by_outlet():

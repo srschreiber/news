@@ -87,11 +87,11 @@
   }
 
   function meter(score) {
-    var n = Math.max(1, Math.min(10, Math.round(score)));
-    var bars = "";
-    for (var i = 0; i < 10; i++) bars += i < n ? '<i class="on"></i>' : "<i></i>";
-    return '<span class="imp imp-' + n + '" title="Importance ' + score +
-      '/10" aria-label="Importance ' + score + ' of 10">' + bars + "</span>";
+    var n = Math.max(1, Math.min(10, score));
+    var label = (n === Math.floor(n)) ? Math.floor(n) : Math.round(n * 10) / 10;
+    var tier = n >= 7 ? "high" : (n >= 4 ? "mid" : "low");
+    return '<span class="imp imp-' + tier + '" title="Importance ' + label +
+      '/10" aria-label="Importance ' + label + ' of 10">' + label + "</span>";
   }
 
   function hasTag(list, key) { return (list || []).some(function (t) { return t.key === key; }); }

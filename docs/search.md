@@ -10,7 +10,7 @@ the site-wide full-text search in the top bar.
     <select id="ns-topic"><option value="">all topics</option></select>
     <label>from <input type="date" id="ns-from"></label>
     <label>to <input type="date" id="ns-to"></label>
-    <label>min <span class="imp imp-1" title="Importance 1/10" aria-label="Importance 1 of 10"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    <label>min <span class="imp imp-low" title="Importance/10" aria-label="Importance">&#x2605;</span>
       <select id="ns-imp">
         <option value="1">1</option><option value="2">2</option>
         <option value="3">3</option><option value="4">4</option>
