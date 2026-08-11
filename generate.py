@@ -1844,6 +1844,7 @@ def _merge_new_events(
         ev["event_id"] = eid
         if eid in by_id:
             _merge_sources(by_id[eid], ev)
+            by_id[eid]["received_at"] = now_iso
         else:
             candidates.append(ev)
 
