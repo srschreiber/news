@@ -137,7 +137,7 @@ EVENTS_SCHEMA = {
                 "properties": {
                     "title": {"type": "string"},
                     "one_liner": {"type": "string"},
-                    "importance": {"type": "number", "minimum": 1, "maximum": 10},
+                    "importance": {"type": "number"},
                     "theme": {"type": "string"},
                     "keywords": {"type": "array", "items": {"type": "string"}},
                     "source_item_ids": {
@@ -176,7 +176,7 @@ GROUPED_EVENTS_SCHEMA = {
                     "group_id": {"type": "string"},
                     "title": {"type": "string"},
                     "one_liner": {"type": "string"},
-                    "importance": {"type": "number", "minimum": 1, "maximum": 10},
+                    "importance": {"type": "number"},
                     "theme": {"type": "string"},
                     "keywords": {"type": "array", "items": {"type": "string"}},
                     "discard_from_group": {
@@ -250,7 +250,7 @@ FALLBACK_SCHEMA = {
         "title": {"type": "string"},
         "summary": {"type": "string", "maxLength": 300},
         "takeaways": {"type": "array", "items": {"type": "string"}},
-        "importance": {"type": "integer"},
+        "importance": {"type": "number"},
         "keywords": {"type": "array", "items": {"type": "string"}},
         "sources": {
             "type": "array",
@@ -280,7 +280,7 @@ BACKFILL_SCHEMA = {
                     "title": {"type": "string"},
                     "summary": {"type": "string"},
                     "takeaways": {"type": "array", "items": {"type": "string"}},
-                    "importance": {"type": "number", "minimum": 1, "maximum": 10},
+                    "importance": {"type": "number"},
                     "keywords": {"type": "array", "items": {"type": "string"}},
                     "sources": {
                         "type": "array",
