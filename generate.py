@@ -574,14 +574,19 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
 
 
 def assign_topics(events: list[dict], items: list[dict],
-                  topic_feed: dict | None = None) -> list[dict]:
+                  topic_feed: dict | None = None, feeds: dict | None = None) -> list[dict]:
     """Derive each event's topics from the source items it clustered.
 
     Sets `topics` (sorted unique) and `primary_topic` (the topic contributing the
     most source items; ties broken alphabetically). When `topic_feed` is given,
-    also sets `feeds` (sorted unique feeds of its topics) and `primary_feed`
+    also sets `feeds` (sorted unique feeds of its topics, plus any feed that
+    cross-lists one of its topics via `also_includes`) and `primary_feed`
     (feed of the primary topic)."""
     topic_feed = topic_feed or {}
+    also_map: dict[str, set[str]] = {}
+    for fkey, spec in (feeds or {}).items():
+        for t in spec.get("also_includes", []):
+            also_map.setdefault(t, set()).add(fkey)
     by_id = {it["id"]: it for it in items}
     for e in events:
         tops = [by_id[sid]["topic"] for sid in e.get("source_item_ids", []) if sid in by_id]
@@ -592,7 +597,9 @@ def assign_topics(events: list[dict], items: list[dict],
         e["primary_topic"] = (
             min(counts, key=lambda t: (-counts[t], t)) if counts else DEFAULT_TOPIC
         )
-        e["feeds"] = sorted({topic_feed.get(t, DEFAULT_FEED) for t in e["topics"]})
+        primary_feeds = {topic_feed.get(t, DEFAULT_FEED) for t in e["topics"]}
+        cross_listed = {fk for t in e["topics"] for fk in also_map.get(t, ())}
+        e["feeds"] = sorted(primary_feeds | cross_listed)
         e["primary_feed"] = topic_feed.get(e["primary_topic"], DEFAULT_FEED)
     return events
 
@@ -1367,101 +1374,78 @@ def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
     return kept
 
 
-def _story_line(r: dict, prefix: str = "", date_label: str | None = None) -> list[str]:
-    """One home/feed story bullet. Returns a list of markdown lines.
+def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int = 30,
+                  cap_daily: int = 40, cap_weekly: int = 30, cap_monthly: int = 50) -> dict:
+    """Split scope-filtered `records` into daily/weekly/monthly windows, anchored
+    on the most recent date present. Each window is deduped (same story surfaced
+    under multiple topics) and importance-sorted."""
+    if not records:
+        return {"daily": [], "weekly": [], "monthly": []}
+    latest = max(r["date"] for r in records)
+    latest_d = dt.date.fromisoformat(latest)
+    weekly_cutoff = (latest_d - dt.timedelta(days=weekly_days - 1)).isoformat()
+    monthly_cutoff = (latest_d - dt.timedelta(days=monthly_days - 1)).isoformat()
 
-    Researched stories with takeaways expand into nested bullets + sources so
-    readers get the key facts without clicking through to the full briefing.
-    date_label, if set, is appended as a dim annotation for backfilled stories."""
-    desc = (r.get("summary") or "").strip()
-    desc = f" — {desc}" if desc else ""
-    topics = ", ".join(r.get("topics", [])) or r.get("topic", "")
-    href = prefix + r["url"].replace("/#", ".md#")  # .md form so MkDocs validates it
-    badge = ' <span class="src-badge src-research">AI Researched</span>' if r.get("researched") else ""
-    date_str = f" · _{date_label}_" if date_label else ""
-    main = (f"- {meter(r.get('importance', 0))} [{r['title']}]({href}){badge}{desc} "
-            f"· _{topics}_{date_str}")
+    def _window(cutoff: str, cap: int) -> list[dict]:
+        ranked = sorted((r for r in records if r["date"] >= cutoff),
+                        key=lambda r: r.get("importance", 0), reverse=True)
+        return _dedupe_cross_topic(ranked)[:cap]
 
-    takeaways = [t.strip() for t in r.get("takeaways", []) if t.strip()]
-    sources = [s for s in r.get("sources", []) if s.get("url")][:MAX_SOURCES_PER_EVENT]
-
-    if not takeaways:
-        return [main]
-
-    # Use <ul class="takeaways"> so bullets get the same card styling as on
-    # daily pages (amber left border, background, small font). The blank after
-    # main is required for Python-Markdown to recognise the indented HTML as a
-    # block element rather than inline continuation of the list item text.
-    lines = [main, ""]
-    lines.append('    <ul class="takeaways">')
-    for t in takeaways:
-        lines.append(f"    <li>{html.escape(t)}</li>")
-    lines.append("    </ul>")
-    if sources:
-        srcs = ", ".join(
-            f"[{s['label']}]({s['url']}) {_source_badge(s.get('origin', 'rss'))}"
-            for s in sources
-        )
-        lines.append("")
-        lines.append(f"    Sources: {srcs}")
-    lines.append("")
-    return lines
+    return {
+        "daily": _window(latest, cap_daily),
+        "weekly": _window(weekly_cutoff, cap_weekly),
+        "monthly": _window(monthly_cutoff, cap_monthly),
+    }
 
 
-def _record_feed(r: dict, topic_feed: dict) -> str:
-    """Feed for an index record — primary_feed if present (fresh records), else
-    derived from the record's first topic (older records)."""
-    if r.get("primary_feed"):
-        return r["primary_feed"]
-    for t in r.get("topics", []):
-        if t in topic_feed:
-            return topic_feed[t]
-    return DEFAULT_FEED
+def _period_item(r: dict, feeds: dict | None = None) -> dict:
+    """One record trimmed to what the client-side period-view widget needs.
+
+    `url` is left in its raw directory-URL form (e.g. "news/tech/2026-08-11/#slug")
+    — unlike markdown-rendered links, this is injected as a raw <a href> at
+    runtime by JS, so it must match MkDocs's actual served path (no .md suffix;
+    MkDocs's build-time .md link rewriting never sees this)."""
+    item = {
+        "title": r["title"],
+        "url": r["url"],
+        "importance": r.get("importance", 0),
+        "date": r["date"],
+        "summary": (r.get("summary") or "").strip(),
+        "takeaways": [t.strip() for t in r.get("takeaways", []) if t.strip()],
+        "sources": [
+            {"label": s["label"], "url": s["url"], "origin": s.get("origin", "rss")}
+            for s in r.get("sources", []) if s.get("url")
+        ][:MAX_SOURCES_PER_EVENT],
+        "topics": r.get("topics", []),
+        "researched": bool(r.get("researched", False)),
+    }
+    if feeds is not None:
+        item["feeds"] = [feeds[fk]["title"] for fk in r.get("feeds", []) if fk in feeds]
+    return item
 
 
-def _top_stories_section(index: list[dict], feeds: dict, topic_feed: dict,
-                         target: int = 10, lookback_days: int = 10) -> list[str]:
-    """Home 'Top stories', divided into feeds.
-
-    Today's stories always appear. If fewer than `target` total, backfills from
-    the past `lookback_days` days (highest importance first) until the target is
-    reached. Backfilled stories are labelled with their date."""
-    if not index:
-        return []
-    latest = max(r["date"] for r in index)
-    cutoff = (dt.date.fromisoformat(latest) - dt.timedelta(days=lookback_days)).isoformat()
-
-    eligible = _dedupe_cross_topic(sorted(
-        (r for r in index if r["date"] >= cutoff),
-        key=lambda r: r.get("importance", 0), reverse=True,
-    ))
-    today = [r for r in eligible if r["date"] == latest]
-    past = [r for r in eligible if r["date"] < latest]
-
-    shown = list(today)
-    for r in past:
-        if len(shown) >= target:
-            break
-        shown.append(r)
-
-    if not shown:
-        return []
-
-    by_feed: dict[str, list[dict]] = {}
-    for r in shown:
-        by_feed.setdefault(_record_feed(r, topic_feed), []).append(r)
-
-    lines = [f"## Top stories — {latest}", ""]
-    for fkey, spec in feeds.items():
-        rows = by_feed.get(fkey, [])
-        if not rows:
-            continue
-        lines += [f"### [{spec['title']}](feeds/{fkey}.md)", ""]
-        for r in rows:
-            label = r["date"] if r["date"] != latest else None
-            lines += _story_line(r, date_label=label)
-        lines.append("")
-    return lines
+def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None = None) -> list[str]:
+    """Markdown lines embedding a client-rendered Daily/Weekly/Monthly story
+    widget (docs/assets/period-view.js). No LLM involved — pure aggregation of
+    the search index, done here in Python; the JS just switches between the
+    three precomputed, already-sorted-and-deduped windows."""
+    data = _period_lists(records)
+    if not any(data.values()):
+        return ["_No stories yet._", ""]
+    payload = {period: [_period_item(r, feeds) for r in rows] for period, rows in data.items()}
+    blob = json.dumps(payload, ensure_ascii=False).replace("</script>", "<\\/script>")
+    return [
+        f'<div id="period-view" class="period-view" data-prefix="{prefix}"></div>',
+        "",
+        '<script id="period-view-data" type="application/json">',
+        blob,
+        "</script>",
+        "",
+        f'<script src="{prefix}assets/period-view.js" defer></script>',
+        "",
+        "_Bars indicate estimated story importance (1 = minor · 5 = major)._",
+        "",
+    ]
 
 
 def _event_counts(index: list[dict]) -> dict[tuple, int]:
@@ -1702,20 +1686,21 @@ def record_word_of_the_day(w: dict) -> None:
 
 def rebuild_index() -> None:
     all_topics = sorted({s["topic"] for s in load_sources()})
-    feeds, topic_feed = load_feeds(all_topics)
+    feeds, _topic_feed = load_feeds(all_topics)
     lines = [
         "# Sam's News",
         "",
-        "Today's biggest stories, divided by feed. Pick a feed or topic from the "
-        "sidebar to dive in, browse the full [archive](archive.md), or "
-        "[search](search.md) by keyword, date, and topic.",
+        "Today's biggest stories. Switch to Weekly or Monthly if today's quiet. "
+        "Pick a feed or topic from the sidebar to dive in, browse the full "
+        "[archive](archive.md), or [search](search.md) by keyword, date, and topic.",
         "",
     ]
     wotd = fetch_word_of_the_day()
     if wotd:
         record_word_of_the_day(wotd)
         lines += _wotd_card(wotd)
-    lines += _top_stories_section(load_search_index(), feeds, topic_feed)
+    lines += ["## Top stories", ""]
+    lines += _period_view_block(load_search_index(), feeds=feeds)
     fact = fetch_fact_of_the_day()
     if fact:
         lines += _fact_card(fact)
@@ -1738,46 +1723,36 @@ def rebuild_index() -> None:
 
 
 def _feed_page_body(
-    fkey: str, spec: dict, index: list[dict], topic_feed: dict,
+    fkey: str, spec: dict, index: list[dict],
     latest: str | None, refresh_map: dict[str, str],
     topic_link_dir: str = "topics",
-    story_prefix: str = "../",
+    story_prefix: str = "../../",
 ) -> list[str]:
-    """Build the markdown lines for one feed overview page."""
+    """Build the markdown lines for one feed overview page. `index` records
+    carry a `feeds` list (primary + any also_includes cross-listing) computed
+    at clustering time — membership here is just a lookup, no re-derivation.
+
+    story_prefix defaults to "../../": with MkDocs's directory URLs,
+    docs/feeds/<fkey>.md is SERVED at /feeds/<fkey>/ (two path segments), so
+    the period-view widget's runtime-injected <a href> links — which MkDocs's
+    build-time link rewriter never sees — need two levels back to site root."""
     ftopics = spec["topics"]
     also_topics = set(spec.get("also_includes", []))
+    records = [r for r in index if fkey in r.get("feeds", [])]
+    today_count = sum(1 for r in records if r["date"] == latest) if latest else 0
 
-    def _in_feed(r: dict) -> bool:
-        if _record_feed(r, topic_feed) == fkey:
-            return True
-        if also_topics and any(t in also_topics for t in r.get("topics", [])):
-            return True
-        return False
-
-    rows = _dedupe_cross_topic(sorted(
-        (r for r in index if r["date"] == latest and _in_feed(r)),
-        key=lambda r: r.get("importance", 0), reverse=True,
-    ))[:15] if latest else []
-    lines = [f"# {spec['title']} ({len(rows)})" if rows else f"# {spec['title']}", ""]
-    if rows:
-        refresh_note = ""
-        ts_str = refresh_map.get(fkey)
-        if ts_str:
-            try:
-                rt = dt.datetime.fromisoformat(ts_str)
-                utc_label = rt.strftime("%H:%M UTC")
-                refresh_note = (f' · <em><time class="feed-refresh"'
-                               f' datetime="{rt.isoformat()}">'
-                               f'refreshed {utc_label}</time></em>')
-            except (ValueError, TypeError):
-                pass
-        lines += [f"## Top stories — {latest}{refresh_note}", ""]
-        for r in rows:
-            lines += _story_line(r, prefix=story_prefix)
-        lines.append("")
-    else:
-        lines += ["_No stories yet._", ""]
-    lines += ["_Bars indicate estimated story importance (1 = minor · 5 = major)._", ""]
+    lines = [f"# {spec['title']} ({today_count})" if today_count else f"# {spec['title']}", ""]
+    ts_str = refresh_map.get(fkey)
+    if ts_str:
+        try:
+            rt = dt.datetime.fromisoformat(ts_str)
+            utc_label = rt.strftime("%H:%M UTC")
+            lines += [f'_Feed <time class="feed-refresh" datetime="{rt.isoformat()}">'
+                     f'refreshed {utc_label}</time>._', ""]
+        except (ValueError, TypeError):
+            pass
+    lines += ["## Top stories", ""]
+    lines += _period_view_block(records, prefix=story_prefix)
     counts = _event_counts(index)
     lines += ["## Topics", ""]
     all_shown_topics = ftopics + [t for t in sorted(also_topics) if t not in ftopics]
@@ -1794,12 +1769,12 @@ def rebuild_feed_pages(feed_last_refresh: dict[str, str] | None = None) -> None:
     no LLM, regenerated each run."""
     index = load_search_index()
     all_topics = sorted({s["topic"] for s in load_sources()})
-    feeds, topic_feed = load_feeds(all_topics)
+    feeds, _topic_feed = load_feeds(all_topics)
     latest = max((r["date"] for r in index), default=None)
     refresh_map: dict[str, str] = feed_last_refresh or {}
 
     for fkey, spec in feeds.items():
-        lines = _feed_page_body(fkey, spec, index, topic_feed, latest, refresh_map)
+        lines = _feed_page_body(fkey, spec, index, latest, refresh_map)
         path = DOCS / "feeds" / f"{fkey}.md"
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("\n".join(lines) + "\n")
@@ -1813,20 +1788,16 @@ def _topic_page_body(
     """Build the markdown lines for one topic overview page."""
     dates = by_topic.get(topic, {})
     latest = max(dates) if dates else None
-    latest_events = sorted(
-        dates.get(latest, []), key=lambda r: r.get("importance", 0), reverse=True
-    ) if latest else []
+    latest_count = len(dates.get(latest, [])) if latest else 0
     disp = topic_display(topic)
-    lines = [f"# {disp} ({len(latest_events)})" if latest else f"# {disp}", ""]
+    lines = [f"# {disp} ({latest_count})" if latest else f"# {disp}", ""]
     fkey = topic_feed.get(topic, DEFAULT_FEED)
     badge = "AI-researched" if research_enabled(topic, research_cfg) else "RSS only"
     lines += [f"_Part of the [{feeds[fkey]['title']}](../{feed_link_dir}/{fkey}.md) feed · {badge}._", ""]
     if latest:
-        lines += [f"## Latest — {latest}", ""]
-        for r in latest_events:
-            href = "../" + r["url"].replace("/#", ".md#")
-            lines.append(f"- {meter(r.get('importance', 0))} [{r['title']}]({href})")
-        lines.append("")
+        records = [r for rows in dates.values() for r in rows]
+        lines += ["## Latest", ""]
+        lines += _period_view_block(records, prefix="../../")
         earlier = sorted((d for d in dates if d != latest), reverse=True)
         if earlier:
             lines += ["## Earlier", ""]
@@ -2080,7 +2051,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     if items:
         new_events = assign_topics(
             attach_sources(stage1_cluster(items, feeds), items),
-            items, topic_feed,
+            items, topic_feed, feeds,
         )
     else:
         new_events = []

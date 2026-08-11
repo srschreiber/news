@@ -201,6 +201,75 @@
   font-weight: 700;
 }
 
+/* Daily/Weekly/Monthly period-view widget (home, feed, and topic pages). */
+.pv-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin: 0.6rem 0 1.1rem;
+}
+.pv-periods { display: flex; gap: 0.4rem; }
+.pv-btn {
+  font: inherit;
+  cursor: pointer;
+  border-radius: 999px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 0.25rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.pv-btn:hover:not(:disabled) { border-color: #f6ad3c; }
+.pv-btn.pv-active { background: #f6ad3c; border-color: #f6ad3c; color: #1a1a1a; }
+.pv-btn:disabled { opacity: 0.35; cursor: default; }
+.pv-sort select {
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 0.2rem 0.4rem;
+}
+.md-typeset ul.pv-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.pv-item {
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+.pv-item:last-child { border-bottom: none; }
+.pv-title { font-weight: 600; }
+.pv-summary { margin: 0.25rem 0 0.35rem; }
+.pv-meta {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+}
+.pv-date { font-variant-numeric: tabular-nums; }
+.pv-sources { margin-top: 0.35rem; font-size: 0.82rem; }
+.pv-empty { color: var(--md-default-fg-color--light); }
+.pv-feed-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  padding: 0 0.4rem;
+  border-radius: 999px;
+  background: rgba(220, 60, 60, 0.12);
+  color: #c0392b;
+  border: 1px solid rgba(220, 60, 60, 0.35);
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+[data-md-color-scheme="slate"] .pv-feed-badge { color: #ff6b6b; }
+
 /* Per-story "copy link to share" button next to each story heading. */
 .share-link {
   border: 0;

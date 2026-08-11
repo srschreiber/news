@@ -332,32 +332,64 @@ def test_render_briefing_no_takeaways_still_ok():
 
 
 # --- home-page top stories -------------------------------------------------- #
-_FEEDS = {
-    "technology": {"title": "Technology", "topics": ["ai", "tech", "gaming"], "research_budget": 6},
-    "world": {"title": "World", "topics": ["world", "markets"], "research_budget": 3},
-}
-_TOPIC_FEED = {"ai": "technology", "tech": "technology", "gaming": "technology",
-               "world": "world", "markets": "world"}
 _CFG = {"default": True, "topics": {}}
 
 
-def test_top_stories_section():
-    index = [
-        {"date": "2026-07-25", "topics": ["ai"], "primary_feed": "technology",
-         "title": "Big", "summary": "desc", "importance": 5, "url": "news/ai/2026-07-25/#big"},
-        {"date": "2026-07-25", "topics": ["world"], "primary_feed": "world",
-         "title": "Med", "summary": "", "importance": 3, "url": "news/world/2026-07-25/#med"},
-        {"date": "2026-07-24", "topics": ["ai"], "primary_feed": "technology",
-         "title": "Old", "summary": "x", "importance": 5, "url": "u3"},
+def test_period_lists_windows_and_dedup():
+    records = [
+        {"date": "2026-07-25", "topics": ["ai"], "title": "Big", "importance": 5,
+         "keywords": ["Big", "Story", "Today"], "url": "news/ai/2026-07-25/#big"},
+        {"date": "2026-07-25", "topics": ["world"], "title": "Med", "importance": 3,
+         "keywords": [], "url": "news/world/2026-07-25/#med"},
+        {"date": "2026-07-20", "topics": ["ai"], "title": "Old", "importance": 5,
+         "keywords": [], "url": "news/ai/2026-07-20/#old"},
+        {"date": "2026-06-01", "topics": ["ai"], "title": "Ancient", "importance": 5,
+         "keywords": [], "url": "news/ai/2026-06-01/#ancient"},
     ]
-    text = "\n".join(g._top_stories_section(index, _FEEDS, _TOPIC_FEED))
-    assert "Top stories — 2026-07-25" in text     # only the latest day
-    assert "Old" not in text
-    assert "### [Technology](feeds/technology.md)" in text   # divided by feed
-    assert "### [World](feeds/world.md)" in text
-    assert "[Big](news/ai/2026-07-25.md#big) — desc" in text  # .md link + description
-    assert text.index("Technology") < text.index("World")    # feed config order
-    assert g._top_stories_section([], _FEEDS, _TOPIC_FEED) == []
+    data = g._period_lists(records)
+    assert [r["title"] for r in data["daily"]] == ["Big", "Med"]  # only the latest day
+    assert {r["title"] for r in data["weekly"]} == {"Big", "Med", "Old"}
+    assert "Ancient" not in {r["title"] for r in data["monthly"]}  # outside the 30-day window
+    assert g._period_lists([]) == {"daily": [], "weekly": [], "monthly": []}
+
+
+def test_period_lists_dedupes_same_story():
+    records = [
+        {"date": "2026-07-25", "topics": ["ai"], "title": "Anthropic launches Claude Opus 5",
+         "importance": 5, "keywords": ["Anthropic", "Claude Opus 5"], "url": "u1"},
+        {"date": "2026-07-25", "topics": ["tech"], "title": "Anthropic ships Claude Opus 5 model",
+         "importance": 4, "keywords": ["Anthropic", "Claude Opus 5"], "url": "u2"},
+    ]
+    data = g._period_lists(records)
+    assert len(data["daily"]) == 1
+    assert data["daily"][0]["importance"] == 5   # highest-importance survivor kept
+
+
+def test_period_view_block_embeds_json_and_script():
+    records = [
+        {"date": "2026-07-25", "topics": ["ai"], "title": "Big", "summary": "desc",
+         "importance": 5, "keywords": [], "url": "news/ai/2026-07-25/#big",
+         "sources": [], "takeaways": []},
+    ]
+    text = "\n".join(g._period_view_block(records, prefix="../../"))
+    assert '<div id="period-view" class="period-view" data-prefix="../../">' in text
+    assert '<script id="period-view-data" type="application/json">' in text
+    assert '"title": "Big"' in text
+    # raw directory-URL form (no .md) — this is a runtime <a href>, not a
+    # markdown-syntax link, so MkDocs's build-time .md rewriter never sees it
+    assert '"url": "news/ai/2026-07-25/#big"' in text
+    assert '<script src="../../assets/period-view.js" defer></script>' in text
+    assert g._period_view_block([]) == ["_No stories yet._", ""]
+
+
+def test_period_view_block_includes_feed_titles():
+    records = [
+        {"date": "2026-07-25", "topics": ["ai"], "title": "Big", "importance": 5,
+         "keywords": [], "url": "u1", "feeds": ["technology"]},
+    ]
+    feeds = {"technology": {"title": "Technology"}}
+    text = "\n".join(g._period_view_block(records, feeds=feeds))
+    assert '"feeds": ["Technology"]' in text
 
 
 def test_dedupe_cross_topic_collapses_same_story():
@@ -413,6 +445,19 @@ def test_assign_topics_and_primary():
     assert events[0]["primary_topic"] == "ai"           # ai contributed 2 vs tech 1
     assert events[0]["feeds"] == ["technology"]         # feed derived from topics
     assert events[0]["primary_feed"] == "technology"
+
+
+def test_assign_topics_cross_lists_via_also_includes():
+    items = [{"id": "cr-0", "topic": "climate-resilience"}]
+    events = [{"title": "E", "source_item_ids": ["cr-0"]}]
+    topic_feed = {"climate-resilience": "climate-resilience"}
+    feeds = {
+        "climate-resilience": {"title": "Climate", "also_includes": []},
+        "science": {"title": "Science", "also_includes": ["climate-resilience"]},
+    }
+    g.assign_topics(events, items, topic_feed, feeds)
+    assert events[0]["feeds"] == ["climate-resilience", "science"]  # cross-listed on Science
+    assert events[0]["primary_feed"] == "climate-resilience"
 
 
 def test_load_feeds_maps_topics_and_synthesizes_other(tmp_path):
