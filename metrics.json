@@ -1,5 +1,93 @@
 [
   {
+    "timestamp": "2026-08-11T20:51:08.487781+00:00",
+    "mode": "daily",
+    "calls": 23,
+    "web_searches": 14,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 67011,
+        "output": 7253,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-sonnet-5": {
+        "input": 6991,
+        "output": 2363,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1737,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4379,
+            "output": 2800,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0184
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 384,
+            "output": 48,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0006
+      },
+      "(merge-check)": {
+        "calls": 6,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3674,
+            "output": 54,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0039
+      },
+      "(read)": {
+        "calls": 14,
+        "web_searches": 14,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 58574,
+            "output": 4351,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0943
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-sonnet-5": {
+            "input": 6991,
+            "output": 2363,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0564
+      }
+    }
+  },
+  {
     "timestamp": "2026-08-11T20:35:30.283329+00:00",
     "mode": "daily",
     "calls": 28,
