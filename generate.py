@@ -2116,11 +2116,10 @@ def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
     return kept
 
 
-def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int = 30,
-                  cap_daily: int = 10_000, cap_weekly: int = 30, cap_monthly: int = 50) -> dict:
+def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int = 30) -> dict:
     """Split scope-filtered `records` into daily/weekly/monthly windows, anchored
     on the most recent date present. Each window is deduped (same story surfaced
-    under multiple topics) and importance-sorted."""
+    under multiple topics) and importance-sorted. No caps — pagination handles it."""
     if not records:
         return {"daily": [], "weekly": [], "monthly": []}
     latest = max(r["date"] for r in records)
@@ -2128,15 +2127,15 @@ def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int =
     weekly_cutoff = (latest_d - dt.timedelta(days=weekly_days - 1)).isoformat()
     monthly_cutoff = (latest_d - dt.timedelta(days=monthly_days - 1)).isoformat()
 
-    def _window(cutoff: str, cap: int) -> list[dict]:
+    def _window(cutoff: str) -> list[dict]:
         ranked = sorted((r for r in records if r["date"] >= cutoff),
                         key=lambda r: r.get("importance", 0), reverse=True)
-        return _dedupe_cross_topic(ranked)[:cap]
+        return _dedupe_cross_topic(ranked)
 
     return {
-        "daily": _window(latest, cap_daily),
-        "weekly": _window(weekly_cutoff, cap_weekly),
-        "monthly": _window(monthly_cutoff, cap_monthly),
+        "daily": _window(latest),
+        "weekly": _window(weekly_cutoff),
+        "monthly": _window(monthly_cutoff),
     }
 
 
