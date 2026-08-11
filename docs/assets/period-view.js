@@ -22,6 +22,12 @@
   var LABELS = { daily: "Daily", weekly: "Weekly", monthly: "Monthly" };
   var period = PERIODS.find(function (p) { return (DATA[p] || []).length > 0; }) || "daily";
   var sortBy = "importance";
+  var topicFilter = "";
+
+  var ALL_TOPICS = Array.from(PERIODS.reduce(function (set, p) {
+    (DATA[p] || []).forEach(function (r) { (r.topics || []).forEach(function (t) { set.add(t); }); });
+    return set;
+  }, new Set())).sort();
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -39,6 +45,9 @@
 
   function rows() {
     var list = (DATA[period] || []).slice();
+    if (topicFilter) {
+      list = list.filter(function (r) { return (r.topics || []).indexOf(topicFilter) !== -1; });
+    }
     if (sortBy === "date") {
       list.sort(function (a, b) {
         if (a.date !== b.date) return a.date < b.date ? 1 : -1;
@@ -57,7 +66,17 @@
       html += '<button type="button" class="pv-btn' + (p === period ? " pv-active" : "") + '"' +
         (disabled ? " disabled" : "") + ' data-period="' + p + '">' + LABELS[p] + "</button>";
     });
-    html += '</div><div class="pv-sort"><label>Sort ' +
+    html += "</div>";
+    if (ALL_TOPICS.length > 1) {
+      html += '<div class="pv-filter"><label>Topic ' +
+        '<select id="pv-topic-select"><option value="">All topics</option>';
+      ALL_TOPICS.forEach(function (t) {
+        html += '<option value="' + esc(t) + '"' + (t === topicFilter ? " selected" : "") + ">" +
+          esc(t) + "</option>";
+      });
+      html += "</select></label></div>";
+    }
+    html += '<div class="pv-sort"><label>Sort ' +
       '<select id="pv-sort-select">' +
       '<option value="importance"' + (sortBy === "importance" ? " selected" : "") + ">Importance</option>" +
       '<option value="date"' + (sortBy === "date" ? " selected" : "") + ">Date</option>" +
@@ -111,6 +130,8 @@
     });
     var sel = document.getElementById("pv-sort-select");
     if (sel) sel.addEventListener("change", function () { sortBy = sel.value; render(); });
+    var topicSel = document.getElementById("pv-topic-select");
+    if (topicSel) topicSel.addEventListener("change", function () { topicFilter = topicSel.value; render(); });
   }
 
   render();

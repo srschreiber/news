@@ -225,7 +225,8 @@
 .pv-btn:hover:not(:disabled) { border-color: #f6ad3c; }
 .pv-btn.pv-active { background: #f6ad3c; border-color: #f6ad3c; color: #1a1a1a; }
 .pv-btn:disabled { opacity: 0.35; cursor: default; }
-.pv-sort select {
+.pv-sort select,
+.pv-filter select {
   font: inherit;
   border-radius: 4px;
   border: 1px solid var(--md-default-fg-color--lighter);
