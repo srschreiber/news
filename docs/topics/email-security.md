@@ -17,8 +17,6 @@ _Part of the [Technology](../feeds/technology.md) feed · AI-researched._
 
 <script src="../../assets/period-view.js" defer></script>
 
-_Bars indicate estimated story importance (1 = minor · 5 = major)._
-
 ## Earlier
 
 [2026-08-10 (2 events)](../news/email-security/2026-08-10.md)

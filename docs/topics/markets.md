@@ -17,8 +17,6 @@ _Part of the [World](../feeds/world.md) feed · RSS only._
 
 <script src="../../assets/period-view.js" defer></script>
 
-_Bars indicate estimated story importance (1 = minor · 5 = major)._
-
 ## Earlier
 
 [2026-08-10 (10 events)](../news/markets/2026-08-10.md)

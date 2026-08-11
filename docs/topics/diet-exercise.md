@@ -17,5 +17,3 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 <script src="../../assets/period-view.js" defer></script>
 
-_Bars indicate estimated story importance (1 = minor · 5 = major)._
-

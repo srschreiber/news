@@ -1,6 +1,6 @@
 # World (20)
 
-_Feed <time class="feed-refresh" datetime="2026-08-11T15:31:08.761674+00:00">refreshed 15:31 UTC</time>._
+_Feed <time class="feed-refresh" datetime="2026-08-11T15:43:20.606163+00:00">refreshed 15:43 UTC</time>._
 
 ## Top stories
 
@@ -11,8 +11,6 @@ _Feed <time class="feed-refresh" datetime="2026-08-11T15:31:08.761674+00:00">ref
 </script>
 
 <script src="../../assets/period-view.js" defer></script>
-
-_Bars indicate estimated story importance (1 = minor · 5 = major)._
 
 ## Topics
 

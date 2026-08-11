@@ -17,8 +17,6 @@ _Part of the [Science](../feeds/science.md) feed · AI-researched._
 
 <script src="../../assets/period-view.js" defer></script>
 
-_Bars indicate estimated story importance (1 = minor · 5 = major)._
-
 ## Earlier
 
 [2026-08-10 (1 event)](../news/health/2026-08-10.md)
