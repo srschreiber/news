@@ -1814,8 +1814,12 @@ def _merge_new_events(
     # centroid from stage1 (rare), plus stored events from state that predate
     # the centroid carry-through. Skip anything already embedded — stage1
     # centroids count, so well-formed runs only embed the stored backlog once.
+    # Cap stored backfill to one batch per run so we never exceed the Voyage
+    # RPM limit; embeddings persist in state.json so the backlog drains over
+    # several runs without ever hammering the API.
     need_candidate_embed = [c for c in candidates if "_embedding" not in c]
-    need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev]
+    stored_backfill_cap = max(0, _VOYAGE_BATCH - len(need_candidate_embed))
+    need_stored_embed = [ev for ev in by_id.values() if "_embedding" not in ev][:stored_backfill_cap]
     need_embed = need_candidate_embed + need_stored_embed
     embeddings_ok = all("_embedding" in c for c in candidates)  # true if all candidates have centroid
     if need_embed:
