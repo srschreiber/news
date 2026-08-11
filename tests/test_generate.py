@@ -421,6 +421,17 @@ def test_period_view_block_includes_feed_and_subfeed_titles():
     assert '"subfeeds": [{"key": "ai", "title": "AI"}, {"key": "tech", "title": "Tech"}]' in text
 
 
+def test_period_view_block_scope_feed_attribute():
+    records = [
+        {"date": "2026-07-25", "topics": ["ai"], "title": "Big", "importance": 5,
+         "keywords": [], "url": "u1", "feeds": ["technology"]},
+    ]
+    text = "\n".join(g._period_view_block(records, scope_feed="technology"))
+    assert 'data-scope-feed="technology"' in text
+    text_unscoped = "\n".join(g._period_view_block(records))
+    assert "data-scope-feed" not in text_unscoped
+
+
 def test_dedupe_cross_topic_collapses_same_story():
     recs = [
         {"title": "Anthropic launches Claude Opus 5 with efficiency improvements",

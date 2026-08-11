@@ -19,6 +19,7 @@
   }
 
   var prefix = mount.getAttribute("data-prefix") || "";
+  var scopeFeed = mount.getAttribute("data-scope-feed") || "";
   var PERIODS = ["daily", "weekly", "monthly"];
   var LABELS = { daily: "Daily", weekly: "Weekly", monthly: "Monthly" };
   var PAGE_SIZE = 6;
@@ -103,7 +104,7 @@
     });
     html += "</div>";
 
-    if (ALL_FEEDS.length > 1) {
+    if (!scopeFeed && ALL_FEEDS.length > 1) {
       html += '<div class="pv-filter"><label>Feed ' +
         '<select id="pv-feed-select"><option value="">All feeds</option>';
       ALL_FEEDS.forEach(function (f) {

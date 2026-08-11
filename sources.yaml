@@ -121,6 +121,9 @@ sources:
   - name: The Register
     url: https://www.theregister.com/headlines.atom
     topic: tech
+  - name: "IEEE Spectrum"
+    url: https://spectrum.ieee.org/feeds/feed.rss
+    topic: tech
 
   # --- Security ---
   # Direct feeds from reputable outlets (higher signal than a lone news query).
@@ -287,10 +290,6 @@ sources:
     topic: tech-research
   - name: "MIT — Artificial Intelligence"
     url: https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml
-    topic: tech-research
-  # --- Applied engineering ---
-  - name: "IEEE Spectrum"
-    url: https://spectrum.ieee.org/feeds/feed.rss
     topic: tech-research
   # --- Curated paper feeds ---
   - name: "Hugging Face Daily Papers"

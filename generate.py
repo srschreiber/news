@@ -1547,7 +1547,8 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
     }
 
 
-def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None = None) -> list[str]:
+def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None = None,
+                       scope_feed: str | None = None) -> list[str]:
     """Markdown lines embedding a client-rendered Daily/Weekly/Monthly story
     widget (docs/assets/period-view.js). No LLM involved — pure aggregation of
     the search index, done here in Python; the JS just switches between the
@@ -1556,7 +1557,12 @@ def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None
     When `feeds` is given, also embeds a static feed -> subfeed(topic) map
     (`feedMeta`) so the widget's Feed filter can narrow its Subfeed options to
     exactly what that feed configures, independent of which topics happen to
-    have stories in the current window."""
+    have stories in the current window.
+
+    `scope_feed`, on an already feed-scoped page, hides the redundant Feed
+    filter dropdown (the page's records may still cross-list a second feed,
+    but re-picking "this feed" here isn't useful) — badges/click-filtering
+    still work, only the dropdown is suppressed."""
     data = _period_lists(records)
     if not any(data.values()):
         return ["_No stories yet._", ""]
@@ -1568,8 +1574,9 @@ def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None
             for fk, spec in feeds.items()
         }
     blob = json.dumps(payload, ensure_ascii=False).replace("</script>", "<\\/script>")
+    scope_attr = f' data-scope-feed="{scope_feed}"' if scope_feed else ""
     return [
-        f'<div id="period-view" class="period-view" data-prefix="{prefix}"></div>',
+        f'<div id="period-view" class="period-view" data-prefix="{prefix}"{scope_attr}></div>',
         "",
         '<script id="period-view-data" type="application/json">',
         blob,
@@ -1892,7 +1899,7 @@ def _feed_page_body(
         except (ValueError, TypeError):
             pass
     lines += ["## Top stories", ""]
-    lines += _period_view_block(records, prefix=story_prefix, feeds=feeds)
+    lines += _period_view_block(records, prefix=story_prefix, feeds=feeds, scope_feed=fkey)
     counts = _event_counts(index)
     lines += ["## Topics", ""]
     all_shown_topics = ftopics + [t for t in sorted(also_topics) if t not in ftopics]
