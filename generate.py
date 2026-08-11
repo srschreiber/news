@@ -1580,32 +1580,43 @@ def _load_fallback_tried(state: dict, date: str) -> set[str]:
     return set(topics) if isinstance(topics, list) else set()
 
 
+_VOYAGE_BATCH = 128  # voyage-4-large hard limit per request
+
+
 def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
     """Embed a batch of texts via Voyage AI (cheap, no SDK dependency — raw
-    REST). Returns None if VOYAGE_API_KEY isn't set or the call fails;
-    callers fall back to the token-overlap heuristic in that case — this
-    upgrade is optional, never a hard requirement for the pipeline to run."""
+    REST). Automatically chunks into batches of _VOYAGE_BATCH to stay within
+    the API's per-request limit. Returns None if VOYAGE_API_KEY isn't set or
+    any chunk fails — callers treat None as "no embeddings available"."""
     if not texts:
         return []
     key = os.environ.get("VOYAGE_API_KEY", "")
     if not key:
         return None
-    try:
-        data = json.dumps({"input": texts, "model": VOYAGE_MODEL}).encode()
-        req = urllib.request.Request(
-            "https://api.voyageai.com/v1/embeddings",
-            data=data,
-            headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-            method="POST",
-        )
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            result = json.loads(resp.read())
-        # Rounded — cosine similarity doesn't need full float precision, and
-        # this halves what a 512-dim vector costs in state.json.
-        return [[round(x, 4) for x in d["embedding"]] for d in result.get("data", [])]
-    except Exception as e:
-        log(f"voyage embed failed: {e}")
-        return None
+    out: list[list[float]] = []
+    for i in range(0, len(texts), _VOYAGE_BATCH):
+        chunk = texts[i: i + _VOYAGE_BATCH]
+        try:
+            data = json.dumps({"input": chunk, "model": VOYAGE_MODEL}).encode()
+            req = urllib.request.Request(
+                "https://api.voyageai.com/v1/embeddings",
+                data=data,
+                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                result = json.loads(resp.read())
+            # Rounded — cosine similarity doesn't need full float precision, and
+            # this halves what a 512-dim vector costs in state.json.
+            vecs = [[round(x, 4) for x in d["embedding"]] for d in result.get("data", [])]
+            if len(vecs) != len(chunk):
+                log(f"voyage embed: expected {len(chunk)} vectors, got {len(vecs)}")
+                return None
+            out.extend(vecs)
+        except Exception as e:
+            log(f"voyage embed failed (chunk {i//_VOYAGE_BATCH}): {e}")
+            return None
+    return out
 
 
 def _cosine(a: list[float], b: list[float]) -> float:
