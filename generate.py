@@ -1623,10 +1623,10 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
                 break
             except urllib.error.HTTPError as e:
                 if e.code == 429 and attempt < 3:
-                    import time
-                    retry_after = e.headers.get("Retry-After") if e.headers else None
-                    wait = int(retry_after) if retry_after and retry_after.isdigit() else 2 ** (attempt + 2)
-                    log(f"voyage embed 429 (chunk {i//_VOYAGE_BATCH}), retrying in {wait}s")
+                    import time, random
+                    # Voyage docs recommend exponential backoff with jitter; no Retry-After header.
+                    wait = 2 ** (attempt + 2) + random.uniform(0, 1)
+                    log(f"voyage embed 429 (chunk {i//_VOYAGE_BATCH}), retrying in {wait:.1f}s")
                     time.sleep(wait)
                     continue
                 log(f"voyage embed failed (chunk {i//_VOYAGE_BATCH}): {e}")
