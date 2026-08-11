@@ -757,8 +757,10 @@ def test_embedding_cluster_items_groups_by_similarity(monkeypatch):
     ]
     groups = g._embedding_cluster_items(items)
     assert groups is not None
-    sizes = sorted(len(grp) for grp in groups)
+    sizes = sorted(len(grp_items) for grp_items, _ in groups)
     assert sizes == [1, 2]  # items 1+2 merged, item 3 stands alone
+    # Each cluster carries its centroid vector
+    assert all(isinstance(centroid, list) and len(centroid) == 2 for _, centroid in groups)
 
 
 # --- hybrid research: enrichment overlay + fallback --------------------------- #

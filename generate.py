@@ -1019,7 +1019,7 @@ def _embedding_cluster_items(items: list[dict]) -> list[list[dict]] | None:
             best["centroid"] = [(cv * (n - 1) + ev) / n for cv, ev in zip(best["centroid"], emb)]
         else:
             clusters.append({"items": [it], "centroid": list(emb)})
-    return [c["items"] for c in clusters]
+    return [(c["items"], [round(x, 4) for x in c["centroid"]]) for c in clusters]
 
 
 def _cluster_groups_payload(groups: list[list[dict]]) -> list[dict]:
@@ -1113,16 +1113,22 @@ def stage1_cluster(
     if not items:
         return []
     if schema is None and prompt_name == "cluster.md":
-        groups = _embedding_cluster_items(items)
-        if groups is None:
+        groups_with_centroids = _embedding_cluster_items(items)
+        if groups_with_centroids is None:
             raise RuntimeError(
                 "Voyage embeddings unavailable (VOYAGE_API_KEY unset or the "
                 "embed call failed) — refusing to fall back to raw-item "
                 "clustering. Fix Voyage and rerun; today's items are untouched."
             )
+        groups = [g for g, _ in groups_with_centroids]
+        centroid_by_gid = {f"g{i}": c for i, (_, c) in enumerate(groups_with_centroids)}
         payload = {"groups": _cluster_groups_payload(groups)}
-        events = _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
-        return _ungroup_events(events, groups)
+        raw_events = _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
+        for ev in raw_events:
+            gid = ev.get("group_id")
+            if gid in centroid_by_gid:
+                ev["_embedding"] = centroid_by_gid[gid]
+        return _ungroup_events(raw_events, groups)
     return _call_stage1({"items": payload_items(items)}, prompt_name, schema or EVENTS_SCHEMA, feeds, label)
 
 
