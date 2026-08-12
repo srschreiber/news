@@ -1301,35 +1301,45 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False,
     rss_only=True: skip Serper, fetch only one RSS source URL.
     existing_context={summary, takeaways}: use the update prompt — Haiku merges
     existing research with new article content (updates outdated findings, adds
-    new ones). Fetches the *last* source URL (newest article for updated events)."""
-    # 1. Serper search (skipped for rss_only)
-    hits: list[dict] = []
-    if not rss_only:
-        try:
-            hits = _serper_search(event["title"], n=5)
-            METRICS.add_searches("(read)", 1)
-        except Exception as e:
-            log(f"serper failed ({event['title'][:40]}): {e}")
+    new ones). Fetches the *last* source URL (newest article for updated events).
 
-    # 2. Collect URLs. For updates (existing_context), fetch the last/newest RSS
-    # source — new articles are appended to the end of the sources list.
+    Full research path: fetches the RSS article first; only calls Serper if the
+    article content is thin (<1500 chars), saving the API call when the source
+    already contains the full story."""
+    is_update = existing_context is not None
     rss_urls = [u for s in event.get("sources", [])
                 if (u := _clean_url(s.get("url", ""))) is not None]
-    serper_urls = [u for h in hits if (u := _clean_url(h["url"])) is not None]
-    rss_pick = rss_urls[-1:] if existing_context else rss_urls[:1]
-    seen: set[str] = set()
-    urls_to_fetch: list[str] = []
-    for u in (rss_pick + serper_urls):
-        if u not in seen and len(urls_to_fetch) < WEB_FETCHES_PER_EVENT:
-            urls_to_fetch.append(u)
-            seen.add(u)
+    hits: list[dict] = []
+    pages: list[dict] = []
 
-    # 3. Fetch pages (Python, no LLM cost)
-    pages = []
-    for url in urls_to_fetch:
-        text = _fetch_page_text(url)
-        if text:
-            pages.append({"url": url, "content": text})
+    if rss_only:
+        # No Serper — fetch the single relevant RSS URL
+        rss_pick = rss_urls[-1:] if is_update else rss_urls[:1]
+        for url in rss_pick:
+            text = _fetch_page_text(url)
+            if text:
+                pages.append({"url": url, "content": text})
+    else:
+        # Full research: try RSS article first; only Serper if content is thin
+        if rss_urls:
+            text = _fetch_page_text(rss_urls[0])
+            if text:
+                pages.append({"url": rss_urls[0], "content": text})
+
+        if sum(len(p["content"]) for p in pages) < 1500:
+            try:
+                hits = _serper_search(event["title"], n=5)
+                METRICS.add_searches("(read)", 1)
+            except Exception as e:
+                log(f"serper failed ({event['title'][:40]}): {e}")
+
+        fetched = {p["url"] for p in pages}
+        for url in (u for h in hits if (u := _clean_url(h["url"])) is not None):
+            if url not in fetched and len(pages) < WEB_FETCHES_PER_EVENT:
+                text = _fetch_page_text(url)
+                if text:
+                    pages.append({"url": url, "content": text})
+                    fetched.add(url)
 
     # 4. One-shot extraction — single Haiku call, no tools
     is_update = existing_context is not None
@@ -1379,6 +1389,41 @@ def _topic_fallback_query(topic: str, sources: list[dict]) -> str:
         if s.get("topic") == topic and s.get("query"):
             return s["query"]
     return f"{topic_display(topic)} news"
+
+
+def _serper_discovery_items(
+    feeds: dict, sources: list[dict], cfg: dict, seen: dict
+) -> list[dict]:
+    """Run one Serper search per feed to surface stories that RSS feeds missed.
+    Returns synthetic items in the same shape as RSS items — they flow into
+    stage1_cluster and _merge_new_events exactly like any other item, and their
+    URLs are added to seen_links by save_state so they're not re-discovered."""
+    items: list[dict] = []
+    for feed_key, feed in feeds.items():
+        all_topics = feed.get("topics", []) + feed.get("also_includes", [])
+        research_topics = [t for t in all_topics if research_enabled(t, cfg)]
+        if not research_topics:
+            continue
+        query = f"{feed['title']} news"
+        try:
+            hits = _serper_search(query, n=10)
+            METRICS.add_searches("(discovery)", 1)
+        except Exception as e:
+            log(f"serper discovery failed ({feed_key}): {e}")
+            continue
+        for i, hit in enumerate(hits):
+            url = _clean_url(hit.get("url", ""))
+            if not url or url in seen:
+                continue
+            items.append({
+                "id": f"disc_{feed_key}_{i}",
+                "source": "Serper Discovery",
+                "topic": research_topics[0],
+                "title": hit.get("title", "").strip(),
+                "summary": hit.get("snippet", "").strip(),
+                "link": url,
+            })
+    return items
 
 
 def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
@@ -2915,6 +2960,14 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     # Load stored events from earlier runs today.
     all_stored = _load_today_events(state, date)
     fallback_tried = _load_fallback_tried(state, date)
+
+    # Serper discovery: one search per feed to catch stories RSS missed.
+    # Results are synthetic items in the same format as RSS items.
+    if not no_research:
+        disc = _serper_discovery_items(feeds, sources, cfg, seen)
+        if disc:
+            log(f"serper discovery: +{len(disc)} items across {len(feeds)} feed(s)")
+            items = items + disc
 
     # Stage 1: one unified clustering pass over all feeds.
     if items:
