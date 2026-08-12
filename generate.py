@@ -106,9 +106,8 @@ STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all fe
 STAGE1_GROUP_BATCH = 40                 # groups per LLM call — 40 × ~750 chars ≈ 30K chars, under 16K token limit
 MAX_STAGE1_GROUPS = 200                 # hard cap on total groups sent to LLM
 MIN_GROUPS_PER_TOPIC = 50               # each topic gets at least this many groups before global fill
-READ_MAX_TOKENS = 2000                  # Haiku read: just a factual extract
-STAGE2_MAX_TOKENS = 5000                # Sonnet polish: short dense summaries (batched)
-STAGE2_EFFORT = "low"                   # scoped writing task; low trims thinking cost
+READ_MAX_TOKENS = 1200                  # Haiku read: factual extract; avg output ~300 tokens
+STAGE2_MAX_TOKENS = 5000                # write model: short dense summaries (batched)
 SEEN_LINKS_RETENTION_DAYS = 7
 SUMMARY_MAX_CHARS = 300
 
@@ -125,6 +124,7 @@ EMBEDDING_CACHE_FILE = ROOT / "embedding_cache.json"  # internal only — never
 # cache read = 0.1x input). These are approximations for cost tracking.
 PRICES = {
     "claude-haiku-4-5": {"input": 1.0, "output": 5.0},
+    "claude-haiku-4-5-20251001": {"input": 1.0, "output": 5.0},
     "claude-sonnet-5": {"input": 3.0, "output": 15.0},
 }
 WEB_SEARCH_COST_PER_1K = 1.0   # Serper.dev: $1 per 1,000 searches
@@ -1116,7 +1116,7 @@ def _cluster_groups_payload(groups: list[list[dict]], offset: int = 0) -> list[d
         payload.append({
             "group_id": f"g{i + offset}",
             "title": rep.get("title", ""),
-            "summary": rep.get("summary", ""),
+            "summary": (rep.get("summary", "") or "")[:500],
             "also_reported": others,
             "outlet_count": len({m.get("source", "") for m in members}),
             "topics": sorted({m.get("topic", "") for m in members if m.get("topic")}),
@@ -1775,7 +1775,7 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
     out: list[list[float]] = []
     for i in range(0, len(texts), _VOYAGE_BATCH):
         if i > 0:
-            time.sleep(3)  # proactive pause between chunks to stay under Voyage TPM limits
+            time.sleep(0.5)  # brief pause between chunks; paid tier is 3M TPM
         chunk = texts[i: i + _VOYAGE_BATCH]
         for attempt in range(8):
             try:
