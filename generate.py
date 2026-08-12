@@ -1116,7 +1116,7 @@ def _cluster_groups_payload(groups: list[list[dict]], offset: int = 0) -> list[d
         payload.append({
             "group_id": f"g{i + offset}",
             "title": rep.get("title", ""),
-            "summary": (rep.get("summary", "") or "")[:500],
+            "summary": (s := (rep.get("summary", "") or "")) and (s[:500] + "…" if len(s) > 500 else s),
             "also_reported": others,
             "outlet_count": len({m.get("source", "") for m in members}),
             "topics": sorted({m.get("topic", "") for m in members if m.get("topic")}),
