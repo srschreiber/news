@@ -27,41 +27,44 @@ feeds:
     title: Technology
     topics: [tech, ai, anthropic, gpt, security, email-security, golang, python, postgres, tech-research]
     scoring_context: >
-      Score for a tech-industry reader. 5 = industry-shaping (landmark model release,
-      critical zero-day exploited at scale, major platform shutdown). 3 = significant
-      (notable product launch, substantial breach, widely-adopted tool). 1 = minor
-      update or niche-only interest. For tech-research specifically: score for a CS
-      researcher or ML practitioner — 5 = widely-cited breakthrough or new SOTA,
-      3 = solid paper from a top venue/lab, 1 = incremental or narrow niche.
+      Score for a tech-industry reader on a 1–10 scale. 9–10 = industry-shaping
+      (landmark model release, critical zero-day exploited at scale, major platform
+      shutdown — rare). 7–8 = significant (notable product launch, substantial breach,
+      widely-adopted tool release). 4–6 = solid but routine (minor update, niche tool,
+      incremental improvement). 1–3 = low signal. For tech-research: score for a CS
+      researcher or ML practitioner — 9–10 = widely-cited breakthrough or new SOTA
+      (rare), 7–8 = solid paper from a top venue/lab, 4–6 = incremental or narrow niche.
   world:
     title: World
     topics: [world, markets]
     scoring_context: >
-      Score for a general news reader tracking global events and financial markets.
-      5 = globally consequential (major military escalation, historic political event,
-      severe market crash). 3 = significant (notable geopolitical development, major
-      market move, meaningful policy change). 1 = local incident or routine report.
+      Score for a general news reader on a 1–10 scale. 9–10 = globally consequential
+      (major military escalation, historic political event, severe market crash — rare).
+      7–8 = significant (notable geopolitical development, major market move, meaningful
+      policy change). 4–6 = noteworthy but routine. 1–3 = local incident or minor report.
   science:
     title: Science
     topics: [science, space, health, diet-exercise]
     also_includes: [climate-resilience, climate-change, conservation]
     scoring_context: >
-      Score for a science-curious reader, not against general-news events. 5 = landmark
-      within science (Nobel-calibre discovery, major FDA approval, first-ever mission
-      milestone). 3 = significant (well-replicated study with real-world implications,
-      meaningful drug trial result, notable space mission update). 1 = routine research
-      note or incremental finding. For diet-exercise: score for a health-conscious
-      general reader — 5 = major dietary or exercise-science finding that changes
-      guidance, 3 = solid study with practical takeaways, 1 = routine or niche finding.
+      Score for a science-curious reader on a 1–10 scale, not against general-news
+      events. 9–10 = landmark within science (Nobel-calibre discovery, major FDA
+      approval, first-ever mission milestone — rare). 7–8 = significant (well-replicated
+      study with real-world implications, meaningful drug trial result, notable space
+      mission update). 4–6 = solid but incremental finding. 1–3 = routine or narrow
+      niche. For diet-exercise: 9–10 = major finding that changes guidance, 7–8 = solid
+      study with clear practical takeaways, 4–6 = interesting but preliminary, 1–3 = routine.
   environment:
     title: Environment
     topics: [climate-resilience, climate-change, conservation]
     scoring_context: >
-      Score for an ecologist, climate scientist, or conservationist reading beyond
-      general news. 5 = landmark (major IPCC-caliber finding, breakthrough restoration
-      or conservation method, large-scale synthesis across ecosystems). 3 = significant
-      (well-designed field study or policy development with clear real-world
-      implications). 1 = incremental or narrow local finding.
+      Score for an ecologist, climate scientist, or conservationist on a 1–10 scale,
+      reading beyond general news. 9–10 = landmark (major IPCC-caliber finding,
+      breakthrough restoration or conservation method, large-scale synthesis — rare).
+      7–8 = significant (well-designed field study with clear real-world implications,
+      demonstrated restoration technique, meaningful policy development). 4–6 = solid
+      but incremental — a good single-site study, a promising pilot, new data on a
+      known trend. 1–3 = narrow local finding or routine monitoring report.
 # Web research (Stage 2: Haiku reads + Sonnet polishes) is the main cost. On by
 # default; turned off for niche/low-value topics (rendered from RSS summaries).
 # Each research-enabled topic (subfeed) gets its own budget — see
@@ -128,9 +131,6 @@ sources:
     topic: security
   - name: Schneier on Security
     url: https://www.schneier.com/feed/atom/
-    topic: security
-  - name: "CISA Advisories"
-    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
     topic: security
   - name: "Google News — cybersecurity"
     query: "cybersecurity breach vulnerability"
@@ -199,9 +199,6 @@ sources:
     topic: science
 
   # --- Space / NASA ---
-  - name: "NASA — Breaking News"
-    url: https://www.nasa.gov/rss/dyn/breaking_news.rss
-    topic: space
   - name: "Space.com"
     url: https://www.space.com/feeds/all
     topic: space
@@ -240,15 +237,9 @@ sources:
   - name: "arXiv — Cryptography and Security"
     url: https://rss.arxiv.org/rss/cs.CR
     topic: tech-research
-  - name: "arXiv — Distributed Computing"
-    url: https://rss.arxiv.org/rss/cs.DC
-    topic: tech-research
   # --- Industrial research labs ---
   - name: "Google Research Blog"
     url: https://research.google/blog/rss/
-    topic: tech-research
-  - name: "Microsoft Research Blog"
-    url: https://www.microsoft.com/en-us/research/feed/
     topic: tech-research
   - name: "Apple Machine Learning Research"
     url: https://machinelearning.apple.com/rss.xml
@@ -260,12 +251,6 @@ sources:
     url: https://engineering.fb.com/category/ml-applications/feed/
     topic: tech-research
   # --- University research labs ---
-  - name: "Stanford AI Lab"
-    url: https://ai.stanford.edu/blog/feed.xml
-    topic: tech-research
-  - name: "Berkeley AI Research (BAIR)"
-    url: https://bair.berkeley.edu/blog/feed.xml
-    topic: tech-research
   - name: "MIT — Computers"
     url: https://news.mit.edu/topic/mitcomputers-rss.xml
     topic: tech-research
@@ -273,41 +258,19 @@ sources:
     url: https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml
     topic: tech-research
   # --- Curated paper feeds ---
-  - name: "Hugging Face Daily Papers"
-    url: https://huggingface.co/papers.rss
-    topic: tech-research
-  - name: "Quanta Magazine"
-    url: https://www.quantamagazine.org/feed/
-    topic: tech-research
   - name: "DeepMind Blog"
     url: https://www.deepmind.com/blog/rss.xml
     topic: tech-research
 
   # === CLIMATE & ECOLOGICAL RESILIENCE SUBFEED (part of Environment) ===
-  - name: "Nature Ecology & Evolution"
-    url: https://www.nature.com/natecolevol.rss
-    topic: climate-resilience
   - name: "Google News — wildfire ecology research"
     query: "wildfire ecology research fire effects forest"
     topic: climate-resilience
   - name: "Google News — forest restoration ecology"
     query: "forest restoration ecology climate resilience treatment"
     topic: climate-resilience
-  - name: "Environmental Research Letters"
-    url: https://iopscience.iop.org/journal/rss/1748-9326
-    topic: climate-resilience
-  - name: "USGS Publications"
-    url: https://pubs.usgs.gov/rss/all.xml
-    topic: climate-resilience
-  - name: "USFS Treesearch — Wildfire & Fire Ecology"
-    scraper: usfs_treesearch
-    query: "wildfire fire ecology fuel treatment forest restoration"
-    topic: climate-resilience
 
   # === CLIMATE CHANGE SUBFEED (part of Environment) ===
-  - name: "Nature Climate Change"
-    url: https://www.nature.com/nclimate.rss
-    topic: climate-change
   - name: "Science — Climate"
     url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science
     topic: climate-change
@@ -340,9 +303,6 @@ sources:
   - name: "The Guardian — Conservation"
     url: https://www.theguardian.com/environment/conservation/rss
     topic: conservation
-  - name: "Nature Sustainability"
-    url: https://www.nature.com/natsustain.rss
-    topic: conservation
   - name: "Science Advances"
     url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv
     topic: conservation
@@ -359,18 +319,6 @@ sources:
     topic: diet-exercise
   - name: "ScienceDaily — Nutrition"
     url: https://www.sciencedaily.com/rss/health_medicine/nutrition.xml
-    topic: diet-exercise
-  - name: "Nature Metabolism"
-    url: https://www.nature.com/natmetab.rss
-    topic: diet-exercise
-  - name: "Precision Nutrition"
-    url: https://www.precisionnutrition.com/blog/feed
-    topic: diet-exercise
-  - name: "SELF"
-    url: https://www.self.com/feed/rss
-    topic: diet-exercise
-  - name: "Runner's World"
-    url: https://www.runnersworld.com/rss/all.xml/
     topic: diet-exercise
   - name: "Google News — nutrition exercise science"
     query: "nutrition exercise science study research"
