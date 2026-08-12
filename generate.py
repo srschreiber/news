@@ -575,6 +575,7 @@ def normalize_entry(
     return {
         "id": f"{source_key}-{idx}",
         "source": entry_outlet(entry, source_name),
+        "_feed": source_name,
         "topic": topic,
         "title": (entry.get("title") or "").strip(),
         "summary": clean_summary(entry.get("summary") or entry.get("description")),
@@ -955,6 +956,11 @@ class Metrics:
     def __init__(self) -> None:
         self._lock = threading.Lock()
         self.topics: dict[str, dict] = {}
+        self.feed_counts: dict[str, int] = {}
+
+    def set_feed_counts(self, counts: dict[str, int]) -> None:
+        with self._lock:
+            self.feed_counts = dict(counts)
 
     def add_searches(self, topic: str, count: int) -> None:
         with self._lock:
@@ -1002,6 +1008,7 @@ class Metrics:
             "tokens_by_model": agg_model,
             "estimated_cost_usd": round(self.estimate_usd(), 4),
             "by_topic": by_topic,
+            "by_feed": dict(sorted(self.feed_counts.items(), key=lambda x: x[1], reverse=True)),
         }
 
 
@@ -2952,6 +2959,13 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     # Only cluster items newer than each source's last-processed timestamp so
     # hourly incremental runs don't reprocess events already clustered today.
     items = filter_and_cap(raw, cutoff, seen, today=date, source_last_ts=source_last_ts)
+    feed_counts: dict[str, int] = {}
+    for it in items:
+        feed_counts[it["_feed"]] = feed_counts.get(it["_feed"], 0) + 1
+    METRICS.set_feed_counts(feed_counts)
+    log("items by feed: " + ", ".join(
+        f"{n}={c}" for n, c in sorted(feed_counts.items(), key=lambda x: x[1], reverse=True)
+    ))
     all_topics = sorted({s["topic"] for s in sources})
     feeds, topic_feed = load_feeds(all_topics)
 
