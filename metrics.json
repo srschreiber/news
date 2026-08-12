@@ -1,5 +1,106 @@
 [
   {
+    "timestamp": "2026-08-12T06:27:18.691322+00:00",
+    "mode": "daily",
+    "calls": 25,
+    "web_searches": 6,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 78170,
+        "output": 23857,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 1363,
+        "output": 332,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.2035,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 6,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 32381,
+            "output": 21943,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1421
+      },
+      "(fallback)": {
+        "calls": 4,
+        "web_searches": 4,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 19026,
+            "output": 862,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0273
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 395,
+            "output": 52,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0007
+      },
+      "(merge-check)": {
+        "calls": 8,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 5145,
+            "output": 72,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0055
+      },
+      "(read)": {
+        "calls": 5,
+        "web_searches": 2,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 21223,
+            "output": 928,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0279
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 1363,
+            "output": 332,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0
+      }
+    }
+  },
+  {
     "timestamp": "2026-08-11T21:43:51.945505+00:00",
     "mode": "daily",
     "calls": 16,
