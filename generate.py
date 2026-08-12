@@ -2293,20 +2293,34 @@ def _story_tokens(rec: dict) -> set[str]:
     return {t for t in re.findall(r"[a-z0-9]+", text) if len(t) > 1 and t not in _STORY_STOP}
 
 
-def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3) -> list[dict]:
+def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3, max_days: int = 3) -> list[dict]:
     """Collapse the same real-world story surfaced under multiple topics.
 
     Two records are the same story if their significant title+keyword tokens
-    overlap by >= min_shared. Input must be importance-sorted; the first
-    (highest-importance) survivor is kept.
+    overlap by >= min_shared AND their dates are within max_days of each other.
+    The date guard prevents a wildfire story from week 1 from suppressing a
+    distinct wildfire story from week 4 in the monthly window.
+    Input must be importance-sorted; the first (highest-importance) survivor is kept.
     """
-    kept, kept_tokens = [], []
+    kept, kept_tokens, kept_dates = [], [], []
     for r in ranked:
         tks = _story_tokens(r)
-        if any(len(tks & kt) >= min_shared for kt in kept_tokens):
+        try:
+            r_date = dt.date.fromisoformat(r.get("date", ""))
+        except ValueError:
+            r_date = None
+        is_dup = False
+        for kt, kd in zip(kept_tokens, kept_dates):
+            if len(tks & kt) < min_shared:
+                continue
+            if r_date is None or kd is None or abs((r_date - kd).days) <= max_days:
+                is_dup = True
+                break
+        if is_dup:
             continue
         kept.append(r)
         kept_tokens.append(tks)
+        kept_dates.append(r_date)
     return kept
 
 
