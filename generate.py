@@ -2280,48 +2280,21 @@ def _dated_stems(directory: Path) -> list[str]:
 
 
 
-def _dedupe_cross_topic(ranked: list[dict], emb_lookup: dict | None = None) -> list[dict]:
-    """Collapse the same real-world story surfaced under multiple topics.
-
-    Uses cosine similarity on cached embeddings when available. Two records are
-    considered the same story if their embeddings exceed MERGE_COS_THRESHOLD.
-    Records without embeddings in the cache are never collapsed.
-    Input must be importance-sorted; the first (highest-importance) survivor is kept.
-    """
-    kept, kept_embs = [], []
-    emb_lookup = emb_lookup or {}
-    for r in ranked:
-        emb = emb_lookup.get(r.get("event_id", ""))
-        is_dup = False
-        if emb:
-            for ke in kept_embs:
-                if ke and _cosine(emb, ke) >= MERGE_COS_THRESHOLD:
-                    is_dup = True
-                    break
-        if is_dup:
-            continue
-        kept.append(r)
-        kept_embs.append(emb)
-    return kept
-
-
 def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int = 30) -> dict:
     """Split scope-filtered `records` into daily/weekly/monthly windows, anchored
-    on the most recent date present. Each window is deduped (same story surfaced
-    under multiple topics) and importance-sorted. No caps — pagination handles it."""
+    on the most recent date present. Each window is importance-sorted. No caps —
+    pagination handles it. Cross-topic dedup is handled at ingestion (stage1
+    clustering merges the same story across topics into one event)."""
     if not records:
         return {"daily": [], "weekly": [], "monthly": []}
     latest = max(r["date"] for r in records)
     latest_d = dt.date.fromisoformat(latest)
     weekly_cutoff = (latest_d - dt.timedelta(days=weekly_days - 1)).isoformat()
     monthly_cutoff = (latest_d - dt.timedelta(days=monthly_days - 1)).isoformat()
-    emb_cache = load_embedding_cache(latest)
-    emb_lookup = {eid: v["embedding"] for eid, v in emb_cache.items() if v.get("embedding")}
 
     def _window(cutoff: str) -> list[dict]:
-        ranked = sorted((r for r in records if r["date"] >= cutoff),
-                        key=lambda r: r.get("importance", 0), reverse=True)
-        return _dedupe_cross_topic(ranked, emb_lookup)
+        return sorted((r for r in records if r["date"] >= cutoff),
+                      key=lambda r: r.get("importance", 0), reverse=True)
 
     return {
         "daily": _window(latest),
@@ -3079,9 +3052,18 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             key=lambda e: e.get("importance", 0), reverse=True,
         )
         # Same real-world story sometimes survives clustering as two distinct
-        # events (different exact headlines/sources) — collapse near-duplicates
-        # by title/keyword overlap before writing the daily doc.
-        per_topic[topic] = _dedupe_cross_topic(ranked)[:EVENTS_PER_TOPIC]
+        # events — collapse near-duplicates by cosine similarity on their
+        # stage1 centroids before writing the daily doc.
+        deduped: list[dict] = []
+        kept_embs: list[list[float]] = []
+        for ev in ranked:
+            emb = ev.get("_embedding")
+            if emb and any(_cosine(emb, ke) >= MERGE_COS_THRESHOLD for ke in kept_embs):
+                continue
+            deduped.append(ev)
+            if emb:
+                kept_embs.append(emb)
+        per_topic[topic] = deduped[:EVENTS_PER_TOPIC]
         if (not per_topic[topic] and not no_research
                 and topic not in fallback_tried
                 and research_enabled(topic, cfg)):
