@@ -91,8 +91,7 @@ RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic),
                                         # a few feed-wide "winners" starving the rest.
 MIN_RESEARCH_IMPORTANCE = 7             # full Serper+web research threshold (1-10)
 MIN_RSS_IMPORTANCE = 5                  # RSS-only read threshold for lower-importance new events
-MAX_RESEARCH_PER_RUN = 2               # cap truly-new events researched per run
-MAX_UPDATE_RESEARCH_PER_RUN = 3        # cap RSS-only lightweight reads for updated events per run
+MAX_UPDATE_RESEARCH_PER_RUN = 10       # cap RSS-only reads per run (updated + lower-importance new)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
@@ -220,6 +219,26 @@ READ_SCHEMA = {
         },
     },
     "required": ["extract", "sources"],
+    "additionalProperties": False,
+}
+
+# Stage 2a update variant: merge existing research with a new article.
+READ_UPDATE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "extract": {"type": "string"},
+        "takeaways": {"type": "array", "items": {"type": "string"}},
+        "sources": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"label": {"type": "string"}, "url": {"type": "string"}},
+                "required": ["label", "url"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["extract", "takeaways", "sources"],
     "additionalProperties": False,
 }
 
@@ -841,18 +860,26 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
     return out
 
 
-def research_events_rss_only(updated: list[dict], date: str) -> list[dict]:
-    """Lightweight research for updated events: fetch only the RSS source URL (no
-    Serper), run Haiku extraction, and return the extract as a summary update.
-    No polish pass — keeps cost to one Haiku call per updated event."""
-    if not updated:
+def research_events_rss_only(events: list[dict], date: str) -> list[dict]:
+    """Lightweight RSS-only research: no Serper, one page fetch per event.
+
+    Events with existing research (one_liner or takeaways) get the update
+    prompt — Haiku merges old findings with the new article and returns a
+    merged takeaways list. Events without prior research get a plain extract."""
+    if not events:
         return []
-    for i, e in enumerate(updated):
+    for i, e in enumerate(events):
         e["ref"] = f"u{i}"
+
+    def _existing(ev: dict) -> dict | None:
+        if ev.get("one_liner") or ev.get("takeaways"):
+            return {"summary": ev.get("one_liner", ""),
+                    "takeaways": ev.get("takeaways", [])}
+        return None
 
     reads: list[dict] = []
     with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
-        futs = {ex.submit(stage2a_read, e, date, True): e for e in updated}
+        futs = {ex.submit(stage2a_read, e, date, True, _existing(e)): e for e in events}
         for fut in as_completed(futs):
             ev = futs[fut]
             try:
@@ -861,8 +888,11 @@ def research_events_rss_only(updated: list[dict], date: str) -> list[dict]:
                 log(f"[{ev['ref']}] rss-only read failed: {exc}")
                 r = None
             if r:
-                reads.append({"ref": ev["ref"], "summary": r["extract"],
-                              "sources": r.get("sources", [])})
+                entry: dict = {"ref": ev["ref"], "summary": r["extract"],
+                               "sources": r.get("sources", [])}
+                if "takeaways" in r:
+                    entry["takeaways"] = r["takeaways"]
+                reads.append(entry)
     return reads
 
 
@@ -1264,13 +1294,15 @@ def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]
     ]
 
 
-def stage2a_read(event: dict, date: str, rss_only: bool = False) -> dict | None:
+def stage2a_read(event: dict, date: str, rss_only: bool = False,
+                 existing_context: dict | None = None) -> dict | None:
     """Stage 2a — deterministic fetch + Haiku extraction. No tool loop.
 
-    rss_only=True: skip Serper, fetch only the event's existing RSS source URL(s).
-    Used for updates — we already have context; just check for new facts in the
-    article that was linked by the new RSS item."""
-    # 1. Serper search (skipped for updates)
+    rss_only=True: skip Serper, fetch only one RSS source URL.
+    existing_context={summary, takeaways}: use the update prompt — Haiku merges
+    existing research with new article content (updates outdated findings, adds
+    new ones). Fetches the *last* source URL (newest article for updated events)."""
+    # 1. Serper search (skipped for rss_only)
     hits: list[dict] = []
     if not rss_only:
         try:
@@ -1279,13 +1311,15 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False) -> dict | None:
         except Exception as e:
             log(f"serper failed ({event['title'][:40]}): {e}")
 
-    # 2. Collect URLs: prefer RSS source first, fill slots with Serper results
+    # 2. Collect URLs. For updates (existing_context), fetch the last/newest RSS
+    # source — new articles are appended to the end of the sources list.
     rss_urls = [u for s in event.get("sources", [])
                 if (u := _clean_url(s.get("url", ""))) is not None]
     serper_urls = [u for h in hits if (u := _clean_url(h["url"])) is not None]
+    rss_pick = rss_urls[-1:] if existing_context else rss_urls[:1]
     seen: set[str] = set()
     urls_to_fetch: list[str] = []
-    for u in (rss_urls[:1] + serper_urls):
+    for u in (rss_pick + serper_urls):
         if u not in seen and len(urls_to_fetch) < WEB_FETCHES_PER_EVENT:
             urls_to_fetch.append(u)
             seen.add(u)
@@ -1298,26 +1332,32 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False) -> dict | None:
             pages.append({"url": url, "content": text})
 
     # 4. One-shot extraction — single Haiku call, no tools
-    payload = {
+    is_update = existing_context is not None
+    payload: dict = {
         "date": date,
         "event": {
             "title": event["title"],
             "one_liner": event.get("one_liner", ""),
             "keywords": event.get("keywords", []),
         },
-        "search_results": [
-            {"title": h["title"], "url": h["url"], "snippet": h.get("snippet", "")}
-            for h in hits
-        ],
         "pages": pages,
     }
+    if is_update:
+        payload["existing"] = existing_context
+    else:
+        payload["search_results"] = [
+            {"title": h["title"], "url": h["url"], "snippet": h.get("snippet", "")}
+            for h in hits
+        ]
+    schema = READ_UPDATE_SCHEMA if is_update else READ_SCHEMA
+    prompt = "read_update.md" if is_update else "read.md"
     client = _client()
     try:
         resp = client.messages.create(
             model=READ_MODEL,
             max_tokens=READ_MAX_TOKENS,
-            output_config={"format": {"type": "json_schema", "schema": READ_SCHEMA}},
-            system=_sys("read.md"),
+            output_config={"format": {"type": "json_schema", "schema": schema}},
+            system=_sys(prompt),
             messages=[{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
         )
     except Exception as e:
@@ -2923,7 +2963,6 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
 
     # Truly-new events: full Serper + web-fetch + Haiku read + Haiku polish.
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
-    selected = selected[:MAX_RESEARCH_PER_RUN]
     log(f"researching {len(selected)} new events")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
