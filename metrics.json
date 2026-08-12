@@ -1,5 +1,103 @@
 [
   {
+    "timestamp": "2026-08-12T18:44:05.774008+00:00",
+    "mode": "daily",
+    "calls": 57,
+    "web_searches": 16,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 78905,
+        "output": 17061,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 2814,
+        "output": 1129,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1802,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 14861,
+            "output": 10275,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0662
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(merge-check)": {
+        "calls": 26,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 16136,
+            "output": 234,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0173
+      },
+      "(read)": {
+        "calls": 27,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 47908,
+            "output": 6552,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0817
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 2814,
+            "output": 1129,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Phys.org": 14,
+      "TechCrunch": 7,
+      "Hacker News (front page)": 7,
+      "Engadget": 5,
+      "The Verge": 5,
+      "The Guardian \u2014 Climate Crisis": 2,
+      "Space.com": 2,
+      "Inside Climate News": 1,
+      "STAT News": 1,
+      "The Hacker News": 1,
+      "The Record": 1,
+      "Live Science": 1,
+      "Ars Technica": 1,
+      "Dark Reading": 1,
+      "Google Research Blog": 1
+    }
+  },
+  {
     "timestamp": "2026-08-12T16:43:54.957651+00:00",
     "mode": "daily",
     "calls": 95,
