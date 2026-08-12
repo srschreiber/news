@@ -1392,33 +1392,31 @@ def _topic_fallback_query(topic: str, sources: list[dict]) -> str:
 
 
 def _serper_discovery_items(
-    feeds: dict, sources: list[dict], cfg: dict, seen: dict
+    all_topics: list[str], sources: list[dict], cfg: dict, seen: dict
 ) -> list[dict]:
-    """Run one Serper search per feed to surface stories that RSS feeds missed.
-    Returns synthetic items in the same shape as RSS items — they flow into
-    stage1_cluster and _merge_new_events exactly like any other item, and their
-    URLs are added to seen_links by save_state so they're not re-discovered."""
+    """Run one Serper search per research-enabled topic to surface stories that
+    RSS feeds missed. Uses each topic's configured query (from sources.yaml) so
+    niche subfeeds like email-security or climate-resilience get targeted searches.
+    Returns synthetic items in the same shape as RSS items."""
     items: list[dict] = []
-    for feed_key, feed in feeds.items():
-        all_topics = feed.get("topics", []) + feed.get("also_includes", [])
-        research_topics = [t for t in all_topics if research_enabled(t, cfg)]
-        if not research_topics:
+    for topic in all_topics:
+        if not research_enabled(topic, cfg):
             continue
-        query = f"{feed['title']} news"
+        query = _topic_fallback_query(topic, sources)
         try:
             hits = _serper_search(query, n=10)
             METRICS.add_searches("(discovery)", 1)
         except Exception as e:
-            log(f"serper discovery failed ({feed_key}): {e}")
+            log(f"serper discovery failed ({topic}): {e}")
             continue
         for i, hit in enumerate(hits):
             url = _clean_url(hit.get("url", ""))
             if not url or url in seen:
                 continue
             items.append({
-                "id": f"disc_{feed_key}_{i}",
+                "id": f"disc_{topic}_{i}",
                 "source": "Serper Discovery",
-                "topic": research_topics[0],
+                "topic": topic,
                 "title": hit.get("title", "").strip(),
                 "summary": hit.get("snippet", "").strip(),
                 "link": url,
@@ -2964,9 +2962,9 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     # Serper discovery: one search per feed to catch stories RSS missed.
     # Results are synthetic items in the same format as RSS items.
     if not no_research:
-        disc = _serper_discovery_items(feeds, sources, cfg, seen)
+        disc = _serper_discovery_items(all_topics, sources, cfg, seen)
         if disc:
-            log(f"serper discovery: +{len(disc)} items across {len(feeds)} feed(s)")
+            log(f"serper discovery: +{len(disc)} items across {len(all_topics)} topic(s)")
             items = items + disc
 
     # Stage 1: one unified clustering pass over all feeds.
