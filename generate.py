@@ -657,8 +657,14 @@ def meter(score: float) -> str:
 
 def _source_badge(origin: str) -> str:
     """GitHub-style pill tagging a source as from the RSS feed or from research."""
-    label = "AI Web Searched" if origin == "research" else "RSS"
-    return f'<span class="src-badge src-{origin}">{label}</span>'
+    if origin == "research":
+        label = "AI Web Searched"
+    elif origin == "discovery":
+        label = "Web Search"
+    else:
+        label = "RSS"
+    safe_origin = origin if origin in ("rss", "research", "discovery") else "rss"
+    return f'<span class="src-badge src-{safe_origin}">{label}</span>'
 
 
 def payload_items(items: list[dict]) -> list[dict]:
@@ -687,7 +693,8 @@ def attach_sources(events: list[dict], items: list[dict]) -> list[dict]:
             if label in seen_labels:
                 continue
             seen_labels.add(label)
-            sources.append({"label": label, "url": it["link"], "origin": "rss"})
+            origin = "discovery" if it.get("_is_discovery") else "rss"
+            sources.append({"label": label, "url": it["link"], "origin": origin})
         out.append({**ev, "sources": sources})
     return out
 
@@ -1420,9 +1427,17 @@ def _serper_discovery_items(
             url = _clean_url(hit.get("url", ""))
             if not url or url in seen:
                 continue
+            try:
+                hostname = urllib.parse.urlparse(url).hostname or ""
+                # strip www. prefix for cleaner display
+                site = hostname.removeprefix("www.") if hostname else "web"
+            except Exception:
+                site = "web"
             items.append({
                 "id": f"disc_{topic}_{i}",
-                "source": "Serper Discovery",
+                "source": site,
+                "_feed": "Serper Discovery",
+                "_is_discovery": True,
                 "topic": topic,
                 "title": hit.get("title", "").strip(),
                 "summary": hit.get("snippet", "").strip(),

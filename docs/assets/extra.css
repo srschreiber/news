@@ -31,6 +31,14 @@
 [data-md-color-scheme="slate"] .src-research {
   color: #3fb950;
 }
+.src-discovery {
+  background: rgba(210, 130, 0, 0.12);
+  color: #9a5800;
+  border-color: rgba(210, 130, 0, 0.35);
+}
+[data-md-color-scheme="slate"] .src-discovery {
+  color: #e3a135;
+}
 
 /* Star CTA in the footer copyright line (replaces the Material generator note). */
 .md-copyright__highlight a {
