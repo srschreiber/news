@@ -272,76 +272,36 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "sacred-groves-in-indias-western-ghats-regenerate-native-forests",
-    "title": "Sacred Groves in India's Western Ghats Regenerate Native Forests",
-    "summary": "A study finds that community-protected sacred forest groves in India's Western Ghats are more effective at regenerating native tree species than surrounding lands.",
-    "theme": "Conservation",
-    "importance": 4.0,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "sacred groves",
-      "Western Ghats",
-      "forest regeneration",
-      "conservation",
-      "India"
-    ],
-    "url": "news/climate-change/2026-08-12/#sacred-groves-in-indias-western-ghats-regenerate-native-forests",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/08/in-india-sacred-groves-serve-as-vital-nurseries-for-future-forests/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "sacred-groves-in-indias-western-ghats-regenerate-native-forests",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "nebraska-communities-unevenly-benefit-from-renewable-energy-boom",
-    "title": "Nebraska Communities Unevenly Benefit from Renewable Energy Boom",
-    "summary": "Some Nebraska communities are profiting from renewable energy expansion while others are being left behind economically.",
-    "theme": "Climate",
+    "event_id": "intel-llm-scaler-released-with-muse-glimmer-and-multiple-language-model-support",
+    "title": "Intel LLM-Scaler Released with Muse Glimmer and Multiple Language Model Support",
+    "summary": "Intel has released LLM-Scaler with support for Muse Glimmer and other large language models for optimized performance scaling.",
+    "theme": "AI",
     "importance": 4,
     "topics": [
-      "climate-change"
+      "ai"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "renewables",
-      "Nebraska",
-      "energy",
-      "communities"
+      "Intel",
+      "LLM-Scaler",
+      "language models",
+      "Muse Glimmer"
     ],
-    "url": "news/climate-change/2026-08-12/#nebraska-communities-unevenly-benefit-from-renewable-energy-boom",
+    "url": "news/ai/2026-08-12/#intel-llm-scaler-released-with-muse-glimmer-and-multiple-language-model-support",
     "sources": [
       {
-        "label": "Grist",
-        "url": "https://grist.org/cities/some-nebraska-communities-are-cashing-in-on-renewables-others-are-being-left-behind/",
+        "label": "Phoronix",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vLWdaNVgyenlUaHc2eEhDSlJYNWdtVXRhWHk4QUsyMUFlX1VoZ3l0ZWZjcFM1QllvM3hWMkZoelpjRzZ6cVpIcVdGTDJBYTkxNzFsT0ZxV0UxN2RuS19CRU94NmhydS1xNE0w?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "nebraska-communities-unevenly-benefit-from-renewable-energy-boom",
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "intel-llm-scaler-released-with-muse-glimmer-and-multiple-language-model-support",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -540,6 +500,42 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "code-may-no-longer-be-the-primary-focus-in-software-development",
+    "title": "Code May No Longer Be the Primary Focus in Software Development",
+    "summary": "Emerging trends suggest that traditional code-writing may be losing centrality in software development workflows.",
+    "theme": "Development",
+    "importance": 4.5,
+    "topics": [
+      "python"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "software development",
+      "code",
+      "programming paradigm"
+    ],
+    "url": "news/python/2026-08-12/#code-may-no-longer-be-the-primary-focus-in-software-development",
+    "sources": [
+      {
+        "label": "InfoWorld",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZQmF3Znc4bEltMlpfd3FUN0dyZkUzVFduc0VkcDNhZkxVRzd6al9IZmxpcThFMkJBZ204ajN3SWFueFlWdzZwNzNmTFhFNmhoZGRZUmZScEI2dS1OSDRMRnZudkFQLWdQUl9QVzdkVkVJR2FTREVDaW9lemtHWG8?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "code-may-no-longer-be-the-primary-focus-in-software-development",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "llm-cultural-alignment-analysis-across-single-and-multicultural-settings",
     "title": "LLM Cultural Alignment Analysis Across Single and Multicultural Settings",
     "summary": "Researchers apply cultural consensus theory to evaluate how large language models understand and align with cultural norms across different countries and multicultural environments.",
@@ -651,113 +647,36 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "iceland-braces-for-total-solar-eclipse-on-august-12-amid-challenging-viewing-conditions",
-    "title": "Iceland braces for total solar eclipse on August 12 amid challenging viewing conditions",
-    "summary": "Iceland is preparing for a total solar eclipse on August 12, though cloud cover poses challenges for observers.",
-    "theme": "Space Event",
-    "importance": 4.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "solar eclipse",
-      "Iceland",
-      "August 12",
-      "astronomy"
-    ],
-    "url": "news/world/2026-08-12/#iceland-braces-for-total-solar-eclipse-on-august-12-amid-challenging-viewing-conditions",
-    "sources": [
-      {
-        "label": "newser.com",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYTM2YjhCS2trNkxZM3QtVy1vXy16TmNRR1ljTDNya0JEUk9EcVBFYThiYXdvVE9CdWltREt0Y1FpS2tPZDZSY28zb0ktaEI0bDVsTkppaWh5NTBabFJJaTBJMl8xLUF2T2RfeU0wem5qblhaMHh4a3NRWWUyZldYVERfUFJOUVBIenN0amlLNlIyZw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "iceland-braces-for-total-solar-eclipse-on-august-12-amid-challenging-viewing-conditions",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "follow-ivory-trafficking-networks-not-headlines-to-combat-poaching-commentary-argues",
-    "title": "Follow ivory trafficking networks, not headlines, to combat poaching, commentary argues",
-    "summary": "An Environmental Investigation Agency commentary argues that focusing on trafficking networks rather than individual seizures is key to combating ivory poaching.",
-    "theme": "Wildlife Crime",
-    "importance": 5.0,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "ivory trafficking",
-      "poaching",
-      "conservation",
-      "Zambia"
-    ],
-    "url": "news/climate-change/2026-08-12/#follow-ivory-trafficking-networks-not-headlines-to-combat-poaching-commentary-argues",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/2026/08/on-ivory-follow-the-trafficking-networks-and-not-the-headlines-commentary/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "follow-ivory-trafficking-networks-not-headlines-to-combat-poaching-commentary-argues",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "cacao-plantations-encroach-on-liberian-rainforest-and-proposed-national-park",
-    "title": "Cacao Plantations Encroach on Liberian Rainforest and Proposed National Park",
-    "summary": "A cocoa boom in southeast Liberia is destroying native forests and threatening the proposed Kwa National Park, home to endangered species including chimpanzees, forest elephants, pygmy hippos, and pangolins.",
-    "theme": "Conservation",
+    "event_id": "anthropics-boris-cherny-ai-coding-bugs-are-becoming-more-complex",
+    "title": "Anthropic's Boris Cherny: AI Coding Bugs Are Becoming More Complex",
+    "summary": "Anthropic executive Boris Cherny notes that AI-generated bugs are shifting from simple errors to complex system design issues.",
+    "theme": "AI",
     "importance": 5,
     "topics": [
-      "climate-change"
+      "anthropic"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "Liberia",
-      "cacao",
-      "Kwa National Park",
-      "rainforest",
-      "deforestation"
+      "Anthropic",
+      "AI coding",
+      "bug patterns",
+      "system design"
     ],
-    "url": "news/climate-change/2026-08-12/#cacao-plantations-encroach-on-liberian-rainforest-and-proposed-national-park",
+    "url": "news/anthropic/2026-08-12/#anthropics-boris-cherny-ai-coding-bugs-are-becoming-more-complex",
     "sources": [
       {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/08/cacao-plantations-in-liberia-encroach-into-proposed-kwa-national-park/",
+        "label": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYXplelFhWTQwanZIVFZfUk9HaWoxQW9ndmptZVdKZWg1SENHVTBQOU9ubUtjeGpYdXhCSjJhZWtRYS1aS2ZZVVhibV9SSDBCTkQ3OGpHM0swd2loWUc0cGlMS1Rxd3l6S1B1aHpvdlZlOWJ4cURYZ0paME1oNVFBMTVVUzVKcWwtdEJRY3VrX3RNbVJ6bXdRXzBYdHJEVVFDYmhWaXhvdmU3WHgxV25ORHhDSml6cWQwQVBIOVVpSnh6cUFZUXRseEtkcnhfN3JzVjQ4N3d4Nk53ZzNoUDVJaEZsclptUDBBZ2VJckY0UTNjZw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "cacao-plantations-encroach-on-liberian-rainforest-and-proposed-national-park",
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "anthropics-boris-cherny-ai-coding-bugs-are-becoming-more-complex",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -875,43 +794,6 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "sanrio-shares-drop-as-quarterly-earnings-disappoint",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "ftse-100-declines-as-us-iran-hormuz-standoff-intensifies",
-    "title": "FTSE 100 declines as U.S.-Iran Hormuz standoff intensifies",
-    "summary": "The FTSE 100 index slipped as tensions between the United States and Iran over the Strait of Hormuz escalated.",
-    "theme": "Markets",
-    "importance": 5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "FTSE 100",
-      "U.S.-Iran tensions",
-      "Strait of Hormuz",
-      "geopolitical risk"
-    ],
-    "url": "news/markets/2026-08-12/#ftse-100-declines-as-us-iran-hormuz-standoff-intensifies",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd0Q2WU1va2RfVE10VzJCVlFzakd3bmZFZ1h3bjhjRTh4WVQxQko5eFV2XzhsZXhaT0U0bHJwWmhHRWM2eXAtS212WnBrR3lJblVwY3ZOX0pzVVRIME1OZkUwek9sUjFLd09xUFJwTTRycTJqZTFvaWVON2FYLWtSS0tQd2pVSXV4al9KUlRwSFdzazZka3d6S0tieGtZcmYxNXk4NTZ1MjJYd0pwNUNaTnhJOF9YT0lZWldmM1BB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "ftse-100-declines-as-us-iran-hormuz-standoff-intensifies",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1105,155 +987,6 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "medical-research-company-claiming-100-human-written-content-revealed-to-be-ai-generated",
-    "title": "Medical Research Company Claiming 100% Human-Written Content Revealed to Be AI-Generated",
-    "summary": "A company advertising exclusively human-written, never-AI research content was discovered to be entirely AI-generated.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI-generated",
-      "medical research",
-      "deception",
-      "peer review"
-    ],
-    "url": "news/tech/2026-08-12/#medical-research-company-claiming-100-human-written-content-revealed-to-be-ai-generated",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "medical-research-company-claiming-100-human-written-content-revealed-to-be-ai-generated",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "indias-central-bank-explores-ai-to-approve-loans-humans-would-reject",
-    "title": "India's Central Bank Explores AI to Approve Loans Humans Would Reject",
-    "summary": "India's financial regulator is exploring AI systems to approve loans that human underwriters would reject, seeking greater financial inclusion without increased risk.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "India",
-      "AI",
-      "lending",
-      "financial inclusion"
-    ],
-    "url": "news/tech/2026-08-12/#indias-central-bank-explores-ai-to-approve-loans-humans-would-reject",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/ai-and-ml/2026/08/12/indias-central-bank-wants-ai-to-approve-loans-that-humans-would-reject/5286572",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "indias-central-bank-explores-ai-to-approve-loans-humans-would-reject",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "xbox-elite-series-3-prototype-controller-leaks-with-built-in-screen",
-    "title": "Xbox Elite Series 3 prototype controller leaks with built-in screen",
-    "summary": "Images of an apparent Xbox Elite Series 3 prototype controller featuring a small built-in display have surfaced online.",
-    "theme": "Gaming Hardware",
-    "importance": 5.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Xbox",
-      "controller",
-      "gaming hardware",
-      "Microsoft",
-      "prototype"
-    ],
-    "url": "news/tech/2026-08-12/#xbox-elite-series-3-prototype-controller-leaks-with-built-in-screen",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/games/978374/xbox-elite-3-prototype-pad-leaks-with-tiny-built-in-screen",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "xbox-elite-series-3-prototype-controller-leaks-with-built-in-screen",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "worldclaw-enables-agentic-3d-open-world-generation-at-scale",
-    "title": "WorldClaw enables agentic 3D open-world generation at scale",
-    "summary": "WorldClaw, a Hunyuan3D project, demonstrates agentic approaches to generating large-scale 3D open-world environments.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "WorldClaw",
-      "Hunyuan3D",
-      "3D generation",
-      "agentic AI"
-    ],
-    "url": "news/tech/2026-08-12/#worldclaw-enables-agentic-3d-open-world-generation-at-scale",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://tencent-hunyuan.github.io/Hunyuan3D-WorldClaw/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "worldclaw-enables-agentic-3d-open-world-generation-at-scale",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
     "event_id": "off-axis-computation-in-transformers-reveals-functional-concept-representation",
     "title": "Off-Axis Computation in Transformers Reveals Functional Concept Representation",
     "summary": "Transformers compute conceptual information off the unembedding axis during intermediate layers, a position previously treated as noise but shown to be functionally important.",
@@ -1365,42 +1098,6 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "claude-hidden-features-and-capabilities-overview",
-    "title": "Claude hidden features and capabilities overview",
-    "summary": "Anthropic's Claude AI model has numerous useful capabilities that many users are unaware of.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "Anthropic",
-      "capabilities"
-    ],
-    "url": "news/anthropic/2026-08-12/#claude-hidden-features-and-capabilities-overview",
-    "sources": [
-      {
-        "label": "Fast Company",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtNDRXUEtLWDhGN0c1UlhsTDdzLTVBM0ZFV09KT3A3elpzb3FsRjVRZENfeTNnQUljVWRkZW5QUWdJVFVVeHpaZVEzcjZLZ0tvVmtVQ2FtTGt2T1do?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "claude-hidden-features-and-capabilities-overview",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
     "event_id": "pennsylvania-neighborhood-residents-live-in-fear-following-pipeline-leak-in-era-of-energy-deregulation",
     "title": "Pennsylvania neighborhood residents live in fear following pipeline leak in era of energy deregulation",
     "summary": "Residents of Mount Eyre Manor in Pennsylvania express concerns about living near a pipeline that leaked, amid policies promoting increased energy production.",
@@ -1433,45 +1130,6 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "pennsylvania-neighborhood-residents-live-in-fear-following-pipeline-leak-in-era-of-energy-deregulation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "cambodias-banned-sand-trade-with-singapore-appears-to-resume-despite-national-export-prohibition",
-    "title": "Cambodia's banned sand trade with Singapore appears to resume despite national export prohibition",
-    "summary": "Authorities in Cambodia approved a sand mining operation for export to Singapore, contradicting a decade-old national export ban due to environmental damage.",
-    "theme": "Conservation",
-    "importance": 5.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "sand mining",
-      "Cambodia",
-      "Singapore",
-      "environmental damage",
-      "ecosystem"
-    ],
-    "url": "news/climate-change/2026-08-12/#cambodias-banned-sand-trade-with-singapore-appears-to-resume-despite-national-export-prohibition",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/2026/08/cambodias-banned-sand-trade-with-singapore-appears-to-be-back/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "cambodias-banned-sand-trade-with-singapore-appears-to-resume-despite-national-export-prohibition",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1555,7 +1213,7 @@
     "date": "2026-08-12",
     "event_id": "tencent-music-entertainment-shares-decline",
     "title": "Tencent Music Entertainment shares decline",
-    "summary": "Tencent Music Entertainment stock experienced a significant decline.",
+    "summary": "Tencent Music Entertainment stock price fell during market trading.",
     "theme": "Markets",
     "importance": 5.5,
     "topics": [
@@ -1566,9 +1224,10 @@
     ],
     "primary_feed": "world",
     "keywords": [
+      "China",
       "Tencent Music Entertainment",
-      "stock",
-      "China"
+      "decline",
+      "stock"
     ],
     "url": "news/markets/2026-08-12/#tencent-music-entertainment-shares-decline",
     "sources": [
@@ -1576,11 +1235,16 @@
         "label": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNTA5cHplNjdWWjF5TENOQ3ZJT19hbGJmclJqOTVaZkxfbVNrMVE3Yko5VzNMcU9YcWVzdXJrNDJqLUs5alVucUkzcE9fRDNZUmNUdEdYZ2FRRTZ6ejhFa015b1JzVWVPcWM4UmZrcDg3US1rSFBKNDExOEQ4V01Ia0VYcnZUaUc5ZmotaE52X29fbHRYZFk5Z3NEeXA2MHB2bDdXMmV6T0ZPb29aNE1Ob29MUlY2aHNr?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQjA2S0N5bTBwLWhvR0JTYmY1SmZwN2ZYNGpJRmZFUjV2NURTbllFaXR1ZllScnhCb0w4Vnk0Zm5IcE82YldGUG03Z1dkUk1TVkdQbTNHTS1ESkkxNXZhT0Fvd284MG9yOGVZeFFGZW5oWV9EYXFjZEdQVnhOR3ZJQU1wOE5VRERJOWVJczEwd0VZOWpqRnlrY3FYNFJHSzNkQ3RNU2xzNktCOFRicm44bUtpSzVTMkU?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
     "lineage_id": "tencent-music-entertainment-shares-decline",
     "related_title": "",
     "related_url": "",
@@ -1699,6 +1363,43 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "stock-market-shows-dot-com-bubble-warning-signals",
+    "title": "Stock Market Shows Dot-Com Bubble Warning Signals",
+    "summary": "Current market conditions are displaying similar warning indicators to those seen before the dot-com bubble burst.",
+    "theme": "Markets",
+    "importance": 5.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "dot-com bubble",
+      "market valuation",
+      "stock market",
+      "risk indicators"
+    ],
+    "url": "news/markets/2026-08-12/#stock-market-shows-dot-com-bubble-warning-signals",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2wyU3VhLTE4V3o5TzIzZ3BCV09Wa2RSWExMVXJoUG9QNjI1X2RCRW5GRDA0TG5JT1BpZHV4WExBUlExT182bUFnYndKU1hHRld0ZkYtSGNNX0RQOHBkUnRJUk1kYy1mOE40UGMxOFhoVDlpUURCV2pPNDlZTEVUSlFOdUxWaGtWRG1wYXJFa3E1anlUaTdtWA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "stock-market-shows-dot-com-bubble-warning-signals",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "modular-releases-mojo-10-production-ready-ai-programming-language",
     "title": "Modular releases Mojo 1.0 production-ready AI programming language",
     "summary": "Modular announced version 1.0 of Mojo, a programming language designed for AI development and now ready for production use.",
@@ -1804,43 +1505,6 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "fluorescence-lifetime-imaging-distinguishes-multiple-proteins-in-living-plant-cells",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "new-bedford-police-officer-accused-of-using-flock-cameras-to-track-ex-partner",
-    "title": "New Bedford Police Officer Accused of Using Flock Cameras to Track Ex-Partner",
-    "summary": "A police officer is accused of misusing automated license plate reader (Flock) technology to surveil and track a former romantic partner.",
-    "theme": "Security",
-    "importance": 5.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Flock",
-      "surveillance",
-      "abuse",
-      "law enforcement"
-    ],
-    "url": "news/tech/2026-08-12/#new-bedford-police-officer-accused-of-using-flock-cameras-to-track-ex-partner",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://newbedfordlight.org/new-bedford-police-officer-accused-of-using-flock-cameras-to-track-and-follow-ex-romantic-partner/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "new-bedford-police-officer-accused-of-using-flock-cameras-to-track-ex-partner",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1989,50 +1653,6 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "majority-of-biomedical-publications-show-linguistic-signs-of-llm-assisted-writing",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "taiwan-condemns-china-indonesia-naval-drill-conducted-east-of-island",
-    "title": "Taiwan Condemns China-Indonesia Naval Drill Conducted East of Island",
-    "summary": "Taiwan protested an announced Chinese-Indonesian naval drill scheduled for mid-August east of the island, calling it dangerous.",
-    "theme": "Geopolitics",
-    "importance": 5.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "China",
-      "Indonesia",
-      "Taiwan",
-      "military",
-      "military exercise",
-      "naval exercise"
-    ],
-    "url": "news/world/2026-08-12/#taiwan-condemns-china-indonesia-naval-drill-conducted-east-of-island",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNci1DUWlGX3FNbTczZ0Npb3ZfMDhncDViaXZCbmpTeXhhLUR5cDVVYVdSSGxrRURIUTAwczAxSUZDdTRueFNuMVNkU3l1T1loS3I1OWVwOVNYWGZDbWd3aEpOa3VQTG14a1NnblZHc29LT3RiZ3hRaXR3OExlUVJiWkh6MUE1aVFDc1R2cVVndlR6dXRlZHpac2kyUDZQaUJhRUVsbVR0RURCTzd3NFJ3VFhYaThzbTh4eTJiZFVhSXBTQQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "ft.com",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1ZSR3ZpcWZyamhHem1XZ2J2bExGT0VER1pMWVZEQzUyeU44ZTFVVzRmbTJBVFBkazNDRnB0UTFJbGtfRmVMQmhDMlpIWjk5ZUFRN0dBcms3ZF9vZDd1UGxqa2hhOHduSERtdXlVMDlaWnNKUW1tdVRjYlpXU1N5ZkFNdzA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "taiwan-condemns-china-indonesia-naval-drill-conducted-east-of-island",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2194,6 +1814,120 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "bolsonaros-gun-control-deregulation-fueled-illegal-hunting-in-brazils-forests",
+    "title": "Bolsonaro's Gun Control Deregulation Fueled Illegal Hunting in Brazil's Forests",
+    "summary": "A study indicates that Brazil's easing of gun regulations under Bolsonaro has increased illegal hunting of native wildlife in forest ecosystems.",
+    "theme": "Conservation",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Brazil",
+      "gun control",
+      "illegal hunting",
+      "wildlife"
+    ],
+    "url": "news/climate-change/2026-08-12/#bolsonaros-gun-control-deregulation-fueled-illegal-hunting-in-brazils-forests",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/bolsonaros-easing-of-gun-control-fueled-illegal-hunting-study-indicates/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "bolsonaros-gun-control-deregulation-fueled-illegal-hunting-in-brazils-forests",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "illegal-gold-mining-threatens-ghanas-first-marine-protected-area",
+    "title": "Illegal Gold Mining Threatens Ghana's First Marine Protected Area",
+    "summary": "Illegal gold mining operations are polluting Ghana's Greater Cape Three Points Forest Reserve and adjacent marine protected waters, threatening vulnerable species.",
+    "theme": "Conservation",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "illegal mining",
+      "Ghana",
+      "marine protected area",
+      "biodiversity"
+    ],
+    "url": "news/climate-change/2026-08-12/#illegal-gold-mining-threatens-ghanas-first-marine-protected-area",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/illegal-mining-threatens-ghanas-first-marine-protected-area/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "illegal-gold-mining-threatens-ghanas-first-marine-protected-area",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "shark-eggs-transported-to-indonesia-via-fedex-for-conservation",
+    "title": "Shark Eggs Transported to Indonesia via FedEx for Conservation",
+    "summary": "Four endangered shark embryos were airfreighted from the U.S. to Indonesia in an insulated package to support conservation of an overfished species.",
+    "theme": "Conservation",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "shark conservation",
+      "overfishing",
+      "wildlife transport",
+      "endangered species"
+    ],
+    "url": "news/climate-change/2026-08-12/#shark-eggs-transported-to-indonesia-via-fedex-for-conservation",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/12082026/indonesia-zebra-shark-repopulation/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "shark-eggs-transported-to-indonesia-via-fedex-for-conservation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "openai-tests-pay-to-reset-quota-feature",
     "title": "OpenAI tests pay-to-reset quota feature",
     "summary": "OpenAI is quietly testing a feature that allows users to pay to reset their API usage quotas.",
@@ -2260,6 +1994,53 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "openai-daybreak-models-now-available-on-aws",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "top-autoimmune-researcher-georg-schett-launches-biotech-company-with-antibody-therapies",
+    "title": "Top Autoimmune Researcher Georg Schett Launches Biotech Company with Antibody Therapies",
+    "summary": "Boulevard Bio, co-founded by autoimmune researcher Georg Schett, raised $65 million and launched with three autoimmune disease candidates. The lead asset BLVD101, a bispecific antibody for IgA nephropathy, requires only quarterly dosing compared to weekly or monthly alternatives, with favorable phase 1 safety data.",
+    "theme": "Biotech",
+    "importance": 6,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Georg Schett",
+      "autoimmune",
+      "antibody therapy",
+      "biotech startup"
+    ],
+    "url": "news/health/2026-08-12/#top-autoimmune-researcher-georg-schett-launches-biotech-company-with-antibody-therapies",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/12/boulevard-bio-georg-schett-antibody-therapies/",
+        "origin": "research"
+      },
+      {
+        "label": "Fierce Biotech",
+        "url": "https://www.fiercebiotech.com/biotech/deerfield-backed-boulevard-bio-strolls-65m-launch-and-trio-immunology-candidates",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "$65 million funding from Deerfield Management",
+      "BLVD101 targets BAFF and APRIL proteins; dosed every 12 weeks vs. weekly/monthly existing treatments",
+      "Mahesh Karande (ex-Omega, 7-year Novartis) is CEO",
+      "Schett pioneered CAR-T cell therapy in autoimmune disease; company incubated by Deerfield's 3DC unit"
+    ],
+    "researched": true,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "top-autoimmune-researcher-georg-schett-launches-biotech-company-with-antibody-therapies",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2416,6 +2197,43 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "researchers-develop-prompt-injection-defense-against-ai-hacking-agents",
+    "title": "Researchers Develop Prompt Injection Defense Against AI Hacking Agents",
+    "summary": "Tracebit researchers found that prompt injections placed alongside stored secrets can effectively block attacks from AI hacking agents.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "prompt injection",
+      "AI security",
+      "AWS",
+      "defense mechanisms"
+    ],
+    "url": "news/security/2026-08-12/#researchers-develop-prompt-injection-defense-against-ai-hacking-agents",
+    "sources": [
+      {
+        "label": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "researchers-develop-prompt-injection-defense-against-ai-hacking-agents",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "llamacpp-open-source-llm-inference-project",
     "title": "llama.cpp open-source LLM inference project",
     "summary": "llama.cpp is a lightweight open-source project for running large language models locally.",
@@ -2528,6 +2346,43 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "cargo-thefts-of-ai-hardware-turn-violent-in-california",
+    "title": "Cargo Thefts of AI Hardware Turn Violent in California",
+    "summary": "Criminal organizations in California have escalated to violent tactics to steal servers and data center equipment.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "cargo theft",
+      "AI hardware",
+      "data center",
+      "organized crime"
+    ],
+    "url": "news/tech/2026-08-12/#cargo-thefts-of-ai-hardware-turn-violent-in-california",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/the-worst-ive-ever-seen-cargo-thieves-are-turning-violent-in-pursuit-of-ai-hardware/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "cargo-thefts-of-ai-hardware-turn-violent-in-california",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "baby-rescued-from-earthquake-rubble-in-colombia-death-toll-exceeds-250",
     "title": "Baby Rescued from Earthquake Rubble in Colombia; Death Toll Exceeds 250",
     "summary": "Rescuers recovered a baby from rubble after an earthquake in Colombia, while the death toll climbed above 250 as rescue operations continued.",
@@ -2559,6 +2414,43 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "baby-rescued-from-earthquake-rubble-in-colombia-death-toll-exceeds-250",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "houthi-attack-on-red-sea-vessel-kills-six-us-conducts-strikes",
+    "title": "Houthi Attack on Red Sea Vessel Kills Six; U.S. Conducts Strikes",
+    "summary": "A Houthi attack on a ship in the Red Sea near Bab al-Mandeb killed six people, the first fatalities in the region in over a year, prompting U.S. military response.",
+    "theme": "Conflict",
+    "importance": 6,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Houthi",
+      "Red Sea",
+      "Yemen",
+      "maritime security"
+    ],
+    "url": "news/world/2026-08-12/#houthi-attack-on-red-sea-vessel-kills-six-us-conducts-strikes",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV3Z2SnhPazVIQnhtS1Q4MnZZY0l4N0thOE9IMDVYdFJYYXRrQWxCellTNlowMnc5RDdqdmNzZEo4WHlKNjQ1OTRyTGR3TWxGTS1VdEdhRlZoWGdTeUF0MERkYnJiRFVoNFF4Rk1tMElRdFNHZnpyZ3VUby0xU2VLNXJaXzJ5YjRJZldiQTVXOWZONWpkTVpVbk94d3ZsVzlndmpGSUdpaWlMMUdsbFNEYWtvc9IBuAFBVV95cUxPNmM5RlF4c0I0VlZZTS1Sbmo2ejBFS3B4RnBsUUV5TVpSS3E5QnpFeUkzSlk0S29ZaEQzNWZESWRyVE5fWlUycVJmZDZYR0VGNVZTVzF6dFVMZ2ZIMmJKT2JHaURuMVZIYTNuMFY2MlZCMmdUMnZlQWxyOTRzNlUtTzc0SlZTUHkzV2ZzRHJzRlBGZVRCTkFJM2N1eWlsNFpxVm1UWFZrNF9TdzJUa2EzXzZfVUZQdDN6?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "houthi-attack-on-red-sea-vessel-kills-six-us-conducts-strikes",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2600,68 +2492,6 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "anthropic-adds-invisible-watermarks-to-claude-ai-generated-content",
-    "title": "Anthropic Adds Invisible Watermarks to Claude AI-Generated Content",
-    "summary": "Anthropic has implemented digital watermarking technology for Claude text output to comply with EU AI Act requirements.",
-    "theme": "AI Safety",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI detection",
-      "Anthropic",
-      "Claude",
-      "EU AI Act",
-      "content authentication",
-      "content identification",
-      "regulation",
-      "watermarking",
-      "watermarks"
-    ],
-    "url": "news/anthropic/2026-08-12/#anthropic-adds-invisible-watermarks-to-claude-ai-generated-content",
-    "sources": [
-      {
-        "label": "bestmediainfo.com",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOandoVXBDSzhLRndlblZHZTJ2anNQTkgzN01PRm85V1E3bVJ5VjNmS2lZUGZxaVcwV1pkVVA2NWZYLVdEMm9yZC1yMy15eTlqVlUyN2c2UHFXd3RPUy1aZTQ5S2tMT0FxN1hpRV9pcEZnakdtMGozWnZTM0xueG9ZVXNFYlhHRFNKVlFpdkU4Z1dJSVl0ZGdOZ3pZMjhlZTFOMC1rZ25kMGM1TlVnZERubDBEZjNKaWt3c1VUODN1SWVRRkpqYUFVUkh3QkVDN0tMN3RGc0hmSdIB1wFBVV95cUxOandoVXBDSzhLRndlblZHZTJ2anNQTkgzN01PRm85V1E3bVJ5VjNmS2lZUGZxaVcwV1pkVVA2NWZYLVdEMm9yZC1yMy15eTlqVlUyN2c2UHFXd3RPUy1aZTQ5S2tMT0FxN1hpRV9pcEZnakdtMGozWnZTM0xueG9ZVXNFYlhHRFNKVlFpdkU4Z1dJSVl0ZGdOZ3pZMjhlZTFOMC1rZ25kMGM1TlVnZERubDBEZjNKaWt3c1VUODN1SWVRRkpqYUFVUkh3QkVDN0tMN3RGc0hmSQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Gadgets 360",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdFhKVEpRNUdDMXZoR0tKcWJYMmN4WmxJVW5FekYwQTYteWhWNWo3MHdpTHFVTUE3VHRSYlNINGhlUk54VTd1UklsRzRFTFpORE1rS3Z2VFRPYTNTYUh3VU5vNWFWQm4yMXctd25hSngxUW05UFBQRXNBM2JqV010dEk2Sm9pZ0pNX183UEdkLWRUV1ZyLXlYT3REZ3fSAaIBQVVfeXFMT1RhSTczVktOYzdOc2U5Y0VOdFhxT2dEbnAyWGcwNVZPUmRmNUZrRU9hRjM0aG50WmF5SklUYjhGOWRtenpWQW9YYlRfVnNyOTRUWUdMazMzUHhxTEFiYWl1emdlTVg0QzRzVDFHbElQdDV4N3RQcVFWUlBlS3JUemtWdng4ZmVWdDF2a2JlcTBxV1prWVdHQXRFZTdPZzJ1V1lB?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "afaqs!",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV3RZM1NDbzVvYjVnVTd0c0w5Tzhjd3JjS0JlZjZSVFhLc09fMkl2X2JLWkY4LWxGNndvMk5KdlJJQ0YxLVZFTXYyXzlfcUlIellZOGpoYWJQU1NNaDZUMVBXRlAxckltc2tfMGJuTEpCRHFPdXFlUXU4TGo4Tnloei1JVm5QaVJLQTlhT00tc091S2hPVzhLamJWZVBkRTBLWHBKQVNKdmxTMDhqR2c?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "ETV Bharat",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNjlrdjFuVTdaUFdfd3RBdGRrbDVVd09KVnFDTkJ6WnNFM0g2d0NyTnlkZ1pUWGNhWkRyYmprMlhSVnd1NXZQOUo4bXNnT1lDUWZQbGVhSXVWOGZrWHJCZ2x1VUZUZkl0ZGlJb2VSbm4wMkxLZWFyRElQRU53UXFaamY2ckdjZ0h3bWdzcTdyc0VrYzhzZEFxS2NkeFNtbFJ3ZUFJbTRtQ2hvZTlqRWI1b2tqd3FTX2dSLWkxemRGbDFnMktUWGNVSm9zc25FNFJC0gHWAUFVX3lxTE9kWTNDbDNDZ2NLeHduYzIzZW8tRHU1UHJJTmpHbDVJNmN5Vk03RFlzQ0RDSFZSOTk0QTJJV3B3TTdCa2Vmak5yMzZwNlhocUY0cHdHc3VnS1hvQnZweWM5SEJMWkNvS0h1UEY4ckVMZ3NKWnVGX1V2UXoySWlrY2FKZ294YlViNTRENkd5VkFLUGZTc1dCY1c1X3Y4emM4UkltRUhiRmM3VEJlS01HeUpIN1IwNWxEcmlYZVczdHZJUm5iQlBYTXJHRGtuTWV5LTh4N1ZyQUE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Adgully.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOHVrQmZTbU5RcUZzQ3RvRHZXTWxJUkwybXRqZ3pXd2I2dVNFSHo4VE9yemNyb2tXaTg3ckZhbExNSjR2QXlCWWw5X0RiWjZ5SEsxanpEYW0zNHgxSWFsaUpPVlgxWXk4RV9yQW9BbnUwbE4xb1BVa05XQjhRUWdSOGNzUm9xVUlEdzc4a3o2cUROa2tQODBDNmdPSEVoTDRadFoyYzBn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T07:03:32.723339+00:00",
-    "lineage_id": "anthropic-adds-invisible-watermarks-to-claude-generated-text-globally",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic adds invisible watermarks to Claude-generated text globally",
-    "updates_url": "news/anthropic/2026-08-11/#anthropic-adds-invisible-watermarks-to-claude-generated-text-globally"
   },
   {
     "date": "2026-08-12",
@@ -2796,7 +2626,7 @@
     "date": "2026-08-12",
     "event_id": "esa-mars-exploration-leader-shares-journey-from-nasa-rejection-to-leadership",
     "title": "ESA Mars Exploration Leader Shares Journey from NASA Rejection to Leadership",
-    "summary": "A woman who was rejected by NASA at 14 and started as a space toilet cleaner in Leicester now directs Mars exploration studies at the European Space Agency.",
+    "summary": "A researcher who was rejected by NASA at age 14 eventually became the head of Mars exploration studies at the European Space Agency.",
     "theme": "Space",
     "importance": 6.5,
     "topics": [
@@ -2812,7 +2642,9 @@
       "Leicester",
       "Mars",
       "Mars exploration",
+      "NASA",
       "career",
+      "career trajectory",
       "space",
       "women in space"
     ],
@@ -2826,7 +2658,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T07:03:32.723339+00:00",
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
     "lineage_id": "esa-mars-exploration-leader-shares-journey-from-nasa-rejection-to-leadership",
     "related_title": "",
     "related_url": "",
@@ -2909,6 +2741,153 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "ai-newsroom-beats-human-journalists-to-major-openai-story",
+    "title": "AI Newsroom Beats Human Journalists to Major OpenAI Story",
+    "summary": "An AI-powered newsroom scooped mainstream journalists on an OpenAI and hacking story.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI journalism",
+      "OpenAI",
+      "automated news"
+    ],
+    "url": "news/tech/2026-08-12/#ai-newsroom-beats-human-journalists-to-major-openai-story",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/ai-newsrooms-are-breaking-news-now-haha-im-in-danger/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "ai-newsroom-beats-human-journalists-to-major-openai-story",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "fema-official-paid-by-doge-linked-startup-while-working-as-shadow-administrator",
+    "title": "FEMA Official Paid by DOGE-Linked Startup While Working as 'Shadow Administrator'",
+    "summary": "Court filings reveal that a FEMA 'shadow administrator' received payments from a startup linked to a DOGE member, raising conflict-of-interest concerns.",
+    "theme": "Government Oversight",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "FEMA",
+      "DOGE",
+      "conflict of interest",
+      "shadow administrator"
+    ],
+    "url": "news/tech/2026-08-12/#fema-official-paid-by-doge-linked-startup-while-working-as-shadow-administrator",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/femas-shadow-administrator-was-paid-by-a-doge-members-startup-for-months/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "fema-official-paid-by-doge-linked-startup-while-working-as-shadow-administrator",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "silicon-valley-companies-developing-brain-activity-tracking-neurotechnology",
+    "title": "Silicon Valley Companies Developing Brain-Activity Tracking Neurotechnology",
+    "summary": "Tech companies are developing neurotechnology products that monitor brain activity, raising new privacy concerns around thoughts themselves.",
+    "theme": "Privacy",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "neurotechnology",
+      "brain activity tracking",
+      "privacy",
+      "Silicon Valley"
+    ],
+    "url": "news/tech/2026-08-12/#silicon-valley-companies-developing-brain-activity-tracking-neurotechnology",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/book-excerpt-the-vanishing-earth-james-crawford-brain-mining/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "silicon-valley-companies-developing-brain-activity-tracking-neurotechnology",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "beef-and-dairy-production-drive-41-of-global-farmland-biodiversity-damage",
+    "title": "Beef and Dairy Production Drive 41% of Global Farmland Biodiversity Damage",
+    "summary": "Research shows that beef and dairy farming account for 41 percent of biodiversity loss linked to agricultural land globally.",
+    "theme": "Environment",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "beef production",
+      "dairy farming",
+      "biodiversity loss",
+      "agriculture"
+    ],
+    "url": "news/tech/2026-08-12/#beef-and-dairy-production-drive-41-of-global-farmland-biodiversity-damage",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.oxfordmartin.ox.ac.uk/news/beef-and-dairy-drive-41-of-biodiversity-damage-linked-to-global-farmland",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "beef-and-dairy-production-drive-41-of-global-farmland-biodiversity-damage",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "taliban-bar-24-million-afghan-girls-from-secondary-school-five-years-post-takeover",
     "title": "Taliban Bar 2.4 Million Afghan Girls from Secondary School Five Years Post-Takeover",
     "summary": "UNESCO reports that 2.4 million Afghan girls have been systematically barred from secondary education since the Taliban takeover in 2021.",
@@ -2939,6 +2918,50 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "taliban-bar-24-million-afghan-girls-from-secondary-school-five-years-post-takeover",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "taiwan-condemns-china-indonesia-naval-drill-conducted-east-of-island",
+    "title": "Taiwan Condemns China-Indonesia Naval Drill Conducted East of Island",
+    "summary": "Taiwan has publicly criticized China's planned joint naval exercise with Indonesia as a dangerous military maneuver in regional waters.",
+    "theme": "Geopolitics",
+    "importance": 6.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "China",
+      "Indonesia",
+      "Taiwan",
+      "military",
+      "military exercise",
+      "naval exercise"
+    ],
+    "url": "news/world/2026-08-12/#taiwan-condemns-china-indonesia-naval-drill-conducted-east-of-island",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNci1DUWlGX3FNbTczZ0Npb3ZfMDhncDViaXZCbmpTeXhhLUR5cDVVYVdSSGxrRURIUTAwczAxSUZDdTRueFNuMVNkU3l1T1loS3I1OWVwOVNYWGZDbWd3aEpOa3VQTG14a1NnblZHc29LT3RiZ3hRaXR3OExlUVJiWkh6MUE1aVFDc1R2cVVndlR6dXRlZHpac2kyUDZQaUJhRUVsbVR0RURCTzd3NFJ3VFhYaThzbTh4eTJiZFVhSXBTQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ft.com",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1ZSR3ZpcWZyamhHem1XZ2J2bExGT0VER1pMWVZEQzUyeU44ZTFVVzRmbTJBVFBkazNDRnB0UTFJbGtfRmVMQmhDMlpIWjk5ZUFRN0dBcms3ZF9vZDd1UGxqa2hhOHduSERtdXlVMDlaWnNKUW1tdVRjYlpXU1N5ZkFNdzA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "taiwan-condemns-china-indonesia-naval-drill-conducted-east-of-island",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3090,6 +3113,83 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "uk-heatwaves-estimated-to-cost-economy-44-billion-in-2024",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "uks-defra-department-has-only-20-staff-on-climate-adaptation-despite-drought-and-wildfires",
+    "title": "UK's Defra Department Has Only 20 Staff on Climate Adaptation Despite Drought and Wildfires",
+    "summary": "Only 20 of 6,600 Defra staff are assigned to climate adaptation work as England faces increasing droughts, wildfires, and water shortages.",
+    "theme": "Climate Policy",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate adaptation",
+      "UK Defra",
+      "staffing",
+      "drought",
+      "wildfires"
+    ],
+    "url": "news/climate-change/2026-08-12/#uks-defra-department-has-only-20-staff-on-climate-adaptation-despite-drought-and-wildfires",
+    "sources": [
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/environment/2026/aug/12/just-20-of-6600-defra-staff-working-on-climate-adaptation-amid-drought-and-wildfires",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "uks-defra-department-has-only-20-staff-on-climate-adaptation-despite-drought-and-wildfires",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "california-wildfire-threatened-former-nuclear-reactor-site-officials-monitored-radiation-risk",
+    "title": "California Wildfire Threatened Former Nuclear Reactor Site; Officials Monitored Radiation Risk",
+    "summary": "A May wildfire in Southern California approached a decommissioned nuclear reactor site, prompting state and local officials to establish radiation and air monitoring to protect residents.",
+    "theme": "Climate & Safety",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildfire",
+      "nuclear reactor",
+      "radiation monitoring",
+      "California"
+    ],
+    "url": "news/climate-change/2026-08-12/#california-wildfire-threatened-former-nuclear-reactor-site-officials-monitored-radiation-risk",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/12082026/california-sandy-fire-santa-susana-nuclear-site-safety/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "california-wildfire-threatened-former-nuclear-reactor-site-officials-monitored-radiation-risk",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3284,81 +3384,6 @@
     "researched": true,
     "received_at": "2026-08-12T08:57:53.797221+00:00",
     "lineage_id": "malicious-litellm-releases-from-trivy-hack-exposed-2100-organizations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "sap-commerce-cloud-data-hub-adapter-critical-vulnerability-allows-unauthenticated-code-execution",
-    "title": "SAP Commerce Cloud Data Hub Adapter critical vulnerability allows unauthenticated code execution",
-    "summary": "SAP patched a maximum-severity vulnerability (CVE-2026-58231, CVSS 10.0) in Commerce Cloud Data Hub Adapter enabling unauthenticated arbitrary code execution.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "SAP",
-      "Commerce Cloud",
-      "CVE-2026-58231",
-      "arbitrary code execution",
-      "critical"
-    ],
-    "url": "news/security/2026-08-12/#sap-commerce-cloud-data-hub-adapter-critical-vulnerability-allows-unauthenticated-code-execution",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "sap-commerce-cloud-data-hub-adapter-critical-vulnerability-allows-unauthenticated-code-execution",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
-    "title": "ShieldBreak zero-day proof-of-concept bypasses Microsoft Defender patch with SYSTEM access",
-    "summary": "A researcher released a proof-of-concept for ShieldBreak, a Microsoft Defender zero-day vulnerability enabling patch bypass with SYSTEM-level access.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft Defender",
-      "ShieldBreak",
-      "zero-day",
-      "patch bypass"
-    ],
-    "url": "news/security/2026-08-12/#shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3572,6 +3597,74 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "anthropic-adds-invisible-watermarks-to-claude-ai-generated-content",
+    "title": "Anthropic Adds Invisible Watermarks to Claude AI-Generated Content",
+    "summary": "Anthropic has integrated hidden watermarks into Claude's generated text to help identify AI-authored content.",
+    "theme": "AI Safety",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI detection",
+      "AI-generated content detection",
+      "Anthropic",
+      "Claude",
+      "EU AI Act",
+      "content authentication",
+      "content identification",
+      "regulation",
+      "watermarking",
+      "watermarks"
+    ],
+    "url": "news/anthropic/2026-08-12/#anthropic-adds-invisible-watermarks-to-claude-ai-generated-content",
+    "sources": [
+      {
+        "label": "bestmediainfo.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOandoVXBDSzhLRndlblZHZTJ2anNQTkgzN01PRm85V1E3bVJ5VjNmS2lZUGZxaVcwV1pkVVA2NWZYLVdEMm9yZC1yMy15eTlqVlUyN2c2UHFXd3RPUy1aZTQ5S2tMT0FxN1hpRV9pcEZnakdtMGozWnZTM0xueG9ZVXNFYlhHRFNKVlFpdkU4Z1dJSVl0ZGdOZ3pZMjhlZTFOMC1rZ25kMGM1TlVnZERubDBEZjNKaWt3c1VUODN1SWVRRkpqYUFVUkh3QkVDN0tMN3RGc0hmSdIB1wFBVV95cUxOandoVXBDSzhLRndlblZHZTJ2anNQTkgzN01PRm85V1E3bVJ5VjNmS2lZUGZxaVcwV1pkVVA2NWZYLVdEMm9yZC1yMy15eTlqVlUyN2c2UHFXd3RPUy1aZTQ5S2tMT0FxN1hpRV9pcEZnakdtMGozWnZTM0xueG9ZVXNFYlhHRFNKVlFpdkU4Z1dJSVl0ZGdOZ3pZMjhlZTFOMC1rZ25kMGM1TlVnZERubDBEZjNKaWt3c1VUODN1SWVRRkpqYUFVUkh3QkVDN0tMN3RGc0hmSQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Gadgets 360",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdFhKVEpRNUdDMXZoR0tKcWJYMmN4WmxJVW5FekYwQTYteWhWNWo3MHdpTHFVTUE3VHRSYlNINGhlUk54VTd1UklsRzRFTFpORE1rS3Z2VFRPYTNTYUh3VU5vNWFWQm4yMXctd25hSngxUW05UFBQRXNBM2JqV010dEk2Sm9pZ0pNX183UEdkLWRUV1ZyLXlYT3REZ3fSAaIBQVVfeXFMT1RhSTczVktOYzdOc2U5Y0VOdFhxT2dEbnAyWGcwNVZPUmRmNUZrRU9hRjM0aG50WmF5SklUYjhGOWRtenpWQW9YYlRfVnNyOTRUWUdMazMzUHhxTEFiYWl1emdlTVg0QzRzVDFHbElQdDV4N3RQcVFWUlBlS3JUemtWdng4ZmVWdDF2a2JlcTBxV1prWVdHQXRFZTdPZzJ1V1lB?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "afaqs!",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV3RZM1NDbzVvYjVnVTd0c0w5Tzhjd3JjS0JlZjZSVFhLc09fMkl2X2JLWkY4LWxGNndvMk5KdlJJQ0YxLVZFTXYyXzlfcUlIellZOGpoYWJQU1NNaDZUMVBXRlAxckltc2tfMGJuTEpCRHFPdXFlUXU4TGo4Tnloei1JVm5QaVJLQTlhT00tc091S2hPVzhLamJWZVBkRTBLWHBKQVNKdmxTMDhqR2c?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ETV Bharat",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNjlrdjFuVTdaUFdfd3RBdGRrbDVVd09KVnFDTkJ6WnNFM0g2d0NyTnlkZ1pUWGNhWkRyYmprMlhSVnd1NXZQOUo4bXNnT1lDUWZQbGVhSXVWOGZrWHJCZ2x1VUZUZkl0ZGlJb2VSbm4wMkxLZWFyRElQRU53UXFaamY2ckdjZ0h3bWdzcTdyc0VrYzhzZEFxS2NkeFNtbFJ3ZUFJbTRtQ2hvZTlqRWI1b2tqd3FTX2dSLWkxemRGbDFnMktUWGNVSm9zc25FNFJC0gHWAUFVX3lxTE9kWTNDbDNDZ2NLeHduYzIzZW8tRHU1UHJJTmpHbDVJNmN5Vk03RFlzQ0RDSFZSOTk0QTJJV3B3TTdCa2Vmak5yMzZwNlhocUY0cHdHc3VnS1hvQnZweWM5SEJMWkNvS0h1UEY4ckVMZ3NKWnVGX1V2UXoySWlrY2FKZ294YlViNTRENkd5VkFLUGZTc1dCY1c1X3Y4emM4UkltRUhiRmM3VEJlS01HeUpIN1IwNWxEcmlYZVczdHZJUm5iQlBYTXJHRGtuTWV5LTh4N1ZyQUE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Adgully.com",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOHVrQmZTbU5RcUZzQ3RvRHZXTWxJUkwybXRqZ3pXd2I2dVNFSHo4VE9yemNyb2tXaTg3ckZhbExNSjR2QXlCWWw5X0RiWjZ5SEsxanpEYW0zNHgxSWFsaUpPVlgxWXk4RV9yQW9BbnUwbE4xb1BVa05XQjhRUWdSOGNzUm9xVUlEdzc4a3o2cUROa2tQODBDNmdPSEVoTDRadFoyYzBn?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "readthepeak.com",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GNHRBa0ZBdFFxN3JDWGpCT2o4WHNxemVTSE14WUJSVVRGdFZHQmgyNl90bDVDc3l3N1RlcnM3YXVYQXBzSTRiTEFSeHpzZ3VBQVk4Q1JnRkkyTGJlN1hYRXVuUDRtUTh5QkRGR1dNOFlxQU1OZ2hmNm9FZHA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "anthropic-adds-invisible-watermarks-to-claude-generated-text-globally",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic adds invisible watermarks to Claude-generated text globally",
+    "updates_url": "news/anthropic/2026-08-11/#anthropic-adds-invisible-watermarks-to-claude-generated-text-globally"
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "openai-unveils-gpt-56-cyber-for-advanced-cybersecurity-research",
     "title": "OpenAI Unveils GPT-5.6-Cyber for Advanced Cybersecurity Research",
     "summary": "OpenAI released GPT-5.6-Cyber, a model variant with reduced safety constraints designed for exploit development research.",
@@ -3662,6 +3755,43 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "attackers-actively-exploit-vmware-vcenter-critical-directory-traversal-vulnerability",
+    "title": "Attackers Actively Exploit VMware vCenter Critical Directory-Traversal Vulnerability",
+    "summary": "Threat actors have begun exploiting CVE-2026-59310, a critical directory-traversal flaw in Broadcom VMware vCenter, to gain persistent remote access to systems.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "VMware vCenter",
+      "CVE-2026-59310",
+      "directory traversal",
+      "remote access"
+    ],
+    "url": "news/security/2026-08-12/#attackers-actively-exploit-vmware-vcenter-critical-directory-traversal-vulnerability",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "attackers-actively-exploit-vmware-vcenter-critical-directory-traversal-vulnerability",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "jd-vance-urged-ukraine-to-cease-strikes-on-russian-oil-tankers",
     "title": "JD Vance urged Ukraine to cease strikes on Russian oil tankers",
     "summary": "Ukraine suspended drone attacks on tankers using Russian ports following a request from the United States, including pressure from Vice President JD Vance.",
@@ -3744,11 +3874,11 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "windows-zero-day-vulnerability-exploited-by-north-korean-hackers",
-    "title": "Windows Zero-Day Vulnerability Exploited by North Korean Hackers",
-    "summary": "North Korean attackers exploited a Windows zero-day flaw (CVE-2026-68820) in the Ancillary Function Driver to deploy the ForestTiger backdoor and gain full system control, targeting aerospace and aviation organizations across Europe and India via fake job recruitment lures. Microsoft patched the vulnerability on August 11, 2026.",
+    "event_id": "shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
+    "title": "ShieldBreak zero-day proof-of-concept bypasses Microsoft Defender patch with SYSTEM access",
+    "summary": "Security researchers released a zero-day exploit dubbed 'ShieldBreak' that allows attackers to gain SYSTEM-level privileges in Microsoft Defender.",
     "theme": "Security",
-    "importance": 8,
+    "importance": 8.5,
     "topics": [
       "security"
     ],
@@ -3757,30 +3887,30 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Windows",
-      "zero-day",
-      "North Korea",
-      "ForestTiger",
-      "backdoor"
+      "Microsoft Defender",
+      "SYSTEM privileges",
+      "ShieldBreak",
+      "patch bypass",
+      "vulnerability",
+      "zero-day"
     ],
-    "url": "news/security/2026-08-12/#windows-zero-day-vulnerability-exploited-by-north-korean-hackers",
+    "url": "news/security/2026-08-12/#shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
     "sources": [
       {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/",
-        "origin": "research"
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+        "origin": "rss"
       }
     ],
-    "takeaways": [
-      "CVE-2026-68820: use-after-free in afd.sys enabling privilege escalation to System",
-      "Lazarus Group campaign active since early 2026, primarily targeting defense sector",
-      "Infection chains: DLL sideloading → Mistpen downloader → zero-day → ForestTiger; also trojanized SecurityPDF → Troy backdoor",
-      "Troy implant supports 17 operator commands including file ops, exfiltration, shell access",
-      "Microsoft patched August 11, 2026; CISA ordered federal agencies to patch within two weeks"
-    ],
-    "researched": true,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "windows-zero-day-vulnerability-exploited-by-north-korean-hackers",
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "lineage_id": "shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
