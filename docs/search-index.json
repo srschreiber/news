@@ -89,7 +89,7 @@
     "date": "2026-08-12",
     "event_id": "python-developer-roadmap-projects-skills-career-scope-in-2026",
     "title": "Python Developer Roadmap: Projects, Skills & Career Scope in 2026",
-    "summary": "A career guide outlines the skills, projects, and trajectory for Python developers in 2026.",
+    "summary": "A guide outlining essential projects, skills, and career development pathways for Python developers in 2026.",
     "theme": "Career",
     "importance": 3,
     "topics": [
@@ -100,10 +100,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "2026",
       "Python",
+      "career",
       "developer",
-      "roadmap",
-      "career"
+      "developer skills",
+      "roadmap"
     ],
     "url": "news/python/2026-08-12/#python-developer-roadmap-projects-skills-career-scope-in-2026",
     "sources": [
@@ -115,44 +117,8 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
     "lineage_id": "python-developer-roadmap-projects-skills-career-scope-in-2026",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "nasa-mars-landing-timeline-remains-unofficial-despite-historical-proposals",
-    "title": "NASA Mars Landing Timeline Remains Unofficial Despite Historical Proposals",
-    "summary": "NASA clarifies that its Mars architecture is not an official mission manifest, explaining why no formal landing date has been established despite decades of planning.",
-    "theme": "Space",
-    "importance": 3,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "Mars",
-      "mission planning"
-    ],
-    "url": "news/space/2026-08-12/#nasa-mars-landing-timeline-remains-unofficial-despite-historical-proposals",
-    "sources": [
-      {
-        "label": "Space Daily",
-        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPOUJhcFdzWjliVmZxX2JMSHpQNHZXSkdOVEl2cnpqWVFaVTh6a3hPVTEyUng2YXU2ajgxM1ZTWDI0TlNDN2w0N3lheXBOZm1XLWs0dTRCQ1JsaFJONUY3WjVGdlNTT1BLX25aWUt4RlVtNTNsbGpfdHozRWFWdnRJZkU1aXdlVlV6VklZb3BVUTdCN1ZfVEdpTm8zR2ktUlJMU1c2VTZEVC11Y04yeDZJdDlZV0VodUFsU2NWaFNlcFBhZm40b3VjRnA4NGJnTVJVY2RkR040TFVIWVY0ZEZqU2YwQWM5MFg0RDJjS2s4QlR6dHdkeWxhTU1qdWN1Tk1kXzdfc2pqWVVNR2hLYUt6X2l4cnRPM21UcnBEVUtLNW5jMkk?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "nasa-mars-landing-timeline-remains-unofficial-despite-historical-proposals",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -265,43 +231,6 @@
     "researched": false,
     "received_at": "2026-08-12T08:57:53.797221+00:00",
     "lineage_id": "chattjb-human-powered-chatbot-with-no-ai-algorithm-or-llm",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "intel-llm-scaler-released-with-muse-glimmer-and-multiple-language-model-support",
-    "title": "Intel LLM-Scaler Released with Muse Glimmer and Multiple Language Model Support",
-    "summary": "Intel has released LLM-Scaler with support for Muse Glimmer and other large language models for optimized performance scaling.",
-    "theme": "AI",
-    "importance": 4,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Intel",
-      "LLM-Scaler",
-      "language models",
-      "Muse Glimmer"
-    ],
-    "url": "news/ai/2026-08-12/#intel-llm-scaler-released-with-muse-glimmer-and-multiple-language-model-support",
-    "sources": [
-      {
-        "label": "Phoronix",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5vLWdaNVgyenlUaHc2eEhDSlJYNWdtVXRhWHk4QUsyMUFlX1VoZ3l0ZWZjcFM1QllvM3hWMkZoelpjRzZ6cVpIcVdGTDJBYTkxNzFsT0ZxV0UxN2RuS19CRU94NmhydS1xNE0w?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T10:49:06.406952+00:00",
-    "lineage_id": "intel-llm-scaler-released-with-muse-glimmer-and-multiple-language-model-support",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -426,36 +355,36 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "google-reports-chrome-blocking-7-billion-unwanted-notifications-daily-on-android",
-    "title": "Google Reports Chrome Blocking 7 Billion Unwanted Notifications Daily on Android",
-    "summary": "Google's anti-abuse systems in Chrome have reduced unwanted notifications on Android by over 7 billion per day during the first quarter of 2026.",
-    "theme": "Security",
+    "event_id": "perseid-meteor-shower-peaks-tonight-with-optimal-viewing-conditions",
+    "title": "Perseid meteor shower peaks tonight with optimal viewing conditions",
+    "summary": "The Perseid meteor shower reaches its peak tonight with clear skies expected for optimal viewing across many regions.",
+    "theme": "Space",
     "importance": 4,
     "topics": [
-      "security"
+      "space"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "Google",
-      "Chrome",
-      "notifications",
-      "abuse prevention"
+      "Perseid meteor shower",
+      "astronomy",
+      "observing",
+      "space"
     ],
-    "url": "news/security/2026-08-12/#google-reports-chrome-blocking-7-billion-unwanted-notifications-daily-on-android",
+    "url": "news/space/2026-08-12/#perseid-meteor-shower-peaks-tonight-with-optimal-viewing-conditions",
     "sources": [
       {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/google-says-chrome-cuts-7-billion-unwanted-android-notifications-a-day-to-fight-abuse/",
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/meteor-showers/perseid-meteor-shower-peaks-under-perfect-skies-tonight-heres-what-to-expect",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "google-reports-chrome-blocking-7-billion-unwanted-notifications-daily-on-android",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "perseid-meteor-shower-peaks-tonight-with-optimal-viewing-conditions",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -465,7 +394,7 @@
     "date": "2026-08-12",
     "event_id": "openai-releases-chatgpt-desktop-app-preview-for-linux",
     "title": "OpenAI Releases ChatGPT Desktop App Preview for Linux",
-    "summary": "OpenAI launches a preview version of the ChatGPT desktop application for Linux users.",
+    "summary": "OpenAI has released a native ChatGPT desktop application for Linux systems, expanding platform availability.",
     "theme": "AI",
     "importance": 4.5,
     "topics": [
@@ -476,10 +405,11 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
       "ChatGPT",
       "Linux",
-      "desktop app"
+      "OpenAI",
+      "desktop app",
+      "software"
     ],
     "url": "news/gpt/2026-08-12/#openai-releases-chatgpt-desktop-app-preview-for-linux",
     "sources": [
@@ -487,16 +417,59 @@
         "label": "Tech in Asia",
         "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS0pNaFVaeTRyUTNPTG9hQmdnMU0weXBwTjdZUDRiLU5Ra3ZBQWZzY3ZKU2NQTjE2TDlndklYN0t2cTF6VlFkRUtEMlVVVDdMRXB2LXdxdFBsU3VBVUFMeFMyaGtHWldvQm5PQ2JtaVFlLXlUWDF1QnM3RVN2TVJ6WGc2N1JsNkdy?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNVDhGZUNoN1NPdW91bzlTT3dpX19PTTBkVGgtblVQTHg2cEJlOXEzeDU0Y0dtMjhELWZHY1NYZmhCOU04alpOMFZKbUZrbkl2TnpiYXhtSDdoTjVqV0l4a0toY3NPTmlKQ3N5dnVUWXA4eWVseUpTVzd3?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
     "lineage_id": "openai-launches-chatgpt-desktop-application-for-linux-systems",
     "related_title": "",
     "related_url": "",
     "updates_title": "OpenAI launches ChatGPT desktop application for Linux systems",
     "updates_url": "news/gpt/2026-08-11/#openai-launches-chatgpt-desktop-application-for-linux-systems"
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "ai-startup-project-challenges-clinic-integration-reality",
+    "title": "AI startup project challenges clinic integration reality",
+    "summary": "An emerging AI health startup project reveals the messy practical challenges of hastily developing and deploying AI tools in clinical settings.",
+    "theme": "Health",
+    "importance": 4.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "AI",
+      "healthcare",
+      "clinical AI",
+      "startup",
+      "implementation"
+    ],
+    "url": "news/health/2026-08-12/#ai-startup-project-challenges-clinic-integration-reality",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/12/the-secret-startup-project-ive-been-working-on-ai-prognosis/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "ai-startup-project-challenges-clinic-integration-reality",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-12",
@@ -684,6 +657,82 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "metomic-screens-claude-enterprise-prompts-for-sensitive-data-before-processing",
+    "title": "Metomic screens Claude Enterprise prompts for sensitive data before processing",
+    "summary": "Metomic developed a data screening solution that detects and filters sensitive information from user prompts before they reach Anthropic's Claude Enterprise.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Metomic",
+      "Claude",
+      "data privacy",
+      "sensitive data"
+    ],
+    "url": "news/anthropic/2026-08-12/#metomic-screens-claude-enterprise-prompts-for-sensitive-data-before-processing",
+    "sources": [
+      {
+        "label": "EIN Presswire",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQXFlb1JmbXg1Tm1xcWNpaFloWEdoYVVSbTZFZWFNeS1xVHZrX010cVh1cURNWmhhOTVsbnRTWFVwRmN6b2kxNnNBXy1NNkVZSHJ6amtjMnhFd1JxSE1Mb3VzaVUwSnI1aGZuVXd4TVB5YlF6SW5leW0wR2QyVmdRQU5LZXBtdEJDaGRtajNfa1E2alVhWEJzUlJ4R1M3dUtaU1dwZHltYUg2NzEwdVpobzhITEo1MVU3dkF0R3FJbWc4MnpENVpONTdXWDNqdnM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "metomic-screens-claude-enterprise-prompts-for-sensitive-data-before-processing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "reverse-listing-approach-evaluated-as-strategy-for-wildlife-trade-protection",
+    "title": "Reverse listing approach evaluated as strategy for wildlife trade protection",
+    "summary": "A new conservation strategy proposes reversing the default regulatory approach for wildlife trade by banning all species unless proven sustainable.",
+    "theme": "Conservation",
+    "importance": 5,
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildlife trade",
+      "conservation policy",
+      "species protection",
+      "reverse listing",
+      "sustainable trade"
+    ],
+    "url": "news/climate-resilience/2026-08-12/#reverse-listing-approach-evaluated-as-strategy-for-wildlife-trade-protection",
+    "sources": [
+      {
+        "label": "Nature Ecology & Evolution",
+        "url": "https://www.nature.com/articles/s41559-026-03161-8",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "reverse-listing-approach-evaluated-as-strategy-for-wildlife-trade-protection",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "trump-administration-removes-habitat-protection-from-endangered-species-act-definition-of-harm",
     "title": "Trump Administration Removes Habitat Protection from Endangered Species Act Definition of 'Harm'",
     "summary": "The Trump administration finalized a rule on July 10 removing habitat destruction from the regulatory definition of \"harm\" under the Endangered Species Act, effective September 14. The change weakens protections for endangered species by allowing farming, drilling, mining, logging, and development to proceed in critical habitats without violating the law, overturning a 30-year legal interpretation upheld by the Supreme Court.",
@@ -729,6 +778,43 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "openais-lead-business-executive-departs-to-launch-independent-startup",
+    "title": "OpenAI's lead business executive departs to launch independent startup",
+    "summary": "A senior business executive at OpenAI has left the company to establish an independent startup venture.",
+    "theme": "Corporate",
+    "importance": 5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "executive departure",
+      "startup",
+      "leadership"
+    ],
+    "url": "news/gpt/2026-08-12/#openais-lead-business-executive-departs-to-launch-independent-startup",
+    "sources": [
+      {
+        "label": "eu.36kr.com",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5CeHZyM19idG9keW5BcE9jNko3YzdVTk9PeGlZbFFaaWR0T2ZnbEdFWjl0d0NUUTk0VGRpSnNsdnUtYjBlLXpaeTNILUFld09IU2VR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "openais-lead-business-executive-departs-to-launch-independent-startup",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "m3-shares-surge-on-oasis-management-stake-disclosure",
     "title": "M3 shares surge on Oasis Management stake disclosure",
     "summary": "M3 shares rallied after Oasis Management disclosed a 5% stake in the company.",
@@ -758,191 +844,6 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "m3-shares-surge-on-oasis-management-stake-disclosure",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "sanrio-shares-drop-as-quarterly-earnings-disappoint",
-    "title": "Sanrio shares drop as quarterly earnings disappoint",
-    "summary": "Sanrio's stock price fell following quarterly profit results that underperformed expectations.",
-    "theme": "Markets",
-    "importance": 5.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Sanrio",
-      "stock",
-      "earnings"
-    ],
-    "url": "news/markets/2026-08-12/#sanrio-shares-drop-as-quarterly-earnings-disappoint",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVEdZRTIxYVFFdkZwZkFQeElRMnRRVDJpb3U4REhlLXVfR2JxNloxbnVjd25KbGl0OU9Udl9EQXQwdGNvNWdPOU9ZTVdHQjdBTzhDWlEzX0Y2MlMyV0JmNHJBVkduU0x2dmpYdF9WLU5GWHdQazM3ZF9EOU9WQ2JBcFNYVkVaVGJ4V3RvM2JsemxMWWhTZktmeUk1YW5pUGotZHVsVkthRmV3QWtyUGc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "sanrio-shares-drop-as-quarterly-earnings-disappoint",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "genetics-triggers-male-black-widows-to-backflip-into-cannibalistic-death-study-finds",
-    "title": "Genetics triggers male black widows to backflip into cannibalistic death, study finds",
-    "summary": "A new study reveals that genetic factors drive male black widows to exhibit a cannibalistic mating behavior that often results in their death.",
-    "theme": "Behavioral Biology",
-    "importance": 5.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "black widows",
-      "genetics",
-      "mating behavior",
-      "cannibalism",
-      "spiders"
-    ],
-    "url": "news/science/2026-08-12/#genetics-triggers-male-black-widows-to-backflip-into-cannibalistic-death-study-finds",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/animals/spiders-arachnids/genetics-triggers-male-black-widows-to-blackflip-into-death-study-finds",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "genetics-triggers-male-black-widows-to-backflip-into-cannibalistic-death-study-finds",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "climate-debate-remains-dominated-by-established-voices-despite-social-media-expansion",
-    "title": "Climate debate remains dominated by established voices despite social media expansion",
-    "summary": "Research shows that social media has failed to diversify climate change discourse, with established voices continuing to dominate the conversation.",
-    "theme": "Climate Communication",
-    "importance": 5.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "climate change",
-      "social media",
-      "public discourse",
-      "science communication"
-    ],
-    "url": "news/science/2026-08-12/#climate-debate-remains-dominated-by-established-voices-despite-social-media-expansion",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-climate-debate-dominated-voices-social.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "climate-debate-remains-dominated-by-established-voices-despite-social-media-expansion",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "total-solar-eclipse-to-cross-europe",
-    "title": "Total Solar Eclipse to Cross Europe",
-    "summary": "Millions of Europeans will witness a rare total solar eclipse on Wednesday as it crosses parts of the continent and darkens a swath of Spain.",
-    "theme": "Science",
-    "importance": 5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "solar eclipse",
-      "Europe",
-      "Spain",
-      "astronomy"
-    ],
-    "url": "news/science/2026-08-12/#total-solar-eclipse-to-cross-europe",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-total-solar-eclipse-spellbind-europe.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "total-solar-eclipse-to-cross-europe",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "uk-on-track-for-second-consecutive-record-warmest-summer",
-    "title": "UK on Track for Second-Consecutive Record-Warmest Summer",
-    "summary": "The United Kingdom is forecast to record its warmest summer on record for the second consecutive year, according to the Met Office.",
-    "theme": "Climate",
-    "importance": 5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "UK",
-      "summer",
-      "temperature records",
-      "climate"
-    ],
-    "url": "news/science/2026-08-12/#uk-on-track-for-second-consecutive-record-warmest-summer",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-uk-warmest-summer-year-row.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "uk-on-track-for-second-consecutive-record-warmest-summer",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -980,6 +881,81 @@
     "researched": false,
     "received_at": "2026-08-12T08:57:53.797221+00:00",
     "lineage_id": "ivanti-epm-update-fixes-remotely-exploitable-vulnerabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "signal-adds-automatic-key-verification-to-prevent-man-in-the-middle-attacks",
+    "title": "Signal adds Automatic Key Verification to prevent man-in-the-middle attacks",
+    "summary": "Signal messaging app introduced Automatic Key Verification, a security feature that prevents encrypted messages from being intercepted.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Signal",
+      "encryption",
+      "man-in-the-middle",
+      "security feature"
+    ],
+    "url": "news/security/2026-08-12/#signal-adds-automatic-key-verification-to-prevent-man-in-the-middle-attacks",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "signal-adds-automatic-key-verification-to-prevent-man-in-the-middle-attacks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "spacex-launches-24-starlink-satellites-from-california-in-second-lift-off-of-day",
+    "title": "SpaceX launches 24 Starlink satellites from California in second lift-off of day",
+    "summary": "SpaceX completed a second Starlink launch from California on August 11, deploying 24 additional satellites to the global internet constellation.",
+    "theme": "Space",
+    "importance": 5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "SpaceX",
+      "Starlink",
+      "satellite",
+      "internet",
+      "launch"
+    ],
+    "url": "news/space/2026-08-12/#spacex-launches-24-starlink-satellites-from-california-in-second-lift-off-of-day",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-group-17-49-b1103-asog",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "spacex-launches-24-starlink-satellites-from-california-in-second-lift-off-of-day",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1091,45 +1067,6 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "detecting-data-contamination-in-llms-via-post-training-feature-shifts",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "pennsylvania-neighborhood-residents-live-in-fear-following-pipeline-leak-in-era-of-energy-deregulation",
-    "title": "Pennsylvania neighborhood residents live in fear following pipeline leak in era of energy deregulation",
-    "summary": "Residents of Mount Eyre Manor in Pennsylvania express concerns about living near a pipeline that leaked, amid policies promoting increased energy production.",
-    "theme": "Environmental Health",
-    "importance": 5.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "pipeline leak",
-      "Pennsylvania",
-      "natural gas",
-      "environmental safety",
-      "energy policy"
-    ],
-    "url": "news/climate-change/2026-08-12/#pennsylvania-neighborhood-residents-live-in-fear-following-pipeline-leak-in-era-of-energy-deregulation",
-    "sources": [
-      {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/11082026/pennsylvania-neighborhood-deals-with-fuel-spill-as-environmental-enforcement-shrinks/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "pennsylvania-neighborhood-residents-live-in-fear-following-pipeline-leak-in-era-of-energy-deregulation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1365,7 +1302,7 @@
     "date": "2026-08-12",
     "event_id": "stock-market-shows-dot-com-bubble-warning-signals",
     "title": "Stock Market Shows Dot-Com Bubble Warning Signals",
-    "summary": "Current market conditions are displaying similar warning indicators to those seen before the dot-com bubble burst.",
+    "summary": "Market indicators are flashing signals reminiscent of conditions preceding the dot-com bubble collapse, raising questions about current valuations.",
     "theme": "Markets",
     "importance": 5.5,
     "topics": [
@@ -1376,10 +1313,13 @@
     ],
     "primary_feed": "world",
     "keywords": [
+      "bubble risk",
+      "dot-com",
       "dot-com bubble",
+      "economic warning",
       "market valuation",
-      "stock market",
-      "risk indicators"
+      "risk indicators",
+      "stock market"
     ],
     "url": "news/markets/2026-08-12/#stock-market-shows-dot-com-bubble-warning-signals",
     "sources": [
@@ -1387,12 +1327,54 @@
         "label": "The Motley Fool",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOM2wyU3VhLTE4V3o5TzIzZ3BCV09Wa2RSWExMVXJoUG9QNjI1X2RCRW5GRDA0TG5JT1BpZHV4WExBUlExT182bUFnYndKU1hHRld0ZkYtSGNNX0RQOHBkUnRJUk1kYy1mOE40UGMxOFhoVDlpUURCV2pPNDlZTEVUSlFOdUxWaGtWRG1wYXJFa3E1anlUaTdtWA?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "finance.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcTNaZVU4SkRva001VGc3REtpb1lKQlF5Ny1DMUFnaURDLVJzTWNoaVVBZHpsY1JBd1pnbG43SW0tdjBLSGhWUDBYT1E4VmhWdm9NN0tjTVBfRG1KblZFNEoxNV96Wjl6TWh6Z0gydmhmOTVfWkVEWUJYWmZiLUlmeG1UdEdHUkphMFdVNVN4cXBEVzk1X1RBN21RNC05WGk5?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
     "lineage_id": "stock-market-shows-dot-com-bubble-warning-signals",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "23-trillion-fund-ceo-warns-against-expecting-sustained-market-outperformance",
+    "title": "$2.3 trillion fund CEO warns against expecting sustained market outperformance",
+    "summary": "A major asset manager CEO cautioned that record first-half returns are unlikely to continue indefinitely as market conditions normalize.",
+    "theme": "Markets",
+    "importance": 5.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "fund management",
+      "market outlook",
+      "returns",
+      "economic forecast"
+    ],
+    "url": "news/markets/2026-08-12/#23-trillion-fund-ceo-warns-against-expecting-sustained-market-outperformance",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0yamZ5RzEyZHFVbl82TTZzWGU4dnlGR2l0TkxqM24xY1JFTlFoNHJHVngzak9mckhkUHJJcDQzVEF1NXpFYWVJLWRJOVgxdDFFTXJXSUhuX0tRTnhJczk1NTF0ZGVLNXNhSHgzYWdQWWI5SXJJb3BjWW9KaHjSAYIBQVVfeXFMTlRMTG9xTGw5SmNVTjNtdV9OeUJtS3U0eW5teERSN25Ia3k2NllWQVdEOWxQcHhneU5CVXVIRFg1MkhiMGhJT2lOR0hYODVnclhjYTgzbWVLRFRoZXczUnhzZVFQbG43TkJBbU44bG5la3FncHRpUV9TcUZNNVNkMkRPdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "23-trillion-fund-ceo-warns-against-expecting-sustained-market-outperformance",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1505,6 +1487,157 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "fluorescence-lifetime-imaging-distinguishes-multiple-proteins-in-living-plant-cells",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "new-technologies-combat-flesh-eating-screwworms-outbreak",
+    "title": "New technologies combat flesh-eating screwworms outbreak",
+    "summary": "Experts explore emerging technologies to control the resurgent New World screwworm, a destructive parasitic fly.",
+    "theme": "Science",
+    "importance": 5.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "screwworms",
+      "parasitic flies",
+      "pest control",
+      "technology",
+      "disease prevention"
+    ],
+    "url": "news/science/2026-08-12/#new-technologies-combat-flesh-eating-screwworms-outbreak",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-qa-flesh-screwworms-technologies.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "new-technologies-combat-flesh-eating-screwworms-outbreak",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "tree-swaying-patterns-may-indicate-water-stress",
+    "title": "Tree swaying patterns may indicate water stress",
+    "summary": "Research suggests the way trees sway mechanically could signal drought stress and water availability, with implications for managing Western U.S. wildfires.",
+    "theme": "Science",
+    "importance": 5.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "tree physiology",
+      "drought stress",
+      "water stress",
+      "biomechanics",
+      "wildfire"
+    ],
+    "url": "news/science/2026-08-12/#tree-swaying-patterns-may-indicate-water-stress",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-trees-sway-communicate-stress.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "tree-swaying-patterns-may-indicate-water-stress",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "wildfire-research-system-monitors-recovery-from-controlled-burns-through-long-term-ecosystem-tracking",
+    "title": "Wildfire research system monitors recovery from controlled burns through long-term ecosystem tracking",
+    "summary": "Scientists deployed a monitored research site north of Reno using dozens of sensors to track ecosystem recovery following controlled burns, advancing fire management science.",
+    "theme": "Science",
+    "importance": 5.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "wildfire",
+      "controlled burns",
+      "ecosystem monitoring",
+      "fire science",
+      "research"
+    ],
+    "url": "news/science/2026-08-12/#wildfire-research-system-monitors-recovery-from-controlled-burns-through-long-term-ecosystem-tracking",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-wildfire-ecosystems-term-recovery.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "wildfire-research-system-monitors-recovery-from-controlled-burns-through-long-term-ecosystem-tracking",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "ceva-logistics-operations-disrupted-by-cyberattack",
+    "title": "Ceva Logistics operations disrupted by cyberattack",
+    "summary": "A cyberattack affected eight Ceva Logistics warehouses across Europe, causing shipment delays for multiple customers.",
+    "theme": "Security",
+    "importance": 5.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Ceva Logistics",
+      "cyberattack",
+      "logistics",
+      "supply chain"
+    ],
+    "url": "news/security/2026-08-12/#ceva-logistics-operations-disrupted-by-cyberattack",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/ceva-logistics-operations-disrupted-by-cyberattack/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "ceva-logistics-operations-disrupted-by-cyberattack",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1691,6 +1824,44 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "anthropic-opens-self-hosted-claude-code-sessions-to-team-and-enterprise-customers",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "samsung-reduces-chip-design-time-by-15x-using-claude-addresses-engineering-talent-gaps",
+    "title": "Samsung reduces chip design time by 15x using Claude, addresses engineering talent gaps",
+    "summary": "Samsung reports a 15-fold reduction in chip design time using Anthropic's Claude while working to close workforce gaps with competitors like Qualcomm.",
+    "theme": "AI Applications",
+    "importance": 6,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Samsung",
+      "Claude",
+      "chip design",
+      "productivity",
+      "semiconductor engineering"
+    ],
+    "url": "news/anthropic/2026-08-12/#samsung-reduces-chip-design-time-by-15x-using-claude-addresses-engineering-talent-gaps",
+    "sources": [
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aSHZMd1ZBVWpkMVVtYlY1RU8wLVJEVC1fbV9zaFN3T3dDNUNQS0lsMnRmOTRrX00tRWxvTDlfYWNMMmg2U0J2Tk9Wc1JWaFBCZGFtQUhXblZwWHdaUU5tZEY3VFZPckxIM1Y5OFZYQm9mQ1FyRVE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "samsung-reduces-chip-design-time-by-15x-using-claude-addresses-engineering-talent-gaps",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2308,81 +2479,6 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "pg_clickhouse-v010-achieves-1000x-speedup-on-tpc-h-via-subquery-pushdown",
-    "title": "pg_clickhouse v0.10 achieves 1000x speedup on TPC-H via subquery pushdown",
-    "summary": "pg_clickhouse v0.10 introduces subquery pushdown optimization, delivering 1000x faster performance on TPC-H benchmark queries.",
-    "theme": "Technology",
-    "importance": 6,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "pg_clickhouse",
-      "ClickHouse",
-      "query optimization",
-      "TPC-H",
-      "subquery pushdown"
-    ],
-    "url": "news/tech/2026-08-12/#pg_clickhouse-v010-achieves-1000x-speedup-on-tpc-h-via-subquery-pushdown",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://clickhouse.com/blog/pg_clickhouse-whats-new-july-2026",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
-    "lineage_id": "pg_clickhouse-v010-achieves-1000x-speedup-on-tpc-h-via-subquery-pushdown",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "cargo-thefts-of-ai-hardware-turn-violent-in-california",
-    "title": "Cargo Thefts of AI Hardware Turn Violent in California",
-    "summary": "Criminal organizations in California have escalated to violent tactics to steal servers and data center equipment.",
-    "theme": "Security",
-    "importance": 6,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "cargo theft",
-      "AI hardware",
-      "data center",
-      "organized crime"
-    ],
-    "url": "news/tech/2026-08-12/#cargo-thefts-of-ai-hardware-turn-violent-in-california",
-    "sources": [
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/the-worst-ive-ever-seen-cargo-thieves-are-turning-violent-in-pursuit-of-ai-hardware/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T10:49:06.406952+00:00",
-    "lineage_id": "cargo-thefts-of-ai-hardware-turn-violent-in-california",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
     "event_id": "baby-rescued-from-earthquake-rubble-in-colombia-death-toll-exceeds-250",
     "title": "Baby Rescued from Earthquake Rubble in Colombia; Death Toll Exceeds 250",
     "summary": "Rescuers recovered a baby from rubble after an earthquake in Colombia, while the death toll climbed above 250 as rescue operations continued.",
@@ -2421,43 +2517,6 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "houthi-attack-on-red-sea-vessel-kills-six-us-conducts-strikes",
-    "title": "Houthi Attack on Red Sea Vessel Kills Six; U.S. Conducts Strikes",
-    "summary": "A Houthi attack on a ship in the Red Sea near Bab al-Mandeb killed six people, the first fatalities in the region in over a year, prompting U.S. military response.",
-    "theme": "Conflict",
-    "importance": 6,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Houthi",
-      "Red Sea",
-      "Yemen",
-      "maritime security"
-    ],
-    "url": "news/world/2026-08-12/#houthi-attack-on-red-sea-vessel-kills-six-us-conducts-strikes",
-    "sources": [
-      {
-        "label": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNV3Z2SnhPazVIQnhtS1Q4MnZZY0l4N0thOE9IMDVYdFJYYXRrQWxCellTNlowMnc5RDdqdmNzZEo4WHlKNjQ1OTRyTGR3TWxGTS1VdEdhRlZoWGdTeUF0MERkYnJiRFVoNFF4Rk1tMElRdFNHZnpyZ3VUby0xU2VLNXJaXzJ5YjRJZldiQTVXOWZONWpkTVpVbk94d3ZsVzlndmpGSUdpaWlMMUdsbFNEYWtvc9IBuAFBVV95cUxPNmM5RlF4c0I0VlZZTS1Sbmo2ejBFS3B4RnBsUUV5TVpSS3E5QnpFeUkzSlk0S29ZaEQzNWZESWRyVE5fWlUycVJmZDZYR0VGNVZTVzF6dFVMZ2ZIMmJKT2JHaURuMVZIYTNuMFY2MlZCMmdUMnZlQWxyOTRzNlUtTzc0SlZTUHkzV2ZzRHJzRlBGZVRCTkFJM2N1eWlsNFpxVm1UWFZrNF9TdzJUa2EzXzZfVUZQdDN6?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T10:49:06.406952+00:00",
-    "lineage_id": "houthi-attack-on-red-sea-vessel-kills-six-us-conducts-strikes",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
     "event_id": "local-pc-llms-gain-traction-as-major-tech-firms-increase-competition",
     "title": "Local PC LLMs gain traction as major tech firms increase competition",
     "summary": "Large language models running locally on personal computers are gaining adoption as tech companies intensify competition in the AI space.",
@@ -2488,6 +2547,83 @@
     "researched": false,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "local-pc-llms-gain-traction-as-major-tech-firms-increase-competition",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "democratic-republic-of-congo-faces-largest-ebola-outbreak-with-revised-health-strategy",
+    "title": "Democratic Republic of Congo faces largest Ebola outbreak with revised health strategy",
+    "summary": "The DRC recorded over 4,300 Ebola cases with more than 2,000 deaths, its largest outbreak to date, prompting health agencies to revise containment strategies.",
+    "theme": "Health",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Ebola",
+      "DRC",
+      "Democratic Republic of Congo",
+      "outbreak",
+      "public health"
+    ],
+    "url": "news/climate-change/2026-08-12/#democratic-republic-of-congo-faces-largest-ebola-outbreak-with-revised-health-strategy",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/as-drc-confronts-largest-ebola-outbreak-health-agencies-revise-strategy/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "democratic-republic-of-congo-faces-largest-ebola-outbreak-with-revised-health-strategy",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "definium-therapeutics-lsd-therapy-eases-anxiety-in-late-stage-trial",
+    "title": "Definium Therapeutics LSD therapy eases anxiety in late-stage trial",
+    "summary": "Definium Therapeutics reported that its LSD-based therapy significantly reduced anxiety symptoms in the first of two pivotal trials for generalized anxiety disorder.",
+    "theme": "Health",
+    "importance": 6.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "LSD",
+      "psychedelic therapy",
+      "anxiety disorder",
+      "clinical trial",
+      "Definium"
+    ],
+    "url": "news/health/2026-08-12/#definium-therapeutics-lsd-therapy-eases-anxiety-in-late-stage-trial",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/12/definium-lsd-treatment-anxiety-study/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "definium-therapeutics-lsd-therapy-eases-anxiety-in-late-stage-trial",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2570,6 +2706,44 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "intel-and-amd-patch-over-80-combined-vulnerabilities-in-chipmaker-patch-tuesday",
+    "title": "Intel and AMD patch over 80 combined vulnerabilities in chipmaker Patch Tuesday",
+    "summary": "Intel and AMD released security patches addressing over 80 high-severity vulnerabilities combined that could enable privilege escalation and code execution.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Intel",
+      "AMD",
+      "vulnerabilities",
+      "patch",
+      "chipset"
+    ],
+    "url": "news/security/2026-08-12/#intel-and-amd-patch-over-80-combined-vulnerabilities-in-chipmaker-patch-tuesday",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/chipmaker-patch-tuesday-intel-amd-fix-over-80-vulnerabilities-combined/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "intel-and-amd-patch-over-80-combined-vulnerabilities-in-chipmaker-patch-tuesday",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "total-solar-eclipse-crosses-greenland-iceland-and-spain-today",
     "title": "Total Solar Eclipse Crosses Greenland, Iceland, and Spain Today",
     "summary": "A total solar eclipse crosses Greenland, Iceland, and Spain on August 12, 2026—Spain's first since 1905. About 230 million people will experience 90% totality or greater, with partial visibility across much of the Northern Hemisphere including major European cities and parts of North America.",
@@ -2617,49 +2791,6 @@
     "researched": true,
     "received_at": "2026-08-12T06:27:18.691322+00:00",
     "lineage_id": "total-solar-eclipse-crosses-greenland-iceland-and-spain-today",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-12",
-    "event_id": "esa-mars-exploration-leader-shares-journey-from-nasa-rejection-to-leadership",
-    "title": "ESA Mars Exploration Leader Shares Journey from NASA Rejection to Leadership",
-    "summary": "A researcher who was rejected by NASA at age 14 eventually became the head of Mars exploration studies at the European Space Agency.",
-    "theme": "Space",
-    "importance": 6.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "ESA",
-      "European Space Agency",
-      "Leicester",
-      "Mars",
-      "Mars exploration",
-      "NASA",
-      "career",
-      "career trajectory",
-      "space",
-      "women in space"
-    ],
-    "url": "news/space/2026-08-12/#esa-mars-exploration-leader-shares-journey-from-nasa-rejection-to-leadership",
-    "sources": [
-      {
-        "label": "ScienceBlog.com",
-        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxOODNGWlNfQXBKaE5tYUMyV09vS0dnSmx3VHZVZEh2RmhDZUxrbVBTYkl5QTNSdUlRZ1F5S1JZM0NmLWVSVE9GM3lTTW5QY0FWck9sbmQtc3lER3k2TWdjMENqcEJjelk4SUNudEhuNk9mYTBhTHp1X1ZQVDh2bnZFc1k0SURGNUxSUHlYc1B6dmZPOG5PUDNOT0JkNVF4R3NQSkFkRm1jSVJac1AzbE9DZnJWby1KT1ZKRms0RVRZN05wU3lnTHkxbWtMUzhVeTlDMUgtNTNnX2RpR0tlQThtQ3o0dU03bHZXR2pQSmhOU2RXRXJ2TnJEWi1XV1lnaFE0bndiczF0Tl9zM3NYeGc5RUxUd3RuUGxZZFgwMHBzNVVrNmFBeEZhT3JPeXRUd0RSQkdN?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-12T10:49:06.406952+00:00",
-    "lineage_id": "esa-mars-exploration-leader-shares-journey-from-nasa-rejection-to-leadership",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2888,6 +3019,44 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "voyager-engineers-extend-50-year-old-spacecraft-power-budget-by-two-years",
+    "title": "Voyager engineers extend 50-year-old spacecraft power budget by two years",
+    "summary": "NASA engineers achieved a remarkable engineering feat by extending Voyager's power budget by approximately two years through meticulous optimization of subsystems consuming less than one watt.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Voyager",
+      "power management",
+      "spacecraft",
+      "engineering",
+      "NASA"
+    ],
+    "url": "news/tech/2026-08-12/#voyager-engineers-extend-50-year-old-spacecraft-power-budget-by-two-years",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/science/2026/08/12/how-voyager-engineers-found-two-more-years-in-a-50-year-old-power-budget/5284906",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "voyager-engineers-extend-50-year-old-spacecraft-power-budget-by-two-years",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "taliban-bar-24-million-afghan-girls-from-secondary-school-five-years-post-takeover",
     "title": "Taliban Bar 2.4 Million Afghan Girls from Secondary School Five Years Post-Takeover",
     "summary": "UNESCO reports that 2.4 million Afghan girls have been systematically barred from secondary education since the Taliban takeover in 2021.",
@@ -3044,9 +3213,47 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "putin-warns-of-retaliatory-vessel-seizures-if-eu-seizes-russian-commercial-ships",
+    "title": "Putin warns of retaliatory vessel seizures if EU seizes Russian commercial ships",
+    "summary": "The president of Russia threatened to seize European vessels in kind if EU nations continue seizing Russian commercial ships.",
+    "theme": "World",
+    "importance": 6.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "EU",
+      "sanctions",
+      "maritime",
+      "geopolitics"
+    ],
+    "url": "news/world/2026-08-12/#putin-warns-of-retaliatory-vessel-seizures-if-eu-seizes-russian-commercial-ships",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQakNBZk1WeHVZd2NFMWx4QS04YWNWZDd2OTdUeGtEbGI1WHNBR3FFd3huTllRR1BUTEdJMjhBRS1JeEpoSWdUNUhsOWtpa1NRV2ZJOFZ6RXJYVmU2QkNuNEFzcUQtMXZvS0V2SDViQnRUZXFHLXd0c0UwVUFRLVRxTVc1MmhXbmtPQjc0dm40ektkVXpMdXpUVUUyRVJDYnJ6d015Ulp2M0I3Mk1sOWdYTU5Sdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "putin-warns-of-retaliatory-vessel-seizures-if-eu-seizes-russian-commercial-ships",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "anthropic-preparing-for-2026-mega-ai-ipo-warms-up-investors",
     "title": "Anthropic preparing for 2026 mega-AI IPO, warms up investors",
-    "summary": "Anthropic is positioning itself for a major initial public offering in 2026 by engaging with investors.",
+    "summary": "Anthropic is signaling to investors its readiness for a major public offering in 2026.",
     "theme": "Funding",
     "importance": 7.0,
     "topics": [
@@ -3057,11 +3264,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "2026",
+      "AI",
       "Anthropic",
       "IPO",
-      "AI",
       "fundraising",
-      "2026"
+      "valuation"
     ],
     "url": "news/anthropic/2026-08-12/#anthropic-preparing-for-2026-mega-ai-ipo-warms-up-investors",
     "sources": [
@@ -3073,7 +3281,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T06:27:18.691322+00:00",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
     "lineage_id": "anthropic-preparing-for-2026-mega-ai-ipo-warms-up-investors",
     "related_title": "",
     "related_url": "",
@@ -3309,6 +3517,44 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "zhang-rice-singlet-directly-visualized-in-cuprate-superconductor",
+    "title": "Zhang-Rice singlet directly visualized in cuprate superconductor",
+    "summary": "Researchers achieved direct visualization of the long-sought Zhang-Rice singlet state in cuprate superconductors, advancing understanding of high-temperature superconductivity mechanisms.",
+    "theme": "Science",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "superconductivity",
+      "cuprate",
+      "Zhang-Rice singlet",
+      "physics",
+      "materials science"
+    ],
+    "url": "news/science/2026-08-12/#zhang-rice-singlet-directly-visualized-in-cuprate-superconductor",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-sought-zhang-rice-singlet-visualized.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "zhang-rice-singlet-directly-visualized-in-cuprate-superconductor",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "deadlock-ransomware-uses-blockchain-infrastructure-to-resist-law-enforcement-takedown",
     "title": "DeadLock ransomware uses blockchain infrastructure to resist law enforcement takedown",
     "summary": "The DeadLock ransomware operation employs decentralized blockchain-backed services to protect its communications and data-leak platform from infrastructure disruption.",
@@ -3391,81 +3637,41 @@
   },
   {
     "date": "2026-08-12",
-    "event_id": "nasa-invites-isro-to-join-artemis-moon-base-program",
-    "title": "NASA Invites ISRO to Join Artemis Moon Base Program",
-    "summary": "The Indian Space Research Organisation has been invited by NASA to participate in its lunar base development initiative.",
-    "theme": "Space Exploration",
-    "importance": 7.0,
+    "event_id": "adobe-patches-critical-cvss-100-vulnerabilities-in-coldfusion-and-campaign-classic",
+    "title": "Adobe patches critical CVSS 10.0 vulnerabilities in ColdFusion and Campaign Classic",
+    "summary": "Adobe released security updates addressing multiple critical flaws rated CVSS 10.0 in ColdFusion, Commerce, and Campaign Classic that could enable arbitrary code execution.",
+    "theme": "Security",
+    "importance": 7,
     "topics": [
-      "space"
+      "security"
     ],
     "feeds": [
-      "science"
+      "technology"
     ],
-    "primary_feed": "science",
+    "primary_feed": "technology",
     "keywords": [
-      "Artemis Accords",
-      "ISRO",
-      "India",
-      "India-US",
-      "India-US partnership",
-      "Moon Base",
-      "NASA",
-      "international collaboration",
-      "lunar program",
-      "space cooperation"
+      "Adobe",
+      "ColdFusion",
+      "Campaign Classic",
+      "critical vulnerability",
+      "code execution"
     ],
-    "url": "news/space/2026-08-12/#nasa-invites-isro-to-join-artemis-moon-base-program",
+    "url": "news/security/2026-08-12/#adobe-patches-critical-cvss-100-vulnerabilities-in-coldfusion-and-campaign-classic",
     "sources": [
       {
-        "label": "Fortune India",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjhLVk52QWNJMkNneHYwMlZreDJnLWwtVFNOLWdoWkp2enFNREJSbVhpdVVFS2NJYmZKU0JYSzFLUUdQa0lWVEFla0pGOWlUcnhadDlFMUNKWV9jeFE2ZnVFa2hCNEdTb0lmVG1PYVMzUnNQVy1jekJrS1lLb2ZEbXNtNGROY2dfTEdUMmdSNHdkb0doTzMtVXVkc1ZnczU3X0d6S2Q5X3FwamxhLVJCZUxIT0pkRGFCemJWN0E0bw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "ThePrint",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83U2EwWVo4X0NzVlRfT295NUwxOW9xWjlzRUdVU09PaFVQbEFYaFRXcHFKbjZmdkRQbVptd2tHdUZkR1BBenBWQi1JQjNZdFVKQjBmaHhPRU4tX0RJU19KbENucW9fbmRIeWUzTzlWdXlmZVA40gF6QVVfeXFMT0xsYm0wOTRKQjJRbThUUWNjc0hMVnNXYmJHSEprWGwzR2pYWnpVNXpFNlhNeGlYazQ3cjVPbXM2S3RBT0tlTDRGSzNCLW5qajVFTXlEeXV6QzZSclNpVXFtQVhkOUVXNVBkRDkyLTZYSWZIcjZydVZHU2c?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Hindustan Times",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPODVUQWRSU1M1elF3OFlETlVmUUVJQTJLQ2dvaHlueWJBU29KeG9MRnJCSnVNZ2p6SDl3WlkzeUltS3FzaERYNWxEU0ptZWU4TENZeFdBUlE0WnRRSUV6UEl6bk9FU1NWQ2dZZnZuMTE1Q0VRR3ZvUE5LMVd5ZnpmX1VyZDE0R3dEV3hudXkzcG51OWZuajZEVzRrSTRMWmUwaC1NNkFsQTgxU1hTNnJfZjVRdGdqTDhfZFJuNndRSUNfek8xVE5uWEZlR25YUGVGSm1LOGh1TWdUaTYyVEp2RExnU3EwQks1MmNVdGRHMkVkMUlJ0gH6AUFVX3lxTFBkVFU1SXl3ektfNWluRHBhQTNIbG84UkdxMVV4WEVrRGNGMXh2NEp0WVRYOFhYd0ItclZEbjBfQnlIeXlXRi0zUlZjeTFrRnk5dklEck9QUmoweVpfc3pobllnbTFQal9Oc0YwYURxM3Fvdmp2ejdObUVZdldyck9ZQWFHWllmVjNnX0FUUlk4dS01MGFiN1RFWF83V3hFN2I5SjdOc3lmbWVlNjVlTkdTVDB1OF9XUVd6RzdxcjJXdmt0d0w0TjljaGF3VE5qVjVTWDBkaUFvQlZ5SDlCNjZ1NjhvUmMwQWcyUlNRVWd0cWhDZnZUZDRxVlE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Daily Pioneer",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtakZGdU9yVXlfU2xNdkcxOVNtcWdKOFVDYlhPSGFMM2dLYXlQVWZoNkpiLVAtaXBOZDFZY3JmYUktRXp4NHBtcV83eEowd0gxUWNHcUVnLWxEZldGWEF1cHdvUUlvZVVZT2pSclp6RGhNTXFEcnB4T0trVER5UQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "indianexpress.com",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0YwRkRmRVJVOEs0dlZuUVVrOEoxaFVTaW80UXotSHdZcldJOWZkaWo1SFFBaUtiSmxQZUV0ZnVKOUxJamtUOG16VVlyaTR3NFRnajE2TWpHdE83R1E3aEh4SVZUcXlkZTZ6ZFh0bGtrVGlZaW9jYktUNkRtdkp3RThhRzVSVlhyYktlcUJUY1hrSHNKdndacVFUWDBpT1Vk0gGnAUFVX3lxTE9UWmRhUDM0R0lOV3c3a2hoZFVqT3J3WFFLNVE0UVRicHFfajJKdHFqMGNOR0xnQWhUeFRYLU1QLV9BUHp3dGh0dnVHODh2aFRvdi1LVnBGZ1JnemhEMW1rbF9ETk0tMkJQOUlMclVSd2RFblhsNkQtVVZJbWdiTFl2UjRUQnNJX2FqOExLTzhpT1VQX090dTdIVzE5eFM2d3d5V1h3SURj?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Siliconindia",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ1BrdEItZGNkejBmcDdmSE5UTU9CbVRybk5YQkFzQmRsOGM3MzZGbkRXVTBhWGxWd2l1cmc2d1pNM2dUaDF0NEFKaE96SmR1S2RyRHVQcTRmbnRJYUVOSXQ5MmdRb05SYVdIZi1fX3JwUUVZWTI4UnpscUxpVDE4LUVVOE1XdmNvNFNYTHdkOWlyelkya3RwM1ZHcjNkck1tMFUzV3ZGMnJrWnhDVmFwaGd6by1ZWXFBWktyWUlqZ1F6clFkaE5ySEJGOA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "PRESS Insider",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNHhpUkZFNF8wMWgwVGVGVUR5Mlg3d1ZiajBUeFl3MXpFd0NjYkRVYXVkdkxUMlh1TVpuaWFNaWc5c1RXRzdGQ1lQRDNQb01pRjA4Q0ZDemlqNTNUUU9GWDVGWFZXMjN3Y0EyMFZPZDRHRkdTT2tvblRVSFV3SFdwdWpzSUdtVUxBbDdRbw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Manorama Yearbook",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmZoMHpOS0JjWjNQSkpXdEo1WFVkVkNRbkFKVXAydkhGWldncTJEazNEa194QTRhUkRHRU1TRlhGTmozRFdHTFRBOWNJZGY5RWZnTzRhNHlld25GbE10aDVsNGxfRGQydHRFZXo3RFlQVVVDMFl2Yk94cDdueTFuckhNRVlvcXRnVkNfOWlGcmtMb1Z4MGV3WW1RYk90dFZZ?oc=5",
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T08:57:53.797221+00:00",
-    "lineage_id": "nasa-invites-indias-isro-to-join-moon-base-program",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "adobe-patches-critical-cvss-100-vulnerabilities-in-coldfusion-and-campaign-classic",
     "related_title": "",
     "related_url": "",
-    "updates_title": "NASA invites India's ISRO to join Moon Base program",
-    "updates_url": "news/space/2026-08-11/#nasa-invites-indias-isro-to-join-moon-base-program"
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-12",
@@ -3597,9 +3803,46 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "researchers-breach-anti-distillation-defenses-in-top-ai-models-extracting-hidden-reasoning-at-scale",
+    "title": "Researchers breach anti-distillation defenses in top AI models, extracting hidden reasoning at scale",
+    "summary": "Security researchers have demonstrated methods to bypass protections that prevent large language models from being distilled into smaller models, extracting their internal reasoning processes.",
+    "theme": "AI Security",
+    "importance": 7.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "model distillation",
+      "adversarial attacks",
+      "LLM security",
+      "knowledge extraction"
+    ],
+    "url": "news/ai/2026-08-12/#researchers-breach-anti-distillation-defenses-in-top-ai-models-extracting-hidden-reasoning-at-scale",
+    "sources": [
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ncUM1TzhRdTcydGMtZUo4SVhDeTZhN05vMGRwQjR6NThOR1pkRHZTbVF2a3Uta3dnaGJPZDU4ZHNqRGp2eXpXSzBpMFp0ZTdzY3lVNzBIc1B0MVBfcUNSQnlKQmNKT3djVVR4Vy12STFLMDNQWkE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "researchers-breach-anti-distillation-defenses-in-top-ai-models-extracting-hidden-reasoning-at-scale",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "anthropic-adds-invisible-watermarks-to-claude-ai-generated-content",
     "title": "Anthropic Adds Invisible Watermarks to Claude AI-Generated Content",
-    "summary": "Anthropic has integrated hidden watermarks into Claude's generated text to help identify AI-authored content.",
+    "summary": "Anthropic announced that Claude will digitally watermark AI-generated text and images to comply with the European Union's Artificial Intelligence Act.",
     "theme": "AI Safety",
     "importance": 7.5,
     "topics": [
@@ -3617,6 +3860,7 @@
       "EU AI Act",
       "content authentication",
       "content identification",
+      "digital watermarking",
       "regulation",
       "watermarking",
       "watermarks"
@@ -3652,16 +3896,60 @@
         "label": "readthepeak.com",
         "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GNHRBa0ZBdFFxN3JDWGpCT2o4WHNxemVTSE14WUJSVVRGdFZHQmgyNl90bDVDc3l3N1RlcnM3YXVYQXBzSTRiTEFSeHpzZ3VBQVk4Q1JnRkkyTGJlN1hYRXVuUDRtUTh5QkRGR1dNOFlxQU1OZ2hmNm9FZHA?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQci1TNmpFdjZxNmFhVjJzTVZESElSY1l0R2ZvSXI0TTRkck04UzRDX1hVMGxyN2I4OFhwRFBGNlhvYWlBdEJ0U3ZkS0NadmtFQWFJcEE0Z21rVTBOWUp6dmNJOWZuWG9vMnlSTnBTbGt4bHRSMmRxSDlEcmEtSzJaVmxlQklUV1NkQV91YnFESjA4a0xfUExJZUo1RElFcktaT2tWdXBCQWU2WnQ4SmozdFlQQkVsUVR0S1g4WjJ5akRRcWU5Ui1fa1dFZDVQNjJlTW1uRXo1enNuTGtncFFJTWkzUXB5Ump1VzFwM3BELVI1eHpTVlJJM0Qzd09pOUZWdFUxTVNoRU1PQVZsbzFlMUFxNDJMcjBRUWJUUWwtV3dKbXMtMV9BNjMxSGZ1YTNJd0VISkhTMHdJNm5ieURVUw?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-12T10:49:06.406952+00:00",
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
     "lineage_id": "anthropic-adds-invisible-watermarks-to-claude-generated-text-globally",
     "related_title": "",
     "related_url": "",
     "updates_title": "Anthropic adds invisible watermarks to Claude-generated text globally",
     "updates_url": "news/anthropic/2026-08-11/#anthropic-adds-invisible-watermarks-to-claude-generated-text-globally"
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "researchers-demonstrate-method-to-extract-reasoning-chains-from-leading-llms",
+    "title": "Researchers demonstrate method to extract reasoning chains from leading LLMs",
+    "summary": "Hidden reasoning processes from OpenAI, Claude, and Gemini models have been successfully extracted through novel attack methods.",
+    "theme": "AI Security",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "chain-of-thought",
+      "reasoning extraction",
+      "OpenAI",
+      "Claude",
+      "Gemini",
+      "attack methods"
+    ],
+    "url": "news/anthropic/2026-08-12/#researchers-demonstrate-method-to-extract-reasoning-chains-from-leading-llms",
+    "sources": [
+      {
+        "label": "theneurondaily.com",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNY2FlVEVkdjZ1VS1TM0Y1UURLWGI2Q3R2T1FLRnlleFZCb1JiUW5tcldwcHBQdWxHS0xnY0l3QWhTaFpveXpyck44akEwSVJINWtSZnZJb01jVjhtVklPaERhdzNLWFhDaGtxNTdNZTlZbnpGWjlCZEE2WW0zc25vOUM2LUpuckNv?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "researchers-demonstrate-method-to-extract-reasoning-chains-from-leading-llms",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-12",
@@ -3792,6 +4080,91 @@
   },
   {
     "date": "2026-08-12",
+    "event_id": "nasa-invites-isro-to-join-artemis-moon-base-program",
+    "title": "NASA Invites ISRO to Join Artemis Moon Base Program",
+    "summary": "NASA has invited the Indian Space Research Organisation to participate in its lunar base development initiative.",
+    "theme": "Space Exploration",
+    "importance": 7.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Artemis Accords",
+      "ISRO",
+      "India",
+      "India-US",
+      "India-US partnership",
+      "Moon Base",
+      "NASA",
+      "international collaboration",
+      "international cooperation",
+      "lunar exploration",
+      "lunar program",
+      "space cooperation"
+    ],
+    "url": "news/space/2026-08-12/#nasa-invites-isro-to-join-artemis-moon-base-program",
+    "sources": [
+      {
+        "label": "Fortune India",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbjhLVk52QWNJMkNneHYwMlZreDJnLWwtVFNOLWdoWkp2enFNREJSbVhpdVVFS2NJYmZKU0JYSzFLUUdQa0lWVEFla0pGOWlUcnhadDlFMUNKWV9jeFE2ZnVFa2hCNEdTb0lmVG1PYVMzUnNQVy1jekJrS1lLb2ZEbXNtNGROY2dfTEdUMmdSNHdkb0doTzMtVXVkc1ZnczU3X0d6S2Q5X3FwamxhLVJCZUxIT0pkRGFCemJWN0E0bw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ThePrint",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83U2EwWVo4X0NzVlRfT295NUwxOW9xWjlzRUdVU09PaFVQbEFYaFRXcHFKbjZmdkRQbVptd2tHdUZkR1BBenBWQi1JQjNZdFVKQjBmaHhPRU4tX0RJU19KbENucW9fbmRIeWUzTzlWdXlmZVA40gF6QVVfeXFMT0xsYm0wOTRKQjJRbThUUWNjc0hMVnNXYmJHSEprWGwzR2pYWnpVNXpFNlhNeGlYazQ3cjVPbXM2S3RBT0tlTDRGSzNCLW5qajVFTXlEeXV6QzZSclNpVXFtQVhkOUVXNVBkRDkyLTZYSWZIcjZydVZHU2c?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Hindustan Times",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPODVUQWRSU1M1elF3OFlETlVmUUVJQTJLQ2dvaHlueWJBU29KeG9MRnJCSnVNZ2p6SDl3WlkzeUltS3FzaERYNWxEU0ptZWU4TENZeFdBUlE0WnRRSUV6UEl6bk9FU1NWQ2dZZnZuMTE1Q0VRR3ZvUE5LMVd5ZnpmX1VyZDE0R3dEV3hudXkzcG51OWZuajZEVzRrSTRMWmUwaC1NNkFsQTgxU1hTNnJfZjVRdGdqTDhfZFJuNndRSUNfek8xVE5uWEZlR25YUGVGSm1LOGh1TWdUaTYyVEp2RExnU3EwQks1MmNVdGRHMkVkMUlJ0gH6AUFVX3lxTFBkVFU1SXl3ektfNWluRHBhQTNIbG84UkdxMVV4WEVrRGNGMXh2NEp0WVRYOFhYd0ItclZEbjBfQnlIeXlXRi0zUlZjeTFrRnk5dklEck9QUmoweVpfc3pobllnbTFQal9Oc0YwYURxM3Fvdmp2ejdObUVZdldyck9ZQWFHWllmVjNnX0FUUlk4dS01MGFiN1RFWF83V3hFN2I5SjdOc3lmbWVlNjVlTkdTVDB1OF9XUVd6RzdxcjJXdmt0d0w0TjljaGF3VE5qVjVTWDBkaUFvQlZ5SDlCNjZ1NjhvUmMwQWcyUlNRVWd0cWhDZnZUZDRxVlE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Daily Pioneer",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBtakZGdU9yVXlfU2xNdkcxOVNtcWdKOFVDYlhPSGFMM2dLYXlQVWZoNkpiLVAtaXBOZDFZY3JmYUktRXp4NHBtcV83eEowd0gxUWNHcUVnLWxEZldGWEF1cHdvUUlvZVVZT2pSclp6RGhNTXFEcnB4T0trVER5UQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "indianexpress.com",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT0YwRkRmRVJVOEs0dlZuUVVrOEoxaFVTaW80UXotSHdZcldJOWZkaWo1SFFBaUtiSmxQZUV0ZnVKOUxJamtUOG16VVlyaTR3NFRnajE2TWpHdE83R1E3aEh4SVZUcXlkZTZ6ZFh0bGtrVGlZaW9jYktUNkRtdkp3RThhRzVSVlhyYktlcUJUY1hrSHNKdndacVFUWDBpT1Vk0gGnAUFVX3lxTE9UWmRhUDM0R0lOV3c3a2hoZFVqT3J3WFFLNVE0UVRicHFfajJKdHFqMGNOR0xnQWhUeFRYLU1QLV9BUHp3dGh0dnVHODh2aFRvdi1LVnBGZ1JnemhEMW1rbF9ETk0tMkJQOUlMclVSd2RFblhsNkQtVVZJbWdiTFl2UjRUQnNJX2FqOExLTzhpT1VQX090dTdIVzE5eFM2d3d5V1h3SURj?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Siliconindia",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQ1BrdEItZGNkejBmcDdmSE5UTU9CbVRybk5YQkFzQmRsOGM3MzZGbkRXVTBhWGxWd2l1cmc2d1pNM2dUaDF0NEFKaE96SmR1S2RyRHVQcTRmbnRJYUVOSXQ5MmdRb05SYVdIZi1fX3JwUUVZWTI4UnpscUxpVDE4LUVVOE1XdmNvNFNYTHdkOWlyelkya3RwM1ZHcjNkck1tMFUzV3ZGMnJrWnhDVmFwaGd6by1ZWXFBWktyWUlqZ1F6clFkaE5ySEJGOA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "PRESS Insider",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNHhpUkZFNF8wMWgwVGVGVUR5Mlg3d1ZiajBUeFl3MXpFd0NjYkRVYXVkdkxUMlh1TVpuaWFNaWc5c1RXRzdGQ1lQRDNQb01pRjA4Q0ZDemlqNTNUUU9GWDVGWFZXMjN3Y0EyMFZPZDRHRkdTT2tvblRVSFV3SFdwdWpzSUdtVUxBbDdRbw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Manorama Yearbook",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUmZoMHpOS0JjWjNQSkpXdEo1WFVkVkNRbkFKVXAydkhGWldncTJEazNEa194QTRhUkRHRU1TRlhGTmozRFdHTFRBOWNJZGY5RWZnTzRhNHlld25GbE10aDVsNGxfRGQydHRFZXo3RFlQVVVDMFl2Yk94cDdueTFuckhNRVlvcXRnVkNfOWlGcmtMb1Z4MGV3WW1RYk90dFZZ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOME14aWVYVXhNNTg2QWhKYVBGMFZSSVV2U1hEN2JHaHJlQ1lpTzVLeVBLVEFNU05JYU1wSlVCQi1iT2dIdU9laHhrdkxWWXAzREY1RXh5NlhsR01aU2w3aXYyOTZ1Sk5zTnlIOWZCcGZYd19qNi1YODJmbFhYeXVZMUpFc0lWZU9hV3dZMEtYcHpnV2hBODRGQ3NkVVFZWUFuZXNnVDlMZmhNQ2N5b0NxUURNWENMLTRld01taWt4YlZDekFkdklya3FZVk1ZMWhlYTJzY25Jek5HbGJzQVpCZ0FxZDgwUF9VNjRwRHdCUELSAfYBQVVfeXFMUGp4d0lpUEEtMXA0LWpUQXl0N0pMLVRRZmhWdVlKVHZnSmdlb2huRkVoQTQ5QVlsRUtrOUlSdzd4cmJHaERRZHo2VXN5MjFEUnJHWUNIMjBLWUVmbjM4bmp3NU9lbEZhMXNqeWNHNl8wYXVWeGozWEFVeHFoX0VLYnp5ZUhibFVieG1kVmt1czZrbUxyLTd0bzNsbWVZMFhOVU5Gem5NSnV6OWp3TUZRQjhPcEdBNWlLSGdQS01vaGplOXBYUURJSENBaUYwRjR3WDBId1dpeDdnbHhWQ3h3THRlNzVVUV9ZWThxZ3FrV1lydnVNTml3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "nasa-invites-indias-isro-to-join-moon-base-program",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "NASA invites India's ISRO to join Moon Base program",
+    "updates_url": "news/space/2026-08-11/#nasa-invites-indias-isro-to-join-moon-base-program"
+  },
+  {
+    "date": "2026-08-12",
     "event_id": "jd-vance-urged-ukraine-to-cease-strikes-on-russian-oil-tankers",
     "title": "JD Vance urged Ukraine to cease strikes on Russian oil tankers",
     "summary": "Ukraine suspended drone attacks on tankers using Russian ports following a request from the United States, including pressure from Vice President JD Vance.",
@@ -3911,6 +4284,44 @@
     "researched": false,
     "received_at": "2026-08-12T10:49:06.406952+00:00",
     "lineage_id": "shieldbreak-zero-day-proof-of-concept-bypasses-microsoft-defender-patch-with-system-access",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-12",
+    "event_id": "coin-sized-device-can-hack-boeing-737-autopilot-and-flight-systems",
+    "title": "Coin-sized device can hack Boeing 737 autopilot and flight systems",
+    "summary": "Security researchers demonstrated that a coin-sized device can be inserted into a Boeing 737 to redirect the autopilot or sabotage flight plans in under 60 seconds.",
+    "theme": "Security",
+    "importance": 8.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Boeing 737",
+      "autopilot",
+      "vulnerability",
+      "aviation security",
+      "cybersecurity"
+    ],
+    "url": "news/tech/2026-08-12/#coin-sized-device-can-hack-boeing-737-autopilot-and-flight-systems",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/this-coin-sized-device-can-hack-a-boeing-737/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-12T12:38:42.399107+00:00",
+    "lineage_id": "coin-sized-device-can-hack-boeing-737-autopilot-and-flight-systems",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
