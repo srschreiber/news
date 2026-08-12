@@ -104,7 +104,8 @@ WEB_FETCH_MAX_CONTENT_TOKENS = 1000     # per-page cap (~4000 chars). News inver
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
 STAGE1_GROUP_BATCH = 40                 # groups per LLM call — 40 × ~750 chars ≈ 30K chars, under 16K token limit
-MAX_STAGE1_GROUPS = 200                 # cap total groups sent to LLM; extras are low-outlet-count singleton stories
+MAX_STAGE1_GROUPS = 200                 # hard cap on total groups sent to LLM
+MIN_GROUPS_PER_TOPIC = 50               # each topic gets at least this many groups before global fill
 READ_MAX_TOKENS = 2000                  # Haiku read: just a factual extract
 STAGE2_MAX_TOKENS = 5000                # Sonnet polish: short dense summaries (batched)
 STAGE2_EFFORT = "low"                   # scoped writing task; low trims thinking cost
@@ -1155,7 +1156,23 @@ def stage1_cluster(
         groups_with_centroids.sort(
             key=lambda gc: len({m.get("source", "") for m in gc[0]}), reverse=True
         )
-        groups_with_centroids = groups_with_centroids[:MAX_STAGE1_GROUPS]
+        # Two-pass selection: guarantee MIN_GROUPS_PER_TOPIC for each topic
+        # (pass 1), then fill remaining slots up to MAX_STAGE1_GROUPS by
+        # outlet count (pass 2). A group covering multiple topics satisfies
+        # the minimum for all of them simultaneously.
+        selected: set[int] = set()
+        topic_counts: dict[str, int] = {}
+        for i, (grp, _) in enumerate(groups_with_centroids):
+            topics = {m.get("topic", "") for m in grp if m.get("topic")}
+            if any(topic_counts.get(t, 0) < MIN_GROUPS_PER_TOPIC for t in topics):
+                selected.add(i)
+                for t in topics:
+                    topic_counts[t] = topic_counts.get(t, 0) + 1
+        for i in range(len(groups_with_centroids)):
+            if len(selected) >= MAX_STAGE1_GROUPS:
+                break
+            selected.add(i)
+        groups_with_centroids = [groups_with_centroids[i] for i in sorted(selected)]
         groups = [g for g, _ in groups_with_centroids]
         centroid_by_gid = {f"g{i}": c for i, (_, c) in enumerate(groups_with_centroids)}
         raw_events: list[dict] = []
