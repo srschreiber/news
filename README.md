@@ -1,264 +1,76 @@
-# Sam's News — self-hosted daily tech-news briefings
+# Sam's News
 
-A GitHub Actions cron that turns RSS + Google News into a skimmable, searchable
-tech-news site — clustered, summarized, and cited by Claude — for **~$0.20/day**.
-No server, no database: everything (feeds, prompts, generated docs, run state,
-and per-run cost metrics) is a git file.
+A GitHub Actions cron that turns RSS feeds and Google searches into a daily skimmable news site — clustered, scored, and summarized by Claude. Runs for ~$0.10–0.20/day with no server or database; everything is a git file.
 
-**▶ Live demo:** https://srschreiber.github.io/news/
+**Live site:** https://srschreiber.github.io/news/
 
-> _If this is useful, a ⭐ on the repo is appreciated._
+## What it does
 
-<!-- Replace with a real screenshot of the site once deployed: -->
-<!-- ![Screenshot of the briefing site](docs/assets/screenshot.png) -->
+Each run (every 2 hours):
 
-**Contents:** [Why](#why) · [Features](#features) ·
-[How it works](#how-it-works) · [Cost](#cost) · [Layout](#layout) ·
-[Configure sources](#configure-sources) · [Run locally](#run-locally) ·
-[Deploy](#deploy-github) · [Cost controls](#cost-controls) · [Tests](#tests)
+1. **Fetches** RSS + runs per-topic Serper searches to catch stories RSS missed
+2. **Clusters** items by embedding similarity, then scores and titles each story with Haiku
+3. **Researches** high-importance stories: fetches source pages, extracts key facts
+4. **Writes** daily topic pages + updates weekly/monthly rollups
 
-## Why
+Stories that update across runs get merged (existing takeaways preserved, new facts added). Stories that continue across days are cross-linked.
 
-Reading a dozen feeds every morning is noise. This distills them into per-topic
-briefings with an importance meter, key-fact bullets, and real source
-citations — plus keyword search — so you skim one page instead of scrolling
-twenty.
+Feeds: **Technology** (tech, AI, security, research) · **World** · **Science** (health, space, diet) · **Environment** (climate, conservation)
 
-## Features
+## Stack
 
-- **Global cross-topic clustering** — a story spanning several topics is
-  de-duplicated into one event and researched **once**, then reused everywhere.
-- **Importance scoring** — each event gets a 1–5 🔥 meter; only important
-  stories get web research (configurable per topic).
-- **Cited sources** — every story links its real outlets with RSS/AI Web
-  Searched badges; summaries stay short, with skimmable key-fact bullets.
-  Depth is in the links.
-- **Search + archive + tags** — client-side keyword search with date/topic
-  filters, a full month-by-month archive, and auto-tagging.
-- **Cost-transparent** — a per-run cost + token breakdown is committed to
-  `metrics.json` every run.
-
-## How it works
-
-Everything runs through the Anthropic Messages API directly (no agent
-framework), plus two small external services for search and embeddings. A
-daily run walks four stages; all markdown is rendered deterministically in
-code afterward — the models return structured JSON, never free-form docs.
-
-### Models & providers
-
-| | Role |
+| | |
 |---|---|
-| `claude-haiku-4-5` | Clustering + scoring, research reads, story-relation classification |
-| `claude-sonnet-5` | Final polish — one batched call per run, prioritized for fact-fidelity over cost |
-| [Serper.dev](https://serper.dev) | Google News search ($1/1k queries) — research reads and the daily fallback search |
-| [Voyage AI](https://voyageai.com) | Text embeddings for story-update matching and clustering pregrouping — **required** for a daily run; clustering fails the job rather than degrading if unset/unreachable (see below) |
-
-### 1. Cluster & score
-
-Runs over that run's **new** RSS items only — hourly incremental runs never
-re-read items already clustered earlier today, which is what keeps them
-cheap. Items are pre-grouped by Voyage embedding similarity first (single
-pass, running-centroid average, threshold `CLUSTER_COS_THRESHOLD` —
-stricter than the story-update threshold since there's no Haiku backstop
-for this step): a group of near-duplicate headlines from different outlets
-collapses into one small payload (one representative title/summary + up to
-two `also_reported` headlines) instead of every raw item, which is what
-makes clustering itself cheap on high-volume days. One Haiku call then
-scores and titles each pre-formed group — it doesn't re-group, only
-describes and can flag `discard_from_group` if a headline the embedding
-pass lumped in clearly isn't the same event. The result is structured
-events: the same story surfacing under multiple feeds is merged into one,
-each with an importance score (1–5, judged against that feed's
-`scoring_context`), a theme, and keywords.
-
-If `VOYAGE_API_KEY` is unset or the embed call fails, `stage1_cluster`
-raises rather than falling back to the far more expensive send-every-raw-
-item-to-Haiku approach — a deliberate hard failure, not a bug. `run_daily`
-only advances `seen_links`/`source_last_ts` (marking RSS items processed)
-after a clean run, so a crash here leaves today's items untouched for the
-next scheduled run to retry once Voyage is back — no silent cost blowup,
-no silently dropped news, and a failed GitHub Actions run to flag it.
-
-### 2. Story updates & merging
-
-Before research, every new event is checked against today's already-published
-stories, in order:
-
-1. **Exact title match** — the same RSS item resurfacing; just merges in any
-   new source URLs.
-2. **Embedding similarity + Haiku classification** — Voyage embeds the
-   candidate title and compares it (cosine similarity) against stored events
-   in the same topic. Above a threshold, a cheap Haiku call classifies the
-   relationship: `duplicate`/`update` (merge), `follow_on` (a distinct but
-   caused-by event — an aftershock, a lawsuit filed over an incident — gets
-   its own story, cross-linked from the original via "See also" — shown
-   everywhere that story appears, including the home/feed/topic widgets, not
-   just its daily page), `related` (same subject, different event — no
-   link), or `new`. Requires
-   `VOYAGE_API_KEY`; if it's unset or the embed call fails, no match is
-   attempted for that event — it fails closed as a new story rather than
-   merging on unvalidated evidence.
-
-A same-day merge keeps the **original title and URL anchor** (so shared
-links never break) but refreshes importance/keywords immediately and queues
-the story for re-research — unlike brand-new events, an update is never
-budget-gated, since a story readers already trust deserves fresh takeaways,
-not stale ones under a bumped headline.
-
-**Updates can span days too**, without ever rewriting an already-published
-page. A rolling embedding cache (`embedding_cache.json`, last
-`CROSS_DAY_LOOKBACK_DAYS` days, not part of the public site) lets a new item
-match against a story from an earlier day the same way — but instead of
-mutating that page, a *new* event is created for today, backlinked to the
-earlier version ("Update to: ..."), so a reader can click back day by day.
-Among several qualifying candidates across days, the most recent one wins,
-so a multi-day chain always points to its immediately preceding link, never
-a scattered set of every earlier day it resembles. Every event also carries
-a `lineage_id`, inherited unchanged across every copy in a chain regardless
-of how much the title/event_id drift day to day — not used anywhere yet,
-but a stable key a future feature could group on to render a full story's
-timeline in one shot instead of walking `updates_url` links one page at a
-time.
-
-### 3. Read (research)
-
-For each selected event, Python — not the model — calls Serper and fetches
-the resulting pages directly (`urllib`, no LLM tool loop); known RSS source
-URLs are fetched first. One Haiku call then turns the pre-fetched page text
-into a dense factual extract, instructed to stay strictly on that one story
-(pages often mention unrelated products/events in passing) and to preserve
-exactly what a metric measures (a "response rate" is never compressed into a
-"success rate"). A topic that clusters zero events for the day gets one
-fallback Serper search before it's written up as quiet — some topics (slow-
-publishing academic feeds) miss real news that a live search catches.
-
-### 4. Polish
-
-One batched Sonnet call turns every event's extract into a final summary +
-key-fact bullets in a single pass, prioritizing fact-fidelity over the small
-per-run cost difference from Haiku. Never sees raw pages — only the
-extracts, so it can't reintroduce facts a researcher didn't find.
-
-## Cost
-
-A real-news-day run lands around **$0.05–0.20** depending on hourly volume,
-and the full breakdown is committed each run to `metrics.json`. Cluster and
-read stay on Haiku ($1/$5 per 1M); polish runs on Sonnet ($3/$15 per 1M) for
-better fact-fidelity, but only once per batched run. Serper.dev Google News
-search costs $1/1k queries (vs $10/1k for Anthropic's built-in search). Page
-reads are capped at 1000 tokens each — enough for a news article lede.
-
-## Layout
-
-Nav is intentionally minimal (Home · Words · Facts · Search) — the home page
-aggregates every feed/topic with its own filters, so there's rarely a reason
-to browse to a dedicated page. `feeds/*.md`, `topics/*.md`, and `archive.md`
-still build and are fully reachable by direct URL (a home-page share link,
-a bookmark, search) — they're just not offered as a nav tree to click
-through. See `not_in_nav` in `mkdocs.yml`.
-
-```
-sources.yaml            # feeds + Google News queries + research/editorial config
-prompts/                # cluster.md, read.md, write.md (edit freely)
-generate.py             # the pipeline (daily only)
-state.json              # last_run + recently-seen links (dedup across runs)
-metrics.json            # per-run cost + token breakdown (newest first)
-embedding_cache.json    # last N days' embeddings for cross-day story matching
-                        # (internal only — not part of the public site)
-docs/
-  index.md  archive.md  search.md  tags.md
-  feeds/<feed>.md  topics/<topic>.md   # not in the nav tree, still built
-  news/<topic>/YYYY-MM-DD.md
-  search-index.json     # per-event index for keyword search
-overrides/              # MkDocs Material theme tweaks
-mkdocs.yml
-.github/workflows/
-  pipeline.yml          # the cron: generate + publish (needs the API key)
-  publish.yml           # build + deploy the site from committed docs (no LLM)
-```
-
-## Configure sources
-
-Edit `sources.yaml`. Each source has a `name`, one of `url:` (direct RSS/Atom)
-or `query:` (Google News search — the URL is built for you), and a `topic:`
-(default `general`). Each topic gets its own daily file.
-
-```yaml
-# Turn web research off for niche/low-value topics to save cost:
-research:
-  default: true
-  topics:
-    golang: false
-    markets: false
-
-# Optional house-style instructions applied by the models (not find/replace):
-custom_instructions: |
-  Prefer plain language over hype.
-
-sources:
-  - name: The Verge
-    url: https://www.theverge.com/rss/index.xml
-    topic: general
-  - name: "Google News — gaming"
-    query: "gaming news"          # keep queries short — long AND-queries skew stale
-    topic: gaming
-```
+| Claude Haiku | Clustering, scoring, research reads |
+| Claude Sonnet | Final summaries (one batched call/run) |
+| [Voyage AI](https://voyageai.com) | Embeddings for story dedup + clustering pregrouping |
+| [Serper.dev](https://serper.dev) | Google search ($1/1k queries) |
+| MkDocs Material | Static site |
 
 ## Run locally
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-ant-...
-export SERPER_DEV_API_KEY=...       # serper.dev — Google News search
-export VOYAGE_API_KEY=...           # voyageai.com — embeddings for story-update
-                                     # matching and clustering pregrouping.
-                                     # Required: clustering raises rather
-                                     # than degrading if unset.
+export ANTHROPIC_API_KEY=...
+export SERPER_DEV_API_KEY=...
+export VOYAGE_API_KEY=...
 
-python generate.py --dry-run     # cluster + score, print top events (no research, no writes)
-python generate.py               # full daily run
-python generate.py --no-research # daily run with web research forced off
-mkdocs serve                     # preview the site at localhost:8000
+python generate.py --dry-run   # cluster + score only, no writes
+python generate.py             # full run
+mkdocs serve                   # preview at localhost:8000
 ```
 
-## Deploy (GitHub)
+## Deploy
 
-1. Push to a GitHub repo.
-2. Add repo secrets **`ANTHROPIC_API_KEY`**, **`SERPER_DEV_API_KEY`**, and
-   **`VOYAGE_API_KEY`** (all required).
-3. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-4. `pipeline.yml` runs hourly on cron and via **Run workflow**; it generates
-   docs and deploys. `publish.yml` re-deploys the site
-   on any docs/theme change **without an LLM run** — so UI tweaks cost nothing.
+1. Push to GitHub
+2. Add repo secrets: `ANTHROPIC_API_KEY`, `SERPER_DEV_API_KEY`, `VOYAGE_API_KEY`
+3. Settings → Pages → Source: **GitHub Actions**
 
-## Cost controls
+The pipeline runs on cron and commits results back to the repo. A separate `publish.yml` redeploys on docs/theme changes without an LLM run.
 
-All in `generate.py` constants, and every cap degrades gracefully (a hit
-never fails the run) — the one exception is `VOYAGE_API_KEY` itself, a hard
-dependency for `daily` mode by design (see [Cluster & score](#1-cluster--score)):
+## Configure
 
-- `MIN_RESEARCH_IMPORTANCE` — only research events at least this important.
-- `RESEARCH_BUDGET_PER_TOPIC` / `GLOBAL_SEARCH_SAFETY` — every research-enabled
-  subfeed gets its own guaranteed budget, plus a run-wide safety cap.
-- `WEB_FETCHES_PER_EVENT` — hard per-event page-fetch cap.
-- `WEB_FETCH_MAX_CONTENT_TOKENS` — per-page ingest cap (lands on cheap Haiku).
-- `MAX_ITEMS_PER_FEED`, `STAGE2_MAX_TOKENS`, `STAGE2_EFFORT` — input/output trims.
-- `MERGE_COS_THRESHOLD` — embedding similarity floor before a story-update
-  merge is even considered (then validated by a cheap Haiku call).
-- `CLUSTER_COS_THRESHOLD` — embedding similarity floor for pre-grouping raw
-  items before clustering; stricter than `MERGE_COS_THRESHOLD` since there's
-  no Haiku backstop for this step.
-- `CROSS_DAY_LOOKBACK_DAYS` — how many days back a story can still be linked
-  as an update before a new development just reads as new news.
+Edit `sources.yaml` to add/remove feeds and adjust per-topic research:
+
+```yaml
+research:
+  default: true
+  topics:
+    golang: false   # RSS-only, no web research
+
+sources:
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    topic: tech
+  - name: "Google News — AI"
+    query: "AI model release LLM"
+    topic: ai
+```
+
+Edit `prompts/` to change how stories are clustered, read, or written. Per-run cost breakdown is in `metrics.json`.
 
 ## Tests
 
 ```bash
-pip install -r requirements.txt
 pytest
 ```
-
-Covers the pure (no-network, no-API) logic: parsing, filtering, dedup/cap,
-clustering-payload trimming, rendering (meters, badges, takeaways), index/archive
-building, and state cutoff/pruning.
