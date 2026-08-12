@@ -1,6 +1,6 @@
 # Sam's News
 
-A GitHub Actions cron that turns RSS feeds and Google searches into a daily skimmable news site — clustered, scored, and summarized by Claude. Runs for ~$0.10–0.20/day with no server or database; everything is a git file.
+A GitHub Actions cron that turns RSS feeds and Google searches into a daily skimmable news site — clustered, scored, and summarized by Claude. No server or database; everything is a git file.
 
 **Live site:** https://srschreiber.github.io/news/
 
