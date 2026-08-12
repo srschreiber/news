@@ -2279,48 +2279,29 @@ def _dated_stems(directory: Path) -> list[str]:
     return sorted((p.stem for p in directory.glob("*.md")), reverse=True)
 
 
-_STORY_STOP = {
-    "the", "a", "an", "of", "to", "in", "on", "for", "and", "or", "with", "at",
-    "by", "from", "as", "is", "are", "be", "its", "it", "new", "will", "has",
-    "after", "over", "amid", "into", "launches", "launch", "released", "release",
-    "releases", "announces", "announced", "announcement", "unveils", "reveals",
-    "reports", "report", "says", "plans", "update", "updates", "news",
-}
 
-
-def _story_tokens(rec: dict) -> set[str]:
-    text = (rec.get("title", "") + " " + " ".join(rec.get("keywords", []))).lower()
-    return {t for t in re.findall(r"[a-z0-9]+", text) if len(t) > 1 and t not in _STORY_STOP}
-
-
-def _dedupe_cross_topic(ranked: list[dict], min_shared: int = 3, max_days: int = 3) -> list[dict]:
+def _dedupe_cross_topic(ranked: list[dict], emb_lookup: dict | None = None) -> list[dict]:
     """Collapse the same real-world story surfaced under multiple topics.
 
-    Two records are the same story if their significant title+keyword tokens
-    overlap by >= min_shared AND their dates are within max_days of each other.
-    The date guard prevents a wildfire story from week 1 from suppressing a
-    distinct wildfire story from week 4 in the monthly window.
+    Uses cosine similarity on cached embeddings when available. Two records are
+    considered the same story if their embeddings exceed MERGE_COS_THRESHOLD.
+    Records without embeddings in the cache are never collapsed.
     Input must be importance-sorted; the first (highest-importance) survivor is kept.
     """
-    kept, kept_tokens, kept_dates = [], [], []
+    kept, kept_embs = [], []
+    emb_lookup = emb_lookup or {}
     for r in ranked:
-        tks = _story_tokens(r)
-        try:
-            r_date = dt.date.fromisoformat(r.get("date", ""))
-        except ValueError:
-            r_date = None
+        emb = emb_lookup.get(r.get("event_id", ""))
         is_dup = False
-        for kt, kd in zip(kept_tokens, kept_dates):
-            if len(tks & kt) < min_shared:
-                continue
-            if r_date is None or kd is None or abs((r_date - kd).days) <= max_days:
-                is_dup = True
-                break
+        if emb:
+            for ke in kept_embs:
+                if ke and _cosine(emb, ke) >= MERGE_COS_THRESHOLD:
+                    is_dup = True
+                    break
         if is_dup:
             continue
         kept.append(r)
-        kept_tokens.append(tks)
-        kept_dates.append(r_date)
+        kept_embs.append(emb)
     return kept
 
 
@@ -2334,11 +2315,13 @@ def _period_lists(records: list[dict], weekly_days: int = 7, monthly_days: int =
     latest_d = dt.date.fromisoformat(latest)
     weekly_cutoff = (latest_d - dt.timedelta(days=weekly_days - 1)).isoformat()
     monthly_cutoff = (latest_d - dt.timedelta(days=monthly_days - 1)).isoformat()
+    emb_cache = load_embedding_cache(latest)
+    emb_lookup = {eid: v["embedding"] for eid, v in emb_cache.items() if v.get("embedding")}
 
     def _window(cutoff: str) -> list[dict]:
         ranked = sorted((r for r in records if r["date"] >= cutoff),
                         key=lambda r: r.get("importance", 0), reverse=True)
-        return _dedupe_cross_topic(ranked)
+        return _dedupe_cross_topic(ranked, emb_lookup)
 
     return {
         "daily": _window(latest),
