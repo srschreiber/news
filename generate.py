@@ -90,7 +90,8 @@ RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic),
                                         # every subfeed gets guaranteed research depth instead of
                                         # a few feed-wide "winners" starving the rest.
 MIN_RESEARCH_IMPORTANCE = 6             # only research events at least this important (1-10)
-MAX_RESEARCH_PER_RUN = 2               # cap total events researched per run (new + updates combined)
+MAX_RESEARCH_PER_RUN = 2               # cap truly-new events researched per run
+MAX_UPDATE_RESEARCH_PER_RUN = 3        # cap RSS-only lightweight reads for updated events per run
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
 WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
@@ -102,6 +103,8 @@ WEB_FETCH_MAX_CONTENT_TOKENS = 1000     # per-page cap (~4000 chars). News inver
                                         # means key facts are always first.
 MAX_SOURCES_PER_EVENT = 6               # distinct source links shown per event
 STAGE1_MAX_TOKENS = 16000               # one global clustering pass over all feeds
+STAGE1_GROUP_BATCH = 40                 # groups per LLM call — 40 × ~750 chars ≈ 30K chars, under 16K token limit
+MAX_STAGE1_GROUPS = 200                 # cap total groups sent to LLM; extras are low-outlet-count singleton stories
 READ_MAX_TOKENS = 2000                  # Haiku read: just a factual extract
 STAGE2_MAX_TOKENS = 5000                # Sonnet polish: short dense summaries (batched)
 STAGE2_EFFORT = "low"                   # scoped writing task; low trims thinking cost
@@ -831,6 +834,31 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
     return out
 
 
+def research_events_rss_only(updated: list[dict], date: str) -> list[dict]:
+    """Lightweight research for updated events: fetch only the RSS source URL (no
+    Serper), run Haiku extraction, and return the extract as a summary update.
+    No polish pass — keeps cost to one Haiku call per updated event."""
+    if not updated:
+        return []
+    for i, e in enumerate(updated):
+        e["ref"] = f"u{i}"
+
+    reads: list[dict] = []
+    with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
+        futs = {ex.submit(stage2a_read, e, date, True): e for e in updated}
+        for fut in as_completed(futs):
+            ev = futs[fut]
+            try:
+                r = fut.result()
+            except Exception as exc:
+                log(f"[{ev['ref']}] rss-only read failed: {exc}")
+                r = None
+            if r:
+                reads.append({"ref": ev["ref"], "summary": r["extract"],
+                              "sources": r.get("sources", [])})
+    return reads
+
+
 def front_matter(tags: Iterable[str]) -> str:
     uniq = sorted({t for t in tags if t})
     if not uniq:
@@ -1026,7 +1054,7 @@ def _embedding_cluster_items(items: list[dict]) -> list[list[dict]] | None:
     return [(c["items"], [round(x, 4) for x in c["centroid"]]) for c in clusters]
 
 
-def _cluster_groups_payload(groups: list[list[dict]]) -> list[dict]:
+def _cluster_groups_payload(groups: list[list[dict]], offset: int = 0) -> list[dict]:
     """Compact per-group payload for cluster_grouped.md: one representative
     (the richest summary) plus a couple of other outlets' headlines for
     context, rather than every member's full text."""
@@ -1035,7 +1063,7 @@ def _cluster_groups_payload(groups: list[list[dict]]) -> list[dict]:
         rep = max(members, key=lambda it: len(it.get("summary", "")))
         others = [m["title"] for m in members if m is not rep][:2]
         payload.append({
-            "group_id": f"g{i}",
+            "group_id": f"g{i + offset}",
             "title": rep.get("title", ""),
             "summary": rep.get("summary", ""),
             "also_reported": others,
@@ -1124,10 +1152,19 @@ def stage1_cluster(
                 "embed call failed) — refusing to fall back to raw-item "
                 "clustering. Fix Voyage and rerun; today's items are untouched."
             )
+        groups_with_centroids.sort(
+            key=lambda gc: len({m.get("source", "") for m in gc[0]}), reverse=True
+        )
+        groups_with_centroids = groups_with_centroids[:MAX_STAGE1_GROUPS]
         groups = [g for g, _ in groups_with_centroids]
         centroid_by_gid = {f"g{i}": c for i, (_, c) in enumerate(groups_with_centroids)}
-        payload = {"groups": _cluster_groups_payload(groups)}
-        raw_events = _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
+        raw_events: list[dict] = []
+        for batch_start in range(0, len(groups), STAGE1_GROUP_BATCH):
+            batch = groups[batch_start: batch_start + STAGE1_GROUP_BATCH]
+            payload = {"groups": _cluster_groups_payload(batch, offset=batch_start)}
+            raw_events.extend(
+                _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
+            )
         for ev in raw_events:
             gid = ev.get("group_id")
             if gid in centroid_by_gid:
@@ -1204,16 +1241,20 @@ def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]
     ]
 
 
-def stage2a_read(event: dict, date: str) -> dict | None:
-    """Stage 2a — deterministic fetch: Serper search + urllib page fetches, then one
-    Haiku call. No tool loop — each token is paid once. Returns {extract, sources}."""
-    # 1. Serper search (Python, no LLM cost)
-    try:
-        hits = _serper_search(event["title"], n=5)
-        METRICS.add_searches("(read)", 1)
-    except Exception as e:
-        log(f"serper failed ({event['title'][:40]}): {e}")
-        hits = []
+def stage2a_read(event: dict, date: str, rss_only: bool = False) -> dict | None:
+    """Stage 2a — deterministic fetch + Haiku extraction. No tool loop.
+
+    rss_only=True: skip Serper, fetch only the event's existing RSS source URL(s).
+    Used for updates — we already have context; just check for new facts in the
+    article that was linked by the new RSS item."""
+    # 1. Serper search (skipped for updates)
+    hits: list[dict] = []
+    if not rss_only:
+        try:
+            hits = _serper_search(event["title"], n=5)
+            METRICS.add_searches("(read)", 1)
+        except Exception as e:
+            log(f"serper failed ({event['title'][:40]}): {e}")
 
     # 2. Collect URLs: prefer RSS source first, fill slots with Serper results
     rss_urls = [u for s in event.get("sources", [])
@@ -1589,7 +1630,7 @@ def _load_fallback_tried(state: dict, date: str) -> set[str]:
     return set(topics) if isinstance(topics, list) else set()
 
 
-_VOYAGE_BATCH = 128  # voyage-4-large hard limit per request
+_VOYAGE_BATCH = 32   # free tier: ~250 tokens/text × 32 = ~8K tokens/chunk (limit 10K TPM)
 
 
 def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
@@ -1608,7 +1649,7 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
         if i > 0:
             time.sleep(3)  # proactive pause between chunks to stay under Voyage TPM limits
         chunk = texts[i: i + _VOYAGE_BATCH]
-        for attempt in range(6):
+        for attempt in range(8):
             try:
                 data = json.dumps({"input": chunk, "model": VOYAGE_MODEL}).encode()
                 req = urllib.request.Request(
@@ -1628,9 +1669,12 @@ def _voyage_embed(texts: list[str]) -> list[list[float]] | None:
                 out.extend(vecs)
                 break
             except urllib.error.HTTPError as e:
-                if e.code == 429 and attempt < 5:
-                    # Voyage docs recommend exponential backoff with jitter; no Retry-After header.
-                    wait = 2 ** (attempt + 2) + random.uniform(0, 1)
+                if e.code == 429 and attempt < 7:
+                    ra = e.headers.get("Retry-After", "")
+                    try:
+                        wait = max(1.0, float(ra)) + random.uniform(0, 2)
+                    except (ValueError, TypeError):
+                        wait = 2 ** (attempt + 2) + random.uniform(0, 1)
                     log(f"voyage embed 429 (chunk {i//_VOYAGE_BATCH}), retrying in {wait:.1f}s")
                     time.sleep(wait)
                     continue
@@ -1738,7 +1782,7 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
             for e, v in zip(need_embed, vecs):
                 e["_embedding"] = v
 
-    emb_by_id = {e["event_id"]: e["_embedding"] for e in all_events if e.get("_embedding")}
+    emb_by_id = {e["event_id"]: e["_embedding"] for e in all_events if e.get("_embedding") and e.get("event_id")}
     cache = load_embedding_cache(date)
     for r in load_search_index():
         if r["date"] != date:
@@ -2854,15 +2898,21 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             record_metrics("daily", run_start, refresh=True)
             return
 
-    # truly_new competes for the feed's per-topic research budget; updated
-    # events get re-researched only when there are also new events this run —
-    # on a 15-min cadence, re-researching updates alone on every tick is
-    # expensive and rarely adds value (the existing research is still fresh).
+    # Truly-new events: full Serper + web-fetch + Haiku read + Haiku polish.
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
     selected = selected[:MAX_RESEARCH_PER_RUN]
     log(f"researching {len(selected)} new events")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
+
+    # Updated events: RSS-only (no Serper, no polish) — just read the linked
+    # article to pick up new facts and update summary/takeaways cheaply.
+    update_candidates = [e for e in updated if not no_research]
+    update_candidates = update_candidates[:MAX_UPDATE_RESEARCH_PER_RUN]
+    if update_candidates:
+        log(f"rss-only research for {len(update_candidates)} updated event(s)")
+        update_reads = research_events_rss_only(update_candidates, date)
+        all_events = merge_enrichment(all_events, update_reads)
 
     # Per-topic docs: write all topics to docs/news/. A topic with zero RSS
     # events gets ONE Serper-backed fallback search per day (not no_research,
