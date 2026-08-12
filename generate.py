@@ -89,7 +89,8 @@ EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic), not per feed —
                                         # every subfeed gets guaranteed research depth instead of
                                         # a few feed-wide "winners" starving the rest.
-MIN_RESEARCH_IMPORTANCE = 6             # only research events at least this important (1-10)
+MIN_RESEARCH_IMPORTANCE = 7             # full Serper+web research threshold (1-10)
+MIN_RSS_IMPORTANCE = 5                  # RSS-only read threshold for lower-importance new events
 MAX_RESEARCH_PER_RUN = 2               # cap truly-new events researched per run
 MAX_UPDATE_RESEARCH_PER_RUN = 3        # cap RSS-only lightweight reads for updated events per run
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
@@ -688,8 +689,13 @@ def merge_enrichment(events: list[dict], enriched: list[dict]) -> list[dict]:
         e = dict(ev)
         hit = by_ref.get(ev.get("ref"))
         if hit:
-            e["one_liner"] = (hit.get("summary") or e.get("one_liner", "")).strip()
-            e["takeaways"] = [t.strip() for t in hit.get("takeaways", []) if t.strip()]
+            new_ol = (hit.get("summary") or "").strip()
+            if new_ol:
+                e["one_liner"] = new_ol
+            # Only overwrite takeaways if the hit explicitly includes them — full
+            # research always does; RSS-only reads don't, so existing research is kept.
+            if "takeaways" in hit:
+                e["takeaways"] = [t.strip() for t in hit["takeaways"] if t.strip()]
             # Web pages the model actually read are the most useful links, so
             # list them first; then RSS outlets. Dedupe by outlet/label.
             # Cap research sources to what it could actually have fetched — the
@@ -2923,13 +2929,27 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     all_events = merge_enrichment(all_events, enriched)
 
     # Updated events: RSS-only (no Serper, no polish) — just read the linked
-    # article to pick up new facts and update summary/takeaways cheaply.
+    # article to pick up new facts. Existing takeaways are preserved by
+    # merge_enrichment since RSS-only reads don't include a "takeaways" key.
     update_candidates = [e for e in updated if not no_research]
     update_candidates = update_candidates[:MAX_UPDATE_RESEARCH_PER_RUN]
     if update_candidates:
         log(f"rss-only research for {len(update_candidates)} updated event(s)")
         update_reads = research_events_rss_only(update_candidates, date)
         all_events = merge_enrichment(all_events, update_reads)
+
+    # Lower-importance new events (MIN_RSS_IMPORTANCE ≤ importance < MIN_RESEARCH_IMPORTANCE):
+    # RSS-only read for key findings — no Serper cost, just one page fetch per event.
+    selected_ids = {id(e) for e in selected}
+    rss_new = [e for e in truly_new
+               if id(e) not in selected_ids
+               and not no_research
+               and (e.get("importance") or 0) >= MIN_RSS_IMPORTANCE]
+    rss_new = rss_new[:MAX_UPDATE_RESEARCH_PER_RUN]
+    if rss_new:
+        log(f"rss-only research for {len(rss_new)} lower-importance new event(s)")
+        rss_new_reads = research_events_rss_only(rss_new, date)
+        all_events = merge_enrichment(all_events, rss_new_reads)
 
     # Per-topic docs: write all topics to docs/news/. A topic with zero RSS
     # events gets ONE Serper-backed fallback search per day (not no_research,
