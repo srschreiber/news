@@ -863,6 +863,8 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
         if data is None:
             continue
         payload, prompt, schema = data
+        if not payload["pages"] and not payload.get("search_results"):
+            continue  # nothing readable fetched — keep RSS one_liner as-is
         batch_reqs.append({
             "custom_id": e["ref"],
             "params": {
@@ -1387,6 +1389,13 @@ def _clean_url(url: str) -> str | None:
     return clean if len(clean) <= _MAX_URL_LEN else None
 
 
+def _is_readable(content: str, min_words: int = 50) -> bool:
+    """True if content looks like prose — enough alphabetic words to be an article,
+    not a JS bundle, minified code, or empty shell."""
+    words = [w for w in content.split() if len(w) >= 3 and w.isalpha()]
+    return len(words) >= min_words
+
+
 def _fetch_page_text(url: str) -> str:
     """Fetch a URL and return stripped plain text, capped at WEB_FETCH_MAX_CONTENT_TOKENS tokens."""
     try:
@@ -1471,6 +1480,11 @@ def _stage2a_fetch(
                     pages.append({"url": url, "content": text})
                     fetched.add(url)
 
+    # Drop pages that are JS bundles, minified code, or empty shells — Haiku
+    # given non-prose generates takeaways by rephrasing the one_liner, which
+    # is worse than leaving the event with its original RSS summary.
+    pages = [p for p in pages if _is_readable(p["content"])]
+
     payload: dict = {
         "date": date,
         "event": {
@@ -1505,6 +1519,8 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False,
     article content is thin (<1500 chars), saving the API call when the source
     already contains the full story."""
     payload, prompt, schema = _stage2a_fetch(event, date, rss_only, existing_context)
+    if not payload["pages"] and not payload.get("search_results"):
+        return None  # nothing readable fetched — keep RSS one_liner as-is
     client = _client()
     try:
         resp = client.messages.create(
@@ -2122,6 +2138,7 @@ def update_embedding_cache(all_events: list[dict], date: str) -> None:
             "embedding": emb,
             "title": r["title"],
             "one_liner": r.get("summary", ""),
+            "takeaways": r.get("takeaways", []),
             "topics": r.get("topics", []),
             "date": date,
             "md_url": _index_url_to_md(r["url"]),  # for the markdown-rendered daily doc
@@ -2283,6 +2300,14 @@ def _merge_new_events(
                     # event_id) so every link in a multi-day chain shares one
                     # lineage_id, however titles drift along the way.
                     ev["lineage_id"] = best.get("lineage_id") or best_cid
+                    # Seed with previous day's context so read_update.md can
+                    # merge "what we knew" with today's new article — without
+                    # this, the updated event generates takeaways from scratch
+                    # with no awareness of earlier coverage.
+                    if not ev.get("one_liner") and best.get("one_liner"):
+                        ev["one_liner"] = best["one_liner"]
+                    if not ev.get("takeaways") and best.get("takeaways"):
+                        ev["takeaways"] = list(best["takeaways"])
                     eid = ev["event_id"]
                     by_id[eid] = ev
                     updated.append(ev)  # always re-researched, like a same-day update
@@ -3221,8 +3246,10 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     # Updated events: RSS-only (no Serper, no polish) — just read the linked
     # article to pick up new facts. Existing takeaways are preserved by
     # merge_enrichment since RSS-only reads don't include a "takeaways" key.
-    update_candidates = [e for e in updated if not no_research]
-    update_candidates = update_candidates[:MAX_UPDATE_RESEARCH_PER_RUN]
+    update_candidates = sorted(
+        [e for e in updated if not no_research],
+        key=lambda e: e.get("importance", 0), reverse=True,
+    )[:MAX_UPDATE_RESEARCH_PER_RUN]
     if update_candidates:
         log(f"rss-only research for {len(update_candidates)} updated event(s)")
         update_reads = research_events_rss_only(update_candidates, date)
