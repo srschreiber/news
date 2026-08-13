@@ -74,12 +74,13 @@ VOYAGE_MODEL = "voyage-4-large"          # story-update matching embeddings. Bes
                                         # accuracy here, where a false merge is the real risk.
 CROSS_DAY_LOOKBACK_DAYS = 5              # how far back a story can still be "updated" —
                                         # beyond this, a new development reads as new news
-MERGE_COS_THRESHOLD = 0.86               # embedding similarity floor before even asking
-                                        # Haiku to validate a same-story merge candidate
-CLUSTER_COS_THRESHOLD = 0.90            # stricter than MERGE_COS_THRESHOLD: no Haiku
-                                        # backstop here, so precision matters more than
-                                        # recall — under-clustering just costs a few more
-                                        # tokens, over-clustering silently mixes two stories
+SAME_DAY_COS_THRESHOLD = 0.86           # same-day event-vs-stored-event similarity floor;
+                                        # Haiku validates every hit, so 0.86 is safe
+CROSS_DAY_COS_THRESHOLD = 0.82         # cross-day continuation linking; titles drift as
+                                        # a story develops so needs a looser floor
+PREGROUP_COS_THRESHOLD = 0.87          # Voyage raw-item bucketing before Haiku sees groups;
+                                        # Haiku merge_with catches near-misses so can be
+                                        # slightly looser than the old 0.90
 
 LOOKBACK_HOURS = 24                     # first-run fallback window
 MAX_ITEMS_PER_FEED = 60                 # cap noisy feeds before Stage 1 — high headroom is cheap
@@ -190,10 +191,16 @@ GROUPED_EVENTS_SCHEMA = {
                         "description": "also_reported headlines that don't actually "
                                        "belong to this event.",
                     },
+                    "merge_with": {
+                        "type": "string",
+                        "description": "If this group is the same real-world event as "
+                                       "another group in this batch, set to that group's "
+                                       "group_id. Empty string otherwise.",
+                    },
                 },
                 "required": [
                     "group_id", "title", "one_liner", "importance", "theme", "keywords",
-                    "discard_from_group",
+                    "discard_from_group", "merge_with",
                 ],
                 "additionalProperties": False,
             },
@@ -830,29 +837,61 @@ def select_research(
 
 
 def research_events(selected: list[dict], date: str) -> list[dict]:
-    """Two-stage research: HAIKU reads each selected event in parallel (its own
-    call -> hard per-event search cap), then SONNET polishes all extracts in one
-    batched call. Returns enrichment ({ref, summary, sources}) for merge."""
+    """Two-stage research: fetch web content in parallel, then batch-submit all
+    Haiku read calls via Batch API (50% cost vs synchronous), then SONNET
+    polishes all extracts in one call. Returns enrichment for merge."""
     if not selected:
         return []
     for i, e in enumerate(selected):
         e["ref"] = f"e{i}"
 
-    # Stage 2a — Haiku reads pages (parallel).
-    reads: list[dict] = []
+    # Phase 1 — fetch all web content in parallel (I/O bound, keep threaded).
+    fetched: dict[str, tuple] = {}  # ref -> (payload, prompt, schema)
     with ThreadPoolExecutor(max_workers=MAX_TOPIC_CONCURRENCY) as ex:
-        futs = {ex.submit(stage2a_read, e, date): e for e in selected}
+        futs = {ex.submit(_stage2a_fetch, e, date): e for e in selected}
         for fut in as_completed(futs):
             ev = futs[fut]
             try:
-                r = fut.result()
-            except Exception as exc:  # a failed read just keeps its RSS summary
-                log(f"[{ev['ref']}] read failed: {exc}")
-                r = None
-            if r:
-                reads.append({"ref": ev["ref"], "title": ev["title"],
-                              "one_liner": ev.get("one_liner", ""),
-                              "extract": r["extract"], "sources": r.get("sources", [])})
+                fetched[ev["ref"]] = fut.result()
+            except Exception as exc:
+                log(f"[{ev['ref']}] fetch failed: {exc}")
+
+    # Phase 2 — batch all Haiku read calls.
+    batch_reqs = []
+    for e in selected:
+        data = fetched.get(e["ref"])
+        if data is None:
+            continue
+        payload, prompt, schema = data
+        batch_reqs.append({
+            "custom_id": e["ref"],
+            "params": {
+                "model": READ_MODEL,
+                "max_tokens": READ_MAX_TOKENS,
+                "output_config": {"format": {"type": "json_schema", "schema": schema}},
+                "system": _sys(prompt),
+                "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+            },
+        })
+    batch_results = _batch_call_claude(batch_reqs, "(read)", READ_MODEL)
+
+    reads: list[dict] = []
+    for e in selected:
+        msg = batch_results.get(e["ref"])
+        if msg is None:
+            continue
+        try:
+            obj = json.loads(_text_of(msg))
+            if not (obj.get("extract") or "").strip():
+                continue
+            reads.append({
+                "ref": e["ref"], "title": e["title"],
+                "one_liner": e.get("one_liner", ""),
+                "extract": obj["extract"],
+                "sources": obj.get("sources", []),
+            })
+        except json.JSONDecodeError:
+            pass
 
     # Stage 2b — polish all extracts (only truly-new events reach here).
     polished = stage2b_polish(reads, date)
@@ -1037,6 +1076,53 @@ def _client():
     return _CLIENT
 
 
+def _batch_call_claude(
+    requests: list[dict],
+    label: str,
+    model: str,
+    poll_interval: int = 15,
+    timeout: int = 3600,
+) -> dict:
+    """Submit requests to Anthropic Message Batches API, poll until done.
+
+    Each request: {"custom_id": str, "params": {model, max_tokens, ...}}.
+    Returns {custom_id: Message} for all succeeded results; empty dict on
+    submission failure so callers can degrade gracefully. Metrics are
+    accumulated per result inside this function."""
+    if not requests:
+        return {}
+    client = _client()
+    try:
+        batch = client.messages.batches.create(requests=requests)
+    except Exception as e:
+        log(f"batch submit failed [{label}]: {e}")
+        return {}
+    log(f"batch {batch.id} submitted: {len(requests)} req(s) [{label}]")
+    elapsed = 0
+    while batch.processing_status != "ended":
+        if elapsed >= timeout:
+            log(f"batch {batch.id} timed out after {elapsed}s [{label}]")
+            return {}
+        time.sleep(poll_interval)
+        elapsed += poll_interval
+        try:
+            batch = client.messages.batches.retrieve(batch.id)
+        except Exception as e:
+            log(f"batch retrieve failed [{label}]: {e} — retrying")
+            continue
+        log(f"batch {batch.id}: {batch.processing_status} (+{poll_interval}s, {elapsed}s elapsed)")
+    results: dict = {}
+    for result in client.messages.batches.results(batch.id):
+        if result.result.type == "succeeded":
+            msg = result.result.message
+            METRICS.add(label, model, msg.usage)
+            results[result.custom_id] = msg
+        else:
+            log(f"batch {batch.id} req {result.custom_id} failed: {result.result.type}")
+    log(f"batch {batch.id} done: {len(results)}/{len(requests)} succeeded [{label}]")
+    return results
+
+
 def _sys(prompt_name: str, extra: str = "") -> list[dict]:
     text = (PROMPTS_DIR / prompt_name).read_text()
     ci = load_custom_instructions()
@@ -1079,7 +1165,7 @@ def _embedding_cluster_items(items: list[dict]) -> list[list[dict]] | None:
     a requirement for the pipeline to run.
 
     Single pass, each item joins the most-similar existing cluster above
-    CLUSTER_COS_THRESHOLD or starts a new one; a joined cluster's centroid is
+    PREGROUP_COS_THRESHOLD or starts a new one; a joined cluster's centroid is
     the running average of its members, so it stays representative as it
     grows rather than anchored to whichever item arrived first."""
     if not items:
@@ -1096,7 +1182,7 @@ def _embedding_cluster_items(items: list[dict]) -> list[list[dict]] | None:
             score = _cosine(emb, c["centroid"])
             if score > best_score:
                 best, best_score = c, score
-        if best is not None and best_score >= CLUSTER_COS_THRESHOLD:
+        if best is not None and best_score >= PREGROUP_COS_THRESHOLD:
             best["items"].append(it)
             n = len(best["items"])
             best["centroid"] = [(cv * (n - 1) + ev) / n for cv, ev in zip(best["centroid"], emb)]
@@ -1130,15 +1216,32 @@ def _ungroup_events(events: list[dict], groups: list[list[dict]]) -> list[dict]:
     group_id key used only to key the response. Honors discard_from_group —
     Haiku's chance to flag an also_reported headline that doesn't actually
     belong, since the embedding grouping has no other validation backstop.
+    Honors merge_with — Haiku's chance to collapse two groups that are the
+    same event (different angle/outlet) but fell below PREGROUP_COS_THRESHOLD.
     If discarding would empty the group, keeps the original membership
     instead — an empty, sourceless event is worse than an occasional
     mis-grouped citation."""
     members_by_gid = {f"g{i}": members for i, members in enumerate(groups)}
+
+    # First pass: collect merge targets so secondary groups can be skipped.
+    # merge_with on group A -> "gB" means A's sources get absorbed into B, A discarded.
+    extra_members: dict[str, list] = {}  # gid -> additional members to absorb
+    merged_away: set[str] = set()
+    for e in events:
+        target = (e.get("merge_with") or "").strip()
+        gid = e.get("group_id", "")
+        if target and target != gid:
+            extra_members.setdefault(target, []).extend(members_by_gid.get(gid, []))
+            merged_away.add(gid)
+
     out = []
     for e in events:
         e = dict(e)
         gid = e.pop("group_id", None)
-        members = members_by_gid.get(gid, [])
+        e.pop("merge_with", None)
+        if gid in merged_away:
+            continue
+        members = members_by_gid.get(gid, []) + extra_members.get(gid, [])
         discard = set(e.pop("discard_from_group", []) or [])
         kept = [it for it in members if it.get("title") not in discard] or members
         e["source_item_ids"] = [it["id"] for it in kept]
@@ -1226,12 +1329,34 @@ def stage1_cluster(
         groups = [g for g, _ in groups_with_centroids]
         centroid_by_gid = {f"g{i}": c for i, (_, c) in enumerate(groups_with_centroids)}
         raw_events: list[dict] = []
+        sys_blocks = _sys("cluster_grouped.md", extra=_feed_scoring_context(feeds))
+        stage1_reqs = []
         for batch_start in range(0, len(groups), STAGE1_GROUP_BATCH):
-            batch = groups[batch_start: batch_start + STAGE1_GROUP_BATCH]
-            payload = {"groups": _cluster_groups_payload(batch, offset=batch_start)}
-            raw_events.extend(
-                _call_stage1(payload, "cluster_grouped.md", GROUPED_EVENTS_SCHEMA, feeds, label)
-            )
+            batch_groups = groups[batch_start: batch_start + STAGE1_GROUP_BATCH]
+            payload = {"groups": _cluster_groups_payload(batch_groups, offset=batch_start)}
+            stage1_reqs.append({
+                "custom_id": f"s1-{batch_start}",
+                "params": {
+                    "model": CLUSTER_MODEL,
+                    "max_tokens": STAGE1_MAX_TOKENS,
+                    "system": sys_blocks,
+                    "messages": [{"role": "user", "content": json.dumps(payload, ensure_ascii=False)}],
+                    "output_config": {"format": {"type": "json_schema", "schema": GROUPED_EVENTS_SCHEMA}},
+                },
+            })
+        batch_results = _batch_call_claude(stage1_reqs, label, CLUSTER_MODEL)
+        for req in stage1_reqs:
+            msg = batch_results.get(req["custom_id"])
+            if msg is None:
+                log(f"stage 1 batch req {req['custom_id']} missing — skipping")
+                continue
+            try:
+                events = json.loads(_text_of(msg)).get("events", [])
+                if not events:
+                    log(f"stage 1 batch req {req['custom_id']} returned no events")
+                raw_events.extend(events)
+            except json.JSONDecodeError as e:
+                log(f"stage 1 batch req {req['custom_id']} JSON parse failed: {e}")
         for ev in raw_events:
             gid = ev.get("group_id")
             if gid in centroid_by_gid:
@@ -1308,18 +1433,13 @@ def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]
     ]
 
 
-def stage2a_read(event: dict, date: str, rss_only: bool = False,
-                 existing_context: dict | None = None) -> dict | None:
-    """Stage 2a — deterministic fetch + Haiku extraction. No tool loop.
-
-    rss_only=True: skip Serper, fetch only one RSS source URL.
-    existing_context={summary, takeaways}: use the update prompt — Haiku merges
-    existing research with new article content (updates outdated findings, adds
-    new ones). Fetches the *last* source URL (newest article for updated events).
-
-    Full research path: fetches the RSS article first; only calls Serper if the
-    article content is thin (<1500 chars), saving the API call when the source
-    already contains the full story."""
+def _stage2a_fetch(
+    event: dict, date: str, rss_only: bool = False,
+    existing_context: dict | None = None,
+) -> tuple[dict, str, dict]:
+    """Fetch web content for one event and return (payload, prompt_name, schema)
+    ready for a Haiku call. Shared by the sync stage2a_read path and the batch
+    path in research_events."""
     is_update = existing_context is not None
     rss_urls = [u for s in event.get("sources", [])
                 if (u := _clean_url(s.get("url", ""))) is not None]
@@ -1327,26 +1447,22 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False,
     pages: list[dict] = []
 
     if rss_only:
-        # No Serper — fetch the single relevant RSS URL
         rss_pick = rss_urls[-1:] if is_update else rss_urls[:1]
         for url in rss_pick:
             text = _fetch_page_text(url)
             if text:
                 pages.append({"url": url, "content": text})
     else:
-        # Full research: try RSS article first; only Serper if content is thin
         if rss_urls:
             text = _fetch_page_text(rss_urls[0])
             if text:
                 pages.append({"url": rss_urls[0], "content": text})
-
         if sum(len(p["content"]) for p in pages) < 1500:
             try:
                 hits = _serper_search(event["title"], n=5)
                 METRICS.add_searches("(read)", 1)
             except Exception as e:
                 log(f"serper failed ({event['title'][:40]}): {e}")
-
         fetched = {p["url"] for p in pages}
         for url in (u for h in hits if (u := _clean_url(h["url"])) is not None):
             if url not in fetched and len(pages) < WEB_FETCHES_PER_EVENT:
@@ -1355,8 +1471,6 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False,
                     pages.append({"url": url, "content": text})
                     fetched.add(url)
 
-    # 4. One-shot extraction — single Haiku call, no tools
-    is_update = existing_context is not None
     payload: dict = {
         "date": date,
         "event": {
@@ -1375,6 +1489,22 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False,
         ]
     schema = READ_UPDATE_SCHEMA if is_update else READ_SCHEMA
     prompt = "read_update.md" if is_update else "read.md"
+    return payload, prompt, schema
+
+
+def stage2a_read(event: dict, date: str, rss_only: bool = False,
+                 existing_context: dict | None = None) -> dict | None:
+    """Stage 2a — deterministic fetch + Haiku extraction. No tool loop.
+
+    rss_only=True: skip Serper, fetch only one RSS source URL.
+    existing_context={summary, takeaways}: use the update prompt — Haiku merges
+    existing research with new article content (updates outdated findings, adds
+    new ones). Fetches the *last* source URL (newest article for updated events).
+
+    Full research path: fetches the RSS article first; only calls Serper if the
+    article content is thin (<1500 chars), saving the API call when the source
+    already contains the full story."""
+    payload, prompt, schema = _stage2a_fetch(event, date, rss_only, existing_context)
     client = _client()
     try:
         resp = client.messages.create(
@@ -1829,10 +1959,80 @@ def _cosine(a: list[float], b: list[float]) -> float:
 
 def _embed_text(ev: dict) -> str:
     """Text representation of an event for embedding/matching. Uses the richest
-    available description: researched summary > one_liner > title only."""
+    available content: takeaways (post-research) > summary > one_liner > title only.
+    Pre-research calls get title+one_liner; post-research calls get the full
+    extracted content, which is what ends up in the embedding cache."""
     title = ev.get("title", "").strip()
-    body = (ev.get("summary") or ev.get("one_liner") or "").strip()
-    return f"{title} {body}".strip()
+    summary = (ev.get("summary") or ev.get("one_liner") or "").strip()
+    takeaways = " ".join(t for t in (ev.get("takeaways") or []) if t).strip()
+    return " ".join(filter(None, [title, summary, takeaways])).strip()
+
+
+def _refresh_embeddings(events: list[dict]) -> None:
+    """Re-embed events on their current richest content, overwriting any
+    pre-research embedding. Called after stage 2 so the cache stores
+    takeaways-based vectors, not raw RSS title+one_liner centroids."""
+    if not events:
+        return
+    vecs = _voyage_embed([_embed_text(e) for e in events])
+    if vecs and len(vecs) == len(events):
+        for e, v in zip(events, vecs):
+            e["_embedding"] = v
+
+
+def _cross_topic_dedup(all_events: list[dict]) -> list[dict]:
+    """Merge events from different topics that are the same real-world story.
+    Uses post-research embeddings so content-level similarity (shared findings,
+    numbers, entities) drives matching — not just headline wording.
+    Events sharing a topic are already handled by same-topic daily dedup."""
+    if len(all_events) < 2:
+        return all_events
+
+    merged_away: set[int] = set()  # python id()s of events absorbed into another
+
+    embedded = [(e, e["_embedding"]) for e in all_events if e.get("_embedding")]
+    for i, (ev_a, emb_a) in enumerate(embedded):
+        if id(ev_a) in merged_away:
+            continue
+        topics_a = set(ev_a.get("topics", []))
+        for j in range(i + 1, len(embedded)):
+            ev_b, emb_b = embedded[j]
+            if id(ev_b) in merged_away:
+                continue
+            topics_b = set(ev_b.get("topics", []))
+            if topics_a & topics_b:
+                continue  # share a topic — already deduped by same-topic pass
+            if _cosine(emb_a, emb_b) < SAME_DAY_COS_THRESHOLD:
+                continue
+            relation = _classify_relation(_embed_text(ev_a), _embed_text(ev_b))
+            if relation not in _MERGE_RELATIONS:
+                continue
+            # Keep higher-importance event as primary; absorb the other.
+            primary, secondary = (
+                (ev_a, ev_b) if ev_a.get("importance", 0) >= ev_b.get("importance", 0)
+                else (ev_b, ev_a)
+            )
+            primary["topics"] = sorted(topics_a | topics_b)
+            primary["feeds"] = sorted(
+                set(primary.get("feeds", [])) | set(secondary.get("feeds", []))
+            )
+            existing_urls = {s.get("url") for s in primary.get("sources", [])}
+            for src in secondary.get("sources", []):
+                if src.get("url") not in existing_urls:
+                    primary.setdefault("sources", []).append(src)
+                    existing_urls.add(src.get("url"))
+            primary["keywords"] = sorted(
+                set(primary.get("keywords", [])) | set(secondary.get("keywords", []))
+            )
+            existing_tks = set(primary.get("takeaways", []))
+            for tk in secondary.get("takeaways", []):
+                if tk not in existing_tks:
+                    primary.setdefault("takeaways", []).append(tk)
+                    existing_tks.add(tk)
+            merged_away.add(id(secondary))
+            log(f"cross-topic merge: '{secondary['title'][:50]}' → '{primary['title'][:50]}'")
+
+    return [e for e in all_events if id(e) not in merged_away]
 
 
 def _classify_relation(text_a: str, text_b: str) -> str:
@@ -1941,7 +2141,7 @@ def _merge_new_events(
     1. **Exact title match** (same slugified title): just merges in new source
        URLs — the common case when the same RSS item resurfaces.
     2. **Embedding similarity + Haiku validation** (same topic, cosine sim >=
-       MERGE_COS_THRESHOLD, then a cheap same-story check): catches a story
+       SAME_DAY_COS_THRESHOLD, then a cheap same-story check): catches a story
        that evolved with a very different headline (e.g. "Colombia quake
        kills 111" -> "South American disaster toll climbs") — semantically
        the same event with near-zero shared words. Requires VOYAGE_API_KEY;
@@ -2029,7 +2229,7 @@ def _merge_new_events(
                 score = _cosine(ev["_embedding"], stored_vec)
                 if score > best_score:
                     best_id, best_score = sid, score
-            if best_id and best_score >= MERGE_COS_THRESHOLD:
+            if best_id and best_score >= SAME_DAY_COS_THRESHOLD:
                 relation = _classify_relation(_embed_text(ev), _embed_text(by_id[best_id]))
                 if relation in _MERGE_RELATIONS:
                     match_id = best_id
@@ -2065,7 +2265,7 @@ def _merge_new_events(
                 (cid, c) for cid, c in cross_day.items()
                 if (new_topics & set(c.get("topics", ())))
                 and c.get("embedding")
-                and _cosine(ev["_embedding"], c["embedding"]) >= MERGE_COS_THRESHOLD
+                and _cosine(ev["_embedding"], c["embedding"]) >= CROSS_DAY_COS_THRESHOLD
             ]
             if qualifying:
                 # Most recent qualifying candidate wins — a multi-day chain
@@ -2926,6 +3126,7 @@ def _already_ran_today(state: dict, date: str) -> bool:
 
 
 def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = False) -> None:
+    _load_dotenv()  # ensure .env vars (VOYAGE_API_KEY etc.) are loaded before any API call
     run_start = now_utc()
     date = run_start.date().isoformat()
     state = load_state()
@@ -3040,6 +3241,14 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
         rss_new_reads = research_events_rss_only(rss_new, date)
         all_events = merge_enrichment(all_events, rss_new_reads)
 
+    # All research done. Re-embed on final enriched content (takeaways + summary)
+    # so the embedding cache stores semantically rich vectors, not RSS centroids.
+    # Then cross-topic dedup: same event covered under two different topic feeds
+    # can now be detected and merged using content-level similarity.
+    if not no_research:
+        _refresh_embeddings(all_events)
+        all_events = _cross_topic_dedup(all_events)
+
     # Per-topic docs: write all topics to docs/news/. A topic with zero RSS
     # events gets ONE Serper-backed fallback search per day (not no_research,
     # not already tried today) before it's written up as "Quiet day" — some
@@ -3052,13 +3261,13 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             key=lambda e: e.get("importance", 0), reverse=True,
         )
         # Same real-world story sometimes survives clustering as two distinct
-        # events — collapse near-duplicates by cosine similarity on their
-        # stage1 centroids before writing the daily doc.
+        # events within a topic — collapse near-duplicates using the post-research
+        # embeddings (richer than stage1 centroids).
         deduped: list[dict] = []
         kept_embs: list[list[float]] = []
         for ev in ranked:
             emb = ev.get("_embedding")
-            if emb and any(_cosine(emb, ke) >= MERGE_COS_THRESHOLD for ke in kept_embs):
+            if emb and any(_cosine(emb, ke) >= SAME_DAY_COS_THRESHOLD for ke in kept_embs):
                 continue
             deduped.append(ev)
             if emb:

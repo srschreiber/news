@@ -39,7 +39,15 @@ describe and score what's given. Return structured JSON only.
    verbatim so it's excluded as a source for this event. Empty array if
    everything in the group genuinely belongs together — most of the time it
    will be.
-7. Echo `group_id` verbatim for every group in your response — one entry
+7. **`merge_with`** — if you see another group in this batch that is clearly
+   the same real-world event as this one (same announcement, same incident,
+   same study — just covered from a different angle or by a different outlet),
+   set this to that group's `group_id`. The secondary group's sources will be
+   absorbed into the primary and the secondary discarded. Set the `merge_with`
+   on the SECONDARY group (the one with less information or lower outlet_count),
+   pointing at the PRIMARY. Leave empty string `""` if the group is independent.
+   Use sparingly — only for clear same-event duplicates, not just topically related.
+8. Echo `group_id` verbatim for every group in your response — one entry
    per input group, none skipped, none invented.
 
 Return ONLY the structured JSON. No prose, no markdown, no commentary.

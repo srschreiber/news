@@ -83,7 +83,13 @@
     if (!iso) return "";
     var d = new Date(iso);
     if (isNaN(d)) return "";
-    return d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+    var today = new Date();
+    var sameDay = d.getFullYear() === today.getFullYear() &&
+                  d.getMonth() === today.getMonth() &&
+                  d.getDate() === today.getDate();
+    var time = d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+    if (sameDay) return time;
+    return d.toLocaleDateString([], { month: "short", day: "numeric" }) + " " + time;
   }
 
   function meter(score) {
@@ -213,7 +219,7 @@
         }
         if (r.sources && r.sources.length) {
           var srcs = r.sources.map(function (s) {
-            var label = s.origin === "research" ? "Web Search" : "RSS";
+            var label = s.origin === "research" ? "Web Search" : s.origin === "discovery" ? "Discovery" : "RSS";
             return '<a href="' + esc(s.url) + '" rel="noopener" target="_blank">' + esc(s.label) +
               '</a> <span class="src-badge src-' + esc(s.origin || "rss") + '">' + label + "</span>";
           }).join(", ");
