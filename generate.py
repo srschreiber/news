@@ -1007,8 +1007,8 @@ def _write_api_status(warnings: list[str]) -> None:
     status_path = DOCS / "assets" / "api-status.json"
     try:
         status_path.write_text(json.dumps(payload, indent=2) + "\n")
-    except Exception:
-        pass
+    except Exception as e:
+        log(f"api-status write failed: {e}")
 
 
 def _cost_of(by_model: dict, web_searches: int) -> float:
@@ -3188,6 +3188,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     state = load_state()
     if skip_if_done and _already_ran_today(state, date):
         log(f"daily already ran today ({date}); skipping redundant scheduled slot")
+        _write_api_status([])
         return
     cutoff = compute_cutoff(state, run_start)
     seen = state.get("seen_links", {})
@@ -3251,6 +3252,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
                             key=lambda e: e.get("importance", 0), reverse=True)[:30]
         ]
         print(json.dumps(preview, ensure_ascii=False, indent=2))
+        _write_api_status([])
         return
 
     # No-op guard: nothing new or updated since the last run.
@@ -3260,12 +3262,14 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             save_state(state, items, run_start,
                        today_events_data={"date": date, "events": all_stored})
             record_metrics("daily", run_start, refresh=True)
+            _write_api_status([])
             return
         existing = any((KIND_DIR["daily"] / t / f"{date}.md").exists() for t in all_topics)
         if existing:
             log("no new items; preserving today's existing docs (no-op re-run)")
             save_state(state, items, run_start)
             record_metrics("daily", run_start, refresh=True)
+            _write_api_status([])
             return
 
     # Truly-new events: full Serper + web-fetch + Haiku read + Haiku polish.

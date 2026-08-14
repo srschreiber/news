@@ -6,11 +6,16 @@
       if (!data.warnings || !data.warnings.length) return;
       var bar = document.createElement("div");
       bar.className = "api-warning-bar";
-      bar.innerHTML =
-        "<strong>⚠ API Warning:</strong> " +
-        data.warnings.map(function (w) { return w; }).join(" &nbsp;|&nbsp; ") +
-        ' <button class="api-warning-dismiss" onclick="this.parentNode.remove()" ' +
-        'aria-label="Dismiss">✕</button>';
+      var strong = document.createElement("strong");
+      strong.textContent = "⚠ API Warning: ";
+      bar.appendChild(strong);
+      bar.appendChild(document.createTextNode(data.warnings.join(" | ")));
+      var btn = document.createElement("button");
+      btn.className = "api-warning-dismiss";
+      btn.setAttribute("aria-label", "Dismiss");
+      btn.textContent = "✕";
+      btn.onclick = function () { bar.remove(); };
+      bar.appendChild(btn);
       document.body.prepend(bar);
     })
     .catch(function () {});
