@@ -1,25 +1,26 @@
-name: news-pipeline
+name: podcast
 
 on:
   schedule:
-    - cron: "0 6,8,10,12,14,16,18,20 * * *"
+    - cron: "0 16 * * *"   # 9 AM PDT (UTC-7)
   workflow_dispatch: {}
 
-# Only one pipeline run at a time (they all commit to main).
 concurrency:
-  group: news-pipeline
+  group: podcast
   cancel-in-progress: false
 
 permissions:
-  contents: write      # commit generated docs + state back to the repo
-  pages: write         # deploy to GitHub Pages
-  id-token: write      # OIDC for deploy-pages
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  generate:
+  generate-podcast:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -28,22 +29,22 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Generate
+      - name: Generate podcast
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SERPER_DEV_API_KEY: ${{ secrets.SERPER_DEV_API_KEY }}
-          VOYAGE_API_KEY: ${{ secrets.VOYAGE_API_KEY }}
-        run: python generate.py
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python podcast.py
 
       - name: Commit results
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add docs state.json metrics.json embedding_cache.json
+          git add docs/podcast.md docs/audio
           if git diff --cached --quiet; then
-            echo "No changes to commit."
+            echo "No podcast changes to commit."
           else
-            git commit -m "news: daily run $(date -u +%Y-%m-%dT%H:%MZ)"
+            git commit -m "podcast: daily run $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase origin main
             git push
           fi
@@ -55,9 +56,8 @@ jobs:
           path: site
 
   deploy:
-    needs: generate
+    needs: generate-podcast
     runs-on: ubuntu-latest
-    # Shared with publish-site so the two workflows never deploy Pages at once.
     concurrency:
       group: pages-deploy
       cancel-in-progress: false
