@@ -199,35 +199,38 @@
     if (!list.length) {
       html += '<p class="pv-empty">No stories in this window yet.</p>';
     } else {
-      html += '<ul class="pv-list">';
+      html += '<div class="pv-grid">';
       list.forEach(function (r, i) {
         var href = prefix + r.url;
         var dateNote = period !== "daily" ? '<span class="pv-date">' + esc(r.date) + "</span>" : "";
-        html += '<li class="pv-item">';
+        html += '<div class="pv-card">';
         html += '<div class="pv-title">' + meter(r.importance) +
           ' <span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
           (dateNote ? " " + dateNote : "") +
           ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
           'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
         if (r.summary) html += '<div class="pv-summary">' + esc(r.summary) + "</div>";
-        html += badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed");
-        html += badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
+        var badgesHtml = badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed") +
+          badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
+        if (badgesHtml) html += '<div class="pv-badges">' + badgesHtml + "</div>";
         if (r.takeaways && r.takeaways.length) {
-          html += '<ul class="takeaways">';
+          html += '<details class="pv-takeaways-details"><summary class="pv-expand-btn">Key takeaways (' +
+            r.takeaways.length + ')</summary><ul class="takeaways">';
           r.takeaways.forEach(function (t) { html += "<li>" + esc(t) + "</li>"; });
-          html += "</ul>";
+          html += "</ul></details>";
         }
+        var footerParts = [];
         if (r.sources && r.sources.length) {
           var srcs = r.sources.map(function (s) {
             var label = s.origin === "research" ? "Web Search" : s.origin === "discovery" ? "Discovery" : "RSS";
             return '<a href="' + esc(s.url) + '" rel="noopener" target="_blank">' + esc(s.label) +
               '</a> <span class="src-badge src-' + esc(s.origin || "rss") + '">' + label + "</span>";
           }).join(", ");
-          html += '<div class="pv-meta-row pv-sources"><span class="pv-meta-label">Sources:</span> ' +
-            srcs + "</div>";
+          footerParts.push('<span class="pv-meta-label">Sources:</span> ' + srcs);
         }
         var localReceived = localTime(r.receivedAt);
-        if (localReceived) html += '<div class="pv-received">Last updated ' + localReceived + "</div>";
+        if (localReceived) footerParts.push('<span class="pv-received">Updated ' + localReceived + "</span>");
+        if (footerParts.length) html += '<div class="pv-card-footer">' + footerParts.join(" &middot; ") + "</div>";
         if (r.relatedTitle && r.relatedUrl) {
           html += '<div class="pv-related">See also: <a href="' + prefix + r.relatedUrl + '">' +
             esc(r.relatedTitle) + "</a></div>";
@@ -236,9 +239,9 @@
           html += '<div class="pv-related">Update to: <a href="' + prefix + r.updatesUrl + '">' +
             esc(r.updatesTitle) + "</a></div>";
         }
-        html += "</li>";
+        html += "</div>";
       });
-      html += "</ul>";
+      html += "</div>";
 
       if (pageCount > 1) {
         html += '<div class="pv-pager">';

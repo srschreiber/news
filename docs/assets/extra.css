@@ -316,19 +316,32 @@
   font-size: 0.78rem;
 }
 .pv-clear:hover { border-color: #e5484d; color: #e5484d; }
-.md-typeset ul.pv-list {
-  list-style: none;
-  padding-left: 0;
+/* Card grid replacing the old flat list */
+.pv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.85rem;
   margin: 0;
 }
-.pv-item {
-  margin: 0 0 1.1rem;
-  padding-bottom: 0.9rem;
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+@media (max-width: 720px) {
+  .pv-grid { grid-template-columns: 1fr; }
 }
-.pv-item:last-child { border-bottom: none; }
+.pv-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  padding: 0.75rem 0.9rem;
+  background: var(--md-code-bg-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
 .pv-title { font-weight: 600; }
-.pv-summary { margin: 0.25rem 0 0.35rem; }
+.pv-summary {
+  font-size: 0.85rem;
+  color: var(--md-default-fg-color--light);
+  line-height: 1.45;
+}
+.pv-badges { margin-top: 0.1rem; }
 .pv-date {
   font-variant-numeric: tabular-nums;
   font-size: 0.78rem;
@@ -336,14 +349,32 @@
   color: var(--md-default-fg-color--light);
 }
 .pv-empty { color: var(--md-default-fg-color--light); }
-.pv-received {
-  margin-top: 0.3rem;
-  font-size: 0.72rem;
-  font-variant-numeric: tabular-nums;
+.pv-takeaways-details { margin-top: 0.2rem; }
+.pv-expand-btn {
+  font-size: 0.75rem;
+  font-weight: 600;
   color: var(--md-default-fg-color--light);
+  cursor: pointer;
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  user-select: none;
 }
+.pv-expand-btn::-webkit-details-marker { display: none; }
+.pv-expand-btn::before { content: "▸"; font-size: 0.65rem; transition: transform 0.15s; }
+details[open] > .pv-expand-btn::before { transform: rotate(90deg); }
+.pv-expand-btn:hover { color: var(--md-accent-fg-color); }
+.pv-card-footer {
+  margin-top: auto;
+  padding-top: 0.4rem;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+  font-variant-numeric: tabular-nums;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.pv-received { font-size: 0.72rem; color: var(--md-default-fg-color--light); }
 .pv-related {
-  margin-top: 0.3rem;
   font-size: 0.78rem;
   color: var(--md-default-fg-color--light);
 }
