@@ -289,6 +289,54 @@ def _available_episodes(feed_dir: Path) -> list[str]:
     return sorted(dates, reverse=True)
 
 
+def _build_podcast_page(audio_dir: Path = AUDIO_DIR, date: str | None = None) -> str:
+    """Render docs/podcast.md content — one player card per feed that has audio today."""
+    date = date or _today()
+    lines = [
+        "---",
+        "title: Podcast",
+        "---",
+        "",
+        "# Sam's News Podcast",
+        "",
+        "Daily audio briefings — one per feed, generated each morning around 9 AM PT.",
+        "",
+    ]
+    any_feed = False
+    for feed in FEEDS:
+        feed_dir = audio_dir / feed["key"]
+        today_mp3 = feed_dir / f"{date}.mp3"
+        if not today_mp3.exists():
+            continue
+        any_feed = True
+        rel = f"audio/{feed['key']}/{date}.mp3"
+        player_id = f"player-{feed['key']}"
+        lines += [
+            f"## {feed['title']}",
+            "",
+            '<div class="podcast-player">',
+            f'<audio id="{player_id}" controls src="{rel}"></audio>',
+            '<div class="podcast-controls">',
+            f'<button class="skip-btn" onclick="document.getElementById(\'{player_id}\').currentTime -= 15">&#x23EA; −15s</button>',
+            f'<button class="skip-btn" onclick="document.getElementById(\'{player_id}\').currentTime += 15">+15s &#x23E9;</button>',
+            "</div>",
+            "</div>",
+            "",
+        ]
+        episodes = [e for e in _available_episodes(feed_dir) if e != date]
+        if episodes:
+            archive_links = " · ".join(
+                f'<a href="audio/{feed["key"]}/{e}.mp3">{e}</a>'
+                for e in episodes[:AUDIO_KEEP_DAYS - 1]
+            )
+            lines += [f'<p class="podcast-archive">Previous: {archive_links}</p>', ""]
+        lines.append("")
+    if not any_feed:
+        lines.append("_No episodes available yet. Check back after the morning run._")
+        lines.append("")
+    return "\n".join(lines)
+
+
 def run(dry_run: bool = False) -> None:
     pass  # implemented in a later task
 

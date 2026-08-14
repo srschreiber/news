@@ -116,3 +116,26 @@ def test_available_episodes_returns_sorted_dates(tmp_path):
         (feed_dir / f"{d}.mp3").write_bytes(b"x")
     eps = p._available_episodes(feed_dir)
     assert eps == ["2026-08-14", "2026-08-13", "2026-08-12"]
+
+
+def test_build_podcast_page_contains_feed_name(tmp_path):
+    import podcast as p
+    tech_dir = tmp_path / "audio" / "technology"
+    tech_dir.mkdir(parents=True)
+    (tech_dir / "2026-08-14.mp3").write_bytes(b"x")
+
+    page = p._build_podcast_page(audio_dir=tmp_path / "audio", date="2026-08-14")
+    assert "Technology" in page
+    assert "2026-08-14.mp3" in page
+    assert "<audio" in page
+
+
+def test_build_podcast_page_omits_feed_with_no_audio(tmp_path):
+    import podcast as p
+    world_dir = tmp_path / "audio" / "world"
+    world_dir.mkdir(parents=True)
+    (world_dir / "2026-08-14.mp3").write_bytes(b"x")
+
+    page = p._build_podcast_page(audio_dir=tmp_path / "audio", date="2026-08-14")
+    assert "World" in page
+    assert "Technology" not in page
