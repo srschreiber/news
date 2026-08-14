@@ -148,6 +148,98 @@ def _serper_search(query: str, n: int = 3) -> list[dict]:
         return []
 
 
+_SCRIPT_PROMPT = """\
+You are a professional radio news anchor. Write a {word_target}-word conversational podcast script for the **{feed_title}** briefing, dated {date}.
+
+You have a web search tool with a budget of {search_budget} calls. Use it when you genuinely need fresher context or a key fact to make commentary richer — not for every story.
+
+Today's stories:
+{event_text}
+
+Script requirements:
+- Natural spoken intro: greet listeners, name the feed, mention the date
+- Weave stories into flowing prose — do NOT announce sub-topic headers
+- Smooth transitions between stories ("Meanwhile...", "On another front...", etc.)
+- Brief outro thanking listeners
+- Full sentences only — no bullet points, no markdown
+- Write ONLY the script text; no stage directions, no metadata
+"""
+
+_SEARCH_TOOL = {
+    "name": "search",
+    "description": "Search Google News for additional context. Budget is limited — use only when needed.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "query": {"type": "string", "description": "Search query"},
+        },
+        "required": ["query"],
+    },
+}
+
+
+def _generate_script(feed: dict, events: list[dict], date: str) -> str:
+    """Run Claude Sonnet in an agentic tool-use loop to produce a podcast script.
+
+    Returns the final script text, or empty string on failure."""
+    import anthropic  # local import so missing dep is a clear error
+    client = anthropic.Anthropic()
+
+    event_text = _format_events_for_prompt(events, max_events=12)
+    if not event_text:
+        return ""
+
+    prompt = _SCRIPT_PROMPT.format(
+        feed_title=feed["title"],
+        date=date,
+        word_target="400–600",
+        search_budget=SERPER_BUDGET,
+        event_text=event_text,
+    )
+    messages: list[dict] = [{"role": "user", "content": prompt}]
+    searches_used = 0
+
+    while True:
+        response = client.messages.create(
+            model=SCRIPT_MODEL,
+            max_tokens=SCRIPT_MAX_TOKENS,
+            tools=[_SEARCH_TOOL],
+            messages=messages,
+        )
+
+        if response.stop_reason == "end_turn":
+            for block in response.content:
+                if hasattr(block, "text"):
+                    return block.text.strip()
+            return ""
+
+        if response.stop_reason == "tool_use":
+            messages.append({"role": "assistant", "content": response.content})
+            tool_results = []
+            for block in response.content:
+                if block.type == "tool_use" and block.name == "search":
+                    if searches_used < SERPER_BUDGET:
+                        hits = _serper_search(block.input.get("query", ""), n=3)
+                        result_text = "\n".join(
+                            f"- {h['title']}: {h['snippet']}" for h in hits
+                        ) or "No results found."
+                        searches_used += 1
+                        _log(f"  search [{searches_used}/{SERPER_BUDGET}]: {block.input.get('query','')[:60]}")
+                    else:
+                        result_text = "Search budget exhausted — please write the script with information you have."
+                    tool_results.append({
+                        "type": "tool_result",
+                        "tool_use_id": block.id,
+                        "content": result_text,
+                    })
+            messages.append({"role": "user", "content": tool_results})
+        else:
+            # Unexpected stop reason
+            break
+
+    return ""
+
+
 def run(dry_run: bool = False) -> None:
     pass  # implemented in a later task
 
