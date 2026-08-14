@@ -204,8 +204,8 @@
         var href = prefix + r.url;
         var dateNote = period !== "daily" ? '<span class="pv-date">' + esc(r.date) + "</span>" : "";
         html += '<div class="pv-card">';
-        html += '<div class="pv-title">' + meter(r.importance) +
-          ' <span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
+        html += '<div class="pv-title">' +
+          '<span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
           (dateNote ? " " + dateNote : "") +
           ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
           'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
