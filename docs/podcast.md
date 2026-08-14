@@ -1,5 +1,7 @@
 ---
 title: Podcast
+hide:
+  - toc
 ---
 
 # Sam's News Podcast

@@ -11,6 +11,8 @@ hide:
 
 ## Top stories
 
+> 🎙️ Prefer to listen? Check out the **[Sam's News Podcast](podcast.md)** — daily audio briefings for every feed, generated fresh each morning.
+
 <div id="period-view" class="period-view" data-prefix=""></div>
 
 <script id="period-view-data" type="application/json">
