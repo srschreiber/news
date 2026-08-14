@@ -28,19 +28,40 @@ SERPER_BUDGET = 5          # max search calls per feed
 TTS_MODEL = "tts-1-hd"
 TTS_VOICE = "onyx"
 
-# Feed definitions mirror sources.yaml — key, display title, member topics.
-FEEDS: list[dict] = [
-    {"key": "technology", "title": "Technology",
-     "topics": ["tech", "ai", "anthropic", "gpt", "security", "email-security",
-                "golang", "python", "postgres", "tech-research"]},
-    {"key": "world",       "title": "World",       "topics": ["world", "markets"]},
-    {"key": "science",     "title": "Science",
-     "topics": ["science", "space", "health", "diet-exercise"]},
-    {"key": "environment", "title": "Environment",
-     "topics": ["climate-resilience", "climate-change", "conservation"]},
-]
+def _load_feeds_config() -> list[dict]:
+    """Read feed→topic mapping from sources.yaml. Falls back to hardcoded defaults
+    if the file is missing or unreadable (e.g., in test environments)."""
+    _FALLBACK = [
+        {"key": "technology", "title": "Technology",
+         "topics": ["tech", "ai", "anthropic", "gpt", "security", "email-security",
+                    "golang", "python", "postgres", "tech-research"]},
+        {"key": "world",       "title": "World",       "topics": ["world", "markets"]},
+        {"key": "science",     "title": "Science",
+         "topics": ["science", "space", "health", "diet-exercise"]},
+        {"key": "environment", "title": "Environment",
+         "topics": ["climate-resilience", "climate-change", "conservation"]},
+    ]
+    try:
+        import yaml
+        raw = yaml.safe_load(SOURCES_FILE.read_text())
+        feeds_raw = raw.get("feeds") or {}
+        result = []
+        for key, meta in feeds_raw.items():
+            result.append({
+                "key": key,
+                "title": meta.get("title", key.title()),
+                "topics": meta.get("topics") or [],
+            })
+        return result if result else _FALLBACK
+    except Exception:
+        return _FALLBACK
 
 
+FEEDS: list[dict] = _load_feeds_config()
+
+
+# Duplicated from generate.py intentionally — podcast.py must run standalone without
+# importing the 3300-line generate.py (whose module-level code has side effects).
 def _load_dotenv(path: Path = ROOT / ".env") -> None:
     if not path.exists():
         return
