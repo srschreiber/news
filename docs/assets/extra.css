@@ -321,8 +321,9 @@
 .pv-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.85rem;
+  gap: 1rem;
   margin: 0;
+  overflow: visible;
 }
 @media (max-width: 720px) {
   .pv-grid { grid-template-columns: 1fr; }
@@ -335,6 +336,75 @@
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  position: relative;
+}
+/* Deck stacking — each depth level adds a card shadow behind */
+.pv-card--update[data-depth="1"] { box-shadow: 4px 4px 0 var(--md-default-fg-color--lightest); }
+.pv-card--update[data-depth="2"] { box-shadow: 4px 4px 0 var(--md-default-fg-color--lightest), 7px 7px 0 var(--md-default-fg-color--lightest); }
+.pv-card--update:not([data-depth="1"]):not([data-depth="2"]) {
+  box-shadow: 4px 4px 0 var(--md-default-fg-color--lightest),
+              7px 7px 0 var(--md-default-fg-color--lightest),
+              10px 10px 0 var(--md-default-fg-color--lightest);
+}
+/* Update badge */
+.pv-update-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #f6ad3c;
+  border: 1px solid #f6ad3c;
+  border-radius: 999px;
+  padding: 0.05rem 0.4rem;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+/* Deck reveal tab — anchored to right edge of card */
+.pv-deck-tab {
+  position: absolute;
+  right: -1.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--md-code-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  color: var(--md-default-fg-color--light);
+  cursor: pointer;
+  font-size: 0.65rem;
+  padding: 0.4rem 0.25rem;
+  line-height: 1;
+  z-index: 2;
+}
+.pv-deck-tab:hover, .pv-deck-tab--open { color: #f6ad3c; border-color: #f6ad3c; }
+/* Previous story reveal panel */
+.pv-prev-panel {
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-left: 3px solid #f6ad3c;
+  border-radius: 4px;
+  background: var(--md-default-bg-color);
+  font-size: 0.82rem;
+}
+.pv-prev-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.25rem;
+}
+.pv-prev-title { font-weight: 600; }
+.pv-prev-summary { color: var(--md-default-fg-color--light); margin-top: 0.2rem; }
+.pv-prev-depth { font-size: 0.72rem; color: var(--md-default-fg-color--light); margin-top: 0.2rem; }
+/* Ranking note */
+.pv-rank-note {
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+  margin: -0.4rem 0 0.7rem;
+  font-style: italic;
 }
 .pv-title { font-weight: 600; }
 .pv-summary {
@@ -552,4 +622,14 @@ h3:hover > .share-link,
   font-weight: 600;
   color: var(--md-default-fg-color--light);
   cursor: default;
+}
+
+/* First takeaway always visible */
+.pv-takeaway-first {
+  font-size: 0.8rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.5;
+  padding-left: 0.9rem;
+  border-left: 3px solid #f6ad3c;
+  margin-top: 0.2rem;
 }

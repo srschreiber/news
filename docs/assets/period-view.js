@@ -21,6 +21,22 @@
   var prefix = mount.getAttribute("data-prefix") || "";
   var scopeFeed = mount.getAttribute("data-scope-feed") || "";
   var PERIODS = ["daily", "weekly", "monthly"];
+
+  // Index all records by URL for update-chain traversal.
+  var ALL_BY_URL = {};
+  PERIODS.forEach(function (p) {
+    (DATA[p] || []).forEach(function (r) { if (r.url) ALL_BY_URL[r.url] = r; });
+  });
+
+  function chainDepth(r) {
+    var depth = 0, cur = r, seen = {};
+    while (cur && cur.updatesUrl && !seen[cur.updatesUrl] && depth < 6) {
+      seen[cur.updatesUrl] = true;
+      cur = ALL_BY_URL[cur.updatesUrl];
+      depth++;
+    }
+    return depth;
+  }
   var LABELS = { daily: "Daily", weekly: "Weekly", monthly: "Monthly" };
   var PAGE_SIZE = 6;
   var feedMeta = DATA.feedMeta || {};
@@ -191,6 +207,7 @@
       '<option value="received"' + (sortBy === "received" ? " selected" : "") + ">Last updated</option>" +
       "</select></label></div>";
     html += "</div>";
+    html += '<p class="pv-rank-note">Ranked by estimated significance, source breadth, and freshness.</p>';
     if (feedFilter || subfeedFilter) {
       html += '<button type="button" class="pv-clear" id="pv-clear-filters">Clear filters ✕</button>';
     }
@@ -203,22 +220,35 @@
       list.forEach(function (r, i) {
         var href = prefix + r.url;
         var dateNote = period !== "daily" ? '<span class="pv-date">' + esc(r.date) + "</span>" : "";
-        html += '<div class="pv-card">';
-        html += '<div class="pv-title">' +
+        var depth = (r.updatesTitle && r.updatesUrl) ? chainDepth(r) : 0;
+        var cardClass = "pv-card" + (depth > 0 ? " pv-card--update" : "");
+        html += '<div class="' + cardClass + '" data-depth="' + depth + '" data-card-index="' + i + '">';
+
+        // Header row: title + update badge + share
+        var updateBadge = depth > 0 ? '<span class="pv-update-badge">↩ Update</span> ' : "";
+        html += '<div class="pv-title">' + updateBadge +
           '<span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
           (dateNote ? " " + dateNote : "") +
           ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
           'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
+
         if (r.summary) html += '<div class="pv-summary">' + esc(r.summary) + "</div>";
+
         var badgesHtml = badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed") +
           badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
         if (badgesHtml) html += '<div class="pv-badges">' + badgesHtml + "</div>";
+
+        // Takeaways: first one always visible, rest in a toggle
         if (r.takeaways && r.takeaways.length) {
-          html += '<details class="pv-takeaways-details"><summary class="pv-expand-btn">Key takeaways (' +
-            r.takeaways.length + ')</summary><ul class="takeaways">';
-          r.takeaways.forEach(function (t) { html += "<li>" + esc(t) + "</li>"; });
-          html += "</ul></details>";
+          html += '<div class="pv-takeaway-first">▸ ' + esc(r.takeaways[0]) + "</div>";
+          if (r.takeaways.length > 1) {
+            html += '<details class="pv-takeaways-details"><summary class="pv-expand-btn">+' +
+              (r.takeaways.length - 1) + ' more</summary><ul class="takeaways">';
+            r.takeaways.slice(1).forEach(function (t) { html += "<li>" + esc(t) + "</li>"; });
+            html += "</ul></details>";
+          }
         }
+
         var footerParts = [];
         if (r.sources && r.sources.length) {
           var srcCount = r.sources.length;
@@ -229,14 +259,26 @@
         var localReceived = localTime(r.receivedAt);
         if (localReceived) footerParts.push('<span class="pv-received">Updated ' + localReceived + "</span>");
         if (footerParts.length) html += '<div class="pv-card-footer">' + footerParts.join(" &middot; ") + "</div>";
+
         if (r.relatedTitle && r.relatedUrl) {
           html += '<div class="pv-related">See also: <a href="' + prefix + r.relatedUrl + '">' +
             esc(r.relatedTitle) + "</a></div>";
         }
-        if (r.updatesTitle && r.updatesUrl) {
-          html += '<div class="pv-related">Update to: <a href="' + prefix + r.updatesUrl + '">' +
-            esc(r.updatesTitle) + "</a></div>";
+
+        // Deck reveal panel for update chain
+        if (depth > 0) {
+          var prev = ALL_BY_URL[r.updatesUrl] || null;
+          var prevTitle = prev ? prev.title : r.updatesTitle;
+          var prevSummary = prev ? (prev.summary || prev.one_liner || "") : "";
+          html += '<div class="pv-prev-panel" id="pv-prev-' + i + '" hidden>' +
+            '<div class="pv-prev-label">Previous story</div>' +
+            '<div class="pv-prev-title"><a href="' + esc(prefix + r.updatesUrl) + '">' + esc(prevTitle) + '</a></div>' +
+            (prevSummary ? '<div class="pv-prev-summary">' + esc(prevSummary) + '</div>' : '') +
+            (depth > 1 ? '<div class="pv-prev-depth">+' + (depth - 1) + ' earlier update' + (depth > 2 ? 's' : '') + '</div>' : '') +
+            '</div>';
+          html += '<button class="pv-deck-tab" data-target="pv-prev-' + i + '" aria-label="Show previous story">◀</button>';
         }
+
         html += "</div>";
       });
       html += "</div>";
@@ -321,6 +363,17 @@
         } else {
           flash();
         }
+      });
+    });
+    mount.querySelectorAll(".pv-deck-tab").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var targetId = btn.getAttribute("data-target");
+        var panel = document.getElementById(targetId);
+        if (!panel) return;
+        var open = !panel.hidden;
+        panel.hidden = open;
+        btn.textContent = open ? "◀" : "▶";
+        btn.classList.toggle("pv-deck-tab--open", !open);
       });
     });
   }
