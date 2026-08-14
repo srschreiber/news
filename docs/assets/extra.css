@@ -380,22 +380,6 @@
   color: var(--md-default-fg-color--light);
 }
 .pv-empty { color: var(--md-default-fg-color--light); }
-.pv-takeaways-details { margin-top: 0.2rem; }
-.pv-expand-btn {
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--md-default-fg-color--light);
-  cursor: pointer;
-  list-style: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  user-select: none;
-}
-.pv-expand-btn::-webkit-details-marker { display: none; }
-.pv-expand-btn::before { content: "▸"; font-size: 0.65rem; transition: transform 0.15s; }
-details[open] > .pv-expand-btn::before { transform: rotate(90deg); }
-.pv-expand-btn:hover { color: var(--md-accent-fg-color); }
 .pv-card-footer {
   margin-top: auto;
   padding-top: 0.4rem;
@@ -591,15 +575,6 @@ h3:hover > .share-link,
   letter-spacing: 0.07em;
   color: var(--md-default-fg-color--light);
   margin-bottom: 0.2rem;
-}
-
-/* First takeaway always visible */
-.pv-takeaway-first {
-  font-size: 0.8rem;
-  color: var(--md-default-fg-color);
-  line-height: 1.5;
-  padding-left: 0.9rem;
-  border-left: 3px solid #f6ad3c;
 }
 
 /* Story history timeline — clickable, at card bottom */

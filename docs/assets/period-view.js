@@ -246,17 +246,13 @@
 
         html += '<div class="pv-summary">' + (r.summary ? esc(r.summary) : "") + "</div>";
 
-        // Key Takeaways: first always visible, rest expandable
+        // Key Takeaways: all visible
         if (r.takeaways && r.takeaways.length) {
           html += '<div class="pv-takeaways-block">';
           html += '<div class="pv-section-label">Key Takeaways</div>';
-          html += '<div class="pv-takeaway-first">▸ ' + esc(r.takeaways[0]) + "</div>";
-          if (r.takeaways.length > 1) {
-            html += '<details class="pv-takeaways-details"><summary class="pv-expand-btn">+' +
-              (r.takeaways.length - 1) + ' more</summary><ul class="takeaways">';
-            r.takeaways.slice(1).forEach(function (t) { html += "<li>" + esc(t) + "</li>"; });
-            html += "</ul></details>";
-          }
+          html += '<ul class="takeaways pv-takeaways-list">';
+          r.takeaways.forEach(function (t) { html += "<li>" + esc(t) + "</li>"; });
+          html += "</ul>";
           html += '</div>';
         }
 
@@ -428,20 +424,8 @@
         var summaryEl = card.querySelector(".pv-summary");
         if (summaryEl) summaryEl.textContent = item.summary || "";
 
-        var takeFirst = card.querySelector(".pv-takeaway-first");
-        if (takeFirst) takeFirst.textContent = item.takeaways && item.takeaways.length ? "▸ " + item.takeaways[0] : "";
-        var takeDetails = card.querySelector(".pv-takeaways-details");
-        if (takeDetails) {
-          if (item.takeaways && item.takeaways.length > 1) {
-            var sumEl = takeDetails.querySelector("summary");
-            if (sumEl) sumEl.textContent = "+" + (item.takeaways.length - 1) + " more";
-            var ul = takeDetails.querySelector("ul");
-            if (ul) ul.innerHTML = item.takeaways.slice(1).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("");
-            takeDetails.hidden = false;
-          } else {
-            takeDetails.hidden = true;
-          }
-        }
+        var ul = card.querySelector(".pv-takeaways-list");
+        if (ul) ul.innerHTML = (item.takeaways || []).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("");
       });
     });
   }
