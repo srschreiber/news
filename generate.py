@@ -1437,7 +1437,8 @@ def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]
     with urllib.request.urlopen(req, timeout=10) as resp:
         result = json.loads(resp.read())
     return [
-        {"title": r["title"], "url": r["link"], "snippet": r.get("snippet", "")}
+        {"title": r["title"], "url": r["link"], "snippet": r.get("snippet", ""),
+         "source_name": r.get("source", "")}
         for r in result.get("news", [])
     ]
 
@@ -1573,15 +1574,16 @@ def _serper_discovery_items(
             url = _clean_url(hit.get("url", ""))
             if not url or url in seen:
                 continue
-            try:
-                hostname = urllib.parse.urlparse(url).hostname or ""
-                # strip www. prefix for cleaner display
-                site = hostname.removeprefix("www.") if hostname else "web"
-            except Exception:
-                site = "web"
+            source_name = hit.get("source_name", "").strip()
+            if not source_name:
+                try:
+                    hostname = urllib.parse.urlparse(url).hostname or ""
+                    source_name = hostname.removeprefix("www.") if hostname else "web"
+                except Exception:
+                    source_name = "web"
             items.append({
                 "id": f"disc_{topic}_{i}",
-                "source": site,
+                "source": source_name,
                 "_feed": "Serper Discovery",
                 "_is_discovery": True,
                 "topic": topic,

@@ -286,6 +286,24 @@
   border-radius: 3px;
 }
 .pv-filter:hover { background: var(--md-default-fg-color--lightest); }
+
+/* On narrow screens the pill shape breaks when filters wrap — switch to a
+   clean stacked column with each filter as its own bordered row. */
+@media (max-width: 600px) {
+  .pv-filters {
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: visible;
+  }
+  .pv-filter {
+    border-right: none;
+    border-bottom: 1px solid var(--md-default-fg-color--lightest);
+    width: 100%;
+  }
+  .pv-filter:last-child { border-bottom: none; }
+  .pv-filter select { max-width: none; flex: 1; }
+}
+
 .pv-clear {
   font: inherit;
   cursor: pointer;
