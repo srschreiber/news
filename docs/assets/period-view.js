@@ -221,12 +221,14 @@
         }
         var footerParts = [];
         if (r.sources && r.sources.length) {
+          var srcCount = r.sources.length;
+          var srcLabel = srcCount === 1 ? "1 source" : srcCount + " sources";
           var srcs = r.sources.map(function (s) {
             var label = s.origin === "research" ? "Web Search" : s.origin === "discovery" ? "Discovery" : "RSS";
             return '<a href="' + esc(s.url) + '" rel="noopener" target="_blank">' + esc(s.label) +
               '</a> <span class="src-badge src-' + esc(s.origin || "rss") + '">' + label + "</span>";
           }).join(", ");
-          footerParts.push('<span class="pv-meta-label">Sources:</span> ' + srcs);
+          footerParts.push('<span class="pv-src-count" title="' + esc(srcs) + '">' + srcLabel + '</span>');
         }
         var localReceived = localTime(r.receivedAt);
         if (localReceived) footerParts.push('<span class="pv-received">Updated ' + localReceived + "</span>");

@@ -546,3 +546,10 @@ h3:hover > .share-link,
 /* Always show site name in header — prevent page title from replacing it on scroll. */
 .md-header__title .md-header__topic:nth-child(2) { display: none; }
 .md-header__title .md-header__topic:first-child { opacity: 1 !important; transform: none !important; }
+
+/* Source count + freshness in card footer */
+.pv-src-count {
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+  cursor: default;
+}
