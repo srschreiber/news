@@ -338,7 +338,38 @@ def _build_podcast_page(audio_dir: Path = AUDIO_DIR, date: str | None = None) ->
 
 
 def run(dry_run: bool = False) -> None:
-    pass  # implemented in a later task
+    date = _today()
+    _log(f"podcast run {date} (dry_run={dry_run})")
+    feed_events = _load_feed_events()
+    for feed in FEEDS:
+        events = feed_events.get(feed["key"], [])
+        if not events:
+            _log(f"[{feed['key']}] no events — skipping")
+            continue
+        _log(f"[{feed['key']}] generating script from {len(events)} events")
+        script = _generate_script(feed, events, date)
+        if not script:
+            _log(f"[{feed['key']}] script generation failed — skipping")
+            continue
+        _log(f"[{feed['key']}] script: {len(script.split())} words")
+        if dry_run:
+            print(f"\n--- {feed['title']} script ---\n{script[:300]}...\n")
+            continue
+        feed_dir = AUDIO_DIR / feed["key"]
+        mp3_path = feed_dir / f"{date}.mp3"
+        try:
+            _log(f"[{feed['key']}] rendering TTS → {mp3_path.name}")
+            _render_tts(script, mp3_path)
+        except Exception as e:
+            _log(f"[{feed['key']}] TTS failed: {e}")
+            continue
+        _prune_old_audio(feed_dir)
+        _log(f"[{feed['key']}] done — {mp3_path.stat().st_size // 1024} KB")
+    if not dry_run:
+        page = _build_podcast_page()
+        PODCAST_PAGE.write_text(page)
+        _log(f"rebuilt {PODCAST_PAGE.relative_to(ROOT)}")
+    _log("podcast run complete")
 
 
 def main() -> None:
