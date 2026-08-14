@@ -71,6 +71,26 @@
   // page load stays a plain URL; hydration above is read-only until then.
   var urlSyncArmed = false;
 
+  // Deep-link: ?story=<encoded-url> — jump to that card on load.
+  var storyTarget = urlParams.get("story") || "";
+  var storyHighlighted = false;
+  if (storyTarget) {
+    // Switch to whichever period contains this story
+    PERIODS.forEach(function (p) {
+      if ((DATA[p] || []).some(function (r) { return r.url === storyTarget; })) period = p;
+    });
+    feedFilter = "";
+    subfeedFilter = "";
+    // Jump to the page that contains the card
+    var storyList = (DATA[period] || []);
+    for (var si = 0; si < storyList.length; si++) {
+      if (storyList[si].url === storyTarget) {
+        page = Math.ceil((si + 1) / PAGE_SIZE);
+        break;
+      }
+    }
+  }
+
   function syncUrl() {
     if (!urlSyncArmed) return;
     var p = new URLSearchParams();
@@ -235,14 +255,17 @@
         var cardDepth = Math.min(chain.length - 1, 3);
         var cardClass = "pv-card" + (isUpdate ? " pv-card--update" : "");
         html += '<div class="' + cardClass + '" data-depth="' + cardDepth + '" data-card-index="' + i + '"' +
+          ' data-story-url="' + esc(r.url) + '"' +
           (isUpdate ? ' data-chain="' + esc(JSON.stringify(chain)) + '"' : '') + '>';
 
-        // Header: title + share (no update badge — timeline conveys update status)
+        // Share button — absolutely positioned in upper-right corner
+        html += '<button type="button" class="share-link" title="Copy link" aria-label="Copy link to this story">🔗</button>';
+
+        // Title
         html += '<div class="pv-title">' +
           '<span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
           (dateNote ? " " + dateNote : "") +
-          ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
-          'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
+          '</div>';
 
         html += '<div class="pv-summary">' + (r.summary ? esc(r.summary) : "") + "</div>";
 
@@ -256,11 +279,13 @@
           html += '</div>';
         }
 
-        // Footer: badges + sources (first visible, rest expandable) + freshness
+        // Footer row 1: badges
         var badgesHtml = badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed") +
           badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
-        var footerParts = [];
-        if (badgesHtml) footerParts.push(badgesHtml);
+        if (badgesHtml) html += '<div class="pv-card-footer pv-footer-badges">' + badgesHtml + "</div>";
+
+        // Footer row 2: sources + freshness
+        var srcParts = [];
         if (r.sources && r.sources.length) {
           var srcs = r.sources;
           var mkLink = function (s) {
@@ -269,10 +294,10 @@
               : '<span class="pv-src">' + esc(s.label || "Source") + '</span>';
           };
           if (srcs.length === 1) {
-            footerParts.push(mkLink(srcs[0]));
+            srcParts.push(mkLink(srcs[0]));
           } else {
             var restLinks = srcs.slice(1).map(mkLink).join(" · ");
-            footerParts.push(
+            srcParts.push(
               mkLink(srcs[0]) +
               ' <button class="pv-src-toggle-btn" type="button" data-count="' + (srcs.length - 1) +
               '">+' + (srcs.length - 1) + ' more</button>' +
@@ -281,8 +306,8 @@
           }
         }
         var localReceived = localTime(r.receivedAt);
-        if (localReceived) footerParts.push('<span class="pv-received">Updated ' + localReceived + "</span>");
-        if (footerParts.length) html += '<div class="pv-card-footer">' + footerParts.join(" · ") + "</div>";
+        if (localReceived) srcParts.push('<span class="pv-received">Updated ' + localReceived + "</span>");
+        if (srcParts.length) html += '<div class="pv-card-footer">' + srcParts.join(" · ") + "</div>";
 
         if (r.relatedTitle && r.relatedUrl) {
           html += '<div class="pv-related">See also: <a href="' + prefix + r.relatedUrl + '">' +
@@ -318,6 +343,22 @@
     mount.innerHTML = html;
     syncUrl();
     bind();
+
+    // Highlight the deep-linked card on first render
+    if (storyTarget && !storyHighlighted) {
+      storyHighlighted = true;
+      var cards = mount.querySelectorAll("[data-story-url]");
+      for (var ci = 0; ci < cards.length; ci++) {
+        if (cards[ci].getAttribute("data-story-url") === storyTarget) {
+          cards[ci].scrollIntoView({ behavior: "smooth", block: "center" });
+          cards[ci].classList.add("pv-card--highlight");
+          setTimeout((function (c) {
+            return function () { c.classList.remove("pv-card--highlight"); };
+          })(cards[ci]), 2500);
+          break;
+        }
+      }
+    }
   }
 
   function bind() {
@@ -363,26 +404,22 @@
         mount.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     });
-    mount.querySelectorAll("[data-share-index]").forEach(function (btn) {
-      var titleEl = btn.parentElement && btn.parentElement.querySelector("[data-url]");
-      if (!titleEl) return;
-      // Titles aren't links (clicking one would land on a page showing the
-      // same info already visible here) — resolve the relative URL to
-      // absolute via a detached <a> purely so the copied link still works.
-      var resolver = document.createElement("a");
-      resolver.href = titleEl.getAttribute("data-url");
-      var url = resolver.href;
+    mount.querySelectorAll(".share-link").forEach(function (btn) {
+      var card = btn.closest(".pv-card");
+      var storyUrl = card ? card.getAttribute("data-story-url") : "";
+      var deepLink = location.origin + location.pathname +
+        (storyUrl ? "?story=" + encodeURIComponent(storyUrl) : "");
       btn.addEventListener("click", function () {
         var flash = function () {
           btn.classList.add("copied");
-          btn.textContent = "✓ copied";
+          btn.textContent = "✓";
           setTimeout(function () {
             btn.classList.remove("copied");
             btn.textContent = "🔗";
           }, 1400);
         };
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(url).then(flash, flash);
+          navigator.clipboard.writeText(deepLink).then(flash, flash);
         } else {
           flash();
         }

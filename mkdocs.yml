@@ -63,7 +63,6 @@ markdown_extensions:
 # The custom keyword search lives at search.md alongside Material's built-in
 # search.
 nav:
-  - Home: index.md
   - Podcast: podcast.md
   - Words: words.md
   - Facts: facts.md
