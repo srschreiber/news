@@ -308,7 +308,7 @@ def _build_podcast_page(audio_dir: Path = AUDIO_DIR, date: str | None = None) ->
         if not today_mp3.exists():
             continue
         any_feed = True
-        rel = f"audio/{feed['key']}/{date}.mp3"
+        rel = f"../audio/{feed['key']}/{date}.mp3"
         player_id = f"player-{feed['key']}"
         lines += [
             f"## {feed['title']}",
@@ -325,7 +325,7 @@ def _build_podcast_page(audio_dir: Path = AUDIO_DIR, date: str | None = None) ->
         episodes = [e for e in _available_episodes(feed_dir) if e != date]
         if episodes:
             archive_links = " · ".join(
-                f'<a href="audio/{feed["key"]}/{e}.mp3">{e}</a>'
+                f'<a href="../audio/{feed["key"]}/{e}.mp3">{e}</a>'
                 for e in episodes[:AUDIO_KEEP_DAYS - 1]
             )
             lines += [f'<p class="podcast-archive">Previous: {archive_links}</p>', ""]
