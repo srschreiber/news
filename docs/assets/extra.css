@@ -1,6 +1,7 @@
-/* Narrower left nav so it doesn't crunch the main content (wide screens only). */
+/* Hide left nav sidebar on desktop — nav is in the header tabs instead. */
 @media screen and (min-width: 76.25em) {
-  .md-sidebar--primary { width: 10rem; }
+  .md-sidebar--primary { display: none; }
+  .md-content { margin-left: 0; }
 }
 
 /* GitHub-style pill badges tagging each source's origin (RSS vs Research). */
