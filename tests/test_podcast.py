@@ -57,3 +57,28 @@ def test_load_feed_events_wrong_date(tmp_path):
     state_file.write_text(json.dumps(state))
     result = p._load_feed_events(state_file, date="2026-08-14")
     assert all(len(v) == 0 for v in result.values())
+
+
+def test_format_events_for_prompt_includes_title_and_takeaways():
+    import podcast as p
+    events = [
+        {"title": "AI breaks record", "one_liner": "OpenAI's model beats benchmark.",
+         "takeaways": ["First time in 10 years", "Major leap"], "importance": 9,
+         "topic": "ai"},
+        {"title": "Market up", "one_liner": "S&P hits high.", "takeaways": [],
+         "importance": 7, "topic": "markets"},
+    ]
+    text = p._format_events_for_prompt(events, max_events=10)
+    assert "AI breaks record" in text
+    assert "First time in 10 years" in text
+    assert "Market up" in text
+
+
+def test_format_events_for_prompt_caps_at_max():
+    import podcast as p
+    events = [
+        {"title": f"Story {i}", "one_liner": "x", "takeaways": [], "importance": i, "topic": "ai"}
+        for i in range(20)
+    ]
+    text = p._format_events_for_prompt(events, max_events=5)
+    assert text.count("Story") == 5

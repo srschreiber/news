@@ -114,6 +114,40 @@ def _load_feed_events(state_file: Path = STATE_FILE, date: str | None = None) ->
     return result
 
 
+def _format_events_for_prompt(events: list[dict], max_events: int = 12) -> str:
+    """Render top events as structured text for the Claude prompt."""
+    lines = []
+    for ev in events[:max_events]:
+        lines.append(f"[{ev.get('topic', '?').upper()}] {ev['title']} (importance {ev.get('importance', 0)}/10)")
+        if ev.get("one_liner"):
+            lines.append(f"  Summary: {ev['one_liner']}")
+        for t in (ev.get("takeaways") or [])[:4]:
+            lines.append(f"  • {t}")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
+def _serper_search(query: str, n: int = 3) -> list[dict]:
+    """Search Google News via Serper.dev. Returns [{title, url, snippet}]."""
+    key = os.environ.get("SERPER_DEV_API_KEY", "")
+    if not key:
+        return []
+    body = json.dumps({"q": query, "num": n}).encode()
+    req = urllib.request.Request(
+        "https://google.serper.dev/news",
+        data=body,
+        headers={"X-API-KEY": key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            result = json.loads(resp.read())
+        return [{"title": r["title"], "url": r["link"], "snippet": r.get("snippet", "")}
+                for r in result.get("news", [])]
+    except Exception:
+        return []
+
+
 def run(dry_run: bool = False) -> None:
     pass  # implemented in a later task
 
