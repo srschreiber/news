@@ -436,3 +436,35 @@ h3:hover > .share-link,
 [data-md-color-scheme="slate"] .share-link.copied {
   color: #3fb950;
 }
+
+/* ── Podcast player ─────────────────────────────────────────── */
+.podcast-player {
+  margin: 0.75rem 0 0.4rem;
+}
+.podcast-player audio {
+  width: 100%;
+  max-width: 480px;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.podcast-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.3rem;
+}
+.skip-btn {
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 999px;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  padding: 0.2rem 0.65rem;
+}
+.skip-btn:hover { border-color: #f6ad3c; }
+.podcast-archive {
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.3rem;
+}
