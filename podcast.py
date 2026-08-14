@@ -84,6 +84,36 @@ def _log(msg: str) -> None:
     print(f"[{ts}] {msg}", flush=True)
 
 
+def _topic_to_feed() -> dict[str, str]:
+    """Map each topic string to its feed key."""
+    return {topic: f["key"] for f in FEEDS for topic in f["topics"]}
+
+
+def _load_feed_events(state_file: Path = STATE_FILE, date: str | None = None) -> dict[str, list[dict]]:
+    """Return {feed_key: [events sorted by importance desc]} for today.
+
+    Events whose topic isn't in any feed are silently dropped."""
+    date = date or _today()
+    result: dict[str, list[dict]] = {f["key"]: [] for f in FEEDS}
+    if not state_file.exists():
+        return result
+    try:
+        state = json.loads(state_file.read_text())
+    except Exception:
+        return result
+    stored = state.get("today_events") or {}
+    if stored.get("date") != date:
+        return result
+    t2f = _topic_to_feed()
+    for ev in stored.get("events", []):
+        feed_key = t2f.get(ev.get("topic", ""))
+        if feed_key:
+            result[feed_key].append(ev)
+    for key in result:
+        result[key].sort(key=lambda e: e.get("importance", 0), reverse=True)
+    return result
+
+
 def run(dry_run: bool = False) -> None:
     pass  # implemented in a later task
 
