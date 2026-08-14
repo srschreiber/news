@@ -260,6 +260,35 @@ def _render_tts(script: str, output_path: Path) -> None:
         output_path.write_bytes(resp.read())
 
 
+def _prune_old_audio(feed_dir: Path, keep_days: int = AUDIO_KEEP_DAYS,
+                     today: dt.date | None = None) -> None:
+    """Delete MP3 files in feed_dir older than keep_days."""
+    if not feed_dir.exists():
+        return
+    today = today or dt.date.today()
+    cutoff = today - dt.timedelta(days=keep_days - 1)
+    for mp3 in feed_dir.glob("*.mp3"):
+        try:
+            file_date = dt.date.fromisoformat(mp3.stem)
+        except ValueError:
+            continue
+        if file_date < cutoff:
+            mp3.unlink()
+
+
+def _available_episodes(feed_dir: Path) -> list[str]:
+    """Return date strings (YYYY-MM-DD) for existing MP3s, newest first."""
+    if not feed_dir.exists():
+        return []
+    dates = []
+    for mp3 in feed_dir.glob("*.mp3"):
+        try:
+            dates.append(dt.date.fromisoformat(mp3.stem).isoformat())
+        except ValueError:
+            continue
+    return sorted(dates, reverse=True)
+
+
 def run(dry_run: bool = False) -> None:
     pass  # implemented in a later task
 

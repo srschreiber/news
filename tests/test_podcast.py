@@ -92,3 +92,27 @@ def test_render_tts_missing_key_raises(monkeypatch):
         assert False, "should have raised"
     except RuntimeError as e:
         assert "OPENAI_API_KEY" in str(e)
+
+
+def test_prune_old_audio_removes_old_files(tmp_path):
+    import podcast as p
+    feed_dir = tmp_path / "technology"
+    feed_dir.mkdir()
+    today = dt.date(2026, 8, 14)
+    # Create files: 3 recent (delta 0,1,2), 2 old (delta 6,10)
+    for delta in [0, 1, 2, 6, 10]:
+        d = (today - dt.timedelta(days=delta)).isoformat()
+        (feed_dir / f"{d}.mp3").write_bytes(b"x")
+    p._prune_old_audio(feed_dir, keep_days=5, today=today)
+    remaining = sorted(f.name for f in feed_dir.iterdir())
+    assert remaining == ["2026-08-12.mp3", "2026-08-13.mp3", "2026-08-14.mp3"]
+
+
+def test_available_episodes_returns_sorted_dates(tmp_path):
+    import podcast as p
+    feed_dir = tmp_path / "world"
+    feed_dir.mkdir()
+    for d in ["2026-08-12", "2026-08-14", "2026-08-13"]:
+        (feed_dir / f"{d}.mp3").write_bytes(b"x")
+    eps = p._available_episodes(feed_dir)
+    assert eps == ["2026-08-14", "2026-08-13", "2026-08-12"]
