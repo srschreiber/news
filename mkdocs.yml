@@ -39,6 +39,7 @@ extra_css:
 
 extra_javascript:
   - assets/share.js
+  - assets/api-status.js
 
 plugins:
   - search

@@ -982,6 +982,35 @@ def _load_dotenv(path: Path = ROOT / ".env") -> None:
         os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
 
 
+def _check_serper_credits() -> int | None:
+    """Return Serper credit balance, or None if unavailable."""
+    key = os.environ.get("SERPER_DEV_API_KEY", "")
+    if not key:
+        return None
+    try:
+        req = urllib.request.Request(
+            "https://google.serper.dev/account",
+            headers={"X-API-KEY": key},
+        )
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            return json.loads(resp.read()).get("credits")
+    except Exception:
+        return None
+
+
+def _write_api_status(warnings: list[str]) -> None:
+    """Write docs/assets/api-status.json so the site banner JS can read it."""
+    payload = {
+        "updated": now_utc().isoformat(),
+        "warnings": warnings,
+    }
+    status_path = DOCS / "assets" / "api-status.json"
+    try:
+        status_path.write_text(json.dumps(payload, indent=2) + "\n")
+    except Exception:
+        pass
+
+
 def _cost_of(by_model: dict, web_searches: int) -> float:
     total = web_searches * WEB_SEARCH_COST_PER_1K / 1000.0
     for model, t in by_model.items():
@@ -3348,6 +3377,12 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     rebuild_topic_pages()
     rebuild_feed_pages(feed_last_refresh=feed_last_refresh)
     record_metrics("daily", run_start)
+    # Credit monitoring — write status for site banner
+    api_warnings: list[str] = []
+    serper_credits = _check_serper_credits()
+    if serper_credits is not None and serper_credits < 100:
+        api_warnings.append(f"Serper: {serper_credits} credits remaining — running low")
+    _write_api_status(api_warnings)
     log("daily run complete")
 
 
