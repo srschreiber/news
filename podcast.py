@@ -104,10 +104,9 @@ def _load_feed_events(state_file: Path = STATE_FILE, date: str | None = None) ->
     stored = state.get("today_events") or {}
     if stored.get("date") != date:
         return result
-    t2f = _topic_to_feed()
     for ev in stored.get("events", []):
-        feed_key = t2f.get(ev.get("topic", ""))
-        if feed_key:
+        feed_key = ev.get("primary_feed") or (ev.get("feeds") or [None])[0]
+        if feed_key and feed_key in result:
             result[feed_key].append(ev)
     for key in result:
         result[key].sort(key=lambda e: e.get("importance", 0), reverse=True)
