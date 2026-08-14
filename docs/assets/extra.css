@@ -500,3 +500,13 @@ h3:hover > .share-link,
   height: 2.5rem;
   width: auto;
 }
+
+/* ── Crawler-only story list (hidden from humans, indexed by search engines) ── */
+.crawler-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

@@ -2955,6 +2955,25 @@ def rebuild_index() -> None:
         f"[Request a new topic]({REPO_URL}/issues/new?template=topic-request.yml).",
         "",
     ]
+    # Static story list for crawlers — hidden visually, indexed by Google/social.
+    records = load_search_index()
+    today_records = [r for r in records if r.get("date") == today_str]
+    today_records.sort(key=lambda r: r.get("importance", 0), reverse=True)
+    if today_records:
+        lines += [
+            "",
+            '<div class="crawler-only" aria-hidden="true">',
+        ]
+        for r in today_records[:20]:
+            url = r.get("url", "")
+            title = html.escape(r.get("title", ""))
+            summary = html.escape(r.get("summary") or r.get("one_liner") or "")
+            lines.append(f'<div><a href="{url}">{title}</a>')
+            if summary:
+                lines.append(f'<p>{summary}</p>')
+            lines.append("</div>")
+        lines.append("</div>")
+
     (DOCS / "index.md").write_text("\n".join(lines) + "\n")
     log("rebuilt docs/index.md")
 
