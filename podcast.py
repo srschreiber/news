@@ -240,6 +240,26 @@ def _generate_script(feed: dict, events: list[dict], date: str) -> str:
     return ""
 
 
+def _render_tts(script: str, output_path: Path) -> None:
+    """Call OpenAI TTS and write MP3 bytes to output_path."""
+    key = os.environ.get("OPENAI_API_KEY", "")
+    if not key:
+        raise RuntimeError("OPENAI_API_KEY not set")
+    body = json.dumps({"model": TTS_MODEL, "input": script, "voice": TTS_VOICE}).encode()
+    req = urllib.request.Request(
+        "https://api.openai.com/v1/audio/speech",
+        data=body,
+        headers={
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with urllib.request.urlopen(req, timeout=120) as resp:
+        output_path.write_bytes(resp.read())
+
+
 def run(dry_run: bool = False) -> None:
     pass  # implemented in a later task
 

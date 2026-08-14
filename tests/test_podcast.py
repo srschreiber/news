@@ -82,3 +82,13 @@ def test_format_events_for_prompt_caps_at_max():
     ]
     text = p._format_events_for_prompt(events, max_events=5)
     assert text.count("Story") == 5
+
+
+def test_render_tts_missing_key_raises(monkeypatch):
+    import podcast as p
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    try:
+        p._render_tts("Hello world", Path("/tmp/test.mp3"))
+        assert False, "should have raised"
+    except RuntimeError as e:
+        assert "OPENAI_API_KEY" in str(e)
