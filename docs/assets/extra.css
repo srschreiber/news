@@ -633,3 +633,20 @@ h3:hover > .share-link,
   border-left: 3px solid #f6ad3c;
   margin-top: 0.2rem;
 }
+
+/* Story history timeline in deck panel */
+.pv-timeline {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--light);
+}
+.pv-tl-node { white-space: nowrap; }
+.pv-tl-current { color: #f6ad3c; font-weight: 700; }
+.pv-tl-sep { color: var(--md-default-fg-color--lightest); margin: 0 0.1rem; }
+.pv-hist-entry { padding: 0.2rem 0; }
+.pv-hist-current { font-weight: 600; font-size: 0.82rem; }
+.pv-hist-link { font-size: 0.82rem; }

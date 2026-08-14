@@ -37,6 +37,36 @@
     }
     return depth;
   }
+
+  // Build ordered history: [{title, url, date}, ...] newest first.
+  function buildChain(r) {
+    var chain = [], cur = r, seen = {};
+    while (cur && !seen[cur.url] && chain.length < 7) {
+      seen[cur.url] = true;
+      chain.push({ title: cur.title, url: cur.url, date: cur.date || "" });
+      if (!cur.updatesUrl) break;
+      cur = ALL_BY_URL[cur.updatesUrl] || null;
+      if (!cur) {
+        // Linked record not in index — use the title/url from parent
+        var last = chain[chain.length - 1];
+        var parentR = (function () {
+          for (var u in ALL_BY_URL) {
+            if (ALL_BY_URL[u].updatesUrl === last.url) return null; // avoid re-lookup
+          }
+          return null;
+        })();
+        break;
+      }
+    }
+    return chain;
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "";
+    var d = new Date(iso + "T00:00:00");
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString([], { month: "short", day: "numeric" });
+  }
   var LABELS = { daily: "Daily", weekly: "Weekly", monthly: "Monthly" };
   var PAGE_SIZE = 6;
   var feedMeta = DATA.feedMeta || {};
@@ -265,18 +295,34 @@
             esc(r.relatedTitle) + "</a></div>";
         }
 
-        // Deck reveal panel for update chain
+        // Deck reveal panel — timeline + full history
         if (depth > 0) {
-          var prev = ALL_BY_URL[r.updatesUrl] || null;
-          var prevTitle = prev ? prev.title : r.updatesTitle;
-          var prevSummary = prev ? (prev.summary || prev.one_liner || "") : "";
+          var chain = buildChain(r);
+          // Timeline row: Aug 14 ●── Aug 13 ── Aug 11
+          var timelineHtml = '<div class="pv-timeline">';
+          chain.forEach(function (node, idx) {
+            if (idx > 0) timelineHtml += '<span class="pv-tl-sep">──</span>';
+            timelineHtml += '<span class="pv-tl-node' + (idx === 0 ? ' pv-tl-current' : '') + '">' +
+              (idx === 0 ? '●' : '○') + ' ' + esc(fmtDate(node.date)) + '</span>';
+          });
+          timelineHtml += '</div>';
+
+          // History entries: current card bold, previous ones progressively lighter
+          var historyHtml = '';
+          chain.forEach(function (node, idx) {
+            var opacity = Math.max(0.45, 1 - idx * 0.18);
+            historyHtml += '<div class="pv-hist-entry" style="opacity:' + opacity + '">' +
+              (idx === 0
+                ? '<span class="pv-hist-current">' + esc(node.title) + '</span>'
+                : '<a href="' + esc(prefix + node.url) + '" class="pv-hist-link">' + esc(node.title) + '</a>') +
+              '</div>';
+          });
+
           html += '<div class="pv-prev-panel" id="pv-prev-' + i + '" hidden>' +
-            '<div class="pv-prev-label">Previous story</div>' +
-            '<div class="pv-prev-title"><a href="' + esc(prefix + r.updatesUrl) + '">' + esc(prevTitle) + '</a></div>' +
-            (prevSummary ? '<div class="pv-prev-summary">' + esc(prevSummary) + '</div>' : '') +
-            (depth > 1 ? '<div class="pv-prev-depth">+' + (depth - 1) + ' earlier update' + (depth > 2 ? 's' : '') + '</div>' : '') +
+            '<div class="pv-prev-label">' + chain.length + ' version' + (chain.length > 1 ? 's' : '') + ' of this story</div>' +
+            timelineHtml + historyHtml +
             '</div>';
-          html += '<button class="pv-deck-tab" data-target="pv-prev-' + i + '" aria-label="Show previous story">◀</button>';
+          html += '<button class="pv-deck-tab" data-target="pv-prev-' + i + '" aria-label="Show story history">◀</button>';
         }
 
         html += "</div>";
