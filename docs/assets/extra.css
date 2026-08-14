@@ -542,3 +542,7 @@ h3:hover > .share-link,
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+/* Always show site name in header — prevent page title from replacing it on scroll. */
+.md-header__title .md-header__topic:nth-child(2) { display: none; }
+.md-header__title .md-header__topic:first-child { opacity: 1 !important; transform: none !important; }
