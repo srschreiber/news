@@ -2920,33 +2920,35 @@ def rebuild_index() -> None:
         if fun:
             record_fun_fact(fun)
 
-    # Compact teaser bar linking down to the cards below the stories section.
-    teaser_parts = []
+    # Collapsible daily panels at the top — open by default, user can collapse.
     esc = html.escape
     if wotd:
-        teaser_parts.append(
-            f'<a href="#wotd">\U0001F4D6 Word of the day: <strong>{esc(wotd["word"])}</strong></a>'
+        lines += (
+            [f'<details class="daily-panel" open>',
+             f'<summary>\U0001F4D6 Word of the day &middot; <strong>{esc(wotd["word"])}</strong></summary>',
+             ''] +
+            _wotd_card(wotd) +
+            ['</details>', '']
+        )
+    if fact:
+        lines += (
+            ['<details class="daily-panel" open>',
+             '<summary>\U0001F4C5 On this day</summary>',
+             ''] +
+            _fact_card(fact) +
+            ['</details>', '']
         )
     if fun:
-        teaser_parts.append('<a href="#fun-fact">\U0001F4A1 Fact of the day</a>')
-    if fact:
-        teaser_parts.append('<a href="#on-this-day">\U0001F4C5 On this day</a>')
-    if teaser_parts:
-        lines += [
-            '<div class="daily-teasers">',
-            "\n".join(teaser_parts),
-            "</div>",
-            "",
-        ]
+        lines += (
+            ['<details class="daily-panel" open>',
+             '<summary>\U0001F4A1 Fact of the day</summary>',
+             ''] +
+            _funfact_card(fun) +
+            ['</details>', '']
+        )
 
     lines += ["## Top stories", ""]
     lines += _period_view_block(load_search_index(), feeds=feeds)
-    if wotd:
-        lines += _wotd_card(wotd)
-    if fact:
-        lines += _fact_card(fact)
-    if fun:
-        lines += _funfact_card(fun)
     lines += [
         "",
         "---",

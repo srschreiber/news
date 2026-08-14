@@ -131,19 +131,34 @@
 }
 
 /* Compact teaser bar at the top of the home page linking down to cards. */
-.daily-teasers {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.1rem;
-  margin: 0 0 1.4rem;
+/* Collapsible daily panels (word, on-this-day, fact) */
+.md-typeset .daily-panel {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  padding: 0;
+  background: var(--md-code-bg-color);
+}
+.md-typeset .daily-panel > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.5rem 0.85rem;
   font-size: 0.82rem;
-}
-.md-typeset .daily-teasers a {
+  font-weight: 600;
   color: var(--md-default-fg-color--light);
-  text-decoration: none;
-  white-space: nowrap;
+  user-select: none;
 }
-.md-typeset .daily-teasers a:hover { color: var(--md-accent-fg-color); text-decoration: underline; }
+.md-typeset .daily-panel > summary::-webkit-details-marker { display: none; }
+.md-typeset .daily-panel > summary::before { content: "▸ "; font-size: 0.65rem; transition: transform 0.15s; display: inline-block; }
+.md-typeset .daily-panel[open] > summary::before { transform: rotate(90deg); }
+.md-typeset .daily-panel > summary:hover { color: var(--md-default-fg-color); }
+.md-typeset .daily-panel .wotd,
+.md-typeset .daily-panel .fact {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
 
 /* Word of the day card on the home page. */
 .md-typeset .wotd {
