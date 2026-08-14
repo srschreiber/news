@@ -360,45 +360,6 @@
   margin-right: 0.3rem;
   vertical-align: middle;
 }
-/* Deck reveal tab — anchored to right edge of card */
-.pv-deck-tab {
-  position: absolute;
-  right: -1.4rem;
-  top: 50%;
-  transform: translateY(-50%);
-  background: var(--md-code-bg-color);
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-left: none;
-  border-radius: 0 4px 4px 0;
-  color: var(--md-default-fg-color--light);
-  cursor: pointer;
-  font-size: 0.65rem;
-  padding: 0.4rem 0.25rem;
-  line-height: 1;
-  z-index: 2;
-}
-.pv-deck-tab:hover, .pv-deck-tab--open { color: #f6ad3c; border-color: #f6ad3c; }
-/* Previous story reveal panel */
-.pv-prev-panel {
-  margin-top: 0.5rem;
-  padding: 0.6rem 0.75rem;
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-left: 3px solid #f6ad3c;
-  border-radius: 4px;
-  background: var(--md-default-bg-color);
-  font-size: 0.82rem;
-}
-.pv-prev-label {
-  font-size: 0.6rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--md-default-fg-color--light);
-  margin-bottom: 0.25rem;
-}
-.pv-prev-title { font-weight: 600; }
-.pv-prev-summary { color: var(--md-default-fg-color--light); margin-top: 0.2rem; }
-.pv-prev-depth { font-size: 0.72rem; color: var(--md-default-fg-color--light); margin-top: 0.2rem; }
 /* Ranking note */
 .pv-rank-note {
   font-size: 0.72rem;
@@ -617,11 +578,29 @@ h3:hover > .share-link,
 .md-header__title .md-header__topic:nth-child(2) { display: none; }
 .md-header__title .md-header__topic:first-child { opacity: 1 !important; transform: none !important; }
 
-/* Source count + freshness in card footer */
-.pv-src-count {
-  font-weight: 600;
+/* Sources in card footer — always show name(s) */
+.pv-src { font-size: 0.72rem; color: var(--md-default-fg-color--light); }
+.pv-src-toggle-btn {
+  font: inherit;
+  font-size: 0.68rem;
+  background: none;
+  border: none;
   color: var(--md-default-fg-color--light);
-  cursor: default;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline dotted;
+}
+.pv-src-rest { font-size: 0.72rem; color: var(--md-default-fg-color--light); }
+
+/* Key Takeaways section */
+.pv-takeaways-block { margin-top: 0.4rem; }
+.pv-section-label {
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.2rem;
 }
 
 /* First takeaway always visible */
@@ -631,22 +610,21 @@ h3:hover > .share-link,
   line-height: 1.5;
   padding-left: 0.9rem;
   border-left: 3px solid #f6ad3c;
-  margin-top: 0.2rem;
 }
 
-/* Story history timeline in deck panel */
+/* Story history timeline — clickable, at card bottom */
 .pv-timeline {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 0.1rem;
-  margin-bottom: 0.6rem;
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
   font-size: 0.72rem;
   color: var(--md-default-fg-color--light);
 }
-.pv-tl-node { white-space: nowrap; }
+.pv-tl-node { white-space: nowrap; cursor: pointer; user-select: none; }
+.pv-tl-node:hover { color: #f6ad3c; }
 .pv-tl-current { color: #f6ad3c; font-weight: 700; }
 .pv-tl-sep { color: var(--md-default-fg-color--lightest); margin: 0 0.1rem; }
-.pv-hist-entry { padding: 0.2rem 0; }
-.pv-hist-current { font-weight: 600; font-size: 0.82rem; }
-.pv-hist-link { font-size: 0.82rem; }

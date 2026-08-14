@@ -28,35 +28,17 @@
     (DATA[p] || []).forEach(function (r) { if (r.url) ALL_BY_URL[r.url] = r; });
   });
 
-  function chainDepth(r) {
-    var depth = 0, cur = r, seen = {};
-    while (cur && cur.updatesUrl && !seen[cur.updatesUrl] && depth < 6) {
-      seen[cur.updatesUrl] = true;
-      cur = ALL_BY_URL[cur.updatesUrl];
-      depth++;
-    }
-    return depth;
-  }
-
-  // Build ordered history: [{title, url, date}, ...] newest first.
+  // Build ordered history: [{title, url, date, summary, takeaways}, ...] newest first.
+  // Returns single-element array if no prior versions are in the loaded index.
   function buildChain(r) {
     var chain = [], cur = r, seen = {};
     while (cur && !seen[cur.url] && chain.length < 7) {
       seen[cur.url] = true;
-      chain.push({ title: cur.title, url: cur.url, date: cur.date || "" });
+      chain.push({ title: cur.title, url: cur.url, date: cur.date || "",
+                   summary: cur.summary || "", takeaways: cur.takeaways || [] });
       if (!cur.updatesUrl) break;
       cur = ALL_BY_URL[cur.updatesUrl] || null;
-      if (!cur) {
-        // Linked record not in index — use the title/url from parent
-        var last = chain[chain.length - 1];
-        var parentR = (function () {
-          for (var u in ALL_BY_URL) {
-            if (ALL_BY_URL[u].updatesUrl === last.url) return null; // avoid re-lookup
-          }
-          return null;
-        })();
-        break;
-      }
+      if (!cur) break;
     }
     return chain;
   }
@@ -250,26 +232,30 @@
       list.forEach(function (r, i) {
         var href = prefix + r.url;
         var dateNote = period !== "daily" ? '<span class="pv-date">' + esc(r.date) + "</span>" : "";
-        var depth = (r.updatesTitle && r.updatesUrl) ? chainDepth(r) : 0;
-        var cardClass = "pv-card" + (depth > 0 ? " pv-card--update" : "");
-        html += '<div class="' + cardClass + '" data-depth="' + depth + '" data-card-index="' + i + '">';
+        var chain = buildChain(r);
+        var isUpdate = chain.length > 1;
+        var cardDepth = Math.min(chain.length - 1, 3);
+        var cardClass = "pv-card" + (isUpdate ? " pv-card--update" : "");
+        html += '<div class="' + cardClass + '" data-depth="' + cardDepth + '" data-card-index="' + i + '"' +
+          (isUpdate ? ' data-chain="' + esc(JSON.stringify(chain)) + '"' : '') + '>';
 
-        // Header row: title + update badge + share
-        var updateBadge = depth > 0 ? '<span class="pv-update-badge">↩ Update</span> ' : "";
-        html += '<div class="pv-title">' + updateBadge +
+        // Header: title + share (no update badge — timeline conveys update status)
+        html += '<div class="pv-title">' +
           '<span class="pv-title-text" data-url="' + href + '">' + esc(r.title) + "</span>" +
           (dateNote ? " " + dateNote : "") +
           ' <button type="button" class="share-link" data-share-index="' + i + '" ' +
           'title="Copy a link to this story" aria-label="Copy a link to this story">🔗</button></div>';
 
-        if (r.summary) html += '<div class="pv-summary">' + esc(r.summary) + "</div>";
+        html += '<div class="pv-summary">' + (r.summary ? esc(r.summary) : "") + "</div>";
 
         var badgesHtml = badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed") +
           badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
         if (badgesHtml) html += '<div class="pv-badges">' + badgesHtml + "</div>";
 
-        // Takeaways: first one always visible, rest in a toggle
+        // Key Takeaways: first always visible, rest expandable
         if (r.takeaways && r.takeaways.length) {
+          html += '<div class="pv-takeaways-block">';
+          html += '<div class="pv-section-label">Key Takeaways</div>';
           html += '<div class="pv-takeaway-first">▸ ' + esc(r.takeaways[0]) + "</div>";
           if (r.takeaways.length > 1) {
             html += '<details class="pv-takeaways-details"><summary class="pv-expand-btn">+' +
@@ -277,52 +263,50 @@
             r.takeaways.slice(1).forEach(function (t) { html += "<li>" + esc(t) + "</li>"; });
             html += "</ul></details>";
           }
+          html += '</div>';
         }
 
+        // Footer: sources (first name shown, rest expandable) + freshness
         var footerParts = [];
         if (r.sources && r.sources.length) {
-          var srcCount = r.sources.length;
-          var srcLabel = srcCount === 1 ? "1 source" : srcCount + " sources";
-          var srcNames = r.sources.map(function (s) { return s.label || ""; }).filter(Boolean).join(", ");
-          footerParts.push('<span class="pv-src-count"' + (srcNames ? ' title="' + esc(srcNames) + '"' : '') + '>' + srcLabel + '</span>');
+          var srcs = r.sources;
+          var mkLink = function (s) {
+            return s.url
+              ? '<a class="pv-src" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label || "Source") + '</a>'
+              : '<span class="pv-src">' + esc(s.label || "Source") + '</span>';
+          };
+          if (srcs.length === 1) {
+            footerParts.push(mkLink(srcs[0]));
+          } else {
+            var restLinks = srcs.slice(1).map(mkLink).join(" · ");
+            footerParts.push(
+              mkLink(srcs[0]) +
+              ' <button class="pv-src-toggle-btn" type="button" data-count="' + (srcs.length - 1) +
+              '">+' + (srcs.length - 1) + ' more</button>' +
+              '<span class="pv-src-rest" hidden> · ' + restLinks + '</span>'
+            );
+          }
         }
         var localReceived = localTime(r.receivedAt);
         if (localReceived) footerParts.push('<span class="pv-received">Updated ' + localReceived + "</span>");
-        if (footerParts.length) html += '<div class="pv-card-footer">' + footerParts.join(" &middot; ") + "</div>";
+        if (footerParts.length) html += '<div class="pv-card-footer">' + footerParts.join(" · ") + "</div>";
 
         if (r.relatedTitle && r.relatedUrl) {
           html += '<div class="pv-related">See also: <a href="' + prefix + r.relatedUrl + '">' +
             esc(r.relatedTitle) + "</a></div>";
         }
 
-        // Deck reveal panel — timeline + full history
-        if (depth > 0) {
-          var chain = buildChain(r);
-          // Timeline row: Aug 14 ●── Aug 13 ── Aug 11
-          var timelineHtml = '<div class="pv-timeline">';
+        // Clickable timeline at card bottom — only when prior versions exist in the loaded index
+        if (isUpdate) {
+          html += '<div class="pv-timeline">';
           chain.forEach(function (node, idx) {
-            if (idx > 0) timelineHtml += '<span class="pv-tl-sep">──</span>';
-            timelineHtml += '<span class="pv-tl-node' + (idx === 0 ? ' pv-tl-current' : '') + '">' +
+            if (idx > 0) html += '<span class="pv-tl-sep">──</span>';
+            html += '<span class="pv-tl-node' + (idx === 0 ? ' pv-tl-current' : '') +
+              '" data-chain-idx="' + idx + '" data-date="' + esc(fmtDate(node.date)) +
+              '" role="button" tabindex="0">' +
               (idx === 0 ? '●' : '○') + ' ' + esc(fmtDate(node.date)) + '</span>';
           });
-          timelineHtml += '</div>';
-
-          // History entries: current card bold, previous ones progressively lighter
-          var historyHtml = '';
-          chain.forEach(function (node, idx) {
-            var opacity = Math.max(0.45, 1 - idx * 0.18);
-            historyHtml += '<div class="pv-hist-entry" style="opacity:' + opacity + '">' +
-              (idx === 0
-                ? '<span class="pv-hist-current">' + esc(node.title) + '</span>'
-                : '<a href="' + esc(prefix + node.url) + '" class="pv-hist-link">' + esc(node.title) + '</a>') +
-              '</div>';
-          });
-
-          html += '<div class="pv-prev-panel" id="pv-prev-' + i + '" hidden>' +
-            '<div class="pv-prev-label">' + chain.length + ' version' + (chain.length > 1 ? 's' : '') + ' of this story</div>' +
-            timelineHtml + historyHtml +
-            '</div>';
-          html += '<button class="pv-deck-tab" data-target="pv-prev-' + i + '" aria-label="Show story history">◀</button>';
+          html += '</div>';
         }
 
         html += "</div>";
@@ -411,15 +395,56 @@
         }
       });
     });
-    mount.querySelectorAll(".pv-deck-tab").forEach(function (btn) {
+    mount.querySelectorAll(".pv-src-toggle-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        var targetId = btn.getAttribute("data-target");
-        var panel = document.getElementById(targetId);
-        if (!panel) return;
-        var open = !panel.hidden;
-        panel.hidden = open;
-        btn.textContent = open ? "◀" : "▶";
-        btn.classList.toggle("pv-deck-tab--open", !open);
+        var rest = btn.nextElementSibling;
+        if (!rest) return;
+        var nowHidden = !rest.hidden;
+        rest.hidden = nowHidden;
+        btn.textContent = nowHidden ? "+" + btn.getAttribute("data-count") + " more" : "−";
+      });
+    });
+    mount.querySelectorAll(".pv-tl-node[data-chain-idx]").forEach(function (node) {
+      node.addEventListener("click", function () {
+        var card = node.closest(".pv-card");
+        if (!card) return;
+        var chainData;
+        try { chainData = JSON.parse(card.getAttribute("data-chain") || "[]"); } catch (e) { return; }
+        var idx = parseInt(node.getAttribute("data-chain-idx"), 10);
+        var item = chainData[idx];
+        if (!item) return;
+
+        // Update timeline markers
+        card.querySelectorAll(".pv-tl-node").forEach(function (n) {
+          n.classList.remove("pv-tl-current");
+          n.textContent = "○ " + n.getAttribute("data-date");
+        });
+        node.classList.add("pv-tl-current");
+        node.textContent = "● " + node.getAttribute("data-date");
+
+        // Swap card content to the selected version
+        var titleEl = card.querySelector(".pv-title-text");
+        if (titleEl) {
+          titleEl.textContent = item.title;
+          titleEl.setAttribute("data-url", prefix + item.url);
+        }
+        var summaryEl = card.querySelector(".pv-summary");
+        if (summaryEl) summaryEl.textContent = item.summary || "";
+
+        var takeFirst = card.querySelector(".pv-takeaway-first");
+        if (takeFirst) takeFirst.textContent = item.takeaways && item.takeaways.length ? "▸ " + item.takeaways[0] : "";
+        var takeDetails = card.querySelector(".pv-takeaways-details");
+        if (takeDetails) {
+          if (item.takeaways && item.takeaways.length > 1) {
+            var sumEl = takeDetails.querySelector("summary");
+            if (sumEl) sumEl.textContent = "+" + (item.takeaways.length - 1) + " more";
+            var ul = takeDetails.querySelector("ul");
+            if (ul) ul.innerHTML = item.takeaways.slice(1).map(function (t) { return "<li>" + esc(t) + "</li>"; }).join("");
+            takeDetails.hidden = false;
+          } else {
+            takeDetails.hidden = true;
+          }
+        }
       });
     });
   }
