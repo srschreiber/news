@@ -9,8 +9,8 @@ repo_name: srschreiber/news
 theme:
   name: material
   custom_dir: overrides    # footer star CTA (partials/copyright.html)
-  logo: assets/logo.svg
-  favicon: assets/logo.svg
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     # Newspaper look: black masthead + amber accent.
     - media: "(prefers-color-scheme: light)"
@@ -67,6 +67,7 @@ nav:
   - Words: words.md
   - Facts: facts.md
   - Search: search.md
+  - Donate: https://donate.stripe.com/8x2aEWacsatL7bq2IU8ww00
 
 not_in_nav: |
   news/**
