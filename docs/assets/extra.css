@@ -301,7 +301,7 @@
     width: 100%;
   }
   .pv-filter:last-child { border-bottom: none; }
-  .pv-filter label { width: 100%; }
+  .pv-filter label { width: 100%; padding-right: 0; }
   .pv-filter select { max-width: none; flex: 1; }
 }
 
