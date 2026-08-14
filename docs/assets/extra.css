@@ -337,9 +337,9 @@
 }
 .pv-title { font-weight: 600; }
 .pv-summary {
-  font-size: 0.85rem;
-  color: var(--md-default-fg-color--light);
-  line-height: 1.45;
+  font-size: 0.9rem;
+  color: var(--md-default-fg-color);
+  line-height: 1.5;
 }
 .pv-badges { margin-top: 0.1rem; }
 .pv-date {
