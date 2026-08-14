@@ -162,12 +162,10 @@
 
   function badgeRow(label, items, cls, dataAttr) {
     if (!items || !items.length) return "";
-    var badges = items.map(function (t) {
+    return items.map(function (t) {
       return '<span class="' + cls + '" data-' + dataAttr + '="' + esc(t.key) + '">' +
         esc(t.title) + "</span>";
     }).join(" ");
-    return '<div class="pv-meta-row"><span class="pv-meta-label">' + label + ":</span> " +
-      badges + "</div>";
   }
 
   function render() {
@@ -248,10 +246,6 @@
 
         html += '<div class="pv-summary">' + (r.summary ? esc(r.summary) : "") + "</div>";
 
-        var badgesHtml = badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed") +
-          badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
-        if (badgesHtml) html += '<div class="pv-badges">' + badgesHtml + "</div>";
-
         // Key Takeaways: first always visible, rest expandable
         if (r.takeaways && r.takeaways.length) {
           html += '<div class="pv-takeaways-block">';
@@ -266,8 +260,11 @@
           html += '</div>';
         }
 
-        // Footer: sources (first name shown, rest expandable) + freshness
+        // Footer: badges + sources (first visible, rest expandable) + freshness
+        var badgesHtml = badgeRow("Feed", r.feeds, "pv-feed-badge", "filter-feed") +
+          badgeRow("Subfeed", r.subfeeds, "pv-subfeed-badge", "filter-subfeed");
         var footerParts = [];
+        if (badgesHtml) footerParts.push(badgesHtml);
         if (r.sources && r.sources.length) {
           var srcs = r.sources;
           var mkLink = function (s) {

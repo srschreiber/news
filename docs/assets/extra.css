@@ -373,7 +373,6 @@
   color: var(--md-default-fg-color);
   line-height: 1.5;
 }
-.pv-badges { margin-top: 0.1rem; }
 .pv-date {
   font-variant-numeric: tabular-nums;
   font-size: 0.78rem;
@@ -411,15 +410,6 @@ details[open] > .pv-expand-btn::before { transform: rotate(90deg); }
   color: var(--md-default-fg-color--light);
 }
 
-.pv-meta-row {
-  margin-top: 0.3rem;
-  font-size: 0.78rem;
-  color: var(--md-default-fg-color--light);
-}
-.pv-meta-label {
-  font-weight: 600;
-  margin-right: 0.15rem;
-}
 .pv-feed-badge,
 .pv-subfeed-badge {
   display: inline-block;
