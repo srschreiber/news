@@ -1,5 +1,111 @@
 [
   {
+    "timestamp": "2026-08-15T08:13:15.737187+00:00",
+    "mode": "daily",
+    "calls": 39,
+    "web_searches": 19,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 52636,
+        "output": 14099,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 1976,
+        "output": 510,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1467,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 10805,
+            "output": 7965,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0506
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 394,
+            "output": 40,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0006
+      },
+      "(merge-check)": {
+        "calls": 24,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 15074,
+            "output": 216,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0162
+      },
+      "(read)": {
+        "calls": 11,
+        "web_searches": 4,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 26363,
+            "output": 5878,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0598
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 1976,
+            "output": 510,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0045
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 23,
+      "Google News \u2014 World": 4,
+      "Google News \u2014 Anthropic": 3,
+      "Phys.org": 2,
+      "Mongabay": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Google News \u2014 Python": 1,
+      "Google News \u2014 OpenAI GPT": 1,
+      "Hacker News (front page)": 1,
+      "Google News \u2014 AI models": 1
+    }
+  },
+  {
     "timestamp": "2026-08-15T06:16:38.862240+00:00",
     "mode": "daily",
     "calls": 47,
