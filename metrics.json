@@ -1,5 +1,80 @@
 [
   {
+    "timestamp": "2026-08-16T10:10:55.567151+00:00",
+    "mode": "daily",
+    "calls": 34,
+    "web_searches": 15,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 42942,
+        "output": 13333,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1246,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 10859,
+            "output": 7958,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0506
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(merge-check)": {
+        "calls": 22,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 13831,
+            "output": 198,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0148
+      },
+      "(read)": {
+        "calls": 10,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 18252,
+            "output": 5177,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0441
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 30,
+      "Inside Climate News": 3,
+      "Google News \u2014 Anthropic": 2,
+      "Wired": 2,
+      "Live Science": 2,
+      "Space.com": 2,
+      "Google News \u2014 World": 2,
+      "The Register": 1,
+      "Google News \u2014 PostgreSQL": 1,
+      "Google News \u2014 cybersecurity": 1,
+      "Google News \u2014 space": 1
+    }
+  },
+  {
     "timestamp": "2026-08-16T08:14:02.318688+00:00",
     "mode": "daily",
     "calls": 22,
