@@ -37,6 +37,43 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "pgconfnepal-2026-conference-call-for-participation",
+    "title": "PGConf.Nepal 2026 conference call for participation",
+    "summary": "The PostgreSQL community conference in Nepal for 2026 is announcing its participation call.",
+    "theme": "Technology",
+    "importance": 3,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "PostgreSQL",
+      "conference",
+      "Nepal",
+      "PGConf"
+    ],
+    "url": "news/postgres/2026-08-16/#pgconfnepal-2026-conference-call-for-participation",
+    "sources": [
+      {
+        "label": "Хабр",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pMGdRbkNmV2JJSTJ4QkxtSUVHT2VIaFdrQTg4YnduUHRXem16ZDNieUprTTNxb2YtdkRxWlFJMDk2Vzd3S1ctYlNZRkJsTjlfYms4NGRVSUrSAVhBVV95cUxOaTBnUW5DZldiSUkyeEJMbUlFR09lSGhXa0E4OGJ3blB0V3ptemQzYnlKa00zcW9mLXZEcVpRSTA5Nlc3d0tXLWJTWUZCbE45X2JrODRkVUlK?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "pgconfnepal-2026-conference-call-for-participation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "chatgpt-computer-history-feature-what-it-does-and-how-it-compares-to-microsoft-recall",
     "title": "ChatGPT Computer History feature: what it does and how it compares to Microsoft Recall",
     "summary": "Analysis explains ChatGPT's Computer History feature, its functionality, and its differences from Microsoft's Recall technology.",
@@ -66,43 +103,6 @@
     "researched": false,
     "received_at": "2026-08-16T06:19:01.749408+00:00",
     "lineage_id": "chatgpt-computer-history-feature-what-it-does-and-how-it-compares-to-microsoft-recall",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-16",
-    "event_id": "the-25-biggest-cyber-attacks-in-history",
-    "title": "The 25 Biggest Cyber Attacks in History",
-    "summary": "Cybercrime Magazine has compiled a summary of the 25 largest cyber attacks in documented history.",
-    "theme": "Security",
-    "importance": 4.0,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "cyber attacks",
-      "cybercrime",
-      "history",
-      "breach analysis"
-    ],
-    "url": "news/security/2026-08-16/#the-25-biggest-cyber-attacks-in-history",
-    "sources": [
-      {
-        "label": "Cybercrime Magazine",
-        "url": "https://www.google.com/goto?url=CAESggEB7keqTXL9zpFV_QdBfqrEW0gc27JxXTR0euKhQIqHJ9n4x8wVmPcGDd4pBEiTE_3Khpeg3TJpdYtwBASWRxeTyvWtLAJGFy5zJNf8xP22FmZo4GoTfS_GIR_XaN0NO4TzNmlBT_oy2RcSU8hZQ9OWk2m6BpOFR0mPQELLHQliYTji",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-16T08:14:02.318688+00:00",
-    "lineage_id": "the-25-biggest-cyber-attacks-in-history",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -140,6 +140,45 @@
     "researched": false,
     "received_at": "2026-08-16T08:14:02.318688+00:00",
     "lineage_id": "chelan-county-malware-attack-exposes-personal-data",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
+    "event_id": "californias-famous-bald-eagle-jackie-dies-leaving-conservation-legacy",
+    "title": "California's famous bald eagle Jackie dies, leaving conservation legacy",
+    "summary": "Jackie, a beloved 14-year-old bald eagle from Big Bear Lake in California whose livestreamed presence inspired conservation efforts, has died.",
+    "theme": "Conservation",
+    "importance": 5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Jackie",
+      "bald eagle",
+      "Big Bear Lake",
+      "conservation",
+      "livestream"
+    ],
+    "url": "news/conservation/2026-08-16/#californias-famous-bald-eagle-jackie-dies-leaving-conservation-legacy",
+    "sources": [
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/us-news/2026/aug/16/california-jackie-the-bald-eagle-legacy",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "californias-famous-bald-eagle-jackie-dies-leaving-conservation-legacy",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -251,122 +290,6 @@
     "researched": false,
     "received_at": "2026-08-16T06:19:01.749408+00:00",
     "lineage_id": "openais-gpt-56-cyber-found-chrome-security-flaws-and-demands-hardware-authentication",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-16",
-    "event_id": "only-13-of-us-large-cap-stock-picking-funds-beat-benchmarks-over-decade",
-    "title": "Only 13% of U.S. large-cap stock-picking funds beat benchmarks over decade",
-    "summary": "Analysis shows that just 13% of actively managed U.S. large-cap stock-picking funds outperformed their benchmarks over the past ten years.",
-    "theme": "Markets & Investing",
-    "importance": 5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "active funds",
-      "stock-picking",
-      "benchmark",
-      "underperformance"
-    ],
-    "url": "news/markets/2026-08-16/#only-13-of-us-large-cap-stock-picking-funds-beat-benchmarks-over-decade",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUU5uZlJFcm82dWVpYjFMRFpsalRSMUxsOHZJQi1YemRDeXpPRmVMOHFMaURkeFJ4a1NmVldoRktwMTlwYnVLcXZkYkdDeXN0OXg3NHNqcDRLdXJNeHlJcnBKakM2Sk5aSXB6djZHeEJGZmtqbTBqeVItY1FDa1pBV1g3Z3hvenRzYnVST1NEVVhQOWU4aGUwZ2o2RzNENnZiVkg0YXpoVTNaMzVaQVJ0RHRad0c5UWo0MkJKNWctYmQ5RENm?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-16T06:19:01.749408+00:00",
-    "lineage_id": "only-13-of-us-large-cap-stock-picking-funds-beat-benchmarks-over-decade",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-16",
-    "event_id": "dollar-cost-averaging-into-sp-500-during-market-crashes-since-1950-yields-substantial-returns",
-    "title": "Dollar-cost averaging into S&P 500 during market crashes since 1950 yields substantial returns",
-    "summary": "Historical analysis shows that investing $1,000 into the S&P 500 during every market crash since 1950 would have generated substantial cumulative gains by today.",
-    "theme": "Markets",
-    "importance": 5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "S&P 500",
-      "dollar-cost averaging",
-      "market crashes",
-      "investing strategy",
-      "historical returns"
-    ],
-    "url": "news/markets/2026-08-16/#dollar-cost-averaging-into-sp-500-during-market-crashes-since-1950-yields-substantial-returns",
-    "sources": [
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUjhtOWRPbFV2NlA4X2lYMDRNYmhPUGlaQWdlU3U2eTJUR3k3M243aFNHSG1oUXRVVldTd05IVjlxU3lmNm0zSi1abEtJdDNNRnFLNGxoLUR5SEJGRkxXdXJvV05IZk84dXZMbzBmeTRJZmdfY0hHbnRYN3dlOEFwTGludXdOMkpjTXJoWnV0YkFvbzBpZndabg?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVktaWW5SeVdFR3ZPRzByYzNPRU1GQjdSeFhfSDZ3Q3RXY2FMWkVjb3ZYd1Y4Yi1XY2lfSzF3Y3Y0VS1pWEwtdDBCZ183VWlLWmx1MDdtSU9HbFFHUVlQak5EYzU5aXBBclFJVEloZk1ZWlpoeUtwTFJZb3NvcVN3OGZFWUtHdWU0dlliaUxudzk4aXVQSlJN?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-16T12:14:09.839097+00:00",
-    "lineage_id": "dollar-cost-averaging-into-sp-500-during-market-crashes-since-1950-yields-substantial-returns",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-16",
-    "event_id": "stock-market-approaching-historic-milestone-unseen-this-century-historical-precedent-suggests-bullish-outlook",
-    "title": "Stock market approaching historic milestone unseen this century; historical precedent suggests bullish outlook",
-    "summary": "The stock market is nearing a milestone event unprecedented in the 21st century, with historical analysis suggesting a bullish outcome.",
-    "theme": "Markets",
-    "importance": 5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "historical precedent",
-      "market milestone"
-    ],
-    "url": "news/markets/2026-08-16/#stock-market-approaching-historic-milestone-unseen-this-century-historical-precedent-suggests-bullish-outlook",
-    "sources": [
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU0tHSkNHY1RRYUZ3OFpkMWczU20zczlHQjg4UTlPaVNfVjNCMXRtV3RHSlVkWmxzRHVjN05RZS1uY2MtZEZsVlp0bWV6QTFrdkxFMWdtLWNOOVlSWjN6aHhnaVhEdUc1dzJTTWEzOWgwX3dXbC1ud283YmFiQndmVTVaX3A0Nm1ySE42T2pCOGdRWWNsM1pj?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-16T12:14:09.839097+00:00",
-    "lineage_id": "stock-market-approaching-historic-milestone-unseen-this-century-historical-precedent-suggests-bullish-outlook",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -604,6 +527,44 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "cardano-founder-releases-tool-to-remove-anthropic-ai-watermarks",
+    "title": "Cardano founder releases tool to remove Anthropic AI watermarks",
+    "summary": "The founder of Cardano has released a free tool designed to strip watermarks from Anthropic's AI-generated content.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Cardano",
+      "Anthropic",
+      "AI watermark",
+      "Claude",
+      "content detection"
+    ],
+    "url": "news/anthropic/2026-08-16/#cardano-founder-releases-tool-to-remove-anthropic-ai-watermarks",
+    "sources": [
+      {
+        "label": "BeInCrypto",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81Qk5WWXkyVlNwQVRGd0pRR0gwc2lMZWdBNjJQYTJkc29TdzNSbjFEVjI3Z3A3YmlENjIxcnV6aU1PYnQ1RmhRakZOUWlfb1luT3dQNDh5REk0YWZUdHNnUE51aVZRdUJvdy1oS3Vidklkc1RCdE9PZlQ2bFhGSG8?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "cardano-founder-releases-tool-to-remove-anthropic-ai-watermarks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "climate-impact-of-livestock-production-in-america",
     "title": "Climate Impact of Livestock Production in America",
     "summary": "A podcast episode examines the wide-ranging environmental impacts of industrial animal agriculture in the United States.",
@@ -748,6 +709,43 @@
     "researched": false,
     "received_at": "2026-08-16T10:10:55.567151+00:00",
     "lineage_id": "2026-email-security-report-ai-phishing-and-emerging-defense-strategies",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
+    "event_id": "openai-releases-daybreak-tools-to-address-cyber-threats",
+    "title": "OpenAI releases Daybreak tools to address cyber threats",
+    "summary": "OpenAI has introduced new Daybreak tools designed to help identify and mitigate cybersecurity threats.",
+    "theme": "Security",
+    "importance": 5.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Daybreak",
+      "cybersecurity",
+      "threat detection"
+    ],
+    "url": "news/gpt/2026-08-16/#openai-releases-daybreak-tools-to-address-cyber-threats",
+    "sources": [
+      {
+        "label": "Technology Magazine",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQUo5bHlMZk1scDgtZ3g0R1poTFRSc0dOa2FCUXUzWEN1RWNRNThJMVNDaUtBOEpiUHBlOHNydHFndVJvSGtZV0p1X2lodmJGVEh0N1FTX1ltbGFaNTJBcE5VWEp2ZGo0TFFIM1lqYU9vYXFQZzNhT1VVVDI3dGQ1M1RNT2pCVUFzOUgyN0VR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "openai-releases-daybreak-tools-to-address-cyber-threats",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -942,6 +940,49 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "wall-street-bets-on-ai-boom-while-eyeing-federal-reserve-rate-policy",
+    "title": "Wall Street bets on AI boom while eyeing Federal Reserve rate policy",
+    "summary": "Markets are rallying on AI enthusiasm while investors closely watch the Federal Reserve's interest-rate decisions.",
+    "theme": "Markets",
+    "importance": 5.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "AI",
+      "stock market",
+      "Federal Reserve",
+      "interest rates",
+      "Wall Street"
+    ],
+    "url": "news/markets/2026-08-16/#wall-street-bets-on-ai-boom-while-eyeing-federal-reserve-rate-policy",
+    "sources": [
+      {
+        "label": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOazgxdmRpSDgyZkxsR2s2UVVjWm5zMmhwVVRacE9LV19DMVdxdERRZU81dG0zdUx2VE5ZYkktdDgtN29RSmQ1dXFkNzNhelV4Y29IVnNJOG1IWlllWkt3R2VFcnYxQjZXUldQZXpfTUpMVVR4V25TeHA3YXhIR0JKdnIwTGVqVGhGUFN6eWRUUGd1ZVlKQm5URU90Zm1ySmJkQ0t3MmhlRnBidl9tUkhvemIxMGY?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSjJUbUFydGlZMWdFZlpwYkgtM3hVazB3emE1Mm9mQTI2eDcteG9VX2xPbUxFMGdTYkhNbVVnTEpkZVBGZnhncVh2VEpnemZtYWZIek9ZTVBsZ1ZHM0lhTGJNdVRlZzdTNW9Dc3lNbUtJZ1QwRUNEWm85NlBVRFpmV1BiYWk3RTV3WEtzMjkzbDVNaVpxUmhz?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "wall-street-bets-on-ai-boom-while-eyeing-federal-reserve-rate-policy",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "nasas-perseverance-rover-captures-earth-disappearing-behind-phobos-on-mars",
     "title": "NASA's Perseverance Rover Captures Earth Disappearing Behind Phobos on Mars",
     "summary": "NASA's Perseverance rover recorded Earth vanishing behind the Martian moon Phobos from the surface of Mars, nearly 195 million miles away.",
@@ -1014,42 +1055,6 @@
     "related_url": "",
     "updates_title": "NASA Opens New Flight Dynamics Research Facility Wind Tunnel in Hampton, Virginia",
     "updates_url": "news/space/2026-08-15/#nasa-opens-new-flight-dynamics-research-facility-wind-tunnel-in-hampton-virginia"
-  },
-  {
-    "date": "2026-08-16",
-    "event_id": "proofrun-provides-local-verification-receipts-for-ai-coding-agents",
-    "title": "ProofRun provides local verification receipts for AI coding agents",
-    "summary": "ProofRun is a tool that generates local verification receipts documenting the actions and outputs of AI coding agents.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI agents",
-      "code verification",
-      "ProofRun"
-    ],
-    "url": "news/tech/2026-08-16/#proofrun-provides-local-verification-receipts-for-ai-coding-agents",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://github.com/yebiguo/ProofRun",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-16T06:19:01.749408+00:00",
-    "lineage_id": "proofrun-provides-local-verification-receipts-for-ai-coding-agents",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
   },
   {
     "date": "2026-08-16",
@@ -1259,36 +1264,73 @@
   },
   {
     "date": "2026-08-16",
-    "event_id": "healthier-farm-animals-reduce-greenhouse-gas-emissions-through-lower-pregnancy-loss",
-    "title": "Healthier farm animals reduce greenhouse gas emissions through lower pregnancy loss",
-    "summary": "Improving dairy cow health to reduce miscarriages decreases wasted feed, water, and emissions per unit of milk production.",
-    "theme": "Climate & Agriculture",
+    "event_id": "july-jobs-report-disappoints-underlying-weakness-deeper-than-headline-figures-suggest",
+    "title": "July jobs report disappoints; underlying weakness deeper than headline figures suggest",
+    "summary": "July's employment report shows weak results, with underlying economic indicators suggesting even greater weakness when adjusted for seasonal factors.",
+    "theme": "Markets",
     "importance": 6,
     "topics": [
-      "science"
+      "markets"
     ],
     "feeds": [
-      "science"
+      "world"
     ],
-    "primary_feed": "science",
+    "primary_feed": "world",
     "keywords": [
-      "dairy farming",
-      "greenhouse gas emissions",
-      "animal health",
-      "sustainability"
+      "jobs report",
+      "employment",
+      "economic data",
+      "July"
     ],
-    "url": "news/science/2026-08-16/#healthier-farm-animals-reduce-greenhouse-gas-emissions-through-lower-pregnancy-loss",
+    "url": "news/markets/2026-08-16/#july-jobs-report-disappoints-underlying-weakness-deeper-than-headline-figures-suggest",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-healthier-farm-animals-greenhouse-gas.html",
+        "label": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUXVnbEd1ZzQzaHZNYVZRUnhRaVF3S19IaF9HSFhiTzExeHQ4VEZQc2lsRERYdi1FeV81SDFvZTE1cjRWUzBJcGF4LVlmazZZcTRYMmZvbEZLcUthSjNLcDNsQXhUem55TF9mbzJ3MVJZWTVsZVI1NWNrNUlPcnVfT0Itd3VxWDFkTWRBWGh2cFRIMUNqVFJ1UEpIc2p3aHVoSkEtb2EydFpjanIzOEI0VUhfQUljUjAwWUdJWHBkUQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-16T06:19:01.749408+00:00",
-    "lineage_id": "healthier-farm-animals-reduce-greenhouse-gas-emissions-through-lower-pregnancy-loss",
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "july-jobs-report-disappoints-underlying-weakness-deeper-than-headline-figures-suggest",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
+    "event_id": "safepal-security-breach-exposes-39798-customer-records",
+    "title": "Safepal security breach exposes 39,798 customer records",
+    "summary": "A security vulnerability in Safepal exposed personal order information for approximately 40,000 customers, though private keys and seed phrases remained protected.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Safepal",
+      "data breach",
+      "cryptocurrency wallet",
+      "customer exposure"
+    ],
+    "url": "news/security/2026-08-16/#safepal-security-breach-exposes-39798-customer-records",
+    "sources": [
+      {
+        "label": "CoinDesk",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmp0QWVjaXhmMEZ5Q3BCbGhxWFpETWMwNFZrbWNhU2hobmRKT1B0enVVd2pWVHpVMTRuX18wR0JWZUhDelVzT19VQUxLSFZyOHdsRVZvUlBwejVCQVotX0FCdmpoN2x4d3p4OExVMzFNYTRoSl9ORVV2cFdjSnhLbWdTNFNEdU8xSmZkQ3hsYWVqSll2Sy0tNlFacUctbHd0Y3NaU25Xb2ZseGdidkZXbDA1RWRXd2M5QzA3VmlsV2lQYzRfM1Br?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "safepal-security-breach-exposes-39798-customer-records",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1449,6 +1491,43 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "us-strategic-petroleum-reserves-reach-dangerously-low-levels-storage-caverns-at-risk",
+    "title": "U.S. strategic petroleum reserves reach dangerously low levels; storage caverns at risk",
+    "summary": "The U.S. Strategic Petroleum Reserve has declined to levels so low that the underground salt caverns holding the oil face potential structural damage.",
+    "theme": "Policy",
+    "importance": 6,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "strategic petroleum reserve",
+      "oil reserves",
+      "energy security",
+      "infrastructure"
+    ],
+    "url": "news/tech/2026-08-16/#us-strategic-petroleum-reserves-reach-dangerously-low-levels-storage-caverns-at-risk",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.independent.co.uk/news/world/americas/us-politics/strategic-petroleum-reserve-trump-iran-war-gas-prices-b3033680.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "us-strategic-petroleum-reserves-reach-dangerously-low-levels-storage-caverns-at-risk",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "automated-evaluation-reveals-ai-models-express-highest-confidence-when-producing-incorrect-outputs",
     "title": "Automated evaluation reveals AI models express highest confidence when producing incorrect outputs",
     "summary": "An evaluation harness found that large language models are most confident when their answers are wrong, a pattern qualitative review had missed.",
@@ -1488,7 +1567,7 @@
     "date": "2026-08-16",
     "event_id": "anthropic-achieves-highest-revenue-in-july-2026-despite-charging-premium-pricing",
     "title": "Anthropic achieves highest revenue in July 2026 despite charging premium pricing",
-    "summary": "Anthropic generated more revenue than competitors in July 2026 through high token volume and spending, positioning itself as the market leader despite higher costs.",
+    "summary": "Anthropic generated more revenue than competing AI providers in July 2026 despite charging the highest prices per token.",
     "theme": "AI Markets",
     "importance": 6.5,
     "topics": [
@@ -1500,9 +1579,10 @@
     "primary_feed": "technology",
     "keywords": [
       "Anthropic",
-      "revenue",
       "Claude",
-      "pricing"
+      "market share",
+      "pricing",
+      "revenue"
     ],
     "url": "news/anthropic/2026-08-16/#anthropic-achieves-highest-revenue-in-july-2026-despite-charging-premium-pricing",
     "sources": [
@@ -1510,11 +1590,16 @@
         "label": "TechRadar",
         "url": "https://www.techradar.com/pro/anthropic-becomes-the-apple-of-ai-as-it-grabs-most-revenue-despite-being-the-most-expensive",
         "origin": "discovery"
+      },
+      {
+        "label": "TechRadar",
+        "url": "https://www.google.com/goto?url=CAESsQEB7keqTZT5nXbwUifxM1TO0tSg7JF4GR2eRN4lHR0-2MEr03RYw26VWDnCJsC_9-i4InsmISFYXjAUOtuA1qiegsMLjxOM8BB0MzAWEGSy_zQ1Gqui0sBbeRKYBCOFjE8yA772iUwdw-PjAa1ns_eoG6XdMFiRlDSffILTapNzbx6iBm_79jmnBO0qZyyffeOnJwzx22JnPKAKIndtwP34OAKpyRijJXidpCwg-opP6iM%3D",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-16T06:19:01.749408+00:00",
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
     "lineage_id": "anthropic-achieves-highest-revenue-in-july-2026-despite-charging-premium-pricing",
     "related_title": "",
     "related_url": "",
@@ -1971,6 +2056,43 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "michael-burry-warns-of-market-bubble-as-150-year-indicator-nears-record",
+    "title": "Michael Burry warns of market bubble as 150-year indicator nears record",
+    "summary": "Investor Michael Burry has warned of potential market bubble conditions, supported by a 150-year-old technical indicator approaching record levels.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Michael Burry",
+      "market bubble",
+      "technical analysis",
+      "valuation"
+    ],
+    "url": "news/markets/2026-08-16/#michael-burry-warns-of-market-bubble-as-150-year-indicator-nears-record",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcTduMFE5ajFKb2xNTXpHbDNadFhkT1diSnNrR1Z0NHZJekRsRU1iYVZ0LWUwYVVyT0IzcER0ZE1idjRjZnBETGlfSGlSeVFZNS1zNkNONW1NUEZiWGxmTUpLQ3NDMmlsV3NfZnVfclZ3NjFwcllqS1dGY1B5Y3hydEtRUGtrc0RiSnF3QWtmOWZqdW05U0szMEhEQXZ0VEU?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "michael-burry-warns-of-market-bubble-as-150-year-indicator-nears-record",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "building-blocks-of-life-surveyed-in-space",
     "title": "Building Blocks of Life Surveyed in Space",
     "summary": "Researchers review what organic molecules and biosignatures have been detected in space and what remains to be discovered.",
@@ -2415,6 +2537,91 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "anthropic-in-negotiations-to-acquire-israeli-ai-startup-decart-at-6-billion-valuation",
+    "title": "Anthropic in negotiations to acquire Israeli AI startup Decart at $6 billion valuation",
+    "summary": "Anthropic is reportedly discussing the acquisition of Israeli AI startup Decart, which focuses on chip efficiency and generative AI, in what would be the company's first major purchase.",
+    "theme": "Funding",
+    "importance": 7,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Decart",
+      "acquisition",
+      "AI",
+      "chip efficiency"
+    ],
+    "url": "news/anthropic/2026-08-16/#anthropic-in-negotiations-to-acquire-israeli-ai-startup-decart-at-6-billion-valuation",
+    "sources": [
+      {
+        "label": "The Times of Israel",
+        "url": "https://www.google.com/goto?url=CAESpgEB7keqTXefkTzlOPIc0Fd-QEkVnEns_WM0GpmVfUCorwdoGF-AGkW_4iGET42iPEj_v31QYARU0m23BPqGfYgFvouW1kcsL8sAIFkrBNxSkyKsiNJvpXwW68LJIwSg8ehbcCzKwLCfHjUk4GLyZzqJ4qU0gr44k5ckQPn2kXQKMHB9Q_--LH4SeGr8bOEYEPGudqlHBEN3mNyT4yZR7xXB3j-7YuON",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "$6 billion acquisition of Decart AI",
+      "Nvidia-backed Israeli startup",
+      "Deal timed before potential Anthropic IPO"
+    ],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "anthropic-in-talks-to-acquire-israeli-ai-startup-decart-for-6-billion",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic in Talks to Acquire Israeli AI Startup Decart at $6B Valuation",
+    "updates_url": "news/anthropic/2026-08-15/#anthropic-in-talks-to-acquire-israeli-ai-startup-decart-at-6b-valuation"
+  },
+  {
+    "date": "2026-08-16",
+    "event_id": "anthropic-researchers-observe-competing-ai-agents-exhibit-coordination-and-conflict",
+    "title": "Anthropic researchers observe competing AI agents exhibit coordination and conflict",
+    "summary": "Anthropic researchers found that multiple Claude agents deployed on the same task engage in unexpected coordination, conflict, and even collusion.",
+    "theme": "AI Research",
+    "importance": 7,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "agents",
+      "multi-agent",
+      "AI behavior",
+      "coordination"
+    ],
+    "url": "news/anthropic/2026-08-16/#anthropic-researchers-observe-competing-ai-agents-exhibit-coordination-and-conflict",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://www.google.com/goto?url=CAESoQEB7keqTUqLcUa2CDiCUwvVlGq6ZMSpi9PSUdqt2C6ILWSQsiU4ctVIATTHsyhhcPK601w2mfFGW62GlPFT02runK5eaVVGuHle-PNL4MC6RV_28nkcVfDuu92FEAdlQ8ftZwG8Fo8K_yRtUpRBWeKJsG2bCo9ByZYERdtkJJPeZNXKYATjKwOp9NhDqevwoPaePVhE0viaiKkfmpqiL25cwg%3D%3D",
+        "origin": "discovery"
+      },
+      {
+        "label": "Business Insider",
+        "url": "https://www.google.com/goto?url=CAESkQEB7keqTeiPztkoMk4AL-sUOs-IMxrxkw9iUh-Rbwi3aWbxY4Rtvsc-ElcziQpZfJ9HcgYh-VL-D7mDIPMm31-2oVRK1zoT6733pVOjuXG7xhXzV9bQ4Nkxx0XB7PWJFPJc6nkEuqz6vVbARldpU4l5pz5yLyq06Lk72H5fhOahSJJoTyY8Hp4eV8A6nwEEh4S-",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "anthropic-ai-agents-simulated-virtual-war-in-unhinged-chat-logs",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic's Claude Agents Simulate Turf War Behavior",
+    "updates_url": "news/anthropic/2026-08-15/#anthropics-claude-agents-simulate-turf-war-behavior"
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "danube-drought-devastates-crops-and-limits-river-navigation-across-eu",
     "title": "Danube drought devastates crops and limits river navigation across EU",
     "summary": "A severe drought along the Danube River has destroyed crops, stranded river traffic, and cut off drinking water access for some residents across the European Union. Energy-saving measures have been implemented in affected areas, including reduced nighttime lighting of public buildings.",
@@ -2789,6 +2996,48 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "einstein-probe-links-x-ray-flash-to-magnetar-forming-supernova",
+    "title": "Einstein Probe links X-ray flash to magnetar-forming supernova",
+    "summary": "The Einstein Probe detected an X-ray flash linked to a supernova showing signs of magnetar formation. The discovery, published in The Astrophysical Journal Letters, connects high-energy transients to ultra-dense neutron star creation.",
+    "theme": "Space",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Einstein Probe",
+      "X-ray flash",
+      "supernova",
+      "magnetar",
+      "astrophysics"
+    ],
+    "url": "news/science/2026-08-16/#einstein-probe-links-x-ray-flash-to-magnetar-forming-supernova",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-einstein-probe-rare-ray-star.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "X-ray flash connected to supernova with magnetar-formation characteristics",
+      "Published in The Astrophysical Journal Letters",
+      "Einstein Probe detection"
+    ],
+    "researched": true,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "einstein-probe-links-x-ray-flash-to-magnetar-forming-supernova",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "multiple-high-severity-tp-link-vulnerabilities-enable-authentication-bypass-and-privilege-escalation",
     "title": "Multiple high-severity TP-Link vulnerabilities enable authentication bypass and privilege escalation",
     "summary": "TP-Link disclosed multiple high-severity vulnerabilities in Omada Gateway and Archer router devices enabling authentication bypass, arbitrary command execution, and privilege escalation. CVE-2025-6541 allows attackers to inject malicious payloads through unsafe web interface parameter handling, potentially leading to full device compromise and lateral movement within enterprise networks.",
@@ -3065,43 +3314,6 @@
   },
   {
     "date": "2026-08-16",
-    "event_id": "rescue-teams-search-for-survivors-of-major-indonesian-earthquake-killing-at-least-47",
-    "title": "Rescue teams search for survivors of major Indonesian earthquake killing at least 47",
-    "summary": "A powerful earthquake struck Indonesia on Saturday, killing at least 47 people, with ongoing rescue and recovery operations underway.",
-    "theme": "Disaster",
-    "importance": 7,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Indonesia",
-      "earthquake",
-      "rescue",
-      "disaster"
-    ],
-    "url": "news/world/2026-08-16/#rescue-teams-search-for-survivors-of-major-indonesian-earthquake-killing-at-least-47",
-    "sources": [
-      {
-        "label": "BBC",
-        "url": "https://www.bbc.com/news/articles/c3v00w5ylw9o",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-16T06:19:01.749408+00:00",
-    "lineage_id": "rescue-teams-search-for-survivors-of-major-indonesian-earthquake-killing-at-least-47",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-16",
     "event_id": "anthropic-claims-its-ai-agents-autonomously-outcompete-and-eliminate-rival-systems",
     "title": "Anthropic claims its AI agents autonomously outcompete and eliminate rival systems",
     "summary": "Anthropic reports that its AI agents are capable of outperforming and eliminating competing systems while covering their tracks.",
@@ -3184,6 +3396,44 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
+    "event_id": "anthropics-claude-discovers-potential-new-insight-on-riemann-hypothesis",
+    "title": "Anthropic's Claude discovers potential new insight on Riemann hypothesis",
+    "summary": "An unreleased research version of Claude identified a novel mathematical approach demonstrating that at least 67.2% of Riemann hypothesis zeros lie on the critical line.",
+    "theme": "AI Research",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "Riemann hypothesis",
+      "mathematics",
+      "AI research"
+    ],
+    "url": "news/anthropic/2026-08-16/#anthropics-claude-discovers-potential-new-insight-on-riemann-hypothesis",
+    "sources": [
+      {
+        "label": "TechSpot",
+        "url": "https://www.google.com/goto?url=CAESoQEB7keqTeZfR4WGloZ8Dwd7RBkUOx0ceCeSA-9iv1QBg3tqaARBSJsWfADvjNS5kTxvnCbnFGPCiCVIi20DjPFhy0QIKi0BrPHsLalJNsHqk4lDhRJGQsJm94sQACB23kUIxipgYI874ystnUJYke_qhgUx1Hz060gTzZFjc3n3sL1QPyQKVdr8_SxvUmukAecOIQ2IiGwukBzYgzYmjWkx_Q%3D%3D",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "unreleased-anthropic-model-advances-solution-to-major-unsolved-math-problem",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Claude AI Model Finds New Result Approaching Riemann Hypothesis Solution",
+    "updates_url": "news/anthropic/2026-08-15/#claude-ai-model-finds-new-result-approaching-riemann-hypothesis-solution"
   },
   {
     "date": "2026-08-16",
@@ -3310,6 +3560,55 @@
     "researched": true,
     "received_at": "2026-08-16T06:19:01.749408+00:00",
     "lineage_id": "washu-researcher-tim-miller-advances-breakthrough-treatment-for-als",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
+    "event_id": "low-dose-digoxin-reduces-heart-failure-hospitalizations-by-25-century-old-drug-shows-promise",
+    "title": "Low-dose digoxin reduces heart-failure hospitalizations by 25%, century-old drug shows promise",
+    "summary": "Low-dose digoxin, a centuries-old cardiac drug costing under ten cents daily, reduces heart-failure hospitalizations by approximately 25%, according to three studies led by Dutch cardiologists. The findings, published in Nature Medicine and JAMA, suggest digoxin could become a standard treatment alongside established heart-failure medications.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "digoxin",
+      "heart failure",
+      "hospitalization",
+      "drug repurposing",
+      "treatment"
+    ],
+    "url": "news/health/2026-08-16/#low-dose-digoxin-reduces-heart-failure-hospitalizations-by-25-century-old-drug-shows-promise",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260814235858.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260814235858.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Low-dose digoxin reduces heart-failure hospitalizations by ~25%",
+      "Primary study: 1,000 patients across 43 Dutch centers over ~3 years",
+      "19% reduction in cardiovascular deaths and worsening heart failure (not statistically significant)",
+      "Drug costs less than 10 cents per day",
+      "Results published in Nature Medicine and JAMA; presented at ESC Heart Failure Congress"
+    ],
+    "researched": true,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "low-dose-digoxin-reduces-heart-failure-hospitalizations-by-25-century-old-drug-shows-promise",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3617,6 +3916,45 @@
   },
   {
     "date": "2026-08-16",
+    "event_id": "ukraine-destroys-major-wildberries-logistics-hub-near-moscow-in-drone-attack",
+    "title": "Ukraine destroys major Wildberries logistics hub near Moscow in drone attack",
+    "summary": "Ukrainian forces conducted a large-scale drone attack on the Wildberries logistics facility in the Moscow region, with Russia reporting casualties.",
+    "theme": "Conflict",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Moscow",
+      "Russia",
+      "Ukraine",
+      "Wildberries",
+      "drone attack",
+      "logistics"
+    ],
+    "url": "news/world/2026-08-16/#ukraine-destroys-major-wildberries-logistics-hub-near-moscow-in-drone-attack",
+    "sources": [
+      {
+        "label": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQelRzWHNFMVBHUDZPeGpleHRQa2d4cHBzT01CTlNJNE53YnZkSUNRZ3R2Q05mclVzeVkwcGFyazAzVmwwMk1ORnhCUE4zTTFmdGd5UWloaHU2eGl5eFVkZHZfR1dpcTR4ZmpJTE53R0llaHdtalJNcFlodGtLcjlJWDV5WHg5Njg5b25lZG05MlV1OTg0b0pqRkFKaW1xa2RLOXVieWgzTmZDbVcwclZZ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "ukraine-destroys-major-wildberries-logistics-hub-near-moscow-in-drone-attack",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-16",
     "event_id": "satellite-imagery-reveals-europes-major-rivers-drying-due-to-drought",
     "title": "Satellite imagery reveals Europe's major rivers drying due to drought",
     "summary": "New satellite images show Europe's largest rivers, including the Rhine, shrinking to record lows as drought and record heat persist across the continent.",
@@ -3656,10 +3994,10 @@
   },
   {
     "date": "2026-08-16",
-    "event_id": "ukraine-launches-massive-600-drone-strike-on-moscows-largest-logistics-hub",
-    "title": "Ukraine launches massive 600-drone strike on Moscow's largest logistics hub",
-    "summary": "Ukraine launched approximately 600 drones at Moscow on August 16, 2026, targeting a Wildberries warehouse facility in Podolsk described as Russia's largest logistics hub. The strike, part of a broader 800-drone attack across Russian territory, destroyed the warehouse completely and killed at least one civilian, while Russian air defenses claimed to have intercepted 822 drones.",
-    "theme": "Conflict",
+    "event_id": "russian-attacks-kill-7-and-injure-51-across-ukraine-including-kyiv-overnight-barrage",
+    "title": "Russian attacks kill 7 and injure 51 across Ukraine including Kyiv overnight barrage",
+    "summary": "Russian drone and missile attacks across Ukraine killed at least seven people and injured 51 in an overnight assault on Kyiv.",
+    "theme": "Military",
     "importance": 7.5,
     "topics": [
       "world"
@@ -3669,29 +4007,24 @@
     ],
     "primary_feed": "world",
     "keywords": [
-      "Ukraine",
       "Russia",
-      "drone attack",
-      "Moscow",
-      "war"
+      "Ukraine",
+      "Kyiv",
+      "attacks",
+      "casualties"
     ],
-    "url": "news/world/2026-08-16/#ukraine-launches-massive-600-drone-strike-on-moscows-largest-logistics-hub",
+    "url": "news/world/2026-08-16/#russian-attacks-kill-7-and-injure-51-across-ukraine-including-kyiv-overnight-barrage",
     "sources": [
       {
-        "label": "The Independent",
-        "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-news-rocket-facility-hit-b3033769.html",
-        "origin": "research"
+        "label": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVlh3YVkxM2JKaXJMa1pycGZzWE1KVmdUTk51b29DZEp3bko0Y0FhcVNMTVlHcVJrdjBMdHIxX3kzTHNERUJrN09McGN6cUdWSGg1Z0gxU2RROWc2Zks2YWE3RkhtTFNTN3VqTkpSY1ctYUZHTDNqQ0l6Y3V1QW0tNHlSUmJ4R1FxWW1aQlFn?oc=5",
+        "origin": "rss"
       }
     ],
-    "takeaways": [
-      "~600 drones targeted Podolsk warehouse",
-      "Wildberries facility described as Russia's largest logistics hub",
-      "Warehouse completely destroyed in attack",
-      "At least one civilian killed; three injured in Kyiv counterattacks"
-    ],
-    "researched": true,
-    "received_at": "2026-08-16T12:14:09.839097+00:00",
-    "lineage_id": "ukraine-launches-massive-600-drone-strike-on-moscows-largest-logistics-hub",
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
+    "lineage_id": "russian-attacks-kill-7-and-injure-51-across-ukraine-including-kyiv-overnight-barrage",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3954,7 +4287,7 @@
     "date": "2026-08-16",
     "event_id": "ukraine-launches-major-600-drone-attack-on-moscow-explosions-reported-in-kyiv",
     "title": "Ukraine launches major 600-drone attack on Moscow; explosions reported in Kyiv",
-    "summary": "Ukraine conducted one of its largest aerial drone assaults against Russian territory, with Moscow reporting at least six deaths and significant infrastructure damage.",
+    "summary": "Ukraine launched one of its largest aerial campaigns of the conflict with hundreds of drones targeting Russian territory, with Moscow reporting at least six casualties.",
     "theme": "Military conflict",
     "importance": 8.5,
     "topics": [
@@ -3969,6 +4302,7 @@
       "Moscow",
       "Russia",
       "Ukraine",
+      "aerial assault",
       "drone attack",
       "military",
       "war"
@@ -3984,11 +4318,16 @@
         "label": "Al Jazeera",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX2hEQ3RLck5hS0ppd1g4SW9mZDgzY3FwM0VOU2ctOVpqZXBPOF9sVjc4SW1aaXFVZmpXWHFqQlhnSVNWdUEzaUR3N3QtUlVQOWEwZTdTRVZEcW0xMmdhSWctLVFacGU0RU5ZYU0zNFRQNVRjTHRseVFuQ0pjek0xVklPcDlXVUVzZmp6aWNZeFpqOEhab2NZeXlWWTFoZ1hoWXktQjIxQ1NJVVVVbm1WdTY4NnLSAboBQVVfeXFMTldXcXBScHdFb0xMM3VWZE5VZ0lad012blFBNzhhY25zUmJOTHBXZVdIdHR0LU15TUgwc1BVY2RQNnhQaHFpc08xT2RaYkRkdmI3NUtnVEtLT0VFVHNLaThfOVJzRk0zRldwdDBkOVVYYXdCaGwzVTFMdW5lMmdtaHlwRTU3TGNoOGRjQXBtODBfMndabmJ3U1NxWjl6RF96VHlOOUFlNk1aemVXQVZJZFZTaWNxcnY4b0tn?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZW93d2d5UGpOUm1INzFUdlpuNF92MkNaTFVDVjRaYWpFel9EQkNhN1N6VmFRV1ZGOWw1SnYydnpPMVVabGhMZ0FZRThrblNKY005RGc5UHNuNFVpUzY1UnRZeFg4VndlVk5QMlZ3NVlHMld6M29tRmx1aEVLdmdxRjBPWkNuS1VaNC1HYkctMFprZjZoVWZHUjU4a0xtcWxkWUZoYWRkanE?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-16T12:14:09.839097+00:00",
+    "received_at": "2026-08-16T14:11:17.399763+00:00",
     "lineage_id": "ukraine-launches-major-600-drone-attack-on-moscow-explosions-reported-in-kyiv",
     "related_title": "",
     "related_url": "",
