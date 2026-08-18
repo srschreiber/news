@@ -633,50 +633,6 @@
   },
   {
     "date": "2026-08-18",
-    "event_id": "email-threat-landscape-q2-2026-post-microsoft-security-incident-trends",
-    "title": "Email threat landscape Q2 2026: post-Microsoft security incident trends",
-    "summary": "Email threats in Q2 2026 reflect ongoing downstream effects from Microsoft's earlier Digital Crimes Unit enforcement actions.",
-    "theme": "Security",
-    "importance": 5.5,
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "Q2 2026",
-      "email security",
-      "email threats",
-      "threat trends",
-      "threats"
-    ],
-    "url": "news/email-security/2026-08-18/#email-threat-landscape-q2-2026-post-microsoft-security-incident-trends",
-    "sources": [
-      {
-        "label": "Microsoft",
-        "url": "https://www.google.com/goto?url=CAESpAEB7keqTYjzJdl_ib-RK9pwmxSCB94Yx4Bhd8yy-q1a23Y8biwUC-snWZIxGwG9VnEHmvPwWqMOX2tJEG17dP_Z5vP9q8kNjJjo8cdv6q_r4kzq2trbsMk6qcZ9ijZSwLPdANuhtdGlrt-eHipAPc6P0lsOL2ogWy5aBUwfq99WhL_lLfHlf4HebJ0iOZTWMob-g1RtKIOEr2oCsyHn3iLLUWS5Iw%3D%3D",
-        "origin": "discovery"
-      },
-      {
-        "label": "Microsoft",
-        "url": "https://www.google.com/goto?url=CAESpAEB7keqTUJdI-RZcdC5wtWW5-ycUGyL97FvV9TrAvNoZAZ0UZVD0eQ7AwjV93-OeHFfymOEDeZhTMjS0MTcYnESk-ME-k9VsbdI7zqNtNhkOQSdlwS1JAW5PHF7Bjr6rWUaegP9BF8J8NMiqIN5ktdRns7eRWvP55ktVTgmM1DsHTifDpKGpS-oOaNkykZCYcn78bhJ7dws-fkkZ7ftAaJaqGBcKA%3D%3D",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-18T18:18:39.458632+00:00",
-    "lineage_id": "email-threat-landscape-q2-2026-trends-and-insights",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Email Threat Landscape Q2 2026: Post-Microsoft DCU Effects",
-    "updates_url": "news/email-security/2026-08-17/#email-threat-landscape-q2-2026-post-microsoft-dcu-effects"
-  },
-  {
-    "date": "2026-08-18",
     "event_id": "ai-companies-purchasing-and-destroying-rare-books-for-training-data",
     "title": "AI Companies Purchasing and Destroying Rare Books for Training Data",
     "summary": "AI companies are buying rare books solely to destroy them as part of their model training and development processes.",
@@ -1058,49 +1014,6 @@
   },
   {
     "date": "2026-08-18",
-    "event_id": "openai-launches-chatgpt-advertising-program-in-europe",
-    "title": "OpenAI launches ChatGPT advertising program in Europe",
-    "summary": "OpenAI is rolling out advertising offerings for ChatGPT in Europe with privacy-focused consent mechanisms.",
-    "theme": "AI",
-    "importance": 6.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ChatGPT",
-      "Europe",
-      "OpenAI",
-      "advertising",
-      "privacy"
-    ],
-    "url": "news/gpt/2026-08-18/#openai-launches-chatgpt-advertising-program-in-europe",
-    "sources": [
-      {
-        "label": "Telecompaper",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd1c4R3BwTFpOYi13RVVPN0hHMFVTZkw4cGNPMG8wdDZzSkN5cFhYTkktYS1rQUQwdW92Wlp2aFdJQWVmVkxXcDlxbDQ2aXRNakVnM3RXNjgzWENuRGlaeFRudXZYWDNreWItdXFxTUJxLU43Z1R3TWZPdFVXdjJYamsxQTFfNnRsRno1Vlo5cDI?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Digiday",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVVCYVV2Nl9qVERFZGZHVFBiTXhkdHhzYlhIVklDczJpODdvVmZvSloxQ2RKTEE1U2RDblZvX1NrZGdkT08yQUlXczlfSW1PUjZDRzZ3WmhGeXgxc2lvcGhWWmluV1RiSmhseENhaGVfc0FSaEpyQkhPYW0zeldvREx3ZUpfbTl6US14SE5jaUpNZmVGY0FGYkE1X0JrX3dEOUJN?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-18T18:18:39.458632+00:00",
-    "lineage_id": "openai-launches-chatgpt-ads-across-five-international-markets",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI expands ChatGPT advertising test to five new international markets",
-    "updates_url": "news/gpt/2026-08-13/#openai-expands-chatgpt-advertising-test-to-five-new-international-markets"
-  },
-  {
-    "date": "2026-08-18",
     "event_id": "survey-addresses-intellectual-property-risks-in-visual-generative-ai",
     "title": "Survey addresses intellectual property risks in visual generative AI",
     "summary": "A new arXiv survey documents intellectual property risks in visual generative AI, including unauthorized learning, reproduction, and misuse of protected data and models.",
@@ -1444,7 +1357,7 @@
     "date": "2026-08-18",
     "event_id": "mlperf-client-v20-expands-ai-pc-benchmarking-to-image-generation-and-agentic-ai",
     "title": "MLPerf Client v2.0 Expands AI PC Benchmarking to Image Generation and Agentic AI",
-    "summary": "MLPerf released Client v2.0, a new benchmark suite that expands evaluation of AI PCs to include image generation and agentic AI capabilities.",
+    "summary": "The MLPerf Client v2.0 benchmark suite expands to include generative AI and agentic workflow tests for AI-capable personal computers.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1455,10 +1368,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "MLPerf",
-      "benchmark",
       "AI PC",
-      "image generation"
+      "MLPerf",
+      "agentic AI",
+      "benchmark",
+      "benchmarking",
+      "image generation",
+      "performance"
     ],
     "url": "news/ai/2026-08-18/#mlperf-client-v20-expands-ai-pc-benchmarking-to-image-generation-and-agentic-ai",
     "sources": [
@@ -1466,11 +1382,16 @@
         "label": "Yahoo Finance Singapore",
         "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZThwbWJ4ZXVRdTNxTVlTQzUtSGp6NkFvbXQtQUtrMi1HaGVrOFVEYW5QdGFkQkR2OUxkVnZqaGpITXZqMmk5TnBuWVAyY3VlMjMxcER2ZnJHdVNVYUtYaEJ5aFQ2bFlWTUU5Z3VMeXVMa1U3OWNMSHhYVF9aUTVXbw?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance Singapore",
+        "url": "https://sg.finance.yahoo.com/news/mlperf-client-v2-0-expands-152900874.html",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-18T16:16:59.110593+00:00",
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
     "lineage_id": "mlperf-client-v20-expands-ai-pc-benchmarking-to-image-generation-and-agentic-ai",
     "related_title": "",
     "related_url": "",
@@ -1566,43 +1487,6 @@
   },
   {
     "date": "2026-08-18",
-    "event_id": "claude-ai-text-watermark-demonstrates-robustness-against-human-detection",
-    "title": "Claude AI text watermark demonstrates robustness against human detection",
-    "summary": "Anthropic's Claude model text watermark successfully resisted human attempts to identify or manipulate it.",
-    "theme": "AI Safety",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "watermark",
-      "text detection",
-      "AI authentication"
-    ],
-    "url": "news/anthropic/2026-08-18/#claude-ai-text-watermark-demonstrates-robustness-against-human-detection",
-    "sources": [
-      {
-        "label": "36Kr",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mejVBSU5HQkkxTlBUNVpDNU4ya2M4X1dPWlJUZXdCMXVDbWM4N3piSkZkVjhyVTJCRzRiSWpmTmFTc0lVbDFtRk9FTWY2bkltV1Bv?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-18T06:21:29.134350+00:00",
-    "lineage_id": "anthropic-introduces-watermarking-for-ai-generated-text",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic develops text watermarking to identify Claude-generated content",
-    "updates_url": "news/anthropic/2026-08-15/#anthropic-develops-text-watermarking-to-identify-claude-generated-content"
-  },
-  {
-    "date": "2026-08-18",
     "event_id": "anthropic-releases-new-ai-model-with-elevated-system-tampering-risk-assessment",
     "title": "Anthropic releases new AI model with elevated system tampering risk assessment",
     "summary": "Anthropic has unveiled a new AI model and increased its risk assessment rating for potential internal system tampering.",
@@ -1642,7 +1526,7 @@
     "date": "2026-08-18",
     "event_id": "anthropic-claude-agent-fires-employee-in-workplace-autonomy-experiment",
     "title": "Anthropic Claude agent fires employee in workplace autonomy experiment",
-    "summary": "Luna, an AI agent built on Anthropic's Claude, dismissed a human employee during an Andon Labs experiment in San Francisco.",
+    "summary": "Luna, an AI agent built on Anthropic's Claude, dismissed a human employee during an organizational experiment conducted by Andon Labs.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1658,8 +1542,10 @@
       "Anthropic",
       "Claude",
       "Luna",
+      "automation",
       "employment",
-      "experiment"
+      "experiment",
+      "workplace"
     ],
     "url": "news/anthropic/2026-08-18/#anthropic-claude-agent-fires-employee-in-workplace-autonomy-experiment",
     "sources": [
@@ -1672,11 +1558,16 @@
         "label": "TheStreet",
         "url": "https://www.google.com/goto?url=CAESiwEB7keqTbGLdAaWs1s3ehWFQ5lO3UDKybg2FOYfaLVIE2ZbBQohKO5HGPzQKmelt8nzKeQCCGNhYLAqfXucGDwmRONqj6yYc3NsnLT2qE1jXEIiNr4KzQFfuBSyoCrLtsIZOWOY4Xtc94bK_3XMGUuWd3mC7lE9CQP01QpwHFBcWw3tdml72XumqM9R",
         "origin": "discovery"
+      },
+      {
+        "label": "TheStreet",
+        "url": "https://www.google.com/goto?url=CAESiwEB7keqTQcXysm_WI4IX2LNKS25kA6SjNYLBeEUQ39VPZvbDimxjFL7n477LIUK7IacNEBusnKbGMa7DDeriRbSkX3lLjTQ29vjYMJK0WLBDdt18t48FkUzJp7SUT7-uju1RuWF84Rq9TbHZ7uoV4pd7x5fB7T5JX8fC-o-kGHajpreh9RQsKJ925zU",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-18T08:20:40.048945+00:00",
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
     "lineage_id": "anthropic-claude-agent-fires-employee-in-workplace-autonomy-experiment",
     "related_title": "",
     "related_url": "",
@@ -1685,10 +1576,10 @@
   },
   {
     "date": "2026-08-18",
-    "event_id": "anthropic-introduces-invisible-watermark-for-claude-generated-content",
-    "title": "Anthropic Introduces Invisible Watermark for Claude-Generated Content",
-    "summary": "Analysis examines whether Claude's text watermarking technology matters in an environment of widespread AI-generated content.",
-    "theme": "AI Safety",
+    "event_id": "anthropic-claude-experiences-major-service-outage",
+    "title": "Anthropic Claude Experiences Major Service Outage",
+    "summary": "Claude users reported widespread service disruptions including login failures and degraded performance across Anthropic's platform.",
+    "theme": "Service Incident",
     "importance": 6.5,
     "topics": [
       "anthropic"
@@ -1698,54 +1589,33 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "AI detection",
       "Anthropic",
       "Claude",
-      "content authentication",
-      "watermark",
-      "watermarking"
+      "incident",
+      "outage",
+      "service disruption"
     ],
-    "url": "news/anthropic/2026-08-18/#anthropic-introduces-invisible-watermark-for-claude-generated-content",
+    "url": "news/anthropic/2026-08-18/#anthropic-claude-experiences-major-service-outage",
     "sources": [
       {
-        "label": "NPR",
-        "url": "https://www.google.com/goto?url=CAEStAEB7keqTamuzUKD-ePCHat1W1SBOD-jU2Hucn8bpY0ZYaSM5bg8hLtlJS95T8jcxWdVMTUhdjramXUyCVrctVr6U2GQqXdVO4gUcS7REcp3HG6w8FOM4szYTaw4u3hX4ah2VUxCBRyPFbZRnv6HPh0X5cW_E0BLl7RZurYt9nLdt-pWvU1FEYYx6slZj6bUuJqIYmNilO8OSPpdLQHQ3QhvVOP8hvFultGPE4pGWlfe45q9bZU%3D",
+        "label": "BleepingComputer",
+        "url": "https://www.google.com/goto?url=CAESxQEB7keqTViOnSj3ndwArOSLUuKOS2fLOssRSjsEF-T9M8T3Ydi3uEAJOfBt4pqNZfGLC3hYr4TVwJ0stOE68TTqIhdjl8SavOdyykkfjxKj7kTnCSZCeLrb7Z_HuWQYC2cT1kFSTWDlJZKwWFrNnyqhlpLYRDfH4MdDuuhiCvIRFhcc6IlpXwDPH5ioYK7qr2cE4gTVuogiVQbym_kCl1EfPiF9z10s8Cl6wUS1So0oD7MZCJginoD4F3xx1WrNWLy0tVboAw%3D%3D",
         "origin": "discovery"
       },
       {
-        "label": "eu.36kr.com",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9mejVBSU5HQkkxTlBUNVpDNU4ya2M4X1dPWlJUZXdCMXVDbWM4N3piSkZkVjhyVTJCRzRiSWpmTmFTc0lVbDFtRk9FTWY2bkltV1Bv?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "TechCrunch",
-        "url": "https://www.google.com/goto?url=CAESowEB7keqTTAJC9t35X2MmbDfowu5y_HiLOAqP0FDiTovkOa6z-_bxU-cOQh_sD4g5ilY-S6KPrLmqRM1Z7KJBCrNO7yDBbNQxUYm5paOLls25QyDai-E-op0QIjezrrMvve955XP084U1Yu4UduTdZ5Javj-qIGbi_dmON83km9Wa6ADC7WRzTb_dQMRM6rG-iodVuDCdKomSYGoAOKU8WhLGbnf",
+        "label": "BleepingComputer",
+        "url": "https://www.google.com/goto?url=CAESxQEB7keqTdyA3B47fh_VKO0CbbpFSVeiyYw0S11mKhjSbLq367aNsU0krjkorpK_BwPlQMRJO_2eiUFmfCsYWmhJ6Q94PCu_u3bLhMg1BuIg5-HrBy83FT3tEsCS1ZCaKP4qD4d8zAbZL_2jV7tL8OjcdI_Qe63gM02U6DR5kAFaYtPNHU7j-KhAL0BfkGMrF2AWlUx_mXmMGUlTckfPMMgOCUgvdDjE9vuVivGiggqz6nWfA8FGUCUZDQmICipzB9gehqfRAw%3D%3D",
         "origin": "discovery"
-      },
-      {
-        "label": "The Guardian",
-        "url": "https://www.google.com/goto?url=CAESkQEB7keqTTPNvwFvJpftYcjMdePQeKOu4r8mRuYXz6yEiwSOeakqQQz_6KWD1OGb-LhBWsagMaPMjrJGG4ycng1WToCFQyx4SUWSpRGpPa6hvLrLiu0XJOdurH2dJDjW3T93E1pkVcY5TcA0m8o2KtHN8u0O3o3hZ3hGxbR9Gbc1rKzaLvnaHk2_RbhAiin6n1O6",
-        "origin": "discovery"
-      },
-      {
-        "label": "Futurism",
-        "url": "https://www.google.com/goto?url=CAESkAEB7keqTeLknqkhw0DOiL_9mQdRIGM5Tjc6wVVbJRh67w0rLqXJgwbc1xze7Q1DracHUFDn6moiDfxZl-lhAKYivoXzpq9KyHsoXjG3mYMsVu6P2_MPAGoxILdFd8dhZubzPul3p4DtBW83O9oaqAHVFfMSnVPMdat5L206ytxzMGd2aKD26m946ESGT3EEfbA%3D",
-        "origin": "discovery"
-      },
-      {
-        "label": "Legal IT Insider",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWXJ1Q1pDdktxcXJlYWNwRFZocVZNVDZ5b1I0N0xvZTJkZGhtS0tQT0xTRndxZ2cwdnRON19yUHhZX1ZqbWFHV3Z4ZFIxUzBpMnBkTG5kT01OTW5GSHl5SUY0YU9XenprV1gzWDk2bnJCaUhCamJsV0JJU29HQXlpZVJ3eEV1SGFUeXZiLVctZV9rZw?oc=5",
-        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-18T10:16:08.053939+00:00",
-    "lineage_id": "how-claudes-text-watermarking-technology-works",
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "claude-experiences-major-outage-affecting-anthropic-services",
     "related_title": "",
     "related_url": "",
-    "updates_title": "How Claude's Text Watermarking Technology Works",
-    "updates_url": "news/anthropic/2026-08-15/#how-claudes-text-watermarking-technology-works"
+    "updates_title": "Claude experiences major outage affecting Anthropic services",
+    "updates_url": "news/anthropic/2026-08-17/#claude-experiences-major-outage-affecting-anthropic-services"
   },
   {
     "date": "2026-08-18",
@@ -2074,6 +1944,44 @@
   },
   {
     "date": "2026-08-18",
+    "event_id": "microsoft-uncovers-macsync-stealer-malware-infrastructure-with-30-related-domains",
+    "title": "Microsoft uncovers MacSync Stealer malware infrastructure with 30+ related domains",
+    "summary": "Microsoft researchers tracked MacSync Stealer malware by identifying consistent behavioral patterns across 30 rotating domains.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "MacSync Stealer",
+      "malware",
+      "domain rotation",
+      "Microsoft",
+      "threat hunting"
+    ],
+    "url": "news/email-security/2026-08-18/#microsoft-uncovers-macsync-stealer-malware-infrastructure-with-30-related-domains",
+    "sources": [
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "microsoft-uncovers-macsync-stealer-malware-infrastructure-with-30-related-domains",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
     "event_id": "openai-reports-florida-mans-violent-chatgpt-threat-to-fbi",
     "title": "OpenAI reports Florida man's violent ChatGPT threat to FBI",
     "summary": "OpenAI alerted the FBI after a Florida man used ChatGPT to express intentions to murder his ex-partner.",
@@ -2390,6 +2298,44 @@
   },
   {
     "date": "2026-08-18",
+    "event_id": "trump-administration-sued-over-foreign-graduate-student-and-postdoc-visa-time-limits",
+    "title": "Trump administration sued over foreign graduate student and postdoc visa time limits",
+    "summary": "The Department of Homeland Security was sued over a new policy limiting how long international students and scholars can remain in the United States.",
+    "theme": "Policy",
+    "importance": 6.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "visa",
+      "international students",
+      "postdocs",
+      "DHS",
+      "graduate education"
+    ],
+    "url": "news/health/2026-08-18/#trump-administration-sued-over-foreign-graduate-student-and-postdoc-visa-time-limits",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/18/dhs-sued-over-visa-time-limit-for-foreign-students/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "trump-administration-sued-over-foreign-graduate-student-and-postdoc-visa-time-limits",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
     "event_id": "bond-yields-and-oil-prices-climb-as-us-iran-ceasefire-expires",
     "title": "Bond yields and oil prices climb as US-Iran ceasefire expires",
     "summary": "Financial markets reacted to the expiration of the US-Iran ceasefire with higher bond yields and extended oil gains.",
@@ -2646,44 +2592,6 @@
     "researched": false,
     "received_at": "2026-08-18T12:19:17.848801+00:00",
     "lineage_id": "global-government-bond-yields-reach-multi-decade-highs-amid-us-iran-stalemate",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-18",
-    "event_id": "us-stock-futures-retreat-as-fading-iran-peace-prospects-boost-oil-and-bond-yields",
-    "title": "U.S. stock futures retreat as fading Iran peace prospects boost oil and bond yields",
-    "summary": "U.S. stock futures fall as diminishing hopes for Iran peace negotiations push up crude oil prices and long-term bond yields.",
-    "theme": "Markets",
-    "importance": 6.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock futures",
-      "oil prices",
-      "bond yields",
-      "Iran",
-      "equity markets"
-    ],
-    "url": "news/markets/2026-08-18/#us-stock-futures-retreat-as-fading-iran-peace-prospects-boost-oil-and-bond-yields",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-18T12:19:17.848801+00:00",
-    "lineage_id": "us-stock-futures-retreat-as-fading-iran-peace-prospects-boost-oil-and-bond-yields",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3138,7 +3046,7 @@
     "date": "2026-08-18",
     "event_id": "edgerunner-and-us-army-ai-integration-center-build-army-specific-large-language-model",
     "title": "EdgeRunner and U.S. Army AI Integration Center Build Army-Specific Large Language Model",
-    "summary": "EdgeRunner AI and the U.S. Army Artificial Intelligence Integration Center announced a collaboration to develop an Army-specific large language model. The open-weight model will be locally deployed for national security applications, prioritizing performance, efficiency, and control.",
+    "summary": "EdgeRunner and the U.S. Army Artificial Intelligence Integration Center are jointly building an open-weight language model tailored for Army operations.",
     "theme": "AI",
     "importance": 7.0,
     "topics": [
@@ -3150,8 +3058,9 @@
     "primary_feed": "technology",
     "keywords": [
       "EdgeRunner",
-      "U.S. Army",
       "LLM",
+      "U.S. Army",
+      "military AI",
       "national security",
       "open-weight models"
     ],
@@ -3166,6 +3075,11 @@
         "label": "Yahoo Finance",
         "url": "https://finance.yahoo.com/technology/ai/articles/edgerunner-u-army-artificial-intelligence-151800414.html",
         "origin": "discovery"
+      },
+      {
+        "label": "Business Wire",
+        "url": "https://www.businesswire.com/news/home/20260818438839/en/EdgeRunner-and-U.S.-Army-Artificial-Intelligence-Integration-Center-Collaborate-to-Build-Army-Specific-LLM",
+        "origin": "discovery"
       }
     ],
     "takeaways": [
@@ -3173,8 +3087,8 @@
       "Open-weight, locally-deployed LLM design",
       "Developed for national security and Army mission-specific applications"
     ],
-    "researched": true,
-    "received_at": "2026-08-18T16:16:59.110593+00:00",
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
     "lineage_id": "edgerunner-and-us-army-ai-integration-center-build-army-specific-large-language-model",
     "related_title": "",
     "related_url": "",
@@ -3254,6 +3168,49 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
+    "event_id": "anthropic-details-how-claudes-invisible-text-watermarks-function",
+    "title": "Anthropic details how Claude's invisible text watermarks function",
+    "summary": "Anthropic shared technical details about how its new invisible watermarking system for Claude works to mark AI-generated text.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "watermarks",
+      "text generation",
+      "detection"
+    ],
+    "url": "news/anthropic/2026-08-18/#anthropic-details-how-claudes-invisible-text-watermarks-function",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://www.google.com/goto?url=CAESowEB7keqTR3OtzorU-7SKRQBvpgHO4z9-rxJSwAn6tpBc_jYg57ou8ZOvxbu0OnSsITbO9cf3WFVX902Sw1BwBkAm48dbd9I4s3_p2bWftIrZe7XA3slX81b-9ghOQcBZ1kQp04to03qSj0coDgBUFma-VGAI1t_Vvt7-OtNZQoAfZGkCzXAXGZOtHX1PXw3f6R6uXbF6R3p5KKbl5f-o1rsBLyd",
+        "origin": "discovery"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.google.com/goto?url=CAESogEB7keqTfb69039DcHvhYxeBtmgnEo08f1jvqB4X9wkYMkPVWvs0Y_oeSiOyfRCnjHc3fOm8GnvlZpCAO3KX97_xBFAnT3nDqSb-k8pDROfnEdOmj1AWlO_Z83GeuZ4FZIMEofCpA_xXcqm3aYNYIb7RhhvLBlyjz-Qq8k3UOganyeWYPLebIRIh0Wt60PI0sVAKV0iyNHX3F5D8o3WalLm7TY%3D",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "how-claudes-text-watermarking-technology-works",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "How Claude's Text Watermarking Technology Works",
+    "updates_url": "news/anthropic/2026-08-15/#how-claudes-text-watermarking-technology-works"
   },
   {
     "date": "2026-08-18",
@@ -3879,6 +3836,43 @@
   },
   {
     "date": "2026-08-18",
+    "event_id": "major-us-stock-indexes-fall-as-chip-stocks-decline-and-oil-prices-rise-on-iran-tensions",
+    "title": "Major U.S. stock indexes fall as chip stocks decline and oil prices rise on Iran tensions",
+    "summary": "The Dow, S&P 500, and Nasdaq fell as semiconductor stocks sold off and rising oil prices added pressure amid geopolitical tensions.",
+    "theme": "Markets",
+    "importance": 7.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock market",
+      "chip stocks",
+      "oil prices",
+      "Iran"
+    ],
+    "url": "news/markets/2026-08-18/#major-us-stock-indexes-fall-as-chip-stocks-decline-and-oil-prices-rise-on-iran-tensions",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb05YTlhtdm5CWWFjelNPMWFrWWtzUk9Vb05PZVRJT2FiSHc0em50elRIQ0lQX3Y1R0xlbVNKZjNPMDFKdHA1VWVjWnllN0ZqYUN4SWhWb01GWC16WTBCRXFGUUtBem54QVNrUE9SZnVZV19NRU1jQ245bEE5eHpzYWx4RTVWQXUwZjVZVG9LTlhKVGx6SXFsUjhORDY1dUhCYW1GNUMwdUdTQnJf?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "major-us-stock-indexes-fall-as-chip-stocks-decline-and-oil-prices-rise-on-iran-tensions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
     "event_id": "nasa-extends-voyager-2-operations-after-49-years-in-interstellar-space",
     "title": "NASA extends Voyager 2 operations after 49 years in interstellar space",
     "summary": "NASA has found a way to extend Voyager 2's operational lifespan after 49 years of operation in interstellar space.",
@@ -4100,44 +4094,6 @@
     "researched": true,
     "received_at": "2026-08-18T16:16:59.110593+00:00",
     "lineage_id": "apple-patches-image-processing-vulnerability-exploitable-for-spyware",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-18",
-    "event_id": "meta-allowed-ads-for-app-that-creates-deepfake-nude-images-of-female-politicians",
-    "title": "Meta allowed ads for app that creates deepfake nude images of female politicians",
-    "summary": "Meta permitted advertising for an app that generated pornographic deepfakes of a prominent U.S. politician; Apple removed the app from the App Store following inquiries.",
-    "theme": "Policy",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Meta",
-      "deepfake",
-      "pornography",
-      "politicians",
-      "moderation"
-    ],
-    "url": "news/tech/2026-08-18/#meta-allowed-ads-for-app-that-creates-deepfake-nude-images-of-female-politicians",
-    "sources": [
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/meta-ran-ads-for-an-app-promising-to-nudify-female-politicians/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-18T16:16:59.110593+00:00",
-    "lineage_id": "meta-allowed-ads-for-app-that-creates-deepfake-nude-images-of-female-politicians",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4737,8 +4693,105 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-18T16:16:59.110593+00:00",
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
     "lineage_id": "chatgpt-for-teens-features-and-functionality-overview",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
+    "event_id": "openai-releases-chatgpt-version-that-refuses-to-complete-student-homework",
+    "title": "OpenAI Releases ChatGPT Version That Refuses to Complete Student Homework",
+    "summary": "OpenAI released a ChatGPT variant with built-in refusals to complete homework assignments for minors.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "OpenAI",
+      "homework",
+      "student safety"
+    ],
+    "url": "news/gpt/2026-08-18/#openai-releases-chatgpt-version-that-refuses-to-complete-student-homework",
+    "sources": [
+      {
+        "label": "Android Authority",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCTldyaEhneHlxN2M3NzVqSmY0RENlWk1XZlZFSHdwcTFuNDdlY1dBT0dKX1VSazZnV1pfNlpZM2Fodzg5UU8yMFkzQWtUUUtTSUdycEpnOGdhYmliMnNUbG1oSWt3dE1pNVRnMnladFdoeXpvZnc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Android Headlines",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeDlwVnpNSGR4ODRyTHFWNWl3c3RBZXpubzJFcGtaOVhpRm1rSXdJcFBzQ2pWTFBuNGxnb3V5RWN4SUlFUTZVU0ZyNm1GQXlKQVV2ZjU4clFHalhVUVRuSG40bG1yaS05cWtUdVlDQjZ2UUg2anhTRjBfSkNfRTYxazhZR3dJQ2FYTnVGcmNjY0ROTjloLW5ZVE1SbFlPUXg1OW5JenhycUJiWmZvVmNmMGZ4aWdUTmZlNFc3Uw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance Singapore",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYl85THdzNzM2bTE1dUlJUVRRR2dhTng4d2l4QnBBVldzbjR5MmN5SVVsV2c5RVBNdWlyZ3B6M0dzS192QkJzTWxSSmlTYllwTUFtMzhtWjM0dFVfN3lsNC1yNV9zT0oxb1Ewdk1EN0Q4SHY1LWFDMnJHUVdpdnJXOEZmNWhDU0ZCelNvOUtWN2RvUQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "inc.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTGtvZDcyZWl5am5BYlhMS1FEZ1NzaDBlN2Q3WHkySzdHTkVkMUVocmhDQjYybGRzaVBNUl9aVEk3Z09FemY1Z3NZeGxuaUM3d3MzT1VhZE9pN01FMzBRZG9fenFQTUZrV3ZFSllzdWdwR28wMml1NHhrZHBRaFBOQ2NJQmhwOEdnWk4taGl1OHNyVW5CcDZKSFpHVm9ocmN3NE16b1dsdkxUNW54Mlp3SHl0ek1VaU1V?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "AI Insider",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSWwyYkhJTHpzNlRzcUgwWXdfQ1g5azJUc29pTjhubTFmcmZzQVVTSkNocndsaUI5eVRfZmdQRng3aU9EQUJGV2hrSzJkRVN5aXRTNzVia3FHVWw0eWljSk5fLUFZQ3ZfY05Ka0pkQU1yRzNPdVpydEFqRUpUTUhJM2hFdHJvTXNEbDE5SDgwMF8zbFFjX0l5a3FHTjR1RDJlRVRVeklwTFUwUQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "azernews.az",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAySTBDOHNpdzkwLWg4cHlUelBDSVpSOV9KcmF4NGp3cVgtMl9TOTN4a0dFUXFTVTNxdEVZcWZZY0FmMC1XbTdEZ2hvVGpGYXBxRVR1Yg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "benzinga.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTDV2aVdZc3FwckxfbFJuTEhZcWFzM3JfekdIa1gyamhVOUxrSzFXSUw1TldUUy1pWGtqM1JFLWNSNjFzY1VyNVpfVHQ2aXM3VVYwNWJZTG1TLXBjbzBhMnc5Mm5fWkpOeld6aUthR3lfSklIT3lMZHNRdmRZMnBHRGtJUDZtYzc5eDVsdVpIdmxYMW5rTjk1Y205cmYyUmFwdVpiTVI4bHRsSXBQRFk4VmNFNEloTWhjeTE3RnlNMXdxdmwxV0RIYg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "cbs19.tv",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY1o0Vm8xWnRjcW41dFowbG1kLXNTeTRXckZkYnZRcTZZNVBQaUlRQVJoaVlmSGZLaUQ3THZXeTVJVlE5cXJvdF9ZbHdneDhuczFKQ3ZETV9JMkJaeVVyR21Cc2Y3ZzdrbGpkYnJvNGNZb2lsRk9GMkJvVnprY1NRMVRXZERETkc3LUt1UDBtcHgwRzJrU3VRdmJYNzQ2YTdhUEwxUGJ4SXFfdVJaS3dINmhpd0ZUUU9MTUY2MEJOUFdVT01yWnkxRGsySUhNMG9aaTZlOHpmSQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlMzd203czRIQzl2a0RlczBUQnFHcklwTnNqc3hfdHNBSW5QdFVReFJZdTFBM1pvUGlLeWZJWUVHTHlzMUdTbHVBNXI1OWM2Q2FtS0ZON3hEcENqQ3J5Z0RvOFgwdm9FZzY0b3RfWlJIMmtINHZtQmdQYlplbi1rS3hkVGw3TXN3RThwZ3EwQzI0N2ZVVTN3WVBWVWI4c29wdGllRl9Pd09YTGxaRWxudHdZQmRaSFc4SEE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVGFUaWw2VGNPZXo3dHlOYU1GRDFvbVdGWFFpcFV3TW9PLVFpeUtobk1obzJtUGJJeVlzOU5lYnpjYjFtbEJBQ2c5QlBpWUszVjd6cFoxYjhQZGp0cDBXZXBCLWQ4RnR1WW5PTWRfcHJLSkhEck50QldVSW9XOEtiMA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "dawan.africa",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT3JUa0JNQ2RQbTkxd0JNSUZLWEx2eFMtdndSZmxFcUItN0dCb3VQcmZzbVg1STR4OTlLQXFyQTJfb1lNeGhQMFVHWnVKNXdhQzRhbXNBS2RKMWpyY3ZWaVpBSUxRc0pYZHhYbU1Na1JKZHUxT3o3SmlyYS04dzNpcEY2OWxSUUkxbVFzaDNvWE9aNGpGLVpR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cUR0RW5xRGlscjVXNFNha1UtNnd1NVQ0dS12UFptZGd5OGVWSHBzZXpvRlM2LS1ja1dYZnR0X2ZFdjRVSXlHckhRRWQ3UnlZcGtrN1l3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Killeen Daily Herald",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNSS1jZ2pRNVRxSWp3ZklkTFkyT2kzeUZCSWdwU3BxN2FvTHRLb0draGhmcERwdTZ6c0tLdlBjenpRNkpKRGw1dDhia0RlbGlDZXJiamxQTFlvWjBHdV9GQUhDemNFYlJscjBndEE0MHBxYm84Ui1HX1AxQ2FoVlI3ck5iZmt3emlram5WdGFXMk9XU2hGNXNlSGU1aUhrOUtXY2dVTE9JRHI2dWk4YWZQcGpIQTEwVzU0VTdZYkl6cy1valNma2hqX3RtSXBDN2plTjFfV1B2bXkzZGxqMTlLdmUtWmplV25WaC1aRUZyVlZpeC1Ddk1N?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "openai-releases-chatgpt-version-that-refuses-to-complete-student-homework",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5357,6 +5410,43 @@
     "researched": true,
     "received_at": "2026-08-18T14:20:38.183095+00:00",
     "lineage_id": "twinloot-malware-leverages-sharepoint-and-teams-for-persistent-credential-theft",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
+    "event_id": "openai-discusses-pacing-model-development-amid-cyber-critical-capabilities",
+    "title": "OpenAI discusses pacing model development amid cyber-critical capabilities",
+    "summary": "The provided page content discusses Meta's Muse Image AI tool launch on Instagram and WhatsApp, which is unrelated to the stated event about OpenAI discussing pacing model development amid cyber-critical capabilities. No substantive information about OpenAI's guidance on deliberate pacing of AI model development or cyber-critical capabilities was found in the supplied pages or search results.",
+    "theme": "AI Policy",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "model development",
+      "AI safety",
+      "cyber capabilities"
+    ],
+    "url": "news/tech/2026-08-18/#openai-discusses-pacing-model-development-amid-cyber-critical-capabilities",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": true,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "openai-discusses-pacing-model-development-amid-cyber-critical-capabilities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -6107,6 +6197,44 @@
     "researched": true,
     "received_at": "2026-08-18T18:18:39.458632+00:00",
     "lineage_id": "etcheds-valuation-doubles-to-21-billion-in-one-month",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-18",
+    "event_id": "openai-halts-training-runs-after-astra-model-reaches-critical-cyber-capabilities",
+    "title": "OpenAI halts training runs after Astra model reaches critical cyber capabilities",
+    "summary": "OpenAI has paused significant training operations after determining that its upcoming Astra model may possess critical cybersecurity capabilities, prompting enhanced safety protocols.",
+    "theme": "AI Safety",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Astra",
+      "AI safety",
+      "cybersecurity",
+      "model development"
+    ],
+    "url": "news/tech/2026-08-18/#openai-halts-training-runs-after-astra-model-reaches-critical-cyber-capabilities",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/openai-overhauls-safety-protocols-after-its-ai-agents-went-rogue/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-18T20:11:45.060635+00:00",
+    "lineage_id": "openai-halts-training-runs-after-astra-model-reaches-critical-cyber-capabilities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
