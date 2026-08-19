@@ -38,116 +38,6 @@
   },
   {
     "date": "2026-08-19",
-    "event_id": "nasa-johnson-center-photographers-feature",
-    "title": "NASA Johnson Center Photographers Feature",
-    "summary": "NASA Johnson Space Center highlights the work of its photography team.",
-    "theme": "Space",
-    "importance": 3.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "Johnson Space Center",
-      "photography"
-    ],
-    "url": "news/space/2026-08-19/#nasa-johnson-center-photographers-feature",
-    "sources": [
-      {
-        "label": "NASA (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTUhSaXR3eXVVbV9uS2Jab004QzZHakpOcDB2alNoR01laWRiTUlkOHVadS1tczZCTHpNbDFVZXpzYWRkaW1JOVA4ZHVSbGZfVGpKd0NYSkdRemYyWDBGOW1NaV83clFVUzRzU0I3LWZRQVB0eDVYRHdRUEFuTFhaVjlLdnRuaXZUclZfd1lKQ0pSRGVEQm1kUlNFM1RvaU94Tzhz?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "nasa-johnson-center-photographers-feature",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "claude-outpaces-chatgpt-across-five-key-features",
-    "title": "Claude outpaces ChatGPT across five key features",
-    "summary": "Comparison identifies five areas where Claude's capabilities give it an advantage over ChatGPT.",
-    "theme": "AI Comparison",
-    "importance": 4.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "ChatGPT",
-      "Anthropic",
-      "LLM Features"
-    ],
-    "url": "news/anthropic/2026-08-19/#claude-outpaces-chatgpt-across-five-key-features",
-    "sources": [
-      {
-        "label": "Tom's Guide",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR1BEOXM1ZUNtbHc1TlNjcGZ3QVMzODhtak9KV2phcmhTaUJwOGRydVU5SU5ob2FhTVAzdUM3Q0VSUHZWb2xLZ096ajlvc1ctckRTLTdsZFoyVGpydGZEOWFKVEpqQkpnU2VwMVQ4Ny1mMU1LSFMtY25yTTdJNEJhY0xZcmdxZEtOY1QtSWtn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "claude-outpaces-chatgpt-across-five-key-features",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "anthropic-previews-claude-code-multi-option-ui-design",
-    "title": "Anthropic Previews Claude Code Multi-Option UI Design",
-    "summary": "Anthropic is developing multi-option user interface designs for Claude Code with undisclosed usage terms.",
-    "theme": "AI",
-    "importance": 4.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "UI design",
-      "developer tools"
-    ],
-    "url": "news/anthropic/2026-08-19/#anthropic-previews-claude-code-multi-option-ui-design",
-    "sources": [
-      {
-        "label": "XenoSpectrum",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oVU42cjZMMTNaZWFHRVhpck52UEZBVmdaM29XTWdRS2thOGNIMlVmS2k3MDd4VUtTUG5MSk9YZldaamI1eE4wcUNDNjhzUkZDUWZRWkp6WnRSb3FjM2NKSTQ3eTdGQW03azZoV20wYnI?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "anthropic-previews-claude-code-multi-option-ui-design",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
     "event_id": "nasa-celebrates-american-leadership-in-aviation-and-space-exploration",
     "title": "NASA Celebrates American Leadership in Aviation and Space Exploration",
     "summary": "NASA held an event at Kennedy Space Center highlighting the United States' continued leadership in aviation and space exploration.",
@@ -297,7 +187,7 @@
     "date": "2026-08-19",
     "event_id": "claude-users-debate-ai-watermark-proposal",
     "title": "Claude Users Debate AI Watermark Proposal",
-    "summary": "Claude AI users discuss concerns and benefits of proposed AI-generated content watermarking regarding anonymity and false positives.",
+    "summary": "Anthropic's Claude user community is divided over a proposed AI watermark feature, raising concerns about anonymity and false positives.",
     "theme": "AI Policy",
     "importance": 5.0,
     "topics": [
@@ -308,10 +198,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Claude",
+      "AI authenticity",
+      "AI detection",
       "Anthropic",
-      "watermarking",
-      "AI authenticity"
+      "Claude",
+      "privacy",
+      "watermark",
+      "watermarking"
     ],
     "url": "news/anthropic/2026-08-19/#claude-users-debate-ai-watermark-proposal",
     "sources": [
@@ -323,7 +216,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
     "lineage_id": "anthropics-ai-watermark-implementation-draws-user-backlash",
     "related_title": "",
     "related_url": "",
@@ -401,44 +294,6 @@
     "researched": false,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "cloud-database-pricing-comparison-aws-rds-azure-google-cloud-sql-show-25-variance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "shinhan-investment-securities-designs-financial-ai-agent-with-rule-based-and-llm-components",
-    "title": "Shinhan Investment & Securities Designs Financial AI Agent with Rule-Based and LLM Components",
-    "summary": "Shinhan Investment & Securities developed a financial AI agent combining rule-based systems and large language model reasoning for investment operations.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Shinhan Investment",
-      "financial AI",
-      "agent",
-      "LLM",
-      "fintech"
-    ],
-    "url": "news/ai/2026-08-19/#shinhan-investment-securities-designs-financial-ai-agent-with-rule-based-and-llm-components",
-    "sources": [
-      {
-        "label": "벤처스퀘어",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11a2Z4bmt5STdCYUQwbVZXZlJEdGppMEVQRzBjcDZlcGxkOGtpZzNjZ0N3YmpNeUhKM3d3cjdoLU4xaG5BRlE0cFBzSlFFZGdob2Jr?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "shinhan-investment-securities-designs-financial-ai-agent-with-rule-based-and-llm-components",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -550,6 +405,43 @@
     "researched": false,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "anthropic-tests-hub-mode-in-claude-for-managing-ai-sub-agents",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "reliaquest-deepens-partnership-with-anthropic-for-greymatter-platform",
+    "title": "ReliaQuest deepens partnership with Anthropic for GreyMatter platform",
+    "summary": "ReliaQuest expanded its collaboration with Anthropic to enhance its GreyMatter cybersecurity platform.",
+    "theme": "Security",
+    "importance": 5.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ReliaQuest",
+      "Anthropic",
+      "GreyMatter",
+      "cybersecurity"
+    ],
+    "url": "news/anthropic/2026-08-19/#reliaquest-deepens-partnership-with-anthropic-for-greymatter-platform",
+    "sources": [
+      {
+        "label": "SecurityBrief UK",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR3lucEpLcHdjOU5SMHN3VUJkaFhLd2RvcFo4RzdKSDcwemc2SWduaXc4X1RSMWtDLVZaRVRwQ19ja0ZjM1hkYnVjNnFheUhXNUtmd1JuSmpjc2ZGNXMybGY2WEZzdzFfM000TzA4MzdlUDd4QW5hSkxSeDNCeVFGWjduTktiT3hWZXFualpMQXdNaWM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "reliaquest-deepens-partnership-with-anthropic-for-greymatter-platform",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -739,78 +631,6 @@
     "researched": false,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "asian-ai-and-semiconductor-stocks-tumble-amid-rising-yield-concerns",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "bank-of-america-warns-of-potential-ai-spending-pullback",
-    "title": "Bank of America warns of potential AI spending pullback",
-    "summary": "Bank of America analyst cautions that numerous risks could trigger a significant pullback in AI capital expenditure.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "AI Investment",
-      "Capital Expenditure",
-      "Risk"
-    ],
-    "url": "news/markets/2026-08-19/#bank-of-america-warns-of-potential-ai-spending-pullback",
-    "sources": [
-      {
-        "label": "Morningstar",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdkZtakhhdTRGdnBvbWNkTmljVmFhM2NOazcxem84V08xZGJBNmRTLTNWa2xuX0hta1BNQ20xRDI5Q184RUVDdkVFbGJ0N3AtMUh5RnhQVDg4VWJNQl94Q3pZeGRoa2pWakNLUTNpY2VmdGhNUHBFRTNzMEtCOVFxODBQbmNhdHlyQm96eEphRUVaeDQzN05oS3NWUU9MandwOEdfQ3h6anRvT1FhWG9FYVFrRzB4cFBUaWNJQXB3?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "bank-of-america-warns-of-potential-ai-spending-pullback",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "uk-financial-sector-tax-blamed-for-stock-market-decline",
-    "title": "UK Financial Sector 'Tax' Blamed for Stock Market Decline",
-    "summary": "Telegraph analysis attributes recent UK stock market weakness to a new tax on the financial sector.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "UK stocks",
-      "financial sector tax",
-      "market decline"
-    ],
-    "url": "news/markets/2026-08-19/#uk-financial-sector-tax-blamed-for-stock-market-decline",
-    "sources": [
-      {
-        "label": "telegraph.co.uk",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUFVXZzJsWS1jY3pMa3luZG5Bc2c0MGROdXQzaS11NWhsWUFEOUhUM2F6b2hOWFZwTXpFOWxwaG81ZTJSUjFsRUpmWW5CUkVpZDVaR19lN1NvbEswNTlmMm11dHNQbDYxOW1fQ2QxVE03RTJUUm5JX3NYVFQxT2p3em93YlFPUzNtZ21QcHhWTEdEN0dJVWl3R3k4NHlqVXUtZlE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "uk-financial-sector-tax-blamed-for-stock-market-decline",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1010,7 +830,7 @@
     "date": "2026-08-19",
     "event_id": "mlperf-client-v20-adds-image-generation-and-agentic-ai-benchmarks",
     "title": "MLPerf Client v2.0 Adds Image Generation and Agentic AI Benchmarks",
-    "summary": "MLPerf released version 2.0 of its Client benchmark, expanding testing categories to include image generation and agentic AI workflows alongside updated LLM tests.",
+    "summary": "MLPerf Client v2.0 introduces new benchmark categories for image generation and agentic AI workflows alongside updated LLM performance tests.",
     "theme": "AI",
     "importance": 6.0,
     "topics": [
@@ -1021,12 +841,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "MLPerf",
-      "benchmarking",
-      "image generation",
-      "agentic AI",
+      "AI PC",
       "LLM",
-      "AI PC"
+      "MLPerf",
+      "agentic AI",
+      "benchmarking",
+      "image generation"
     ],
     "url": "news/ai/2026-08-19/#mlperf-client-v20-adds-image-generation-and-agentic-ai-benchmarks",
     "sources": [
@@ -1034,11 +854,16 @@
         "label": "Technology Magazine",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91cGduRG13ODVkVHE3VHRIYzRpTy1hSzZwM3BGQ1dQZ3RidWlKbG9fdEJ1OVhQTDFYd2Vvc1NlT2RGZzZ3eEdoRjNGY2pWbHh4WjRfMzVKVnBVanBqZHZDS2J3?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Technology Magazine",
+        "url": "https://technologymagazine.com/globenewswire/3347106",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
     "lineage_id": "mlperf-client-v20-expands-ai-pc-benchmarking-to-image-generation-and-agentic-ai",
     "related_title": "",
     "related_url": "",
@@ -1200,6 +1025,44 @@
   },
   {
     "date": "2026-08-19",
+    "event_id": "egyptian-farmers-integrate-solar-panels-into-crop-production",
+    "title": "Egyptian farmers integrate solar panels into crop production",
+    "summary": "Egyptian farmers are growing crops beneath solar panels, combining agricultural production with renewable energy generation.",
+    "theme": "Climate & Energy",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Egypt",
+      "solar panels",
+      "agriculture",
+      "renewable energy"
+    ],
+    "url": "news/climate-change/2026-08-19/#egyptian-farmers-integrate-solar-panels-into-crop-production",
+    "sources": [
+      {
+        "label": "Grist",
+        "url": "https://grist.org/energy/why-egyptian-farmers-are-growing-crops-under-solar-panels/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "egyptian-farmers-integrate-solar-panels-into-crop-production",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
     "event_id": "gatorade-launches-multi-year-body-of-science-research-initiative-on-womens-hydration-and-nutrition",
     "title": "Gatorade launches multi-year \"Body of Science\" research initiative on women's hydration and nutrition",
     "summary": "Gatorade Sports Science Institute unveiled a major research commitment called \"Body of Science\" to address long-standing gaps in female-specific hydration and nutrition science. Initial findings reveal that women's hydration and nutrition patterns differ significantly from existing guidelines, which have historically been based primarily on male physiology.",
@@ -1234,7 +1097,7 @@
     ],
     "researched": true,
     "received_at": "2026-08-19T06:30:49.309837+00:00",
-    "lineage_id": "",
+    "lineage_id": "gatorade-launches-multi-year-body-of-science-research-initiative-on-womens-hydration-and-nutrition",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1283,7 +1146,7 @@
     ],
     "researched": true,
     "received_at": "2026-08-19T06:30:56.098937+00:00",
-    "lineage_id": "",
+    "lineage_id": "qr-code-phishing-quishing-embedded-in-11-of-phishing-emails-in-h1-2026",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1490,37 +1353,72 @@
   },
   {
     "date": "2026-08-19",
-    "event_id": "wildfire-smoke-creates-significant-economic-costs-through-air-pollution",
-    "title": "Wildfire smoke creates significant economic costs through air pollution",
-    "summary": "Research shows that wildfire smoke from increasingly larger and longer fire seasons drives economic damage through air pollution and health impacts.",
-    "theme": "Science",
-    "importance": 6.0,
+    "event_id": "sk-hynix-announces-29-billion-share-buyback-and-cancellation-program",
+    "title": "SK Hynix announces $29 billion share buyback and cancellation program",
+    "summary": "SK Hynix announced a $29 billion treasury share buyback and cancellation program.",
+    "theme": "Markets",
+    "importance": 6,
     "topics": [
-      "science"
+      "markets"
     ],
     "feeds": [
-      "science"
+      "world"
     ],
-    "primary_feed": "science",
+    "primary_feed": "world",
     "keywords": [
-      "wildfire",
-      "smoke",
-      "air pollution",
-      "climate change",
-      "economics"
+      "SK Hynix",
+      "share buyback",
+      "capital allocation"
     ],
-    "url": "news/science/2026-08-19/#wildfire-smoke-creates-significant-economic-costs-through-air-pollution",
+    "url": "news/markets/2026-08-19/#sk-hynix-announces-29-billion-share-buyback-and-cancellation-program",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-wildfire-affect-economy.html",
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObF9vOTQ1bzQybE1Cd2JKVjZKd0tRanpBazVtU0pxWXVnakJiNldJX3FaQzVhVklZVFQzWmNRMmR3dklJYU1jRzh6d1BfSDFyRzdGNEZTQkJTRHNiX2VzdTVnU183MzRpQW5FMWpzZDF6REJXTlBwNnY5SjRsZ2EwLWE2NFNVcTlQVEFZQ0xaWFM3T3lFTm5SSEg2aGxTek5rNnZFMVdJQ0ZScUY1ZGxDelVsNTFlSFVmaUZCRg?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "wildfire-smoke-creates-significant-economic-costs-through-air-pollution",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "sk-hynix-announces-29-billion-share-buyback-and-cancellation-program",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "stock-futures-flat-after-sp-500s-third-consecutive-losing-day",
+    "title": "Stock Futures Flat After S&P 500's Third Consecutive Losing Day",
+    "summary": "Stock market futures showed little change following the S&P 500's third straight day of losses, as chip stocks decline and bond yields rattle markets.",
+    "theme": "Markets",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock futures",
+      "S&P 500",
+      "chip stocks",
+      "bond yields"
+    ],
+    "url": "news/markets/2026-08-19/#stock-futures-flat-after-sp-500s-third-consecutive-losing-day",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE52WVUwei1VUlFvc0FwU3lkWlBjY2lHYlNOei1RSnktZVRxQmpYWlFRN25yNS12NE96QlpuM2ZOUWpseURQV0JIcFVHZDRiYjJSb2tTSkJ3Vk5UNEpuNTJLRkFfcEZaZUluNVRXWXFFVHBvUDhSallz0gF8QVVfeXFMTnJZcUR5RmdKSDBwYlQyeXdhN2V6NFJYTVhHMVhZNzBxZFNkeFZ4OWZuMUZKLW83VWtXcWh6MVZpMHNjamVEbThLYzB4SzRIN2E2Ym5Ua2JOMU5vb2x2Y2hYSklqWi0tX210RS1neHZGbnRBY1ZqcHRVblhMTg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "stock-futures-flat-after-sp-500s-third-consecutive-losing-day",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1602,6 +1500,43 @@
     "researched": false,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "comcast-launches-wifi-based-motion-detection-in-xfinity-shield",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "nasa-enlists-350-artists-to-visually-document-americas-space-program",
+    "title": "NASA enlists 350+ artists to visually document America's space program",
+    "summary": "NASA commissioned over 350 artists including Andy Warhol, Annie Leibovitz, and Norman Rockwell to create visual documentation of the United States space program.",
+    "theme": "Space",
+    "importance": 6,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "artist documentation",
+      "space program",
+      "cultural history"
+    ],
+    "url": "news/space/2026-08-19/#nasa-enlists-350-artists-to-visually-document-americas-space-program",
+    "sources": [
+      {
+        "label": "Open Culture",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdEpBX3FFUWJkT2gzNmVnQUxhTWJOWkJVSVF4RGZIeWlmNFljNUM2NGFjQ3pmRHpkSllQMHkzYzZVRVRnZkNMLTFoaVVNQzJDTjc4WGFuaUF3YWFiLW1UYUQ0Z2NET2tLd25sUUZGdkJWZjhnOEdJaWFvWTIwaUZ2d29LcS1tOWZsU0lkazFJRjZsVXkzSnZNMGVxb003eHEyVVZreF9JcnY?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "nasa-enlists-350-artists-to-visually-document-americas-space-program",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1840,7 +1775,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
     "lineage_id": "kt-launches-npu-llm-station-with-korean-ai-chip",
     "related_title": "",
     "related_url": "",
@@ -1921,6 +1856,118 @@
     "related_url": "",
     "updates_title": "Large language models accelerate research software development",
     "updates_url": "news/ai/2026-08-18/#large-language-models-accelerate-research-software-development"
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "needle-2-compresses-45m-parameter-llm-into-14mb",
+    "title": "Needle 2 compresses 45M-parameter LLM into 14MB",
+    "summary": "Needle 2 Local AI packs a 45-million parameter language model into just 14 megabytes, enabling efficient on-device inference.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Needle 2",
+      "LLM",
+      "compression",
+      "on-device",
+      "local AI"
+    ],
+    "url": "news/ai/2026-08-19/#needle-2-compresses-45m-parameter-llm-into-14mb",
+    "sources": [
+      {
+        "label": "Geeky Gadgets",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6MVo4SUlyRFEyMW1wX1p1RUxkYjBHUldtSFptMW9ua2c5SDdFM09sNzFGQVQyYlRIZW1iOVdfc05yZHpRVDNwMVlJaFNtVlNUdWtyODRYak1oMnE0b0tWSG1Saw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "needle-2-compresses-45m-parameter-llm-into-14mb",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "claude-gmail-integration-gains-message-composition-and-reply-capabilities",
+    "title": "Claude Gmail integration gains message composition and reply capabilities",
+    "summary": "Claude Gmail can now send, reply to, and forward email messages.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "Gmail",
+      "email automation"
+    ],
+    "url": "news/anthropic/2026-08-19/#claude-gmail-integration-gains-message-composition-and-reply-capabilities",
+    "sources": [
+      {
+        "label": "Tech My Money",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUjlKTkwyb0RWWUgyWGk2Q0tGS09zc3pVNTlTZVhkdUd6VWhiTWN6MzViOWJXQkpEaDBlT2xuVWM4dmk3TW5CRnJScExXZFpjajI4SGRsczlXUGg1RWlnLWxnWFJmTzNTc1VWVEotSGx5dDQxeWhxSC1GZlZ2X2RrMzViSFZEZHEzX1NOOEY0QnR6UdIBkgFBVV95cUxNUjlKTkwyb0RWWUgyWGk2Q0tGS09zc3pVNTlTZVhkdUd6VWhiTWN6MzViOWJXQkpEaDBlT2xuVWM4dmk3TW5CRnJScExXZFpjajI4SGRsczlXUGg1RWlnLWxnWFJmTzNTc1VWVEotSGx5dDQxeWhxSC1GZlZ2X2RrMzViSFZEZHEzX1NOOEY0QnR6UQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "claude-gmail-integration-gains-message-composition-and-reply-capabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "anthropic-discloses-technical-details-of-claudes-invisible-text-watermarks",
+    "title": "Anthropic discloses technical details of Claude's invisible text watermarks",
+    "summary": "Anthropic explained how Claude's invisible text watermarks function as an authentication mechanism.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "watermarks",
+      "authentication"
+    ],
+    "url": "news/anthropic/2026-08-19/#anthropic-discloses-technical-details-of-claudes-invisible-text-watermarks",
+    "sources": [
+      {
+        "label": "Memeburn",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdnJyUWo1cjFtLWVDdkhEX2U4QzZ1aFROanQyZ19CTGduSEtXbXNJSXptTGlCYWpNUG9XQWVhd19PZXA0YXFGZzdPT0dSemlPVnpvb2JaLUxENklLUlVibkdOdDU3TExqSm9xaW9zYXB4WnRsRDdYUWszUkJmem9XQnNoQWZ1aWQ0U3Rn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "claude-watermarking-ai-generated-text-implications-for-franchise-brands",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Claude Watermarking AI-Generated Text: Implications for Franchise Brands",
+    "updates_url": "news/anthropic/2026-08-18/#claude-watermarking-ai-generated-text-implications-for-franchise-brands"
   },
   {
     "date": "2026-08-19",
@@ -2391,6 +2438,43 @@
     "researched": false,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "new-photonic-crystal-method-improves-single-photon-source-generation-for-quantum-networks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "study-finds-in-group-bias-affects-court-rulings-between-alumni-judges-and-lawyers",
+    "title": "Study Finds In-Group Bias Affects Court Rulings Between Alumni Judges and Lawyers",
+    "summary": "New research in Economic Inquiry shows that alumni relationships between judges and lawyers influence court outcomes, demonstrating in-group bias in the judiciary.",
+    "theme": "Science",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "in-group bias",
+      "judiciary",
+      "alumni relationships",
+      "court rulings"
+    ],
+    "url": "news/science/2026-08-19/#study-finds-in-group-bias-affects-court-rulings-between-alumni-judges-and-lawyers",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-alumni-relationships-affect-court-lawyers.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "study-finds-in-group-bias-affects-court-rulings-between-alumni-judges-and-lawyers",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3131,9 +3215,9 @@
   },
   {
     "date": "2026-08-19",
-    "event_id": "nasa-seeks-isro-partnership-for-lunar-base-india-weighs-risks",
-    "title": "NASA seeks ISRO partnership for lunar base; India weighs risks",
-    "summary": "NASA is seeking India's space agency ISRO as a partner for its Moon base project, prompting Indian consideration of strategic and technical risks.",
+    "event_id": "nasa-engineers-extend-voyager-spacecraft-operations-into-2030s-with-power-system-rework",
+    "title": "NASA Engineers Extend Voyager Spacecraft Operations into 2030s with Power System Rework",
+    "summary": "NASA engineers are reworking the Voyager spacecraft's power systems to potentially extend their nearly 50-year-old exploration mission into the early 2030s.",
     "theme": "Space",
     "importance": 7.0,
     "topics": [
@@ -3145,27 +3229,26 @@
     "primary_feed": "science",
     "keywords": [
       "NASA",
-      "ISRO",
-      "Moon base",
-      "lunar exploration",
-      "India"
+      "Voyager",
+      "interstellar space",
+      "mission extension"
     ],
-    "url": "news/space/2026-08-19/#nasa-seeks-isro-partnership-for-lunar-base-india-weighs-risks",
+    "url": "news/space/2026-08-19/#nasa-engineers-extend-voyager-spacecraft-operations-into-2030s-with-power-system-rework",
     "sources": [
       {
-        "label": "ThePrint",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbWVwU0hGeExCV3ZoR1RiaHN0WXpFRFpnU1pTWTlPVDhuTHZGZUQ4TWh5Z1RxakNoeGtBZTROYjNNRFF5cHRLeHk1RndzSkhuZnI2YkkwQUpweDNWS2VyRzR2RFR5aWdBdDhtaDN2MTRwSGVZLUQwZEtaVjR3c1ZRWUVyelTSAYoBQVVfeXFMTVBRUm5ib3NiRmJKQklSaE1mdkh6cThRRzBzNlhpMnlobVhMQmJrWUk4cWM4VHFPc2ZEbG1BTlUzTFJITVRHR0JLZW85cHJKc28yeHV6VUlHclM2Ynh4TkE0Rm5JQjc3Q3FxUFVqSFdyRnNjTFYxMjdqelA0RGxlSXlCWnZSaVhSOVB3?oc=5",
-        "origin": "rss"
+        "label": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/18/science/nasa-voyagers-big-bang.html",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "nasa-invites-indias-isro-to-join-moon-base-program",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "nasa-extends-voyager-2-operations-for-another-year-of-science",
     "related_title": "",
     "related_url": "",
-    "updates_title": "NASA invites India's ISRO to join Artemis lunar base program",
-    "updates_url": "news/space/2026-08-17/#nasa-invites-indias-isro-to-join-artemis-lunar-base-program"
+    "updates_title": "NASA extends Voyager 2 operations after 49 years in interstellar space",
+    "updates_url": "news/space/2026-08-18/#nasa-extends-voyager-2-operations-after-49-years-in-interstellar-space"
   },
   {
     "date": "2026-08-19",
@@ -3224,6 +3307,61 @@
   },
   {
     "date": "2026-08-19",
+    "event_id": "china-approves-bytedance-and-tencent-to-import-10000-h200-chips-each",
+    "title": "China approves ByteDance and Tencent to import 10,000 H200 chips each",
+    "summary": "China approved ByteDance and Tencent to each import 10,000 NVIDIA H200 AI chips, with other companies expected to follow. The move reflects China's shortage of advanced chipmaking equipment as the U.S. restricts exports of EUV and DUV lithography machines, limiting domestic AI development capacity.",
+    "theme": "Technology",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ByteDance",
+      "Tencent",
+      "H200",
+      "AI chips",
+      "China",
+      "sanctions"
+    ],
+    "url": "news/tech/2026-08-19/#china-approves-bytedance-and-tencent-to-import-10000-h200-chips-each",
+    "sources": [
+      {
+        "label": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com/international/2026/08/19/china-lets-bytedance-tencent-import-nvidia-h200-ai-chips",
+        "origin": "research"
+      },
+      {
+        "label": "The Asia Business Daily",
+        "url": "https://www.asiae.co.kr/en/article/world-general/2026081914431262639",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2239738/china-reportedly-allows-bytedance-tencent-import-10000-h200-chips/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "ByteDance and Tencent each approved for 10,000 H200 chips",
+      "H200 is most powerful U.S. chip cleared for China export, 2+ generations behind Nvidia's advanced chips",
+      "U.S. authorized Chinese firms to purchase up to 100,000 H200 chips each",
+      "Most H200s required to stay outside mainland China; directed to Hong Kong data centers",
+      "Nvidia holds ~500,000 H200 chips in reserve for Chinese customers"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "china-approves-bytedance-and-tencent-to-import-10000-h200-chips-each",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
     "event_id": "institution-specific-llm-prompting-reveals-protected-health-information-missed-by-de-identification-systems",
     "title": "Institution-Specific LLM Prompting Reveals Protected Health Information Missed by De-identification Systems",
     "summary": "An arXiv preprint demonstrates that LLMs using institution-specific prompts can recover protected health information that standard de-identification systems miss. Testing on 100 pediatric oncology notes achieved F1 score of 0.918±0.001 compared to Stanford TiDE's 0.779, with institution-specific prompting recovering 79% of initially missed PHI categories.",
@@ -3266,165 +3404,6 @@
     "researched": true,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "institution-specific-llm-prompting-reveals-protected-health-information-missed-by-de-identification-systems",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "dismissed-ukrainian-defence-minister-calls-for-wartime-presidential-election",
-    "title": "Dismissed Ukrainian Defence Minister Calls for Wartime Presidential Election",
-    "summary": "Ukraine's ousted defence minister publicly called for a presidential election to be held during the war, in a significant challenge to the government.",
-    "theme": "Conflict",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ukraine",
-      "defence minister",
-      "election",
-      "wartime",
-      "political crisis",
-      "Fedorov"
-    ],
-    "url": "news/world/2026-08-19/#dismissed-ukrainian-defence-minister-calls-for-wartime-presidential-election",
-    "sources": [
-      {
-        "label": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQWlISnFXbjk4UmdnVU0ybmRMQ0lhNnBSNG1TdjgtQlVYX2J2VDFyTng2UHJEN0hEUjBMeVh0eThIQ1pPRW1xMDZCTFhhdGROVG4xSm1wUUtHYVpTWTZNaGlmZHRFYVhnd05YNXNQVU5lYVF2a0E3SV9XckN0YlZwUlA0Nk40aXlYT05oS0laQkVHclluek05WVozMVNwQ0N0TUFVbWdFM2tnUTVNYkxSZ2R1WTBMUU1JY0x3ZG1R?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "dismissed-ukrainian-defence-minister-calls-for-wartime-presidential-election",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "israel-defends-syrian-airbase-strike-as-us-frustration-with-government-grows",
-    "title": "Israel Defends Syrian Airbase Strike as U.S. Frustration with Government Grows",
-    "summary": "Israel justified its recent strike on a Syrian airbase to the Trump administration as aimed at preventing Turkish military expansion in the region.",
-    "theme": "Conflict",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Israel",
-      "Syria",
-      "Turkey",
-      "U.S. relations",
-      "airbase",
-      "airbase strike",
-      "escalation",
-      "military strike"
-    ],
-    "url": "news/world/2026-08-19/#israel-defends-syrian-airbase-strike-as-us-frustration-with-government-grows",
-    "sources": [
-      {
-        "label": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYm9BMmh3VTlYTDhPWlY1b0JPYWZITWtQZFh4dVRDdFU0QzdlaWRIcWNOdk04NVZ3a1lXelNIdktFcGFidmxuRG12UXcxd1dWNV9qXzN2OEdMeHZDSF9lT3lrOUVGbVMxT0NZZkJkdXpmRUhsQXRFTjhkUUxETWVDeTF3?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Axios",
-        "url": "https://www.axios.com/2026/08/18/israel-syria-turkey-strike-military-buildup",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "israel-defends-syrian-airbase-strike-as-us-frustration-with-government-grows",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "israeli-forces-strike-alleged-hamas-commanders-meeting-near-gaza-port-six-killed",
-    "title": "Israeli forces strike alleged Hamas commanders meeting near Gaza port; six killed",
-    "summary": "The IDF reports targeting a meeting of elite Hamas commanders near Gaza's port with an airstrike that killed six people.",
-    "theme": "Middle East Conflict",
-    "importance": 7,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "IDF",
-      "Hamas",
-      "Gaza",
-      "airstrike",
-      "military operation"
-    ],
-    "url": "news/world/2026-08-19/#israeli-forces-strike-alleged-hamas-commanders-meeting-near-gaza-port-six-killed",
-    "sources": [
-      {
-        "label": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORzVEQlQyUmY5aVlYbktzREV3aFRTMkNwNG1SOU1UTktUNkw4Q2N0RGsyZHVuazhQb0VVSnB1OFBoTk9SdlFSR3FROTB3TFI0ejVUczk1N1pKVlRQYkhBN3g5cWdCNnNaTFI2SDV0dXpLbXVKMld3blVvY29fb2tKbFBNM1JmTVJrQ2dNRjVvTWZmam1ZS0VoaXpjaWl1Nk82U0kyY0U5dGRoWDZnb3NHZUpkZ9IBuAFBVV95cUxOVGJpNWN5aTJSRnRNQnJsdDlRcnprb0FIeW9xRWpEZ3d0bFBEcmxyTHBPS3FLWHp5MzJ3RHlHbUlLa1hrQUdNVUVwejB0VFZWN2VldjcwaUljN1BZd0dKWldFWlZxN2I5SUlUdl9DdGQ5R0dPU3RKR3RRYTlGSlYxZGRIZGFIQ3AzQTc2UldjLVQ1WXpveGF0Y05KVTRRWkdwZ0w2dUJmTzZxd2lIcGlVM3RLTGN5dkdI?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "israeli-forces-strike-alleged-hamas-commanders-meeting-near-gaza-port-six-killed",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "us-south-korea-military-drills-cut-short-following-presidential-order",
-    "title": "U.S.-South Korea Military Drills Cut Short Following Presidential Order",
-    "summary": "The annual U.S.-South Korea Ulchi Freedom Shield military exercises were shortened from August 27 to August 21 by order of the president of the United States.",
-    "theme": "Policy",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "U.S.-South Korea",
-      "military drills",
-      "Ulchi Freedom Shield"
-    ],
-    "url": "news/world/2026-08-19/#us-south-korea-military-drills-cut-short-following-presidential-order",
-    "sources": [
-      {
-        "label": "NBC News",
-        "url": "https://www.nbcnews.com/world/asia/us-south-korea-joint-military-drills-scaled-back-trump-order-rcna593264",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "us-south-korea-military-drills-cut-short-following-presidential-order",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3573,7 +3552,7 @@
     "date": "2026-08-19",
     "event_id": "openai-introduces-chatgpt-for-teens-with-stronger-safeguards",
     "title": "OpenAI introduces ChatGPT for Teens with stronger safeguards",
-    "summary": "OpenAI rolled out a ChatGPT experience designed specifically for teenagers with enhanced built-in safety protections.",
+    "summary": "OpenAI introduced a new version of ChatGPT designed specifically for teenage users with stronger safety features and parental controls.",
     "theme": "Product Launch",
     "importance": 7.5,
     "topics": [
@@ -3585,9 +3564,12 @@
     "primary_feed": "technology",
     "keywords": [
       "ChatGPT",
-      "Teens",
+      "OpenAI",
+      "Safeguards",
       "Safety",
-      "Safeguards"
+      "Teens",
+      "parental controls",
+      "teen safety"
     ],
     "url": "news/gpt/2026-08-19/#openai-introduces-chatgpt-for-teens-with-stronger-safeguards",
     "sources": [
@@ -3685,11 +3667,26 @@
         "label": "AP News",
         "url": "https://apnews.com/article/openai-chatgpt-teens-ai-safety-650cb35591de6546054d6c4e73b3290a",
         "origin": "discovery"
+      },
+      {
+        "label": "The Indian Express",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOcDJ4bDJiSFRneVN0MnB5Zm9KMXBSb0hCMzYzQ2N1Z2FEVEh3MmU2NHlmc3BYZzRQdEVxNVAyWnZMOE16dVpYSXB5SWRLb2dSQU5hbUxQZlU0eUpBT0xlVThtMEpmaC16N0h0NXdTZUR2MG9UVUJDckdvNVlOUy1nYi0wbFctY2xkQldCTjc3b2Z3eG85cU1BRVZTV1A0VDJsbGpHRGlnMWp5dG5ZcHliWE1oQmpJR2YyTmRXQlVtMVpoNGJJejZPR1BEa9IB0gFBVV95cUxQdDNYMzNNVkItZG80ZG9YZG9jN19UdG53RHJsaWJIeVEzdlYtbWhtV091WnRabllSSnFlVzl4alo5OVRONlBoaFBpUzlGbDczRWFKaFkyUWNCa3poOXVnT0U4cjdhczhkbWFHV2EtZ3JIU1NiYTlSeS1OQmhNZHZSTy1VMkx1Mm8tRGJxa1d2WG5Obng2M3NZWlZfakZicC1UV0RrTnEtLUVNaEFiZUJBRks0QUhHUk1Xa1NXbk83OXBON2hxU0FacDFJWjRCMk1nbXc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "wionews.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT2ZNNVg4UmNPOFNuS0prbEMxZHlsRUR1MUNFYVJtRXZzZUl5WnlaZlNCakU5Z2F4ekZiVVBYUTRfLTRQXzhuYXNJd0ZhdUZWaXVUa3pLQThNRmRnbm5valNRaGV5OTdyQXpEZXF2UUk1c2JxR3hCd3pZYjBjQ0dlUlk1aHRzcUx4Tko1WEQ3cUlVMnByVUxCZXR0SWE5MU5IRU82WlAwdmhSb0hBSjlmczR5M241ZEVzcEFVMHJQZ0FlRmNRQlpKc2hJQ1LSAdIBQVVfeXFMTkJnWkR4cGEweHhjMVlFSVdIVXlIQjNjb0lQTDdKc3JRdlFWbUJPbkNXYjFXMUctejBNcHVUbGFpVm9aU2kydUVhQVo1TjJmNmtjMHR5bGhxdm9Nd3d0RVZNYmdUWHk5cGkyQmg4U2QxT0kzd2hxVkZjcVNFT2ZUd085NWpVSGlVbFFNN3JwUzJQQ3hJNHJOMWNmZnVXLWdBTlljeVU1MXFnZk5TVmNObGM3MncxRGNMU1U4aDBTNTlYMllfVDNCbU1HUzNPYW54NG1B?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "bwmarketingworld.com",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQa01qSk1YVWltVEpjanppV0F4dkNxM0l3M1E5VnhGX1pOcjAwLUFPRGVCX3RJWG1neGxzTEJqTUNLLVRPbXVMY3dtWHZKU3JwUGhsZUozcHlNNGgyLWVGZkg3dGh0cG9QUFVHVEYtb21WSFkwampfaDhmZmhHd2swWElGUDVfRkF2aWhtdnJZTmdkUjNQX2VVay1vbFBIVnZvTHZ3Y1dZbkpTSlhBeENudDhlcXF2ZG42dE45dzNLM2FIUQ?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
     "lineage_id": "openai-introduces-chatgpt-for-teens-with-stronger-safeguards",
     "related_title": "",
     "related_url": "",
@@ -3700,7 +3697,7 @@
     "date": "2026-08-19",
     "event_id": "openai-suspends-gpt-6-training",
     "title": "OpenAI Suspends GPT-6 Training",
-    "summary": "OpenAI has halted training of GPT-6, with unclear reasons cited as either security concerns or undisclosed issues.",
+    "summary": "OpenAI has halted GPT-6 training, with speculation about whether security concerns or undisclosed reasons are behind the decision.",
     "theme": "AI",
     "importance": 7.5,
     "topics": [
@@ -3711,9 +3708,10 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
+      "AI safety",
       "GPT-6",
-      "AI safety"
+      "OpenAI",
+      "training suspension"
     ],
     "url": "news/gpt/2026-08-19/#openai-suspends-gpt-6-training",
     "sources": [
@@ -3725,7 +3723,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
     "lineage_id": "openai-suspends-gpt-6-training",
     "related_title": "",
     "related_url": "",
@@ -4136,6 +4134,91 @@
   },
   {
     "date": "2026-08-19",
+    "event_id": "chrome-and-firefox-release-security-patches-for-dozens-of-vulnerabilities",
+    "title": "Chrome and Firefox release security patches for dozens of vulnerabilities",
+    "summary": "Google and Mozilla released major security updates on August 19, 2026. Firefox 154 patched 58 CVEs including memory safety bugs exploitable for code execution and privilege escalation; Chrome 151 resolved 15 vulnerabilities including two critical buffer overflow flaws. Related patches also issued for Thunderbird and Firefox ESR versions.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Chrome",
+      "Firefox",
+      "vulnerability",
+      "code execution",
+      "patch"
+    ],
+    "url": "news/security/2026-08-19/#chrome-and-firefox-release-security-patches-for-dozens-of-vulnerabilities",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Firefox 154 patched 58 CVEs, roughly half memory safety bugs",
+      "20 high-severity Firefox flaws including 6 use-after-free defects",
+      "Chrome 151 resolved 2 critical and 13 high-severity vulnerabilities",
+      "Google discovered 11 of 15 Chrome flaws; 4 from external researchers"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "chrome-and-firefox-release-security-patches-for-dozens-of-vulnerabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "carecloud-data-breach-affects-37-million-individuals",
+    "title": "CareCloud Data Breach Affects 3.7 Million Individuals",
+    "summary": "CareCloud's healthcare data breach now affects 3.7 million individuals, a tenfold increase from initial estimates. Threat actors accessed AWS environments between March 10–16, 2026, stealing names, Social Security numbers, health insurance data, medical records, and payment card information for a subset of victims.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "CareCloud",
+      "data breach",
+      "3.7 million",
+      "healthcare"
+    ],
+    "url": "news/security/2026-08-19/#carecloud-data-breach-affects-37-million-individuals",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "3.7 million individuals affected, up from 350,000 initial estimate",
+      "Breach occurred March 10–16, 2026 in CareCloud AWS environment",
+      "Stolen data includes SSNs, driver's licenses, health insurance, payment cards",
+      "No known cybercrime group claimed responsibility; ransom status unclear"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "carecloud-data-breach-affects-37-million-individuals",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
     "event_id": "chinese-private-rocket-landspace-successfully-lands-zhuque-3-on-second-flight",
     "title": "Chinese private rocket LandSpace successfully lands Zhuque-3 on second flight",
     "summary": "Beijing-based LandSpace achieved a major milestone by successfully landing its Zhuque-3 rocket on only its second orbital flight attempt.",
@@ -4210,6 +4293,43 @@
     "researched": true,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "northrop-grumman-selected-to-build-nasas-lunar-base-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "nasa-seeks-isro-partnership-for-cost-effective-moon-base-construction",
+    "title": "NASA seeks ISRO partnership for cost-effective Moon base construction",
+    "summary": "NASA wants India's space agency ISRO to help build the first lunar base as a cost-effective collaborative approach.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "ISRO",
+      "Moon base",
+      "lunar exploration"
+    ],
+    "url": "news/space/2026-08-19/#nasa-seeks-isro-partnership-for-cost-effective-moon-base-construction",
+    "sources": [
+      {
+        "label": "India Today",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQazNUc1lxakQyRzhSMngxWTJjN1VRb3k5M0hxektzRDNnS2FGN3htbEJjLUIzZkIydnJ4ZnhGQ0lBbTlfU2ZVQ2t3ZUtudzg0dGlHdVY2RjZRUE45MmZLeDAtSGtsOUlwMjhpRDFtSEQxMXl4Z25GR2p2Qmk3S2NkcjJLM2o2WVM5X0pyR0NualhmVUh6aURhUGNzbWVpNERHQ2Z0RnlPd1Q5RlBUR1hTZklyMnhKamlqTFFpLVJiTWNBcVp1S3dWR1JpRnFvNHc1U3FYeQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "nasa-seeks-isro-partnership-for-cost-effective-moon-base-construction",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4339,44 +4459,6 @@
   },
   {
     "date": "2026-08-19",
-    "event_id": "ukraine-launches-massive-800-drone-strike-on-moscow-region-russia-kills-10-in-village-counterattack",
-    "title": "Ukraine launches massive 800-drone strike on Moscow region; Russia kills 10 in village counterattack",
-    "summary": "Ukraine targeted the Moscow region with approximately 800 drones while Russian missiles killed 10 people in a Ukrainian village.",
-    "theme": "Ukraine Conflict",
-    "importance": 7.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ukraine",
-      "drone strike",
-      "Moscow",
-      "Russia",
-      "military attack"
-    ],
-    "url": "news/world/2026-08-19/#ukraine-launches-massive-800-drone-strike-on-moscow-region-russia-kills-10-in-village-counterattack",
-    "sources": [
-      {
-        "label": "PBS",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPc3ktcUg3SXZ3ZWFCMkpNcldFNVhJcVE3czUxWHZwX0ktWUMzX1pDQ1hncTFwa1RidUM0YnRiRl9iY0d5UDl6Qkg2YXIwSXBNWXZpVllwQ1RzajJ5akpCNThlT2hlakFZS1hNem1HVjh1ZFhSQy1aajJRamN6RkdsTXl5OGhBS0hXbkJzelp4ZjllVDRvLWtYZzVUMmI3dkV1b0RGVXRvZDJLT0ozaUgxNG0teWlNQkkxZGN1UXdjMWhiam1VXzhSSktYUdIB0AFBVV95cUxPRmUzN0JsWlVvVG1nRHlUZ3loZ2xudnNXX1ZFVk0xbWhHajZNT1l1cTBIR283djlFRzdSc25XVERCVVUwZzZiaExEa1NPSnBBdWl0Vll3aU43NXJYdUVWQzRuRmVjcExJVDRGd3BxWnFOZEJuNW1wbzVXa3dydUxZdHYxcEE3SFFSQjF1dzFaakg4bVJteGE0Z28wbHZUNGs1UWZwRGhWaWg5a290RjZUZnlxdnV2cUxCU2lVY1RjU3V1bkJwT1N3SDNudDl1UkpR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "ukraine-launches-major-600-drone-attack-on-moscow-explosions-reported-in-kyiv",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Ukraine launches major drone attack on Moscow with 620 unmanned aircraft",
-    "updates_url": "news/world/2026-08-18/#ukraine-launches-major-drone-attack-on-moscow-with-620-unmanned-aircraft"
-  },
-  {
-    "date": "2026-08-19",
     "event_id": "iran-threatens-military-retaliation-against-european-targets-if-escalation-occurs",
     "title": "Iran Threatens Military Retaliation Against European Targets if Escalation Occurs",
     "summary": "Iranian officials are discussing potential military strikes against U.S. assets in Europe amid concerns that renewed conflict with the U.S. is inevitable.",
@@ -4407,6 +4489,176 @@
     "researched": false,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "iran-threatens-military-retaliation-against-european-targets-if-escalation-occurs",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "russians-withdraw-billions-from-banks-amid-concerns-of-kremlin-seizure-for-war-financing",
+    "title": "Russians withdraw billions from banks amid concerns of Kremlin seizure for war financing",
+    "summary": "Russian citizens are withdrawing billions from banks out of concern that the Kremlin may seize deposits to finance military operations in Ukraine.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "banks",
+      "Ukraine",
+      "war financing",
+      "capital flight"
+    ],
+    "url": "news/world/2026-08-19/#russians-withdraw-billions-from-banks-amid-concerns-of-kremlin-seizure-for-war-financing",
+    "sources": [
+      {
+        "label": "The Independent",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMUNGN1RDZG5LMVJ5ZlZ4X2gxTlJRaU5vLWFSZ0E1SjNLcXd0TjZmazRCQzFXVmtGREZwQU56NGQtNGg3ZGU3RVM1TFhTWDF1Unl1Y2c4WjBnU1ZyTHFHWnByUHE5OUdBWDZaVFFqdHIxTmxVMkVHTXdJY0ZCN0c0V05uX2lzUm5tZVlkNUprX195RHF6ZndYMFk1bFI5VHIwTzJVTmQxdWRmSEFNQ2hURnp0cDU2NFlh?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "russians-withdraw-billions-from-banks-amid-concerns-of-kremlin-seizure-for-war-financing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "ukraines-former-defense-minister-calls-for-presidential-election-during-wartime",
+    "title": "Ukraine's Former Defense Minister Calls for Presidential Election During Wartime",
+    "summary": "Ukraine's dismissed defense minister is calling for a presidential election to challenge President Zelenskyy's wartime rule.",
+    "theme": "World",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Zelenskyy",
+      "defense minister",
+      "presidential election",
+      "wartime"
+    ],
+    "url": "news/world/2026-08-19/#ukraines-former-defense-minister-calls-for-presidential-election-during-wartime",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORnc0QkQ2WDdWdkdsRVMzNnVfRHpMUzlxZlk3RnZrbnNscnIteVozWkVKUWN5alg0Tm9HZUpSblFPYlE1V3N3V2V2d242T2d5Z1ZtNUlMUEl4X0xoajFkOWR2bHVjeHRGUFhnLS1LSXRUTFRxZGVZMjJMa1VXVTROM9IBhgFBVV95cUxNbFlob0N1cGJFWTVyZFFqVWNTbGFlTW5YXzhqdFptdGgyZVN3QWdyNDlMNjg1RU9ZcmRhV3ZzckY5WFpCcW5nOF81Mm81YnQyZHFmblNXUlozYjRxOXFfNEliOVptdEpHTV9mSEhoLS0zbnlUNXlfc0NzU1A0d05UNFNWQVJEdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "ukraines-former-defense-minister-calls-for-presidential-election-during-wartime",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "us-cuts-military-drills-with-south-korea-as-trump-pursues-north-korea-engagement",
+    "title": "U.S. Cuts Military Drills with South Korea as Trump Pursues North Korea Engagement",
+    "summary": "The president of the United States ordered the Pentagon to cut joint military drills with South Korea one week early, citing cost and disagreements over Iran policy. The Ulchi Freedom Shield exercise with 18,000 troops was halted as the president pursues diplomatic engagement with North Korea, drawing concerns from military analysts about alliance coordination and regional deterrence.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "South Korea",
+      "military drills",
+      "North Korea",
+      "United States",
+      "diplomacy"
+    ],
+    "url": "news/world/2026-08-19/#us-cuts-military-drills-with-south-korea-as-trump-pursues-north-korea-engagement",
+    "sources": [
+      {
+        "label": "The Spokesman-Review",
+        "url": "https://www.spokesman.com/stories/2026/aug/18/trump-chases-kim-jong-un-talks-as-ties-fray-with-s/",
+        "origin": "research"
+      },
+      {
+        "label": "ECIKS",
+        "url": "https://eciks.org/21669-south-korea-us-military-drills-trump",
+        "origin": "research"
+      },
+      {
+        "label": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/18/us/politics/pentagon-south-korea-training-exercises.html",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Ulchi Freedom Shield drills cut one week early (ended August 18 vs. August 27)",
+      "18,000 South Korean troops participated in reduced exercise",
+      "President cited cost and South Korea's refusal to join Iran denuclearization efforts",
+      "Military experts warn cuts could weaken alliance coordination and deterrence against possible Asian conflicts"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "us-cuts-military-drills-with-south-korea-as-trump-pursues-north-korea-engagement",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "indonesia-earthquake-kills-70-displaces-thousands-on-flores-island",
+    "title": "Indonesia Earthquake Kills 70, Displaces Thousands on Flores Island",
+    "summary": "A magnitude 7.7 earthquake struck Indonesia's Flores island, killing at least 70 people and displacing thousands of residents.",
+    "theme": "Natural Disaster",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Indonesia",
+      "Flores",
+      "earthquake",
+      "humanitarian crisis"
+    ],
+    "url": "news/world/2026-08-19/#indonesia-earthquake-kills-70-displaces-thousands-on-flores-island",
+    "sources": [
+      {
+        "label": "AP News",
+        "url": "https://apnews.com/article/indonesia-flores-earthquake-displaced-traumatized-children-70f07f6bbaf611924b98594356f25b32",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Magnitude 7.7 earthquake on Flores island, Indonesia",
+      "At least 70 deaths reported",
+      "Thousands displaced three days after disaster"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "indonesia-earthquake-kills-70-displaces-thousands-on-flores-island",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4451,7 +4703,7 @@
     ],
     "researched": true,
     "received_at": "2026-08-19T06:30:41.714653+00:00",
-    "lineage_id": "",
+    "lineage_id": "trump-administration-removes-habitat-destruction-from-endangered-species-act-protections",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4549,6 +4801,87 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "ukraine-strikes-moscow-with-massive-drone-attack-russian-missiles-kill-civilians",
+    "title": "Ukraine Strikes Moscow with Massive Drone Attack; Russian Missiles Kill Civilians",
+    "summary": "Ukraine conducted a large-scale drone strike on Moscow with nearly 800 drones while Russian missile attacks killed 10 people in a Ukrainian village.",
+    "theme": "World",
+    "importance": 8.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Moscow",
+      "drone strike",
+      "Russia"
+    ],
+    "url": "news/world/2026-08-19/#ukraine-strikes-moscow-with-massive-drone-attack-russian-missiles-kill-civilians",
+    "sources": [
+      {
+        "label": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQmpoWmRzcDBhN3VqXzZfdWxvTDMyczhVOFJ4WTFzdzZBcGprR0k5VzFDb0lKbG5TMjZHR0I0VWlKd3NiSXg1VTdsZ253LTZMRFlJaWlKOGdVRm41S2QxSkNpX2NJc3RxMTY4UWRLVVI5T1NSQ1plNEJWc2xBbVJrUkI4eFNxOVloY1pDeXl2MTg1YnhDd2ZF?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "ukraine-launches-major-600-drone-attack-on-moscow-explosions-reported-in-kyiv",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Ukraine launches massive 800-drone strike on Moscow region; Russia kills 10 in village counterattack",
+    "updates_url": "news/world/2026-08-19/#ukraine-launches-massive-800-drone-strike-on-moscow-region-russia-kills-10-in-village-counterattack"
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "cisa-reports-medusa-ransomware-has-breached-over-500-critical-infrastructure-organizations",
+    "title": "CISA reports Medusa ransomware has breached over 500 critical infrastructure organizations",
+    "summary": "The FBI and CISA reported that the Medusa ransomware gang has compromised more than 500 critical infrastructure organizations in the United States since June 2021.",
+    "theme": "Security",
+    "importance": 8.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Medusa ransomware",
+      "critical infrastructure",
+      "FBI",
+      "CISA",
+      "breach"
+    ],
+    "url": "news/security/2026-08-19/#cisa-reports-medusa-ransomware-has-breached-over-500-critical-infrastructure-organizations",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "500+ victims as of April 2026 (up from 300 in 2025)",
+      "Medusa struck University of Mississippi Medical Center (only state children's hospital, Level I trauma center)",
+      "Group exploits vulnerabilities within 24 hours of announcement",
+      "Offers $10,000 to extend payment deadline by one day",
+      "Uses credential-stealing tools and legitimate remote monitoring software to evade detection"
+    ],
+    "researched": false,
+    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "lineage_id": "cisa-reports-500-medusa-ransomware-victims-many-in-critical-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "CISA reports 500+ Medusa ransomware victims, many in critical infrastructure",
+    "updates_url": "news/security/2026-08-18/#cisa-reports-500-medusa-ransomware-victims-many-in-critical-infrastructure"
   },
   {
     "date": "2026-08-18",
