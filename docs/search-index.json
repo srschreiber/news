@@ -343,6 +343,43 @@
   },
   {
     "date": "2026-08-19",
+    "event_id": "microsoft-recognized-as-leader-in-cloud-workload-protection-platform-market",
+    "title": "Microsoft recognized as leader in cloud workload protection platform market",
+    "summary": "Microsoft was named a leader in Frost & Sullivan's 2026 Cloud Workload Protection Platforms Radar for its Defender for Cloud security offerings.",
+    "theme": "Security",
+    "importance": 5.0,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "Defender for Cloud",
+      "security",
+      "cloud"
+    ],
+    "url": "news/email-security/2026-08-19/#microsoft-recognized-as-leader-in-cloud-workload-protection-platform-market",
+    "sources": [
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "microsoft-recognized-as-leader-in-cloud-workload-protection-platform-market",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
     "event_id": "cloud-database-pricing-comparison-aws-rds-azure-google-cloud-sql-show-25-variance",
     "title": "Cloud database pricing comparison: AWS RDS, Azure, Google Cloud SQL show 25% variance",
     "summary": "A 2026 price comparison shows a significant 25% pricing gap between leading cloud database services across AWS, Azure, and Google Cloud.",
@@ -464,43 +501,6 @@
     "researched": false,
     "received_at": "2026-08-19T16:17:35.547732+00:00",
     "lineage_id": "duke-university-partners-with-anthropic-for-pay-as-you-go-claude-access",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "anthropic-tests-hub-mode-in-claude-for-managing-ai-sub-agents",
-    "title": "Anthropic Tests Hub Mode in Claude for Managing AI Sub-Agents",
-    "summary": "Anthropic is testing Hub Mode in its Claude mobile app to enable management of AI sub-agents, with broader availability timeline still undetermined.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "Hub Mode",
-      "AI agents"
-    ],
-    "url": "news/anthropic/2026-08-19/#anthropic-tests-hub-mode-in-claude-for-managing-ai-sub-agents",
-    "sources": [
-      {
-        "label": "TestingCatalog AI News",
-        "url": "https://www.testingcatalog.com/anthropic-tests-hub-mode-in-claude-for-sub-agents/",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "anthropic-tests-hub-mode-in-claude-for-managing-ai-sub-agents",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1027,42 +1027,6 @@
   },
   {
     "date": "2026-08-19",
-    "event_id": "uncertainty-aware-decision-making-in-multimodal-large-language-models",
-    "title": "Uncertainty-Aware Decision Making in Multimodal Large Language Models",
-    "summary": "arXiv preprint addresses how multimodal language models should quantify and communicate uncertainty when answering questions requiring visual, textual, or other evidence.",
-    "theme": "AI Research",
-    "importance": 6.0,
-    "topics": [
-      "tech-research"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "multimodal models",
-      "uncertainty quantification",
-      "MLLM"
-    ],
-    "url": "news/tech-research/2026-08-19/#uncertainty-aware-decision-making-in-multimodal-large-language-models",
-    "sources": [
-      {
-        "label": "arXiv — Computation and Language",
-        "url": "https://arxiv.org/abs/2608.17084",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T06:21:59.732083+00:00",
-    "lineage_id": "uncertainty-aware-decision-making-in-multimodal-large-language-models",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
     "event_id": "kt-launches-npu-llm-station-with-korean-ai-chip",
     "title": "KT Launches NPU LLM Station with Korean AI Chip",
     "summary": "KT deployed a new LLM serving platform featuring a domestically-developed neural processing unit and AI chip.",
@@ -1183,7 +1147,7 @@
     "date": "2026-08-19",
     "event_id": "needle-2-compresses-45m-parameter-llm-into-14mb",
     "title": "Needle 2 compresses 45M-parameter LLM into 14MB",
-    "summary": "Needle 2 Local AI packs a 45-million parameter language model into just 14 megabytes, enabling efficient on-device inference.",
+    "summary": "Needle 2 demonstrates efficient local AI by packing a 45-million-parameter language model into just 14 megabytes.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1194,11 +1158,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Needle 2",
       "LLM",
+      "Needle 2",
       "compression",
-      "on-device",
-      "local AI"
+      "edge AI",
+      "local AI",
+      "model compression",
+      "on-device"
     ],
     "url": "news/ai/2026-08-19/#needle-2-compresses-45m-parameter-llm-into-14mb",
     "sources": [
@@ -1210,7 +1176,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T08:21:15.535293+00:00",
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
     "lineage_id": "needle-2-compresses-45m-parameter-llm-into-14mb",
     "related_title": "",
     "related_url": "",
@@ -1258,7 +1224,7 @@
     "date": "2026-08-19",
     "event_id": "claude-ai-gains-ability-to-send-gmail-emails-without-explicit-user-approval",
     "title": "Claude AI gains ability to send Gmail emails without explicit user approval",
-    "summary": "Anthropic's Claude, integrated in Google Workspace, can now send Gmail emails without requiring human approval for each message.",
+    "summary": "Anthropic's Claude AI assistant can now send Gmail emails without requesting user confirmation first.",
     "theme": "AI Safety",
     "importance": 6.5,
     "topics": [
@@ -1277,6 +1243,8 @@
       "Google Workspace",
       "agent capabilities",
       "automation",
+      "autonomous agents",
+      "email",
       "email automation",
       "permissions"
     ],
@@ -1325,7 +1293,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T18:15:31.800249+00:00",
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
     "lineage_id": "claude-ai-gains-ability-to-send-gmail-emails-without-explicit-user-approval",
     "related_title": "",
     "related_url": "",
@@ -1437,6 +1405,51 @@
     "related_url": "",
     "updates_title": "Claude Watermarking AI-Generated Text: Implications for Franchise Brands",
     "updates_url": "news/anthropic/2026-08-18/#claude-watermarking-ai-generated-text-implications-for-franchise-brands"
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "pharma-bro-shkreli-disputes-claudes-drug-discovery-capabilities",
+    "title": "'Pharma Bro' Shkreli disputes Claude's drug-discovery capabilities",
+    "summary": "Anthropic's Claude successfully designed proteins binding 14 of 15 molecular targets in independent testing, though critics question the achievement's magnitude.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "Claude",
+      "Shkreli",
+      "criticism",
+      "drug discovery",
+      "molecular targets",
+      "protein design"
+    ],
+    "url": "news/anthropic/2026-08-19/#pharma-bro-shkreli-disputes-claudes-drug-discovery-capabilities",
+    "sources": [
+      {
+        "label": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSEFLOExITld4YkJIVU85dEpKM1RzbjBNYmx5dWxlY0RGOXFVRVpfNVZVdndxbUs4TTY5OUtiQW9LT0ExckE4TVVrOU5uLTBsYy1iUi1NNDBoZDRoc25rTjdZTUVaQy1VLUVMOU1XVk1fcTV3RDBRNzdxalFHYXREaDJKN3hSbWJ5eXpXRTd6dDRfYW1nX0loVGNfLXA1a2gxTzl4VUpjVklxUGoxX2pEYWFtZ28yTDhK?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/healthcare/articles/pharma-bro-martin-shkreli-slams-052159178.html",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "pharma-bro-shkreli-disputes-claudes-drug-discovery-capabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-19",
@@ -1711,6 +1724,158 @@
     "researched": false,
     "received_at": "2026-08-19T16:17:35.547732+00:00",
     "lineage_id": "philippine-supreme-court-strikes-down-commercial-fishing-vessel-monitoring-requirement",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "ski-protein-regulates-t-cell-function-through-tgf-β-pathway-inhibition",
+    "title": "SKI protein regulates T cell function through TGF-β pathway inhibition",
+    "summary": "Research published in Science Advances reveals that SKI is critical for blocking TGF-β signaling to enhance T cell function and autoimmune response.",
+    "theme": "Immunology",
+    "importance": 6.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "SKI",
+      "TGF-β",
+      "T cells",
+      "autoimmunity"
+    ],
+    "url": "news/conservation/2026-08-19/#ski-protein-regulates-t-cell-function-through-tgf-β-pathway-inhibition",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aeb7051?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "ski-protein-regulates-t-cell-function-through-tgf-β-pathway-inhibition",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "cas13d-structural-basis-enables-target-discrimination-and-activation",
+    "title": "Cas13d structural basis enables target discrimination and activation",
+    "summary": "Science Advances reveals the structural mechanism that allows the Cas13d enzyme to discriminate between targets and activate its catalytic function.",
+    "theme": "Biotechnology",
+    "importance": 6.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Cas13d",
+      "CRISPR",
+      "RNA targeting",
+      "structure"
+    ],
+    "url": "news/conservation/2026-08-19/#cas13d-structural-basis-enables-target-discrimination-and-activation",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec4221?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "cas13d-structural-basis-enables-target-discrimination-and-activation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "pkgiα-cysteine-modification-reverses-cardiac-dysfunction-in-heart-failure-with-preserved-ejection-fraction",
+    "title": "PKGIα cysteine modification reverses cardiac dysfunction in heart failure with preserved ejection fraction",
+    "summary": "Science Advances reports that targeting PKGIα Cys42 attenuates cardiac dysfunction in the preserved ejection fraction heart failure phenotype.",
+    "theme": "Cardiology",
+    "importance": 6.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "PKGIα",
+      "heart failure",
+      "HFpEF",
+      "protein modification"
+    ],
+    "url": "news/conservation/2026-08-19/#pkgiα-cysteine-modification-reverses-cardiac-dysfunction-in-heart-failure-with-preserved-ejection-fraction",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec8088?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "pkgiα-cysteine-modification-reverses-cardiac-dysfunction-in-heart-failure-with-preserved-ejection-fraction",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "late-pleistocene-earth-energy-imbalance-reconstructed-from-paleoclimate-records",
+    "title": "Late-Pleistocene Earth energy imbalance reconstructed from paleoclimate records",
+    "summary": "Science Advances reconstruction of Late-Pleistocene climate reveals changes in Earth's energy imbalance and their attribution to specific forcing mechanisms.",
+    "theme": "Climate Science",
+    "importance": 6.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "energy imbalance",
+      "paleoclimate",
+      "Pleistocene",
+      "climate forcing"
+    ],
+    "url": "news/conservation/2026-08-19/#late-pleistocene-earth-energy-imbalance-reconstructed-from-paleoclimate-records",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec9034?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "late-pleistocene-earth-energy-imbalance-reconstructed-from-paleoclimate-records",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2157,43 +2322,6 @@
   },
   {
     "date": "2026-08-19",
-    "event_id": "stock-market-flashes-rare-warning-signal-unseen-in-decades",
-    "title": "Stock market flashes rare warning signal unseen in decades",
-    "summary": "Equity markets display historically significant technical warning pattern that has appeared only once before, with historical precedent suggesting major implications.",
-    "theme": "Markets",
-    "importance": 6.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "warning signal",
-      "technical analysis",
-      "market correction"
-    ],
-    "url": "news/markets/2026-08-19/#stock-market-flashes-rare-warning-signal-unseen-in-decades",
-    "sources": [
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaENxZXNaVl84OFlmWF9xOU9lVnhrSjJRSWVOOTVYTVI2Mlk1Rk54cDNoNV9OSThhZUJzXzVTS2d6ck1GY1BSS2NHbHBjbDBYTnUyOUFUdkFEUlhzdzFPYzNyb2loVVN1VUZaN1dMczM5VXlhbTdWaEpBeHZaNHlESEZzQWJaZTlWcExNWDNzaC0tZm41VnV3NQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-19T12:19:07.131078+00:00",
-    "lineage_id": "stock-market-flashes-rare-warning-signal-unseen-in-decades",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
     "event_id": "nasa-opens-jet-propulsion-lab-management-contract-to-competition",
     "title": "NASA opens Jet Propulsion Lab management contract to competition",
     "summary": "NASA is opening its management contract for the Jet Propulsion Laboratory to competitive bidding, potentially allowing USC or other entities to take over operations.",
@@ -2477,6 +2605,44 @@
   },
   {
     "date": "2026-08-19",
+    "event_id": "agentic-ai-deployments-pose-enterprise-integration-and-governance-risks",
+    "title": "Agentic AI deployments pose enterprise integration and governance risks",
+    "summary": "Research from Info-Tech Research Group warns that agentic AI systems moving beyond pilots create integration and governance vulnerabilities for enterprises.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "agentic AI",
+      "enterprise AI",
+      "governance",
+      "workflow automation",
+      "data security"
+    ],
+    "url": "news/tech-research/2026-08-19/#agentic-ai-deployments-pose-enterprise-integration-and-governance-risks",
+    "sources": [
+      {
+        "label": "Newswire Canada",
+        "url": "https://www.newswire.ca/news-releases/pilot-era-agentic-ai-stacks-expose-enterprises-to-integration-and-governance-risks-finds-info-tech-research-group-835078358.html",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "agentic-ai-deployments-pose-enterprise-integration-and-governance-risks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
     "event_id": "us-army-develops-military-specific-llm-with-edgerunner-partnership",
     "title": "U.S. Army Develops Military-Specific LLM With EdgeRunner Partnership",
     "summary": "The U.S. Army AI Integration Center and EdgeRunner are collaborating to build a mission-specific open-weight language model for national security applications.",
@@ -2691,6 +2857,186 @@
     "researched": true,
     "received_at": "2026-08-19T18:15:31.800249+00:00",
     "lineage_id": "bluefin-tunas-return-to-yorkshire-waters-for-first-time-since-1960s",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "multispacecraft-observation-reveals-asymmetric-coronal-mass-ejection-structure",
+    "title": "Multispacecraft observation reveals asymmetric coronal mass ejection structure",
+    "summary": "Seventeen spacecraft across the inner heliosphere coordinated to reveal the complex three-dimensional structure of an asymmetric coronal mass ejection.",
+    "theme": "Space Science",
+    "importance": 7.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "coronal mass ejection",
+      "CME",
+      "heliosphere",
+      "spacecraft",
+      "solar"
+    ],
+    "url": "news/conservation/2026-08-19/#multispacecraft-observation-reveals-asymmetric-coronal-mass-ejection-structure",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aed9960?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "multispacecraft-observation-reveals-asymmetric-coronal-mass-ejection-structure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "leadless-pacemaker-self-powers-via-triboelectric-nanogenerator",
+    "title": "Leadless pacemaker self-powers via triboelectric nanogenerator",
+    "summary": "Researchers demonstrated a fully implantable, leadless pacemaker powered by a triboelectric nanogenerator that harvests biomechanical energy from cardiac motion and heartbeats. The battery-free device is designed to operate indefinitely without replacement.",
+    "theme": "Medical Devices",
+    "importance": 7.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "pacemaker",
+      "triboelectric",
+      "nanogenerator",
+      "cardiac"
+    ],
+    "url": "news/conservation/2026-08-19/#leadless-pacemaker-self-powers-via-triboelectric-nanogenerator",
+    "sources": [
+      {
+        "label": "Medical Xpress",
+        "url": "https://medicalxpress.com/news/2026-08-heartbeats-power-battery-free-pacemaker.html",
+        "origin": "research"
+      },
+      {
+        "label": "Nature Communications",
+        "url": "https://www.nature.com/articles/s41467-023-44510-6",
+        "origin": "research"
+      },
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aef8903?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Fully implantable, leadless design",
+      "Battery-free operation powered by triboelectric nanogenerator",
+      "Harvests energy from cardiac motion and heartbeats",
+      "Designed to last lifetime without battery replacement"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "leadless-pacemaker-self-powers-via-triboelectric-nanogenerator",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "ros-responsive-nanogels-deliver-inhaled-cd24-immunotherapy-for-severe-pneumonia-hyperinflammation",
+    "title": "ROS-responsive nanogels deliver inhaled CD24 immunotherapy for severe pneumonia hyperinflammation",
+    "summary": "Novel nanogel particles deliver CD24 immunotherapy via inhalation to suppress excessive inflammation in severe pneumonia.",
+    "theme": "Drug Delivery",
+    "importance": 7.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "nanogels",
+      "CD24",
+      "immunotherapy",
+      "pneumonia",
+      "drug delivery"
+    ],
+    "url": "news/conservation/2026-08-19/#ros-responsive-nanogels-deliver-inhaled-cd24-immunotherapy-for-severe-pneumonia-hyperinflammation",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec3712?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "ros-responsive-nanogels-deliver-inhaled-cd24-immunotherapy-for-severe-pneumonia-hyperinflammation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "programmable-photonic-neural-engine-integrates-40000-connections-with-all-optical-nonlinear-activation",
+    "title": "Programmable photonic neural engine integrates 40,000 connections with all-optical nonlinear activation",
+    "summary": "A programmable photonic neural engine with 40,000 integrated optical connections and all-optical nonlinear activation functions has been demonstrated, achieving computation speeds measured in tera-operations per second per watt per square millimeter.",
+    "theme": "Photonic Computing",
+    "importance": 7.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "photonic neural network",
+      "optical computing",
+      "nonlinear activation",
+      "neuromorphic"
+    ],
+    "url": "news/conservation/2026-08-19/#programmable-photonic-neural-engine-integrates-40000-connections-with-all-optical-nonlinear-activation",
+    "sources": [
+      {
+        "label": "Nature",
+        "url": "https://www.nature.com/articles/s41377-025-02175-4",
+        "origin": "research"
+      },
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aee9649?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "40,000 photonic neural connections",
+      "All-optical nonlinear activation functions",
+      "Performance in TOPs/W/mm² (tera-operations per second per watt per mm²)",
+      "Picosecond pulsed optical neural network architecture",
+      "Graphene/silicon heterojunction phase-relevant activation functions"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "programmable-photonic-neural-engine-integrates-40000-connections-with-all-optical-nonlinear-activation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3049,6 +3395,44 @@
   },
   {
     "date": "2026-08-19",
+    "event_id": "fractile-valuation-reaches-65b-following-anthropic-chip-deal",
+    "title": "Fractile valuation reaches $6.5B following Anthropic chip deal",
+    "summary": "Chip company Fractile's valuation jumped to $6.5B after a deal with Anthropic.",
+    "theme": "Funding",
+    "importance": 7,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Fractile",
+      "Anthropic",
+      "chip deal",
+      "valuation",
+      "$6.5B"
+    ],
+    "url": "news/markets/2026-08-19/#fractile-valuation-reaches-65b-following-anthropic-chip-deal",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ1J6c3lrZ2gzbUhhcTdER25vR1pwZnFrWkVyRXY2cVY4MWxNNURUcUxydTJRSVBDZTF3R1ZYNzlsUG1jVjZPd0RQeFdiZ2ZCM1dCRWNZYUNrVjJxaW96NmRldm5sOE9PNWU3QXI5b0xNZGZXX3ZBUnJMdmFZbEx4cDd2YlZTaUlZT3ktQmVtT201YXNRd1NRejJDODY0NFQwY0Y4U0V3RDlDaUFqbkFScXZrM0dPME5URGZubVJVOE9JcTF2cDFKbkl3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "fractile-valuation-reaches-65b-following-anthropic-chip-deal",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
     "event_id": "nasas-lunar-reconnaissance-orbiter-captures-falcon-9-impact-crater-details",
     "title": "NASA's Lunar Reconnaissance Orbiter captures Falcon 9 impact crater details",
     "summary": "NASA's Lunar Reconnaissance Orbiter imaged a fresh crater formed on August 5, 2026 when a SpaceX Falcon 9 upper stage struck the Moon near Einstein Crater at 5,400 mph. The ~40-foot rocket stage, in orbit since January 2025, created a crater approximately 60 feet wide with impact force equivalent to three tons of TNT.",
@@ -3176,53 +3560,6 @@
     "researched": true,
     "received_at": "2026-08-19T06:21:59.732083+00:00",
     "lineage_id": "bacteria-construct-internal-power-cables-to-extend-cellular-respiration",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-19",
-    "event_id": "coral-restoration-effort-targets-florida-reef-during-rare-spawning-event",
-    "title": "Coral restoration effort targets Florida reef during rare spawning event",
-    "summary": "Twelve organizations collaborated during a rare coral spawning event in early August to propagate and conserve Florida reef corals, including elkhorn and staghorn species. The assisted sexual reproduction effort built on new strategies to strengthen reefs in response to recent bleaching events.",
-    "theme": "Conservation",
-    "importance": 7,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Florida coral reef",
-      "coral restoration",
-      "spawning",
-      "conservation"
-    ],
-    "url": "news/science/2026-08-19/#coral-restoration-effort-targets-florida-reef-during-rare-spawning-event",
-    "sources": [
-      {
-        "label": "NOAA Fisheries",
-        "url": "https://www.google.com/goto?url=CAEStwEB7keqTZlNXVOMgYTTQu0bUj_pbsyCU6mW5suH8AQRoggM2p8-HS_7VQJeAdKhhHdbAXAcGTLkEtaZjgbTlmKTCIA58HfGOodPaJ81YJpiLQOfI5IXuoc0QVPRus4tMA4YgGMYdIxFT_pYi0bFFkGqGXa5BMrgurQl9OEgPFyexiiGydMrAyS-3B-4o-bRFPybhA3c_eHwe7BubWgvP2EOrm7mJdTXeqApjSvfuzbtKwumMzIiKc0%3D",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-coral-experts-historic-effort-florida.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Twelve organizations coordinated coral restoration during spawning window following July full moon",
-      "Focused on Acropora cervicornis (elkhorn coral) and other species",
-      "Leveraged natural spawning cycle to collect and culture coral larvae for active restoration",
-      "Effort responded to recent coral bleaching events"
-    ],
-    "researched": true,
-    "received_at": "2026-08-19T12:19:07.131078+00:00",
-    "lineage_id": "coral-restoration-effort-targets-florida-reef-during-rare-spawning-event",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4029,7 +4366,7 @@
     "date": "2026-08-19",
     "event_id": "openai-introduces-chatgpt-for-teens-with-stronger-safeguards",
     "title": "OpenAI introduces ChatGPT for Teens with stronger safeguards",
-    "summary": "OpenAI has launched a version of ChatGPT specifically designed for teenagers with age-appropriate safeguards and functionality.",
+    "summary": "OpenAI defines and implements age-appropriate policies for ChatGPT use by teenagers.",
     "theme": "Product Launch",
     "importance": 7.5,
     "topics": [
@@ -4045,8 +4382,10 @@
       "Safeguards",
       "Safety",
       "Teens",
+      "age restrictions",
       "age-appropriate",
       "parental controls",
+      "policy",
       "safety",
       "safety protections",
       "teen safety",
@@ -4210,7 +4549,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T18:15:31.800249+00:00",
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
     "lineage_id": "openai-introduces-chatgpt-for-teens-with-stronger-safeguards",
     "related_title": "",
     "related_url": "",
@@ -4640,7 +4979,7 @@
     "date": "2026-08-19",
     "event_id": "chinese-robotics-firm-unitree-surges-in-stock-market-debut",
     "title": "Chinese robotics firm Unitree surges in stock market debut",
-    "summary": "Chinese robotics company Unitree surged 600% on its stock market debut, buoyed by viral popularity of its dancing robot videos.",
+    "summary": "Chinese robotics company Unitree saw its stock surge 600% on its market debut in China.",
     "theme": "Markets",
     "importance": 7.5,
     "topics": [
@@ -4661,7 +5000,8 @@
       "Unitree Robotics",
       "humanoid robots",
       "robotics",
-      "stock debut"
+      "stock debut",
+      "stock market"
     ],
     "url": "news/markets/2026-08-19/#chinese-robotics-firm-unitree-surges-in-stock-market-debut",
     "sources": [
@@ -4698,7 +5038,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-19T18:15:31.800249+00:00",
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
     "lineage_id": "chinese-robotics-firm-unitree-surges-in-stock-market-debut",
     "related_title": "",
     "related_url": "",
@@ -4994,6 +5334,64 @@
     "researched": false,
     "received_at": "2026-08-19T18:15:31.800249+00:00",
     "lineage_id": "ibms-ultra-cold-quantum-cryogenic-system-advances-fault-tolerant-computing-timeline",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-19",
+    "event_id": "france-records-over-7300-excess-deaths-during-record-summer-heat-waves",
+    "title": "France records over 7,300 excess deaths during record summer heat waves",
+    "summary": "France recorded 7,307 excess deaths during record summer heat waves from mid-June through August, with nearly three-quarters of fatalities among people aged 75 and older. The country endured 52 days of heat wave conditions since mid-June, far surpassing the 33-day record from 2022, with June 24–25 marking the hottest days ever recorded in metropolitan France.",
+    "theme": "Science",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "heat wave",
+      "excess mortality",
+      "France",
+      "climate"
+    ],
+    "url": "news/science/2026-08-19/#france-records-over-7300-excess-deaths-during-record-summer-heat-waves",
+    "sources": [
+      {
+        "label": "Voz.us",
+        "url": "https://voz.us/en/world/260819/38408/france-7-300-excess-deaths-and-52-days-of-heat-waves-the-longest-summer-on-record.html",
+        "origin": "research"
+      },
+      {
+        "label": "Sharjah 24",
+        "url": "https://sharjah24.ae/en/Articles/2026/08/19/France-records-7307-excess-deaths-amid-historic-heatwaves",
+        "origin": "research"
+      },
+      {
+        "label": "Inbox.eu",
+        "url": "https://news.inbox.eu/150n6f2-france-experienced-more-than-7-300-excess-deaths-and-counting-during-historic-heatwaves?language=en",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-excess-deaths-france-historically-hot.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "7,307 excess deaths documented across all causes",
+      "52 consecutive heat wave days since mid-June (vs. 33 in 2022, 22 in 2003)",
+      "Nearly 75% of deaths were people aged 75+",
+      "June 24–25 reached record average of 30°C (86°F)",
+      "Three consecutive heat waves: 14 days (June), 16 days (July), 22+ days (late July onward)"
+    ],
+    "researched": true,
+    "received_at": "2026-08-19T20:12:41.120643+00:00",
+    "lineage_id": "france-records-over-7300-excess-deaths-during-record-summer-heat-waves",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
