@@ -1,5 +1,107 @@
 [
   {
+    "timestamp": "2026-08-19T14:21:36.418180+00:00",
+    "mode": "daily",
+    "calls": 57,
+    "web_searches": 17,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 78315,
+        "output": 21475,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 4213,
+        "output": 1991,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.2169,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 15968,
+            "output": 12053,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0762
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(merge-check)": {
+        "calls": 30,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 19260,
+            "output": 270,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0206
+      },
+      "(read)": {
+        "calls": 23,
+        "web_searches": 2,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 43087,
+            "output": 9152,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0908
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 4213,
+            "output": 1991,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0142
+      }
+    },
+    "by_feed": {
+      "Phys.org": 15,
+      "TechCrunch": 4,
+      "Space.com": 4,
+      "The Register": 3,
+      "Hacker News (front page)": 3,
+      "The Hacker News": 3,
+      "ScienceDaily": 3,
+      "The Verge": 2,
+      "The Record": 2,
+      "ScienceDaily \u2014 Health": 2,
+      "Quanta Magazine": 1,
+      "BleepingComputer": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "SecurityWeek": 1,
+      "STAT News": 1,
+      "Mongabay": 1,
+      "Live Science": 1,
+      "ScienceDaily \u2014 Nutrition": 1,
+      "Apple Machine Learning Research": 1
+    }
+  },
+  {
     "timestamp": "2026-08-19T12:19:07.131078+00:00",
     "mode": "daily",
     "calls": 50,
