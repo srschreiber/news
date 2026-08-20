@@ -1,5 +1,104 @@
 [
   {
+    "timestamp": "2026-08-20T12:20:54.177096+00:00",
+    "mode": "daily",
+    "calls": 43,
+    "web_searches": 20,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 77929,
+        "output": 19202,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 4572,
+        "output": 1966,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.2083,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 11430,
+            "output": 8606,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0545
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(merge-check)": {
+        "calls": 17,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 10791,
+            "output": 153,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0116
+      },
+      "(read)": {
+        "calls": 23,
+        "web_searches": 5,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 55708,
+            "output": 10443,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1129
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 4572,
+            "output": 1966,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0144
+      }
+    },
+    "by_feed": {
+      "Phys.org": 6,
+      "The Verge": 5,
+      "ScienceDaily": 5,
+      "SecurityWeek": 4,
+      "Wired": 4,
+      "Hacker News (front page)": 3,
+      "ScienceDaily \u2014 Health": 3,
+      "The Hacker News": 3,
+      "BleepingComputer": 2,
+      "Engadget": 2,
+      "The Register": 2,
+      "STAT News": 2,
+      "TechCrunch": 1,
+      "Space.com": 1,
+      "ScienceDaily \u2014 Nutrition": 1,
+      "The Guardian \u2014 Conservation": 1
+    }
+  },
+  {
     "timestamp": "2026-08-20T10:17:45.687427+00:00",
     "mode": "daily",
     "calls": 55,
