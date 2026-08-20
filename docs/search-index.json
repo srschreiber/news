@@ -119,44 +119,6 @@
   },
   {
     "date": "2026-08-20",
-    "event_id": "how-wildfires-degrade-air-quality-water-quality-and-wildlife-habitats",
-    "title": "How wildfires degrade air quality, water quality, and wildlife habitats",
-    "summary": "Wildfires alter vegetation patterns, destroy wildlife habitats, and degrade air and water quality across affected regions.",
-    "theme": "Climate Resilience",
-    "importance": 5.0,
-    "topics": [
-      "climate-resilience"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "wildfire",
-      "air quality",
-      "water quality",
-      "habitat destruction"
-    ],
-    "url": "news/climate-resilience/2026-08-20/#how-wildfires-degrade-air-quality-water-quality-and-wildlife-habitats",
-    "sources": [
-      {
-        "label": "NC State University",
-        "url": "https://cnr.ncsu.edu/news/2025/02/how-do-wildfires-impact-the-environment/",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T08:22:23.472499+00:00",
-    "lineage_id": "wildfire-environmental-impacts-vegetation-wildlife-water-and-air-quality",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Wildfire environmental impacts include habitat destruction, vegetation pattern alteration, and air and water quality degradation",
-    "updates_url": "news/climate-resilience/2026-08-19/#wildfire-environmental-impacts-include-habitat-destruction-vegetation-pattern-alteration-and-air-and-water-quality-degradation"
-  },
-  {
-    "date": "2026-08-20",
     "event_id": "global-wildlife-conservation-efforts-protect-endangered-species-and-biodiversity",
     "title": "Global wildlife conservation efforts protect endangered species and biodiversity",
     "summary": "Conservation organizations work to protect endangered species and preserve global biodiversity through targeted initiatives.",
@@ -352,56 +314,6 @@
     "researched": false,
     "received_at": "2026-08-20T06:23:14.064749+00:00",
     "lineage_id": "ai-explanations-may-reduce-human-critical-thinking-and-independent-decision-making",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "okx-limits-claude-api-access-as-ai-spending-reaches-8m-monthly",
-    "title": "OKX Limits Claude API Access as AI Spending Reaches $8M Monthly",
-    "summary": "Cryptocurrency exchange OKX has restricted Claude AI access for Hong Kong employees and spends between $6 million and $8 million monthly on AI model subscriptions.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI spending",
-      "Anthropic",
-      "Claude",
-      "Hong Kong",
-      "OKX",
-      "cryptocurrency",
-      "spending"
-    ],
-    "url": "news/anthropic/2026-08-20/#okx-limits-claude-api-access-as-ai-spending-reaches-8m-monthly",
-    "sources": [
-      {
-        "label": "Crypto News",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80YURQVko1NV9OMFJGaVNpb0luWnU4Rzd5dlQ0b3dSMHJGUXo3NlVBVURSYkh2by1aSWtlWnZVOVM2R1psNHByN3l5V1NWVHRfdUs1bU5TYmtFRC0yLWxZZnRIb1ZhZ09VdFpwVWVJam5VNDdVVWdn?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Crypto Briefing",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVE5oLUFmMkZXUE5NbDVJNi1ldjNqVDRfeFJzRGEzcXU2eVFQeVZielJlWmx1cW5FYzFzZGxYUkdseXllZktoQ0ZYbGNGVmZ4ZXVrMG5pbG12a1BlM042b0k0eE9WMTZGb2hTYUpaRzloaG1uYU0yVVZiWkpBTE90UTh1NE0xU0pURWJmajlmaGc0YzlvaFZTdmNXR18tVjRBWmxlRw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "BeInCrypto",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfMlNIdFYyd2ZpaFJMdnZ4enZ2emJYbnVKRHlWZzRKZUdDLXVncGZ2b1o1NGtNVnNaWlNQNk43QUw5SEFvYjRyMjBLZ1MyanZlRW8xRGVTSU8wcUdPUVVwcGFFcWk3SGNIMFE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T14:23:51.119376+00:00",
-    "lineage_id": "okx-limits-claude-api-access-as-ai-spending-reaches-8m-monthly",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -811,6 +723,62 @@
   },
   {
     "date": "2026-08-20",
+    "event_id": "okx-limits-claude-api-access-as-ai-spending-reaches-8m-monthly",
+    "title": "OKX Limits Claude API Access as AI Spending Reaches $8M Monthly",
+    "summary": "Cryptocurrency exchange OKX has restricted employees in Hong Kong from using Anthropic's Claude AI and reports spending $6–8 million monthly on AI models.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI spending",
+      "Anthropic",
+      "Claude",
+      "Hong Kong",
+      "OKX",
+      "crypto",
+      "cryptocurrency",
+      "spending"
+    ],
+    "url": "news/anthropic/2026-08-20/#okx-limits-claude-api-access-as-ai-spending-reaches-8m-monthly",
+    "sources": [
+      {
+        "label": "Crypto News",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE80YURQVko1NV9OMFJGaVNpb0luWnU4Rzd5dlQ0b3dSMHJGUXo3NlVBVURSYkh2by1aSWtlWnZVOVM2R1psNHByN3l5V1NWVHRfdUs1bU5TYmtFRC0yLWxZZnRIb1ZhZ09VdFpwVWVJam5VNDdVVWdn?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Crypto Briefing",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVE5oLUFmMkZXUE5NbDVJNi1ldjNqVDRfeFJzRGEzcXU2eVFQeVZielJlWmx1cW5FYzFzZGxYUkdseXllZktoQ0ZYbGNGVmZ4ZXVrMG5pbG12a1BlM042b0k0eE9WMTZGb2hTYUpaRzloaG1uYU0yVVZiWkpBTE90UTh1NE0xU0pURWJmajlmaGc0YzlvaFZTdmNXR18tVjRBWmxlRw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "BeInCrypto",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfMlNIdFYyd2ZpaFJMdnZ4enZ2emJYbnVKRHlWZzRKZUdDLXVncGZ2b1o1NGtNVnNaWlNQNk43QUw5SEFvYjRyMjBLZ1MyanZlRW8xRGVTSU8wcUdPUVVwcGFFcWk3SGNIMFE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Crypto Briefing",
+        "url": "https://cryptobriefing.com/okx-restricts-claude-use-for-hong-kong-employees-spends-6-million8-million/",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "okx-limits-claude-api-access-as-ai-spending-reaches-8m-monthly",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
     "event_id": "truefoundrys-open-source-ai-agent-framework-trueforge-outperforms-anthropics-claude-managed-agents-on-cost",
     "title": "TrueFoundry's open-source AI agent framework TrueForge outperforms Anthropic's Claude Managed Agents on cost",
     "summary": "TrueFoundry's open-source TrueForge AI agent harness achieves 30–75 percent lower task completion costs compared to Anthropic's Claude Managed Agents.",
@@ -998,154 +966,6 @@
     "researched": false,
     "received_at": "2026-08-20T08:22:23.472499+00:00",
     "lineage_id": "new-research-hydration-and-nutrition-recommendations-dont-account-for-female-physiology",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "openai-to-introduce-advertisements-to-chatgpt-in-europe-starting-august-24",
-    "title": "OpenAI to introduce advertisements to ChatGPT in Europe starting August 24",
-    "summary": "OpenAI will begin displaying advertisements within ChatGPT for European users beginning August 24, 2026.",
-    "theme": "GPT",
-    "importance": 6,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "advertising",
-      "Europe"
-    ],
-    "url": "news/gpt/2026-08-20/#openai-to-introduce-advertisements-to-chatgpt-in-europe-starting-august-24",
-    "sources": [
-      {
-        "label": "Türkiye Today",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTUxlcGppcW9lakpWcTZyQ3l5WXFxQm9nYXlmcklEdG1XblJrdEg4QlFHbm1manhsZGFHaXhROGwtcExpOGJVaGlUdm14U2lhUm9tUUlUTFBoZm5NdC0xUVdmLUttOUh2UzVOcE9LQ2szMXhWMUZaSVBpdmRhQTRTQ0ozUl9QTExrbkVFU1BJdUF1VmZFRlZaanM1VVYzRXBU?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T06:23:14.064749+00:00",
-    "lineage_id": "openai-launches-chatgpt-ads-across-five-international-markets",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI expands ad business to 31 new European markets",
-    "updates_url": "news/gpt/2026-08-19/#openai-expands-ad-business-to-31-new-european-markets"
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "openai-cfo-downplays-importance-of-ipo-to-staff-characterizes-as-another-fundraise",
-    "title": "OpenAI CFO downplays importance of IPO to staff, characterizes as \"another fundraise\"",
-    "summary": "OpenAI's CFO reportedly told staff that an initial public offering would be just another fundraising round, downplaying its strategic importance.",
-    "theme": "Funding",
-    "importance": 6.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "IPO",
-      "CFO"
-    ],
-    "url": "news/gpt/2026-08-20/#openai-cfo-downplays-importance-of-ipo-to-staff-characterizes-as-another-fundraise",
-    "sources": [
-      {
-        "label": "Gizmodo",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY0tLWFNTWmZIWW5qRXd6Ul95R0hZcmxyMUpnYWVLNFpTbFRQNkRmQTlCckhxNG04SUo4Wmptb0U1T1VuZTZTa1NzSXc3TjJyaU16UnF6Zm1WeHgxRHQ4MS10RXFBZC03N1RwMnJfZmI1b19aN0RaeFQ4cmdvN29LUlZSRVFPcFkxODFwamFKS0ZrSm9UUzExOExMWFJfU3RRckxETHE1YW5EeGVW?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
-    "lineage_id": "openai-cfo-downplays-importance-of-ipo-to-staff-characterizes-as-another-fundraise",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "study-shows-publishers-with-openai-deals-receive-48-more-chatgpt-citations",
-    "title": "Study shows publishers with OpenAI deals receive 48% more ChatGPT citations",
-    "summary": "Research by Press Ranger and OtterlyAI found that publishers with licensing agreements with OpenAI receive 48% more citations in ChatGPT responses.",
-    "theme": "AI",
-    "importance": 6,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "publishers",
-      "licensing",
-      "citations"
-    ],
-    "url": "news/gpt/2026-08-20/#study-shows-publishers-with-openai-deals-receive-48-more-chatgpt-citations",
-    "sources": [
-      {
-        "label": "markets.businessinsider.com",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPY09kVUNfNV9KXzMzVmsyOEJ6dE53Tm9lWGhsekNLT3Y0b3M3QTRXUTZBdGtGN19mRjdSdEpHa3BFaWlOcEFlYjR4MW5zTms4YTlSMUhmMHRYUTRhSkJBREpLMU11MGZPNXFXVkJGMUpOZHdCV05INU96MGNyLVZhclJUZGowZ1V2R3lqSU03ZU9mLWR3OS1Fbk1nR0RnTEFnTlZwczVjLVMza1BEem05QlUyYzVwLXJlVHEtdl9uQktIalc5T3FYdW9xb25aODRqbjlITGhwWXZTMzhKazUtN1NaQW83cVZkcmJ0M19jN2R1N2MwMDctRlRRR3AwVkw4ejA4?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T14:23:51.119376+00:00",
-    "lineage_id": "study-shows-publishers-with-openai-deals-receive-48-more-chatgpt-citations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "nvidia-earnings-approach-amid-elevated-expectations-for-ai-demand",
-    "title": "Nvidia earnings approach amid elevated expectations for AI demand",
-    "summary": "Nvidia heads into earnings results with strong AI demand signals but faces an increasingly high bar for beating guidance.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Nvidia",
-      "NVDA",
-      "earnings",
-      "AI demand"
-    ],
-    "url": "news/markets/2026-08-20/#nvidia-earnings-approach-amid-elevated-expectations-for-ai-demand",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM21xcmZGUzNxb0VyWEc1N3h1RGhIaWJfeWhzalkxQVVzWDhYM25haXBwSzNielltY1IzOV9yOU4xckNNODlZMV90aGVWNnJfMFBjYjFvWktla3prYUl5WVhTUG1rcll1WWZFSHB4SWtKY2FHcko2OUpCOThNSmhTbWp4eGVSTDlzcW9acC1udzJwRnBLSG1SbHFhbw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
-    "lineage_id": "nvidia-earnings-approach-amid-elevated-expectations-for-ai-demand",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1418,165 +1238,6 @@
   },
   {
     "date": "2026-08-20",
-    "event_id": "climate-whiplash-britain-faces-extreme-weather-volatility-amid-record-heat-and-drought",
-    "title": "Climate whiplash: Britain faces extreme weather volatility amid record heat and drought",
-    "summary": "Record-breaking heat and drought conditions this summer may be followed by severe wet winters as climate change increases weather extremes.",
-    "theme": "Environment",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "climate change",
-      "UK weather",
-      "extreme heat",
-      "drought"
-    ],
-    "url": "news/climate-change/2026-08-20/#climate-whiplash-britain-faces-extreme-weather-volatility-amid-record-heat-and-drought",
-    "sources": [
-      {
-        "label": "The Guardian — Climate Crisis",
-        "url": "https://www.theguardian.com/commentisfree/2026/aug/20/hot-summer-wet-winter-welcome-to-the-age-of-climate-whiplash",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T06:23:14.064749+00:00",
-    "lineage_id": "climate-whiplash-britain-faces-extreme-weather-volatility-amid-record-heat-and-drought",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "california-becomes-first-state-to-mandate-energy-efficient-replacement-tire-standards",
-    "title": "California becomes first state to mandate energy-efficient replacement tire standards",
-    "summary": "California enacted the nation's first state-level regulation requiring replacement tires to meet energy efficiency standards, blocking sales of older tire designs.",
-    "theme": "Climate",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "California",
-      "tire efficiency",
-      "emissions",
-      "environmental regulation"
-    ],
-    "url": "news/climate-change/2026-08-20/#california-becomes-first-state-to-mandate-energy-efficient-replacement-tire-standards",
-    "sources": [
-      {
-        "label": "The Guardian — Climate Crisis",
-        "url": "https://www.theguardian.com/us-news/2026/aug/19/california-replacement-tires",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T06:23:14.064749+00:00",
-    "lineage_id": "california-becomes-first-state-to-mandate-energy-efficient-replacement-tire-standards",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "right-wing-media-misrepresent-ipcc-climate-scenario-revision-as-attack-on-climate-science",
-    "title": "Right-wing media misrepresent IPCC climate scenario revision as attack on climate science",
-    "summary": "Conservative outlets and the president of the United States are falsely framing the IPCC's retirement of RCP 8.5 as vindication against climate science.",
-    "theme": "Policy",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "IPCC",
-      "RCP 8.5",
-      "climate policy",
-      "climate scenarios",
-      "misinformation"
-    ],
-    "url": "news/climate-change/2026-08-20/#right-wing-media-misrepresent-ipcc-climate-scenario-revision-as-attack-on-climate-science",
-    "sources": [
-      {
-        "label": "Media Matters for America",
-        "url": "https://www.mediamatters.org/fox-news/right-wing-media-are-using-ipcc-climate-scenario-revision-attack-climate-science-and",
-        "origin": "discovery"
-      },
-      {
-        "label": "Media Matters for America",
-        "url": "https://www.google.com/goto?url=CAESsgEB7keqTQ1jaGpVngrYGYa3mO7A5YGXBP1MIM5kRQadG6JsX9ukkAWfhE9uP6HXpOTgBtL3VmC5s3hxG8CgPsMkgQXXXHeRhaOXwF9EgMxknCAK0_Rdc88SzT9PMI9SHwjpL5UJC4nSrvt_AAJ1-phtNZ25oniJMX4o7_A5NkfLqtjFnPjlYjkwnZgmQcPDPa5b0d6TSO5tj2wPl47zDLmJdaBErHmEBBzFQqIxi0P7uFek",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
-    "lineage_id": "right-wing-media-misinterpret-ipcc-climate-scenario-revision",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Right-wing media misinterpret IPCC climate scenario revision",
-    "updates_url": "news/climate-change/2026-08-16/#right-wing-media-misinterpret-ipcc-climate-scenario-revision"
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "texas-faces-pressure-to-allow-oil-and-gas-wastewater-disposal-in-rivers-and-rangeland",
-    "title": "Texas faces pressure to allow oil and gas wastewater disposal in rivers and rangeland",
-    "summary": "Texas officials and industry leaders are pushing to allow disposal of the Permian Basin's 1 billion daily gallons of toxic produced water into waterways and land due to limited underground storage.",
-    "theme": "Environment",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "produced water",
-      "oil and gas",
-      "Permian Basin",
-      "wastewater disposal",
-      "Texas"
-    ],
-    "url": "news/climate-change/2026-08-20/#texas-faces-pressure-to-allow-oil-and-gas-wastewater-disposal-in-rivers-and-rangeland",
-    "sources": [
-      {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/20082026/texas-oil-wastewater-treatment/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
-    "lineage_id": "texas-faces-pressure-to-allow-oil-and-gas-wastewater-disposal-in-rivers-and-rangeland",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
     "event_id": "cal-poly-humboldt-study-shows-redwoods-resilient-to-wildfires-with-proper-forest-management",
     "title": "Cal Poly Humboldt study shows redwoods resilient to wildfires with proper forest management",
     "summary": "Research from Cal Poly Humboldt and Save the Redwoods League demonstrates that second-growth redwood forests can withstand modern wildfires when properly managed.",
@@ -1650,6 +1311,83 @@
     "related_url": "",
     "updates_title": "Fire deficit persists across North American forests despite recent increases in area burned by wildfires",
     "updates_url": "news/climate-resilience/2026-08-19/#fire-deficit-persists-across-north-american-forests-despite-recent-increases-in-area-burned-by-wildfires"
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "low--and-moderate-severity-wildfires-reduce-intensity-of-future-blazes",
+    "title": "Low- and moderate-severity wildfires reduce intensity of future blazes",
+    "summary": "Research shows that low- and moderate-severity forest wildfires can reduce the intensity of subsequent fires in the same area.",
+    "theme": "Resilience",
+    "importance": 6.5,
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildfire",
+      "prescribed fire",
+      "reburn",
+      "forest management"
+    ],
+    "url": "news/climate-resilience/2026-08-20/#low--and-moderate-severity-wildfires-reduce-intensity-of-future-blazes",
+    "sources": [
+      {
+        "label": "UC Davis",
+        "url": "https://www.ucdavis.edu/climate/news/less-severe-forest-fires-can-reduce-intensity-future-blazes",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "low--and-moderate-severity-wildfires-reduce-intensity-of-future-blazes",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "southwestern-us-wildfires-increasingly-severe-despite-lower-overall-frequency",
+    "title": "Southwestern US wildfires increasingly severe despite lower overall frequency",
+    "summary": "Contemporary wildfires in the southwestern United States are less frequent but more severe than historical baselines.",
+    "theme": "Resilience",
+    "importance": 6.5,
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildfire",
+      "southwest",
+      "severity",
+      "frequency",
+      "forest"
+    ],
+    "url": "news/climate-resilience/2026-08-20/#southwestern-us-wildfires-increasingly-severe-despite-lower-overall-frequency",
+    "sources": [
+      {
+        "label": "Nature",
+        "url": "https://www.nature.com/articles/s43247-024-01686-z",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "southwestern-us-wildfires-increasingly-severe-despite-lower-overall-frequency",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-20",
@@ -2218,40 +1956,78 @@
   },
   {
     "date": "2026-08-20",
-    "event_id": "maternal-age-effects-on-offspring-driven-by-reversible-gene-activity-changes-not-dna-mutations",
-    "title": "Maternal age effects on offspring driven by reversible gene activity changes, not DNA mutations",
-    "summary": "Scientists found evidence that a mother's age influences her offspring through reversible changes in gene activity rather than permanent DNA alterations, suggesting potential for intergenerational biological inheritance beyond genetic sequences.",
-    "theme": "Health",
+    "event_id": "openai-reports-user-threat-to-fbi-after-chatgpt-disclosure",
+    "title": "OpenAI Reports User Threat to FBI After ChatGPT Disclosure",
+    "summary": "OpenAI alerted the FBI after a former Goldman Sachs analyst expressed violent intentions toward an ex-girlfriend through ChatGPT.",
+    "theme": "Security",
     "importance": 6.5,
     "topics": [
-      "health"
+      "gpt"
     ],
     "feeds": [
-      "science"
+      "technology"
     ],
-    "primary_feed": "science",
+    "primary_feed": "technology",
     "keywords": [
-      "maternal age",
-      "epigenetics",
-      "gene activity",
-      "offspring development"
+      "OpenAI",
+      "ChatGPT",
+      "safety",
+      "FBI"
     ],
-    "url": "news/health/2026-08-20/#maternal-age-effects-on-offspring-driven-by-reversible-gene-activity-changes-not-dna-mutations",
+    "url": "news/gpt/2026-08-20/#openai-reports-user-threat-to-fbi-after-chatgpt-disclosure",
     "sources": [
       {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/08/260819041220.htm",
+        "label": "NDTV",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRHR0OUlYRGlzNVptLWdSSnZDdFkyeG1veE5VUFcyc3hKb0JoT0JjamZKcElEX0dGZy1nYXZJMk53M0ZfUk5LVjNJelhGbmJuTzhoNkRTVlRybkotZXNUNXFNNDE3NzV4aEdXSU1HVHpHTWdpcnRIRjlYTHBUZWowYVpWbUpGbWFvY3VsRlRKMGtqN1VDVnZUcWJVemxBSU4tdGJMbkNYQzdhNmNFWms4QnViMnlFZ0ZUcGpwWTc3UmV1SzBhVGhfX3VJZzVoOEJIaGRn0gHbAUFVX3lxTE9Yb0w4ejBGaXhlVzdaQ2hVejktMDdfVGFTdXRqMmw2SHNUbmZfTkJYU1pyUll4a0NWZzNKVEJYNGVGR25KbGQweHVvM1ZYUkIwNjFxZ0wwenBSdUJINFZPMHV2dGdlZVZIdk9YYVI3VlBseW1PUC1IaGpPaFJuX3hWS3RyVXpIQ1JnR0Z2SXZoT2ZvNnZaYnBaakFULVVwemJzaUJUZGZxYnVscmwzc0lfVnRSOVAxek5WWGFIWmp0T1dSdDlZRklvTlcyaWRQYjVGRnI5eTB5TkYzbw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-20T06:23:14.064749+00:00",
-    "lineage_id": "maternal-age-effects-on-offspring-driven-by-reversible-gene-activity-changes-not-dna-mutations",
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "fbi-arrests-florida-man-for-plotting-ex-girlfriends-murder-after-openai-alert",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "OpenAI reports Florida man's violent ChatGPT threat to FBI",
+    "updates_url": "news/gpt/2026-08-18/#openai-reports-florida-mans-violent-chatgpt-threat-to-fbi"
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "openai-ceo-predicts-chatgpt-will-monitor-screens-meetings-and-emails-within-six-months",
+    "title": "OpenAI CEO predicts ChatGPT will monitor screens, meetings, and emails within six months",
+    "summary": "Sam Altman forecasts that ChatGPT could soon monitor user screens, meetings, and email communications for enhanced AI assistance.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "Sam Altman",
+      "OpenAI",
+      "AI capabilities",
+      "monitoring"
+    ],
+    "url": "news/gpt/2026-08-20/#openai-ceo-predicts-chatgpt-will-monitor-screens-meetings-and-emails-within-six-months",
+    "sources": [
+      {
+        "label": "The Times of India",
+        "url": "https://www.google.com/goto?url=CAES5wEB7keqTefyJ40exQlsMtqls_AoQFt4J-5BM69M-DHZm8W1i8kS4TDrEqa3hy216nZe5aYz-bYilA_TDJ90sNVI6g0zxbzlDQtf3eac7kQdFJ_fodm42mnuMS_Ar_ldFFRMw_g9W3AW7K5WIOLGcyMpZ5M0KGyLNZOlOVolq52MkKcm2u-3Dk6a4JSsb8MNSKDnq2WcVrLmgdA5R41sazuza3FdLsih9S8mHSya3exxxmER-5e902JUHGzoT-GWjyrkaIUS0K9V816umyXFDDh30mYiOLQ_dQVRWGgCtWQZduDrv2In1zs%3D",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "openai-ceo-reveals-chatgpt-could-monitor-screen-meetings-and-email-within-six-months",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI CEO Predicts ChatGPT Will Monitor User Screens, Meetings, and Emails in Six Months",
+    "updates_url": "news/gpt/2026-08-19/#openai-ceo-predicts-chatgpt-will-monitor-user-screens-meetings-and-emails-in-six-months"
   },
   {
     "date": "2026-08-20",
@@ -2523,6 +2299,43 @@
     "researched": false,
     "received_at": "2026-08-20T16:19:33.977443+00:00",
     "lineage_id": "walmart-reports-rare-sales-miss-as-consumer-spending-softens",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "prime-video-to-invest-2-billion-in-latin-america-through-2030",
+    "title": "Prime Video to invest $2 billion in Latin America through 2030",
+    "summary": "Amazon's Prime Video announced a $2 billion investment in Latin America over the next six years.",
+    "theme": "Expansion",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Prime Video",
+      "Amazon",
+      "Latin America",
+      "investment"
+    ],
+    "url": "news/markets/2026-08-20/#prime-video-to-invest-2-billion-in-latin-america-through-2030",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPb3ZyYVFrR2R0SkIzcHp4NFQ3a2F2WllzTjFlODlwTHgxRWUyWElRS0RpMzdXYkc5OGVxeEhGYUtuVGJHbUtpLVJnWTdlVEhQWlotSlpiNmdITkdCX1NEN1VvZUZEY3Q1Q2ptR3VSMllRbWZBZl9tWExPOFBZLVJjbDM0TDhTWVZFODdZT0tpS0Jib09MYUdZeEFfcTRybFRfSzhFT05nZDBMbVFZMWlCbnhHU21kb0R1YnBCc2hGOXVwRFlHelpN?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "prime-video-to-invest-2-billion-in-latin-america-through-2030",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3042,7 +2855,7 @@
     "date": "2026-08-20",
     "event_id": "climate-scientists-retire-worst-case-warming-scenario-catastrophic-future-remains-concerning-but-less-extreme",
     "title": "Climate scientists retire worst-case warming scenario; catastrophic future remains concerning but less extreme",
-    "summary": "Climate scientists have retired the RCP 8.5 scenario, the worst-case projection that drove 15 years of climate crisis coverage.",
+    "summary": "Climate scientists have retired the worst-case climate scenario that shaped fifteen years of climate coverage.",
     "theme": "Climate Science",
     "importance": 7.0,
     "topics": [
@@ -3060,7 +2873,8 @@
       "climate scenario",
       "climate scenarios",
       "climate science",
-      "warming projections"
+      "warming projections",
+      "worst-case"
     ],
     "url": "news/climate-change/2026-08-20/#climate-scientists-retire-worst-case-warming-scenario-catastrophic-future-remains-concerning-but-less-extreme",
     "sources": [
@@ -3073,11 +2887,16 @@
         "label": "Vox",
         "url": "https://www.google.com/goto?url=CAESkwEB7keqTYN7sKnKxOpMwR-PWHufDmhxcdNdDrNxW0accNZ-0ENkNK25RO470Jca9cVKgykgmgO5AhJ1N6f_kfXFu9iXFZHIgW87ImSa0IIw_a3J9ZZZLtSrjuApCqy1QNFIkSi-l_0gtHtrZRjkG5rVTv5DKSGdq60ToMtbTU-sXnc8vqNXqYsxF9ffejDSmgwHdIw%3D",
         "origin": "discovery"
+      },
+      {
+        "label": "Vox",
+        "url": "https://www.google.com/goto?url=CAESkwEB6zswFT1DS3ebe-FJvxLxxYzY9YlLBvy3ygk-oxvcjdIpVB5mfUTxNvPz6T-O7DbH4pBm7KQDTPOssBOsULP3T3aq_BzbLN13zF2JbyRUwf1BJwXXye__7hQ4uXSKRhdNxvfewOIjbTUxrWEvtvymm6rDB3uV-1zYcRXz-YJNKDC6dDrgDTjzes_lKJMVmePvFhw",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
     "lineage_id": "ipcc-retires-worst-case-climate-scenario-rcp-85",
     "related_title": "",
     "related_url": "",
@@ -3603,7 +3422,7 @@
     "date": "2026-08-20",
     "event_id": "chatgpt-experiences-major-service-outage-affecting-logins-and-signups",
     "title": "ChatGPT experiences major service outage affecting logins and signups",
-    "summary": "OpenAI confirmed a widespread outage that prevented users from signing in, creating new accounts, and accessing chat histories.",
+    "summary": "ChatGPT is experiencing a widespread outage preventing users from signing in, creating accounts, or accessing previous conversations.",
     "theme": "Incident",
     "importance": 7.0,
     "topics": [
@@ -3616,9 +3435,9 @@
     "primary_feed": "technology",
     "keywords": [
       "ChatGPT",
+      "OpenAI",
       "outage",
-      "service disruption",
-      "OpenAI"
+      "service disruption"
     ],
     "url": "news/gpt/2026-08-20/#chatgpt-experiences-major-service-outage-affecting-logins-and-signups",
     "sources": [
@@ -3631,12 +3450,54 @@
         "label": "BleepingComputer",
         "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
         "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.google.com/goto?url=CAESsQEB7keqTaIcQJ6jERCBX6e0i_HKSOdf0sEPTs5x7G2Lp2b0c47OROkw_PMEyEQnQs4V8gAnxaFFGefSZ1QVliFDkYiNwEnVbkin6lHplckedZhH5K23Q1bkT67LuqWKyqGSWcpfb67rcj4yfQjl-QH1JR-GuViU8jN634msOMKYV8GbbH5fQ_94-co7JeNBDP-_-KR9I0u_g0m8TF65_Np5DZGjS60iWI6JbkAfWrMyN4A%3D",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-20T06:23:14.064749+00:00",
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
     "lineage_id": "chatgpt-experiences-major-service-outage-affecting-logins-and-signups",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "openai-and-google-adjust-ai-safety-protocols-amid-industry-shifts",
+    "title": "OpenAI and Google Adjust AI Safety Protocols Amid Industry Shifts",
+    "summary": "OpenAI pauses training and Google delays product releases as both companies adjust AI safety and governance practices.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Google",
+      "AI safety",
+      "governance"
+    ],
+    "url": "news/gpt/2026-08-20/#openai-and-google-adjust-ai-safety-protocols-amid-industry-shifts",
+    "sources": [
+      {
+        "label": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa3ItZGVQNTlGYWRkME1BcDRnQzlfWmpZVEh2cDlCNXpQLVZPdzlQa0VVc09ueTdGWFNMMnRjQ1dIUDItSEZEMWNaRnNlbnRLUjBvdWZ6V3Zkd1JiUTh4SnpUUHBfRGxhdzVvZy1Qa3lUdzNwSjIzZkwxOXlCQjRBM2VtRnZjb0lo?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "openai-and-google-adjust-ai-safety-protocols-amid-industry-shifts",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3789,6 +3650,43 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "four-medical-breakthroughs-revolutionizing-patient-treatment",
+    "title": "Four medical breakthroughs revolutionizing patient treatment",
+    "summary": "Recent advances including minimally invasive heart bypass surgery and personalized CRISPR gene therapy are improving patient outcomes.",
+    "theme": "Health",
+    "importance": 7.0,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "CRISPR",
+      "gene therapy",
+      "heart surgery",
+      "clinical innovation"
+    ],
+    "url": "news/health/2026-08-20/#four-medical-breakthroughs-revolutionizing-patient-treatment",
+    "sources": [
+      {
+        "label": "AAMC",
+        "url": "https://www.google.com/goto?url=CAEShwEB6zswFYkDa814ov6kL9Lpo-RWoUVzTN5LhSpgTFLAI33x2UL9IuD0FjQ0vvsFiiRaPvmT54oGGt7adCVbrXJStRjk7u2YDwepDKY-9VzczpZpS5KcTIxqVvM4Kv2GA1nqhP0rbFAmkrknLNwmUmww7aQajBVr2bGv8TMlEjpR5W_B4XIHaic",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "four-medical-breakthroughs-transforming-patient-care-in-2025",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Four Medical Breakthroughs Transforming Patient Care in 2025",
+    "updates_url": "news/health/2026-08-20/#four-medical-breakthroughs-transforming-patient-care-in-2025"
   },
   {
     "date": "2026-08-20",
@@ -4011,56 +3909,6 @@
     "researched": true,
     "received_at": "2026-08-20T10:17:45.687427+00:00",
     "lineage_id": "european-wildfire-area-could-nearly-triple-by-mid-century-due-to-climate-change",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
-    "event_id": "australia-launches-unprecedented-vaccination-campaign-for-little-penguins-against-h5n1",
-    "title": "Australia launches unprecedented vaccination campaign for little penguins against H5N1",
-    "summary": "Australian wildlife workers launched an unprecedented global vaccination campaign against H5N1 avian influenza targeting wild little penguin populations on Phillip Island and St Kilda. The effort aims to inoculate approximately 5,000 penguins closest to visitor areas over weeks to months following H5N1 detection in August 2026.",
-    "theme": "Science",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "H5N1",
-      "bird flu",
-      "penguins",
-      "vaccination",
-      "Australia",
-      "wildlife"
-    ],
-    "url": "news/science/2026-08-20/#australia-launches-unprecedented-vaccination-campaign-for-little-penguins-against-h5n1",
-    "sources": [
-      {
-        "label": "Bangkok Post",
-        "url": "https://www.bangkokpost.com/world/3304945/australia-races-to-shield-little-penguins-from-h5n1-bird-flu",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-australia-shield-penguins-h5n1-bird.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Unprecedented global vaccination of wild penguin population against H5N1",
-      "H5N1 detected in Phillip Island penguin in August 2026, first colony infection",
-      "Targets ~5,000 little penguins on Phillip Island (up to 40,000 at peak) and St Kilda",
-      "Campaign spans weeks to months; requires two doses per bird",
-      "No vaccination of this scale in wild population has occurred globally before"
-    ],
-    "researched": true,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
-    "lineage_id": "australia-launches-unprecedented-vaccination-campaign-for-little-penguins-against-h5n1",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4459,67 +4307,6 @@
   },
   {
     "date": "2026-08-20",
-    "event_id": "australia-mandates-tech-company-payments-to-news-publishers-or-faces-levies",
-    "title": "Australia Mandates Tech Company Payments to News Publishers or Faces Levies",
-    "summary": "Australia's revised News Bargaining Incentive legislation requires tech giants Google, Meta, TikTok, and LinkedIn to negotiate payment deals with local news publishers or pay a 2.5% levy on digital advertising revenue. Companies must now secure agreements with at least six news services to fully discharge liability, with enhanced offsets for smaller publishers.",
-    "theme": "Policy",
-    "importance": 7.0,
-    "topics": [
-      "tech",
-      "world"
-    ],
-    "feeds": [
-      "technology",
-      "world"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Australia",
-      "news payments",
-      "Google",
-      "Meta",
-      "tech regulation"
-    ],
-    "url": "news/tech/2026-08-20/#australia-mandates-tech-company-payments-to-news-publishers-or-faces-levies",
-    "sources": [
-      {
-        "label": "ABC News",
-        "url": "https://www.abc.net.au/news/2026-08-03/big-tech-google-australian-media-news-bargaining-/106989038",
-        "origin": "research"
-      },
-      {
-        "label": "InDaily SA",
-        "url": "https://www.indailysa.com.au/news/just-in/2026/08/03/tech-giants-face-higher-levy-under-tweaked-news-plan",
-        "origin": "research"
-      },
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2240783/australia-passes-law-to-charge-tech-companies-levies-unless-they-reach-deals-with-news-publishers/",
-        "origin": "rss"
-      },
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRlBmQnM0aFNIQVdZT0R1RXFORkNQNnI1bUlYNlQtMWYyekp6QUJ2cmpCdTZoeE93LXRrdGhjNm5vbTlWd2JmREtJcFRfOFBNVGtJeHd5b0hqZ2pZY2VXTGZnQjN3MWRVVVNKVnNSellqdXRhbEFXZDU4NHlDZ1hobENyVVpwZWNSakY1M000T29YNGFIUTRxMGZGUkNGZ29vSi1RNXF4SnUwMkFDVXNFdG1FOC1iUQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "2.5% levy on digital advertising revenue for companies failing to negotiate deals",
-      "Requirement to reach agreements with at least six local news services (up from four)",
-      "150% offset for large media company deals; 200% for smaller firm agreements",
-      "Applies to tech firms with domestic revenues of $250 million or more",
-      "LinkedIn carve-out removed; legislation expected in parliament within weeks"
-    ],
-    "researched": true,
-    "received_at": "2026-08-20T16:19:33.977443+00:00",
-    "lineage_id": "australia-mandates-tech-company-payments-to-news-publishers-or-faces-levies",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-20",
     "event_id": "ai-security-vulnerability-encrypted-reasoning-blocks-of-proprietary-llms-can-be-stolen-via-cross-model-replay",
     "title": "AI security vulnerability: encrypted reasoning blocks of proprietary LLMs can be stolen via cross-model replay",
     "summary": "Security researchers have discovered a vulnerability that allows attackers to extract encrypted reasoning blocks from proprietary large language models through cross-model replay attacks.",
@@ -4654,6 +4441,58 @@
   },
   {
     "date": "2026-08-20",
+    "event_id": "ipcc-poised-to-retire-rcp-85-the-worst-case-climate-scenario",
+    "title": "IPCC poised to retire RCP 8.5, the worst-case climate scenario",
+    "summary": "The UN's climate change panel appears set to retire RCP 8.5, a high-emissions scenario in which the world takes no climate action.",
+    "theme": "Climate Science",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "IPCC",
+      "RCP 8.5",
+      "climate policy",
+      "climate scenario",
+      "climate scenarios",
+      "emissions",
+      "emissions pathways",
+      "emissions scenario"
+    ],
+    "url": "news/climate-change/2026-08-20/#ipcc-poised-to-retire-rcp-85-the-worst-case-climate-scenario",
+    "sources": [
+      {
+        "label": "The Washington Post",
+        "url": "https://www.washingtonpost.com/climate-environment/2026/05/19/un-climate-panel-says-rcp-85-worst-case-scenario-is-implausible/",
+        "origin": "discovery"
+      },
+      {
+        "label": "The Washington Post",
+        "url": "https://www.google.com/goto?url=CAEStgEB7keqTdOEKFDsp1RhuQiZdYzuYEf12Rdaf925_TZX09QYzlCgA7U7VyVsUO4ttTNcrOYxLnC2bSiGjGv-dAOc_LyuBjCOD18N9h4DtQRq3ZYQMHltDSy57YtCugItKaqZbREyyyC8YO8MnoCLRAJxN7mWM8Y56vwOFgR2F3n5aeV5QwKIg2Rky2v85XX2H6wLUT3IQ86_hh3M1WznKkfp12p-SVW6z_ftxxq4QPg71hORDSXx3Q%3D%3D",
+        "origin": "discovery"
+      },
+      {
+        "label": "The Washington Post",
+        "url": "https://www.google.com/goto?url=CAEStgEB6zswFcNl5DVpINE5lEBdROM1yhHaVTy5PTElkQUVVlmI7_14QETdc2fR1aTaX3SyaAsr2mJTBHgh6U2rXDr2FQxqrOSf6jEqzFNh5lYvE5kVs5pmt0UNXH-67p1StzEEtqhhP9QaNbY2F__H0UZOq8KL_lWtLEfzi_6rsvhseYj2u3Qehg_weTcIQI9Cc1mT4RmaiMoP9XLzDXcVmojfz_b2XTSPCeoEc3FipGbDNdrupffkqQ",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "ipcc-retires-worst-case-climate-scenario-rcp-85",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "IPCC retires worst-case climate scenario RCP 8.5",
+    "updates_url": "news/climate-change/2026-08-16/#ipcc-retires-worst-case-climate-scenario-rcp-85"
+  },
+  {
+    "date": "2026-08-20",
     "event_id": "climate-change-drove-extreme-european-sea-temperatures-in-july-2026-attribution-study-confirms",
     "title": "Climate change drove extreme European sea temperatures in July 2026, attribution study confirms",
     "summary": "A World Weather Attribution study found that human-induced climate change was the primary driver of unprecedented July 2026 sea surface temperatures in European coastal waters.",
@@ -4736,6 +4575,105 @@
     "researched": true,
     "received_at": "2026-08-20T10:17:45.687427+00:00",
     "lineage_id": "florida-removes-climate-change-content-from-public-school-textbooks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "chinas-solar-expansion-linked-to-bird-diversity-decline-across-2344-counties",
+    "title": "China's solar expansion linked to bird diversity decline across 2,344 counties",
+    "summary": "A Science study analyzing 2,344 Chinese counties from 2014–2023 found that solar power expansion policies correlate with bird diversity declines, with each standard deviation increase in policy intensity linked to a 2.10% drop in local bird diversity indices. Habitat fragmentation from large-scale photovoltaic installations replacing meadows and farmland drives avian population losses.",
+    "theme": "Environment",
+    "importance": 7.5,
+    "topics": [
+      "climate-change",
+      "science"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "China",
+      "solar power",
+      "bird diversity",
+      "environmental impact",
+      "conservation"
+    ],
+    "url": "news/climate-change/2026-08-20/#chinas-solar-expansion-linked-to-bird-diversity-decline-across-2344-counties",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/20082026/china-solar-panels-harm-bird-diversity/",
+        "origin": "research"
+      },
+      {
+        "label": "Interesting Engineering",
+        "url": "https://interestingengineering.com/energy/china-solar-expansion-bird-diversity-drop",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-china-solar-linked-bird-diversity.html",
+        "origin": "rss"
+      },
+      {
+        "label": "Science — Climate",
+        "url": "https://www.science.org/doi/abs/10.1126/science.aee0747?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "2,344 counties analyzed across ten-year period (2014–2023)",
+      "2.10% bird diversity decline per one-standard-deviation increase in solar policy intensity",
+      "Habitat fragmentation from photovoltaic installations replacing meadows and farmland identified as driver",
+      "China has installed nearly as many solar panels as rest of world combined",
+      "Nature-friendly rules could create safer spaces for birds"
+    ],
+    "researched": true,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "chinas-solar-expansion-linked-to-bird-diversity-decline-across-2344-counties",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "tgw1a-locus-enhances-rice-grain-yield-while-reducing-growth-duration",
+    "title": "TGW1a Locus Enhances Rice Grain Yield While Reducing Growth Duration",
+    "summary": "A genetic locus in rice simultaneously shortens the growing period and increases grain yield, addressing dual agricultural challenges.",
+    "theme": "Science",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "rice",
+      "grain yield",
+      "genetics",
+      "agriculture"
+    ],
+    "url": "news/climate-change/2026-08-20/#tgw1a-locus-enhances-rice-grain-yield-while-reducing-growth-duration",
+    "sources": [
+      {
+        "label": "Science — Climate",
+        "url": "https://www.science.org/doi/abs/10.1126/science.ady1619?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "tgw1a-locus-enhances-rice-grain-yield-while-reducing-growth-duration",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5137,6 +5075,50 @@
   },
   {
     "date": "2026-08-20",
+    "event_id": "europes-summer-heat-wave-exceeds-40c-across-regions-inhabited-by-80-million-people",
+    "title": "Europe's summer heat wave exceeds 40°C across regions inhabited by 80 million people",
+    "summary": "Record-breaking summer heat waves in Europe sent temperatures above 40°C (104°F) across regions inhabited by 80 million people from mid-June through mid-August.",
+    "theme": "Environment",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Europe",
+      "heat wave",
+      "climate",
+      "temperature",
+      "extreme weather"
+    ],
+    "url": "news/science/2026-08-20/#europes-summer-heat-wave-exceeds-40c-across-regions-inhabited-by-80-million-people",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-europe-million.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "7,307 excess deaths documented across all causes",
+      "52 consecutive heat wave days since mid-June (vs. 33 in 2022, 22 in 2003)",
+      "Nearly 75% of deaths were people aged 75+",
+      "June 24–25 reached record average of 30°C (86°F)",
+      "Three consecutive heat waves: 14 days (June), 16 days (July), 22+ days (late July onward)"
+    ],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "france-records-over-7300-excess-deaths-during-record-summer-heat-waves",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "France records over 7,300 excess deaths during record summer heat waves",
+    "updates_url": "news/science/2026-08-19/#france-records-over-7300-excess-deaths-during-record-summer-heat-waves"
+  },
+  {
+    "date": "2026-08-20",
     "event_id": "private-mission-to-save-nasas-swift-observatory-fails",
     "title": "Private mission to save NASA's Swift Observatory fails",
     "summary": "A privately-funded spacecraft failed to boost the orbit of NASA's Swift Space Telescope, meaning it will re-enter Earth's atmosphere later this year.",
@@ -5406,6 +5388,55 @@
     "researched": true,
     "received_at": "2026-08-20T16:19:33.977443+00:00",
     "lineage_id": "tesla-robotaxis-operating-fully-unsupervised-in-austin",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "senators-press-tiktok-over-sinister-safety-algorithm-test-involving-deceased-teen",
+    "title": "Senators press TikTok over 'sinister' safety algorithm test involving deceased teen",
+    "summary": "Two U.S. senators demanded answers from TikTok after the platform withheld a safety feature from millions of users in an experiment that included a deceased teenager among test subjects. A confidential 2023 company document revealed the company tested whether protecting users would impact its financial bottom line.",
+    "theme": "Technology",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "TikTok",
+      "algorithm",
+      "safety",
+      "teen safety",
+      "Senate"
+    ],
+    "url": "news/tech/2026-08-20/#senators-press-tiktok-over-sinister-safety-algorithm-test-involving-deceased-teen",
+    "sources": [
+      {
+        "label": "Los Angeles Times",
+        "url": "https://www.latimes.com/business/story/2026-08-20/tiktoks-depraved-safety-experiment-on-teens-ignites-senate-backlash",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2241153/senators-press-tiktok-on-sinister-experiment-held-back-algorithm-safety-feature/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Safety feature withheld from millions of users in experiment",
+      "Deceased teenager among test subjects",
+      "Experiment designed to determine financial impact of safety protections",
+      "Document dates to 2023; senators characterized decision as 'depraved'",
+      "Republican Marsha Blackburn and Democrat Richard Blumenthal co-sponsor online child safety bill"
+    ],
+    "researched": true,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "senators-press-tiktok-over-sinister-safety-algorithm-test-involving-deceased-teen",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5891,6 +5922,65 @@
     "related_url": "",
     "updates_title": "Claude AI accelerates protein design and analytical chemistry research",
     "updates_url": "news/anthropic/2026-08-19/#claude-ai-accelerates-protein-design-and-analytical-chemistry-research"
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "artificial-intelligence-agent-conducts-autonomous-biomedical-research",
+    "title": "Artificial Intelligence Agent Conducts Autonomous Biomedical Research",
+    "summary": "Researchers at Stanford developed Biomni, an autonomous AI agent that performs biomedical research by formulating hypotheses, conducting bioinformatics analyses, and designing experimental protocols across genomics, immunology, and pharmacology. The system includes 150 specialized tools and executes tasks at expert-level accuracy in a fraction of human time.",
+    "theme": "Science",
+    "importance": 8.0,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "AI",
+      "automation",
+      "biomedical research",
+      "autonomous"
+    ],
+    "url": "news/climate-change/2026-08-20/#artificial-intelligence-agent-conducts-autonomous-biomedical-research",
+    "sources": [
+      {
+        "label": "Techno-Science",
+        "url": "https://www.techno-science.net/en/news/biomni-autonomous-agent-biomedical-research-29113",
+        "origin": "research"
+      },
+      {
+        "label": "Inside Precision Medicine",
+        "url": "https://www.insideprecisionmedicine.com/topics/precision-medicine/ai-tool-speeds-biomedical-research-progress/",
+        "origin": "research"
+      },
+      {
+        "label": "Stanford Cancer Institute",
+        "url": "https://med.stanford.edu/cancer/about/news/inside-the-virtual-lab--how-ai-scientists-are-accelerating-disco.html",
+        "origin": "research"
+      },
+      {
+        "label": "Science — Climate",
+        "url": "https://www.science.org/doi/abs/10.1126/science.adz4351?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Biomni-E1 includes 150 specialized biomedical tools, 105 software packages, 59 databases",
+      "Biomni-A1 uses large-language-model reasoning to generate executable code for biomedical workflows",
+      "System achieves accuracy comparable to experts while reducing execution time",
+      "Stanford team analyzed 2,500 biomedical papers across 25 subfields to define action space",
+      "Parallel 'Virtual Lab' project by James Zou required human intervention in only ~1% of autonomous work"
+    ],
+    "researched": true,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "artificial-intelligence-agent-conducts-autonomous-biomedical-research",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-20",
@@ -6578,7 +6668,7 @@
       "supply chain",
       "supply chain attack"
     ],
-    "url": "news/security/2026-08-20/#hackers-compromise-arrayref-rust-crate-to-distribute-infostealer-malware",
+    "url": "news/tech/2026-08-20/#hackers-compromise-arrayref-rust-crate-to-distribute-infostealer-malware",
     "sources": [
       {
         "label": "Cybersecurity News",
@@ -6619,7 +6709,7 @@
     "date": "2026-08-20",
     "event_id": "world-on-course-to-permanently-exceed-paris-agreement-15c-limit-by-2030",
     "title": "World on course to permanently exceed Paris Agreement 1.5°C limit by 2030",
-    "summary": "Earth will permanently breach the 1.5°C warming target within approximately four years if current emission trends continue.",
+    "summary": "The world will permanently exceed the Paris Agreement's 1.5°C warming target within four years if current emission levels continue.",
     "theme": "Climate",
     "importance": 8.5,
     "topics": [
@@ -6632,11 +6722,14 @@
     "primary_feed": "environment",
     "keywords": [
       "1.5C limit",
+      "1.5°C",
       "1.5°C limit",
       "Paris Agreement",
+      "climate target",
       "climate tipping point",
       "emissions",
-      "global warming"
+      "global warming",
+      "warming"
     ],
     "url": "news/climate-change/2026-08-20/#world-on-course-to-permanently-exceed-paris-agreement-15c-limit-by-2030",
     "sources": [
@@ -6649,11 +6742,16 @@
         "label": "Health Policy Watch",
         "url": "https://www.google.com/goto?url=CAEShAEB7keqTZjBC9NQpYTAu-4W99UufHRdmDh5A93tN26fECXmIDGM2cwOp6KbvnhH-d68dqyCQDHNi4PXoDZCTmZCOUb4AOkLjt4thde07qQ9bri8-F0_ezRn5IgWL3EmPQGaXGkA-ZCvEaccuYcMxBKux5GRPy58kxlYPixm6j7EECp7Qa8%3D",
         "origin": "discovery"
+      },
+      {
+        "label": "Health Policy Watch",
+        "url": "https://www.google.com/goto?url=CAEShAEB6zswFUgQJuwuhjY8EgxPcIu8UMGPwCS0603CTLmVtd8jYjoRkTbyloJ2E60Pjo2XnlI9otKjr77Nio-Yl_SPofRI_jkGHtALRyCwlM38rVJURNUeO4m6P5mR3IeKL1O5ND1lrQFBDN0IkUsIx0TWrbj-Q3_cnrAVJnuk9kUxn9sA2Zw",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-20T10:17:45.687427+00:00",
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
     "lineage_id": "planet-set-to-permanently-exceed-15c-warming-limit-by-2030",
     "related_title": "",
     "related_url": "",
@@ -6703,6 +6801,44 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-20",
+    "event_id": "data-breaches-surge-to-471m-victims-in-h1-2026-doubling-2025-total",
+    "title": "Data Breaches Surge to 471M Victims in H1 2026, Doubling 2025 Total",
+    "summary": "The Identity Theft Resource Center reports 471 million victim notices in the first half of 2026, exceeding all of 2025, driven by AI-powered attacks and zero-day exploits.",
+    "theme": "Security",
+    "importance": 8.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "data breach",
+      "ITRC",
+      "AI attacks",
+      "2026",
+      "victim records"
+    ],
+    "url": "news/security/2026-08-20/#data-breaches-surge-to-471m-victims-in-h1-2026-doubling-2025-total",
+    "sources": [
+      {
+        "label": "https://tech-insider.org/",
+        "url": "https://www.google.com/goto?url=CAESeAHrOzAVLhusvcFnBwlLVM-sVbR9ohqS_kHnaCFYa1d2t5Dw0YuV06iuo0ko3fSzpwzuT33oDFGhocXVb5QuJ7_gbo1JblRZozbiypyMUN4Xtnhq8YUN2yuyTSbOApaYFtl2wUDuA-foeacwqN6jtJM1dTacF__ruA",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-20T20:15:24.894486+00:00",
+    "lineage_id": "data-breaches-hit-471m-victims-in-h1-2026-doubling-2025-total",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Data Breaches Hit 471M Victims in H1 2026, Doubling 2025 Total",
+    "updates_url": "news/security/2026-08-18/#data-breaches-hit-471m-victims-in-h1-2026-doubling-2025-total"
   },
   {
     "date": "2026-08-20",
