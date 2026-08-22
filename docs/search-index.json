@@ -38,6 +38,42 @@
   },
   {
     "date": "2026-08-22",
+    "event_id": "does-tapping-a-soda-can-actually-prevent-fizzing",
+    "title": "Does Tapping a Soda Can Actually Prevent Fizzing?",
+    "summary": "A common consumer practice of tapping soda cans before opening is tested to determine whether it actually prevents fizz overflow.",
+    "theme": "Science",
+    "importance": 2.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "soda",
+      "carbonation",
+      "physics"
+    ],
+    "url": "news/science/2026-08-22/#does-tapping-a-soda-can-actually-prevent-fizzing",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/physics-mathematics/does-tapping-on-a-soda-can-really-stop-it-from-exploding",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "does-tapping-a-soda-can-actually-prevent-fizzing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
     "event_id": "anthropic-ipo-valuation-report",
     "title": "Anthropic IPO Valuation Report",
     "summary": "A report claims Anthropic is targeting a $2 trillion initial public offering valuation.",
@@ -75,36 +111,35 @@
   },
   {
     "date": "2026-08-22",
-    "event_id": "nasa-explains-voyager-1-light-day-measurement",
-    "title": "NASA explains Voyager 1 light-day measurement",
-    "summary": "NASA published an explanation of what a light-day measurement means in the context of Voyager 1's interstellar journey.",
-    "theme": "Space",
-    "importance": 3,
+    "event_id": "anthropic-co-founders-wife-keeps-low-profile-despite-influence",
+    "title": "Anthropic Co-Founder's Wife Keeps Low Profile Despite Influence",
+    "summary": "Cami Clark, spouse of Anthropic co-founder Dario Amodei, maintains minimal public visibility despite her previous venture-seeking activities.",
+    "theme": "AI",
+    "importance": 3.5,
     "topics": [
-      "space"
+      "anthropic"
     ],
     "feeds": [
-      "science"
+      "technology"
     ],
-    "primary_feed": "science",
+    "primary_feed": "technology",
     "keywords": [
-      "Voyager 1",
-      "light-day",
-      "NASA",
-      "measurement"
+      "Anthropic",
+      "Dario Amodei",
+      "leadership"
     ],
-    "url": "news/space/2026-08-22/#nasa-explains-voyager-1-light-day-measurement",
+    "url": "news/anthropic/2026-08-22/#anthropic-co-founders-wife-keeps-low-profile-despite-influence",
     "sources": [
       {
-        "label": "NASA Science (.gov)",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa0Y3c0k1angzWDAtZ2F4TU1tUWF4dGFUZnpuVkpkYS1tcEFKSWp5TEhadTF5YVdycGJVZ3pNc1J0Y0lFN0N4OXh2V29ldHptdlE4UzhxRTFjclgxOFppdXNGV091bXZ6ZlB0OTkzWjdGb1BKaG1DelJkMm9GcTNyVEFNSlU2SUVz?oc=5",
-        "origin": "rss"
+        "label": "WSJ",
+        "url": "https://www.wsj.com/tech/ai/claude-dario-amodei-wife-anthropic-e1eeda7d",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-22T06:18:02.437481+00:00",
-    "lineage_id": "nasa-explains-voyager-1-light-day-measurement",
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "anthropic-co-founders-wife-keeps-low-profile-despite-influence",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -552,44 +587,6 @@
     "researched": false,
     "received_at": "2026-08-22T06:18:02.437481+00:00",
     "lineage_id": "claude-design-anthropic-releases-ai-prototyping-tool",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-22",
-    "event_id": "lead-city-series-wins-national-association-of-black-journalists-award",
-    "title": "'Lead City' series wins National Association of Black Journalists award",
-    "summary": "An investigative series about Chicago's lead water pipe crisis has won a Salute to Excellence award from the National Association of Black Journalists.",
-    "theme": "Environment",
-    "importance": 4.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "lead",
-      "water safety",
-      "journalism",
-      "Chicago"
-    ],
-    "url": "news/climate-change/2026-08-22/#lead-city-series-wins-national-association-of-black-journalists-award",
-    "sources": [
-      {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/21082026/lead-city-series-receives-national-association-of-black-journalists-award/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-22T06:18:02.437481+00:00",
-    "lineage_id": "lead-city-series-wins-national-association-of-black-journalists-award",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1230,6 +1227,42 @@
     "related_url": "",
     "updates_title": "NASA's Voyager 2 probe reaches interstellar space after 49 years",
     "updates_url": "news/space/2026-08-21/#nasas-voyager-2-probe-reaches-interstellar-space-after-49-years"
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "96-partial-lunar-eclipse-visible-august-2026",
+    "title": "96% Partial Lunar Eclipse Visible August 2026",
+    "summary": "A partial lunar eclipse reaching 96% totality will be visible from multiple regions on Earth in August 2026.",
+    "theme": "Space",
+    "importance": 5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "lunar eclipse",
+      "August 2026",
+      "astronomy"
+    ],
+    "url": "news/space/2026-08-22/#96-partial-lunar-eclipse-visible-august-2026",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/lunar-eclipses/where-will-the-partial-lunar-eclipse-on-aug-27-2026-be-visible-from",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "96-partial-lunar-eclipse-visible-august-2026",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-22",
@@ -2055,7 +2088,7 @@
     "date": "2026-08-22",
     "event_id": "forest-soil-impacts-from-wildfire-restoration-strategies-for-climate-mitigation",
     "title": "Forest Soil Impacts from Wildfire: Restoration Strategies for Climate Mitigation",
-    "summary": "Editorial review examines wildfire impacts on forest soils and post-fire restoration approaches to address climate change.",
+    "summary": "An editorial reviews decades of research on wildfire impacts to forest soils and explores restoration strategies to mitigate climate change effects.",
     "theme": "Environment",
     "importance": 6,
     "topics": [
@@ -2067,10 +2100,13 @@
     ],
     "primary_feed": "environment",
     "keywords": [
-      "wildfires",
+      "climate change",
+      "climate mitigation",
       "forest soils",
       "post-fire restoration",
-      "climate change"
+      "restoration",
+      "wildfire",
+      "wildfires"
     ],
     "url": "news/climate-resilience/2026-08-22/#forest-soil-impacts-from-wildfire-restoration-strategies-for-climate-mitigation",
     "sources": [
@@ -2078,11 +2114,16 @@
         "label": "Frontiers",
         "url": "https://www.google.com/goto?url=CAESngEB6zswFQgKZaZ2IpiEpqYrPz4n1eh3kJMpl6whD7DH2rruo3jPZNsvT7OFRu-e4zJUqbxIH_o8RkNBcQFg016SHtELF5EEJZxlABNHa-53z5E6Yi0fqpv2JtrRPaqDt2h7aw0x21PkYktjwho5JUx8YGESttRWw7_ld0f6LwWmfivWl1fGFnLeWq9_H1X4gc0_ByTfIw5dpEZOGHUisg",
         "origin": "discovery"
+      },
+      {
+        "label": "Frontiers",
+        "url": "https://www.frontiersin.org/journals/forests-and-global-change/articles/10.3389/ffgc.2023.1203411/full",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-22T08:14:50.390316+00:00",
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
     "lineage_id": "forest-soil-impacts-from-wildfire-restoration-strategies-for-climate-mitigation",
     "related_title": "",
     "related_url": "",
@@ -2393,6 +2434,83 @@
     "researched": false,
     "received_at": "2026-08-22T06:18:02.437481+00:00",
     "lineage_id": "environmental-group-challenges-trump-administrations-closure-of-national-center-for-atmospheric-research",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "jellyfish-surge-closes-delaware-beaches-amid-climate-warming",
+    "title": "Jellyfish Surge Closes Delaware Beaches Amid Climate Warming",
+    "summary": "Record jellyfish populations are causing hundreds of stings daily and keeping swimmers off Delaware beaches due to warmer waters and drought conditions.",
+    "theme": "Climate Change",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "jellyfish",
+      "Delaware",
+      "ocean warming",
+      "beach safety"
+    ],
+    "url": "news/climate-change/2026-08-22/#jellyfish-surge-closes-delaware-beaches-amid-climate-warming",
+    "sources": [
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/us-news/2026/aug/22/jellyfish-sting-delaware-beaches",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "jellyfish-surge-closes-delaware-beaches-amid-climate-warming",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "communities-adapt-to-climate-challenges-across-asia-and-latin-america",
+    "title": "Communities Adapt to Climate Challenges Across Asia and Latin America",
+    "summary": "Communities in Bangladesh, Mexico, and Thailand are implementing practical climate adaptation strategies including flood-resistant housing and traditional ecological methods.",
+    "theme": "Climate Resilience",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate adaptation",
+      "community resilience",
+      "Bangladesh",
+      "Mexico",
+      "Thailand"
+    ],
+    "url": "news/climate-change/2026-08-22/#communities-adapt-to-climate-challenges-across-asia-and-latin-america",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/hands-on-series-stories-that-build-change/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "communities-adapt-to-climate-challenges-across-asia-and-latin-america",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2754,81 +2872,6 @@
   },
   {
     "date": "2026-08-22",
-    "event_id": "one-killed-in-sword-attack-at-swedish-school",
-    "title": "One killed in sword attack at Swedish school",
-    "summary": "An 18-year-old attacked a Swedish school with a sword, killing one person and injuring at least two others.",
-    "theme": "World Events",
-    "importance": 6.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Sweden",
-      "school attack",
-      "sword",
-      "violence"
-    ],
-    "url": "news/world/2026-08-22/#one-killed-in-sword-attack-at-swedish-school",
-    "sources": [
-      {
-        "label": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1QMG1ILU85bTVlS1FGMWZ2NHg5cXg5eEMyQ0JmYVN0bFgyZ19lS3BlRmpUY0w4ckwxcVpHSktaT2pqUzI3bUZ3SXhocmhES0FTTG5ZYjhSOGVlZw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-22T06:18:02.437481+00:00",
-    "lineage_id": "one-killed-in-sword-attack-at-swedish-school",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-22",
-    "event_id": "one-killed-in-sword-attack-at-swedish-high-school",
-    "title": "One killed in sword attack at Swedish high school",
-    "summary": "One person was killed in a sword attack at Brinell high school in central Sweden, prompting police response.",
-    "theme": "Violence",
-    "importance": 6.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Sweden",
-      "school attack",
-      "sword",
-      "violence",
-      "Brinell"
-    ],
-    "url": "news/world/2026-08-22/#one-killed-in-sword-attack-at-swedish-high-school",
-    "sources": [
-      {
-        "label": "BBC",
-        "url": "https://www.bbc.com/news/articles/c3r0g7gj2n3o",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-22T06:18:02.437481+00:00",
-    "lineage_id": "one-killed-in-sword-attack-at-swedish-high-school",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-22",
     "event_id": "bomb-fishing-destroying-coral-reefs-in-worlds-most-biodiverse-marine-ecosystem",
     "title": "Bomb fishing destroying coral reefs in world's most biodiverse marine ecosystem",
     "summary": "Bomb fishing—using explosives in plastic bottles to stun and kill marine life within a 90-foot radius—is destroying coral reefs in the Coral Triangle, the world's most biodiologically diverse marine ecosystem. Researchers documented over 3,500 explosions in 3,600 hours off Indonesia, and the practice has been recorded in at least 34 countries globally.",
@@ -2869,6 +2912,96 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "global-summit-in-mongolia-addresses-planetary-soil-crisis",
+    "title": "Global Summit in Mongolia Addresses Planetary Soil Crisis",
+    "summary": "The UN Convention to Combat Desertification is holding its biennial summit in Ulaanbaatar on August 22 to address degradation of the world's rangelands, which span roughly half of Earth's land surface. The focus is on restoration as a drought mitigation strategy and carbon sink preservation.",
+    "theme": "Environment",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "soil degradation",
+      "rangelands",
+      "Mongolia",
+      "land restoration",
+      "policy"
+    ],
+    "url": "news/climate-change/2026-08-22/#global-summit-in-mongolia-addresses-planetary-soil-crisis",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/22082026/convention-to-combat-desertification-highlights-soil-crisis/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "UNCCD summit in Ulaanbaatar, Mongolia, August 22, 2026",
+      "Rangelands cover approximately 50% of Earth's land surface",
+      "UNCCD one of three Rio conventions established 1992; officially launched 1994",
+      "Summit addresses rangeland and soil restoration for drought mitigation and carbon sink preservation",
+      "Broad policy consensus on rangeland action, unlike polarized fossil fuel debates"
+    ],
+    "researched": true,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "global-summit-in-mongolia-addresses-planetary-soil-crisis",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "global-methane-emissions-continue-rising-despite-policy-efforts",
+    "title": "Global Methane Emissions Continue Rising Despite Policy Efforts",
+    "summary": "The International Energy Agency reports that global methane emissions show no signs of declining, undermining climate policy efforts.",
+    "theme": "Climate Change",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "methane emissions",
+      "IEA",
+      "climate policy",
+      "global warming"
+    ],
+    "url": "news/climate-change/2026-08-22/#global-methane-emissions-continue-rising-despite-policy-efforts",
+    "sources": [
+      {
+        "label": "The Conversation",
+        "url": "https://www.google.com/goto?url=CAESkwEB6zswFQbBRO1qErPCe_iMbne_NekEo8YI-rh0o5WUw1bNIR2VYGClKmPCHVmTU6gbCZJS16jGViMrSB2UrP0KdVnrwMG3i6LY7ktR4A__fsMRpFvK3V5MLh7ptBREbfZ3042nN_sAd59bl9S5ys-cl5KX4wW2lcHklB4aPgnrH4kQgjsWS5lxF74oCvCv1WHqBmo",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Methane 80x more warming than CO₂ over 20 years",
+      "Over 100 methane policies identified across 32 jurisdictions, fewer than one-third mandatory",
+      "Four countries (India, Indonesia, Thailand, Tanzania) lack identifiable methane policies",
+      "India and Indonesia together account for 12%+ of global emissions",
+      "Two-thirds of policies show little implementation evidence",
+      "Japan's 1998 law with mandatory disclosure cut methane emissions ~40% by 2022"
+    ],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "global-methane-emissions-remain-on-upward-trajectory-international-energy-agency-signals-policy-failure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Global methane emissions remain on upward trajectory; International Energy Agency signals policy failure",
+    "updates_url": "news/climate-change/2026-08-20/#global-methane-emissions-remain-on-upward-trajectory-international-energy-agency-signals-policy-failure"
   },
   {
     "date": "2026-08-22",
@@ -3000,6 +3133,49 @@
     "researched": true,
     "received_at": "2026-08-22T06:18:02.437481+00:00",
     "lineage_id": "climate-change-could-triple-wheat-prices-globally",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "banking-trojans-manic-grandoreiro-toxicpanda-20-tracked",
+    "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 Tracked",
+    "summary": "Security researchers documented three active banking malware campaigns: Manic targets Ukrainian banks and government with spyware and keylogging; Grandoreiro continues a decade-long operation across Latin America, Europe, and North America using DLL sideloading; ToxicPanda 2.0 represents an expanded variant.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "banking malware",
+      "Grandoreiro",
+      "ToxicPanda",
+      "Manic",
+      "cybersecurity"
+    ],
+    "url": "news/security/2026-08-22/#banking-trojans-manic-grandoreiro-toxicpanda-20-tracked",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Manic: Android banking trojan plus spyware targeting Ukraine, Russia, Europe; includes offline mesh relay via Wi-Fi Direct or Bluetooth",
+      "Manic capabilities: keystroke logging, phishing screens, remote device control, notification monitoring, location tracking, file harvesting",
+      "Grandoreiro: Windows malware active 10+ years, recent campaigns focus on Mexico, abuses Duplicate Files Finder app for DLL sideloading",
+      "ToxicPanda 2.0: expanded malware variant tracked by security researchers"
+    ],
+    "researched": true,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "banking-trojans-manic-grandoreiro-toxicpanda-20-tracked",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3147,10 +3323,10 @@
   },
   {
     "date": "2026-08-22",
-    "event_id": "russia-launches-ballistic-missiles-at-kyiv-multiple-explosions-reported",
-    "title": "Russia Launches Ballistic Missiles at Kyiv; Multiple Explosions Reported",
-    "summary": "Russia launched ballistic missiles at Kyiv early on August 22, striking the capital minutes after an air raid alert and causing multiple explosions across the city and surrounding oblast. At least one person was killed, a warehouse caught fire in the Darnytskyi district, and the full extent of damage remained unclear. The attack followed a larger combined assault two days earlier that killed at least 15 people.",
-    "theme": "Geopolitics",
+    "event_id": "hong-kong-court-convicts-tiananmen-vigil-group-leaders-of-subversion",
+    "title": "Hong Kong Court Convicts Tiananmen Vigil Group Leaders of Subversion",
+    "summary": "Hong Kong's High Court convicted two pro-democracy activists of inciting subversion under the national security law for their role leading annual Tiananmen vigils. Both face up to 10 years in prison; sentencing is scheduled for the following Friday.",
+    "theme": "Policy",
     "importance": 7,
     "topics": [
       "world"
@@ -3160,38 +3336,130 @@
     ],
     "primary_feed": "world",
     "keywords": [
-      "Russia",
-      "Ukraine",
-      "Kyiv",
-      "ballistic missiles",
-      "military attack"
+      "Hong Kong",
+      "pro-democracy",
+      "Tiananmen",
+      "subversion law"
     ],
-    "url": "news/world/2026-08-22/#russia-launches-ballistic-missiles-at-kyiv-multiple-explosions-reported",
+    "url": "news/world/2026-08-22/#hong-kong-court-convicts-tiananmen-vigil-group-leaders-of-subversion",
     "sources": [
       {
-        "label": "Kyiv Independent",
-        "url": "https://kyivindependent.com/explosions-rock-kyiv-as-russia-launches-ballistic-missiles-at-ukraines-capital-2/",
+        "label": "Kyodo News",
+        "url": "https://english.kyodonews.net/articles/-/82761",
         "origin": "research"
       },
       {
-        "label": "The Kyiv Independent",
-        "url": "https://kyivindependent.com/explosions-rock-kyiv-as-russia-launches-ballistic-missiles-at-ukraines-capital-2/",
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung",
+        "origin": "research"
+      },
+      {
+        "label": "Yahoo News Singapore",
+        "url": "https://sg.news.yahoo.com/hong-kong-tiananmen-activists-found-030245456.html",
+        "origin": "research"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://www.google.com/goto?url=CAESqgEB6zswFbhTH3UeE-da9J-C7wqTIMUqZefAyY5eJLaknqMTnvIw5v1OFtIb4wWD8ceFa5Met8zn9OkSPCZN-0oWK2DfPfizEnKkA90aqunwqsySq3hj-7Rd0BvSKhQUojhx9e1kD_kDvF2_Y1Bhy95D7hpQvM4S0kCSMAHOiI0RkTDos-qDHZAngHDFeO3-S_29SEtdgpNsW9TZQU2sDg6FM6jiOsQ1xItFDg",
         "origin": "discovery"
       }
     ],
     "takeaways": [
-      "Attack occurred around 1 a.m. local time on August 22, 2026",
-      "Multiple explosions reported across Kyiv and Kyiv Oblast",
-      "Warehouse fire in Darnytskyi district; at least 1 killed",
-      "August 20 strike used ballistic missiles, cruise missiles, and drones; hit 28 locations, killed at least 15"
+      "Lee Cheuk-yan, 69, and Chow Hang-tung, 41, convicted August 21",
+      "Charges: inciting subversion under 2020 national security law; maximum 10-year penalty",
+      "Former leaders of Hong Kong Alliance organized Victoria Park candlelight vigils 1990–2020 commemorating 1989 Tiananmen crackdown",
+      "Trial lasted 24 days starting January 2026; third defendant Albert Ho pleaded guilty in January",
+      "Court ruled vigil organizers intended to promote 'end one-party dictatorship' through unlawful means"
     ],
     "researched": true,
-    "received_at": "2026-08-22T08:14:50.390316+00:00",
-    "lineage_id": "russia-launches-ballistic-missiles-at-kyiv-multiple-explosions-reported",
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "hong-kong-court-convicts-tiananmen-vigil-group-leaders-of-subversion",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "study-identifies-overlooked-climate-pollutants-contributing-15-of-global-warming",
+    "title": "Study Identifies Overlooked Climate Pollutants Contributing 15% of Global Warming",
+    "summary": "A June 2026 study in Science identifies carbon monoxide and non-methane volatile organic compounds as responsible for 15 percent of human-driven global warming through atmospheric reactions rather than direct greenhouse gas effects. None of these pollutants currently appear in international climate policy frameworks.",
+    "theme": "Climate Change",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate science",
+      "emissions",
+      "global warming",
+      "policy"
+    ],
+    "url": "news/climate-change/2026-08-22/#study-identifies-overlooked-climate-pollutants-contributing-15-of-global-warming",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://www.google.com/goto?url=CAESiQEB6zswFbPLK8oFC-uh5WqJhBmuOkRcGwD0WrkTOMYOPSKkX_ESCz8rLengrIB_47oymOjNMnHhnsnKQR6kMTno6cT-XI4961OgifCYneKyjAZDjD_LLWFQc5SsZZajUMyGaxkuiu35iz25R7ciDjp5IgB5dv6EiazMt9QVUsqTGAwlUxbFLrYRmQ",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "15% of global warming attributed to overlooked atmospheric pollutants",
+      "Carbon monoxide and non-methane volatile organic compounds trigger atmospheric reactions extending greenhouse gas lifetime",
+      "Study led by Ilissa Ocko, senior climate scientist at Spark Climate Solutions",
+      "Pollutants absent from international climate treaty lists forming basis for nations' climate pledges",
+      "Authors call for inclusion in international climate policy frameworks"
+    ],
+    "researched": true,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "study-identifies-overlooked-climate-pollutants-contributing-15-of-global-warming",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "worst-case-climate-scenario-officially-retired-by-scientists",
+    "title": "Worst-Case Climate Scenario Officially Retired by Scientists",
+    "summary": "Climate scientists have retired the worst-case warming scenario that drove 15 years of catastrophic climate coverage, reshaping future climate projections.",
+    "theme": "Climate Change",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate scenarios",
+      "IPCC",
+      "climate science",
+      "RCP"
+    ],
+    "url": "news/climate-change/2026-08-22/#worst-case-climate-scenario-officially-retired-by-scientists",
+    "sources": [
+      {
+        "label": "Vox",
+        "url": "https://www.google.com/goto?url=CAESkwEB6zswFc-7P_zYrRvxPuyfOxXwQfGm5oL5cONZ-U7BmcGTH7rvFXRPJx34_DQW7ZnwRhhSEOBzWOCxigtkZeLD9nvz4zyMFgRitQsUk9VWXvSmQNKxdOLD8ZBTeNkvmBe5NQ0iSo3MIM5tQiGyMO0OMRx7kgYRP5Y5woPm7UZAPZM72EDff-uCIuKorXMtGUy7m94",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "ipcc-retires-worst-case-climate-scenario-rcp-85",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Climate scientists retire worst-case warming scenario; catastrophic future remains concerning but less extreme",
+    "updates_url": "news/climate-change/2026-08-20/#climate-scientists-retire-worst-case-warming-scenario-catastrophic-future-remains-concerning-but-less-extreme"
   },
   {
     "date": "2026-08-22",
@@ -3398,6 +3666,127 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "russia-launches-double-tap-drone-strike-on-ukrainian-mall",
+    "title": "Russia Launches 'Double-Tap' Drone Strike on Ukrainian Mall",
+    "summary": "Russia conducted a 'double-tap' drone strike on a shopping centre in Kryvyi Rih, Ukraine, with the president accusing Russia of a cowardly and deliberate attack.",
+    "theme": "Conflict",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "military attack",
+      "drone strike"
+    ],
+    "url": "news/world/2026-08-22/#russia-launches-double-tap-drone-strike-on-ukrainian-mall",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://www.google.com/goto?url=CAESrAEB6zswFUKpF4j0aLK5gVP1vz4ixf1jhUHxq2FgyTtfonZkSFGiEwPfbqGcDEWIHSf5UgjcoFcjCrZgAKTRZ6uTnrsHSrsxuvjJKdFkFQhI3kpLKn551JTLe-03k2PAuOoYwqTBdKekY2SsqQum-HbUM82TddySOm9VU5WMLzbtEJpAImKixl7m6KNEgHDJYbtqH93YP8aJvy1HyaQET6eThL4HR_yrk-QOCRS1",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "russian-drone-strike-on-ukrainian-shopping-mall-kills-at-least-14-civilians",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Russian Drone Strike on Ukrainian Shopping Mall Kills at Least 14 Civilians",
+    "updates_url": "news/world/2026-08-21/#russian-drone-strike-on-ukrainian-shopping-mall-kills-at-least-14-civilians"
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "russia-launches-ballistic-missile-attack-on-kyiv",
+    "title": "Russia Launches Ballistic Missile Attack on Kyiv",
+    "summary": "Russia launched ballistic missiles at Kyiv early August 22, killing at least one person and causing fires in the Darnytskyi district. The attack followed another large-scale strike two days earlier that killed at least 15 people across 28 locations in the city.",
+    "theme": "Conflict",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "Kyiv",
+      "military strike"
+    ],
+    "url": "news/world/2026-08-22/#russia-launches-ballistic-missile-attack-on-kyiv",
+    "sources": [
+      {
+        "label": "Kyiv Independent",
+        "url": "https://www.google.com/goto?url=CAESpQEB6zswFSM5rw06ReneLJ3KFnhpqbZg_mAnjugw5HQLRMZ2mTquWomLHhqKSq_7QZa4Oej0zoEICPMTZFZeq0tpH-H-OA61X1iPNe-LfDdC3gSGapIecQ18XYbc_MiQYr_uFpmCpGft2rmm34Z5nao7cJKjmY7GKa3ZSgaWWNmtP2emzj4fzSD5HZwA7FWESYTgvjWQ9SuMYQLG5717SsW7aBe1Vp8",
+        "origin": "research"
+      },
+      {
+        "label": "The Kyiv Independent",
+        "url": "https://www.google.com/goto?url=CAESpQEB6zswFSM5rw06ReneLJ3KFnhpqbZg_mAnjugw5HQLRMZ2mTquWomLHhqKSq_7QZa4Oej0zoEICPMTZFZeq0tpH-H-OA61X1iPNe-LfDdC3gSGapIecQ18XYbc_MiQYr_uFpmCpGft2rmm34Z5nao7cJKjmY7GKa3ZSgaWWNmtP2emzj4fzSD5HZwA7FWESYTgvjWQ9SuMYQLG5717SsW7aBe1Vp8",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Ballistic missile attack on Kyiv at ~1 a.m. local time, August 22",
+      "Warehouse fire in Darnytskyi district; at least one killed",
+      "Preceded by August 20 strike: 15+ killed, 28 locations hit with ballistic, cruise missiles, and drones"
+    ],
+    "researched": true,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "russia-launches-ballistic-missile-attack-on-kyiv",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-22",
+    "event_id": "world-set-to-permanently-breach-15c-limit-by-2030",
+    "title": "World Set to Permanently Breach 1.5°C Limit by 2030",
+    "summary": "At current emissions rates, the world will permanently exceed the Paris Agreement's 1.5°C warming threshold within approximately four years.",
+    "theme": "Climate Change",
+    "importance": 8.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Paris Agreement",
+      "1.5 degrees",
+      "climate targets",
+      "global warming"
+    ],
+    "url": "news/climate-change/2026-08-22/#world-set-to-permanently-breach-15c-limit-by-2030",
+    "sources": [
+      {
+        "label": "Health Policy Watch",
+        "url": "https://www.google.com/goto?url=CAEShAEB6zswFTYuZHXHVrtPyd3GnMpceVyDJZ4NUjcpw2WNfnhfrRoi1SQiUck0XCqAbWWA5-vY39kKECT2yFRvokP1SrF7wNhHB5Jtk44Fr0cZkqTefbv54ei0vxmHYuo6I1NZvhbHfW0HaE9iomrEn3S1SZTQQwSO442YJAM0crBS-fG30pk",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-22T10:10:45.994675+00:00",
+    "lineage_id": "planet-set-to-permanently-exceed-15c-warming-limit-by-2030",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "World on course to permanently exceed Paris Agreement 1.5°C limit by 2030",
+    "updates_url": "news/climate-change/2026-08-20/#world-on-course-to-permanently-exceed-paris-agreement-15c-limit-by-2030"
   },
   {
     "date": "2026-08-21",

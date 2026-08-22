@@ -1,5 +1,96 @@
 [
   {
+    "timestamp": "2026-08-22T10:10:45.994675+00:00",
+    "mode": "daily",
+    "calls": 33,
+    "web_searches": 16,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 52539,
+        "output": 13716,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 2378,
+        "output": 907,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.144,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 5211,
+            "output": 4001,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0252
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(merge-check)": {
+        "calls": 11,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 6978,
+            "output": 99,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0075
+      },
+      "(read)": {
+        "calls": 20,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 40350,
+            "output": 9616,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0894
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 2378,
+            "output": 907,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0069
+      }
+    },
+    "by_feed": {
+      "The Register": 2,
+      "Inside Climate News": 2,
+      "Space.com": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "Wired": 1,
+      "Live Science": 1,
+      "Mongabay": 1,
+      "SecurityWeek": 1
+    }
+  },
+  {
     "timestamp": "2026-08-22T08:14:50.390316+00:00",
     "mode": "daily",
     "calls": 33,
