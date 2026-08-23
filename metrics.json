@@ -1,5 +1,80 @@
 [
   {
+    "timestamp": "2026-08-23T20:09:08.006843+00:00",
+    "mode": "daily",
+    "calls": 21,
+    "web_searches": 15,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 29551,
+        "output": 8693,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.088,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 9011,
+            "output": 5536,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0367
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.015
+      },
+      "(merge-check)": {
+        "calls": 12,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 7522,
+            "output": 108,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0081
+      },
+      "(read)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 13018,
+            "output": 3049,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0283
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 World": 14,
+      "Google News \u2014 Anthropic": 4,
+      "TechCrunch": 3,
+      "Engadget": 3,
+      "Google News \u2014 markets": 3,
+      "Phys.org": 2,
+      "Google News \u2014 space": 2,
+      "Google News \u2014 PostgreSQL": 1,
+      "Google News \u2014 AI models": 1,
+      "The Verge": 1,
+      "Google News \u2014 OpenAI GPT": 1
+    }
+  },
+  {
     "timestamp": "2026-08-23T18:11:50.791623+00:00",
     "mode": "daily",
     "calls": 42,

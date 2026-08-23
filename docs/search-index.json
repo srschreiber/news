@@ -1,36 +1,36 @@
 [
   {
     "date": "2026-08-23",
-    "event_id": "star-trek-documentary-featuring-william-shatner-debuts-in-theaters-this-fall",
-    "title": "Star Trek documentary featuring William Shatner debuts in theaters this fall",
-    "summary": "A new Star Trek documentary celebrating 60 years of the franchise and featuring William Shatner will hit theaters this fall.",
-    "theme": "Culture",
-    "importance": 3,
+    "event_id": "109-mysql-learning-resources-curated-by-hackernoon",
+    "title": "109 MySQL Learning Resources Curated by HackerNoon",
+    "summary": "HackerNoon publishes a collection of 109 blog posts for learning MySQL database management.",
+    "theme": "Education",
+    "importance": 2,
     "topics": [
-      "space"
+      "postgres"
     ],
     "feeds": [
-      "science"
+      "technology"
     ],
-    "primary_feed": "science",
+    "primary_feed": "technology",
     "keywords": [
-      "Star Trek",
-      "William Shatner",
-      "documentary",
-      "60 years"
+      "MySQL",
+      "database",
+      "learning resources",
+      "tutorials"
     ],
-    "url": "news/space/2026-08-23/#star-trek-documentary-featuring-william-shatner-debuts-in-theaters-this-fall",
+    "url": "news/postgres/2026-08-23/#109-mysql-learning-resources-curated-by-hackernoon",
     "sources": [
       {
-        "label": "Space.com",
-        "url": "https://www.space.com/entertainment/space-movies-shows/new-star-trek-documentary-featuring-william-shatner-hits-theaters-this-fall-celebrating-60-years-of-trek",
+        "label": "HackerNoon",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80WjV5YW85QnduYlVrd1hWS2cyZ25ONVVGLWI3U2EzSDQ2SU9mVGhyNWp0T0lVd0ZfekxITTB4X3k1SHpGMFUtRGpsZ1ZPVFNRaW5WaDJGa0xqZVFkYXUzNFdMOThJV0xNR1E?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-23T16:10:51.702656+00:00",
-    "lineage_id": "star-trek-documentary-featuring-william-shatner-debuts-in-theaters-this-fall",
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "109-mysql-learning-resources-curated-by-hackernoon",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -301,6 +301,43 @@
   },
   {
     "date": "2026-08-23",
+    "event_id": "open-vs-closed-ai-models-mid-2026-forecast",
+    "title": "Open vs. Closed AI Models: Mid-2026 Forecast",
+    "summary": "An analyst shares predictions about the competitive landscape between open-source and closed AI models through mid-2026.",
+    "theme": "AI",
+    "importance": 4.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "open models",
+      "closed models",
+      "AI competition",
+      "forecasting"
+    ],
+    "url": "news/ai/2026-08-23/#open-vs-closed-ai-models-mid-2026-forecast",
+    "sources": [
+      {
+        "label": "Interconnects AI",
+        "url": "https://www.google.com/goto?url=CAESdgHrOzAV7jh1A_TRR7936YywOUbGYgJ3r_v0Wa4LAtv1DGG5SKTUReYGSdWwHGyJwIPg3Lqw2O-32hlYyGom--YNzJGPzwDM_kMdWE2C4uiq4-KlQlEF7SxbHC8ZnypX5X0VK-S4LW5pSBkfHzb9xknJ_ZsHV4U",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "open-vs-closed-ai-models-mid-2026-forecast",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
     "event_id": "wwf-global-wildlife-conservation-initiatives",
     "title": "WWF Global Wildlife Conservation Initiatives",
     "summary": "WWF advances wildlife conservation initiatives to protect endangered species and preserve biodiversity worldwide.",
@@ -412,6 +449,44 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
+    "event_id": "researchers-investigate-consciousness-in-anthropics-claude-language-model",
+    "title": "Researchers Investigate Consciousness in Anthropic's Claude Language Model",
+    "summary": "A recent experiment tested whether Claude Sonnet 4.5 exhibits properties associated with consciousness.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "consciousness",
+      "Anthropic",
+      "LLM",
+      "research"
+    ],
+    "url": "news/ai/2026-08-23/#researchers-investigate-consciousness-in-anthropics-claude-language-model",
+    "sources": [
+      {
+        "label": "The Economist",
+        "url": "https://www.google.com/goto?url=CAESmgEB6zswFUvmNzFgn0mP7rG-9WXvlwFV-aB5PXUOjyKAeKbA8SD-J9NqAJOAJUnZ9v-qftEw90CtrUOCUxJYbNzboiI_7UW0FqhEvQ--xwHWhWGplyZcMFGe_0N-vdrwA1bnLbhXcVGA3-Pb5MGXWNHT0VU-S7FfzBnCfo_RpIjX6fo4zBf7sXLNrpnoIH73efXbU8DZBSwCUaJk",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "researchers-investigate-consciousness-markers-in-anthropics-claude-llm",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Researchers investigate consciousness in Claude Sonnet 4.5",
+    "updates_url": "news/ai/2026-08-22/#researchers-investigate-consciousness-in-claude-sonnet-45"
   },
   {
     "date": "2026-08-23",
@@ -569,7 +644,7 @@
     "date": "2026-08-23",
     "event_id": "privacy-analysis-ranks-13-ai-platforms-by-data-handling-practices",
     "title": "Privacy analysis ranks 13 AI platforms by data handling practices",
-    "summary": "Researchers from Incogni evaluated 13 AI platforms and identified privacy risks associated with each, finding that larger platforms pose greater exposure.",
+    "summary": "Researchers from Incogni analyzed 13 AI platforms to assess privacy risks and data-handling practices across the industry.",
     "theme": "Privacy",
     "importance": 5.5,
     "topics": [
@@ -580,9 +655,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI platforms",
       "AI privacy",
+      "Incogni",
+      "data handling",
       "data protection",
-      "platform analysis"
+      "platform analysis",
+      "privacy"
     ],
     "url": "news/ai/2026-08-23/#privacy-analysis-ranks-13-ai-platforms-by-data-handling-practices",
     "sources": [
@@ -590,11 +669,16 @@
         "label": "ZDNET",
         "url": "https://www.zdnet.com/article/best-and-worst-ai-for-your-privacy-ranked/",
         "origin": "discovery"
+      },
+      {
+        "label": "ZDNET",
+        "url": "https://www.google.com/goto?url=CAESgAEB6zswFfrfiplYsZT8B5UYVoxWpwSmCNIN15EJOecWDp0dpcYi-AZaPCyKskQhGaj_V73H6-ChnAJ7M8TjfhmiE2Fs9D5JVNATpnyeja1gi-uVjTWwmzGCsB-2Fs5DGl_444DebhNbwoq6uShrv1c5ZX34A0DeLphlFKpaBdgu_w",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-23T06:19:26.941097+00:00",
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
     "lineage_id": "privacy-analysis-ranks-13-ai-platforms-by-data-handling-practices",
     "related_title": "",
     "related_url": "",
@@ -637,6 +721,43 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
+    "event_id": "ox-alpha-anonymous-free-ai-model-tops-coding-benchmarks",
+    "title": "Ox Alpha, Anonymous Free AI Model, Tops Coding Benchmarks",
+    "summary": "An anonymous developer released Ox Alpha, a free AI model available on OpenRouter and OpenCode, that is posting strong performance on coding benchmarks.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Ox Alpha",
+      "coding benchmarks",
+      "open-source AI",
+      "OpenRouter"
+    ],
+    "url": "news/ai/2026-08-23/#ox-alpha-anonymous-free-ai-model-tops-coding-benchmarks",
+    "sources": [
+      {
+        "label": "Startup Fortune",
+        "url": "https://www.google.com/goto?url=CAESmgEB6zswFdhi8tProwm0Aw7aeur08NzaDQudl9Jlpu4SsG1VHw8JsAEpYegdhhApKotBB2tN1I2tHYvuM1HLZKdV2Lr7QC-V_7ksjxwmeAW_GRhmjE7_qq_pSrr3uUoOa5Sm7Uxiy46eD3m1ow6PKH23nRiHGuHlikRaKccvftw6UwrgjXIIswjNOjYndmoUjDhTTfYicxkjgbST",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "mystery-ai-model-ox-alpha-tops-coding-benchmarks-as-free-tool",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Mystery AI model Ox Alpha tops coding benchmarks as free tool",
+    "updates_url": "news/ai/2026-08-22/#mystery-ai-model-ox-alpha-tops-coding-benchmarks-as-free-tool"
   },
   {
     "date": "2026-08-23",
@@ -1072,6 +1193,43 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
+    "event_id": "openai-voluntarily-limits-new-ai-model-releases-at-government-request",
+    "title": "OpenAI Voluntarily Limits New AI Model Releases at Government Request",
+    "summary": "OpenAI announces it is restricting new model releases and working with the government on a formal regulatory review process.",
+    "theme": "Policy",
+    "importance": 6,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI regulation",
+      "model release",
+      "government"
+    ],
+    "url": "news/ai/2026-08-23/#openai-voluntarily-limits-new-ai-model-releases-at-government-request",
+    "sources": [
+      {
+        "label": "Cybersecurity Dive",
+        "url": "https://www.google.com/goto?url=CAESjAEB6zswFVS7WNyw_UKL1Awlt52roB41q8BfCEku9RXTQzlFsQtLBJ_PvEBJR3IaMfVCErqGGFIsBZ_kWlE5vT45f6OtBllQHIXvzRAksv2z7-FDE4n3i5P4NgugXsAqAzs7kHHcbc2O_t7WLwk3oJ1sZBVGD410A7a8ejTb0Mz4oftkBNCgl41BDHRn7w",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "openai-voluntarily-limits-new-model-releases-at-government-request",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI voluntarily limits new model releases at government request",
+    "updates_url": "news/ai/2026-08-22/#openai-voluntarily-limits-new-model-releases-at-government-request"
   },
   {
     "date": "2026-08-23",
@@ -1581,43 +1739,6 @@
   },
   {
     "date": "2026-08-23",
-    "event_id": "nanogpt-speedrun-frontier-optimized-gpt-model-training",
-    "title": "NanoGPT Speedrun Frontier: optimized GPT model training",
-    "summary": "Prime Intellect released research on rapid NanoGPT training methods, demonstrating frontier-level optimization for lightweight language models.",
-    "theme": "AI Research",
-    "importance": 6.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "NanoGPT",
-      "language models",
-      "training optimization",
-      "efficiency"
-    ],
-    "url": "news/tech/2026-08-23/#nanogpt-speedrun-frontier-optimized-gpt-model-training",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.primeintellect.ai/research/nanogpt-speedrun",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-23T06:19:26.941097+00:00",
-    "lineage_id": "nanogpt-speedrun-frontier-optimized-gpt-model-training",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-23",
     "event_id": "gist-launches-energy-harvesting-research-center",
     "title": "GIST Launches Energy Harvesting Research Center",
     "summary": "GIST has established a new Energy Harvesting Research Center and held its first Next-Generation Energy Research Institute workshop with over 100 participants.",
@@ -1660,9 +1781,9 @@
   },
   {
     "date": "2026-08-23",
-    "event_id": "ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
-    "title": "AI model benchmark: DeepSeek V4 Pro tops cybersecurity vulnerability detection",
-    "summary": "Testing of 10 AI models on 32 recent CVEs found DeepSeek V4 Pro identified 28 vulnerabilities, outperforming Opus 5 and Grok on overall coverage.",
+    "event_id": "nvidia-demonstrates-linear-math-technique-for-25x-faster-ai-model-switching",
+    "title": "Nvidia Demonstrates Linear Math Technique for 25x Faster AI Model Switching",
+    "summary": "Nvidia researchers developed a simple linear math approach that enables switching between AI models mid-task 25 times faster than recomputation.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1673,27 +1794,27 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "DeepSeek V4 Pro",
-      "cybersecurity",
-      "CVE detection",
-      "model benchmark"
+      "Nvidia",
+      "model switching",
+      "linear math",
+      "inference optimization"
     ],
-    "url": "news/ai/2026-08-23/#ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
+    "url": "news/ai/2026-08-23/#nvidia-demonstrates-linear-math-technique-for-25x-faster-ai-model-switching",
     "sources": [
       {
-        "label": "Aikido Security",
-        "url": "https://www.aikido.dev/blog/ai-model-benchmarks-aug-21-2026",
+        "label": "VentureBeat",
+        "url": "https://www.google.com/goto?url=CAESpAEB6zswFVpmLQf7CSxFhGTXsKB3IS81iO4UUYop5BJfkUhoDYkQdrBoerUrBMBjfRfEEXYLOM5Tq2L0sJ_aNtJ8VDWroONjbmUHH3caQRCAFzyMQWjVGlNd0Z-HWI4aqXcNa1HiN-VGX8tQ5RS3rhPO1SwN3Z8MMF2qFmleJFWDZyzXb8OwMMpVdMlC_kk45vpjO4Lv9gCHs6zSIHkmAJUuro9NTQ",
         "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-23T06:19:26.941097+00:00",
-    "lineage_id": "ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "nvidia-demonstrates-25x-faster-ai-model-switching-using-linear-mathematics",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "Nvidia demonstrates 25x faster AI model switching using linear mathematics",
+    "updates_url": "news/ai/2026-08-22/#nvidia-demonstrates-25x-faster-ai-model-switching-using-linear-mathematics"
   },
   {
     "date": "2026-08-23",
@@ -2879,9 +3000,9 @@
   },
   {
     "date": "2026-08-23",
-    "event_id": "netflixs-language-model-outperforms-feature-engineered-recommender-system",
-    "title": "Netflix's Language Model Outperforms Feature-Engineered Recommender System",
-    "summary": "Netflix has demonstrated that a large language model can exceed the performance of its hand-crafted recommendation engine by 1.6 percent.",
+    "event_id": "ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
+    "title": "AI model benchmark: DeepSeek V4 Pro tops cybersecurity vulnerability detection",
+    "summary": "A comprehensive benchmark of 10 AI models on 32 recent CVEs found DeepSeek V4 Pro identified 28 vulnerabilities, outperforming more expensive alternatives.",
     "theme": "AI",
     "importance": 7,
     "topics": [
@@ -2892,10 +3013,57 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Netflix",
+      "AI",
+      "CVE",
+      "CVE detection",
+      "DeepSeek",
+      "DeepSeek V4 Pro",
+      "cybersecurity",
+      "model benchmark",
+      "vulnerability detection"
+    ],
+    "url": "news/ai/2026-08-23/#ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
+    "sources": [
+      {
+        "label": "Aikido Security",
+        "url": "https://www.aikido.dev/blog/ai-model-benchmarks-aug-21-2026",
+        "origin": "discovery"
+      },
+      {
+        "label": "Aikido Security",
+        "url": "https://www.google.com/goto?url=CAEScwHrOzAVtiH1M2sgyqK6H34mrgWWkdyLD5-iKj09MLGS4vxtxmrPKKtvtFCp73jyhB6T29hmC3aCXN6W8DJ9oY_UMBqY-Ifb8lAzCth3b-ydXiz3_1fdwND6dMAHAevew31ifAtL5q53OR9tVtIEQHfWuE4",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
+    "event_id": "netflixs-language-model-outperforms-feature-engineered-recommender-system",
+    "title": "Netflix's Language Model Outperforms Feature-Engineered Recommender System",
+    "summary": "Netflix found that a language model surpassed its feature-engineered recommendation system by 1.6 percent in performance.",
+    "theme": "AI",
+    "importance": 7,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
       "LLM",
-      "recommendation system",
-      "machine learning"
+      "Netflix",
+      "machine learning",
+      "recommendation engine",
+      "recommendation system"
     ],
     "url": "news/ai/2026-08-23/#netflixs-language-model-outperforms-feature-engineered-recommender-system",
     "sources": [
@@ -2903,11 +3071,16 @@
         "label": "eGamers.io",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPR0xoTXJQWkFhSzQyUEszRTJPMVZ4aVhJdTdQa3A1Vk40NDUxaXJBR3pNYmRlSmpvMlpDTnpjbl9jbUIxM09mdkd4UldNSVBRVHJrMzJVeHh4QU1HTk1NY3hxOXlINldjQ2dwc0ZqTEhOazVQdUtJdFlabXZLT3NNVzFQTUNFR3dkOXNHSXhLaGtibTVYZ19vaGRXTm9CYXJQaDc5dWZabw?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "eGamers.io",
+        "url": "https://www.google.com/goto?url=CAESoAEB6zswFV-LGD6lygdLi_4Un7p3tFjSE5jBgRrpl40Xek3_P3eSVCJoKxsPs99DO9Ql0RUk6wV5blyyAyeNoAovXhge9k6264mOwF4_OcplfzZl7r5Rjh3GKqSN_BLeKOOe9RqRV3KgjUsXOHgm0WCD4aPC-VwYLXzQqbyutzpSqBjk4WJm3IKY6aErwoqWR4l9D-gjVD9UzWnbQdflweT1",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-23T10:11:32.761858+00:00",
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
     "lineage_id": "netflixs-language-model-outperforms-feature-engineered-recommender-system",
     "related_title": "",
     "related_url": "",
@@ -3876,6 +4049,44 @@
   },
   {
     "date": "2026-08-23",
+    "event_id": "nasa-funds-18-innovative-space-projects-including-saturn-satellites-and-lunar-bases",
+    "title": "NASA Funds 18 Innovative Space Projects Including Saturn Satellites and Lunar Bases",
+    "summary": "NASA is financing 18 innovative space missions spanning Saturn-bound satellites to underground lunar habitats.",
+    "theme": "Space",
+    "importance": 7,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Saturn",
+      "Moon",
+      "space missions",
+      "lunar bases"
+    ],
+    "url": "news/space/2026-08-23/#nasa-funds-18-innovative-space-projects-including-saturn-satellites-and-lunar-bases",
+    "sources": [
+      {
+        "label": "Прямий",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOUxsc0lWNXQta1E4MVRUbkdwRndUaGNyTWJDbEx5MjBudnlPOGoxWk0xaWNIQ1FfaGpFZEpzVnJna01Vaklwd1NMN25id2ZFekxRNGZBTVlKdGw2am1nN2tEMkgxY3Bsczdwa3l6YnhXSUFwRTJZOE1uc3M1WWRlS2RZc3RHcERtc09pZTA4OFBEUlFONVg3cnhWOV84cUgwdmtUNXpJTTZnVjJtWm4wTThybmxTUTFOQ2lndG52WQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "nasa-funds-18-innovative-space-projects-including-saturn-satellites-and-lunar-bases",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
     "event_id": "slovakia-discovers-russian-backdoor-in-traffic-speed-cameras",
     "title": "Slovakia discovers Russian backdoor in traffic speed cameras",
     "summary": "Slovakia's security service discovered a Russian backdoor in 279 traffic speed cameras purchased for a €30 million EU-funded infrastructure project. The cameras, rebranded Russian models, allow remote access via SMS and have additional vulnerabilities including disabled security features and unprotected live streams. The Interior Ministry has paused deployment pending independent audit.",
@@ -3975,6 +4186,50 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
+    "event_id": "uber-faces-825m-gdpr-fine-for-automated-driver-suspensions",
+    "title": "Uber Faces €825M GDPR Fine for Automated Driver Suspensions",
+    "summary": "Dutch regulators issue Uber a second-largest GDPR penalty ever for unlawful automated driver account suspensions.",
+    "theme": "Regulation",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Uber",
+      "GDPR",
+      "fine",
+      "data protection",
+      "automated suspension"
+    ],
+    "url": "news/tech/2026-08-23/#uber-faces-825m-gdpr-fine-for-automated-driver-suspensions",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "€825 million fine issued August 17, 2026",
+      "Violations: automated account suspension for suspected fraud and permanent deactivation for low ratings",
+      "Second-largest GDPR fine on record (Meta: €1.2 billion in 2023)",
+      "Uber disputes findings; company now requires human review before deactivations",
+      "Fourth fine against Uber from Dutch regulator; prior penalties totaled €300.6 million"
+    ],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "uber-fined-825-million-by-dutch-regulator-for-gdpr-violations-on-driver-deactivation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Uber fined €825 million by Dutch regulator for GDPR violations on driver deactivation",
+    "updates_url": "news/tech/2026-08-22/#uber-fined-825-million-by-dutch-regulator-for-gdpr-violations-on-driver-deactivation"
   },
   {
     "date": "2026-08-23",
@@ -5047,43 +5302,6 @@
   },
   {
     "date": "2026-08-23",
-    "event_id": "president-of-the-united-states-nuclear-policy-escalation-creates-global-security-concerns",
-    "title": "President of the United States nuclear policy escalation creates global security concerns",
-    "summary": "The president of the United States' nuclear policy decisions have increased global tensions and military risks.",
-    "theme": "Geopolitics",
-    "importance": 7.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "nuclear policy",
-      "Iran",
-      "North Korea",
-      "international security"
-    ],
-    "url": "news/world/2026-08-23/#president-of-the-united-states-nuclear-policy-escalation-creates-global-security-concerns",
-    "sources": [
-      {
-        "label": "Salon.com",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcUZDVmJFQnI4QnNHYmNjcDhYeXhXeDgwQW0yLXpsSFZVVHhnbEJndTMtbTRrWFdGeGFNT1ZSVmpZTlpBMEFrRGhTeG9mWTEtRWpxVkM5aDZfWU05aHgyUEg2dm9xbGdQeGtIbXl5NTlOT1VQZVF0cXd5dlZqSkNqZW9n?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-23T14:11:56.129691+00:00",
-    "lineage_id": "president-of-the-united-states-nuclear-policy-escalation-creates-global-security-concerns",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-23",
     "event_id": "anthropic-and-openai-develop-custom-ai-chips-amid-industry-vertical-integration",
     "title": "Anthropic and OpenAI Develop Custom AI Chips Amid Industry Vertical Integration",
     "summary": "Anthropic and OpenAI are building their own AI chips while NVIDIA and AMD develop AI models, signaling industry shifts toward vertical integration.",
@@ -5541,6 +5759,44 @@
     "researched": false,
     "received_at": "2026-08-23T16:10:51.702656+00:00",
     "lineage_id": "zelensky-warns-russia-planning-to-mobilize-at-least-300000-additional-troops-for-ukraine-war",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-23",
+    "event_id": "global-food-crisis-threatened-by-war-weather-and-trade-conflicts",
+    "title": "Global Food Crisis Threatened by War, Weather, and Trade Conflicts",
+    "summary": "Agricultural production in world breadbasket regions faces simultaneous pressures from military conflict, extreme weather, and trade disruptions, raising food price concerns.",
+    "theme": "Crisis",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "food crisis",
+      "agriculture",
+      "inflation",
+      "geopolitics",
+      "climate"
+    ],
+    "url": "news/world/2026-08-23/#global-food-crisis-threatened-by-war-weather-and-trade-conflicts",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVdmZVA5MjBDNkpYQVJYM3VTWkE2QXpKWmNrYUdSZnUwN0xSTy1HUWhrWTA3M1RtSHp5ZGpQQVFZRXZIb1hXYWcyZXFYVm1VU0p2SGN1cS1QZ3ZWQ29WWHNkSEpiMFgzYWpkVlNBTXJJQlRmaVVwUmxEWTVPNTJBX0FfRHZKMGxrN05IOA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-23T20:09:08.006843+00:00",
+    "lineage_id": "global-food-crisis-threatened-by-war-weather-and-trade-conflicts",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
