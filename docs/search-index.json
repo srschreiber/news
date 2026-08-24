@@ -1,6 +1,43 @@
 [
   {
     "date": "2026-08-24",
+    "event_id": "business-email-compromise-legal-trends-and-defense-strategies",
+    "title": "Business email compromise: legal trends and defense strategies",
+    "summary": "Legal experts discuss current regulatory and liability trends in business email compromise cases and defense strategies.",
+    "theme": "Security",
+    "importance": 3,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "business email compromise",
+      "legal trends",
+      "cybercrime",
+      "liability"
+    ],
+    "url": "news/email-security/2026-08-24/#business-email-compromise-legal-trends-and-defense-strategies",
+    "sources": [
+      {
+        "label": "Foley Hoag",
+        "url": "https://www.google.com/goto?url=CAES0gEB6zswFXBWQx4N5yYr9V1PnO-ngg_e9OfGGUzWfF7Na4qVTcKwKGr9CpSarpCJ0rNaI1wzb-D2DcKOE8FK3pbNPhY77IDIYxTicK1CX98OC_3F9r_CBzI8iJAZFJRaA3beYuq6oKTbCsjUeJrauiyYR670cehbjQNMRAjRxLCgfdlBqPsfDH0bD0QWxAQ6EJywPvdIoDlZPSM9VPSLNJJzjpP95x3nMCPb38Frx1IQkTQqKm92o8pC-MxLhAzeDoPySAQVjEob_WfV0cTx5S_1wwc",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "business-email-compromise-attacks-legal-trends-and-defense-strategies",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Business email compromise attacks: legal trends and defense strategies",
+    "updates_url": "news/email-security/2026-08-21/#business-email-compromise-attacks-legal-trends-and-defense-strategies"
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "medical-opinion-handshakes-improve-patient-care-outcomes",
     "title": "Medical opinion: handshakes improve patient care outcomes",
     "summary": "An emergency physician argues that resuming handshakes in medical practice provides significant patient benefit despite being a simple gesture.",
@@ -30,43 +67,6 @@
     "researched": false,
     "received_at": "2026-08-24T08:33:54.796486+00:00",
     "lineage_id": "medical-opinion-handshakes-improve-patient-care-outcomes",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "batch-file-deletion-error-highlights-testing-and-approval-failures",
-    "title": "Batch file deletion error highlights testing and approval failures",
-    "summary": "A cleanup automation script passed testing and management sign-off before deleting the wrong directory in production.",
-    "theme": "Tech Operations",
-    "importance": 3,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "automation",
-      "systems administration",
-      "testing",
-      "data loss"
-    ],
-    "url": "news/tech/2026-08-24/#batch-file-deletion-error-highlights-testing-and-approval-failures",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/software/2026/08/24/batch-file-automated-a-clean-up-job-then-fouled-itself-by-deleting-the-wrong-directory/5290873",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "batch-file-deletion-error-highlights-testing-and-approval-failures",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -110,257 +110,73 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "key-differences-between-android-auto-and-android-automotive-explained",
-    "title": "Key differences between Android Auto and Android Automotive explained",
-    "summary": "Android Auto and Android Automotive are distinct platforms serving different functions in vehicle infotainment and automotive systems.",
-    "theme": "Tech",
-    "importance": 3.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Android Auto",
-      "Android Automotive",
-      "automotive software"
-    ],
-    "url": "news/tech/2026-08-24/#key-differences-between-android-auto-and-android-automotive-explained",
-    "sources": [
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "key-differences-between-android-auto-and-android-automotive-explained",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "ninth-gta-6-leak-showcases-character-lucia-gameplay-and-new-story-sequences",
-    "title": "Ninth GTA 6 leak showcases character Lucia gameplay and new story sequences",
-    "summary": "A new Cyberleek leak video reveals gameplay footage of character Lucia and hints at upcoming story developments in GTA 6.",
-    "theme": "Gaming",
-    "importance": 3.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "GTA 6",
-      "gameplay leak",
-      "Lucia",
-      "Rockstar"
-    ],
-    "url": "news/tech/2026-08-24/#ninth-gta-6-leak-showcases-character-lucia-gameplay-and-new-story-sequences",
-    "sources": [
-      {
-        "label": "Notebookcheck",
-        "url": "https://www.notebookcheck.net/9th-GTA-6-leak-teases-Lucia-gameplay-after-prior-Cyberleek-videos-focus-on-Jason.1376275.0.html",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "ninth-gta-6-leak-showcases-character-lucia-gameplay-and-new-story-sequences",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "software-reliability-and-communication",
-    "title": "Software reliability and communication",
-    "summary": "Software quality and the importance of effective communication about technical issues remain ongoing challenges.",
-    "theme": "Opinion",
-    "importance": 3.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "software",
-      "quality",
-      "communication",
-      "technology"
-    ],
-    "url": "news/tech/2026-08-24/#software-reliability-and-communication",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/columnists/2026/08/24/software-should-work-and-talking-about-it-neednt-be-boring/5290862",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "software-reliability-and-communication",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "sony-xperia-10-mid-range-smartphone-leaks-ahead-of-launch-event",
-    "title": "Sony Xperia 10 mid-range smartphone leaks ahead of launch event",
-    "summary": "Sony has announced a launch event for an Xperia device, with leaked images suggesting it is the mid-range Xperia 10 model.",
-    "theme": "Hardware",
-    "importance": 3.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Sony",
-      "Xperia 10",
-      "smartphone",
-      "mobile"
-    ],
-    "url": "news/tech/2026-08-24/#sony-xperia-10-mid-range-smartphone-leaks-ahead-of-launch-event",
-    "sources": [
-      {
-        "label": "PhoneArena",
-        "url": "https://www.phonearena.com/news/sonys-next-smartphone-leaks-in-a-new-image_id182772",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "sony-xperia-10-mid-range-smartphone-leaks-ahead-of-launch-event",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "chatgpt-on-mac-now-integrates-with-apple-imessages",
-    "title": "ChatGPT on Mac Now Integrates with Apple iMessages",
-    "summary": "OpenAI released a plugin enabling ChatGPT to read and respond to messages within the Apple Messages app on Mac.",
-    "theme": "AI",
+    "event_id": "q2-2026-email-threat-landscape-shaped-by-fallout-from-microsoft-digital-crimes",
+    "title": "Q2 2026 email threat landscape shaped by fallout from Microsoft Digital Crimes",
+    "summary": "April–June 2026 email security trends reflect ongoing consequences of Microsoft's Digital Crimes unit actions.",
+    "theme": "Security",
     "importance": 4,
     "topics": [
-      "gpt"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "ChatGPT",
-      "Apple Messages",
-      "Mac integration",
-      "OpenAI",
-      "plugin"
+      "email threats",
+      "Q2 2026",
+      "Microsoft",
+      "threat landscape"
     ],
-    "url": "news/gpt/2026-08-24/#chatgpt-on-mac-now-integrates-with-apple-imessages",
+    "url": "news/email-security/2026-08-24/#q2-2026-email-threat-landscape-shaped-by-fallout-from-microsoft-digital-crimes",
     "sources": [
       {
-        "label": "Engadget",
-        "url": "https://www.google.com/goto?url=CAESfQHrOzAVhoU6_tYqR263-wEJ8dBtCYvdwDnvpoffS5ePbnWG7Ph32tJYlaGffUNrR1kXKUib0vWJIQpkIEO5JOtGsySpCIzHhhhVcefBcY1zlmXDU_gR7o9Be6MzEAS2ORbbUuuS0nNoQgZfPpJXEA_uqgcBod7gu8rhvJ1l",
+        "label": "Microsoft",
+        "url": "https://www.google.com/goto?url=CAESpAEB6zswFSLORdo5jRAcTnV32dYpvDIhd9ZqhllBJ1bFtJSmc-XiiELkiBNNU37xfzXT99G790jJuIKX1sQSHEGBdOLf0Zjg_-IRuVnn8xgsEsp888FTfsN0tya7X3ty6r9m-nNjS_EKTkjYioMAFiiXX6D0x1JQTlFaTrIFyh3WhnIYziiB0Ua9d5z55rv11wmrz8_DCTXnvnvgY5ilVoaBQSoqXQ",
         "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "chatgpt-gains-imessage-integration-on-macos",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "email-threat-landscape-q2-2026-trends-and-insights",
     "related_title": "",
     "related_url": "",
-    "updates_title": "ChatGPT on Mac gains ability to read and respond to Apple iMessages",
-    "updates_url": "news/gpt/2026-08-23/#chatgpt-on-mac-gains-ability-to-read-and-respond-to-apple-imessages"
+    "updates_title": "Q2 2026 Email Threat Landscape: Post-Microsoft Breach Trends and Insights",
+    "updates_url": "news/email-security/2026-08-20/#q2-2026-email-threat-landscape-post-microsoft-breach-trends-and-insights"
   },
   {
     "date": "2026-08-24",
-    "event_id": "samsung-galaxy-s27-rumored-to-revive-a-discontinued-design-element",
-    "title": "Samsung Galaxy S27 rumored to revive a discontinued design element",
-    "summary": "Leaked reports suggest Samsung plans to reintroduce a discontinued design from earlier Galaxy models with its upcoming S27 series.",
-    "theme": "Hardware",
+    "event_id": "cisco-secure-email-threat-defense-achieves-fedramp-class-d-high-certification",
+    "title": "Cisco Secure Email Threat Defense achieves FedRAMP Class D (High) certification",
+    "summary": "Cisco announced that its Secure Email Threat Defense solution earned FedRAMP Class D (High) certification.",
+    "theme": "Security",
     "importance": 4,
     "topics": [
-      "tech"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Samsung",
-      "Galaxy S27",
-      "smartphone design"
+      "Cisco",
+      "FedRAMP",
+      "email security",
+      "certification"
     ],
-    "url": "news/tech/2026-08-24/#samsung-galaxy-s27-rumored-to-revive-a-discontinued-design-element",
+    "url": "news/email-security/2026-08-24/#cisco-secure-email-threat-defense-achieves-fedramp-class-d-high-certification",
     "sources": [
       {
-        "label": "9to5Google",
-        "url": "https://9to5google.com/2026/08/23/samsung-galaxy-s27-redesign-leaks/",
+        "label": "Cisco Blogs",
+        "url": "https://www.google.com/goto?url=CAESWQHrOzAVbxtCuaIca7IzfQ4TKsQERMiflZMKDhncBPZUvspaSQTMbEOqaM5aCU-20zDdkesueq22gdLUt8rUcjRFNRbIF5jFWdYkrlisc4AK_eE7ZTnrhuNV",
         "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "samsung-galaxy-s27-rumored-to-revive-a-discontinued-design-element",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "claude-sonnet-5-vs-gemini-flash-pricing-gap-widens-to-4x-in-2026",
-    "title": "Claude Sonnet 5 vs. Gemini Flash: Pricing Gap Widens to 4x in 2026",
-    "summary": "A price comparison analysis shows Anthropic's Claude Sonnet 5 costs approximately four times more than Google's Gemini Flash in 2026.",
-    "theme": "AI",
-    "importance": 4.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude Sonnet 5",
-      "Gemini Flash",
-      "pricing",
-      "LLM"
-    ],
-    "url": "news/anthropic/2026-08-24/#claude-sonnet-5-vs-gemini-flash-pricing-gap-widens-to-4x-in-2026",
-    "sources": [
-      {
-        "label": "tech-insider.org",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAyYkMwbk9hZTBKdnhTLXYwUVhaNnVULXJUTzAydWw5eTJtQ2lZMkxCdG5MMGd6UWFGQ0NHNng0eUttc2tLOENsNjhPVWR0M1EzQVk4UkxOT05YUmF6M1h0Z0VtT2p1b05Gd0p6Z0lxa05mTWc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "claude-sonnet-5-vs-gemini-flash-pricing-gap-widens-to-4x-in-2026",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "cisco-secure-email-threat-defense-achieves-fedramp-class-d-high-certification",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -405,6 +221,117 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "th-gnn-model-detects-llm-shilling-attacks-with-0870-f1-score",
+    "title": "TH-GNN model detects LLM shilling attacks with 0.870 F1 score",
+    "summary": "A new TH-GNN model achieves 0.870 F1 score in detecting shilling attacks against language models.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "TH-GNN",
+      "shilling attacks",
+      "LLM",
+      "detection"
+    ],
+    "url": "news/ai/2026-08-24/#th-gnn-model-detects-llm-shilling-attacks-with-0870-f1-score",
+    "sources": [
+      {
+        "label": "The Cryptonomist",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5TQTkzOC1FUk1yZ3lGVEpfT2hibWRLMWtiRFlXYVhkZ19ZdnljRjZFYXZoc2dlSFA0aWdHdm5aN2UxU2FzT2xXdlh2YllqX0NmZHExUHg1S1RIUTdMb04wcFhhMlBxcmVnNmItbHNWZTJfS1hNSWVB?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "th-gnn-model-detects-llm-shilling-attacks-with-0870-f1-score",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "employee-morale-issues-at-google-deepmind-contribute-to-model-release-delays",
+    "title": "Employee morale issues at Google DeepMind contribute to model release delays",
+    "summary": "Internal frustration among Google DeepMind staff is slowing the pace of AI model releases from the lab.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Google DeepMind",
+      "employee morale",
+      "model delays",
+      "organizational challenges"
+    ],
+    "url": "news/ai/2026-08-24/#employee-morale-issues-at-google-deepmind-contribute-to-model-release-delays",
+    "sources": [
+      {
+        "label": "Axios",
+        "url": "https://www.google.com/goto?url=CAESeAHrOzAVX-ieKO9UCJHAY60_U-53HZ6KxAOuRazxpvaVYKZRhUsMKW_k0J3L7stW7nQuke6CPed-ov_YzfCsq19KMzapT30n4Gh6-2WtwSw3Xs5kGQNqDJ3-O5UTxa6_v2MrCSD5mA24lJh81aiUD-jN1lIlgLsmJA",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "employee-morale-issues-at-google-deepmind-contribute-to-model-release-delays",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "meta-re-enters-large-language-model-competition-after-year-long-hiatus",
+    "title": "Meta re-enters large language model competition after year-long hiatus",
+    "summary": "Meta is returning to the LLM market following a one-year absence from model development and releases.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta",
+      "LLM",
+      "language models",
+      "market entry"
+    ],
+    "url": "news/ai/2026-08-24/#meta-re-enters-large-language-model-competition-after-year-long-hiatus",
+    "sources": [
+      {
+        "label": "Understanding AI | Timothy B. Lee",
+        "url": "https://www.google.com/goto?url=CAESfAHrOzAVNBjjLusSTEDsO5rYCExbPFCNDe-MzRuImmbDFXhtp7S4-OIKzHVHgdUDf5I1EsB8Ze0D6_3eEP3khW8Z52fNJ_JqgtfpM6HPnA1O46JiG5EAs7fzEsv80yP9SUqx9r9lENX6Ziv8mKfqKJxMA7EsdPrLGApvlkk",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "meta-re-enters-large-language-model-competition-after-year-long-hiatus",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "anthropic-acknowledges-issues-with-claude-code-and-opus-5-performance",
     "title": "Anthropic Acknowledges Issues with Claude Code and Opus 5 Performance",
     "summary": "Anthropic took responsibility for performance problems affecting its Claude Code and Opus 5 AI models.",
@@ -435,82 +362,6 @@
     "researched": false,
     "received_at": "2026-08-24T06:32:04.866919+00:00",
     "lineage_id": "anthropic-acknowledges-issues-with-claude-code-and-opus-5-performance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "companies-prioritize-cost-effective-ai-models-over-top-performers",
-    "title": "Companies Prioritize Cost-Effective AI Models Over Top Performers",
-    "summary": "Enterprises are increasingly choosing cheaper AI systems over leading models to manage deployment costs.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "cost-effective AI",
-      "model selection",
-      "enterprise adoption",
-      "pricing pressure"
-    ],
-    "url": "news/anthropic/2026-08-24/#companies-prioritize-cost-effective-ai-models-over-top-performers",
-    "sources": [
-      {
-        "label": "조선일보",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbTdWTk50MDRTcEJmMkRFcFl4ajJWXzdDS2l0NWZxTTZUMXFqWjVqaHd4dERobWFOQ0VTYm9Yemo3bWVhdjNjV1RxZXo2LVlZLTNOS1V3NW11MGdyeVJ3UHdoMXVIUnNVTXFjU25WTDFnVXh0SnFzRnh1WjRCanctMVBzNkg1OHB2?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "companies-prioritize-cost-effective-ai-models-over-top-performers",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "europeans-prioritize-air-conditioning-over-carbon-emissions-in-climate-trade-off",
-    "title": "Europeans prioritize air conditioning over carbon emissions in climate trade-off",
-    "summary": "A survey of six European nations finds majorities favor promoting air conditioning adoption over aggressive carbon emission reductions.",
-    "theme": "Climate",
-    "importance": 5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "climate change",
-      "air conditioning",
-      "emissions",
-      "Europe",
-      "policy"
-    ],
-    "url": "news/climate-change/2026-08-24/#europeans-prioritize-air-conditioning-over-carbon-emissions-in-climate-trade-off",
-    "sources": [
-      {
-        "label": "The Guardian — Climate Crisis",
-        "url": "https://www.theguardian.com/environment/2026/aug/24/air-conditioning-higher-priority-than-lowering-emissions-europeans-poll",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "europeans-prioritize-air-conditioning-over-carbon-emissions-in-climate-trade-off",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -561,9 +412,163 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "phishing-detection-guide-covers-ai-lures-clickfix-and-aitm-attacks-in-2026",
+    "title": "Phishing detection guide covers AI lures, ClickFix, and AiTM attacks in 2026",
+    "summary": "A 12-step, 90-minute guide teaches phishing detection methods addressing 2026 threat landscape including AI-generated lures and advanced social engineering.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing detection",
+      "email security",
+      "AI lures",
+      "ClickFix",
+      "AiTM"
+    ],
+    "url": "news/email-security/2026-08-24/#phishing-detection-guide-covers-ai-lures-clickfix-and-aitm-attacks-in-2026",
+    "sources": [
+      {
+        "label": "https://tech-insider.org/",
+        "url": "https://www.google.com/goto?url=CAESdAHrOzAVKjf20_mHsEFzs9kgGP_Q5JTKjSs_Lp84RfnQ6QOJRNV7YgnvPtFlnmiaZ_Ua0iqhmWBe1SLUXEzAHPQQG4ti1KlqJ0xljSVBCtC9p8LsXwp1D-CJOlE__yvho1lfLB9Swmx2OL0Pju1O9bLCpXZP",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "phishing-detection-guide-covers-ai-lures-clickfix-and-aitm-attacks-in-2026",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "email-defense-strategy-evolves-to-agent-versus-agent-phishing-combat",
+    "title": "Email defense strategy evolves to agent-versus-agent phishing combat",
+    "summary": "Traditional email defenses are becoming insufficient; the next generation of phishing defense will rely on AI agents battling social engineering attacks.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "email security",
+      "AI agents",
+      "defense evolution"
+    ],
+    "url": "news/email-security/2026-08-24/#email-defense-strategy-evolves-to-agent-versus-agent-phishing-combat",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://www.google.com/goto?url=CAEShgEB6zswFdLto8qcPhIoqr5eK-RtcsktsP91R50e8iSwL-JNNGjNXy_RN-KsnCWO2SbK8DP5t5t9-OZxCpXL2poVzEjTc_IYFvEcMYXzryfwi3oeN_RlRlN3kc-_nsjbo_zMEbFPS5lEk9MzVr2ukcmG-oA4k84RMyqsIgP4rWjnBXqw6K3v2Q",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "email-defense-strategy-evolves-to-agent-versus-agent-phishing-combat",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "qr-code-phishing-attacks-quishing-evade-corporate-security-measures",
+    "title": "QR-code phishing attacks ('quishing') evade corporate security measures",
+    "summary": "Quishing—QR-code-based phishing—has emerged as an effective technique that circumvents standard corporate email security controls.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "quishing",
+      "QR code phishing",
+      "email security",
+      "social engineering"
+    ],
+    "url": "news/email-security/2026-08-24/#qr-code-phishing-attacks-quishing-evade-corporate-security-measures",
+    "sources": [
+      {
+        "label": "WeLiveSecurity",
+        "url": "https://www.google.com/goto?url=CAESowEB6zswFaex_fHtycDEbf6yEF4qHFkosRQaKICaMO1KXeuLASJzQIi_KWrplP8Ak1ZdDs1hYjN3iEP5QE-NBRgXkJd81mvb2_OXl831FuC-sY5ra3pNHeFVLW6sAIVjcBJNMGbjit0OjHEmFm-_s-t_ezKakF-nmOhtiAgeGswn3N28a8rEM-dehfm2Biksl2qoMWCGKdthKQfbv4XotCU6opCw",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Malicious QR codes were embedded in 11% of phishing emails in H1 2026",
+      "Quishing bypasses email filters because URLs are encoded visually rather than as readable text",
+      "QR codes redirect victims from protected corporate environments to personal mobile devices with fewer security controls",
+      "Attackers often combine quishing with trusted brand impersonation and urgency tactics to increase success rates"
+    ],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "qr-code-phishing-quishing-embedded-in-11-of-phishing-emails-in-h1-2026",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "QR Code Phishing (Quishing) Exploits Vulnerabilities in Corporate Security Defenses",
+    "updates_url": "news/email-security/2026-08-22/#qr-code-phishing-quishing-exploits-vulnerabilities-in-corporate-security-defenses"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "doppel-launches-agentic-ai-email-security-to-disrupt-phishing-at-the-source",
+    "title": "Doppel launches agentic AI email security to disrupt phishing at the source",
+    "summary": "Startup Doppel launched an AI-powered email security layer that proactively traces and disrupts phishing campaigns before delivery.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Doppel",
+      "agentic AI",
+      "email security",
+      "phishing disruption"
+    ],
+    "url": "news/email-security/2026-08-24/#doppel-launches-agentic-ai-email-security-to-disrupt-phishing-at-the-source",
+    "sources": [
+      {
+        "label": "SiliconANGLE",
+        "url": "https://www.google.com/goto?url=CAESpQEB6zswFfmDu9FZaB5WDeFS6mR7C1rJKRpIXSRKq7wHofENJR9ycbQZMyD7LGLdJuxhqMxo3MZdn2GaNMnRsC71Ms8JxxSQRk1CPqgF982F0wg5KP_e74M5jopxCLrFCyQBK2WfImbllGWMdT-O8O3sm7l_FQo2M75d4BY9zpkLhtPvaTOwCPCGb9GbqExqj-_jDT_R0rm9w1N9vu_OluvvMq4gnKg",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "doppel-launches-agentic-ai-email-security-platform",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Doppel launches agentic AI email security platform",
+    "updates_url": "news/email-security/2026-08-23/#doppel-launches-agentic-ai-email-security-platform"
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "openai-cuts-gpt-56-sol-model-developer-pricing-by-over-20-for-three-months",
     "title": "OpenAI Cuts GPT-5.6 Sol Model Developer Pricing by Over 20% for Three Months",
-    "summary": "OpenAI reduced pricing for its frontier GPT-5.6 Sol model by more than 20% for developers for a three-month period.",
+    "summary": "OpenAI reduced GPT-5.6 Sol API pricing by 20 percent for a three-month promotional period.",
     "theme": "AI",
     "importance": 5,
     "topics": [
@@ -574,11 +579,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
+      "API pricing",
+      "GPT",
       "GPT-5.6 Sol",
-      "pricing",
+      "OpenAI",
       "developer access",
-      "frontier model"
+      "discount",
+      "frontier model",
+      "pricing"
     ],
     "url": "news/gpt/2026-08-24/#openai-cuts-gpt-56-sol-model-developer-pricing-by-over-20-for-three-months",
     "sources": [
@@ -586,54 +594,21 @@
         "label": "Reuters",
         "url": "https://www.google.com/goto?url=CAESrgEB6zswFZX9iw1565pWhCQhGx50qVtZfTj5jYfKrpTfjmd1gOJSLDqX_F4ykAj834zpK5NVG1OQ4pP8ViQvv2MQbxvv_SVFGi7SHASHAbi1G3zq66xzS9UHW-ie_0BZEmUQpWNO6bxBYzJQJBxLDCgLpNv83m8GbIzhx9I4Y1xtdDjFsHqZg9epueMm5Sh5Xj7mVf5orbcpgZNrNi_QgNrLWpk8nND4qPmbFCFwYvQ",
         "origin": "discovery"
+      },
+      {
+        "label": "citybiz",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObHdKa0JFemxWZE53SEFScE9aQlE4dHgtR2lqY0IwNWxSWW5Ebkk1OUhUN2tZdlphTlo0bklDbHR2dmtVX2VwUWZrNF9aY3hBTW1xS0hfNm1sbHUzN1pOSXlMRDB3aUZlLVkxWmJmbDdkTEx5U05Wb0pLMHpnQ1lHVHYwN2hfdjVnSHdSZlRNdmFRN0hnM1ZEeVp3?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
     "lineage_id": "openai-cuts-gpt-56-sol-api-prices-by-over-20",
     "related_title": "",
     "related_url": "",
     "updates_title": "OpenAI cuts GPT-5.6 Sol pricing for developers by over 20%",
     "updates_url": "news/gpt/2026-08-23/#openai-cuts-gpt-56-sol-pricing-for-developers-by-over-20"
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "openai-launches-chatgpt-for-teens-with-built-in-educational-and-safety-protections",
-    "title": "OpenAI Launches ChatGPT for Teens with Built-In Educational and Safety Protections",
-    "summary": "OpenAI introduced a version of ChatGPT specifically designed for teenagers with features supporting learning and critical thinking alongside safety safeguards.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ChatGPT",
-      "teens",
-      "education",
-      "safety features",
-      "OpenAI"
-    ],
-    "url": "news/gpt/2026-08-24/#openai-launches-chatgpt-for-teens-with-built-in-educational-and-safety-protections",
-    "sources": [
-      {
-        "label": "OpenAI",
-        "url": "https://www.google.com/goto?url=CAESYwHrOzAVP0os6-p2113xucScVrkm6I9hcgRVLlfbouqVYaStZ5uaFZ_K-c8KqB2SC_KthWMTUkjDKiuokG5TQ09SD_isa_o4Kf9LS4yyCX_rlsBwbgBCcI6tbpDleJJFtkGrMA",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "openais-chatgpt-for-teens-includes-guardrails-against-homework-assistance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI introduces ChatGPT for Teens with enhanced safety guardrails",
-    "updates_url": "news/gpt/2026-08-23/#openai-introduces-chatgpt-for-teens-with-enhanced-safety-guardrails"
   },
   {
     "date": "2026-08-24",
@@ -715,7 +690,7 @@
     "date": "2026-08-24",
     "event_id": "uc-riverside-researchers-join-doe-ai-acceleration-initiative",
     "title": "UC Riverside researchers join DOE AI acceleration initiative",
-    "summary": "Computer scientists from UC Riverside are participating in federally funded projects using artificial intelligence to speed scientific discovery.",
+    "summary": "Two UC Riverside researchers are participating in federally-funded projects leveraging artificial intelligence to speed scientific breakthroughs.",
     "theme": "AI",
     "importance": 5.0,
     "topics": [
@@ -726,10 +701,13 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "UC Riverside",
-      "Department of Energy",
       "AI",
-      "scientific discovery"
+      "AI-enabled discovery",
+      "DOE",
+      "Department of Energy",
+      "UC Riverside",
+      "scientific discovery",
+      "scientific research"
     ],
     "url": "news/science/2026-08-24/#uc-riverside-researchers-join-doe-ai-acceleration-initiative",
     "sources": [
@@ -737,11 +715,16 @@
         "label": "University of California, Riverside",
         "url": "https://news.ucr.edu/articles/2026/08/12/ucr-researchers-join-doe-effort-speed-scientific-discovery",
         "origin": "discovery"
+      },
+      {
+        "label": "University of California, Riverside",
+        "url": "https://www.google.com/goto?url=CAESmwEB6zswFQ-7Oq-_CtUYDMLSc-3pgtnTbu8MlLIxflVmp8GHwN_IRKJ4jMBu_Pm_5HnAcKPOHSSi7tZcoHJkmQG99YZBuzicUmacyPNNBaM_x6mTn9INCGN8cXX8J3WmtGS6j36Len1CAvFHZk5SjyuRuX1FuHgK5ZpRmaFPykVgJJEvH1qqkPuH_8PZc6uixX6Ea8WNYcvYdxXuMA",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
     "lineage_id": "uc-riverside-researchers-join-doe-initiative-to-accelerate-scientific-discovery-with-ai",
     "related_title": "",
     "related_url": "",
@@ -750,39 +733,78 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "quest-apartment-hotels-confirms-customer-data-breach-linked-to-third-party-vendor-vulnerability",
-    "title": "Quest Apartment Hotels confirms customer data breach linked to third-party vendor vulnerability",
-    "summary": "Quest Apartment Hotels disclosed unauthorized access to customer data through a compromised third-party vendor system.",
-    "theme": "Security",
+    "event_id": "debate-persists-20-years-after-plutos-reclassification-as-dwarf-planet",
+    "title": "Debate persists 20 years after Pluto's reclassification as dwarf planet",
+    "summary": "Twenty years after Pluto's reclassification as a dwarf planet, astronomers continue debating whether the decision was a mistake.",
+    "theme": "Space",
     "importance": 5,
     "topics": [
-      "security"
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Pluto",
+      "dwarf planet",
+      "classification",
+      "astronomy"
+    ],
+    "url": "news/space/2026-08-24/#debate-persists-20-years-after-plutos-reclassification-as-dwarf-planet",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/pluto/its-been-20-years-since-pluto-lost-planet-status-will-it-ever-get-its-title-back",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "debate-persists-20-years-after-plutos-reclassification-as-dwarf-planet",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "chinese-humanoid-robot-breaks-usain-bolts-100-meter-record",
+    "title": "Chinese Humanoid Robot Breaks Usain Bolt's 100-Meter Record",
+    "summary": "A Chinese humanoid robot, Tiangong Ultra, completed a 100-meter dash in 9.39 seconds, beating Usain Bolt's 2009 world record of 9.58 seconds at the World Humanoid Robot Games in Beijing.",
+    "theme": "Robotics & AI",
+    "importance": 5,
+    "topics": [
+      "tech"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Quest Apartment Hotels",
-      "data breach",
-      "third-party vulnerability"
+      "humanoid robots",
+      "Tiangong Ultra",
+      "100-meter record",
+      "Beijing Humanoid Robot Innovation Center",
+      "robotics"
     ],
-    "url": "news/security/2026-08-24/#quest-apartment-hotels-confirms-customer-data-breach-linked-to-third-party-vendor-vulnerability",
+    "url": "news/tech/2026-08-24/#chinese-humanoid-robot-breaks-usain-bolts-100-meter-record",
     "sources": [
       {
-        "label": "Australian Cyber Security Magazine",
-        "url": "https://www.google.com/goto?url=CAESwQEB6zswFSARmZ1qwvgo5BNgtZulaRc-kEtwDt8Lmpxj8CGXpDdBnbvPlA4YV6lFYtpwW8-ZfIb10HfrBGNWZrWqc7rSunVCpi_0enaWkKSUSf9M4BA8r7-e4pgPgiVUhd2KnYrehMyxR4JnDX5OvBVQRetN0NHl9MuvBENxpXIDtdnYT-QBXpNWWj6O-L6sxfyX4ABSuHLegtNQIQYTBJIF6cfzZPVtYKyffCdqt6_rwP8uThKJF6mw8kfsod2o7tZb",
-        "origin": "discovery"
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/983688/world-humanoid-robot-games-sprint-record-2026",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "quest-apartment-hotels-confirms-data-breach-from-third-party-vulnerability",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "chinese-humanoid-robot-breaks-usain-bolts-100-meter-record",
     "related_title": "",
     "related_url": "",
-    "updates_title": "Quest Apartment Hotels Discloses Data Breach from Third-Party Vulnerability",
-    "updates_url": "news/security/2026-08-23/#quest-apartment-hotels-discloses-data-breach-from-third-party-vulnerability"
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-24",
@@ -922,6 +944,44 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "tennessee-pursues-leadership-role-in-next-phase-of-nuclear-energy-development",
+    "title": "Tennessee Pursues Leadership Role in Next Phase of Nuclear Energy Development",
+    "summary": "Tennessee is positioning itself to lead in the new wave of nuclear energy deployment, building on its historical role in the nuclear age.",
+    "theme": "Energy & Climate",
+    "importance": 5.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Tennessee",
+      "nuclear energy",
+      "clean energy",
+      "nuclear policy"
+    ],
+    "url": "news/climate-change/2026-08-24/#tennessee-pursues-leadership-role-in-next-phase-of-nuclear-energy-development",
+    "sources": [
+      {
+        "label": "Grist",
+        "url": "https://grist.org/energy/tennessee-helped-usher-in-the-nuclear-age-it-wants-to-lead-the-way-again/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "tennessee-pursues-leadership-role-in-next-phase-of-nuclear-energy-development",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "openai-backs-australian-startup-founders-with-a55-million-in-credits",
     "title": "OpenAI Backs Australian Startup Founders with A$5.5 Million in Credits",
     "summary": "OpenAI has awarded more than A$5.5 million in startup credits to Australian founders to support new ventures building on its platform.",
@@ -1032,264 +1092,6 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "wall-street-futures-steady-after-weekly-losses-nvidia-results-and-jackson-hole-in-focus",
-    "title": "Wall Street Futures Steady After Weekly Losses; Nvidia Results and Jackson Hole in Focus",
-    "summary": "US stock futures held steady following a week of losses, with attention turning to Nvidia earnings and the Federal Reserve's Jackson Hole economic symposium.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock futures",
-      "Nvidia",
-      "Jackson Hole",
-      "Federal Reserve"
-    ],
-    "url": "news/markets/2026-08-24/#wall-street-futures-steady-after-weekly-losses-nvidia-results-and-jackson-hole-in-focus",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ3NwdEl3dDVpd2U0dkR2Z2luM1lJMDIwc0xSVlRSN1dqQXVILWluNTBCMWdjeDMzSWRHWjlvMVUzMzJjTEdHQ2ItNkxyTE9SckR0VnhsazVhbUtCXzlwdjRLOEJ2dGJySGo5ZmViUnVaSjMwazRLOEgtOEFXYTZjaUxkXzRiUmZXSlBHdExjV0RKMUFlY0JtenNaLWE2RlNYenhtQk1LUTVwYmNQUUl2d2JZcEQ5YTFLS0wwajg5dm8zZUE5LVZpN3Ewbll2RGFpWWc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "wall-street-futures-steady-after-weekly-losses-nvidia-results-and-jackson-hole-in-focus",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "fabrinet-loses-billions-in-market-value-after-nvidia-guidance-cut-analysts-say-reaction-is-overdone",
-    "title": "Fabrinet Loses Billions in Market Value After Nvidia Guidance Cut; Analysts Say Reaction is Overdone",
-    "summary": "Optical components supplier Fabrinet's stock value plunged following Nvidia's disappointing guidance, though some analysts argue the market's reaction is excessive.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Fabrinet",
-      "Nvidia",
-      "stock decline",
-      "semiconductor"
-    ],
-    "url": "news/markets/2026-08-24/#fabrinet-loses-billions-in-market-value-after-nvidia-guidance-cut-analysts-say-reaction-is-overdone",
-    "sources": [
-      {
-        "label": "Barchart.com",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTnlwOTJBRlo2MjdLV29WRExCVk9PMkZjSEs3VHh6RUgyU0NaQ2FBb2MxUGFfNHVlNnh4WnFJa2ZVOVo0VHVqaEdPRGJueGZIT1VORTRLRy1PbmxHYlpGb0Q3aXVia1RYQ1VxRWVZeDVwUERKaDVGY29YZ2NzSk05V0VPUWlJb0gyZ29yX3dGbnlJWmhmWXRqOTJLVkpOMUFWTnFhQ1JzMm1mdHpLOHdXak8tWklzRlBBQV9jbzBrWkQtZmNDT2tyY2Utcng3UnZEVkE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "fabrinet-loses-billions-in-market-value-after-nvidia-guidance-cut-analysts-say-reaction-is-overdone",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "stock-futures-fall-as-technology-sector-comes-under-selling-pressure",
-    "title": "Stock futures fall as technology sector comes under selling pressure",
-    "summary": "U.S. stock futures are declining with technology stocks experiencing significant downward pressure.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock futures",
-      "tech stocks",
-      "market decline"
-    ],
-    "url": "news/markets/2026-08-24/#stock-futures-fall-as-technology-sector-comes-under-selling-pressure",
-    "sources": [
-      {
-        "label": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRlpsTVN2LUc4NWRLZVJrZU5nTFZSSzZrUWc4UWRQdE5sVllRVEVVNGN5WWRka2taNXBlU3lFSm1JM05DM1Q4SGxmRlFnMUNPLVdhajAzSVN1aFR3a1I1RFN3OGVwbzBNaktseHhJSFpMbFo5THZDSGxGU2FJREo0dDg0VEpSVXox?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "stock-futures-fall-as-technology-sector-comes-under-selling-pressure",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "24-hour-stock-market-trading-nears-regulatory-reality",
-    "title": "24-hour stock market trading nears regulatory reality",
-    "summary": "Moves toward round-the-clock equity market trading are advancing toward becoming a practical marketplace feature.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "24-hour trading",
-      "market structure",
-      "equity markets"
-    ],
-    "url": "news/markets/2026-08-24/#24-hour-stock-market-trading-nears-regulatory-reality",
-    "sources": [
-      {
-        "label": "Barron's",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWjhDZTdPWHk1cEtBRjhRa1NvOVJTZHFRbDhGZTloaGxUZDUxQ0FxYzh0R2JLZkJ6Qy1VMVRQRnE1M3liNGcwckJIeUItU2E1WGtzcTRwQTdxZDhyOVVzYVYzdUJVU1VPVmg5cGVBMEtnYXFNVHBqLUY1eFNJRGlGLWRjU2drb0Exb0R5bmQxU3ZUNHFURjZN?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "24-hour-stock-market-trading-nears-regulatory-reality",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "stock-market-expected-to-decline-ahead-of-nvidia-earnings-and-jackson-hole-economic-symposium",
-    "title": "Stock market expected to decline ahead of Nvidia earnings and Jackson Hole economic symposium",
-    "summary": "U.S. equity indices are positioned to fall as investors await Nvidia's earnings report and Federal Reserve Chair remarks at Jackson Hole.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "Nvidia earnings",
-      "Jackson Hole",
-      "Dow",
-      "S&P 500",
-      "Nasdaq"
-    ],
-    "url": "news/markets/2026-08-24/#stock-market-expected-to-decline-ahead-of-nvidia-earnings-and-jackson-hole-economic-symposium",
-    "sources": [
-      {
-        "label": "MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTmp6eUh6bC12b1o4M0tDdS1rUmo5OWxfX0p5TzJNZXM0STBzd3l2Y2t2X0dsWS16NEdnT216SVlGNkwzbnZPaXBLTnhuNXV3b0FhYmdrRXYzR0wxN3JfLTBkUDNfVnZQSlUxLVRLdDFjNUE5cWRVdHVQOG44aGxYdG8yQlVKTGNCSDZDS1hvX1B5WGxKUGZRQzh1U2JwZURsYXRxcUJkaUxFSlJ2TlVrakE2X0hhQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "stock-market-expected-to-decline-ahead-of-nvidia-earnings-and-jackson-hole-economic-symposium",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "utsa-delayed-fall-classes-after-cybersecurity-breach-attempt-highlighting-university-vulnerability",
-    "title": "UTSA delayed fall classes after cybersecurity breach attempt, highlighting university vulnerability",
-    "summary": "University of Texas at San Antonio postponed the start of fall semester following a cyberattack attempt, demonstrating rapid threat evolution targeting institutions.",
-    "theme": "Security",
-    "importance": 5.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "UTSA",
-      "cybersecurity",
-      "breach attempt",
-      "education"
-    ],
-    "url": "news/security/2026-08-24/#utsa-delayed-fall-classes-after-cybersecurity-breach-attempt-highlighting-university-vulnerability",
-    "sources": [
-      {
-        "label": "KSAT",
-        "url": "https://www.google.com/goto?url=CAESyQEB6zswFbEm6x5oLYXfb1NM9TeB82M9jAcQrkMhev1HAFGfsPPs_uvUDebHvsoUDXd60_ks0j5ZIMUSa2o_L2jqu9tpKuIb1dxa_UHxKnOaKRBEyEilXb3IIcshkcCQHUwHGn6G5M4nVOIA3rwgjpvVDPYjDYQnibVsqeaSij4ilXfCb7IEnOBkJciB01kIl8zd5vCpxpp8LFQqVrOD-hhtBF1XFlA2RChSLRjlO6HQ8aS24grYjcwLRI9_oHgq7aFL9iax2QnIS4E",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "utsa-delays-fall-classes-following-cyberattack-attempt",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "UTSA Delays Fall Classes Following Cyberattack Attempt",
-    "updates_url": "news/security/2026-08-23/#utsa-delays-fall-classes-following-cyberattack-attempt"
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "safepal-security-vulnerability-exposes-personal-order-data-for-39798-customers",
-    "title": "Safepal security vulnerability exposes personal order data for 39,798 customers",
-    "summary": "Safepal suffered a data breach exposing customer order information for nearly 40,000 users, though private keys and seed phrases remained protected.",
-    "theme": "Security",
-    "importance": 5.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Safepal",
-      "data breach",
-      "cryptocurrency wallet"
-    ],
-    "url": "news/security/2026-08-24/#safepal-security-vulnerability-exposes-personal-order-data-for-39798-customers",
-    "sources": [
-      {
-        "label": "CoinDesk",
-        "url": "https://www.google.com/goto?url=CAESuQEB6zswFdc2tqrsbKE0oU2M0tP4tbqjCECvelnJc7YXrAUbkGVaGWzY_Z1-FJ-J40UiOX0n4Uzb4YZDOGlOKzR5yAKIbPh6V2K_YpD4NELSi_O9aQ-P-WGNlr5JlP84rY5A5-JMVKms1sRFQ7bpIxkxgWXhFWjjHlj-k7AUHEqcn5kr42YKaTRypiJKIqgJbJ9Cnt4fPyqShqmHgz6BIuCXmsBnnEI-zmJm-sBx9DxCkWNNylqBcQZZ1g",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "safepal-security-vulnerability-exposes-personal-order-data-for-39798-customers",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
     "event_id": "ai-driven-energy-storage-optimization-enhances-grid-stability-across-multiple-industries",
     "title": "AI-Driven Energy Storage Optimization Enhances Grid Stability Across Multiple Industries",
     "summary": "Integrating AI into communication site energy storage systems optimizes power management and grid stability while advancing low-carbon development.",
@@ -1324,6 +1126,82 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "deepseek-v4-pro-emerges-as-frontier-cyber-threat-detection-model",
+    "title": "DeepSeek V4 Pro emerges as frontier cyber threat detection model",
+    "summary": "Benchmark testing across 10 AI models found DeepSeek V4 Pro identified 28 of 32 fresh CVEs, outperforming competitors including Opus and Grok.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "DeepSeek",
+      "CVE detection",
+      "vulnerability analysis",
+      "AI models",
+      "cybersecurity"
+    ],
+    "url": "news/ai/2026-08-24/#deepseek-v4-pro-emerges-as-frontier-cyber-threat-detection-model",
+    "sources": [
+      {
+        "label": "Aikido Security",
+        "url": "https://www.google.com/goto?url=CAEScwHrOzAVIBkdMzdD0NPTKXCOczB6Y_MusLt-qDJRhhYw-HLiO4laGVvkOT9JGQ0afImCCYjKUjxYuEjNxz5jV2pyiEYBy7DBOJrIQfQOyZXWE1hHVePBHjoLLPZDIqQtri-qyZHVoAUMQQStLb-8jiWn3-s",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "AI model benchmark: DeepSeek V4 Pro tops cybersecurity vulnerability detection",
+    "updates_url": "news/ai/2026-08-23/#ai-model-benchmark-deepseek-v4-pro-tops-cybersecurity-vulnerability-detection"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "nvidia-discovers-linear-math-technique-for-faster-ai-model-switching",
+    "title": "Nvidia discovers linear math technique for faster AI model switching",
+    "summary": "Nvidia researchers developed a simple linear mathematics method that accelerates switching between AI models mid-task up to 25x faster than recomputation.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Nvidia",
+      "model switching",
+      "optimization",
+      "linear algebra",
+      "inference"
+    ],
+    "url": "news/ai/2026-08-24/#nvidia-discovers-linear-math-technique-for-faster-ai-model-switching",
+    "sources": [
+      {
+        "label": "VentureBeat",
+        "url": "https://www.google.com/goto?url=CAESpAEB6zswFaKgIS89d0GwUJHlZNGBrUK78sQ8d9b_zspkZ7FEAXZ6achCh-uFXfWGGvCy9DZf6FpCWqBGFd_5LSVaOz_9LbQD6FTAyvxyPBaM2YCRWmEZh61rEGNp3znY7nq5wYrO8xRvIb_gzzp9vIfpJUrXGnW49u2LTpoIhNvWwxfTISq3CKCOjdnAF1ipRlU9gvJT0YI_6Nh5ourOb2DI8azTMg",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "nvidia-demonstrates-25x-faster-ai-model-switching-using-linear-mathematics",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Nvidia Demonstrates Linear Math Technique for 25x Faster AI Model Switching",
+    "updates_url": "news/ai/2026-08-23/#nvidia-demonstrates-linear-math-technique-for-25x-faster-ai-model-switching"
   },
   {
     "date": "2026-08-24",
@@ -1442,6 +1320,81 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "anthropics-anticipated-ipo-could-surpass-spacexs-valuation-record",
+    "title": "Anthropic's anticipated IPO could surpass SpaceX's valuation record",
+    "summary": "Anthropic's potential initial public offering could achieve a valuation exceeding SpaceX's record IPO.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "IPO",
+      "valuation",
+      "SpaceX"
+    ],
+    "url": "news/anthropic/2026-08-24/#anthropics-anticipated-ipo-could-surpass-spacexs-valuation-record",
+    "sources": [
+      {
+        "label": "The Neuron",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XNzZPM1lGeDY5LWtpUXdxVFpHR0d4cFNzY1BlcklfT1REOFh6Ml92ZUtodTExQld0WlpxVGtHZ0JLVVBZQjQ3UVNKaTZHWEJ4OVl4RHZOSDFGUlBQMDJIaFFvMTlUYW1tbkdCaVBGTmhXcDl3M2tFME50ZGxZaGM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "anthropic-seeks-10-billion-credit-line-ahead-of-potential-ipo",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic targets $100 billion IPO valuation",
+    "updates_url": "news/anthropic/2026-08-22/#anthropic-targets-100-billion-ipo-valuation"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "anthropic-apologizes-for-secretly-degrading-claudes-reasoning-capabilities",
+    "title": "Anthropic apologizes for secretly degrading Claude's reasoning capabilities",
+    "summary": "Anthropic publicly apologized after evidence emerged that Claude's reasoning performance was deliberately reduced.",
+    "theme": "Anthropic",
+    "importance": 6,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "reasoning",
+      "Anthropic",
+      "degradation",
+      "apology"
+    ],
+    "url": "news/anthropic/2026-08-24/#anthropic-apologizes-for-secretly-degrading-claudes-reasoning-capabilities",
+    "sources": [
+      {
+        "label": "36 Kr",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE85cU9HVUk1OFUyOVlzZmpZalZwYl9LLVhmcUNQT0xqMTNGd1hSNHZrdURhb0ZXcGtFVnItUm9pckRaXzFWc0VxU09NdnBfRGpEWHk0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "anthropic-apologizes-for-secretly-degrading-claudes-reasoning-capabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "meteorologists-struggle-to-explain-unusual-midwestern-tornado-season-patterns",
     "title": "Meteorologists struggle to explain unusual Midwestern tornado season patterns",
     "summary": "Weather experts are finding the current Midwestern tornado season difficult to forecast and characterize using traditional meteorological models.",
@@ -1473,6 +1426,85 @@
     "researched": false,
     "received_at": "2026-08-24T08:33:54.796486+00:00",
     "lineage_id": "meteorologists-struggle-to-explain-unusual-midwestern-tornado-season-patterns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "uk-oil-drilling-decision-hinges-on-carbon-capture-requirements-for-net-zero-compatibility",
+    "title": "UK Oil Drilling Decision Hinges on Carbon Capture Requirements for Net Zero Compatibility",
+    "summary": "The president of the United States' government must decide whether to approve Rosebank and Jackdaw oil and gasfields, with carbon capture and storage technology potentially making them compatible with UK net zero goals.",
+    "theme": "Climate & Energy Policy",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Rosebank",
+      "Jackdaw",
+      "oil drilling",
+      "carbon capture",
+      "net zero",
+      "UK energy policy"
+    ],
+    "url": "news/climate-change/2026-08-24/#uk-oil-drilling-decision-hinges-on-carbon-capture-requirements-for-net-zero-compatibility",
+    "sources": [
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/commentisfree/2026/aug/24/andy-burnham-rosebank-carbon-capture-storage-north-sea-uk-net-zero-commitments",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "uk-oil-drilling-decision-hinges-on-carbon-capture-requirements-for-net-zero-compatibility",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "unregulated-data-centers-expand-across-wind-rich-regions-of-brazil",
+    "title": "Unregulated Data Centers Expand Across Wind-Rich Regions of Brazil",
+    "summary": "An influx of unannounced and unregulated data centers is expanding into Brazil's wind-energy-rich areas, following renewable energy surpluses and rising local costs.",
+    "theme": "Environment & Infrastructure",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Brazil",
+      "data centers",
+      "wind energy",
+      "unregulated tech",
+      "renewable energy"
+    ],
+    "url": "news/climate-change/2026-08-24/#unregulated-data-centers-expand-across-wind-rich-regions-of-brazil",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/wind-energy-surplus-fuels-unregulated-data-centers-in-brazils-dry-land/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "unregulated-data-centers-expand-across-wind-rich-regions-of-brazil",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1558,9 +1590,88 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "attackers-hijack-legitimate-google-alerts-in-large-scale-phishing-campaign",
+    "title": "Attackers hijack legitimate Google Alerts in large-scale phishing campaign",
+    "summary": "Researchers discovered attackers abusing Google notifications and cloud services to deliver phishing emails that bypass traditional email security filters.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Google Alerts",
+      "phishing campaign",
+      "email bypass",
+      "cloud abuse"
+    ],
+    "url": "news/email-security/2026-08-24/#attackers-hijack-legitimate-google-alerts-in-large-scale-phishing-campaign",
+    "sources": [
+      {
+        "label": "TechRepublic",
+        "url": "https://www.google.com/goto?url=CAESmwEB6zswFQekdmUrJ6n9PcwC_OD4eyFoCcpxZJ9sLSOIhv5d4JIHq3ZDP7kC9_PoASQxdhqPgfCV5iduP6ef1jcY6ToQO51sJOObW9HKj6Iv9ZZXKQ02DSMEPf1NAISdsL1BZ7iNlhenqiBlhtlQdUnxZs3MCfSGticc6nrreDlRwtHS16rpdsydXk1qtXNaMIk7jkGPstygCuBuwQ",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Campaign abuses Google Alerts and Google cloud services",
+      "Phishing emails bypass traditional email security defenses",
+      "Targets Microsoft login credentials and sensitive information",
+      "Reflects shift to abusing legitimate platforms vs. malicious infrastructure"
+    ],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "trusted-google-alerts-hijacked-in-large-scale-phishing-campaign",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Trusted Google Alerts hijacked in large-scale phishing campaign",
+    "updates_url": "news/email-security/2026-08-23/#trusted-google-alerts-hijacked-in-large-scale-phishing-campaign"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "phishing-attacks-abuse-microsofts-legitimate-authentication-system-to-camouflage-attacks",
+    "title": "Phishing attacks abuse Microsoft's legitimate authentication system to camouflage attacks",
+    "summary": "Attackers exploit Microsoft's real login infrastructure to craft convincing phishing attacks that trick users into granting account access.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "phishing",
+      "authentication",
+      "account compromise"
+    ],
+    "url": "news/email-security/2026-08-24/#phishing-attacks-abuse-microsofts-legitimate-authentication-system-to-camouflage-attacks",
+    "sources": [
+      {
+        "label": "Help Net Security",
+        "url": "https://www.google.com/goto?url=CAESjAEB6zswFVr5WK0-ktdMlDJ3Ku6wRxW8DJDXtXscq1m_EQ3-G3mKFKDgk5nFS79GPJ6fof4ibp_rWhqNpIv06RALSekzMBWg7e0L9WmyXrh47UT0MY5X6_oMAJ2h2Sy2GtxR94YTE9D4rSfCkRbXpDqw-GFu2PnoB9xU_qPs3_HzwE-BtVCF8UMo6a2JJA",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "attackers-abuse-microsoft-login-system-to-camouflage-phishing-attacks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Attackers abuse Microsoft login system to camouflage phishing attacks",
+    "updates_url": "news/email-security/2026-08-21/#attackers-abuse-microsoft-login-system-to-camouflage-phishing-attacks"
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "sam-altman-criticizes-ray-dalio-openai-model-exposed",
     "title": "Sam Altman Criticizes Ray Dalio; OpenAI Model Exposed",
-    "summary": "Sam Altman criticized Ray Dalio as 'anti-human' on the same day a top-secret OpenAI model was exposed.",
+    "summary": "OpenAI CEO Sam Altman clashed with investor Ray Dalio over ideological differences while a confidential AI model was exposed.",
     "theme": "AI",
     "importance": 6.0,
     "topics": [
@@ -1571,9 +1682,9 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Sam Altman",
-      "Ray Dalio",
       "OpenAI",
+      "Ray Dalio",
+      "Sam Altman",
       "model leak"
     ],
     "url": "news/gpt/2026-08-24/#sam-altman-criticizes-ray-dalio-openai-model-exposed",
@@ -1586,7 +1697,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
     "lineage_id": "sam-altman-criticizes-ray-dalio-openai-model-exposed",
     "related_title": "",
     "related_url": "",
@@ -1687,6 +1798,119 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "sam-altman-admits-openais-timeline-projections-have-been-very-wrong",
+    "title": "Sam Altman admits OpenAI's timeline projections have been 'very wrong'",
+    "summary": "OpenAI's CEO acknowledged significant errors in previous forecasts about the company's strategic objectives.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Sam Altman",
+      "OpenAI",
+      "timeline",
+      "forecasting"
+    ],
+    "url": "news/gpt/2026-08-24/#sam-altman-admits-openais-timeline-projections-have-been-very-wrong",
+    "sources": [
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNcHlVR2txNHc4S0pZWXJSM0VYeWVYanc0Z3pJX29NLTgwbEhBVjNHUUQ5ekxtcEcxLTQyRHFoUWFWU0xkMU1fS3BZaWFmMVpyVUhwakpsLW1haWpGa0dIeXRxX3h6aUxCQ1JEcGlyMFZ1NWpNQkdMMUJ4NWdaLU45MjRGLW1WUC1SaWFzMkFrMG1zQUgxM0Y4S1F5b29tRWVERTBvRndpV1Q5bFMxdFV0S0ZQdW1DT1NUYkVoVktaUXNndUFoaG5Ydktjd1RabzZYNTM0b0E2U1BCeUhhSlEwLVhGTmRudlJjWUdqTTAwbjNoVGVEYUlDODBHamZKQXRWYTBWTlMwLVdISHU4WEFUNnVmVVNFdmYtQl9ZV2JTaE5FbzFCakRVX2YyYVUxaW9xTXhr0gG4AkFVX3lxTE5GUW9TejZHU0k2UHFoc3F2X1E5dHJ5YzBzcUs1b2txN3NtNURuY29IQ0JHRkY4RDM5REZ4dW92VlVEOVVvc0tnMHIwMWlfS0NBd1NWS0hIemtaMlM0c3ZBRy1KcFBfeWdoakY5YUJfSnJVeG0tVGFHalQtT0JjaDQ3bTVxdng3UDF2SzNJQXNoSGo4QWJ3aFp1ZlRMaHl3aG5qR1U5TWp4dEw1ckhiMWxOelJ1U3FlLXJYclBkUGxObldVN2JrWXI0Vldna0VQWk1pZjc2b05mYlBlMDBUNXBGVkcydXBpcGx0RGRBVDNuSTdtV0QyZldHN2dKcExYc19NaWhWcVllWkJZRE1Kb25mN0RoSmF5aloyeWNSVUM3UWJ0UXgtNTdxdHV3aHZ3MmxXX2wyd2hYVQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "sam-altman-admits-openais-timeline-projections-have-been-very-wrong",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "ai-trade-dominates-markets-amid-nvidia-earnings-and-iran-sanctions",
+    "title": "AI Trade Dominates Markets Amid Nvidia Earnings and Iran Sanctions",
+    "summary": "Markets remain volatile as investors focus on AI-related stocks while Iran sanctions and geopolitical tensions add pressure to equities.",
+    "theme": "Markets",
+    "importance": 6,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "AI stocks",
+      "Iran sanctions",
+      "market volatility",
+      "equity futures"
+    ],
+    "url": "news/markets/2026-08-24/#ai-trade-dominates-markets-amid-nvidia-earnings-and-iran-sanctions",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNblJpQ2JkdUVySnVRS2wwV1lMU1NadHNYbnMyY0daTGk2bV9wX1NqX3VLaS1GdUw0TXhtZjhvQVJZaUU4dTd2LUhxQndKU0FDRXR1b2FjN3l3aVhuYVYwd2k1dmlIdTNwN2lEUUhLb1p3VVhGY3J6T2VZS0ROYnBNR0pVYWpzNkUyOXlQUWFXTFB6VXhZczc3SVQ2RQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "ai-trade-dominates-markets-amid-nvidia-earnings-and-iran-sanctions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "canadian-futures-stall-as-us-tariff-escalation-offsets-earnings-growth",
+    "title": "Canadian Futures Stall as U.S. Tariff Escalation Offsets Earnings Growth",
+    "summary": "Canadian equity futures are flat as tariff escalation from the United States undermines gains from corporate earnings.",
+    "theme": "Markets",
+    "importance": 6,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Canada",
+      "US tariffs",
+      "futures",
+      "trade war",
+      "earnings"
+    ],
+    "url": "news/markets/2026-08-24/#canadian-futures-stall-as-us-tariff-escalation-offsets-earnings-growth",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYi1haUNoWk1hS2wydlVBNU91bGxmdTBsdFFQNUlsdHhsZDJ2Q24xejBMWlRuWS1sdzhBUUd4SGd1NDVzclRXVkRGdkxzbERtMmp4Y3FCZFUwU1BpekxTMkRqTkVhcGUxSU1HWHVLZ1VUTXhIbFFlZWNHN2hWNmg5ZXR2YzQ0OW5vMF9abkRCdXRla0lNN3Z0VTczZS1BbFFRRTk3dnNnb2JGSlN5VWl6a01HV0F1WFZlQ2ZVeWFObHAxdHhfU3RUX1hkcFg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "canadian-futures-stall-as-us-tariff-escalation-offsets-earnings-growth",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "protein-degradation-rates-explain-slower-human-developmental-pace-compared-to-mice",
     "title": "Protein degradation rates explain slower human developmental pace compared to mice",
     "summary": "Researchers identified that differences in protein degradation rates across species account for why humans develop more slowly than mice and other mammals.",
@@ -1765,6 +1989,118 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "2-ton-stela-carved-with-image-of-maya-lady-supreme-warlord-discovered-in-guatemala",
+    "title": "2-ton stela carved with image of Maya 'Lady Supreme Warlord' discovered in Guatemala",
+    "summary": "A 1,300-year-old monumental stela weighing over 2 tons depicts Lady K'abel, a powerful Maya queen who ruled an ancient Guatemalan city in the seventh century.",
+    "theme": "Archaeology",
+    "importance": 6,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Maya",
+      "Lady K'abel",
+      "stela",
+      "archaeology",
+      "Guatemala"
+    ],
+    "url": "news/science/2026-08-24/#2-ton-stela-carved-with-image-of-maya-lady-supreme-warlord-discovered-in-guatemala",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/archaeology/americas/front-face-of-a-stela-a-1-300-year-old-carving-of-a-powerful-maya-lady-supreme-warlord-that-weighs-over-2-tons",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "2-ton-stela-carved-with-image-of-maya-lady-supreme-warlord-discovered-in-guatemala",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "openai-launches-chatgpt-program-providing-free-access-to-100000-academic-researchers",
+    "title": "OpenAI launches ChatGPT program providing free access to 100,000 academic researchers",
+    "summary": "OpenAI introduced ChatGPT for Academic Researchers, offering free access to 100,000 researchers at selected institutions.",
+    "theme": "Science",
+    "importance": 6,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "ChatGPT",
+      "academic research",
+      "OpenAI",
+      "free access"
+    ],
+    "url": "news/science/2026-08-24/#openai-launches-chatgpt-program-providing-free-access-to-100000-academic-researchers",
+    "sources": [
+      {
+        "label": "OpenAI",
+        "url": "https://www.google.com/goto?url=CAEScgHrOzAVOzusT0NpIkUkuBvFIHLveA5Hma-IlXKvjN2Px1oA6vaPPIdtx1PqakEhBZFL2mj5zHuaQZzAeUln2ZhkqmPFEYowx6O1jdku81r18i0WfpVpBaBWFWPIyQnGAu49XvcAkf2T914bZk4fMhcyOQ",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "openai-launches-chatgpt-for-academic-researchers-with-free-access-to-100000-scholars",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI launches ChatGPT access program for 100,000 academic researchers",
+    "updates_url": "news/science/2026-08-23/#openai-launches-chatgpt-access-program-for-100000-academic-researchers"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "nsf-establishes-state-and-regional-ai-infrastructure-hubs-to-enable-research-discovery",
+    "title": "NSF establishes State and Regional AI Infrastructure Hubs to enable research discovery",
+    "summary": "The NSF launched new State and Regional AI Infrastructure Hubs to expand compute access for researchers, students, and educators nationwide.",
+    "theme": "Science",
+    "importance": 6,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NSF",
+      "AI infrastructure",
+      "scientific research",
+      "compute access"
+    ],
+    "url": "news/science/2026-08-24/#nsf-establishes-state-and-regional-ai-infrastructure-hubs-to-enable-research-discovery",
+    "sources": [
+      {
+        "label": "U.S. National Science Foundation (.gov)",
+        "url": "https://www.google.com/goto?url=CAESjAEB6zswFc2XwM-4JBD6cIpRrOLwXUXJlexUXchoKpQHCbZOXo6_ZfD6FEMzLxEJ2URRubVPHKQYsg6JFDFVldgMij-DxV-Po9vPlZ0h7e6htrQ27S-awLe-8Ghe2gnhfZSZUtvzvL_TQXDXSRek5umtHp4r2c7O6hvUzdWOd9D6CRmPO2CokDckonEm-Q",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "nsf-establishes-state-and-regional-ai-infrastructure-hubs-for-ai-enabled-research-access",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "NSF launches State and Regional AI Infrastructure Hubs for AI-enabled research",
+    "updates_url": "news/science/2026-08-23/#nsf-launches-state-and-regional-ai-infrastructure-hubs-for-ai-enabled-research"
   },
   {
     "date": "2026-08-24",
@@ -1909,6 +2245,43 @@
     "researched": false,
     "received_at": "2026-08-24T08:33:54.796486+00:00",
     "lineage_id": "chinas-moon-mission-to-hunt-water-ice-unprecedented-approach-vs-nasa",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "pre-release-iphone-ultra-foldable-device-receives-positive-early-assessments",
+    "title": "Pre-Release iPhone Ultra Foldable Device Receives Positive Early Assessments",
+    "summary": "Early testers of Apple's unreleased iPhone Ultra foldable model have provided positive feedback on its design and functionality.",
+    "theme": "Hardware",
+    "importance": 6.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Apple",
+      "iPhone Ultra",
+      "foldable",
+      "pre-release"
+    ],
+    "url": "news/tech/2026-08-24/#pre-release-iphone-ultra-foldable-device-receives-positive-early-assessments",
+    "sources": [
+      {
+        "label": "AppleInsider",
+        "url": "https://appleinsider.com/articles/26/08/23/some-people-outside-of-apple-have-already-used-the-folding-iphone",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "pre-release-iphone-ultra-foldable-device-receives-positive-early-assessments",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2266,6 +2639,44 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "children-learn-language-more-efficiently-than-ai-large-language-models",
+    "title": "Children Learn Language More Efficiently Than AI Large Language Models",
+    "summary": "Research shows children require vastly less data than large language models to acquire language, highlighting efficiency differences that could inform more efficient AI model design.",
+    "theme": "AI Research",
+    "importance": 6.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "LLMs",
+      "language learning",
+      "AI efficiency",
+      "neural networks",
+      "cognitive science"
+    ],
+    "url": "news/ai/2026-08-24/#children-learn-language-more-efficiently-than-ai-large-language-models",
+    "sources": [
+      {
+        "label": "MIT Technology Review",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQanVUbG5NampKTmxSNlJnVXBnc2dnX3Z5ekotOHBGSjVVZHh0N2RnNTEtdkd3NlJzNmwyTk5zTlg4TE9CSmktUWpMc3FUcFZReW1yTDdvZnJpNTFtNms0MFNHSTdmTklUMHFEVEhvanA5SmRyNnVkbmRpVXZWTFF6V2hTLVlmdVJIamY1UNIBkgFBVV95cUxPWHFnMFM0R1ZBOWdsOUprbWJrWDczT2VuLVVGdXlPZFp5bFpJenA3TXN3dVZRX3duTm9Jd210SWhWeHZmdWZSaU5fYzBicUNWb0x0YW9RbVZoa2VDS1hrd0R6d3BYT2tQTUZnYmM0cWE2R0hUemdJdzl6Z29CSWhqdHdyTmNYVXRYOGt2aFptMkdYUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "children-learn-language-more-efficiently-than-ai-large-language-models",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "chinese-gray-market-systematically-circumvents-anthropics-access-controls-to-resell-claude-api-tokens",
     "title": "Chinese gray market systematically circumvents Anthropic's access controls to resell Claude API tokens",
     "summary": "Anthropic's geoblocking and identity verification safeguards against China are being bypassed through unauthorized token resale in a gray market.",
@@ -2301,6 +2712,84 @@
     "related_url": "",
     "updates_title": "China's gray market offers discounted Claude API access",
     "updates_url": "news/anthropic/2026-08-23/#chinas-gray-market-offers-discounted-claude-api-access"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "brazils-data-center-boom-leverages-clean-power-but-strains-local-communities",
+    "title": "Brazil's Data Center Boom Leverages Clean Power But Strains Local Communities",
+    "summary": "Brazil's expanding data center sector benefits from abundant renewable energy but imposes costs on local residents through grid upgrades, noise, and water strain.",
+    "theme": "Environment & Infrastructure",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Brazil",
+      "data centers",
+      "renewable energy",
+      "clean power",
+      "local impact"
+    ],
+    "url": "news/climate-change/2026-08-24/#brazils-data-center-boom-leverages-clean-power-but-strains-local-communities",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/08/brazils-unique-data-center-boom-rides-on-clean-power-despite-social-burden/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "brazils-data-center-boom-leverages-clean-power-but-strains-local-communities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "the-president-of-the-united-states-administration-invests-billions-in-lng-export-infrastructure-accelerating-fracking",
+    "title": "The President of the United States Administration Invests Billions in LNG Export Infrastructure, Accelerating Fracking",
+    "summary": "The president of the United States' administration has spent billions supporting natural gas export projects, driving increased domestic fracking despite market oversupply concerns.",
+    "theme": "Energy & Climate Policy",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "LNG exports",
+      "natural gas",
+      "fracking",
+      "energy policy",
+      "fossil fuels"
+    ],
+    "url": "news/climate-change/2026-08-24/#the-president-of-the-united-states-administration-invests-billions-in-lng-export-infrastructure-accelerating-fracking",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/24082026/trump-spends-billions-boosting-lng-exports/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "the-president-of-the-united-states-administration-invests-billions-in-lng-export-infrastructure-accelerating-fracking",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-24",
@@ -2452,6 +2941,82 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "hedge-funds-cut-equity-positions-at-fastest-pace-in-two-months",
+    "title": "Hedge Funds Cut Equity Positions at Fastest Pace in Two Months",
+    "summary": "Hedge funds are reducing equity positions at the fastest rate seen in the past two months, according to Goldman Sachs data.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "hedge funds",
+      "equity positions",
+      "Goldman Sachs",
+      "market sentiment",
+      "de-risking"
+    ],
+    "url": "news/markets/2026-08-24/#hedge-funds-cut-equity-positions-at-fastest-pace-in-two-months",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeU8zWDFseGgwaFhXLVItUWoyblREaE5PZVhCLV92cUNva05uRE1mRHZfX0NYS3llbWdXanRzVDk2enl2VjJkRHVNNmNmSFpJeGRneDNjZ05ERnpUd2xSZTNKbFBWa3F6dENkX2RuNXBud2lUZm1ZSml3aVIxZ2VfbkpFZVh2bHZtS3FuZVBaOXB1NlhQS3JVcTladG0wVmROV3BuYjIwWjFFek5VaDAtT0hoaEtUdjQwalpWbVNab3EwSi0yMU5nOGgwMGUxd3k0a0lvdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "hedge-funds-cut-equity-positions-at-fastest-pace-in-two-months",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "tech-stocks-slide-as-us-canada-trade-tensions-intensify",
+    "title": "Tech Stocks Slide as U.S.-Canada Trade Tensions Intensify",
+    "summary": "Nasdaq futures and technology stocks declined as trade tensions between the United States and Canada escalate.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nasdaq",
+      "tech stocks",
+      "US-Canada trade",
+      "tariffs",
+      "market volatility"
+    ],
+    "url": "news/markets/2026-08-24/#tech-stocks-slide-as-us-canada-trade-tensions-intensify",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUHAtRUpVTjZBckdEWkpuWVExTUhyUTRmYnZ0M3lBTE5yZUw1NkVCanVVaXFEM3RLREJtNklYOEd0c1kyckxzT3M3dXYtME9RMVV4R2VhRUtKeDBPdl9GRm1MUXhxYnhrNUd1T3F4Ukh0U1E0S0NtalU5RjFOTS1wRVRQZEVwLWltcGRFQ01vaU5iSnFUM0NRZU1OSDZJd0FKTURJSGpnQlFNNlBUUzFYeGFB?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "tech-stocks-slide-as-us-canada-trade-tensions-intensify",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "apollo-global-management-suffers-data-breach-via-social-engineering-attack",
     "title": "Apollo Global Management suffers data breach via social engineering attack",
     "summary": "Apollo Global Management disclosed a social engineering attack on August 21 that resulted in unauthorized data access.",
@@ -2488,6 +3053,49 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "safepal-security-vulnerability-exposes-personal-order-data-for-39798-customers",
+    "title": "Safepal security vulnerability exposes personal order data for 39,798 customers",
+    "summary": "A security vulnerability in SafePal wallet exposed personal order information of nearly 40,000 customers, though private keys and seed phrases remained secure.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "SafePal",
+      "Safepal",
+      "cryptocurrency wallet",
+      "customer data",
+      "data breach"
+    ],
+    "url": "news/security/2026-08-24/#safepal-security-vulnerability-exposes-personal-order-data-for-39798-customers",
+    "sources": [
+      {
+        "label": "CoinDesk",
+        "url": "https://www.google.com/goto?url=CAESuQEB6zswFdc2tqrsbKE0oU2M0tP4tbqjCECvelnJc7YXrAUbkGVaGWzY_Z1-FJ-J40UiOX0n4Uzb4YZDOGlOKzR5yAKIbPh6V2K_YpD4NELSi_O9aQ-P-WGNlr5JlP84rY5A5-JMVKms1sRFQ7bpIxkxgWXhFWjjHlj-k7AUHEqcn5kr42YKaTRypiJKIqgJbJ9Cnt4fPyqShqmHgz6BIuCXmsBnnEI-zmJm-sBx9DxCkWNNylqBcQZZ1g",
+        "origin": "discovery"
+      },
+      {
+        "label": "CoinDesk",
+        "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "safepal-security-vulnerability-exposes-personal-order-data-for-39798-customers",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "appeals-court-upholds-dismissal-of-scos-who-owns-linux-lawsuit-xinuos-seeks-long-shot-rehearing",
     "title": "Appeals Court Upholds Dismissal of SCO's 'Who Owns Linux?' Lawsuit; Xinuos Seeks Long-Shot Rehearing",
     "summary": "An appeals court confirmed that the long-running SCO/Xinuos lawsuit claiming ownership of Linux has been dismissed, though the plaintiff is pursuing a rare rehearing bid.",
@@ -2519,6 +3127,44 @@
     "researched": false,
     "received_at": "2026-08-24T06:32:04.866919+00:00",
     "lineage_id": "appeals-court-upholds-dismissal-of-scos-who-owns-linux-lawsuit-xinuos-seeks-long-shot-rehearing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "canonical-funds-ai-project-to-translate-legacy-c-code-into-rust",
+    "title": "Canonical Funds AI Project to Translate Legacy C Code into Rust",
+    "summary": "Canonical is funding research at Bristol to investigate using AI to convert large volumes of legacy C code into the safer Rust programming language.",
+    "theme": "Tech",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Canonical",
+      "C to Rust",
+      "AI translation",
+      "code modernization",
+      "system programming"
+    ],
+    "url": "news/tech/2026-08-24/#canonical-funds-ai-project-to-translate-legacy-c-code-into-rust",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/software/2026/08/24/canonical-backs-quest-to-translate-mountains-of-c-into-safe-rust-with-ai/5290959",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "canonical-funds-ai-project-to-translate-legacy-c-code-into-rust",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2564,37 +3210,36 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "landslide-at-waste-landfill-in-guinea-capital-kills-at-least-30-people",
-    "title": "Landslide at Waste Landfill in Guinea Capital Kills at Least 30 People",
-    "summary": "A catastrophic landslide at a waste mound in Conakry, Guinea's capital, claimed at least 30 lives after the landfill structure collapsed.",
-    "theme": "Disaster",
-    "importance": 6.5,
+    "event_id": "siri-ai-integrates-google-gemini-llm-technology",
+    "title": "Siri AI integrates Google Gemini LLM technology",
+    "summary": "Apple's Siri AI system will be powered by Google's Gemini LLM with future focus on deep third-party app integration.",
+    "theme": "AI",
+    "importance": 7,
     "topics": [
-      "world"
+      "ai"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Guinea",
-      "landslide",
-      "Conakry",
-      "landfill",
-      "disaster"
+      "Siri",
+      "Google Gemini",
+      "Apple",
+      "LLM integration"
     ],
-    "url": "news/world/2026-08-24/#landslide-at-waste-landfill-in-guinea-capital-kills-at-least-30-people",
+    "url": "news/ai/2026-08-24/#siri-ai-integrates-google-gemini-llm-technology",
     "sources": [
       {
-        "label": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM0tsV05yazNDM012ZzdqN3pNd2tHMG9WVlhwZElYUWRqXzRZZzA3SG9sRmNlRVpoRVVHLWxuWU9kaXg2OTlTQkRpNTY4TGtZU1FIYTVsMFJzbm5UZmhkTXBjekVrdldqdzRWTU1uaFFnbXQtczNUNThvbGh5UE5IdjhoMXNqRThqY0ZNWmhnaFJTWXBpLUd6U0R1TQ?oc=5",
+        "label": "digitimes",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oTlBQQS1oZzRhS3lOWm1HZEhXUWJPbUQ4VXpSYXpkWVpGazlfVHVCekxPQjc2Z21FYWhxRk8zdjJFQ3NFTFZnaXItVXNPT0lGLV9lZ0RpNFJMblRoODB6OFRpaU84SV9OSVRn?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "landslide-at-waste-landfill-in-guinea-capital-kills-at-least-30-people",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "siri-ai-integrates-google-gemini-llm-technology",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2602,116 +3247,77 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "vietnamese-gen-z-mobilize-online-to-demand-justice-for-teen-killed-in-ex-politicians-car-crash",
-    "title": "Vietnamese Gen Z mobilize online to demand justice for teen killed in ex-politician's car crash",
-    "summary": "Young Vietnamese activists are using social media to pressure authorities for accountability in the death of a teenager hit by a former politician's vehicle.",
-    "theme": "Policy",
-    "importance": 6.5,
+    "event_id": "openai-voluntarily-limits-new-ai-model-releases-at-government-request",
+    "title": "OpenAI voluntarily limits new AI model releases at government request",
+    "summary": "OpenAI agreed to restrict new model deployments and work with government agencies on a formal review process.",
+    "theme": "AI",
+    "importance": 7,
     "topics": [
-      "world"
+      "ai"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Vietnam",
-      "Gen Z",
-      "accountability",
-      "justice",
-      "road safety"
+      "OpenAI",
+      "government regulation",
+      "model release",
+      "voluntary limits"
     ],
-    "url": "news/world/2026-08-24/#vietnamese-gen-z-mobilize-online-to-demand-justice-for-teen-killed-in-ex-politicians-car-crash",
+    "url": "news/ai/2026-08-24/#openai-voluntarily-limits-new-ai-model-releases-at-government-request",
     "sources": [
       {
-        "label": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BbnUxS0NBNWdwNHNIRllyTThBZFZFbmt1U21uMHNoQXBQWUhTZVJXREptUUFlY2lnRDk2QUFWYy0wTHJjZjJGZjdDVk1LWG9Cb3NEMnk5TEh5Zw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "vietnamese-gen-z-mobilize-online-to-demand-justice-for-teen-killed-in-ex-politicians-car-crash",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "israel-and-syria-conduct-high-level-talks-to-reduce-tensions-after-recent-airbase-bombing",
-    "title": "Israel and Syria conduct high-level talks to reduce tensions after recent airbase bombing",
-    "summary": "Senior Israeli and Syrian officials met to ease escalating tensions following an Israeli strike on a Syrian airbase.",
-    "theme": "Geopolitics",
-    "importance": 6.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Israel",
-      "Syria",
-      "military",
-      "negotiations"
-    ],
-    "url": "news/world/2026-08-24/#israel-and-syria-conduct-high-level-talks-to-reduce-tensions-after-recent-airbase-bombing",
-    "sources": [
-      {
-        "label": "Axios",
-        "url": "https://www.google.com/goto?url=CAESfAHrOzAVPNCK4GspsbbLL7z8lSLJ3aUSE_qZfkNIIXuCac8cniFCekOXYYSwrBDmLqxwwKhTkMmeZ2QMrHLCm-ZRL5uOdRB44S9Yndfs8SvXhd8CjOSOIDI8Au6rTvfY4MywmPtRfl7h38DUyrVKRbkoYD3bROHSIBcks4s",
+        "label": "Cybersecurity Dive",
+        "url": "https://www.google.com/goto?url=CAESjAEB6zswFVzXk7tL6Cjgg5_69q9zLUL6rAqWIIbyUOULj84jj-kF18LW0ZOXgHv5ETZMgMJJCLmE-leTpntrNVPLiM6IIZOea3cLAfs1Ikhy8lU3wfcm2z-V29drQafVmI0rf1C2RQfNUFrCQJsuxlGwrLDYpm2LW7zL8EMTU2RdfzAv5qM7x5csArd3NQ",
         "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "israel-and-syria-conduct-high-level-talks-to-reduce-tensions-after-recent-airbase-bombing",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "openai-voluntarily-limits-new-model-releases-at-government-request",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "OpenAI Voluntarily Limits New AI Model Releases at Government Request",
+    "updates_url": "news/ai/2026-08-23/#openai-voluntarily-limits-new-ai-model-releases-at-government-request"
   },
   {
     "date": "2026-08-24",
-    "event_id": "waste-dump-landslide-in-guinea-kills-30-after-heavy-rainfall",
-    "title": "Waste dump landslide in Guinea kills 30 after heavy rainfall",
-    "summary": "A landslide at a dump site in Conakry, Guinea killed 30 people following heavy rain, at a location the government had promised to relocate.",
-    "theme": "Disaster",
-    "importance": 6.5,
+    "event_id": "google-releases-gemini-36-flash-and-two-additional-new-models",
+    "title": "Google releases Gemini 3.6 Flash and two additional new models",
+    "summary": "Google introduced three new Gemini AI models including Gemini 3.6 Flash as its most powerful variant.",
+    "theme": "AI",
+    "importance": 7,
     "topics": [
-      "world"
+      "ai"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Guinea",
-      "landslide",
-      "Conakry",
-      "waste management",
-      "disaster"
+      "Google",
+      "Gemini 3.6 Flash",
+      "Gemini 3.5 Flash",
+      "LLM release"
     ],
-    "url": "news/world/2026-08-24/#waste-dump-landslide-in-guinea-kills-30-after-heavy-rainfall",
+    "url": "news/ai/2026-08-24/#google-releases-gemini-36-flash-and-two-additional-new-models",
     "sources": [
       {
-        "label": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/aug/23/landslide-waste-mound-conakry-guinea-kills-dozens",
+        "label": "The New York Times",
+        "url": "https://www.google.com/goto?url=CAESiQEB6zswFYQCjpqvw9cMSwoUk-uYzKJe4IidsnDe1EazrQlU-wyH5bi3ZKeTtbWeum6xdP95NOFMLvnp3dg2HT5YVBVjNrby8nr4ngclpodqCXeePtv77MiAo1o2ebqlUEcR7hq9T__Bbm1LII8EUccWtgbnpnjIsEOka8KrYXrODo28-Jb55c0Y-Q",
         "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "landslide-at-waste-landfill-in-guinea-capital-kills-at-least-30-people",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "google-releases-three-new-gemini-ai-models-including-gemini-36-flash",
     "related_title": "",
     "related_url": "",
-    "updates_title": "Landslide at Waste Landfill in Guinea Capital Kills at Least 30 People",
-    "updates_url": "news/world/2026-08-24/#landslide-at-waste-landfill-in-guinea-capital-kills-at-least-30-people"
+    "updates_title": "Google releases three new Gemini AI models including 3.6 Flash",
+    "updates_url": "news/ai/2026-08-22/#google-releases-three-new-gemini-ai-models-including-36-flash"
   },
   {
     "date": "2026-08-24",
@@ -2808,6 +3414,57 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "openai-launches-chatgpt-for-teens-with-built-in-educational-and-safety-protections",
+    "title": "OpenAI Launches ChatGPT for Teens with Built-In Educational and Safety Protections",
+    "summary": "OpenAI has introduced a teen-focused version of ChatGPT featuring parental controls and study-focused features.",
+    "theme": "AI",
+    "importance": 7,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "OpenAI",
+      "education",
+      "parental controls",
+      "safety",
+      "safety features",
+      "teenagers",
+      "teens"
+    ],
+    "url": "news/gpt/2026-08-24/#openai-launches-chatgpt-for-teens-with-built-in-educational-and-safety-protections",
+    "sources": [
+      {
+        "label": "OpenAI",
+        "url": "https://www.google.com/goto?url=CAESYwHrOzAVP0os6-p2113xucScVrkm6I9hcgRVLlfbouqVYaStZ5uaFZ_K-c8KqB2SC_KthWMTUkjDKiuokG5TQ09SD_isa_o4Kf9LS4yyCX_rlsBwbgBCcI6tbpDleJJFtkGrMA",
+        "origin": "discovery"
+      },
+      {
+        "label": "gHacks",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVHNHQWM4RUJqVldnc2RmRFJBSnhkM1VmelBacVVmaFdxbFRDVmh2eXBlcGFmZ3JfUmVLMkd1U0JBVTlXZHlwelQ0NTFycmZVdkR5Snk4V1kwa2hpX09YcTNfaVR2ZVpsLTU5NndraWduMF90azJ2OUxSVTg1UHJMd0RhZnh0MGJIVll2R0V5M09TeE5zTzVLNjVBZkgzSE50c1FWbjJfZVY1VGxuSGtHUDlYb0wzZXJxdFctYVNTR284UjVEaVE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Axios",
+        "url": "https://www.axios.com/2026/08/18/openai-chatgpt-for-teens",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "openais-chatgpt-for-teens-includes-guardrails-against-homework-assistance",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI introduces ChatGPT for Teens with enhanced safety guardrails",
+    "updates_url": "news/gpt/2026-08-23/#openai-introduces-chatgpt-for-teens-with-enhanced-safety-guardrails"
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "openai-rolls-out-computer-control-features-allowing-chatgpt-to-operate-mouse-and-keyboard",
     "title": "OpenAI Rolls Out Computer Control Features Allowing ChatGPT to Operate Mouse and Keyboard",
     "summary": "OpenAI deployed new functionality enabling ChatGPT to perform actions on a user's computer, with data collection for model training being a primary engineering challenge.",
@@ -2890,7 +3547,7 @@
     "date": "2026-08-24",
     "event_id": "shein-targets-27-billion-valuation-in-september-ipo",
     "title": "Shein targets $27 billion valuation in September IPO",
-    "summary": "Fast-fashion e-commerce company Shein is seeking a valuation of approximately $27 billion for its stock market debut.",
+    "summary": "Chinese fast-fashion retailer Shein is planning a London stock market debut with a valuation of up to £20 billion.",
     "theme": "Funding",
     "importance": 7,
     "topics": [
@@ -2904,10 +3561,12 @@
       "$27bn",
       "Hong Kong",
       "IPO",
+      "London",
       "Shein",
       "e-commerce",
       "fast fashion",
       "fast-fashion",
+      "stock market",
       "valuation"
     ],
     "url": "news/markets/2026-08-24/#shein-targets-27-billion-valuation-in-september-ipo",
@@ -2936,16 +3595,199 @@
         "label": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMXVURjhad0tzLVdBa3BhSHp0VVFjZGx3VWljcG9OM05wMk40cXRWcE55MzJSaVRoeWREb05UUmlBUlNxd2RCWWZXV2ZFd2g5a2ZUdWtJNURNQ1ZKZVlIOU1EcnNjNXpUS1hJOFdQdU9qSjhDUFVoWE96V3dnNElUUU02bUxfV19FbmMzZzhSNXJuWTBRTzlEbVhWQ0xuOHMtMWJwLXdRZWZpVFZvczJsN0VIWnZLVWVZX3BpaXBfRQ?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOblZERzFNaGIxMUx2MWsxQ3NqZEdGcldQQzJNdWJBbXpHekI4Z0Y2LVU3VHc5N0FkMHFZdzBOdFcwMjFDbG56UG5CZ3pudGpoby1lTzFtbEU0aDFBb2pWc2pLbHZ5bVhVbEkxcHNERm5iMENRTnp6aGpwQ21EdXhDYnZUcGJpcENzaHNZ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN0Z1OHJmbDhrOW9BbW5BUk1GRVZHOW1POTBUNWFaaVYwam5JUlZ2SnhKaGFfQWYxQmJSVlNtQm5hbTk0TXlVaFMxZUppQTJtVDg5aHdZalFZUDA5NW9feFpzZnh2NHRDZjUySWMwY240YjBVRURfVGdBV0ZxVl90MEg5Q3pkeFJhU2xBUkxXazZZZU0?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
     "lineage_id": "shein-targets-27-billion-valuation-in-september-ipo",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "global-markets-decline-as-iran-currency-hits-record-low-amid-sanctions-pressure",
+    "title": "Global Markets Decline as Iran Currency Hits Record Low Amid Sanctions Pressure",
+    "summary": "World stock markets fell while Iran's rial currency reached a record low amid U.S. sanctions preparations and persistent bond market pressure.",
+    "theme": "Markets & Geopolitics",
+    "importance": 7,
+    "topics": [
+      "markets",
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "world markets",
+      "Iran sanctions",
+      "rial currency",
+      "US policy",
+      "emerging markets"
+    ],
+    "url": "news/markets/2026-08-24/#global-markets-decline-as-iran-currency-hits-record-low-amid-sanctions-pressure",
+    "sources": [
+      {
+        "label": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQM1dReDZpZnhwWEQySC1XMWxPbjNmY2Zaa3pEbUJESmZHWkVJd21EelRubnpIY2d4Ulh0QTRRY05wQ1hGRkliWTdlbGVqSjlGMUFmRUgtZXY5ZnBXVVI3clJFcGZVQU5wclptaUlUTmdaNTJ5Q1p4bFB6V1hJVEtJZDRyZ1NmNjZRejdFNDNWQV9oMlhaRnNN?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "global-markets-decline-as-iran-currency-hits-record-low-amid-sanctions-pressure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "engineered-yeasts-convert-plastic-waste-and-crop-residue-into-edible-protein",
+    "title": "Engineered Yeasts Convert Plastic Waste and Crop Residue Into Edible Protein",
+    "summary": "Researchers at Southern Illinois University Carbondale have engineered yeasts to convert plastic waste and agricultural residue into edible proteins and food ingredients, creating a product called µBites. Developed with NASA support for food production in extreme environments, the technology uses hydrothermal dissolution to break down PET plastic and plant biomass, then deploys modified yeast strains to metabolize the resulting compounds.",
+    "theme": "Science & Sustainability",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "genetically engineered yeasts",
+      "plastic waste",
+      "agricultural waste",
+      "edible proteins",
+      "synthetic biology",
+      "sustainability"
+    ],
+    "url": "news/science/2026-08-24/#engineered-yeasts-convert-plastic-waste-and-crop-residue-into-edible-protein",
+    "sources": [
+      {
+        "label": "Bioengineer",
+        "url": "https://bioengineer.org/scientists-transform-plastic-bottles-into-cookies/",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-yeasts-pet-plastic-crop-protein.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "µBites: protein-rich cookie from waste carbon and yeast-derived ingredients",
+      "Engineered yeast strains: Saccharomyces cerevisiae, S. boulardii, Rhodosporidium toruloides",
+      "Feedstocks: PET plastic bottles and agricultural biomass like corn stalks",
+      "Applications: disaster zones, submarines, deep space missions",
+      "Presented at ACS Fall 2026 meeting, August 24, 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "engineered-yeasts-convert-plastic-waste-and-crop-residue-into-edible-protein",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "nanoparticle-flu-vaccine-protects-against-three-influenza-strains-in-mice",
+    "title": "Nanoparticle Flu Vaccine Protects Against Three Influenza Strains in Mice",
+    "summary": "Researchers at Georgia State University developed a nanoparticle-based flu vaccine that demonstrated protection against three influenza strains in mice. The platform uses a protein-delivery system distinct from traditional and mRNA approaches, potentially reducing the need for annual reformulation and vaccination frequency.",
+    "theme": "Science & Medicine",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "flu vaccine",
+      "nanoparticles",
+      "influenza",
+      "immunology",
+      "vaccine development"
+    ],
+    "url": "news/science/2026-08-24/#nanoparticle-flu-vaccine-protects-against-three-influenza-strains-in-mice",
+    "sources": [
+      {
+        "label": "Georgia State University News",
+        "url": "https://news.gsu.edu/2026/04/03/novel-flu-vaccine-offers-broad-protection-in-mice-study-finds/",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-nanoparticle-flu-vaccine-influenza-strains.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Protection demonstrated against three influenza strains in mice",
+      "Nanoparticle protein-delivery platform differs from traditional and mRNA methods",
+      "Potential to eliminate annual strain prediction and reformulation cycles"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "nanoparticle-flu-vaccine-protects-against-three-influenza-strains-in-mice",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "ai-tools-transform-scientific-discovery-by-generating-hypotheses-designing-experiments-and-pattern-detection",
+    "title": "AI tools transform scientific discovery by generating hypotheses, designing experiments, and pattern detection",
+    "summary": "New AI systems are accelerating discovery across scientific fields by automating hypothesis generation, experimental design, and data analysis.",
+    "theme": "Science",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "AI",
+      "scientific discovery",
+      "hypothesis generation",
+      "automation"
+    ],
+    "url": "news/science/2026-08-24/#ai-tools-transform-scientific-discovery-by-generating-hypotheses-designing-experiments-and-pattern-detection",
+    "sources": [
+      {
+        "label": "Stanford HAI",
+        "url": "https://www.google.com/goto?url=CAESgQEB6zswFbx9T-wiqUs0-TrTmzFJ_hDp1Ub0ELV9LAiHBb56pfR8gMWETFJbUOYBCvJ81HsnQWqMGdLbJ6BZHtSX3j-p1cHnIuWomvyv-E9YAoY3mUBVwDsd7gdQZFrbq9l0KZkKmcDVjN1exQMuNx5-MYlDKUlbNk884QbxSztdQR8",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "ai-is-accelerating-scientific-discovery-across-all-fields-through-hypothesis-generation-and-pattern-detection",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "AI tools transform scientific discovery by generating hypotheses and identifying patterns",
+    "updates_url": "news/science/2026-08-23/#ai-tools-transform-scientific-discovery-by-generating-hypotheses-and-identifying-patterns"
   },
   {
     "date": "2026-08-24",
@@ -2985,6 +3827,93 @@
     "related_url": "",
     "updates_title": "CISA Issues Critical Alerts for MLflow, Siemens PLCs, and CareCloud Breach",
     "updates_url": "news/security/2026-08-23/#cisa-issues-critical-alerts-for-mlflow-siemens-plcs-and-carecloud-breach"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "tiktok-settles-400-million-childrens-privacy-case-with-us-justice-department",
+    "title": "TikTok Settles $400 Million Children's Privacy Case with US Justice Department",
+    "summary": "TikTok agreed to pay $400 million to settle allegations of violating children's privacy regulations, with $300 million due immediately and $100 million contingent on a previous consent decree being vacated.",
+    "theme": "Security & Privacy",
+    "importance": 7,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "TikTok",
+      "privacy settlement",
+      "children's privacy",
+      "FTC",
+      "Musical.ly"
+    ],
+    "url": "news/security/2026-08-24/#tiktok-settles-400-million-childrens-privacy-case-with-us-justice-department",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "$300 million paid immediately, $100 million upon vacating prior consent decree",
+      "Accused of collecting children's data without parental notification or consent",
+      "Alleged failure to delete accounts when parents requested deletion",
+      "One of largest COPPA recoveries ever obtained by DOJ"
+    ],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "tiktok-settles-400-million-child-privacy-lawsuit-with-doj",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "TikTok settles $400 million child privacy lawsuit with DOJ",
+    "updates_url": "news/tech/2026-08-22/#tiktok-settles-400-million-child-privacy-lawsuit-with-doj"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "uat-10147-cyber-group-scales-server-attacks-with-ai-and-spectre-exploit",
+    "title": "UAT-10147 cyber group scales server attacks with AI and SPECTRE exploit",
+    "summary": "Chinese-speaking threat actor UAT-10147 targets Windows and Linux servers globally using AI-powered tools, SPECTRE malware, and SPECTRE exploit techniques for SEO fraud and data theft. Research by Cisco Talos disclosed August 24, 2026, revealed an exposed directory listing approximately 170,000 target URLs across education, media, technology, and gaming sectors.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "UAT-10147",
+      "SPECTRE",
+      "EDR bypass",
+      "Linux rootkit",
+      "web server attacks"
+    ],
+    "url": "news/security/2026-08-24/#uat-10147-cyber-group-scales-server-attacks-with-ai-and-spectre-exploit",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Approx. 170,000 target URLs in exposed directory across 17 files",
+      "Primary targets: Brazil, Bolivia, China, Canada, Vietnam",
+      "AI tools integrated: Metasploit, ysoserial, PentestGPT, DeepAudit for exploit refinement and payload generation",
+      "Malware deployed: Quasar RAT, SPECTRE cross-platform implant, BadIIS, Gh0stCringe, web shells",
+      "Top destination countries: U.S., India, U.K., Germany, Netherlands"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "uat-10147-cyber-group-scales-server-attacks-with-ai-and-spectre-exploit",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-24",
@@ -3039,6 +3968,60 @@
     "researched": true,
     "received_at": "2026-08-24T08:33:54.796486+00:00",
     "lineage_id": "china-launches-polar-lunar-exploration-mission-to-detect-water-ice",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "taiwan-indicts-nvidia-employees-for-illegal-ai-server-exports-to-china",
+    "title": "Taiwan indicts NVIDIA employees for illegal AI server exports to China",
+    "summary": "Taiwan prosecutors indicted nine people on August 24, 2026, including one NVIDIA Taiwan employee and two Super Micro Taiwan employees, for illegally exporting 74 AI servers equipped with NVIDIA chips to China. The scheme falsely claimed servers would remain in Taiwan while routing them through Indonesia, Japan, and Hong Kong to Chinese customers.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "NVIDIA",
+      "Taiwan",
+      "export controls",
+      "China",
+      "AI chips"
+    ],
+    "url": "news/tech/2026-08-24/#taiwan-indicts-nvidia-employees-for-illegal-ai-server-exports-to-china",
+    "sources": [
+      {
+        "label": "Taipei Times",
+        "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/08/24/2003863053",
+        "origin": "research"
+      },
+      {
+        "label": "The Straits Times",
+        "url": "https://www.straitstimes.com/asia/east-asia/update-1-taiwan-indicts-nine-over-alleged-illegal-export-of-ai-servers-to-china",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2242415/taiwan-reportedly-indicted-nvidia-employees-for-exporting-prohibited-ai-servers-to-china/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Nine indicted including one NVIDIA and two Super Micro Taiwan employees",
+      "130 Super Micro B300 servers ordered; 74 exported to China, 56 intercepted in Japan",
+      "Charged with breach of trust and document forgery",
+      "Violated US export controls in effect since 2022",
+      "Exports routed through Indonesia, Japan, Hong Kong to reach Chinese customers"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "taiwan-indicts-nvidia-employees-for-illegal-ai-server-exports-to-china",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3328,6 +4311,49 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "argonne-national-laboratory-advances-autonomous-scientific-discovery-with-ai-driven-robotics",
+    "title": "Argonne National Laboratory Advances Autonomous Scientific Discovery With AI-Driven Robotics",
+    "summary": "Argonne National Laboratory is integrating AI-driven robotics to enable autonomous scientific discovery and revolutionize experimentation workflows.",
+    "theme": "AI Research",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Argonne National Laboratory",
+      "autonomous discovery",
+      "AI robotics",
+      "scientific experimentation"
+    ],
+    "url": "news/science/2026-08-24/#argonne-national-laboratory-advances-autonomous-scientific-discovery-with-ai-driven-robotics",
+    "sources": [
+      {
+        "label": "Argonne National Laboratory (.gov)",
+        "url": "https://www.google.com/goto?url=CAESjwEB6zswFQomrhGR9bJYgfD8GvuGzc5_SdMICRrbpZd6DqQHGhFc5o4rwIDeMiA4XJe9d35DIqTtmw-rm02eVgZcROPtaoSppxKBWo1XL9u3z0esfa1jW_25sus1PnA65_ZQ34edXHlmi2uMUyrNIwuGAZJznGFlTzAsW-gm8ob1QQZEB4_21yXeHkukJqlsew",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "DOE funding for 12+ research projects in AI-enabled scientific discovery",
+      "Genesis Mission goal: double U.S. research productivity within a decade",
+      "Prior battery study: 6,000+ chemical experiments completed in five months using AI and robotics",
+      "Research areas: fusion materials, enzyme discovery, energy, biology, materials science",
+      "Argonne leading Genesis Mission's Transformational AI component"
+    ],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "argonne-national-laboratory-pioneers-autonomous-scientific-discovery",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Argonne National Laboratory Advances Autonomous Scientific Discovery with AI-Driven Robotics",
+    "updates_url": "news/science/2026-08-23/#argonne-national-laboratory-advances-autonomous-scientific-discovery-with-ai-driven-robotics"
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "cisa-urges-immediate-patching-of-exploited-microsoft-vmware-and-apple-vulnerabilities",
     "title": "CISA urges immediate patching of exploited Microsoft, VMware, and Apple vulnerabilities",
     "summary": "The US Cybersecurity and Infrastructure Security Agency called for urgent patching of four actively exploited vulnerabilities in major software vendors.",
@@ -3460,6 +4486,44 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "teachers-targeted-by-ai-generated-sexual-deepfakes-in-schools",
+    "title": "Teachers Targeted by AI-Generated Sexual Deepfakes in Schools",
+    "summary": "Teachers are becoming targets of sexualized AI-generated deepfake content, with limited accountability mechanisms available to address the abuse.",
+    "theme": "AI Safety & Abuse",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "deepfakes",
+      "teachers",
+      "sexual content",
+      "AI abuse",
+      "schools"
+    ],
+    "url": "news/tech/2026-08-24/#teachers-targeted-by-ai-generated-sexual-deepfakes-in-schools",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/teachers-deepfake-ai-students-content/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "teachers-targeted-by-ai-generated-sexual-deepfakes-in-schools",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "ukraine-widens-military-targets-and-accepts-higher-civilian-casualties-in-war",
     "title": "Ukraine Widens Military Targets and Accepts Higher Civilian Casualties in War",
     "summary": "Ukraine has expanded its military targeting strategy and appears to have broadened its tolerance for civilian casualties in its ongoing conflict with Russia.",
@@ -3573,6 +4637,142 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "uk-prime-minister-burnham-visits-ukraine-as-russia-escalates-warnings",
+    "title": "UK Prime Minister Burnham Visits Ukraine as Russia Escalates Warnings",
+    "summary": "UK Prime Minister Andy Burnham arrived in Ukraine amid rising Russian military warnings, demonstrating continued British support for Ukrainian resistance.",
+    "theme": "World",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Andy Burnham",
+      "Ukraine",
+      "Russia",
+      "UK support",
+      "war"
+    ],
+    "url": "news/world/2026-08-24/#uk-prime-minister-burnham-visits-ukraine-as-russia-escalates-warnings",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWHBHU1dYVU50Z0k4YUx6eklTYmIyS0tSUXZ1aXpFWWlMVnhBc1NHV0N0SEw1anpoUE82TmNuV2dUd19RaWdLT3RLSG51SzZLVnRVd0d1S2tuN3luQzhiTEZ6clhMUEV6UmhmQWlLYjF3OFk3ejQ2UFNhUkRTQXZrZUctVG5rLXIxQTJJ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "uk-prime-minister-burnham-visits-ukraine-as-russia-escalates-warnings",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "european-leaders-join-zelenskyy-in-kyiv-for-ukraine-independence-day-celebration",
+    "title": "European Leaders Join Zelenskyy in Kyiv for Ukraine Independence Day Celebration",
+    "summary": "Leaders from six European countries visited Kyiv to celebrate Ukraine's Independence Day alongside President Zelenskyy as the Russian invasion continues.",
+    "theme": "World",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Zelenskyy",
+      "European leaders",
+      "Independence Day",
+      "Russia",
+      "diplomatic show of support"
+    ],
+    "url": "news/world/2026-08-24/#european-leaders-join-zelenskyy-in-kyiv-for-ukraine-independence-day-celebration",
+    "sources": [
+      {
+        "label": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRzFlRGlTVUtGOVc1TVV2TGQ4M3VicUJRbzBPV0VTY1hldnlvb000QWEtOXpVc2NnYlNJaVRnVDNhTjNqbTdkTDdXT0l2SXh5enNaRzZFVzRGVi1teUM0bUpDdzkyWTFNN1p4SHBNNVRxUVVzRGtfRnZ0amg0T2ZueVVtQTNSbV96Z0dBdjd0eHhJeWxrTE0zY1NfWWJzT2FG?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "european-leaders-join-zelenskyy-in-kyiv-for-ukraine-independence-day-celebration",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "uk-prime-minister-burnham-visits-kyiv-as-russia-escalates-rhetoric",
+    "title": "UK Prime Minister Burnham Visits Kyiv as Russia Escalates Rhetoric",
+    "summary": "British Prime Minister Andy Burnham visited Kyiv on August 18, 2026, pledging 100% support for Ukraine as Russia escalated warnings over British military involvement. Burnham announced UK authorization for MBDA to share classified information to help Ukraine and France establish local SCALP missile production.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Andy Burnham",
+      "United Kingdom",
+      "Ukraine",
+      "Kyiv",
+      "Russia"
+    ],
+    "url": "news/world/2026-08-24/#uk-prime-minister-burnham-visits-kyiv-as-russia-escalates-rhetoric",
+    "sources": [
+      {
+        "label": "AOL (Reuters)",
+        "url": "https://www.aol.com/articles/uk-continue-support-ukraine-100-112209000.html",
+        "origin": "research"
+      },
+      {
+        "label": "TRT World",
+        "url": "https://www.trtworld.com/article/cd04533d57e9",
+        "origin": "research"
+      },
+      {
+        "label": "Times of India",
+        "url": "https://timesofindia.indiatimes.com/videos/international/feel-sorry-for-britain-lavrov-says-uk-could-be-treated-as-a-war-participant-in-ukraine/videoshow/133336418.cms",
+        "origin": "research"
+      },
+      {
+        "label": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/24/world/europe/uk-andy-burnham-ukraine-russia.html",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "First international visit by PM Burnham since taking office",
+      "Visit to Kyiv on August 18, 2026, amid Russian threats over British drone use",
+      "UK will authorize MBDA to release classified data for SCALP missile production",
+      "Coalition of the Willing chaired by Britain, France, and Germany",
+      "Civilian deaths in Ukraine at highest levels since early 2022"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "uk-prime-minister-burnham-visits-kyiv-as-russia-escalates-rhetoric",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "moderna-and-mercks-cancer-vaccine-shows-clinical-trial-success",
     "title": "Moderna and Merck's cancer vaccine shows clinical trial success",
     "summary": "Moderna and Merck announced positive Phase 3 trial results for intismeran autogene, their mRNA-based cancer vaccine, showing it reduced recurrence or spread of surgically removed melanoma in 1,137 volunteers. The achievement overcame internal skepticism from company leadership in early 2023.",
@@ -3609,6 +4809,135 @@
     "researched": true,
     "received_at": "2026-08-24T08:33:54.796486+00:00",
     "lineage_id": "moderna-and-mercks-cancer-vaccine-shows-clinical-trial-success",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "iran-linked-hackers-shut-down-uk-power-plant-for-four-days",
+    "title": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days",
+    "summary": "Iran-linked hackers shut down a UK power plant for four days in July 2026, as reported on August 22, 2026. The attack raised concerns about operational resilience of smaller UK power operators and represents an expansion of Iranian cyber operations into British critical infrastructure.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Iran hackers",
+      "UK power plant",
+      "cyberattack",
+      "critical infrastructure",
+      "operational disruption"
+    ],
+    "url": "news/security/2026-08-24/#iran-linked-hackers-shut-down-uk-power-plant-for-four-days",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Four-day operational shutdown in July 2026",
+      "Attack attributed to Iran-linked hackers",
+      "Facility was a smaller power plant, not major national infrastructure",
+      "Expansion of Iranian cyber activity into UK following pattern of GCC, US, and European targeting"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "iran-linked-hackers-shut-down-uk-power-plant-for-four-days",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "origin-energy-confirms-major-data-breach-affecting-900000-customer-accounts",
+    "title": "Origin Energy Confirms Major Data Breach Affecting 900,000 Customer Accounts",
+    "summary": "Australian energy company Origin Energy disclosed on July 28, 2026, a data breach affecting approximately 900,000 current and former customers. The breach exposed names, addresses, dates of birth, phone numbers, account details, and partial payment card information; the incident was confirmed as credible on July 22 after initial identification in early July.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Origin Energy",
+      "data breach",
+      "900,000 customers",
+      "cybersecurity incident"
+    ],
+    "url": "news/security/2026-08-24/#origin-energy-confirms-major-data-breach-affecting-900000-customer-accounts",
+    "sources": [
+      {
+        "label": "Rescana Solutions",
+        "url": "https://www.rescana.com/post/origin-energy-data-breach-2026-analysis-of-cybersecurity-incident-affecting-900-000-customer-accounts",
+        "origin": "research"
+      },
+      {
+        "label": "Rescana",
+        "url": "https://www.rescana.com/post/origin-energy-data-breach-2026-analysis-of-cybersecurity-incident-affecting-900-000-customer-accounts",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "900,000 current and former customers affected",
+      "Data compromised: names, addresses, DOB, phone, account details, partial card/bank info",
+      "Breach first identified early July, confirmed credible July 22, disclosed July 28",
+      "Investigations by Australian Cyber Security Centre, AFP, and other authorities"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "origin-energy-confirms-major-data-breach-affecting-900000-customer-accounts",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "nasas-nancy-grace-roman-space-telescope-positioned-to-discover-exoplanets-and-dark-matter",
+    "title": "NASA's Nancy Grace Roman Space Telescope Positioned to Discover Exoplanets and Dark Matter",
+    "summary": "The Nancy Grace Roman Space Telescope is expected to discover up to 200,000 new exoplanets and provide insights into dark matter and dark energy.",
+    "theme": "Science & Space",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Nancy Grace Roman Space Telescope",
+      "NASA",
+      "exoplanets",
+      "dark matter",
+      "dark energy",
+      "space mission"
+    ],
+    "url": "news/tech/2026-08-24/#nasas-nancy-grace-roman-space-telescope-positioned-to-discover-exoplanets-and-dark-matter",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/nasa-nancy-grace-roman-space-telescope-hidden-facets-of-universe/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T10:25:52.840188+00:00",
+    "lineage_id": "nasas-nancy-grace-roman-space-telescope-positioned-to-discover-exoplanets-and-dark-matter",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
