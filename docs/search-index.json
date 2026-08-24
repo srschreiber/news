@@ -1,44 +1,6 @@
 [
   {
     "date": "2026-08-24",
-    "event_id": "conservation-approaches-direct-protection-for-hunted-and-collected-species",
-    "title": "Conservation Approaches: Direct Protection for Hunted and Collected Species",
-    "summary": "Species facing hunting and collection pressures require direct protection measures as part of conservation strategy.",
-    "theme": "Conservation",
-    "importance": 2,
-    "topics": [
-      "conservation"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "species protection",
-      "hunting",
-      "conservation",
-      "habitats"
-    ],
-    "url": "news/conservation/2026-08-24/#conservation-approaches-direct-protection-for-hunted-and-collected-species",
-    "sources": [
-      {
-        "label": "Encyclopedia Britannica",
-        "url": "https://www.google.com/goto?url=CAESggEB6zswFXhTzCfnA4uC74U_bJW8QIpnk-dOdkr7NMzjVHMARfUCPEP5Idy36KlmHVcOYAiUHZNxPgJJkN4AGrAmzKmrrtkxq-ZXvAJw5zpHYmXd7hYGD_YiLSOVPRkfAUVc4K2sxf3MnirnZz0E0FUtTEeDMsu0FcjiqC-KJccvJLKA",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T14:30:36.031496+00:00",
-    "lineage_id": "conservation-fundamentals-protecting-species-habitats-and-biodiversity",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Conservation strategies for protecting species, habitats, and biodiversity",
-    "updates_url": "news/conservation/2026-08-20/#conservation-strategies-for-protecting-species-habitats-and-biodiversity"
-  },
-  {
-    "date": "2026-08-24",
     "event_id": "wildlife-conservation-and-zoology-career-opportunities",
     "title": "Wildlife Conservation and Zoology Career Opportunities",
     "summary": "Zoology and wildlife conservation careers offer diverse roles and skill requirements for those seeking to protect animals and ecosystems.",
@@ -127,40 +89,113 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "q2-2026-email-threat-landscape-shaped-by-fallout-from-microsoft-digital-crimes",
-    "title": "Q2 2026 email threat landscape shaped by fallout from Microsoft Digital Crimes",
-    "summary": "April–June 2026 email security trends reflect ongoing consequences of Microsoft's Digital Crimes unit actions.",
-    "theme": "Security",
-    "importance": 4,
+    "event_id": "obituary-harry-green-british-conservationist-and-naturalist",
+    "title": "Obituary: Harry Green, British conservationist and naturalist",
+    "summary": "Harry Green, a self-taught British naturalist with encyclopedic knowledge of wildlife, died after a lifetime spent studying the natural world in Worcestershire.",
+    "theme": "Conservation",
+    "importance": 3,
     "topics": [
-      "email-security"
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Harry Green",
+      "naturalist",
+      "wildlife",
+      "conservation"
+    ],
+    "url": "news/conservation/2026-08-24/#obituary-harry-green-british-conservationist-and-naturalist",
+    "sources": [
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/environment/2026/aug/24/harry-green-obituary",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "obituary-harry-green-british-conservationist-and-naturalist",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "vaultwarden-migration-to-postgresql-for-team-scaling",
+    "title": "Vaultwarden migration to PostgreSQL for team scaling",
+    "summary": "Technical guidance for migrating the Vaultwarden password manager to PostgreSQL to support larger team deployments.",
+    "theme": "Database",
+    "importance": 3,
+    "topics": [
+      "postgres"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "email threats",
-      "Q2 2026",
-      "Microsoft",
-      "threat landscape"
+      "Vaultwarden",
+      "PostgreSQL",
+      "migration"
     ],
-    "url": "news/email-security/2026-08-24/#q2-2026-email-threat-landscape-shaped-by-fallout-from-microsoft-digital-crimes",
+    "url": "news/postgres/2026-08-24/#vaultwarden-migration-to-postgresql-for-team-scaling",
     "sources": [
       {
-        "label": "Microsoft",
-        "url": "https://www.google.com/goto?url=CAESpAEB6zswFSLORdo5jRAcTnV32dYpvDIhd9ZqhllBJ1bFtJSmc-XiiELkiBNNU37xfzXT99G790jJuIKX1sQSHEGBdOLf0Zjg_-IRuVnn8xgsEsp888FTfsN0tya7X3ty6r9m-nNjS_EKTkjYioMAFiiXX6D0x1JQTlFaTrIFyh3WhnIYziiB0Ua9d5z55rv11wmrz8_DCTXnvnvgY5ilVoaBQSoqXQ",
-        "origin": "discovery"
+        "label": "tech-insider.org",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoZnJYZ2ZwcEVjWHA5UHlnS2d2WE9XYzI0NTRmeGJaWlV2TlBWTUVGc2JXYjVMVjREZ0luX2dESU4xYW9DVXFJRXBhSVNRakdEMWwtMVpoWU1TZWowR3lVQ2hMLS1uTlc4VTZYQzBxeVdGT1dpRzYzSmJXQUY?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T10:25:52.840188+00:00",
-    "lineage_id": "email-threat-landscape-q2-2026-trends-and-insights",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "vaultwarden-migration-to-postgresql-for-team-scaling",
     "related_title": "",
     "related_url": "",
-    "updates_title": "Q2 2026 Email Threat Landscape: Post-Microsoft Breach Trends and Insights",
-    "updates_url": "news/email-security/2026-08-20/#q2-2026-email-threat-landscape-post-microsoft-breach-trends-and-insights"
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "linux-73-kernel-shows-mixed-performance-results-in-early-benchmarks",
+    "title": "Linux 7.3 kernel shows mixed performance results in early benchmarks",
+    "summary": "Early benchmarks of Linux 7.3 kernel reveal performance improvements in some areas alongside regressions in others.",
+    "theme": "Infrastructure",
+    "importance": 4,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Linux kernel",
+      "performance",
+      "benchmarks"
+    ],
+    "url": "news/postgres/2026-08-24/#linux-73-kernel-shows-mixed-performance-results-in-early-benchmarks",
+    "sources": [
+      {
+        "label": "Phoronix",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5pMklPa0RtYnhrM0pCRlNBOE9VbDlxRWlSVGF3ZmtydmpPQWljcGxmTkpacE12YmowR05qcWwyX2NKMGQ2OVI4TGV0SWMxemR3N05yVmJpdWd6UUFIdmxsR19XMWdQY3VrSzJj?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "linux-73-kernel-shows-mixed-performance-results-in-early-benchmarks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-24",
@@ -204,7 +239,7 @@
     "date": "2026-08-24",
     "event_id": "university-of-idaho-researchers-investigate-wildfire-risks-response-and-community-preparedness",
     "title": "University of Idaho researchers investigate wildfire risks, response, and community preparedness",
-    "summary": "University experts study wildfire behavior, smoke impacts, ecology, and safety to inform public preparedness and risk reduction.",
+    "summary": "Researchers at the University of Idaho study wildfire behavior, smoke, ecology, and community preparedness to mitigate wildfire risks.",
     "theme": "Climate",
     "importance": 5,
     "topics": [
@@ -216,10 +251,13 @@
     ],
     "primary_feed": "environment",
     "keywords": [
-      "wildfire",
+      "University of Idaho",
+      "ecology",
       "fire ecology",
       "public safety",
-      "research"
+      "research",
+      "risk mitigation",
+      "wildfire"
     ],
     "url": "news/climate-resilience/2026-08-24/#university-of-idaho-researchers-investigate-wildfire-risks-response-and-community-preparedness",
     "sources": [
@@ -227,16 +265,65 @@
         "label": "University of Idaho",
         "url": "https://www.google.com/goto?url=CAESbQHrOzAVdIVn0_nVNra7Nz_dthVPWsq4kx-iaQz91_9hZxfTguCA8iDu8LlGf901Yi9-1w_ZpsvIFA0qC5LR5_C4J141A-YtPueAhLyHfCXayOxc18bzvnAXYPGIzr3fmMlqqpzcF8FNF5ADNKE",
         "origin": "discovery"
+      },
+      {
+        "label": "University of Idaho",
+        "url": "https://www.google.com/goto?url=CAESbQHrOzAVrKNojwVPo7cTw0hMUGs5RfsB73Muwh6_DMjwkE7UJg72Jq-s7erUvDYZNZ3poCLNb38sA9rNqefIY3sxdHTf6zCB1QQEktmwwOFdBqDixwbqNO9WZJRqbqnDw50mBHbZCeHxyXvdpFQ",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "university-of-idaho-experts-address-wildfire-risks-and-community-response",
     "related_title": "",
     "related_url": "",
     "updates_title": "University of Idaho Wildfire Risk Research",
     "updates_url": "news/climate-resilience/2026-08-22/#university-of-idaho-wildfire-risk-research"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "wildland-fire-research-priorities-water-quality-supply-and-ecosystem-health",
+    "title": "Wildland fire research priorities: water quality, supply, and ecosystem health",
+    "summary": "Research examines how wildfires affect water quality, supply, and overall ecosystem health in wildland areas.",
+    "theme": "Climate",
+    "importance": 5,
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "ecosystem health",
+      "fire research",
+      "research",
+      "water quality",
+      "wildfire"
+    ],
+    "url": "news/climate-resilience/2026-08-24/#wildland-fire-research-priorities-water-quality-supply-and-ecosystem-health",
+    "sources": [
+      {
+        "label": "U.S. Environmental Protection Agency (.gov)",
+        "url": "https://www.google.com/goto?url=CAESgAEB6zswFS-38AlQZdcm5oWPzLesyAGLoa5oID0Slmx6mzm1MNEiUMmBTyvdQivZad9RPjercAwrlxYXtnVgwLpTpe3u5GrTR-xHp2mgACfnnKLRVriUlVXuI762JvUUaXjN1-KcHUp_9NKKREvoYcwLDVSrjbemo2F4tEQPtoyhrA",
+        "origin": "discovery"
+      },
+      {
+        "label": "U.S. Environmental Protection Agency (.gov)",
+        "url": "https://www.google.com/goto?url=CAESgAEB6zswFf88TD7_PtlzCWRmIgUbJDu7ondEr6q6jGLWcyccQecR75d-66Vg1GY8JGr0vWNGfZ5Q9mvkrNB5_ginoUKQhLMIwJnLR_HofOK4617wahP-_u6NzqbvAiH-udJYmyLqBpAMWrWMhW9bV35KT0eB2M96guX2xWLTApFXeQ",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "wildland-fire-research-priorities-for-water-quality-and-ecosystem-health",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Wildland Fire Research: Water and Ecosystem Effects",
+    "updates_url": "news/climate-resilience/2026-08-22/#wildland-fire-research-water-and-ecosystem-effects"
   },
   {
     "date": "2026-08-24",
@@ -274,44 +361,6 @@
     "related_url": "",
     "updates_title": "Forest fires in India: types, causes, impacts, and mitigation initiatives",
     "updates_url": "news/climate-resilience/2026-08-20/#forest-fires-in-india-types-causes-impacts-and-mitigation-initiatives"
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "environmental-impacts-of-wildfires-air-quality-water-and-habitat-loss",
-    "title": "Environmental Impacts of Wildfires: Air Quality, Water, and Habitat Loss",
-    "summary": "Wildfires degrade air and water quality, alter vegetation patterns, and destroy critical wildlife habitats.",
-    "theme": "Climate Resilience",
-    "importance": 5.0,
-    "topics": [
-      "climate-resilience"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "wildfire impacts",
-      "air quality",
-      "water quality",
-      "habitat destruction"
-    ],
-    "url": "news/climate-resilience/2026-08-24/#environmental-impacts-of-wildfires-air-quality-water-and-habitat-loss",
-    "sources": [
-      {
-        "label": "NC State University",
-        "url": "https://www.google.com/goto?url=CAESggEB6zswFbvKspuhTL3DiRbRwQfeEu0BC2VTLqJSMLWRl0K6PLaM_JIMxmWw4ymYjoyYUhYOK_rnthVcWZQEOQuNRUs-yFvV_KTieoJkBcGLXa9POk6W1_IL4R9fzYW1lY0C9RmFypso2l-ntrO0BVIk6LUO4-SCiNQ8BZaOPxRMoswv",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
-    "lineage_id": "environmental-impacts-of-wildfires-air-quality-water-and-habitat-loss",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
   },
   {
     "date": "2026-08-24",
@@ -596,7 +645,7 @@
     "date": "2026-08-24",
     "event_id": "integration-of-fire-ecology-and-freshwater-ecosystems-knowledge-gaps-and-research-priorities",
     "title": "Integration of fire ecology and freshwater ecosystems: knowledge gaps and research priorities",
-    "summary": "Academic research examines the interconnection between increasing wildfires and freshwater ecosystem health in North America.",
+    "summary": "Research identifies critical knowledge gaps in understanding how wildfires interact with freshwater ecosystems across North America.",
     "theme": "Climate",
     "importance": 5.5,
     "topics": [
@@ -608,10 +657,11 @@
     ],
     "primary_feed": "environment",
     "keywords": [
+      "North America",
       "fire ecology",
       "freshwater ecosystems",
       "wildfire impacts",
-      "North America"
+      "wildfires"
     ],
     "url": "news/climate-resilience/2026-08-24/#integration-of-fire-ecology-and-freshwater-ecosystems-knowledge-gaps-and-research-priorities",
     "sources": [
@@ -619,11 +669,16 @@
         "label": "Wiley Online Library",
         "url": "https://www.google.com/goto?url=CAESbQHrOzAVqLb03jIfztuGulhmlPgibrtxULei_9wTZqQBGW2wFfhTU5RCvr8ECHHN-gpq4CxDUeCoNtmUBl2zx_Zjy5ZetR79ne2IaX52BA7Df6wZQGPJ7uH_PthnrN-vsbuNLiIRdVI3p34-X6c",
         "origin": "discovery"
+      },
+      {
+        "label": "Wiley Online Library",
+        "url": "https://www.google.com/goto?url=CAESbQHrOzAV5goloZLiRtkLDqgSjIhpKQqUxudZFWOQ73zcoRXIh6GqufHtYxAcrZj84jEa09rUCDy0FgCtmS4YeNAJUZP87y1qksArseDujz1MLdSuGp0KDdLmwm1mk2fbcSXBu6O6HgXck4Yuscs",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "wildland-fire-research-priorities-for-water-quality-and-ecosystem-health",
     "related_title": "",
     "related_url": "",
@@ -634,7 +689,7 @@
     "date": "2026-08-24",
     "event_id": "forest-recovery-after-wildfires-hidden-life-persists-in-charred-landscapes",
     "title": "Forest Recovery After Wildfires: Hidden Life Persists in Charred Landscapes",
-    "summary": "Despite appearing barren immediately after wildfire, forests retain much living material and begin natural recovery.",
+    "summary": "Study of post-wildfire forest recovery reveals that despite apparent devastation, significant life and vegetation remain and begin regeneration.",
     "theme": "Climate Resilience",
     "importance": 5.5,
     "topics": [
@@ -646,9 +701,13 @@
     ],
     "primary_feed": "environment",
     "keywords": [
-      "wildfire recovery",
+      "ecosystem resilience",
+      "forest recovery",
       "forest regeneration",
-      "post-fire ecosystems"
+      "post-fire ecosystems",
+      "vegetation",
+      "wildfire recovery",
+      "wildfires"
     ],
     "url": "news/climate-resilience/2026-08-24/#forest-recovery-after-wildfires-hidden-life-persists-in-charred-landscapes",
     "sources": [
@@ -656,11 +715,16 @@
         "label": "Le Monde.fr",
         "url": "https://www.google.com/goto?url=CAES4gEB6zswFfArNJwNYqTlsppfMElRq3cLE42FyY_MKNPp8XSq2hEHrZ5oWD_EjpJr-ropthTV0XlRQ3ghT-CRCRQRZUCZlHBS2mK2fLevod2U1GvqhvCNm86e1DyNRoijOdH9QP-zWvbbyoXnPbiphCgkhjUKVhiSrlUIwjIpTDoMjLN7bastTsq0EgtgKZF-vQoTySslc8zZEvNxckkk0BPgg8kLDgfvJpUmmFs-jQ32IuqPqPHmV8nJNqNUeOp7fcn_oJZKqxDgcshOzzbhvlKJUgZGYE0faHVvamQHfvh1K9yP",
         "origin": "discovery"
+      },
+      {
+        "label": "Le Monde.fr",
+        "url": "https://www.google.com/goto?url=CAES4gEB6zswFYo1AxO6jVX65af1eybYKyIgxr0u69PQ4nxAanjTPxlt-MXeGBzLkAZlomC4MGgnGnlYirqvxAPxJS_Qsott3ug95tzMpt-nNUElz3MaE5qrusc10Ec8r_6nfAQ1nXEb7aKRhNgVZI-9BKfMqLvK0H2CRFtVFEOOeuLXdqAqOtL3tUWD4u5oREUYPHvF8vAT2SSIqNUBlhelXCVdWQwhbOs1CbhpPPJykkKMrkx8bDORDq8940y06dQmEtoXpTBDhS7rTwuh1c1hIRaspFajYAi5qyh0atL4VMHrRpTi",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "forest-recovery-after-wildfires-hidden-life-persists",
     "related_title": "",
     "related_url": "",
@@ -671,7 +735,7 @@
     "date": "2026-08-24",
     "event_id": "nsf-grant-supports-uc-merced-research-into-wildfire-behavior-and-fuel-treatment-effects",
     "title": "NSF Grant Supports UC Merced Research into Wildfire Behavior and Fuel Treatment Effects",
-    "summary": "An NSF-funded project at UC Merced will investigate predictive models for wildfire behavior and ecological outcomes of fuel treatments.",
+    "summary": "A National Science Foundation grant supports a UC Merced-led project to predict wildfire behavior and assess ecological effects of fuel treatments.",
     "theme": "Climate Resilience",
     "importance": 5.5,
     "topics": [
@@ -684,9 +748,11 @@
     "primary_feed": "environment",
     "keywords": [
       "NSF",
+      "NSF grant",
       "UC Merced",
+      "fuel treatment",
       "wildfire modeling",
-      "fuel treatment"
+      "wildfire prediction"
     ],
     "url": "news/climate-resilience/2026-08-24/#nsf-grant-supports-uc-merced-research-into-wildfire-behavior-and-fuel-treatment-effects",
     "sources": [
@@ -694,11 +760,16 @@
         "label": "UC Merced",
         "url": "https://www.google.com/goto?url=CAESqQEB6zswFQZdqn3nwVnHXYPOP1QKzkERVEf6T_Z_r4aveUbO_geXxh-zP37G81NIqvQo3-nFSHmsV-A-0QZobbuW70pWpXhuKpFgbGBtexfKvtfwRGH54jw1x6_YY0DK89-X0WjTdx_B-wuHB4oEQ41qiANSwkPToQztRVABDcdYL3ZFAROT6Pug9PQmxs20ppbW_5nFBVKcA2bfotpz1ubdDt5HKNwE5Ook",
         "origin": "discovery"
+      },
+      {
+        "label": "UC Merced",
+        "url": "https://www.google.com/goto?url=CAESqQEB6zswFctKvF3epg_uD8xcfSfwCfTRASXdqBEgthyPn1-QveCxsjucVaXYKhEyuPpDYr-_KX6Wy2bfvO2XGBlpVdHU51STbNRqlVXAqbro0nNf0t6KqokO4-YFbjtS-lDFeK6RmgySOYwhzoubNX16YovPqtl8dWqW_ONuMKowBA9vsQkA5Al_H5rrlTa6XFUu71Dvz7kXScIuZdxwUWc1NW2PsY84VWjQ",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "nsf-grant-funds-uc-merced-research-on-wildfire-behavior-and-fuel-treatments",
     "related_title": "",
     "related_url": "",
@@ -1063,43 +1134,6 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "anthropics-anticipated-ipo-could-surpass-spacexs-valuation-record",
-    "title": "Anthropic's anticipated IPO could surpass SpaceX's valuation record",
-    "summary": "Anthropic's potential initial public offering could achieve a valuation exceeding SpaceX's record IPO.",
-    "theme": "AI",
-    "importance": 6,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "IPO",
-      "valuation",
-      "SpaceX"
-    ],
-    "url": "news/anthropic/2026-08-24/#anthropics-anticipated-ipo-could-surpass-spacexs-valuation-record",
-    "sources": [
-      {
-        "label": "The Neuron",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XNzZPM1lGeDY5LWtpUXdxVFpHR0d4cFNzY1BlcklfT1REOFh6Ml92ZUtodTExQld0WlpxVGtHZ0JLVVBZQjQ3UVNKaTZHWEJ4OVl4RHZOSDFGUlBQMDJIaFFvMTlUYW1tbkdCaVBGTmhXcDl3M2tFME50ZGxZaGM?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T10:25:52.840188+00:00",
-    "lineage_id": "anthropic-seeks-10-billion-credit-line-ahead-of-potential-ipo",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic targets $100 billion IPO valuation",
-    "updates_url": "news/anthropic/2026-08-22/#anthropic-targets-100-billion-ipo-valuation"
-  },
-  {
-    "date": "2026-08-24",
     "event_id": "fire-deficit-persists-across-north-american-forests-despite-recent-wildfire-increases",
     "title": "Fire Deficit Persists Across North American Forests Despite Recent Wildfire Increases",
     "summary": "Despite rising area burned in recent years, North American forests remain below historical fire frequencies, creating management challenges.",
@@ -1125,11 +1159,16 @@
         "label": "Nature",
         "url": "https://www.google.com/goto?url=CAESagHrOzAVosn5O4HD_ELmC282rr1vspSqLYYii7isMfz1jxAixLQ0yf_QC6fo3QzXGepS2okytwX6iO8ZT6yR8JML-JFraOaQ406qFkt_XQgMU7iCnW4KrBzk7x4x6Wlsdwl44ty9VEzabWc",
         "origin": "discovery"
+      },
+      {
+        "label": "Nature",
+        "url": "https://www.google.com/goto?url=CAESagHrOzAVlk5Z5HDUaWBO7RJUDLoImMlkdJLmjxqwQ2N_ptMT6YyZbdG_kOKFYxBa2DgInlXhIHgbA-q7UCTaBAKp4ZvDc_8XJMjFWyGbTxBhvdEy-05yABwJai07pube-rOcAUfmEnU3ZQg",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "north-american-forests-face-persistent-fire-deficit-despite-recent-increases-in-burned-area",
     "related_title": "",
     "related_url": "",
@@ -1140,7 +1179,7 @@
     "date": "2026-08-24",
     "event_id": "wildfire-impacts-on-soil-microbes-cause-long-lasting-ecosystem-effects",
     "title": "Wildfire Impacts on Soil Microbes Cause Long-Lasting Ecosystem Effects",
-    "summary": "Increasingly intense and frequent wildfires alter soil microbial communities with lasting consequences for ecosystem function.",
+    "summary": "Research shows that wildfires cause lasting changes to soil microbial communities, creating prolonged impacts on ecosystem function.",
     "theme": "Climate Resilience",
     "importance": 6.0,
     "topics": [
@@ -1152,9 +1191,10 @@
     ],
     "primary_feed": "environment",
     "keywords": [
+      "climate change",
+      "ecosystem effects",
       "soil microbes",
-      "wildfires",
-      "ecosystem effects"
+      "wildfires"
     ],
     "url": "news/climate-resilience/2026-08-24/#wildfire-impacts-on-soil-microbes-cause-long-lasting-ecosystem-effects",
     "sources": [
@@ -1162,16 +1202,61 @@
         "label": "Clemson News",
         "url": "https://www.google.com/goto?url=CAESnwEB6zswFYXSArPuvhlYLss6r3084fwIGQmcpislTsnGoMv5X6lKCFPIxzvi49KzIIh1nFcut8SdvySsDWoKVQ1P--w-ah5PdbPpYbWxgtD9_SXoBB-bHnA9EAWTyd3pcNWZ5FLYFuqg19jPnoUckYbjkTQep_y15MVHJxF4UGMHnXzcXRd_poGCIKJqCuTF5x04u_EhxEaFEPIi4tenmLY",
         "origin": "discovery"
+      },
+      {
+        "label": "Clemson News",
+        "url": "https://www.google.com/goto?url=CAESnwEB6zswFQ2iZRpSQnpcH_S-WB1b5K8du1RWFaDYNwGOjm8ia2Myg429MlqzNwIpGksG8TBpBvCydDdf0DothflCcyNr2z2N_PFrxsaPPdJ81lUHQLk0sMC1L3QkhJX52CfNtmI_FwNktLnOH-WxwLUlRhl_Vby74qFORF3d-TG3BgbPYWKOtGePkewSiecP12dHUl9mKEsm5onv78c_qyc",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "wildfire-effects-on-soil-microbes-produce-long-lasting-ecosystem-consequences",
     "related_title": "",
     "related_url": "",
     "updates_title": "Wildfire Impacts on Soil Microbes Create Long-Lasting Ecosystem Effects",
     "updates_url": "news/climate-resilience/2026-08-22/#wildfire-impacts-on-soil-microbes-create-long-lasting-ecosystem-effects"
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "india-advocates-for-predictable-climate-finance-at-unccd-cop-17-13-billion-rangeland-restoration-package-launched",
+    "title": "India advocates for predictable climate finance at UNCCD CoP 17; $1.3 billion rangeland restoration package launched",
+    "summary": "At the UNCCD CoP 17 conference, India called for consistent global green financing while a $1.3 billion initiative to restore global rangelands was announced.",
+    "theme": "Climate Finance",
+    "importance": 6,
+    "topics": [
+      "climate-resilience"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "UNCCD",
+      "India",
+      "green finance",
+      "rangelands",
+      "climate",
+      "restoration"
+    ],
+    "url": "news/climate-resilience/2026-08-24/#india-advocates-for-predictable-climate-finance-at-unccd-cop-17-13-billion-rangeland-restoration-package-launched",
+    "sources": [
+      {
+        "label": "Devdiscourse",
+        "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOQUVQR1FySnRFSDVvang2T3NPRHlnZ0RGdW5hblZMQmJVenpvNW5adVkxTlhWWVBNenVhYlR2czhQVG04OTg1OGxlMy1wX3pkRG1YVFZSeHprTlJCbEhmSi1JWkJsTVZEbHlhb2ItR09DdWpqRlRKZExFdUY0YUxmNFRHakdqU3hWdC11ZHBNU1h6bVBSQUw3c241aEwzZ2NSbmJGNGtGbV9LeHp0blU0YWR5QzNXM2JZVTIzNXBWbVNQQ3pnazRmS3RrMThNUDBPblNPSXFlQnZqZ0tMbU82U1NkN1pRWFFtVjdFYVBPOE1UbFk2enhtbWRJWjlHVWVfcm1JTm9qQjBoSTVO0gGSAkFVX3lxTE5rUkRJWnZHN21MNG54MnRqVzRKM0ZvX0pCWGlvSV9vVndoWHd0SmxRcjZzU2FXSUtfVTYyZGFhZ1psbXNzam83dFhVemxoVS1YOURFQkgwemRkdjR4bjVzSG81VGRUalV5ZExubG1nY0xSRU1UNXpwSmYwVFpBOWE5Rk5BdXd0T0NlUHk5UHRmZUpoR2lZTzU3N1V2NGd2UlplM1M0anlHMjVyZy05RXM3ak9fSU9RamstYW5fTWY2N0wzRWt4S3JBU1E1M0dHdmFjTHh3TXZlVzhGT2F3MEpfNnNLcVg5S1hNeGdiWm9EdjVOWW82WW5udTlfVkhJaU4tWGhrZmtPM1Q2YzN4aXJXX2c?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "india-advocates-for-predictable-climate-finance-at-unccd-cop-17-13-billion-rangeland-restoration-package-launched",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-24",
@@ -1452,6 +1537,44 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "cryptocurrency-losses-exceed-40-million-across-three-security-breaches",
+    "title": "Cryptocurrency Losses Exceed $40 Million Across Three Security Breaches",
+    "summary": "Three separate phishing and social engineering attacks have resulted in more than $40 million in combined cryptocurrency losses.",
+    "theme": "Security",
+    "importance": 6.0,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "cryptocurrency",
+      "phishing",
+      "social engineering",
+      "security breach",
+      "$40 million"
+    ],
+    "url": "news/email-security/2026-08-24/#cryptocurrency-losses-exceed-40-million-across-three-security-breaches",
+    "sources": [
+      {
+        "label": "Bitcoin World",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZZWw1bGFvQTN5RDBnSXk4MldnSjhndHpmQnFfdk5CRWwtekN6eE5aZnB1eGJyWFlOUHpBYjJ0Y0V0VkFEWVVDM1FwalM2LVhpbTVqbFUtZ1JIY1B0c01RZU8wTnYxbGsta0J4c09FYkc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "cryptocurrency-losses-exceed-40-million-across-three-security-breaches",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "sam-altman-criticizes-ray-dalio-openai-model-exposed",
     "title": "Sam Altman Criticizes Ray Dalio; OpenAI Model Exposed",
     "summary": "OpenAI CEO Sam Altman clashed with investor Ray Dalio over ideological differences while a confidential AI model was exposed.",
@@ -1529,156 +1652,6 @@
     "researched": false,
     "received_at": "2026-08-24T08:33:54.796486+00:00",
     "lineage_id": "openai-and-aws-launch-daybreak-red-and-daybreak-blue-cyber-defense-tools-on-amazon-bedrock",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "nasa-prepares-launch-of-advanced-space-telescope",
-    "title": "NASA prepares launch of advanced space telescope",
-    "summary": "NASA is preparing to launch a new powerful space telescope for astronomical observation.",
-    "theme": "Space",
-    "importance": 6,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "space telescope",
-      "astronomy",
-      "mission"
-    ],
-    "url": "news/space/2026-08-24/#nasa-prepares-launch-of-advanced-space-telescope",
-    "sources": [
-      {
-        "label": "Science Daily",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01dEJVald6b2cyemZXUTQ5NWg0M1BXVGQ3YWhFMm93LW5mV3NsTUU2dEVlekJTVjBIMDRFT2tqa3o2eEJMajgyY0Y3WlUyZnhxQkxVaFNSd25DZC1VV2h1YW83MUwxeXlTTnNXaGlB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "nasa-prepares-launch-of-advanced-space-telescope",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "nasa-awards-105-million-to-seven-state-aerospace-workforce-development-hubs",
-    "title": "NASA Awards $10.5 Million to Seven State Aerospace Workforce Development Hubs",
-    "summary": "NASA distributed $10.5 million across seven institutions to establish state-based aerospace workforce development hubs across the United States.",
-    "theme": "Space",
-    "importance": 6.0,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "aerospace",
-      "workforce",
-      "education",
-      "funding"
-    ],
-    "url": "news/space/2026-08-24/#nasa-awards-105-million-to-seven-state-aerospace-workforce-development-hubs",
-    "sources": [
-      {
-        "label": "space & defense",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzI0MThiOHdSZkpqaldZeG9HcjNrRHE1czZXbjlfS1VNMzVMMkVnOS0yMkZVMUduellNQzRIQ0lWUFNYbU1uR3pacTR4dHdyTUZMZFV4LUIxNTJzcHVBZGlPZTZPeExnV3V5bktsSFF0SU1hQVZIVXR2UzFMTGkxdWU3aE91ZnBIVDA2ZlNUeVZmaTByM3gxXw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "nasa-awards-105-million-to-seven-state-aerospace-workforce-development-hubs",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "chinas-moon-mission-to-hunt-water-ice-unprecedented-approach-vs-nasa",
-    "title": "China's Moon Mission to Hunt Water Ice; Unprecedented Approach vs. NASA",
-    "summary": "China's lunar mission aims to locate water ice using methods significantly different from NASA's approach.",
-    "theme": "Space",
-    "importance": 6,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "China moon mission",
-      "water ice",
-      "lunar exploration",
-      "NASA comparison"
-    ],
-    "url": "news/space/2026-08-24/#chinas-moon-mission-to-hunt-water-ice-unprecedented-approach-vs-nasa",
-    "sources": [
-      {
-        "label": "Asia Times",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPektLbS0tWGhFY3dsM1k4Zjd1ZGEzZHhpbE0zLVpuUEFsQ1AzYjU1bjJpRk9ibV9rdFZROE9UMTVPYV8zOUozdWhBT2x2Nzhxb2NONU9WQTJrYllacVRmaGxTT1lGdngtS1M0RHdTTXRrTlNpTVV6dnRCN3RES0FiOU5iQjNnanFQbWNhY0VFcmk3ckR5eDQwYnpn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T08:33:54.796486+00:00",
-    "lineage_id": "chinas-moon-mission-to-hunt-water-ice-unprecedented-approach-vs-nasa",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "schneider-kreuznach-precision-optics-enable-nasas-artemis-lunar-navigation",
-    "title": "Schneider-Kreuznach Precision Optics Enable NASA's Artemis Lunar Navigation",
-    "summary": "Schneider-Kreuznach's optical lenses play a critical role in precision guidance systems for NASA's Artemis moon missions.",
-    "theme": "Space",
-    "importance": 6.0,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Schneider-Kreuznach",
-      "NASA",
-      "Artemis",
-      "optics",
-      "lunar navigation"
-    ],
-    "url": "news/space/2026-08-24/#schneider-kreuznach-precision-optics-enable-nasas-artemis-lunar-navigation",
-    "sources": [
-      {
-        "label": "Vision Systems Design",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNR3VEZmQzTGdSOFVPTndZSW9IVFM3SFNjM28wcFRseXB5RkNZVDg5ZVl4MVN2Nm5pMjJxaVJibURvWjFNRTN4Wk1EM2pCZkhZUXJ3UkVtZFVtN0dxMU9qNHplZmlfLTlKdzB5M053Ql84SDNjMmMwSzdWOHY1eHRJWW5IWDA1dzFNWW9Xa1RLWWItRk5ncnpHdHhFRHNOUmtyWDBHYkhVRzc4UEx0Wml6cHJLSXRfc1haaGM5azBqTG5feHAyc1ZZVGVLeHRPOVJ6NUhzMVRHQ0NNNVVLTWNWaXdhZkUwZEVkZ0w4S1NWWjh6MW11?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T14:30:36.031496+00:00",
-    "lineage_id": "schneider-kreuznach-precision-optics-enable-nasas-artemis-lunar-navigation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1961,44 +1934,6 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "sdad-spec-driven-agentic-development-for-ai-native-software-development",
-    "title": "SDAD: Spec-Driven Agentic Development for AI-Native Software Development",
-    "summary": "A framework for spec-driven agentic development that leverages frontier coding agents with million-token context windows to restructure the software development lifecycle.",
-    "theme": "AI/ML",
-    "importance": 6,
-    "topics": [
-      "tech-research"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "agentic coding",
-      "software development",
-      "specification",
-      "LLM agents",
-      "SDLC"
-    ],
-    "url": "news/tech-research/2026-08-24/#sdad-spec-driven-agentic-development-for-ai-native-software-development",
-    "sources": [
-      {
-        "label": "arXiv — Artificial Intelligence",
-        "url": "https://arxiv.org/abs/2608.20341",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T06:32:04.866919+00:00",
-    "lineage_id": "sdad-spec-driven-agentic-development-for-ai-native-software-development",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
     "event_id": "ai-app-companies-build-in-house-language-models-as-industry-consolidation-accelerates",
     "title": "AI App Companies Build In-House Language Models as Industry Consolidation Accelerates",
     "summary": "Major AI application companies are developing proprietary language models instead of relying on third-party providers, signaling shifting market dynamics.",
@@ -2158,6 +2093,44 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "ai-training-data-scarcity-the-model-collapse-threat-to-chatbot-development",
+    "title": "AI Training Data Scarcity: The Model Collapse Threat to Chatbot Development",
+    "summary": "A growing concern that AI chatbots trained on stolen books and limited sources may face model collapse, impacting the sustainability of large language model advancement.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "model collapse",
+      "AI training data",
+      "chatbots",
+      "Claude",
+      "copyright"
+    ],
+    "url": "news/anthropic/2026-08-24/#ai-training-data-scarcity-the-model-collapse-threat-to-chatbot-development",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://www.nytimes.com/2026/08/24/opinion/claude-pirated-books-ai.html",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "ai-training-data-scarcity-the-model-collapse-threat-to-chatbot-development",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "brazils-data-center-boom-leverages-clean-power-but-strains-local-communities",
     "title": "Brazil's Data Center Boom Leverages Clean Power But Strains Local Communities",
     "summary": "Brazil's expanding data center sector benefits from abundant renewable energy but imposes costs on local residents through grid upgrades, noise, and water strain.",
@@ -2238,7 +2211,7 @@
     "date": "2026-08-24",
     "event_id": "cal-poly-study-redwoods-show-resilience-to-wildfires-with-proper-management",
     "title": "Cal Poly Study: Redwoods Show Resilience to Wildfires With Proper Management",
-    "summary": "Research from Cal Poly Humboldt and Save the Redwoods League shows second-growth redwood forests can withstand modern wildfires if properly managed.",
+    "summary": "Research from Cal Poly Humboldt in partnership with Save the Redwoods League demonstrates that second-growth redwood forests can withstand modern wildfires when appropriately managed.",
     "theme": "Climate Resilience",
     "importance": 6.5,
     "topics": [
@@ -2250,10 +2223,12 @@
     ],
     "primary_feed": "environment",
     "keywords": [
+      "Cal Poly Humboldt",
+      "California",
+      "forest management",
       "redwoods",
       "wildfire resilience",
-      "forest management",
-      "Cal Poly Humboldt"
+      "wildfires"
     ],
     "url": "news/climate-resilience/2026-08-24/#cal-poly-study-redwoods-show-resilience-to-wildfires-with-proper-management",
     "sources": [
@@ -2261,11 +2236,16 @@
         "label": "Humboldt NOW",
         "url": "https://www.google.com/goto?url=CAESoAEB6zswFSX9iO2Ht8-555Z2GvVcfrelm7Q8myl8joqwKy1NJNHJSHZmD1TQI4a8vg0Pc7kDBmt1gPDSokh2-pGF2DNyROCSF69c8OR9yHXcBLPuaQmf8ke9ce1JHLMwqZynbUEQ-RJ7i15XkR-ExdkqoFlDWt8yGb4Lfzy6TCcRA2kx9cbyV7OdDBLQtD7JQZ3yvPbEQSMVxWozd51sDBhv",
         "origin": "discovery"
+      },
+      {
+        "label": "Humboldt NOW",
+        "url": "https://www.google.com/goto?url=CAESoAEB6zswFcCidvnC1vJeD_9Q2J0xdvI2Gil4Ons-AL1LLKp3ZWmcqmqVPQeHJRHdXCKBJiVtq4iU1Odh4BmQN4dDGBIHahZcTWKy6Us0W-c9puDVwCd4yXkjASU1IdTHRVhiT6RymKWdP_cj0AMylxg8M70zq94yKMVhLf6wU1HNz_HCiYkL41HAFGpoWBg6YIZha6buC6y8TEfD-_bEhtc3",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-24T16:22:06.496920+00:00",
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
     "lineage_id": "redwoods-demonstrate-resilience-to-modern-wildfires-with-proper-forest-management",
     "related_title": "",
     "related_url": "",
@@ -2829,6 +2809,57 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "nasa-releases-images-of-falcon-9-upper-stage-crater-on-the-moon",
+    "title": "NASA releases images of Falcon 9 upper stage crater on the Moon",
+    "summary": "NASA has released new images of the crater created when a SpaceX Falcon 9 upper stage impacted the lunar surface, captured by the Lunar Reconnaissance Orbiter from an altitude of 97 km.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "SpaceX",
+      "Falcon 9",
+      "Moon",
+      "Lunar Reconnaissance Orbiter",
+      "impact crater"
+    ],
+    "url": "news/space/2026-08-24/#nasa-releases-images-of-falcon-9-upper-stage-crater-on-the-moon",
+    "sources": [
+      {
+        "label": "facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNXc0SnhjYWFKWWZfSGZhUjFScFd0YVBrTmh1YUVVU0NEakNnUk9jR3Rhb3dWcm9GOXhENkdPMnZkUUtBUUxoa3RZcUZNOG10SnctYTVTVmluQnN3QWVGMzR1SGlHQVVoTE9COUxHS0JsQjNZeGw3Q2dTZnM5elNBdVc3WTZKRDhfc2tkRXJrc0NsWWFPNWRvN2I0YmFJcWMxajAtM1lDTlUwMkJDTDc2M0ZtZmN5WEItMHNjT2FoZTZaejJ5aE5Zb29pUHF6d1NjT2FDUW1QV0VjMGJraFg3OQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/deutschewellenews/posts/nasa-has-released-new-images-of-the-crater-created-when-a-spacex-falcon-9-upper-/1520925670062742/",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Falcon 9 upper stage impacted August 5, 2026 at ~5,400 mph",
+      "Rocket stage: ~40 feet long, ~4,900 kg, launched January 15, 2025",
+      "Crater: ~60 feet (18 m) diameter, <10 feet (3 m) deep",
+      "Impact force equivalent to ~3 tons of TNT",
+      "LRO captured images August 11–12 at ~97 km altitude",
+      "Second known uncontrolled human-made object crash on Moon"
+    ],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "nasas-lunar-reconnaissance-orbiter-captures-falcon-9-impact-crater-details",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "NASA's Lunar Reconnaissance Orbiter captures Falcon 9 impact crater details",
+    "updates_url": "news/space/2026-08-19/#nasas-lunar-reconnaissance-orbiter-captures-falcon-9-impact-crater-details"
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "ai-ethics-frameworks-fail-to-translate-across-global-contexts-study-finds",
     "title": "AI Ethics Frameworks Fail to Translate Across Global Contexts, Study Finds",
     "summary": "A study of 14 experts across 10 countries shows that core AI ethics values like fairness and transparency are reinterpreted differently depending on local context, challenging the assumption they are universally operationalizable.",
@@ -2860,6 +2891,44 @@
     "researched": false,
     "received_at": "2026-08-24T06:32:04.866919+00:00",
     "lineage_id": "ai-ethics-frameworks-fail-to-translate-across-global-contexts-study-finds",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "new-algorithm-generates-extreme-event-scenarios-without-extreme-data",
+    "title": "New algorithm generates extreme event scenarios without extreme data",
+    "summary": "A novel algorithm enables prediction of unprecedented scenarios that critical infrastructure and supply chains are unprepared for, without requiring extreme historical data.",
+    "theme": "Machine Learning",
+    "importance": 6.5,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "algorithm",
+      "scenario generation",
+      "extreme events",
+      "machine learning",
+      "critical infrastructure"
+    ],
+    "url": "news/tech-research/2026-08-24/#new-algorithm-generates-extreme-event-scenarios-without-extreme-data",
+    "sources": [
+      {
+        "label": "MIT — Artificial Intelligence",
+        "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "new-algorithm-generates-extreme-event-scenarios-without-extreme-data",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3994,44 +4063,6 @@
   },
   {
     "date": "2026-08-24",
-    "event_id": "australias-bird-flu-response-deemed-insufficient-despite-critical-risk",
-    "title": "Australia's Bird Flu Response Deemed Insufficient Despite Critical Risk",
-    "summary": "Following the first confirmed mainland mammal death from bird flu, experts warn Australia's response is inadequate to prevent widespread wildlife casualties.",
-    "theme": "Health",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Australia",
-      "bird flu",
-      "mammals",
-      "public health",
-      "fur seal"
-    ],
-    "url": "news/science/2026-08-24/#australias-bird-flu-response-deemed-insufficient-despite-critical-risk",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-australia-bird-flu-response-late.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-24T14:30:36.031496+00:00",
-    "lineage_id": "australias-bird-flu-response-deemed-insufficient-despite-critical-risk",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
     "event_id": "president-awards-congressional-space-medal-of-honor-to-artemis-ii-astronauts",
     "title": "President Awards Congressional Space Medal of Honor to Artemis II Astronauts",
     "summary": "The Artemis II crew will receive the Congressional Space Medal of Honor after becoming the first humans in over 50 years to travel beyond the Moon.",
@@ -4343,48 +4374,6 @@
     "researched": true,
     "received_at": "2026-08-24T12:21:20.566624+00:00",
     "lineage_id": "ai-vendors-develop-custom-hardware-as-microsoft-shifts-windows-strategy",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-24",
-    "event_id": "netflix-considers-opening-app-to-rival-streaming-services",
-    "title": "Netflix Considers Opening App to Rival Streaming Services",
-    "summary": "Netflix executives have discussed opening its app to third-party streaming services like Peacock and Fox One, potentially charging subscription fees. The move would represent a major strategic shift, though no imminent deal exists. Netflix is already testing such partnerships in France.",
-    "theme": "Business",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Netflix",
-      "streaming",
-      "Peacock",
-      "platform strategy"
-    ],
-    "url": "news/tech/2026-08-24/#netflix-considers-opening-app-to-rival-streaming-services",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/streaming/983741/netflix-open-app-peacock-fox-one",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Discussions centered on Peacock and Fox One integrations",
-      "Netflix already integrating TF1 live channels and streaming content in France (June)",
-      "No imminent deal announced",
-      "Move mirrors Amazon Prime Video and Roku's long-standing third-party subscription sales"
-    ],
-    "researched": true,
-    "received_at": "2026-08-24T14:30:36.031496+00:00",
-    "lineage_id": "netflix-considers-opening-app-to-rival-streaming-services",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4927,6 +4916,61 @@
   },
   {
     "date": "2026-08-24",
+    "event_id": "europes-2026-summer-heat-wave-sets-temperature-records-across-continent",
+    "title": "Europe's 2026 summer heat wave sets temperature records across continent",
+    "summary": "Western Europe set temperature records during summer 2026, with the June–July average reaching 21.62°C and surpassing 2022's record. The heat drove devastating wildfires across France and the Iberian Peninsula, prolonged droughts, and over 1,300 excess deaths, underscoring Europe's position as the fastest-warming continent.",
+    "theme": "Climate",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "heat wave",
+      "Europe",
+      "temperature records",
+      "climate change",
+      "global warming"
+    ],
+    "url": "news/science/2026-08-24/#europes-2026-summer-heat-wave-sets-temperature-records-across-continent",
+    "sources": [
+      {
+        "label": "World Meteorological Organization",
+        "url": "https://www.google.com/goto?url=CAESeQHrOzAVY85TSTGXZkWP-hvc1MU1ji4haSjoYfJGAfWtSWJEY58LYfQ1yln4XsfA_shSUX4ovqjMk3ox7W5NvCdv66ofhf1vvJeoWpPCLE3DcohyYjKGyBE7rHjDu1LVhWKZzW85P6SXlJTLeTkvb7A0EBRYgEYPGzc",
+        "origin": "research"
+      },
+      {
+        "label": "The National Herald / Associated Press",
+        "url": "https://www.google.com/goto?url=CAESpQEB6zswFXlM9mTPPlahbBl6aoOSLcQ55IPhAWPbBGdelDSDyUO7kzei3y-VznTpjgJ2EMvx65ofqI9qp4JF3RWdGqZcTKd7HxyuBWCprlVrLFMGpflzCKPsuF59VGcke5vzpFMl7aEMdBcslfxa8etEJCuKrJJr3IcgAHxyliI_7UZhunnDAPF9Rx7T7fyWdbb8A89RSbaw4IFgOi6CYbZq0e-KSqs",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-ways-europe-summer-hot.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Western Europe June–July average: 21.62°C, exceeding 2022 record",
+      "Spain's Fabra Observatory recorded 40.5°C on July 8, highest in >100 years",
+      "France experienced fifth heat wave alert by mid-August",
+      "Europe warmed ~2°C in 50 years since 1976, fastest warming continent",
+      "1,300+ excess deaths recorded in Europe since mid-June",
+      "June 2026 global ocean surface temperature highest for the month, exceeding June 2024 by 0.01°C"
+    ],
+    "researched": true,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "europes-2026-summer-heat-wave-sets-temperature-records-across-continent",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
     "event_id": "cisa-urges-immediate-patching-of-exploited-microsoft-vmware-and-apple-vulnerabilities",
     "title": "CISA urges immediate patching of exploited Microsoft, VMware, and Apple vulnerabilities",
     "summary": "The US Cybersecurity and Infrastructure Security Agency called for urgent patching of four actively exploited vulnerabilities in major software vendors.",
@@ -5143,6 +5187,44 @@
     "researched": true,
     "received_at": "2026-08-24T12:21:20.566624+00:00",
     "lineage_id": "nissan-data-breach-in-oracle-peoplesoft-attack-exposes-customer-information",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "spacex-plans-to-retire-falcon-9-once-starship-becomes-operational",
+    "title": "SpaceX plans to retire Falcon 9 once Starship becomes operational",
+    "summary": "SpaceX plans to retire its widely-used Falcon 9 rocket once the next-generation Starship megarocket becomes operational, potentially reshaping the commercial launch market.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "SpaceX",
+      "Falcon 9",
+      "Starship",
+      "rocket retirement",
+      "launch market"
+    ],
+    "url": "news/space/2026-08-24/#spacex-plans-to-retire-falcon-9-once-starship-becomes-operational",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/goodbye-falcon-9-spacex-planning-to-retire-workhorse-launcher-when-starship-is-up-and-running",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "spacex-plans-to-retire-falcon-9-once-starship-becomes-operational",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5651,17 +5733,19 @@
     "theme": "Security",
     "importance": 8,
     "topics": [
-      "security"
+      "security",
+      "tech"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
+      "Iran",
       "Iran hackers",
       "UK power plant",
-      "cyberattack",
       "critical infrastructure",
+      "cyberattack",
       "operational disruption"
     ],
     "url": "news/security/2026-08-24/#iran-linked-hackers-shut-down-uk-power-plant-for-four-days",
@@ -5670,13 +5754,23 @@
         "label": "SecurityWeek",
         "url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
         "origin": "research"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/08/24/iran-linked-cyberattack-shut-down-a-uk-power-plant/5291930",
+        "origin": "research"
       }
     ],
     "takeaways": [
       "Four-day operational shutdown in July 2026",
       "Attack attributed to Iran-linked hackers",
       "Facility was a smaller power plant, not major national infrastructure",
-      "Expansion of Iranian cyber activity into UK following pattern of GCC, US, and European targeting"
+      "Expansion of Iranian cyber activity into UK following pattern of GCC, US, and European targeting",
+      "UK power plant offline for four days from Iranian cyberattack",
+      "First disruptive Iranian cyberattack on UK critical infrastructure of this kind",
+      "Concurrent breaches of U.S. water utilities across 12+ states assessed as Iran-linked",
+      "Attackers using AI-generated exploitation scripts against Siemens S7 Series PLCs",
+      "Targets include water, manufacturing, and energy infrastructure"
     ],
     "researched": true,
     "received_at": "2026-08-24T10:25:52.840188+00:00",
@@ -5853,6 +5947,81 @@
     "researched": false,
     "received_at": "2026-08-24T12:21:20.566624+00:00",
     "lineage_id": "nasa-plans-nuclear-reactor-deployment-to-mars-in-2028",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "spacex-achieves-100th-falcon-9-launch-and-sets-rocket-reuse-record-on-aug-25",
+    "title": "SpaceX achieves 100th Falcon 9 launch and sets rocket-reuse record on Aug. 25",
+    "summary": "SpaceX will execute its 100th Falcon 9 flight in 2024 early on August 25, setting a new rocket-reuse milestone.",
+    "theme": "Space",
+    "importance": 8,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "SpaceX",
+      "Falcon 9",
+      "rocket reuse",
+      "launch record"
+    ],
+    "url": "news/space/2026-08-24/#spacex-achieves-100th-falcon-9-launch-and-sets-rocket-reuse-record-on-aug-25",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-record-37th-booster-flight-100-falcon-9-launches",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "spacex-achieves-100th-falcon-9-launch-and-sets-rocket-reuse-record-on-aug-25",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-24",
+    "event_id": "ai-discovers-critical-vulnerability-in-nasa-spacecraft-command-system",
+    "title": "AI discovers critical vulnerability in NASA spacecraft command system",
+    "summary": "Artificial intelligence identified a flaw in a NASA system that could have allowed unauthorized commands to be issued to active spacecraft.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "AI",
+      "security flaw",
+      "spacecraft",
+      "vulnerability"
+    ],
+    "url": "news/space/2026-08-24/#ai-discovers-critical-vulnerability-in-nasa-spacecraft-command-system",
+    "sources": [
+      {
+        "label": "IFLScience",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRFdLSzIySWx1c0F1RDRUMFp3NWZYbU9ZXzRJUEdlcE5ncl9rM0UtajBwNTdmcW56OXhRZWNzbDcxYmRCX2FLeFdJTjlFaGxYdTltdUkzdGJnNjFWMDlvMGN0T3NPdzBRVE04T3lYOEdCMlYtcTc1MUtvNTlGLUtaTmI5dzh1NjhHRzUxWklRVURyUHgwVzZIbjA4YTZxSlJoR0N5bVJJVUhFQXZWTUZVV2NaWmg0UTZJR0xRYVRRNmkwQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-24T18:21:14.965618+00:00",
+    "lineage_id": "ai-discovers-critical-vulnerability-in-nasa-spacecraft-command-system",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
