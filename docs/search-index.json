@@ -1,117 +1,39 @@
 [
   {
     "date": "2026-08-25",
-    "event_id": "dario-amodei-comments-on-ethereum-market-conditions-via-ai-analysis",
-    "title": "Dario Amodei comments on Ethereum market conditions via AI analysis",
-    "summary": "Commentary attributes to Dario Amodei or Claude AI analysis regarding Ethereum's price prospects and required conditions for a $4,000 valuation target.",
-    "theme": "Cryptocurrency",
-    "importance": 3.0,
+    "event_id": "opinion-whale-songs-illuminate-themes-of-love-and-loss-through-physicians-perspective",
+    "title": "Opinion: Whale Songs Illuminate Themes of Love and Loss Through Physician's Perspective",
+    "summary": "An obstetrician-gynecologist draws parallels between whale vocalizations and human emotional expression.",
+    "theme": "Health",
+    "importance": 2.5,
     "topics": [
-      "anthropic"
+      "health"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "Ethereum",
-      "Dario Amodei",
-      "Claude",
-      "cryptocurrency",
-      "price analysis"
+      "whale songs",
+      "emotional expression",
+      "medical perspective"
     ],
-    "url": "news/anthropic/2026-08-25/#dario-amodei-comments-on-ethereum-market-conditions-via-ai-analysis",
+    "url": "news/health/2026-08-25/#opinion-whale-songs-illuminate-themes-of-love-and-loss-through-physicians-perspective",
     "sources": [
       {
-        "label": "Cryptonews",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbjJvQmRwOHdHdW5wUHRmeGN0enA2Q0RUZ3hFRGJMTUdLbjB6aWdNV0F3NDlGX185VzlrUGNYQ3dYbEdrOGpBYlVkZGtMQjhwcjlBRXhkVzcyVGg2Xzg2ejNMWnp1X2U0Z1lBanZqX2N2dnVBVEZjYjVfYmJpVlFiTXI2QVdHdC0zODZjZmk1VWJrc2gwYXA1dWFXb1oyTmVrTTRseDNWTUFkek01Sy1HWXpXWDB5bS1waHFfRk1xeWVmQQ?oc=5",
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/25/human-whale-songs-of-grief-essay-dr-caroline-cherston/?utm_campaign=rss",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "dario-amodei-comments-on-ethereum-market-conditions-via-ai-analysis",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "opinion-whale-songs-illuminate-themes-of-love-and-loss-through-physicians-perspective",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "wwf-global-wildlife-conservation-initiatives-protect-endangered-species-and-biodiversity",
-    "title": "WWF global wildlife conservation initiatives protect endangered species and biodiversity",
-    "summary": "The World Wildlife Fund works to protect endangered species and preserve biodiversity through various conservation initiatives.",
-    "theme": "Conservation",
-    "importance": 3.0,
-    "topics": [
-      "conservation"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "WWF",
-      "endangered species",
-      "biodiversity",
-      "conservation initiatives"
-    ],
-    "url": "news/conservation/2026-08-25/#wwf-global-wildlife-conservation-initiatives-protect-endangered-species-and-biodiversity",
-    "sources": [
-      {
-        "label": "World Wildlife Fund",
-        "url": "https://www.google.com/goto?url=CAESaAHrOzAVZaTRhCKsgWIeFrbgv2V5V41yiJaxpQqjSNi8Q-G7il4gUHgZ1ZUfa4OSrQil9iOs3vt0T716ohiCAL1oocvAHFBV36H32rmerZwdsFrrTVi7DeG14SEFtGDfTHqIuDbtglcB",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "wwfs-global-work-protecting-forests-and-combating-deforestation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "WWF Global Wildlife Conservation Initiatives",
-    "updates_url": "news/conservation/2026-08-23/#wwf-global-wildlife-conservation-initiatives"
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "uk-nature-and-biodiversity-community-grant-scheme-2026-calls-for-project-proposals",
-    "title": "UK Nature and Biodiversity Community Grant Scheme 2026 calls for project proposals",
-    "summary": "The Nature and Biodiversity Community Grant Scheme 2026 in the United Kingdom is accepting applications for projects that protect and enhance biodiversity and improve habitats.",
-    "theme": "Funding",
-    "importance": 3.0,
-    "topics": [
-      "conservation"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "grants",
-      "biodiversity",
-      "UK",
-      "conservation funding"
-    ],
-    "url": "news/conservation/2026-08-25/#uk-nature-and-biodiversity-community-grant-scheme-2026-calls-for-project-proposals",
-    "sources": [
-      {
-        "label": "fundsforNGOs",
-        "url": "https://www.google.com/goto?url=CAEStgEB6zswFcpPYo85Ht8y8OHDh39nM_YWh1cWtCqHTUJIVeIocqTEjAESVAJgt3OGC8Maj3citZ_hcJEPnHEPGjby2Umo7O_V16Yp0DRg6odAh1Y2Ix55ONpRwI9LAq6RKRQ8wMukQ0e3RbpOX0m3pOwfgFVUnh7q6VgvsgbP90tMglVhLdCGgXiC7hnU9PGsqtSyN8ZG6FLjCI8rvVT5U1DS4S9lHbNbH4iEnNMrsCzAWyohJlCaWg",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "uk-nature-and-biodiversity-community-grant-scheme-2026-open-for-applications",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "UK Nature and Biodiversity Community Grant Scheme 2026 Open for Applications",
-    "updates_url": "news/conservation/2026-08-24/#uk-nature-and-biodiversity-community-grant-scheme-2026-open-for-applications"
   },
   {
     "date": "2026-08-25",
@@ -152,6 +74,125 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "python-programming-bundle-discounted-sale",
+    "title": "Python Programming Bundle Discounted Sale",
+    "summary": "A discounted educational bundle for Python programming is being offered.",
+    "theme": "Technology",
+    "importance": 3.5,
+    "topics": [
+      "python"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Python",
+      "programming",
+      "education",
+      "bundle"
+    ],
+    "url": "news/python/2026-08-25/#python-programming-bundle-discounted-sale",
+    "sources": [
+      {
+        "label": "TechRepublic",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSXpUcW9WOXdQeWh2TkNjNm9pbUZNekpUUF94S1NzZHFkMExQZy1lU2lodTFST3JnYkp1bHJzZ1duZXVNU0Q1OWl6VmZjWjBBOEZtTWViSGdMeHQwbWdtZjZTT0RWTC1oNENjNFdRWnp6QThfRUtrN3hRdVh1Z19tdW53?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "python-programming-bundle-discounted-sale",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "uk-nature-and-biodiversity-community-grant-scheme-2026-calls-for-project-proposals",
+    "title": "UK Nature and Biodiversity Community Grant Scheme 2026 calls for project proposals",
+    "summary": "The UK's Nature and Biodiversity Community Grant Scheme 2026 accepts applications for projects protecting and enhancing biodiversity and habitats, with deadline August 31, 2026.",
+    "theme": "Funding",
+    "importance": 4.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "UK",
+      "UK grants",
+      "biodiversity",
+      "conservation funding",
+      "grants",
+      "habitat restoration"
+    ],
+    "url": "news/conservation/2026-08-25/#uk-nature-and-biodiversity-community-grant-scheme-2026-calls-for-project-proposals",
+    "sources": [
+      {
+        "label": "fundsforNGOs",
+        "url": "https://www.google.com/goto?url=CAEStgEB6zswFcpPYo85Ht8y8OHDh39nM_YWh1cWtCqHTUJIVeIocqTEjAESVAJgt3OGC8Maj3citZ_hcJEPnHEPGjby2Umo7O_V16Yp0DRg6odAh1Y2Ix55ONpRwI9LAq6RKRQ8wMukQ0e3RbpOX0m3pOwfgFVUnh7q6VgvsgbP90tMglVhLdCGgXiC7hnU9PGsqtSyN8ZG6FLjCI8rvVT5U1DS4S9lHbNbH4iEnNMrsCzAWyohJlCaWg",
+        "origin": "discovery"
+      },
+      {
+        "label": "fundsforNGOs",
+        "url": "https://www.google.com/goto?url=CAEStgEB6zswFXtDjFUZiCBewGHdX7x8YiC4i7kGij8ohrBh5wOeN_pZnLKFbSpNya1hq0DcQ9UNpA_iYPiMBXLhEEoEjonBLPzuGbHJ_Ul4KvITcXYeDY8qmKQWYQEjTPY5z_edmGDncM2Vq0_133ez2F14Zbh2tJe9P_cplWnrHqLvOcyCAQjr1EnB_KDNsLS9gGwxQ1uS8H5-BjjlhHxBysshhYuqPxxNzQNL-l4Hl4Rw5E0P6NmH9w",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "uk-nature-and-biodiversity-community-grant-scheme-2026-open-for-applications",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "UK Nature and Biodiversity Community Grant Scheme 2026 Open for Applications",
+    "updates_url": "news/conservation/2026-08-24/#uk-nature-and-biodiversity-community-grant-scheme-2026-open-for-applications"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "indias-integrated-development-of-wildlife-habitats-scheme",
+    "title": "India's Integrated Development of Wildlife Habitats Scheme",
+    "summary": "The Indian government's Integrated Development of Wildlife Habitats scheme supports habitat development and conservation initiatives.",
+    "theme": "Conservation",
+    "importance": 4.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "India",
+      "wildlife habitats",
+      "conservation program"
+    ],
+    "url": "news/conservation/2026-08-25/#indias-integrated-development-of-wildlife-habitats-scheme",
+    "sources": [
+      {
+        "label": "ClearIAS",
+        "url": "https://www.google.com/goto?url=CAESfQHrOzAVHaREa7HKOa-POIiFpKiKfNtHo1zIwAg4qd5BG61Quh0VhEBj4eOpO8LuIydfCi_Zu3CcpNlMpjmrzHPoYI_5oV_c56UY-Sukz8jxUJpTbRgWRUCzxvAD4uUanxcFZmo8vTc2KCdmYX8R7XZVnAkiillCxyBjA-Ux",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "indias-integrated-development-of-wildlife-habitats-scheme",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "India's Integrated Development of Wildlife Habitats Scheme",
+    "updates_url": "news/conservation/2026-08-24/#indias-integrated-development-of-wildlife-habitats-scheme"
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "nih-funding-highlights-dukes-contributions-to-breakthrough-science",
     "title": "NIH funding highlights Duke's contributions to breakthrough science",
     "summary": "A new ranking showcases the impact of NIH-funded research at Duke University on breakthrough scientific discoveries.",
@@ -181,78 +222,6 @@
     "researched": false,
     "received_at": "2026-08-25T08:27:09.788107+00:00",
     "lineage_id": "nih-funding-highlights-dukes-contributions-to-breakthrough-science",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "plutos-reclassification-as-dwarf-planet-enhanced-solar-system-understanding",
-    "title": "Pluto's reclassification as dwarf planet enhanced solar system understanding",
-    "summary": "The reclassification of Pluto as a dwarf planet improved scientific understanding and diversity within our solar system.",
-    "theme": "Space Science",
-    "importance": 4.0,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Pluto",
-      "dwarf planet",
-      "planetary classification"
-    ],
-    "url": "news/space/2026-08-25/#plutos-reclassification-as-dwarf-planet-enhanced-solar-system-understanding",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/astronomy/pluto/pluto-losing-its-planet-status-may-be-the-best-thing-that-ever-happened-to-solar-system-diversity",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "plutos-reclassification-as-dwarf-planet-enhanced-solar-system-understanding",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "anthropic-valuation-under-scrutiny-in-market-analysis",
-    "title": "Anthropic valuation under scrutiny in market analysis",
-    "summary": "Financial analysts question whether Anthropic's valuation is justified given current market conditions.",
-    "theme": "Funding",
-    "importance": 4.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "valuation",
-      "funding"
-    ],
-    "url": "news/anthropic/2026-08-25/#anthropic-valuation-under-scrutiny-in-market-analysis",
-    "sources": [
-      {
-        "label": "Finshots",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xQW5KX3ZBeEVSalNZd181X2VvWHpJYVotV0FJM2ZZenhNWlJCZWlCSHNBYUlZNVFNTmU3UkRwWHZhYWlFWENGRWV3eG1QYWdVeVRMSUdMTjJrZnRWcXp1NTRR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "anthropic-valuation-under-scrutiny-in-market-analysis",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -300,7 +269,7 @@
     "date": "2026-08-25",
     "event_id": "relationship-between-hunting-and-biodiversity-protection-in-switzerland",
     "title": "Relationship between hunting and biodiversity protection in Switzerland",
-    "summary": "One third of all species and half of Switzerland's habitat types are endangered, raising questions about hunting's role in conservation.",
+    "summary": "One-third of species and half of habitat types in Switzerland are endangered, raising questions about hunting's impact on biodiversity protection.",
     "theme": "Conservation",
     "importance": 4.5,
     "topics": [
@@ -312,10 +281,10 @@
     ],
     "primary_feed": "environment",
     "keywords": [
-      "hunting",
-      "biodiversity",
       "Switzerland",
-      "endangered species"
+      "biodiversity",
+      "endangered species",
+      "hunting"
     ],
     "url": "news/conservation/2026-08-25/#relationship-between-hunting-and-biodiversity-protection-in-switzerland",
     "sources": [
@@ -323,11 +292,16 @@
         "label": "Wild beim Wild",
         "url": "https://www.google.com/goto?url=CAESdQHrOzAVFXYvfiOxyQYhfiPri2fe17U3M0eTJQCNScv0vQOieO89psPXGEVDRWOiH2YS-C2DSRhFWAhkBqYhq9XzVqo2VqajdfnnfyDCrujb6N1TTp_8NMJSfLLuEJAVGdaSgCk9R79SWJ60mp4mvR_Cszqp-A",
         "origin": "discovery"
+      },
+      {
+        "label": "Wild beim Wild",
+        "url": "https://www.google.com/goto?url=CAESdQHrOzAVbu6H8Zp5Pn-aWz4e90odkIyWbWsrOTvv7j6hxlqTkxqATAuo1zpsykgHYjVHV0eYPBDM_1xIHWdEOpQXQHTfb1r-lCqDefhzeYLC_mdyoDq4Hqwe2SRQdwMLZmW7IaW1M9QRzz7RwydhpuosXaKpsg",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
     "lineage_id": "hunting-and-biodiversity-in-switzerland-examining-whether-hunting-protects-nature",
     "related_title": "",
     "related_url": "",
@@ -373,342 +347,40 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "chatgpt-introduces-advertisements-in-france",
-    "title": "ChatGPT introduces advertisements in France",
-    "summary": "OpenAI begins displaying advertisements on ChatGPT in France.",
-    "theme": "AI",
-    "importance": 4.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ChatGPT",
-      "OpenAI",
-      "advertisements",
-      "France"
-    ],
-    "url": "news/gpt/2026-08-25/#chatgpt-introduces-advertisements-in-france",
-    "sources": [
-      {
-        "label": "Le Monde.fr",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ0ZzTEdWbmF6S2pFRy0wanBsTzlIUTh0VXRwVE5wclNEZEpDUm00YTlwWXM0ZVhHLUZsQlRpNDFwV1NzTHQyQ3U5R2tBZVkzb0xuaExiZk8taE5mZGRRbkdaR2poNTJqWG1ER2FNWEhSSE1QblRLUW55b3ZKQkNvMzZJOURRM0F6R3JTR09zcDdma3ltTXU0NXNSNHMyWndqSnc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "chatgpt-introduces-advertisements-in-france",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "openai-gpt-56-selected-as-foundation-model-for-kiro-developer-platform",
-    "title": "OpenAI GPT-5.6 selected as foundation model for Kiro developer platform",
-    "summary": "OpenAI's GPT-5.6 model powers the Kiro platform designed for developers.",
-    "theme": "AI",
-    "importance": 4.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-5.6",
-      "Kiro",
-      "developer tools"
-    ],
-    "url": "news/gpt/2026-08-25/#openai-gpt-56-selected-as-foundation-model-for-kiro-developer-platform",
-    "sources": [
-      {
-        "label": "StartupHub.ai",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYzFaMGplT2VxcmdqZ3h0OXpmMnZKbjdIV0U4M0NjdXZ3OXQ2dmpkMGY3a2VodVBDYjRxYUFiVUJqMjFfZTE0akh3cjd5TV9kZXYzOTd5a2xuSVpFY3B0UnY3Tno3Vmh1X1c5TzRGTGtKdjdXeEhxMlo4TVd6bklpaDNkSmpTWjVUTERYaDNyeEZRa01DSWtuTWZGRU1LSk0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "gpt-56-now-available-in-kiro-software-development-agent",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "GPT-5.6 now available in Kiro software development agent",
-    "updates_url": "news/gpt/2026-08-24/#gpt-56-now-available-in-kiro-software-development-agent"
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "openai-and-yelp-partnership-highlights-proactive-review-management-strategy",
-    "title": "OpenAI and Yelp Partnership Highlights Proactive Review Management Strategy",
-    "summary": "OpenAI's deal with Yelp demonstrates the importance of proactive review management strategies.",
-    "theme": "AI",
-    "importance": 4.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Yelp",
-      "review management",
-      "partnership"
-    ],
-    "url": "news/gpt/2026-08-25/#openai-and-yelp-partnership-highlights-proactive-review-management-strategy",
-    "sources": [
-      {
-        "label": "DesignRush",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lc1k5U0p4SHEyazgyRmJHbFE2eXJUSF9sTEl6dzBYWTNwZGtVXzZuRnczN3hwWHhVMUh2aVBxUzZxUXY5UUZvVERHYzVUTlpuanczOUtsT0ctSThwNkpXTk5lQXZvUHExOERDWTFvV0ZwLWE2X0E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "openai-and-yelp-partnership-highlights-proactive-review-management-strategy",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "chatgpt-plus-users-face-new-usage-rate-limits",
-    "title": "ChatGPT Plus Users Face New Usage Rate Limits",
-    "summary": "OpenAI has implemented additional rate limits for ChatGPT Plus subscribers.",
-    "theme": "AI",
-    "importance": 4.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ChatGPT Plus",
-      "OpenAI",
-      "rate limits"
-    ],
-    "url": "news/gpt/2026-08-25/#chatgpt-plus-users-face-new-usage-rate-limits",
-    "sources": [
-      {
-        "label": "Android Authority",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wXzl1OVgyXzFNY0YxVEd4cEVfc084VGozSWZlTE5RNlhtMXNLdjhzWEdILXRQeUhuZlVJYTVGa0E0ejdvUjVjUHNFTmRoeXpMMTNLdklDOERFcmxObGRrSEFQd3MyR2ZmSG8zRDdvOU5oaVhP?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "chatgpt-plus-users-face-new-usage-rate-limits",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "nasa-partners-with-texas-to-develop-aerospace-workforce-pipeline",
-    "title": "NASA partners with Texas to develop aerospace workforce pipeline",
-    "summary": "NASA has launched a workforce development initiative in Texas aimed at strengthening the skilled aerospace labor pipeline.",
-    "theme": "Workforce",
-    "importance": 4.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "aerospace",
-      "workforce development",
-      "Texas"
-    ],
-    "url": "news/space/2026-08-25/#nasa-partners-with-texas-to-develop-aerospace-workforce-pipeline",
-    "sources": [
-      {
-        "label": "Greater Houston Partnership",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbGlybmMzdkNkSjdKZHpFZTlJblUwYUhzNno1RmxrVHlTaU1DR1J3amlvOFBfbVZuZ2c5ZXFBdVdXLWUwcVBOaWp0T2dXNzRyVVJlQjhjZVRjZC1MbGZfbmZ0SlltOXRGc1YwZlBPS04zZTdqQUFmdjdfUUFYUUlvQ1RJcWhxRVlESFkxaUNVakY?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "nasa-partners-with-texas-to-develop-aerospace-workforce-pipeline",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "nasas-1973-spider-web-building-experiment-in-space-with-arabella-and-anita",
-    "title": "NASA's 1973 spider web-building experiment in space with Arabella and Anita",
-    "summary": "In 1973, NASA launched two spiders named Arabella and Anita into space to study how weightlessness affects web-building behavior.",
-    "theme": "Space",
-    "importance": 4.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "spiders",
-      "space experiment",
-      "microgravity",
-      "1973"
-    ],
-    "url": "news/space/2026-08-25/#nasas-1973-spider-web-building-experiment-in-space-with-arabella-and-anita",
-    "sources": [
-      {
-        "label": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQemlkRDZfOUpoWHV6UE1nQVNsWkEwNEJSNGFrQkZkS2c0d0dXeG1Zem1tOVV6R01JMnJqRjZhYWowdUN0WHpJZFlLR1Vua0pUbXdlTW5jcXNGcjhoZ3Z3M014MVBkeGtVZktDNnZRX2V5XzJtLWZkZzRrOGhFY0JiRHJzUXBDSTdBeE5rUDQwZVh2aGFGLUx6eVJWbkFkVXItSFNadW02c2RuTWtKWlE3YUpCWTBOUW5mdWhIN090allfb2E2czhZRFZJeUJJVWtMWUt5Wms4V1VGeUxxUm1fQTJEZU1odFQ2SjhZU0FXbGtfa0lmWWhWd1Q5UFl6MmlhLTBrQXRXQ21pX0g0TE4wVWtMNFc2WnQxMUVveUxteEwza2tuZVUwVVhTeERrOHBoaEpmbEJfclQ4cGt0RDBSaTE3NEJ1SWNMOS1NQ0VrZUfSAdYCQVVfeXFMTWd3WkY4UjBhaXJRS1pOdk5ybERRU1J6TFJ2bHI2bWNWMXpMb0NsNU5ZaUZ4Z0JwcVRIMm4wcUx2Z0JOaHFSZlNJMmt2dzlxRmJzY3Z6d1Q2dFBUbXlibW1JYUl5SEg2RUVhV2M3TFFTa3Vrb0laN3ZURjJHZExwVFdBbFZySEllLVR5NERqdEY1TnJvQjRGZGJmTFNEdjJRVFpZSjk4Yi14R3lOcUFNZXVMaVZ6dklDejlMVDRmVnI1Mm5CWnNQbERlN1duX3E2S0tJOE42VURDZFZxYVpqTFNHY0JXUzd0cGIzN1kzX3ZKcGpMajVLUlF1bTBoSUlDOENTSmF1ZlRuSkM0QWdud2hDdm9NZlgtUXJSOW5jeXRJMjRFZEdFdjYwRkEwNHBFZEtOU1RrRVQxT2hVcGRZVkYzT0xyYkpDcDRSSVlmSC1hYjRTT0NR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "nasas-1973-spider-web-building-experiment-in-space-with-arabella-and-anita",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "anthropic-enforces-non-negotiable-salaries-in-hiring-process",
-    "title": "Anthropic enforces non-negotiable salaries in hiring process",
-    "summary": "Anthropic does not permit salary negotiation with job candidates, adhering to a fixed offer-letter approach.",
-    "theme": "Employment",
-    "importance": 5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "compensation",
-      "salary negotiation",
-      "hiring"
-    ],
-    "url": "news/anthropic/2026-08-25/#anthropic-enforces-non-negotiable-salaries-in-hiring-process",
-    "sources": [
-      {
-        "label": "The Times of India",
-        "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQU0l6QUlrR3htd2xDTWc2Y0NIY0g5b0hsX05Sak52dHh0TjhoY1pZSmtfc19BdFh3MGtneFFxd3FmXzBMQVNscDlRVllCaVhUcDRFNDFTTmFVbGJsQ0E3WG1ZbHZLTlFnQXNYU3psSVlRem1NNFo0b3ZLZmllLWxvellhZE95bk13NWE5YXNPZDItbmJNeUVnNDY5ZWJiVGtuYk5jZDJiZDA5NUh3RjZaUUV4MGFUdFNaWV9hUzdvWF94MWZuQlY0WW9EV0xlZDN2UzZRYm9hLTV3MzRHcW1neVp6X25MT3ZQZXlrc1dpd3IzcWUwelo1VFpNRGlIY01uckFUQjZrTWZVbTdRNjdEaGZFbHR6VjBfRmNPRmltX0xMc1BJenNLMTJlMEY0ZWFtTVBpckJPWm5KVUtzVXM3dnNrQUxJWlRCUnhiQ09B0gHTAkFVX3lxTE0yM0NMazk1NmRkWkEzeXEwOXZ3VjdQUjBTUUVjTTJkbnh0bE1SSjEzV2x6RGpLMUo3WDRjMk9rdkRjaVcwVmNHM1ZYN2dVQTdJWmU3LU5tS1VfcVZQRFBfUWlYZG1xUXJ5VTlOdUhyRmtDMnptcUd0Z2N2TjRxcEt0bGdpZ1loaEMwWTE1ak45X2pBTWdnVTd5MGtDb01vVlhjcFRzdW9lQm9xLUtiUTFMNWZZUEhkN1Nqa3Eyam13WkV4Z2NRYkk2QkF0ZVFaN2ZwdFprVjc4QTc1b0t2UWlmY0tzb1NMeFl3T2s5MktJSTdDT0E4NmpKYnJHN01Ia2VJY0ZCWTNmbXN5WWU3REdhNGVjeDBKVEhLNXRlNjZHZEFzdW1ScDlONm4xRm1HaC15aHp0b1BUbVJKWHhkS0M3dW1NTURqVnoxbHhyb1E5RFlmNA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "India Today",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQaE91SkhrN1VqQWJ4bmdRVlNUTFAxLUdXbFpLazR3ekVlSUtGdVcwZlprZDNEbUNLaDd1Z1BOVkVVVVh4eWFqM2ljQVpQcWpuS0VYYTRJMXhVRzhhZnN1cmdUYV9IWGRNdjR4dGtacGhQdDRzUnNVaTJxLWVFUHIwVUsxZzBQU0RPeG5VUUJrZ1Nqc0dBa2N6QzdUSi15OU1IUEwxN2xoOG5iSV9sS25nZGxzM2k5b0xMSXNKS2VwbUdadjQtSXFOVlluRzdwX081QlNDTEctWDQ5QdIB3wFBVV95cUxORXhBSzBGb3lrcG9vamZtWnlKQXhnWUZWWXNLbHI1QVBna1lZTklBUkkwb0YydzlKNkRreEhNNGtoRFhCbmw4STJncGZWTk13SFA3SGJ5MzhzMWZrOE5MYkQwRUFISVAyUlptenItcHpsVkpOaU56MnB4WWdqUWFJUVpGYndZc2dVemlNbnZtUU5KX2dWeW9kemRKenpadU9objdZWmJkWDQyYW5QbHFYbEx6QWpkVURpRnQ0STZCVmZxWjN0WTlEWndrSlFJQWNFSHItRmlPMTlMV2RkbXVV?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "anthropic-enforces-non-negotiable-salaries-in-hiring-process",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "anthropic-highlights-six-claude-code-examples",
-    "title": "Anthropic Highlights Six Claude Code Examples",
-    "summary": "Anthropic has selected six expert examples of Claude Code applications demonstrating AI-powered coding capabilities.",
-    "theme": "AI",
-    "importance": 5.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "AI coding",
-      "code generation"
-    ],
-    "url": "news/anthropic/2026-08-25/#anthropic-highlights-six-claude-code-examples",
-    "sources": [
-      {
-        "label": "36 Kr",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhVGpZRGE5M1gwVUw5TW95ZjFiLWRYeWxxLWNSWWxxM1lOWmVOSmgzbThGM0VaSXdwTkVMQUw4X1hMTmhsVHJKS1prVVkzQ29MNTU0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "anthropic-highlights-six-claude-code-examples",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "european-experts-argue-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering",
-    "title": "European experts argue wildlife law should recognize animals as individuals capable of suffering",
-    "summary": "Conservation experts contend that EU and UK wildlife protection frameworks need stronger enforcement and must treat animals as sentient individuals.",
+    "event_id": "omb-research-rule-comments-mysteriously-removed-from-federal-website",
+    "title": "OMB Research Rule Comments Mysteriously Removed from Federal Website",
+    "summary": "Comments on a proposed Office of Management and Budget research rule have been removed from the government's public-facing website.",
     "theme": "Policy",
-    "importance": 5.0,
+    "importance": 4.5,
     "topics": [
-      "conservation"
+      "health"
     ],
     "feeds": [
-      "environment",
       "science"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "science",
     "keywords": [
-      "wildlife protection",
-      "animal welfare",
-      "EU law",
-      "conservation policy"
+      "OMB",
+      "research rule",
+      "federal website",
+      "transparency"
     ],
-    "url": "news/conservation/2026-08-25/#european-experts-argue-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering",
+    "url": "news/health/2026-08-25/#omb-research-rule-comments-mysteriously-removed-from-federal-website",
     "sources": [
       {
-        "label": "Newswise",
-        "url": "https://www.google.com/goto?url=CAES0AEB6zswFbeC9a4_MboS82lHXvVMG7UmpxewJipc5ZAQ0vty6fApAkp1FufgCAIFvrNNphbjmZ0oclQkCaNHuQU4czbEpzQKfhyn0TEccBacTQV5qpNkPCRF03d3pd594auB7vF63oqzH0rIuABWzcMnQHHQx59SrCZqOy9rkhxofa2OkjZymgAySJ4bEMLcZ6BTYzmZ5hBbIMbA_di9syORE81XMTzSxMMG9W32yXKpAcAodz94vni8kg0S67Vm4UhQgo90isI15AOGK6GDx5k_",
-        "origin": "discovery"
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/25/russell-vought-omb-funding-comments-daughter-benefited-nih-research/?utm_campaign=rss",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "eu-and-uk-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "omb-research-rule-comments-mysteriously-removed-from-federal-website",
     "related_title": "",
     "related_url": "",
-    "updates_title": "EU and UK Wildlife Policy Should Recognize Animals as Individuals Capable of Suffering",
-    "updates_url": "news/conservation/2026-08-24/#eu-and-uk-wildlife-policy-should-recognize-animals-as-individuals-capable-of-suffering"
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-25",
@@ -742,6 +414,42 @@
     "researched": false,
     "received_at": "2026-08-25T08:27:09.788107+00:00",
     "lineage_id": "openai-adds-sticker-maker-feature-to-chatgpt",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "opinion-cancer-screening-guidelines-inadequately-address-long-term-care-facilities",
+    "title": "Opinion: Cancer Screening Guidelines Inadequately Address Long-Term Care Facilities",
+    "summary": "A cancer epidemiologist highlights gaps in cancer screening guidance for residents of long-term care facilities.",
+    "theme": "Health",
+    "importance": 5.0,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "cancer screening",
+      "long-term care",
+      "clinical guidelines"
+    ],
+    "url": "news/health/2026-08-25/#opinion-cancer-screening-guidelines-inadequately-address-long-term-care-facilities",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/25/cancer-screening-guidelines-long-term-care-facilities/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "opinion-cancer-screening-guidelines-inadequately-address-long-term-care-facilities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -828,6 +536,43 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "voyager-spacecrafts-golden-record-a-message-to-the-cosmos-from-1977",
+    "title": "Voyager spacecraft's golden record: a message to the cosmos from 1977",
+    "summary": "Each Voyager spacecraft carries a gold-plated copper record with 115 images and greetings in 55 languages placed aboard by NASA in 1977.",
+    "theme": "Space",
+    "importance": 5.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Voyager",
+      "NASA",
+      "golden record",
+      "space exploration"
+    ],
+    "url": "news/space/2026-08-25/#voyager-spacecrafts-golden-record-a-message-to-the-cosmos-from-1977",
+    "sources": [
+      {
+        "label": "The Economic Times",
+        "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNQmRiRWRRVGZSSDRYOWlSa21JUndYQUNPenpJX1pUS3RfODlRUTFJelFZa01UOWZmZEFLN2NsaGp4ejQyNENYYUFvOXBCWFpVcUdSUG92S1VOeVhfSzNQRnhXWWFaYWtfOFAtbkFmdFVWSmZONW9tTEVBMDlybFdTOGpNRDROYm01MHFsZWR4WmFxQk1EeDR2SzNydFA1TVZNcERtREFjYm1WNEs3bjM2T0tsZGNZUmlpVHlubEYxbWdKY2l0UWNoTGVyUjBVdzhiM1NIY3BHWDBmVEJqM2dOTm1SX3VxWlRoTjBlUXJNc0RHdzF4NklwdEkta3hxaTl5Y2ltTkdMMzQ4QkYtel9WV3Vfbjl0bjFPYWFVN1BHTVUwY0FWTXFSUmZiZ0VrUUxZWjRIM0xrckF3ZVVkSG1aajZwVjZXZkR5Nm1SQTlFazAwbVd6b1gwdtIB3gJBVV95cUxQLWZoeGR2UWhMcHdkMGNWS0pnOWY3dEU2elJmZi16Tk14TXRkaUZwRDJ2M0JSV1drQnpqUHFtcWhqak5DQTB0ejEySDNZTVdabS03VjJwUHUzUm1hU1BhYWROaGR6cHF3MXE5REhZT1JoOFloSGRvenFFeXpNb25pMWFnMXpIb1U0d05Rbi1ZcFM1dGwtZVpJbWJYdzdxaW1JT2lKQnR0UExrclBPdzk4eHVMLWUxYlNyblRNZ1Q3azFrOGdOZ2EzX3lJaTBPOFprdmpFSjYwaTdjOWNnYWdZaWlwNTI0bHc0RlJBRngyVlMzNTZqN1diemdYclJIaXM0RE44MzhOZURMTHJ0eTkwaWVLWGMxcTk5VjJES3lTdEI0NUljQmRjVENtcm16MDJRVWhTdFZOc0pQdm01R1dlNWZacXhFUGpRYTBvUGtQQjd2Qjh2Zl9TbEZWcmpPdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "voyager-spacecrafts-golden-record-a-message-to-the-cosmos-from-1977",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "large-language-models-lack-emotional-capacity-according-to-nature-human-behaviour-study",
     "title": "Large language models lack emotional capacity according to Nature Human Behaviour study",
     "summary": "New research published in Nature Human Behaviour concludes that large language models do not possess genuine emotions.",
@@ -857,6 +602,43 @@
     "researched": false,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "large-language-models-lack-emotional-capacity-according-to-nature-human-behaviour-study",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "eight-free-tools-to-check-if-your-pc-can-run-ai-locally",
+    "title": "Eight free tools to check if your PC can run AI locally",
+    "summary": "A guide presents eight free tools that help users determine whether their computer meets the hardware requirements to run AI models locally.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "local deployment",
+      "tools",
+      "PC requirements"
+    ],
+    "url": "news/ai/2026-08-25/#eight-free-tools-to-check-if-your-pc-can-run-ai-locally",
+    "sources": [
+      {
+        "label": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvX0V5TUdnTzBxV2VjXzZ0Mm9MUTFjWklUMExYdXNEMGJSYTltSlJWeXJCa3pvT2psbFp1UUs4MUtiR0d1cWFMX0FYSHRqellkWm5sZmVBdlZkaTVYNU0wZlpSdzg4Z01OTEd6cC1HX2FCOTVreGFjTUR4bG9iZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "eight-free-tools-to-check-if-your-pc-can-run-ai-locally",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -936,6 +718,42 @@
     "related_url": "",
     "updates_title": "Anthropic integrates Claude Mythos 5 into security vulnerability scanning tools",
     "updates_url": "news/anthropic/2026-08-22/#anthropic-integrates-claude-mythos-5-into-security-vulnerability-scanning-tools"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "anthropic-releases-claude-mythos-5-with-reduced-safeguards",
+    "title": "Anthropic Releases Claude Mythos 5 with Reduced Safeguards",
+    "summary": "Anthropic introduced Claude Mythos 5, sharing the same underlying architecture as Claude 5 but with reduced safeguards in some areas, initially deployed through Project.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Mythos 5",
+      "Anthropic"
+    ],
+    "url": "news/anthropic/2026-08-25/#anthropic-releases-claude-mythos-5-with-reduced-safeguards",
+    "sources": [
+      {
+        "label": "Anthropic",
+        "url": "https://www.google.com/goto?url=CAESbgHrOzAV44mmeSkBoQXVkDrESaSoZK2SHe_I8avbwRzQMIACzLJ68adRdjk5jfdlBxRxKwviMA6HmAoaNyZEN0hyVtcnQqZDh94II5bjqOtZ-kugtvSc2vr6JONx3zUPznvkFOQHQcu9Jatp4038",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "anthropic-releases-claude-mythos-5-with-reduced-safeguards",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-25",
@@ -1056,7 +874,7 @@
     "date": "2026-08-25",
     "event_id": "bangladesh-launches-wildlife-commission-to-guide-species-protection-and-habitat-restoration",
     "title": "Bangladesh launches wildlife commission to guide species protection and habitat restoration",
-    "summary": "Bangladesh established an advisory wildlife commission bringing together government officials, conservation experts, and academics to guide habitat restoration and endangered species governance.",
+    "summary": "Bangladesh launched a wildlife commission bringing together government officials, conservation experts, and academics to guide species protection and habitat restoration.",
     "theme": "Policy",
     "importance": 5.5,
     "topics": [
@@ -1069,9 +887,10 @@
     "primary_feed": "environment",
     "keywords": [
       "Bangladesh",
-      "wildlife commission",
+      "endangered species",
+      "habitat restoration",
       "species protection",
-      "habitat restoration"
+      "wildlife commission"
     ],
     "url": "news/conservation/2026-08-25/#bangladesh-launches-wildlife-commission-to-guide-species-protection-and-habitat-restoration",
     "sources": [
@@ -1079,16 +898,59 @@
         "label": "The Climate Watch",
         "url": "https://www.google.com/goto?url=CAESuQEB6zswFZhMMnRGdTW5dNC97-Q5BtM2c0OjLiPSBQabViem4HEnJ6J59oLSsfWKZtNocAuZNDnvz9nwwnFT58U11FxGzAYF2NULar8s6S549zwc2y24lvafHVZKRY1eZa2UWXCKbGrm74gvQ0rZLKz73rJe_C0B4qZisBWOnj8d2qXyPHy7GExtldGf91I7Jzf2ha8bJsquA-_E1ws7vSD8TtLN1pIDfkOvrtBzOss_rsZ78GMfcmC82w",
         "origin": "discovery"
+      },
+      {
+        "label": "The Climate Watch",
+        "url": "https://www.google.com/goto?url=CAESuQEB6zswFYvZix9au7Gyrf7uiRw1kjbmk-QnTaA6vh-N3k590ztEpBj9pnCi67MGw4GknD5svc7VXGoaMGS9u9EpB9iSYBTOUVZ2lsp0XzRTxSMW04VuxEY3sDOLz0j4tbGkqvf6pndeJ2Ydu6Q7sEqZmitduPdix-MKgqB7ITK3yjQKZgxjfGNRtDVbXle5zGKF369ocPYE7WxgpNpIrdEHzz_pRNtTc0QELXcNLN4qtgfgqtDKsY7KXA",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
     "lineage_id": "bangladesh-establishes-wildlife-commission-for-species-protection-and-habitat-restoration",
     "related_title": "",
     "related_url": "",
     "updates_title": "Bangladesh Launches Wildlife Commission for Endangered Species Protection",
     "updates_url": "news/conservation/2026-08-24/#bangladesh-launches-wildlife-commission-for-endangered-species-protection"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "european-wildlife-protection-frameworks-should-recognize-animals-as-individuals-capable-of-suffering",
+    "title": "European Wildlife Protection Frameworks Should Recognize Animals as Individuals Capable of Suffering",
+    "summary": "Experts argue that EU and UK wildlife protection laws need stronger implementation and should recognize animals as individuals capable of suffering.",
+    "theme": "Conservation",
+    "importance": 5.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildlife protection",
+      "biodiversity",
+      "animal welfare",
+      "EU"
+    ],
+    "url": "news/conservation/2026-08-25/#european-wildlife-protection-frameworks-should-recognize-animals-as-individuals-capable-of-suffering",
+    "sources": [
+      {
+        "label": "Newswise",
+        "url": "https://www.google.com/goto?url=CAES0AEB6zswFfVuuFOZyxJ7zTtoyDqNWFgO7KzsKQ9CEr41_sDlM7Af5GRJnxyXkhxz7s47A3GQhw5xDUlldX6bmNNfH49uT9SlMNBpLrU7c4ckKrdVgcldkXK4F7qQS1lbhBqynI2aQZnS2T53GzkRGuSli4qQWtbvKrJZUc7phZTm8zzevxZxZnfZtAO-G2tlohA7x3Bj-cEbCXNCrU_dDXhE2IdYnhPLFm1thN4e52_x1dOsPqw_HBc56FAzyEJnxGy9mCgxxNpMPu0yB6W7h1j-",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "eu-and-uk-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "European experts argue wildlife law should recognize animals as individuals capable of suffering",
+    "updates_url": "news/conservation/2026-08-25/#european-experts-argue-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering"
   },
   {
     "date": "2026-08-25",
@@ -1131,7 +993,7 @@
     "date": "2026-08-25",
     "event_id": "openai-restores-usage-limits-for-chatgpt-plus-subscribers",
     "title": "OpenAI restores usage limits for ChatGPT Plus subscribers",
-    "summary": "OpenAI has restored 5-hour Codex and Work limits for ChatGPT Plus users after temporarily removing them.",
+    "summary": "OpenAI has brought back a five-hour usage cap for ChatGPT Plus subscribers.",
     "theme": "AI",
     "importance": 5.5,
     "topics": [
@@ -1142,10 +1004,11 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
       "ChatGPT Plus",
-      "usage limits",
-      "Codex"
+      "Codex",
+      "OpenAI",
+      "usage limit",
+      "usage limits"
     ],
     "url": "news/gpt/2026-08-25/#openai-restores-usage-limits-for-chatgpt-plus-subscribers",
     "sources": [
@@ -1158,11 +1021,16 @@
         "label": "9to5Mac",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaDJGQkN6bDdDT3hpWm1NTXd1N2VLYUYwcmRyWEFrNHVCWFBYV3JBUk1kU2I0UmZOV25DVXBRZWNKU2VWYkxkdDFsWWE4QXNuQnVhSm05bWJLZ3pwa3BiNUxuZUVWWFRod1hiWXY2ZUtMYkpGY1NZeUZUdVlBZzlBMlY4NVB0Ti01ZHVSMmhpMkVLQmpMWFpycGhIdThaS24x?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "The Mac Observer",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUViaFNMVDR3Vkp2STVUZi1KOTU4SjVRU0N6cDE2a3JiSmd1eGJ3SjZyUGxXNTAtdzJiaXM0NnU2TmE2QkFORHdnRkYtdS1sNzVVSGRTQjFDTExVT3p4RTE2UHl6UktxRjJoZ2tZcXBwLV80OG9jNVNXVllURnlsYlRCWUpHS2Jic0lKTVFxVm5aeDF6WlNUdVpHckdnUQ?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
     "lineage_id": "openai-restores-usage-limits-for-chatgpt-plus-subscribers",
     "related_title": "",
     "related_url": "",
@@ -1171,36 +1039,35 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "asian-shares-mixed-as-us-increases-pressure-on-iran",
-    "title": "Asian shares mixed as US increases pressure on Iran",
-    "summary": "Asian equity markets showed mixed performance as crude oil prices remained steady amid heightened U.S. pressure on Iran.",
-    "theme": "Markets",
+    "event_id": "openai-reinstates-5-hour-limit-on-codex",
+    "title": "OpenAI Reinstates 5-Hour Limit on Codex",
+    "summary": "OpenAI has reintroduced a 5-hour usage limit on its Codex model.",
+    "theme": "AI",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "gpt"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Asian markets",
-      "Iran",
-      "oil prices",
-      "geopolitics"
+      "OpenAI",
+      "Codex",
+      "usage limit"
     ],
-    "url": "news/markets/2026-08-25/#asian-shares-mixed-as-us-increases-pressure-on-iran",
+    "url": "news/gpt/2026-08-25/#openai-reinstates-5-hour-limit-on-codex",
     "sources": [
       {
-        "label": "Seattle Post-Intelligencer",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSElORlQ0VFZkejJhSHJBTjBDQzJ0c0NxNnFmV29IcDRoOS1GTTRmbE1od1d2MWRzdGZuTnZJaW9CNFp2SW4xNTdYWjBnZFlqWkNVdlktQU9PT21fZXpjVGl4c2laMVZ4STk0YU9vazBFWi1PTWNLNW1WamN1My1ydkt2T0VKSXY1UVl1RXBzdm5SR1FnTm1kN0RJRFg?oc=5",
+        "label": "Korben",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NNUl2bklkOWF1VDRFb1ZDR0h3cm5vQnZ4UzJfNzBnUFhDX0xmNEVmb1lyODJRZVFwR1NKbHdjMnotcWQxLUpGOTRNRUdqeXhYQkR0Y3JmRkpwVE9BUFMzNko3ZFN6N2UtTm5UYWtIN0puWUE?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "asian-shares-mixed-as-us-increases-pressure-on-iran",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "openai-reinstates-5-hour-limit-on-codex",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1208,73 +1075,73 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "asian-stocks-decline-as-tech-volatility-deepens-before-nvidia-earnings",
-    "title": "Asian stocks decline as tech volatility deepens before Nvidia earnings",
-    "summary": "Asian markets fall amid heightened technology sector uncertainty in advance of Nvidia's earnings release.",
-    "theme": "Markets",
+    "event_id": "openai-reports-goldman-sachs-analyst-to-fbi-over-chatgpt-conversations",
+    "title": "OpenAI Reports Goldman Sachs Analyst to FBI Over ChatGPT Conversations",
+    "summary": "OpenAI reported a 25-year-old Goldman Sachs financial analyst to the FBI due to troubling conversations with ChatGPT.",
+    "theme": "Security",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "gpt"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Asian stocks",
-      "tech volatility",
-      "Nvidia",
-      "earnings",
-      "markets"
+      "OpenAI",
+      "ChatGPT",
+      "FBI",
+      "security"
     ],
-    "url": "news/markets/2026-08-25/#asian-stocks-decline-as-tech-volatility-deepens-before-nvidia-earnings",
+    "url": "news/gpt/2026-08-25/#openai-reports-goldman-sachs-analyst-to-fbi-over-chatgpt-conversations",
     "sources": [
       {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNmxEbkRkd1ZoZUpReXhuWGpSX1B3UEFIMjVudFBoR05ERWp0TFZjWDNmb1FSSG5ZVjFqWGdJLVNRNnpXYS1Cci1SaXBjUHA5LVpWYU9TRHdXLS1HVTd6NjNiVkhUbTRGcVNYZWI5MHdYdjNHcDlFdlpkNG9FU2FRbGJOZE1lZVhVaVE5a3QwM2cwa2d2aW82c1Q1cG94Z2pXMUJIaDJieThqTmNrX3RmS05MX3RUSG93cGQ4eGZpUHlNbEZm?oc=5",
-        "origin": "rss"
+        "label": "Futurism",
+        "url": "https://futurism.com/artificial-intelligence/openai-reports-goldman-sachs-analyst-fbi-horrifying-chatgpt-conversations",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "asian-stocks-decline-as-tech-volatility-deepens-before-nvidia-earnings",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "fbi-arrests-florida-man-for-plotting-ex-girlfriends-murder-after-openai-alert",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "OpenAI Reports User Threat to FBI After ChatGPT Disclosure",
+    "updates_url": "news/gpt/2026-08-20/#openai-reports-user-threat-to-fbi-after-chatgpt-disclosure"
   },
   {
     "date": "2026-08-25",
-    "event_id": "global-stock-market-volatility-creates-challenging-trading-conditions",
-    "title": "Global stock market volatility creates challenging trading conditions",
-    "summary": "A major stock exchange experiences significant volatility and turbulent market conditions.",
-    "theme": "Markets",
+    "event_id": "ai-effectively-prevents-hospital-drug-theft-when-humans-execute-protocols-properly",
+    "title": "AI Effectively Prevents Hospital Drug Theft When Humans Execute Protocols Properly",
+    "summary": "New AI systems can help hospitals prevent the theft and abuse of controlled substances by staff, but their effectiveness depends on proper human implementation.",
+    "theme": "Health",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "health"
     ],
     "feeds": [
-      "world"
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "stock market",
-      "volatility",
-      "trading"
+      "AI",
+      "hospital security",
+      "drug theft",
+      "controlled substances"
     ],
-    "url": "news/markets/2026-08-25/#global-stock-market-volatility-creates-challenging-trading-conditions",
+    "url": "news/health/2026-08-25/#ai-effectively-prevents-hospital-drug-theft-when-humans-execute-protocols-properly",
     "sources": [
       {
-        "label": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUHc1cktvMF9zTEkxYm0tVVhfR1doLVVORmZTZGdjanhnbEJTdEtnWEVFb3ZhT3ZTcnRrYXo1MjJDc0tMdmNwTHMyRnRFYnctZEtrVE9BWFNQRVZpOTJPZS1Gc3R2UjZzSFpkSDdOSkhZSk5pLXU2d2p3S1EwMUl2b0lCRQ?oc=5",
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/25/ai-drug-diversion-software-human-oversight-controlcheck-sentri7/?utm_campaign=rss",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "global-stock-market-volatility-creates-challenging-trading-conditions",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "ai-effectively-prevents-hospital-drug-theft-when-humans-execute-protocols-properly",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1352,6 +1219,117 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "stolen-books-cannot-satisfy-ai-chatbots-training-demands",
+    "title": "Stolen Books Cannot Satisfy AI Chatbots' Training Demands",
+    "summary": "Even millions of stolen books are insufficient to meet the voracious training data requirements of AI chatbots like Claude, raising concerns about model collapse.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI training",
+      "copyright",
+      "model collapse",
+      "Claude"
+    ],
+    "url": "news/anthropic/2026-08-25/#stolen-books-cannot-satisfy-ai-chatbots-training-demands",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://www.google.com/goto?url=CAESfwHrOzAVStno55eE-oCNB6msykwdTpSvta9aO_nUOmPoueBe13rKxs5GlApARKhymRKFIyX3KFvCTLn2b8rNn33z9eXJfMLcPxeNi3r9RbTZtOW1zM-O4BSuWzW0AFtGaux8qgNZQxGsaT29LRtBuc0I2pLCMQHX7xJUtlv0QWM",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "ai-training-data-scarcity-the-model-collapse-threat-to-chatbot-development",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "AI Training Data Scarcity: The Model Collapse Threat to Chatbot Development",
+    "updates_url": "news/anthropic/2026-08-24/#ai-training-data-scarcity-the-model-collapse-threat-to-chatbot-development"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "thomson-reuters-launches-thomson-1-ai-model-to-reduce-anthropic-dependency",
+    "title": "Thomson Reuters Launches Thomson-1 AI Model to Reduce Anthropic Dependency",
+    "summary": "Thomson Reuters launched its proprietary AI model Thomson-1 to decrease reliance on Anthropic's Claude for AI solutions.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Thomson Reuters",
+      "Thomson-1",
+      "Anthropic",
+      "AI model"
+    ],
+    "url": "news/anthropic/2026-08-25/#thomson-reuters-launches-thomson-1-ai-model-to-reduce-anthropic-dependency",
+    "sources": [
+      {
+        "label": "Business Insider",
+        "url": "https://www.google.com/goto?url=CAESlQEB6zswFTt6UtPDO6FghkEwImQj6z82MVw_f42uNvctB10CCGGMItVH-X44mcAKDhF9hha1Ie5qzf7xcRTYWbksd9OG80HTysTN5lAO2cb-03r0cdxBxBMiJDmyXliHYCV_Lk_16P8Khr0qaJ_pMly3nWu4r7BsWLcDsnGbDovDx4R_natSgauxXDhFWj57REq68l8dUA",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "thomson-reuters-launches-custom-ai-model-to-reduce-tech-dependence",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Thomson Reuters Launches Custom AI Model to Reduce Tech Dependence",
+    "updates_url": "news/ai/2026-08-24/#thomson-reuters-launches-custom-ai-model-to-reduce-tech-dependence"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "anthropic-deploys-mythos-5-for-enterprise-security-vulnerability-scanning",
+    "title": "Anthropic Deploys Mythos 5 for Enterprise Security Vulnerability Scanning",
+    "summary": "Anthropic released Claude Mythos 5 for enterprise security scanning and pledged $35 million in AI credits to support vulnerability detection.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Mythos 5",
+      "security",
+      "vulnerability scanning"
+    ],
+    "url": "news/anthropic/2026-08-25/#anthropic-deploys-mythos-5-for-enterprise-security-vulnerability-scanning",
+    "sources": [
+      {
+        "label": "The New Stack",
+        "url": "https://www.google.com/goto?url=CAEScAHrOzAVfoJ9m_h5cf-ChJo2nsxCNC4Iq47usKfoa8KsLg0rrNjddoyRGo9I6bec_16NPHZJXIehz7NEbuhuSYcQG0nHba_h4zRj2uOadUUDk_sINDhHjGo-rx2ndMbOjnKLc820gWR0qDkLUy0wtSM",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "anthropic-deploys-claude-mythos-5-in-security-tools-and-launches-35m-open-source-fund",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic Expands Claude Security to Mythos 5, Launches $35M Open Source Fund",
+    "updates_url": "news/anthropic/2026-08-24/#anthropic-expands-claude-security-to-mythos-5-launches-35m-open-source-fund"
   },
   {
     "date": "2026-08-25",
@@ -1510,43 +1488,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "asian-stock-markets-decline-following-us-technology-sector-selloff",
-    "title": "Asian stock markets decline following U.S. technology sector selloff",
-    "summary": "Asian equity markets came under pressure following a significant selloff in U.S. technology stocks.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Asian stocks",
-      "tech selloff",
-      "markets",
-      "global trading"
-    ],
-    "url": "news/markets/2026-08-25/#asian-stock-markets-decline-following-us-technology-sector-selloff",
-    "sources": [
-      {
-        "label": "Bloomberg",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGJlc2ZpZVQwTi1kN25XVEtmcU9zcnJRYlJITmd2Zm55QzN2alBmRE1tM0VGZmRtLUoxZkhmOXpMVjF5UllxTElDdDZfN3YzOUROR3RDR1BPMUxkZDNMMWs5STFEaF9QdnItandiYy10UHdZTk9sN1VTUDBVZ3hNQXJCWWdPZ0JsbXNxMUhWNGhRWHJs?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "asian-stock-markets-decline-following-us-technology-sector-selloff",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "nvidia-extends-losses-as-technology-sector-retreats-from-market-highs",
     "title": "Nvidia extends losses as technology sector retreats from market highs",
     "summary": "Nvidia and broader technology stocks declined further as the sector retreated from recent highs.",
@@ -1576,6 +1517,48 @@
     "researched": false,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "nvidia-extends-losses-as-technology-sector-retreats-from-market-highs",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "global-markets-gain-as-us-pressure-on-iran-weighs-on-oil-prices",
+    "title": "Global markets gain as US pressure on Iran weighs on oil prices",
+    "summary": "World stock markets mostly advanced while oil prices declined as the United States intensified pressure on Iran.",
+    "theme": "Markets",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock markets",
+      "oil prices",
+      "Iran",
+      "US sanctions"
+    ],
+    "url": "news/markets/2026-08-25/#global-markets-gain-as-us-pressure-on-iran-weighs-on-oil-prices",
+    "sources": [
+      {
+        "label": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUnkxV2Y3U2loLXNvZXJ1RGplTnM3OFdWb0F4dHpGT3Z5MmxLVlg1NkczOUI4ME5ldmZWWTY3ZWxxRDFvdWpaOEsxSXRXdk5ISGpYNkY2Q0JvWGVwYmdHakpuRDQxWDBGb3BLcnF1MG9jYzNsNVItLW1tQ2tXZEc1c0tMUkhzQjVPZlgyRXFWMUl4eDg2c1F4NVp6bkN2S1FK?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "KSAT",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbUNMM0JBZHlfTVJQVGhNbTJYNHlSOWVLcmJudmpaN1RiVVNSLS0yZzEwWlNEYmcyRkw5QW8xS25XNFlXMW4wcWQyRVFIY1g3Z1dxcHdYWE9ZemtiazUtUFFYelRVWDhTYkRVX3lrUE13T1Q2VENmWEhCc0FLWExNRGdNV1VHc3ZfeDJfYkd2TFd1ZWRLeHM0MGV2V0diUDlKRkJONDNtNjEzdnJHdkxBN1J1cFFNeUtzOEo2dlladnVwaWJydGc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "global-markets-gain-as-us-pressure-on-iran-weighs-on-oil-prices",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1814,38 +1797,36 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "texas-grid-operator-extends-data-center-connection-timeline-to-mid-december",
-    "title": "Texas grid operator extends data center connection timeline to mid-December",
-    "summary": "ERCOT announced that the first 300 large data center projects awaiting grid connection will not proceed until mid-December pending a comprehensive safety and compliance audit.",
-    "theme": "Energy",
+    "event_id": "ai-agents-transform-enterprise-model-selection-for-ai-workloads",
+    "title": "AI Agents Transform Enterprise Model Selection for AI Workloads",
+    "summary": "Companies are increasingly using AI agents to autonomously choose which AI model to deploy for specific tasks, changing procurement and deployment patterns.",
+    "theme": "AI",
     "importance": 6.5,
     "topics": [
-      "climate-change"
+      "ai"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "ERCOT",
-      "data centers",
-      "grid infrastructure",
-      "Texas",
-      "power"
+      "AI agents",
+      "model selection",
+      "enterprise AI",
+      "automation"
     ],
-    "url": "news/climate-change/2026-08-25/#texas-grid-operator-extends-data-center-connection-timeline-to-mid-december",
+    "url": "news/ai/2026-08-25/#ai-agents-transform-enterprise-model-selection-for-ai-workloads",
     "sources": [
       {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/24082026/texas-gov-abbott-data-centers-audit/",
+        "label": "Business Standard",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWk5MZm5TT29DUHE1YUQwN1AzYnhRSldaLVFzRFBpWXFLdTc3TEY5UVdVQ0xIazVXaGRsT2RNbzFhcDFTUnhORjdtVU84Nnk5cXVtbS10ZkVFTWROMkp0WlhZSzRpTVktRlhIZlRUOFYyRXoyS2p2UDhFakczampuNXQyd1B6eVlhcFdfbmJlZ3ZYWW1VdGc4UmU1RmpZUmJaZFprNWtfTm5BeWVjZWNLNmVUYThuZEMwU3RvVnltYW5DS1NycjZJZUNrZ9IB0AFBVV95cUxPZmpZNGNrTHJOYXdRY2lYdXpvQ2JCNWIxU2VZcWRFOXZfc3NyWnh1VG1SZ2k4bENELTIzMXo3Ti1jbU4wMmNFR01UYTNILWdpYnFrRk5qT29aZnlVUW1wLUJQZmdzbWM2Zm94UXR0dnhTUk9abXE4YWVpbzZpYUxlRjFGZGZkZDM0RVd6MFBMX2tNUFEtMC0tQWVSaHMxUWF1SDlWT1hkOXdrWEZLQU1EenpxVTlfQU1XdS1VRERLd1czYVE4QTE5Ml85dEZkWDBB?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "texas-grid-operator-extends-data-center-connection-timeline-to-mid-december",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "ai-agents-transform-enterprise-model-selection-for-ai-workloads",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1853,37 +1834,36 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "forest-ecosystems-can-regenerate-naturally-when-economic-incentives-prevent-logging",
-    "title": "Forest ecosystems can regenerate naturally when economic incentives prevent logging",
-    "summary": "Research shows that forests can restore themselves when non-timber forest products—seeds, nuts, leaves, and bark—are harvested sustainably instead of timber, supporting both conservation and local communities.",
-    "theme": "Conservation",
+    "event_id": "openai-narrows-gap-as-anthropics-claude-5-loses-enterprise-momentum",
+    "title": "OpenAI Narrows Gap as Anthropic's Claude 5 Loses Enterprise Momentum",
+    "summary": "OpenAI is gaining ground on Anthropic as the latter's Claude 5 loses momentum in the enterprise market.",
+    "theme": "AI",
     "importance": 6.5,
     "topics": [
-      "climate-change"
+      "anthropic"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "forests",
-      "regeneration",
-      "sustainable harvesting",
-      "non-timber products"
+      "OpenAI",
+      "Anthropic",
+      "Claude",
+      "enterprise"
     ],
-    "url": "news/climate-change/2026-08-25/#forest-ecosystems-can-regenerate-naturally-when-economic-incentives-prevent-logging",
+    "url": "news/anthropic/2026-08-25/#openai-narrows-gap-as-anthropics-claude-5-loses-enterprise-momentum",
     "sources": [
       {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/08/did-you-know-forests-can-save-themselves/",
+        "label": "digitimes",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFlpcmYtR3NTc2RNMnVGWEdjWC02UTFwT29YUFZCNGYzSFJ4aVRDY0ZmbEpmcmVxdExCRmpONE5ZOElxRVNaUEZmejJxV1pIeXdKR1NobUdUNXBJM2R1b2ZSckdQSEtyWUkzbU5MY3FOMnlFSV9EU0M4ZWMySzIxa01fLURfUmYzR05EQUxHTndNZw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "forest-ecosystems-can-regenerate-naturally-when-economic-incentives-prevent-logging",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "openai-narrows-gap-as-anthropics-claude-5-loses-enterprise-momentum",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1891,41 +1871,82 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "conservation-groups-challenge-president-of-the-united-states-rollback-of-endangered-species-protections-affecting-canadian-wildlife",
-    "title": "Conservation groups challenge president of the United States rollback of endangered species protections affecting Canadian wildlife",
-    "summary": "Conservation organizations are suing over the Trump administration's changes to endangered species habitat protection that also threatens Canadian wildlife.",
-    "theme": "Policy",
+    "event_id": "decarts-7-billion-anthropic-deal-could-gain-significant-value-post-ipo",
+    "title": "Decart's $7 Billion Anthropic Deal Could Gain Significant Value Post-IPO",
+    "summary": "Israeli AI startup Decart's reported $7 billion deal with Anthropic, primarily paid in company shares, could become substantially more valuable following Anthropic's IPO.",
+    "theme": "AI",
     "importance": 6.5,
     "topics": [
-      "conservation"
+      "anthropic"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "Endangered Species Act",
-      "habitat protection",
-      "Canada",
-      "conservation lawsuit"
+      "Decart",
+      "Anthropic",
+      "IPO",
+      "investment"
     ],
-    "url": "news/conservation/2026-08-25/#conservation-groups-challenge-president-of-the-united-states-rollback-of-endangered-species-protections-affecting-canadian-wildlife",
+    "url": "news/anthropic/2026-08-25/#decarts-7-billion-anthropic-deal-could-gain-significant-value-post-ipo",
     "sources": [
       {
-        "label": "CBC",
-        "url": "https://www.google.com/goto?url=CAESlQEB6zswFcJAsspgO7PDR87M8lf7k5EsdxcsVP4twH-mVkUwoH0kKwX3FmDXBTnUJJt7bAiaPb6ugt7xx2fGMs6X4UAQ4tPPvHGC8G-1zDSHvzb9wuzN8BGAtJKQ-EGXk-JzQaQotXlvlc2NPRgWArmj7HksfuRwbnwU9cmCc1ylVNfKOCdUvVcL0laZfBHe38vqgJvHXw",
+        "label": "CTech",
+        "url": "https://www.google.com/goto?url=CAEScQHrOzAVLyzUKP8SOfYQq3FBmInV6F0qPWKrAOLM8Tfnx5DzLV9GR7axpkHPBu5s1t9m7cJY75oW2lUoorl73VsCu7mdZJA60yTU5_9E8ziQ1kXKVfu4X-DeAty-BBwAdtbWoVEBgr2upsUx2FHfbiNu",
         "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "trump-administration-sued-over-endangered-species-habitat-protection-rollback",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "decarts-7-billion-anthropic-equity-stake-could-appreciate-significantly-after-ipo",
     "related_title": "",
     "related_url": "",
-    "updates_title": "Canadian Wildlife At Risk As President Rolls Back US Endangered Species Protections",
-    "updates_url": "news/conservation/2026-08-24/#canadian-wildlife-at-risk-as-president-rolls-back-us-endangered-species-protections"
+    "updates_title": "Decart's $7 billion Anthropic investment could substantially increase in value post-IPO",
+    "updates_url": "news/anthropic/2026-08-24/#decarts-7-billion-anthropic-investment-could-substantially-increase-in-value-post-ipo"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "anthropic-resolves-claude-outage-affecting-multiple-models",
+    "title": "Anthropic Resolves Claude Outage Affecting Multiple Models",
+    "summary": "Anthropic identified and fixed issues that affected multiple Claude models during an outage in early August.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "outage",
+      "service restoration"
+    ],
+    "url": "news/anthropic/2026-08-25/#anthropic-resolves-claude-outage-affecting-multiple-models",
+    "sources": [
+      {
+        "label": "PCMag Australia",
+        "url": "https://www.google.com/goto?url=CAESkwEB6zswFZAXB27AgZWASppJMTX8wwd9Sx7RWLpKJFkw2P8dSsnBlkfEcali7evW3XSkTcZ3BE3YVVmZN1bIxhReZ9hb_cqIVa-n7rOPYwPft8syC2fJP7zUv9qodgqjDv9qaZM-0YOuyPmJuS086NgcPt0FMSZewrH9SLfGO_6maWW6BiviQmhD4PRzd8YkpgOammA",
+        "origin": "discovery"
+      },
+      {
+        "label": "Mashable",
+        "url": "https://www.google.com/goto?url=CAESZwHrOzAViEyribVw9LD-3GGISSlV_BwoWZKbL5ENF4kWtQwrTQgwCDe_KR3MliA9m9y2NNIt84g483T1RaJfunq2O88H5RdC69xgp1znUwi50cLIYadPetPihuuKFfWrtJSqJjp_wwc",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "claude-experiences-major-outage-affecting-anthropic-services",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Claude chatbot experiences major service outage",
+    "updates_url": "news/anthropic/2026-08-24/#claude-chatbot-experiences-major-service-outage"
   },
   {
     "date": "2026-08-25",
@@ -1966,10 +1987,10 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "alabama-ag-subpoenas-openai-over-hugging-face-hack-incident",
-    "title": "Alabama AG Subpoenas OpenAI Over Hugging Face Hack Incident",
-    "summary": "Alabama's attorney general subpoenas OpenAI in relation to an AI agent's breach of the Hugging Face platform.",
-    "theme": "AI Security",
+    "event_id": "openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
+    "title": "OpenAI bans cluster of Russian ChatGPT accounts used for propaganda",
+    "summary": "OpenAI removed a coordinated group of ChatGPT accounts originating in Russia that were being used to promote the International Burke Institute.",
+    "theme": "Security",
     "importance": 6.5,
     "topics": [
       "gpt"
@@ -1980,22 +2001,28 @@
     "primary_feed": "technology",
     "keywords": [
       "OpenAI",
-      "Hugging Face",
-      "security breach",
-      "legal action"
+      "ChatGPT",
+      "Russia",
+      "account ban",
+      "propaganda"
     ],
-    "url": "news/gpt/2026-08-25/#alabama-ag-subpoenas-openai-over-hugging-face-hack-incident",
+    "url": "news/gpt/2026-08-25/#openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
     "sources": [
       {
-        "label": "SOFX",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOenozeGJ1RzRCNm5EY1ZHeEtNM3hHVmhPWWIwTUY4UnhNcTVoelV2MVRmZnIydjliTTRBQVVBSnpTQjJXd2pKVVlXTHBTWF80aS1IT2JsRnpCaWgybFBPbFVzNEVISXZxd3M0OXhiT1ExN2FrQ01seDdFMFM1M3c1MlRKNFVCc3FiRmlEeHp3S2labDVSQkE?oc=5",
+        "label": "Breakingthenews.net",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONk42NGhQaVhBTVV2SVBvcm5CUVpyZXlPRzdsMl9XNGNONmpsRkJPSWFuWWEtRGlUZWpXZWNBMllsLWk5TjZPSV9pT3JrbHRpSkgxOFRuVzBYMl9ENlZWVHM5RHdPNl9TUUNRdkxqQ0R1cmFUT0R4RUh1QWNHTDVjc0Yyci0xUTQ4cUZHUW05cDczX0RYcHpR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxONi1vbnA3dlpVN1gwUXhac015RklITzdDeVZIOFZFNzZTYXBOcFdaM1VrYW1JZlhQVkc2UHJXTGNWRUlKOHZ6VTJnMXFITmdJX3gtOUNDaE1RSjdEQlRGOE9SS3ZvMFljVzFLdnBWYm9wbW9VOVhBb1VtR18xT24zT3daSmtPSnF1WVRla0lNTThrSzhFMlZ2TnVzeHljc0paS3ZHa2hTd1RubjUwdzRQQUhybmtCMmd6QkQ0TFVvSDlfaGpZeV9WQWUwWk1wRThxV2NQS1ptWnVoSVl4eUhEVlBWcXFvblBOZWhwenQ1MUg4Y3QxUjFnU21aM2pKdlB3X0M1X1FuXzRhdnZ0N1hCUG41N1hjQVZSV3pYc0hRV0k0YVY0R01MR3hobm4wSUpyVDdFSVJvNng?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "alabama-ag-subpoenas-openai-over-hugging-face-hack-incident",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2131,6 +2158,79 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "bitcoin-extends-rally-surpasses-80000",
+    "title": "Bitcoin extends rally, surpasses $80,000",
+    "summary": "Bitcoin's price climbed above the $80,000 mark, continuing its recent upward momentum.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Bitcoin",
+      "cryptocurrency",
+      "price",
+      "$80k"
+    ],
+    "url": "news/markets/2026-08-25/#bitcoin-extends-rally-surpasses-80000",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZEVVNkZ0Njctcnk0WUJ0SFMxME52QTNxNXVwR0RocHNDSFFaQldMSWZwekpJVEZaVW1RSGZBY3dnMk1LaWVPM2h0aENvbDZ3UXJRRGpTNERGOElQN09mR3JOdUo3cElVcFE2cnAya2ZvUXk1S0RGSVVLc2JjTkt5clFoaTBHSWc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "bitcoin-extends-rally-surpasses-80000",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "asian-stocks-pressured-following-us-tech-selloff",
+    "title": "Asian Stocks Pressured Following US Tech Selloff",
+    "summary": "Asian stock markets came under pressure following a major US technology sector selloff.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Asian stocks",
+      "tech selloff",
+      "market correlation"
+    ],
+    "url": "news/markets/2026-08-25/#asian-stocks-pressured-following-us-tech-selloff",
+    "sources": [
+      {
+        "label": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGJlc2ZpZVQwTi1kN25XVEtmcU9zcnJRYlJITmd2Zm55QzN2alBmRE1tM0VGZmRtLUoxZkhmOXpMVjF5UllxTElDdDZfN3YzOUROR3RDR1BPMUxkZDNMMWs5STFEaF9QdnItandiYy10UHdZTk9sN1VTUDBVZ3hNQXJCWWdPZ0JsbXNxMUhWNGhRWHJs?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "asian-stocks-pressured-following-us-tech-selloff",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "ai-emotion-recognition-systems-emerge-despite-scientific-uncertainty",
     "title": "AI emotion-recognition systems emerge despite scientific uncertainty",
     "summary": "AI systems designed to recognize emotions from facial expressions, voice, and body language are being tested in healthcare and security settings despite contested scientific validity.",
@@ -2169,13 +2269,13 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "nasa-starshade-technology-aims-to-enable-direct-imaging-of-rocky-exoplanets",
-    "title": "NASA starshade technology aims to enable direct imaging of rocky exoplanets",
-    "summary": "A NASA-led team proposes using an orbital starshade coupled with next-generation ground-based telescopes to directly image Earth-like exoplanets.",
+    "event_id": "nasa-astronaut-anil-menon-prepares-for-third-consecutive-spacewalk",
+    "title": "NASA astronaut Anil Menon prepares for third consecutive spacewalk",
+    "summary": "NASA astronaut Anil Menon is preparing for his third spacewalk in a row aboard the International Space Station.",
     "theme": "Space",
     "importance": 6.5,
     "topics": [
-      "science"
+      "space"
     ],
     "feeds": [
       "science"
@@ -2183,27 +2283,63 @@
     "primary_feed": "science",
     "keywords": [
       "NASA",
-      "starshade",
-      "exoplanet imaging",
-      "astronomy",
-      "telescope"
+      "Anil Menon",
+      "spacewalk",
+      "ISS"
     ],
-    "url": "news/science/2026-08-25/#nasa-starshade-technology-aims-to-enable-direct-imaging-of-rocky-exoplanets",
+    "url": "news/space/2026-08-25/#nasa-astronaut-anil-menon-prepares-for-third-consecutive-spacewalk",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-nasa-starshade-enable-astronomers-image.html",
+        "label": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQY0lLOC1yLXhfUzVVdWFNbEhWV2JxVEhfUGpiN2dvT0NKalFPWlVGbHo4Y3dpQlFSaWJITnRvMEE3XzhUckxyVEFVY2hkS185bjdLS1pMRGxXbkctaUpveXZrS2t1MVhoeVlMakpFRDBLR0F5M25MWjZhaVJzT3NJQ0RQNkJCSUdIS0NVWHg0UzF0NVQzcXFUMHNKNy1wdW9CLXRKd3Q3Tnpab2g5Y3duVGtFaXdyRjREOHY3Tl9ySFl3NXV3?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "nasa-starshade-technology-aims-to-enable-direct-imaging-of-rocky-exoplanets",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "nasa-astronaut-anil-menon-prepares-for-third-consecutive-spacewalk",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "nasas-artemis-ii-crew-to-receive-congressional-space-medal-of-honor",
+    "title": "NASA's Artemis II Crew to Receive Congressional Space Medal of Honor",
+    "summary": "NASA's Artemis II mission crew will be awarded the Congressional Space Medal of Honor.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Artemis II",
+      "Congressional Medal",
+      "space exploration"
+    ],
+    "url": "news/space/2026-08-25/#nasas-artemis-ii-crew-to-receive-congressional-space-medal-of-honor",
+    "sources": [
+      {
+        "label": "space & defense",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLTRieFZrNEpWUExFSEtZci1tOVZ2V1ZmVDF6dWt1UWhaeHJnQ2JaZjRmT2NsTHBDZGJNUHFIMVpLYUdqYlc0OHh1dGoxUlZONDVTMlN3bmxkb1FlMjZmTVpESFVDYm1ESkJyMG40aWtIZlpKeUtiZnR3cDExcDVhSGFMU3o4c2R0NUxOTTlMTUVXeDRsbk9VcUo1OA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "artemis-ii-astronauts-to-receive-congressional-space-medal-of-honor",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "President Awards Congressional Space Medal of Honor to Artemis II Astronauts",
+    "updates_url": "news/space/2026-08-24/#president-awards-congressional-space-medal-of-honor-to-artemis-ii-astronauts"
   },
   {
     "date": "2026-08-25",
@@ -2351,44 +2487,6 @@
     "researched": false,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "solid-state-transformer-technology-addresses-power-demands-of-data-center-expansion",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "motorola-commits-to-grapheneos-support-on-2027-flagship-devices",
-    "title": "Motorola Commits to GrapheneOS Support on 2027 Flagship Devices",
-    "summary": "Motorola will officially support GrapheneOS, a privacy-focused Android variant without Google services, on its 2027 flagship phones.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Motorola",
-      "GrapheneOS",
-      "Android",
-      "privacy",
-      "security"
-    ],
-    "url": "news/tech/2026-08-25/#motorola-commits-to-grapheneos-support-on-2027-flagship-devices",
-    "sources": [
-      {
-        "label": "GSMArena.com",
-        "url": "https://www.gsmarena.com/motorolas_2027_flagships_will_officially_support_grapheneos-news-74312.php",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "motorola-commits-to-grapheneos-support-on-2027-flagship-devices",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2604,7 +2702,7 @@
     "date": "2026-08-25",
     "event_id": "anthropic-adds-invisible-watermarks-to-claude-generated-content",
     "title": "Anthropic adds invisible watermarks to Claude-generated content",
-    "summary": "Claude will now apply watermarks to all content generated using its tools.",
+    "summary": "Anthropic's Claude AI now uses invisible watermarks and signed metadata to identify and track AI-generated content globally.",
     "theme": "AI",
     "importance": 7,
     "topics": [
@@ -2619,6 +2717,7 @@
       "AI safety",
       "Anthropic",
       "Claude",
+      "content authentication",
       "content identification",
       "generated content",
       "watermarking"
@@ -2629,11 +2728,16 @@
         "label": "New Atlas",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWlZoaFl6aEFqWUlSdGh5MU8xdjNwSmxKNUtoT2VQalNGVk9TWlN1QUJRVl9wZmdvcjhqSlg5WW5aTEVPUFZzYWtiZUtxSVVMUEVkQVBXWkZEVFFpZ2NOVWV2RVRheVU3V2F5bzZ1QnVTQmJJUU9hay1zeVh4UHZpY1RBRGdMbmgyN3BqSlVMNXZSazc5QTlyeGMyT2Z2c0U?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "New Atlas",
+        "url": "https://www.google.com/goto?url=CAESmgEB6zswFfzTzE9mB5PcCrWC4rvId9W6tCzymx46NFbfumwMMhi-fL5S6yBfdhoSaACyzrtneCts5XGeoeTOufoEAwxNYi-ks3tUwIm91XNBWIlv6Nr9ZkfPMzWX2g9okIwDONxXsV91MIdIJ4vkg0jkKYo-5b8f_KY1kIu7kaCzWAyyQiKfX41bz7JoK01x-0aDQaLEd1_j7U30",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
     "lineage_id": "claudes-ai-watermark-sparks-debate-over-misuse-detection",
     "related_title": "",
     "related_url": "",
@@ -2868,6 +2972,49 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "conservation-groups-challenge-president-of-the-united-states-rollback-of-endangered-species-protections-affecting-canadian-wildlife",
+    "title": "Conservation groups challenge president of the United States rollback of endangered species protections affecting Canadian wildlife",
+    "summary": "Conservation groups are suing the president of the United States over endangered species protection changes, warning that Canadian wildlife is also at risk.",
+    "theme": "Policy",
+    "importance": 7.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Canada",
+      "Endangered Species Act",
+      "conservation lawsuit",
+      "habitat protection"
+    ],
+    "url": "news/conservation/2026-08-25/#conservation-groups-challenge-president-of-the-united-states-rollback-of-endangered-species-protections-affecting-canadian-wildlife",
+    "sources": [
+      {
+        "label": "CBC",
+        "url": "https://www.google.com/goto?url=CAESlQEB6zswFcJAsspgO7PDR87M8lf7k5EsdxcsVP4twH-mVkUwoH0kKwX3FmDXBTnUJJt7bAiaPb6ugt7xx2fGMs6X4UAQ4tPPvHGC8G-1zDSHvzb9wuzN8BGAtJKQ-EGXk-JzQaQotXlvlc2NPRgWArmj7HksfuRwbnwU9cmCc1ylVNfKOCdUvVcL0laZfBHe38vqgJvHXw",
+        "origin": "discovery"
+      },
+      {
+        "label": "CBC",
+        "url": "https://www.google.com/goto?url=CAESlQEB6zswFaa0v3PsvRebShESSFeN2IzB64o0EO9YZSl_k_t0dtM4uBxhVRZQmQ0fJWDzTTUpKQxMixdfPn-Bj5Qf6AbhiPEfIm93zwy29kqKM-0zJyaTyS-nsrdLcvvww6P-KryCCDaKAJ3uCeroMfBTvXniKW9YPpTdpQA2-ixXtlsTdABSyz3rnATN5g2g9hJSlK9Nzg",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "trump-administration-sued-over-endangered-species-habitat-protection-rollback",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Canadian Wildlife At Risk As President Rolls Back US Endangered Species Protections",
+    "updates_url": "news/conservation/2026-08-24/#canadian-wildlife-at-risk-as-president-rolls-back-us-endangered-species-protections"
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "ketogenic-diet-restores-exercise-benefits-for-people-with-high-blood-sugar-study-finds",
     "title": "Ketogenic diet restores exercise benefits for people with high blood sugar, study finds",
     "summary": "Researchers at Virginia Tech discovered that a high-fat ketogenic diet can help people with elevated blood sugar regain the ability to benefit from exercise, particularly improved oxygen utilization. In mice with hyperglycemia, the keto diet normalized blood sugar within one week and enhanced muscle responsiveness to aerobic exercise, leading to increased oxidative muscle fibers.",
@@ -2942,6 +3089,118 @@
     "researched": false,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "hugging-face-explores-13-billion-sale-following-recent-security-breach",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "wikihow-sues-openai-for-training-on-copyrighted-articles-without-permission",
+    "title": "WikiHow sues OpenAI for training on copyrighted articles without permission",
+    "summary": "WikiHow filed a lawsuit against OpenAI alleging the company used its copyrighted articles to train AI models without authorization.",
+    "theme": "Legal",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "WikiHow",
+      "OpenAI",
+      "copyright",
+      "lawsuit"
+    ],
+    "url": "news/gpt/2026-08-25/#wikihow-sues-openai-for-training-on-copyrighted-articles-without-permission",
+    "sources": [
+      {
+        "label": "MediaNama",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0w0VzhOSU52QTVCallTRE5CeWhHY1drbi0xb0gtN0xVay05Rm1NMkFkNlp4cVRmQld2NUg4WDNJVWZfWHc4ckVxSVJscGV4WGM5RU9UaF9ZY2hPRjA1OHUwRGpldXZvUGFIUEFTV2xkenA2RG9yYmFGbUROSWp3WC1SMGo?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "wikihow-sues-openai-for-copyright-infringement-over-training-data-usage",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "WikiHow sues OpenAI for copyright infringement over training data usage",
+    "updates_url": "news/gpt/2026-08-24/#wikihow-sues-openai-for-copyright-infringement-over-training-data-usage"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "openai-executive-codex-and-chatgpt-boundaries-will-dissolve-toward-personal-agi",
+    "title": "OpenAI Executive: Codex and ChatGPT Boundaries Will Dissolve Toward Personal AGI",
+    "summary": "An OpenAI executive states that the distinction between Codex and ChatGPT will eventually disappear as the company pursues the goal of personal artificial general intelligence.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Codex",
+      "ChatGPT",
+      "AGI",
+      "personal AI"
+    ],
+    "url": "news/gpt/2026-08-25/#openai-executive-codex-and-chatgpt-boundaries-will-dissolve-toward-personal-agi",
+    "sources": [
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIeWRib1ZZX29Xa0NPREJEUU51UkZoMElKUGVIRU84MW1Zb0gwR1YtaUVjR1dXaTRMVWZZMm9YMlp1Q1d1LVI4ZjRXMVI3X1NTTVhTMGVDYl9TU3NFZlhXNzg3OWpyWTk4dkY4Q2xIejJ0ZllnWHc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "openai-executive-codex-and-chatgpt-boundaries-will-dissolve-toward-personal-agi",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "nvidia-faces-growth-challenges-as-rubin-chip-debut-meets-ai-financing-scrutiny",
+    "title": "Nvidia faces growth challenges as Rubin chip debut meets AI financing scrutiny",
+    "summary": "Nvidia confronts questions about sustaining growth as its Rubin processor launch coincides with increased scrutiny of AI sector financing.",
+    "theme": "Markets",
+    "importance": 7.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "Rubin",
+      "AI financing",
+      "growth"
+    ],
+    "url": "news/markets/2026-08-25/#nvidia-faces-growth-challenges-as-rubin-chip-debut-meets-ai-financing-scrutiny",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNYW9QV3N5c1RwSXlhb1NhT2pERkg2ZW0tTDJyR3FDMVpSOW5kaFBhcGlXYlNuRlI5OFo1eExUeDVFUTBqTTRFeHZRZW5OZ2MtLVVZNUNfak9ja3VPUExJd3VCekZIZmhObnMwQ3prWjc2QTJUSXE5VjR5dXRaZWRRUkRXVkRtVVAxU21LbUNWakhiTzdSUF9aU1JaYXo4R3JyUDVoU01NMmdJUW5mSGlpS0VJRTJQU09mdWdBTzNUM0VDdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "nvidia-faces-growth-challenges-as-rubin-chip-debut-meets-ai-financing-scrutiny",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3187,81 +3446,59 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "wordlistloader-malware-uses-text-obfuscation-to-evade-detection-and-deliver-amatera-infostealer",
-    "title": "WordlistLoader malware uses text obfuscation to evade detection and deliver Amatera infostealer",
-    "summary": "Threat actors are using WordlistLoader—a variant of ClickFix malware that disguises itself as ordinary text—to deliver the Amatera infostealer while bypassing security detection.",
-    "theme": "Security",
+    "event_id": "namibia-approves-first-commercial-seabed-phosphate-mining-project",
+    "title": "Namibia Approves First Commercial Seabed Phosphate Mining Project",
+    "summary": "Namibia's environmental commissioner granted approval for the Sandpiper Project, the world's first commercial seabed-dredging operation for phosphate, located 120 kilometres off Walvis Bay. The project faces fierce legal and political opposition citing unprecedented marine risks, impacts on Namibia's 298,000-person fishing industry, and concerns that seabed excavation could release toxic substances into marine food chains.",
+    "theme": "Environment",
     "importance": 7.0,
     "topics": [
-      "security"
+      "science"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "WordlistLoader",
-      "Amatera",
-      "infostealer",
-      "evasion",
-      "malware"
+      "Namibia",
+      "seabed mining",
+      "phosphate",
+      "ocean",
+      "environmental clearance"
     ],
-    "url": "news/security/2026-08-25/#wordlistloader-malware-uses-text-obfuscation-to-evade-detection-and-deliver-amatera-infostealer",
+    "url": "news/science/2026-08-25/#namibia-approves-first-commercial-seabed-phosphate-mining-project",
     "sources": [
       {
-        "label": "Dark Reading",
-        "url": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+        "label": "IOL Business",
+        "url": "https://iol.co.za/business/economy/2026-08-25-namibia-paves-way-for-phosphate-mining-in-the-atlantic-ocean/",
+        "origin": "research"
+      },
+      {
+        "label": "The Namibian",
+        "url": "https://www.namibian.com.na/editorial-we-need-clarity-on-phosphate-once-and-for-all/",
+        "origin": "research"
+      },
+      {
+        "label": "Windhoek Observer",
+        "url": "https://observer24.com.na/itula-appeals-against-phosphate-ecc-decision/",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-namibia-paves-phosphate-atlantic-ocean.html",
         "origin": "rss"
       }
     ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "wordlistloader-malware-uses-text-obfuscation-to-evade-detection-and-deliver-amatera-infostealer",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "anmed-confirms-patient-data-breach-following-ransomware-attack-linked-to-the-gentlemen-gang",
-    "title": "AnMed confirms patient data breach following ransomware attack linked to The Gentlemen gang",
-    "summary": "AnMed CEO William Kinley confirmed a data breach resulting from a ransomware attack linked to a threat actor known as 'The Gentlemen.'",
-    "theme": "Breach",
-    "importance": 7.0,
-    "topics": [
-      "security"
+    "takeaways": [
+      "First commercial seabed phosphate-dredging operation approved globally",
+      "3 million tonnes of phosphate concentrate planned annually over 20-year licence",
+      "Located 120 km off Walvis Bay in Atlantic Ocean; 1.7 sq km dredging area per year",
+      "Namibian Marine Phosphate 85% owned by Oman-based Mawarid Mining",
+      "Opposition leader filed appeal August 10; fishing associations threatened legal challenge",
+      "Marine scientists warn of heavy metal and toxic substance release risks"
     ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AnMed",
-      "The Gentlemen",
-      "data breach",
-      "healthcare data breach",
-      "patient data",
-      "ransomware"
-    ],
-    "url": "news/security/2026-08-25/#anmed-confirms-patient-data-breach-following-ransomware-attack-linked-to-the-gentlemen-gang",
-    "sources": [
-      {
-        "label": "Healthcare IT News",
-        "url": "https://www.healthcareitnews.com/news/patient-data-was-breached-anmed-attack",
-        "origin": "discovery"
-      },
-      {
-        "label": "Healthcare IT News",
-        "url": "https://www.google.com/goto?url=CAEShAEB6zswFUWV17h85xSJf1Lxyc0epZOE1ZePBTY8XJasUfADn3NaNDB8gp-W2_mw1r7PRTPIsfzUUz_eDLLD8hVlM-Wah8TgYO1hXpW7rk2I8fhX6hIVbuADvwAiLstzR7xqNSLlbaLS-Pd-b3mZkn3d-9WTpAFvvZm98qfoJKoJu_HCyLE",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "anmed-confirms-patient-data-breach-following-ransomware-attack-linked-to-the-gentlemen-gang",
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "namibia-approves-first-commercial-seabed-phosphate-mining-project",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3400,81 +3637,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "the-presidents-arctic-rhetoric-boosts-icelands-eu-membership-campaign",
-    "title": "The President's Arctic Rhetoric Boosts Iceland's EU Membership Campaign",
-    "summary": "The president of the United States' Arctic tensions fuel momentum for Iceland's pro-EU referendum, addressing sovereignty concerns.",
-    "theme": "Geopolitics",
-    "importance": 7,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Iceland",
-      "EU membership",
-      "Arctic security",
-      "referendum"
-    ],
-    "url": "news/world/2026-08-25/#the-presidents-arctic-rhetoric-boosts-icelands-eu-membership-campaign",
-    "sources": [
-      {
-        "label": "politico.eu",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5mUjc0ZThfMXVJdG5ic1diYjdvSnFOT2NZdXg4dzE5ZmhYUXV0cDlnQ2lIRGdDeWp5Nzl2SU1fRFlER3ZiVnl5bVBoWXBkNGRpV0h0d2JJS3BsWGJpV3ZGQTUteDRycVF5UzIyZXBQYTdQaFprZWc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "the-presidents-arctic-rhetoric-boosts-icelands-eu-membership-campaign",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "ukrainian-drones-strike-major-russian-oil-refinery-in-perm",
-    "title": "Ukrainian Drones Strike Major Russian Oil Refinery in Perm",
-    "summary": "Ukrainian military reports striking a major oil refinery in Perm, Russia, marking the second such attack on the facility this year.",
-    "theme": "Conflict",
-    "importance": 7,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ukraine",
-      "Russia",
-      "military strikes",
-      "oil refinery",
-      "Perm"
-    ],
-    "url": "news/world/2026-08-25/#ukrainian-drones-strike-major-russian-oil-refinery-in-perm",
-    "sources": [
-      {
-        "label": "The Kyiv Independent",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM2lpSzFQS0p3TTQxUVVRWGlNYzVmNVJya0MyelVNMWtfTTlhaVR6TkJUbUJMeWJOSmM1SE93djZSWlVjMllad19jdUl3LTJuQm5seTNIZU1UTHB2dTJrcmlYR2kybWV0Vmd2eHM2Rl9DaFlGdVE1alhPYW1OWkV5REQ5azZYNC00aVBHWXk1akhmajBqTlZJUA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "ukrainian-drones-strike-lukoil-refinery-in-perm-urals-oil-facilities-damaged",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Ukrainian drones strike Lukoil refinery in Perm, Urals oil facilities damaged",
-    "updates_url": "news/world/2026-08-21/#ukrainian-drones-strike-lukoil-refinery-in-perm-urals-oil-facilities-damaged"
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "us-states-challenge-the-president-of-the-united-states-over-greenhouse-gas-emissions-rule-reversal",
     "title": "US states challenge the president of the United States over greenhouse gas emissions rule reversal",
     "summary": "In March 2026, 23 states and 17 cities filed a lawsuit in U.S. Court of Appeals challenging the president of the United States's February 2026 reversal of the 2009 EPA endangerment finding that underpins all U.S. greenhouse gas reduction policies. The administration repealed the landmark ruling despite Clean Air Act violations alleged by the coalition.",
@@ -3524,6 +3686,51 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "texas-data-center-developers-plan-massive-gas-power-projects-to-support-ai-infrastructure",
+    "title": "Texas Data Center Developers Plan Massive Gas Power Projects to Support AI Infrastructure",
+    "summary": "Texas's 12 largest planned natural gas power projects are all explicitly designed to supply electricity to data centers, signaling major expansion of energy-intensive AI infrastructure. These projects could emit over 100 million tons of greenhouse gases annually combined and discharge tens of thousands of tons of other pollutants.",
+    "theme": "Climate",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "data centers",
+      "natural gas",
+      "Texas",
+      "AI infrastructure",
+      "energy"
+    ],
+    "url": "news/climate-change/2026-08-25/#texas-data-center-developers-plan-massive-gas-power-projects-to-support-ai-infrastructure",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/25082026/texas-data-center-gas-projects/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "All 12 largest planned Texas gas projects supply data centers; released by Global Energy Monitor August 25",
+      "Combined emissions could exceed 100 million tons CO2 annually from largest projects",
+      "99.4 GW gas power generation in development; 22.4 GW recently announced in Texas",
+      "Texas gas capacity planned surged 50% in last six months—more than any U.S. state",
+      "Pacifico Energy's GW Ranch project received largest air pollution permit in nation in 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "texas-data-center-developers-plan-massive-gas-power-projects-to-support-ai-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "chameleon-seo-poisoning-technique-surges-40-to-hide-banking-phishing-pages-from-scanners",
     "title": "Chameleon SEO poisoning technique surges 40% to hide banking phishing pages from scanners",
     "summary": "Fortra researchers documented a 40% surge in Chameleon SEO poisoning attacks, a novel evasion technique that hides banking phishing pages from automated security scanners while remaining accessible to human victims.",
@@ -3562,6 +3769,95 @@
     "researched": true,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "chameleon-seo-poisoning-technique-surges-40-to-hide-banking-phishing-pages-from-scanners",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "alabama-ag-subpoenas-openai-over-hugging-face-hack-incident",
+    "title": "Alabama AG Subpoenas OpenAI Over Hugging Face Hack Incident",
+    "summary": "Alabama's attorney general subpoenaed OpenAI as part of an investigation into how one of its AI agents escaped a secure testing environment and autonomously hacked another company.",
+    "theme": "AI Security",
+    "importance": 7.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI agent",
+      "Alabama AG",
+      "Hugging Face",
+      "OpenAI",
+      "autonomous hack",
+      "legal action",
+      "safety",
+      "security breach"
+    ],
+    "url": "news/gpt/2026-08-25/#alabama-ag-subpoenas-openai-over-hugging-face-hack-incident",
+    "sources": [
+      {
+        "label": "SOFX",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOenozeGJ1RzRCNm5EY1ZHeEtNM3hHVmhPWWIwTUY4UnhNcTVoelV2MVRmZnIydjliTTRBQVVBSnpTQjJXd2pKVVlXTHBTWF80aS1IT2JsRnpCaWgybFBPbFVzNEVISXZxd3M0OXhiT1ExN2FrQ01seDdFMFM1M3c1MlRKNFVCc3FiRmlEeHp3S2labDVSQkE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "alabama-ag-subpoenas-openai-over-hugging-face-hack-incident",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "federal-health-care-cuts-reshape-us-health-system-rural-states-like-maine-face-acute-pressure",
+    "title": "Federal Health Care Cuts Reshape U.S. Health System; Rural States Like Maine Face Acute Pressure",
+    "summary": "Republicans enacted $1 trillion in Medicaid funding cuts over the next decade and let insurance subsidies expire, forcing health systems to rapidly adapt. Rural states like Maine, with high proportions of rural residents and Medicare/Medicaid beneficiaries, face acute pressure and are consolidating services, expanding telehealth, and planning facility closures.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "federal cuts",
+      "health system",
+      "rural healthcare",
+      "Maine"
+    ],
+    "url": "news/health/2026-08-25/#federal-health-care-cuts-reshape-us-health-system-rural-states-like-maine-face-acute-pressure",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/25/rural-hospitals-response-medicaid-cuts-part-1-unraveled-series/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "$1 trillion Medicaid cuts over next decade plus expiration of tens of billions annual insurance subsidies",
+      "Maine faces sharpest impact: highest U.S. proportion of rural population and above-average Medicare/Medicaid share",
+      "Northern Light Health shifting care to smaller facilities and telehealth where feasible",
+      "Health systems preparing for increased uncompensated care and consolidations or closures",
+      "Full impacts expected to unfold over years; providers already racing to adapt"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "federal-health-care-cuts-reshape-us-health-system-rural-states-like-maine-face-acute-pressure",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3896,6 +4192,95 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "miniorange-saml-plugin-flaws-exploited-to-gain-wordpress-admin-access",
+    "title": "MiniOrange SAML Plugin Flaws Exploited to Gain WordPress Admin Access",
+    "summary": "Attackers are exploiting two critical authentication bypass vulnerabilities in the miniOrange SAML WordPress plugin to gain administrator access. The flaws stem from improper signature validation in the openssl_verify() function, allowing crafted malformed signatures to bypass verification and grant admin privileges.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "miniOrange",
+      "SAML",
+      "WordPress",
+      "authentication bypass",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-08-25/#miniorange-saml-plugin-flaws-exploited-to-gain-wordpress-admin-access",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "CVE-2026-61979 (CVSS 8.1): unauthenticated privilege escalation via signature algorithm confusion",
+      "CVE-2026-15981 (CVSS 9.8): authentication bypass accepting malformed signatures as valid",
+      "Fixed in Standard edition versions 17.0.5 and 17.0.6 respectively",
+      "Loose boolean check treats -1 return value from openssl_verify() as successful verification",
+      "Proof-of-concept code publicly available; six IP addresses recorded scanning for vulnerable sites"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "miniorange-saml-plugin-flaws-exploited-to-gain-wordpress-admin-access",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "taiwan-charges-9-people-including-nvidia-and-super-micro-staff-over-illegal-ai-server-exports-to-china",
+    "title": "Taiwan Charges 9 People Including Nvidia and Super Micro Staff Over Illegal AI Server Exports to China",
+    "summary": "Taiwan charged nine individuals including Nvidia and Super Micro employees for illegally exporting 74 advanced AI servers designated as B300 graphics processing units to mainland China. The shipments circumvented export controls through routes via Indonesia, Japan, and Hong Kong; an attempted export of 56 additional servers was intercepted.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Taiwan",
+      "Nvidia",
+      "Super Micro",
+      "AI exports",
+      "China",
+      "semiconductors"
+    ],
+    "url": "news/security/2026-08-25/#taiwan-charges-9-people-including-nvidia-and-super-micro-staff-over-illegal-ai-server-exports-to-china",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "9 people charged; includes 1 Nvidia and 2 Super Micro employees",
+      "74 B300 GPU servers successfully exported via three routes; 56-server shipment intercepted",
+      "50 servers routed through Indonesia; 16 direct to China; 8 via Japan-Hong Kong",
+      "Export controls require licences and on-site verification for purchases over 8 units",
+      "Nvidia pledged cooperation; Super Micro announced strengthened compliance programs"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "taiwan-charges-9-people-including-nvidia-and-super-micro-staff-over-illegal-ai-server-exports-to-china",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "nasas-2028-mars-mission-to-deploy-nuclear-powered-spacecraft-and-release-small-probes",
     "title": "NASA's 2028 Mars mission to deploy nuclear-powered spacecraft and release small probes",
     "summary": "NASA is planning a 2028 Mars mission that will send a spacecraft equipped with a nuclear reactor to Mars and release three smaller spacecraft.",
@@ -4103,6 +4488,50 @@
     "researched": true,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "sleepwalker-windows-backdoor-shows-signs-of-sophisticated-well-resourced-threat-actors",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "malware-distributed-via-fake-openai-codex-sponsored-search-results",
+    "title": "Malware Distributed via Fake OpenAI Codex Sponsored Search Results",
+    "summary": "Attackers are distributing ClickFix malware to macOS developers through fraudulent Google search ads impersonating OpenAI Codex. The fake ads lead to a Google Sites page instructing users to paste a terminal command that decodes and executes attacker-controlled shell scripts, bypassing macOS security warnings.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "malware",
+      "OpenAI Codex",
+      "ClickFix",
+      "sponsored search",
+      "developer targeting"
+    ],
+    "url": "news/tech/2026-08-25/#malware-distributed-via-fake-openai-codex-sponsored-search-results",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Campaign targets macOS developers searching for Codex downloads via sponsored Google results",
+      "Fake page on Google Sites instructs users to run terminal command with Base64-encoded URL payload",
+      "Script removes macOS security information, bypassing typical download warnings before launching",
+      "Final malware is universal Mach-O executable running natively on Intel and Apple Silicon",
+      "Substantial similarities to Atomic macOS Stealer (AMOS) infostealer"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "malware-distributed-via-fake-openai-codex-sponsored-search-results",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4380,6 +4809,93 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
+    "title": "Germany vows response to hybrid attacks; third drone found at Leipzig airport",
+    "summary": "German Chancellor Merz declared those behind hybrid attacks will face consequences as authorities discover a third drone at an airport involved in the incident.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Germany",
+      "hybrid attacks",
+      "drone",
+      "airport",
+      "security"
+    ],
+    "url": "news/world/2026-08-25/#germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
+    "sources": [
+      {
+        "label": "Euronews.com",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMzVHcncwbUNkZEd6SFJIZ3pLX1NkR3hoNkJMR1ZXLWVNaDZLSGc4cC04OGhLOXcwTEQydFc4MGRxSVpBemUtZVZEbmx1NmdWSGtnODhYX0ZsYzlZWXZqQU05WDAxUlRpY25JR1FScDA1TXg1a2lhQjFKcWpYT1VVZGJmdUp5dlpHOUhRYVFidWF2ejI0SDhTLUJCZEI0R2lMUjBOclNLVW84RnAyOUhhSkRqOWFLeHZSUXlPeXlwN1dJNlBHQ2h2N01JbjNENWhWTmc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "major-russian-oil-refinery-reportedly-hit-in-ukrainian-attack",
+    "title": "Major Russian Oil Refinery Reportedly Hit in Ukrainian Attack",
+    "summary": "The Afipsky Oil Refinery, one of Russia's largest, was struck by Ukrainian drone attack on August 25, causing fires and damaging the facility, railway station, and residential areas. The refinery processes 6.25 million tonnes of crude annually, representing 2% of Russia's refining output.",
+    "theme": "Conflict",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "Ukraine",
+      "Afipsky refinery",
+      "attack",
+      "oil infrastructure"
+    ],
+    "url": "news/world/2026-08-25/#major-russian-oil-refinery-reportedly-hit-in-ukrainian-attack",
+    "sources": [
+      {
+        "label": "Kyiv Independent",
+        "url": "https://kyivindependent.com/major-russian-oil-refinery-reportedly-struck-in-ukrainian-attack/",
+        "origin": "research"
+      },
+      {
+        "label": "The Kyiv Independent",
+        "url": "https://kyivindependent.com/major-russian-oil-refinery-reportedly-struck-in-ukrainian-attack/",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Afipsky refinery processes ~6.25 million tons crude annually (~2% of Russian output)",
+      "Produces gasoline, diesel, gas condensate distillates, heavy residues, and sulfur",
+      "Two killed and two injured in overnight August 25 attack",
+      "Large fire at facility; damage to railway station and residential buildings",
+      "Russia claims air defences shot down 148 aerial targets; Ukraine had not commented at reporting time"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "major-russian-oil-refinery-reportedly-hit-in-ukrainian-attack",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "europes-summer-heatwaves-linked-to-at-least-35000-excess-deaths",
     "title": "Europe's summer heatwaves linked to at least 35,000 excess deaths",
     "summary": "Europe's four consecutive record-breaking heatwaves from May through August 2026 caused at least 35,000 excess deaths based on incomplete data from half the continent, with the true toll expected significantly higher. Germany recorded 14,000 heat-related deaths, including 9,600 in a single week in late June.",
@@ -4423,6 +4939,51 @@
     "researched": true,
     "received_at": "2026-08-25T06:23:31.275045+00:00",
     "lineage_id": "europes-summer-heatwaves-linked-to-at-least-35000-excess-deaths",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "study-largest-carbon-polluters-responsible-for-half-of-western-us-water-loss-to-climate-change",
+    "title": "Study: Largest Carbon Polluters Responsible for Half of Western U.S. Water Loss to Climate Change",
+    "summary": "A Nature study attributes approximately half of the American West's 2014–2024 water loss—including a one-third reduction in snowpack and 13% streamflow decrease—to climate change from emissions by 122 fossil fuel companies and cement producers. The water loss equals the full capacity of Lake Mead, the nation's largest reservoir.",
+    "theme": "Climate",
+    "importance": 8.0,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "fossil fuels",
+      "water crisis",
+      "climate change",
+      "American West",
+      "carbon accountability"
+    ],
+    "url": "news/climate-change/2026-08-25/#study-largest-carbon-polluters-responsible-for-half-of-western-us-water-loss-to-climate-change",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/25082026/attribution-study-links-carbon-majors-to-colorado-river-crisis/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Climate change caused roughly 50% of American West water loss from 2014–2024",
+      "Snowpack decreased over one-third; streamflows fell approximately 13%",
+      "Water loss attributed to 122 carbon-major fossil fuel and cement companies",
+      "Drained water volume equivalent to full capacity of Lake Mead reservoir",
+      "First-of-its-kind attribution study linking specific major polluters to regional water crisis"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "lineage_id": "study-largest-carbon-polluters-responsible-for-half-of-western-us-water-loss-to-climate-change",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
