@@ -190,7 +190,7 @@
     "date": "2026-08-25",
     "event_id": "relationship-between-hunting-and-biodiversity-protection-in-switzerland",
     "title": "Relationship between hunting and biodiversity protection in Switzerland",
-    "summary": "One-third of all species and half of habitat types in Switzerland are endangered.",
+    "summary": "One-third of Swiss species and half of habitat types are endangered; hunting's relationship to biodiversity protection is contested.",
     "theme": "Conservation",
     "importance": 4.5,
     "topics": [
@@ -205,8 +205,10 @@
       "Switzerland",
       "biodiversity",
       "endangered species",
+      "habitat",
       "habitat loss",
-      "hunting"
+      "hunting",
+      "species"
     ],
     "url": "news/conservation/2026-08-25/#relationship-between-hunting-and-biodiversity-protection-in-switzerland",
     "sources": [
@@ -224,11 +226,16 @@
         "label": "Wild beim Wild",
         "url": "https://www.google.com/goto?url=CAESdQHrOzAVI-lnd2STGRM4nOtqYw_WrhUefZ0Zi98fsQMcywOt3sRDq-fd8GNmBEf1hkOuEqwvs2vOH086FnksBQ2jGwVfrQC4Vl9dXMATmj5iItLnj6iV45iYg-papXO2xJQxnNV0qC9Xb1IiDJazvmMj3wBFyw",
         "origin": "discovery"
+      },
+      {
+        "label": "Wild beim Wild",
+        "url": "https://www.google.com/goto?url=CAESdQHrOzAVN8bW-Ne6E4YHEC6WyWdalcQPO1y6JQPAH0zysyK0slz1uxfW4XFYxjjtkZvU3b2ZnuIZLH_7_z2Xbfr0M1feSFhu8QAyZAwANYFHWviX_IFYjEeX7XvLzrPLeIn4Q1KEDveeCpN5VvWSTSKX-y7Wtw",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "hunting-and-biodiversity-in-switzerland-examining-whether-hunting-protects-nature",
     "related_title": "",
     "related_url": "",
@@ -343,79 +350,6 @@
     "researched": false,
     "received_at": "2026-08-25T14:33:08.214656+00:00",
     "lineage_id": "fake-recruiter-scams-target-corporate-credentials-on-mobile-devices",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "large-language-models-lack-emotional-capacity-according-to-nature-human-behaviour-study",
-    "title": "Large language models lack emotional capacity according to Nature Human Behaviour study",
-    "summary": "New research published in Nature Human Behaviour concludes that large language models do not possess genuine emotions.",
-    "theme": "AI Research",
-    "importance": 5.5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "large language models",
-      "emotions",
-      "AI capabilities"
-    ],
-    "url": "news/ai/2026-08-25/#large-language-models-lack-emotional-capacity-according-to-nature-human-behaviour-study",
-    "sources": [
-      {
-        "label": "Nature",
-        "url": "https://www.nature.com/articles/s41562-026-02558-6",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "large-language-models-lack-emotional-capacity-according-to-nature-human-behaviour-study",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "eight-free-tools-to-check-if-your-pc-can-run-ai-locally",
-    "title": "Eight free tools to check if your PC can run AI locally",
-    "summary": "A guide presents eight free tools that help users determine whether their computer meets the hardware requirements to run AI models locally.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI",
-      "local deployment",
-      "tools",
-      "PC requirements"
-    ],
-    "url": "news/ai/2026-08-25/#eight-free-tools-to-check-if-your-pc-can-run-ai-locally",
-    "sources": [
-      {
-        "label": "Pasquale Pillitteri",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBvX0V5TUdnTzBxV2VjXzZ0Mm9MUTFjWklUMExYdXNEMGJSYTltSlJWeXJCa3pvT2psbFp1UUs4MUtiR0d1cWFMX0FYSHRqellkWm5sZmVBdlZkaTVYNU0wZlpSdzg4Z01OTEd6cC1HX2FCOTVreGFjTUR4bG9iZw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T10:19:22.894292+00:00",
-    "lineage_id": "eight-free-tools-to-check-if-your-pc-can-run-ai-locally",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -540,7 +474,7 @@
     "date": "2026-08-25",
     "event_id": "bangladesh-launches-wildlife-commission-to-guide-species-protection-and-habitat-restoration",
     "title": "Bangladesh launches wildlife commission to guide species protection and habitat restoration",
-    "summary": "Bangladesh established an advisory wildlife commission bringing together government, experts, and academics to guide conservation and habitat restoration.",
+    "summary": "Bangladesh has launched an advisory wildlife commission bringing together officials and experts to guide species protection and habitat restoration.",
     "theme": "Policy",
     "importance": 5.5,
     "topics": [
@@ -554,8 +488,10 @@
     "keywords": [
       "Bangladesh",
       "endangered species",
+      "habitat",
       "habitat restoration",
       "species protection",
+      "wildlife",
       "wildlife commission"
     ],
     "url": "news/conservation/2026-08-25/#bangladesh-launches-wildlife-commission-to-guide-species-protection-and-habitat-restoration",
@@ -574,60 +510,21 @@
         "label": "The Climate Watch",
         "url": "https://www.google.com/goto?url=CAESuQEB6zswFbcs5pH4v51iwUYi4JdiYWNFV6DPRhLV_i7vl-nQpPGD80gDkuKC_CB6VrfphC93E0FrVE-KWeWfFrkqc3qfouef2AiYUgMQ_rL2LPbnLV5NCaGFhTuXzKmjisBFBZ4jFEUcCTE3lXjOu_9uGn4KIX8VbMP9LlkVkQz1_-bMzQG-YVJnKEzzfvCfKir6mKl8OXsBKPzcHvwSuV9x_AUM6LqBPD6KbTRN5Rewhpk6mTSRiTLASA",
         "origin": "discovery"
+      },
+      {
+        "label": "The Climate Watch",
+        "url": "https://www.google.com/goto?url=CAESuQEB6zswFR5ZDPI5l0_Tx6_oBdHdOnaqkRSsKslew7cUDP6QIvN0PYy69ksbDjo64tXwvwvCVQZZ4oEFBKhBR9T-ThxClkM5_FBdacmgHm9W6oae0xg3xFn3NvcM1FAjcvri1v5ohlZnS2PxXejEO630z5rsx1pCw1xQtHXvLk8bSjrBhqWvaTVY79NNEUyeMO-lndrHd0SbXL3skHgX7Q3os4w24EcSZJODaPUeHMAiBWV4poabm7fhMA",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "bangladesh-establishes-wildlife-commission-for-species-protection-and-habitat-restoration",
     "related_title": "",
     "related_url": "",
     "updates_title": "Bangladesh Launches Wildlife Commission for Endangered Species Protection",
     "updates_url": "news/conservation/2026-08-24/#bangladesh-launches-wildlife-commission-for-endangered-species-protection"
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "european-wildlife-protection-frameworks-should-recognize-animals-as-individuals-capable-of-suffering",
-    "title": "European Wildlife Protection Frameworks Should Recognize Animals as Individuals Capable of Suffering",
-    "summary": "European conservation experts argue that wildlife protection frameworks should recognize animals as individuals capable of suffering.",
-    "theme": "Conservation",
-    "importance": 5.5,
-    "topics": [
-      "conservation"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "EU",
-      "UK conservation law",
-      "animal welfare",
-      "biodiversity",
-      "wildlife protection"
-    ],
-    "url": "news/conservation/2026-08-25/#european-wildlife-protection-frameworks-should-recognize-animals-as-individuals-capable-of-suffering",
-    "sources": [
-      {
-        "label": "Newswise",
-        "url": "https://www.google.com/goto?url=CAES0AEB6zswFfVuuFOZyxJ7zTtoyDqNWFgO7KzsKQ9CEr41_sDlM7Af5GRJnxyXkhxz7s47A3GQhw5xDUlldX6bmNNfH49uT9SlMNBpLrU7c4ckKrdVgcldkXK4F7qQS1lbhBqynI2aQZnS2T53GzkRGuSli4qQWtbvKrJZUc7phZTm8zzevxZxZnfZtAO-G2tlohA7x3Bj-cEbCXNCrU_dDXhE2IdYnhPLFm1thN4e52_x1dOsPqw_HBc56FAzyEJnxGy9mCgxxNpMPu0yB6W7h1j-",
-        "origin": "discovery"
-      },
-      {
-        "label": "Newswise",
-        "url": "https://www.google.com/goto?url=CAES0AEB6zswFVRUXRHJ0RFnrX8vG8nWzJajz20o2yXZU4iRvW05_dNLLW52Gd4gW7z0VL-QPRYchoBdwwxrtpxkSDhB49g_CaqBTZeQIRn54frWs17DObGAyEzOGz0kLc-Ycnh4B9eKphkXgNm-oaR3RebqleDoq5PcEsz2QScAijO6nHb9EbpsQD9Wmxkcd9UYEWbbSxs1oIrK3AKD0pOll7kn1AMo5bCJdY76AyFIFw1G7tO-ixSIlL_9roHkzsOD11gpvXx71IkbkelIQ9Wao36r",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
-    "lineage_id": "eu-and-uk-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "European experts argue wildlife law should recognize animals as individuals capable of suffering",
-    "updates_url": "news/conservation/2026-08-25/#european-experts-argue-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering"
   },
   {
     "date": "2026-08-25",
@@ -711,43 +608,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "nasa-selects-texas-as-hub-for-aerospace-workforce-development-pipeline",
-    "title": "NASA selects Texas as hub for aerospace workforce development pipeline",
-    "summary": "Texas has been selected as one of seven states to partner with NASA in developing a skilled workforce pipeline for the growing aerospace industry.",
-    "theme": "Workforce",
-    "importance": 5.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "aerospace",
-      "workforce development",
-      "Texas"
-    ],
-    "url": "news/space/2026-08-25/#nasa-selects-texas-as-hub-for-aerospace-workforce-development-pipeline",
-    "sources": [
-      {
-        "label": "Greater Houston Partnership",
-        "url": "https://www.houston.org/news/nasa-taps-texas-to-strengthen-skilled-aerospace-workforce/",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "nasa-selects-texas-as-hub-for-aerospace-workforce-development-pipeline",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "enterprise-ai-cost-challenge-primarily-driven-by-inference-not-training",
     "title": "Enterprise AI cost challenge primarily driven by inference, not training",
     "summary": "Analysis shows that inference operations, not model training, represent the primary cost driver for enterprise AI deployments.",
@@ -784,9 +644,85 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "perplexity-launches-local-gpu-based-ai-model",
+    "title": "Perplexity Launches Local GPU-Based AI Model",
+    "summary": "Perplexity released a local AI model that runs on user GPUs instead of relying on cloud infrastructure.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Perplexity",
+      "local AI",
+      "GPU",
+      "model deployment",
+      "inference"
+    ],
+    "url": "news/ai/2026-08-25/#perplexity-launches-local-gpu-based-ai-model",
+    "sources": [
+      {
+        "label": "Gizmodo",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVzVfQml4N0tXV1hOd3JfNzRiOURvZTYzTzk1dGFBT0V4UkxYSVFUVkVSdFlGazJVLWticGJTeFhBZDlxQXNZSFNlenZ3cEM0c3huTVdicFRnTVE1OEVJYmd2ZUtEYTNOLVJkSmJzZjZyM2ZBLS1JNnBmS2JMVVpNaFUtQUJMVFoxV0pUd3FNUVg4cEcwM2VkRnZfTnlTSk5tNlJkSFptQi1qbk1KUmhZVXJR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "perplexity-launches-local-gpu-based-ai-model",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "ibm-granite-42-adds-native-reasoning-capabilities-for-enterprise-agents",
+    "title": "IBM Granite 4.2 adds native reasoning capabilities for enterprise agents",
+    "summary": "IBM's new Granite 4.2 open models integrate reasoning, tool use, and coding capabilities designed for agentic AI systems.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "IBM",
+      "Granite",
+      "reasoning",
+      "enterprise agents",
+      "LLM"
+    ],
+    "url": "news/ai/2026-08-25/#ibm-granite-42-adds-native-reasoning-capabilities-for-enterprise-agents",
+    "sources": [
+      {
+        "label": "IBM Research",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZTHdBZ1ZsUkJwbVoyMWdMTVhTWnJ5ekxKU01DYlRzZ0RaMlBtM2x4SHZHQjYtUHh5NWNUQk1fN3p6N00tdTk3UzViOTExOTkyTUwyd0E0bFRteFJiMVNYQjRYQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "ibm-granite-42-adds-native-reasoning-capabilities-for-enterprise-agents",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "india-advocates-global-drought-resilience-strategy-at-unccd-cop17",
     "title": "India Advocates Global Drought Resilience Strategy at UNCCD CoP17",
-    "summary": "India has called for a global shift from drought response to drought resilience at the UNCCD CoP17 conference.",
+    "summary": "India has called for a strategic shift toward proactive drought resilience at the UNCCD CoP17 conference in Mongolia.",
     "theme": "Climate",
     "importance": 6.0,
     "topics": [
@@ -799,9 +735,12 @@
     "primary_feed": "environment",
     "keywords": [
       "India",
-      "drought resilience",
       "UNCCD",
-      "climate policy"
+      "climate",
+      "climate policy",
+      "drought",
+      "drought resilience",
+      "resilience"
     ],
     "url": "news/climate-resilience/2026-08-25/#india-advocates-global-drought-resilience-strategy-at-unccd-cop17",
     "sources": [
@@ -809,16 +748,72 @@
         "label": "DD India",
         "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaS1XLU9WRE44VjRGb0NFVXUwTHhDVzh3S2FMVW1ZSHcwZzJ6RVpVSEljbndwWVBQUGc4OTlhVWRMZ19yV1d3MGhjN19KNjRkbE9vS0pscE85QTFDUjBCeHBuOUlGSWlaSmcxN2NDMzc2YktLQmpldEZnY1BwalZyUGI2WnpvalA4WGJRMUxEU2hoX0dXNDhYVHlMRFlwOG1CemhGWUlZMVNrc0FuR0t4TUUyZ3A?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "PIB",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YSktqRGtRWkNTWUhodlV3QmVjaElRQVR5a1VjdmJBMW96clh0dG9qNHk3clUxc083cWJ3SkktVkdVV2VwaGlIanlaZ3VTZVZ0NW9kTmtMV0hYNEFtWEU3YTN5SVJWOVY1?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "india-advocates-global-drought-resilience-strategy-at-unccd-cop17",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "european-wildlife-protection-frameworks-should-recognize-animals-as-individuals-capable-of-suffering",
+    "title": "European Wildlife Protection Frameworks Should Recognize Animals as Individuals Capable of Suffering",
+    "summary": "Experts argue that EU and UK wildlife protection frameworks must treat animals as sentient individuals capable of suffering.",
+    "theme": "Conservation",
+    "importance": 6.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "EU",
+      "EU law",
+      "UK conservation law",
+      "animal welfare",
+      "biodiversity",
+      "sentience",
+      "wildlife protection"
+    ],
+    "url": "news/conservation/2026-08-25/#european-wildlife-protection-frameworks-should-recognize-animals-as-individuals-capable-of-suffering",
+    "sources": [
+      {
+        "label": "Newswise",
+        "url": "https://www.google.com/goto?url=CAES0AEB6zswFfVuuFOZyxJ7zTtoyDqNWFgO7KzsKQ9CEr41_sDlM7Af5GRJnxyXkhxz7s47A3GQhw5xDUlldX6bmNNfH49uT9SlMNBpLrU7c4ckKrdVgcldkXK4F7qQS1lbhBqynI2aQZnS2T53GzkRGuSli4qQWtbvKrJZUc7phZTm8zzevxZxZnfZtAO-G2tlohA7x3Bj-cEbCXNCrU_dDXhE2IdYnhPLFm1thN4e52_x1dOsPqw_HBc56FAzyEJnxGy9mCgxxNpMPu0yB6W7h1j-",
+        "origin": "discovery"
+      },
+      {
+        "label": "Newswise",
+        "url": "https://www.google.com/goto?url=CAES0AEB6zswFVRUXRHJ0RFnrX8vG8nWzJajz20o2yXZU4iRvW05_dNLLW52Gd4gW7z0VL-QPRYchoBdwwxrtpxkSDhB49g_CaqBTZeQIRn54frWs17DObGAyEzOGz0kLc-Ycnh4B9eKphkXgNm-oaR3RebqleDoq5PcEsz2QScAijO6nHb9EbpsQD9Wmxkcd9UYEWbbSxs1oIrK3AKD0pOll7kn1AMo5bCJdY76AyFIFw1G7tO-ixSIlL_9roHkzsOD11gpvXx71IkbkelIQ9Wao36r",
+        "origin": "discovery"
+      },
+      {
+        "label": "Newswise",
+        "url": "https://www.google.com/goto?url=CAES0AEB6zswFdOpbgVE2ifqm_5_kSd0wcSAnPSGOI3vBHBJ84stFWLIcvhKJ7L4626PgvxlnEYdQtK77O09sR33pI55s1ZwAbyz9VOudFqqwL3XBed_l1k_vyCZkENhVT8SXuoOEkOlw29_VYa2kpxkJ4qOfyZrmXEHw-5t5kETmyVhZ2CCPSY_J2jV7ObNmE9ffabeoo7kOKQDSAc9uUsWNEpFiFUaf2wwg4gMx7mLgcRfKzMnXdYvj2cmpUfYXtuYzOAxSumX0QD7Y1m0Tb8KPKv5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "eu-and-uk-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "European experts argue wildlife law should recognize animals as individuals capable of suffering",
+    "updates_url": "news/conservation/2026-08-25/#european-experts-argue-wildlife-law-should-recognize-animals-as-individuals-capable-of-suffering"
   },
   {
     "date": "2026-08-25",
@@ -897,37 +892,37 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "openai-projects-billion-user-adoption-for-ai-agents-despite-pricing-at-100200-monthly",
-    "title": "OpenAI projects billion-user adoption for AI agents despite pricing at $100–$200 monthly",
-    "summary": "OpenAI's rate card suggests AI agent subscriptions will cost $100–$200 per month while the company pursues a one-billion-user adoption target.",
-    "theme": "AI",
-    "importance": 6,
+    "event_id": "closing-the-patch-window-security-requires-new-control-strategies",
+    "title": "Closing the patch window: Security requires new control strategies",
+    "summary": "Organizations need security controls that operate during the gap between vulnerability discovery and patch deployment.",
+    "theme": "Security",
+    "importance": 6.0,
     "topics": [
-      "gpt"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "AI agents",
-      "pricing",
-      "subscription",
-      "business model"
+      "patch",
+      "vulnerability",
+      "zero-day",
+      "security",
+      "control plane"
     ],
-    "url": "news/gpt/2026-08-25/#openai-projects-billion-user-adoption-for-ai-agents-despite-pricing-at-100200-monthly",
+    "url": "news/email-security/2026-08-25/#closing-the-patch-window-security-requires-new-control-strategies",
     "sources": [
       {
-        "label": "Business Model Analyst",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSaEFlaEpkR2JlVnEzUU5YTTlaNGRIMUhfbENrX252S0xiVzZhYzFrdTlyR2tySkhUWXFCdEdWaWtzc1dTSzdmLU9fMHZ6dXUwWXJ5UENMN0xTVWdKZlZWcFJBY3duZUJ2c1pQR0J5d3BPdVE?oc=5",
+        "label": "Microsoft Security Blog",
+        "url": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
-    "lineage_id": "openai-projects-billion-user-adoption-for-ai-agents-despite-pricing-at-100200-monthly",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "closing-the-patch-window-security-requires-new-control-strategies",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1478,6 +1473,44 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "ai-agents-causing-denial-of-service-burden-on-open-source-maintainers",
+    "title": "AI agents causing denial-of-service burden on open-source maintainers",
+    "summary": "Automated AI and LLM agents are overwhelming open-source project maintainers with excessive support requests and issues.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI agents",
+      "LLMs",
+      "open-source",
+      "maintainers",
+      "sustainability"
+    ],
+    "url": "news/ai/2026-08-25/#ai-agents-causing-denial-of-service-burden-on-open-source-maintainers",
+    "sources": [
+      {
+        "label": "Phoronix",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kR1A0U3diU0M5YkNudzVQUURrdTluTFdZMUtkTHo4TDBBV2tDZDd0MUsxcGFWRGJVbkFLZENQSm8tLW9uSENxUG8tamp4RjhyVWkyWWp1dGVFYzdLVzRHRWw1TG9pdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "ai-agents-causing-denial-of-service-burden-on-open-source-maintainers",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "openai-narrows-gap-as-anthropics-claude-5-loses-enterprise-momentum",
     "title": "OpenAI Narrows Gap as Anthropic's Claude 5 Loses Enterprise Momentum",
     "summary": "OpenAI is gaining ground on Anthropic as the latter's Claude 5 loses momentum in the enterprise market.",
@@ -1705,43 +1738,6 @@
     "researched": false,
     "received_at": "2026-08-25T16:23:38.929161+00:00",
     "lineage_id": "check-point-blocks-large-scale-debt-relief-phishing-campaign-targeting-9000-organizations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "openai-disrupts-russian-covert-influence-campaign",
-    "title": "OpenAI disrupts Russian covert influence campaign",
-    "summary": "OpenAI identified and disrupted a new covert influence operation originating from Russia.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Russia",
-      "influence campaign",
-      "disinformation"
-    ],
-    "url": "news/gpt/2026-08-25/#openai-disrupts-russian-covert-influence-campaign",
-    "sources": [
-      {
-        "label": "OpenAI",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMS1kR0RyOTBzSEgxUzhUVHVRUXcxRTdXTmhNSThIUmd4bWlIVk5VenZGNy1xc3ZrakRpSnFnVFJnMF9hU2xSaHVpT2wwelBkZHlYMUNObmVFVnBjVXMxcWUzZG1NeUNTbXl0eDR1YUJTdnZLLWowZjZnYkxuaFFZRzFHcnpnS1gySkVj?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
-    "lineage_id": "openai-disrupts-russian-covert-influence-campaign",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2450,6 +2446,81 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "llm-query-patterns-shape-gpu-infrastructure-demands",
+    "title": "LLM query patterns shape GPU infrastructure demands",
+    "summary": "The way users interact with large language models significantly impacts the GPU hardware requirements needed to serve them.",
+    "theme": "AI Infrastructure",
+    "importance": 7,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "LLM",
+      "GPU",
+      "inference",
+      "hardware"
+    ],
+    "url": "news/ai/2026-08-25/#llm-query-patterns-shape-gpu-infrastructure-demands",
+    "sources": [
+      {
+        "label": "StartupHub.ai",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9keW9XcDdMN0pEc0FvY3pCUEhNbTJUNENvOUVUM0Y1MGhsRDVKR19HZmVGWm5fOF9TUXdoalZfMGVsNHFqZEN4Z3VrTVNrZ251eTNVSVVyeW5hYm1OcGVFUlNLWGYzakJUdGNpQ0U2a3F6a3EzY1JtSkd3MW5hMEU?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "llm-query-patterns-shape-gpu-infrastructure-demands",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "toxnetv2-linux-botnet-weaponizes-llm-to-generate-malicious-commands",
+    "title": "ToxNetV2 Linux botnet weaponizes LLM to generate malicious commands",
+    "summary": "A new variant of the ToxNet Linux botnet uses large language models to generate shell and SSH commands for automated attacks.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "botnet",
+      "ToxNetV2",
+      "LLM",
+      "Linux",
+      "malware"
+    ],
+    "url": "news/ai/2026-08-25/#toxnetv2-linux-botnet-weaponizes-llm-to-generate-malicious-commands",
+    "sources": [
+      {
+        "label": "gbhackers.com",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tR1VuVWpTTi00bG9ONlo5TmhUYXVlN1ZyRFlBS0loSzFUdGtmNVVlV2lXMHlDeDRaajMtLVJwNlIzY2FWRTR3WHI4TDIzeE5fNkFROGd6d9IBXEFVX3lxTE8xTFdkdDhYWUgtWEU4T2V1aVQzcE1OOEV4cTl0eXd0Z0xqbF9rZWhnUmIwbkwwOFhKcVdsSU9VdnliTFlPTVZGV2xLaWxpWGNQeGVOV3MxNXdBY0RH?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "toxnetv2-linux-botnet-weaponizes-llm-to-generate-malicious-commands",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "anthropic-adds-invisible-watermarks-to-claude-generated-content",
     "title": "Anthropic adds invisible watermarks to Claude-generated content",
     "summary": "Anthropic's Claude AI now uses invisible watermarks and signed metadata to identify and track AI-generated content globally.",
@@ -2715,45 +2786,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "xokleng-indigenous-people-plant-100000-endangered-brazilian-pine-trees",
-    "title": "Xokleng Indigenous people plant 100,000 endangered Brazilian pine trees",
-    "summary": "The Xokleng Indigenous people of Brazil have planted nearly 100,000 seedlings of the critically endangered Araucaria angustifolia tree in restoration efforts.",
-    "theme": "Conservation",
-    "importance": 7.0,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "Xokleng",
-      "Brazilian pine",
-      "reforestation",
-      "endangered species",
-      "Santa Catarina"
-    ],
-    "url": "news/climate-change/2026-08-25/#xokleng-indigenous-people-plant-100000-endangered-brazilian-pine-trees",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/08/xokleng-indigenous-people-plant-thousands-of-critically-endangered-pine-in-brazil/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "xokleng-indigenous-people-plant-100000-endangered-brazilian-pine-trees",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "conservation-groups-challenge-president-of-the-united-states-rollback-of-endangered-species-protections-affecting-canadian-wildlife",
     "title": "Conservation groups challenge president of the United States rollback of endangered species protections affecting Canadian wildlife",
     "summary": "Conservation groups are suing the president of the United States over endangered species protection changes, warning that Canadian wildlife is also at risk.",
@@ -2842,7 +2874,7 @@
     "date": "2026-08-25",
     "event_id": "zero-click-email-attacks-pose-emerging-threat-to-businesses",
     "title": "Zero-click email attacks pose emerging threat to businesses",
-    "summary": "Zero-click email attacks require no user interaction and represent a significant emerging security threat to enterprises.",
+    "summary": "Zero-click email attacks bypass user interaction, posing significant security risks that organizations must understand and defend against.",
     "theme": "Security",
     "importance": 7.0,
     "topics": [
@@ -2853,10 +2885,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "zero-click attacks",
+      "attack",
+      "business risk",
+      "email",
       "email security",
       "exploit",
-      "business risk"
+      "security",
+      "zero-click",
+      "zero-click attacks"
     ],
     "url": "news/email-security/2026-08-25/#zero-click-email-attacks-pose-emerging-threat-to-businesses",
     "sources": [
@@ -2864,11 +2900,16 @@
         "label": "IT Pro",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb21VVWt5UmNubDdQWGJKTlNYdkcxb3VqQjRHbFZ4UzRxaXM0ZGZidjRfNmdJV0pfSXZDRGdKSFZWN0p0cEFXQS1VbW9XWkVxRFJZWFhOWmxOa2RVZGt2U0tWNUpEbnB4S0dfbGY4Mm5McVFMNV83cnZSWmNMRzNvaVVGdV9ubE9JNEYxX3VrOGFVMXp1SlR6Rw?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "IT Pro",
+        "url": "https://www.itpro.com/security/phishing/zero-click-email-attacks-what-businesses-need-to-know",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T16:23:38.929161+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "zero-click-email-attacks-pose-emerging-threat-to-businesses",
     "related_title": "",
     "related_url": "",
@@ -2917,7 +2958,7 @@
     "date": "2026-08-25",
     "event_id": "openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
     "title": "OpenAI bans cluster of Russian ChatGPT accounts used for propaganda",
-    "summary": "OpenAI suspended Russian user accounts on ChatGPT that were engaged in spreading disinformation.",
+    "summary": "OpenAI took action to block ChatGPT accounts linked to Russia in response to sanctions and security concerns.",
     "theme": "Security",
     "importance": 7.0,
     "topics": [
@@ -2937,7 +2978,8 @@
       "covert influence",
       "disinformation",
       "misinformation",
-      "propaganda"
+      "propaganda",
+      "sanctions"
     ],
     "url": "news/gpt/2026-08-25/#openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
     "sources": [
@@ -2985,11 +3027,16 @@
         "label": "Mezha",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUjlBYjJpM2pXal9FYlJSQTdObVZodTgwaUp6cXQyRDNfR0dVYTlGS25lRHY5eUNpNU1lbkY3RWpLV2Z4cWZLU0VwNTQzdGxZNmdmZS0zWklveS14d2c5TG9lRUFWSTUyQklNQV9fRTZGTTFTbUVwM3B2ZlBEMVYza3ZxWjNGVEI1WFHSAY8BQVVfeXFMUDN2QW40SWlOT1JRZE9yUlZSTWdGMkw5dmw4U0x0YjZZNkZNc0o1Q2h5NDJhbF9BX2JBWmNja2c5dmZjSDllTVZhTUNhaVp0WktZbEVjMEV3eDBXUGl3Ty12dWY4UEJGT2RHSWtEalRVVHFLdTRBcWhCWWVCTUpSTEJyc2R1NFhBbTR5emtkRU0?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Caspian Post",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFBCdUlwVkZlYk45ZHVnbGgxQW9kSTF6Q1dFSm5xVkdfYnN2VENoWTZ5cjJiYnB1NVpPanFBblJsck0yczcyMWxxdjJ1eDVmc3hRTmZyWnJxd2UzbXlEbl8wSzhhU2ZNUTJtQy1RVzlxM011dU9LaWhTNG5EUHQyWnBDNVc?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T16:23:38.929161+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
     "related_title": "",
     "related_url": "",
@@ -3000,7 +3047,7 @@
     "date": "2026-08-25",
     "event_id": "wikihow-sues-openai-for-training-on-copyrighted-articles-without-permission",
     "title": "WikiHow sues OpenAI for training on copyrighted articles without permission",
-    "summary": "WikiHow filed a lawsuit against OpenAI alleging the company used its copyrighted articles to train AI models without authorization.",
+    "summary": "WikiHow filed a federal lawsuit against OpenAI alleging misuse of its instructional content to train AI models.",
     "theme": "Legal",
     "importance": 7.0,
     "topics": [
@@ -3011,8 +3058,9 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "WikiHow",
+      "AI training",
       "OpenAI",
+      "WikiHow",
       "copyright",
       "lawsuit"
     ],
@@ -3022,11 +3070,16 @@
         "label": "MediaNama",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV0w0VzhOSU52QTVCallTRE5CeWhHY1drbi0xb0gtN0xVay05Rm1NMkFkNlp4cVRmQld2NUg4WDNJVWZfWHc4ckVxSVJscGV4WGM5RU9UaF9ZY2hPRjA1OHUwRGpldXZvUGFIUEFTV2xkenA2RG9yYmFGbUROSWp3WC1SMGo?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://www.reuters.com/legal/legalindustry/wikihow-sues-openai-copyright-infringement-over-ai-training-2026-08-24/",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T10:19:22.894292+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "wikihow-sues-openai-for-copyright-infringement-over-training-data-usage",
     "related_title": "",
     "related_url": "",
@@ -3107,6 +3160,43 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "openai-uncovers-russian-influence-network-abusing-chatgpt",
+    "title": "OpenAI uncovers Russian influence network abusing ChatGPT",
+    "summary": "OpenAI has identified a Russian disinformation network that exploited ChatGPT for influence operations.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "Russian disinformation",
+      "influence operations",
+      "OpenAI"
+    ],
+    "url": "news/gpt/2026-08-25/#openai-uncovers-russian-influence-network-abusing-chatgpt",
+    "sources": [
+      {
+        "label": "GuruFocus",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNXR3NHVUWkhQdDB3TE5EckNDWHI4TFd3VTZWWmh4SlBLZjdLY0dwZ1hZMDBvd3ItUXN6TWstQjNFTUplUHVLbDNlaXV2TmF2Q3dhTmxtaWstM3ZwTWRIY284TDZpTS1CdXQ1Z3k1MUVLRjVheXd4UF9BT2xsVUhCMFRyanhlNDdFVzVjY1NBdUNQYWt4cVhOQk1sRi0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T16:23:38.929161+00:00",
+    "lineage_id": "openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI bans cluster of Russian ChatGPT accounts used for propaganda",
+    "updates_url": "news/gpt/2026-08-25/#openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda"
   },
   {
     "date": "2026-08-25",
@@ -3292,48 +3382,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "fusion-reactor-implosions-can-tolerate-design-flaws-up-to-critical-threshold",
-    "title": "Fusion reactor implosions can tolerate design flaws up to critical threshold",
-    "summary": "Lawrence Livermore researchers found that inertial fusion energy implosions can tolerate significant design imperfections up to a critical threshold, beyond which performance abruptly declines. The discovery has implications for setting manufacturing tolerances and engineering margins in future fusion reactor design.",
-    "theme": "Energy",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "fusion energy",
-      "Lawrence Livermore",
-      "inertial fusion",
-      "fuel targets",
-      "reactor design"
-    ],
-    "url": "news/science/2026-08-25/#fusion-reactor-implosions-can-tolerate-design-flaws-up-to-critical-threshold",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-fusion-reactions-survive-flaws.html",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Inertial fusion implosions can survive significant design imperfections to a critical threshold",
-      "Beyond threshold, performance abruptly declines",
-      "Finding informs manufacturing tolerances and engineering margins for future reactor design"
-    ],
-    "researched": true,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "fusion-reactor-implosions-can-tolerate-design-flaws-up-to-critical-threshold",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "esa-and-nasa-astronauts-complete-historic-iss-spacewalk-repair-mission",
     "title": "ESA and NASA astronauts complete historic ISS spacewalk repair mission",
     "summary": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed a spacewalk on August 18, 2026, to repair the International Space Station.",
@@ -3367,6 +3415,43 @@
     "researched": false,
     "received_at": "2026-08-25T14:33:08.214656+00:00",
     "lineage_id": "esa-and-nasa-astronauts-complete-historic-iss-spacewalk-repair-mission",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "roman-space-telescope-to-reveal-universe-beyond-jwst-and-hubble-capabilities",
+    "title": "Roman Space Telescope to reveal universe beyond JWST and Hubble capabilities",
+    "summary": "NASA's Roman Space Telescope will capture images so large that no existing screen can display them in full.",
+    "theme": "Space Missions",
+    "importance": 7,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Roman Space Telescope",
+      "NASA",
+      "astronomy",
+      "JWST"
+    ],
+    "url": "news/space/2026-08-25/#roman-space-telescope-to-reveal-universe-beyond-jwst-and-hubble-capabilities",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/the-roman-space-telescope-will-reveal-the-universe-in-a-way-the-jwst-and-hubble-cannot",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "roman-space-telescope-to-reveal-universe-beyond-jwst-and-hubble-capabilities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3455,48 +3540,6 @@
     "researched": true,
     "received_at": "2026-08-25T08:27:09.788107+00:00",
     "lineage_id": "apple-to-announce-iphone-18-pro-event-date-this-week",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "polestar-claims-trump-administration-blindsided-it-with-ev-sales-ban",
-    "title": "Polestar Claims Trump Administration Blindsided It With EV Sales Ban",
-    "summary": "Polestar alleged the administration of the president of the United States prolonged review of its petition for months before rejecting it, barring the company from selling electric vehicles in the US starting 2027 under a rule prohibiting vehicles with connected Chinese software.",
-    "theme": "Regulation",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Polestar",
-      "EV",
-      "sales ban",
-      "president of the United States"
-    ],
-    "url": "news/tech/2026-08-25/#polestar-claims-trump-administration-blindsided-it-with-ev-sales-ban",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/transportation/984390/polestar-blindsided-sales-ban-letter-dealer-trump",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "EV sales ban begins with 2027 model year",
-      "Rule cites national security concerns over connected Chinese software",
-      "Sister company Volvo authorized to sell despite similar corporate ownership",
-      "Polestar received no clear explanation for denial"
-    ],
-    "researched": true,
-    "received_at": "2026-08-25T16:23:38.929161+00:00",
-    "lineage_id": "polestar-claims-trump-administration-blindsided-it-with-ev-sales-ban",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5338,7 +5381,7 @@
     "date": "2026-08-25",
     "event_id": "germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
     "title": "Germany vows response to hybrid attacks; third drone found at Leipzig airport",
-    "summary": "German political leader Merz warned the country is 'under threat' after another explosive-laden drone was discovered near Leipzig airport, marking the third such incident.",
+    "summary": "German Chancellor Friedrich Merz said Germany is under threat after another explosive drone was found near Leipzig airport.",
     "theme": "Security",
     "importance": 7.5,
     "topics": [
@@ -5350,6 +5393,8 @@
     "primary_feed": "world",
     "keywords": [
       "Germany",
+      "Leipzig airport",
+      "Merz",
       "airport",
       "drone",
       "hybrid attacks",
@@ -5372,11 +5417,16 @@
         "label": "POLITICO.eu",
         "url": "https://www.google.com/goto?url=CAESoAEB6zswFfairOy-DJMd1NkO4bmUei6tS4q0y4Ph-7T8Vv4f1Vz5OFLl2MduLPGGEiO0SoOjiSxYmNgYS8ga5ua8RwHvWDBoPpNNdOMVIqoUR6GkWsUdDYNR-uGyRFKK6xNX9gu_E9evnDs32qSJIIyxe-_sLAdPnmvw9Q9gRTYitUfMFWUNKI-JcVnjzzCRoAbpj3iNsurh8AYbZu-APsEH",
         "origin": "discovery"
+      },
+      {
+        "label": "POLITICO.eu",
+        "url": "https://www.politico.eu/article/leipzig-airport-explosive-drones-friedrich-merz-germany-security-threat/",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
     "lineage_id": "germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
     "related_title": "",
     "related_url": "",
@@ -5480,6 +5530,52 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "congos-ebola-outbreak-records-one-of-highest-weekly-death-tolls",
+    "title": "Congo's Ebola Outbreak Records One of Highest Weekly Death Tolls",
+    "summary": "Eastern Congo's Ebola outbreak recorded 317 deaths in the week ending August 23, 2026—one of the highest weekly tolls—with 5,514 confirmed cases and 2,642 deaths overall. The Bundibugyo virus outbreak is the fastest-growing on record, with fatality rates reaching 68.6% in hard-to-reach areas and experts estimating actual cases may be three times official numbers.",
+    "theme": "Health",
+    "importance": 8,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Ebola",
+      "Congo",
+      "outbreak",
+      "mortality",
+      "epidemic"
+    ],
+    "url": "news/climate-change/2026-08-25/#congos-ebola-outbreak-records-one-of-highest-weekly-death-tolls",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/08/congos-ebola-outbreak-records-one-of-its-highest-weekly-death-tolls-yet/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "317 deaths in single week (Aug 15–23)",
+      "5,514 confirmed cases, 2,642 deaths overall",
+      "47.9% fatality rate; 68.6% in North Kivu",
+      "Bundibugyo Ebola strain (rare type)",
+      "Fastest-growing Ebola outbreak in history",
+      "16,000+ Ervebo vaccine doses received August 22"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "congos-ebola-outbreak-records-one-of-highest-weekly-death-tolls",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "trump-administration-removes-habitat-protection-from-endangered-species-act-definition-of-harm",
     "title": "Trump Administration Removes Habitat Protection from Endangered Species Act Definition of 'Harm'",
     "summary": "The Trump administration finalized a rule on July 10, 2026, removing habitat destruction from the regulatory definition of \"harm\" under the Endangered Species Act, effective September 14. The change allows farming, drilling, mining, logging, and development to proceed in endangered species habitat without violating the act, significantly weakening species protection since habitat loss is a primary driver of extinction.",
@@ -5518,6 +5614,45 @@
     "researched": true,
     "received_at": "2026-08-25T06:36:40.762253+00:00",
     "lineage_id": "trump-administration-removes-habitat-protection-from-endangered-species-act-definition-of-harm",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "openai-reports-custom-ai-chip-outperforms-nvidia-systems-in-key-tests",
+    "title": "OpenAI Reports Custom AI Chip Outperforms Nvidia Systems in Key Tests",
+    "summary": "OpenAI announced that its first custom AI chip surpasses Nvidia systems in key benchmark tests.",
+    "theme": "AI",
+    "importance": 8,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI chip",
+      "custom hardware",
+      "Nvidia",
+      "performance",
+      "inference"
+    ],
+    "url": "news/gpt/2026-08-25/#openai-reports-custom-ai-chip-outperforms-nvidia-systems-in-key-tests",
+    "sources": [
+      {
+        "label": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmhaX3FZVVlqS25EQl9fV0xvR0NQb21qQWNiRmdHOEtzOGNadVpvZjhhOWNIMjBkWUdkTEZINGVsSnI0dVpfTzRFR2NRbFotTm41ZnhVV0tzSkxxUVFRaFdDSDN0R0VURVdaYkVkaDhvbUJVRHQyc0htd3djY0tzRFk5ajFJOVlZUzBqR2wzNHRHWS1XR1hUamo0a25XRVlPb3RXZ0t1S09DYS1ROXJidA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "openai-reports-custom-ai-chip-outperforms-nvidia-systems-in-key-tests",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5647,6 +5782,65 @@
     "researched": true,
     "received_at": "2026-08-25T14:33:08.214656+00:00",
     "lineage_id": "nasas-lunar-gateway-spaceport-will-serve-as-first-moon-airport-within-two-decades",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "gamma-ray-signal-could-indicate-wimp-dark-matter-detection",
+    "title": "Gamma-Ray Signal Could Indicate WIMP Dark Matter Detection",
+    "summary": "Analysis of 15 years of NASA Fermi telescope data detected a halo of gamma rays extending toward the Milky Way center that closely matches theoretical predictions for WIMPs (weakly interacting massive particles). If confirmed through independent verification and ruling out alternative explanations, this may represent the first direct observational evidence of dark matter.",
+    "theme": "Science",
+    "importance": 8,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "dark matter",
+      "WIMPs",
+      "gamma rays",
+      "physics",
+      "detection"
+    ],
+    "url": "news/science/2026-08-25/#gamma-ray-signal-could-indicate-wimp-dark-matter-detection",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2025/11/251129053349.htm",
+        "origin": "research"
+      },
+      {
+        "label": "The Debrief",
+        "url": "https://thedebrief.org/nasas-fermi-gamma-ray-telescope-detects-possible-first-direct-evidence-of-dark-matter/",
+        "origin": "research"
+      },
+      {
+        "label": "The Watchers",
+        "url": "https://watchers.news/epicenter/scientists-may-have-finally-seen-dark-matter-for-the-first-time/",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-gamma-ray-awaited-evidence-wimps.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "20 gigaelectronvolt gamma-ray signal detected",
+      "Signal matches WIMP annihilation predictions",
+      "Particles approximately 500 times proton mass",
+      "Published November 25, 2025, in Journal of Cosmology and Astroparticle Physics",
+      "Independent verification and alternative explanations remain necessary"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "gamma-ray-signal-could-indicate-wimp-dark-matter-detection",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5843,6 +6037,58 @@
     "researched": true,
     "received_at": "2026-08-25T14:33:08.214656+00:00",
     "lineage_id": "cisa-issues-critical-three-day-patching-deadline-for-perfect-10-oracle-vulnerability",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "dolly-parton-dies-at-80",
+    "title": "Dolly Parton Dies at 80",
+    "summary": "Dolly Parton, the country music icon, actor, and philanthropist, died on August 25, 2026, at age 80. Over a six-decade-plus career, she became one of the world's most successful entertainers, with iconic hits including",
+    "theme": "Obituary",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Dolly Parton",
+      "country music",
+      "entertainment",
+      "death"
+    ],
+    "url": "news/tech/2026-08-25/#dolly-parton-dies-at-80",
+    "sources": [
+      {
+        "label": "ABC News",
+        "url": "https://abcnews.com/GMA/Culture/dolly-parton-country-music-legend-cultural-icon-dead/story?id=95381474",
+        "origin": "research"
+      },
+      {
+        "label": "Yahoo Entertainment",
+        "url": "https://www.yahoo.com/entertainment/music/articles/dolly-parton-dies-80-music-180945485.html",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.theguardian.com/music/2026/aug/25/dolly-parton-country-singer-dead",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Died August 25, 2026, at age 80",
+      "46 Grammy nominations, tied for most",
+      "Over 100 million units sold worldwide",
+      "Husband Carl Dean died March 2025"
+    ],
+    "researched": true,
+    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "lineage_id": "dolly-parton-dies-at-80",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
