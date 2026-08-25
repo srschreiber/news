@@ -644,82 +644,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "perplexity-launches-local-gpu-based-ai-model",
-    "title": "Perplexity Launches Local GPU-Based AI Model",
-    "summary": "Perplexity released a local AI model that runs on user GPUs instead of relying on cloud infrastructure.",
-    "theme": "AI",
-    "importance": 6,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Perplexity",
-      "local AI",
-      "GPU",
-      "model deployment",
-      "inference"
-    ],
-    "url": "news/ai/2026-08-25/#perplexity-launches-local-gpu-based-ai-model",
-    "sources": [
-      {
-        "label": "Gizmodo",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVzVfQml4N0tXV1hOd3JfNzRiOURvZTYzTzk1dGFBT0V4UkxYSVFUVkVSdFlGazJVLWticGJTeFhBZDlxQXNZSFNlenZ3cEM0c3huTVdicFRnTVE1OEVJYmd2ZUtEYTNOLVJkSmJzZjZyM2ZBLS1JNnBmS2JMVVpNaFUtQUJMVFoxV0pUd3FNUVg4cEcwM2VkRnZfTnlTSk5tNlJkSFptQi1qbk1KUmhZVXJR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T18:21:01.533388+00:00",
-    "lineage_id": "perplexity-launches-local-gpu-based-ai-model",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
-    "event_id": "ibm-granite-42-adds-native-reasoning-capabilities-for-enterprise-agents",
-    "title": "IBM Granite 4.2 adds native reasoning capabilities for enterprise agents",
-    "summary": "IBM's new Granite 4.2 open models integrate reasoning, tool use, and coding capabilities designed for agentic AI systems.",
-    "theme": "AI",
-    "importance": 6.0,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "IBM",
-      "Granite",
-      "reasoning",
-      "enterprise agents",
-      "LLM"
-    ],
-    "url": "news/ai/2026-08-25/#ibm-granite-42-adds-native-reasoning-capabilities-for-enterprise-agents",
-    "sources": [
-      {
-        "label": "IBM Research",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZTHdBZ1ZsUkJwbVoyMWdMTVhTWnJ5ekxKU01DYlRzZ0RaMlBtM2x4SHZHQjYtUHh5NWNUQk1fN3p6N00tdTk3UzViOTExOTkyTUwyd0E0bFRteFJiMVNYQjRYQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T18:21:01.533388+00:00",
-    "lineage_id": "ibm-granite-42-adds-native-reasoning-capabilities-for-enterprise-agents",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "india-advocates-global-drought-resilience-strategy-at-unccd-cop17",
     "title": "India Advocates Global Drought Resilience Strategy at UNCCD CoP17",
     "summary": "India has called for a strategic shift toward proactive drought resilience at the UNCCD CoP17 conference in Mongolia.",
@@ -1396,7 +1320,7 @@
     "date": "2026-08-25",
     "event_id": "study-shows-human-infants-learn-language-far-more-efficiently-than-large-language-models",
     "title": "Study shows human infants learn language far more efficiently than large language models",
-    "summary": "Research demonstrates that human babies acquire language much faster and more effectively than contemporary large language models.",
+    "summary": "Research shows children require vastly less data than LLMs to achieve language learning, with implications for more efficient AI design.",
     "theme": "AI Research",
     "importance": 6.5,
     "topics": [
@@ -1407,10 +1331,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "language learning",
+      "AI efficiency",
+      "LLM",
+      "children",
+      "cognitive science",
+      "efficiency",
       "infants",
-      "large language models",
-      "AI efficiency"
+      "language learning",
+      "large language models"
     ],
     "url": "news/ai/2026-08-25/#study-shows-human-infants-learn-language-far-more-efficiently-than-large-language-models",
     "sources": [
@@ -1418,11 +1346,16 @@
         "label": "Futurism",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZHN1bHpMejlqZ0tvcGpFYUJOcGp0SFpuQ094S1d5aVotZ2RuNGZvdzFzNURta21yLXBCbWt1MDAzY0QwTXBhdklpYlVzU3hMX3RvRjJlZHIydVAyTWdWek85Znp4SUlENk0yWmppT2NnOUlURmNJQlhlbU13YTJYM2E4YlQ5RmNLbGZxZFNSakZmMjJaYmlSb2x3?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "MIT Technology Review",
+        "url": "https://www.google.com/goto?url=CAESjAEB6zswFSYbqcdeFD6VutZGbN8TjyrsvvvUI7cRSIWMOmIgLhHfDL27GTG4qOgx7YrqsCRG65q31u3VDnZblwtquMk9rO5OA-1bDV9HqceY3fKyH7-O4jMN-9yvwv1ojBhqfUzgH4hp6tLuIkHOprUEfZtW8T7GFKdJN-6-QFJiBvP-8E1fZooPkLIv5A",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T14:33:08.214656+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "children-learn-language-more-efficiently-than-ai-large-language-models",
     "related_title": "",
     "related_url": "",
@@ -1433,7 +1366,7 @@
     "date": "2026-08-25",
     "event_id": "sharp-rise-in-ai-assisted-biomedical-writing-detected-after-chatgpt-launch",
     "title": "Sharp Rise in AI-Assisted Biomedical Writing Detected After ChatGPT Launch",
-    "summary": "Analysis of biomedical literature reveals a sharp increase in marker words indicating AI-assisted writing following ChatGPT's release.",
+    "summary": "Analysis of academic writing patterns reveals sharp increase in AI-assisted composition in biomedical research following ChatGPT's release.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1444,10 +1377,11 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI detection",
       "ChatGPT",
       "LLM",
       "biomedical writing",
-      "AI detection"
+      "research"
     ],
     "url": "news/ai/2026-08-25/#sharp-rise-in-ai-assisted-biomedical-writing-detected-after-chatgpt-launch",
     "sources": [
@@ -1460,11 +1394,16 @@
         "label": "Science X",
         "url": "https://phys.org/visualstories/2026-08-marker-words-sharp-ai-biomedical.amp",
         "origin": "discovery"
+      },
+      {
+        "label": "Science X",
+        "url": "https://www.google.com/goto?url=CAESgwEB6zswFWYKWehxkWQLD2GlQNLa6hXXYPGPPpaSWA5l43rA-r0zMW8OwmmHX7zaOblUZq7crElnrFyPUtHTNh445UrMAQPCh-hMfjm3GXyb0igebiD6IWnioBQ7UNtLeajmYKt7zhHBVPZSXpFuDPRCVAdq1z4ae5rdh_7-2Jl831Ci7g",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T16:23:38.929161+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "sharp-rise-in-ai-assisted-biomedical-writing-detected-after-chatgpt-launch",
     "related_title": "",
     "related_url": "",
@@ -1475,7 +1414,7 @@
     "date": "2026-08-25",
     "event_id": "ai-agents-causing-denial-of-service-burden-on-open-source-maintainers",
     "title": "AI agents causing denial-of-service burden on open-source maintainers",
-    "summary": "Automated AI and LLM agents are overwhelming open-source project maintainers with excessive support requests and issues.",
+    "summary": "Open-source project maintainers report that AI and LLM agents are overwhelming them with excessive requests, creating a denial-of-service effect.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1486,11 +1425,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI",
       "AI agents",
       "LLMs",
-      "open-source",
       "maintainers",
-      "sustainability"
+      "open-source",
+      "sustainability",
+      "workload"
     ],
     "url": "news/ai/2026-08-25/#ai-agents-causing-denial-of-service-burden-on-open-source-maintainers",
     "sources": [
@@ -1498,11 +1439,16 @@
         "label": "Phoronix",
         "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kR1A0U3diU0M5YkNudzVQUURrdTluTFdZMUtkTHo4TDBBV2tDZDd0MUsxcGFWRGJVbkFLZENQSm8tLW9uSENxUG8tamp4RjhyVWkyWWp1dGVFYzdLVzRHRWw1TG9pdw?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Phoronix",
+        "url": "https://www.google.com/goto?url=CAESbwHrOzAVdlPMX1gR4-yj5bYfPvZa2Khm7UihkUH37QOuoMcXY-Rnbn5Udx-khzhpCcaey4yt19xCxemmn8qCRZGl9Qzy-1OH-K6s4MFPVC-02yezm6iLRwNHPw60mrAaEWCtJmL6sfu3RKEWFfmFwQ",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "ai-agents-causing-denial-of-service-burden-on-open-source-maintainers",
     "related_title": "",
     "related_url": "",
@@ -2227,7 +2173,7 @@
     "date": "2026-08-25",
     "event_id": "utah-state-university-hi-tech-solutions-develop-nuclear-research-campus",
     "title": "Utah State University, Hi Tech Solutions develop nuclear research campus",
-    "summary": "Utah State University, Hi Tech Solutions, and Brigham City have signed an agreement to develop a nuclear training and research campus in northern Utah.",
+    "summary": "Utah State University, Hi Tech Solutions, and Brigham City advance a memorandum to build a nuclear training and research facility.",
     "theme": "Energy",
     "importance": 6.5,
     "topics": [
@@ -2240,7 +2186,10 @@
     "keywords": [
       "Brigham City",
       "Utah State University",
+      "nuclear",
       "nuclear research",
+      "research campus",
+      "training",
       "training campus"
     ],
     "url": "news/tech-research/2026-08-25/#utah-state-university-hi-tech-solutions-develop-nuclear-research-campus",
@@ -2264,11 +2213,16 @@
         "label": "ABC4 Utah",
         "url": "https://www.google.com/goto?url=CAEShQEB6zswFUfelwlou6WoTKlT3nEZxxRPuwJlQ9E5ce29zxU3UQ7Aivr7bdqIc01BwpBFuDdHgCnqsq1u7dTAP95uQWQDNpQfOD9-KrBRd0n7inWI-azEAgR8yA3S-lR35rW7a_2xywvBJnIWJAJQ_w8PDM0xOoL4KC24VRi-OaWZPs6nwJLz",
         "origin": "discovery"
+      },
+      {
+        "label": "KSL News",
+        "url": "https://www.google.com/goto?url=CAESrgEB6zswFRGqzZbxsjWUVRFnhcgWB2Y3mlDYmH5QqwezWfam2Mh-yhA1JDN6OUnLf-cO0qIlG2e886VkrXw2MMzE-SZIrWZaH_VlKlpc-QH2V9mSpVxFV5B9wqXcVj4nhaw4AsroKgEX64HmFPmWF_eFao36CaXpMhcA7getTDtu4GPcHF0U3lpVNDCrY-T_bjpRxp8hyhZVgcn3ve--Gw9Ygkr3i84lpXiBNa_NGjk",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "utah-state-university-hi-tech-solutions-develop-nuclear-research-campus",
     "related_title": "",
     "related_url": "",
@@ -2448,7 +2402,7 @@
     "date": "2026-08-25",
     "event_id": "llm-query-patterns-shape-gpu-infrastructure-demands",
     "title": "LLM query patterns shape GPU infrastructure demands",
-    "summary": "The way users interact with large language models significantly impacts the GPU hardware requirements needed to serve them.",
+    "summary": "How users interact with large language models significantly impacts the GPU hardware required for deployment.",
     "theme": "AI Infrastructure",
     "importance": 7,
     "topics": [
@@ -2459,10 +2413,10 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "LLM",
       "GPU",
-      "inference",
-      "hardware"
+      "LLM",
+      "hardware",
+      "inference"
     ],
     "url": "news/ai/2026-08-25/#llm-query-patterns-shape-gpu-infrastructure-demands",
     "sources": [
@@ -2470,11 +2424,16 @@
         "label": "StartupHub.ai",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9keW9XcDdMN0pEc0FvY3pCUEhNbTJUNENvOUVUM0Y1MGhsRDVKR19HZmVGWm5fOF9TUXdoalZfMGVsNHFqZEN4Z3VrTVNrZ251eTNVSVVyeW5hYm1OcGVFUlNLWGYzakJUdGNpQ0U2a3F6a3EzY1JtSkd3MW5hMEU?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "StartupHub.ai",
+        "url": "https://www.google.com/goto?url=CAESggEB6zswFZIxXDiW4N4aV66jv-bnt6c2yaPFphrNGLGV2DGfnNEzJKL4lS_Qw3U7ICC0x7-HlxMgX-3588tudyn12L5s4R1O_9Wjokz1pX2QEpxpSYakmQi-ZcrlQtQjsYABe3X9JgNv-nHhR1QET2WGhENWQ1VG1VhjhO3-yB1V52ag",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T18:21:01.533388+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "llm-query-patterns-shape-gpu-infrastructure-demands",
     "related_title": "",
     "related_url": "",
@@ -2518,6 +2477,82 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "llm-poisoning-vulnerability-discovered-in-nvidias-openclaw-tool",
+    "title": "LLM Poisoning Vulnerability Discovered in NVIDIA's OpenClaw Tool",
+    "summary": "Researchers identified a networking security bug in NVIDIA's OpenClaw tool that allows unauthenticated attackers to corrupt AI agents through the Ollama API.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "ai",
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "NVIDIA",
+      "OpenClaw",
+      "LLM",
+      "security vulnerability",
+      "Ollama API"
+    ],
+    "url": "news/ai/2026-08-25/#llm-poisoning-vulnerability-discovered-in-nvidias-openclaw-tool",
+    "sources": [
+      {
+        "label": "Dark Reading",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeHg5elNDbmZueC12TGU3dlFadHhBaUhGdXdSdGhYd2VydDBEMXRqYm1hMzhZRHhHQzVJeF9FU3BZbzl0ZjdCUVIteGZlUldabzZpNWZnT0lsb19ZT2d0Y1FCSm14TEViVVozemdMM0tEbnlHOEp1NDJsMGVoWDhHTXFmMVdraVdKaWc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
+    "lineage_id": "llm-poisoning-vulnerability-discovered-in-nvidias-openclaw-tool",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "openai-voluntarily-limits-new-model-releases-at-government-request",
+    "title": "OpenAI Voluntarily Limits New Model Releases at Government Request",
+    "summary": "OpenAI announces it is working with the government on a formal review process for new model releases.",
+    "theme": "Policy",
+    "importance": 7,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "government",
+      "AI regulation",
+      "model release"
+    ],
+    "url": "news/ai/2026-08-25/#openai-voluntarily-limits-new-model-releases-at-government-request",
+    "sources": [
+      {
+        "label": "Cybersecurity Dive",
+        "url": "https://www.google.com/goto?url=CAESjAEB6zswFXMpUr7RqyNUufaDBhaYlLhhxgOWUyta4cPAc9n0mxIilexhZetqTvbj-52ovCZmYHrd1xuMbDLjtFi1DqNIqJhAocoFA_abea-_AbwXxYm9OzHFDUhajHjhEi341Dd4TeLl9GR0hJLK1IAITlXkTP6G1wCjSjDkiIJ7NxAH4JNXdnHmflmhdg",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
+    "lineage_id": "openai-voluntarily-limits-new-model-releases-at-government-request",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI voluntarily limits new AI model releases at government request",
+    "updates_url": "news/ai/2026-08-24/#openai-voluntarily-limits-new-ai-model-releases-at-government-request"
   },
   {
     "date": "2026-08-25",
@@ -3335,53 +3370,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "blood-clotting-protein-may-enable-sars-cov-2-immune-evasion",
-    "title": "Blood-clotting protein may enable SARS-CoV-2 immune evasion",
-    "summary": "Fibrinogen, an abundant blood-clotting protein, may enable SARS-CoV-2 to evade antibodies and infect blood vessel cells by binding to the spike protein's N-terminal domain. The interaction serves as a molecular bridge masking the virus from immune recognition.",
-    "theme": "Health",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "SARS-CoV-2",
-      "fibrinogen",
-      "immune evasion",
-      "COVID-19",
-      "viral pathology"
-    ],
-    "url": "news/science/2026-08-25/#blood-clotting-protein-may-enable-sars-cov-2-immune-evasion",
-    "sources": [
-      {
-        "label": "ACS Physical Chemistry Chemical Physics",
-        "url": "https://pubs.acs.org/doi/abs/10.1021/acsptsci.5c00122",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-blood-clotting-protein-sars-cov.html",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Fibrinogen (blood-clotting protein) binds SARS-CoV-2 spike protein N-terminal domain",
-      "Interaction may mask virus from immune recognition and enable evasion of antibodies",
-      "Allows virus to reach endothelial cells in vasculature"
-    ],
-    "researched": true,
-    "received_at": "2026-08-25T06:23:31.275045+00:00",
-    "lineage_id": "blood-clotting-protein-may-enable-sars-cov-2-immune-evasion",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "esa-and-nasa-astronauts-complete-historic-iss-spacewalk-repair-mission",
     "title": "ESA and NASA astronauts complete historic ISS spacewalk repair mission",
     "summary": "ESA astronaut Sophie Adenot and NASA astronaut Anil Menon successfully completed a spacewalk on August 18, 2026, to repair the International Space Station.",
@@ -3504,49 +3492,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "apple-to-announce-iphone-18-pro-event-date-this-week",
-    "title": "Apple to announce iPhone 18 Pro event date this week",
-    "summary": "Apple will send invitations this week for its annual iPhone event on September 9, 2026, where it will unveil the iPhone 18 Pro, iPhone 18 Pro Max, a foldable iPhone Ultra, Apple Watch Series 12, and AirPods 5 models. The iPhone 18 Pro will feature an A20 Pro chip offering up to 18% faster performance and 30% better power efficiency than its predecessor.",
-    "theme": "Hardware",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "iPhone 18 Pro",
-      "Apple",
-      "event",
-      "product announcement"
-    ],
-    "url": "news/tech/2026-08-25/#apple-to-announce-iphone-18-pro-event-date-this-week",
-    "sources": [
-      {
-        "label": "MacRumors",
-        "url": "https://www.macrumors.com/2026/08/24/apple-invites-iphone-18-pro-event-soon/",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Event date: September 9, 2026",
-      "iPhone 18 Pro with A20 Pro chip—18% faster, 30% more power-efficient than A19 Pro",
-      "Foldable iPhone Ultra expected with very limited initial supply",
-      "Apple Watch Series 12 with ceramic case option",
-      "Two new AirPods 5 models announced"
-    ],
-    "researched": true,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
-    "lineage_id": "apple-to-announce-iphone-18-pro-event-date-this-week",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "virginia-tech-develops-smart-patch-for-automatic-naloxone-delivery-during-fentanyl-overdose",
     "title": "Virginia Tech develops smart patch for automatic naloxone delivery during fentanyl overdose",
     "summary": "Virginia Tech researchers have created a wearable patch that detects fentanyl in the bloodstream and automatically releases naloxone.",
@@ -3572,6 +3517,11 @@
         "label": "WSLS",
         "url": "https://www.google.com/goto?url=CAESdgHrOzAVkybDyIyefPpTbURPw-rjPwG6t-pqudoj1IwvHO_ulKgVEfDFgGIUbJml58Z3QSi7Gy57-WFRreklNPLsvQFkuoWisntrRcbr3TQNFyrmANPKncEIDMY4zq8T2WhKK8d1QSA-xkmqKNLsD4pM2plNKcg",
         "origin": "discovery"
+      },
+      {
+        "label": "WSLS",
+        "url": "https://www.google.com/goto?url=CAESdgHrOzAV1t5DrmenXib295vab_y21V1PI4yACg4DNeBehDA89qIsg4qGhvRSfr3P_ZCQNKBXl0C_0op2Ayf9G8Wp0h_3K22KsjzBUKSBOR5Ossoc74qZ16c9jpjwXWUNVQR8-CQPIQN24tX5blX92cpkGbl2T6s",
+        "origin": "discovery"
       }
     ],
     "takeaways": [
@@ -3581,7 +3531,7 @@
       "Currently in testing phase at Virginia Tech"
     ],
     "researched": false,
-    "received_at": "2026-08-25T08:27:09.788107+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "virginia-tech-develops-smart-patch-for-automatic-naloxone-delivery-during-opioid-overdose",
     "related_title": "",
     "related_url": "",
@@ -3592,7 +3542,7 @@
     "date": "2026-08-25",
     "event_id": "bain-company-partners-with-anthropic-for-enterprise-ai-transformation",
     "title": "Bain & Company partners with Anthropic for enterprise AI transformation",
-    "summary": "Bain & Company and Anthropic announced a global partnership to help enterprises deploy and transform their operations using AI.",
+    "summary": "Bain & Company and Anthropic partner to help enterprise clients accelerate AI transformation initiatives.",
     "theme": "Partnerships",
     "importance": 7.5,
     "topics": [
@@ -3632,11 +3582,16 @@
         "label": "Seeking Alpha",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUEFHdGRlWUlJdGZHblNaVnlpQ0NzeWh3ZDREdC1EQTBMejVMdEhpVXE5bUVlSUgxSmpGY1pYTU9BM0hQRjc2V21nLU5sbEJPZjdlVHBuTTR1amNoSk1VSHAweVBUQ0M5TUJlMjFURy1hMkdZU0pJZVhVOF9VOE1XemYwcmxLVzdyZFhobEJ1ekJ6Z1pqR2ZadWNPSlQ2R1U?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "PR Newswire",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNDBNazhDQ1lMNV9wOEVIcTdQX2hJbEtKY1d4MmRzd2FIeGR4dTZPZjFLSWZ0TnpNY2E1S2xpZERLVjZIRS0xOVRrWnh4azVMVmhmVkhub0tzODkzeFRsVkRRX1M2a3dkQUp2NzFvb3pRQ0l4bFFFcXNOR2NSdFRnNzhnUnNFd0xCRXFpanRWT0VuWUZLYTd4emtkQVVxOHZlUFVVMjV4ci1CN082LXpsTkloN3ZUT2psMmdsUHJfWEFMR1RNdlhteFJLdGxweUhfME1NZlFueHNYZy02Ry13S3loanJncm92ZUtIcktHcw?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-25T16:23:38.929161+00:00",
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
     "lineage_id": "bain-company-partners-with-anthropic-for-enterprise-ai-transformation",
     "related_title": "",
     "related_url": "",
@@ -5109,6 +5064,67 @@
   },
   {
     "date": "2026-08-25",
+    "event_id": "spacex-plans-up-to-100-billion-investment-in-louisiana-spaceport",
+    "title": "SpaceX Plans Up to $100 Billion Investment in Louisiana Spaceport",
+    "summary": "SpaceX announced plans to build a $100 billion launch facility in Louisiana for its Starship megarocket operations.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Louisiana",
+      "SpaceX",
+      "Starbase",
+      "Starship",
+      "infrastructure",
+      "investment",
+      "launch facility",
+      "spaceport"
+    ],
+    "url": "news/tech/2026-08-25/#spacex-plans-up-to-100-billion-investment-in-louisiana-spaceport",
+    "sources": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/space/2026/08/spacex-intends-to-invest-up-to-100-billion-in-massive-louisiana-spaceport/",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-spacex-billion-spaceport-louisiana.html",
+        "origin": "rss"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/private-spaceflight/spacex-announces-enormous-usd100-billion-starbase-louisiana-starship-launch-site",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Up to $100 billion investment planned",
+      "125,000 acres in Pecan Island area",
+      "Construction begins 2027, first launch by 2029",
+      "Includes coastal erosion prevention partnership"
+    ],
+    "researched": false,
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
+    "lineage_id": "spacex-plans-up-to-100-billion-investment-in-louisiana-spaceport",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-25",
     "event_id": "chinas-oil-imports-from-iran-face-potential-us-sanctions-threat",
     "title": "China's Oil Imports from Iran Face Potential US Sanctions Threat",
     "summary": "As the world's largest buyer of Iranian oil, China could be affected by threatened U.S. sanctions on countries trading with Iran.",
@@ -5379,62 +5395,6 @@
   },
   {
     "date": "2026-08-25",
-    "event_id": "germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
-    "title": "Germany vows response to hybrid attacks; third drone found at Leipzig airport",
-    "summary": "German Chancellor Friedrich Merz said Germany is under threat after another explosive drone was found near Leipzig airport.",
-    "theme": "Security",
-    "importance": 7.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Germany",
-      "Leipzig airport",
-      "Merz",
-      "airport",
-      "drone",
-      "hybrid attacks",
-      "security",
-      "security threat"
-    ],
-    "url": "news/world/2026-08-25/#germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
-    "sources": [
-      {
-        "label": "Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMzVHcncwbUNkZEd6SFJIZ3pLX1NkR3hoNkJMR1ZXLWVNaDZLSGc4cC04OGhLOXcwTEQydFc4MGRxSVpBemUtZVZEbmx1NmdWSGtnODhYX0ZsYzlZWXZqQU05WDAxUlRpY25JR1FScDA1TXg1a2lhQjFKcWpYT1VVZGJmdUp5dlpHOUhRYVFidWF2ejI0SDhTLUJCZEI0R2lMUjBOclNLVW84RnAyOUhhSkRqOWFLeHZSUXlPeXlwN1dJNlBHQ2h2N01JbjNENWhWTmc?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "politico.eu",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb1dOTkUwdzg2SGNfSDRtM1NBSTBMSVYwS1Nod1NTcHl2clllamk1Ui00bEpZY1VYdUdQRmZwNUtZaUNScVZ5Y1pkR18tRXpUbGtHUWNGUzVuRGxBZGZUc1pIcS1SMkpnWHhWNXU2Rm5GRXAxMkpuOVY5Z1VRMUcyQVlZZXY4aTJ3MmE3ZUpVeFl6UzZUVnhIbDNkUGU0UjN5b0JaSGdzSQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "POLITICO.eu",
-        "url": "https://www.google.com/goto?url=CAESoAEB6zswFfairOy-DJMd1NkO4bmUei6tS4q0y4Ph-7T8Vv4f1Vz5OFLl2MduLPGGEiO0SoOjiSxYmNgYS8ga5ua8RwHvWDBoPpNNdOMVIqoUR6GkWsUdDYNR-uGyRFKK6xNX9gu_E9evnDs32qSJIIyxe-_sLAdPnmvw9Q9gRTYitUfMFWUNKI-JcVnjzzCRoAbpj3iNsurh8AYbZu-APsEH",
-        "origin": "discovery"
-      },
-      {
-        "label": "POLITICO.eu",
-        "url": "https://www.politico.eu/article/leipzig-airport-explosive-drones-friedrich-merz-germany-security-threat/",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-25T18:21:01.533388+00:00",
-    "lineage_id": "germany-vows-response-to-hybrid-attacks-third-drone-found-at-leipzig-airport",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-25",
     "event_id": "europes-summer-heatwaves-linked-to-at-least-35000-excess-deaths",
     "title": "Europe's summer heatwaves linked to at least 35,000 excess deaths",
     "summary": "Europe's four consecutive record-breaking heatwaves from May through August 2026 caused at least 35,000 excess deaths based on incomplete data from half the continent, with the true toll expected significantly higher. Germany recorded 14,000 heat-related deaths, including 9,600 in a single week in late June.",
@@ -5666,17 +5626,21 @@
     "theme": "Health",
     "importance": 8,
     "topics": [
-      "health"
+      "health",
+      "science"
     ],
     "feeds": [
       "science"
     ],
     "primary_feed": "science",
     "keywords": [
-      "measles",
+      "Pennsylvania",
       "death",
+      "infectious disease",
+      "measles",
+      "mortality",
       "vaccination",
-      "Pennsylvania"
+      "vaccination rates"
     ],
     "url": "news/health/2026-08-25/#pennsylvania-reports-first-two-measles-deaths-in-us-this-year-both-unvaccinated",
     "sources": [
@@ -5684,6 +5648,11 @@
         "label": "STAT News",
         "url": "https://www.statnews.com/2026/08/25/two-measles-deaths-reported-pennsylvania-residents-not-vaccinated/",
         "origin": "research"
+      },
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/health/viruses-infections-disease/2-people-die-of-measles-in-pennsylvania-as-vaccination-rates-drop-across-the-nation",
+        "origin": "rss"
       }
     ],
     "takeaways": [
@@ -6183,6 +6152,44 @@
     "related_url": "",
     "updates_title": "Zelenskyy warns Russia likely to mobilize at least 300,000 additional troops later this year",
     "updates_url": "news/world/2026-08-24/#zelenskyy-warns-russia-likely-to-mobilize-at-least-300000-additional-troops-later-this-year"
+  },
+  {
+    "date": "2026-08-25",
+    "event_id": "iran-inflicted-billions-in-damage-to-us-intelligence-facilities-sources-report",
+    "title": "Iran inflicted billions in damage to U.S. intelligence facilities, sources report",
+    "summary": "NBC News reports that Iranian actions caused billions of dollars in damage to U.S. intelligence agency installations.",
+    "theme": "Geopolitics",
+    "importance": 8.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "U.S. intelligence",
+      "military conflict",
+      "damage",
+      "national security"
+    ],
+    "url": "news/world/2026-08-25/#iran-inflicted-billions-in-damage-to-us-intelligence-facilities-sources-report",
+    "sources": [
+      {
+        "label": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNLTZqV0xvV1IxLXFqQ0NZNWo5bG5FY3FEbEpSQnRXX2hYMTZ1ODZhdzJ6eW5HY3pPRlRSRFF5STBJMTBCX2dZNzZhZnF3cnYwd2g2SnJ3RFFHRXhtUzVxdHN3UlF6VFpicm9oVTZZSkdUTHo3cVpfWE9wZTdjbXQ1SGNoaTNoeTJuZ0xfb05QQWF6QlljR1dSWVpvWXdUWFNKc2QxUVpaTDVwbmgxWmtsZHk0V0tHSWVITEVXbzkwaUNRWmFD?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-25T20:14:35.484968+00:00",
+    "lineage_id": "iran-inflicted-billions-in-damage-to-us-intelligence-facilities-sources-report",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-25",
