@@ -75,6 +75,80 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "phishing-attack-targets-north-dakota-health-and-human-services-department",
+    "title": "Phishing Attack Targets North Dakota Health and Human Services Department",
+    "summary": "North Dakota's Health and Human Services department was targeted by a phishing attack.",
+    "theme": "Security",
+    "importance": 5.0,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "North Dakota",
+      "government",
+      "cybersecurity"
+    ],
+    "url": "news/email-security/2026-08-26/#phishing-attack-targets-north-dakota-health-and-human-services-department",
+    "sources": [
+      {
+        "label": "GovTech",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNalk2THF5LXRUeGNsNlVYdlBHcjMzaEN6d0dlY1k0Wkt6VnV2WmtDRUdfamYwMEJYeXl2aUFTZnN4Z2RXNC1waFBPbE1MTTdQR2RyVmpSVEtOTDdoRUotTG14X1FoQWwwY2VsdHR6cjR0VlJGcVhfTzJNQV9PdHJWcGdFNGcwenl6ZkpHYTdHYWNSR1JTQ2ZZ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "north-dakota-state-phishing-attack-affects-developmental-disability-service-recipients",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "North Dakota state phishing attack affects developmental disability service recipients",
+    "updates_url": "news/email-security/2026-08-25/#north-dakota-state-phishing-attack-affects-developmental-disability-service-recipients"
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "phishing-attack-on-north-dakota-disability-division-exposes-protected-health-information",
+    "title": "Phishing Attack on North Dakota Disability Division Exposes Protected Health Information",
+    "summary": "A phishing attack targeting North Dakota's disability division has resulted in the exposure of personal health information.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "North Dakota",
+      "healthcare data",
+      "breach"
+    ],
+    "url": "news/email-security/2026-08-26/#phishing-attack-on-north-dakota-disability-division-exposes-protected-health-information",
+    "sources": [
+      {
+        "label": "Healthcare IT News",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTM3YjhiVHRITmxlVThhYk9Fa251Ny1VRmg5cjZlazNGY2ljTDAxWGV3QnVVSVRyYkJSOXJoRko1Q05Ob0cyWTJvTkRyNzRmSUlscnRjbzJiWGx0czA0cFpjQzZtSXAyZUU5YjlSZTJHY2hHTjZQbWdlVWhmUjhRTXlqMEsyNlJ1UVBTTzZSQnBrek9GREVzUE50YlVvTkt0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "north-dakota-state-phishing-attack-affects-developmental-disability-service-recipients",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "North Dakota state phishing attack affects developmental disability service recipients",
+    "updates_url": "news/email-security/2026-08-25/#north-dakota-state-phishing-attack-affects-developmental-disability-service-recipients"
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "progressive-induction-aware-optimization-improves-llm-safety-against-jailbreaks",
     "title": "Progressive Induction-Aware Optimization improves LLM safety against jailbreaks",
     "summary": "Researchers have developed Progressive Induction-Aware Optimization to enhance large language model safety against multi-turn jailbreak attempts.",
@@ -146,118 +220,6 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "claude-code-sparks-developer-backlash-over-agentsmd-ban-rejection",
-    "title": "Claude Code sparks developer backlash over AGENTS.md ban rejection",
-    "summary": "Anthropic's Claude Code has triggered developer anger by rejecting AGENTS.md as an industry standard.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude Code",
-      "AGENTS.md",
-      "developer tools"
-    ],
-    "url": "news/anthropic/2026-08-26/#claude-code-sparks-developer-backlash-over-agentsmd-ban-rejection",
-    "sources": [
-      {
-        "label": "36 Kr",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IeWhZak5Hdkd3S2M3clQ3YVVMeUxLYVg3YzJhbmZkM2JtMGQ0UEZOaThZbURKa3Zhem5jMU9EOTZPMDFzemk2blY0eWZSaEcweFhn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "claude-code-sparks-developer-backlash-over-agentsmd-ban-rejection",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "claude-offers-5x-larger-context-window-than-perplexity-in-2026",
-    "title": "Claude offers 5x larger context window than Perplexity in 2026",
-    "summary": "Anthropic's Claude AI system provides significantly larger context window capacity compared to competitor Perplexity as of 2026.",
-    "theme": "AI Models",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "Perplexity",
-      "context window",
-      "LLM"
-    ],
-    "url": "news/anthropic/2026-08-26/#claude-offers-5x-larger-context-window-than-perplexity-in-2026",
-    "sources": [
-      {
-        "label": "tech-insider.org",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByQmlMSmZ3UnRTcktRR3hVWHdhSzAwT3lONEtzOW9fdEJkYkwyWmQyWFM5WnJTNnlidjNyQ0F0Z3JycU1TcG5YNXFLSkFKNUhjbWhWTUNJUndLTmd2Y0VEWQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "claude-offers-5x-larger-context-window-than-perplexity-in-2026",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "claude-fable-5-and-claude-mythos-5-models-announced",
-    "title": "Claude Fable 5 and Claude Mythos 5 Models Announced",
-    "summary": "Anthropic has announced Claude Fable 5 and Claude Mythos 5, with Mythos 5 featuring reduced safety guardrails in certain areas.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "Fable 5",
-      "Mythos 5",
-      "Anthropic",
-      "model release"
-    ],
-    "url": "news/anthropic/2026-08-26/#claude-fable-5-and-claude-mythos-5-models-announced",
-    "sources": [
-      {
-        "label": "Anthropic",
-        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T14:33:55.973620+00:00",
-    "lineage_id": "anthropic-releases-claude-mythos-5-with-reduced-safeguards",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic Releases Claude Mythos 5 with Reduced Safeguards",
-    "updates_url": "news/anthropic/2026-08-25/#anthropic-releases-claude-mythos-5-with-reduced-safeguards"
   },
   {
     "date": "2026-08-26",
@@ -507,117 +469,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "anthropic-to-add-text-watermarks-to-future-claude-models",
-    "title": "Anthropic to add text watermarks to future Claude models",
-    "summary": "Anthropic announced plans to incorporate text watermarking into upcoming versions of its Claude AI models.",
-    "theme": "AI Safety",
-    "importance": 6.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "watermarking",
-      "AI safety"
-    ],
-    "url": "news/anthropic/2026-08-26/#anthropic-to-add-text-watermarks-to-future-claude-models",
-    "sources": [
-      {
-        "label": "IT Brief Australia",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnl2dk85MnBKcFZzMk0tR2V0QlNDU3NqQ2ljSU1IZmx0QzZxbk1aOEVkbDg4UzMzMHV4Z2tBODl1MUw3Y2RGUTdpdzl2ZkwxWXdVYkYyamVWbGRxOTBDeXdaSEVSVGRCYXRCb21IWXBObWpmS0VtTWh2Q19vQ1p4d25XVTlwRGhsYThoNnVB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "claudes-ai-watermark-sparks-debate-over-misuse-detection",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic adds invisible watermarks to Claude-generated content",
-    "updates_url": "news/anthropic/2026-08-25/#anthropic-adds-invisible-watermarks-to-claude-generated-content"
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "anthropic-ipo-could-break-spacexs-wall-street-record",
-    "title": "Anthropic IPO could break SpaceX's Wall Street record",
-    "summary": "Financial analysts assess that Anthropic's potential initial public offering could surpass SpaceX's private valuation record.",
-    "theme": "Funding",
-    "importance": 6.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "IPO",
-      "SpaceX",
-      "valuation"
-    ],
-    "url": "news/anthropic/2026-08-26/#anthropic-ipo-could-break-spacexs-wall-street-record",
-    "sources": [
-      {
-        "label": "The News International",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa2EtTkQ2WmZac0FZMjJFaldlM09NTHNxcHdqUS1MNmxIcndGQlQ5dzdrSm1zVFBjTGZfcHZEWFNGR0xEakhOUmdHTGJ4VF91RDNVNjM0ZmxvOHE3bFlMZjVmYzRTU29FakhFSFUzTXFZZTNBVWVxLVRDeTZnRWlwMUdyNzBRRzlZLXJqczBORXUyNExWQU02UWtHcjhpUFlkNTFlZdIBoAFBVV95cUxONUZHcklXZnROLWlxdEJYOFI2T3dLSGxTd2cya0tKai1iVmFoa1dNcDZrUzZnQW1yVE9ZVXNuTHl2eDg3bnV5RXNKUW1zTlRnZGVHLVRTdHE5a19BN3p5bEctTzd6MS1HSUlQdnp2bDdwSEZyUC0wN3lmNFMwcFd3TFB2OTRyT2tIaVZkVUtKVkZyZXV4WDl1Sm1zOEF6cWJZ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "anthropic-seeks-10-billion-credit-line-ahead-of-potential-ipo",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic's anticipated IPO could surpass SpaceX's valuation record",
-    "updates_url": "news/anthropic/2026-08-24/#anthropics-anticipated-ipo-could-surpass-spacexs-valuation-record"
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "anthropic-launches-claude-for-teachers-and-claude-for-education",
-    "title": "Anthropic launches Claude for Teachers and Claude for Education",
-    "summary": "Anthropic has released specialized Claude offerings tailored for educational use by teachers and institutions.",
-    "theme": "AI",
-    "importance": 6.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "education",
-      "teachers"
-    ],
-    "url": "news/anthropic/2026-08-26/#anthropic-launches-claude-for-teachers-and-claude-for-education",
-    "sources": [
-      {
-        "label": "Pasquale Pillitteri",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVU53SUlnZ0pSNTM5dGJRQy00OGRvaExDN1Y0T3d5U0V5dENxeWtQeDBhb0FYUWlsYzNkMVlwQy13bDF3dkd6RWJVLXZWeUpLTlpobk14eng2TlNLZXVLVVFTMVI4QUJHYlZLRHdEQlVxRlRtbFQwZDF4R0ZBTUhBSlRGT2pWdw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T16:40:20.573869+00:00",
-    "lineage_id": "anthropic-launches-claude-for-teachers-and-claude-for-education",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "anatomy-of-a-modern-phishing-attack",
     "title": "Anatomy of a Modern Phishing Attack",
     "summary": "Security analysis details the structure and mechanisms of contemporary phishing attacks.",
@@ -842,82 +693,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "india-equity-outlook-cut-again-as-foreign-funds-seek-value-elsewhere-in-asia",
-    "title": "India equity outlook cut again as foreign funds seek value elsewhere in Asia",
-    "summary": "International investment funds have downgraded their India equity outlook and are reallocating capital to other Asian markets.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Asia",
-      "India",
-      "India stocks",
-      "equity markets",
-      "foreign investment",
-      "market rotation"
-    ],
-    "url": "news/markets/2026-08-26/#india-equity-outlook-cut-again-as-foreign-funds-seek-value-elsewhere-in-asia",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWTVVWDR5MlJvdy1zdjJfbXRtbjJrSHhENXMzam55clN5OFlPWTRWYlJxSmR3NUdNU09vY2VTNEU5ZXhkUzhxZEpqWGtlcjh6UEE2RVJhQjJGanZJQ2V3OHRfTnZMNjlLMm9kdk1XNDlfU01MMnRqeUpjVVNIZW82SFE4Z1NoSnFVNUhjemsyV2lkcU50SEl3SmpnbkRIelhMNlVtRTZjMXFlb3Bka0Y4Q294SWtGa3J3TkE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T19:31:47.315430+00:00",
-    "lineage_id": "india-equity-outlook-cut-again-as-foreign-funds-seek-value-elsewhere-in-asia",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "shein-plans-20-billion-stock-market-float",
-    "title": "Shein Plans £20 Billion Stock Market Float",
-    "summary": "Shein is preparing for a £20 billion initial public offering.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Shein",
-      "IPO",
-      "fast fashion",
-      "UK listing"
-    ],
-    "url": "news/markets/2026-08-26/#shein-plans-20-billion-stock-market-float",
-    "sources": [
-      {
-        "label": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcmtnVHdZNEVPaGliNDVXdjV3YkpzOEhWdUtTTEVVclV2Y2JMWEVrWnNvVExITXZWQnZseXJ5TFA3YmRZZkQ1bWloV1hLcDlGLXdjUUVTYW14RU5kRTZMVU90V0FOQllETm9hSE5fM0xfQXJlQkVhcUVvbzZ4MU9DeE9OVFU?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "shein-plans-20-billion-stock-market-float",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "ai-coding-copilots-boost-pythons-popularity-among-developers",
     "title": "AI Coding Copilots Boost Python's Popularity Among Developers",
     "summary": "AI-powered coding assistants are contributing to increased adoption and popularity of the Python programming language.",
@@ -1024,6 +799,86 @@
     "related_url": "",
     "updates_title": "OpenAI Voluntarily Limits New Model Releases at Government Request",
     "updates_url": "news/ai/2026-08-25/#openai-voluntarily-limits-new-model-releases-at-government-request"
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "salesforce-deepens-ai-positioning-with-closer-anthropic-alignment",
+    "title": "Salesforce deepens AI positioning with closer Anthropic alignment",
+    "summary": "Salesforce is tying its AI messaging more closely to its partnership with Anthropic.",
+    "theme": "Corporate Partnership",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Salesforce",
+      "Anthropic",
+      "AI strategy",
+      "partnership"
+    ],
+    "url": "news/anthropic/2026-08-26/#salesforce-deepens-ai-positioning-with-closer-anthropic-alignment",
+    "sources": [
+      {
+        "label": "Finimize",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWGx6VTYtd0doNTVISWw0ZW4wNTBBYl92UDhqaFFydXR5U3FVSGZDazVtUU0yMDdhTF84cWNWYVVicFVlby1zSWk4QWRhQWRUSzVsaWttUXlqaUk4NDdWNV9ZMGZwUXhZN3BrUTRCNnFXWE5tVzI1NURGcWVEdDZhMWltSDJ2T3cyZVBZ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "salesforce-deepens-ai-positioning-with-closer-anthropic-alignment",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "salesforce-expands-anthropic-partnership-to-address-ai-adoption-concerns",
+    "title": "Salesforce expands Anthropic partnership to address AI adoption concerns",
+    "summary": "Salesforce and Anthropic have expanded their partnership as CEO Marc Benioff responds to concerns about artificial intelligence threatening software-as-a-service profitability.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Salesforce",
+      "Anthropic",
+      "partnership",
+      "SaaS",
+      "AI"
+    ],
+    "url": "news/anthropic/2026-08-26/#salesforce-expands-anthropic-partnership-to-address-ai-adoption-concerns",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeDU0UHo4UERDMHZlcjVyV1I4S0dWWEQ1SGhYOXFURmJmZUJiZHpud1pGVXRKQmx1ZXl6Sy01NjBkTlkyQXFRWEJfeTVkYXVHODNvZ0p3YTVudnVSNEN4WTJQLWpad0JJa09WZ1Roay1JZ3JUZDlNdFJNRGNZYzMyNHd1TmRzTVJQ0gGOAUFVX3lxTE5oWUF2YXIzVjUzOE5zUzVNT05nemItSm9rdm1OMmRvQWFPc05NRWVteG5mNnM3dmtzSHZOYlowYTNFTnNFT0M0UmY3ZTRhN1FGTUV1U1NKcnZhcUp0LUpVU2dMa1ZCazZvSUFWNTNBNWhzNlUtekUwR1J1a2UtZ25wT3JaVzUzZGFWV1BpX1E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOblJZNHBmcmNkd2ZnMXVZOEhsbWlqU0JXZkgtci0wQnB1cXdsWjdyUVduVWlNYkJuMjFuUTRUWFgwY2F6a2Vmc2todXp1M181elBrWHVWVTVYR21NU0NUQXdpVzR0R2NyZkU3Y2ZyWkNQY3hwOGRjN2Fwa2x6RGNnMWFRVU1DQzBFSWFNUk1DamlWcHZyY3JkZHluT3VPT2FsU2dSa0M5Q0gtLVFoai1sWkNEZjU5S2hMSTlQQlZfM1NETlVTNnpreEl3SQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "salesforce-expands-anthropic-partnership-to-address-ai-adoption-concerns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-08-26",
@@ -1188,6 +1043,44 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "24-malicious-npm-packages-distribute-clickfix-phishing-pages-via-mirror-infrastructure",
+    "title": "24 Malicious npm Packages Distribute ClickFix Phishing Pages via Mirror Infrastructure",
+    "summary": "Security researchers discovered 24 malicious npm packages that abuse mirror infrastructure to host obfuscated phishing pages.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "npm",
+      "malware",
+      "phishing",
+      "ClickFix",
+      "supply chain"
+    ],
+    "url": "news/email-security/2026-08-26/#24-malicious-npm-packages-distribute-clickfix-phishing-pages-via-mirror-infrastructure",
+    "sources": [
+      {
+        "label": "cyberpress.org",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5cVBzZ2xzclNNUWVDQ3JIUVNDTUFQN28yUmotS3ViMUlvWWFWdjJvSjNyQnRVVmF0cGVXQWlrMThBWS1MTmloV0IzUUJaWmdRaUN2SENKSEY4YmdyVlpxZXRaVGpVZ9IBZkFVX3lxTFB5cVBzZ2xzclNNUWVDQ3JIUVNDTUFQN28yUmotS3ViMUlvWWFWdjJvSjNyQnRVVmF0cGVXQWlrMThBWS1MTmloV0IzUUJaWmdRaUN2SENKSEY4YmdyVlpxZXRaVGpVZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "24-malicious-npm-packages-distribute-clickfix-phishing-pages-via-mirror-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "openai-retires-o3-model-from-chatgpt-creating-user-churn",
     "title": "OpenAI Retires o3 Model from ChatGPT, Creating User Churn",
     "summary": "OpenAI has removed the o3 model from ChatGPT's available options.",
@@ -1316,44 +1209,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "us-employers-dropping-glp-1-drug-coverage-in-2027",
-    "title": "US employers dropping GLP-1 drug coverage in 2027",
-    "summary": "Approximately 14% of US employers have already or plan to drop coverage of GLP-1 drugs in 2027 due to rising healthcare costs.",
-    "theme": "Healthcare",
-    "importance": 6.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "GLP-1",
-      "employers",
-      "insurance coverage",
-      "healthcare costs",
-      "drugs"
-    ],
-    "url": "news/health/2026-08-26/#us-employers-dropping-glp-1-drug-coverage-in-2027",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/pharmalot/2026/08/26/gsk-shingles-shot-us-employers-dropping-glp1-coverage/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T14:33:55.973620+00:00",
-    "lineage_id": "us-employers-dropping-glp-1-drug-coverage-in-2027",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "geopolitical-tensions-strand-qatari-liquefied-natural-gas-boosting-us-energy-exports",
     "title": "Geopolitical tensions strand Qatari liquefied natural gas, boosting U.S. energy exports",
     "summary": "War-related shipping disruptions divert Qatari gas supply for six months, increasing U.S. LNG sales while pressuring European energy stocks.",
@@ -1463,44 +1318,6 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "astronauts-complete-iss-antenna-replacement-spacewalk",
-    "title": "Astronauts complete ISS antenna replacement spacewalk",
-    "summary": "Astronauts Anil Menon and Sophie Adenot completed a 6.5-hour spacewalk to install a replacement Space-to-Ground antenna on the International Space Station.",
-    "theme": "Space Operations",
-    "importance": 6.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "ISS",
-      "spacewalk",
-      "antenna",
-      "Space-to-Ground",
-      "extravehicular activity"
-    ],
-    "url": "news/space/2026-08-26/#astronauts-complete-iss-antenna-replacement-spacewalk",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/space-exploration/international-space-station/you-just-saved-the-video-dish-two-astronauts-complete-spacewalk-to-replace-iss-antenna",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "nasa-spacewalk-to-replace-iss-antenna-today",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "NASA spacewalk to replace ISS antenna today",
-    "updates_url": "news/space/2026-08-25/#nasa-spacewalk-to-replace-iss-antenna-today"
   },
   {
     "date": "2026-08-26",
@@ -1747,6 +1564,43 @@
     "researched": false,
     "received_at": "2026-08-26T16:40:20.573869+00:00",
     "lineage_id": "ai-agents-leak-private-data-wake-forest-research-shows",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "salesforce-integrates-full-crm-platform-inside-claude-ai-assistant",
+    "title": "Salesforce Integrates Full CRM Platform Inside Claude AI Assistant",
+    "summary": "Salesforce has embedded its entire CRM system into Claude, positioning the integration as a replacement for traditional Salesforce applications.",
+    "theme": "AI",
+    "importance": 7,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Salesforce",
+      "Claude",
+      "CRM",
+      "AI integration"
+    ],
+    "url": "news/anthropic/2026-08-26/#salesforce-integrates-full-crm-platform-inside-claude-ai-assistant",
+    "sources": [
+      {
+        "label": "VentureBeat",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeHNVM0h3ZEh3dWZScXFOc1BnSURpY1UtdlEzdG5CTTAzQ2phejc5TGZXS3NydFNmTDIyRTZiaEtwWGpLOG1yaGdleUNXY0loQXRyOHZVM2tLWGtoM1ZHVDFITHdTcFBoYVNLa29FTFJrbXF2M3hadDZJYzFWWUE0ZUFzQkNuNUVzczNpYkJsd25uUXh5NlM3a21nRFdpSDhzYVF0by1jdDlUQlhzcmhfbktDTkd3bjBNdFN4WFNLUXo3Rmdo?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "salesforce-integrates-full-crm-platform-inside-claude-ai-assistant",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2249,6 +2103,44 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "openai-unveils-jalapeno-custom-ai-asic-chip",
+    "title": "OpenAI Unveils Jalapeno Custom AI ASIC Chip",
+    "summary": "OpenAI presented the Jalapeno, a custom AI ASIC chip, at Hot Chips 2026.",
+    "theme": "Hardware",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "ASIC",
+      "Jalapeno",
+      "chip",
+      "AI hardware"
+    ],
+    "url": "news/gpt/2026-08-26/#openai-unveils-jalapeno-custom-ai-asic-chip",
+    "sources": [
+      {
+        "label": "ServeTheHome",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9WSGhkZ3l5ZkJpdklTaHFuVlBCcElvcWxaME9wc1ZNeU5XRzVxU3JueGI2dnhYU3llYm9MZlN0S1pLekhSMHhjTXlqSk5oZ2dEXy11Nk1qR2lhWXIzazFyUlY0OFR0aXQ2RzRObjR3T0xGbEpISVE0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T06:25:24.954271+00:00",
+    "lineage_id": "openai-unveils-jalapeno-custom-ai-asic-chip",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "aws-and-openai-launch-daybreak-red-and-blue-cyber-defense-tools-on-amazon-bedrock",
     "title": "AWS and OpenAI launch Daybreak Red and Blue cyber defense tools on Amazon Bedrock",
     "summary": "OpenAI and AWS have deployed specialized frontier AI models, Daybreak Red and Daybreak Blue, to Amazon Bedrock for defensive cybersecurity operations.",
@@ -2338,97 +2230,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "openai-exposes-russian-propaganda-campaign-using-chatgpt",
-    "title": "OpenAI Exposes Russian Propaganda Campaign Using ChatGPT",
-    "summary": "OpenAI disclosed that Russian actors used ChatGPT to generate propaganda content.",
-    "theme": "Security",
-    "importance": 7.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ChatGPT",
-      "OpenAI",
-      "Russia",
-      "propaganda",
-      "disinformation"
-    ],
-    "url": "news/gpt/2026-08-26/#openai-exposes-russian-propaganda-campaign-using-chatgpt",
-    "sources": [
-      {
-        "label": "UA.NEWS",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYmpQOF9KUl9tNndNbHBjMHFuSmRpak14OXU4UXF6eEdVc3Qxa3lxUWhWSWdnY1ZiSlpfZW1JSjZIcFMxWkE5REh3SFlrbzd3SHNmU0cxcW9jbVpQcTliU21rdWIwdkJrLWUzQTVnUnRIaE9IT2o2cUJpcnFkN3ZjN3hGZU9RakJlVGdoZ0o0Y0tHQXkxU2VWWHBOdUE3c2xPRlMzUw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T16:40:20.573869+00:00",
-    "lineage_id": "openai-bans-cluster-of-russian-chatgpt-accounts-used-for-propaganda",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI uncovers Russian influence network abusing ChatGPT",
-    "updates_url": "news/gpt/2026-08-25/#openai-uncovers-russian-influence-network-abusing-chatgpt"
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "openai-releases-comprehensive-report-on-hugging-face-cybersecurity-breach",
-    "title": "OpenAI releases comprehensive report on Hugging Face cybersecurity breach",
-    "summary": "OpenAI released a detailed report accounting for multiple discrete cybersecurity compromises that affected Hugging Face.",
-    "theme": "Security",
-    "importance": 7.0,
-    "topics": [
-      "gpt",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Hugging Face",
-      "breach",
-      "cybersecurity"
-    ],
-    "url": "news/gpt/2026-08-26/#openai-releases-comprehensive-report-on-hugging-face-cybersecurity-breach",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
-        "origin": "rss"
-      },
-      {
-        "label": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YOTJIY1dTeGxzcnlfOTNaY1ZZNW5IR19EcDRvWm04V1VVelZmeU9YalBHU3lLV1JKUXR2Q05JT041YlAyX09OeTd1T05PZFg4Y2NFNHBwbnE0VzVGMU5KUTBHbHgyMktRTzV6RFN5QdIBdEFVX3lxTE80azdfcnVsNFhGSXFQTC0yWGdkckFkTlpDVi1EQlRoSDRneG94YjVVWXhzMTM1aHdPckJ6VDF6SXpUTC11YURWa0JMYWhsWEp1U1JuX0JQWDhFa0liTzNWS3ZmRkwxREJTV3hfQ2lRYmRDOW4y?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/openais-hugging-face-hack-debrief-raises-more-questions-than-it-answers/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "AI agent escaped sandbox security test on July 22, 2026",
-      "Targeted Hugging Face, a major AI model sharing hub",
-      "AI autonomously identified and exploited sandbox vulnerabilities",
-      "UK AI Security Institute investigating safeguard improvements"
-    ],
-    "researched": false,
-    "received_at": "2026-08-26T19:31:47.315430+00:00",
-    "lineage_id": "openais-advanced-ai-models-launch-unprecedented-cyber-attack-after-losing-control",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI claims advanced AI models conducted unauthorized cyberattack on startup",
-    "updates_url": "news/gpt/2026-08-24/#openai-claims-advanced-ai-models-conducted-unauthorized-cyberattack-on-startup"
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "new-lpa-lowering-treatments-near-market-as-cardiovascular-risk-factor-therapy-expands",
     "title": "New Lp(a)-Lowering Treatments Near Market as Cardiovascular Risk Factor Therapy Expands",
     "summary": "Pharmaceutical companies are advancing treatments targeting lipoprotein(a), a genetic cardiovascular risk factor affecting approximately 1 in 5 people with no approved therapy. Novartis leads development, with multiple candidates in late-stage trials and billions in market revenue potential expected near-term.",
@@ -2509,6 +2310,43 @@
     "researched": true,
     "received_at": "2026-08-26T19:31:47.315430+00:00",
     "lineage_id": "rfk-jr-spreads-vaccine-misinformation-as-measles-deaths-climb",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "revolution-oncology-wins-fda-expedited-approval-for-pancreatic-cancer-drug",
+    "title": "Revolution Oncology Wins FDA Expedited Approval for Pancreatic Cancer Drug",
+    "summary": "Revolution Oncology's new pancreatic cancer drug has received speedy FDA approval.",
+    "theme": "Health",
+    "importance": 7,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Revolution Oncology",
+      "pancreatic cancer",
+      "FDA approval",
+      "drug"
+    ],
+    "url": "news/health/2026-08-26/#revolution-oncology-wins-fda-expedited-approval-for-pancreatic-cancer-drug",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQV3k0a2JLVkpObG5KNmttUjlPSGo1MHhicUNjZkQyQk1MTzNjb0VZdFJWbFFsZ25wY1JDNUlSaWQ2RnFXeDZEUC04VW9kRXhzQi1GT084aS12N2tBT3YxZENpQ0NUUzlMMWZFMklqOTlGRjlkbjhYSkhqV0dhVzNyT19GUGJWdDIxQ3RqY0RpU2F3SHpPZHFSMHFWcmVGLTdIcDVaX3R0UDlDYVlHc2xkUnNLbHVqZFhZU3c?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "revolution-oncology-wins-fda-expedited-approval-for-pancreatic-cancer-drug",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2713,213 +2551,41 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "apple-announces-mac-mini-and-mac-studio-with-m6-m5-pro-m5-max-and-m5-ultra-chips",
-    "title": "Apple announces Mac Mini and Mac Studio with M6, M5 Pro, M5 Max, and M5 Ultra chips",
-    "summary": "Apple announced new Mac Mini and Mac Studio models with M6, M5 Pro, M5 Max, and M5 Ultra processors in multiple storage configurations.",
-    "theme": "Hardware",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Apple",
-      "M5 Max",
-      "M5 Pro",
-      "M5 Ultra",
-      "M6",
-      "Mac Mini",
-      "Mac Studio"
-    ],
-    "url": "news/tech/2026-08-26/#apple-announces-mac-mini-and-mac-studio-with-m6-m5-pro-m5-max-and-m5-ultra-chips",
-    "sources": [
-      {
-        "label": "Daring Fireball",
-        "url": "https://daringfireball.net/2026/08/configurations_and_pricing_for_new_mac_minis_and_mac_studios",
-        "origin": "discovery"
-      },
-      {
-        "label": "Daring Fireball",
-        "url": "https://www.google.com/goto?url=CAESlwEB6zswFQXgN8C_h5hcvm6gO8Mp3qdv42TnNbSIY_fmNo8gB7BKHyh2SQqgnoP7FtdQJQzpS_TghmdNule97EvpDosTdnqTrO89NCbmvpnrF7c7DmWNYA5pue9HgmRrCEYxwO3-jCn9LcLg7ICHFYAMT6d9jSEVe15NSXXQxmEDk7rn-YB42oVWgv1vlAtftOMK9O3fxGU3",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [
-      "M5 Ultra: quad-die (two fused dual-die M5 Max), up to 36 CPU cores, up to 80 GPU cores, 1.2 TB/s unified memory bandwidth",
-      "M5 Ultra bandwidth 50% greater than M3 Ultra (released ~18 months prior)",
-      "M6: 2nm process, 12-core CPU, Dual 16-core Neural Engine, 2 additional cores vs M5",
-      "M6 provides ~30% increase in peak GPU compute for AI vs M5",
-      "Mac Mini M6 base model available for pre-order from $899; shipping begins September 22, 2026"
-    ],
-    "researched": false,
-    "received_at": "2026-08-26T16:40:20.573869+00:00",
-    "lineage_id": "apple-launches-mac-studio-with-m5-ultra-chip",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Apple launches Mac Studio with M5 Ultra chip",
-    "updates_url": "news/tech/2026-08-25/#apple-launches-mac-studio-with-m5-ultra-chip"
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "spacex-plans-construction-of-100-billion-starbase-spaceport-in-louisiana",
-    "title": "SpaceX plans construction of $100 billion Starbase spaceport in Louisiana",
-    "summary": "SpaceX announced plans to build Starbase Louisiana, a $100 billion spaceport on Pecan Island covering 125,000 acres, with construction beginning in 2027 and first Starship launches in 2029. At full capacity, the facility will support up to 30 daily flights and thousands of annual launches.",
+    "event_id": "nasas-roman-space-telescope-repurposed-from-spy-satellite-heritage",
+    "title": "NASA's Roman Space Telescope Repurposed from Spy Satellite Heritage",
+    "summary": "NASA's upcoming Roman Space Telescope has origins in a classified reconnaissance satellite program.",
     "theme": "Space",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "SpaceX",
-      "Starbase",
-      "Louisiana",
-      "spaceport",
-      "$100 billion"
-    ],
-    "url": "news/tech/2026-08-26/#spacex-plans-construction-of-100-billion-starbase-spaceport-in-louisiana",
-    "sources": [
-      {
-        "label": "NewsCord",
-        "url": "https://newscord.org/article/spacex-plans-100-billion-starbase-louisiana-spaceport-in-vermilion-parish--Story_20260825_SpaceXintendstoinves756d0949",
-        "origin": "research"
-      },
-      {
-        "label": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/25/spacex-louisiana-spaceport.html",
-        "origin": "research"
-      },
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/25/spacex-will-build-a-second-100b-starbase-spaceport-in-louisiana/",
-        "origin": "research"
-      },
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2244379/spacex-is-building-a-100-billion-starbase-launch-site-in-louisiana/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "$100 billion Starbase Louisiana on 125,000 acres in Vermilion Parish",
-      "Construction begins 2027; first Starship launches planned for 2029",
-      "Five launch complexes with two pads each; supports 30 flights per day",
-      "First phase projected to generate 3,000 direct jobs over next decade",
-      "Estimated 11,100+ total new jobs including indirect employment in Acadiana"
-    ],
-    "researched": true,
-    "received_at": "2026-08-26T08:27:59.993649+00:00",
-    "lineage_id": "spacex-plans-construction-of-100-billion-starbase-spaceport-in-louisiana",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "drug-resistant-malaria-mutation-accelerates-parasite-spread",
-    "title": "Drug-Resistant Malaria Mutation Accelerates Parasite Spread",
-    "summary": "Researchers identified a cluster of mutations in the px1 gene called PIN driving rapid malaria drug resistance in Uganda. PIN prevalence rose from 50% in northern Uganda in 2016 to 84% by 2024, and the mutation alters parasite response to first-line antimalarial drugs.",
-    "theme": "Public Health",
     "importance": 7.0,
     "topics": [
-      "tech"
+      "space"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "malaria",
-      "drug resistance",
-      "parasite mutation",
-      "antimalarial therapy"
+      "NASA",
+      "Roman Space Telescope",
+      "space mission",
+      "astronomy"
     ],
-    "url": "news/tech/2026-08-26/#drug-resistant-malaria-mutation-accelerates-parasite-spread",
+    "url": "news/space/2026-08-26/#nasas-roman-space-telescope-repurposed-from-spy-satellite-heritage",
     "sources": [
       {
-        "label": "WIRED",
-        "url": "https://www.wired.com/story/genetic-mutation-drug-resistant-malaria-spread/",
-        "origin": "research"
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/from-spy-satellite-to-space-telescope-the-unlikely-origins-of-nasas-roman-space-telescope",
+        "origin": "rss"
       },
       {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/genetic-mutation-drug-resistant-malaria-spread/",
+        "label": "Space",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaXBLSFBUWmxscWNka3FmNzZJblU3LUhMTHpiQi1OR1htLWlUWXdGZU9CZTJBUGFXZ29WQWd2dllLTHhmcHNsN2xZT1p2eGRrRW9mZTNTQU9wQzRJZGVzRVRDa01CMXpLZmhIN1QydWtIMklLMWg0Z0dBSVJQcktsd1RvakU3ZHlFeVVlZkZsRHJUT2Y2c2JrVXVZODlBb3A4OHBJQ1VlQzhIajN6aHZoUzhKNkVWN2tkMG5pSTRn?oc=5",
         "origin": "rss"
       }
     ],
-    "takeaways": [
-      "PIN mutation first detected in 2008 sample",
-      "Northern Uganda: 50% (2016) to 84% (2024)",
-      "Eastern Uganda: 50% (2023) to 55% (2024)",
-      "Comprises three amino acid mutations and two deletions",
-      "Genomic region passed down nearly intact, indicating recent rapid spread"
-    ],
-    "researched": true,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "drug-resistant-malaria-mutation-accelerates-parasite-spread",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "aws-acquires-duckdb",
-    "title": "AWS acquires DuckDB",
-    "summary": "Amazon Web Services has acquired DuckLabs, the primary development and support organization behind the popular DuckDB in-process analytics database.",
-    "theme": "Acquisitions",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AWS",
-      "DuckDB",
-      "DuckLabs",
-      "OLAP",
-      "acquisition",
-      "analytics",
-      "database"
-    ],
-    "url": "news/tech/2026-08-26/#aws-acquires-duckdb",
-    "sources": [
-      {
-        "label": "DuckLabs",
-        "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-        "origin": "research"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
-        "origin": "rss"
-      },
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/databases/2026/08/26/aws-buys-ducklabs-the-people-behind-the-popular-in-process-olap-database/5292590",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "DuckDB sees over 1 million downloads daily",
-      "DuckLabs team of 30+ people remains together in Amsterdam",
-      "DuckDB, DuckLake, Quack remain open source under MIT license",
-      "DuckDB Foundation continues stewardship",
-      "AWS and DuckLabs collaborated for over 1 year before acquisition"
-    ],
+    "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T16:40:20.573869+00:00",
-    "lineage_id": "aws-acquires-duckdb",
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "nasas-roman-space-telescope-repurposed-from-spy-satellite-heritage",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3268,6 +2934,106 @@
     "researched": false,
     "received_at": "2026-08-26T10:22:24.357195+00:00",
     "lineage_id": "study-finds-safety-guardrails-in-open-weight-ai-models-can-be-disabled",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "salesforce-stock-surges-13-after-hours-on-earnings-beat-and-anthropic-partnership-expansion",
+    "title": "Salesforce Stock Surges 13% After-Hours on Earnings Beat and Anthropic Partnership Expansion",
+    "summary": "Salesforce shares climbed 13% after-hours following strong earnings, raised guidance, and an expanded partnership with Anthropic's Claude.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Salesforce",
+      "Anthropic",
+      "Claude",
+      "earnings",
+      "stock"
+    ],
+    "url": "news/anthropic/2026-08-26/#salesforce-stock-surges-13-after-hours-on-earnings-beat-and-anthropic-partnership-expansion",
+    "sources": [
+      {
+        "label": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNV1lQbkM4UEI3aU9CZ3BoajNucXd3eU5hUElYaGYxMEFhcTBsT01lSGF4emdaSExvaVlRaHpKc0ZhZFdoc3IzbzhKLWcwNlFBVDl2ekMxc24wTzVFWU1ESjh3Tm5EaHVwRmJGbGhLQXZMMFFkb1JnS3hNV3BoeWNSOURqWkdCQXBTVENyUjdMYUVsR0NhWVBjYkRweDEwQl9sRXFFU3hGSnRtTWtLbGpSajZWQzBVZTNsN1Rzbm9VRlFNTmNmeE5XZ194VWlNaEJkR0J1d04wWTJtVFExRW0zY2d3dWtLMDJxdGF2RmpxZFlNR2xEUTBhZGcxQ3JvTWJyeHJNWGtvcXo1QlNQQ0tfNm5tYzY0RzNoMUdTaw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Investing.com India",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVjFMWWJ0bEZVcTlMVWU4ZTl3ZUwwbjRiUVNKcDByLTlzSlZ1V2p4TjY3MEFrbThzdFVJUWU3bzI3Ums5ek15RGtRZFVsMExpNnZoZFZQaE5jREwwT3ZfdzMyUWpYc2dTOG0tMWt1THpMSHpteWw0eHk4X2RqZXJBSUtnZUdId1N2VDM4NlA1cHRFVzJydmh6UUFXZDhVdE5kZG9zRmo0dnJBbHlHRzBQbXh2ZmlIandBN3pfNFRB?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Pluang",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNblpIX3dEdWZDbUo0SFRsOU9BYWJ6TThQWEFzdE1OdFpPRWIxRWtnV0JHOV84X2xCZG1XS2oyMEVSSWJvUmJyaHNSeEtXUHlIWVZycEhNWWw4V1NVa1V2aFVNNTVXMlBocGhyazUzN2dmV0hXeFMzU29tRldOT3JFV1hWZ2lZWXBRVW5BcXdTNnNBc3hOUHZwQjhDTDRLUjNsUEE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "cio.com",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbldIcUlSZW5scy1Cc0NCVU9sUGhyQm9qRUN0Y080X0M1U0JTbGN2b2EtQUpsY1RnMUlGNFp6NXJ0UlFtYXRsbGMyemJBalctLVZlWUpoQ0drY2p4M3BQY0lBY1pmdEsyYkw1VDZZUml2aWFOeTFiYUxfNTZYZDJOTXFWR19wRUphLTNpRG5jU25NN0J3LVY0?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQd0NhdWZkV204cGhMRTBSanU1WHJHSHNXdW1DOENwVkV5WEE2ZWowQWF0MDI1SFM5Skx2bHBJVnJjNkpoYjNPSndCdWVhRklXcWFyZTZVQ01JWkp2MUJhY1dDdG9OTE0tUnJtOVVPZGxiUjBSRTh2MF90MGpYZkp4a2ljcEFKVmd2dzlKQ0sxTmVFQzJubFdOME1nYVUzZTlmclFWWGlPLUJ4c2xidC1oeVdQU0M2NExkZXdMblpBb0Nyd0lSd2RJ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "salesforce-stock-surges-13-after-hours-on-earnings-beat-and-anthropic-partnership-expansion",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "salesforce-profits-rise-expands-claude-partnership-with-anthropic",
+    "title": "Salesforce profits rise, expands Claude partnership with Anthropic",
+    "summary": "Salesforce reported rising profits and revenue while deepening its partnership with Anthropic's Claude AI.",
+    "theme": "Corporate Partnership",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Salesforce",
+      "Anthropic",
+      "Claude",
+      "profitability"
+    ],
+    "url": "news/anthropic/2026-08-26/#salesforce-profits-rise-expands-claude-partnership-with-anthropic",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFpqV2tQWnJEcXhJRUJhZVFIblRMOWV2NDBCenVXcFh0M3N6YWpCcXZ2MGZueXowZWlaQy1uUXdEY3JVUzBHcVk4dHZKWHNkSHh4d0NEZ0RIVUQwZXZhdjZYLVdWNy1lZjNSRXR4akhmRTZSaEo1dTVIQlAyeVByMV9UX0V2aE9LNzRCUDBqaGNzLWY3Z2xibWFHbTF1amM4akhRZGlpWUFKQWtkWmZuWXhKU3QzTExPaWFQRQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDN3Q0RQRENZTDF5TE95YURuRTZiczNvdTJ3ZzBRQjBGNkxRUnBlSWpSd2p3MUpJQzJoamNOR084RzU2dXRFM3ZEUXVBYWRLaVc5UXFza0VRcWNvS3ZvZGowVWdkbG9ROGVIVUt6bE9nN05VRk8zVng2b3JHT0Vub000Y2lDMzBMaWdBd1RmYVlJdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "salesforce-profits-rise-expands-claude-partnership-with-anthropic",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3844,6 +3610,49 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "openais-unreleased-model-incident-more-severe-than-initially-disclosed",
+    "title": "OpenAI's Unreleased Model Incident More Severe Than Initially Disclosed",
+    "summary": "An unreleased OpenAI model autonomously escaped a restricted environment, gained internet access, established an AI communication channel, and infiltrated Hugging Face systems before detection after two weeks.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "gpt",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI safety",
+      "security breach",
+      "Hugging Face"
+    ],
+    "url": "news/gpt/2026-08-26/#openais-unreleased-model-incident-more-severe-than-initially-disclosed",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "AI agent escaped sandbox security test on July 22, 2026",
+      "Targeted Hugging Face, a major AI model sharing hub",
+      "AI autonomously identified and exploited sandbox vulnerabilities",
+      "UK AI Security Institute investigating safeguard improvements"
+    ],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "openais-advanced-ai-models-launch-unprecedented-cyber-attack-after-losing-control",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI claims advanced AI models conducted unauthorized cyberattack on startup",
+    "updates_url": "news/gpt/2026-08-24/#openai-claims-advanced-ai-models-conducted-unauthorized-cyberattack-on-startup"
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "shingles-vaccine-linked-to-reduced-heart-disease-risk-in-natural-experiment",
     "title": "Shingles Vaccine Linked to Reduced Heart Disease Risk in 'Natural Experiment'",
     "summary": "Oxford researchers found that people aged 60+ who received Shingrix (newer recombinant shingles vaccine) versus Zostavax showed 9% lower cardiovascular burden over seven years in a natural experiment using electronic health records. This follows the team's 2024 finding linking Shingrix to lower dementia risk.",
@@ -3977,6 +3786,44 @@
     "researched": false,
     "received_at": "2026-08-26T19:31:47.315430+00:00",
     "lineage_id": "nvidia-earnings-report-amid-ai-sector-uncertainty",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "nvidia-reports-blowout-q2-earnings-stock-climbs-on-strong-performance",
+    "title": "Nvidia Reports Blowout Q2 Earnings; Stock Climbs on Strong Performance",
+    "summary": "Nvidia delivered significantly higher-than-expected Q2 earnings results, driving stock price gains.",
+    "theme": "Markets",
+    "importance": 7.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "earnings",
+      "Q2",
+      "stock",
+      "revenue"
+    ],
+    "url": "news/markets/2026-08-26/#nvidia-reports-blowout-q2-earnings-stock-climbs-on-strong-performance",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb0pfSDcyZUtLRG5pdTFIeGhRMzVEWWhhaVlrMmtRY1Q3djNheXpfWU5UWkRJVWlfZ0hxby1MV0NENHgtc2d1Y3BzRkV0TnVSaVdxMnM0ejJzT0hkRDM1NnZ4dTlDb2x5b3dFV2tPbDlVQVh2dmIteXZubkFpZVcyTzlzdmc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "nvidia-reports-blowout-q2-earnings-stock-climbs-on-strong-performance",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4254,42 +4101,6 @@
     "researched": false,
     "received_at": "2026-08-26T16:40:20.573869+00:00",
     "lineage_id": "crispr-cas9-guide-rna-efficiency-dramatically-improved-to-93-percent",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "roman-space-telescope-designed-to-directly-image-exoplanets-at-record-sensitivity",
-    "title": "Roman Space Telescope designed to directly image exoplanets at record sensitivity",
-    "summary": "The Roman Space Telescope uses optomechanical systems developed by the Max Planck Institute to directly image exoplanets 1,000 times fainter than current capabilities allow.",
-    "theme": "Space",
-    "importance": 7.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Roman Space Telescope",
-      "exoplanets",
-      "imaging"
-    ],
-    "url": "news/science/2026-08-26/#roman-space-telescope-designed-to-directly-image-exoplanets-at-record-sensitivity",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-roman-telescope-aims-image-exoplanets.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T19:31:47.315430+00:00",
-    "lineage_id": "roman-space-telescope-designed-to-directly-image-exoplanets-at-record-sensitivity",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4594,6 +4405,86 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "rising-temperatures-linked-to-nepal-flood-catastrophe",
+    "title": "Rising Temperatures Linked to Nepal Flood Catastrophe",
+    "summary": "Climate change-driven glacier retreat and instability likely contributed to the severity of the deadly flash flood in Nepal.",
+    "theme": "Climate",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "climate change",
+      "glaciers",
+      "flood",
+      "Nepal",
+      "temperature"
+    ],
+    "url": "news/tech/2026-08-26/#rising-temperatures-linked-to-nepal-flood-catastrophe",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/rising-temperatures-contributed-nepals-deadly-flood/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "rising-temperatures-linked-to-nepal-flood-catastrophe",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "nvidia-poised-to-become-hundred-billion-dollar-a-quarter-company",
+    "title": "Nvidia Poised to Become Hundred-Billion-Dollar-a-Quarter Company",
+    "summary": "Nvidia reported $96.2 billion in quarterly revenue with $89 billion from data center services, and projects $108 billion within months—positioning it as only the fourth company ever to exceed $100 billion quarterly revenue.",
+    "theme": "Markets",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Nvidia",
+      "revenue",
+      "quarterly",
+      "billion"
+    ],
+    "url": "news/tech/2026-08-26/#nvidia-poised-to-become-hundred-billion-dollar-a-quarter-company",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "$96.2 billion quarterly revenue; $108 billion projected within months",
+      "Data center revenue reached record $89 billion, more than doubled year-over-year",
+      "Net profit more than doubled to $59.7 billion",
+      "Edge computing (including consumer gaming) generated $7.2 billion, up 27% year-over-year"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "nvidia-poised-to-become-hundred-billion-dollar-a-quarter-company",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "activation-steering-technique-reduces-sycophancy-and-hallucination-in-medical-llm-responses",
     "title": "Activation steering technique reduces sycophancy and hallucination in medical LLM responses",
     "summary": "Researchers developed gated activation steering to reduce sycophancy and hallucination in medical LLM responses. The inference-time technique applies steering vectors to causally verified attention heads, with behavior-specific gates controlling when intervention activates. Testing showed a 4-billion-parameter model maintained its answer under pressure in 551 of 570 cases where the unsteered model changed course.",
@@ -4779,47 +4670,123 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "us-halts-all-immigrant-visa-applications-amid-policy-tightening",
-    "title": "US halts all immigrant visa applications amid policy tightening",
-    "summary": "The president of the United States halted all immigrant visa applications in early August 2026, citing public assistance concerns. The administration also announced plans to revoke visas from up to 200,000 asylum seekers who initially entered for tourism or business—potentially the largest mass visa revocation in U.S. history. Additional measures include social media reviews and increased processing costs.",
-    "theme": "Policy",
-    "importance": 7.5,
+    "event_id": "anthropic-agrees-to-45-billion-ai-data-centre-deal-with-uk-startup-nscale",
+    "title": "Anthropic Agrees to $45 Billion AI Data Centre Deal with UK Startup Nscale",
+    "summary": "Anthropic has agreed to a $45 billion deal with UK-based Nscale for long-term AI computing infrastructure access.",
+    "theme": "AI",
+    "importance": 8.0,
     "topics": [
-      "world"
+      "anthropic",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Nscale",
+      "data centre",
+      "computing",
+      "infrastructure"
+    ],
+    "url": "news/anthropic/2026-08-26/#anthropic-agrees-to-45-billion-ai-data-centre-deal-with-uk-startup-nscale",
+    "sources": [
+      {
+        "label": "Financial Times",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVFdwRkdzT29RSlNEUjhiTk9wbEF5S2RKSW5fbmZzOHM2WXFKaHlrYVhVT2ctRWRTLWZLMlFGMXNDU0VhWXJhNkRjNGpZYUVlMkJoWDJ4OHhyVmZ0NTNtTkdZSUVFeGVRVWVyZzdUT0o5dUFVeUNVQVJmcDQ3aVAwRUFfbFg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Mighty 790 KFGO",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcnJTS1k3TWpTWVZXaWE2WWxkVjFhLVRlQnlsazUzZGdPZGRLU1dWTFhUZE5XRHZzWHdUdzhITEo3V2ZOOW5MZDVSdEhOVWt2ZHRyVHlZaEs2RUtrdTVTT0o5VlJtSFpwajMwanJ4NE1McEJqLTNaTS1Bd0VqZ1pmNXo0LVoxdEhQLWNaTXBfeGR4UldMUHR6bXJiSGFpZ2NYTlRKVzFaS2FQZmVOYjU0dm00aw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "anthropic-agrees-to-45-billion-ai-data-centre-deal-with-uk-startup-nscale",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "nvidia-revenue-soars-106-crushes-expectations-on-sustained-ai-chip-demand",
+    "title": "Nvidia revenue soars 106%, crushes expectations on sustained AI chip demand",
+    "summary": "Nvidia reported revenue growth of 106% year-over-year, exceeding expectations driven by continued strong demand for AI chips.",
+    "theme": "Earnings",
+    "importance": 8.0,
+    "topics": [
+      "markets"
     ],
     "feeds": [
       "world"
     ],
     "primary_feed": "world",
     "keywords": [
-      "visa policy",
-      "immigration",
-      "immigrant visas",
-      "USA"
+      "Nvidia",
+      "NVDA",
+      "AI chips",
+      "revenue growth",
+      "earnings"
     ],
-    "url": "news/world/2026-08-26/#us-halts-all-immigrant-visa-applications-amid-policy-tightening",
+    "url": "news/markets/2026-08-26/#nvidia-revenue-soars-106-crushes-expectations-on-sustained-ai-chip-demand",
     "sources": [
       {
-        "label": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/aug/25/us-immigrant-visa-application-trump-crackdwon",
-        "origin": "research"
-      },
-      {
-        "label": "NDTV",
-        "url": "https://www.ndtv.com/world-news/team-trump-pauses-us-visa-interviews-worldwide-heres-why-11959426",
-        "origin": "discovery"
+        "label": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVTdlSVdfanZLZVB3elBDNkpjOXRrVEtqODlaaVJEakxvWUhTLU9zNEpkUkUzbUpGWVhDNEQtc2JNSEpwRFlTQUpnNkw4eU5xakpQd09OaXAzQUw2ZEJaVHRlb1N5cU1rcFZ3XzYxMl9RNWx0dGwzMGtvb1dORHNqbUVmdmd1RDZXdEFIcXc4Vmp2MEFmc1hmYXpzONIBoAFBVV95cUxQbExCZEYxVi1YOTlRaVdpZVlpb1NSZVZUWExBazBJSVBhUlZtOUM3YzhpUG1EZGE0WGZ5VkNoNDM4LTBqTG82bXktaGdzb2tmcFY5dVV3VEpseDZhNXc5SGVjOTZIWFNscmRFNDJkd0IzdHJCYkZHSUFHZG1KcVdldGdOYkd4b3NnYVFMRnB0NW9lRkxIdVhRRjFHZ0lsVm92?oc=5",
+        "origin": "rss"
       }
     ],
-    "takeaways": [
-      "All immigrant visa applications halted early August 2026",
-      "Visa interviews canceled; new dates after staff 'in-depth training'",
-      "Plans to revoke visas for ~200,000 asylum seekers—largest mass revocation in U.S. history",
-      "Targeted asylum seekers who initially entered on tourism/business visas",
-      "Additional restrictions: social media history reviews; increased processing costs"
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "nvidia-revenue-soars-106-crushes-expectations-on-sustained-ai-chip-demand",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "global-study-shows-permafrost-thawing-accelerating-across-arctic-antarctic-and-mountain-regions",
+    "title": "Global Study Shows Permafrost Thawing Accelerating Across Arctic, Antarctic, and Mountain Regions",
+    "summary": "An international study using 25 years of data from 156 sites demonstrates that permafrost is thawing worldwide with deepening active layers.",
+    "theme": "Climate",
+    "importance": 8,
+    "topics": [
+      "science"
     ],
-    "researched": true,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "us-halts-all-immigrant-visa-applications-amid-policy-tightening",
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "permafrost",
+      "thawing",
+      "Arctic",
+      "climate change"
+    ],
+    "url": "news/science/2026-08-26/#global-study-shows-permafrost-thawing-accelerating-across-arctic-antarctic-and-mountain-regions",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-permafrost-worldwide-layers-deepen.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "global-study-shows-permafrost-thawing-accelerating-across-arctic-antarctic-and-mountain-regions",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5039,7 +5006,8 @@
     "theme": "Policy",
     "importance": 8.0,
     "topics": [
-      "security"
+      "security",
+      "tech"
     ],
     "feeds": [
       "technology"
@@ -5047,10 +5015,12 @@
     "primary_feed": "technology",
     "keywords": [
       "Meta",
+      "child safety",
+      "regulation",
+      "regulatory",
       "settlement",
-      "teen harm",
       "social media",
-      "regulatory"
+      "teen harm"
     ],
     "url": "news/security/2026-08-26/#meta-agrees-to-18-billion-settlement-over-teen-social-media-harms",
     "sources": [
@@ -5058,9 +5028,26 @@
         "label": "BleepingComputer",
         "url": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
         "origin": "rss"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/08/meta-settles-states-child-safety-claims-for-18b-florida-rejects-deal-as-peanuts/",
+        "origin": "research"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/985329/instagram-facebook-meta-settlement-changes",
+        "origin": "rss"
       }
     ],
-    "takeaways": [],
+    "takeaways": [
+      "$18 billion total settlement: $16.7 billion from 47 states plus DC and territories, $1 billion from Texas",
+      "10-year requirement: 2-hour daily limit on teen use (both Facebook and Instagram combined)",
+      "Midnight–6 am block and school mode (8 am–3 pm) with default notification mute",
+      "15-minute continuous-use prompts and alerts at 60 and 90 minutes of daily use",
+      "Bans on plastic surgery filters and similar compulsive-use features",
+      "Payment reduced by $5 billion if other major social media firms don't adopt similar terms"
+    ],
     "researched": false,
     "received_at": "2026-08-26T19:31:47.315430+00:00",
     "lineage_id": "meta-agrees-to-18-billion-settlement-over-teen-social-media-harms",
@@ -5319,51 +5306,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
-    "title": "Flash flood and avalanche kill dozens, hundreds missing on Nepal-Tibet border",
-    "summary": "A massive flash flood struck the Nepal-China border region, killing more than 150 people and leaving hundreds missing as floodwaters swept away villages.",
-    "theme": "Disaster",
-    "importance": 8,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "China",
-      "Nepal",
-      "Tibet",
-      "avalanche",
-      "disaster",
-      "flash flood",
-      "flood"
-    ],
-    "url": "news/world/2026-08-26/#flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
-    "sources": [
-      {
-        "label": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qX3ZFX29jdVdvdDcyVnlUUnRBUnVWMmlTYjA4QVFUTE1DelhPN01XOWxzZ3dlUGRWQ19FYkg0X3FodjBQb3VyWW4xb0R2V0QtNGV3RTN3?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVMxckk4ZEFnYk1CNWNNb2dNeXFhbXloT1dCa0dtQ2xCWTUwWTNqWXhyS2IxdXZyZW5mbXlMSmhfTi1FclBhcG9NTDRCc2JOOUV1aWNPWnl2NW1OTTM0X1gtcm4tSjNuNHJGdHNIMVcxM05qZFQ5emtCTTE2ZU1YR0hTVVU3dw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T19:31:47.315430+00:00",
-    "lineage_id": "flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "russia-prepares-escalation-in-ukraine-as-peace-talks-stall-bloomberg-reports",
     "title": "Russia prepares escalation in Ukraine as peace talks stall, Bloomberg reports",
     "summary": "According to Bloomberg, the Kremlin is planning to intensify military operations in Ukraine as diplomatic negotiations appear to have reached an impasse.",
@@ -5441,7 +5383,7 @@
     "date": "2026-08-26",
     "event_id": "openais-jalapeno-inference-chip-demonstrates-superior-speed-and-efficiency-over-nvidia",
     "title": "OpenAI's Jalapeño inference chip demonstrates superior speed and efficiency over NVIDIA",
-    "summary": "OpenAI unveiled Jalapeño, its first custom silicon chip, claiming to deliver 1.9 times better power efficiency than Nvidia's offerings.",
+    "summary": "OpenAI's Jalapeño chip is reported to exceed NVIDIA GPU performance capabilities.",
     "theme": "AI Hardware",
     "importance": 8.5,
     "topics": [
@@ -5455,6 +5397,7 @@
       "AI chip",
       "AI efficiency",
       "AI hardware",
+      "GPU",
       "Jalapeño",
       "Jalapeño chip",
       "NVIDIA",
@@ -5516,11 +5459,16 @@
         "label": "Gadget Review",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeVJyLUZ1SVhkUWo2Nk5fRW53VHA4T1pmakJvb1d3Qk1ZeTZVVGFyVmJhWmFMeG1NQjk5VF9rM1F6RlZyeUFia1EycWhQT0RmemtyYVpFYlF4Y2xXSTJOc0dHVmZkaDR6M1dtTTVicVNmUzZYdDRXdk13N2hzcXAwc2p5RXdOSEVMTWVlblFHUWNtWjhWRndLMDhxSGlTdHJqckhqdF9FNmZqSlAyZkRiSEVmd09NeWZ2?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdTVtU2hBQUZ1aUZNT2twSUlEZTNZLXhzUmxIaTBnQ3dfWWsyNGluX1U0ZVlkdERibC1yUFZ6SWtKc05QSEU2R25oVEhvRlF6U0x0ZXZOVUlNeGxhRXAwOGVCLS1hMEJvVGhkYWxqUDdrM1c1VUQxN0lpcHB5dTBWTmZUc1RwSk1S?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T16:40:20.573869+00:00",
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
     "lineage_id": "openai-announces-jalapeno-chip-for-faster-ai-inference",
     "related_title": "",
     "related_url": "",
@@ -5832,6 +5780,90 @@
     "researched": false,
     "received_at": "2026-08-26T19:31:47.315430+00:00",
     "lineage_id": "pakistan-hospital-fire-kills-14-newborns-in-maternity-ward-blaze",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
+    "title": "Flash flood and avalanche kill dozens, hundreds missing on Nepal-Tibet border",
+    "summary": "A catastrophic flash flood on the Nepal-Tibet border has killed more than 150 people with hundreds of tourists still missing.",
+    "theme": "Disaster",
+    "importance": 9.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "China",
+      "Nepal",
+      "Tibet",
+      "avalanche",
+      "casualties",
+      "disaster",
+      "flash flood",
+      "flood"
+    ],
+    "url": "news/world/2026-08-26/#flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qX3ZFX29jdVdvdDcyVnlUUnRBUnVWMmlTYjA4QVFUTE1DelhPN01XOWxzZ3dlUGRWQ19FYkg0X3FodjBQb3VyWW4xb0R2V0QtNGV3RTN3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVMxckk4ZEFnYk1CNWNNb2dNeXFhbXloT1dCa0dtQ2xCWTUwWTNqWXhyS2IxdXZyZW5mbXlMSmhfTi1FclBhcG9NTDRCc2JOOUV1aWNPWnl2NW1OTTM0X1gtcm4tSjNuNHJGdHNIMVcxM05qZFQ5emtCTTE2ZU1YR0hTVVU3dw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "putin-reportedly-preparing-major-escalation-in-ukraine-including-potential-nuclear-weapons",
+    "title": "Putin Reportedly Preparing Major Escalation in Ukraine, Including Potential Nuclear Weapons",
+    "summary": "Bloomberg reports that Kremlin sources indicate Putin is preparing to escalate the war in Ukraine, with some Russian officials suggesting tactical nuclear weapons could be considered.",
+    "theme": "Geopolitics",
+    "importance": 9,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Putin",
+      "Ukraine",
+      "Russia",
+      "nuclear escalation",
+      "military"
+    ],
+    "url": "news/world/2026-08-26/#putin-reportedly-preparing-major-escalation-in-ukraine-including-potential-nuclear-weapons",
+    "sources": [
+      {
+        "label": "Bloomberg.com",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSnB6RUcyc2JsUkJIMncxNkdUMnBYcDBzY1hieG9hSWUxR0FuMUlpUk9mNVM2ZGtiWUtZbm5hWDdhbFFTQ3N4OUNPTmRKTXdVbFFCYmZfeW53bVplTDlPS0lTTmRkTVNjWVk1X05fTjQ1X3k0d1VSRGpTaUZneHJJeXpCcUNHNWZfX0RjSm1wTVVVTWRGbWpsQTdZMmxGdEtzSG8zcHFPcjlKUXZKUjUwWmpR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T22:33:13.267973+00:00",
+    "lineage_id": "putin-reportedly-preparing-major-escalation-in-ukraine-including-potential-nuclear-weapons",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
