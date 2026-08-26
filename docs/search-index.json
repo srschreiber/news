@@ -121,44 +121,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "claude-opus-5-vs-grok-46-vs-gemini-31-pro-pricing-comparison",
-    "title": "Claude Opus 5 vs Grok 4.6 vs Gemini 3.1 Pro: Pricing Comparison",
-    "summary": "A comparison of leading large language models—Claude Opus 5, Grok 4.6, and Gemini 3.1 Pro—shows a $19 pricing gap among premium tiers.",
-    "theme": "AI",
-    "importance": 4.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude Opus",
-      "Grok",
-      "Gemini",
-      "LLM",
-      "pricing"
-    ],
-    "url": "news/anthropic/2026-08-26/#claude-opus-5-vs-grok-46-vs-gemini-31-pro-pricing-comparison",
-    "sources": [
-      {
-        "label": "tech-insider.org",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWkVkQU8xS2pPWVFZS2RMemJCQ0JFVnZyZFBia28xMlNlWWNPVFB2eHhxdVhBTWJJRFFmaDlOUU9IcGJUWDlBU0phQUhUUEFGRG51NkttME9tMTl0X1dsV2piR2lsQTZOeURZQV8yRExlTE93cFF2U1hYbUFTZGNRUTIxcw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "claude-opus-5-vs-grok-46-vs-gemini-31-pro-pricing-comparison",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "direct-protection-as-essential-conservation-strategy-for-hunted-species",
     "title": "Direct Protection as Essential Conservation Strategy for Hunted Species",
     "summary": "Direct protection measures are identified as essential for conserving species that face hunting or collection pressure.",
@@ -234,84 +196,9 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "llm-evaluation-beyond-benchmarks",
-    "title": "LLM Evaluation: Beyond Benchmarks",
-    "summary": "Production evaluation of large language models requires approaches that extend beyond standard benchmarking metrics.",
-    "theme": "AI Research",
-    "importance": 5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "LLMs",
-      "evaluation",
-      "benchmarking",
-      "production systems"
-    ],
-    "url": "news/ai/2026-08-26/#llm-evaluation-beyond-benchmarks",
-    "sources": [
-      {
-        "label": "StartupHub.ai",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZS1nYW9ENlYweUNyNEVoMUcyZksyZzZDQlVnZnI4VU1lOHhFSkg2aDRfU1J6X1MzdHVlWkk5dWY3OEQyc01wQWVLWDh5aXVDTnpUWmxPUHBHczgycXdwdzRNYWlNQnlGb0RoM2Z4TF9maTVDU0duT1FkZE5JazJtbUo4UXVUTi1xZk1NU0JPV2xNenFCWE5URUtGOA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "llm-evaluation-beyond-benchmarks",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "apples-m5-mac-computers-marketed-to-reduce-ai-coding-subscription-costs",
-    "title": "Apple's M5 Mac computers marketed to reduce AI coding subscription costs",
-    "summary": "Apple's new Mac Studio and Mac mini with M5 chips enable on-device AI, positioned to reduce recurring software licensing costs for developers.",
-    "theme": "Hardware",
-    "importance": 5.0,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Apple",
-      "M5 chip",
-      "on-device AI",
-      "Mac Studio",
-      "Mac mini"
-    ],
-    "url": "news/ai/2026-08-26/#apples-m5-mac-computers-marketed-to-reduce-ai-coding-subscription-costs",
-    "sources": [
-      {
-        "label": "Forbes",
-        "url": "https://www.forbes.com/sites/johnkoetsier/2026/08/25/can-apples-new-mac-ultra-replace-your-200month-ai-coding-bill/",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "apples-m5-mac-computers-marketed-to-reduce-ai-coding-subscription-costs",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "anthropic-enhances-claudes-memory-system-for-better-customization",
-    "title": "Anthropic enhances Claude's memory system for better customization",
-    "summary": "Anthropic announced updates to Claude's memory capabilities to improve customization options and protect sensitive topics.",
+    "event_id": "shopify-ceo-threatens-to-drop-claude-code-over-agentsmd-compatibility-dispute",
+    "title": "Shopify CEO Threatens to Drop Claude Code Over AGENTS.md Compatibility Dispute",
+    "summary": "Shopify's CEO has threatened to discontinue use of Claude Code amid a compatibility dispute with Anthropic regarding AGENTS.md standards.",
     "theme": "AI",
     "importance": 5.0,
     "topics": [
@@ -322,27 +209,28 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Anthropic",
+      "Shopify",
       "Claude",
-      "memory",
-      "AI customization"
+      "Anthropic",
+      "AGENTS.md",
+      "compatibility"
     ],
-    "url": "news/anthropic/2026-08-26/#anthropic-enhances-claudes-memory-system-for-better-customization",
+    "url": "news/anthropic/2026-08-26/#shopify-ceo-threatens-to-drop-claude-code-over-agentsmd-compatibility-dispute",
     "sources": [
       {
-        "label": "SiliconANGLE",
-        "url": "https://siliconangle.com/2026/08/25/anthropic-updates-claudes-memory-to-enhance-customization-and-protect-sensitive-topics/",
-        "origin": "discovery"
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tYUhxVlk2TkduODlnVDB6S3FBQXhrS0dFb1lQZEpSUXpaMWRzUzRXV1A5X2l1NVNwTmFOV1pVeU51ZnNFMWhVODRzSTlRMUdxMmI4ZkYwVkRZeklyRjFEeUJCOXo5NHY5ZXdsT2RkUlM3bnpQSkE?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "anthropic-enhances-claudes-memory-system-for-better-customization",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "shopify-ceo-threatens-to-ban-claude-code-over-documentation-refusal",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "Shopify CEO threatens to ban Claude Code over documentation refusal",
+    "updates_url": "news/anthropic/2026-08-26/#shopify-ceo-threatens-to-ban-claude-code-over-documentation-refusal"
   },
   {
     "date": "2026-08-26",
@@ -533,6 +421,44 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "gmi-cloud-launches-unified-enterprise-llm-platform-across-global-regions",
+    "title": "GMI Cloud launches unified enterprise LLM platform across global regions",
+    "summary": "GMI Cloud has launched a platform unifying enterprise LLM inference and model training across the US, Asia-Pacific, and Europe.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "GMI Cloud",
+      "LLM",
+      "inference",
+      "enterprise",
+      "cloud"
+    ],
+    "url": "news/ai/2026-08-26/#gmi-cloud-launches-unified-enterprise-llm-platform-across-global-regions",
+    "sources": [
+      {
+        "label": "FinancialContent",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQYXZtT1N6dFVLaVBUOTFvX00tRHRaMU82YktmMEMycnJ2VmtXbklqYVFDUjVIZmdWUTZ5dU9hOVNkMnFTX2dtX3BYQWRLMGJpb0R1eXU2OXhhVDNqeHNKMmFqZjYtUFJYbUZWYmtpd1lDLTBCT1dQUGozeXAwd0JlOUF5X3JTVDZTMTBER1NISWpPMEdnRjlOdDZuelU3ZGtGQ3BSYnRRblJaY01qVW0xUzlhM0NKcGluQ3dJTFpNNkxtYkRTVTVkQ0p5eHcyYXZXSTRzTG9LdFlIRjg1MzNKd0lFRXFTdGlPMVFOcFR5VjhEWE9neGlhMTNJa2ZhSFpDNVgtaTZaVHI?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "gmi-cloud-launches-unified-enterprise-llm-platform-across-global-regions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "claude-code-sparks-developer-backlash-over-agentsmd-ban-rejection",
     "title": "Claude Code sparks developer backlash over AGENTS.md ban rejection",
     "summary": "Anthropic's Claude Code has triggered developer anger by rejecting AGENTS.md as an industry standard.",
@@ -604,6 +530,44 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "claude-fable-5-and-claude-mythos-5-models-announced",
+    "title": "Claude Fable 5 and Claude Mythos 5 Models Announced",
+    "summary": "Anthropic has announced Claude Fable 5 and Claude Mythos 5, with Mythos 5 featuring reduced safety guardrails in certain areas.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Fable 5",
+      "Mythos 5",
+      "Anthropic",
+      "model release"
+    ],
+    "url": "news/anthropic/2026-08-26/#claude-fable-5-and-claude-mythos-5-models-announced",
+    "sources": [
+      {
+        "label": "Anthropic",
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "anthropic-releases-claude-mythos-5-with-reduced-safeguards",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic Releases Claude Mythos 5 with Reduced Safeguards",
+    "updates_url": "news/anthropic/2026-08-25/#anthropic-releases-claude-mythos-5-with-reduced-safeguards"
   },
   {
     "date": "2026-08-26",
@@ -684,229 +648,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "sword-health-to-acquire-mental-health-provider-headspace",
-    "title": "Sword Health to acquire mental health provider Headspace",
-    "summary": "Sword Health, a digital health company, plans to acquire Headspace, a mental health services provider, according to regulatory filings.",
-    "theme": "Funding",
-    "importance": 5.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Sword Health",
-      "Headspace",
-      "acquisition",
-      "digital health",
-      "mental health"
-    ],
-    "url": "news/health/2026-08-26/#sword-health-to-acquire-mental-health-provider-headspace",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/25/sword-health-to-acquire-headspace-per-regulatory-filing/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "sword-health-to-acquire-mental-health-provider-headspace",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "pet-gecko-provides-promising-model-for-cancer-research-breakthroughs",
-    "title": "Pet gecko provides promising model for cancer research breakthroughs",
-    "summary": "Researchers identify the pet gecko as an effective animal model offering new insights into cancer mechanisms and treatment.",
-    "theme": "Health",
-    "importance": 5.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "gecko",
-      "cancer research",
-      "animal model"
-    ],
-    "url": "news/health/2026-08-26/#pet-gecko-provides-promising-model-for-cancer-research-breakthroughs",
-    "sources": [
-      {
-        "label": "News-Medical",
-        "url": "https://www.news-medical.net/news/20260714/Pet-gecko-offers-promising-model-for-cancer-research-breakthroughs.aspx",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T08:27:59.993649+00:00",
-    "lineage_id": "pet-gecko-provides-promising-model-for-cancer-research-breakthroughs",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "womens-health-investors-emphasize-profit-potential-in-endometriosis-osteoporosis-and-autoimmune-treatments",
-    "title": "Women's Health Investors Emphasize Profit Potential in Endometriosis, Osteoporosis, and Autoimmune Treatments",
-    "summary": "Women's health experts advocate a 'reverse pitch' highlighting profit potential to attract investment in treatments for endometriosis, osteoporosis, and autoimmune conditions.",
-    "theme": "Pharma & Women's Health",
-    "importance": 5.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "women's health",
-      "endometriosis",
-      "osteoporosis",
-      "autoimmune disease",
-      "venture capital"
-    ],
-    "url": "news/health/2026-08-26/#womens-health-investors-emphasize-profit-potential-in-endometriosis-osteoporosis-and-autoimmune-treatments",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/26/womens-health-reverse-pitch-profit-driven-approach-endometriosis-osteoporosis/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "womens-health-investors-emphasize-profit-potential-in-endometriosis-osteoporosis-and-autoimmune-treatments",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "post-dobbs-abortion-restrictions-reality-versus-predictions",
-    "title": "Post-Dobbs Abortion Restrictions: Reality Versus Predictions",
-    "summary": "David N. Hackney argues that many feared consequences of abortion restrictions following Dobbs have not materialized, suggesting advocates should focus on values rather than statistics.",
-    "theme": "Policy",
-    "importance": 5.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "abortion",
-      "Dobbs decision",
-      "reproductive rights",
-      "policy analysis"
-    ],
-    "url": "news/health/2026-08-26/#post-dobbs-abortion-restrictions-reality-versus-predictions",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/26/dobbs-abortion-predictions-infant-mortality-data-freedom/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "post-dobbs-abortion-restrictions-reality-versus-predictions",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "opinion-medical-aid-in-dying-and-ethical-burden-of-choice",
-    "title": "Opinion: Medical aid in dying and ethical burden of choice",
-    "summary": "Ethicist Monika Piotrowska argues that legalizing medical aid in dying fundamentally shifts the social contract around end-of-life care.",
-    "theme": "Health Policy",
-    "importance": 5.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "medical aid in dying",
-      "end-of-life care",
-      "bioethics",
-      "autonomy"
-    ],
-    "url": "news/health/2026-08-26/#opinion-medical-aid-in-dying-and-ethical-burden-of-choice",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/08/26/medical-aid-in-dying-new-york-choice-burden-philosophy-ethics/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "opinion-medical-aid-in-dying-and-ethical-burden-of-choice",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "veteran-market-strategist-warns-stocks-have-exhausted-upside-room",
-    "title": "Veteran Market Strategist Warns Stocks Have Exhausted Upside Room",
-    "summary": "An experienced market strategist cautioned that equity valuations have used up available room for further gains.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "valuation",
-      "strategist",
-      "investing"
-    ],
-    "url": "news/markets/2026-08-26/#veteran-market-strategist-warns-stocks-have-exhausted-upside-room",
-    "sources": [
-      {
-        "label": "BeInCrypto",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBadFNzelFjM3FOTC00UGxqT1Z3eFl3OVMwNVdySjhKWVI1c3JuT0NnWHQyZWx6alQ5MTYtMFAyQzU1enZIcUVBTkIyaUZiUmk5R3dtcEN4Ry1KQ2dpdkpncWtwVDJhZVk?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "veteran-market-strategist-warns-stocks-have-exhausted-upside-room",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "microsoft-partners-with-humain-to-launch-saudi-arabic-language-allam-llm-globally",
     "title": "Microsoft partners with Humain to launch Saudi Arabic-language Allam LLM globally",
     "summary": "Saudi AI company Humain collaborates with Microsoft to make its Allam large language model available internationally.",
@@ -945,9 +686,46 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "specialized-small-ai-models-displacing-components-of-ai-stack",
+    "title": "Specialized small AI models displacing components of AI stack",
+    "summary": "Smaller, specialized machine learning models are increasingly replacing components of the broader AI infrastructure stack.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI models",
+      "specialized models",
+      "machine learning",
+      "LLM"
+    ],
+    "url": "news/ai/2026-08-26/#specialized-small-ai-models-displacing-components-of-ai-stack",
+    "sources": [
+      {
+        "label": "HackerNoon",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeERHQ1I0VklXTG0zVVpmdjYzNWhNTWU1Z2NhVEU2Q3kyMWxPYVhqQl9GY1FYZE85XzZNdFBYelU5azBSbTk0dS1DLUdRbC14ZlZxZkJYVnhtNTdZS1dIRmo1VmdMeEFtNko2ay1fMl9ZVDVLYUI1YjludGR5UjViQi1EM2RmV2NUYXNTMTRIUXZEZTlOUnY2c1p0RW5vc2s0cGRTeFBxNEdXNXVC?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "specialized-small-ai-models-displacing-components-of-ai-stack",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "anthropic-unifies-claude-memory-across-chat-and-cowork-platforms",
     "title": "Anthropic Unifies Claude Memory Across Chat and Cowork Platforms",
-    "summary": "Anthropic announced a unified memory system that now operates consistently between Claude Cowork and Claude chat interfaces.",
+    "summary": "Anthropic has extended Claude's memory functionality to work persistently across multiple chat conversations and Cowork sessions.",
     "theme": "AI",
     "importance": 6,
     "topics": [
@@ -960,6 +738,7 @@
     "keywords": [
       "Anthropic",
       "Claude",
+      "feature",
       "memory",
       "memory feature",
       "product integration"
@@ -980,11 +759,16 @@
         "label": "9to5Mac",
         "url": "https://9to5mac.com/2026/08/25/anthropic-update-unifies-memory-feature-across-claude-cowork-and-chat/",
         "origin": "discovery"
+      },
+      {
+        "label": "Dataconomy",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGWDRPSkZObFZwZVV2c1Jwd1JaQnE1NjNXTWNUTVFaZ0ZlZkZMQXhBeTYzaVRzWEx3b1VtbDhWMGJvaG5iWWdNVmpDTDQzc0NEaXlMNjJXUU16RnR6Ym9MaElkb0dQNVo4RFMwU3htZVU1TDhSanlualZBOG4?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "anthropic-unifies-claude-memory-across-chat-and-cowork-platforms",
     "related_title": "",
     "related_url": "",
@@ -1259,6 +1043,43 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "insitro-ceo-discusses-ais-role-in-accelerating-clinical-trials",
+    "title": "Insitro CEO discusses AI's role in accelerating clinical trials",
+    "summary": "Insitro's Daphne Koller discusses how artificial intelligence can speed up drug discovery and clinical trial processes.",
+    "theme": "Health",
+    "importance": 6,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Insitro",
+      "AI",
+      "clinical trials",
+      "drug discovery"
+    ],
+    "url": "news/health/2026-08-26/#insitro-ceo-discusses-ais-role-in-accelerating-clinical-trials",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/26/biotech-insitro-ceo-daphne-koller-speeding-up-clinical-trials-ai-prognosis/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "insitro-ceo-discusses-ais-role-in-accelerating-clinical-trials",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "tech-futures-fall-on-inflation-data-nvidia-earnings-pending",
     "title": "Tech Futures Fall on Inflation Data, Nvidia Earnings Pending",
     "summary": "U.S. tech futures declined as markets awaited PCE inflation data and Nvidia earnings results.",
@@ -1520,6 +1341,44 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "stock-market-faces-critical-test-nvidia-earnings-inflation-data-and-gdp-report-converge",
+    "title": "Stock Market Faces Critical Test: Nvidia Earnings, Inflation Data, and GDP Report Converge",
+    "summary": "Multiple major economic indicators and corporate earnings are scheduled for the same trading day, creating significant market volatility potential.",
+    "theme": "Markets",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "earnings",
+      "inflation",
+      "GDP",
+      "market volatility"
+    ],
+    "url": "news/markets/2026-08-26/#stock-market-faces-critical-test-nvidia-earnings-inflation-data-and-gdp-report-converge",
+    "sources": [
+      {
+        "label": "Currently.com",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMHJ0ZUo4N24zT2s0c2NHUUZIbjRnMVpVZXFDZU5BYzQ0N1dTMm1Vd1cxUnJJZlpsTldvNWo4R2E3cFFMUTJKQWptY1Y5bFF0T3lsbWFaZlAzdnpUeEtMVHZXbzJwQ3doX0J3YmRqV25zUDFJMXBvcnI4cnlVM05Rb2h1Vk9CTUpUWXJJ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "stock-market-faces-critical-test-nvidia-earnings-inflation-data-and-gdp-report-converge",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "nasa-satellites-successfully-navigate-without-gps-using-alternative-methods",
     "title": "NASA satellites successfully navigate without GPS using alternative methods",
     "summary": "NASA satellites have successfully demonstrated GPS-independent navigation techniques in a first-ever lost-in-space test, enabling extended orbital operations.",
@@ -1591,80 +1450,6 @@
     "related_url": "",
     "updates_title": "NASA's Artemis II Crew to Receive Congressional Space Medal of Honor",
     "updates_url": "news/space/2026-08-25/#nasas-artemis-ii-crew-to-receive-congressional-space-medal-of-honor"
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "analyswift-receives-nasa-award-for-long-duration-space-mission-technology",
-    "title": "AnalySwift receives NASA award for long-duration space mission technology",
-    "summary": "Purdue University's Kawai Kwok will lead an AnalySwift project funded by NASA to develop technology enabling longer-duration space missions.",
-    "theme": "Space Exploration",
-    "importance": 6.0,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "AnalySwift",
-      "NASA",
-      "Purdue University",
-      "long-duration missions",
-      "space technology"
-    ],
-    "url": "news/space/2026-08-26/#analyswift-receives-nasa-award-for-long-duration-space-mission-technology",
-    "sources": [
-      {
-        "label": "EurekAlert!",
-        "url": "https://www.google.com/goto?url=CAESaAHrOzAVugo8aXV3QARiUSvYd1fYfiZk1hgFm_hfPkwZWLiKSht-NGIeeEOM9aK3_-7_LD-wgql4oWCRt7IPxu02p099ZUeg8tM2900c35enFpi-uwCgTmU6BE21O63UgKYNz6bk2BdS",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "analyswift-receives-nasa-award-for-long-duration-space-mission-technology",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "nasas-nancy-grace-roman-space-telescope-receives-detailed-technical-overview",
-    "title": "NASA's Nancy Grace Roman Space Telescope receives detailed technical overview",
-    "summary": "Detailed coverage of the Nancy Grace Roman Space Telescope, NASA's next major astronomical observatory.",
-    "theme": "Space",
-    "importance": 6.0,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Nancy Grace Roman",
-      "space telescope",
-      "NASA"
-    ],
-    "url": "news/space/2026-08-26/#nasas-nancy-grace-roman-space-telescope-receives-detailed-technical-overview",
-    "sources": [
-      {
-        "label": "Space",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYlZZRFY2TzNTWDBtSktKWFBrQUZaRlRpbTBoYlpGaW4xS3NZQk1nbkZLQ0NuU1R1aVN2d2tGdmxrR3EwdjR0U28wVDBRQkd4eXAyT3dHTWhheW54cjNNWm9fMzhEbTcxUl83Skg4bkh1ZmE5bWVZNHJ1Q1Eza3llT0FFMUpMMnp5LUxCSkZkbXJ6YUZDTHBoT3RRdC1nMXBrN0R6cHQ1YUQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "nasas-nancy-grace-roman-space-telescope-receives-detailed-technical-overview",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
   },
   {
     "date": "2026-08-26",
@@ -1860,44 +1645,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts",
-    "title": "Scientists discover 149 new deep-sea species at remote Indian Ocean seamounts",
-    "summary": "An expedition identified 149 previously unknown species at seamounts in the central eastern Indian Ocean, advancing knowledge of deep-sea biodiversity.",
-    "theme": "Biodiversity",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "deep-sea",
-      "species discovery",
-      "Indian Ocean",
-      "seamounts"
-    ],
-    "url": "news/climate-change/2026-08-26/#scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/2026/08/scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "scientists-discover-149-new-deep-sea-species-at-remote-indian-ocean-seamounts",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "genetic-predisposition-determines-low-carb-diets-effect-on-ldl-cholesterol",
     "title": "Genetic predisposition determines low-carb diet's effect on LDL cholesterol",
     "summary": "People with genetic susceptibility to high cholesterol experience sharper LDL spikes on low-carb diets high in saturated fat, explaining variable dietary outcomes.",
@@ -1947,6 +1694,44 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "anonymous-phishing-campaign-targets-iphone-users-with-fake-ai-apple-support-calls",
+    "title": "AnonyMous phishing campaign targets iPhone users with fake AI Apple support calls",
+    "summary": "A new phishing campaign called AnonyMous uses AI-generated calls impersonating Apple support to target iPhone users.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "iPhone",
+      "Apple",
+      "AI",
+      "social engineering"
+    ],
+    "url": "news/email-security/2026-08-26/#anonymous-phishing-campaign-targets-iphone-users-with-fake-ai-apple-support-calls",
+    "sources": [
+      {
+        "label": "TechRadar",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaVJRVXJhLU43SnRSU3FIZkNYN21NczZ5VHI1aW9TMU41Y01WYUp1WFpyM3ZtYTZjMFV0QV9QaGQ0a2QyZng0VU4xM1ljakFRTGl2NmNKUkp2T1N2WjFvSDIwcHAzRjBDbGs1WGtqQUUwbThyOHQ4b1dTcVFIZlNLaVJfVjhwbVNucDZhOE9USDcxcHRGdm9EUmw5eTZSLUNsZmRGTDRzeHFqUERXT3p4cTJ3VnpWS2t6WjhnUjNxdmcxZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "anonymous-phishing-campaign-targets-iphone-users-with-fake-ai-apple-support-calls",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "openai-retires-o3-model-from-chatgpt-creating-user-churn",
     "title": "OpenAI Retires o3 Model from ChatGPT, Creating User Churn",
     "summary": "OpenAI discontinued the o3 model from ChatGPT, forcing users to transition to alternative models.",
@@ -1986,7 +1771,7 @@
     "date": "2026-08-26",
     "event_id": "gpt-56-now-available-in-kiro-with-improved-price-performance",
     "title": "GPT-5.6 now available in Kiro with improved price-performance",
-    "summary": "The GPT-5.6 model family is now integrated into Kiro, a software development agent aimed at improving engineering quality in AI-native development.",
+    "summary": "OpenAI's GPT-5.6 model family is now available within Kiro, an AI-native software development agent emphasizing engineering quality and rigor.",
     "theme": "Product Launch",
     "importance": 6.5,
     "topics": [
@@ -2001,6 +1786,7 @@
       "Kiro",
       "OpenAI",
       "developer tools",
+      "development agent",
       "software development agent"
     ],
     "url": "news/gpt/2026-08-26/#gpt-56-now-available-in-kiro-with-improved-price-performance",
@@ -2014,11 +1800,16 @@
         "label": "OpenAI",
         "url": "https://www.google.com/goto?url=CAESYQHrOzAVpy4dCeUHqn3jGvsEbgflkFQSOo5hTu9joiuMGHUQBnb-M-9MnNEH56UtaULYFOMTaJslgYyZTcBOWZiqoHKOH1C5wf6xsEYud1B9xV_-5LY_2ZkVyAJvBnohQ_U",
         "origin": "discovery"
+      },
+      {
+        "label": "OpenAI",
+        "url": "https://www.google.com/goto?url=CAESYQHrOzAVUH7WpbXxqm34YlRABtunfLufUN0-PjlnyYR3e8Atw1Rj4Ti9O375RxhF_Io3_CVKo4gk2NR8MgTuTyOKYXjneZ9DOpTM2zkitAAbrNVRpqFJK9pjZFRFEFPcHxY",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "gpt-56-now-available-in-kiro-software-development-agent",
     "related_title": "",
     "related_url": "",
@@ -2029,7 +1820,7 @@
     "date": "2026-08-26",
     "event_id": "cerebras-powers-gpt-56-sol-ultrafast-delivering-frontier-ai-at-real-time-speeds",
     "title": "Cerebras powers GPT-5.6 Sol Ultrafast, delivering frontier AI at real-time speeds",
-    "summary": "Cerebras powers GPT-5.6 Sol Ultrafast through the OpenAI API, enabling frontier-level AI inference at real-time speeds.",
+    "summary": "Cerebras is powering OpenAI's GPT-5.6 Sol Ultrafast model through the OpenAI API, delivering frontier AI intelligence at real-time speeds.",
     "theme": "Infrastructure",
     "importance": 6.5,
     "topics": [
@@ -2048,7 +1839,8 @@
       "inference",
       "inference acceleration",
       "real-time",
-      "real-time AI"
+      "real-time AI",
+      "speed"
     ],
     "url": "news/gpt/2026-08-26/#cerebras-powers-gpt-56-sol-ultrafast-delivering-frontier-ai-at-real-time-speeds",
     "sources": [
@@ -2061,11 +1853,16 @@
         "label": "Cerebras",
         "url": "https://www.google.com/goto?url=CAESgwEB6zswFRm-b95tl80yi66nUZ8ee9DTbiruajbutgQDDsC986aD9uNVyoU3Rx3bNTqUgXBHbI--sYeizWIw0qQPCEoUdmXPHu4-DP7AQxhMZA13piiCtM-o4ppuRkNPrSOwkXTKY1D6dpsjgWlJMps0WkF47oev8xE8HkIFJs6NHyz8lA",
         "origin": "discovery"
+      },
+      {
+        "label": "Cerebras",
+        "url": "https://www.google.com/goto?url=CAESgwEB6zswFfs4KibzaiEnuuNd9C3zDjIHGHcrMCdsTSGV6uNho0NIQxEn8rv9040dk0abvXYIrlz5HrJVbhBRTmsbJ0AnUPqLnCs7n0KXb3z-YJtW5_CrBTqc3N9nyuKwW9Nb7OOKzGea2t58otovPTUAqPANslCT3stnlNCi05jRptloGw",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "openai-previews-ultrafast-mode-for-gpt-56-sol-with-14x-processing-speed-improvement",
     "related_title": "",
     "related_url": "",
@@ -2104,6 +1901,119 @@
     "researched": false,
     "received_at": "2026-08-26T12:23:47.821810+00:00",
     "lineage_id": "harvey-ai-ditches-openais-gpt-adopts-chinese-open-source-kimi-k3",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "new-class-of-cardiovascular-drugs-shows-promising-clinical-data",
+    "title": "New class of cardiovascular drugs shows promising clinical data",
+    "summary": "Key trial data for a new class of cardio drugs is approaching, alongside announcements on GSK's shingles vaccine and investment in women's health.",
+    "theme": "Health",
+    "importance": 6.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "cardiovascular drugs",
+      "GSK",
+      "clinical trial",
+      "women's health"
+    ],
+    "url": "news/health/2026-08-26/#new-class-of-cardiovascular-drugs-shows-promising-clinical-data",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/08/26/biotech-news-key-data-on-new-class-of-cardio-drugs-coming/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "new-class-of-cardiovascular-drugs-shows-promising-clinical-data",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "us-employers-dropping-glp-1-drug-coverage-in-2027",
+    "title": "US employers dropping GLP-1 drug coverage in 2027",
+    "summary": "Approximately 14% of US employers have already or plan to drop coverage of GLP-1 drugs in 2027 due to rising healthcare costs.",
+    "theme": "Healthcare",
+    "importance": 6.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "GLP-1",
+      "employers",
+      "insurance coverage",
+      "healthcare costs",
+      "drugs"
+    ],
+    "url": "news/health/2026-08-26/#us-employers-dropping-glp-1-drug-coverage-in-2027",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/08/26/gsk-shingles-shot-us-employers-dropping-glp1-coverage/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "us-employers-dropping-glp-1-drug-coverage-in-2027",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "indigo-light-wavelength-missing-from-indoor-leds-may-prevent-myopia-in-children",
+    "title": "Indigo Light Wavelength Missing from Indoor LEDs May Prevent Myopia in Children",
+    "summary": "Research demonstrates that indigo light, largely absent from indoor LED bulbs, completely prevented myopia in tree shrews and may play a critical role in protecting developing human eyes from nearsightedness.",
+    "theme": "Health",
+    "importance": 6.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "myopia",
+      "LED lighting",
+      "indigo light",
+      "eye health",
+      "prevention"
+    ],
+    "url": "news/health/2026-08-26/#indigo-light-wavelength-missing-from-indoor-leds-may-prevent-myopia-in-children",
+    "sources": [
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260824065510.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "indigo-light-wavelength-missing-from-indoor-leds-may-prevent-myopia-in-children",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2178,348 +2088,6 @@
     "researched": false,
     "received_at": "2026-08-26T06:25:24.954271+00:00",
     "lineage_id": "asian-chip-stocks-rebound-ahead-of-nvidia-earnings",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "galapagos-snapdragon-recovers-from-near-extinction-after-30-years-of-conservation",
-    "title": "Galápagos snapdragon recovers from near-extinction after 30 years of conservation",
-    "summary": "A critically endangered Galápagos snapdragon has recovered from just six individuals to a small wild population through three decades of targeted conservation and nursery propagation.",
-    "theme": "Conservation",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Galápagos snapdragon",
-      "Galvezia leucantha",
-      "endangered species",
-      "species recovery",
-      "plant conservation"
-    ],
-    "url": "news/science/2026-08-26/#galapagos-snapdragon-recovers-from-near-extinction-after-30-years-of-conservation",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-extinct-galpagos-recovering.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "galapagos-snapdragon-recovers-from-near-extinction-after-30-years-of-conservation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "study-outlines-strategy-to-protect-western-us-communities-from-wildfires-within-a-decade",
-    "title": "Study outlines strategy to protect western US communities from wildfires within a decade",
-    "summary": "Research shows that combining fuel treatments with fire-resistant land use could protect all western US communities from wildfire damage within ten years with redirected government support.",
-    "theme": "Wildfire Mitigation",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "wildfire",
-      "community protection",
-      "fuel treatment",
-      "western US",
-      "fire management"
-    ],
-    "url": "news/science/2026-08-26/#study-outlines-strategy-to-protect-western-us-communities-from-wildfires-within-a-decade",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-western-communities-wildfires-wildlands-decade.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "study-outlines-strategy-to-protect-western-us-communities-from-wildfires-within-a-decade",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "3d-atomic-imaging-reveals-new-phase-transition-mechanism-beyond-classical-nucleation-theory",
-    "title": "3D atomic imaging reveals new phase-transition mechanism beyond classical nucleation theory",
-    "summary": "Researchers using 3D atomic imaging discovered a previously unknown pathway for crystal formation that challenges the century-old classical nucleation theory.",
-    "theme": "Physics",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "nucleation",
-      "phase transition",
-      "crystal formation",
-      "3D imaging",
-      "materials science"
-    ],
-    "url": "news/science/2026-08-26/#3d-atomic-imaging-reveals-new-phase-transition-mechanism-beyond-classical-nucleation-theory",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-3d-atomic-imaging-reveals-pathway.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "3d-atomic-imaging-reveals-new-phase-transition-mechanism-beyond-classical-nucleation-theory",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "harvard-researchers-use-sound-waves-to-protect-quantum-information",
-    "title": "Harvard researchers use sound waves to protect quantum information",
-    "summary": "Researchers at Harvard SEAS demonstrated a new method to protect quantum information using mechanical vibrations and sound waves.",
-    "theme": "Quantum Computing",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "quantum information",
-      "sound waves",
-      "mechanical vibrations",
-      "Harvard",
-      "quantum error correction"
-    ],
-    "url": "news/science/2026-08-26/#harvard-researchers-use-sound-waves-to-protect-quantum-information",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-duty-quantum.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "harvard-researchers-use-sound-waves-to-protect-quantum-information",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "biodiversity-policies-insufficient-to-halt-bird-and-butterfly-declines-in-europe-by-2050",
-    "title": "Biodiversity policies insufficient to halt bird and butterfly declines in Europe by 2050",
-    "summary": "A Nature Ecology & Evolution paper indicates that even biodiversity-friendly policies may fail to prevent population declines in Europe's common birds and butterflies through 2050.",
-    "theme": "Conservation",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "biodiversity",
-      "birds",
-      "butterflies",
-      "Europe",
-      "policy",
-      "species decline"
-    ],
-    "url": "news/science/2026-08-26/#biodiversity-policies-insufficient-to-halt-bird-and-butterfly-declines-in-europe-by-2050",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-08-biodiversity-friendly-policies-halt-declines.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "biodiversity-policies-insufficient-to-halt-bird-and-butterfly-declines-in-europe-by-2050",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "chrome-152-patches-over-300-vulnerabilities",
-    "title": "Chrome 152 patches over 300 vulnerabilities",
-    "summary": "Google's Chrome 152 release addresses more than 300 security flaws, many discovered using AI.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Chrome 152",
-      "vulnerabilities",
-      "security patch",
-      "Google"
-    ],
-    "url": "news/security/2026-08-26/#chrome-152-patches-over-300-vulnerabilities",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "chrome-152-patches-over-300-vulnerabilities",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "interpols-jackal-iv-operation-disrupts-west-african-crime-infrastructure",
-    "title": "Interpol's Jackal IV Operation Disrupts West African Crime Infrastructure",
-    "summary": "International law enforcement operation Jackal IV targeted crime-as-a-service networks and supporting infrastructure behind groups like Black Axe in West Africa.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Interpol",
-      "Jackal IV",
-      "West Africa",
-      "Black Axe",
-      "organized crime",
-      "law enforcement"
-    ],
-    "url": "news/security/2026-08-26/#interpols-jackal-iv-operation-disrupts-west-african-crime-infrastructure",
-    "sources": [
-      {
-        "label": "Dark Reading",
-        "url": "https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "interpols-jackal-iv-operation-disrupts-west-african-crime-infrastructure",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "interpol-operation-jackal-iv-arrests-58-identifies-263-in-west-african-cyber-fraud-crackdown",
-    "title": "INTERPOL Operation Jackal IV arrests 58, identifies 263 in West African cyber fraud crackdown",
-    "summary": "An eight-month INTERPOL operation spanning 22 countries has arrested 58 people and identified 263 suspects involved in West African organized cybercrime.",
-    "theme": "Cybercrime",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "INTERPOL",
-      "cybercrime",
-      "West Africa",
-      "organized crime",
-      "fraud"
-    ],
-    "url": "news/security/2026-08-26/#interpol-operation-jackal-iv-arrests-58-identifies-263-in-west-african-cyber-fraud-crackdown",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "interpol-arrests-58-in-international-cybercrime-crackdown",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Interpol arrests 58 in international cybercrime crackdown",
-    "updates_url": "news/security/2026-08-26/#interpol-arrests-58-in-international-cybercrime-crackdown"
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "ai-powered-baby-surveillance-systems-expand-data-collection",
-    "title": "AI-powered baby surveillance systems expand data collection",
-    "summary": "Companies like Nanit are building increasingly sophisticated AI-driven surveillance systems for infants, raising privacy and data collection concerns.",
-    "theme": "Privacy",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "baby surveillance",
-      "AI",
-      "privacy",
-      "data collection"
-    ],
-    "url": "news/security/2026-08-26/#ai-powered-baby-surveillance-systems-expand-data-collection",
-    "sources": [
-      {
-        "label": "Schneier on Security",
-        "url": "https://www.schneier.com/blog/archives/2026/08/spyware-for-babies.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "ai-powered-baby-surveillance-systems-expand-data-collection",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2835,81 +2403,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "ventures-platform-raises-83m-for-second-africa-fund",
-    "title": "Ventures Platform raises $83M for second Africa fund",
-    "summary": "The Pan-African venture firm has raised $83 million and plans to expand investment beyond Nigeria.",
-    "theme": "Funding",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Ventures Platform",
-      "Africa",
-      "venture capital",
-      "Nigeria",
-      "$83M"
-    ],
-    "url": "news/tech/2026-08-26/#ventures-platform-raises-83m-for-second-africa-fund",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/26/ventures-platform-goes-bigger-and-broader-with-its-second-africa-fund/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T08:27:59.993649+00:00",
-    "lineage_id": "ventures-platform-raises-83m-for-second-africa-fund",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "debian-developers-vote-on-ai-code-generation-policy",
-    "title": "Debian Developers Vote on AI Code Generation Policy",
-    "summary": "Debian is conducting an eight-way ballot on whether to permit, restrict, or prohibit AI-generated code in the distribution.",
-    "theme": "Policy",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Debian",
-      "AI code generation",
-      "open source governance",
-      "developer policy"
-    ],
-    "url": "news/tech/2026-08-26/#debian-developers-vote-on-ai-code-generation-policy",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "debian-developers-vote-on-ai-code-generation-policy",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "llm-agents-successfully-execute-controlled-experiments-using-simulation-models",
     "title": "LLM agents successfully execute controlled experiments using simulation models",
     "summary": "Researchers demonstrate that large language models can conduct structured experimental designs within simulation environments.",
@@ -3160,6 +2653,51 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "access-to-urban-woodlands-linked-with-lower-antidepressant-use-in-scotland",
+    "title": "Access to urban woodlands linked with lower antidepressant use in Scotland",
+    "summary": "A Scottish study tracking over 129,000 people found that living within a 10-minute walk of an accessible urban woodland was associated with 10% lower likelihood of antidepressant prescription and 6% lower anti-anxiety medication use. The findings were based on Scotland's Woods In and Around Towns program, which has revitalized nearly 30,000 acres.",
+    "theme": "Health",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "mental health",
+      "urban forests",
+      "antidepressants",
+      "Scotland",
+      "woodland"
+    ],
+    "url": "news/climate-change/2026-08-26/#access-to-urban-woodlands-linked-with-lower-antidepressant-use-in-scotland",
+    "sources": [
+      {
+        "label": "Yale Environment 360",
+        "url": "https://e360.yale.edu/digest/scotland-woodlands-antidepressants",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "10% reduction in antidepressant prescription likelihood with 10-minute woodland access",
+      "6% reduction in anti-anxiety medication prescriptions",
+      "Study tracked 129,000+ people over 5 years",
+      "Woods In and Around Towns program revitalized nearly 30,000 acres since 2005",
+      "Woodlands focused on deprived neighborhoods with signs, trails, and walking paths"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "access-to-urban-woodlands-linked-with-lower-antidepressant-use-in-scotland",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "the-president-of-the-united-states-administration-removes-habitat-destruction-from-endangered-species-act-definition-of-harm",
     "title": "The president of the United States administration removes habitat destruction from Endangered Species Act definition of harm",
     "summary": "The president of the United States' administration finalized a rule effective September 14, 2026, removing habitat destruction from the Endangered Species Act's definition of harm, allowing development and extraction activities to proceed where endangered species live without triggering habitat-based protections. The change reverses a legal interpretation upheld since the 1995 Supreme Court case Babbitt v. Sweet Home.",
@@ -3202,6 +2740,44 @@
     "researched": true,
     "received_at": "2026-08-26T12:23:47.821810+00:00",
     "lineage_id": "the-president-of-the-united-states-administration-removes-habitat-destruction-from-endangered-species-act-definition-of-harm",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "hackers-exploit-legitimate-rmm-tools-in-46-country-phishing-campaign-for-remote-access",
+    "title": "Hackers Exploit Legitimate RMM Tools in 46-Country Phishing Campaign for Remote Access",
+    "summary": "Cybercriminals are abusing legitimate remote management and monitoring tools to gain unauthorized access across a phishing campaign spanning 46 countries.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "RMM",
+      "phishing",
+      "remote access",
+      "malware",
+      "multi-country"
+    ],
+    "url": "news/email-security/2026-08-26/#hackers-exploit-legitimate-rmm-tools-in-46-country-phishing-campaign-for-remote-access",
+    "sources": [
+      {
+        "label": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE92aXpHRUp3UUp4WDQtSm9mZHlnWEVBX3BoRk5Bbk1NemlhX3hCdzVVc29scGNDeFRmakFLamxJdUdIcE1GVDhJbmZzXzlxcUZ3V08yN2F0NUViZFdxQ2ttb0otT1VYYkwyMGd4ckNjX0kwWThZWnRXU3huWdIBe0FVX3lxTE92aXpHRUp3UUp4WDQtSm9mZHlnWEVBX3BoRk5Bbk1NemlhX3hCdzVVc29scGNDeFRmakFLamxJdUdIcE1GVDhJbmZzXzlxcUZ3V08yN2F0NUViZFdxQ2ttb0otT1VYYkwyMGd4ckNjX0kwWThZWnRXU3huWQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "hackers-exploit-legitimate-rmm-tools-in-46-country-phishing-campaign-for-remote-access",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3257,7 +2833,7 @@
     "date": "2026-08-26",
     "event_id": "aws-and-openai-launch-daybreak-red-and-blue-cyber-defense-tools-on-amazon-bedrock",
     "title": "AWS and OpenAI launch Daybreak Red and Blue cyber defense tools on Amazon Bedrock",
-    "summary": "OpenAI and AWS have made Daybreak Red and Daybreak Blue frontier models available on Amazon Bedrock to enhance cyber defense capabilities.",
+    "summary": "OpenAI and AWS have deployed specialized frontier AI models, Daybreak Red and Daybreak Blue, to Amazon Bedrock for defensive cybersecurity operations.",
     "theme": "Security",
     "importance": 7.0,
     "topics": [
@@ -3272,6 +2848,8 @@
       "Amazon Bedrock",
       "Bedrock",
       "Daybreak",
+      "Daybreak Blue",
+      "Daybreak Red",
       "OpenAI",
       "cyber defense",
       "cybersecurity",
@@ -3288,11 +2866,16 @@
         "label": "Amazon Web Services (AWS)",
         "url": "https://www.google.com/goto?url=CAES5QEB6zswFT34iFz0XmfRXroa5sulAEH5ADi_NYWoithXjM3wso0KeZ3FhYYfwkTbPS2SPBBk0HVSdDTrBIJBLG9YCXdvtZ3_x2lgXqqNLznjDNEmnEvxFTz7ifhhGSE2cFsHmBpIm_PDRR39S9jizGZ_M9oRB__M3rG6RnpHkPtnt69QTyjBhc1v2piL7Ln1k_z9EgO31z9FSQxNumHc9_sp7F01oDrVMVrFDTuGUJSX-ZJvCsMvYSgFcdEmTFDFgzjB1BiRKrI_MNBmivKe7UHfJ7Dyu3IYWcqN401bT99RSzjfPuos",
         "origin": "discovery"
+      },
+      {
+        "label": "Amazon Web Services (AWS)",
+        "url": "https://www.google.com/goto?url=CAES5QEB6zswFcGKp8_CuWbjfE7ot8iT5tEdv4yiTFBbX4cd_1dmYcerSxgz9Q83CJU8fpqv-27Y6g39-MTkK_9DxoWlQnJUJXXJRbSDH8T4vfYGX1HnH5QNWuiGA4SwCJ5neU4idHgErj4_-0RWOCRmDKltz85O_knuu5VR_mR5FD0Yi9Wzlz88nUB-WcXCJi87rZV_HJ9rDB1A0lo16dBgG15sDXAmvoIGJlyoYaZUiqZ4wicpNsrkrfWrK8t6w4rAu6QA4jCm43NRioEwjcjLrEMQ1xoRa45EtapImrF2zEX2_3Ru881g",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "openai-and-aws-launch-daybreak-red-and-daybreak-blue-cyber-defense-tools-on-amazon-bedrock",
     "related_title": "",
     "related_url": "",
@@ -3528,6 +3111,99 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "llm-based-platform-dramatically-reduces-trial-and-error-in-materials-synthesis",
+    "title": "LLM-based platform dramatically reduces trial-and-error in materials synthesis",
+    "summary": "Researchers at Argonne National Laboratory, University of Chicago, and Purdue University developed an autonomous AI-driven workflow combining large language models, machine learning predictions, and automated synthesis at Argonne's Polybot laboratory to dramatically reduce experimental iterations needed for new materials design.",
+    "theme": "Science",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "LLM",
+      "materials synthesis",
+      "chemistry",
+      "AI",
+      "research platform"
+    ],
+    "url": "news/science/2026-08-26/#llm-based-platform-dramatically-reduces-trial-and-error-in-materials-synthesis",
+    "sources": [
+      {
+        "label": "Tech Briefs",
+        "url": "https://www.techbriefs.com/component/content/article/55278-autonomous-ai-design-unlocks-a-faster-route-to-custom-materials",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-llm-based-platform-generating-materials.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "System uses LLMs to extract data from published papers for prior knowledge",
+      "Machine learning predicts promising molecular building block combinations",
+      "Polybot automated laboratory synthesizes, purifies, measures, and feeds results back",
+      "Transforms design into inverse-design loop, significantly reducing trial-and-error",
+      "Applications include smart windows, heat-resistant, electrical, and stimulus-responsive materials"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "llm-based-platform-dramatically-reduces-trial-and-error-in-materials-synthesis",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "190-year-old-museum-specimen-confirms-new-himalayan-pangolin-species",
+    "title": "190-year-old museum specimen confirms new Himalayan pangolin species",
+    "summary": "DNA analysis of a nearly 190-year-old museum specimen has confirmed Manis aurita as a distinct Himalayan pangolin species living in Nepal and Northern India, resolving a decades-long taxonomic question. The confirmation provides conservationists a tool to trace illegally traded pangolin scales to their origin species and region.",
+    "theme": "Conservation",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "pangolin",
+      "Himalayan",
+      "species",
+      "conservation",
+      "DNA"
+    ],
+    "url": "news/science/2026-08-26/#190-year-old-museum-specimen-confirms-new-himalayan-pangolin-species",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055500.htm",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Species originally described 1836, was reclassified as subspecies until confirmation",
+      "DNA analysis combined with physical characteristics confirmed distinct species",
+      "Research took over 5 years beginning in Nepal",
+      "Discovery helps trace illegally traded scales to species and region",
+      "Pangolins are world's most highly trafficked mammals"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "190-year-old-museum-specimen-confirms-new-himalayan-pangolin-species",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "sleepwalker-backdoor-malware-awaits-crafted-packet-trigger-executes-custom-bytecode",
     "title": "SLEEPWALKER backdoor malware awaits crafted packet trigger, executes custom bytecode",
     "summary": "Researchers documented SLEEPWALKER, a Windows backdoor malware that remains dormant until activated by a crafted network packet, then executes commands in a proprietary 23-instruction bytecode language. The unsigned 64-bit DLL side-loads into ESET Management Agent, masquerades as Microsoft's dpapi.dll, and contains no hardcoded domains or outbound connections.",
@@ -3566,51 +3242,6 @@
     "researched": true,
     "received_at": "2026-08-26T10:22:24.357195+00:00",
     "lineage_id": "sleepwalker-backdoor-malware-awaits-crafted-packet-trigger-executes-custom-bytecode",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
-    "event_id": "over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks",
-    "title": "Over 100 internet-exposed water systems targeted in July cyberattacks",
-    "summary": "CISA reported that Iranian threat actors targeted over 100 internet-exposed water systems across at least 12 U.S. states in July 2026, primarily attacking programmable logic controllers connected to cellular modems. No significant operational disruptions occurred, but CISA released guidance urging organizations to reduce internet exposure of operational technology systems, implement security updates, and enforce multifactor authentication.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "CISA",
-      "water systems",
-      "cyberattack",
-      "Iran",
-      "infrastructure"
-    ],
-    "url": "news/security/2026-08-26/#over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks/",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Over 100 water and wastewater systems targeted in July 2026",
-      "Attacks linked to Iranian threat actors",
-      "Affected systems in at least 12 U.S. states including Minnesota, Michigan, Georgia, New Jersey, Alabama",
-      "Targeted industrial control systems (PLCs) connected to cellular modems",
-      "No significant operational disruptions reported",
-      "CISA guidance recommends reducing internet exposure and implementing multifactor authentication"
-    ],
-    "researched": true,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
-    "lineage_id": "over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3703,11 +3334,11 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "nasas-roman-space-telescope-cleared-for-launch-targeted-for-august-30",
-    "title": "NASA's Roman Space Telescope cleared for launch, targeted for August 30",
-    "summary": "NASA's Nancy Grace Roman Space Telescope has been cleared for launch and is targeted for August 30, 2026, aboard a SpaceX Falcon Heavy rocket from Kennedy Space Center. The Flight Readiness Review on August 23 certified that the spacecraft, rocket, launch site, and mission are ready. The telescope will investigate cosmic expansion, universe history, and exoplanets.",
-    "theme": "Space Science",
-    "importance": 7.0,
+    "event_id": "nasas-pandora-mission-begins-exoplanet-observations",
+    "title": "NASA's Pandora mission begins exoplanet observations",
+    "summary": "NASA's Pandora satellite has begun its scientific observations of at least 20 exoplanets.",
+    "theme": "Space",
+    "importance": 7,
     "topics": [
       "space"
     ],
@@ -3717,34 +3348,22 @@
     "primary_feed": "science",
     "keywords": [
       "NASA",
-      "Roman Space Telescope",
-      "space launch",
-      "SpaceX",
-      "astronomy"
+      "Pandora",
+      "exoplanets",
+      "mission"
     ],
-    "url": "news/space/2026-08-26/#nasas-roman-space-telescope-cleared-for-launch-targeted-for-august-30",
+    "url": "news/space/2026-08-26/#nasas-pandora-mission-begins-exoplanet-observations",
     "sources": [
       {
-        "label": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
-        "origin": "research"
-      },
-      {
-        "label": "Science Daily",
-        "url": "https://www.google.com/goto?url=CAESdgHrOzAVuDlBh3U8jQwS_j7g3XqRl6isQVsGIqi9OyTYd_rt7sXu3vTyxWDzj1Y4OPuyGf3LQB2EpttdK_RAhlzPz5xyfvhUmYlccPvckWA01uVu7Xnbw-qewUK2xkXuSqPP-hxkeiOlKzJ_0dZJ0Eang81AMJU",
-        "origin": "discovery"
+        "label": "Open Access Government",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR2kyZ3VDam5YUDFFSEJTT0tFOUlnZDlzbEFZVF9CQjlzZDI3d0hGTGhMVDVnS3BsS3NsRXJZcmM5UUlYX3pGR0YtcGZldWtjby1xMDFJN05mdFRNa3JfRG9zbC1SRVNGeFduV1VCRWU1aXQxQ01lMnFyOWh1Z3Y2WnkxajZPNWRyeG9rYjVmMnZlMThqSFV2LV9CcHk5dw?oc=5",
+        "origin": "rss"
       }
     ],
-    "takeaways": [
-      "Launch cleared August 23, 2026; targeted for August 30, 7:26 a.m. EDT",
-      "SpaceX Falcon Heavy from Kennedy Space Center Launch Complex 39A",
-      "Designed to investigate cosmic expansion, universe history, exoplanets",
-      "Travels to Sun-Earth Lagrange Point 2 (1.5 million km from Earth)",
-      "Currently enclosed in Falcon Heavy protective fairing"
-    ],
-    "researched": true,
-    "received_at": "2026-08-26T06:25:24.954271+00:00",
-    "lineage_id": "nasas-roman-space-telescope-cleared-for-launch-targeted-for-august-30",
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "nasas-pandora-mission-begins-exoplanet-observations",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3898,6 +3517,55 @@
     "researched": true,
     "received_at": "2026-08-26T10:22:24.357195+00:00",
     "lineage_id": "drug-resistant-malaria-mutation-accelerates-parasite-spread",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "aws-acquires-duckdb",
+    "title": "AWS acquires DuckDB",
+    "summary": "Amazon Web Services is acquiring DuckLabs, the company behind DuckDB, an open-source SQL analytical database engine. The acquisition is expected to close in early September 2026, with the team remaining in Amsterdam and all open-source projects retaining their MIT license.",
+    "theme": "Acquisitions",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AWS",
+      "DuckDB",
+      "acquisition",
+      "database",
+      "analytics"
+    ],
+    "url": "news/tech/2026-08-26/#aws-acquires-duckdb",
+    "sources": [
+      {
+        "label": "DuckLabs",
+        "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "DuckDB sees over 1 million downloads daily",
+      "DuckLabs team of 30+ people remains together in Amsterdam",
+      "DuckDB, DuckLake, Quack remain open source under MIT license",
+      "DuckDB Foundation continues stewardship",
+      "AWS and DuckLabs collaborated for over 1 year before acquisition"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "aws-acquires-duckdb",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4483,6 +4151,122 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "scientists-identify-protein-c3-as-shortcut-to-calorie-restrictions-anti-aging-benefits",
+    "title": "Scientists identify protein C3 as shortcut to calorie restriction's anti-aging benefits",
+    "summary": "Yale researchers identified complement protein C3 as a driver of age-related inflammation, finding that blocking it in mice reduced inflammation. A study of 42 CALERIE trial participants showed moderate calorie restriction (11–14% reduction) significantly lowered C3 levels, suggesting C3 targeting could replicate some anti-aging benefits without severe dietary restriction.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "diet-exercise",
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "calorie restriction",
+      "C3 protein",
+      "aging",
+      "inflammation",
+      "anti-aging"
+    ],
+    "url": "news/diet-exercise/2026-08-26/#scientists-identify-protein-c3-as-shortcut-to-calorie-restrictions-anti-aging-benefits",
+    "sources": [
+      {
+        "label": "ScienceDaily / Yale School of Medicine",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055508.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055508.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055508.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Nutrition",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055508.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "C3 is an immune protein driving age-related chronic inflammation",
+      "Moderate calorie restriction (11–14% over 2 years) significantly lowered C3",
+      "White adipose tissue is primary source of C3 production affected by diet",
+      "Blocking C3 in mice reduced age-related inflammation",
+      "Research remains early stage; animal studies confirm mechanism"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "scientists-identify-protein-c3-as-shortcut-to-calorie-restrictions-anti-aging-benefits",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "early-childhood-sugar-exposure-linked-to-cancer-risk-and-aging-70-years-later",
+    "title": "Early childhood sugar exposure linked to cancer risk and aging 70 years later",
+    "summary": "A study of over 64,000 Britons used postwar sugar rationing as a natural experiment to show that reduced sugar exposure during the first 1,000 days of life correlates with lower cancer rates and slower biological aging decades later. Liver cancer rates were approximately 69% lower, and breast cancer 36% lower in those with longer rationing exposure.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "diet-exercise",
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "sugar exposure",
+      "childhood nutrition",
+      "cancer risk",
+      "biological aging",
+      "epigenetics"
+    ],
+    "url": "news/diet-exercise/2026-08-26/#early-childhood-sugar-exposure-linked-to-cancer-risk-and-aging-70-years-later",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260824065522.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260824065522.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Nutrition",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260824065522.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Study tracked 64,000+ people born 1951–1956 using sugar rationing as natural experiment",
+      "Liver cancer approximately 69% lower with extended early-life rationing",
+      "Breast cancer 36% lower with extended early-life rationing",
+      "Extended rationing also linked to longer telomeres, indicating slower biological aging",
+      "People with longer rationing maintained healthier diets into adulthood around age 50"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "early-childhood-sugar-exposure-linked-to-cancer-risk-and-aging-70-years-later",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "openai-launches-chatgpt-work-agents-for-multi-step-projects",
     "title": "OpenAI Launches ChatGPT Work Agents for Multi-Step Projects",
     "summary": "OpenAI released ChatGPT agents capable of executing multi-step projects across email and Slack.",
@@ -4568,6 +4352,56 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "childhood-trauma-leaves-epigenetic-marks-in-brain-cells-that-increase-stress-sensitivity",
+    "title": "Childhood trauma leaves epigenetic marks in brain cells that increase stress sensitivity",
+    "summary": "Researchers at Washington University and Princeton University identified an epigenetic mechanism by which early-life stress alters brain stress response through elevated SETD7 enzyme in dopamine neurons, loosening DNA packaging around stress-related genes. The team blocked this effect in mice, preventing heightened anxiety in adulthood.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "childhood trauma",
+      "epigenetics",
+      "stress sensitivity",
+      "brain cells",
+      "anxiety"
+    ],
+    "url": "news/health/2026-08-26/#childhood-trauma-leaves-epigenetic-marks-in-brain-cells-that-increase-stress-sensitivity",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260823094151.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260823094151.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Early-life stress elevates SETD7 enzyme in ventral tegmental area dopamine neurons",
+      "SETD7 loosens DNA packaging, making stress-related genes more accessible",
+      "Epigenetic change primes brain to overreact to future stressors",
+      "Researchers blocked effect in mice, preventing heightened adult anxiety",
+      "Over half of children worldwide experience early-life stress"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "childhood-trauma-leaves-epigenetic-marks-in-brain-cells-that-increase-stress-sensitivity",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "the-presidents-childhood-vaccine-executive-order-threatens-childrens-safety",
     "title": "The President's Childhood Vaccine Executive Order Threatens Children's Safety",
     "summary": "The president of the United States' executive order on childhood vaccines could harm children's health even if it does not directly alter policy, according to the president of the American Association of Immunologists.",
@@ -4598,6 +4432,265 @@
     "researched": false,
     "received_at": "2026-08-26T10:22:24.357195+00:00",
     "lineage_id": "the-presidents-childhood-vaccine-executive-order-threatens-childrens-safety",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "manhattan-sized-ice-island-breaks-from-greenlands-petermann-glacier",
+    "title": "Manhattan-sized ice island breaks from Greenland's Petermann Glacier",
+    "summary": "A 76.4 km² ice island broke from Greenland's Petermann Glacier on August 4, 2026—the glacier's largest floating ice loss since 2012 and the Arctic's biggest calving event since 2020. Two additional sections totaling approximately 178 km² are expected to detach, collectively removing about 22% of the glacier's remaining ice tongue.",
+    "theme": "Climate",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Greenland",
+      "Petermann Glacier",
+      "ice sheet",
+      "climate change"
+    ],
+    "url": "news/science/2026-08-26/#manhattan-sized-ice-island-breaks-from-greenlands-petermann-glacier",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055503.htm",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Ice island measures 76.4 km² and ~150 meters thick, roughly Manhattan-sized",
+      "Largest Petermann loss since 2012; biggest Arctic calving event since 2020",
+      "Two more major sections expected to detach: ~94 km² and ~84 km²",
+      "Combined three events would remove ~254 km² (22% of ice tongue)",
+      "Satellite observations tracked deterioration from August 3–4, 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "manhattan-sized-ice-island-breaks-from-greenlands-petermann-glacier",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "nasas-roman-space-telescope-enclosed-in-falcon-heavy-fairing-ready-for-launch",
+    "title": "NASA's Roman Space Telescope Enclosed in Falcon Heavy Fairing, Ready for Launch",
+    "summary": "NASA's Nancy Grace Roman Space Telescope was secured inside its SpaceX Falcon Heavy launch fairing on August 21, 2026, at Kennedy Space Center. Launch is targeted for no earlier than 7:26 a.m. EDT on August 30, 2026, with Roman to travel to Sun-Earth Lagrange point 2 to discover exoplanets and study dark matter and cosmic expansion.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "science",
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Falcon Heavy",
+      "NASA",
+      "Roman Space Telescope",
+      "SpaceX",
+      "astronomy",
+      "dark matter",
+      "exoplanets",
+      "space launch"
+    ],
+    "url": "news/science/2026-08-26/#nasas-roman-space-telescope-enclosed-in-falcon-heavy-fairing-ready-for-launch",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260826055448.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
+        "origin": "research"
+      },
+      {
+        "label": "Science Daily",
+        "url": "https://www.google.com/goto?url=CAESdgHrOzAVuDlBh3U8jQwS_j7g3XqRl6isQVsGIqi9OyTYd_rt7sXu3vTyxWDzj1Y4OPuyGf3LQB2EpttdK_RAhlzPz5xyfvhUmYlccPvckWA01uVu7Xnbw-qewUK2xkXuSqPP-hxkeiOlKzJ_0dZJ0Eang81AMJU",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Fairing is 43 feet tall, protects telescope during launch",
+      "Launch targeted for no earlier than 7:26 a.m. EDT, August 30, 2026",
+      "Roman will travel to Sun-Earth Lagrange point 2 (L2)",
+      "Mission expected to discover thousands of exoplanets",
+      "Will investigate dark matter and dark energy to study cosmic expansion",
+      "Launch cleared August 23, 2026; targeted for August 30, 7:26 a.m. EDT",
+      "SpaceX Falcon Heavy from Kennedy Space Center Launch Complex 39A",
+      "Designed to investigate cosmic expansion, universe history, exoplanets",
+      "Travels to Sun-Earth Lagrange Point 2 (1.5 million km from Earth)",
+      "Currently enclosed in Falcon Heavy protective fairing"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "nasas-roman-space-telescope-enclosed-in-falcon-heavy-fairing-ready-for-launch",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "fbi-disrupts-chinese-cyber-espionage-infrastructure-network",
+    "title": "FBI disrupts Chinese cyber espionage infrastructure network",
+    "summary": "The FBI disrupted Chinese cyber espionage infrastructure that functioned as a technical quartermaster supplying reconnaissance tools, templates, and proxy services to enable cybercrimes at scale. The disruption involved seizure of domains, cryptocurrency assets, and infrastructure components.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "FBI",
+      "Chinese espionage",
+      "cyber infrastructure",
+      "proxy network"
+    ],
+    "url": "news/security/2026-08-26/#fbi-disrupts-chinese-cyber-espionage-infrastructure-network",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+        "origin": "research"
+      },
+      {
+        "label": "Bank Info Security",
+        "url": "https://www.bankinfosecurity.com/fbi-disrupts-widely-used-netnut-residential-proxy-service-a-32154",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Infrastructure supplied reconnaissance tools and proxy services for multiple cybercrimes",
+      "FBI seized domains, cryptocurrency assets, and infrastructure components",
+      "Operation targeted U.S. and international victims across multiple sectors"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "fbi-disrupts-chinese-cyber-espionage-infrastructure-network",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "ubiquiti-patches-three-critical-security-vulnerabilities",
+    "title": "Ubiquiti patches three critical security vulnerabilities",
+    "summary": "Ubiquiti released patches in May 2026 for three critical vulnerabilities (CVSS 10.0) in UniFi OS Server 5.0.8 allowing unauthenticated remote compromise. By June 2026, CISA warned threat actors were actively exploiting these flaws in the wild to create rogue administrator accounts, with nearly 100,000 internet-exposed endpoints predominantly in the U.S.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Ubiquiti",
+      "vulnerabilities",
+      "remote execution",
+      "patches",
+      "critical"
+    ],
+    "url": "news/security/2026-08-26/#ubiquiti-patches-three-critical-security-vulnerabilities",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/critical-ubiquiti-vulnerabilities-in-attackers-crosshairs/",
+        "origin": "research"
+      },
+      {
+        "label": "SC Media",
+        "url": "https://www.scworld.com/brief/ubiquiti-patches-three-critical-vulnerabilities-in-unifi-os",
+        "origin": "research"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+        "origin": "research"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-security-vulnerabilities/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Three maximum-severity vulnerabilities (CVSS 10.0) in UniFi OS Server 5.0.8",
+      "CVE-2026-34908: improper access control enabling unauthorized changes",
+      "CVE-2026-34909: path traversal allowing system file access and account manipulation",
+      "CVE-2026-34910: command injection via insufficient input validation",
+      "Threat actors actively exploiting in wild by June 2026; created rogue admin account 'John Sim' in automated attacks",
+      "Nearly 100,000 internet-exposed UniFi OS endpoints, mostly in United States"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "ubiquiti-patches-three-critical-security-vulnerabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "unpatched-kaltura-mwembed-flaws-allow-remote-file-read-and-code-execution",
+    "title": "Unpatched Kaltura mwEmbed Flaws Allow Remote File Read and Code Execution",
+    "summary": "Two unpatched vulnerabilities in Kaltura's mwEmbed HTML5 video player (CVE-2026-19913, CVE-2026-19912) allow unauthenticated attackers to read arbitrary files and execute remote code via unsafe deserialization in mwEmbedLoader.php. No patch is available; CERT/CC was unable to coordinate with Kaltura.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Kaltura",
+      "mwEmbed",
+      "CVE-2026-19913",
+      "CVE-2026-19912",
+      "remote code execution",
+      "file disclosure"
+    ],
+    "url": "news/security/2026-08-26/#unpatched-kaltura-mwembed-flaws-allow-remote-file-read-and-code-execution",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "CVE-2026-19913: unsafe deserialization allows file read via ServiceUrl parameter",
+      "CVE-2026-19912: RCE via same deserialization using malicious serialized objects",
+      "Researcher demonstrated retrieval of /opt/kaltura/app/configurations/local.ini containing plaintext credentials",
+      "No authentication or Kaltura session token required; network access to endpoint is only precondition",
+      "Affects both individual installations and all tenants in Kaltura's multi-tenant CDN infrastructure",
+      "No patch available; CERT/CC unable to reach Kaltura for coordination",
+      "No exploitation reported as of August 25, 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "unpatched-kaltura-mwembed-flaws-allow-remote-file-read-and-code-execution",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4888,7 +4981,7 @@
     "date": "2026-08-26",
     "event_id": "iran-and-oman-edge-toward-temporary-strait-of-hormuz-reopening-agreement",
     "title": "Iran and Oman edge toward temporary Strait of Hormuz reopening agreement",
-    "summary": "Iran and Oman are negotiating a temporary agreement to reopen the Strait of Hormuz, with Iran insisting the U.S. lift its blockade.",
+    "summary": "Iran and Oman are moving toward a temporary agreement to reopen the Strait of Hormuz, but Tehran insists the United States must lift its blockade.",
     "theme": "Geopolitics",
     "importance": 7.5,
     "topics": [
@@ -4902,6 +4995,7 @@
       "Iran",
       "Oman",
       "Strait of Hormuz",
+      "U.S.",
       "oil",
       "sanctions",
       "trade"
@@ -4916,7 +5010,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "iran-and-oman-edge-toward-temporary-strait-of-hormuz-reopening-agreement",
     "related_title": "",
     "related_url": "",
@@ -5003,43 +5097,6 @@
   },
   {
     "date": "2026-08-26",
-    "event_id": "haiti-gang-violence-massacre-kills-47-more-than-50-kidnapped-in-raid",
-    "title": "Haiti gang violence massacre kills 47, more than 50 kidnapped in raid",
-    "summary": "A violent gang attack in Haiti has left at least 47 dead and resulted in more than 50 kidnappings, according to UN reports.",
-    "theme": "Violence/Humanitarian",
-    "importance": 7.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Haiti",
-      "gang violence",
-      "massacre",
-      "kidnapping"
-    ],
-    "url": "news/world/2026-08-26/#haiti-gang-violence-massacre-kills-47-more-than-50-kidnapped-in-raid",
-    "sources": [
-      {
-        "label": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTVFQZlJQSUg3YW9TTkpuX1YwZkV2V2Iwa25zYU5CdG1BTzlZN0REeWZsTlM5R1hsYy1seERnQ2tVTUh6UXVmNnFabTFQUmhNZllXS1F0d3JKZ2NuNHlsell3d0paT1U2NzBNRnVrNi1udWlBM2ZLdi1td2Q4T3RIYUYtNkI3MGYtVklV?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
-    "lineage_id": "haiti-gang-violence-massacre-kills-47-more-than-50-kidnapped-in-raid",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-26",
     "event_id": "anonymouskit-phaas-platform-uses-voice-ai-to-steal-iphone-passcodes",
     "title": "AnonyMousKIT PhaaS platform uses voice AI to steal iPhone passcodes",
     "summary": "Cybersecurity researchers disclose a PhaaS platform using AI voice agents impersonating Apple Support to steal device passcodes and 2FA codes from theft victims.",
@@ -5087,9 +5144,147 @@
   },
   {
     "date": "2026-08-26",
+    "event_id": "cisa-confirms-iran-backed-hackers-targeted-over-100-us-water-systems-in-july",
+    "title": "CISA confirms Iran-backed hackers targeted over 100 U.S. water systems in July",
+    "summary": "Iran-backed hackers targeted over 100 U.S. water utility systems in July 2026, exploiting vulnerable industrial control equipment from Rockwell, Schneider Electric, and Siemens. Some intrusions allowed attackers to disable safety shutdown processes and alarms, though water supplies to communities remained largely unaffected.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "security",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "CISA",
+      "Iran",
+      "critical infrastructure",
+      "cyberattack",
+      "infrastructure",
+      "water systems"
+    ],
+    "url": "news/tech/2026-08-26/#cisa-confirms-iran-backed-hackers-targeted-over-100-us-water-systems-in-july",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/26/cisa-confirms-hackers-targeted-over-100-us-water-systems-during-july/",
+        "origin": "research"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/cisa-over-100-internet-exposed-water-systems-targeted-in-july-cyberattacks/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Over 100 internet-exposed water systems targeted in July 2026",
+      "Attacks affected providers in Michigan, Minnesota, and at least 5 other states",
+      "Hackers targeted programmable logic controllers (PLCs) from Rockwell, Schneider Electric, and Siemens",
+      "Some intrusions disabled shutdown processes and alarms without notifying operators",
+      "U.S. intelligence believes Iran is likely responsible, though no formal attribution made",
+      "Over 100 water and wastewater systems targeted in July 2026",
+      "Attacks linked to Iranian threat actors",
+      "Affected systems in at least 12 U.S. states including Minnesota, Michigan, Georgia, New Jersey, Alabama",
+      "Targeted industrial control systems (PLCs) connected to cellular modems",
+      "No significant operational disruptions reported",
+      "CISA guidance recommends reducing internet exposure and implementing multifactor authentication"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "cisa-confirms-iran-backed-hackers-targeted-over-100-us-water-systems-in-july",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "cisa-red-team-assessment-exposes-critical-infrastructure-defense-gaps",
+    "title": "CISA red team assessment exposes critical infrastructure defense gaps",
+    "summary": "CISA released red team assessments comparing two critical infrastructure organizations using identical attack tradecraft. One organization (government services) was fully compromised with zero detection; the other (water and wastewater) detected and isolated phishing within 2–20 minutes, highlighting stark defensive capability gaps.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "CISA",
+      "red team",
+      "critical infrastructure",
+      "cybersecurity",
+      "defense"
+    ],
+    "url": "news/security/2026-08-26/#cisa-red-team-assessment-exposes-critical-infrastructure-defense-gaps",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Organization A completely compromised at domain level; no detection",
+      "Organization B detected initial payloads within 2–20 minutes",
+      "Organization A failures: thousands of false-positive alerts, multiple SOCs without shared visibility, analysts lacking escalation authority",
+      "Key vulnerabilities exploited: default Machine Account Quota, misconfigured AD CS templates (ESC1), cleartext credentials, static AWS keys with no expiration",
+      "Attacker stole Primary Refresh Token and abused over-permissioned Entra ID applications to read security team email"
+    ],
+    "researched": true,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "cisa-red-team-assessment-exposes-critical-infrastructure-defense-gaps",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "nasa-building-first-space-airport-on-the-moon",
+    "title": "NASA building first 'space airport' on the Moon",
+    "summary": "NASA is constructing a lunar spaceport located 240,000 miles from Earth to support spacecraft operations.",
+    "theme": "Space",
+    "importance": 8,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Moon",
+      "spaceport",
+      "infrastructure"
+    ],
+    "url": "news/space/2026-08-26/#nasa-building-first-space-airport-on-the-moon",
+    "sources": [
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQMm0wb1dzcDhkQm9TZ0FBc0RoalE2M204aTBmSU92eV9uUHdsQ25lZnkzT3Y5OThTZXNFYzBpZUMtT1d0VlB3dTNzWjZaOURuX3E1YUJUdGJ2dmV1TW9wT2hrVmlXdGtFT2l6YjJvcTlETy0yX2tIelNlV3JhTXQ3TG5Id0ZTcURWVEx5bnVjTXdnaVQ4eEQ0MHpxRGh3cHNIVWNyclRKb0tkXzBYWmU1alNEYldTeXlrU2E3WmVxQm9FMzZPNjV1SnJWVUcwVHVQMGJ6ekxBMVUyUkxYNEdMWGRsX1UxaS1tNzZtZWpsVjVuRE9ZcEVyOWdTWTUydVdEeWk0dmV1VlI2RkpfTUtTM0hQc01zZTdLZElhd3Vybkl1Y1RkcDZqZm1nTURXVlJhVXBWZUR4aGRpWVNQMnfSAcMCQVVfeXFMUEZ2ZFBLV1YwOHpfLS0xdE1kNUI5NzJ1MHhidVp4bWtGYk9ZTG9oZ2hIdzRCd3ZHWjAzbFdPVlZRdEtwRjBURldGRVREd3BYbXJnbXNBakhpY2o0VHBzVFdLWDZyQ1pranU2bUpOSGxLNkRfamM2d2xvUU52RHlMUUVyODNNckdsVnBWZ3lZaTFhTGkwaTJocXNVUWNJMVlWeWhZUUI0d3k3TUJyb0RrdFBQNWtBai1sM3I2YTJFTFNPcjBCeGhaRmtZanBvRGYzRGdHb2FlbW5tVG5LMzJscW5LMFhYT1BGZnp0LU5nMXc0S1R5ZTF6a3MxSXNzcUZpOHBKekJXcVZzRDFVMmxxMktsdS1jei1mdUtKMTE0YldJWWpmN1ROVmRoQ0s0ZFpQQUVxRk1LVUhreG9paEhiMXhtd00?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "nasa-building-first-space-airport-on-the-moon",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
     "event_id": "ukraines-drone-warfare-strategy-relies-on-custom-software-orchestration-for-100000-missions-in-2026",
     "title": "Ukraine's drone warfare strategy relies on custom software orchestration for 100,000+ missions in 2026",
-    "summary": "Ukrainian forces have conducted over 100,000 ground drone operations so far in 2026, coordinated through sophisticated software systems that represent a new model of decentralized military technology.",
+    "summary": "Ukrainian forces have carried out over 100,000 ground drone missions in 2026, leveraging software orchestration as a key military advantage.",
     "theme": "Warfare Technology",
     "importance": 8,
     "topics": [
@@ -5102,6 +5297,7 @@
     "keywords": [
       "Ukraine",
       "drones",
+      "military",
       "military technology",
       "software",
       "warfare"
@@ -5116,8 +5312,46 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T10:22:24.357195+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "ukraines-drone-warfare-strategy-relies-on-custom-software-orchestration-for-100000-missions-in-2026",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-26",
+    "event_id": "flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
+    "title": "Flash flood and avalanche kill dozens, hundreds missing on Nepal-Tibet border",
+    "summary": "A massive flash flood triggered by an avalanche on the Nepal-Tibet border has killed at least 72 people and left hundreds missing, including 291 foreign tourists.",
+    "theme": "Disaster",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nepal",
+      "flash flood",
+      "avalanche",
+      "disaster",
+      "Tibet"
+    ],
+    "url": "news/world/2026-08-26/#flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qX3ZFX29jdVdvdDcyVnlUUnRBUnVWMmlTYjA4QVFUTE1DelhPN01XOWxzZ3dlUGRWQ19FYkg0X3FodjBQb3VyWW4xb0R2V0QtNGV3RTN3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
+    "lineage_id": "flash-flood-and-avalanche-kill-dozens-hundreds-missing-on-nepal-tibet-border",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5127,7 +5361,7 @@
     "date": "2026-08-26",
     "event_id": "openais-jalapeno-inference-chip-demonstrates-superior-speed-and-efficiency-over-nvidia",
     "title": "OpenAI's Jalapeño inference chip demonstrates superior speed and efficiency over NVIDIA",
-    "summary": "OpenAI has released Jalapeño, a custom inference chip delivering faster, more power-efficient AI inference with higher throughput and lower latency.",
+    "summary": "OpenAI has unveiled Jalapeño, a custom inference chip offering faster, more power-efficient AI model inference with higher throughput and lower latency.",
     "theme": "AI Hardware",
     "importance": 8.5,
     "topics": [
@@ -5191,11 +5425,16 @@
         "label": "OpenAI",
         "url": "https://www.google.com/goto?url=CAESaAHrOzAVTGT7MPoaMCz0JG2eQpeqq__dQb6x1WRlLHgUMDzK7Cnl1_QyH1FbBvcMQ8yR08IA7oiofwCjp6O8HS7JxGw3UUXtEXZ0D04FEARoW8vaM3hxhEuBlStrNhvCllOxArfOGnFS",
         "origin": "discovery"
+      },
+      {
+        "label": "OpenAI",
+        "url": "https://www.google.com/goto?url=CAESaAHrOzAVuw2APZ2HvU_fXPPKiUtea_lCw1OMV54DUOWfLKt3H5JqD-_B3kzAhbFQg5Np6SX1FH2P5GGBecVkHMRLxzYZot_jAM0maJ-0bxtd-xenCIerd88KlJtTY3uXxsMjAINDpT-N",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "openai-announces-jalapeno-chip-for-faster-ai-inference",
     "related_title": "",
     "related_url": "",
@@ -5206,7 +5445,7 @@
     "date": "2026-08-26",
     "event_id": "openais-bel-model-exceeds-10-trillion-parameters-as-potential-agi-threshold-base-model",
     "title": "OpenAI's Bel model exceeds 10 trillion parameters as potential AGI-threshold base model",
-    "summary": "OpenAI's Bel base model reportedly contains over 10 trillion parameters and is positioned as potentially reaching AGI-threshold capabilities.",
+    "summary": "OpenAI's Bel foundation model, containing over 10 trillion parameters, is positioned as a potential AGI-threshold base model for downstream post-GPT-6 applications.",
     "theme": "AI",
     "importance": 8.5,
     "topics": [
@@ -5236,11 +5475,16 @@
         "label": "Wccftech",
         "url": "https://www.google.com/goto?url=CAESuQEB6zswFRHf1D_waNL-XbjVRI15iH2sjQ7hjoUJyVe8zwi4NYuDVbNMPSXYJUw8gNkdfFLot9thcg6T2rfyQS5xB6hsI_kTgbZsMr6j3PTPqt4rRLgAb5q45SLJcqm-Ldg3xqKSF5oPnX8o56czup8Pv1P3VqfA2DOTkjr1_MFsytUHWVLuw8j9v9jpI4jYX-yl9pSWmGcJdmTkq7Ak1dvR5BYAInK9H5sPG4Np6qKRDQuuI9pWaXZlhw",
         "origin": "discovery"
+      },
+      {
+        "label": "Wccftech",
+        "url": "https://www.google.com/goto?url=CAESuQEB6zswFXdjerDAoatqXXqee2Lwv38twnj6pucM0YrGKG5_JvRoTUI-aGpQw2P5stZwXRfWy81c6tPdAqK3Dyz7vQBcm2kF9gDPiDftWPHz6chqk5Wmt7_Kd__GBTf0BHq2JHJbU30EmuBkhLQ2LnWsC0QzVpOhsOvzAr5JtE6_anvy4cNGEd040iCSQsCNzjefLQTJn1JTxeSH1tSO9JFuUBumZhiSDqK0cJ88n8w3po3FVY_KJFF4PA",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-26T12:23:47.821810+00:00",
+    "received_at": "2026-08-26T14:33:55.973620+00:00",
     "lineage_id": "openais-bel-base-model-reaches-10-trillion-parameters",
     "related_title": "",
     "related_url": "",
