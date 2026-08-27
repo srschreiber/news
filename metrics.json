@@ -1,5 +1,144 @@
 [
   {
+    "timestamp": "2026-08-27T16:58:15.258820+00:00",
+    "mode": "daily",
+    "calls": 48,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 112568,
+        "output": 51954,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 5486,
+        "output": 2869,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.3922,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 10,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 62508,
+            "output": 43762,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.2813
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 391,
+            "output": 57,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0007
+      },
+      "(merge-check)": {
+        "calls": 13,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 8157,
+            "output": 117,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0087
+      },
+      "(read)": {
+        "calls": 23,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 41512,
+            "output": 8018,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0816
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 5486,
+            "output": 2869,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0198
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 79,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 59,
+      "Google News \u2014 World": 43,
+      "Google News \u2014 Anthropic": 33,
+      "Phys.org": 30,
+      "Google News \u2014 OpenAI GPT": 23,
+      "Google News \u2014 space": 20,
+      "Hacker News (front page)": 19,
+      "Engadget": 18,
+      "Wired": 17,
+      "The Register": 16,
+      "TechCrunch": 15,
+      "STAT News": 12,
+      "BleepingComputer": 10,
+      "The Verge": 10,
+      "The Hacker News": 10,
+      "SecurityWeek": 10,
+      "ScienceDaily": 10,
+      "Google News \u2014 AI models": 9,
+      "Mongabay": 8,
+      "Space.com": 7,
+      "Ars Technica": 7,
+      "The Record": 5,
+      "The Guardian \u2014 Climate Crisis": 5,
+      "ScienceDaily \u2014 Health": 4,
+      "Google News \u2014 cybersecurity": 3,
+      "Inside Climate News": 3,
+      "Grist": 3,
+      "Live Science": 2,
+      "DeepMind Blog": 2,
+      "MIT \u2014 Computers": 2,
+      "Google News \u2014 phishing campaigns": 2,
+      "Google News \u2014 email security": 2,
+      "ScienceDaily \u2014 Nutrition": 2,
+      "The Guardian \u2014 Conservation": 2,
+      "Google News \u2014 Python": 2,
+      "Microsoft Security Blog": 1,
+      "IEEE Spectrum": 1,
+      "ScienceDaily \u2014 Fitness": 1,
+      "Dark Reading": 1,
+      "Krebs on Security": 1,
+      "Schneier on Security": 1,
+      "Google News \u2014 forest restoration ecology": 1,
+      "Yale Environment 360": 1
+    }
+  },
+  {
     "timestamp": "2026-08-26T22:33:13.267973+00:00",
     "mode": "daily",
     "calls": 29,
