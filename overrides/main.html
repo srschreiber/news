@@ -16,9 +16,6 @@
 
 {% block extrahead %}
   {{ super() }}
-  {#- Google AdSense loader. Async so it never blocks first paint. -#}
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3689029150223791"
-          crossorigin="anonymous"></script>
   {#- Thin auto-generated pages (quiet days) opt out of the index but stay
       crawlable, so their outbound links still pass. -#}
   {%- if page and page.meta and page.meta.noindex %}
