@@ -618,3 +618,11 @@
 .pv-tl-node:hover { color: #f6ad3c; }
 .pv-tl-current { color: #f6ad3c; font-weight: 700; }
 .pv-tl-sep { color: var(--md-default-fg-color--lightest); margin: 0 0.1rem; }
+
+/* Static, crawlable top-stories list rendered inside the period-view mount.
+   period-view.js replaces the mount on boot, so this is what search engines
+   and no-JS readers see. Kept compact so the swap moves the page as little
+   as possible. */
+.pv-static-item { margin: 0 0 .9rem; }
+.pv-static-title { font-size: .95rem; line-height: 1.35; margin: 0 0 .2rem; }
+.pv-static-summary { font-size: .85rem; margin: 0; opacity: .8; }

@@ -22,11 +22,51 @@
   var scopeFeed = mount.getAttribute("data-scope-feed") || "";
   var PERIODS = ["daily", "weekly", "monthly"];
 
-  // Index all records by URL for update-chain traversal.
-  var ALL_BY_URL = {};
+  // Only `daily` is inlined; weekly/monthly are fetched on first use (they are
+  // an order of magnitude larger and most readers never switch period).
+  // `counts` lets the UI size itself correctly before those arrive.
+  var LAZY = DATA.lazy || {};
+  var COUNTS = DATA.counts || {};
+  var LOADED = {};
   PERIODS.forEach(function (p) {
-    (DATA[p] || []).forEach(function (r) { if (r.url) ALL_BY_URL[r.url] = r; });
+    if (DATA[p]) { LOADED[p] = true; COUNTS[p] = DATA[p].length; }
+    else if (COUNTS[p] == null) { COUNTS[p] = 0; }
   });
+
+  function countOf(p) { return LOADED[p] ? (DATA[p] || []).length : (COUNTS[p] || 0); }
+
+  // A failed fetch marks the window loaded-but-empty rather than retrying
+  // forever: the widget degrades to "no stories in this window" instead of
+  // hanging on a spinner.
+  function ensureLoaded(p, cb) {
+    if (LOADED[p]) return cb();
+    var rel = LAZY[p];
+    if (!rel) { DATA[p] = DATA[p] || []; LOADED[p] = true; return cb(); }
+    fetch(prefix + rel)
+      .then(function (res) { return res.ok ? res.json() : []; })
+      .then(function (json) { DATA[p] = json || []; },
+            function () { DATA[p] = []; })
+      .then(function () { LOADED[p] = true; indexUrls(); cb(); });
+  }
+
+  function loadAll(cb) {
+    var pending = PERIODS.filter(function (p) { return !LOADED[p]; });
+    if (!pending.length) return cb();
+    var left = pending.length;
+    pending.forEach(function (p) {
+      ensureLoaded(p, function () { if (--left === 0) cb(); });
+    });
+  }
+
+  // Index all records by URL for update-chain traversal. Re-run whenever a
+  // lazy window lands so chains can reach back into older records.
+  var ALL_BY_URL = {};
+  function indexUrls() {
+    PERIODS.forEach(function (p) {
+      (DATA[p] || []).forEach(function (r) { if (r.url) ALL_BY_URL[r.url] = r; });
+    });
+  }
+  indexUrls();
 
   // Build ordered history: [{title, url, date, summary, takeaways}, ...] newest first.
   // Returns single-element array if no prior versions are in the loaded index.
@@ -59,9 +99,9 @@
   // than erroring — a shared link should degrade gracefully, not break.
   var urlParams = new URLSearchParams(location.search);
   var urlPeriod = urlParams.get("period");
-  var period = (PERIODS.indexOf(urlPeriod) !== -1 && (DATA[urlPeriod] || []).length > 0)
+  var period = (PERIODS.indexOf(urlPeriod) !== -1 && countOf(urlPeriod) > 0)
     ? urlPeriod
-    : PERIODS.find(function (p) { return (DATA[p] || []).length > 0; }) || "daily";
+    : PERIODS.find(function (p) { return countOf(p) > 0; }) || "daily";
   var _validSorts = { date: 1, received: 1, importance: 1 };
   var sortBy = _validSorts[urlParams.get("sort")] ? urlParams.get("sort") : "importance";
   var feedFilter = urlParams.get("feed") || "";
@@ -74,11 +114,18 @@
   // Deep-link: ?story=<encoded-url> — jump to that card on load.
   var storyTarget = urlParams.get("story") || "";
   var storyHighlighted = false;
-  if (storyTarget) {
-    // Switch to whichever period contains this story
+  // Returns true once the target is found in an already-loaded window; the
+  // boot sequence retries after fetching the rest.
+  function applyStoryTarget() {
+    if (!storyTarget) return false;
+    var found = false;
     PERIODS.forEach(function (p) {
-      if ((DATA[p] || []).some(function (r) { return r.url === storyTarget; })) period = p;
+      if (LOADED[p] && (DATA[p] || []).some(function (r) { return r.url === storyTarget; })) {
+        period = p;
+        found = true;
+      }
     });
+    if (!found) return false;
     feedFilter = "";
     subfeedFilter = "";
     // Jump to the page that contains the card
@@ -89,6 +136,7 @@
         break;
       }
     }
+    return true;
   }
 
   function syncUrl() {
@@ -103,12 +151,12 @@
   }
 
   // Feeds present in the data itself (drives the Feed dropdown + its auto-hide).
-  var ALL_FEEDS = collectTagged("feeds");
+  var ALL_FEEDS = DATA.allFeeds || collectTagged("feeds");
   // Subfeed options: narrowed to the selected feed's configured topics (via
   // feedMeta) when one is selected, else every subfeed present in the data.
   function subfeedOptions() {
     if (feedFilter && feedMeta[feedFilter]) return feedMeta[feedFilter].subfeeds || [];
-    return collectTagged("subfeeds");
+    return DATA.allSubfeeds || collectTagged("subfeeds");
   }
 
   function collectTagged(key) {
@@ -197,7 +245,7 @@
     var html = '<div class="pv-toolbar">';
     html += '<div class="pv-periods">';
     PERIODS.forEach(function (p) {
-      var disabled = (DATA[p] || []).length === 0;
+      var disabled = countOf(p) === 0;
       html += '<button type="button" class="pv-btn' + (p === period ? " pv-active" : "") + '"' +
         (disabled ? " disabled" : "") + ' data-period="' + p + '">' + LABELS[p] + "</button>";
     });
@@ -366,7 +414,15 @@
       var btn = mount.querySelector('[data-period="' + p + '"]');
       if (btn && !btn.disabled) {
         btn.addEventListener("click", function () {
-          urlSyncArmed = true; period = p; page = 1; render();
+          urlSyncArmed = true;
+          if (LOADED[p]) { period = p; page = 1; render(); return; }
+          var label = btn.textContent;
+          btn.disabled = true;
+          btn.textContent = "…";
+          ensureLoaded(p, function () {
+            btn.disabled = false; btn.textContent = label;
+            period = p; page = 1; render();
+          });
         });
       }
     });
@@ -467,5 +523,14 @@
     });
   }
 
-  render();
+  // Paint as soon as the starting window is available. A ?story= link pointing
+  // into a window we haven't fetched yet triggers one background load, then a
+  // single re-render — the first paint never blocks on it.
+  ensureLoaded(period, function () {
+    var found = applyStoryTarget();
+    render();
+    if (storyTarget && !found) {
+      loadAll(function () { if (applyStoryTarget()) render(); });
+    }
+  });
 })();

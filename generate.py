@@ -945,11 +945,14 @@ def research_events_rss_only(events: list[dict], date: str) -> list[dict]:
     return reads
 
 
-def front_matter(tags: Iterable[str], description: str = "") -> str:
+def front_matter(tags: Iterable[str], description: str = "", noindex: bool = False) -> str:
     uniq = sorted({t for t in tags if t})
-    if not uniq and not description:
+    if not uniq and not description and not noindex:
         return ""
     lines = ["---"]
+    if noindex:
+        # Read by overrides/main.html, which emits <meta name="robots">.
+        lines.append("noindex: true")
     if description:
         # json.dumps yields a valid YAML double-quoted scalar (escapes quotes/newlines).
         lines.append(f"description: {json.dumps(description, ensure_ascii=False)}")
@@ -2617,8 +2620,31 @@ def _period_item(r: dict, feeds: dict | None = None) -> dict:
     }
 
 
+def _period_static_html(rows: list[dict], prefix: str, limit: int = 12) -> str:
+    """No-JS rendering of the top stories, emitted *inside* the widget mount.
+
+    period-view.js overwrites the mount wholesale on boot, so a reader with JS
+    never sees this — but crawlers (and no-JS readers) get real, indexable
+    headline text instead of an empty div. Kept deliberately compact so the
+    swap to the full card grid barely moves the page.
+
+    Must contain no blank lines: python-markdown would treat one as the end of
+    the raw-HTML block and start parsing the rest as markdown."""
+    out = ['<div class="pv-static">']
+    for r in rows[:limit]:
+        href = html.escape(prefix + r["url"], quote=True)
+        out.append('<article class="pv-static-item">')
+        out.append(f'<h3 class="pv-static-title"><a href="{href}">{html.escape(r["title"])}</a></h3>')
+        summary = (r.get("summary") or "").strip()
+        if summary:
+            out.append(f'<p class="pv-static-summary">{html.escape(summary)}</p>')
+        out.append("</article>")
+    out.append("</div>")
+    return "\n".join(out)
+
+
 def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None = None,
-                       scope_feed: str | None = None) -> list[str]:
+                       scope_feed: str | None = None, slug: str = "home") -> list[str]:
     """Markdown lines embedding a client-rendered Daily/Weekly/Monthly story
     widget (docs/assets/period-view.js). No LLM involved — pure aggregation of
     the search index, done here in Python; the JS just switches between the
@@ -2636,7 +2662,37 @@ def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None
     data = _period_lists(records)
     if not any(data.values()):
         return ["_No stories yet._", ""]
-    payload = {period: [_period_item(r, feeds) for r in rows] for period, rows in data.items()}
+    items = {period: [_period_item(r, feeds) for r in rows] for period, rows in data.items()}
+
+    # Only the daily window is inlined; weekly/monthly ship as sidecar JSON the
+    # widget fetches on demand. They dwarf daily (thousands of records vs ~100)
+    # and every one of these blocks is embedded on ~24 pages, so inlining all
+    # three put multiple MB on the wire for a view most readers never open.
+    def _tagged(key: str) -> list[dict]:
+        """Union of feed/subfeed options across ALL windows — the dropdowns must
+        be complete before the lazy windows have loaded."""
+        seen: dict[str, str] = {}
+        for rows in items.values():
+            for r in rows:
+                for t in r.get(key) or []:
+                    seen[t["key"]] = t["title"]
+        return [{"key": k, "title": seen[k]} for k in sorted(seen)]
+
+    safe = re.sub(r"[^a-z0-9_-]", "-", slug.lower())
+    (DOCS / "assets" / "pv").mkdir(parents=True, exist_ok=True)
+    lazy: dict[str, str] = {}
+    for window in ("weekly", "monthly"):
+        rel = f"assets/pv/{safe}-{window}.json"
+        (DOCS / rel).write_text(json.dumps(items[window], ensure_ascii=False))
+        lazy[window] = rel
+
+    payload = {
+        "daily": items["daily"],
+        "counts": {w: len(items[w]) for w in ("daily", "weekly", "monthly")},
+        "lazy": lazy,
+        "allFeeds": _tagged("feeds"),
+        "allSubfeeds": _tagged("subfeeds"),
+    }
     if feeds:
         payload["feedMeta"] = {
             fk: {"title": spec["title"],
@@ -2647,7 +2703,9 @@ def _period_view_block(records: list[dict], prefix: str = "", feeds: dict | None
     blob = json.dumps(payload, ensure_ascii=False).replace("</script>", "<\\/script>")
     scope_attr = f' data-scope-feed="{scope_feed}"' if scope_feed else ""
     return [
-        f'<div id="period-view" class="period-view" data-prefix="{prefix}"{scope_attr}></div>',
+        f'<div id="period-view" class="period-view" data-prefix="{prefix}"{scope_attr}>',
+        _period_static_html(items["daily"] or items["weekly"], prefix),
+        "</div>",
         "",
         '<script id="period-view-data" type="application/json">',
         blob,
@@ -2975,7 +3033,7 @@ def rebuild_index() -> None:
         )
 
     lines += ["## Top stories", ""]
-    lines += _period_view_block(load_search_index(), feeds=feeds)
+    lines += _period_view_block(load_search_index(), feeds=feeds, slug="home")
     lines += [
         "",
         "---",
@@ -3038,7 +3096,8 @@ def _feed_page_body(
         except (ValueError, TypeError):
             pass
     lines += ["## Top stories", ""]
-    lines += _period_view_block(records, prefix=story_prefix, feeds=feeds, scope_feed=fkey)
+    lines += _period_view_block(records, prefix=story_prefix, feeds=feeds, scope_feed=fkey,
+                                slug=f"feed-{fkey}")
     counts = _event_counts(index)
     lines += ["## Topics", ""]
     all_shown_topics = ftopics + [t for t in sorted(also_topics) if t not in ftopics]
@@ -3083,7 +3142,7 @@ def _topic_page_body(
     if latest:
         records = [r for rows in dates.values() for r in rows]
         lines += ["## Latest", ""]
-        lines += _period_view_block(records, prefix="../../", feeds=feeds)
+        lines += _period_view_block(records, prefix="../../", feeds=feeds, slug=f"topic-{topic}")
         earlier = sorted((d for d in dates if d != latest), reverse=True)
         if earlier:
             lines += ["## Earlier", ""]
@@ -3214,8 +3273,11 @@ def _write_topic_doc(topic: str, shown: list[dict], date: str) -> None:
                                          page_description(shown, topic, date)),
                   title, render_briefing(shown, topic))
     else:
+        # A quiet day is thin content ("no notable news") and a poor landing
+        # page; keep it reachable and crawlable for links, but out of the index.
         write_doc(doc_path, front_matter([date[:4], date[:7], topic],
-                                         page_description([], topic, date)),
+                                         page_description([], topic, date),
+                                         noindex=True),
                   title, quiet_day_body(topic))
 
 

@@ -1,5 +1,24 @@
 {% extends "base.html" %}
 
 {% block announce %}
-  ☕ <a href="https://donate.stripe.com/8x2aEWacsatL7bq2IU8ww00" target="_blank" rel="noopener" style="color:inherit;font-weight:600;">Support Sam's News — donate</a>
+  {#- On an archived daily briefing (news/<topic>/<date>.md), point the reader
+      at the live home page — most of these landings come from search, and the
+      home hub is the better front door. Everywhere else, keep the donate CTA. -#}
+  {%- set _uri = page.file.src_uri if page and page.file else "" -%}
+  {%- set _parts = _uri[:-3].split('/') if _uri.endswith('.md') else [] -%}
+  {%- if _parts|length == 3 and _parts[0] == 'news' %}
+    📰 You're reading the archived {{ _parts[1]|replace('-', ' ')|title }} briefing from {{ _parts[2] }} —
+    <a href="{{ base_url }}/" style="color:inherit;font-weight:600;">see today's full briefing →</a>
+  {%- else %}
+    ☕ <a href="https://donate.stripe.com/8x2aEWacsatL7bq2IU8ww00" target="_blank" rel="noopener" style="color:inherit;font-weight:600;">Support Sam's News — donate</a>
+  {%- endif %}
+{% endblock %}
+
+{% block extrahead %}
+  {{ super() }}
+  {#- Thin auto-generated pages (quiet days) opt out of the index but stay
+      crawlable, so their outbound links still pass. -#}
+  {%- if page and page.meta and page.meta.noindex %}
+  <meta name="robots" content="noindex, follow">
+  {%- endif %}
 {% endblock %}
