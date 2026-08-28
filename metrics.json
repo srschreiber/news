@@ -1,5 +1,125 @@
 [
   {
+    "timestamp": "2026-08-28T17:47:09.897112+00:00",
+    "mode": "daily",
+    "calls": 70,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 123845,
+        "output": 50918,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 4377,
+        "output": 1922,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.3924,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 10,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 59889,
+            "output": 41511,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.2674
+      },
+      "(merge-check)": {
+        "calls": 37,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 23112,
+            "output": 333,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0248
+      },
+      "(read)": {
+        "calls": 22,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 40844,
+            "output": 9074,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0862
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 4377,
+            "output": 1922,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.014
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 77,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 60,
+      "Google News \u2014 Anthropic": 48,
+      "Google News \u2014 World": 41,
+      "Phys.org": 30,
+      "Hacker News (front page)": 20,
+      "Google News \u2014 space": 19,
+      "Wired": 19,
+      "The Register": 17,
+      "Google News \u2014 OpenAI GPT": 16,
+      "Engadget": 11,
+      "TechCrunch": 9,
+      "STAT News": 9,
+      "The Hacker News": 8,
+      "Mongabay": 8,
+      "The Verge": 7,
+      "Space.com": 7,
+      "Google News \u2014 AI models": 7,
+      "ScienceDaily": 7,
+      "BleepingComputer": 6,
+      "SecurityWeek": 6,
+      "Google News \u2014 phishing campaigns": 6,
+      "ScienceDaily \u2014 Health": 4,
+      "Grist": 4,
+      "Live Science": 3,
+      "The Guardian \u2014 Climate Crisis": 3,
+      "Ars Technica": 3,
+      "Dark Reading": 3,
+      "The Guardian \u2014 Conservation": 2,
+      "Inside Climate News": 2,
+      "Apple Machine Learning Research": 2,
+      "The Record": 1,
+      "Quanta Magazine": 1,
+      "Yale Environment 360": 1,
+      "Schneier on Security": 1,
+      "ScienceDaily \u2014 Nutrition": 1,
+      "Google News \u2014 email security": 1,
+      "Google News \u2014 PostgreSQL": 1
+    }
+  },
+  {
     "timestamp": "2026-08-28T01:49:59.189163+00:00",
     "mode": "daily",
     "calls": 36,
