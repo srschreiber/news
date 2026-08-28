@@ -1,4 +1,5 @@
 ---
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---

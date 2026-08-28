@@ -1,4 +1,5 @@
 site_name: Sam's News
+site_url: https://sams.news/
 site_description: Automated daily tech-news briefings, clustered and researched by Claude.
 docs_dir: docs
 
@@ -9,8 +10,8 @@ repo_name: srschreiber/news
 theme:
   name: material
   custom_dir: overrides    # footer star CTA (partials/copyright.html)
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   palette:
     # Newspaper look: black masthead + amber accent.
     - media: "(prefers-color-scheme: light)"
@@ -28,7 +29,6 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
     - navigation.top
     - search.suggest
     - search.highlight
@@ -40,7 +40,6 @@ extra_css:
 
 extra_javascript:
   - assets/share.js
-  - assets/api-status.js
 
 plugins:
   - search
@@ -63,12 +62,10 @@ markdown_extensions:
 # The custom keyword search lives at search.md alongside Material's built-in
 # search.
 nav:
-  - Podcast: podcast.md
+  - Home: index.md
   - Words: words.md
   - Facts: facts.md
   - Search: search.md
-  - About: about.md
-  - Donate: https://donate.stripe.com/8x2aEWacsatL7bq2IU8ww00
 
 not_in_nav: |
   news/**
