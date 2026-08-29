@@ -1,5 +1,94 @@
 [
   {
+    "timestamp": "2026-08-29T18:57:15.893511+00:00",
+    "mode": "daily",
+    "calls": 9,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 17194,
+        "output": 7525,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 1298,
+        "output": 333,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.0578,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 9830,
+            "output": 5937,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0395
+      },
+      "(merge-check)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1853,
+            "output": 27,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.002
+      },
+      "(read)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 5511,
+            "output": 1561,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0133
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 1298,
+            "output": 333,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.003
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 World": 15,
+      "Engadget": 9,
+      "Google News \u2014 Anthropic": 9,
+      "Hacker News (front page)": 9,
+      "Google News \u2014 markets": 5,
+      "Phys.org": 5,
+      "TechCrunch": 4,
+      "The Verge": 2,
+      "Google News \u2014 space": 1,
+      "Google News \u2014 medical research": 1,
+      "The Hacker News": 1,
+      "Mongabay": 1
+    }
+  },
+  {
     "timestamp": "2026-08-29T15:50:06.612618+00:00",
     "mode": "daily",
     "calls": 25,
