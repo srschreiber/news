@@ -150,7 +150,7 @@
     "date": "2026-08-30",
     "event_id": "openai-introduces-advertisements-to-chatgpt-free-and-go-users-in-india",
     "title": "OpenAI introduces advertisements to ChatGPT Free and Go users in India",
-    "summary": "OpenAI will display advertisements to ChatGPT Free and Go users in India.",
+    "summary": "OpenAI will display advertisements to ChatGPT Free and Go subscribers in India.",
     "theme": "AI",
     "importance": 4,
     "topics": [
@@ -161,10 +161,10 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
       "ChatGPT",
-      "advertising",
-      "India"
+      "India",
+      "OpenAI",
+      "advertising"
     ],
     "url": "news/gpt/2026-08-30/#openai-introduces-advertisements-to-chatgpt-free-and-go-users-in-india",
     "sources": [
@@ -176,7 +176,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-30T15:34:59.552736+00:00",
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
     "lineage_id": "openai-expands-chatgpt-advertising-to-india-with-major-agency-partnerships",
     "related_title": "",
     "related_url": "",
@@ -296,6 +296,43 @@
   },
   {
     "date": "2026-08-30",
+    "event_id": "anthropic-quietly-downgrades-claude-code-usage-capabilities",
+    "title": "Anthropic quietly downgrades Claude code usage capabilities",
+    "summary": "Anthropic's recent code usage cap update appears to mask a downgrade to Claude's capabilities.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "code generation",
+      "usage limits"
+    ],
+    "url": "news/anthropic/2026-08-30/#anthropic-quietly-downgrades-claude-code-usage-capabilities",
+    "sources": [
+      {
+        "label": "Android Headlines",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0JGWEp5NHl3aTVNZU5tT201RkdNUThpTHZxbEpSM3E0cWVYQjQ0RkZuc1hYUjVucGFOWFJxRVpfU1N1Sl85RWpRRjNRUzZQWFlNd1MwZHZoUFM2UVJqZWt5cHpIb1ZFaDhKM2VSV2d4bjVnUDdYVFpGVEpZcjhxQ1dHQ2NUdnNIVkJNc1pqR1pzUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "anthropic-quietly-downgrades-claude-code-usage-capabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
     "event_id": "openai-expands-chatgpt-advertising-to-32-new-markets-including-india",
     "title": "OpenAI expands ChatGPT advertising to 32 new markets including India",
     "summary": "OpenAI has launched ChatGPT advertising in 32 new markets within five days, with India becoming the latest live market.",
@@ -371,36 +408,73 @@
   },
   {
     "date": "2026-08-30",
-    "event_id": "naver-advances-bid-to-control-koreas-unlisted-securities-market",
-    "title": "Naver advances bid to control Korea's unlisted securities market",
-    "summary": "South Korean internet company Naver is nearing approval to gain significant control over the country's unlisted stock market.",
-    "theme": "Markets",
+    "event_id": "virginia-beach-schools-enters-partnership-agreement-with-openai",
+    "title": "Virginia Beach schools enters partnership agreement with OpenAI",
+    "summary": "Virginia Beach public schools has initiated a business agreement with OpenAI, the developer of ChatGPT.",
+    "theme": "Education",
     "importance": 5,
     "topics": [
-      "markets"
+      "gpt"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Naver",
-      "Korea",
-      "unlisted stocks",
-      "market control"
+      "Virginia Beach",
+      "schools",
+      "OpenAI",
+      "ChatGPT"
     ],
-    "url": "news/markets/2026-08-30/#naver-advances-bid-to-control-koreas-unlisted-securities-market",
+    "url": "news/gpt/2026-08-30/#virginia-beach-schools-enters-partnership-agreement-with-openai",
     "sources": [
       {
-        "label": "Seoul Economic Daily",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOV3NncC1YY0pnYURIVENuMGxWYXlzZ2cxNFZkWm9OV2d5bGllWDVqTkx5cWloakdvZG9GLWQzLUNyZGdJd3ZLNWM1MjJocWtmaFRVdVJfWG9GaXZVMG52bXJ4dFViLWk2ZXRBRHFLZEZ5Q0Y4UHdXU0hXTnZaejBZZV9EcDZsZ3RiWG9nSXE4dFZBRktMU0ZVRkdhQllRZHRtN0E?oc=5",
+        "label": "The Virginian-Pilot",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5WSWgxSWtBS3pqTWgtR3pIbTAxRENuclZnaGFCZWstRzJKTTlCaFF6TUNvZ2I4Y2IxYUU5dEltczhsNC1DRjJmNEs0TFFxNU9ER3B3RFVQVExscjk3VGc2V2RSa093OUdCdGY0U1JMcw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-30T10:48:34.297100+00:00",
-    "lineage_id": "naver-advances-bid-to-control-koreas-unlisted-securities-market",
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "virginia-beach-schools-enters-partnership-agreement-with-openai",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
+    "event_id": "openai-retires-dall-e-2-replaces-with-newer-image-generation-tool-in-chatgpt",
+    "title": "OpenAI retires DALL-E 2, replaces with newer image generation tool in ChatGPT",
+    "summary": "OpenAI discontinued DALL-E 2 in ChatGPT and replaced it with a newer image generation tool available to all users.",
+    "theme": "AI Tools",
+    "importance": 5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "DALL-E",
+      "image generation",
+      "ChatGPT"
+    ],
+    "url": "news/gpt/2026-08-30/#openai-retires-dall-e-2-replaces-with-newer-image-generation-tool-in-chatgpt",
+    "sources": [
+      {
+        "label": "Martin Cid Magazine",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JdUQ5LXpmakxyZ0RfaVVoZ2pOcG5hSGR3d3hmb2hMdUgxWXc2Sk9WRVNyRC14YlZxaGxYbUljdFA5Y0tNQU1XbFZNYmdjS2FSakNhLWRuSmItTUlCbjhvMWx2SThHR3ZQUlpJamZEQ256UFVSTk4zUkpWbTZGUUU?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "openai-retires-dall-e-2-replaces-with-newer-image-generation-tool-in-chatgpt",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -593,80 +667,6 @@
   },
   {
     "date": "2026-08-30",
-    "event_id": "nancy-grace-roman-mother-of-hubble-honored-as-namesake-of-nasas-new-telescope",
-    "title": "Nancy Grace Roman, 'Mother of Hubble,' honored as namesake of NASA's new telescope",
-    "summary": "NASA names its newest space telescope after Nancy Grace Roman, the pioneering astronomer who shaped the Hubble Space Telescope project.",
-    "theme": "Space & Science",
-    "importance": 5.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Nancy Grace Roman",
-      "NASA",
-      "Hubble",
-      "space telescope"
-    ],
-    "url": "news/space/2026-08-30/#nancy-grace-roman-mother-of-hubble-honored-as-namesake-of-nasas-new-telescope",
-    "sources": [
-      {
-        "label": "Discover Magazine",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNVNJTXV5b1dEV1JDX3N6R3I1QjZQcVBiMHVHR3NUMVRlS0Z3SWttM1ltWDVobk9LcXBHU0xhOG43SDhKMllVN3dFblE3UmJUZFNab3o1cUJVbjJidnhjX0JMdmVwXzNianFMV091X3BLSTktMGYxWEVMbXRKZlVLNHUwNDR4QW1HSmo3T0duYnZyTUFVTi02Q1M5emV3V1NDc2VIdWQtZ3F3bDFuTjhMbE9McktiYk4yZXQ5OFRpZHFpMWM?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-30T18:52:49.298499+00:00",
-    "lineage_id": "nancy-grace-roman-the-astronomer-behind-nasas-next-flagship-space-telescope",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Nancy Grace Roman: the astronomer behind NASA's next flagship space telescope",
-    "updates_url": "news/space/2026-08-29/#nancy-grace-roman-the-astronomer-behind-nasas-next-flagship-space-telescope"
-  },
-  {
-    "date": "2026-08-30",
-    "event_id": "nasas-new-space-telescope-begins-its-journey-to-deep-space-observations",
-    "title": "NASA's new space telescope begins its journey to deep space observations",
-    "summary": "NASA's newly launched space telescope embarks on its mission to observe distant objects a million miles away.",
-    "theme": "Space & Science",
-    "importance": 5.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "space telescope",
-      "mission",
-      "astronomy"
-    ],
-    "url": "news/space/2026-08-30/#nasas-new-space-telescope-begins-its-journey-to-deep-space-observations",
-    "sources": [
-      {
-        "label": "thezebra.org",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXFpMFZnTkJRZV9EbUV1SXlmbWhhbkRTVWdsYTB3dnBpek9xRHBrQ1FxSlVpd3ZXMXJiQWJrUDZ4OERBMllCTXJJMmdIM01XOTdVTUdYeC1valdaY3VaaTdvdVBwbFowbXQwS2R6ZnJndHVZcUNpTFpENWh0YWVSOWJITTRzMmptMGVsZE9WUDJfRFRzaFRlNFZGTXZaYWU1Zm1zSHVuMS1TNkpFVDM5clF6NEloWEdKeUdF?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-30T18:52:49.298499+00:00",
-    "lineage_id": "nasas-new-space-telescope-begins-its-journey-to-deep-space-observations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-30",
     "event_id": "survey-documents-evolution-from-language-models-to-autonomous-ai-agents",
     "title": "Survey Documents Evolution from Language Models to Autonomous AI Agents",
     "summary": "A comprehensive survey tracks the technological progression from language models to fully autonomous AI agents.",
@@ -775,6 +775,43 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
+    "event_id": "anthropic-develops-claude-to-operate-real-laboratory-equipment",
+    "title": "Anthropic develops Claude to operate real laboratory equipment",
+    "summary": "Anthropic is working toward enabling Claude to operate real laboratory equipment and gear.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "laboratory automation",
+      "robotics"
+    ],
+    "url": "news/anthropic/2026-08-30/#anthropic-develops-claude-to-operate-real-laboratory-equipment",
+    "sources": [
+      {
+        "label": "The Neuron",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa1RvZ1NHVUxCN0UyMUphQ2VYZ1ZFUllsa200Wm5FSE1NS3IxZV8wMWViOTdTY090OWdncVdWTm43cEpNYzJMT1pqMUFRMjR2YnRYMDZwNmw3MHVzZzNtV0UxTzR4X3hGX01yOWJZRzBNRmRURnRHbEItUTZiYXljTkVXRWJSUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "anthropic-tests-claude-ai-for-robotics-and-scientific-laboratory-automation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic tests Claude AI for robotics and scientific laboratory automation",
+    "updates_url": "news/anthropic/2026-08-28/#anthropic-tests-claude-ai-for-robotics-and-scientific-laboratory-automation"
   },
   {
     "date": "2026-08-30",
@@ -1276,6 +1313,43 @@
   },
   {
     "date": "2026-08-30",
+    "event_id": "nasa-develops-gps-free-navigation-using-satellites-and-space-debris",
+    "title": "NASA develops GPS-free navigation using satellites and space debris",
+    "summary": "NASA has developed a method to navigate using satellites and orbital debris without relying on GPS.",
+    "theme": "Space",
+    "importance": 6,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "navigation",
+      "GPS",
+      "satellites"
+    ],
+    "url": "news/space/2026-08-30/#nasa-develops-gps-free-navigation-using-satellites-and-space-debris",
+    "sources": [
+      {
+        "label": "Digital Journal",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRlJoSmNFTTN1XzlDNWNCclQycHBDNngyVnFOa1kwM2JQVHFpbmNhSnVIcDNDQmJVUFhkUk9INzc5Rmo3Z0dSbFZCeUZUM3dFeE9xNmFPUGdaTnhKWlNXTGZyLXFrNmJ0bDZPYWF0RkdmM0hLZFQ1UTBqM0c3WGRBR2tyMDBWNVlmVk5ZSThaa25yOFRnRXR4WkhoSQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "nasa-develops-gps-free-navigation-using-satellites-and-space-debris",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
     "event_id": "fair-work-commission-condemns-ai-generated-legal-advice-as-plain-wrong",
     "title": "Fair Work Commission Condemns AI-Generated Legal Advice as 'Plain Wrong'",
     "summary": "Australia's Fair Work Commission criticized AI-generated legal advice as fundamentally incorrect and unreliable.",
@@ -1306,87 +1380,6 @@
     "researched": false,
     "received_at": "2026-08-30T10:48:34.297100+00:00",
     "lineage_id": "fair-work-commission-condemns-ai-generated-legal-advice-as-plain-wrong",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-30",
-    "event_id": "uk-polling-shows-majority-lack-trust-in-government-encryption-access-plans",
-    "title": "UK polling shows majority lack trust in government encryption access plans",
-    "summary": "Two-thirds of British respondents do not trust the current or future governments with access to encrypted communications.",
-    "theme": "Policy",
-    "importance": 6,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "UK",
-      "encryption",
-      "privacy",
-      "government"
-    ],
-    "url": "news/tech/2026-08-30/#uk-polling-shows-majority-lack-trust-in-government-encryption-access-plans",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
-        "origin": "rss"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.theregister.com/security/2026/08/30/turns-out-brits-would-quite-like-their-private-messages-to-stay-private/5292994",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-30T10:48:34.297100+00:00",
-    "lineage_id": "uk-polling-shows-majority-lack-trust-in-government-encryption-access-plans",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-08-30",
-    "event_id": "infostealer-malware-hijacks-claude-sessions-to-drain-account-usage",
-    "title": "Infostealer malware hijacks Claude sessions to drain account usage",
-    "summary": "Anthropic warned that infostealer malware on users' PCs can steal active Claude login sessions, allowing attackers to access accounts and consume their API usage.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "anthropic",
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "infostealer",
-      "malware",
-      "account hijacking"
-    ],
-    "url": "news/anthropic/2026-08-30/#infostealer-malware-hijacks-claude-sessions-to-drain-account-usage",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-08-30T15:34:59.552736+00:00",
-    "lineage_id": "infostealer-malware-hijacks-claude-sessions-to-drain-account-usage",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1679,7 +1672,7 @@
     "date": "2026-08-30",
     "event_id": "aon-nears-17-billion-acquisition-of-kkr-backed-usi-insurance",
     "title": "Aon nears $17 billion acquisition of KKR-backed USI Insurance",
-    "summary": "Aon is close to completing a $17 billion deal to acquire USI Insurance from private equity firm KKR.",
+    "summary": "Aon is close to acquiring USI Insurance from KKR in a reported $17 billion deal.",
     "theme": "Business",
     "importance": 6.5,
     "topics": [
@@ -1690,11 +1683,11 @@
     ],
     "primary_feed": "world",
     "keywords": [
+      "$17 billion",
       "Aon",
-      "USI Insurance",
       "KKR",
-      "acquisition",
-      "$17 billion"
+      "USI Insurance",
+      "acquisition"
     ],
     "url": "news/markets/2026-08-30/#aon-nears-17-billion-acquisition-of-kkr-backed-usi-insurance",
     "sources": [
@@ -1706,8 +1699,45 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-30T18:52:49.298499+00:00",
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
     "lineage_id": "aon-nears-17-billion-acquisition-of-kkr-backed-usi-insurance",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
+    "event_id": "stock-market-repeats-pattern-unseen-since-2000-signaling-potential-downturn",
+    "title": "Stock market repeats pattern unseen since 2000, signaling potential downturn",
+    "summary": "The stock market is exhibiting a rare pattern last seen in 2000 that historically preceded significant declines.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock market",
+      "market pattern",
+      "2000",
+      "downturn"
+    ],
+    "url": "news/markets/2026-08-30/#stock-market-repeats-pattern-unseen-since-2000-signaling-potential-downturn",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUhMUHRNdnppX3JHRHlCZ21ybzJXdVJ4Z3duVkozQmNRZVVFX1c0WTNpbmgtc1NtTUtINGU2RkNRWTJUNTVvWXd0ajBSS1l5bXhpU3dBdE9nNVVGSWQ2Z05UUUpkcXRZZXlOUlZ3R2ZWazBHaWcySmpaazg2MXFPajJqUUhyWExmVndhendMSmthb0hkV3U4em16MGVqeHli?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "stock-market-repeats-pattern-unseen-since-2000-signaling-potential-downturn",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1933,6 +1963,51 @@
     "researched": false,
     "received_at": "2026-08-30T18:52:49.298499+00:00",
     "lineage_id": "texas-governor-abbott-freezes-state-funding-for-flock-surveillance-cameras",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
+    "event_id": "infostealer-malware-hijacks-claude-sessions-to-drain-account-usage",
+    "title": "Infostealer malware hijacks Claude sessions to drain account usage",
+    "summary": "An infostealer malware stole Claude user login sessions, prompting Anthropic to wipe affected users' saved payment cards.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "anthropic",
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "account hijacking",
+      "data breach",
+      "infostealer",
+      "malware"
+    ],
+    "url": "news/anthropic/2026-08-30/#infostealer-malware-hijacks-claude-sessions-to-drain-account-usage",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+        "origin": "rss"
+      },
+      {
+        "label": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUkF3M3dHQ0FsZU5iLUNJdVFwNFZGUW1xdkpudWlpUTM0ajlWLVZfQVdUWDcxbEJzcmFhdmVJbHlSd3B0VW5BTGNHVER0RHBmNVppaG5BbmVSSEdIWTh1OVNxVzgxRkNpSjVOSTFSckJ2RkxSU0gxM25KTF9RUUFiN0J2aHIxWklGa0Y5RVQwejZrd1BEMWNyY3BldU1Gb3J3Rnd3Qg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "infostealer-malware-hijacks-claude-sessions-to-drain-account-usage",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2355,6 +2430,47 @@
   },
   {
     "date": "2026-08-30",
+    "event_id": "the-president-of-the-united-states-calls-nasa-press-conference-to-celebrate-roman-space-telescope-launch",
+    "title": "The president of the United States calls NASA press conference to celebrate Roman Space Telescope launch",
+    "summary": "The president of the United States interrupted a NASA press conference to celebrate the launch of the Roman Space Telescope, a mission he previously attempted to cancel.",
+    "theme": "Space",
+    "importance": 7,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Roman Space Telescope",
+      "NASA",
+      "presidential statement"
+    ],
+    "url": "news/space/2026-08-30/#the-president-of-the-united-states-calls-nasa-press-conference-to-celebrate-roman-space-telescope-launch",
+    "sources": [
+      {
+        "label": "Space",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXhzdGlmWnZNWmdrYnladE9CMTZVOG9QM29ndk1FNFJGMjRyMWFIN1lPYzYxTU5Id19wVDBXWmtDNTZOWkNidlFxQkV0MUdVZWhOZWM4QmR4NDZIZEE3akJjMHU5SXU4bWFacUhqc1BXMF9EZFhHaGRFRkRaVzNiNm1IZXRZMFFQSFpiRzh1LXRWNTRxUHB2N292djhjVWVidVA2TWZIazBMcWJRdkd6RW9pWjdocGNlbDJ3c3VmcTlqcXdZZHFYUGlYQVZHenVVNmNwNHktQnRscjNMYllqb0MyZW9EYUs4?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/trump-calls-in-to-nasa-press-conference-to-celebrate-launch-of-roman-space-telescope-a-mission-he-tried-to-cancel",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "the-president-of-the-united-states-calls-nasa-press-conference-to-celebrate-roman-space-telescope-launch",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
     "event_id": "scientists-create-microscopic-quark-gluon-plasma-to-study-early-universe",
     "title": "Scientists create microscopic quark-gluon plasma to study early universe",
     "summary": "Researchers have produced an extreme state of matter in smaller atoms than previously thought possible, revealing new insights into the universe's origins.",
@@ -2537,9 +2653,58 @@
   },
   {
     "date": "2026-08-30",
-    "event_id": "sony-music-and-warner-chappell-sue-anthropic-for-alleged-mass-copyright-infringement",
-    "title": "Sony Music and Warner Chappell Sue Anthropic for Alleged Mass Copyright Infringement",
-    "summary": "Sony Music and Warner Bros. have filed lawsuits against Anthropic alleging the AI company engaged in copyright infringement of musical compositions.",
+    "event_id": "massive-12tb-steam-leak-includes-abandoned-half-life-2-episode-3-assets",
+    "title": "Massive 12TB Steam leak includes abandoned Half-Life 2: Episode 3 assets",
+    "summary": "A 12-terabyte leak of Steam data spanning 2003–2013 has exposed builds of thousands of games, including canceled Half-Life 2: Episode 3 assets and unreleased content from Portal 2 and other major titles. The archive's full contents remain unknown due to its size, with discoveries still ongoing.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Steam",
+      "data leak",
+      "Valve",
+      "Half-Life",
+      "video games"
+    ],
+    "url": "news/tech/2026-08-30/#massive-12tb-steam-leak-includes-abandoned-half-life-2-episode-3-assets",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/games/986552/12tb-steam-leak-half-life-2-episode-3",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2247128/a-decade-worth-of-steam-files-totaling-more-than-12tb-leaked/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "12 terabytes of Steam data from 2003–2013 leaked",
+      "Includes canceled Half-Life 2: Episode 3 assets and Weaponizer tool",
+      "Contains deleted Portal 2 dialogue and alternative GlaDOS sequences",
+      "Early builds of Call of Duty, Resident Evil, Mirror's Edge, Batman: Arkham Asylum, Dragon Age: Origins discovered",
+      "F-Stop (unreleased Portal universe game) found in archive"
+    ],
+    "researched": true,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "massive-12tb-steam-leak-includes-abandoned-half-life-2-episode-3-assets",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
+    "event_id": "sony-and-warner-bros-music-sue-anthropic-for-copyright-infringement",
+    "title": "Sony and Warner Bros. Music sue Anthropic for copyright infringement",
+    "summary": "Sony Music and Warner have sued Anthropic, alleging that copyrighted music was used to train the Claude AI model, seeking $150,000 per track.",
     "theme": "Legal",
     "importance": 7.5,
     "topics": [
@@ -2550,19 +2715,22 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "AI training",
       "Anthropic",
+      "Claude",
+      "Sony",
       "Sony Music",
-      "Warner Bros.",
+      "Warner",
+      "Warner Bros Music",
       "Warner Chappell",
       "copyright",
-      "copyright infringement"
+      "lawsuit",
+      "music training data"
     ],
-    "url": "news/anthropic/2026-08-30/#sony-music-and-warner-chappell-sue-anthropic-for-alleged-mass-copyright-infringement",
+    "url": "news/anthropic/2026-08-30/#sony-and-warner-bros-music-sue-anthropic-for-copyright-infringement",
     "sources": [
       {
-        "label": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMmd3bzZvQjNaYmxla0NqQmh5cEFPSG01cUZNbkl3STBZZnd5a0Y1RjFiYXJjSTlPTFhpTVQ4UUxOOUFCNzZFdm9lQm1QQ3RHd3JSYkJpY3VRcWJucFR1SnVVZG9Nb2Y2Znl2OWI1OHc5VHFlR0wzMEdoRFRxZkZVVU5zQjdvOHB0cVVfR3h6ZVB0RkhsM0dLdGVSeFBWZDloZGhIV0hR?oc=5",
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR2ZyYmhqZDBoeHl2a19VUU45bVg4XzB5OTBubm5CR2VjSWUwMExLeF9zRTJFMHBGZ18yS2pkQmhCcTc5X1ZXRUw1d0d4d3RmV1J2LWlWVFRZQmc5Vm52dFE1MFhhLThJamRDSUV5Z3BudEJvejhCdENSclU3cVlHdnJNdEhxdVl1d281Nlhvd01mdnNFTFZkbzR6TG1jZGNzS25xbnNXbFBfRHAyM1VpQ2dZSWFseTc4Mm5UUnF6UW5tUGo2MVQzRDdqaDhqOTMyUzFINE42aWt2WnFydElj?oc=5",
         "origin": "rss"
       },
       {
@@ -2571,14 +2739,29 @@
         "origin": "rss"
       },
       {
-        "label": "Newser",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcG5uSTY3MlpicGZFdFNYcnFGYjdoa2FqQlZTeWV3UWFVeUpETEw2elI5SGw5MDRuWjY5TUswb29hVy1FQWVFSnNPSTRpZmQtSDF5N2hNemNkR1VIUUpmYkpJdm9CdWRkNlJMWmtpb3VLdjlhZXdIMHZGcHZvTWpEbUt1Vy1qVVFMUVVwV3pBTjlLaXlpRENzUTVpTQ?oc=5",
+        "label": "PCMag",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQV0xzbnNNVFloek54a2hNWXBZWWR1Tk1NQ2FDTXFkS201MVRVQXJmWVBkcUpwUVN3SUlzbjBEcEhVZVBQdjdjZXhHQlN0MHR1S2NrNF9ETzlxYThLbDZBbDFycGdjSGwxMnJkUm5scVJHdlMtOElMRVNUZHdsdXhRTjhmeVNfZDBlaXNuVQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "tbreak.com",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BRU8wbXh2SWYzdHczX21SQ2RsOGpKU3ZlVDdrdU9kZFZ6Rk92NXhIWUY0djlKR3pLUHBXRTdGMFhJWTc1QTY3WkpPWFJWSzJjNlFrTVE4MVRvRWducmlBZkNLQ3RITlRfeTJXREpHOFctd00?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "ForkLog",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUUzdXNfUUVEdktnT1A1dFBNUUZqeW1VSmVrX3FPdUtxVWtWcnFtaUJEcXBtcHFDdHZaZlVrbmJaZ0tubGJyT1YwRmFSRm4xb0xBRTNIYkkwMFRlZFNZeG1YWHE1TTY3SmxSUkFBamFtV0pjTlBIa0o2ZmxBVUtUcW1mc0JaN1NIX2lEOFNMWlVmNHJmVUtkM2xLdEtVelU1NkFDdGFDX29Kdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Digital Trends",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdTF2VUFwN1BFZVlnWUNKd0J1V2JmZkM2WWpkX0JWdzRRWU02QmdRS0xSM0dGcklad0Y3ZjNiTHgtdU1JV2liOEFEdmdHTUtlZGdwQWY4SlJQLXhycENicmt0LU9qaGl4VlRNVjBCTVo0Q0YxUzBSVnFuMW9mQTFLYUdwVTZBaVkzUFh2QXZDOFVtRlVCNjFCZFJ2bm0zTmNpdWRYWHhOSjhHOVpmMFlmVzRVdHFTVHZlVjl4S2NsSmZHNk1SeE5fRmE1QUFWdEw5NzRkYzVXYUNDd25DYUE?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-30T18:52:49.298499+00:00",
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
     "lineage_id": "sony-music-publishing-and-warner-chappell-sue-anthropic-in-multi-billion-dollar-lawsuit",
     "related_title": "",
     "related_url": "",
@@ -3151,37 +3334,37 @@
   },
   {
     "date": "2026-08-30",
-    "event_id": "putin-meets-xi-as-russia-seeks-to-strengthen-china-partnership",
-    "title": "Putin Meets Xi as Russia Seeks to Strengthen China Partnership",
-    "summary": "Putin turns to China's Xi Jinping as Russia's international influence diminishes amid geopolitical challenges.",
-    "theme": "Geopolitics",
-    "importance": 7.5,
+    "event_id": "chinese-operator-exploits-3-year-old-owncloud-vulnerability-to-steal-philippine-nuclear-data",
+    "title": "Chinese operator exploits 3-year-old ownCloud vulnerability to steal Philippine nuclear data",
+    "summary": "A Chinese threat actor has exploited a three-year-old ownCloud flaw to steal sensitive Philippine nuclear data.",
+    "theme": "Security",
+    "importance": 8,
     "topics": [
-      "world"
+      "security"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Putin",
-      "Xi Jinping",
-      "Russia",
-      "China",
-      "diplomacy"
+      "cybersecurity",
+      "ownCloud",
+      "vulnerability",
+      "Philippines",
+      "nuclear"
     ],
-    "url": "news/world/2026-08-30/#putin-meets-xi-as-russia-seeks-to-strengthen-china-partnership",
+    "url": "news/security/2026-08-30/#chinese-operator-exploits-3-year-old-owncloud-vulnerability-to-steal-philippine-nuclear-data",
     "sources": [
       {
-        "label": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQenVZamZZM3djaFBfZ083NUhfaXJGdlJLUHdDVjh3V2IzYmJFbVRWOTlmQjhpSUhwbkJ3TDJZTmo5SEg1SHFpQ014cEh4S01ZQk5vbXlCcUFqZ253dVdPallZRUNtRWNXbjNKS2VQbGJCV3l3bTV1QldmVV9zZmlWU3Q1MTBRQzlRdG5HWFRFbUxma1RIV21rOHhRMEs5dk0?oc=5",
+        "label": "Pasquale Pillitteri",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOUZlWU8xbzViZ3FFRnBTZzlwM2plOHVILVo0eWlNRVJuZVR6RllDcnRBejB5Z3hwOVZWZG94X1dIdWpKV0dxdXVqVGs0Vk1lT2RnMXRjbV9OZ1BRQnVIOEFqRFdaX0NNbUl0RzM5UklJbVVWcUFrZWN6cmtqZlE4OC0xdFk1UHNfX3JqazVMNVhEb05KT05LeA?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-08-30T15:34:59.552736+00:00",
-    "lineage_id": "putin-meets-xi-as-russia-seeks-to-strengthen-china-partnership",
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "chinese-operator-exploits-3-year-old-owncloud-vulnerability-to-steal-philippine-nuclear-data",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3473,6 +3656,43 @@
     "researched": false,
     "received_at": "2026-08-30T18:52:49.298499+00:00",
     "lineage_id": "tibet-glacier-collapse-and-flooding-kills-hundreds-261-foreigners-reported-missing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-08-30",
+    "event_id": "us-forces-strike-iranian-missile-launchers-as-iran-prepares-for-escalation",
+    "title": "US forces strike Iranian missile launchers as Iran prepares for escalation",
+    "summary": "US military forces have struck Iranian missile launchers while the Islamic Revolutionary Guard Corps prepares rockets and sea mines in the Strait of Hormuz.",
+    "theme": "Conflict",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "United States",
+      "military",
+      "Strait of Hormuz"
+    ],
+    "url": "news/world/2026-08-30/#us-forces-strike-iranian-missile-launchers-as-iran-prepares-for-escalation",
+    "sources": [
+      {
+        "label": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQWtuTllLTGxUVHlmRDZjQUhxNE9ucEh4QlF1Y3h6ZGRoWWlPVkVndm1OQy1fRmtzNDEzOTQ2MXJOZGFOUVNJRmsxTnZ2RjB3WXR6eW0zbnZsdDJuSDRuQkZMSDFaM3Y1UFlqU1JUcnFPRjlDay1GVFBWZzB1bTh5VzVvcw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-08-30T22:11:07.633866+00:00",
+    "lineage_id": "us-forces-strike-iranian-missile-launchers-as-iran-prepares-for-escalation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
