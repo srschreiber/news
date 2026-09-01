@@ -4,13 +4,13 @@ Full history of daily briefings, grouped by month. Use the [keyword search](sear
 
 ## 2026-09
 
-- **ai:** [2026-09-01 (7 events)](news/ai/2026-09-01.md)
+- **ai:** [2026-09-01 (10 events)](news/ai/2026-09-01.md)
 - **anthropic:** [2026-09-01 (11 events)](news/anthropic/2026-09-01.md)
 - **climate-change:** [2026-09-01 (10 events)](news/climate-change/2026-09-01.md)
 - **climate-resilience:** [2026-09-01 (1 event)](news/climate-resilience/2026-09-01.md)
 - **conservation:** [2026-09-01 (1 event)](news/conservation/2026-09-01.md)
 - **diet-exercise:** [2026-09-01 (0 events)](news/diet-exercise/2026-09-01.md)
-- **email-security:** [2026-09-01 (5 events)](news/email-security/2026-09-01.md)
+- **email-security:** [2026-09-01 (8 events)](news/email-security/2026-09-01.md)
 - **golang:** [2026-09-01 (0 events)](news/golang/2026-09-01.md)
 - **gpt:** [2026-09-01 (10 events)](news/gpt/2026-09-01.md)
 - **health:** [2026-09-01 (10 events)](news/health/2026-09-01.md)
@@ -20,7 +20,7 @@ Full history of daily briefings, grouped by month. Use the [keyword search](sear
 - **science:** [2026-09-01 (12 events)](news/science/2026-09-01.md)
 - **security:** [2026-09-01 (10 events)](news/security/2026-09-01.md)
 - **space:** [2026-09-01 (10 events)](news/space/2026-09-01.md)
-- **tech:** [2026-09-01 (10 events)](news/tech/2026-09-01.md)
+- **tech:** [2026-09-01 (13 events)](news/tech/2026-09-01.md)
 - **tech-research:** [2026-09-01 (10 events)](news/tech-research/2026-09-01.md)
 - **world:** [2026-09-01 (11 events)](news/world/2026-09-01.md)
 
