@@ -1,5 +1,108 @@
 [
   {
+    "timestamp": "2026-09-03T15:20:42.866337+00:00",
+    "mode": "daily",
+    "calls": 20,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 48153,
+        "output": 21994,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 3325,
+        "output": 1450,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1687,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 4,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 24422,
+            "output": 17635,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1126
+      },
+      "(merge-check)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1879,
+            "output": 27,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.002
+      },
+      "(read)": {
+        "calls": 12,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 21852,
+            "output": 4332,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0435
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 3325,
+            "output": 1450,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0106
+      }
+    },
+    "by_feed": {
+      "Phys.org": 29,
+      "Google News \u2014 World": 25,
+      "Google News \u2014 Anthropic": 15,
+      "Engadget": 13,
+      "The Verge": 9,
+      "Hacker News (front page)": 9,
+      "The Register": 8,
+      "Wired": 8,
+      "BleepingComputer": 6,
+      "STAT News": 6,
+      "TechCrunch": 5,
+      "ScienceDaily": 5,
+      "SecurityWeek": 5,
+      "Mongabay": 3,
+      "Space.com": 3,
+      "The Hacker News": 3,
+      "Live Science": 2,
+      "Inside Climate News": 2,
+      "Quanta Magazine": 2,
+      "ScienceDaily \u2014 Health": 2,
+      "DeepMind Blog": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "IEEE Spectrum": 1,
+      "The Record": 1,
+      "Schneier on Security": 1,
+      "ScienceDaily \u2014 Fitness": 1
+    }
+  },
+  {
     "timestamp": "2026-09-03T10:13:30.182467+00:00",
     "mode": "daily",
     "calls": 33,
