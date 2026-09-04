@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-09-03. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-09-04. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>recalcitrant</strong></summary>
+<summary>📖 Word of the day &middot; <strong>apiary</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">recalcitrant <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Recalcitrant is a formal word typically used to describe someone who stubbornly refuses to obey rules or orders. Recalcitrant can also describe something that is difficult to manage or operate.</div>
-<div class="wotd-ex">The magazine, aimed at parents and caregivers of young children, will include the latest in child development science as well as practical information, like tricks for persuading even the most recalcitrant toddler to cooperate.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/recalcitrant-2026-09-03" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">apiary <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Apiary refers to a place where bees are kept, and especially a collection of hives or colonies of bees kept for their honey.</div>
+<div class="wotd-ex">One of the best parts of having a beekeeper for a sister-in-law is getting fresh jars of local honey from the family apiary .</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/apiary-2026-09-04" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2017</div>
-<div class="fact-text">North Korea conducted its sixth and most powerful nuclear test at Punggye-ri, causing a magnitude-6.3 earthquake. <a class="fact-src" href="https://en.wikipedia.org/wiki/2017_North_Korean_nuclear_test" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2010</div>
+<div class="fact-text">A magnitude-7.1 earthquake (damage pictured) struck the Canterbury Region of New Zealand, causing two deaths and up to NZ$40 billion in damages. <a class="fact-src" href="https://en.wikipedia.org/wiki/2010_Canterbury_earthquake" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
@@ -32,7 +32,7 @@ hide:
 
 <div class="fact funfact" id="fun-fact">
 <div class="fact-label">💡 Fact of the day</div>
-<div class="fact-text">The average NFL career lasts approximately three years, and nearly 80% of players experience financial difficulties within three years of retirement. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+<div class="fact-text">At Wimbledon, line judges are trained to recognize swearing in various languages due to the tournament&#x27;s strict no-swearing policy. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
 </div>
 
 </details>
@@ -103,66 +103,3 @@ hide:
 
 Don't see a topic you want? [Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml).
 
-
-<div class="crawler-only" aria-hidden="true">
-<div><a href="news/world/2026-09-03/#un-report-world-will-overshoot-15-degree-climate-warming-threshold">UN report: World will overshoot 1.5-degree climate warming threshold</a>
-<p>A landmark UN report confirms the world will miss its 1.5-degree Celsius climate target, requiring immediate action to avert catastrophe.</p>
-</div>
-<div><a href="news/climate-change/2026-09-03/#2026-el-nino-forecast-to-intensify-with-severe-global-weather-impacts">2026 El Niño forecast to intensify with severe global weather impacts</a>
-<p>The World Meteorological Organization warns the El Niño will last through at least February 2026 with worsening impacts on global weather patterns.</p>
-</div>
-<div><a href="news/gpt/2026-09-03/#openai-releases-gpt-6-model-claiming-agi-milestone">OpenAI releases GPT-6 model claiming AGI milestone</a>
-<p>OpenAI released GPT-6 Astra, described as the world&#x27;s most intelligent and aligned model, with limited initial availability.</p>
-</div>
-<div><a href="news/gpt/2026-09-03/#openai-launches-gpt-6-as-most-powerful-model-with-risk-constraints">OpenAI Launches GPT-6 as Most Powerful Model with Risk Constraints</a>
-<p>OpenAI released GPT-6, its most powerful model to date, with safety constraints designed to mitigate risks.</p>
-</div>
-<div><a href="news/security/2026-09-03/#over-3-million-wordpress-sites-affected-by-migration-plugin-sql-injection-vulnerability">Over 3 Million WordPress sites affected by migration plugin SQL injection vulnerability</a>
-<p>A critical SQL injection vulnerability (CVE-2026-19949, CVSS 8.8) in the All-in-One WP Migration and Backup plugin affects over 3 million WordPress sites. Unauthenticated attackers can execute remote code by submitting trackbacks with malicious payloads, retrieving the archive restore secret key, and importing a crafted archive containing a malicious plugin. The flaw was patched in version 7.110 on August 20, 2026.</p>
-</div>
-<div><a href="news/tech/2026-09-03/#nvidia-to-acquire-hugging-face-for-129-billion">Nvidia to acquire Hugging Face for $12.9 billion</a>
-<p>Nvidia announced the acquisition of Hugging Face, the open-source AI model hub, for $13 billion, with plans to keep it open.</p>
-</div>
-<div><a href="news/world/2026-09-03/#iran-strikes-kuwait-president-of-the-united-states-predicts-quick-resolution">Iran strikes Kuwait; president of the United States predicts quick resolution</a>
-<p>Iran launched strikes on Kuwait as the president of the United States stated that renewed Middle East hostilities will not last &#x27;too long&#x27;.</p>
-</div>
-<div><a href="news/world/2026-09-03/#iran-launches-missile-and-drone-attacks-on-kuwait-after-us-strikes">Iran launches missile and drone attacks on Kuwait after U.S. strikes</a>
-<p>Iran conducted attacks on Kuwait using missiles and drones in retaliation for U.S. military strikes against Iranian positions.</p>
-</div>
-<div><a href="news/world/2026-09-03/#iran-launches-strikes-on-us-bases-and-kuwait-as-regional-tensions-escalate">Iran launches strikes on US bases and Kuwait as regional tensions escalate</a>
-<p>Iran has targeted US bases and launched attacks on Kuwait following US military strikes, amid warnings that sanctions could drive Tehran to escalatory action.</p>
-</div>
-<div><a href="news/anthropic/2026-09-03/#anthropic-secures-350-megawatts-of-texas-compute-capacity-via-35-billion-lambda-deal">Anthropic secures 350 megawatts of Texas compute capacity via $35 billion Lambda deal</a>
-<p>Anthropic locked in a $35 billion agreement with Lambda for 350 megawatts of compute capacity in Texas to support AI training operations.</p>
-</div>
-<div><a href="news/climate-change/2026-09-03/#tumor-derived-antioxidants-suppress-immunity-by-depriving-t-cells-of-reactive-oxygen-species">Tumor-derived antioxidants suppress immunity by depriving T cells of reactive oxygen species</a>
-<p>Research published in Science reveals that tumors produce antioxidants that suppress T cell-mediated immunity by reducing reactive oxygen species.</p>
-</div>
-<div><a href="news/gpt/2026-09-03/#multiple-major-ai-model-releases-gpt-6-anthropic-meta-and-google-models">Multiple Major AI Model Releases: GPT-6, Anthropic, Meta, and Google Models</a>
-<p>Multiple technology companies including OpenAI, Anthropic, Meta, and Google released significant new AI models this week.</p>
-</div>
-<div><a href="news/science/2026-09-03/#star-formation-collapse-puzzles-astronomers-despite-abundant-hydrogen-supply">Star Formation Collapse Puzzles Astronomers Despite Abundant Hydrogen Supply</a>
-<p>Using China&#x27;s FAST telescope and DESI data from 2.5 million galaxies, astronomers found that star formation has declined to half its level from 4.5 billion years ago, while neutral hydrogen supplies have decreased only modestly by 1.4 times. The dramatic mismatch suggests factors beyond hydrogen depletion suppress star formation.</p>
-</div>
-<div><a href="news/science/2026-09-03/#fruit-fly-connectome-completion-reshapes-neuroscience-approaches">Fruit fly connectome completion reshapes neuroscience approaches</a>
-<p>Researchers at HHMI&#x27;s Janelia Campus completed a comprehensive map of all neurons in the fruit fly brain, fundamentally transforming neuroscience methodology.</p>
-</div>
-<div><a href="news/science/2026-09-03/#un-warns-el-nino-could-be-strongest-in-four-decades">UN Warns El Niño Could Be Strongest in Four Decades</a>
-<p>The UN&#x27;s climate agency warned that El Niño is forecast to be the strongest since comparable records began four decades ago, putting the world in the &quot;danger zone of extreme weather.&quot;</p>
-</div>
-<div><a href="news/science/2026-09-03/#physicists-confirm-einsteins-equivalence-principle-holds-at-quantum-scales">Physicists confirm Einstein&#x27;s equivalence principle holds at quantum scales</a>
-<p>Physicists have experimentally proven that Einstein&#x27;s equivalence principle, a 100-year-old prediction from general relativity, remains valid even at quantum mechanical scales.</p>
-</div>
-<div><a href="news/security/2026-09-03/#cisa-adds-seven-actively-exploited-vulnerabilities-to-known-threats-catalog">CISA adds seven actively exploited vulnerabilities to known threats catalog</a>
-<p>CISA added seven actively exploited vulnerabilities to its Known Exploited Vulnerabilities catalog on September 3, including two CVSS 10.0 flaws in SonicWall and Kestra. Threat actors have deployed reverse shells, minted admin tokens, and chained vulnerabilities for remote code execution and ransomware deployment.</p>
-</div>
-<div><a href="news/security/2026-09-03/#153-million-driver-license-images-offered-on-dark-web">153 Million Driver License Images Offered on Dark Web</a>
-<p>Cybercriminals offered over 153 million digital scans of US and Canadian driver&#x27;s licenses on the dark web marketplace Nexus beginning September 3, 2026. The documents were likely stolen from IDScan.net, a Louisiana-based identity verification firm serving major brands across automotive, banking, fintech, gaming, and other sectors. IDScan.net performs over 21 million verifications monthly. The FBI launched an investigation after discovering stolen licenses belonging to agency personnel.</p>
-</div>
-<div><a href="news/security/2026-09-03/#cisco-warns-of-unpatched-smime-email-flaws-patches-critical-switch-vulnerabilities">Cisco warns of unpatched S/MIME email flaws; patches critical switch vulnerabilities</a>
-<p>Cisco disclosed two unpatched medium-severity S/MIME vulnerabilities (CVE-2026-20354, CVE-2026-20355) in Secure Email affecting AsyncOS version 16.5.0 and earlier, allowing man-in-the-middle attackers to intercept and modify encrypted communications. Cisco separately patched multiple critical-severity bugs in IOS XR and Nexus 9000 switches, including two IOS XR flaws with CVSS 9.8 scores and a Nexus bug allowing unauthenticated remote code execution with root privileges.</p>
-</div>
-<div><a href="news/security/2026-09-03/#critical-cisco-nexus-9000-flaw-allows-remote-code-execution">Critical Cisco Nexus 9000 Flaw Allows Remote Code Execution</a>
-<p>Cisco patched a critical vulnerability (CVE-2026-20212, CVSS 9.8) in 10 Silicon One-based Nexus 9000 switch models that allows unauthenticated remote attackers to execute code as root by connecting to TCP ports 43210 or 43211. Affected NX-OS releases span 10.3(1) through 10.6(3s), with mitigations including infrastructure ACLs, software updates, and a temporary Live Protect shield for supported models.</p>
-</div>
-</div>
