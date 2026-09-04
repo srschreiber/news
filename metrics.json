@@ -1,5 +1,102 @@
 [
   {
+    "timestamp": "2026-09-04T21:53:57.621436+00:00",
+    "mode": "daily",
+    "calls": 20,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 43214,
+        "output": 20838,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 2361,
+        "output": 988,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1547,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 5,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 25936,
+            "output": 19015,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.121
+      },
+      "(merge-check)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4369,
+            "output": 63,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0047
+      },
+      "(read)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 12909,
+            "output": 1760,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0217
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 2361,
+            "output": 988,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0073
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 64,
+      "Science Advances": 42,
+      "Phys.org": 18,
+      "Google News \u2014 World": 13,
+      "Hacker News (front page)": 9,
+      "Ars Technica": 6,
+      "Inside Climate News": 3,
+      "The Register": 3,
+      "The Verge": 2,
+      "Space.com": 2,
+      "Wired": 2,
+      "Google News \u2014 space": 2,
+      "TechCrunch": 1,
+      "STAT News": 1,
+      "Schneier on Security": 1,
+      "Engadget": 1,
+      "Google News \u2014 email security": 1,
+      "Live Science": 1,
+      "Microsoft Security Blog": 1,
+      "Google News \u2014 cybersecurity": 1
+    }
+  },
+  {
     "timestamp": "2026-09-04T18:37:54.182309+00:00",
     "mode": "daily",
     "calls": 25,

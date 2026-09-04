@@ -37,6 +37,42 @@
   },
   {
     "date": "2026-09-04",
+    "event_id": "star-trek-celebrates-60th-anniversary-with-fan-events-and-world-record-vulcan-salute",
+    "title": "Star Trek Celebrates 60th Anniversary with Fan Events and World Record Vulcan Salute",
+    "summary": "Star Trek marked its 60th anniversary with fan celebrations, special screenings, and a world record Vulcan salute attempt over Labor Day Weekend.",
+    "theme": "Entertainment",
+    "importance": 2.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Star Trek",
+      "60th anniversary",
+      "fan events"
+    ],
+    "url": "news/space/2026-09-04/#star-trek-celebrates-60th-anniversary-with-fan-events-and-world-record-vulcan-salute",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/entertainment/space-movies-shows/trekkies-honor-star-treks-60th-birthday-with-fan-events-special-screenings-and-a-world-record-vulcan-salute",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "star-trek-celebrates-60th-anniversary-with-fan-events-and-world-record-vulcan-salute",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
     "event_id": "five-free-llm-api-providers-available-in-2026",
     "title": "Five free LLM API providers available in 2026",
     "summary": "A guide identifies five free large language model API providers accessible to developers in 2026.",
@@ -368,43 +404,6 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "rescue-satellite-makes-approach-to-nasas-endangered-telescope-but-cannot-save-it",
-    "title": "Rescue satellite makes approach to NASA's endangered telescope but cannot save it",
-    "summary": "A rescue satellite successfully approached NASA's doomed telescope but was unable to recover or salvage the mission.",
-    "theme": "Space",
-    "importance": 5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "telescope",
-      "rescue satellite",
-      "space mission"
-    ],
-    "url": "news/space/2026-09-04/#rescue-satellite-makes-approach-to-nasas-endangered-telescope-but-cannot-save-it",
-    "sources": [
-      {
-        "label": "tribdem.com",
-        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNN19JeHc4LTF2RFozLW1uWUdGdEU1YjhPVWowQnRpRjBZWlZpWVhXSHowME1Bbjdhc1VaQjlLeHQ1NC1mcVZmdENqVS1EMjdoQkEwdDc2S2dpdi1mMmxkM1lKWTFWTTgyTk5VWnRGVEFKM1FtM0lrazAzNjZrdThaUjJMWmV0OWNpcGMyVWlMeWxXY2U2SXZhVlhuNjRzaElVdURsYkJoN09MWkI5eUsyYXpCNUNHeEUwblFaOUk1MFFvdzZrV09yWXNaZi1Jdi1Pak9fNENaYUJYZUJwSTVtcllHQ0xCVm55cFVFakJINzVuNlNwT1I0clYyVk8?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "rescue-satellite-makes-approach-to-nasas-endangered-telescope-but-cannot-save-it",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
     "event_id": "blue-origin-planning-game-changer-satellite-mission-before-human-mars-landing",
     "title": "Blue Origin planning 'game changer' satellite mission before human Mars landing",
     "summary": "Blue Origin announced plans to develop a transformative satellite project as a precursor to human Mars exploration.",
@@ -442,193 +441,73 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "dow-tumbles-280-points-on-jobs-data-and-rate-hike-expectations",
-    "title": "Dow tumbles 280 points on jobs data and rate hike expectations",
-    "summary": "U.S. equities slid after jobs data raised odds of a rate increase, with the Dow dropping 280 points and Treasury yields rising.",
-    "theme": "Markets",
+    "event_id": "securing-edge-ai-in-customer-owned-environments-requires-system-verification",
+    "title": "Securing Edge AI in Customer-Owned Environments Requires System Verification",
+    "summary": "Microsoft outlines security best practices for deploying AI in customer-owned environments, emphasizing verification of systems, software, and AI assets before exposing sensitive data and models.",
+    "theme": "Security",
     "importance": 5.5,
     "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Dow Jones",
-      "S&P 500",
-      "Nasdaq",
-      "interest rates",
-      "jobs data"
-    ],
-    "url": "news/markets/2026-09-04/#dow-tumbles-280-points-on-jobs-data-and-rate-hike-expectations",
-    "sources": [
-      {
-        "label": "MarketWatch",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc2IyY1RfVnpodThhamFUSERnTEw4bm9tU1BXUXUzX1I3SjNmal9ZTWdVT1dQMVZtYU9LQmY3dm5kLTRnWktrVFJBSWlVX2hKOFk1dWFjaV82dDlWaWFkd2RmUlBNQjUtcDhGeC1WWjNEbTNvQ01UWDRSR3cteENlRUVhWUh1eW1oWV93NzNmdW9XandyU0lyclM1bmxPeFVScnlraEdXZzFzN3VMYjlnNQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investor's Business Daily",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYkUyaVlUWHNXSGZvWXY0ZFVyMk1mZWxWVm8yVmR3MkI0cWNSNE9XV09MZmw2Wk5CNHV5Z0p5bENxU3pmMkc5MjhzMWN3M19SSnVmQVNKNEpQRGE5Uks3cW54a05FaFNUdVVLN3lnMDlyR1RiSXZpX2h6MER0aXBmQWJoLXV6bmxjeldhVV9DSlEtMG1Bc1JDZnJIZkdyQmo1X3c1WEdRLVRtR2JSa0VSdzNJWkFzZw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWRQcHZDQjlib0tUOEVEMFNXUE1oSjlYblhQU3E5VGg1ZU5NR0V1TnppSXl5ZXJlSm5FX0VYaTkwY0VNWVV0WU8wQVNkQmNQMUJVNkl3Zy1NVHRuVzg5bGpna2pEWGxWalBRWE9EN081RmI2RmljUkhxYl9lZktaeXpIMkJaaEFPd0hSc2p4MC1GVTFBYU9OOTY1cW56NS04?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "dow-tumbles-280-points-on-jobs-data-and-rate-hike-expectations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "bond-market-turmoil-may-increase-borrowing-costs-for-americans",
-    "title": "Bond market turmoil may increase borrowing costs for Americans",
-    "summary": "Disruptions in the bond market could lead to higher borrowing costs for consumers and businesses.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "bond market",
-      "interest rates",
-      "borrowing costs"
-    ],
-    "url": "news/markets/2026-09-04/#bond-market-turmoil-may-increase-borrowing-costs-for-americans",
-    "sources": [
-      {
-        "label": "Baltimore Sun",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQjFfU210SC05Uno1WWhfa1ZNcGlnV0l0ZTY0UWxQcmlpbXlJUGJ6V2xyZWkwS3lCdlBmekJ2VTNBYW5YZS1RckNlaDg5VlFaZWdvLU9sVks4OGk4MUNzMHAzR2tCRTJITWFETUgxb211ekNKZncycllReGViSHoxWGI3ZEFPTjVacU1lOFRKZU5COTdaT0xVN2VUclBqSVg0U3g1TVdXWWY3SUQ2UUF4Vi1IbUxsb2M0?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "bond-market-turmoil-may-increase-borrowing-costs-for-americans",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "goldman-sachs-sees-bond-markets-as-speed-limiter-for-stocks",
-    "title": "Goldman Sachs Sees Bond Markets as Speed Limiter for Stocks",
-    "summary": "Goldman Sachs identified bond markets as a potential constraint on stock market performance.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Goldman Sachs",
-      "bonds",
-      "stocks",
-      "market"
-    ],
-    "url": "news/markets/2026-09-04/#goldman-sachs-sees-bond-markets-as-speed-limiter-for-stocks",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOc1otUmFiN3R5UXZmelBLLUdTTEluQmpTRFp6TjlZSVNLeGJxU0JDMk1vOVdTeG5lUXRLeGo0NjlqRHVzY050Rzl4WEtianFqWks3N245T1lzbnJCZllvc09hQXdBeFZmVkQtRnlTZnBKSXNiUXRjZy1iSm1kc3BTb0Y2WmNjUzVPVy1CSHdZZVdXV2xKZ2JEc2ZaOHQyMkc1aWN2ZHRESGJfWnktRGREcElSWGt1LVZIM2RfUHZB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "goldman-sachs-sees-bond-markets-as-speed-limiter-for-stocks",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "stock-market-midday-update-stocks-edge-lower-after-strong-jobs-report",
-    "title": "Stock Market Midday Update: Stocks Edge Lower After Strong Jobs Report",
-    "summary": "Stock markets declined midday following a stronger-than-expected August jobs report, with Lululemon shares plummeting.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stocks",
-      "jobs report",
-      "Lululemon"
-    ],
-    "url": "news/markets/2026-09-04/#stock-market-midday-update-stocks-edge-lower-after-strong-jobs-report",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa0NxNTFQQVFKRmQtRmp0dV9JYk1QRDc3eWh0Ri11WTBRemRrWnkxcnR5MFp1N3dGUERJam15XzFLZkpjSUJqVFZwR1dfZTBiRUp0QnUyVmpkOVlTWEg5TGJSTS1lcTMydm9acThmTVNzemtYRjBrVWx0bWVJUVVucmtPekt5T3V0V0RPYjJ6Qml1QnhDY3c?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "stock-market-midday-update-stocks-edge-lower-after-strong-jobs-report",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "roland-launches-melody-flip-generative-ai-music-tool",
-    "title": "Roland launches Melody Flip generative AI music tool",
-    "summary": "Roland has introduced Melody Flip, a DAW plug-in offering AI-generated music through 250 themed palettes, marking the company's entry into generative music.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "tech"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Roland",
-      "generative AI",
-      "music production",
-      "Melody Flip"
+      "edge AI",
+      "security",
+      "verification",
+      "customer environments"
     ],
-    "url": "news/tech/2026-09-04/#roland-launches-melody-flip-generative-ai-music-tool",
+    "url": "news/email-security/2026-09-04/#securing-edge-ai-in-customer-owned-environments-requires-system-verification",
     "sources": [
       {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "roland-launches-melody-flip-generative-ai-music-tool",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "securing-edge-ai-in-customer-owned-environments-requires-system-verification",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "rescue-satellite-approaches-nasa-doomed-telescope-but-cannot-prevent-deorbiting",
+    "title": "Rescue Satellite Approaches NASA Doomed Telescope but Cannot Prevent Deorbiting",
+    "summary": "A rescue satellite successfully rendezvoused with NASA's malfunctioning telescope but was unable to prevent its eventual deorbit and destruction.",
+    "theme": "Space",
+    "importance": 5.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "satellite",
+      "rescue mission",
+      "deorbit"
+    ],
+    "url": "news/space/2026-09-04/#rescue-satellite-approaches-nasa-doomed-telescope-but-cannot-prevent-deorbiting",
+    "sources": [
+      {
+        "label": "The Tribune-Democrat",
+        "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNN19JeHc4LTF2RFozLW1uWUdGdEU1YjhPVWowQnRpRjBZWlZpWVhXSHowME1Bbjdhc1VaQjlLeHQ1NC1mcVZmdENqVS1EMjdoQkEwdDc2S2dpdi1mMmxkM1lKWTFWTTgyTk5VWnRGVEFKM1FtM0lrazAzNjZrdThaUjJMWmV0OWNpcGMyVWlMeWxXY2U2SXZhVlhuNjRzaElVdURsYkJoN09MWkI5eUsyYXpCNUNHeEUwblFaOUk1MFFvdzZrV09yWXNaZi1Jdi1Pak9fNENaYUJYZUJwSTVtcllHQ0xCVm55cFVFakJINzVuNlNwT1I0clYyVk8?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "rescue-satellite-approaches-nasa-doomed-telescope-but-cannot-prevent-deorbiting",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -784,43 +663,6 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "capacitor-supply-chain-bottleneck-becomes-major-ai-market-trade",
-    "title": "Capacitor Supply Chain Bottleneck Becomes Major AI Market Trade",
-    "summary": "Capacitor shortages are emerging as a significant supply chain constraint affecting AI infrastructure investments.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "capacitors",
-      "supply chain",
-      "AI",
-      "semiconductors"
-    ],
-    "url": "news/markets/2026-09-04/#capacitor-supply-chain-bottleneck-becomes-major-ai-market-trade",
-    "sources": [
-      {
-        "label": "CNBC",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5keDNFYjJjTXRyb3M4Z0RlREJfOUkwNjI5YU9JblhxS0tHbk9OZ3FIQzB2ZGt2OTdyMVB5d19SN1gzQ1ZrVW5qRlRsQzdCVi0xNHVSNGhLYlJ0aC1nNmhLNlJROFZ0TGNkd0R5Mm1B0gFzQVVfeXFMT0ItNkNNOUhWekhSVm8xcWt3SldSS3cyRUtOeVNINUFuakluX0tuREVGRXVsWkVWa2VnWWVpRjNfVXJlX3o5MXNYRDg2RUxMN1dPVnFoZ3I5QkVJaVBQdXIwTHRIWHhNMW5iaTF2elJjcFFraw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "capacitor-supply-chain-bottleneck-becomes-major-ai-market-trade",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
     "event_id": "us-adds-162000-jobs-in-august-exceeding-forecasts-with-mixed-market-implications",
     "title": "US adds 162,000 jobs in August, exceeding forecasts with mixed market implications",
     "summary": "The US economy added 162,000 jobs in August, surpassing economist estimates and creating ambiguous signals for the stock market.",
@@ -932,189 +774,6 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "stock-market-strength-creates-record-number-of-401k-millionaires",
-    "title": "Stock market strength creates record number of 401(k) millionaires",
-    "summary": "Rising stock market values have enabled a record number of 401(k) retirement account holders to reach millionaire status.",
-    "theme": "Markets",
-    "importance": 6,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "401(k)",
-      "millionaires",
-      "stock market",
-      "retirement"
-    ],
-    "url": "news/markets/2026-09-04/#stock-market-strength-creates-record-number-of-401k-millionaires",
-    "sources": [
-      {
-        "label": "cbsnews.com",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWnZudzRUdVVaVEprdWdiWVBETXJ2Q2NDckFya21UYVBLdUNGUlhEbDZULWR2bmZMbkpPdTlseG54S0xtTW1jNmd6SFhTZ2NRYUc2UUoyWEVmWDZfc1RWWDB4aVhzZmhheUdmaDc2Ym9ZdWpvSHJ5d0Jqa2s4Q2xHYkd5OGVOZnRETEE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "stock-market-strength-creates-record-number-of-401k-millionaires",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "stock-market-declines-on-anticipated-interest-rate-increases",
-    "title": "Stock market declines on anticipated interest rate increases",
-    "summary": "Stock prices have fallen amid investor concern that the Federal Reserve may raise interest rates in the near term.",
-    "theme": "Markets",
-    "importance": 6,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stocks",
-      "interest rates",
-      "Fed",
-      "market decline"
-    ],
-    "url": "news/markets/2026-09-04/#stock-market-declines-on-anticipated-interest-rate-increases",
-    "sources": [
-      {
-        "label": "WSJ",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOblF3XzVreFY1YV9DZTNjNVZKOGN3TVlFZHhEcnZuSDkwc1RKLUxxMWMzYU9qcUFpNjcxMEhUTTVpVkd4WTR5RmtYWDlvOEJtOGRtbnFTa1BsV1JyVUM1TEkyTnAzdDI0QUxqVkZyLVlaS2VtYXJhSFJfZ2NVLWt2cjFYMlFWUV80di0wWXhIYkpFVzNXTjhiRjdkLXpHT2xjQVZYV1g5LXVQT1ZSNC0tM0tsSkVBLUhybC0tbzVKREN3anBsVnhmelhIVEw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "stock-market-declines-on-anticipated-interest-rate-increases",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "scientists-urge-un-to-mandate-global-plastic-pollution-reporting",
-    "title": "Scientists urge UN to mandate global plastic pollution reporting",
-    "summary": "Researchers are calling on the United Nations to require comprehensive global reporting on plastic pollution as part of a new treaty.",
-    "theme": "Environment",
-    "importance": 6.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "plastic pollution",
-      "UN treaty",
-      "environmental policy"
-    ],
-    "url": "news/science/2026-09-04/#scientists-urge-un-to-mandate-global-plastic-pollution-reporting",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-solution-plastic-pollution-scientists-urge.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "scientists-urge-un-to-mandate-global-plastic-pollution-reporting",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "soft-crosslinking-strategy-makes-brittle-plastics-tougher",
-    "title": "'Soft Crosslinking' Strategy Makes Brittle Plastics Tougher",
-    "summary": "Researchers developed a soft crosslinking approach using ionic groups to overcome the brittleness of glassy polymers.",
-    "theme": "Materials Science",
-    "importance": 6.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "polymers",
-      "glassy plastics",
-      "crosslinking",
-      "ionic groups"
-    ],
-    "url": "news/science/2026-09-04/#soft-crosslinking-strategy-makes-brittle-plastics-tougher",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-soft-crosslinking-strategy-brittle-glassy.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "soft-crosslinking-strategy-makes-brittle-plastics-tougher",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "new-technique-captures-localized-protein-and-metabolic-information-from-tissue-sections",
-    "title": "New Technique Captures Localized Protein and Metabolic Information from Tissue Sections",
-    "summary": "Researchers developed a method to reveal localized protein and metabolite changes within specific tissue functional units.",
-    "theme": "Biology",
-    "importance": 6.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "proteomics",
-      "metabolomics",
-      "tissue analysis"
-    ],
-    "url": "news/science/2026-09-04/#new-technique-captures-localized-protein-and-metabolic-information-from-tissue-sections",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-capturing-localized-protein-metabolic-tissue.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "new-technique-captures-localized-protein-and-metabolic-information-from-tissue-sections",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
     "event_id": "astra-launches-cisa-cuts-programs-mckesson-breach-in-security-briefing",
     "title": "Astra launches, CISA cuts programs, McKesson breach in security briefing",
     "summary": "Recent developments include OpenAI's Astra launch, CISA program reductions, and a confirmed McKesson data breach.",
@@ -1183,81 +842,6 @@
     "researched": false,
     "received_at": "2026-09-04T18:37:54.182309+00:00",
     "lineage_id": "scientists-advance-understanding-of-how-stars-forge-life-forming-elements",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "microsoft-defends-copilot-in-copyright-lawsuit-claims-minimal-news-article-reproduction",
-    "title": "Microsoft defends Copilot in copyright lawsuit; claims minimal news article reproduction",
-    "summary": "Microsoft filed legal arguments stating its Copilot chatbot rarely reproduces full sentences from news articles and books in response to copyright claims from The New York Times and authors.",
-    "theme": "Tech",
-    "importance": 6,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "Copilot",
-      "copyright",
-      "New York Times",
-      "chatbot"
-    ],
-    "url": "news/tech/2026-09-04/#microsoft-defends-copilot-in-copyright-lawsuit-claims-minimal-news-article-reproduction",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "microsoft-defends-copilot-in-copyright-lawsuit-claims-minimal-news-article-reproduction",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-04",
-    "event_id": "corporate-america-increasingly-adopts-open-source-ai-models-over-proprietary-systems",
-    "title": "Corporate America increasingly adopts open-source AI models over proprietary systems",
-    "summary": "Major corporations are shifting toward open-source AI alternatives instead of relying exclusively on proprietary models from OpenAI and Anthropic.",
-    "theme": "AI",
-    "importance": 6,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "open-source AI",
-      "enterprise AI",
-      "OpenAI",
-      "Anthropic"
-    ],
-    "url": "news/tech/2026-09-04/#corporate-america-increasingly-adopts-open-source-ai-models-over-proprietary-systems",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "corporate-america-increasingly-adopts-open-source-ai-models-over-proprietary-systems",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1380,6 +964,119 @@
   },
   {
     "date": "2026-09-04",
+    "event_id": "real-time-heat-wave-monitoring-may-save-lives-in-emergency-rooms",
+    "title": "Real-Time Heat Wave Monitoring May Save Lives in Emergency Rooms",
+    "summary": "Emergency physicians are using real-time heat wave data to anticipate surges in heat-related illness such as dehydration and kidney problems.",
+    "theme": "Climate & Health",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "heat waves",
+      "emergency medicine",
+      "climate adaptation"
+    ],
+    "url": "news/climate-change/2026-09-04/#real-time-heat-wave-monitoring-may-save-lives-in-emergency-rooms",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/04092026/tracking-heat-in-real-time-could-help-doctors/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "real-time-heat-wave-monitoring-may-save-lives-in-emergency-rooms",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "topological-robotic-metamaterials-enable-active-control-of-elastic-wave-propagation-via-landau-levels",
+    "title": "Topological robotic metamaterials enable active control of elastic wave propagation via Landau levels",
+    "summary": "Robotic metamaterials exploit topological Landau level physics to actively manipulate elastic wave behavior.",
+    "theme": "Materials & Physics",
+    "importance": 6.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "topological metamaterials",
+      "Landau levels",
+      "elastic waves",
+      "robotic systems"
+    ],
+    "url": "news/conservation/2026-09-04/#topological-robotic-metamaterials-enable-active-control-of-elastic-wave-propagation-via-landau-levels",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec6487?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "topological-robotic-metamaterials-enable-active-control-of-elastic-wave-propagation-via-landau-levels",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "lithium-metal-silicon-oxide-hybrid-anode-enables-dual-platingalloying-energy-storage-mechanism",
+    "title": "Lithium metal-silicon oxide hybrid anode enables dual plating/alloying energy storage mechanism",
+    "summary": "A novel Li metal-SiOx anode harnesses synergistic lithium plating and alloying to improve battery storage capacity.",
+    "theme": "Battery Technology",
+    "importance": 6.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "lithium metal anode",
+      "silicon oxide hybrid",
+      "battery storage",
+      "energy density"
+    ],
+    "url": "news/conservation/2026-09-04/#lithium-metal-silicon-oxide-hybrid-anode-enables-dual-platingalloying-energy-storage-mechanism",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aea3247?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "lithium-metal-silicon-oxide-hybrid-anode-enables-dual-platingalloying-energy-storage-mechanism",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
     "event_id": "elastic-integrates-openai-gpt-cybersecurity-models",
     "title": "Elastic integrates OpenAI GPT cybersecurity models",
     "summary": "Elastic Security will incorporate OpenAI's GPT-based cybersecurity models into its platform.",
@@ -1489,6 +1186,156 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "tesla-stock-falls-following-cybercab-launch-disappointment",
+    "title": "Tesla Stock Falls Following Cybercab Launch Disappointment",
+    "summary": "Tesla shares declined after investors reacted negatively to the company's Cybercab launch event.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Tesla",
+      "Cybercab",
+      "stock"
+    ],
+    "url": "news/markets/2026-09-04/#tesla-stock-falls-following-cybercab-launch-disappointment",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORlR0TTRpT2s3dXNZX2NzS2hsdlFlRFE1R3BtSm9MSVUtSm1wd0RIMUZwbUpvUVllMS1sTi13M3lyVVB2UzN5bDlqbENMN1FrWHRUX3o0YU5YMXY5cE1wMnE2VTNYeHFra19BNmRzOGR3am5mSF9MTjQxTEhHUk1HUi1vaFZSVmRjTjVJOFRUQmQwSmpSSHgwUTlrWUFtOXZEbnV0SmM1TkotZnRJYUdRRThJeWQyOEcwR0h6QmxQdHM0YmdvOFhhZDIyTUdzclp4X3VRUU1IS0o3UQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUZPUlRFT0hIV3RXUnpuZ3p2clVvWjB1NENmR0lkWi0zU3JnZllBckJvYUJVSzZKS202cEZnTTFtRTNwMEJGM291Nzc3NERDTWpLbzZzSDZmYXVMajFKQXRnUy1SaUpTOHBSMVdXWkpiN1BUcUp2UXZubGxpZDMta3NOaHpUd2FMRXBJYUVaRXc4UDlZ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "tesla-stock-falls-following-cybercab-launch-disappointment",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "lululemon-stock-plummets-17-after-guidance-cut",
+    "title": "Lululemon Stock Plummets 17% After Guidance Cut",
+    "summary": "Lululemon shares dropped 17% after the company significantly reduced its forward guidance.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Lululemon",
+      "guidance",
+      "stock"
+    ],
+    "url": "news/markets/2026-09-04/#lululemon-stock-plummets-17-after-guidance-cut",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeTdjS1ZXS250N0J1ZVBCTnA2VDlPYm0tWWdiZnFqbjQ2cm90VzllZGFLSUdMMTFHQ3J5OFlZR1kxT1ZNYkR1ODNrLWVuZFhWRDhfalZxcS1GSjg0X1lGSnBWemx0cnVIcDkxbWpFUG4ydTI2QzJGS3pMQVhla3Y1WHF2M1I3ckFRRFBXdWxDaVR5WVM1U252cW1oa05pQy1tdUZzMU1DdkZXWmE0VXZQVTJGdFVQVUstNFZhYnRBYUZReXVxZnF3a0x4YmQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "lululemon-stock-plummets-17-after-guidance-cut",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "stock-market-falls-300-points-as-strong-jobs-report-raises-rate-hike-expectations",
+    "title": "Stock Market Falls 300 Points as Strong Jobs Report Raises Rate Hike Expectations",
+    "summary": "The Dow fell 300 points after a stronger-than-expected employment report raised expectations for Federal Reserve rate hikes.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Dow Jones",
+      "jobs report",
+      "Fed rate hike",
+      "market decline"
+    ],
+    "url": "news/markets/2026-09-04/#stock-market-falls-300-points-as-strong-jobs-report-raises-rate-hike-expectations",
+    "sources": [
+      {
+        "label": "cnbc.com",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mNWp4VDc2ak1DN1JLX3cteTNHNlZVVFhrbl9tajVGNEpTSTR6bm9rWDJDcW5GbVhLQmktLWhqdUpMb0Q4Z1hhdW9LcjNGVk5kQkJkX29EUUFGWGI5VVhhN1Z0azc1WjlnMERMd3FDLUFVNzFLMHA40gF8QVVfeXFMTVVoemFpTmFxdjFvOGJsc1pRYk95LWh4R1VoNGdvNno4aG9SNmphZnVWTExaaGhIUnpra0ZtUUNMVXVWYWhHUUg0RUJ5OTA0OVVsb2YtZXp5Qno0TlVrd29Gd2lKVXhjU2prMkpFMnpkM2xacFRpTzVNMWJiNA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "stock-market-falls-300-points-as-strong-jobs-report-raises-rate-hike-expectations",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "capacitor-supply-chain-bottleneck-emerges-as-major-ai-market-factor",
+    "title": "Capacitor Supply Chain Bottleneck Emerges as Major AI Market Factor",
+    "summary": "Semiconductor capacitor supply constraints are becoming an increasingly significant bottleneck affecting AI hardware availability and pricing.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "capacitors",
+      "supply chain",
+      "AI hardware"
+    ],
+    "url": "news/markets/2026-09-04/#capacitor-supply-chain-bottleneck-emerges-as-major-ai-market-factor",
+    "sources": [
+      {
+        "label": "cnbc.com",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5keDNFYjJjTXRyb3M4Z0RlREJfOUkwNjI5YU9JblhxS0tHbk9OZ3FIQzB2ZGt2OTdyMVB5d19SN1gzQ1ZrVW5qRlRsQzdCVi0xNHVSNGhLYlJ0aC1nNmhLNlJROFZ0TGNkd0R5Mm1B0gFzQVVfeXFMT0ItNkNNOUhWekhSVm8xcWt3SldSS3cyRUtOeVNINUFuakluX0tuREVGRXVsWkVWa2VnWWVpRjNfVXJlX3o5MXNYRDg2RUxMN1dPVnFoZ3I5QkVJaVBQdXIwTHRIWHhNMW5iaTF2elJjcFFraw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "capacitor-supply-chain-bottleneck-becomes-major-ai-market-trade",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Capacitor Supply Chain Bottleneck Becomes Major AI Market Trade",
+    "updates_url": "news/markets/2026-09-04/#capacitor-supply-chain-bottleneck-becomes-major-ai-market-trade"
   },
   {
     "date": "2026-09-04",
@@ -1638,37 +1485,80 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "climate-change-increasingly-altering-european-bumblebee-habitats-since-the-1980s",
-    "title": "Climate change increasingly altering European bumblebee habitats since the 1980s",
-    "summary": "A study documents how climate change has progressively transformed European bumblebee habitats over the past four decades.",
-    "theme": "Climate & Conservation",
-    "importance": 6.5,
+    "event_id": "new-mexico-bans-uranium-leasing-on-state-lands",
+    "title": "New Mexico Bans Uranium Leasing on State Lands",
+    "summary": "New Mexico's State Land Commissioner issued an executive order on September 4, 2026, banning new uranium mining leases on state-owned lands. The move contrasts sharply with the federal administration's push to revive domestic uranium production and fast-track mining on federal lands.",
+    "theme": "Policy",
+    "importance": 7,
     "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
       "science"
     ],
+    "primary_feed": "environment",
+    "keywords": [
+      "uranium",
+      "New Mexico",
+      "mining",
+      "nuclear energy"
+    ],
+    "url": "news/climate-change/2026-09-04/#new-mexico-bans-uranium-leasing-on-state-lands",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/04092026/new-mexico-bans-uranium-leasing/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Ban signed September 4, 2026 by State Land Commissioner Stephanie Garcia Richard",
+      "Applies to future leasing; state currently has two active leases but no active mines",
+      "New Mexico is nation's largest historic uranium producer; home to hundreds of abandoned mines",
+      "Trump administration simultaneously fast-tracking uranium mining on federal lands and national forests"
+    ],
+    "researched": true,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "new-mexico-bans-uranium-leasing-on-state-lands",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "gipr-genetic-variation-affects-body-weight-and-glycemic-control-through-functional-differences",
+    "title": "GIPR genetic variation affects body weight and glycemic control through functional differences",
+    "summary": "A study demonstrates that genetic variation in the GIP receptor gene influences glucose regulation and weight control through differential surface expression and intrinsic function.",
+    "theme": "Health",
+    "importance": 7,
+    "topics": [
+      "conservation"
+    ],
     "feeds": [
+      "environment",
       "science"
     ],
-    "primary_feed": "science",
+    "primary_feed": "environment",
     "keywords": [
-      "bumblebees",
-      "habitat loss",
-      "climate change",
-      "Europe",
-      "biodiversity"
+      "GIPR",
+      "genetics",
+      "glucose metabolism",
+      "body weight"
     ],
-    "url": "news/science/2026-09-04/#climate-change-increasingly-altering-european-bumblebee-habitats-since-the-1980s",
+    "url": "news/conservation/2026-09-04/#gipr-genetic-variation-affects-body-weight-and-glycemic-control-through-functional-differences",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-1980s-climate-european-bumblebee-habitats.html",
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec3372?af=R",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "climate-change-increasingly-altering-european-bumblebee-habitats-since-the-1980s",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "gipr-genetic-variation-affects-body-weight-and-glycemic-control-through-functional-differences",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1676,37 +1566,38 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "georgi-gerganov-comments-on-llamacpp-future-after-nvidia-acquires-huggingface",
-    "title": "Georgi Gerganov Comments on llama.cpp Future After Nvidia Acquires HuggingFace",
-    "summary": "The creator of llama.cpp addressed the future of the project following Nvidia's acquisition of HuggingFace.",
-    "theme": "AI",
-    "importance": 6.5,
+    "event_id": "somatic-mitochondrial-mutations-trigger-immune-response-and-drive-heart-failure-progression",
+    "title": "Somatic mitochondrial mutations trigger immune response and drive heart failure progression",
+    "summary": "Somatic mutations in mitochondrial DNA within cardiomyocytes activate immune-dependent mechanisms that promote progressive heart failure.",
+    "theme": "Health",
+    "importance": 7,
     "topics": [
-      "tech"
+      "conservation"
     ],
     "feeds": [
-      "technology"
+      "environment",
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "environment",
     "keywords": [
-      "llama.cpp",
-      "ggml",
-      "Nvidia",
-      "HuggingFace",
-      "Georgi Gerganov"
+      "mitochondria",
+      "cardiomyocyte",
+      "mtDNA",
+      "heart failure",
+      "immune"
     ],
-    "url": "news/tech/2026-09-04/#georgi-gerganov-comments-on-llamacpp-future-after-nvidia-acquires-huggingface",
+    "url": "news/conservation/2026-09-04/#somatic-mitochondrial-mutations-trigger-immune-response-and-drive-heart-failure-progression",
     "sources": [
       {
-        "label": "Hacker News (front page)",
-        "url": "https://twitter.com/ggerganov/status/2095897173376618881",
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aec8606?af=R",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "georgi-gerganov-comments-on-llamacpp-future-after-nvidia-acquires-huggingface",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "somatic-mitochondrial-mutations-trigger-immune-response-and-drive-heart-failure-progression",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1714,36 +1605,37 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "project-hydrafusion-multi-model-orchestration-for-frontier-quality",
-    "title": "Project HydraFusion: Multi-Model Orchestration for Frontier Quality",
-    "summary": "GitHub announced Project HydraFusion, which combines multiple AI models to achieve frontier-level performance.",
-    "theme": "AI",
-    "importance": 6.5,
+    "event_id": "elastic-quantum-coupling-observed-between-free-electrons-and-photons",
+    "title": "Elastic quantum coupling observed between free electrons and photons",
+    "summary": "Researchers demonstrate elastic quantum interactions between free electrons and photons, opening new physics applications.",
+    "theme": "Physics",
+    "importance": 7,
     "topics": [
-      "tech"
+      "conservation"
     ],
     "feeds": [
-      "technology"
+      "environment",
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "environment",
     "keywords": [
-      "GitHub",
-      "HydraFusion",
-      "multi-model",
-      "orchestration"
+      "quantum mechanics",
+      "electrons",
+      "photons",
+      "coupling"
     ],
-    "url": "news/tech/2026-09-04/#project-hydrafusion-multi-model-orchestration-for-frontier-quality",
+    "url": "news/conservation/2026-09-04/#elastic-quantum-coupling-observed-between-free-electrons-and-photons",
     "sources": [
       {
-        "label": "Hacker News (front page)",
-        "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aed3278?af=R",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "project-hydrafusion-multi-model-orchestration-for-frontier-quality",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "elastic-quantum-coupling-observed-between-free-electrons-and-photons",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1751,36 +1643,75 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "anthropics-2-trillion-ipo-highlights-role-of-external-trustees",
-    "title": "Anthropic's $2 Trillion IPO Highlights Role of External Trustees",
-    "summary": "Anthropic's anticipated public offering will intensify scrutiny of its unusual governance structure with powerful external trustees balancing profit and purpose.",
-    "theme": "Funding",
-    "importance": 6.5,
+    "event_id": "chlorophyll--and-carotenoid-protein-complexes-co-assembled-de-novo-in-yeast",
+    "title": "Chlorophyll- and carotenoid-protein complexes co-assembled de novo in yeast",
+    "summary": "Researchers engineer functional photosynthetic light-harvesting complexes from scratch in baker's yeast through de novo protein coassembly.",
+    "theme": "Biotechnology",
+    "importance": 7,
     "topics": [
-      "tech"
+      "conservation"
     ],
     "feeds": [
-      "technology"
+      "environment",
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "environment",
     "keywords": [
-      "Anthropic",
-      "IPO",
-      "Claude",
-      "governance"
+      "photosynthesis",
+      "light-harvesting",
+      "synthetic biology",
+      "yeast"
     ],
-    "url": "news/tech/2026-09-04/#anthropics-2-trillion-ipo-highlights-role-of-external-trustees",
+    "url": "news/conservation/2026-09-04/#chlorophyll--and-carotenoid-protein-complexes-co-assembled-de-novo-in-yeast",
     "sources": [
       {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aeg6969?af=R",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "anthropics-2-trillion-ipo-highlights-role-of-external-trustees",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "chlorophyll--and-carotenoid-protein-complexes-co-assembled-de-novo-in-yeast",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "cdk819-inhibitors-discovered-via-formal-synthesis-of-cortistatin-a-for-il-6dependent-lymphoma-treatment",
+    "title": "CDK8/19 inhibitors discovered via formal synthesis of cortistatin A for IL-6–dependent lymphoma treatment",
+    "summary": "Formal synthesis of cortistatin A yields CDK8/19 inhibitor lead compounds for treating IL-6–dependent lymphomas.",
+    "theme": "Drug Discovery",
+    "importance": 7.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "CDK8/19 inhibitors",
+      "cortistatin A",
+      "IL-6 lymphoma",
+      "targeted therapy"
+    ],
+    "url": "news/conservation/2026-09-04/#cdk819-inhibitors-discovered-via-formal-synthesis-of-cortistatin-a-for-il-6dependent-lymphoma-treatment",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aeg8852?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "cdk819-inhibitors-discovered-via-formal-synthesis-of-cortistatin-a-for-il-6dependent-lymphoma-treatment",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1830,6 +1761,43 @@
     "related_url": "",
     "updates_title": "Unicode smuggling technique adapted for email phishing evasion",
     "updates_url": "news/email-security/2026-09-03/#unicode-smuggling-technique-adapted-for-email-phishing-evasion"
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "ascii-smuggling-technique-bypasses-email-phishing-filters-microsoft-warns",
+    "title": "ASCII smuggling technique bypasses email phishing filters, Microsoft warns",
+    "summary": "Microsoft warns that attackers are using ASCII smuggling tactics to evade email phishing detection filters.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "email security",
+      "phishing",
+      "ASCII smuggling",
+      "Microsoft"
+    ],
+    "url": "news/email-security/2026-09-04/#ascii-smuggling-technique-bypasses-email-phishing-filters-microsoft-warns",
+    "sources": [
+      {
+        "label": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPV29HRElweEFNMEVVeEhFTU4yOWpsTWtIcVItbWdDRHZkbWRzdmFwZ2lCMWV4VlpHRkNqTnNWMGtJZ1BFRnJ2eDBubFl0bjZJdkhjbFByY1FVcnFwS2kyLUotbEhKU1l5RXgtV0VVMHRYOGppUUlycl9nZElZQlNjbU1HclVZTGw4cUFEWVZTUWdKSzNkS0lhUVR3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "ascii-smuggling-technique-bypasses-email-phishing-filters-microsoft-warns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-04",
@@ -2001,6 +1969,43 @@
   },
   {
     "date": "2026-09-04",
+    "event_id": "stock-market-slides-after-strong-jobs-report-president-threatens-trade-action",
+    "title": "Stock Market Slides After Strong Jobs Report; President Threatens Trade Action",
+    "summary": "Markets declined following a stronger-than-expected jobs report, with the president of the United States making trade threats as inflation data approaches.",
+    "theme": "Markets",
+    "importance": 7,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "employment",
+      "trade policy",
+      "CPI",
+      "stock market"
+    ],
+    "url": "news/markets/2026-09-04/#stock-market-slides-after-strong-jobs-report-president-threatens-trade-action",
+    "sources": [
+      {
+        "label": "Investor's Business Daily",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQU05VRFBfNUtJV2VIcFQtNTkzZ1FoeWRDa3JkWlVEZXZrbUVtamFyS0gxM3p3RlgzUXpXRGN2RmdKVVh3eFQxalN5VlZHZ1NPTlZ4TmpqTkRGSlBYWVN3WjROcE1jUmhfNUdpc085TGMxOVprbndSY01KZDdKY3NvTlhEYU5OZHg4TzJTRVVMVHhQa1RwcG1ZQ1ZsVGtwWXZoakpOejVXcGlZYUlJNVE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "stock-market-slides-after-strong-jobs-report-president-threatens-trade-action",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
     "event_id": "global-warming-trajectory-exceeds-15c-target-un-climate-talks-planned",
     "title": "Global warming trajectory exceeds 1.5°C target; UN climate talks planned",
     "summary": "World climate projections indicate warming will exceed the 1.5°C target, prompting upcoming UN climate negotiations in the Pacific and Turkey.",
@@ -2068,6 +2073,80 @@
     "researched": false,
     "received_at": "2026-09-04T18:37:54.182309+00:00",
     "lineage_id": "record-european-wildfires-burn-540000-hectares-during-summer-2026",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "screening-suppresses-superconductivity-in-magic-angle-graphene",
+    "title": "Screening Suppresses Superconductivity in Magic-Angle Graphene",
+    "summary": "Researchers suppressed superconductivity in magic-angle graphene by screening electron interactions, resolving debate about the phenomenon's origin.",
+    "theme": "Science",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "graphene",
+      "superconductivity",
+      "condensed matter physics"
+    ],
+    "url": "news/science/2026-09-04/#screening-suppresses-superconductivity-in-magic-angle-graphene",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-magic-angle-graphene-evidence-unconventional.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "screening-suppresses-superconductivity-in-magic-angle-graphene",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "blue-origin-new-glenn-rocket-explosion-sent-infrasonic-waves-across-north-america",
+    "title": "Blue Origin New Glenn Rocket Explosion Sent Infrasonic Waves Across North America",
+    "summary": "The May New Glenn rocket explosion at Cape Canaveral released ultra-low-frequency sound waves that traveled 1,000 miles to Texas, with energy equivalent to the 1986 Chernobyl reactor explosion.",
+    "theme": "Space",
+    "importance": 7.0,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Blue Origin",
+      "New Glenn",
+      "rocket explosion",
+      "Cape Canaveral",
+      "infrasound"
+    ],
+    "url": "news/science/2026-09-04/#blue-origin-new-glenn-rocket-explosion-sent-infrasonic-waves-across-north-america",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/space/space-exploration/blue-origin-rocket-explosion-sent-sound-waves-1-000-miles-across-the-us-report-finds",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "blue-origin-new-glenn-rocket-explosion-sent-infrasonic-waves-across-north-america",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2220,12 +2299,49 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
     "lineage_id": "sonicwall-warns-of-two-active-zero-day-vulnerabilities-in-sma1000-appliances",
     "related_title": "",
     "related_url": "",
     "updates_title": "SonicWall SMA 1000 Critical Zero-Day Enables Unauthenticated Remote Compromise",
     "updates_url": "news/security/2026-09-03/#sonicwall-sma-1000-critical-zero-day-enables-unauthenticated-remote-compromise"
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "blue-origin-awarded-700-million-nasa-contract-for-mars-telecom-orbiter",
+    "title": "Blue Origin Awarded $700 Million NASA Contract for Mars Telecom Orbiter",
+    "summary": "NASA selected Blue Origin to build a Mars telecommunications orbiter satellite in a $700 million contract.",
+    "theme": "Space",
+    "importance": 7.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Blue Origin",
+      "NASA",
+      "Mars",
+      "telecommunications orbiter"
+    ],
+    "url": "news/space/2026-09-04/#blue-origin-awarded-700-million-nasa-contract-for-mars-telecom-orbiter",
+    "sources": [
+      {
+        "label": "Thomasnet",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9aV09FMFhObGo4dktwcDNGWTM1bjZIdFJDU0N2NXNZZVRfN2Nma1BRUTRmbUJyTWJNbEl3U3Ruc1BCcV9GVUp4SnlkdFcwYThHelFuOEY4OFNwcDBSbzZvZHBQeU5ZSWtpMTQwYXdqQmQxUkxXNl9lWWstMDhodw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "blue-origin-wins-nasa-contract-for-mars-telecommunications-orbiter",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Blue Origin Wins NASA Contract for Mars Telecommunications Orbiter",
+    "updates_url": "news/space/2026-09-02/#blue-origin-wins-nasa-contract-for-mars-telecommunications-orbiter"
   },
   {
     "date": "2026-09-04",
@@ -2260,6 +2376,159 @@
     "researched": false,
     "received_at": "2026-09-04T18:37:54.182309+00:00",
     "lineage_id": "teslas-cybercab-launches-amid-federal-safety-investigation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "nscale-seeks-35b-in-pre-ipo-financing",
+    "title": "Nscale Seeks $3.5B in Pre-IPO Financing",
+    "summary": "AI infrastructure company Nscale is seeking $3.5 billion in pre-IPO financing, targeting an IPO as early as September 2026. The British firm recently secured a $45 billion deal with Anthropic and projects $103 billion in revenue from signed customer leases.",
+    "theme": "Funding",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Nscale",
+      "Anthropic",
+      "IPO",
+      "AI infrastructure"
+    ],
+    "url": "news/tech/2026-09-04/#nscale-seeks-35b-in-pre-ipo-financing",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Seeking $1.5 billion in convertible notes and $2 billion from Nvidia",
+      "Recently signed $45 billion deal with Anthropic",
+      "Projected revenue of approximately $103 billion from signed customer leases",
+      "Series A (December 2024): $155 million; Series B (March 2026): $1.1 billion led by Aker"
+    ],
+    "researched": true,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "nscale-seeks-35b-in-pre-ipo-financing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "anthropic-develops-shopping-bots-for-autonomous-purchases",
+    "title": "Anthropic develops shopping bots for autonomous purchases",
+    "summary": "Anthropic is building AI bots capable of making purchases on behalf of customers, presenting a challenge in gaining trust from both buyers and merchants.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "AI agents",
+      "e-commerce",
+      "autonomous purchasing"
+    ],
+    "url": "news/tech/2026-09-04/#anthropic-develops-shopping-bots-for-autonomous-purchases",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/09/04/anthropic-lays-groundwork-for-bots-that-shop-for-you/5294621",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "anthropic-develops-shopping-bots-for-autonomous-purchases",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "amd-threadripper-halo-combines-local-ai-with-extreme-memory-bandwidth",
+    "title": "AMD Threadripper Halo combines local AI with extreme memory bandwidth",
+    "summary": "AMD's new Threadripper Halo workstation packs up to 576 GB of HBM3e memory and 16 TB/s bandwidth for researchers running AI models locally.",
+    "theme": "Hardware",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AMD",
+      "Threadripper",
+      "AI workstations",
+      "HBM3e"
+    ],
+    "url": "news/tech/2026-09-04/#amd-threadripper-halo-combines-local-ai-with-extreme-memory-bandwidth",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/on-prem/2026/09/04/amds-threadripper-halo-is-a-local-ai-workstation-for-researchers-with-deep-pockets/5294616",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "amd-threadripper-halo-combines-local-ai-with-extreme-memory-bandwidth",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "government-rails-site-exploited-within-hours-of-cve-patch-release",
+    "title": "Government Rails Site Exploited Within Hours of CVE Patch Release",
+    "summary": "A Ruby on Rails vulnerability was exploited against a government website just hours after a patch became available.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Ruby on Rails",
+      "CVE",
+      "zero-day exploitation",
+      "government"
+    ],
+    "url": "news/tech/2026-09-04/#government-rails-site-exploited-within-hours-of-cve-patch-release",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "government-rails-site-exploited-within-hours-of-cve-patch-release",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2307,7 +2576,7 @@
     "date": "2026-09-04",
     "event_id": "two-workers-rescued-alive-from-nepal-tunnel-over-a-week-after-deadly-floods",
     "title": "Two Workers Rescued Alive from Nepal Tunnel Over a Week After Deadly Floods",
-    "summary": "Rescue teams successfully extracted two workers alive from a flooded tunnel in Nepal more than seven days after catastrophic flooding.",
+    "summary": "Rescue teams extracted two workers alive from a hydropower plant tunnel in Nepal nine days after severe flooding trapped dozens inside.",
     "theme": "Disaster",
     "importance": 7.0,
     "topics": [
@@ -2320,8 +2589,10 @@
     "keywords": [
       "Nepal",
       "flood",
-      "tunnel rescue",
-      "rescue operation"
+      "hydropower plant",
+      "rescue",
+      "rescue operation",
+      "tunnel rescue"
     ],
     "url": "news/world/2026-09-04/#two-workers-rescued-alive-from-nepal-tunnel-over-a-week-after-deadly-floods",
     "sources": [
@@ -2329,11 +2600,16 @@
         "label": "NBC News",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOenZNaG5zUWlWb19wYVlQRXlXZ1ByekxiZW1NbHRRTkhnR1FBWnBTT0NnNTNjaWFfbjhPNnlzdlNlMjZDVGJncmZxbGV0bVFUQktBWVQ1b2hUUUF1aTR1dk1Uc1NrMDF5SmZCVk1FQmlyb0QwZ0ZQcll1ODJEUnF4ZTBuY0UzaWs5YVBRbjhMRGpPa25RRjcw?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9SQ1Z4Y0tBTWczN3dZTkh5dnAwbHZoUE5ucExVX0g1bUIyYmE3UEloZWhubTh0eVNIdXJkT2xMYWR1UmFxc19EMS16eWxYai1fcnFfNVN0NjRDYTRvaFAwcjhuWVp2ai1vUlVDWjRWelNEdlJtcmgwM3JscFhZZw?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
     "lineage_id": "two-workers-rescued-alive-from-nepal-tunnel-over-a-week-after-deadly-floods",
     "related_title": "",
     "related_url": "",
@@ -2342,37 +2618,43 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "us-and-allies-push-iaea-to-report-iran-nuclear-violations-to-un-security-council",
-    "title": "US and allies push IAEA to report Iran nuclear violations to UN Security Council",
-    "summary": "The US and allied nations pressured the IAEA board to refer Iran to the UN Security Council regarding nuclear program non-compliance.",
-    "theme": "World",
-    "importance": 7,
+    "event_id": "energy-transfer-challenges-pennsylvanias-clean-streams-law-following-jet-fuel-spill",
+    "title": "Energy Transfer Challenges Pennsylvania's Clean Streams Law Following Jet Fuel Spill",
+    "summary": "Energy Transfer filed a lawsuit in April 2026 challenging Pennsylvania's 89-year-old Clean Streams Law as unconstitutionally vague. The company faces a state criminal investigation over a jet fuel spill that contaminated drinking water in suburban Philadelphia, and argues the law's lack of a mens rea requirement violates due process.",
+    "theme": "Policy",
+    "importance": 7.5,
     "topics": [
-      "world"
+      "climate-change"
     ],
     "feeds": [
-      "world"
+      "environment",
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "environment",
     "keywords": [
-      "Iran",
-      "IAEA",
-      "nuclear",
-      "UN Security Council",
-      "diplomacy"
+      "Energy Transfer",
+      "jet fuel spill",
+      "Pennsylvania",
+      "Clean Streams Law",
+      "environmental regulation"
     ],
-    "url": "news/world/2026-09-04/#us-and-allies-push-iaea-to-report-iran-nuclear-violations-to-un-security-council",
+    "url": "news/climate-change/2026-09-04/#energy-transfer-challenges-pennsylvanias-clean-streams-law-following-jet-fuel-spill",
     "sources": [
       {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTWN6cU9lV0RMREdsVnRUZW1vS0tKZk9tZUJmMnFpTTdNM2c4c2J2bUtzOElSbjA2WnFCQzdZSnotczdsYnNPRWFLckFyV0EwNWg1akIyTFo4NDF4ODVMTnVSNnBjcWREd1Q4dWk3Q3FyWFkwMFdLbzY5YU9yLVkySDlEOGJBVktZQTJ1d2NJMkJSUGpKaks5dTNUb2xySnVBb3VGUUdILXZpaVZqeHVtcWR4Nm03M1oxNUFUNA?oc=5",
-        "origin": "rss"
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/04092026/energy-transfer-tries-to-weaken-pennsylvania-clean-water-law/",
+        "origin": "research"
       }
     ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "us-and-allies-push-iaea-to-report-iran-nuclear-violations-to-un-security-council",
+    "takeaways": [
+      "Jet fuel spill contaminated drinking water in suburban Philadelphia",
+      "Energy Transfer challenges constitutionality of Clean Streams Law due process clauses",
+      "Company argues law unconstitutionally vague because it lacks mens rea (guilty mind) requirement",
+      "No charges filed yet; company contends absence of intent requirement unfair"
+    ],
+    "researched": true,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "energy-transfer-challenges-pennsylvanias-clean-streams-law-following-jet-fuel-spill",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2380,36 +2662,38 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "iran-gains-confidence-after-six-months-of-escalating-us-tensions",
-    "title": "Iran gains confidence after six months of escalating U.S. tensions",
-    "summary": "Iran signals growing confidence amid six months of heightened military and economic tensions with the United States over the Strait of Hormuz.",
-    "theme": "Geopolitics",
-    "importance": 7,
+    "event_id": "mrna-delivered-il-2-variant-enhances-t-cell-antitumor-immunity-with-dual-cd25cd122-targeting",
+    "title": "mRNA-delivered IL-2 variant enhances T cell antitumor immunity with dual CD25/CD122 targeting",
+    "summary": "An affinity-tuned IL-2 variant delivered via mRNA prolongs immune activation and strengthens antitumor T cell responses.",
+    "theme": "Immunotherapy",
+    "importance": 7.5,
     "topics": [
-      "world"
+      "conservation"
     ],
     "feeds": [
-      "world"
+      "environment",
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "environment",
     "keywords": [
-      "Iran",
-      "United States",
-      "Strait of Hormuz",
-      "military escalation"
+      "mRNA delivery",
+      "IL-2 variant",
+      "CD25/CD122",
+      "T cell immunity",
+      "cancer immunotherapy"
     ],
-    "url": "news/world/2026-09-04/#iran-gains-confidence-after-six-months-of-escalating-us-tensions",
+    "url": "news/conservation/2026-09-04/#mrna-delivered-il-2-variant-enhances-t-cell-antitumor-immunity-with-dual-cd25cd122-targeting",
     "sources": [
       {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdGh6Z3ViZTAtdGRLRldNc3hwZmhwc2hXWjVyTElFMU9hdUZjRHk5UWtUUXVMT1Y0NmVGcEdvQ2FteGFzUi1zLVdhLS1wNDZZczhPS0tzVUxOMlJPQW9XeE9kUFgtQUl4SEJySkMwbk95Szh1UGNPdmlJaC02T1hiTWE1OE5EN1lT?oc=5",
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aeh9215?af=R",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "iran-gains-confidence-after-six-months-of-escalating-us-tensions",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "mrna-delivered-il-2-variant-enhances-t-cell-antitumor-immunity-with-dual-cd25cd122-targeting",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2417,37 +2701,37 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "israel-claims-clearance-of-hezbollah-fighters-from-lebanese-tunnel-network",
-    "title": "Israel claims clearance of Hezbollah fighters from Lebanese tunnel network",
-    "summary": "Israel announced it has cleared Hezbollah fighters from a tunnel system beneath a strategic ridge in southern Lebanon.",
-    "theme": "Middle East Conflict",
-    "importance": 7,
+    "event_id": "personalized-neoantigen-cancer-vaccines-show-robust-t-cell-responses-in-pancreatic-cancer-patients",
+    "title": "Personalized neoantigen cancer vaccines show robust T cell responses in pancreatic cancer patients",
+    "summary": "Synthetic long peptide and DNA vaccines targeting patient-specific neoantigens elicit strong immune responses in pancreatic cancer.",
+    "theme": "Immunotherapy",
+    "importance": 7.5,
     "topics": [
-      "world"
+      "conservation"
     ],
     "feeds": [
-      "world"
+      "environment",
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "environment",
     "keywords": [
-      "Israel",
-      "Hezbollah",
-      "Lebanon",
-      "military operation",
-      "tunnels"
+      "personalized cancer vaccine",
+      "neoantigen",
+      "pancreatic cancer",
+      "T cell response"
     ],
-    "url": "news/world/2026-09-04/#israel-claims-clearance-of-hezbollah-fighters-from-lebanese-tunnel-network",
+    "url": "news/conservation/2026-09-04/#personalized-neoantigen-cancer-vaccines-show-robust-t-cell-responses-in-pancreatic-cancer-patients",
     "sources": [
       {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?oc=5",
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aei1190?af=R",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "israel-claims-clearance-of-hezbollah-fighters-from-lebanese-tunnel-network",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "personalized-neoantigen-cancer-vaccines-show-robust-t-cell-responses-in-pancreatic-cancer-patients",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2455,37 +2739,40 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats",
-    "title": "Philippine court issues arrest warrant for Vice President Duterte over assassination threats",
-    "summary": "A Philippine court ordered the arrest of Vice President Sara Duterte for threatening to assassinate the president.",
-    "theme": "Politics",
-    "importance": 7,
+    "event_id": "novartis-cardiovascular-drug-fails-pivotal-study",
+    "title": "Novartis Cardiovascular Drug Fails Pivotal Study",
+    "summary": "Novartis announced September 4, 2026, that pelacarsen, an experimental cardiovascular drug, failed its pivotal Phase 3 HORIZON trial. Despite earlier success in lowering Lp(a) levels, the drug did not reduce cardiovascular death or acute cardiovascular events compared to placebo.",
+    "theme": "Healthcare",
+    "importance": 7.5,
     "topics": [
-      "world"
+      "health"
     ],
     "feeds": [
-      "world"
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "Philippines",
-      "VP Duterte",
-      "arrest warrant",
-      "assassination threats",
-      "President Marcos"
+      "Novartis",
+      "cardiovascular drug",
+      "clinical trial"
     ],
-    "url": "news/world/2026-09-04/#philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats",
+    "url": "news/health/2026-09-04/#novartis-cardiovascular-drug-fails-pivotal-study",
     "sources": [
       {
-        "label": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUTRaRmphci1iOWd4UXJSSHBkRWNjRWFUQ1RFTXFJay1sYWNyd3NSMDhIRzVWUDBQQVZaNUFUVno2N1JpUG1CRmc2ZWxJZGkwd3RJdjB0N1BtZHRuZnI2MTc5ejBMekMzaWp5cG5pVnY2VXhRSVhEQ1diM3VaQVRmMWRJWjRZa3gzUEdCeE1WaUJMRXZ1S2szUEx5Y1ItUU11aWZzemZ4SWlVRk1ObGRXRU13ZEzSAboBQVVfeXFMTTQxMm5KTDlPdi00dURNN2l0SHYyRXN1clZMamZZNTFnMnFXbTJXb2FUMlI5NjlJWTlWRlg5eWhXQlRIR3BYcnNGWXJkVXcxOWZ5RjBFLUJoTE9ZS0FMLWgta2pDMzlxOGNXcS0yOHlmOTJvR05LR09MTXRXWkNmSGpsaTJGaC1wU05HSHh4N2NXMkZwSXdIWFJlOHZ6T0Z2am9TTGJSNnNsNXZ0S2lMRFBCMnRObHEyRTR3?oc=5",
-        "origin": "rss"
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/",
+        "origin": "research"
       }
     ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats",
+    "takeaways": [
+      "Phase 3 HORIZON trial failed September 4, 2026",
+      "Earlier trials showed pelacarsen significantly lowered Lp(a), a lipid-protein linked to heart disease",
+      "Failed to reduce risk of cardiovascular death or acute events (heart attacks, stroke) vs. placebo",
+      "Competitors Amgen and Eli Lilly also developing Lp(a)-targeting therapies"
+    ],
+    "researched": true,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "novartis-cardiovascular-drug-fails-pivotal-study",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2493,37 +2780,36 @@
   },
   {
     "date": "2026-09-04",
-    "event_id": "ukrainian-official-outlines-path-toward-peace-negotiations-with-russia",
-    "title": "Ukrainian official outlines path toward peace negotiations with Russia",
-    "summary": "A senior Ukrainian official describes the government's vision for eventual peace talks and ceasefire negotiations with Russia.",
-    "theme": "Geopolitics",
-    "importance": 7,
+    "event_id": "president-of-the-united-states-threatens-trade-restrictions-unless-federal-reserve-cuts-rates",
+    "title": "President of the United States threatens trade restrictions unless Federal Reserve cuts rates",
+    "summary": "The president of the United States says he will cease trading with major partners unless the Federal Reserve lowers interest rates.",
+    "theme": "Policy",
+    "importance": 7.5,
     "topics": [
-      "world"
+      "markets"
     ],
     "feeds": [
       "world"
     ],
     "primary_feed": "world",
     "keywords": [
-      "Ukraine",
-      "Russia",
-      "ceasefire",
-      "peace talks",
-      "negotiations"
+      "Federal Reserve",
+      "interest rates",
+      "trade policy",
+      "tariffs"
     ],
-    "url": "news/world/2026-09-04/#ukrainian-official-outlines-path-toward-peace-negotiations-with-russia",
+    "url": "news/markets/2026-09-04/#president-of-the-united-states-threatens-trade-restrictions-unless-federal-reserve-cuts-rates",
     "sources": [
       {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWVdGMXJyQm8yWWZueG1rQktOSzkzX0ZQbmhrSkI1TWRZLU1pdkkxSzJLbGdsT1JhRjUwUkE3Q1R1TU9TODJrSTN0a1VqS1RUcWVBc1M0OHlmQ2ROb1RmdFItU3ppdGVsNlBRM3BlZDBfM29XeFA2ZU5zTVNDZS1jaEN0bWhqN0NLSmRuang4aXZjdw?oc=5",
+        "label": "CNN",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DR2V2VXJ0VlhJWnhaN1VmZTFPZWYyZGVfY3JuaTNaaDJuX3pWQ3Y3QXRlM0JiY1pjZmtfaGZlNHhCaDhkV3MwWlYxNkNfM3pjMWtja0c3QjJLRWNuV1RpMjd4VVg?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-04T18:37:54.182309+00:00",
-    "lineage_id": "ukrainian-official-outlines-path-toward-peace-negotiations-with-russia",
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "president-of-the-united-states-threatens-trade-restrictions-unless-federal-reserve-cuts-rates",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2571,6 +2857,117 @@
     "related_url": "",
     "updates_title": "Decade-old PostgreSQL vulnerability enables backup account backdoor access",
     "updates_url": "news/postgres/2026-09-03/#decade-old-postgresql-vulnerability-enables-backup-account-backdoor-access"
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "ai-tool-maps-hidden-universe-of-small-molecules",
+    "title": "AI Tool Maps Hidden Universe of Small Molecules",
+    "summary": "Researchers developed an AI tool to identify thousands of small molecules produced by the human body and gut microbiome that influence immunity and metabolism.",
+    "theme": "Science",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "AI",
+      "small molecules",
+      "microbiome",
+      "drug discovery"
+    ],
+    "url": "news/science/2026-09-04/#ai-tool-maps-hidden-universe-of-small-molecules",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-ai-tool-hidden-universe-small.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "ai-tool-maps-hidden-universe-of-small-molecules",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "el-nino-to-intensify-bringing-warmer-spring-to-australia-and-new-zealand",
+    "title": "El Niño to intensify, bringing warmer spring to Australia and New Zealand",
+    "summary": "The World Meteorological Organization warns that El Niño will intensify into a very strong event with major impacts on rainfall, temperature, and risks of floods and extreme heat in the Southern Hemisphere.",
+    "theme": "Climate",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "El Niño",
+      "weather patterns",
+      "Australia",
+      "New Zealand"
+    ],
+    "url": "news/science/2026-09-04/#el-nino-to-intensify-bringing-warmer-spring-to-australia-and-new-zealand",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-el-nio-warmer-nz-australia.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "el-nino-to-intensify-bringing-warmer-spring-to-australia-and-new-zealand",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "astronomers-detect-ancient-hydrogen-signals-from-billions-of-light-years-away",
+    "title": "Astronomers Detect Ancient Hydrogen Signals from Billions of Light-Years Away",
+    "summary": "Using the MeerKAT radio telescope, astronomers detected hydrogen gas from billions of light-years away, dating to when the universe was billions of years younger.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "MeerKAT",
+      "hydrogen",
+      "cosmology",
+      "radio astronomy"
+    ],
+    "url": "news/space/2026-09-04/#astronomers-detect-ancient-hydrogen-signals-from-billions-of-light-years-away",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/galaxies/scientists-detect-signals-of-hydrogen-from-billions-of-years-ago-could-this-help-us-map-out-the-universe",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "astronomers-detect-ancient-hydrogen-signals-from-billions-of-light-years-away",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-04",
@@ -2701,6 +3098,95 @@
   },
   {
     "date": "2026-09-04",
+    "event_id": "measles-death-of-6-week-old-confirmed-despite-vaccine-skeptics-denial",
+    "title": "Measles death of 6-week-old confirmed despite vaccine skeptic's denial",
+    "summary": "A 6-week-old infant in Pennsylvania died from measles on August 18, 2026, confirmed by county coroner Stephen Diamantoni. The death contradicts claims by anti-vaccine figures that the case was fabricated; the CDC director subsequently removed it from public-facing data despite internal confirmation.",
+    "theme": "Public Health",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "measles",
+      "vaccination",
+      "infant mortality",
+      "preventable disease"
+    ],
+    "url": "news/tech/2026-09-04/#measles-death-of-6-week-old-confirmed-despite-vaccine-skeptics-denial",
+    "sources": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Infant died August 18, 2026 in Lancaster, Pennsylvania",
+      "County coroner confirmed measles as cause of death",
+      "Anti-vaccine activist Robert F. Kennedy Jr., Health Secretary, claimed death was fabricated without evidence",
+      "CDC removed death from public measles count, marked only by asterisk"
+    ],
+    "researched": true,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "measles-death-of-6-week-old-confirmed-despite-vaccine-skeptics-denial",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "fermats-last-theorem-formally-verified-in-lean-4",
+    "title": "Fermat's Last Theorem Formally Verified in Lean 4",
+    "summary": "Researchers completed a machine-checked formal proof of Fermat's Last Theorem using the Lean 4 proof assistant, establishing computational verification of the historic 17th-century conjecture. The proof follows the argument of Frey, Serre, Ribet, Wiles, and Taylor-Wiles.",
+    "theme": "Mathematics",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Fermat's Last Theorem",
+      "Lean 4",
+      "formal proof",
+      "mathematical verification"
+    ],
+    "url": "news/tech/2026-09-04/#fermats-last-theorem-formally-verified-in-lean-4",
+    "sources": [
+      {
+        "label": "GitHub - Anthropics",
+        "url": "https://github.com/anthropics/fermats-last-theorem",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://github.com/anthropics/fermats-last-theorem",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Proof verified in Lean 4 proof assistant, Lean 4.33.1",
+      "Hosted on GitHub by Anthropics with full documentation",
+      "Theorem: for n ≥ 3, equation a^n + b^n ≠ c^n holds for positive natural numbers",
+      "Formalizes the classical proof chain from Frey through Wiles and Taylor-Wiles"
+    ],
+    "researched": true,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "fermats-last-theorem-formally-verified-in-lean-4",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
     "event_id": "russian-drone-strikes-ukraines-security-service-headquarters-in-kyiv",
     "title": "Russian Drone Strikes Ukraine's Security Service Headquarters in Kyiv",
     "summary": "Russia conducted a drone strike on Ukraine's security service headquarters in central Kyiv, escalating the ongoing air war.",
@@ -2731,6 +3217,120 @@
     "researched": false,
     "received_at": "2026-09-04T18:37:54.182309+00:00",
     "lineage_id": "russian-drone-strikes-ukraines-security-service-headquarters-in-kyiv",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "united-states-rejects-israeli-proposals-to-remove-palestinians-from-gaza",
+    "title": "United States Rejects Israeli Proposals to Remove Palestinians from Gaza",
+    "summary": "The U.S. rejected Israeli suggestions for Palestinian removal from Gaza as far-right Israeli officials renewed calls for voluntary emigration plans.",
+    "theme": "Diplomacy",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Gaza",
+      "Israel",
+      "United States",
+      "Palestinian displacement",
+      "policy"
+    ],
+    "url": "news/world/2026-09-04/#united-states-rejects-israeli-proposals-to-remove-palestinians-from-gaza",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHJqbWFOTk1FaU5VQ2M1bThiS3JIenF2aS01TEx1YWxqaS1FVnAyQU5HcGZueWNaeXdfOVB3R2J6Ql9LOUp5RkhGLTFtb0FlQWQyNnBQNXRjRTAyYmR1cEpnTWF2NmlIM190LVhnaXJ0QkFEa1NuM1hLSzBRU2tvQ0J2WG9sMnphb3RjWmFIbWFRdXpqQ1UtcnhJVVlmb0I5YlFrS3RXTXDSAa4BQVVfeXFMUDNXb3VmbFZSaDJaWjVENEpYN2FEWUJTTlFNT1pGQUFPaUxLejNlTFFHaWFEdHU2bVhtVWFNaDhSUTlxVklGd3Q3TTJNbWUwckhTbzM4NWVQbTBwYmRHaTdobERjek9CRGFlbTBkeURRdkNxS2w3NXJ2RGRtQUJ4ZnVTQWp4M0VVVXpJUHJqSk8zSlZRUW9ONEhIMldwOXpfTW5pWEo0U0NEb1pNTG9n?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "united-states-rejects-israeli-proposals-to-remove-palestinians-from-gaza",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "trump-administration-drafting-post-war-middle-east-plan-to-counter-iran-and-expand-abraham-accords",
+    "title": "Trump Administration Drafting Post-War Middle East Plan to Counter Iran and Expand Abraham Accords",
+    "summary": "The president of the United States' administration is drafting a post-conflict Middle East strategy aimed at building an anti-Iran alliance and expanding the Abraham Accords.",
+    "theme": "Diplomacy",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Middle East",
+      "Iran",
+      "Abraham Accords",
+      "post-war planning"
+    ],
+    "url": "news/world/2026-09-04/#trump-administration-drafting-post-war-middle-east-plan-to-counter-iran-and-expand-abraham-accords",
+    "sources": [
+      {
+        "label": "Axios",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hdUhWdGhYZmc4VEFuZ2VPdXlVd2pnVDZabV9FcEdBQllQTjMzdUV5dXdkMlFPdGtrSklkSGxmNk9vMlVSLUx2TWxjc3h3U1NJUWhnc1RIM2ZvVzRQUjdwRVc5bVJQVDZoYThUR3EtUG82OFBOLVA3QXl1RFNMZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "trump-administration-drafting-post-war-middle-east-plan-to-counter-iran-and-expand-abraham-accords",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "supramolecular-immunomodulatory-hydrogel-enhances-car-t-therapy-and-generates-long-lasting-immunity-against-solid-tumors",
+    "title": "Supramolecular immunomodulatory hydrogel enhances CAR-T therapy and generates long-lasting immunity against solid tumors",
+    "summary": "A designed supramolecular hydrogel potentiates CAR-T cell therapy while inducing endogenous immune responses that durably eradicate solid tumors.",
+    "theme": "Oncology",
+    "importance": 8,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "CAR-T therapy",
+      "immunotherapy",
+      "hydrogel",
+      "cancer",
+      "solid tumors"
+    ],
+    "url": "news/conservation/2026-09-04/#supramolecular-immunomodulatory-hydrogel-enhances-car-t-therapy-and-generates-long-lasting-immunity-against-solid-tumors",
+    "sources": [
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aee2120?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "supramolecular-immunomodulatory-hydrogel-enhances-car-t-therapy-and-generates-long-lasting-immunity-against-solid-tumors",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2777,6 +3377,43 @@
     "related_url": "",
     "updates_title": "OpenAI releases GPT-6 model claiming AGI milestone",
     "updates_url": "news/gpt/2026-09-03/#openai-releases-gpt-6-model-claiming-agi-milestone"
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "us-payrolls-surge-162000-in-august-unemployment-holds-at-41",
+    "title": "U.S. payrolls surge 162,000 in August; unemployment holds at 4.1%",
+    "summary": "U.S. job creation significantly exceeded expectations with 162,000 new payrolls added in August while unemployment remained at 4.1%.",
+    "theme": "Markets",
+    "importance": 8,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "employment",
+      "payroll",
+      "unemployment",
+      "labor market"
+    ],
+    "url": "news/markets/2026-09-04/#us-payrolls-surge-162000-in-august-unemployment-holds-at-41",
+    "sources": [
+      {
+        "label": "cnbc.com",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CWWEzcDI3bDlYbmQwMXd3dXdEWFRfeFl1RnpKamFQcXk4cFZpeHk3b29CSENaam5iaWFUb3podkRBY1MySFVPdWhiR2tqMVNtODFOUXptNjVTR2xyaG4xUml3TDdyX0NmWWI5Y9IBckFVX3lxTFBEV2xVamRtYmZwNllaVV92YW5DSlBUbDhJSkJKX1ZKZFlPMXpFOHByaWhNeUs0Q2U4WWM5OVBLMTFMaTdPSGZBeTVESmZkOUh4aFdQWmZNNGpETFh0bVY2dFFsN2oxRnE3dXFVeHhwNnhXUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "us-payrolls-surge-162000-in-august-unemployment-holds-at-41",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-04",
@@ -2972,6 +3609,119 @@
     "researched": false,
     "received_at": "2026-09-04T18:37:54.182309+00:00",
     "lineage_id": "iran-launches-missile-and-drone-strikes-on-us-military-targets-amid-escalating-tensions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "europe-faces-escalating-russian-sabotage-campaign-across-critical-infrastructure",
+    "title": "Europe Faces Escalating Russian Sabotage Campaign Across Critical Infrastructure",
+    "summary": "NATO allies are investigating a growing campaign of infrastructure sabotage across Europe with Russia as the primary suspect, prompting calls for coordinated defense preparations.",
+    "theme": "Conflict",
+    "importance": 8.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "Europe",
+      "sabotage",
+      "hybrid warfare",
+      "NATO"
+    ],
+    "url": "news/world/2026-09-04/#europe-faces-escalating-russian-sabotage-campaign-across-critical-infrastructure",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52bS1aVFc1ektQekdnZHU5Y0dBTkI4RnRUZFhTSWJ1WnZpd1U5dWNaMmppbWVfWmVkeDNFWjVwaUNIMW90Mng0bFhzQWNtNHYxN3g5bVNEekhsUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "europe-faces-escalating-russian-sabotage-campaign-across-critical-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "israeli-forces-seize-ali-al-taher-ridge-from-hezbollah-in-southern-lebanon",
+    "title": "Israeli forces seize Ali al-Taher ridge from Hezbollah in southern Lebanon",
+    "summary": "The Israeli army has seized the strategic Ali al-Taher ridge from Hezbollah fighters and cleared tunnels in the area.",
+    "theme": "Conflict",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Israel",
+      "Hezbollah",
+      "Lebanon",
+      "military operation"
+    ],
+    "url": "news/world/2026-09-04/#israeli-forces-seize-ali-al-taher-ridge-from-hezbollah-in-southern-lebanon",
+    "sources": [
+      {
+        "label": "France 24",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYUN2dTQ3bEJFdVBtZTNfSWEzQmNqREREcUVSWjJqQUw2blhCbFBTVERmRmtKeEQ5YS1RdDZ6a0diR01ZWUNBbzJsSHQ1bUw4MEpDNXliTVEtTFFfaFBNcmJOTERzaEdxNDE0VTUyMW1vdUl2UGdCSzZYS0Q2Y3d4T01rU0NSQ1lxRzV4cUZFejhFZGh2bzJpMzN4UzluMzJ1Vm5wQk92MHdDZEpVUWpPTjl4TndJRVlHaWJaNw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "israeli-forces-seize-ali-al-taher-ridge-from-hezbollah-in-southern-lebanon",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-04",
+    "event_id": "germanys-far-right-afd-party-advances-toward-state-power-in-election",
+    "title": "Germany's far-right AfD party advances toward state power in election",
+    "summary": "Germany's far-right Alternative for Germany (AfD) party is positioned to gain unprecedented political power in a state election, raising alarm among minority groups.",
+    "theme": "Politics",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "AfD",
+      "Germany",
+      "far-right",
+      "election",
+      "extremism"
+    ],
+    "url": "news/world/2026-09-04/#germanys-far-right-afd-party-advances-toward-state-power-in-election",
+    "sources": [
+      {
+        "label": "npr.org",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DalZISnhrcWxMSGdBem81R0E1SFJtSzFZX2NEdnlwV3lGUHhmRkpvQmdpNlA3bENRX05WelJ1VTZnQzFWakVBSGRjOWdfcmhMSHhlcmZKcnJGQ1pxRHJzR3gzeVIzYVN4aWZ4SGxEZUZ1NG9vT2dObk5uSQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-04T21:53:57.621436+00:00",
+    "lineage_id": "germanys-far-right-afd-party-advances-toward-state-power-in-election",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
