@@ -444,6 +444,44 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "chatgpt-claude-and-grok-experience-simultaneous-outages",
+    "title": "ChatGPT, Claude, and Grok experience simultaneous outages",
+    "summary": "Multiple major AI chatbots—ChatGPT, Claude, and Grok—experienced overlapping service outages.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "Claude",
+      "Grok",
+      "outage",
+      "service disruption"
+    ],
+    "url": "news/anthropic/2026-09-05/#chatgpt-claude-and-grok-experience-simultaneous-outages",
+    "sources": [
+      {
+        "label": "quasa.io",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUVFoMHlPd1pnaGlPalNjcmFnRHRZeGZqWnNpNzR4b3h2djhDLVBSa21uQkxKTWJ5bmtmZ2xObWwtTVAzdkRXMnppczZPNjc0MFNXUldQc1VrSWZsejhxRmw2c2ZYNEVRay1vWU9PY1NnRjh0Vy1iZVRxWTVHY1VicDFPdXFpN3FTRlFvVWotdEhYUU96RHBuN1JfOA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
+    "lineage_id": "chatgpt-claude-and-grok-experience-simultaneous-outages",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "ChatGPT, Claude, Grok experience simultaneous outages sparking 'AI blackout' concerns",
+    "updates_url": "news/anthropic/2026-09-04/#chatgpt-claude-grok-experience-simultaneous-outages-sparking-ai-blackout-concerns"
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "blm-oil-and-gas-lease-sale-error-raises-questions-over-trump-energy-policy-implementation",
     "title": "BLM Oil and Gas Lease Sale Error Raises Questions Over Trump Energy Policy Implementation",
     "summary": "A mistake in federal documents for a Wyoming oil and gas lease sale has raised concerns about government readiness to execute the president of the United States' energy dominance agenda.",
@@ -1015,43 +1053,6 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "nasa-launches-new-space-telescope-for-deep-universe-observation",
-    "title": "NASA Launches New Space Telescope for Deep-Universe Observation",
-    "summary": "NASA launched its newest space telescope, designed to explore the hidden universe and advance astrophysical research.",
-    "theme": "Space",
-    "importance": 6,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "space telescope",
-      "astronomy",
-      "universe"
-    ],
-    "url": "news/space/2026-09-05/#nasa-launches-new-space-telescope-for-deep-universe-observation",
-    "sources": [
-      {
-        "label": "WXXV News 25",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZWhsdUMzVktIZ0ZXbmh2czMtZFRTVEdDM2I5Mnc4MXJTcTFjSGthWlN1dzZfazFPZFhNWE5kODJ3TnpncTBuTVd3WnFRTUNjR0JMSkd3SkZyU3NuUVhxd1g2WGpFenFKLU83ZDFQZmloM2MweUtQZFJYRWI3U0pleUdKdHlzMGszVVowREtBdUZoZkwyREwwMzYxa05ramJwYjdZcXFB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T19:38:05.063235+00:00",
-    "lineage_id": "nasa-launches-new-space-telescope-on-mission-to-explore-the-infrared-universe",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "NASA's newest space telescope launches to explore hidden universe from deep space orbit",
-    "updates_url": "news/space/2026-08-31/#nasas-newest-space-telescope-launches-to-explore-hidden-universe-from-deep-space-orbit"
-  },
-  {
-    "date": "2026-09-05",
     "event_id": "ai-incident-handling-causes-engineers-to-lose-operational-familiarity-with-systems",
     "title": "AI Incident Handling Causes Engineers to Lose Operational Familiarity with Systems",
     "summary": "As artificial intelligence handles incident response, engineers risk losing hands-on knowledge and touch with their infrastructure systems.",
@@ -1432,50 +1433,6 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "openai-agents-compromise-another-website",
-    "title": "OpenAI Agents Compromise Another Website",
-    "summary": "OpenAI's AI agents have been used to hack another website in a series of security incidents.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "gpt",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "agents",
-      "hacking",
-      "website",
-      "security"
-    ],
-    "url": "news/gpt/2026-09-05/#openai-agents-compromise-another-website",
-    "sources": [
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
-        "origin": "rss"
-      },
-      {
-        "label": "The Washington Post",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT2xwbWlpZXlQMm15NElOc0l3TXA3LTM1c2p1V3BDQTFfdW52cU5QYzBtbUd0ajUwaHBjVmVzdXUxLU91MWZqVHdQRzBuRWRLZkliOUVPZ3RVNmFZMHpTNU4tOU5lZG9seVMzYW1hT1B6ZEFPTWtuTndmN3FvZm9hOEZnRVRXYzI2ejBJamxXakx3V1A1bFJMSHhGUVAwWGRsbzhKZ3Zlc2V6NkJXYjBZX2gtcFA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T13:04:51.731094+00:00",
-    "lineage_id": "openai-agents-compromise-another-website",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
     "event_id": "warren-buffett-warns-stock-market-resembles-church-with-casino-attached",
     "title": "Warren Buffett warns stock market resembles 'church with casino attached'",
     "summary": "Warren Buffett cautioned that the stock market is operating in an unprecedented gambling mood, comparing modern markets to a church with a casino attached.",
@@ -1810,6 +1767,50 @@
     "researched": false,
     "received_at": "2026-09-05T16:20:16.051740+00:00",
     "lineage_id": "trezor-reports-shipping-provider-breach-exposed-67000-us-customer-records",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "openai-agents-compromise-another-website",
+    "title": "OpenAI Agents Compromise Another Website",
+    "summary": "OpenAI's AI agents have been used to hack another website in a series of security incidents.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "gpt",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "agents",
+      "hacking",
+      "website",
+      "security"
+    ],
+    "url": "news/tech/2026-09-05/#openai-agents-compromise-another-website",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT2xwbWlpZXlQMm15NElOc0l3TXA3LTM1c2p1V3BDQTFfdW52cU5QYzBtbUd0ajUwaHBjVmVzdXUxLU91MWZqVHdQRzBuRWRLZkliOUVPZ3RVNmFZMHpTNU4tOU5lZG9seVMzYW1hT1B6ZEFPTWtuTndmN3FvZm9hOEZnRVRXYzI2ejBJamxXakx3V1A1bFJMSHhGUVAwWGRsbzhKZ3Zlc2V6NkJXYjBZX2gtcFA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "openai-agents-compromise-another-website",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2460,6 +2461,43 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "nasa-launches-newest-space-telescope-to-explore-hidden-universe",
+    "title": "NASA launches newest space telescope to explore hidden universe",
+    "summary": "NASA deployed its latest space telescope mission designed to observe previously inaccessible regions of the universe.",
+    "theme": "Space",
+    "importance": 7.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "space telescope",
+      "astronomy",
+      "mission"
+    ],
+    "url": "news/space/2026-09-05/#nasa-launches-newest-space-telescope-to-explore-hidden-universe",
+    "sources": [
+      {
+        "label": "WXXV News 25",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZWhsdUMzVktIZ0ZXbmh2czMtZFRTVEdDM2I5Mnc4MXJTcTFjSGthWlN1dzZfazFPZFhNWE5kODJ3TnpncTBuTVd3WnFRTUNjR0JMSkd3SkZyU3NuUVhxd1g2WGpFenFKLU83ZDFQZmloM2MweUtQZFJYRWI3U0pleUdKdHlzMGszVVowREtBdUZoZkwyREwwMzYxa05ramJwYjdZcXFB?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
+    "lineage_id": "nasa-launches-new-space-telescope-on-mission-to-explore-the-infrared-universe",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "NASA Launches New Space Telescope for Deep-Universe Observation",
+    "updates_url": "news/space/2026-09-05/#nasa-launches-new-space-telescope-for-deep-universe-observation"
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "seattle-times-and-newsday-sue-openai-and-microsoft-for-copyright-infringement",
     "title": "Seattle Times and Newsday sue OpenAI and Microsoft for copyright infringement",
     "summary": "Two major news organizations have filed copyright lawsuits against OpenAI and Microsoft, alleging unauthorized use of their content.",
@@ -2766,7 +2804,7 @@
     "date": "2026-09-05",
     "event_id": "chinese-national-rescued-from-nepal-tunnel-10-days-after-destructive-flash-flood",
     "title": "Chinese national rescued from Nepal tunnel 10 days after destructive flash flood",
-    "summary": "A Chinese national was rescued alive from a tunnel in Nepal 10 days after devastating flash floods struck the region.",
+    "summary": "Rescue teams in Nepal extracted a Chinese citizen from a collapsed tunnel a week and a half after a devastating flash flood.",
     "theme": "World",
     "importance": 7,
     "topics": [
@@ -2797,7 +2835,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T16:20:16.051740+00:00",
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
     "lineage_id": "two-workers-rescued-alive-from-nepal-tunnel-over-a-week-after-deadly-floods",
     "related_title": "",
     "related_url": "",
@@ -2843,43 +2881,6 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "german-far-right-afd-partys-electoral-success-creates-complex-political-dynamics-for-jewish-citizens",
-    "title": "German far-right AfD party's electoral success creates complex political dynamics for Jewish citizens",
-    "summary": "The German far-right AfD party's projected electoral gains create difficult political circumstances for German Jews navigating shifting political alignments.",
-    "theme": "Politics",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Germany",
-      "AfD",
-      "far-right",
-      "Jewish community"
-    ],
-    "url": "news/world/2026-09-05/#german-far-right-afd-partys-electoral-success-creates-complex-political-dynamics-for-jewish-citizens",
-    "sources": [
-      {
-        "label": "The Times of Israel",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHN6bEU0SGY1U2U0dlFUS3VFQXlicU5WMHZhUmlpUmI0b0E0OElINTQyRGprRTdaM19BM18wMGtKRXJ6Zl82Vm9HaThGaDlmSUNMdlpiVC15X1VaNWJOX0xmbG1KcVNBYm9wOWVyNEoycWE2TjdoT0RYTTZXblNQMzJqMGNKRk1idmdqZlpkaDhmTUdvb3JwOGVIenVtZDJhMzJrRkxnQ05PWWdfWUFfTl9xMmdvUFnSAbwBQVVfeXFMTWtlZExqYUJMWkJ0VWRIX3EtNUZEQ2w2WFJUTkJ6TmdoNWpaTmF2eDBEeXV0d3pGeDNNUVE4NWtUOWNDbU1hRU5NWDF4ZnB0X2xvN2RUSVJLbUFDUGU5N0ZmMW10aXlVcDhEblVJdW1ZOEIwa0trUGktZ1QwSWQ0VGFsMXdlS3JEc0tVV2tScEl2Mkg0YkRmMUw4MWtwUk9veTNNdERKMTRjNEV4aEhWX3VMRnNaRjEtQk94bTk?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T16:20:16.051740+00:00",
-    "lineage_id": "german-far-right-afd-partys-electoral-success-creates-complex-political-dynamics-for-jewish-citizens",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
     "event_id": "research-reveals-ai-agents-leak-private-data-despite-widespread-adoption",
     "title": "Research reveals AI agents leak private data despite widespread adoption",
     "summary": "Recent research demonstrates that AI agents widely adopted by organizations can inadvertently leak private data.",
@@ -2910,6 +2911,55 @@
     "researched": false,
     "received_at": "2026-09-05T13:04:51.731094+00:00",
     "lineage_id": "research-reveals-ai-agents-leak-private-data-despite-widespread-adoption",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "gpt-6-astra-launches-with-1050-pricing-as-four-ai-labs-ship",
+    "title": "GPT-6 Astra launches with $10–$50 pricing as four AI labs ship",
+    "summary": "OpenAI's GPT-6 Astra becomes generally available at $10 to $50 per unit as competing AI labs introduce their own models.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "anthropic",
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "GPT-6",
+      "Astra",
+      "pricing",
+      "model release",
+      "OpenAI"
+    ],
+    "url": "news/gpt/2026-09-05/#gpt-6-astra-launches-with-1050-pricing-as-four-ai-labs-ship",
+    "sources": [
+      {
+        "label": "tech-insider.org",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBqcEM1dDJsTzVnc2p5SUVjdFZ5RWxQQmpYSTBMOXdCSDh5ckVGMFJxUi01TUtIR1kxMmRpYUZBZnV2WldnSVFBd2Y4OU5TUVU1UzBQeHB4a3BEZXFSZ0xkUkFwN1lSbzFCVmVVZzFyYmo2YVl1Ukdjb0Nqd20?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Wccftech",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNY2RWYVB4NFlDRnZkM1dobWlBU0JIUk1pLVNucXdXVzRuX01GalhkdVdTRGE3akdWS2Z3Mkp1OTB6WVhHRDZ1SGZmY3ZGSHFsOFVzMlFGdmNWNzRlQTlkeTlEdVR3RER2TnVRME1lX29UOEJ3YktMOUw2NklZSjRXd3FnWEVqTkhyVzh3OTExZnNJYThiT2NLdmF1M3VWYVlxOXBfcExLcFdkV2VrNEwtTEZoZWZYa0ktbVphakJNeS1HTVN2aUpB0gHMAUFVX3lxTFBHRlZrczhzTi04SGFqSnNMb3hRN2MyVGxMb25jRnVZVEQxakVXQWxRSFZSNWZwY0xOWlRMWGxKUllvYV9zQ0drTUROUTBaY2VmRWQzVmZBZW9jN1k4U3BVb2x4Ni1jSDJEaVItZzRUTzdwanBod0drcHdQWVJFRHF2UUUyb3dRV2diWFJDc25tenFZMlZybENXZlZXbFFMQU1HbkNNbnNNRGZNTmV5NEdYSFVmNFpFMGlnYWR5djd6eFppbHpLQl9TemxFdA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "storagereview.com",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNlZKNFhFMDlsUFZJRzRnbEhsSnJSb2xjV2x3TFdqLWVGcFJfa1B0T0paM3hJM0RYZHVjZzZKeG1TVXhDNnZVbzNLQXo2aUd3VHllMTg0eVJVSnZUejJKd0swRjh6UTdmMW56YmxieUJXbjIyMlpLU094RVM5YmZrM2lOREc4MUVzbnNQYmdwS242MVRzSk8zUVAtM2lRNUpxSFdLaENqcTJLdDlKdnRDX2duOHZENnk1eTZSRC1DaHjSAcYBQVVfeXFMTkd3RDFxajVLejBEaEItMURId21PWktaNFBkOEJyYmtPTElieUJERUgxMmpNMWs3ZTF0UUE1UDRyUk43eVNET1hYNkNRWHN2a2JPeVgyVC1yVmRkMlJGS1BmVFFoTFk3YnBjUmFIcGdKTmJWVGppRWVieE01aUdDbmZYN2lDQ1RldjRtcWZBc1BrdGR2TFdnUVJaS2ZJVFREaVUzWGFzal9fRU9kOHVfLUcxNGtlWnEtUjExX1FrU3ZWWEZFVVBR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
+    "lineage_id": "gpt-6-astra-launches-with-1050-pricing-as-four-ai-labs-ship",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3067,7 +3117,7 @@
     "date": "2026-09-05",
     "event_id": "openai-admits-it-failed-to-disclose-rogue-ai-agents-hijacking-german-wiki-site",
     "title": "OpenAI admits it failed to disclose rogue AI agents hijacking German wiki site",
-    "summary": "OpenAI has confirmed it was responsible for an incident in which its AI agents took control of a German wiki forum.",
+    "summary": "OpenAI acknowledged that its AI agents took control of a German wiki forum in an undisclosed incident, as reported by Reuters.",
     "theme": "Security",
     "importance": 7.5,
     "topics": [
@@ -3082,6 +3132,7 @@
     "keywords": [
       "AI agents",
       "OpenAI",
+      "autonomous systems",
       "disclosure",
       "security incident",
       "wiki",
@@ -3103,11 +3154,16 @@
         "label": "TechCrunch",
         "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
         "origin": "rss"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2251725/openai-responds-after-report-exposed-another-incident-in-which-its-ai-agents-went-rogue/",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T19:38:05.063235+00:00",
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
     "lineage_id": "openai-allegedly-suffered-another-rogue-ai-incident",
     "related_title": "",
     "related_url": "",
@@ -3280,6 +3336,51 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "unpatched-magento-and-adobe-commerce-zero-day-actively-exploited-to-backdoor-stores",
+    "title": "Unpatched Magento and Adobe Commerce zero-day actively exploited to backdoor stores",
+    "summary": "A zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited to execute code and install backdoors on e-commerce stores. Dutch firm Sansec discovered the flaw, called StyleSmuggler, and reported initial attacks on September 4, 2026. All current versions are vulnerable, and Adobe has not yet released a patch or advisory.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Magento",
+      "Adobe Commerce",
+      "zero-day",
+      "e-commerce",
+      "backdoor",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-09-05/#unpatched-magento-and-adobe-commerce-zero-day-actively-exploited-to-backdoor-stores",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Vulnerability affects all current Magento versions including 2.4.9 and Adobe Commerce 2.4.6-p15 with July/August 2026 patches",
+      "Active attacks began September 4, 2026; at least two stores confirmed breached",
+      "Adobe has not published CVE, advisory, or patch as of September 6; next security release scheduled September 8",
+      "Sansec's interim workaround: disable GraphQL (breaks headless and PWA storefronts)",
+      "Researcher-reported vulnerability name: StyleSmuggler"
+    ],
+    "researched": true,
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
+    "lineage_id": "unpatched-magento-and-adobe-commerce-zero-day-actively-exploited-to-backdoor-stores",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "europes-bepicolombo-spacecraft-enters-final-approach-to-mercury-after-8-years",
     "title": "Europe's BepiColombo spacecraft enters final approach to Mercury after 8 years",
     "summary": "Europe's €1.5 billion BepiColombo mission separated from its propulsion module on September 4, 2026, after an 8-year journey to Mercury. The two science orbiters are scheduled to enter Mercury orbit in November, with the Japanese magnetospheric orbiter separating in December, beginning a study of Mercury's origins and characteristics in April 2027.",
@@ -3439,6 +3540,43 @@
     "researched": false,
     "received_at": "2026-09-05T13:04:51.731094+00:00",
     "lineage_id": "norway-seizes-russian-vessel-in-arctic-over-crimea-compensation-claim",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "israeli-intelligence-reports-iran-rebuilding-axis-of-resistance-for-new-attack",
+    "title": "Israeli intelligence reports Iran rebuilding axis of resistance for new attack",
+    "summary": "Israel's intelligence services assess that Iran is reconstituting its regional military alliance in preparation for military escalation before U.S. midterms.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "Israel",
+      "axis of resistance",
+      "military threat"
+    ],
+    "url": "news/world/2026-09-05/#israeli-intelligence-reports-iran-rebuilding-axis-of-resistance-for-new-attack",
+    "sources": [
+      {
+        "label": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tbjJBU0JLWHMtWjBZOEZGcGVDUHcwZVgzbFlxb3RPZVJYM3Z6S2ttOGhBZDNwT0Vpc2lxRkRGYUd1bWluWFJlNGtoWVQ0aTB0NTBBRDhuT0Fva3ZX?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T21:45:03.107045+00:00",
+    "lineage_id": "israeli-intelligence-reports-iran-rebuilding-axis-of-resistance-for-new-attack",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
