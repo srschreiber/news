@@ -1,5 +1,81 @@
 [
   {
+    "timestamp": "2026-09-05T13:04:51.731094+00:00",
+    "mode": "daily",
+    "calls": 13,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 20476,
+        "output": 8312,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.062,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 10302,
+            "output": 6870,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0447
+      },
+      "(merge-check)": {
+        "calls": 8,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4988,
+            "output": 72,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0053
+      },
+      "(read)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 5186,
+            "output": 1370,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.012
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 16,
+      "Phys.org": 8,
+      "Google News \u2014 World": 8,
+      "Engadget": 5,
+      "Wired": 5,
+      "Google News \u2014 OpenAI GPT": 4,
+      "The Verge": 3,
+      "Google News \u2014 Anthropic": 3,
+      "Space.com": 2,
+      "Google News \u2014 space": 2,
+      "Google News \u2014 AI models": 2,
+      "Hacker News (front page)": 2,
+      "SecurityWeek": 1,
+      "Grist": 1,
+      "Live Science": 1,
+      "BleepingComputer": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "Google News \u2014 PostgreSQL": 1
+    }
+  },
+  {
     "timestamp": "2026-09-05T09:32:32.334939+00:00",
     "mode": "daily",
     "calls": 28,

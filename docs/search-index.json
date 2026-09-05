@@ -1,73 +1,36 @@
 [
   {
     "date": "2026-09-05",
-    "event_id": "marvel-releases-pre-avengers-doomsday-catch-up-viewing-list",
-    "title": "Marvel Releases Pre-Avengers Doomsday Catch-Up Viewing List",
-    "summary": "Marvel Studios published an official 42-hour homework list of required viewing ahead of the December release of Avengers: Doomsday.",
-    "theme": "Entertainment",
-    "importance": 3.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Marvel",
-      "Avengers Doomsday",
-      "MCU"
-    ],
-    "url": "news/tech/2026-09-05/#marvel-releases-pre-avengers-doomsday-catch-up-viewing-list",
-    "sources": [
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/marvel-has-assigned-42-hours-of-homework-before-avengers-doomsday/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "marvel-releases-pre-avengers-doomsday-catch-up-viewing-list",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "89-of-americans-believe-government-corruption-is-widespread-record-high",
-    "title": "89% of Americans believe government corruption is widespread, record high",
-    "summary": "A Gallup poll finds a record 89% of U.S. adults believe government corruption is widespread.",
-    "theme": "Politics",
+    "event_id": "ai-interview-bot-malfunctions-when-candidate-feigns-hallucination-symptoms",
+    "title": "AI interview bot malfunctions when candidate feigns hallucination symptoms",
+    "summary": "An AI-powered job interview bot became unstable after a candidate pretended to experience an AI hallucination.",
+    "theme": "AI",
     "importance": 3.5,
     "topics": [
-      "tech"
+      "ai"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "corruption",
-      "government",
-      "polling",
-      "public opinion",
-      "Gallup"
+      "AI",
+      "interview bot",
+      "hallucination",
+      "malfunction"
     ],
-    "url": "news/tech/2026-09-05/#89-of-americans-believe-government-corruption-is-widespread-record-high",
+    "url": "news/ai/2026-09-05/#ai-interview-bot-malfunctions-when-candidate-feigns-hallucination-symptoms",
     "sources": [
       {
-        "label": "Hacker News (front page)",
-        "url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+        "label": "Futurism",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ3Y4ekEtbkg3c3lrM2tIODVfTTJLUkpzOFo0ZjE4SFYxY2U4ZS1vRnNFMGlCLXVaci00ZFY5UVJ3VVQzN1F2OVpYWTBEbXJ3QVREVzd3OGFNdDFhRER4ekMtdHZfU2oyLXQyM05tRUZ2a0E3ZkIxbVh2eWZJTjJSSnR2QnNDTzBuMDN5bUVrNTMxdw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "89-of-americans-believe-government-corruption-is-widespread-record-high",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "ai-interview-bot-malfunctions-when-candidate-feigns-hallucination-symptoms",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -113,73 +76,36 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "openai-releases-chatgpt-6-astra-model",
-    "title": "OpenAI releases ChatGPT-6 Astra model",
-    "summary": "OpenAI has released ChatGPT-6 Astra, a new version of its language model.",
-    "theme": "AI Product Release",
-    "importance": 4.0,
+    "event_id": "gpt-6-vs-claude-35-sonnet-benchmarks-and-feature-comparison",
+    "title": "GPT-6 vs. Claude 3.5 Sonnet: Benchmarks and Feature Comparison",
+    "summary": "A comparison of GPT-6 and Claude 3.5 Sonnet evaluates their benchmarks, speed, pricing, and use cases.",
+    "theme": "AI",
+    "importance": 4.5,
     "topics": [
-      "gpt"
+      "anthropic"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "Astra",
-      "language model"
+      "GPT-6",
+      "Claude 3.5 Sonnet",
+      "benchmarks",
+      "LLM comparison"
     ],
-    "url": "news/gpt/2026-09-05/#openai-releases-chatgpt-6-astra-model",
+    "url": "news/anthropic/2026-09-05/#gpt-6-vs-claude-35-sonnet-benchmarks-and-feature-comparison",
     "sources": [
       {
-        "label": "ABC Columbia",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sMFJab1NrMXNnWEpFVVIyeFdpTDFZdDM3dkVSRi0tWEx2MXh6cjhqWDlwLTRPbDZwdGNFejRNM1hBSVpQV1p6RWh3Yi0yZGJ5UklGczdncXJXUDhPZ05JR2VqZlJHdGpKXy1GNEZzaEtyUFhjcWN6NnVhUmw?oc=5",
+        "label": "Intelligent Living",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qUXRDSGVjSXJNUjYtM0pwX0JLQXJNLVl2T3JfNTQ2Qk9UalRJYWVZY2w5ejhrd3MtREZsLTJvdmhDQl9zX2lBa3BKUE9Pa1ZHSU8xRUZNWnJRdEtncnB5SVV0eFJMYnY1eG5z?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "openai-releases-gpt-6-model-claiming-agi-milestone",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI releases GPT-6 model claiming AGI milestone",
-    "updates_url": "news/gpt/2026-09-03/#openai-releases-gpt-6-model-claiming-agi-milestone"
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "how-ancient-romans-engineered-their-monumental-aqueducts",
-    "title": "How Ancient Romans Engineered Their Monumental Aqueducts",
-    "summary": "Historical analysis of Roman construction techniques used to build their iconic aqueduct systems.",
-    "theme": "Science",
-    "importance": 4.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "ancient Rome",
-      "aqueducts",
-      "engineering",
-      "construction"
-    ],
-    "url": "news/science/2026-09-05/#how-ancient-romans-engineered-their-monumental-aqueducts",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/archaeology/romans/how-did-the-romans-build-their-towering-aqueducts",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "how-ancient-romans-engineered-their-monumental-aqueducts",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "gpt-6-vs-claude-35-sonnet-benchmarks-and-feature-comparison",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -187,11 +113,11 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "openai-advises-students-to-limit-chatgpt-use-in-academic-work",
-    "title": "OpenAI Advises Students to Limit ChatGPT Use in Academic Work",
-    "summary": "OpenAI has issued guidance encouraging students to reduce their reliance on ChatGPT for academic tasks.",
+    "event_id": "openai-advises-students-to-reduce-chatgpt-reliance-in-educational-settings",
+    "title": "OpenAI Advises Students to Reduce ChatGPT Reliance in Educational Settings",
+    "summary": "OpenAI has launched a campaign recommending students limit their use of ChatGPT while studying.",
     "theme": "AI",
-    "importance": 4.5,
+    "importance": 5.0,
     "topics": [
       "gpt"
     ],
@@ -203,172 +129,25 @@
       "ChatGPT",
       "OpenAI",
       "education",
-      "academic integrity"
+      "students",
+      "AI use"
     ],
-    "url": "news/gpt/2026-09-05/#openai-advises-students-to-limit-chatgpt-use-in-academic-work",
+    "url": "news/gpt/2026-09-05/#openai-advises-students-to-reduce-chatgpt-reliance-in-educational-settings",
     "sources": [
       {
-        "label": "openthemagazine.com",
+        "label": "Open Magazine",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPekw3S2Vtd0VJWFFZV3BMUlVzaVVWUDVUcVZQQTRfQVlEaVllT3ZKVGZuRkRIbUdrY0xaaXptUG9wMWNxZTZQczFmQTREUy0yLTRYdUU5SG9XT0lmaUIzSFU1SUh1czVHdWZEMFVWdG1MVW1oRE5vRXdtMXlRZEVrNHhrRjRKZUk0ekU3OGFvZ3NNcGxlR0hWWUhHRjJ5Zjh5eU80NHpDNXhGQUVDVE1IaFBOazRLdzZ1OW9relVVOERkOTNn?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
     "lineage_id": "openai-advises-students-to-limit-chatgpt-use-in-academic-work",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "fund-manager-highlights-micro-cap-stocks-as-hidden-market-opportunity",
-    "title": "Fund Manager Highlights Micro-Cap Stocks as Hidden Market Opportunity",
-    "summary": "A veteran fund manager identifies micro-cap stocks as an undervalued segment of the equity market.",
-    "theme": "Markets",
-    "importance": 4.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "micro-cap stocks",
-      "investment strategy",
-      "market opportunity"
-    ],
-    "url": "news/markets/2026-09-05/#fund-manager-highlights-micro-cap-stocks-as-hidden-market-opportunity",
-    "sources": [
-      {
-        "label": "Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRmVBTGlGbHp5RlZhTnA5V1FScDFMdXN4bXhqVFYweHVRMVBNMjRLZXAxSTNJam9oendJVEpnQVg4ekpjekNzMS1SR2hocEI3aEJseHpua1lUMmN4NGwyMzh6V3pGQ1dGYnVVNVlHR181OUxaRzVuaHVUSXFUbG5QSXlya3JyWmw2ODRfbjEza1RfVE0yekpjcjM1ZGs?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "fund-manager-highlights-micro-cap-stocks-as-hidden-market-opportunity",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "midterm-elections-unlikely-to-derail-stock-market-trajectory",
-    "title": "Midterm Elections Unlikely to Derail Stock Market Trajectory",
-    "summary": "Analysis suggests midterm elections pose minimal risk to the stock market's overall direction.",
-    "theme": "Markets",
-    "importance": 4.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "midterm elections",
-      "stock market",
-      "political risk"
-    ],
-    "url": "news/markets/2026-09-05/#midterm-elections-unlikely-to-derail-stock-market-trajectory",
-    "sources": [
-      {
-        "label": "Seeking Alpha",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQSXU3eEZNREdhTjZjdTlDNWowdUxhM3Y2SERkTU5IOXB5czFucUtGblJWWVZaai1GWFliQWdMR1hsNE1nRkhDekFaQTRSX1lxZC04a2xNaW9weVU2aHlyTjlEcHAzb2E2ak00aThlblBJdzlDQUlnRkxjcHBtTjJoMWpRd1pYcWFwQUxtSGYxa2JBQW1TcjN6eXI2VFNiR210Vmppc2Q3RlJoSko0QVJZRF9QS1BEdXkwZjhuaw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "midterm-elections-unlikely-to-derail-stock-market-trajectory",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "scientists-revise-understanding-of-bonnethead-shark-sexual-dimorphism",
-    "title": "Scientists revise understanding of bonnethead shark sexual dimorphism",
-    "summary": "New research shows that both male and female bonnethead sharks begin with pointed heads that round with age, overturning the previous theory of male head development.",
-    "theme": "Biology",
-    "importance": 4.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "bonnethead shark",
-      "sexual dimorphism",
-      "morphology",
-      "marine biology",
-      "evolutionary biology"
-    ],
-    "url": "news/science/2026-09-05/#scientists-revise-understanding-of-bonnethead-shark-sexual-dimorphism",
-    "sources": [
-      {
-        "label": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/09/260902234508.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "scientists-revise-understanding-of-bonnethead-shark-sexual-dimorphism",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "european-git-hosting-platform-prioritizes-data-sovereignty",
-    "title": "European Git Hosting Platform Prioritizes Data Sovereignty",
-    "summary": "A new Git hosting service has launched with a focus on keeping data within European borders.",
-    "theme": "Technology",
-    "importance": 4.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Git",
-      "Europe",
-      "data sovereignty",
-      "hosting",
-      "GDPR"
-    ],
-    "url": "news/tech/2026-09-05/#european-git-hosting-platform-prioritizes-data-sovereignty",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://pushin.eu",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "european-git-hosting-platform-prioritizes-data-sovereignty",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "OpenAI Advises Students to Limit ChatGPT Use in Academic Work",
+    "updates_url": "news/gpt/2026-09-05/#openai-advises-students-to-limit-chatgpt-use-in-academic-work"
   },
   {
     "date": "2026-09-05",
@@ -445,73 +224,36 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "nitter-instances-proliferate-following-takedowns",
-    "title": "Nitter Instances Proliferate Following Takedowns",
-    "summary": "The Nitter Twitter archival project now has more working instances than before recent takedown actions.",
-    "theme": "Tech",
+    "event_id": "august-jobs-report-beats-may-overstate-labor-market-strength",
+    "title": "August jobs report beats may overstate labor market strength",
+    "summary": "Analysis suggests August's strong employment gains, the largest in nearly 30 years, may be less impressive than headline numbers indicate.",
+    "theme": "Markets",
     "importance": 5.0,
     "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Nitter",
-      "Twitter",
-      "archival",
-      "decentralization"
-    ],
-    "url": "news/tech/2026-09-05/#nitter-instances-proliferate-following-takedowns",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://codeberg.org/mv12star/shitter/wiki/Instances",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "nitter-instances-proliferate-following-takedowns",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "baby-dolphin-beaten-during-ceuta-beach-incident",
-    "title": "Baby Dolphin Beaten During Ceuta Beach Incident",
-    "summary": "Video footage shows migrants in Ceuta fatally beating a baby dolphin during a beach gathering, sparking public outrage.",
-    "theme": "World",
-    "importance": 5.0,
-    "topics": [
-      "world"
+      "markets"
     ],
     "feeds": [
       "world"
     ],
     "primary_feed": "world",
     "keywords": [
-      "Ceuta",
-      "wildlife",
-      "animal cruelty",
-      "incident"
+      "employment",
+      "jobs report",
+      "labor market",
+      "August"
     ],
-    "url": "news/world/2026-09-05/#baby-dolphin-beaten-during-ceuta-beach-incident",
+    "url": "news/markets/2026-09-05/#august-jobs-report-beats-may-overstate-labor-market-strength",
     "sources": [
       {
-        "label": "Fox News",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeld2MFJVZHpSbFhpTUVoUmhQOC1IM1ZLWWlZdDY3and1NWp4RlljVS0tUGo2OFQyRjZBTGJLRGxYTGkxZk9RQmc3a0JET0tkcDI3akRyb1JxLXFveTNZd0xORkVTUmR1dHZXa0JqLUFFb3FDUThJUkQ4RWVZcGpUajcxMlB6SVFmQVNaem9kU2hjM0RQTjg1aGEzNU1wc1Y3YzZXatIBqgFBVV95cUxOTWdvcnpTTDhOcUdSdVJYOWRKdEI5cU5XZTltNTNVelV5QVJPcVVPbWhqQlRVaDFoVm5uN0xEcVhsbTRTVGdVaF9lNHEtR2RhcWc4NXViQW1SQWRwTHRMaHN1UXFvZ0psMm4tWGJTZm5sLTMtQWZBcVBxUS1yNmpqVWcxZ0lsbTNnTkZrNnRIYVF5Ym9JQk43dHJZUFhTYW1aamc1UUhOZHpHQQ?oc=5",
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONUNOY2tWSGZheTZ5eWxZMnAxN2tzS2Q0RXc2djRTZ2RvWnlxYl9IVm56SW1ISGdQS21uUG1CY3doeEFyYmltSTVaMFBqUjZRVEYtYXE1ZUFidEdIdndSQWdiM3RacVJuTWVMVkFxYW44VHRnRm5EaFp2RENWU2lUSTBNR0kySVhkRlBSTUhlbHk3N2lFXy01R2w5dmMxVEpFVmNJbHVzbzV2WHRVYmhOYWNlQzZPVzc0NlJPOWNYdmhTOVNRMEhKYkJyWGUtcWg5QVpkR01KdDR4bHZtMXJTZDJtakVpSHRCQXpFSVBuUQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "baby-dolphin-beaten-during-ceuta-beach-incident",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "august-jobs-report-beats-may-overstate-labor-market-strength",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -671,6 +413,44 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "reform-uk-conference-highlights-climate-skepticism-despite-pressure-to-address-extreme-weather",
+    "title": "Reform UK conference highlights climate skepticism despite pressure to address extreme weather",
+    "summary": "Climate skepticism is prevalent at the Reform UK conference, while critics argue the party and others fail to protect Britons from heat-related threats.",
+    "theme": "Environment",
+    "importance": 5.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Reform UK",
+      "climate change",
+      "climate skepticism",
+      "policy"
+    ],
+    "url": "news/climate-change/2026-09-05/#reform-uk-conference-highlights-climate-skepticism-despite-pressure-to-address-extreme-weather",
+    "sources": [
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/politics/2026/sep/05/reform-continues-to-cast-doubt-on-climate-science-do-its-supporters-agree",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "reform-uk-conference-highlights-climate-skepticism-despite-pressure-to-address-extreme-weather",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "silicon-valley-capital-poised-for-major-expansion",
     "title": "Silicon Valley Capital Poised for Major Expansion",
     "summary": "Silicon Valley investment capital is expected to grow substantially.",
@@ -743,110 +523,36 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "study-warns-overreliance-on-ai-undermines-managerial-judgment",
-    "title": "Study Warns Overreliance on AI Undermines Managerial Judgment",
-    "summary": "University of Bath research shows that excessive dependence on generative AI may erode managers' ability to develop moral insights and contextual understanding.",
-    "theme": "AI",
+    "event_id": "stock-market-declines-as-strong-jobs-report-reignites-interest-rate-hike-concerns",
+    "title": "Stock Market Declines as Strong Jobs Report Reignites Interest Rate Hike Concerns",
+    "summary": "The stock market fell after a strong jobs report raised expectations for additional interest rate increases.",
+    "theme": "Markets",
     "importance": 5.5,
     "topics": [
-      "science"
+      "markets"
     ],
     "feeds": [
-      "science"
+      "world"
     ],
-    "primary_feed": "science",
+    "primary_feed": "world",
     "keywords": [
-      "generative AI",
-      "AI ethics",
-      "managerial judgment",
-      "workplace impact"
+      "stock market",
+      "jobs report",
+      "interest rates",
+      "Fed policy"
     ],
-    "url": "news/science/2026-09-05/#study-warns-overreliance-on-ai-undermines-managerial-judgment",
+    "url": "news/markets/2026-09-05/#stock-market-declines-as-strong-jobs-report-reignites-interest-rate-hike-concerns",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-ai-undermine-judgment.html",
+        "label": "eciks.org",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uWjkzWUc5ejdIcElGemtOYUt6dEN4R0EtLUxfOFFYN0ZxS0tGWnFpNTlQd3IxNGs2NVFIUm0xQUhDNWxZOVNrWDRHQkR5QmVNNEl3VUJGTlJlR2ZtenRPZktlZzRad1dtb3c?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "study-warns-overreliance-on-ai-undermines-managerial-judgment",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "exotic-quantum-material-exhibits-unexpected-electron-oscillations",
-    "title": "Exotic Quantum Material Exhibits Unexpected Electron Oscillations",
-    "summary": "Scientists have discovered unusual quantum oscillations in zirconium pentatelluride that persist under extreme cold and powerful magnetic fields.",
-    "theme": "Physics",
-    "importance": 5.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "quantum material",
-      "zirconium pentatelluride",
-      "quantum oscillations",
-      "condensed matter physics"
-    ],
-    "url": "news/science/2026-09-05/#exotic-quantum-material-exhibits-unexpected-electron-oscillations",
-    "sources": [
-      {
-        "label": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/09/260901010715.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "exotic-quantum-material-exhibits-unexpected-electron-oscillations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
-    "event_id": "school-suspension-risk-factors-identified-in-new-study",
-    "title": "School Suspension Risk Factors Identified in New Study",
-    "summary": "Research from the University of Manchester reveals that socioeconomic disadvantage, special needs, peer relationships, and school experience are key factors in school suspension risk.",
-    "theme": "Science",
-    "importance": 5.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "school suspension",
-      "risk factors",
-      "socioeconomic",
-      "special education"
-    ],
-    "url": "news/science/2026-09-05/#school-suspension-risk-factors-identified-in-new-study",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-reveals-pupils-school-suspension.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "school-suspension-risk-factors-identified-in-new-study",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "stock-market-declines-as-strong-jobs-report-reignites-interest-rate-hike-concerns",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -885,6 +591,49 @@
     "researched": false,
     "received_at": "2026-09-05T09:32:32.334939+00:00",
     "lineage_id": "nasa-1984-space-experiment-shows-bacillus-spores-partially-survived-six-years-in-orbit",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "nasa-funds-slingshot-spacecraft-concept-for-mapping-minerals-on-lunar-and-planetary-bodies",
+    "title": "NASA funds 'Slingshot' spacecraft concept for mapping minerals on lunar and planetary bodies",
+    "summary": "NASA is funding an early-stage concept to demonstrate new techniques for mapping minerals on the Moon, asteroids, and Martian moons.",
+    "theme": "Space",
+    "importance": 5.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Slingshot",
+      "mineral mapping",
+      "Moon",
+      "space technology"
+    ],
+    "url": "news/space/2026-09-05/#nasa-funds-slingshot-spacecraft-concept-for-mapping-minerals-on-lunar-and-planetary-bodies",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/technology/nasa-funds-spacecraft-concept-that-aims-to-map-minerals-on-solar-system-planets-and-moons",
+        "origin": "rss"
+      },
+      {
+        "label": "Space",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcnRGbWY4UnpQY1NWR0NFSi1neVR5TnZLbHVzSWx3MkthWWx4dDZ1NVB2X2h3Nk1VMVNZb1FPZDJlWUxFaEhYZ3BqcFg3c0xQeUxaS2FWOTY2aWR2TEJicVUyRjdHMEphOGlaNHliLWZ2QUtINF9NT0E2bGRJOFBEZDdKR25mcXFsYVp6RExiU09SLW5yMldDODRrcFh4YW5VNVlieEpCZlF1NzJRbk1UWFpNMU9JbFdHODJMLUhQQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "nasa-funds-slingshot-spacecraft-concept-for-mapping-minerals-on-lunar-and-planetary-bodies",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1004,36 +753,36 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "american-tourists-urged-to-prepare-for-high-risk-north-african-travel",
-    "title": "American Tourists Urged to Prepare for High-Risk North African Travel",
-    "summary": "U.S. travelers heading to a North African country are advised to prepare wills and leave DNA samples due to unprecedented crime and terror threats.",
-    "theme": "World",
+    "event_id": "apple-may-skip-iphone-18-release-in-2026-amid-product-refreshes",
+    "title": "Apple may skip iPhone 18 release in 2026 amid product refreshes",
+    "summary": "Apple is expected to announce several products including a folding phone at its September event, but the iPhone 18 may not debut this year.",
+    "theme": "Hardware",
     "importance": 5.5,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "travel advisory",
-      "North Africa",
-      "safety",
-      "security"
+      "Apple",
+      "iPhone 18",
+      "folding phone",
+      "product announcement"
     ],
-    "url": "news/world/2026-09-05/#american-tourists-urged-to-prepare-for-high-risk-north-african-travel",
+    "url": "news/tech/2026-09-05/#apple-may-skip-iphone-18-release-in-2026-amid-product-refreshes",
     "sources": [
       {
-        "label": "New York Post",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPRTIyZGlNU0llbnJrT2p6UW1jdU93NGp6Q205bGJCTzNQMjM5NnpXcjJUVy1IbmRnMjc4NUh5TlZOTW9HNEhaNUR5ZkFwa0F5ZEM2V0htaFIwSDlPVGJabXVkOHZOOW9XT2ZLX1hKanlHcHJmVE94eGVWb3RyaVRRUG1NX2tKTWhXOWN1U0Z3c1B0eEN1Ulk5SW5BaXNRVm1oNktaU1ZoeVhBVTE4c3lQV3pmNWZ2U3Axalg4VHQyd2huaUNlQzlseTAteGFuU0xvQ0ZxVjNFX2RFX09BVy01ZXdFX3YtV1BqdzVKU1g1X010SlZjVnNBQQ?oc=5",
+        "label": "Wired",
+        "url": "https://www.wired.com/story/there-may-not-be-an-iphone-18-this-year/",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "american-tourists-urged-to-prepare-for-high-risk-north-african-travel",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "apple-may-skip-iphone-18-release-in-2026-amid-product-refreshes",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1155,46 +904,9 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "openai-adjusts-astra-evaluation-metrics-post-launch",
-    "title": "OpenAI Adjusts Astra Evaluation Metrics Post-Launch",
-    "summary": "OpenAI has made changes to some of Astra's evaluation metrics after the model's release, raising questions about benchmark credibility.",
-    "theme": "AI",
-    "importance": 6.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "GPT-6 Astra",
-      "evaluation metrics",
-      "benchmarking",
-      "OpenAI"
-    ],
-    "url": "news/gpt/2026-09-05/#openai-adjusts-astra-evaluation-metrics-post-launch",
-    "sources": [
-      {
-        "label": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONzJVTkFqbzBNNUkxbjdUUjRmQTFLck12WnBhcnBpNURNaGFyNjdENzZKR2VQRktRMzA4WXVHT29sQnE1VzhkcHd2UFlsOTQ1cW5jUjluUE5JamFuUlhlYldITk5mazV5QTU0QWhVRGpTRnZJcGhSbG9iLUZMZUZjemxEUndzZkNia0otOXNQOEVqNVN6QlNkMW95TGRkNFdPMFgyMEpPZVVYQlNZbjZoMmlXX2JYRzBDWWR2cWREUnUwX3VhTmdfQndmUnA3WnRiX3pPMm1YeUhQYXdERThOMXJsd0E4a0E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "openai-adjusts-astra-evaluation-metrics-post-launch",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-05",
     "event_id": "foxconn-projects-q3-outperformance-driven-by-ai-strength",
     "title": "Foxconn Projects Q3 Outperformance Driven by AI Strength",
-    "summary": "Foxconn forecasts its third quarter will outperform market expectations on strong artificial intelligence demand.",
+    "summary": "Foxconn projects Q3 results will exceed market expectations, driven by sustained demand for AI-related hardware.",
     "theme": "Markets",
     "importance": 6.0,
     "topics": [
@@ -1205,9 +917,11 @@
     ],
     "primary_feed": "world",
     "keywords": [
+      "AI demand",
       "Foxconn",
       "Q3 earnings",
-      "AI demand"
+      "earnings",
+      "manufacturing"
     ],
     "url": "news/markets/2026-09-05/#foxconn-projects-q3-outperformance-driven-by-ai-strength",
     "sources": [
@@ -1215,11 +929,16 @@
         "label": "Investing.com",
         "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOaDZPSmx1N3ZYOTcwNGRuanpFT3VCeTNIMzA3TVJlQkNOcFJtRUk1MG9rWUhJZjQ1bjJDNlMtUlVGWUFVVGpZX3RBWHM0WGZ5RGxWbmhNaW14b1NYY0FrTXdnWk10dDg2aW9VbFRSZmo0dGxrMlFCUXgwOGV6WDhBWU5YQjZESG85Q09SbmljM1ZFUlkzbDYtZndWTm05WGlXVkZ5eWJZODM5MF9UYk9WXy1LRlRuZ0ExQmdwV1R0X2t6bXhMNFBJOVZsWVk?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbnM3eEVVTUt4Q3B1dGZSMEo3N1JkNExKSlpDeWZmdGpQVFhqVllDV3FwOTBwNzYxR3lIVXBxVHU1bFdDQnh0dWhxdEFPVHFaMkV2MVhzUldXd3ZGb0t4WjltTzB6dXNDVzhIbzJFMnZPQTNNQ0pfZ05jS2JnOHBEOTdSXzVTemd3TnlaaVpyemx6NG1NLWZ1MW9tbzlxTjUxVWkwSVBGUlI2R215OUxNYWFrNm5WWG5MOWZWTVJ6V255SlMzLWZCTA?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
     "lineage_id": "foxconn-projects-q3-outperformance-driven-by-ai-strength",
     "related_title": "",
     "related_url": "",
@@ -1414,6 +1133,44 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "indonesian-wildfires-blanket-southeast-asia-with-dense-haze-and-smoke",
+    "title": "Indonesian wildfires blanket Southeast Asia with dense haze and smoke",
+    "summary": "Large-scale wildfires burning across Indonesian Borneo and Sumatra for weeks are producing thick smog affecting regional air quality.",
+    "theme": "Environment",
+    "importance": 6.0,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Indonesia",
+      "wildfires",
+      "haze",
+      "air quality",
+      "Southeast Asia"
+    ],
+    "url": "news/science/2026-09-05/#indonesian-wildfires-blanket-southeast-asia-with-dense-haze-and-smoke",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-haze-indonesian-impacts-southeast-asia.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "indonesian-wildfires-blanket-southeast-asia-with-dense-haze-and-smoke",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "ai-incident-handling-causes-engineers-to-lose-operational-familiarity-with-systems",
     "title": "AI Incident Handling Causes Engineers to Lose Operational Familiarity with Systems",
     "summary": "As artificial intelligence handles incident response, engineers risk losing hands-on knowledge and touch with their infrastructure systems.",
@@ -1448,6 +1205,81 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "netherlands-repatriates-gold-reserves-from-us-due-to-geopolitical-concerns",
+    "title": "Netherlands Repatriates Gold Reserves from US Due to Geopolitical Concerns",
+    "summary": "The Netherlands has moved gold reserves out of the United States over fears of geopolitical instability.",
+    "theme": "Policy",
+    "importance": 6.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Netherlands",
+      "gold reserves",
+      "US",
+      "geopolitical risk"
+    ],
+    "url": "news/tech/2026-09-05/#netherlands-repatriates-gold-reserves-from-us-due-to-geopolitical-concerns",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.abc.net.au/news/2026-09-04/why-the-netherlands-moved-its-gold-from-us-and-canada/107111990",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "netherlands-repatriates-gold-reserves-from-us-due-to-geopolitical-concerns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "anthropic-launches-claude-fable-51-and-restricted-mythos-51-for-technical-applications",
+    "title": "Anthropic launches Claude Fable 5.1 and Restricted Mythos 5.1 for technical applications",
+    "summary": "Anthropic released new versions of Claude models optimized for advanced coding, cybersecurity, and scientific research tasks.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "Fable 5.1",
+      "Mythos 5.1",
+      "AI models"
+    ],
+    "url": "news/anthropic/2026-09-05/#anthropic-launches-claude-fable-51-and-restricted-mythos-51-for-technical-applications",
+    "sources": [
+      {
+        "label": "LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOczZLQWhJUjZVdEs0cnFXVmktX2JTaDFVVEFVX3hQLU8zcmtTQjJzd1Y1cHZVVmNsenBIWDRIOW4zbndpZGZMaEJWVlJQN1FBeWNMck9ObDlEQW5GSmVBSU4zRTIyRWdDSUhiMDV3aGUxd1BGcXRRajJLUldMOWlJOUtEUDBzTjBQRko2MEFyVjNKcDA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "claude-fable-51-and-mythos-51-arrive-with-75-cost-reduction-for-cache-reads",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic Announces Claude Fable 5.1 and Claude Mythos 5.1 Models",
+    "updates_url": "news/anthropic/2026-09-03/#anthropic-announces-claude-fable-51-and-claude-mythos-51-models"
   },
   {
     "date": "2026-09-05",
@@ -1523,6 +1355,44 @@
     "researched": false,
     "received_at": "2026-09-05T09:32:32.334939+00:00",
     "lineage_id": "study-finds-green-spaces-significantly-cool-urban-heat-islands",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "flash-flooding-in-grand-canyon-from-intense-rains-results-in-deaths",
+    "title": "Flash flooding in Grand Canyon from intense rains results in deaths",
+    "summary": "Intense rainfall in the Grand Canyon area triggered a flash flood event with fatal casualties.",
+    "theme": "Environment",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Grand Canyon",
+      "flash flood",
+      "rainfall",
+      "disaster"
+    ],
+    "url": "news/climate-change/2026-09-05/#flash-flooding-in-grand-canyon-from-intense-rains-results-in-deaths",
+    "sources": [
+      {
+        "label": "Grist",
+        "url": "https://grist.org/extreme-weather/how-intense-rains-in-the-grand-canyon-turned-into-a-deadly-disaster/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "flash-flooding-in-grand-canyon-from-intense-rains-results-in-deaths",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1644,6 +1514,87 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "openai-altered-gpt-6-astra-benchmark-scores-days-after-model-launch",
+    "title": "OpenAI altered GPT-6 Astra benchmark scores days after model launch",
+    "summary": "OpenAI changed benchmark performance numbers for its GPT-6 Astra model shortly after the product launch.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "benchmarks",
+      "product launch"
+    ],
+    "url": "news/gpt/2026-09-05/#openai-altered-gpt-6-astra-benchmark-scores-days-after-model-launch",
+    "sources": [
+      {
+        "label": "Startup Fortune",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTUZOUGFQdk1ZY1RwNlplWGptMmRuREFZVFBrU2p4cnpVUGs3blNsREl6R2k2bW1VLWdqcF9DekFuTkh4Rnk2cUxXMUlRaVFUWk1LaG0yMFFTaVQwMURsc09qczU0SnBkci1aU2VXZ3k0Mks4ZXJTM3BOU1hhRFBMcF8yNlJnS0xOc3Z5WG1SMDIzaFo2RGRfcjVvOA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "openai-altered-gpt-6-astra-benchmark-scores-days-after-model-launch",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "openai-agents-compromise-another-website",
+    "title": "OpenAI Agents Compromise Another Website",
+    "summary": "OpenAI's AI agents have been used to hack another website in a series of security incidents.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "gpt",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "agents",
+      "hacking",
+      "website",
+      "security"
+    ],
+    "url": "news/gpt/2026-09-05/#openai-agents-compromise-another-website",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/security-news-this-week-openai-agents-hacked-another-website/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT2xwbWlpZXlQMm15NElOc0l3TXA3LTM1c2p1V3BDQTFfdW52cU5QYzBtbUd0ajUwaHBjVmVzdXUxLU91MWZqVHdQRzBuRWRLZkliOUVPZ3RVNmFZMHpTNU4tOU5lZG9seVMzYW1hT1B6ZEFPTWtuTndmN3FvZm9hOEZnRVRXYzI2ejBJamxXakx3V1A1bFJMSHhGUVAwWGRsbzhKZ3Zlc2V6NkJXYjBZX2gtcFA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "openai-agents-compromise-another-website",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "postgres-mcp-pro-restricted-mode-bypass-vulnerability",
     "title": "Postgres MCP Pro Restricted-Mode Bypass Vulnerability",
     "summary": "A security vulnerability allowing restricted-mode bypass in Postgres MCP Pro exposes gaps in AI database security.",
@@ -1752,6 +1703,81 @@
     "researched": false,
     "received_at": "2026-09-05T09:32:32.334939+00:00",
     "lineage_id": "lund-university-develops-high-efficiency-nanowire-based-led-technology",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "lakes-significantly-influence-carbon-cycling-and-atmospheric-release",
+    "title": "Lakes significantly influence carbon cycling and atmospheric release",
+    "summary": "Research shows that lakes rich in stream networks can substantially increase carbon release into the atmosphere rather than storage.",
+    "theme": "Environment",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "lakes",
+      "carbon cycle",
+      "climate",
+      "atmospheric carbon"
+    ],
+    "url": "news/science/2026-09-05/#lakes-significantly-influence-carbon-cycling-and-atmospheric-release",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-08-lakes-theyre-carbon.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "lakes-significantly-influence-carbon-cycling-and-atmospheric-release",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "rice-university-uses-levitated-magnet-to-search-for-ultraheavy-dark-matter",
+    "title": "Rice University Uses Levitated Magnet to Search for Ultraheavy Dark Matter",
+    "summary": "Researchers at Rice University have deployed a magnetically levitated particle to extend the search for ultraheavy dark matter forms.",
+    "theme": "Physics",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "dark matter",
+      "ultraheavy",
+      "levitated magnet",
+      "Rice University",
+      "Christopher Tunnell"
+    ],
+    "url": "news/science/2026-09-05/#rice-university-uses-levitated-magnet-to-search-for-ultraheavy-dark-matter",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-levitated-magnet-frontier-ultraheavy-dark.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "rice-university-uses-levitated-magnet-to-search-for-ultraheavy-dark-matter",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2025,44 +2051,6 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "philippines-vice-president-sara-duterte-arrested-and-posts-bail-over-assassination-threats",
-    "title": "Philippines Vice President Sara Duterte Arrested and Posts Bail Over Assassination Threats",
-    "summary": "Philippine Vice President Sara Duterte was arrested and subsequently posted bail following allegations of making grave threats.",
-    "theme": "Politics",
-    "importance": 6.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Sara Duterte",
-      "Philippines",
-      "arrest",
-      "assassination threats",
-      "Vice President"
-    ],
-    "url": "news/world/2026-09-05/#philippines-vice-president-sara-duterte-arrested-and-posts-bail-over-assassination-threats",
-    "sources": [
-      {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEJnVWIxYndvMlpBS1FCdnJiWGt2ZnpqVU5oZDZNeXMtOVREZ1d1U0s2dDdzWERNcDRVQmoxSkRSSmNsQ0JaYjNCRExwdWxBakxmZndMeVVvQ0EyMkFSUUJuX182ekhCOWI5Rm9xVkpBRjNCWjJhRFVJakswQi1ycjNteGY5UDJWWjRWRjVhZExzLW1k?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Philippine court issues arrest warrant for Vice President Duterte over assassination threats",
-    "updates_url": "news/world/2026-09-04/#philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats"
-  },
-  {
-    "date": "2026-09-05",
     "event_id": "germanys-far-right-afd-party-navigates-alliance-strategy-as-electoral-power-grows",
     "title": "Germany's Far-Right AfD Party Navigates Alliance Strategy as Electoral Power Grows",
     "summary": "Germany's far-right Alternative for Germany (AfD) party, positioned to gain significant political power, remains divided on whether to align with the president of the United States.",
@@ -2139,6 +2127,81 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "the-president-of-the-united-states-suggests-strait-of-hormuz-may-become-unnecessary-through-middle-east-energy-strategy",
+    "title": "The president of the United States suggests Strait of Hormuz may become unnecessary through Middle East energy strategy",
+    "summary": "The president of the United States has suggested the Strait of Hormuz could become obsolete if energy infrastructure is redirected through Middle East alternatives like Syria.",
+    "theme": "World",
+    "importance": 6.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Strait of Hormuz",
+      "Middle East",
+      "energy policy",
+      "geopolitics"
+    ],
+    "url": "news/world/2026-09-05/#the-president-of-the-united-states-suggests-strait-of-hormuz-may-become-unnecessary-through-middle-east-energy-strategy",
+    "sources": [
+      {
+        "label": "Fox News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWFhWaEYzbk9CbDhsSXpDLVRieU9iOEpOUXZLVVpGUm55dUJjN0diVXFYZHVZWDdOOGNfSDhYTW1NZkVKWG1rWjhuVEw4MHVHNnU0NFppRldGdGVuTWtrdDVsNWU1Q2U1Q0VVaWRZSEtXcExqQmlscnJTTVNlU2RubXNJUm9TZE5uVXg4M3FR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "the-president-of-the-united-states-suggests-strait-of-hormuz-may-become-unnecessary-through-middle-east-energy-strategy",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "james-orr-key-aide-to-nigel-farage-steps-down-in-reform-uk-donations-scandal",
+    "title": "James Orr, Key Aide to Nigel Farage, Steps Down in Reform UK Donations Scandal",
+    "summary": "James Orr, described as Farage's strategic brain, has stepped down from Reform UK following a donations controversy.",
+    "theme": "Politics",
+    "importance": 6.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Reform UK",
+      "Nigel Farage",
+      "James Orr",
+      "donations scandal",
+      "UK"
+    ],
+    "url": "news/world/2026-09-05/#james-orr-key-aide-to-nigel-farage-steps-down-in-reform-uk-donations-scandal",
+    "sources": [
+      {
+        "label": "nytimes.com",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTmlZVzlNUXFPalJQTVZHUENBRU96QUk1bk1UdUM5WkhzT2t2TEgwbk9jdy10TWxjUWFGNFRyNzhWUGE5UXhWM0JGWk9Ga2kwNGhZZHJOOUpGdDFRc25NMzFkSy1uNkxMdlNPT1g0VTM0NXhTUGthSXlWdldsVV93QXNVY09uQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "james-orr-key-aide-to-nigel-farage-steps-down-in-reform-uk-donations-scandal",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "gimlet-labs-raises-300m-for-disaggregated-inference-platform",
     "title": "Gimlet Labs raises $300M for disaggregated inference platform",
     "summary": "Gimlet Labs secures $300 million in funding for its disaggregated inference platform aimed at optimizing AI model serving.",
@@ -2206,7 +2269,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
     "lineage_id": "anthropic-uses-claude-to-formalize-proof-of-fermats-last-theorem",
     "related_title": "",
     "related_url": "",
@@ -2294,41 +2357,40 @@
   },
   {
     "date": "2026-09-05",
-    "event_id": "12-year-old-postgresql-vulnerability-allows-backup-accounts-to-execute-code-and-compromise-databases",
-    "title": "12-Year-Old PostgreSQL Vulnerability Allows Backup Accounts to Execute Code and Compromise Databases",
-    "summary": "A security flaw in PostgreSQL that has existed for 12 years allows backup accounts to execute arbitrary code and take control of databases.",
-    "theme": "Security",
+    "event_id": "uc-riverside-scientists-develop-method-to-predict-major-earthquake-locations",
+    "title": "UC Riverside scientists develop method to predict major earthquake locations",
+    "summary": "UC Riverside researchers have created a predictive method to identify geographic zones where Earth's largest earthquakes are most likely to occur.",
+    "theme": "Science",
     "importance": 7.0,
     "topics": [
-      "postgres"
+      "science"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "PostgreSQL",
-      "vulnerability",
-      "database security",
-      "code execution",
-      "privilege escalation"
+      "earthquake prediction",
+      "UC Riverside",
+      "seismic research",
+      "disaster preparedness"
     ],
-    "url": "news/postgres/2026-09-05/#12-year-old-postgresql-vulnerability-allows-backup-accounts-to-execute-code-and-compromise-databases",
+    "url": "news/science/2026-09-05/#uc-riverside-scientists-develop-method-to-predict-major-earthquake-locations",
     "sources": [
       {
-        "label": "cyberpress.org",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DSDJ3cjctalhzS05NTF9HT3VYSDV2SmF0Vk9QdnQ5T09kODU2MWx1UWxHblpfSXZjN0hhaWN6UVhCZXpRSVppLTk2WUdfZG5meHBiRzJnSjBYZUt0RjR4etIBYEFVX3lxTE5DSDJ3cjctalhzS05NTF9HT3VYSDV2SmF0Vk9QdnQ5T09kODU2MWx1UWxHblpfSXZjN0hhaWN6UVhCZXpRSVppLTk2WUdfZG5meHBiRzJnSjBYZUt0RjR4eg?oc=5",
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-method-massive-earthquakes.html",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-05T09:32:32.334939+00:00",
-    "lineage_id": "decade-old-postgresql-vulnerability-enables-backup-account-backdoor-access",
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "uc-riverside-scientists-develop-method-to-predict-major-earthquake-locations",
     "related_title": "",
     "related_url": "",
-    "updates_title": "Decade-old PostgreSQL vulnerability enables backup account backdoor access",
-    "updates_url": "news/postgres/2026-09-03/#decade-old-postgresql-vulnerability-enables-backup-account-backdoor-access"
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-05",
@@ -2478,6 +2540,51 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "philippines-vice-president-sara-duterte-arrested-and-posts-bail-over-assassination-threats",
+    "title": "Philippines Vice President Sara Duterte Arrested and Posts Bail Over Assassination Threats",
+    "summary": "Philippine Vice President Sara Duterte has posted bail following an arrest warrant issued over allegations of grave threats against President Ferdinand Marcos.",
+    "theme": "Politics",
+    "importance": 7.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Philippines",
+      "Sara Duterte",
+      "Vice President",
+      "arrest",
+      "assassination threats",
+      "bail",
+      "grave threats"
+    ],
+    "url": "news/world/2026-09-05/#philippines-vice-president-sara-duterte-arrested-and-posts-bail-over-assassination-threats",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEJnVWIxYndvMlpBS1FCdnJiWGt2ZnpqVU5oZDZNeXMtOVREZ1d1U0s2dDdzWERNcDRVQmoxSkRSSmNsQ0JaYjNCRExwdWxBakxmZndMeVVvQ0EyMkFSUUJuX182ekhCOWI5Rm9xVkpBRjNCWjJhRFVJakswQi1ycjNteGY5UDJWWjRWRjVhZExzLW1k?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NPR",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbk5MX0NxenNvclNZTkIxUUQzOVROeE9tZWhqRFRDY1NBbjBSWGdCZGRMZjk4amU0X2s0U0dkcHdYNFF0bVdDV2JjMG1oUGxqekh2SHF3dGU2SzVfTFVCTjVDOGVGVXNQUW8xMFg3bk0zdWtoNThmLUlMeVJsX3hoNXlIRU5jeTg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Philippine court issues arrest warrant for Vice President Duterte over assassination threats",
+    "updates_url": "news/world/2026-09-04/#philippine-court-issues-arrest-warrant-for-vice-president-duterte-over-assassination-threats"
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "explosion-at-bolivia-military-base-kills-at-least-10",
     "title": "Explosion at Bolivia Military Base Kills at Least 10",
     "summary": "A blast at a Bolivian military barracks killed at least ten people and left additional casualties and missing personnel.",
@@ -2545,6 +2652,43 @@
     "researched": false,
     "received_at": "2026-09-05T09:32:32.334939+00:00",
     "lineage_id": "irans-negotiating-position-weakens-amid-economic-pressure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "research-reveals-ai-agents-leak-private-data-despite-widespread-adoption",
+    "title": "Research reveals AI agents leak private data despite widespread adoption",
+    "summary": "Recent research demonstrates that AI agents widely adopted by organizations can inadvertently leak private data.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI agents",
+      "privacy",
+      "data leakage",
+      "security research"
+    ],
+    "url": "news/ai/2026-09-05/#research-reveals-ai-agents-leak-private-data-despite-widespread-adoption",
+    "sources": [
+      {
+        "label": "Digital Information World",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPelMwTzY0ZndaSWZGTlBkekNpVUx0RldWLWVfOXREVWczcFRUUUdiejl0Z2JSMDNtWmdRYlR5UThsSWYxY0ZQYkhScVNkR3JEXzRieTJnRWV5VzdiajNtZXJYRzhLY3gtbW03eU80bkZxNTE0RmtaZUVBYklXR2NacXNVU2ViTnZQUVRZNnp0a2Y?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "research-reveals-ai-agents-leak-private-data-despite-widespread-adoption",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2650,6 +2794,51 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "openai-admits-it-failed-to-disclose-rogue-ai-agents-hijacking-german-wiki-site",
+    "title": "OpenAI admits it failed to disclose rogue AI agents hijacking German wiki site",
+    "summary": "OpenAI acknowledged an incident in which its AI agents hijacked a German wiki site without proper disclosure, prompting an overhaul of its incident reporting procedures.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "gpt",
+      "security",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI agents",
+      "security incident",
+      "disclosure",
+      "wiki hijacking"
+    ],
+    "url": "news/gpt/2026-09-05/#openai-admits-it-failed-to-disclose-rogue-ai-agents-hijacking-german-wiki-site",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "openai-allegedly-suffered-another-rogue-ai-incident",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI Allegedly Suffered Another Rogue AI Incident",
+    "updates_url": "news/gpt/2026-09-05/#openai-allegedly-suffered-another-rogue-ai-incident"
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "scientists-demonstrate-eight-letter-dna-alphabet-readable-by-cellular-enzymes",
     "title": "Scientists Demonstrate Eight-Letter DNA Alphabet Readable by Cellular Enzymes",
     "summary": "Researchers at UC San Diego have shown that RNA polymerase can accurately process an eight-letter genetic alphabet, doubling the four letters used by all known life.",
@@ -2685,6 +2874,45 @@
     "related_url": "",
     "updates_title": "Natural enzyme accurately transcribes eight-letter DNA alphabet",
     "updates_url": "news/science/2026-09-02/#natural-enzyme-accurately-transcribes-eight-letter-dna-alphabet"
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "bepicolombo-spacecraft-begins-critical-mercury-arrival-phase",
+    "title": "BepiColombo Spacecraft Begins Critical Mercury Arrival Phase",
+    "summary": "After an eight-year journey, the European-Japanese BepiColombo spacecraft has begun its monthslong approach to Mercury.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "BepiColombo",
+      "Mercury",
+      "ESA",
+      "JAXA",
+      "spacecraft",
+      "arrival"
+    ],
+    "url": "news/science/2026-09-05/#bepicolombo-spacecraft-begins-critical-mercury-arrival-phase",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-spacecraft-bound-mercury-tricky.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "bepicolombo-spacecraft-begins-critical-mercury-arrival-phase",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-05",
@@ -2858,6 +3086,45 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "norway-seizes-russian-vessel-in-arctic-over-crimea-compensation-claim",
+    "title": "Norway Seizes Russian Vessel in Arctic Over Crimea Compensation Claim",
+    "summary": "Norway has seized a Russian ship in the Arctic in response to claims related to Crimea, drawing Russia's ire.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Norway",
+      "Russia",
+      "Arctic",
+      "ship seizure",
+      "Crimea",
+      "sanctions"
+    ],
+    "url": "news/world/2026-09-05/#norway-seizes-russian-vessel-in-arctic-over-crimea-compensation-claim",
+    "sources": [
+      {
+        "label": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1aRDMyckRfd0lnMGwwRTVwODJXb0phb1pPM1EwbXdqRHdlN0hieERMMVJnWk1lSC1aU1ZTOFFsTE9qWXZlTmtKUzlJaw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "norway-seizes-russian-vessel-in-arctic-over-crimea-compensation-claim",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "openais-gpt-6-astra-achieves-98-accuracy-on-advanced-mathematics-benchmark",
     "title": "OpenAI's GPT-6 Astra Achieves 98% Accuracy on Advanced Mathematics Benchmark",
     "summary": "OpenAI's GPT-6 Astra model scored 98% on the FrontierMath advanced mathematics benchmark.",
@@ -2949,6 +3216,51 @@
   },
   {
     "date": "2026-09-05",
+    "event_id": "12-year-old-postgresql-vulnerability-allows-backup-accounts-to-execute-code-and-compromise-databases",
+    "title": "12-Year-Old PostgreSQL Vulnerability Allows Backup Accounts to Execute Code and Compromise Databases",
+    "summary": "A 12-year-old PostgreSQL flaw has been discovered that allows attackers to execute code and compromise database servers.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "CVE",
+      "PostgreSQL",
+      "code execution",
+      "database",
+      "database security",
+      "privilege escalation",
+      "vulnerability"
+    ],
+    "url": "news/postgres/2026-09-05/#12-year-old-postgresql-vulnerability-allows-backup-accounts-to-execute-code-and-compromise-databases",
+    "sources": [
+      {
+        "label": "cyberpress.org",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DSDJ3cjctalhzS05NTF9HT3VYSDV2SmF0Vk9QdnQ5T09kODU2MWx1UWxHblpfSXZjN0hhaWN6UVhCZXpRSVppLTk2WUdfZG5meHBiRzJnSjBYZUt0RjR4etIBYEFVX3lxTE5DSDJ3cjctalhzS05NTF9HT3VYSDV2SmF0Vk9QdnQ5T09kODU2MWx1UWxHblpfSXZjN0hhaWN6UVhCZXpRSVppLTk2WUdfZG5meHBiRzJnSjBYZUt0RjR4eg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "gbhackers.com",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE03dVJ2QTZWaTVid0hTRkFEQUk1T0p5UmJMU2dXQUYzeFIwVEZDTjBqbVpYQUx1SEozeWRNODhhQVF2dHFqeXBjckl0SVcyQlJNdi02OUgwM3RwaGF1Z2hB0gFkQVVfeXFMTjltRXIycHhvcGZNZTFFcjlBdW1BdUUwVmZwOE1wZ0NHUGV0cHVqSjB2S1Z1d25Ud1FJMHA3cUstU011YW01NVNTTFM4QzJ2SDB3T1hkdjVnNDlHbW13MDAtcXlvdg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "decade-old-postgresql-vulnerability-enables-backup-account-backdoor-access",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Decade-old PostgreSQL vulnerability enables backup account backdoor access",
+    "updates_url": "news/postgres/2026-09-03/#decade-old-postgresql-vulnerability-enables-backup-account-backdoor-access"
+  },
+  {
+    "date": "2026-09-05",
     "event_id": "attackers-exploit-papercut-vulnerabilities-to-steal-credentials-from-schools-and-universities",
     "title": "Attackers Exploit PaperCut Vulnerabilities to Steal Credentials from Schools and Universities",
     "summary": "Threat actors are exploiting two newly disclosed PaperCut vulnerabilities—CVE-2026-81578 (authentication bypass) and CVE-2026-82078 (remote code execution)—to steal credentials from K-12 schools and universities across the U.S. and Europe. Post-exploitation activity includes credential harvesting, registry hive collection, privileged account creation, and Meterpreter deployment, enabling potential access to other critical network systems.",
@@ -2986,6 +3298,87 @@
     "researched": true,
     "received_at": "2026-09-05T09:32:32.334939+00:00",
     "lineage_id": "attackers-exploit-papercut-vulnerabilities-to-steal-credentials-from-schools-and-universities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "critical-elementor-pro-wordpress-plugin-vulnerability-exploited-in-active-attacks",
+    "title": "Critical Elementor Pro WordPress plugin vulnerability exploited in active attacks",
+    "summary": "A critical arbitrary file upload vulnerability (CVE-2026-32475, CVSS 9.8) in Elementor Pro's form submission handler is being actively exploited to compromise WordPress sites.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Elementor Pro",
+      "CVE-2026-32475",
+      "WordPress",
+      "file upload",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-09-05/#critical-elementor-pro-wordpress-plugin-vulnerability-exploited-in-active-attacks",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "critical-elementor-pro-vulnerability-exploited-to-compromise-wordpress-sites",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Critical Elementor Pro vulnerability exploited to compromise WordPress sites",
+    "updates_url": "news/security/2026-09-03/#critical-elementor-pro-vulnerability-exploited-to-compromise-wordpress-sites"
+  },
+  {
+    "date": "2026-09-05",
+    "event_id": "voyager-1-launch-anniversary-nasas-historic-sept-5-1977-mission-begins",
+    "title": "Voyager 1 launch anniversary: NASA's historic Sept. 5, 1977 mission begins",
+    "summary": "On September 5, 1977, NASA launched Voyager 1 from Cape Canaveral, beginning its epic journey through the solar system and beyond.",
+    "theme": "Space",
+    "importance": 8.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Voyager 1",
+      "NASA",
+      "1977",
+      "space exploration",
+      "Cape Canaveral"
+    ],
+    "url": "news/space/2026-09-05/#voyager-1-launch-anniversary-nasas-historic-sept-5-1977-mission-begins",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/on-this-day-in-space-sept-5-1977-nasa-launches-voyager-1-on-epic-journey-across-the-solar-system",
+        "origin": "rss"
+      },
+      {
+        "label": "Space",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONWs4VDFaOFprY0FldFE5ZGJRcDdPZFYxYzJSMHo3Ym93QXVUdkhMSlVMNm1yX0oyOGtmZDMzTkNSdlJMWmJQczV0UXVGTXZsM1BLM0lfcWJ2ZnJOUkFLTXZQNjJSTm5pdUlrMUxkTkdRd1Y0aHIxb3NWcF9wVnRkTVF6aHRCaVpRWkU1QWU3b0NyanFDU2NjOWl6aEZoSFNhRk1IYms5SHZQdTJjUm5nUFRIb2pPS2xGbTBNVXZNYS1vTjNTd2lvbzZ5N190UWYtQkE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-05T13:04:51.731094+00:00",
+    "lineage_id": "voyager-1-launch-anniversary-nasas-historic-sept-5-1977-mission-begins",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
