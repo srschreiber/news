@@ -1,5 +1,83 @@
 [
   {
+    "timestamp": "2026-09-05T16:20:16.051740+00:00",
+    "mode": "daily",
+    "calls": 12,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 21862,
+        "output": 9541,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.0696,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 11110,
+            "output": 7231,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0473
+      },
+      "(merge-check)": {
+        "calls": 6,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3733,
+            "output": 54,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.004
+      },
+      "(read)": {
+        "calls": 4,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 7019,
+            "output": 2256,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0183
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 World": 17,
+      "Google News \u2014 markets": 10,
+      "Engadget": 9,
+      "Hacker News (front page)": 7,
+      "Space.com": 4,
+      "Google News \u2014 OpenAI GPT": 4,
+      "Phys.org": 3,
+      "The Verge": 2,
+      "Live Science": 2,
+      "Ars Technica": 1,
+      "TechCrunch": 1,
+      "BleepingComputer": 1,
+      "Google News \u2014 Anthropic": 1,
+      "The Hacker News": 1,
+      "Google News \u2014 cybersecurity": 1,
+      "Google News \u2014 space": 1,
+      "Google News \u2014 Python": 1,
+      "Google News \u2014 PostgreSQL": 1,
+      "Google News \u2014 email security": 1,
+      "Google News \u2014 phishing campaigns": 1
+    }
+  },
+  {
     "timestamp": "2026-09-05T13:04:51.731094+00:00",
     "mode": "daily",
     "calls": 13,
