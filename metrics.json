@@ -1,5 +1,80 @@
 [
   {
+    "timestamp": "2026-09-06T16:31:26.735956+00:00",
+    "mode": "daily",
+    "calls": 12,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 23007,
+        "output": 11032,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.0782,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 15129,
+            "output": 9826,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0643
+      },
+      "(merge-check)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4358,
+            "output": 63,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0047
+      },
+      "(read)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3520,
+            "output": 1143,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0092
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 35,
+      "Google News \u2014 World": 18,
+      "Hacker News (front page)": 9,
+      "Google News \u2014 OpenAI GPT": 4,
+      "Engadget": 4,
+      "Space.com": 3,
+      "Live Science": 3,
+      "Google News \u2014 Anthropic": 3,
+      "Phys.org": 2,
+      "Google News \u2014 email security": 2,
+      "The Verge": 1,
+      "TechCrunch": 1,
+      "Google News \u2014 AI models": 1,
+      "Google News \u2014 space": 1,
+      "BleepingComputer": 1,
+      "Google News \u2014 phishing campaigns": 1,
+      "Google News \u2014 cybersecurity": 1
+    }
+  },
+  {
     "timestamp": "2026-09-06T13:14:07.082134+00:00",
     "mode": "daily",
     "calls": 19,
