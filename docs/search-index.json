@@ -2072,81 +2072,6 @@
   },
   {
     "date": "2026-09-07",
-    "event_id": "bronze-age-folding-chair-found-in-denmark-rare-intact-wooden-artifact",
-    "title": "Bronze Age folding chair found in Denmark — rare intact wooden artifact",
-    "summary": "A remarkably preserved wooden folding chair from the Bronze Age was discovered in a Danish chieftain's grave, likely a status symbol.",
-    "theme": "Archaeology",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Bronze Age",
-      "Denmark",
-      "archaeology",
-      "wooden furniture",
-      "artifact"
-    ],
-    "url": "news/science/2026-09-07/#bronze-age-folding-chair-found-in-denmark-rare-intact-wooden-artifact",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/archaeology/guldhoj-folding-chair-the-only-completely-preserved-chair-from-bronze-age-europe",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-07T10:52:04.538610+00:00",
-    "lineage_id": "bronze-age-folding-chair-found-in-denmark-rare-intact-wooden-artifact",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-07",
-    "event_id": "binary-white-dwarf-pair-in-6-minute-orbit-offers-future-gravitational-wave-detection-opportunity",
-    "title": "Binary white dwarf pair in 6-minute orbit offers future gravitational wave detection opportunity",
-    "summary": "Astronomers have identified a pair of white dwarfs locked in a 6-minute orbital period that may become observable by next-generation gravitational wave detectors.",
-    "theme": "Space",
-    "importance": 6.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "white dwarfs",
-      "gravitational waves",
-      "binary stars",
-      "LIGO"
-    ],
-    "url": "news/science/2026-09-07/#binary-white-dwarf-pair-in-6-minute-orbit-offers-future-gravitational-wave-detection-opportunity",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-pair-white-dwarfs-minute-orbit.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-07T16:44:27.441694+00:00",
-    "lineage_id": "binary-white-dwarf-pair-in-6-minute-orbit-offers-future-gravitational-wave-detection-opportunity",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-07",
     "event_id": "nasa-invites-isro-to-participate-in-moon-base-mission",
     "title": "NASA invites ISRO to participate in Moon Base mission",
     "summary": "NASA has invited India's ISRO to join its Moon Base mission, marking a significant milestone in US-India space collaboration.",
@@ -2620,7 +2545,8 @@
     "theme": "Climate",
     "importance": 7.0,
     "topics": [
-      "climate-change"
+      "climate-change",
+      "science"
     ],
     "feeds": [
       "environment",
@@ -2628,12 +2554,13 @@
     ],
     "primary_feed": "environment",
     "keywords": [
-      "air quality",
-      "heatwaves",
-      "wildfires",
-      "climate change",
       "UN",
-      "WMO"
+      "WMO",
+      "air quality",
+      "climate change",
+      "heat waves",
+      "heatwaves",
+      "wildfires"
     ],
     "url": "news/climate-change/2026-09-07/#heatwaves-and-wildfires-undermine-air-quality-improvements-globally-un-warns",
     "sources": [
@@ -2645,6 +2572,11 @@
       {
         "label": "The Guardian — Climate Crisis",
         "url": "https://www.theguardian.com/environment/2026/sep/07/heatwaves-wildfires-setting-back-air-quality-improvements-un-finds",
+        "origin": "rss"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-climate-air-quality-linked-highlights.html",
         "origin": "rss"
       }
     ],
@@ -3207,43 +3139,6 @@
   },
   {
     "date": "2026-09-07",
-    "event_id": "connectwise-discloses-screenconnect-vulnerability-without-immediate-patch",
-    "title": "ConnectWise discloses ScreenConnect vulnerability without immediate patch",
-    "summary": "ConnectWise disclosed a remote access vulnerability in ScreenConnect for which it provided temporary mitigations but no patch, with a full patch expected later in the week.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ConnectWise",
-      "ScreenConnect",
-      "vulnerability",
-      "remote access"
-    ],
-    "url": "news/security/2026-09-07/#connectwise-discloses-screenconnect-vulnerability-without-immediate-patch",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-07T10:52:04.538610+00:00",
-    "lineage_id": "connectwise-discloses-screenconnect-vulnerability-without-immediate-patch",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-07",
     "event_id": "apple-to-host-september-2026-hardware-event-with-new-ceo-and-foldable-iphone",
     "title": "Apple to host September 2026 hardware event with new CEO and foldable iPhone",
     "summary": "Apple will hold its annual September event featuring a new CEO and a new foldable iPhone model.",
@@ -3611,6 +3506,82 @@
   },
   {
     "date": "2026-09-07",
+    "event_id": "deep-biosphere-microbial-life-persists-through-mountain-building-over-hundreds-of-millions-of-years",
+    "title": "Deep biosphere microbial life persists through mountain-building over hundreds of millions of years",
+    "summary": "Analysis of a 2.3-kilometer borehole in Sweden reveals microbial life deep within Earth has persisted and repeatedly flourished through geologic mountain-building and erosion cycles.",
+    "theme": "Geology & Microbiology",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "deep biosphere",
+      "microbial life",
+      "mountain-building",
+      "Sweden",
+      "borehole"
+    ],
+    "url": "news/science/2026-09-07/#deep-biosphere-microbial-life-persists-through-mountain-building-over-hundreds-of-millions-of-years",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-deep-biosphere-mountain-erosion-hundreds.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-07T20:51:26.774364+00:00",
+    "lineage_id": "deep-biosphere-microbial-life-persists-through-mountain-building-over-hundreds-of-millions-of-years",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-07",
+    "event_id": "exceeding-15c-global-warming-target-warrants-concern-but-not-despair-un-report-indicates",
+    "title": "Exceeding 1.5°C global warming target warrants concern but not despair, UN report indicates",
+    "summary": "A UN report indicates that global warming is expected to exceed the 1.5°C Paris Agreement target, raising alarm but leaving room for mitigation action.",
+    "theme": "Climate Change",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "1.5°C warming",
+      "Paris Agreement",
+      "global warming",
+      "climate targets",
+      "UN"
+    ],
+    "url": "news/science/2026-09-07/#exceeding-15c-global-warming-target-warrants-concern-but-not-despair-un-report-indicates",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-global-alarm-despair.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-07T20:51:26.774364+00:00",
+    "lineage_id": "exceeding-15c-global-warming-target-warrants-concern-but-not-despair-un-report-indicates",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-07",
     "event_id": "n-able-releases-fourth-hotfix-in-five-weeks-for-critical-n-central-rce-vulnerability",
     "title": "N-able releases fourth hotfix in five weeks for critical N-central RCE vulnerability",
     "summary": "N-able released its fourth hotfix in five weeks for CVE-2026-86218, an unauthenticated remote code execution vulnerability in N-central affecting all builds before version 2026.3.1.14. N-able's communications conflict on exploitation status, with the incident notice stating the flaw \"has been observed being exploited in the wild\" while release notes claim no production exploitation confirmations.",
@@ -3867,6 +3838,51 @@
     "researched": true,
     "received_at": "2026-09-07T16:44:27.441694+00:00",
     "lineage_id": "north-korean-hackers-deploy-new-linux-espionage-toolkit-targeting-automotive-and-media-sectors",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-07",
+    "event_id": "peep-post-exploitation-toolkit-disguised-as-browser-extension-enables-host-command-execution",
+    "title": "PEEP post-exploitation toolkit disguised as browser extension enables host command execution",
+    "summary": "Researchers disclosed PEEP, a post-exploitation toolkit disguised as a Chrome/Edge bookmarks extension that executes host commands on compromised systems. It bypasses browser security, exfiltrates browsing data and credentials, and communicates with command servers every 30 seconds—requiring prior administrative access to install.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "PEEP",
+      "malware",
+      "Chrome",
+      "Edge",
+      "post-exploitation",
+      "backdoor"
+    ],
+    "url": "news/security/2026-09-07/#peep-post-exploitation-toolkit-disguised-as-browser-extension-enables-host-command-execution",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Masquerades as \"Smart Bookmarks\" extension (ID: ejkndncpkdcjcikfhiamcdehdoegilbj)",
+      "Polls C2 server (206.237.30.232 or xfjcc.fun) every 30 seconds over plaintext HTTP",
+      "Steals browsing history, cookies, session metadata, system info, and credentials",
+      "Built on RedExt framework; includes Chinese-language code artifacts suggesting Chinese-speaking actor",
+      "Requires prior admin or code execution access; post-compromise toolkit with no initial vector"
+    ],
+    "researched": true,
+    "received_at": "2026-09-07T20:51:26.774364+00:00",
+    "lineage_id": "peep-post-exploitation-toolkit-disguised-as-browser-extension-enables-host-command-execution",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4464,7 +4480,7 @@
     "date": "2026-09-07",
     "event_id": "adobe-commerce-zero-day-vulnerability-exploited-to-backdoor-online-stores",
     "title": "Adobe Commerce zero-day vulnerability exploited to backdoor online stores",
-    "summary": "The StyleSmuggler zero-day vulnerability in Adobe Commerce allows attackers to execute code and deploy backdoors on affected stores.",
+    "summary": "A zero-day vulnerability in Magento and Adobe Commerce called StyleSmuggler is being actively exploited to install Linux backdoors on affected systems.",
     "theme": "Security",
     "importance": 8.0,
     "topics": [
@@ -4476,16 +4492,24 @@
     "primary_feed": "technology",
     "keywords": [
       "Adobe Commerce",
-      "zero-day",
-      "backdoor",
+      "Linux",
+      "Magento",
       "RCE",
-      "e-commerce"
+      "StyleSmuggler",
+      "backdoor",
+      "e-commerce",
+      "zero-day"
     ],
     "url": "news/security/2026-09-07/#adobe-commerce-zero-day-vulnerability-exploited-to-backdoor-online-stores",
     "sources": [
       {
         "label": "SecurityWeek",
         "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
         "origin": "rss"
       }
     ],
@@ -4497,7 +4521,7 @@
       "Researcher-reported vulnerability name: StyleSmuggler"
     ],
     "researched": false,
-    "received_at": "2026-09-07T16:44:27.441694+00:00",
+    "received_at": "2026-09-07T20:51:26.774364+00:00",
     "lineage_id": "unpatched-magento-and-adobe-commerce-zero-day-actively-exploited-to-backdoor-stores",
     "related_title": "",
     "related_url": "",
