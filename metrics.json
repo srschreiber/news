@@ -1,5 +1,95 @@
 [
   {
+    "timestamp": "2026-09-08T15:29:04.983769+00:00",
+    "mode": "daily",
+    "calls": 42,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 70860,
+        "output": 31530,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.2285,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 39192,
+            "output": 27323,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1758
+      },
+      "(merge-check)": {
+        "calls": 27,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 17178,
+            "output": 243,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0184
+      },
+      "(read)": {
+        "calls": 8,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 14490,
+            "output": 3964,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0343
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 77,
+      "Phys.org": 26,
+      "Google News \u2014 World": 25,
+      "Google News \u2014 OpenAI GPT": 19,
+      "Hacker News (front page)": 16,
+      "Engadget": 15,
+      "Google News \u2014 Anthropic": 12,
+      "The Verge": 10,
+      "Google News \u2014 space": 10,
+      "The Register": 8,
+      "STAT News": 8,
+      "ScienceDaily": 8,
+      "TechCrunch": 7,
+      "Google News \u2014 AI models": 7,
+      "ScienceDaily \u2014 Health": 7,
+      "SecurityWeek": 6,
+      "BleepingComputer": 6,
+      "The Hacker News": 6,
+      "Space.com": 4,
+      "Wired": 4,
+      "The Record": 3,
+      "Mongabay": 2,
+      "Ars Technica": 2,
+      "IEEE Spectrum": 2,
+      "Google News \u2014 phishing campaigns": 2,
+      "Google News \u2014 Python": 1,
+      "DeepMind Blog": 1,
+      "Google News \u2014 cybersecurity": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Google News \u2014 PostgreSQL": 1,
+      "Yale Environment 360": 1,
+      "Schneier on Security": 1
+    }
+  },
+  {
     "timestamp": "2026-09-08T10:10:39.518031+00:00",
     "mode": "daily",
     "calls": 27,
