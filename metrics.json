@@ -1,5 +1,72 @@
 [
   {
+    "timestamp": "2026-09-10T10:08:47.377772+00:00",
+    "mode": "daily",
+    "calls": 1,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 355,
+        "output": 42,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.0006,
+    "by_topic": {
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 355,
+            "output": 42,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0006
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 68,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 60,
+      "Google News \u2014 Anthropic": 32,
+      "Phys.org": 29,
+      "Wired": 13,
+      "Google News \u2014 email security": 13,
+      "Google News \u2014 phishing campaigns": 11,
+      "Google News \u2014 World": 11,
+      "The Verge": 9,
+      "The Register": 8,
+      "Google News \u2014 OpenAI GPT": 8,
+      "Engadget": 7,
+      "Hacker News (front page)": 7,
+      "Google News \u2014 space": 6,
+      "Google News \u2014 AI models": 6,
+      "Inside Climate News": 4,
+      "STAT News": 4,
+      "Google News \u2014 cybersecurity": 4,
+      "SecurityWeek": 3,
+      "BleepingComputer": 3,
+      "The Guardian \u2014 Climate Crisis": 3,
+      "Mongabay": 3,
+      "TechCrunch": 3,
+      "Space.com": 2,
+      "The Hacker News": 2,
+      "Proofpoint \u2014 Threat Insight": 1,
+      "Live Science": 1,
+      "Yale Environment 360": 1,
+      "Grist": 1,
+      "The Guardian \u2014 Conservation": 1
+    }
+  },
+  {
     "timestamp": "2026-09-09T22:02:56.715083+00:00",
     "mode": "daily",
     "calls": 45,

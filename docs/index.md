@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-09-09. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-09-10. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>stigma</strong></summary>
+<summary>📖 Word of the day &middot; <strong>loath</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">stigma <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Stigma refers to a set of negative and often unfair beliefs that a society or group of people have about something.</div>
-<div class="wotd-ex">The organization is animated by a commitment to challenging stigmas associated with the condition.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/stigma-2026-09-09" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">loath <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">A person who is loath to do something is unwilling or reluctant to do that thing.</div>
+<div class="wotd-ex">Proud of the company he had built, Henry was loath to admit that it was time to think about retiring.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/loath-2026-09-10" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2015</div>
-<div class="fact-text">Elizabeth II (pictured) became the longest-reigning monarch of the United Kingdom, surpassing Queen Victoria. <a class="fact-src" href="https://en.wikipedia.org/wiki/Elizabeth_II" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2025</div>
+<div class="fact-text">American political activist Charlie Kirk (pictured) was shot and killed at an event at Utah Valley University. <a class="fact-src" href="https://en.wikipedia.org/wiki/Charlie_Kirk" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
@@ -32,7 +32,7 @@ hide:
 
 <div class="fact funfact" id="fun-fact">
 <div class="fact-label">💡 Fact of the day</div>
-<div class="fact-text">Frito-Lay launched Cheetos Lip Balm in 2005, but it was quickly discontinued after failing to gain popularity with consumers. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+<div class="fact-text">Long ago, people chewed willow bark for pain relief; it contains salicin, which is related to the salicylic acid used in aspirin today. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
 </div>
 
 </details>
@@ -103,66 +103,3 @@ hide:
 
 Don't see a topic you want? [Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml).
 
-
-<div class="crawler-only" aria-hidden="true">
-<div><a href="news/security/2026-09-09/#sap-patches-cvss-100-kernel-flaw-enabling-unauthenticated-remote-code-execution">SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution</a>
-<p>SAP patched CVE-2026-44756, a CVSS 10.0 maximum-severity vulnerability in SAP Extended Passport Processing that allows unauthenticated remote code execution. A second critical flaw (CVE-2026-58240, CVSS 9.8) was also patched, both enabling attackers to execute arbitrary commands and extract sensitive data without credentials.</p>
-</div>
-<div><a href="news/security/2026-09-09/#microsoft-patch-tuesday-addresses-record-974-vulnerabilities-including-two-exploited-windows-zero-days">Microsoft Patch Tuesday Addresses Record 974 Vulnerabilities Including Two Exploited Windows Zero-Days</a>
-<p>Microsoft released an unprecedented 973 security patches in a single Patch Tuesday cycle, with at least two vulnerabilities already being exploited in the wild.</p>
-</div>
-<div><a href="news/world/2026-09-09/#north-korea-expands-yongbyon-nuclear-facility-with-new-uranium-enrichment-capability">North Korea Expands Yongbyon Nuclear Facility With New Uranium Enrichment Capability</a>
-<p>The International Atomic Energy Agency reports North Korea has constructed a new uranium enrichment facility at Yongbyon with capacity for up to 28 centrifuge cascades.</p>
-</div>
-<div><a href="news/world/2026-09-09/#iran-attacks-us-forces-in-jordan-as-middle-east-tensions-escalate">Iran attacks U.S. forces in Jordan as Middle East tensions escalate</a>
-<p>Iran has launched strikes against U.S. military forces in Jordan, with oil prices spiking as regional tensions intensify.</p>
-</div>
-<div><a href="news/tech/2026-09-09/#apple-announces-iphone-18-pro-and-pro-max-alongside-foldable-iphone-duo">Apple announces iPhone 18 Pro and Pro Max alongside foldable iPhone Duo</a>
-<p>Apple unveiled the iPhone Duo foldable alongside iPhone 18 Pro and Pro Max, skipping a base iPhone 18 model. The Duo features a 7.6-inch inner display (50% larger than Pro Max) and 5.4-inch outer display, powered by the A20 Pro chip with custom vapor chamber cooling. Pre-orders begin October 16, 2026.</p>
-</div>
-<div><a href="news/security/2026-09-09/#f5-big-ip-apm-malware-deploys-in-memory-php-web-shell-to-evade-disk-scans">F5 BIG-IP APM Malware Deploys In-Memory PHP Web Shell to Evade Disk Scans</a>
-<p>Sophos identified malware targeting F5 BIG-IP APM that injects a PHP web shell into memory, bypassing disk-based threat detection. The attack exploits CVE-2025-53521 (RCE, CVSS 9.8), which was reclassified from DoS to remote code execution in March 2026 despite patches being available since October 2025.</p>
-</div>
-<div><a href="news/security/2026-09-09/#google-patches-seventh-chrome-zero-day-exploited-in-active-attacks-this-year">Google Patches Seventh Chrome Zero-Day Exploited in Active Attacks This Year</a>
-<p>Google released patches for 230 vulnerabilities including a seventh actively exploited Chrome zero-day in 2024.</p>
-</div>
-<div><a href="news/security/2026-09-09/#us-agencies-report-chinese-firms-conducted-industrial-scale-distillation-attacks-on-american-frontier-ai-models">US Agencies Report Chinese Firms Conducted Industrial-Scale Distillation Attacks on American Frontier AI Models</a>
-<p>U.S. cybersecurity and intelligence agencies disclosed that six Chinese AI companies executed large-scale model distillation attacks against American cutting-edge AI models since late 2024.</p>
-</div>
-<div><a href="news/security/2026-09-09/#four-china-linked-hacking-groups-exploit-identical-chrome-zero-day">Four China-Linked Hacking Groups Exploit Identical Chrome Zero-Day</a>
-<p>A previously undocumented exploit kit called BlueMoon, which chains Windows and Chrome vulnerabilities, has been deployed by four espionage-motivated threat groups in a single week.</p>
-</div>
-<div><a href="news/tech/2026-09-09/#iphone-duo-foldable-display-technology-proves-successful-in-hands-on-testing">iPhone Duo foldable display technology proves successful in hands-on testing</a>
-<p>Apple announced the iPhone Duo, its first foldable smartphone, featuring a 5.4-inch outer display and an inner screen with a barely-perceptible crease. Hands-on testing confirmed the IP68-rated folding mechanism works smoothly with content transitioning seamlessly between laptop and tent modes, though battery implications remain unclear.</p>
-</div>
-<div><a href="news/tech/2026-09-09/#apple-announces-iphone-duo-foldable-iphone-18-pro-watch-and-airpods-updates">Apple announces iPhone Duo foldable, iPhone 18 Pro, Watch and AirPods updates</a>
-<p>Apple introduced its first foldable iPhone Duo alongside new iPhone 18 Pro models, Apple Watch updates, and AirPods 5 with enhanced Siri AI capabilities.</p>
-</div>
-<div><a href="news/tech/2026-09-09/#apple-announces-iphone-duo-foldable-smartphone">Apple announces iPhone Duo foldable smartphone</a>
-<p>Apple has unveiled the iPhone Duo, its first foldable phone after years of speculation.</p>
-</div>
-<div><a href="news/world/2026-09-09/#ramstein-summit-reveals-ukraines-weapons-gap-and-extended-war-timeline">Ramstein Summit Reveals Ukraine&#x27;s Weapons Gap and Extended War Timeline</a>
-<p>NATO&#x27;s Ramstein summit disclosed that Ukraine faces a $27 billion shortfall in projected air defense needs and faces an extended conflict timeline.</p>
-</div>
-<div><a href="news/world/2026-09-09/#un-nuclear-watchdog-refers-iran-to-un-security-council-for-first-time-in-20-years">UN nuclear watchdog refers Iran to UN Security Council for first time in 20 years</a>
-<p>The IAEA board has reported Iran to the UN Security Council, citing issues with nuclear inspections.</p>
-</div>
-<div><a href="news/world/2026-09-09/#iran-attacks-us-base-in-jordan-as-tensions-over-strait-of-hormuz-escalate">Iran Attacks U.S. Base in Jordan as Tensions Over Strait of Hormuz Escalate</a>
-<p>Iran launched missile attacks on a U.S. military base in Jordan amid broader escalation of tensions over the Strait of Hormuz.</p>
-</div>
-<div><a href="news/anthropic/2026-09-09/#anthropic-safety-researcher-warns-of-10-chance-ai-could-cause-human-extinction-by-2030s">Anthropic safety researcher warns of 10%+ chance AI could cause human extinction by 2030s</a>
-<p>A senior Anthropic safety researcher stated there is more than a 10% chance AI could cause human extinction by the 2030s, hours after researcher Jacob Coxon resigned over concerns about reckless AI development at Anthropic and OpenAI. Both researchers warned that companies are racing toward self-improving superintelligence without adequate safety measures.</p>
-</div>
-<div><a href="news/gpt/2026-09-09/#anthropic-researcher-resigns-claiming-openai-and-anthropic-are-gambling-with-our-lives">Anthropic Researcher Resigns Claiming OpenAI and Anthropic Are &#x27;Gambling with Our Lives&#x27;</a>
-<p>A researcher has quit Anthropic, alleging that both Anthropic and OpenAI are recklessly advancing AI despite existential risks.</p>
-</div>
-<div><a href="news/climate-change/2026-09-09/#houthi-strikes-on-saudi-oil-infrastructure-drive-global-crude-prices-above-95barrel">Houthi strikes on Saudi oil infrastructure drive global crude prices above $95/barrel</a>
-<p>Iranian-backed Houthi attacks on Saudi Arabian oil infrastructure drove global crude prices to nearly $100 per barrel on September 8, 2026, representing a 33% increase since July. The spike contradicted the president of the United States&#x27; prediction of price declines through policy measures.</p>
-</div>
-<div><a href="news/science/2026-09-09/#jwst-observes-changing-ring-system-around-small-body-chariklo">JWST observes changing ring system around small body Chariklo</a>
-<p>James Webb Space Telescope detects variations in the rings of Chariklo, a small body 250 kilometers in diameter located at 17 times the Earth-Sun distance.</p>
-</div>
-<div><a href="news/email-security/2026-09-09/#passkey-themed-social-engineering-enables-identity-and-cloud-compromise-attacks">Passkey-themed social engineering enables identity and cloud compromise attacks</a>
-<p>Microsoft is tracking active cloud intrusions since May 2026 using passkey-themed social engineering, where attackers impersonate IT staff and compromise identities to gain persistence in email, SharePoint, and OneDrive. Attackers use proxy infrastructure for automated data collection via Microsoft Graph APIs.</p>
-</div>
-</div>
