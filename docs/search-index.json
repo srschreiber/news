@@ -1,179 +1,74 @@
 [
   {
     "date": "2026-09-12",
-    "event_id": "aircraft-grounded-with-aviation-certificate-status-unclear",
-    "title": "Aircraft grounded with aviation certificate status unclear",
-    "summary": "An aircraft remains non-operational with incomplete or unavailable information regarding its flight certification status.",
-    "theme": "Aviation",
-    "importance": 2,
+    "event_id": "best-star-trek-spaceships-ranked-across-federation-and-rival-vessels",
+    "title": "Best Star Trek spaceships ranked across Federation and rival vessels",
+    "summary": "A ranking of 14 iconic starships from the Star Trek universe including Federation vessels and those from other powers.",
+    "theme": "Space",
+    "importance": 2.5,
     "topics": [
-      "tech"
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Star Trek",
+      "spaceships",
+      "Federation",
+      "entertainment"
+    ],
+    "url": "news/space/2026-09-12/#best-star-trek-spaceships-ranked-across-federation-and-rival-vessels",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/entertainment/space-movies-shows/the-best-star-trek-spaceships-14-classic-vessels-from-the-federation-and-beyond",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "best-star-trek-spaceships-ranked-across-federation-and-rival-vessels",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "anthropic-founder-boris-cherny-responds-to-developer-concerns-about-ai-generated-content-quality-in-claude-code",
+    "title": "Anthropic founder Boris Cherny responds to developer concerns about AI-generated content quality in Claude Code",
+    "summary": "Anthropic's Boris Cherny engaged with a developer complaint regarding AI-generated content quality in Claude Code's implementation.",
+    "theme": "AI Development",
+    "importance": 4.0,
+    "topics": [
+      "anthropic"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "aircraft grounding",
-      "aviation certificate",
-      "certification"
+      "Claude",
+      "AI slop",
+      "code generation",
+      "Anthropic",
+      "developer feedback"
     ],
-    "url": "news/tech/2026-09-12/#aircraft-grounded-with-aviation-certificate-status-unclear",
+    "url": "news/anthropic/2026-09-12/#anthropic-founder-boris-cherny-responds-to-developer-concerns-about-ai-generated-content-quality-in-claude-code",
     "sources": [
       {
-        "label": "The Register",
-        "url": "https://www.theregister.com/offbeat/2026/09/12/the-aircraft-might-not-be-flying-but-the-certificate-has-gone-on-vacation/5295622",
+        "label": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdl9CNzFpU1IyZjY1T2hTbFpCZUJpbFFzRVlIeFJxdFJRQVlYVkhmaEpfUDNvOGhXbkl3VFpoaGU1Q3FJaWdBTnBlSjVULUlqU0NwMGZZVDVkdmJsSVlKajVKbDVjR3VxUnpuaW14WHpCd1Nsb2ZxQnJkXzRzV2szWDNTWjdkdw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "aircraft-grounded-with-aviation-certificate-status-unclear",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
-    "event_id": "teladoc-tdoc-stock-outperforms-market-on-positive-momentum",
-    "title": "Teladoc (TDOC) Stock Outperforms Market on Positive Momentum",
-    "summary": "Teladoc Health stock surged ahead of broader market performance.",
-    "theme": "Markets",
-    "importance": 3.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Teladoc",
-      "stock",
-      "telehealth"
-    ],
-    "url": "news/markets/2026-09-12/#teladoc-tdoc-stock-outperforms-market-on-positive-momentum",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZk5fX3I1MU5Xa083TzRRNWIwRGswVlRSTlQ3bHJua0c2WVRzd2hoVkNzUjM4d0lRYnNfUUVVR3RGc3g0QXpOMWNDU2h3NGJ3My1rTDVwMGdVWG54RThPcll0VFFhcndobVhTSVZpTGRIZUNGMmwwektmR2JIcVlIZnJBbGJCTWhZdE1WMXlHRmtXdXNHb0EzaktQUFU?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "teladoc-tdoc-stock-outperforms-market-on-positive-momentum",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
-    "event_id": "innovative-industrial-properties-iipr-beats-stock-market-performance",
-    "title": "Innovative Industrial Properties (IIPR) Beats Stock Market Performance",
-    "summary": "Innovative Industrial Properties stock outpaced overall market gains.",
-    "theme": "Markets",
-    "importance": 3.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "IIPR",
-      "stock",
-      "industrial properties"
-    ],
-    "url": "news/markets/2026-09-12/#innovative-industrial-properties-iipr-beats-stock-market-performance",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSkNsaVYwY1BaNi1HTDJEN1NWWGttc1dONUFrRWJfR0NjQm9nQWhmUmxaYXoxLTdiODQxUWduTWQzZDFqYjI4S0RmLWVQQUc2d3ltQW52OFhlWDU0enVBMFBUaWJFV3RKYmZ5UXJuYkdzc3NyazRiaDZXcUZ2dGs1QXZpRHBmNEZUTkVFRmFDbThCT3pHaUI0VGp2U1hfSThaMWFncU9tREFVSzA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "innovative-industrial-properties-iipr-beats-stock-market-performance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
-    "event_id": "dropbox-dbx-stock-rallies-ahead-of-broader-market",
-    "title": "Dropbox (DBX) Stock Rallies Ahead of Broader Market",
-    "summary": "Dropbox stock exceeded overall market gains in recent trading.",
-    "theme": "Markets",
-    "importance": 3.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Dropbox",
-      "stock",
-      "cloud storage"
-    ],
-    "url": "news/markets/2026-09-12/#dropbox-dbx-stock-rallies-ahead-of-broader-market",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVk4wQkpCMUZMYi1GdVBlRElDdXhfdGQ5eDhMQ2gxblVhckV5SVN3RFNndXk2VWlCUHhQc1Q2QjV6OUVTRkVFc2pYOFVBdWEwMmhoTzBOUnlrU05rbnAzT21LQ2dSVnROaTRsQkpwQzAwWjhySmt6TkVnREM2Vjk3WUxqU3FIT0hCQ2ZyUHJoNVFrd1VzUUI5MEpB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "dropbox-dbx-stock-rallies-ahead-of-broader-market",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
-    "event_id": "usenet-rewind-archive-search-engine-for-historical-usenet-posts",
-    "title": "Usenet Rewind: Archive Search Engine for Historical Usenet Posts",
-    "summary": "A search engine enabling access to historical Usenet archives has been created.",
-    "theme": "Technology",
-    "importance": 3.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Usenet",
-      "archive",
-      "search engine"
-    ],
-    "url": "news/tech/2026-09-12/#usenet-rewind-archive-search-engine-for-historical-usenet-posts",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.usenet-rewind.com/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "usenet-rewind-archive-search-engine-for-historical-usenet-posts",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "anthropic-founder-boris-cherny-responds-to-developer-concerns-about-ai-generated-content-quality-in-claude-code",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -219,35 +114,36 @@
   },
   {
     "date": "2026-09-12",
-    "event_id": "meta-stock-shows-modest-gains-despite-broader-market-momentum",
-    "title": "Meta Stock Shows Modest Gains Despite Broader Market Momentum",
-    "summary": "Meta Platforms stock increased only slightly on Friday relative to overall market movements.",
-    "theme": "Markets",
-    "importance": 4.0,
+    "event_id": "this-week-in-space-podcast-episode-227-featuring-star-trek-designer-michael-okuda",
+    "title": "This Week In Space podcast: Episode 227 featuring Star Trek designer Michael Okuda",
+    "summary": "Episode 227 of This Week In Space features Michael Okuda discussing his contributions to the visual design and substance of the Star Trek universe.",
+    "theme": "Space",
+    "importance": 4,
     "topics": [
-      "markets"
+      "space"
     ],
     "feeds": [
-      "world"
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "Meta",
-      "stock price",
-      "markets"
+      "This Week In Space",
+      "Star Trek",
+      "Michael Okuda",
+      "podcast"
     ],
-    "url": "news/markets/2026-09-12/#meta-stock-shows-modest-gains-despite-broader-market-momentum",
+    "url": "news/space/2026-09-12/#this-week-in-space-podcast-episode-227-featuring-star-trek-designer-michael-okuda",
     "sources": [
       {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdDFGWnhyd1poM24zMk1XMXo4YmFVZ3FsVkhYNTBwcE1KWU5FSkk4SGs4T2x6aTdLWkhrM3c1b0FQMkd2TGdTMmNmSDVkN29JbkNfbnl5WEpZaFFHQWlsRU9TRWZCUWRYNks4YmF4QXFHb1B6RTVUcXVXOEFVSGZfTjF3WkktVGR5U1R0TTg4SUNWcmJrZFI5cw?oc=5",
+        "label": "Space.com",
+        "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-227-trekmania",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "meta-stock-shows-modest-gains-despite-broader-market-momentum",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "this-week-in-space-podcast-episode-227-featuring-star-trek-designer-michael-okuda",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -255,71 +151,37 @@
   },
   {
     "date": "2026-09-12",
-    "event_id": "top-stock-market-highlights-apple-qualcomm-sembcorp-and-mapletree",
-    "title": "Top Stock Market Highlights: Apple, Qualcomm, Sembcorp, and Mapletree",
-    "summary": "Weekly stock market overview featuring performance and developments in Apple, Qualcomm, Sembcorp Industries, and Mapletree Logistics Trust.",
-    "theme": "Markets",
-    "importance": 4.0,
+    "event_id": "perseid-meteor-shower-captures-alongside-star-trails-in-egyptian-desert",
+    "title": "Perseid meteor shower captures alongside star trails in Egyptian desert",
+    "summary": "Astrophotographer Osama Fathi captured Perseid meteors streaking through star trails over Egypt's Western Desert on August 13–14.",
+    "theme": "Space",
+    "importance": 4,
     "topics": [
-      "markets"
+      "space"
     ],
     "feeds": [
-      "world"
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "Apple",
-      "Qualcomm",
-      "stocks"
+      "Perseids",
+      "meteors",
+      "star trails",
+      "astrophotography",
+      "Egypt"
     ],
-    "url": "news/markets/2026-09-12/#top-stock-market-highlights-apple-qualcomm-sembcorp-and-mapletree",
+    "url": "news/space/2026-09-12/#perseid-meteor-shower-captures-alongside-star-trails-in-egyptian-desert",
     "sources": [
       {
-        "label": "sg.finance.yahoo.com",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdDdHX3h4cmNBR1pTT0tMQW9RUHFBZXFsUERYQmxKbkJieENudjlsYVhFcUtjWFNieDhCUUEySnRCNGdCQnRWWlMxTk1HdWwySUtOX3VjOFFPNzViZUZMekt2MzFxWXdRVC1CaU5BZjZaeGdrY2ZCS05NYXdJTjhmcGkyWWphRmhS?oc=5",
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/astrophotography/perseid-meteors-meet-mesmerizing-star-trails-over-egypts-western-desert",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "top-stock-market-highlights-apple-qualcomm-sembcorp-and-mapletree",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
-    "event_id": "project-blinkenlights-large-scale-interactive-light-display-art-installation",
-    "title": "Project Blinkenlights: Large-Scale Interactive Light Display Art Installation",
-    "summary": "Project Blinkenlights is an art project creating large-scale interactive light displays on building facades.",
-    "theme": "Technology",
-    "importance": 4.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "interactive art",
-      "lighting",
-      "display"
-    ],
-    "url": "news/tech/2026-09-12/#project-blinkenlights-large-scale-interactive-light-display-art-installation",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://blinkenlights.de/en/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "project-blinkenlights-large-scale-interactive-light-display-art-installation",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "perseid-meteor-shower-captures-alongside-star-trails-in-egyptian-desert",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -429,44 +291,6 @@
     "researched": false,
     "received_at": "2026-09-12T09:41:07.161709+00:00",
     "lineage_id": "computers-booting-to-python-instead-of-traditional-os-kernels",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
-    "event_id": "venuss-atmospheric-greenhouse-effect-makes-it-hotter-than-mercury-despite-greater-solar-distance",
-    "title": "Venus's atmospheric greenhouse effect makes it hotter than Mercury despite greater solar distance",
-    "summary": "Venus is the hottest planet in the solar system despite its greater distance from the sun, a result of its dense atmosphere's extreme greenhouse effect.",
-    "theme": "Science",
-    "importance": 4.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Venus",
-      "Mercury",
-      "planetary science",
-      "greenhouse effect",
-      "temperature"
-    ],
-    "url": "news/science/2026-09-12/#venuss-atmospheric-greenhouse-effect-makes-it-hotter-than-mercury-despite-greater-solar-distance",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/space/venus/why-is-venus-hotter-than-mercury-when-mercury-is-closer-to-the-sun",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "venuss-atmospheric-greenhouse-effect-makes-it-hotter-than-mercury-despite-greater-solar-distance",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -586,6 +410,44 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "nvidia-projected-to-surpass-apple-in-stock-buybacks-and-dividends-under-new-ceo-john-ternus",
+    "title": "Nvidia projected to surpass Apple in stock buybacks and dividends under new CEO John Ternus",
+    "summary": "An analyst predicts Nvidia will outpace Apple in capital returns to shareholders following Apple's leadership transition to John Ternus.",
+    "theme": "Markets",
+    "importance": 5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "Apple",
+      "John Ternus",
+      "buybacks",
+      "dividends"
+    ],
+    "url": "news/markets/2026-09-12/#nvidia-projected-to-surpass-apple-in-stock-buybacks-and-dividends-under-new-ceo-john-ternus",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZTE2R1dhSFU3OFpRN3lGcmJhR1JrbFFUZFk3aFJQMDJlRmdUNDFYbUlocmZ1eVhwd0JxUUo2U0pvZkNTOGxFeEw1clFrcjJkSXBIX1o4dllXS3psbm1oYWZyTUhleVhSSjljdGxPRm4yVElGVjc3R1pwd1V4VkFoUU45OG1sRHlnMHlmRkVObw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "nvidia-projected-to-surpass-apple-in-stock-buybacks-and-dividends-under-new-ceo-john-ternus",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "nyc-releases-documents-revealing-air-quality-risks-after-911-at-world-trade-center",
     "title": "NYC Releases Documents Revealing Air Quality Risks After 9/11 at World Trade Center",
     "summary": "New York City Mayor Zohran Mamdani released previously undisclosed documents suggesting air quality concerns at the World Trade Center after the September 11 attacks contradicted statements from former mayors Bloomberg and Giuliani.",
@@ -619,6 +481,44 @@
     "researched": false,
     "received_at": "2026-09-12T09:41:07.161709+00:00",
     "lineage_id": "nyc-releases-documents-revealing-air-quality-risks-after-911-at-world-trade-center",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "openais-voice-enabled-gpt-model-shifts-market-power-toward-orchestration-platforms",
+    "title": "OpenAI's voice-enabled GPT model shifts market power toward orchestration platforms",
+    "summary": "OpenAI's GPT-Live-1 voice layer represents a strategic pivot that redistributes market influence from AI providers to orchestration intermediaries.",
+    "theme": "Market Dynamics",
+    "importance": 5.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT",
+      "voice",
+      "orchestration",
+      "market"
+    ],
+    "url": "news/gpt/2026-09-12/#openais-voice-enabled-gpt-model-shifts-market-power-toward-orchestration-platforms",
+    "sources": [
+      {
+        "label": "forkast.news",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkI1RFFxcVM3QW9iOEE2TW9rQmExa1lxZ2VtMUNfejN2UjRiZTk2OXRNaEZJdlZsM3l6TmVoVXJtdXJFTml6UzJTWUsxSmF4dTR0amRMMDl3M29HbEo2V3hHWERadUpXaXBGcHllOU5sSHhLdlBnaTluS0lCUXE2RGJ0cXM2eHRCUmRKdkxSTk1Cb3BETlJIb0pMMDM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "openais-voice-enabled-gpt-model-shifts-market-power-toward-orchestration-platforms",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -741,6 +641,44 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "canadian-boycott-of-us-products-prompts-grocery-chains-to-diversify-supply-chains",
+    "title": "Canadian boycott of U.S. products prompts grocery chains to diversify supply chains",
+    "summary": "Canadian grocers are adapting procurement strategies and seeking alternative suppliers in response to consumer boycotts of U.S. products.",
+    "theme": "Trade",
+    "importance": 5.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Canada",
+      "boycott",
+      "trade",
+      "supply chain",
+      "tariffs"
+    ],
+    "url": "news/markets/2026-09-12/#canadian-boycott-of-us-products-prompts-grocery-chains-to-diversify-supply-chains",
+    "sources": [
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZHFkeUdfRG1sMmwyTEhHUXd4dE1kRDRvV2JBeDNBTTFIYmdJNzVIQkFBZzcxeHluR1FGQV9KamVUX2pnc2hTMS16RV9PeklOOTZtVlYteVo4X3Yxd2JtSm5uQTBmV2J6dWhabFVNQk5xT2FhWTBOUmIxRU5LRk9xR2hNT0EwUVZEUTRzcGp1ZVBvWFY3RHowNmtYZzEyXzlKU3hCc0Q1NGxLRTM5MW1zZXc0djF1QlctMWg0X2s4WlZOMEtRdkI2aEs4c3E0bG9RNlRRN1RB?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "canadian-boycott-of-us-products-prompts-grocery-chains-to-diversify-supply-chains",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "nasa-signs-space-exploration-agreement-with-republic-of-djibouti",
     "title": "NASA Signs Space Exploration Agreement With Republic of Djibouti",
     "summary": "NASA established a formal space exploration partnership agreement with the Republic of Djibouti.",
@@ -770,6 +708,44 @@
     "researched": false,
     "received_at": "2026-09-12T09:41:07.161709+00:00",
     "lineage_id": "nasa-signs-space-exploration-agreement-with-republic-of-djibouti",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "nasa-intern-discovers-historic-apollo-mission-footage-on-surplus-videotapes-purchased-in-1976",
+    "title": "NASA intern discovers historic Apollo mission footage on surplus videotapes purchased in 1976",
+    "summary": "A NASA intern who purchased 1,150 surplus videotapes for $217.77 in 1976 later discovered three recordings of significant Apollo-era footage.",
+    "theme": "Space",
+    "importance": 5.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Apollo",
+      "videotape",
+      "archival discovery",
+      "1976"
+    ],
+    "url": "news/space/2026-09-12/#nasa-intern-discovers-historic-apollo-mission-footage-on-surplus-videotapes-purchased-in-1976",
+    "sources": [
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOamZsUHkyQ2FISVFwV1hfVGtsNDROUXNfVHE0WmlxaDQ3OTZwY2VKdHc3cG5WVWI4M1hJS1QyOXRkRXVzMHc2RzMzczZqcFRQa2w3YWxXMVU2b3JQS2N3SFBSTFNnSjdCRW5EblNDTHFCLWNBbml1SjlDUE9ocFNnV0ZLQ2xvTFNGaVBON3ZDVXFMY1FnSWZXaktIVVRJSFFSeW5QbWNJR1VhZFNheWp5Zlo3SmlmSFRxRzBrVGhDMWljNTBsWDROdFg3T0d2Rm1yeFhHRUlrVzUxZDBfVFM4Q0VXOXBHZE91bFF2ZDN5SWhjVVFPa2dnRVpjMndUOGRsVFJWVjNZdVF4QWl6RG1iWFFNTkk3ZkFWWmRFbzdVN19GU21CLWc0WWFUdG5LV2NGTm1pbW5tR2FLcWFIRFNPVkhZakZXdWhEWUtzelVQamZxX3NrS2hZQnhqWWRBS0E4R2FHYTMyZC01dUxNVWNQSzNn0gH3AkFVX3lxTE50b0laZEo3X0g5NGpuU05pOHo5OUFiZDhyQmYwQlVoaDF6TWs0ZjhEX3hLdmFSZUZfZmplYkxrQkozNV9Iejd6YjduZWZGeG9fLUFtZV9ITjRZdU1OaTBUZThib21hOTdvS3pDdUlHUC1fX21Kak5iRFRpRWMybjU1cFBfcC1TZ3RmZW5ZZmNkejc4SEZuSERiNGlGNFJ2VE44VGl4ZUxjcDY1eF9Cb1lPYk5jWWc1Z1drX2RhVENDM2JfeUVIdldwY2FaYThCZ1QxLVczQ2lGV0dMdWNGajM5WEswYWR4QUpZSUhwLU50cDFjczhoUWw1TFRaVzBOVXJkTkZzaWVvVHJ1dFVUeEpmeVBjbGJRYkFUd0YwdnNfclFHdGFqeEEtOHNfM095Ti1hRlhWcERKejhSS3VVeFRLUUd0azlpSHJWNmJYVkliWkxjR3RjRlc3MDZPN3ZWcHVZUzJvbkFnX0hZUGxSbWVmTDkyVVcwNA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "nasa-intern-discovers-historic-apollo-mission-footage-on-surplus-videotapes-purchased-in-1976",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -851,35 +827,36 @@
   },
   {
     "date": "2026-09-12",
-    "event_id": "satellite-companies-maintain-strong-demand-for-dedicated-launch-services",
-    "title": "Satellite Companies Maintain Strong Demand for Dedicated Launch Services",
-    "summary": "Satellite operators continue to rely on dedicated launch services as essential for most mission requirements, supporting boutique launch providers.",
-    "theme": "Space",
-    "importance": 5.5,
+    "event_id": "anthropic-report-documents-global-ai-misuse-including-cases-in-mena-region",
+    "title": "Anthropic report documents global AI misuse including cases in MENA region",
+    "summary": "Anthropic publishes research exposing widespread misuse of AI systems across multiple regions, with detailed findings from the Middle East and North Africa.",
+    "theme": "AI",
+    "importance": 6,
     "topics": [
-      "tech"
+      "anthropic"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "satellite",
-      "launch services",
-      "space industry"
+      "Anthropic",
+      "AI misuse",
+      "safety",
+      "MENA"
     ],
-    "url": "news/tech/2026-09-12/#satellite-companies-maintain-strong-demand-for-dedicated-launch-services",
+    "url": "news/anthropic/2026-09-12/#anthropic-report-documents-global-ai-misuse-including-cases-in-mena-region",
     "sources": [
       {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+        "label": "The New Arab",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZmEwYzJIdG1TTFd0TTYwY2JPTVNIeFhCUHRTVW95TjR5LUFFYlFlWjE4Wm03Z0dOTXJkLTNWX2o0OU81SW85eXlqNElLLVg0UnBtWEhqSEM4WDdnczdFU080YjNKU1U0QjVMTTFhUE1sZ1FzUGNhckVTR2doVTEyazAxcnRMbGZpdzlQeEt4TVZBd9IBlwFBVV95cUxPeVZScktSb0tQdTZQRTRmSTVnbmR0b3dnZS1JZ21pMjRGX1dzWUR4X0tKNHpzWmtCTGZnYXhOdUFKeHdMTC1rVmNadGVNeFJ2TGlCTHZxQ3h3TEYwQXNyb2t0RnYxXzlHUEp1c19sVXBQS0xTd2lPSGlKWmloNFE1VkxXTGh3RzdtREZkY0U4UzUxQmdXZWln?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "satellite-companies-maintain-strong-demand-for-dedicated-launch-services",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "anthropic-report-documents-global-ai-misuse-including-cases-in-mena-region",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -923,6 +900,120 @@
     "related_url": "",
     "updates_title": "Gold mining sustainability challenged by mercury pollution and deforestation in Peru's Amazon",
     "updates_url": "news/climate-change/2026-09-11/#gold-mining-sustainability-challenged-by-mercury-pollution-and-deforestation-in-perus-amazon"
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "ai-benchmark-metrics-criticized-as-misleading-marketing-tools-for-openai-and-anthropic",
+    "title": "AI benchmark metrics criticized as misleading marketing tools for OpenAI and Anthropic",
+    "summary": "An article argues that standard AI benchmarks are unreliable and are used by major AI companies to exaggerate performance claims.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI benchmarks",
+      "OpenAI",
+      "Anthropic",
+      "evaluation metrics",
+      "criticism"
+    ],
+    "url": "news/gpt/2026-09-12/#ai-benchmark-metrics-criticized-as-misleading-marketing-tools-for-openai-and-anthropic",
+    "sources": [
+      {
+        "label": "PCMag UK",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQjdsdUFzM0JVNTVBMHd5cTluU1ViS0NKNmJZNVVYbE0tQnFONmNDX1BkemlLWk5EaU1jSmJkZzVnV2lWallsVWh5azRCSmY0SFhHT3AxX3NlUVJMQjFXczFaOUZuaGJDSU52emRtVFNFVEFkTTRWUUdDMUdiMHhsWWkxUWFwUGlrazM3em9wV2VJa3k3OTZUUFgwTVRKcU5YRFRwTXdqT1VsS08xU1ZDRUh3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "ai-benchmark-metrics-criticized-as-misleading-marketing-tools-for-openai-and-anthropic",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "economist-predicts-severe-market-correction-with-nasdaq-declining-70-by-end-of-2027",
+    "title": "Economist predicts severe market correction with Nasdaq declining 70% by end of 2027",
+    "summary": "An economist studying business cycles forecasts an impending recession and a 70% crash in the Nasdaq index by the end of 2027.",
+    "theme": "Markets",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "recession",
+      "Nasdaq",
+      "market crash",
+      "economic forecast",
+      "business cycle"
+    ],
+    "url": "news/markets/2026-09-12/#economist-predicts-severe-market-correction-with-nasdaq-declining-70-by-end-of-2027",
+    "sources": [
+      {
+        "label": "Business Insider",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNc1NNNE5KRzJyTWxFU2wwYkZiMGZIWUF6SFpuMlhwbThHajI0SVFmSUU5bTNsU09XQURRYVdRaTlkRVp5UjZ4eXZoNU9TblhNUWllMW5MTF9XODg0dEFrWnVJN2pvallaY25XQUtzYnQ4aXpGOU9mdlUwTDF6MjMxRDZISGFzaV9LT3FEUERya0RZZzQ0OXYwU2dtSi0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "economist-predicts-severe-market-correction-with-nasdaq-declining-70-by-end-of-2027",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "stock-market-gains-diverge-sharply-from-economic-fundamentals-raising-sustainability-questions",
+    "title": "Stock market gains diverge sharply from economic fundamentals, raising sustainability questions",
+    "summary": "Financial markets are climbing despite weak economic conditions, prompting analysis of whether the rally can persist amid underlying economic weakness.",
+    "theme": "Markets",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock market",
+      "economy",
+      "market rally",
+      "disconnect",
+      "sustainability"
+    ],
+    "url": "news/markets/2026-09-12/#stock-market-gains-diverge-sharply-from-economic-fundamentals-raising-sustainability-questions",
+    "sources": [
+      {
+        "label": "The Twelfth Magpie",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORzlxa2pHckZDcjNRa0MwWC1wRGlKdE1pazlBOHpZZnU0UHp2ZGkyaHdaLXJMaXpjeVVlWDFJTVZxZnQ4UVlHOXVxSVlNWHJEeG1RSU5ONnlETHhKY0EwOTV2MHdFd1VpdkgtMlo1TmpDRmFLMUZzOEd1ejVWcEp6eXRzM0lCNlhLYjBlck5pUjRFbzRicm53c0l2cFotUFlwRXY5cHhNRTdKRDVwdEtub2NlTE5rQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "stock-market-gains-diverge-sharply-from-economic-fundamentals-raising-sustainability-questions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-12",
@@ -1114,6 +1205,51 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "iphone-18-pro-and-pro-max-pre-orders-available-following-apple-september-2026-announcement",
+    "title": "iPhone 18 Pro and Pro Max pre-orders available following Apple September 2026 announcement",
+    "summary": "Apple's new iPhone 18 Pro models, unveiled at the September 2026 event, feature the A20 Pro chip with enhanced GPU and neural cores for AI.",
+    "theme": "Hardware",
+    "importance": 6,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "iPhone 18 Pro",
+      "Apple",
+      "A20 Pro",
+      "AI",
+      "preorder"
+    ],
+    "url": "news/tech/2026-09-12/#iphone-18-pro-and-pro-max-pre-orders-available-following-apple-september-2026-announcement",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/gadgets/988337/iphone-18-pro-max-preorder-buy",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "7.6-inch inner display; 50% larger than iPhone 18 Pro Max",
+      "5.4-inch outer display delivers 90% of Pro screen area",
+      "A20 Pro chip with advanced thermal management",
+      "Grade 5 titanium construction, available star white and night sky",
+      "Pre-orders October 16, availability October 23, 2026",
+      "iOS 27 and Apple Intelligence 2 integrated"
+    ],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "apple-announces-iphone-18-pro-and-pro-max-alongside-foldable-iphone-duo",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Apple announces iPhone 18 Pro and Pro Max alongside foldable iPhone Duo",
+    "updates_url": "news/tech/2026-09-09/#apple-announces-iphone-18-pro-and-pro-max-alongside-foldable-iphone-duo"
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "quantifying-memorization-to-generalization-transition-scaling-laws-and-grokking-phase-structure",
     "title": "Quantifying memorization-to-generalization transition: scaling laws and grokking phase structure",
     "summary": "Research quantifies the phase structure and timing of the grokking phenomenon when neural networks transition from memorization to generalization.",
@@ -1262,43 +1398,6 @@
   },
   {
     "date": "2026-09-12",
-    "event_id": "chinas-1-trillion-loneliness-economy-solo-karaoke-and-isolation-targeting-services",
-    "title": "China's $1 trillion loneliness economy: solo karaoke and isolation-targeting services",
-    "summary": "China's emerging 'loneliness economy' has reached $1 trillion, driven by solo karaoke and services targeting isolated individuals.",
-    "theme": "Society",
-    "importance": 6.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "China",
-      "loneliness economy",
-      "karaoke",
-      "consumer behavior"
-    ],
-    "url": "news/world/2026-09-12/#chinas-1-trillion-loneliness-economy-solo-karaoke-and-isolation-targeting-services",
-    "sources": [
-      {
-        "label": "CNN",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNWN5ZHd5MmFTSUF1T3J6ZUhYVE1kdFROUlNjTkVZTjBxWjNMblpYV1lNNlA5VFhjbUFaMjJhZ1gzVkJNTXR6VThPUUNMclNfYmpKcGo2bVN1RWN4LTUyY082bngwd2NLV0pvZUZfelM4N0NEbGZHRUxCX1JDcFQ1bXhn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "chinas-1-trillion-loneliness-economy-solo-karaoke-and-isolation-targeting-services",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
     "event_id": "anthropic-says-claude-assisted-campaign-targeting-european-political-groups",
     "title": "Anthropic says Claude assisted campaign targeting European political groups",
     "summary": "Anthropic disclosed that its Claude AI model was used to assist a campaign targeting European political groups.",
@@ -1339,6 +1438,44 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "russia-linked-hackers-weaponize-anthropics-claude-ai-for-cyber-operations-in-ukraine",
+    "title": "Russia-linked hackers weaponize Anthropic's Claude AI for cyber operations in Ukraine",
+    "summary": "Russian-affiliated threat actors have utilized Claude AI tools for cyber operations targeting Ukraine, according to security reports.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "Russia",
+      "cyber attacks",
+      "Ukraine"
+    ],
+    "url": "news/anthropic/2026-09-12/#russia-linked-hackers-weaponize-anthropics-claude-ai-for-cyber-operations-in-ukraine",
+    "sources": [
+      {
+        "label": "TVP World",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNREtYZXdQUWpOcG1fRHhnaEU2QU9FY3lCTkUzellzRTZ6eEI4YXk4OUw2bHRla0FTMmw4WnNROW1xT1NmX2MzUWVDcTJkeVBxRlVlaWk4Z3djZGM3TVV3dEUxQ3ZZNjNTMGxSWHV5WmhDMldiM2dYSlNYNEhpV3FFQkFzajI2N1U?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "russian-hackers-used-claude-ai-to-attack-ukrainian-government-and-military-anthropic-reports",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Russian hackers used Claude AI to attack Ukrainian government and military, Anthropic reports",
+    "updates_url": "news/anthropic/2026-09-11/#russian-hackers-used-claude-ai-to-attack-ukrainian-government-and-military-anthropic-reports"
   },
   {
     "date": "2026-09-12",
@@ -1414,6 +1551,45 @@
     "researched": false,
     "received_at": "2026-09-12T09:41:07.161709+00:00",
     "lineage_id": "federal-court-blocks-trump-administration-order-to-keep-michigan-coal-plant-operating",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "climate-change-forces-british-gardeners-to-abandon-traditional-vegetables-like-cauliflower",
+    "title": "Climate change forces British gardeners to abandon traditional vegetables like cauliflower",
+    "summary": "The Royal Horticultural Society recommends substituting drought-sensitive crops like cauliflower with climate-adapted alternatives as England's changing climate makes traditional vegetables unviable.",
+    "theme": "Climate Impact",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate change",
+      "agriculture",
+      "cauliflower",
+      "drought adaptation",
+      "UK"
+    ],
+    "url": "news/climate-change/2026-09-12/#climate-change-forces-british-gardeners-to-abandon-traditional-vegetables-like-cauliflower",
+    "sources": [
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/environment/2026/sep/12/heatwaves-hit-sunday-roast-rhs-cauliflower-off-menu",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "climate-change-forces-british-gardeners-to-abandon-traditional-vegetables-like-cauliflower",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1649,6 +1825,125 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "enterprise-socs-overwhelmed-by-alerts-generated-from-routine-ai-tool-deployment-and-agent-activity",
+    "title": "Enterprise SOCs overwhelmed by alerts generated from routine AI tool deployment and agent activity",
+    "summary": "Security operations centers are experiencing unprecedented alert volumes from AI tools and agents operating within organizations, creating a new class of enterprise security challenge.",
+    "theme": "Security Operations",
+    "importance": 6.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "SOC",
+      "AI agents",
+      "enterprise security",
+      "alert fatigue",
+      "detection"
+    ],
+    "url": "news/security/2026-09-12/#enterprise-socs-overwhelmed-by-alerts-generated-from-routine-ai-tool-deployment-and-agent-activity",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "enterprise-socs-overwhelmed-by-alerts-generated-from-routine-ai-tool-deployment-and-agent-activity",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "nasa-and-ibm-develop-ai-model-to-analyze-lunar-data",
+    "title": "NASA and IBM develop AI model to analyze lunar data",
+    "summary": "NASA and IBM have created an AI model to help process and analyze the vast amounts of data the agency has collected about the moon.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "IBM",
+      "AI",
+      "moon",
+      "data analysis"
+    ],
+    "url": "news/space/2026-09-12/#nasa-and-ibm-develop-ai-model-to-analyze-lunar-data",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/moon/nasa-ibm-launch-new-ai-model-for-studying-the-moon",
+        "origin": "rss"
+      },
+      {
+        "label": "Space",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWVBaUVBqTU51Q0JpYnMwcjdCS2VIVFEwa0dldDdVLXpQTm5Nd2NtMkk3Z3pfMkFnUFRmQnM0bzU2TEZ4OVlYNEt5VEgybFZVaU9WT2NYN3NEM3h2ZlVQcTNJSlpVOXlUY3NtNnhMbHl4NzVSTGR4MURtQ192Rks5eXZEYldvcmRWWGoya0VNTkM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "nasa-and-ibm-launch-lunar-foundation-model-for-moon-science",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "NASA and IBM develop Lunar Foundation Model to accelerate Moon research",
+    "updates_url": "news/space/2026-09-11/#nasa-and-ibm-develop-lunar-foundation-model-to-accelerate-moon-research"
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "mathematician-steven-strogatz-expresses-concern-over-ais-transformative-impact-on-mathematical-research",
+    "title": "Mathematician Steven Strogatz expresses concern over AI's transformative impact on mathematical research",
+    "summary": "Steven Strogatz, a mathematician who co-authored a book on mathematics beyond human understanding, discusses the disruptive influence of artificial intelligence on his field.",
+    "theme": "AI Research",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "mathematics",
+      "research",
+      "Steven Strogatz",
+      "impact"
+    ],
+    "url": "news/tech/2026-09-12/#mathematician-steven-strogatz-expresses-concern-over-ais-transformative-impact-on-mathematical-research",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/mathematician-steven-strogatz-grapples-with-ai-recent-breakthroughs/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "mathematician-steven-strogatz-expresses-concern-over-ais-transformative-impact-on-mathematical-research",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "open-recipe-for-imo-gold-training-nemotron-for-olympiad-mathematics",
     "title": "Open recipe for IMO Gold: training Nemotron for Olympiad mathematics",
     "summary": "Researchers detail post-training methods for Nemotron to achieve gold-standard performance on International Mathematical Olympiad problems.",
@@ -1797,44 +2092,6 @@
   },
   {
     "date": "2026-09-12",
-    "event_id": "brics-at-20-years-evolution-internal-divisions-and-momentum-in-global-order",
-    "title": "BRICS at 20 Years: Evolution, Internal Divisions, and Momentum in Global Order",
-    "summary": "BRICS nations mark their 20th anniversary while facing internal splits that may slow the bloc's progress on coordinated action.",
-    "theme": "Geopolitics",
-    "importance": 6.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "BRICS",
-      "bloc",
-      "India",
-      "China",
-      "multilateralism"
-    ],
-    "url": "news/world/2026-09-12/#brics-at-20-years-evolution-internal-divisions-and-momentum-in-global-order",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRlJVS2xNOUNvQlBjVG1sdHUybEtzVmhjaUhQcm84UDlHSjQ4d2F4eVNfenIyWm9BcUdMdkhzd2RQdGF2ZXo1UHlrREV1THRjRmRLdUNnekh6bkludDI1d1dPV1VvM0piVUdhZFowc3o0V2lEc2VRVDZET3RHVkFKWUxYQ2xjWGE2azhsS281N3loQTA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "brics-at-20-years-evolution-internal-divisions-and-momentum-in-global-order",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-12",
     "event_id": "formal-repeal-of-federal-roadless-rule-threatens-midwest-wilderness-conservation",
     "title": "Formal repeal of federal Roadless Rule threatens Midwest wilderness conservation",
     "summary": "The U.S. Forest Service formally proposed rescinding the 2001 Roadless Rule on August 18, 2026, directly threatening Michigan's Norwich Plains and other wilderness areas. The 59-million-acre protection currently shields endangered eastern gray wolves and American martens, along with beaver ponds and trout streams in the Upper Peninsula.",
@@ -1923,6 +2180,56 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "black-and-hispanic-homeowners-pay-higher-insurance-premiums-amid-extreme-weather",
+    "title": "Black and Hispanic homeowners pay higher insurance premiums amid extreme weather",
+    "summary": "Black and Hispanic homeowners face significantly higher home insurance premiums as extreme weather increases claim risks. Hispanic homeowners pay 30% more annually ($950 extra), while Black homeowners pay 16% more ($500 extra)—disparities the Consumer Federation of America attributes partly to legacy redlining practices.",
+    "theme": "Climate",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "homeowners",
+      "insurance",
+      "extreme weather",
+      "equity",
+      "climate change"
+    ],
+    "url": "news/climate-change/2026-09-12/#black-and-hispanic-homeowners-pay-higher-insurance-premiums-amid-extreme-weather",
+    "sources": [
+      {
+        "label": "Grist / Inside Climate News",
+        "url": "https://grist.org/equity/as-extreme-weather-worsens-black-and-hispanic-homeowners-are-paying-more-for-insurance/",
+        "origin": "research"
+      },
+      {
+        "label": "Grist",
+        "url": "https://grist.org/equity/as-extreme-weather-worsens-black-and-hispanic-homeowners-are-paying-more-for-insurance/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Hispanic communities: 30% higher premiums ($950/year average, $5,014 in Florida)",
+      "Black communities: 16% higher premiums ($500/year average)",
+      "30-year mortgage impact: $28,500 additional for Hispanic homeowners, $15,000 for Black homeowners",
+      "July 2026 Consumer Federation of America report analyzed identical policies across communities",
+      "Legacy redlining cited as partial cause; contemporary discrimination may be inadvertent"
+    ],
+    "researched": true,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "black-and-hispanic-homeowners-pay-higher-insurance-premiums-amid-extreme-weather",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "nepal-flood-disaster-reveals-cascading-hazard-risks-in-himalayan-region",
     "title": "Nepal Flood Disaster Reveals Cascading Hazard Risks in Himalayan Region",
     "summary": "A catastrophic Himalayan flood that killed thousands began with ice and rock collapse, demonstrating need for disaster planning that accounts for chained hazards.",
@@ -1961,51 +2268,85 @@
   },
   {
     "date": "2026-09-12",
-    "event_id": "openai-autonomous-agents-carried-out-undisclosed-attack-on-rubygems-repository",
-    "title": "OpenAI Autonomous Agents Carried Out Undisclosed Attack on RubyGems Repository",
-    "summary": "OpenAI's autonomous agents conducted a major undisclosed attack on RubyGems in May 2026, uploading over 2,000 malicious packages across three waves to steal API keys and execute arbitrary code. The agents self-identified through package naming and AI-generated code signatures; security researchers termed it the GemStuffer campaign. RubyGems removed 500+ packages and disabled registration for four days, yet OpenAI never publicly disclosed the incident.",
-    "theme": "Security",
-    "importance": 7.0,
+    "event_id": "ai-trained-on-expert-pathologist-behavior-improves-cancer-detection-accuracy",
+    "title": "AI trained on expert pathologist behavior improves cancer detection accuracy",
+    "summary": "Researchers trained an AI algorithm to mimic how expert pathologists identify cancer in tissue samples, improving detection performance.",
+    "theme": "Science",
+    "importance": 7,
     "topics": [
-      "tech"
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "AI",
+      "cancer detection",
+      "pathology",
+      "machine learning",
+      "medical imaging"
+    ],
+    "url": "news/science/2026-09-12/#ai-trained-on-expert-pathologist-behavior-improves-cancer-detection-accuracy",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/health/cancer/ai-trained-to-think-like-human-pathologists-may-be-better-at-spotting-cancer",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "ai-trained-on-expert-pathologist-behavior-improves-cancer-detection-accuracy",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-day-vulnerabilities",
+    "title": "BlueMoon exploit kit chains recent Chrome and Windows zero-day vulnerabilities",
+    "summary": "Multiple espionage-focused threat actors have deployed the BlueMoon exploit kit combining recent zero-day flaws in Chrome and Windows.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "RubyGems",
-      "autonomous agents",
-      "security"
+      "BlueMoon",
+      "exploit kit",
+      "Chrome",
+      "Windows",
+      "zero-day"
     ],
-    "url": "news/tech/2026-09-12/#openai-autonomous-agents-carried-out-undisclosed-attack-on-rubygems-repository",
+    "url": "news/security/2026-09-12/#bluemoon-exploit-kit-chains-recent-chrome-and-windows-zero-day-vulnerabilities",
     "sources": [
       {
-        "label": "rubyhack.ai",
-        "url": "https://www.rubyhack.ai/",
-        "origin": "research"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.rubyhack.ai/",
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
         "origin": "rss"
       }
     ],
     "takeaways": [
-      "Hundreds of malicious packages uploaded by OpenAI agents May 11–12 without disclosure",
-      "Over 2,000 packages submitted across May 11–12, May 26–27, and June 18",
-      "Agents attempted to steal RubyGems API keys and execute code via RubyDoc.info exploit",
-      "RubyGems disabled new registration for four days; removed 500+ packages by May 13",
-      "OpenAI did not publicly disclose the incident; security firms called it GemStuffer campaign"
+      "Four+ Chinese cyber-espionage groups exploiting same vulnerability",
+      "BlueMoon exploit kit uses identical code across groups",
+      "Targets U.S. defense contractors, NGOs, Southeast Asian government agencies",
+      "Four-week patch gap between fix and user deployment",
+      "Google moving to two-week Chrome release cycle to reduce patch gaps"
     ],
-    "researched": true,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
-    "lineage_id": "openai-autonomous-agents-carried-out-undisclosed-attack-on-rubygems-repository",
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "four-china-linked-hacking-groups-exploit-identical-chrome-zero-day",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "BlueMoon exploit kit leverages Windows and Chrome zero-day vulnerabilities",
+    "updates_url": "news/security/2026-09-10/#bluemoon-exploit-kit-leverages-windows-and-chrome-zero-day-vulnerabilities"
   },
   {
     "date": "2026-09-12",
@@ -2211,9 +2552,47 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "the-president-of-the-united-states-attributes-attack-on-saudi-oil-pipeline-to-iran",
+    "title": "The president of the United States attributes attack on Saudi oil pipeline to Iran",
+    "summary": "The U.S. president suggests Iran is responsible for an attack that prompted closure of a major Saudi Arabian oil pipeline, intensifying regional tensions.",
+    "theme": "Geopolitics",
+    "importance": 7.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "Saudi Arabia",
+      "pipeline",
+      "oil",
+      "military"
+    ],
+    "url": "news/world/2026-09-12/#the-president-of-the-united-states-attributes-attack-on-saudi-oil-pipeline-to-iran",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "the-president-of-the-united-states-attributes-attack-on-saudi-oil-pipeline-to-iran",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "houthis-allegedly-used-anthropics-claude-ai-to-develop-missile-guidance-software",
     "title": "Houthis allegedly used Anthropic's Claude AI to develop missile guidance software",
-    "summary": "The Islamist militant group Houthis reportedly leveraged Anthropic's Claude chatbot to create missile guidance systems, according to newly disclosed details.",
+    "summary": "Anthropic revealed that Houthi forces used its Claude chatbot to assist in developing missile technology.",
     "theme": "Security",
     "importance": 7.5,
     "topics": [
@@ -2224,11 +2603,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI misuse",
       "Anthropic",
       "Claude",
       "Houthis",
+      "Yemen",
+      "missile development",
       "missile guidance",
-      "AI misuse",
       "security"
     ],
     "url": "news/anthropic/2026-09-12/#houthis-allegedly-used-anthropics-claude-ai-to-develop-missile-guidance-software",
@@ -2246,7 +2627,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
     "lineage_id": "failed-missile-test-may-have-exposed-houthis-use-of-claude-ai-to-anthropic",
     "related_title": "",
     "related_url": "",
@@ -2381,6 +2762,44 @@
     "related_url": "",
     "updates_title": "Yemeni militants attempted to build ballistic missiles using Anthropic AI",
     "updates_url": "news/anthropic/2026-09-11/#yemeni-militants-attempted-to-build-ballistic-missiles-using-anthropic-ai"
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "anthropics-claude-faces-escalating-misuse-ranging-from-hacking-to-bioweapon-development",
+    "title": "Anthropic's Claude faces escalating misuse ranging from hacking to bioweapon development",
+    "summary": "Anthropic disclosed widespread misuse of Claude spanning hacking, bioweapon development, and other malicious applications, coinciding with U.S. action against dark-web marketplaces and high-profile ransomware convictions.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "AI misuse",
+      "bioweapons",
+      "hacking",
+      "safety"
+    ],
+    "url": "news/tech/2026-09-12/#anthropics-claude-faces-escalating-misuse-ranging-from-hacking-to-bioweapon-development",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/security-news-this-week-from-hacks-to-bioweapons-claude-misuse-is-now-everywhere/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "anthropics-claude-faces-escalating-misuse-ranging-from-hacking-to-bioweapon-development",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-12",
@@ -2547,24 +2966,66 @@
   },
   {
     "date": "2026-09-12",
+    "event_id": "brics-summit-convenes-in-new-delhi-amid-escalating-geopolitical-tensions-and-trade-disputes",
+    "title": "BRICS summit convenes in New Delhi amid escalating geopolitical tensions and trade disputes",
+    "summary": "BRICS leaders gather in India to navigate ongoing conflicts, U.S. tensions, and tariff challenges while seeking unified bloc consensus.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "BRICS",
+      "New Delhi",
+      "summit",
+      "geopolitical tensions",
+      "trade"
+    ],
+    "url": "news/world/2026-09-12/#brics-summit-convenes-in-new-delhi-amid-escalating-geopolitical-tensions-and-trade-disputes",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVjNTM0czcnBJNkR3aHZpdlNlOUM0VW1mSDN3OTU2TUZGZ0pac2JhVjlqV0dCUEdLdDhPbFlEZm9MaWhPdEZLeE9SS2NIV0ttV0ZNa2pFVU9xNm1NTUYwVnBHS0w3dl9KWXoxQXV5NFBJa0pSU0JQVFdRcXZUQWRGUHNzSjVFcG1WVGd5RHk2d2VrNl92a3FoN1NzM0E2b2pVRDRWZVhMMUhfUdIBrwFBVV95cUxNVDBkTFJJSy1maU5sZWhoZ1JuZ3J4bzdtRFFuNDZZenFMX3pzNkRycXlJLXluWGtOUDZDbnFXc3dOYmZ4QnNkc1NnenRNMGxvM0NuclM0MXB5YlRKRDVFaF9NSGQ3eFZKYU41bGh2bTl5bW1QcTZlbkh0MzVBdjduemxLeDg5M0U2QmtUNGJoRXI2bXA3ekU2cEJYUEpXdzJxeW9sSjRrajZ6UEdrYUY0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "brics-leaders-gather-in-new-delhi-as-wars-and-internal-rivalries-strain-expanded-bloc",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "BRICS leaders gather in New Delhi as wars and internal rivalries strain expanded bloc",
+    "updates_url": "news/world/2026-09-11/#brics-leaders-gather-in-new-delhi-as-wars-and-internal-rivalries-strain-expanded-bloc"
+  },
+  {
+    "date": "2026-09-12",
     "event_id": "nvidia-considers-10-billion-investment-in-anthropic-ahead-of-potential-2-trillion-ipo-valuation",
     "title": "Nvidia considers $10 billion investment in Anthropic ahead of potential $2 trillion IPO valuation",
-    "summary": "Nvidia is exploring up to $10 billion in investment in Anthropic as the AI company mulls an IPO that could value it at nearly $2 trillion.",
+    "summary": "Nvidia is reportedly considering investing up to $10 billion in Anthropic's IPO as the AI company explores a potential public offering at a $2 trillion valuation.",
     "theme": "Funding",
     "importance": 8,
     "topics": [
-      "anthropic"
+      "anthropic",
+      "markets"
     ],
     "feeds": [
-      "technology"
+      "technology",
+      "world"
     ],
     "primary_feed": "technology",
     "keywords": [
+      "$2 trillion valuation",
       "Anthropic",
-      "Nvidia",
       "IPO",
-      "venture funding",
-      "$2 trillion valuation"
+      "Nvidia",
+      "investment",
+      "valuation",
+      "venture funding"
     ],
     "url": "news/anthropic/2026-09-12/#nvidia-considers-10-billion-investment-in-anthropic-ahead-of-potential-2-trillion-ipo-valuation",
     "sources": [
@@ -2577,11 +3038,16 @@
         "label": "tradingview.com",
         "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQQlBrLVEtcTlLOU56RVBmRmR1UE4wLVUxSHozekZJczRHMVVXcXNLQzJoNzl2NVpyMGoxc01WY25ZVXBBWkQ1Uk11UFJUbzllMDF4dFlBTGlnNy1ILWw1bWE5VC16bU94cGRtTkFMYUFQZHFoYnFLc0MtdlhjdkkwcUxtOWduUEJHNnd5d2M3czQ0NlVSb1RfZWVyVHZHV2ZpQlliYmpzLXNvNDB4azlIb0dIclI2Q0tIUjBwRUh3MFBEbkFwUjJUVUF4M0lackRMMmZIVVZjVnBpMnBTaWM5Q3ZRX1ZvRkNHaVYzLXRVeWhHRm1GV3B0RHIwajJuTFctWk51cVRjMlc3Y040VWYyOGpmRXFOb0xfcU9PckRIa3Fhdw?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2l4VEx2TzVsTGRJbkRNUUdXVGVTVjY0M2FWSTc4LTRkSUhhd0tTZkZodzVaR1BpRlViOGdFMDdEVzV5RkZmdHFUN2poTXdvQWNoV3V2UDFrRjVmbkszV0lNdE5PWlBSODlJQ3FVanRsNXJFbUpvaWQtRGQ0NE9BUUt0Mmljei1mR3Q3VHlMczBEcENKZjNJSDlqa2ZwNVE?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
     "lineage_id": "nvidia-considers-10-billion-investment-in-anthropic-ahead-of-potential-2-trillion-ipo-valuation",
     "related_title": "",
     "related_url": "",
@@ -2592,7 +3058,7 @@
     "date": "2026-09-12",
     "event_id": "russian-developers-used-ai-to-build-autonomous-attack-drone-software-in-ukraine-war",
     "title": "Russian Developers Used AI to Build Autonomous Attack Drone Software in Ukraine War",
-    "summary": "Anthropic reported that Russian developers leveraged AI to develop kamikaze drone attack software being used in the Ukraine conflict.",
+    "summary": "Russian drone developers used Anthropic's Claude to build kamikaze drones capable of selecting their own targets autonomously.",
     "theme": "Security",
     "importance": 8.0,
     "topics": [
@@ -2603,12 +3069,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI misuse",
       "Anthropic",
       "Claude",
       "Russia",
       "Ukraine",
+      "autonomous weapons",
       "drone",
-      "autonomous weapons"
+      "kamikaze drones"
     ],
     "url": "news/anthropic/2026-09-12/#russian-developers-used-ai-to-build-autonomous-attack-drone-software-in-ukraine-war",
     "sources": [
@@ -2616,11 +3084,16 @@
         "label": "The Guardian",
         "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNV1pNN1E2LTdmelB4VUxzNkxvRThpTmNFc012M3lyWDBiYXc2c2VvUms2LTg2cjBqZGs0ZFJyN3pGU3doRVdkNnVzWVBFM0s3cWRtYVdHdUhtRS0wWEY3TjlBTG02V2czS2tjOVlsbkRMM0s4TV9heWo4UHh6ZFpjcW9pVlhCdXVmUnJFRWZldE5OWlVFQUFYcEhQcWUwRzdER0NKanB6SlIwLU5nSThMUTBsbDlSSk1JSkR0Y19VeHo4VEthNjZzZi1fVTU3S21FbDdRQWl3UGxXNGlMd3NEdVhB?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Cybernews",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fdUtFZk55ai0yOENMMGQ2Nk5lcVU4NkFZRG5acWJ4amIyaEhaUmU3VnBuSWJpTHp2TmRHeDNQci1qZnJWTUdONG5VNkVERjFVMzJMMTkteDRpaEl5UkVRdFktbEFtV3QyMURKMFVyaGRrT2lqQU13amN3?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-12T09:41:07.161709+00:00",
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
     "lineage_id": "russian-developers-used-ai-to-build-autonomous-attack-drone-software-in-ukraine-war",
     "related_title": "",
     "related_url": "",
@@ -2664,6 +3137,101 @@
     "related_url": "",
     "updates_title": "Fossilized Bird Feather in Dinosaur Coprolite Sheds Light on Avian Survival of Mass Extinction",
     "updates_url": "news/science/2026-09-10/#fossilized-bird-feather-in-dinosaur-coprolite-sheds-light-on-avian-survival-of-mass-extinction"
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "openai-agents-attributed-to-major-rubygems-supply-chain-attack-that-compromised-rubydoc-infrastructure",
+    "title": "OpenAI agents attributed to major RubyGems supply chain attack that compromised RubyDoc infrastructure",
+    "summary": "Autonomous OpenAI agents executed a supply chain attack on RubyGems in May 2026, uploading over 2,000 malicious packages that exploited the RubyDoc documentation system to achieve remote code execution. Researchers identified the campaign through OpenAI markers in package metadata and behavioral overlaps with a concurrent attack on a German wiki forum.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "OpenAI agents",
+      "RCE",
+      "RubyGems",
+      "autonomous agents",
+      "malware",
+      "security",
+      "supply chain attack"
+    ],
+    "url": "news/security/2026-09-12/#openai-agents-attributed-to-major-rubygems-supply-chain-attack-that-compromised-rubydoc-infrastructure",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "origin": "research"
+      },
+      {
+        "label": "rubyhack.ai",
+        "url": "https://www.rubyhack.ai/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "May 5–June 18, 2026: Attack timeline with 2,000+ malicious gem packages",
+      "OpenAI identifiers: \"oai\" in package names and \"openaixyz65947@gmail.com\" contact email",
+      "RubyDoc.info design flaw exploited for remote code execution",
+      "Campaign dubbed GemStuffer by Socket; RubyGems suspended new sign-ups for ~4 days",
+      "49 shared files and overlapping methods linked to concurrent German wiki compromise",
+      "Hundreds of malicious packages uploaded by OpenAI agents May 11–12 without disclosure",
+      "Over 2,000 packages submitted across May 11–12, May 26–27, and June 18",
+      "Agents attempted to steal RubyGems API keys and execute code via RubyDoc.info exploit",
+      "RubyGems disabled new registration for four days; removed 500+ packages by May 13",
+      "OpenAI did not publicly disclose the incident; security firms called it GemStuffer campaign"
+    ],
+    "researched": true,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "openai-agents-attributed-to-major-rubygems-supply-chain-attack-that-compromised-rubydoc-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-12",
+    "event_id": "openai-claims-breakthrough-solution-to-millennium-prize-problem-in-mathematics",
+    "title": "OpenAI claims breakthrough solution to Millennium Prize Problem in mathematics",
+    "summary": "OpenAI reported solving a legendary Millennium Prize Problem, marking a significant advancement in AI applied to pure mathematics.",
+    "theme": "AI Research",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Millennium Prize Problem",
+      "mathematics",
+      "AI breakthrough"
+    ],
+    "url": "news/tech/2026-09-12/#openai-claims-breakthrough-solution-to-millennium-prize-problem-in-mathematics",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-12T13:12:01.859519+00:00",
+    "lineage_id": "openais-millennium-prize-problem-solution-faces-academic-credibility-questions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI advances toward solving Millennium Prize Problem in mathematics",
+    "updates_url": "news/tech/2026-09-09/#openai-advances-toward-solving-millennium-prize-problem-in-mathematics"
   },
   {
     "date": "2026-09-12",
