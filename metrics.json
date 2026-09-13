@@ -1,5 +1,73 @@
 [
   {
+    "timestamp": "2026-09-13T18:23:17.595729+00:00",
+    "mode": "daily",
+    "calls": 7,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 17104,
+        "output": 8993,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.0621,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 11819,
+            "output": 8037,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.052
+      },
+      "(merge-check)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1851,
+            "output": 27,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.002
+      },
+      "(read)": {
+        "calls": 2,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 3434,
+            "output": 929,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0081
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 27,
+      "Google News \u2014 World": 19,
+      "Hacker News (front page)": 8,
+      "Engadget": 7,
+      "Phys.org": 4,
+      "Google News \u2014 Anthropic": 4,
+      "TechCrunch": 2,
+      "Space.com": 1,
+      "The Verge": 1,
+      "Google News \u2014 OpenAI GPT": 1
+    }
+  },
+  {
     "timestamp": "2026-09-13T15:10:15.966557+00:00",
     "mode": "daily",
     "calls": 24,
