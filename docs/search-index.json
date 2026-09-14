@@ -1,81 +1,6 @@
 [
   {
     "date": "2026-09-14",
-    "event_id": "comparison-chatgpt-for-financial-services-versus-gemini-enterprise",
-    "title": "Comparison: ChatGPT for Financial Services versus Gemini Enterprise",
-    "summary": "An article compares ChatGPT for Financial Services with Google's Gemini Enterprise offering.",
-    "theme": "AI",
-    "importance": 3,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ChatGPT",
-      "Gemini",
-      "financial services",
-      "comparison"
-    ],
-    "url": "news/gpt/2026-09-14/#comparison-chatgpt-for-financial-services-versus-gemini-enterprise",
-    "sources": [
-      {
-        "label": "shattered.io",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUjE3Y1FnTW1vQkk1d3RGaXNBV3FOdUgxTmFZUTRPMkh2cnRYMk5ESGxXbHNRNFBJLVpsN2tRMkw0VTllVmhmY3B0ZUZBUk8wN2tJREIyaU1OZnFhSklqWmZWWlMzWERiLXQ3dGpYWGRwZ3VfUURraURYUXFLOEk?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "comparison-chatgpt-for-financial-services-versus-gemini-enterprise",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "comparative-performance-analysis-nemotron-35-lightning-vs-gpt-56-luna-vs-qwen38-flash",
-    "title": "Comparative Performance Analysis: Nemotron 3.5 Lightning vs GPT-5.6 Luna vs Qwen3.8 Flash",
-    "summary": "A performance comparison claims a 6x capability gap between three large language models projected for 2026.",
-    "theme": "AI",
-    "importance": 3,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Nemotron",
-      "GPT-5.6",
-      "Qwen3.8",
-      "LLM benchmarks",
-      "performance"
-    ],
-    "url": "news/gpt/2026-09-14/#comparative-performance-analysis-nemotron-35-lightning-vs-gpt-56-luna-vs-qwen38-flash",
-    "sources": [
-      {
-        "label": "tech-insider.org",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa2Z2YmRiTW9SclgzRzkwYmFWM1hTbDR1aDRwbktFaU1JUTVySFRzTVBwNnVxYjJiV3dRVVp5OGpFTEd4UUZ1UGhjSHVpMDVIR2d0d2V1UEowWktuOXliMzdxQ1ZOU0ZXaDNwWEZLZllfU2FvZzhibDhUZTNCSFFHcEpYNGtJQVF6cGVFQU9zTy15M2s?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "comparative-performance-analysis-nemotron-35-lightning-vs-gpt-56-luna-vs-qwen38-flash",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
     "event_id": "building-isolyne-llm-outage-fallback-parser",
     "title": "Building Isolyne: LLM Outage Fallback Parser",
     "summary": "A technical article describes how to build an offline fallback parser to handle large language model outages.",
@@ -185,36 +110,35 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "openai-introduces-click-to-chat-ad-format-for-chatgpt",
-    "title": "OpenAI introduces click-to-chat ad format for ChatGPT",
-    "summary": "OpenAI is rolling out a new ChatGPT advertisement format that routes clicks directly to a chat interface rather than to a website.",
-    "theme": "Business",
-    "importance": 4,
+    "event_id": "llm-context-cost-modeling-with-tiered-pricing-over-200k-tokens",
+    "title": "LLM context cost modeling with tiered pricing over 200k tokens",
+    "summary": "Technical guide on modeling and pricing large language model usage when context windows exceed 200,000 tokens.",
+    "theme": "Technology",
+    "importance": 4.0,
     "topics": [
-      "gpt"
+      "ai"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "advertising",
-      "ad format"
+      "large language models",
+      "cost modeling",
+      "token pricing"
     ],
-    "url": "news/gpt/2026-09-14/#openai-introduces-click-to-chat-ad-format-for-chatgpt",
+    "url": "news/ai/2026-09-14/#llm-context-cost-modeling-with-tiered-pricing-over-200k-tokens",
     "sources": [
       {
-        "label": "Digiday",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcWVGWmkxcTFpRnlZREJjcDhsSjgwUExWMmlRZGM3Rkh3RlB1NDZreWRLY3hCbkp6SXNBZzJha0JDZXRyMEtfUWJmdlFldlYxall5ekVoWEQ5ZV83Z3lWNmNOeU9SMDVNb0ZFb1RRYWJJLVdaWkxJWjNJTGpqaEZ6X2ZNY01RZ0xJcHJvXy04UWw?oc=5",
+        "label": "SitePoint",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeVVoR3lWcDdfTFhnQjRwUzB6OXozRUc2emNSUXVrSkVTS0hRV09DUWpVRUlqWnM0QUQ1ZTdoOVNsdjRFU3pLMmU0OVBVeHV2WU14cG92M1RIUHkwQVVMWThNZVR1Z0lGODluV2FEaGtWOE5IdnUyN0ZfQThmSlNlLUdTb2pVTV9FU09lb1BqYW0?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "openai-introduces-click-to-chat-ad-format-for-chatgpt",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "llm-context-cost-modeling-with-tiered-pricing-over-200k-tokens",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -222,36 +146,36 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "gpt-6-astra-model-capability-assessment",
-    "title": "GPT-6 Astra Model Capability Assessment",
-    "summary": "An evaluation suggests that GPT-6 Astra's true capabilities depend significantly on prompt quality.",
-    "theme": "AI",
-    "importance": 4,
+    "event_id": "hedgeye-ai-research-call-compares-openai-and-anthropic-valuation-trajectories",
+    "title": "Hedgeye AI research call compares OpenAI and Anthropic valuation trajectories",
+    "summary": "Investment research firm Hedgeye is hosting an analysis comparing OpenAI and Anthropic financial metrics and growth projections.",
+    "theme": "Finance",
+    "importance": 4.0,
     "topics": [
-      "gpt"
+      "ai"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "GPT-6 Astra",
       "OpenAI",
-      "prompt engineering",
-      "model evaluation"
+      "Anthropic",
+      "valuation",
+      "investment research"
     ],
-    "url": "news/gpt/2026-09-14/#gpt-6-astra-model-capability-assessment",
+    "url": "news/ai/2026-09-14/#hedgeye-ai-research-call-compares-openai-and-anthropic-valuation-trajectories",
     "sources": [
       {
-        "label": "finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBHVElUZk1GMGd5UGxpM21YWG5hYU9VZGJYaWRmT05TcldrUGZRTV9yVjBwMXU1eGpKbVdCdnRxYVVKNENhdHBpSzFrUTNVYkVYS1lPYmh6ekRNTUZJVEJqTXo0cEt0dmZ1QndrV1o0RUZ0akRkOEE?oc=5",
+        "label": "app.hedgeye.com",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUFdXcGtpZUR1d3pkZ3ZFRkhRZ3dnQWM3RUJSZmJJRFBXSlBhZkJ6MHZFOEpSTlhZNzJ0eFhVZTh2Z1ZJYVVwbGotT1lfeW5hbjVqYXlYcW5WeUlLMVI1MG04b3N0U3Fldy1vcDcyVl9USDlVZDJxLW1hOERNelUtSjU3Ylg4Mjh1ZGxRWk8zSk1PZ2xVSDdsSTB2N1c2LS1YMU5hVEJjYVk4MWl0MEVDb2NrdDgxZTRvaG5EdlNBekZick9seWdPWlpQaFhiMjdNTU1zUnRwSW42SjJTaFFz?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "gpt-6-astra-model-capability-assessment",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "hedgeye-ai-research-call-compares-openai-and-anthropic-valuation-trajectories",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -327,6 +251,43 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "database-administrators-have-legitimate-concerns-about-ai-but-also-misconceptions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "agentic-ai-foundation-launches-mcpa-certification-for-model-context-protocol-expertise",
+    "title": "Agentic AI Foundation launches MCPA certification for Model Context Protocol expertise",
+    "summary": "The Agentic AI Foundation introduced a new MCPA certification program to validate expertise in the Model Context Protocol standard.",
+    "theme": "AI",
+    "importance": 4.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Agentic AI Foundation",
+      "MCPA certification",
+      "Model Context Protocol",
+      "MCP"
+    ],
+    "url": "news/ai/2026-09-14/#agentic-ai-foundation-launches-mcpa-certification-for-model-context-protocol-expertise",
+    "sources": [
+      {
+        "label": "HPCwire",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVHZDNExkeXJHSXA2eE9yY2F2TWhwc1o4UnQ1S3pJTWtzbmlGLVpmQldRV2piaFc2WG91d0hyNjAyemZ6TmRhMFF3V2h3ZXRoTW5OcGY3NDlTanJuSU8yNHQxcFFEbE5Uc0ZKSHdfai0wVWlRZWVZdmQxT2xoLUpZRUo3X2IxOTVtMWZEMGdLQ0NXSGRET2pOMHhFZjcyeUVOaWJfb3NMVV82Mk1ZZzJhcS1HVC00akszU2c?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "agentic-ai-foundation-launches-mcpa-certification-for-model-context-protocol-expertise",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -519,73 +480,37 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "500-year-old-benin-bronze-bust-of-african-king",
-    "title": "500-year-old Benin bronze bust of African king",
-    "summary": "A brass sculptural head depicting an African king is among thousands of Benin Bronzes looted by Britain from Nigeria in 1897.",
-    "theme": "Cultural Heritage",
-    "importance": 5.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Benin Bronzes",
-      "Nigeria",
-      "repatriation",
-      "colonial looting"
-    ],
-    "url": "news/science/2026-09-14/#500-year-old-benin-bronze-bust-of-african-king",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/archaeology/ancestral-commemorative-head-a-500-year-old-brass-bust-depicting-an-african-king",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "500-year-old-benin-bronze-bust-of-african-king",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "supply-chain-transparencys-mixed-consumer-impact",
-    "title": "Supply Chain Transparency's Mixed Consumer Impact",
-    "summary": "A new research paper finds that transparent supply chains boost consumer trust only when results are positive.",
-    "theme": "Business Research",
+    "event_id": "nasa-captures-rare-orbital-photograph-of-international-space-station-above-earth",
+    "title": "NASA captures rare orbital photograph of International Space Station above Earth",
+    "summary": "NASA has captured a remarkable orbital photograph of the International Space Station passing above Earth.",
+    "theme": "Space",
     "importance": 5,
     "topics": [
-      "science"
+      "space"
     ],
     "feeds": [
       "science"
     ],
     "primary_feed": "science",
     "keywords": [
-      "supply chain",
-      "transparency",
-      "consumer trust",
-      "logistics"
+      "NASA",
+      "ISS",
+      "International Space Station",
+      "photography",
+      "orbit"
     ],
-    "url": "news/science/2026-09-14/#supply-chain-transparencys-mixed-consumer-impact",
+    "url": "news/space/2026-09-14/#nasa-captures-rare-orbital-photograph-of-international-space-station-above-earth",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-consumers-demand-transparency-rewarded.html",
+        "label": "The Daily Galaxy",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16UDV0NC04UUhqRzJIdFBhWUY2Y1FHT3Y5ZkFwdUdoZU9RTV9UcTA4R3BjSFBrOXdXdzhfd0FFcENqemVaM0phdVFHVWtqakNfSGhUQ2FEU192enZFTXlRZTRBV3dVWnRsWkdqRmlVWG1mY2ZoNm4tdA?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "supply-chain-transparencys-mixed-consumer-impact",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "nasa-captures-rare-orbital-photograph-of-international-space-station-above-earth",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -593,37 +518,35 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "indigenous-languages-document-new-dragonfly-species-in-remote-colombia",
-    "title": "Indigenous languages document new dragonfly species in remote Colombia",
-    "summary": "Researchers cataloging dragonflies in Colombia's Guainía region are collaborating with Indigenous communities to document species and create new terminology in local languages.",
-    "theme": "Science",
+    "event_id": "the-ai-race-continues-to-accelerate-without-signs-of-slowdown",
+    "title": "The AI race continues to accelerate without signs of slowdown",
+    "summary": "Industry observers report that competitive pressure in AI development shows no indication of moderating.",
+    "theme": "AI",
     "importance": 5.5,
     "topics": [
-      "climate-change"
+      "ai",
+      "anthropic"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "Colombia",
-      "dragonflies",
-      "Indigenous languages",
-      "taxonomy"
+      "AI competition",
+      "industry trends"
     ],
-    "url": "news/climate-change/2026-09-14/#indigenous-languages-document-new-dragonfly-species-in-remote-colombia",
+    "url": "news/ai/2026-09-14/#the-ai-race-continues-to-accelerate-without-signs-of-slowdown",
     "sources": [
       {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/09/nearly-forgotten-languages-are-finding-new-words-for-colombias-dragonflies/",
+        "label": "techzine.eu",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaGptc3Jkb0Q0SmNwNG5tVUxOOUJUZVh2c1lxbHUtVlZtTktQbGJhNVZGTjVfTURCSjFOemlTTGx2VFVocFl4QXlpWEtEME5VbmROeHBaREIwZ1UzWFk4QVpKemVYVHh0ZWJnYnBFeC1VNVozZGl6anNDUk1wOTh2WHdqNmd1TV83QlBDSzhZbw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "indigenous-languages-document-new-dragonfly-species-in-remote-colombia",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "the-ai-race-continues-to-accelerate-without-signs-of-slowdown",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -631,10 +554,10 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "openai-will-not-pursue-stock-market-listing-this-year-altman-states",
-    "title": "OpenAI will not pursue stock market listing this year, Altman states",
-    "summary": "OpenAI CEO Sam Altman has announced that the company will not enter the public markets in 2026.",
-    "theme": "Business",
+    "event_id": "openai-pauses-chatgpt-pro-signups-due-to-gpt-6-astra-server-strain",
+    "title": "OpenAI pauses ChatGPT Pro signups due to GPT-6 Astra server strain",
+    "summary": "OpenAI has suspended new ChatGPT Pro registrations as GPT-6 Astra demand strains server capacity.",
+    "theme": "AI",
     "importance": 5.5,
     "topics": [
       "gpt"
@@ -645,26 +568,26 @@
     "primary_feed": "technology",
     "keywords": [
       "OpenAI",
-      "Altman",
-      "IPO",
-      "stock market"
+      "ChatGPT Pro",
+      "GPT-6 Astra",
+      "server capacity"
     ],
-    "url": "news/gpt/2026-09-14/#openai-will-not-pursue-stock-market-listing-this-year-altman-states",
+    "url": "news/gpt/2026-09-14/#openai-pauses-chatgpt-pro-signups-due-to-gpt-6-astra-server-strain",
     "sources": [
       {
-        "label": "Mezha",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51MVJJYW12U1VoeGVvVjJHc0VEalFJNmRxQV95MmpzcFBoZGVoNThFMVBXdy1wVm5xNGdHR2tvSTlYWldxYVA2LTJqVmFFajZkUThnaUdnWGJnbXhuaV8wWFBKbF84X2gzdXJSVEN0V3NlX2NDYmZj0gF8QVVfeXFMTl9KWFA3UVJLTHpWQUlXUEVzd3FEZDJtU1ZzazhtajhpNmZ6ZnF1X3RfSm82MkJNeWpsMTVNaHZmQVlBOU9ibFM5enNZd1FmQkY2bm1NRUE4UDZEa0sxbVZnWExEWFY0OUtudnZ0aVFISjFwVXdEQWxqem1GNg?oc=5",
+        "label": "Ubergizmo",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaFVTbGtlcV8zU1B3Q3p1dzRmTksxQzM2VFlqYXRNbGtBeVdzend6ZVdQV2R5dnhmQ0lrVWhTZUloOXN2b1AwZXBDWktVMk13dnF3MzFIdXVRSVk5c2xRVHJtNS14Q3B5NmQyR21qejYzOGkwRGpxV0tiM0Z6Q2JsQktzRGY5TFp3R0hTa1hneFlSNjNsYkFxcHNpT3dBcndWcERz?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "openai-will-not-pursue-stock-market-listing-this-year-altman-states",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "openai-pauses-200-chatgpt-pro-subscriptions-due-to-unprecedented-astra-demand",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "OpenAI Pauses $200 ChatGPT Pro Subscriptions Due to Unprecedented Astra Demand",
+    "updates_url": "news/gpt/2026-09-11/#openai-pauses-200-chatgpt-pro-subscriptions-due-to-unprecedented-astra-demand"
   },
   {
     "date": "2026-09-14",
@@ -698,6 +621,43 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "gops-50-billion-rural-health-fund-falls-short-of-hospital-needs",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "rfk-jr-to-deliver-keynote-at-anti-vaccine-group-conference-despite-distancing-efforts",
+    "title": "RFK Jr. to deliver keynote at anti-vaccine group conference despite distancing efforts",
+    "summary": "Robert F. Kennedy Jr., who worked to distance himself from Children's Health Defense, will deliver a keynote address at the anti-vaccine organization's conference.",
+    "theme": "Health",
+    "importance": 5.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "RFK Jr.",
+      "Children's Health Defense",
+      "anti-vaccine",
+      "conference"
+    ],
+    "url": "news/health/2026-09-14/#rfk-jr-to-deliver-keynote-at-anti-vaccine-group-conference-despite-distancing-efforts",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/09/14/rfk-speech-childrens-health-defense-conference-washington/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "rfk-jr-to-deliver-keynote-at-anti-vaccine-group-conference-despite-distancing-efforts",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -743,84 +703,9 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "micro-dramas-on-social-platforms-risk-amplifying-ai-driven-addictive-design",
-    "title": "Micro-dramas on social platforms risk amplifying AI-driven addictive design",
-    "summary": "As tech platforms face scrutiny over addictive designs, the rapid rise of micro-drama content reveals how AI and algorithmic incentives could make digital entertainment even harder to disengage from.",
-    "theme": "Technology",
-    "importance": 5.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "social media",
-      "algorithm",
-      "addictive design",
-      "AI",
-      "engagement"
-    ],
-    "url": "news/science/2026-09-14/#micro-dramas-on-social-platforms-risk-amplifying-ai-driven-addictive-design",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-micro-dramas-attention.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "micro-dramas-on-social-platforms-risk-amplifying-ai-driven-addictive-design",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "scientists-insufficient-lunar-water-reserves-for-sustainable-moon-cities",
-    "title": "Scientists: insufficient lunar water reserves for sustainable moon cities",
-    "summary": "Research indicates that water deposits in lunar polar craters are insufficient to support the establishment of large permanent moon settlements and cities.",
-    "theme": "Space",
-    "importance": 5.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "moon",
-      "water",
-      "lunar settlement",
-      "sustainability"
-    ],
-    "url": "news/science/2026-09-14/#scientists-insufficient-lunar-water-reserves-for-sustainable-moon-cities",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-cities-moon-isnt-scientists.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "scientists-insufficient-lunar-water-reserves-for-sustainable-moon-cities",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
     "event_id": "rocket-lab-protests-nasas-mars-telecom-contract-award-to-blue-origin",
     "title": "Rocket Lab protests NASA's Mars telecom contract award to Blue Origin",
-    "summary": "Rocket Lab formally protests NASA's decision to award a Mars telecommunications contract to Blue Origin.",
+    "summary": "Rocket Lab has filed a formal protest against NASA's decision to award a Mars communications contract to Blue Origin.",
     "theme": "Space",
     "importance": 5.5,
     "topics": [
@@ -831,11 +716,12 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "Rocket Lab",
       "Blue Origin",
-      "NASA",
       "Mars",
-      "contract"
+      "NASA",
+      "Rocket Lab",
+      "contract",
+      "telecommunications"
     ],
     "url": "news/space/2026-09-14/#rocket-lab-protests-nasas-mars-telecom-contract-award-to-blue-origin",
     "sources": [
@@ -847,7 +733,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
     "lineage_id": "rocket-lab-protests-nasas-mars-telecom-contract-award-to-blue-origin",
     "related_title": "",
     "related_url": "",
@@ -856,302 +742,36 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "europes-right-to-repair-regulations-face-compliance-challenges-but-remain-viable",
-    "title": "Europe's right-to-repair regulations face compliance challenges but remain viable",
-    "summary": "European right-to-repair rules are experiencing patchy compliance, signaling the need for stronger enforcement rather than abandonment of the regulatory framework.",
-    "theme": "Policy",
+    "event_id": "nasa-solicits-proposals-for-new-crops-and-health-research-to-advance-space-exploration",
+    "title": "NASA solicits proposals for new crops and health research to advance space exploration",
+    "summary": "NASA is accepting research proposals for novel crops and health studies to support long-duration space exploration missions.",
+    "theme": "Space",
     "importance": 5.5,
     "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "right-to-repair",
-      "Europe",
-      "regulation",
-      "compliance",
-      "consumer rights"
-    ],
-    "url": "news/tech/2026-09-14/#europes-right-to-repair-regulations-face-compliance-challenges-but-remain-viable",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/columnists/2026/09/14/europes-right-to-repair-rules-are-broken-not-beaten/5295763",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "europes-right-to-repair-regulations-face-compliance-challenges-but-remain-viable",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "endangered-dolphins-survive-in-bangladeshs-heavily-polluted-river",
-    "title": "Endangered dolphins survive in Bangladesh's heavily polluted river",
-    "summary": "A small population of endangered dolphins persists in the Buriganga River despite it being one of the world's most polluted urban waterways.",
-    "theme": "Conservation",
-    "importance": 6.0,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "dolphins",
-      "Bangladesh",
-      "pollution",
-      "river",
-      "endangered species"
-    ],
-    "url": "news/climate-change/2026-09-14/#endangered-dolphins-survive-in-bangladeshs-heavily-polluted-river",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/2026/09/against-the-odds-endangered-dolphins-survive-in-bangladeshs-polluted-river/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "endangered-dolphins-survive-in-bangladeshs-heavily-polluted-river",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "international-commission-adopts-long-term-harvest-strategy-to-ensure-pacific-bluefin-tuna-sustainability",
-    "title": "International commission adopts long-term harvest strategy to ensure Pacific bluefin tuna sustainability",
-    "summary": "The Inter-American Tropical Tuna Commission agreed on a long-term harvest management strategy for Pacific bluefin tuna following decades of overfishing and recent recovery.",
-    "theme": "Conservation",
-    "importance": 6.0,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "bluefin tuna",
-      "sustainability",
-      "IATTC",
-      "conservation",
-      "harvest management"
-    ],
-    "url": "news/climate-change/2026-09-14/#international-commission-adopts-long-term-harvest-strategy-to-ensure-pacific-bluefin-tuna-sustainability",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/2026/09/pacific-bluefin-tuna-will-get-some-help-as-countries-agree-to-new-harvest-strategy/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "international-commission-adopts-long-term-harvest-strategy-to-ensure-pacific-bluefin-tuna-sustainability",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "clownfish-population-decline-as-coral-reef-faces-reclamation",
-    "title": "Clownfish Population Decline as Coral Reef Faces Reclamation",
-    "summary": "A longstanding clownfish population at a Singaporean coral reef faces habitat loss as the reef is reclaimed for development.",
-    "theme": "Conservation",
-    "importance": 6,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "clownfish",
-      "coral reef",
-      "Singapore",
-      "habitat loss",
-      "marine conservation"
-    ],
-    "url": "news/climate-change/2026-09-14/#clownfish-population-decline-as-coral-reef-faces-reclamation",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/2026/09/a-clownfishs-last-stand/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "clownfish-population-decline-as-coral-reef-faces-reclamation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "intel-stock-declines-as-ai-leaders-urge-development-slowdown-analysts-debate-pullback-strategy",
-    "title": "Intel stock declines as AI leaders urge development slowdown; analysts debate pullback strategy",
-    "summary": "Intel shares fell following calls from AI leaders for slower development, with some analysts suggesting the decline presents a buying opportunity.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Intel",
-      "stock decline",
-      "AI slowdown",
-      "semiconductor"
-    ],
-    "url": "news/markets/2026-09-14/#intel-stock-declines-as-ai-leaders-urge-development-slowdown-analysts-debate-pullback-strategy",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOHRpemZIQXB5TGY4Y0VyV0RaOVdkejJJNVVURDJrUGd2bGFsUjZVeS01NURWbzhIWk1EcGlsckFsOHU5Uks5TUVvV3gxcnV6MVJvdkEyLVo5MFM1UVdxUTBfVXJPZEh2M092Vnl6bzhqeXZtMUdvUnBoaWpReG1iQ1NvMjYwSEl1aDBiMy04c3o0SmdpTUI4V3dDS0NjR1VQc0hXbU56dndBZDN4TE93MVNnNk5OM0Y3RDhLYno3dlR3Si12NTBHeU03blFpN2tlb3BzaEJJbw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "intel-stock-declines-as-ai-leaders-urge-development-slowdown-analysts-debate-pullback-strategy",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "bofa-projects-minimal-sp-500-gains-over-next-year",
-    "title": "BofA projects minimal S&P 500 gains over next year",
-    "summary": "Bank of America forecasts only 2% upside for the S&P 500 over the next 12 months.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "S&P 500",
-      "Bank of America",
-      "forecast",
-      "market outlook"
-    ],
-    "url": "news/markets/2026-09-14/#bofa-projects-minimal-sp-500-gains-over-next-year",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOGg1WmxjVXRYSkdoTnRuY2V3YjZic1pYb1JCT21BaUxRWVJJOUFBLWwwM3dtLU1BTVVDS2JCVlRtZ29aRWR3SWw4Sl9aNThQRHlORURhTUIyWkRybHgtWDFBYjBqZm94MHRCR2llQWFhR0NkTWh4b3Y1RUh6eXpQbnk1LTRvLWFSekxYU1oyUHRqQkk3Uy1DRWtUZHpiZlprLUdDUk5ud0xwTWZTOWx4NXB5Z0kwdF9YQ2lB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "bofa-projects-minimal-sp-500-gains-over-next-year",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "bank-of-america-ai-too-important-to-slow-too-fast-to-regulate",
-    "title": "Bank of America: AI too important to slow, too fast to regulate",
-    "summary": "Bank of America argues AI development is too critical to constrain but advances faster than regulators can manage.",
-    "theme": "Policy",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "AI",
-      "regulation",
-      "Bank of America"
-    ],
-    "url": "news/markets/2026-09-14/#bank-of-america-ai-too-important-to-slow-too-fast-to-regulate",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOGZiTUlGdmZCbG1BT05xbGVxYmxOSUJsWlJVZTVTQ1lFakFhMlU3YklnblJCMXlOdlhhUkVBdS1wVEF5TnROMHJnZkJ0ZkRZam4xMVJmclptSlQ0TnkxZVVheXF1UUcyZkd3Umg4OGNFeFhWbnhCS3pIZmRMd3Y0S1M0NWtyX0FPdldxY1RxY3VQTlZkdFR2bHI2bEZ0bUd0dWVROUNR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "bank-of-america-ai-too-important-to-slow-too-fast-to-regulate",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "climate-forecast-improvements-alone-insufficient-to-protect-africas-poorest-livestock-farmers-from-el-nino",
-    "title": "Climate forecast improvements alone insufficient to protect Africa's poorest livestock farmers from El Niño",
-    "summary": "Research from the University of Sydney and Imperial College London finds that enhanced weather forecasting will not adequately protect low-income African livestock farmers from the impacts of the approaching El Niño event without additional support.",
-    "theme": "Environment",
-    "importance": 6.0,
-    "topics": [
-      "science"
+      "space"
     ],
     "feeds": [
       "science"
     ],
     "primary_feed": "science",
     "keywords": [
-      "El Niño",
-      "Africa",
-      "climate forecasting",
-      "agriculture",
-      "livestock farming"
+      "NASA",
+      "space exploration",
+      "agriculture research",
+      "health research"
     ],
-    "url": "news/science/2026-09-14/#climate-forecast-improvements-alone-insufficient-to-protect-africas-poorest-livestock-farmers-from-el-nino",
+    "url": "news/space/2026-09-14/#nasa-solicits-proposals-for-new-crops-and-health-research-to-advance-space-exploration",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-climate-wont-africa-poorest-farmers.html",
+        "label": "NASA Science (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRTUzVHJ2WVRIaE5fQzNrbEo5TmFLTEZtbjc4RVJwZ0lPYlM5LWtaSWd3MzNSRVdFSS0zQTYzczFIbk9JT3VZdHJZRDg4Zks2alhSSnI4bkZGNUhfblJzVUg4clJ0NnkyTFJlUkJIX2hwRHFEcnZwUnQ3NkhqX1JBc043eWtYRGtiQjQyam51dDMxLXg1QnhUU0tsdEJFTlBBMWFZSHhiNnRHbE1aY0JkZEN1bDM4d1JIM1NtQmZTc3BUU3ZpWW1ZRXg0dzdOZ2xkZk1Ha2pBWQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "climate-forecast-improvements-alone-insufficient-to-protect-africas-poorest-livestock-farmers-from-el-nino",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "nasa-solicits-proposals-for-new-crops-and-health-research-to-advance-space-exploration",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1159,113 +779,75 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "jwst-exomoon-search-constraints-clarified",
-    "title": "JWST Exomoon Search Constraints Clarified",
-    "summary": "The James Webb Space Telescope has ruled out finding certain tiny moons around exoplanets, narrowing the search parameters.",
-    "theme": "Space Science",
-    "importance": 6,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "JWST",
-      "exomoons",
-      "exoplanets",
-      "astronomy",
-      "space telescopes"
-    ],
-    "url": "news/science/2026-09-14/#jwst-exomoon-search-constraints-clarified",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-jwst-tiny-moons-exoplanet-great.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "jwst-exomoon-search-constraints-clarified",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "microsoft-september-2026-updates-break-usb-audio-on-some-windows-pcs",
-    "title": "Microsoft September 2026 updates break USB audio on some Windows PCs",
-    "summary": "Microsoft-issued KB5124008 and KB5124012 security updates disable USB audio devices on affected Windows systems.",
-    "theme": "Security",
-    "importance": 6,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "Windows",
-      "KB5124008",
-      "KB5124012",
-      "USB audio"
-    ],
-    "url": "news/security/2026-09-14/#microsoft-september-2026-updates-break-usb-audio-on-some-windows-pcs",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "microsoft-september-2026-updates-break-usb-audio-on-some-windows-pcs",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "local-governments-cancel-flock-ai-license-plate-reader-contracts-amid-privacy-concerns",
-    "title": "Local governments cancel Flock AI license plate reader contracts amid privacy concerns",
-    "summary": "Municipalities across the United States are ending contracts with Flock Analytics over its AI-enabled license plate readers, though the cameras may remain operational after contract termination.",
-    "theme": "Policy",
+    "event_id": "openai-paid-contractors-to-read-chatgpt-conversations-raising-privacy-concerns",
+    "title": "OpenAI paid contractors to read ChatGPT conversations, raising privacy concerns",
+    "summary": "OpenAI hired contractors to review ChatGPT conversations, prompting privacy and security considerations for users.",
+    "theme": "Privacy",
     "importance": 6.0,
     "topics": [
-      "tech"
+      "gpt"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Flock",
-      "license plate reader",
-      "AI surveillance",
+      "OpenAI",
+      "ChatGPT",
       "privacy",
-      "local government"
+      "data handling",
+      "contractors"
     ],
-    "url": "news/tech/2026-09-14/#local-governments-cancel-flock-ai-license-plate-reader-contracts-amid-privacy-concerns",
+    "url": "news/gpt/2026-09-14/#openai-paid-contractors-to-read-chatgpt-conversations-raising-privacy-concerns",
     "sources": [
       {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/policy/994414/cities-ditching-flock-cameras-controversy",
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZUxGUy1UNTJLYkFNYnF4TE4yNURacFpHWWJhVVh6OXhaOGNPT0MzME40R2hVSFZXbk9MNG9QNG9vM3ZsUFNJXzUxa3g2LUN2RnBfTThRSU9uZkZVZnhtZ0tYZ2ZRMUt6a3VhYmhzb2dZX1BiT2FlRDFCSTY5T1VYNUVqcTQzQ0lJNFF5UHhmbVo0MFRxUWxIdEln?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "local-governments-cancel-flock-ai-license-plate-reader-contracts-amid-privacy-concerns",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "openai-paid-contractors-to-read-chatgpt-conversations-raising-privacy-concerns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "european-earth-observation-satellites-flex-and-copernicus-3c-launching-from-south-america",
+    "title": "European Earth-observation satellites FLEX and Copernicus-3C launching from South America",
+    "summary": "Europe's FLEX and Copernicus-3C Earth-observing satellites are scheduled to launch on a Vega C rocket from French Guiana.",
+    "theme": "Space",
+    "importance": 6,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "FLEX",
+      "Copernicus-3C",
+      "Vega C",
+      "satellite",
+      "Earth observation"
+    ],
+    "url": "news/space/2026-09-14/#european-earth-observation-satellites-flex-and-copernicus-3c-launching-from-south-america",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/vega-rocket-launch-europe-flex-sentinel-3c-earth-observation-satellites",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "european-earth-observation-satellites-flex-and-copernicus-3c-launching-from-south-america",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1819,7 +1401,7 @@
     "date": "2026-09-14",
     "event_id": "business-email-compromise-attacks-escalate-through-ai-powered-personalization",
     "title": "Business Email Compromise attacks escalate through AI-powered personalization",
-    "summary": "Cybercriminals are increasingly using artificial intelligence to personalize business email compromise attacks, raising the sophistication of phishing campaigns.",
+    "summary": "Cybercriminals are leveraging AI to craft highly targeted business email compromise campaigns, dramatically increasing their sophistication and success rates.",
     "theme": "Security",
     "importance": 6.5,
     "topics": [
@@ -1830,11 +1412,14 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI",
+      "AI-powered attacks",
       "BEC",
       "business email compromise",
-      "AI",
-      "phishing",
-      "cyberattacks"
+      "cyberattacks",
+      "cybercrime",
+      "email security",
+      "phishing"
     ],
     "url": "news/email-security/2026-09-14/#business-email-compromise-attacks-escalate-through-ai-powered-personalization",
     "sources": [
@@ -1846,7 +1431,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
     "lineage_id": "business-email-compromise-attacks-escalate-through-ai-powered-personalization",
     "related_title": "",
     "related_url": "",
@@ -1892,6 +1477,190 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "revolut-data-breach-exposes-financial-information-and-passport-documents",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "passkey-themed-phishing-campaign-targets-and-compromises-microsoft-cloud-accounts",
+    "title": "Passkey-themed phishing campaign targets and compromises Microsoft cloud accounts",
+    "summary": "A phishing campaign exploiting passkey concepts successfully compromised Microsoft Cloud accounts.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "Microsoft",
+      "passkeys",
+      "cloud security"
+    ],
+    "url": "news/email-security/2026-09-14/#passkey-themed-phishing-campaign-targets-and-compromises-microsoft-cloud-accounts",
+    "sources": [
+      {
+        "label": "LinkedIn",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMHIteHVJY3dEeDdvN1ViOS1xTU1GZFN5ZUh1V3VWOEt4dmplYl9CNnJoaTJ4Snlnb20zNUNmQkVFWjBCSDBYRXpqWHQtYzZDXzZHMFRnYndPQTNHd1RjVndTNUVBcFhfZ2VBdlFtWGJfUEFUcVVfbWhYcTFBbXlKLWU5cG9TSE56LUJZRnJUQ0s?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Active since May 2026",
+      "Attacks begin with phone/message impersonation of IT helpdesk",
+      "Identity compromise enables cloud reconnaissance and data exfiltration",
+      "SharePoint, OneDrive, email collection via REST APIs",
+      "Proxy-associated infrastructure used for automated collection"
+    ],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "passkey-themed-social-engineering-enables-identity-and-cloud-compromise-attacks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Microsoft cloud accounts hijacked through passkey phishing and email fraud",
+    "updates_url": "news/email-security/2026-09-13/#microsoft-cloud-accounts-hijacked-through-passkey-phishing-and-email-fraud"
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "anthropic-launches-claude-tool-targeting-financial-advisors",
+    "title": "Anthropic launches Claude tool targeting financial advisors",
+    "summary": "Anthropic released a new Claude-based tool designed for financial advisors that integrates with platforms from BlackRock and Charles Schwab.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic",
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI tool",
+      "Anthropic",
+      "BlackRock",
+      "Charles Schwab",
+      "Claude",
+      "financial advisory",
+      "financial services"
+    ],
+    "url": "news/gpt/2026-09-14/#anthropic-launches-claude-tool-targeting-financial-advisors",
+    "sources": [
+      {
+        "label": "Finextra Research",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLTh1UTBqbFA0d1IxcTVZOVV6ZG40RnJtR1oxS1lKVFZESVQyQlBsM1B3SldacW51NVJPRF9lWk83UGRzYnhwOFRkbjRKVWZYVFJWSnpYSFhTb0xCQU1MTW42T05Kek95REwyUmNfNHlRSTF0Z0xycFk4amFwZWFSaVY1MWd0d3FMUHhUUUZoYkpiOVl3MXc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Investing.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQXRiRzhod29scmVYZU5kOWpUSVZBUjV0Y29FLURQUWxzQ0dtX2N4VzY3VnFLM2pqazFBZU5TdTVFYmxPU01kLXJYWWJNUGRQMEJfQkdtQ0hjVEp5aGhRZkFyc3JGSzNsREtxTl9yTjMyanZsM2dTS09rSG5aN3phNnNldHNiUEdVSWNzWFFoeHFEc2wxVWVfZnNwVUJnM3RUZ2x2R1lyUjlmVUhTV0FWdTc1eHQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOako0N2w1bExjVVA0azZSLUI0QXdveUdDUWFnM0RKeVJVTEN4TlFlX0t5UHR6Z1FROWp2LVJUSjY4anRUakt0OTBUWkdFdjNKLTFDNmhPZ0RVY3BZSEZzLVFFUjZVdmtLSHk1bVZQRm1ObVJ6SGVSWGpJbXBBdS1EQ3lSMk4xNzNfVTJQT2NYaW1aUkV5c1plNDJNRXk2S3ZPMzA5Yw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZUM1QmNCRXl4cWd6SVhBX29wYXZ6YlE5UTFJUFRRRmhXOUluQnc1THZLdnFXdDdkVDVlXzh4MHhtbjU5aHhFV2tNemFGMHpOTS13M096SVZEYmU2clFUYzlkaGZjbnpCNnVzTzdiMUl2bExkLXZ1Mml2cU9iS0tLdWVpd2RRT01oWks0T0Q0VXVKbF80dkd5dmhfRjA4dWxWVmtPOXFTRmdwb0JEYWpPakxhNXJqUFVJWHVUMEhRa3h5MnM5REd6bWpVaw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvRVk1RUtrNVl1Mmxzc2cyZWotb3lxYkpQY0V1N1RENGF2anFBT3hDYnJMNnhEWmJxUWdYV0RNYTZSR29ZRmZpdHpXM25ndmpOcG1xVTM3RFAzUlBYdk5MeGpSZ1FGa3I0NmFv?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Stocktwits",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQclBMbGhsTGJYbWRiWkRmNVRMN20zM2x1dXpOeXY0TDBVVEU5bWwzNllxOU1EZlFiRjZESmx5S2xMNzhVeHgyajVrSXNPUmtDS0ppSFdINlVlWW54R2VmT09FNFhiYXRTZUozeGxUQkN5ekVkendVZW9GUnM2ZklDUmZhaWtVUjNyclc1Y09GeldPcGxjNkJ3c3otSFFPd1V0OXB4amVWN0dVeF9DNWp3ZHY0cWNwc2ZpMkoxNlQ4X1ZJRzVXUGxydGs5ZjlsQUlTYmRsR0hyS2pLM0hucVVEdlVTbHV5aFZHaE5TLVFHdExCXzZsWEdQYVFuenlSZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "anthropic-launches-claude-tool-targeting-financial-advisors",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "project-lily-humans-reading-chatgpt-conversations",
+    "title": "Project Lily: humans reading ChatGPT conversations",
+    "summary": "Investigation reveals OpenAI's Project Lily, which involves human reviewers reading ChatGPT user conversations.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "data privacy",
+      "human review",
+      "OpenAI"
+    ],
+    "url": "news/gpt/2026-09-14/#project-lily-humans-reading-chatgpt-conversations",
+    "sources": [
+      {
+        "label": "404media.co",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQendQQ3lBWmhDdnVFMWx1a0VaU25RdXdJTW5LNEg0RnVzR25GOEkzNmFSVnpPZU1RUW9LWlhLN2tqNE9ObW5zUU1fUXl0UjRhcjk3QkZ3NkU4MGlvamhhb1FRenFHYUd4N1J3RGRuXzhFazdDTmF6SHhxZVMwTVlVeWlpb3JaaW1QekE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "project-lily-humans-reading-chatgpt-conversations",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "californias-adams-law-on-chatbots-reflects-openais-shift-on-state-ai-regulation",
+    "title": "California's Adam's Law on chatbots reflects OpenAI's shift on state AI regulation",
+    "summary": "California's new Adam's Law governing chatbots reveals OpenAI's changing approach to state-level artificial intelligence regulation.",
+    "theme": "Policy",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "California",
+      "Adam's Law",
+      "OpenAI",
+      "AI regulation",
+      "chatbots"
+    ],
+    "url": "news/gpt/2026-09-14/#californias-adams-law-on-chatbots-reflects-openais-shift-on-state-ai-regulation",
+    "sources": [
+      {
+        "label": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRF9kZkdLS0tPcjYtNEh0Y2ZJTmVBTDBnSU9qT2VBQllWZ3FLTnAwcU9IYXViNU5tM3B3UVB2M1I3aTcwZDBPSmhXMXdkejFzV0lFRmNWbzgyWXFpY2ZRTnJva0FrSWJmajQ5Um9xYkIzbWhxMm9VUVJIWTgtYWYyV0doR05VcVFtYUItUG1DaFQ2aFNORkoxLVcwUV91SHBnblBlaVNXc3B1WWRHVEtWWU03T1dFQXphbzVZM3p3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "californias-adams-law-on-chatbots-reflects-openais-shift-on-state-ai-regulation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2266,6 +2035,231 @@
   },
   {
     "date": "2026-09-14",
+    "event_id": "rotifers-rebuild-broken-chromosomes-across-generations",
+    "title": "Rotifers rebuild broken chromosomes across generations",
+    "summary": "Bdelloid rotifers demonstrate exceptional DNA repair mechanisms that rebuild damaged chromosomes over successive generations despite high radiation exposure.",
+    "theme": "Science",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "rotifers",
+      "DNA repair",
+      "chromosomes",
+      "radiation tolerance"
+    ],
+    "url": "news/science/2026-09-14/#rotifers-rebuild-broken-chromosomes-across-generations",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-tolerant-rotifers-rebuild-broken-chromosomes.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "rotifers-rebuild-broken-chromosomes-across-generations",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "antibody-cocktails-could-trap-viruses-in-evolutionary-dead-ends",
+    "title": "Antibody cocktails could trap viruses in evolutionary dead ends",
+    "summary": "Harvard researchers found that antibody cocktails may be able to prevent viral mutations by steering viruses toward evolutionary dead ends.",
+    "theme": "Science",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "antibodies",
+      "viral mutation",
+      "evolution",
+      "vaccine"
+    ],
+    "url": "news/science/2026-09-14/#antibody-cocktails-could-trap-viruses-in-evolutionary-dead-ends",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-antibody-cocktails-viruses-evolutionary-dead.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "antibody-cocktails-could-trap-viruses-in-evolutionary-dead-ends",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "active-black-holes-promote-star-formation-in-nearby-galaxies",
+    "title": "Active black holes promote star formation in nearby galaxies",
+    "summary": "A study of nine nearby galaxies shows that actively growing supermassive black holes may contribute to rather than prevent star formation.",
+    "theme": "Science",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "black holes",
+      "star formation",
+      "galaxies",
+      "astrophysics"
+    ],
+    "url": "news/science/2026-09-14/#active-black-holes-promote-star-formation-in-nearby-galaxies",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-black-holes-reveal-star-nearby.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "active-black-holes-promote-star-formation-in-nearby-galaxies",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "excess-rainfall-threatens-cocoa-crops-in-west-africa-amid-climate-shifts",
+    "title": "Excess rainfall threatens cocoa crops in West Africa amid climate shifts",
+    "summary": "Cocoa farmers in West Africa face crop damage from intense precipitation, though anticipatory adaptation measures may help protect both livelihoods and production.",
+    "theme": "Environment",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "cocoa",
+      "West Africa",
+      "climate change",
+      "rainfall",
+      "agriculture"
+    ],
+    "url": "news/science/2026-09-14/#excess-rainfall-threatens-cocoa-crops-in-west-africa-amid-climate-shifts",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-chocolate-climate-threat.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "excess-rainfall-threatens-cocoa-crops-in-west-africa-amid-climate-shifts",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "cancer-linked-protein-brd4-binds-to-chromosome-in-unexpected-structural-configuration",
+    "title": "Cancer-linked protein BRD4 binds to chromosome in unexpected structural configuration",
+    "summary": "A new 3D structure reveals how the cancer-associated protein BRD4 binds to chromosomes in an unexpected manner, potentially informing future therapeutic approaches.",
+    "theme": "Science",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "BRD4",
+      "cancer",
+      "protein structure",
+      "chromosomes",
+      "DNA"
+    ],
+    "url": "news/science/2026-09-14/#cancer-linked-protein-brd4-binds-to-chromosome-in-unexpected-structural-configuration",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-cancer-linked-protein-chromosome-unexpected.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "cancer-linked-protein-brd4-binds-to-chromosome-in-unexpected-structural-configuration",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "rivers-carrying-more-microplastics-to-oceans-than-previously-estimated",
+    "title": "Rivers carrying more microplastics to oceans than previously estimated",
+    "summary": "New research indicates that rivers may be transporting significantly more microplastics into the world's oceans than previously thought.",
+    "theme": "Environment",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "microplastics",
+      "rivers",
+      "oceans",
+      "pollution",
+      "environment"
+    ],
+    "url": "news/science/2026-09-14/#rivers-carrying-more-microplastics-to-oceans-than-previously-estimated",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-rivers-microplastics-world-oceans-previously.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "rivers-carrying-more-microplastics-to-oceans-than-previously-estimated",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
     "event_id": "cisos-grapple-with-securing-ai-agents",
     "title": "CISOs grapple with securing AI agents",
     "summary": "Security leaders face challenges modernizing cyber hygiene while preventing over-privileged AI agents from causing unintended harm.",
@@ -2303,186 +2297,35 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "telus-warns-customers-of-account-breaches",
-    "title": "Telus warns customers of account breaches",
-    "summary": "Canadian telecommunications company Telus alerts customers that stolen credentials enabled months-long unauthorized access to personal data and billing records.",
-    "theme": "Security",
+    "event_id": "interstellar-comet-3iatlas-likely-formed-in-stars-dark-region-beyond-its-light-reach",
+    "title": "Interstellar comet 3I/ATLAS likely formed in star's dark region beyond its light reach",
+    "summary": "Analysis of the interstellar comet 3I/ATLAS suggests it formed in a region of its parent star system where stellar radiation could not reach, offering insights into exoplanetary formation.",
+    "theme": "Space",
     "importance": 6.5,
     "topics": [
-      "security"
+      "space"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "Telus",
-      "data breach",
-      "credentials",
-      "personal data"
+      "3I/ATLAS",
+      "interstellar comet",
+      "exoplanet formation"
     ],
-    "url": "news/security/2026-09-14/#telus-warns-customers-of-account-breaches",
+    "url": "news/space/2026-09-14/#interstellar-comet-3iatlas-likely-formed-in-stars-dark-region-beyond-its-light-reach",
     "sources": [
       {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/telus-warns-customers-of-account-breaches/",
+        "label": "Space.com",
+        "url": "https://www.space.com/astronomy/comets/interstellar-comet-3i-atlas-likely-formed-where-its-stars-light-couldnt-touch-it",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "telus-warns-customers-of-account-breaches",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "microsoft-september-security-updates-cause-rds-failures-on-windows-server",
-    "title": "Microsoft September security updates cause RDS failures on Windows Server",
-    "summary": "Microsoft confirms that September 2026 security patches are causing Remote Desktop Services failures on Windows Server systems.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "RDS",
-      "Windows Server",
-      "security update"
-    ],
-    "url": "news/security/2026-09-14/#microsoft-september-security-updates-cause-rds-failures-on-windows-server",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "september-windows-server-security-updates-break-remote-desktop-services",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "September Windows Server security updates break Remote Desktop Services",
-    "updates_url": "news/security/2026-09-10/#september-windows-server-security-updates-break-remote-desktop-services"
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "malicious-twitch-browser-extension-leaks-oauth-tokens-from-31000-users",
-    "title": "Malicious Twitch browser extension leaks OAuth tokens from 31,000 users",
-    "summary": "A fraudulent Twitch browser extension called \"Twitch Enhanced Viewer | JeetBot\" has leaked OAuth tokens belonging to nearly 31,000 users to a Russian bot service.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Twitch",
-      "OAuth tokens",
-      "malicious extension",
-      "credential theft"
-    ],
-    "url": "news/security/2026-09-14/#malicious-twitch-browser-extension-leaks-oauth-tokens-from-31000-users",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "malicious-twitch-browser-extension-leaks-oauth-tokens-from-31000-users",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "uk-government-replaces-passwords-with-passkeys-for-23-million-citizens",
-    "title": "UK government replaces passwords with passkeys for 23 million citizens",
-    "summary": "The UK government is phasing out password-based authentication in favor of passkey technology across its citizen services, potentially saving £600 daily in SMS costs.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "UK",
-      "passkeys",
-      "authentication",
-      "passwords",
-      "digital security"
-    ],
-    "url": "news/tech/2026-09-14/#uk-government-replaces-passwords-with-passkeys-for-23-million-citizens",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/security/2026/09/14/ukgov-begins-killing-off-passwords-for-23-million-users/5296088",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "uk-government-replaces-passwords-with-passkeys-for-23-million-citizens",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "big-ai-companies-propose-self-regulation-framework-pace-the-frontier",
-    "title": "Big AI Companies Propose Self-Regulation Framework: 'Pace the Frontier'",
-    "summary": "Major AI leaders including executives from leading tech firms propose regulatory framework termed 'Pace the Frontier' for AI governance.",
-    "theme": "Policy",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI regulation",
-      "governance",
-      "policy",
-      "tech industry",
-      "self-regulation"
-    ],
-    "url": "news/tech/2026-09-14/#big-ai-companies-propose-self-regulation-framework-pace-the-frontier",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "big-ai-companies-propose-self-regulation-framework-pace-the-frontier",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "interstellar-comet-3iatlas-likely-formed-in-stars-dark-region-beyond-its-light-reach",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2601,160 +2444,6 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "anthropic-report-iran-linked-actors-used-claude-ai-for-weapons-and-surveillance",
-    "title": "Anthropic report: Iran-linked actors used Claude AI for weapons and surveillance",
-    "summary": "Anthropic has disclosed that Iran-linked threat actors used Claude to target Jewish communities and develop weapons.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "Iran",
-      "threat actors",
-      "weapons development"
-    ],
-    "url": "news/anthropic/2026-09-14/#anthropic-report-iran-linked-actors-used-claude-ai-for-weapons-and-surveillance",
-    "sources": [
-      {
-        "label": "Jewish Insider",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORjlVeUlQTkZHZnZnZG1XVl8tTGlUY3M3eE5xdTduWDRiNE1fMERvSVhtRzdzakVLblZOaUV1Q05ydzIwMmllQU1xWWdidG95ZHh6akJvZEpMOGlDYW41aG9XMk1teENVMHJWMUx3dkRIb3Y4SDhpTWRITUFiUVR3T240ODdfVXFpRkllOGdMRnd0V0E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "anthropic-report-iran-linked-actors-used-claude-ai-for-weapons-and-surveillance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "anthropic-accuses-chinese-ai-labs-of-training-on-claude-models",
-    "title": "Anthropic Accuses Chinese AI Labs of Training on Claude Models",
-    "summary": "Anthropic alleges that Chinese AI labs including Alibaba and DeepSeek have trained models on Claude, raising intellectual property concerns.",
-    "theme": "AI",
-    "importance": 7.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "Alibaba",
-      "DeepSeek",
-      "model training",
-      "IP",
-      "China"
-    ],
-    "url": "news/anthropic/2026-09-14/#anthropic-accuses-chinese-ai-labs-of-training-on-claude-models",
-    "sources": [
-      {
-        "label": "Yahoo Tech",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcWFDRFF6dmRzVVJXcXVIMWpFbFRadGlscHhOYVQ1akxNRVZZeFZ5c2ItTDRjbmYzbUkxVTlLUTRWRVFFV0FhdWNyN0o4VVlaaHhkSHZmc1VYQUxfVnd6NFdzV2N4RjlIY2FQdGFyVmhRbUN3c251QzNDdDBpcGVobU5lWVBuZ3NFMDZmNGlxSDhqSUlKbHc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "chinese-laboratories-cloning-claude-capabilities-at-industrial-scale-anthropic-reports",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Chinese laboratories cloning Claude capabilities at industrial scale, Anthropic reports",
-    "updates_url": "news/anthropic/2026-09-11/#chinese-laboratories-cloning-claude-capabilities-at-industrial-scale-anthropic-reports"
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "four-claude-tests-breached-isolation-reached-real-systems",
-    "title": "Four Claude Tests Breached Isolation, Reached Real Systems",
-    "summary": "Four tests of Claude models bypassed isolation boundaries and executed on real systems, raising security concerns.",
-    "theme": "Security",
-    "importance": 7.0,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "security",
-      "isolation",
-      "safety"
-    ],
-    "url": "news/anthropic/2026-09-14/#four-claude-tests-breached-isolation-reached-real-systems",
-    "sources": [
-      {
-        "label": "quasa.io",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMERrZjZyaFNyOWFNREFibVZIQm1EYjZUV0MxOTdEWmpXNFBwNGJ4dnF5YXE1bVBLUVZsd0RiV25xWUd4M1BFdU5jdklGZjRjYTJWZUZHM25TTTE5NTlra1VMTjBReDZpenJnUHNiZFlHdmlreXIxS3h3VlJOUFdXRm5Td2NjQkMtbVJ2LTh6QTc5NnhqR1V6YVlYTQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "four-claude-tests-breached-isolation-reached-real-systems",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "anthropic-report-autocratic-regimes-deploy-ai-for-propaganda-and-surveillance",
-    "title": "Anthropic Report: Autocratic Regimes Deploy AI for Propaganda and Surveillance",
-    "summary": "Anthropic has documented how authoritarian governments are using AI systems for propaganda distribution and mass surveillance.",
-    "theme": "AI Policy",
-    "importance": 7,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "AI surveillance",
-      "propaganda",
-      "authoritarianism",
-      "AI misuse"
-    ],
-    "url": "news/anthropic/2026-09-14/#anthropic-report-autocratic-regimes-deploy-ai-for-propaganda-and-surveillance",
-    "sources": [
-      {
-        "label": "The Globe and Mail",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQeG9TaEIwNV8wZVBJZVlaRF9iNTZFOFFPcWtDRkptdWlSRXhNelhjTjlnUTlVTG4yTFlkaHRScjZ4bVJ1Y3FKY2MtbGM5NGgzWGFUb3pWaW1JTGxkeEcxSHVEMEdIekgxaERkNDFSTVZ5bVZjaXE4bjU5REM0dkxCelNnZnNsVW5oYWl0QUdYeDB0eWxUYTZDUElwelVhR1hCUkdtQnU2LXpuYTNEN3ptTGdXVQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "anthropic-report-autocratic-regimes-deploy-ai-for-propaganda-and-surveillance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
     "event_id": "jet-fuel-pipeline-spill-contaminates-drinking-water-for-200-pennsylvania-residents",
     "title": "Jet fuel pipeline spill contaminates drinking water for 200+ Pennsylvania residents",
     "summary": "A jet fuel pipeline rupture has contaminated the primary drinking water source for over 200 residents in Pennsylvania amid environmental policy rollbacks.",
@@ -2787,6 +2476,91 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "jet-fuel-pipeline-spill-contaminates-drinking-water-for-200-pennsylvania-residents",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "energy-transfer-identified-as-top-us-methane-emitter-via-satellite-analysis",
+    "title": "Energy Transfer identified as top U.S. methane emitter via satellite analysis",
+    "summary": "Energy Transfer's Louisiana gas processing facility near Shreveport is the largest single methane emitter in the United States, emitting at 1.56 tonnes per hour—15 times the EPA's super-emitter threshold. The company operates four of the 15 largest methane sites and is responsible for 75 methane plumes, while the president of the United States' administration has halted the EPA's super-emitter enforcement program.",
+    "theme": "Environment",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Energy Transfer",
+      "methane emissions",
+      "satellite monitoring",
+      "climate"
+    ],
+    "url": "news/climate-change/2026-09-14/#energy-transfer-identified-as-top-us-methane-emitter-via-satellite-analysis",
+    "sources": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/sep/14/us-companies-methane-pollution-rankings",
+        "origin": "research"
+      },
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/environment/2026/sep/14/us-companies-methane-pollution-rankings",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Energy Transfer's Shreveport facility: 1.56 tonnes methane per hour",
+      "Emission rate 15× EPA's super-emitter threshold",
+      "Energy Transfer linked to 4 of 15 largest U.S. methane-emitting sites",
+      "75 methane plumes attributed to company over study period (Jan 2025–Jun 2026)",
+      "Administration halted EPA super-emitter enforcement program"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "energy-transfer-identified-as-top-us-methane-emitter-via-satellite-analysis",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "openais-top-priority-for-ai-agents-is-automating-ai-research",
+    "title": "OpenAI's top priority for AI agents is automating AI research",
+    "summary": "OpenAI stated that its primary focus for AI agents is automating the process of AI research itself, according to researcher Noam Brown.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI agents",
+      "AI research automation"
+    ],
+    "url": "news/gpt/2026-09-14/#openais-top-priority-for-ai-agents-is-automating-ai-research",
+    "sources": [
+      {
+        "label": "The Information",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRGJlSmxNYkE0M292SnJrQUgyV1VlMFNaZmdYQ1NWRHVxMXd2dU1kVHctSmJpa3dOdjVTRGtRSHQ1QkVfU3VkVERkQm9zN1hhVDFPRGdWWXBXLUxkWWhQbElZdjhOUmRoWG9oaDA0UWR3WV9QeGx5OGtULVMxM19NOTR4OHVYbkNFbEVQOVpXUTlJTkZjQ0ZGMjRTWkZaNTJkN2R2MFY1Vk9ucldOTWc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "openais-top-priority-for-ai-agents-is-automating-ai-research",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2832,6 +2606,48 @@
   },
   {
     "date": "2026-09-14",
+    "event_id": "10-year-treasury-yield-breaches-5-threshold",
+    "title": "10-year Treasury yield breaches 5% threshold",
+    "summary": "The 10-year Treasury yield hit 5%, a significant psychological and economic milestone with implications for stock valuations.",
+    "theme": "Markets",
+    "importance": 7,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Treasury yield",
+      "5%",
+      "bond market",
+      "stock impact"
+    ],
+    "url": "news/markets/2026-09-14/#10-year-treasury-yield-breaches-5-threshold",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcEpvMjJ4WjFibHVPSjVBQnI1MVZFZ1JHRkZRY3JyNlhIU0NmMTM1UC1xTENXVzBXbzkyV29LMFRLQTFneGZsS2U4eU5PLU5LVHRzLWZXV2U1S0pUT1Fua1V2R3hPZmZ0MlRLLW90UGNBRzc4T0lUeUF4ay1lMnpGWHVJZjJYdmZQSDRYcEpNMUI3cE16TFNjTUY0T09tRVRxRzcyWldOQjlvVUFGYUkwQXg5cVM2SlBsS2pXOENhNGU5Y0d3cWFSdFZHbFcwd080em5NQXY0R3h6S1pYMWVFM3E5WQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVV9JLVBrOWFXbjEwdlUwTmYxRzEzMW14LVktTW44NTFvMEhWclFJN3o5LTFrdVliaUZmR1lJM0h0UEtZeFB4X3BUNXVNUS1rWXQ4YnFnZUFxR3JQZl82RnlYNzZOMFJ1MzZJRXd2V2JFSkRrXzd6YlBXdGY3VlBmTmtVbzRzWGpVTHpWZzA3bjBSLVd6S2c?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "10-year-treasury-yield-breaches-5-threshold",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
     "event_id": "indonesias-biomass-boom-for-japan-drives-deforestation-and-threatens-biodiversity",
     "title": "Indonesia's biomass boom for Japan drives deforestation and threatens biodiversity",
     "summary": "A surge in Indonesian wood pellet and chip production for Japanese biomass energy is accelerating deforestation and threatening tropical forests and Indigenous lands.",
@@ -2863,6 +2679,157 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "indonesias-biomass-boom-for-japan-drives-deforestation-and-threatens-biodiversity",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "3d-seismic-map-reveals-earthquake-risk-zones-in-los-angeles-basin",
+    "title": "3D seismic map reveals earthquake risk zones in Los Angeles basin",
+    "summary": "A detailed 3D map of the Los Angeles basin shows how subsurface sediments could amplify earthquake shaking.",
+    "theme": "Science",
+    "importance": 7.0,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Los Angeles",
+      "earthquake risk",
+      "3D mapping",
+      "seismic hazard",
+      "sediment amplification"
+    ],
+    "url": "news/science/2026-09-14/#3d-seismic-map-reveals-earthquake-risk-zones-in-los-angeles-basin",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/planet-earth/earthquakes/we-now-have-an-incredibly-detailed-map-to-help-predict-which-areas-of-la-are-the-most-at-risk-from-the-big-one",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "3d-seismic-map-reveals-earthquake-risk-zones-in-los-angeles-basin",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "researchers-reveal-complex-carbon-chemistry-formation-in-cold-space-clouds",
+    "title": "Researchers reveal complex carbon chemistry formation in cold space clouds",
+    "summary": "Scientists have demonstrated how complex carbon molecules can assemble in the frigid clouds where stars and planets form, potentially delivering life's building blocks to young worlds.",
+    "theme": "Space",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "carbon chemistry",
+      "interstellar",
+      "space clouds",
+      "abiogenesis",
+      "molecules"
+    ],
+    "url": "news/science/2026-09-14/#researchers-reveal-complex-carbon-chemistry-formation-in-cold-space-clouds",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-series-reactions-reveals-complex-carbon.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "researchers-reveal-complex-carbon-chemistry-formation-in-cold-space-clouds",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "microsoft-releases-emergency-windows-updates-for-rds-failures",
+    "title": "Microsoft releases emergency Windows updates for RDS failures",
+    "summary": "Microsoft issued out-of-band security updates to fix Remote Desktop Services failures, Hyper-V, and USB audio issues.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "Windows",
+      "Remote Desktop Services",
+      "emergency patch"
+    ],
+    "url": "news/security/2026-09-14/#microsoft-releases-emergency-windows-updates-for-rds-failures",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "microsoft-releases-emergency-windows-updates-for-rds-failures",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "hackers-hijack-hbo-max-reddit-account-to-distribute-clickfix-malware",
+    "title": "Hackers hijack HBO Max Reddit account to distribute ClickFix malware",
+    "summary": "Attackers compromised HBO Max's official Reddit account and used it to push malicious advertisements that deployed ClickFix malware to Windows and macOS systems.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "HBO Max",
+      "Reddit",
+      "malware",
+      "ClickFix",
+      "credential compromise"
+    ],
+    "url": "news/security/2026-09-14/#hackers-hijack-hbo-max-reddit-account-to-distribute-clickfix-malware",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "hackers-hijack-hbo-max-reddit-account-to-distribute-clickfix-malware",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2905,6 +2872,81 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "2026-records-warmest-summer-on-record-in-the-us",
+    "title": "2026 records warmest summer on record in the U.S.",
+    "summary": "The United States experienced record-breaking high temperatures and extreme precipitation during summer 2026.",
+    "theme": "Environment",
+    "importance": 7.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "climate",
+      "temperature records",
+      "heat wave",
+      "weather extremes"
+    ],
+    "url": "news/space/2026-09-14/#2026-records-warmest-summer-on-record-in-the-us",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/science/climate-change/the-warmest-summer-on-record-2026-hit-a-scorching-new-high-in-the-us",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "2026-records-warmest-summer-on-record-in-the-us",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "china-aims-to-return-mars-samples-by-2031-while-nasas-mission-remains-uncertain",
+    "title": "China aims to return Mars samples by 2031 while NASA's mission remains uncertain",
+    "summary": "China announced plans to collect and return Mars samples by 2031, while NASA's Mars sample return mission faces continued delays and budget constraints.",
+    "theme": "Space",
+    "importance": 7.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "China",
+      "Mars",
+      "sample return",
+      "space exploration",
+      "NASA"
+    ],
+    "url": "news/space/2026-09-14/#china-aims-to-return-mars-samples-by-2031-while-nasas-mission-remains-uncertain",
+    "sources": [
+      {
+        "label": "Notebookcheck",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUkRLZEY1UURaNGtUT2xmUUcyM3c5RmNyN3N3RW5RSGtpMUVKVWxValZQQTE4cnNoMnVFM19sdjV0X3JuY0xDYUh4ajc3T2Z2dWZhYzUxMER2SFA4bG0zZWhLem9QTGFPTDU2SUtnU0RmMWpVUnFXSEVxdkw4OWpTSzk3eW1iMTV2UU5iLTBGRV9FSUVmUW9iTHpTQ21OSkZVenB2emRnM2pFa0RmVzMxdG8zTHNaMXk2eVNLRTRfeG9aUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "china-targets-2031-mars-sample-return-mission-ahead-of-nasa",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "China Plans Mars Sample Return Mission Ahead of NASA, Targeting 2031",
+    "updates_url": "news/space/2026-09-13/#china-plans-mars-sample-return-mission-ahead-of-nasa-targeting-2031"
   },
   {
     "date": "2026-09-14",
@@ -3058,37 +3100,62 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "oil-prices-surge-to-four-month-high-as-iran-oman-strait-of-hormuz-negotiations-postponed",
-    "title": "Oil prices surge to four-month high as Iran-Oman Strait of Hormuz negotiations postponed",
-    "summary": "Oil prices jumped to their highest level in four months following the postponement of talks between Iran and Oman regarding shipping through the Strait of Hormuz, amid continued Houthi attacks on Saudi Arabia.",
-    "theme": "Geopolitics",
+    "event_id": "apple-releases-macos-27-golden-gate-with-ai-siri",
+    "title": "Apple releases macOS 27 Golden Gate with AI Siri",
+    "summary": "Apple released macOS 27 Golden Gate on September 14 for Apple Silicon Macs, featuring a new Siri AI assistant that searches personal context like photos and emails and takes app actions. The update includes Liquid Glass improvements with opacity adjustment, consistent window corner radii refinements, and is incompatible with Intel Macs, which received their final major update last year.",
+    "theme": "Hardware",
     "importance": 7.0,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "oil prices",
-      "Iran",
-      "Strait of Hormuz",
-      "Middle East",
-      "Houthis"
+      "AI assistant",
+      "Apple",
+      "Apple Silicon",
+      "Rosetta",
+      "Siri",
+      "Siri AI",
+      "iOS 27",
+      "macOS 27",
+      "macOS Golden Gate"
     ],
-    "url": "news/world/2026-09-14/#oil-prices-surge-to-four-month-high-as-iran-oman-strait-of-hormuz-negotiations-postponed",
+    "url": "news/tech/2026-09-14/#apple-releases-macos-27-golden-gate-with-ai-siri",
     "sources": [
       {
-        "label": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/994818/apple-macos-27-golden-gate-available-now",
+        "origin": "research"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/",
+        "origin": "rss"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/apple/2026/09/apple-releases-ios-27-macos-golden-gate-27-with-siri-ai-and-liquid-glass-refinements/",
+        "origin": "rss"
+      },
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/top-new-features-in-apple-ios-27-and-ipados-27-launching-september-14/",
         "origin": "rss"
       }
     ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "oil-prices-surge-to-four-month-high-as-iran-oman-strait-of-hormuz-negotiations-postponed",
+    "takeaways": [
+      "macOS 27 Golden Gate released September 14, 2026 for Apple Silicon only",
+      "Siri AI beta launched in English",
+      "Siri AI can search photos, emails and control apps like Messages, Reminders",
+      "Intel Macs not supported; received final update with macOS Tahoe last year",
+      "Liquid Glass improvements with new opacity slider"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "apple-releases-macos-27-golden-gate-with-ai-siri",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3096,36 +3163,42 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "president-of-the-united-states-calls-on-ukraine-to-halt-fuel-strikes-on-russia",
-    "title": "President of the United States calls on Ukraine to halt fuel strikes on Russia",
-    "summary": "The president of the United States urges Ukraine to stop attacking Russian diesel fuel supplies, citing global shortages.",
-    "theme": "Geopolitics",
+    "event_id": "openai-acquires-glass-imaging-for-300-million",
+    "title": "OpenAI acquires Glass Imaging for $300 million",
+    "summary": "OpenAI acquired Glass Imaging, a smartphone camera technology company founded by former Apple engineers who developed Portrait Mode, for over $300 million. Glass Imaging uses AI and neural networks to optimize image quality at capture rather than post-processing; the acquisition supports OpenAI's reported development of smartphones, earbuds, and AI companion devices.",
+    "theme": "AI",
     "importance": 7,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Ukraine",
-      "Russia",
-      "diesel fuel",
-      "military strategy"
+      "OpenAI",
+      "Glass Imaging",
+      "acquisition",
+      "camera technology"
     ],
-    "url": "news/world/2026-09-14/#president-of-the-united-states-calls-on-ukraine-to-halt-fuel-strikes-on-russia",
+    "url": "news/tech/2026-09-14/#openai-acquires-glass-imaging-for-300-million",
     "sources": [
       {
-        "label": "AP News",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLS1ZV0kyb2w5c2szWC15SGgxZGVsMXM4dDNiVkdTdmRPcV9kQ001dnpkODMya0xkTWQtLWhoYzZsdlFUVFV5SnJaVGpUbUNaaW4xNEN0VTVGdDlRempoRzhMYV9PcGo0UWhjUkhlZnJMRHVVVzB6WDBybXVMY1dfM181b3JYXzZIclJpU0xHbjRPdVpmUUJpbHFvdTYwdHFOWUVVYmp2M3hsN1hhcGJSbGRSV1Vqak0?oc=5",
-        "origin": "rss"
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+        "origin": "research"
       }
     ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "president-of-the-united-states-calls-on-ukraine-to-halt-fuel-strikes-on-russia",
+    "takeaways": [
+      "OpenAI acquired Glass Imaging for over $300 million",
+      "Glass Imaging founded 2019 by Ziv Attar and Tom Bishop (former Apple Portrait Mode leads)",
+      "Company previously raised ~$30 million in funding",
+      "Optimizes smartphone image capture via AI and neural networks",
+      "OpenAI developing smartphones, earbuds, AI companion devices"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "openai-acquires-glass-imaging-for-300-million",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3133,73 +3206,36 @@
   },
   {
     "date": "2026-09-14",
-    "event_id": "russian-drone-strikes-train-near-ukraine-poland-border-after-dignitaries-depart",
-    "title": "Russian drone strikes train near Ukraine-Poland border after dignitaries depart",
-    "summary": "A Russian drone attacked a train near the Ukraine-Poland border shortly after diplomatic officials, including Boris Johnson, departed the station.",
-    "theme": "Geopolitics",
-    "importance": 7,
+    "event_id": "ai-industry-leaders-advocate-for-slower-development-and-greater-safety-focus",
+    "title": "AI industry leaders advocate for slower development and greater safety focus",
+    "summary": "Leading AI companies and researchers are publicly calling for a more cautious approach to AI development, prioritizing safety considerations.",
+    "theme": "AI",
+    "importance": 7.0,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Russia",
-      "Ukraine",
-      "drone attack",
-      "Poland border"
+      "AI safety",
+      "frontier models",
+      "responsible development",
+      "industry governance"
     ],
-    "url": "news/world/2026-09-14/#russian-drone-strikes-train-near-ukraine-poland-border-after-dignitaries-depart",
+    "url": "news/tech/2026-09-14/#ai-industry-leaders-advocate-for-slower-development-and-greater-safety-focus",
     "sources": [
       {
-        "label": "NPR",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1NSHp1SnFvZVg2SktUeEotcTFReFVvaGo3cTRVbUZTc1ByS3VNN0RmTm02ZU1SYmdFTUdxbTljOEdqZTl3UklXY193RHFoX3dLYmFpd0N3dWc3dlEzU3BuR2l0MU1RMmIxM0pvTGQ0MWFZM3VoU2dYVTR6VHk?oc=5",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/09/ai-leaders-want-to-hit-the-brakes-after-years-of-reckless-speed/",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "russian-drone-strikes-train-near-ukraine-poland-border-after-dignitaries-depart",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-14",
-    "event_id": "chinese-defence-forum-opens-amid-regional-tensions",
-    "title": "Chinese Defence Forum Opens Amid Regional Tensions",
-    "summary": "China's defence forum is set to open with senior military and diplomatic officials amid heightened regional tensions.",
-    "theme": "Geopolitics",
-    "importance": 7,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "China",
-      "defence forum",
-      "regional tensions",
-      "military diplomacy"
-    ],
-    "url": "news/world/2026-09-14/#chinese-defence-forum-opens-amid-regional-tensions",
-    "sources": [
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMkRrLU5EQmZRYWFISWI0ZzFsZkkyel9ITDZrbmNlZEZVS2ZKeHJ3RUNyZVRETDZzdjEzWFhuNmtZdjB3OTVQMmZWQmJzWV9kMTRPd0FkQ1lqMEVvOWFDMUlUUmlEUlVacW00MnhBVXhQcTRNbEZTMWNiNkx0SjFYSW8zVmw4X0FnUkhiN0hZZjJOZjZmQ2xpSWJvS19RQVpFczUwNjlyVFdCLXRhVmc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-14T11:04:49.098295+00:00",
-    "lineage_id": "chinese-defence-forum-opens-amid-regional-tensions",
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "ai-industry-leaders-advocate-for-slower-development-and-greater-safety-focus",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3397,6 +3433,159 @@
   },
   {
     "date": "2026-09-14",
+    "event_id": "anthropic-reports-iranian-operatives-using-ai-to-target-jews-and-israelis",
+    "title": "Anthropic reports Iranian operatives using AI to target Jews and Israelis",
+    "summary": "Anthropic disclosed that Iranian operatives have deployed AI systems for coordinated harassment and targeting campaigns against Jewish and Israeli individuals.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Iran",
+      "AI abuse",
+      "targeting",
+      "information operations"
+    ],
+    "url": "news/anthropic/2026-09-14/#anthropic-reports-iranian-operatives-using-ai-to-target-jews-and-israelis",
+    "sources": [
+      {
+        "label": "Algemeiner.com",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM05HV1JPR0g0MXBtUy1sbkt4SVZIU2ctYkFuTnFGNTRFcVNibkpoN29YcWhfUVYwWmI2UllrTnBHNWNVVklGWm15ZEI4OWxhMlVsX1Uwdy1uejkxbFE3WnFUY043SzBsTmRESm1Vbm93emdvS0NQY1R5Umx1aHFYSDlpaDA1UDM5MVVhMWo0RGZPME91Y0o3S3VoaFpjWVJMdF9DQlN1RzBmVTU3ZWc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "anthropic-reports-iranian-operatives-using-ai-to-target-jews-and-israelis",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "anthropic-reports-chinese-ai-labs-secretly-accessed-190-million-claude-exchanges",
+    "title": "Anthropic reports Chinese AI labs secretly accessed 190 million Claude exchanges",
+    "summary": "Anthropic disclosed that Chinese AI laboratories secretly used approximately 190 million Claude API exchanges without authorization.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "China",
+      "unauthorized access",
+      "AI"
+    ],
+    "url": "news/anthropic/2026-09-14/#anthropic-reports-chinese-ai-labs-secretly-accessed-190-million-claude-exchanges",
+    "sources": [
+      {
+        "label": "Memeburn",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVjhKYjlQSjFGLXVnX1hCYkllMUR0VGpUZVM3OUJLOTd3RDVScl9uM2FCY2RQT0VPb1ZCT1VKZ3BZa0U1QUcyWURBM3V5bkkzeG5fdVk1WnFqVGZSLWxhMXA4ZkwtM0hWV201SU41V1JSY2JLaEQ1TEotYkVrVkJ0Mi1TenBpSHpjM3dSVFpDbF9iQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "chinese-laboratories-cloning-claude-capabilities-at-industrial-scale-anthropic-reports",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic Accuses Chinese AI Labs of Training on Claude Models",
+    "updates_url": "news/anthropic/2026-09-14/#anthropic-accuses-chinese-ai-labs-of-training-on-claude-models"
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "anthropic-files-for-ipo-after-claude-success",
+    "title": "Anthropic files for IPO after Claude success",
+    "summary": "Anthropic has filed for an initial public offering, signaling plans to become a public company as its Claude AI assistant gains traction.",
+    "theme": "Funding",
+    "importance": 7.5,
+    "topics": [
+      "anthropic",
+      "markets"
+    ],
+    "feeds": [
+      "technology",
+      "world"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "IPO",
+      "Claude",
+      "public offering"
+    ],
+    "url": "news/anthropic/2026-09-14/#anthropic-files-for-ipo-after-claude-success",
+    "sources": [
+      {
+        "label": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRm0ta2NxQkVaMEJJMjJvbjZfbkJCbVhkc2hySWN3Ty1ORHZqTnBwR3Mwb1FtMkgzNFZjSDdZTWliSU44aFlVZ2ZJb3RIXzlfd0pqUEdXaGVuc1BIdDczM0VTMUtXWDNIVDZadmg3aUl1UjNILXU1WTF4cTZrTDVXYVA1S2ZFUHhjZ0R6cWpUT1JPbFRKNXZGb3p6Njh2dlZ1Q3FwcnZtbFNGcmc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "anthropic-files-for-ipo-after-claude-success",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "seven-chinese-ai-labs-conduct-industrial-scale-model-distillation-attacks-against-claude",
+    "title": "Seven Chinese AI labs conduct industrial-scale model distillation attacks against Claude",
+    "summary": "Seven China-based AI laboratories have launched coordinated attempts to extract and replicate Anthropic's Claude model through advanced distillation techniques.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "model distillation",
+      "China",
+      "AI security"
+    ],
+    "url": "news/anthropic/2026-09-14/#seven-chinese-ai-labs-conduct-industrial-scale-model-distillation-attacks-against-claude",
+    "sources": [
+      {
+        "label": "Rescana",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMVQxMmtLYVdZYS1zcHRTcGNPMVRXWlZtV0p1YzFUYlBvOFhDenpqWmJiVHNHYklKU2QyRGN2SE1DWnI4Nmc2dnVoSnVTSFY5VVN1bzdzVnZ5X3NkX1Y3di1RSGVZakNhRW1lQ0NNaE5rMnJFUW5iY3dfSTdZTWUxaGxtLTB0UlZramlLbkYySmlzeUlfVUhacE5ndHo0STVFbHY0ckdsNkl2QmsxYk82RWh2UlVieENsMDBFQWNMQUFaajdkUFRDR2xIN2kwQlJzbzJUODZ2aVhtRzkxc0ZwYU1EUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "seven-chinese-ai-labs-conduct-industrial-scale-model-distillation-attacks-against-claude",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
     "event_id": "sam-altman-postpones-openai-ipo-citing-ai-safety-risks",
     "title": "Sam Altman postpones OpenAI IPO citing AI safety risks",
     "summary": "OpenAI CEO Sam Altman has delayed the company's planned initial public offering due to concerns about artificial intelligence safety and regulation.",
@@ -3428,6 +3617,111 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "sam-altman-postpones-openai-ipo-citing-ai-safety-risks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "abbott-settles-for-385-million-over-closure-of-largest-us-baby-formula-plant",
+    "title": "Abbott settles for $385 million over closure of largest U.S. baby formula plant",
+    "summary": "Abbott Laboratories agreed to a $385 million settlement resolving claims tied to contamination investigations at its Sturgis, Michigan baby formula plant, the largest in the U.S., which closed in February 2022 and triggered nationwide supply shortages. Abbott states the settlement involves no admission of fault; government tests of unopened product were negative for Cronobacter sakazakii, and the Justice Department has closed its criminal investigation.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Abbott",
+      "baby formula",
+      "settlement",
+      "manufacturing closure"
+    ],
+    "url": "news/health/2026-09-14/#abbott-settles-for-385-million-over-closure-of-largest-us-baby-formula-plant",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/09/14/abbott-settlement-closure-baby-formula-plant-shortages/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "$385 million Abbott settlement over Sturgis facility closure",
+      "Sturgis plant: largest U.S. baby formula facility",
+      "Facility closed February 2022, triggering recalls and supply shortages",
+      "Government tests of unopened product negative for Cronobacter sakazakii",
+      "Criminal investigation closed by Justice Department"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "abbott-settles-for-385-million-over-closure-of-largest-us-baby-formula-plant",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "tech-stocks-tumble-after-ai-executives-call-for-industry-slowdown",
+    "title": "Tech stocks tumble after AI executives call for industry slowdown",
+    "summary": "Technology stocks declined significantly following public calls by AI leaders for the industry to moderate its growth pace.",
+    "theme": "Markets",
+    "importance": 7.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "tech stocks",
+      "AI slowdown",
+      "market decline",
+      "AI safety"
+    ],
+    "url": "news/markets/2026-09-14/#tech-stocks-tumble-after-ai-executives-call-for-industry-slowdown",
+    "sources": [
+      {
+        "label": "cbsnews.com",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vMXhlN0FJVUxYbGhtQnVIV3pPeUV5ajZvY2hBX2Exc3pRU0ticS1JajBETkZ3anl3SUdtOW82elo3SFdwem5NOHlQRUQ1Vk5mY3E4bDJaTjBIZVZJbzJXMng0M2lmYU9VTlpZ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "NBC News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOR3I2OGpIV3NsWFp2UTNwaXJzSzBTUXdmZlRPdnZpUkxrN1B5b0dUbkVRYm1OTkZ3WWt4ZW5ZWFlQVmNULTJBMlJlUnhwWnFuNm1xY3JuUHZHSUs4UWN2WHFXTl9NNjVvdzNGTnFRa2llM3hkM1lpUGRvSnhVVnpvNlRRUFJYdXRnX3dvNW9fRjBXNEJQOXhzeUlKbnJnU3NYcF9iOE1RMUVSd1hTSTdidEx3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQTgwc1ZDUmgtSE5MVld4WTdlWkFrWGhIbW5jRzFEY255a0U1VlhhRWF5MFhQdThhcUc1a3ZwUXc4RENjTVA2QzVYanFXdzlSNUQ2emRTc1h0ZEJWVmdxeWFuRi1VQS1ic3luaDZ4SkRHVTVXU0t1dGdUUXJ0S2FEOUZ4R1NZZGs5b1hhN2NPRU42NktFM3hMZEYzTWRsODBGMDd0RzhwUDl6TUppOWc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4teEhEV3lFNEY0RGNiYTR1LWZ2TFlya2dVeGZaS2JkSEhtWnBpQmRIU2FzT2YyY1V0TnNGMXZwYXlQZzlyWDRMY2Q0QVBnVUgybW5mRzEyazNjZl84WEFSai1nTnFtUGJDV2dhNWV2NS0?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "thestreet.com",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWktJaG1PRUM0SzhzdkRFQ3ZjNWMtTkNwSzl0a1B5MXZuczNKVVRQcmVGeHlmUUNHakR0T1NUdURvTUJZeWVnbmZyVkxKM3J2NURTbEJqN0RvMVcyYVhyWXI1ZmFTU0tvZFFWcjVoVFNvem1ZZ3NmSUxTMjBndC1pOHNGc2JmTUVvSEJmdFFtY3Fidjc5SmRGWWU4NnVSdDV0QVotc21lSnBIX0Y0?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Kiplinger",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN0syWWJYUjZyeWszZFd6bFNFZ1Q2dlJQVHdkV0FHdEJJeXYtUkduci1ZTU9nWHJZMkY1MXlqdjBwbGRFemJ0czhJVlZtQ3JnaVZmTU1tWlB6NzRpblJVNmlaMklrTV83UjBRYWZETnBlRDRuQVZwMGNxdFpUUU1NV3hLYTBrX0E1Vlp0LTB4QlFtcHNES2pKUzU4b2VXWmNaekozMVVXa2d4bE5jZE9GdXdn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "tech-stocks-tumble-after-ai-executives-call-for-industry-slowdown",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3516,6 +3810,51 @@
   },
   {
     "date": "2026-09-14",
+    "event_id": "malicious-twitch-browser-extension-leaks-oauth-tokens-from-31000-users",
+    "title": "Malicious Twitch browser extension leaks OAuth tokens from 31,000 users",
+    "summary": "The Twitch Enhanced Viewer | JeetBot extension, installed by 30,000 users and available in Chrome and Firefox, leaked users' Twitch OAuth session tokens to a commercial service.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OAuth",
+      "OAuth tokens",
+      "Twitch",
+      "browser extension",
+      "credential theft",
+      "malicious extension",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-09-14/#malicious-twitch-browser-extension-leaks-oauth-tokens-from-31000-users",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "malicious-twitch-browser-extension-leaks-oauth-tokens-from-31000-users",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
     "event_id": "cisa-warns-of-active-gitlab-maximum-severity-vulnerability-exploitation",
     "title": "CISA warns of active GitLab maximum-severity vulnerability exploitation",
     "summary": "The U.S. Cybersecurity and Infrastructure Security Agency reports that hackers are exploiting a maximum-severity GitLab vulnerability in live attacks.",
@@ -3554,6 +3893,52 @@
   },
   {
     "date": "2026-09-14",
+    "event_id": "chinese-threat-actor-red-heron-exploits-gitea-rce-vulnerability-across-six-countries",
+    "title": "Chinese threat actor Red Heron exploits Gitea RCE vulnerability across six countries",
+    "summary": "Red Heron, a suspected Chinese threat actor, exploited CVE-2026-60004, a critical Gitea RCE vulnerability, to compromise 13 organizations across Canada, Argentina, Taiwan, U.S., Qatar, and Sri Lanka. The group weaponized public exploit code into an automated framework within days of the July 2026 disclosure, progressing from source-code theft to persistent root-level access, deploying a C++ Linux implant and an LD_PRELOAD rootkit across defense, election, energy, aerospace, and government sectors.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Red Heron",
+      "Gitea",
+      "RCE",
+      "vulnerability",
+      "threat actor",
+      "China"
+    ],
+    "url": "news/security/2026-09-14/#chinese-threat-actor-red-heron-exploits-gitea-rce-vulnerability-across-six-countries",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "CVE-2026-60004 Gitea RCE exploited by Red Heron",
+      "13 organizations compromised across 6 countries (Taiwan 4, U.S. 4, Canada 2, others 3)",
+      "1,386 Gitea instances scanned; 477 Taiwan-based systems tracked",
+      "Automated Python exploit framework deployed by July 29, 2026",
+      "JITTERLY C++ implant and SIXZUT LD_PRELOAD rootkit deployed",
+      "Victims in defense, election, energy, aerospace, telecommunications, government sectors"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "chinese-threat-actor-red-heron-exploits-gitea-rce-vulnerability-across-six-countries",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
     "event_id": "oempocalypse-unprivileged-android-app-achieves-root-on-samsung-xiaomi-devices",
     "title": "OEMpocalypse: Unprivileged Android App Achieves Root on Samsung, Xiaomi Devices",
     "summary": "Security researchers discover vulnerability allowing unprivileged Android apps to achieve root access on Samsung, Xiaomi, and other OEM devices.",
@@ -3585,6 +3970,61 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "oempocalypse-unprivileged-android-app-achieves-root-on-samsung-xiaomi-devices",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "apple-releases-ios-27-with-siri-ai-overhaul",
+    "title": "Apple releases iOS 27 with Siri AI overhaul",
+    "summary": "Apple released iOS 27 on September 14 with a redesigned AI-powered Siri assistant available as English-language beta, adding support for French, Japanese, Korean, Portuguese, and Spanish in October. iOS 27 also features a Liquid Glass opacity slider, new app icon designs, extra-large widgets, and separate volume controls across iPhone, iPad, Apple Watch, and Vision Pro.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "iOS 27",
+      "Siri AI",
+      "Apple",
+      "watchOS 27",
+      "iPadOS 27",
+      "visionOS 27"
+    ],
+    "url": "news/tech/2026-09-14/#apple-releases-ios-27-with-siri-ai-overhaul",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/news/994756/apple-ios-27-launch-iphone-siri-ai-update",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2257834/siri-ai-is-here-as-apple-releases-ios-27-macos-golden-gate-and-other-major-os-updates/",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "iOS 27 released September 14, 2026",
+      "Siri AI beta launched in English; French, Japanese, Korean, Portuguese, Spanish in October",
+      "Liquid Glass opacity slider for UI transparency control",
+      "New icon designs and extra-large widgets",
+      "Separate volume controls for ringtones, alarms, timers, alerts, system sounds"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "apple-releases-ios-27-with-siri-ai-overhaul",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3705,6 +4145,136 @@
   },
   {
     "date": "2026-09-14",
+    "event_id": "the-president-of-the-united-states-urges-ukraine-to-halt-attacks-on-russian-energy-infrastructure",
+    "title": "The president of the United States urges Ukraine to halt attacks on Russian energy infrastructure",
+    "summary": "The president of the United States has called on Ukraine to stop attacking Russian oil refineries and diesel facilities.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "energy",
+      "oil refineries",
+      "U.S. policy"
+    ],
+    "url": "news/world/2026-09-14/#the-president-of-the-united-states-urges-ukraine-to-halt-attacks-on-russian-energy-infrastructure",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObzJXZU5PdWNpTDFWWmF0NDlsT2FtNkRHRWZoM0xDNVlhSmlwSkZDSzRpSXJ1VVZHcTBXX0YzRGNydHh2QmI3RUhOQ1gxaU1admVYT29YUmptRnU2ckdDLUpyY0ZNX3VYTHFBYzRPcHdVdWg4VUhyUVpyMlpFdzIwOXhndkhFZy1ZWkNxRk5pZEljblFtV3czVmctR3AyRkRGUHhfSFMwczdqRVFHNGJsSNIBtgFBVV95cUxNQjRQYUloRmR1Q2htUm9zNDNTY2VYeENzb1hDSUFCWjRYSDMzblVZTzNQVG5PYnUtU185a3Z1WUY3eXpXTTJ1a0JUNVJnX0lFNU1aX3V0c1lCNk5URTFzcDlzRmFYY29QUDRZOGZTdE1VSTFFWmhQeDlfRXc4U3VfbWZHZlZPdlhKMWZrMVZNV0RJNk9fUkRHUWRCbmE5Q245dWtzVmZoX2g4NHdSeVpKX0Q3WHJaQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "the-president-of-the-united-states-urges-ukraine-to-halt-attacks-on-russian-energy-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "yemens-houthis-seize-strategic-red-sea-islands-intensifying-regional-conflict",
+    "title": "Yemen's Houthis seize strategic Red Sea islands, intensifying regional conflict",
+    "summary": "Iran-backed Houthis have seized two strategic islands in the Red Sea while conducting attacks on Saudi forces, expanding their regional foothold.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Houthis",
+      "Yemen",
+      "Red Sea",
+      "Saudi Arabia",
+      "Iran"
+    ],
+    "url": "news/world/2026-09-14/#yemens-houthis-seize-strategic-red-sea-islands-intensifying-regional-conflict",
+    "sources": [
+      {
+        "label": "DW.com",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNakxzRnUyZzZ5dkJiNFlseXNIdFo3SnlPekp5RkJKUmdTWFNzYkxQLWJyNzFuOGlmWEgzc2lmNXM4a3JWb2J1ckRvUEgxbXlfcnFkcV9oLXY0bXNYQnRKeVlXNEZkckY0NkNFRDVKM0ZUeHZkUERFUFA0UVBxak1maGNSRWJrSFNESnVGaWgxWVREQmZVbWfSAZYBQVVfeXFMT0xiX1h4ZFZnZjBGQ3JtOXpJalNYeGhJTGVORTdGY2RqUlZmcmtDVkZGdVM2anhGQ1JTMTBPYTZOdHZKdFpjTnZjYW9LT1dtUm03Zklkc29mS09fdFZEQS1WeFdBZ2Qxd0tQWWo3eUc2QkZYc3RWWmw1d2xramtETjE1NGVJcGJpNGNodFgzVmV6Z1BFcGV3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "yemens-houthis-seize-strategic-red-sea-islands-intensifying-regional-conflict",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "iran-used-anthropics-claude-ai-for-military-and-cyber-operations-report-finds",
+    "title": "Iran Used Anthropic's Claude AI for Military and Cyber Operations, Report Finds",
+    "summary": "Anthropic reported that Iranian actors used its Claude AI model to research biological weapons, target U.S. naval systems, and conduct cyber espionage.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "anthropic",
+      "world"
+    ],
+    "feeds": [
+      "technology",
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "AI misuse",
+      "Anthropic",
+      "Claude",
+      "Iran",
+      "biological weapons",
+      "cyber operations",
+      "national security",
+      "threat actors",
+      "weapons development"
+    ],
+    "url": "news/world/2026-09-14/#iran-used-anthropics-claude-ai-for-military-and-cyber-operations-report-finds",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sRTFFTlRvYjNlVGpBZkFweklUU1ZXcjMtbDBZc1lhbkI0ODFfZVdBQmlFeTZhbjBuWjFQVkd3SFI5Q3FZazhMazRfUTZtRmRCM2piRUgwcWZ1UG05YnF1WjFYLTJ3RFdHSUhqRFR3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Jewish Insider",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORjlVeUlQTkZHZnZnZG1XVl8tTGlUY3M3eE5xdTduWDRiNE1fMERvSVhtRzdzakVLblZOaUV1Q05ydzIwMmllQU1xWWdidG95ZHh6akJvZEpMOGlDYW41aG9XMk1teENVMHJWMUx3dkRIb3Y4SDhpTWRITUFiUVR3T240ODdfVXFpRkllOGdMRnd0V0E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Security Boulevard",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTmszQTNNV3R3UGxLMzRnUmd4WG9iNTYzUG1FWUhsMW50MTE3R0NLaVpmNVBkNGtXZEt1R1ZVM1o2cWdFU25BOFlPMUp2OXp4MWdEcmd6T1RmcXQ1OW5GRXRIZHMybENid0xmYV9DY0ZBbkdnRXk2RlZHVzJTTERmVEFCSTZhZUppQjhIMmlqN1RTOXRleHQ1NGZjWGtral9rdlNOaU9ubFU5bUU?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "anthropic-exposes-misuse-of-claude-for-surveillance-bioweapons-development-and-espionage",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic Report: Claude Exploited for Warfare, Espionage, and Repression",
+    "updates_url": "news/anthropic/2026-09-12/#anthropic-report-claude-exploited-for-warfare-espionage-and-repression"
+  },
+  {
+    "date": "2026-09-14",
     "event_id": "anthropic-reveals-claude-ai-misused-for-avian-influenza-bioweapon-research",
     "title": "Anthropic reveals Claude AI misused for avian influenza bioweapon research",
     "summary": "Anthropic has disclosed that Claude was used to develop a mammal-transmissible avian influenza variant for potential bioweapon purposes.",
@@ -3740,6 +4310,224 @@
     "related_url": "",
     "updates_title": "Anthropic exposes misuse of Claude for surveillance, bioweapons development, and espionage",
     "updates_url": "news/anthropic/2026-09-11/#anthropic-exposes-misuse-of-claude-for-surveillance-bioweapons-development-and-espionage"
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "trump-administration-prepares-to-dismantle-bidens-climate-agenda",
+    "title": "Trump administration prepares to dismantle Biden's climate agenda",
+    "summary": "The president of the United States is moving to eliminate Biden's 2024 carbon emissions rule for power plants through EPA repeal this week. The rule had required electric utilities to retire coal plants or install carbon capture technology; its elimination removes all federal regulations on electricity sector emissions. EPA Chief Lee Zeldin cited uncertain climate science and potential consumer savings, though experts note coal phase-out is the single largest lever for slowing global warming.",
+    "theme": "Policy",
+    "importance": 8,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate policy",
+      "Biden agenda",
+      "Trump administration"
+    ],
+    "url": "news/climate-change/2026-09-14/#trump-administration-prepares-to-dismantle-bidens-climate-agenda",
+    "sources": [
+      {
+        "label": "Grist",
+        "url": "https://grist.org/energy/trump-zeldin-epa-repeal-biden-carbon-power-plant-rule/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "EPA to repeal 2024 carbon emissions rule for power plants",
+      "Rule required utilities to retire coal plants by 2030s or install carbon capture",
+      "Repeal eliminates all federal electricity sector emissions regulations",
+      "Coal accounts for nearly half of cumulative global emissions since industrial era"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "trump-administration-prepares-to-dismantle-bidens-climate-agenda",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "epa-eliminates-greenhouse-gas-emissions-rule-for-power-plants",
+    "title": "EPA eliminates greenhouse gas emissions rule for power plants",
+    "summary": "The EPA has repealed rules limiting greenhouse gas emissions from coal and natural gas power plants, citing $300 billion in industry cost relief. The agency said the action lets utilities prioritize ratepayer interests rather than retiring aging plants, marking a shift from Democratic climate efforts and positioning the move as unleashing American energy.",
+    "theme": "Policy",
+    "importance": 8,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "EPA",
+      "emissions",
+      "power plants",
+      "climate",
+      "regulation"
+    ],
+    "url": "news/climate-change/2026-09-14/#epa-eliminates-greenhouse-gas-emissions-rule-for-power-plants",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/epa-eliminates-rule-that-limits-planet-warming-greenhouse-gas-emissions-from-power-plants/",
+        "origin": "research"
+      },
+      {
+        "label": "ABC News - Breaking News, Latest News and Videos",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMkFuTkdCLUw1SUhVbjFHbUc4N1dBNlRGb1lCZ2FzVm55ZTlWU3NMcWRhYmEtRFRNWlJ5enh3cWdsWWZxeGFENmMyMkRBaHpYX2J2OWpGa0lEbkJsSThFNXZ0UmV5LV9ydmpCcFR0RnlvQ3EyeFNJNS1MbVBvQjNRTVl0c2NHdlBGS2V4aVVUcklUSnl0SG04UHpLS2ZKVnRVVWfSAacBQVVfeXFMTXBVcFgxeWhaRnF1eEY1dzB1YjhhcHdDWmFPSl9FNGpEVUVoeWpwR2xvRE9odDZGOEFNOEh1RnVYQVNDbU9neGx6bUM2S01NY3Bqb2IxQmVqc0xJSjVucldpODNsamtyWm13Y3dQZDhvVGljZktuaFhIRXU1VWdFcWhQQ0IwYnprdklaMDZ0WnNKXzRyMHp0ckRGbHNLOVBqbTZjY3hOOTA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "EPA repealed greenhouse gas emissions rules for coal and natural gas plants",
+      "$300 billion in claimed cost relief for industry",
+      "Allows utilities to avoid retiring aging or inefficient plants",
+      "Reverses climate reduction efforts of prior administrations"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "epa-eliminates-greenhouse-gas-emissions-rule-for-power-plants",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "epa-moves-to-eliminate-emissions-limits-for-coal-and-gas-power-plants",
+    "title": "EPA Moves to Eliminate Emissions Limits for Coal and Gas Power Plants",
+    "summary": "The Environmental Protection Agency announced plans to remove climate pollution restrictions on power plant emissions.",
+    "theme": "Policy",
+    "importance": 8.0,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "EPA",
+      "emissions",
+      "power plants",
+      "climate policy",
+      "coal",
+      "natural gas"
+    ],
+    "url": "news/climate-change/2026-09-14/#epa-moves-to-eliminate-emissions-limits-for-coal-and-gas-power-plants",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOU5nbXRrakhxSVVxQm9YZm5xLTIzVTUzelJwa28xeUxldEtTQnc1cEZjNTJxMVh5NU5zeElNd1VtX0M3MTNfRmY0TTN6LS03T3VJcDJtREZMcURTMkFMYUJsZG02Z2x3RXN0S0gxdzZtWXBndEtQUTZvNVN1OFA2WEV1NA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "epa-moves-to-eliminate-emissions-limits-for-coal-and-gas-power-plants",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "ddrop-attack-compromises-intel-tdx-and-amd-sev-snp-confidential-computing",
+    "title": "DDRop attack compromises Intel TDX and AMD SEV-SNP confidential computing",
+    "summary": "Researchers from KU Leuven, ETH Zurich, Durham University, and Google disclosed DDRop, a hardware attack that breaks Intel TDX, Intel Scalable SGX, and AMD SEV-SNP confidential computing by silently dropping memory writes. An attacker needs server software control and brief physical access to insert a sub-$200 interposer board; on Intel TDX the attack achieves full protected VM control, marking the first active interposer attack on DDR5 and the first to break TDX integrity rather than just read data.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "DDRop",
+      "Intel TDX",
+      "AMD SEV-SNP",
+      "hardware attack",
+      "confidential computing"
+    ],
+    "url": "news/security/2026-09-14/#ddrop-attack-compromises-intel-tdx-and-amd-sev-snp-confidential-computing",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "DDRop breaks Intel TDX, Intel Scalable SGX, AMD SEV-SNP confidential computing",
+      "Interposer board costs under $200 to build",
+      "First active interposer attack on DDR5 memory in current cloud servers",
+      "Enables full control of protected VMs via encrypted page table manipulation",
+      "Research presenting at ACM CCS 2026 in November with open-source code"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "ddrop-attack-compromises-intel-tdx-and-amd-sev-snp-confidential-computing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "trump-administration-scraps-power-plant-emissions-rules",
+    "title": "Trump administration scraps power plant emissions rules",
+    "summary": "The EPA announced September 14 plans to eliminate federal greenhouse gas emissions standards for power plants as the president of the United States escalates efforts to promote fossil fuels and ease data center expansion. Environmental and consumer advocates warn deregulation will increase air pollution and asthma rates in children, raise family costs after storms, and deepen broader environmental and public health harms amid rising electricity demand from AI and manufacturing.",
+    "theme": "Policy",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "EPA",
+      "emissions",
+      "power plants",
+      "climate policy",
+      "greenhouse gas"
+    ],
+    "url": "news/tech/2026-09-14/#trump-administration-scraps-power-plant-emissions-rules",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/news/995051/epa-power-plant-climate-pollution-rollback-ai-data-centers",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "EPA announced plan to eliminate federal power plant emissions standards",
+      "September 14, 2026 announcement date",
+      "Shift supports fossil fuel promotion and data center energy expansion",
+      "Expected to increase childhood asthma and heat-related illness"
+    ],
+    "researched": true,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "trump-administration-scraps-power-plant-emissions-rules",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-14",
@@ -3926,6 +4714,44 @@
     "researched": false,
     "received_at": "2026-09-14T11:04:49.098295+00:00",
     "lineage_id": "microsoft-september-patch-breaks-record-with-972-vulnerabilities-112-critical",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-14",
+    "event_id": "far-right-afd-achieves-strongest-electoral-result-in-germany-since-the-nazi-era",
+    "title": "Far-right AfD achieves strongest electoral result in Germany since the Nazi era",
+    "summary": "Germany's far-right Alternative for Germany (AfD) party has achieved its best electoral performance since Nazi times, sparking massive counter-protests.",
+    "theme": "Politics",
+    "importance": 8.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "AfD",
+      "Germany",
+      "far-right",
+      "election",
+      "politics"
+    ],
+    "url": "news/world/2026-09-14/#far-right-afd-achieves-strongest-electoral-result-in-germany-since-the-nazi-era",
+    "sources": [
+      {
+        "label": "Defector",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSnhJaUlLXzlJUFZWNHNCWVZ6SFRRdTRNUFJnVzRRU0ZIWndYYTdnZ2pGMG5xTHZoNG9UeGVJT204dHpmaFp3bG9xUzd1SEZSSkVGZHRnVnEwbzVjRVhha1JRNFRsbDRnVlJGRlpiQkp3cGlPejBkbmJLcUk0bXN6d3BPRVVZbDllU1hUc3kwRjVuRFRHUWIydTRlaGNhOE00ckE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-14T21:06:20.756654+00:00",
+    "lineage_id": "far-right-afd-achieves-strongest-electoral-result-in-germany-since-the-nazi-era",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
