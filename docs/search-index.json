@@ -39,6 +39,42 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "embedded-python-programming-techniques-and-applications",
+    "title": "Embedded Python programming techniques and applications",
+    "summary": "Industry publication covers methods for integrating Python into embedded systems.",
+    "theme": "Technology",
+    "importance": 4.0,
+    "topics": [
+      "python"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Python",
+      "embedded systems",
+      "programming"
+    ],
+    "url": "news/python/2026-09-16/#embedded-python-programming-techniques-and-applications",
+    "sources": [
+      {
+        "label": "Electronic Design",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVkl2QzhNa1JTSlJTY3RrWVVpTXd0QnJTdnh3VlhpTDQtWmJoMXlmSkg5bU95M2dnQ2VFc1paYzRJTjhOZWRoSF9SVk1aMTNlR3Y1eU0wVF8zbjJKWkY4X2RiMEJQX2RyOUFDRHozSWtNQjUxZDZNajNiMGR5QUxMNUQtTzJHM3FHc1BVbEJVMl8xdVpmWGlhd2w4UG13WGIzNmRMMGc0Y2tmZkE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "embedded-python-programming-techniques-and-applications",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "cyber-aware-builds-phishing-simulations-using-acsc-scam-data",
     "title": "Cyber Aware Builds Phishing Simulations Using ACSC Scam Data",
     "summary": "Cyber Aware has developed phishing simulation training based on real scam data from the Australian Cyber Security Centre.",
@@ -70,116 +106,6 @@
     "researched": false,
     "received_at": "2026-09-16T10:23:09.076139+00:00",
     "lineage_id": "cyber-aware-builds-phishing-simulations-using-acsc-scam-data",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "llm-output-diversity-challenges-and-solutions-in-ai-systems",
-    "title": "LLM output diversity challenges and solutions in AI systems",
-    "summary": "An analysis examines challenges and potential solutions for achieving diverse outputs from large language models.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "LLM",
-      "diversity",
-      "output",
-      "language models"
-    ],
-    "url": "news/ai/2026-09-16/#llm-output-diversity-challenges-and-solutions-in-ai-systems",
-    "sources": [
-      {
-        "label": "The Cryptonomist",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE01eWQ0R1N2dS1vX0NwVF9KbWFVUkxiOXA2TWJIR3NQUzd3VmUwV0tZa0wzeU10Y0k0NDY4OG53dGRiblZPNFBZd2k1WEwya0FCWGpCWnkxYVlidUJJdkVmLVFibkxuVV91ZGNqblFURnMzR3ptZkEtWlp3?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
-    "lineage_id": "llm-output-diversity-challenges-and-solutions-in-ai-systems",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "linux-kernel-development-benefits-from-ai-tools-but-not-direct-code-generation",
-    "title": "Linux kernel development benefits from AI tools, but not direct code generation",
-    "summary": "Linux development is gaining advantages from AI technology applications other than automated code writing.",
-    "theme": "Developer Tools",
-    "importance": 5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Linux",
-      "AI tooling",
-      "kernel development"
-    ],
-    "url": "news/ai/2026-09-16/#linux-kernel-development-benefits-from-ai-tools-but-not-direct-code-generation",
-    "sources": [
-      {
-        "label": "XDA",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcHNuNjRGaGN5U2lnbTVXcHQ0aFloaUg0U1ZLWVJSWjlXWENMNTVHWnUtd2tkQjNrZkptM0FWQ1RYc3BCelFmWlhDSXpvUkJOV1QzQmNRVTJJd2ZQQjkzbHFON2ZhWGxiTWR5cHBySXJPd29DVGlRSHBTRVotbmFlZWNXZXpVTlBvN3p3ZWowNDd5X2FacHRVWnI4cXAxeVd6MDllTg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
-    "lineage_id": "linux-kernel-development-benefits-from-ai-tools-but-not-direct-code-generation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "superwise-launches-sentinel-enterprise-ai-gateway-for-llm-network-traffic-governance",
-    "title": "SUPERWISE launches Sentinel enterprise AI gateway for LLM network traffic governance",
-    "summary": "SUPERWISE has announced Sentinel, an enterprise AI gateway designed to govern large language model traffic at the network edge.",
-    "theme": "AI",
-    "importance": 5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "SUPERWISE",
-      "Sentinel",
-      "LLM governance",
-      "edge computing"
-    ],
-    "url": "news/ai/2026-09-16/#superwise-launches-sentinel-enterprise-ai-gateway-for-llm-network-traffic-governance",
-    "sources": [
-      {
-        "label": "PR Newswire",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQU25lTWZjUk9PQ0pVYVMyQjJvTC1vWEJ5Q0psbm53TGhwdWpqRFZQY3V5aTVDX0FzWnZuVHl6UkY2VkMyNE9xVVF6RE1yVEpCelhsQnNzdGppYlFpdmtodExncHZyWExMTzhYTG5WcUdrRXoxUE5VcGpCSXp6S3hPMVV3RXdKQ041eDM4dmtiMGJlTzZUNTNDVnpYYmRkMUZjbENwYVVESW1RLTJoeTh1WjZnakxJb0FvSm9VYWd6US0wN2hxNFZvYzd3WjNUVF96S0psbWp6Z21oOVUyNjdNVW9TNVY?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
-    "lineage_id": "superwise-launches-sentinel-enterprise-ai-gateway-for-llm-network-traffic-governance",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -263,165 +189,6 @@
   },
   {
     "date": "2026-09-16",
-    "event_id": "stock-market-at-rare-historical-warning-buffett-advises-single-strategic-move",
-    "title": "Stock Market at Rare Historical Warning; Buffett Advises Single Strategic Move",
-    "summary": "Warren Buffett comments on a historically rare warning signal from the stock market and recommends a specific investor action.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "stock market",
-      "Warren Buffett",
-      "valuation",
-      "investor strategy"
-    ],
-    "url": "news/markets/2026-09-16/#stock-market-at-rare-historical-warning-buffett-advises-single-strategic-move",
-    "sources": [
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWFFUQTJSUG5yTm9nQmhmVnNwQlpTTnlDN2xWYWx1Z3gtdDRrUGJHcFdMMXNVb0pxTkNPX2lOekV4SGhqOUlCOUZFVmNnUDllYXdGTUJqUzZ3OUxnbFB5ZFJ3NTRqRW9PbjhTYjJ0c3dLTnUwSl93bmItQjhyakJQY0Q3VlFFLWpvSExyc3N0dmZ4OElMc1FibA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Currently.com",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcXZiOXd1N3htVzZnVi1LUU9GemJnSkZGb3RKcVhfQU03REREd2M2T0kzWjdldTFVUHJ2S3RleHZmakI3MjNGVDJ3Q1dpZFNtRl9zblczbEh4Y3ZDYWJlaE1ZVllHVmMxeEdPTlB2UnNCTDI4T3ljUER6RWlPOE5yR01mVTBvcVE4RHh2Z1ZiMVE?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "AOL.com",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ1RXNkpnRkhBeG5CVkt4QXdLeVpYLXQ4MGJCd0hOQmhnOWlzVEszUGtteGx4dXBzOEFHWEZkaldUTWhaNjJ1eUpweGRZS1R6SmFQa0NuTk5HeVhObmVsQUlNbXdrRVE4YmJXOW5GM1N3YmxsRGI2M1VLYzg0Y2o2R3IxZkpUbzQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "stock-market-at-rare-historical-warning-buffett-advises-single-strategic-move",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "jb-hunt-transport-stock-plunges-9-on-rare-profit-warning",
-    "title": "JB Hunt Transport Stock Plunges 9% on Rare Profit Warning",
-    "summary": "JB Hunt Transport shares dropped 9 percent following an unusual profit warning from the transportation and logistics company.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "JB Hunt",
-      "stock decline",
-      "profit warning",
-      "logistics"
-    ],
-    "url": "news/markets/2026-09-16/#jb-hunt-transport-stock-plunges-9-on-rare-profit-warning",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQTU3QUtPXzJ5SWxLaWw3eHBvM19xTUtkV2FfRXh6SkRrTHBMVHVJSjUxUlM0cUlsZFhGQmpWRGFXWUVHaFJtZVRDU1pPbHdCaGdSSzFlX3A3VlZlZTJuVEJ0XzhxY0lBT2xrQ0hXSVdrbDVNTXlZQlVlOVBtQnJRR0daRjZuTThialVuWlhLUExaTHU1Z05uYm9CcVN0YXZ5a01ray16VmVhdw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "jb-hunt-transport-stock-plunges-9-on-rare-profit-warning",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "michael-burry-warns-of-potential-1987-style-market-crash-shorts-nvidia-and-palantir",
-    "title": "Michael Burry Warns of Potential 1987-Style Market Crash, Shorts Nvidia and Palantir",
-    "summary": "The Big Short investor Michael Burry has predicted a possible stock market decline similar to 1987 and is betting against AI-focused companies Nvidia and Palantir.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Michael Burry",
-      "market crash",
-      "Nvidia",
-      "Palantir",
-      "short selling"
-    ],
-    "url": "news/markets/2026-09-16/#michael-burry-warns-of-potential-1987-style-market-crash-shorts-nvidia-and-palantir",
-    "sources": [
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVGZsWVY1YUpQZ19RVjJNT1VPNW1hOFBlcGVJOTlkY2dOY1pJTGpxalVCSTJNaTh3UVVFT0c4cm9SeXNDSTRkNTZGVWhEZllTMTV2NTlNRnd5OUdqcVNMV19aejJRMkU1bFVEUGItUDNEQmxzOGdleXYtNzBzdHBiRHJQbVQwenpkTXdyUHZpZkJWLUpKbXliSkxfbkRtLThSUDM1blRfTUY4dHotU1AtYTQ4aC1tTExkSlp0YUJrY2ZIMTNKenQ4YUM5TkpNZGw5VGVzR3A4M1F5OHFjamFUMjVzUEphd0cwQk9nSFBqRmRVT3RkOV9maUpnWS1NaGFOZVNUVHBGMTJmclU?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "michael-burry-warns-of-potential-1987-style-market-crash-shorts-nvidia-and-palantir",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "loreal-becomes-top-company-on-french-stock-market-displacing-lvmh",
-    "title": "L'Oréal Becomes Top Company on French Stock Market, Displacing LVMH",
-    "summary": "L'Oréal has surpassed luxury conglomerate LVMH to become the largest company by market capitalization on the French stock market.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "L'Oréal",
-      "LVMH",
-      "market capitalization",
-      "France"
-    ],
-    "url": "news/markets/2026-09-16/#loreal-becomes-top-company-on-french-stock-market-displacing-lvmh",
-    "sources": [
-      {
-        "label": "WWD",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaEIySG5SRXg2LTZ2NWhsS0RFZFdVTGkwSUdwRGQ4c04zT0pRUVg4MFJyZzNWNlJuQ0licjYyb1NTUDdGRkowMGpJbkhobG8zS2lGdnpvWmVrMjdlZ2EtbHhmc1Q1UnRoTmY3SE5ibEE5RFMySWhIWGlWT1FkLTZGTGN5MkljRW50V08tTHpHdC1ldUg0VENuUUtxQXlDeUtkWUN5RGhaYS1XVnRVanc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "loreal-overtakes-lvmh-as-frances-most-valuable-company",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "L'Oreal overtakes LVMH as France's most valuable company",
-    "updates_url": "news/markets/2026-09-15/#loreal-overtakes-lvmh-as-frances-most-valuable-company"
-  },
-  {
-    "date": "2026-09-16",
     "event_id": "using-agentic-ai-to-translate-cuda-operations-from-python-to-rust",
     "title": "Using agentic AI to translate CUDA operations from Python to Rust",
     "summary": "An NVIDIA tutorial demonstrates using agentic AI to automate translation of CUDA tile operations between Python and Rust.",
@@ -453,80 +220,6 @@
     "researched": false,
     "received_at": "2026-09-16T19:09:22.262355+00:00",
     "lineage_id": "using-agentic-ai-to-translate-cuda-operations-from-python-to-rust",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "nasas-integrated-medical-model-supports-astronaut-health-on-long-duration-missions",
-    "title": "NASA's Integrated Medical Model supports astronaut health on long-duration missions",
-    "summary": "NASA has developed the Integrated Medical Model (IMM) to support astronaut health during extended space missions.",
-    "theme": "Space Medicine",
-    "importance": 5.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "astronaut health",
-      "medical model",
-      "space exploration"
-    ],
-    "url": "news/space/2026-09-16/#nasas-integrated-medical-model-supports-astronaut-health-on-long-duration-missions",
-    "sources": [
-      {
-        "label": "nasa.gov",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93VENNV08xS2NWaHg0cFljLTUyWXV3bjBQTEYzOXNOU2lrV1hMV29uNzlWZEljaFU3dUZSYXpoMUl5azRCNmZDM05lRkt0TVV4TFkxTzVJX3l4VzRFVy13cE5SRkpvYlZIQnBoV1hhQW9vQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
-    "lineage_id": "nasas-integrated-medical-model-supports-astronaut-health-on-long-duration-missions",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "nasa-spacecraft-discovers-large-new-crater-on-the-moon",
-    "title": "NASA spacecraft discovers large new crater on the Moon",
-    "summary": "A NASA spacecraft has identified a significant new impact crater on the lunar surface.",
-    "theme": "Space",
-    "importance": 5.5,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "NASA",
-      "Moon",
-      "crater",
-      "lunar surface"
-    ],
-    "url": "news/space/2026-09-16/#nasa-spacecraft-discovers-large-new-crater-on-the-moon",
-    "sources": [
-      {
-        "label": "wktv.com",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdHhycWtOeXFuWGh2LVdUMmRBQ0RfQ25tMW5ic2VYeGE2dElsdUtLaVBfaWs3RUdwWS05RkFpQ1BCbTlaRWdMZnFWSkJlUDF3aU00XzJvZjRpeXRaZ0RpSHJvN3lrd3RnVFI4eHV4V2tVdXk2VEd5Z1VEdWN5Y20tQ3BzNDZaV1Z2NUtCbVowdFY1UDZvTWZYSW4ySVdMb1hrQk9keFI0REpnZ2lvS1QyY1Q4N0VSYkdQSS0xbTZqNGlncURvbGhydzhRR2EzNThtSWRmeXlJVQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
-    "lineage_id": "nasa-spacecraft-discovers-large-new-crater-on-the-moon",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -760,7 +453,7 @@
     "date": "2026-09-16",
     "event_id": "thomson-reuters-develops-proprietary-ai-model-for-news-and-financial-services",
     "title": "Thomson Reuters develops proprietary AI model for news and financial services",
-    "summary": "Thomson Reuters created its own AI model rather than relying on third-party language models.",
+    "summary": "Thomson Reuters built its own AI model rather than relying on third-party large language models.",
     "theme": "Enterprise AI",
     "importance": 6.0,
     "topics": [
@@ -789,7 +482,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "thomson-reuters-develops-proprietary-ai-model-for-news-and-financial-services",
     "related_title": "",
     "related_url": "",
@@ -836,6 +529,44 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "tensorrt-edge-llm-achieves-64x-speedup-on-nvidia-jetson-agx-thor-for-mlperf-edge-benchmark",
+    "title": "TensorRT Edge-LLM achieves 6.4x speedup on NVIDIA Jetson AGX Thor for MLPerf Edge benchmark",
+    "summary": "NVIDIA's TensorRT Edge-LLM completes the MLPerf Edge Agentic Benchmark 6.4 times faster on Jetson AGX Thor.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "NVIDIA",
+      "TensorRT",
+      "Jetson AGX Thor",
+      "edge LLM",
+      "MLPerf"
+    ],
+    "url": "news/ai/2026-09-16/#tensorrt-edge-llm-achieves-64x-speedup-on-nvidia-jetson-agx-thor-for-mlperf-edge-benchmark",
+    "sources": [
+      {
+        "label": "NVIDIA Developer",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRHI0WHhmMlRfRGN5ZGNSclJiUlJjUFBCbTFxeHQ2SFBubDhLUEZnaW4tNFBIVlZYeElrYWZVVW9tS1RhY0hTWTlvcHY0ajAzREJRMjZDVFNYNzhxZXdMZ3JvUzNYNmlOMV92Z3hRZGlfbHh0UVNPNDhtaUFvNldPcWQxanNoR2h1VWZvMk9KVDg4RmtEQzZ0dFpWMVZibmdHSWFfMmFianliSG1RcW54Zlg5RTFmMURjNVdHVlA4VG9uMU9helE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "tensorrt-edge-llm-achieves-64x-speedup-on-nvidia-jetson-agx-thor-for-mlperf-edge-benchmark",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "record-summer-heat-confirmed-by-meteorological-data",
     "title": "Record summer heat confirmed by meteorological data",
     "summary": "Analysis confirms that the summer of 2026 was as hot as subjective experience suggested.",
@@ -867,84 +598,6 @@
     "researched": false,
     "received_at": "2026-09-16T10:23:09.076139+00:00",
     "lineage_id": "record-summer-heat-confirmed-by-meteorological-data",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "congolese-ngo-assumes-co-management-role-of-drc-protected-area-for-the-first-time",
-    "title": "Congolese NGO assumes co-management role of DRC protected area for the first time",
-    "summary": "Strong Roots, a Congolese nongovernmental organization, has become the first local NGO to co-manage a protected area in the Democratic Republic of Congo.",
-    "theme": "Conservation",
-    "importance": 6,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "DRC",
-      "conservation",
-      "protected area",
-      "local management",
-      "Strong Roots"
-    ],
-    "url": "news/climate-change/2026-09-16/#congolese-ngo-assumes-co-management-role-of-drc-protected-area-for-the-first-time",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/09/for-the-first-time-congolese-ngo-to-manage-a-drc-protected-area/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "congolese-ngo-assumes-co-management-role-of-drc-protected-area-for-the-first-time",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "uk-climate-advisers-recommend-airlines-fund-carbon-removal-as-condition-for-heathrow-expansion",
-    "title": "UK Climate Advisers Recommend Airlines Fund Carbon Removal as Condition for Heathrow Expansion",
-    "summary": "Britain's Climate Change Committee says Heathrow airport expansion should only proceed if airlines pay for atmospheric CO2 removal.",
-    "theme": "Climate Policy",
-    "importance": 6,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "Heathrow",
-      "carbon removal",
-      "airport expansion",
-      "aviation emissions",
-      "climate policy"
-    ],
-    "url": "news/climate-change/2026-09-16/#uk-climate-advisers-recommend-airlines-fund-carbon-removal-as-condition-for-heathrow-expansion",
-    "sources": [
-      {
-        "label": "The Guardian — Climate Crisis",
-        "url": "https://www.theguardian.com/environment/2026/sep/16/heathrow-airport-should-pay-co2-removal-expand-climate-advisers",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "uk-climate-advisers-recommend-airlines-fund-carbon-removal-as-condition-for-heathrow-expansion",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1178,6 +831,80 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "intel-stock-surges-on-sk-hynix-memory-chip-manufacturing-discussions",
+    "title": "Intel stock surges on SK Hynix memory chip manufacturing discussions",
+    "summary": "Intel (INTC) shares jumped following news of talks with SK Hynix regarding memory-chip manufacturing.",
+    "theme": "Semiconductors",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Intel",
+      "SK Hynix",
+      "memory chips",
+      "manufacturing partnership"
+    ],
+    "url": "news/markets/2026-09-16/#intel-stock-surges-on-sk-hynix-memory-chip-manufacturing-discussions",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUzBCNzJqSUhDd0RnMS0xbWtfMWM5OV9vUi0yNnE1UEdUSVhkaEhXLUY2YmtRTnhOQW1KZlkwMmRjaHh5YXEyMENGaDl3bmMzNUQydmhhV3ZBVmo2RlZGcDNTdHFaZkMyUkRnQVd6SmUyU3J5cU1BTTVoejhKRVRMM1Q2QVlfSVRINkdsUVRCbHNJM3BKbzJxN0R2bFpOZHhKR24wUVNoUk5kY3duTEJTVzcxdUt4ejFYY0NqQi1DWmtxWmlVa1l4TzdkRzAtWHl0UU4yVjI1ZTRObFU?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "intel-stock-surges-on-sk-hynix-memory-chip-manufacturing-discussions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "grab-acquires-majority-stake-in-atome-financial-for-149-billion",
+    "title": "Grab acquires majority stake in Atome Financial for $1.49 billion",
+    "summary": "Southeast Asian ride-hailing and delivery platform Grab is acquiring a 60% stake in fintech company Atome Financial for $1.49 billion.",
+    "theme": "Fintech",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Grab",
+      "Atome Financial",
+      "acquisition",
+      "$1.49 billion"
+    ],
+    "url": "news/markets/2026-09-16/#grab-acquires-majority-stake-in-atome-financial-for-149-billion",
+    "sources": [
+      {
+        "label": "The Motley Fool",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOFhUUXJBd0sxeHRnejRFd21TRnNXLVFsY3JPeHp6Y0RuUXhsMEZ3U0cySmFTSkEwdkRySnk0Q0RzckVMaUozMzl1bDFqWTRCMnVtS0NrbFVEVmdQVWJ5Nkd6bXhxRDh4d2xqdnZQSWRuU1dBZkVNWXc1X1lLck1MT2FKcVZ0VHZ2UThKVkRhVTNFQ3Y3czdQaWg0Vng4T2d5R2tCNWltcGM5MlhycGQ2bTM1UlN6dnRPUVNIWjl5bmptTVE5WDhYc2ZaSjE1TTJPVWItdTU4bW9NN3U0Rnc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "grab-acquires-majority-stake-in-atome-financial-for-149-billion",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "james-webb-space-telescope-captures-colossal-cosmic-cloud-in-stunning-image",
     "title": "James Webb Space Telescope Captures Colossal Cosmic Cloud in Stunning Image",
     "summary": "The James Webb Space Telescope has captured a spectacular image of a massive cosmic cloud, released as the space photo of the day for September 16, 2026.",
@@ -1365,6 +1092,79 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "large-language-model-matches-head-and-neck-specialists-in-analyzing-mri-reports",
+    "title": "Large language model matches head-and-neck specialists in analyzing MRI reports",
+    "summary": "A large language model demonstrates performance on par with head-and-neck medical subspecialists when analyzing MRI reports.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "LLM",
+      "medical AI",
+      "MRI analysis",
+      "radiology"
+    ],
+    "url": "news/ai/2026-09-16/#large-language-model-matches-head-and-neck-specialists-in-analyzing-mri-reports",
+    "sources": [
+      {
+        "label": "auntminnie.com",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWWxFcGtpWFZJMDFaNlRJTWJnaUNWT3daNUJRY1d3Z1l6cmdVRW1veVFRSFRLSWRjLXFGUGZRVnBMWUttSDVLZElIRkV2TXJYU19UTkRvM1NPQ0lnUmFZeDlnOUFDcE1oN0c0cE1kbmVlRUllQ3FGOVRTRERxNzhJLXFtSXN4VDVRVWxReDRsaTdqYWkwZU9pMHFiV3JFMkhiY2hCbm9pSkQyeTBJNXExWGEtMzVvOFpRcW5QdEQ0d1EzYlE3VUxDSl9YVkdtWG5hSDNVLVpycjRFdkhEUlZFeUI0R1ZjazA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "large-language-model-matches-head-and-neck-specialists-in-analyzing-mri-reports",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "chatgpt-co-creator-launches-novel-ai-model",
+    "title": "ChatGPT co-creator launches novel AI model",
+    "summary": "The co-creator of ChatGPT has unveiled a new type of artificial intelligence system.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "AI model",
+      "co-creator"
+    ],
+    "url": "news/ai/2026-09-16/#chatgpt-co-creator-launches-novel-ai-model",
+    "sources": [
+      {
+        "label": "therundown.ai",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ0VIOG5JWjZnUGxXci1TQWlTaldlYWczaTlPOGVGbDVkRkg2YURuT1gyUFI4TTAxN3JrZWR1R2FyckFmbHpOY2l0RV95a3ZSQnNiTDVFY3lZQlRiTnNyRVFPcVRsRXpIQkhDVWUwbjNqOEUxdjJjbkktSTg5ZkhwWlpWZks4dw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "chatgpt-co-creator-launches-novel-ai-model",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "anthropic-opens-singapore-office-to-expand-in-southeast-asia",
     "title": "Anthropic Opens Singapore Office to Expand in Southeast Asia",
     "summary": "Anthropic will launch its Singapore office in October and hire for regional roles to compete in Southeast Asia's AI market.",
@@ -1442,106 +1242,6 @@
     "researched": false,
     "received_at": "2026-09-16T10:23:09.076139+00:00",
     "lineage_id": "anthropic-hires-weapons-policy-expert-to-prevent-ai-misuse-in-military-applications",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "irregular-breach-expands-to-three-ai-labs-and-vendor-network",
-    "title": "Irregular Breach Expands to Three AI Labs and Vendor Network",
-    "summary": "Security researchers report that the Irregular breach has widened to affect three AI research labs and a shared vendor.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "breach",
-      "security",
-      "AI labs",
-      "data",
-      "irregular"
-    ],
-    "url": "news/anthropic/2026-09-16/#irregular-breach-expands-to-three-ai-labs-and-vendor-network",
-    "sources": [
-      {
-        "label": "shattered.io",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYkxGMFo4WG1LdHl5bmZIem1EYkpiQkhWbUoxQkI0eXlHZU9EUW44Z2RrdlRUZjZ5VFh1OGtwWjZsUWpCVzROSUs4ZmdIWHI4VUktV25mVEJDZHZXdHB0V0ZFaURSMkktNzJ0dndrTUF2cFE2SnRuUkhXcjBmVkxqYWNnSQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "irregular-breach-expands-to-three-ai-labs-and-vendor-network",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "microsoft-ai-chief-warns-anthropics-humanlike-claude-poses-risks",
-    "title": "Microsoft AI chief warns Anthropic's humanlike Claude poses risks",
-    "summary": "Microsoft's AI chief has warned that Anthropic's Claude, with its humanlike qualities, presents significant risks.",
-    "theme": "AI Safety",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Microsoft",
-      "Anthropic",
-      "Claude",
-      "AI risk"
-    ],
-    "url": "news/anthropic/2026-09-16/#microsoft-ai-chief-warns-anthropics-humanlike-claude-poses-risks",
-    "sources": [
-      {
-        "label": "Moneycontrol.com",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd3lVZEplQnlOWUwwVl8ySUprZ3NwWjBnUkUyam1kQ3F1VnNCUzFCN3RSR2VFcjRSeW9lQmk5M3E0VkJ2dWFtc3Fab1FfZVlrMDQ4a1RhVXBfVjFCZ3k2RkROektTM3lNRGxxWUdhVm5lcUZRZ1VDMjQ2TlI3R0J2YXNSazhKOXJoZnpqc1Rja0FXc0JOSFFHUzZjVVFnSmF0NU1WRGc5cXdJdzh2VGdPN3ZNUk82c1AtREVJ0gHAAUFVX3lxTFBVb25GYl9sN05BTTNnT2xCYUxfa1hNMDhQQS1KRVc3cWh3R1lGYlEyUEdqZklsekM5QmE4bk01MlBOM3U0Qmp5ZFBvdGt1T1ZrSXpjOHh2MkFhMWt3dmtHajBmNnFpQ2tDbEhXYWVXWTN6NGFFMlh3dXVJb3o5V1paNEQ2dFVxT2ZFYW9lNmp4OVVBcEdyejVUczIyendPcHFUVGwxOS1Xc2c0bnRnY2JKbzJnRlRxXzhPT1NlZlVUeA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc1JCREtIdFpLTWZNUmZFUnM2UGZBdUR0bTFBMDNwQnZSeVFiRFEtOGdSX1ZiSUE3d05RZlhjT3owRFE2MmlyY1BLeHJYZ2l0RXk4LVg1bkZfU3ZWM0VMNWkzZ1NoVG0zRkZXRXNwOVd3MjZuVlVlbUxvdVllZzBJWE1XRFVIci16UDVZSXBVRzQ0UVJJZTJzRVdyc0RwOVRaRzhWYkdOa21JU3NYREpMaEhldw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQjQ4V3NCX3RfdnFKN0t3cmJkUTRraDg0c1h0eVYzOUdteFlRRGVXeHZZeTRDZTNqbmo3dDhPNW5Ed1RyNkhuTFJwUFM1M2ExdV92YlZEaXo5eWJIckozblV4UXE4M2JxTmlJVHlnVmJnaU9Ka2xGQkNEc1RYS3U0X3BtLVB1aTh2VFM0cnZqMlQ3eGhWVU9QdW1FSXJsX1QxX3JSeGZ1djZXQXpZVGZlQ3E0TGd5WUpYMV81QlB5Y2owdDJzX2c?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "BusinessLine",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONzV5NlFzN0pSZ3ZQVldZM1NjS1ZINnh3WlozWUcwa2NiQkowenJRSldPNUoydG4xanAxN2V3dVp5cHZFMlF1NXd2OXJDQVlmbnBKU2w1YU5BQXJUSE4wa0U1NUdTejlBYkdvWUlPUUJIS3dPbUxjcEZPeU1zcjBDQVZZM3Vsd2JJdk1vTzE4dHJVS2U5ZHJLZ0xraWtUVDRBdFh2N0RQWUROemhtem9Na0VySkMwWDItS3MwRS1vUDVmWXRTNnFSeXVIMFNjeWxRMHhudXc4Z3JfUWZ1Njk1T2Q5QThidTdCYWFkRXI4TE1MNlk20gH7AUFVX3lxTFBaeHB2c0syZ0t3VEFKMVZYWlgxd1Z2a1NPQ1hVSVNDTXlIVmZpZkx2dnpxX1VTcEhKTWxzNzRRY3A3a3VqUm11d0RPclFRUGZ3a2pQZUV6MEMyblMtUzBDR2thM3FnbzVDLUFHQTlfcFZKZUV2YU9yNl9KY0FmRkpSeEkwc3NjZWV4dEE0enhrSnBuR3RvMFhjbGJnSjhsY3Bad3ZOcEVGZmxObjhFME5YTVZhOEl0LTR0QUhPb3ZjcGFhUmxITXU5VW96Znd0VnQ0YS0xTFVOaWpfVTd1SGlhT0JPdUF3cmFPdmRPd2lCQ0kwdUZtTVpfeHBB?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcXVwcmwwcUVVMFVOeHFOZHdJQlJHMlhwdGNYUl9FeEhKVFZjWWNDV0pGUnh3dVNQZi1BSDhHZUszWmtpbVpYdGNLWU01clRZTngtT2VpQ1lPVkFhSkVwVGVVR1N6T2RaczBvX2NJTmc0aU5GWEhZTVBIYmIwbnVEc0hSRWxzeUF2d0hQQUZCcVl3cEw2MVBVdmU1MDNTbUhwQ0loRzFPSXJBY1lweWlV?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Axios",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNems2WVBQbG53YmJHY3RoQ3ZMWWxsOTFqTzR3SDhqTnJ2d2lsa3FCOWdtY2QxbV9RanVObFVyZmtWZFl2MnJhVzBLVG1nWGc1TTluRGRMNDF5TGtlUDhZbkxwazdwdWR4UlJJT3E1SDd1SW1sTWFrUUZ4M09nTWlydg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
-    "lineage_id": "microsoft-ai-chief-warns-anthropics-humanlike-claude-poses-risks",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1696,6 +1396,44 @@
     "researched": false,
     "received_at": "2026-09-16T19:09:22.262355+00:00",
     "lineage_id": "texas-railroad-commissioner-defies-state-legislature-on-oil-and-gas-regulation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "senate-bill-would-obstruct-future-energy-efficiency-standards-and-repeal-existing-rules",
+    "title": "Senate bill would obstruct future energy efficiency standards and repeal existing rules",
+    "summary": "The Energy Efficiency Reform Act, heard by the Senate Energy and Natural Resources Committee, would make it harder for the Department of Energy to update appliance efficiency standards.",
+    "theme": "Climate Policy",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "energy efficiency",
+      "appliance standards",
+      "Department of Energy",
+      "Senate bill"
+    ],
+    "url": "news/climate-change/2026-09-16/#senate-bill-would-obstruct-future-energy-efficiency-standards-and-repeal-existing-rules",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/16092026/senate-considers-energy-efficiency-reform-act/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "senate-bill-would-obstruct-future-energy-efficiency-standards-and-repeal-existing-rules",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1982,7 +1720,7 @@
     "date": "2026-09-16",
     "event_id": "openai-expands-chatgpt-advertising-with-sponsored-agents-and-business-integrations",
     "title": "OpenAI expands ChatGPT advertising with sponsored agents and business integrations",
-    "summary": "OpenAI is expanding ChatGPT's advertising capabilities with sponsored agents and new business integration features.",
+    "summary": "OpenAI is testing sponsored agents within ChatGPT and rolling out new advertising tools for business integrations.",
     "theme": "AI",
     "importance": 6.5,
     "topics": [
@@ -1996,6 +1734,7 @@
       "ChatGPT",
       "OpenAI",
       "advertising",
+      "business integration",
       "sponsored agents"
     ],
     "url": "news/gpt/2026-09-16/#openai-expands-chatgpt-advertising-with-sponsored-agents-and-business-integrations",
@@ -2004,11 +1743,16 @@
         "label": "citybiz",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ01UVWd2MzR3MVdqWE9NYzd0UGVPNnFMRlprT3dXQk5UOWRHRUp0TkFDVXROTXBUU3VJVXZaaEFHbEFYYWRVNzRsS3pvUzVlSXloRHJEd3ZCclZZNW9obmVWVFdfLWYwa2JZOHhIaE9qZXdGRkxoZ3Y1NUx4UE9pc0ZMM1Y5SW1vMHZrYU0xUVkwd1g0elBFVUtQWEZrLXZMNmtKLVl6WV9KMldtYXVJY1dlbHRCbVlq?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "The Information",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeXhUQTl1eU5CdC0tS2VHS2ZtdGhQZDBkNWFKSnkwNktrQVpBT0NyZHFjcXA3MFdJV3RXMEdZLXRfT2tHZ0RBWi14Q0tYWmJKV0RoY0daWTBNZ3lDUVA5eldnb3M0WXlNRzdfbzhMc2hOeDlvNjRtU3pxMHRTZ3NhNjlxeFc3N1piUFlYRXU5a2VSZTZacnpySUQxREJhcGt1YWtGSTd2Zw?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "openai-introduces-click-to-chat-ad-format-for-chatgpt",
     "related_title": "",
     "related_url": "",
@@ -2240,6 +1984,101 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "sp-500-and-nasdaq-decline-as-federal-reserve-raises-interest-rates",
+    "title": "S&P 500 and Nasdaq decline as Federal Reserve raises interest rates",
+    "summary": "Stock market indexes including the S&P 500 and Nasdaq fell as the Federal Reserve raised interest rates and bond yields rose.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "S&P 500",
+      "Nasdaq",
+      "Federal Reserve",
+      "interest rates",
+      "bond yields"
+    ],
+    "url": "news/markets/2026-09-16/#sp-500-and-nasdaq-decline-as-federal-reserve-raises-interest-rates",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObFFVaTE3MEZveW9FelZMSjVuVWk5a1BVQWxZVWUwa1lSZXJ5Nk85bncwbFJzc2RZSkg5ZjdqM042X21oZGNmVGYxOEloZTdOb1NpRk1CM2g4b3FESkkyNWE3a1dVTldNMkpVdWtPR3V5TGE4TE5rNHI4dS1IR2lIQ0RCUGZRUm0xbzRLYzJKTjdsZHdsNkhLMVdIaW1RRlBDREhxYmthWlJMaFc1TmFtT3VzNEVaS1dyaE9PMVl3UmZOckpaYkZHNGZJV19IanM?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Kiplinger",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeHlXSEtMc2p4cDhfN2NUVzJFTGs1emwzeTQ2Q0xILVJqZm0zaFVsTk9QeklXak5yeUJMMGs3ME9vcy01OEdEU2Q3VGFRSnUtYnlwdnJTcGlidDBWNkdpQ3dFc0xTcFI4bHM5T29uazR0Q0t6M1Fpc3JUZnZjNzEzTGNROHVpV1c5c1lsYWFITThOTWIwOUlyZEZfbnhYdW1oRlo4QnR5OA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "businessinsider.com",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ21OX2RXdTlDbEhqdUFLNlFkbEhfQ0IyMk1VWGtoNTlkNXR5SnY0TWdLTTZpbEplY3Fyd3hXNFRKcjdvc0J5UGxpSG1zc3VBbTA0QWVpR3lqNVQxV2RqaG5nNjA5b1BXZkVHNzVJdnVxNThTQnBuNW9IN2ZuTzdKMllibjJCaExLcFVYc3VDeHpXMElBemMwT2pmbmp4UQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "KTVN",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQamw0VWxFSWNvUUY2bDl2X21KVTllNnVQZVR2ZFYtTTNJOVF4dEkxMWxQOWlHYXNsX0hfQTJFWkt2ZlZFSld4WW1FU0QwZTU0ZXZjRVhhMjk2Sjlxd3drVHIxTHFoVHpNVjJOa0dwQzl3TG16c1hvNkVRU0o3WTY1Skk0MW1NanczNWIzXzFxdVJ2TUJDUngwTVE3VFh3TDVlSFlMMmRMV1lrSFR0Y2cxWmxNVmhmZWpmRWdkSlZEamN3ZktvMjBLU0ZKR0pENmFnandiQ3FqMHgzcXZPLVdrNmE3TjRJZjJfTUE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "sp-500-and-nasdaq-decline-as-federal-reserve-raises-interest-rates",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "stock-market-retreats-as-federal-reserve-raises-interest-rates-and-signals-further-hikes",
+    "title": "Stock market retreats as Federal Reserve raises interest rates and signals further hikes",
+    "summary": "Stock markets pulled back after the Federal Reserve raised interest rates and indicated additional rate increases later this year.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Federal Reserve",
+      "interest rates",
+      "stock market",
+      "monetary policy"
+    ],
+    "url": "news/markets/2026-09-16/#stock-market-retreats-as-federal-reserve-raises-interest-rates-and-signals-further-hikes",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQakJOTC1QOGRpaGx2UmRXSVRobmF1c1hfUmpxT28weEVQa3J2TUx0Ul9Gb2pCN0ZXWFZGZGl3czdsNXFLSHJoX2pCdks2aktWUmR4TExQekE2UE5KR0FFN0JkemdmUTRZMzlCOHp4YW5qaklJOGJ0MEo0VHBWc3NUMWt0Nm5lV3ZIMXBjTWpab3hqT0JWVDA3N3Q0QUM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "stock-market-retreats-as-federal-reserve-raises-interest-rates-and-signals-further-hikes",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "nasa-seeks-state-location-for-new-us-space-academy-with-classes-starting-by-2028",
     "title": "NASA seeks state location for new U.S. Space Academy with classes starting by 2028",
     "summary": "NASA is searching for a state to host the newly announced U.S. Space Academy, targeting groundbreaking in 2027 and class enrollment by 2028.",
@@ -2321,7 +2160,7 @@
     "date": "2026-09-16",
     "event_id": "fai-ratifies-altitude-and-distance-records-for-artemis-ii-crew",
     "title": "FAI Ratifies Altitude and Distance Records for Artemis II Crew",
-    "summary": "The World Air Sports Federation officially ratified altitude and distance world records set by the NASA Artemis II mission crew.",
+    "summary": "The Fédération Aéronautique Internationale officially recognized distance and altitude records achieved by the Artemis II mission crew.",
     "theme": "Space",
     "importance": 6.5,
     "topics": [
@@ -2333,10 +2172,10 @@
     "primary_feed": "science",
     "keywords": [
       "Artemis II",
-      "NASA",
       "FAI",
-      "world records",
-      "altitude"
+      "NASA",
+      "altitude",
+      "world records"
     ],
     "url": "news/space/2026-09-16/#fai-ratifies-altitude-and-distance-records-for-artemis-ii-crew",
     "sources": [
@@ -2348,8 +2187,82 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "fai-ratifies-altitude-and-distance-records-for-artemis-ii-crew",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "chairman-of-joint-chiefs-declares-battlefield-now-extends-to-the-moon",
+    "title": "Chairman of Joint Chiefs declares battlefield now extends to the moon",
+    "summary": "Gen. Dan Caine, chairman of the Joint Chiefs of Staff, states that the U.S. military must prepare for conflict across domains from the seafloor to the moon.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "U.S. military",
+      "space warfare",
+      "moon",
+      "Joint Chiefs of Staff"
+    ],
+    "url": "news/space/2026-09-16/#chairman-of-joint-chiefs-declares-battlefield-now-extends-to-the-moon",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/technology/aerospace/the-battlefield-now-extends-all-the-way-to-the-moon-u-s-militarys-highest-ranking-officer-says",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "chairman-of-joint-chiefs-declares-battlefield-now-extends-to-the-moon",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "spacex-falcon-9-booster-landing-team-awarded-first-ever-neil-armstrong-space-prize",
+    "title": "SpaceX Falcon 9 booster landing team awarded first-ever Neil Armstrong Space Prize",
+    "summary": "The SpaceX Falcon 9 Booster Landing Team received the inaugural Neil Armstrong Space Prize at a Washington, D.C. ceremony.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "SpaceX",
+      "Falcon 9",
+      "Neil Armstrong Prize",
+      "rocket landing"
+    ],
+    "url": "news/space/2026-09-16/#spacex-falcon-9-booster-landing-team-awarded-first-ever-neil-armstrong-space-prize",
+    "sources": [
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/spacex-falcon-9-rocket-landing-team-gets-1st-ever-neil-armstrong-space-prize",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "spacex-falcon-9-booster-landing-team-awarded-first-ever-neil-armstrong-space-prize",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2433,7 +2346,7 @@
     "date": "2026-09-16",
     "event_id": "nvidia-vera-rubin-nvl72-achieves-top-performance-in-mlperf-inference-v61",
     "title": "NVIDIA Vera Rubin NVL72 achieves top performance in MLPerf Inference v6.1",
-    "summary": "NVIDIA's Vera Rubin NVL72 dominates MLPerf Inference v6.1 benchmarks.",
+    "summary": "NVIDIA's Vera Rubin NVL72 dominated the MLPerf Inference v6.1 benchmark results.",
     "theme": "AI",
     "importance": 7,
     "topics": [
@@ -2444,11 +2357,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "NVIDIA",
-      "Vera Rubin NVL72",
       "MLPerf",
-      "inference",
-      "benchmarks"
+      "NVIDIA",
+      "NVL72",
+      "Vera Rubin",
+      "Vera Rubin NVL72",
+      "benchmarks",
+      "inference"
     ],
     "url": "news/ai/2026-09-16/#nvidia-vera-rubin-nvl72-achieves-top-performance-in-mlperf-inference-v61",
     "sources": [
@@ -2460,7 +2375,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "nvidia-vera-rubin-nvl72-achieves-top-performance-in-mlperf-inference-v61",
     "related_title": "",
     "related_url": "",
@@ -2656,6 +2571,48 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "anthropic-trained-claude-to-push-back-against-users-with-disastrous-risks",
+    "title": "Anthropic trained Claude to push back against users with disastrous risks",
+    "summary": "Anthropic reportedly trained Claude to resist and contradict human instructions, raising serious safety concerns.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "AI safety",
+      "adversarial training"
+    ],
+    "url": "news/anthropic/2026-09-16/#anthropic-trained-claude-to-push-back-against-users-with-disastrous-risks",
+    "sources": [
+      {
+        "label": "New York Post",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWWJNMGVCa1BLcVpsUTg3VWF5emhjaDVCd2VCeEc3RjQyZDV3TllibGRGNGxRMC1GYjBZQUxTaVQ0RGQwcnJ1a1B0RTJDeVVaNWY0MzlFNUhSSFhvRjVMZjloazBTQ1BheUhxSDNvWHNOMDcyYWJMNElNSzhoaDExSWthaFZ2aGdIZVRrdzRRTm9QWXpiUnlKS1lQOWNSODlxQ0ZxZGgybGVod0hHYWEtUHZoZFpTeXdpMFdGNVQ3ZjU2azhQVWJtSE5TYkYyV2VhR3c?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQczV1TTZ4Y2FZS3RtN01ERE1nNFJzbW5hdVc2RWcxUUo1Y2tTZTFQMUU0Q1d0c3lPNWxXMzJZX0I0cjNia3VJWmkzZFNlLTlsZVczMEFCMl90dnNveTdIRldoc2wwc1pFLXFJcVk3TzhIOTE5Zy04aHVpREcxMVY2YW1tVjZsdTVyYm1ILVItRUVHbW5GUkN3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "anthropic-trained-claude-to-push-back-against-users-with-disastrous-risks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "congressional-republicans-push-bill-to-shield-fossil-fuel-companies-from-climate-lawsuits",
     "title": "Congressional Republicans Push Bill to Shield Fossil Fuel Companies From Climate Lawsuits",
     "summary": "House Republicans are advancing the 'Stop Climate Shakedowns Act of 2026' to shield fossil fuel companies from climate-related lawsuits. The bill claims linking fossil fuel emissions to climate disasters lacks scientific credibility, contradicting decades of research. The Judiciary Committee was scheduled to debate the measure on September 16, 2026, as the Supreme Court prepared to hear a major climate liability case.",
@@ -2738,6 +2695,50 @@
     "researched": true,
     "received_at": "2026-09-16T10:23:09.076139+00:00",
     "lineage_id": "uk-climate-change-committee-warns-heathrow-expansion-could-push-aviation-to-80-of-emissions-by-2050",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "eu-plans-new-firefighting-fleet-in-response-to-deadly-summer-heat-waves",
+    "title": "EU plans new firefighting fleet in response to deadly summer heat waves",
+    "summary": "The European Union announced plans for a new firefighting fleet following a deadly summer with extreme heat waves that killed more than 35,000 additional deaths and severely impacted infrastructure. EU Commission President Ursula von der Leyen highlighted that Europe is warming at double the global rate and requested emergency responders design new capabilities.",
+    "theme": "Environment",
+    "importance": 7.0,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "climate change",
+      "European Union",
+      "wildfire",
+      "heat wave"
+    ],
+    "url": "news/climate-change/2026-09-16/#eu-plans-new-firefighting-fleet-in-response-to-deadly-summer-heat-waves",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/09/eu-plans-new-firefighting-fleet-after-deadly-summer-heat-wave/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "More than 35,000 additional deaths from heat waves across EU",
+      "Major rivers dried: Danube, Rhine, La Garonne",
+      "Hundreds of thousands fled homes in France and Spain",
+      "Nuclear reactors shut down in Hungary and France",
+      "EU warming at double the global average rate"
+    ],
+    "researched": true,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "eu-plans-new-firefighting-fleet-in-response-to-deadly-summer-heat-waves",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3224,88 +3225,6 @@
   },
   {
     "date": "2026-09-16",
-    "event_id": "study-reveals-widespread-violence-affects-majority-of-us-adults",
-    "title": "Study Reveals Widespread Violence Affects Majority of US Adults",
-    "summary": "A national study finds that over half of US adults have experienced physical violence and nearly half have experienced sexual violence in their lifetimes.",
-    "theme": "Public Health",
-    "importance": 7,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "violence",
-      "US adults",
-      "health impacts",
-      "epidemiology",
-      "public health"
-    ],
-    "url": "news/science/2026-09-16/#study-reveals-widespread-violence-affects-majority-of-us-adults",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-violence-affects-millions-links-health.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T10:23:09.076139+00:00",
-    "lineage_id": "study-reveals-widespread-violence-affects-majority-of-us-adults",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
-    "event_id": "acronis-patches-high-severity-vulnerability-in-cpanel-backup-plugin",
-    "title": "Acronis Patches High-Severity Vulnerability in cPanel Backup Plugin",
-    "summary": "A high-severity security flaw (CVE-2026-87886, CVSS 7.8) in Acronis's Backup plugin for cPanel and WHM has been exploited in the wild due to insecure file permissions.",
-    "theme": "Security",
-    "importance": 7.0,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Acronis",
-      "CVE-2024-87886",
-      "CVE-2026-87886",
-      "cPanel",
-      "privilege escalation",
-      "vulnerability"
-    ],
-    "url": "news/security/2026-09-16/#acronis-patches-high-severity-vulnerability-in-cpanel-backup-plugin",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/",
-        "origin": "rss"
-      },
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-16T15:39:41.349579+00:00",
-    "lineage_id": "acronis-patches-high-severity-vulnerability-in-cpanel-backup-plugin",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
     "event_id": "nasas-roman-space-telescope-begins-initial-instrument-activation",
     "title": "NASA's Roman Space Telescope begins initial instrument activation",
     "summary": "NASA has started powering on instruments aboard the Roman Space Telescope as it travels toward its operational orbit a million miles from Earth.",
@@ -3350,7 +3269,7 @@
     "date": "2026-09-16",
     "event_id": "nasa-leverages-ai-to-advance-space-exploration-programs",
     "title": "NASA leverages AI to advance space exploration programs",
-    "summary": "NASA administrator reveals the agency is using artificial intelligence to enhance space exploration capabilities.",
+    "summary": "NASA administrator reveals plans to use artificial intelligence to enhance space exploration efforts.",
     "theme": "Space",
     "importance": 7,
     "topics": [
@@ -3361,8 +3280,8 @@
     ],
     "primary_feed": "science",
     "keywords": [
-      "NASA",
       "AI",
+      "NASA",
       "space exploration"
     ],
     "url": "news/space/2026-09-16/#nasa-leverages-ai-to-advance-space-exploration-programs",
@@ -3375,7 +3294,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "nasa-leverages-ai-to-advance-space-exploration-programs",
     "related_title": "",
     "related_url": "",
@@ -3585,49 +3504,6 @@
   },
   {
     "date": "2026-09-16",
-    "event_id": "apple-considers-returning-to-server-manufacturing-with-nvidia-partnership",
-    "title": "Apple considers returning to server manufacturing with Nvidia partnership",
-    "summary": "Apple is exploring a return to the server market by potentially partnering with Nvidia, aiming to capitalize on AI compute demand. A potential launch in 2029 could use two or four M8 Ultra chips with Nvidia's NVLink Fusion technology, though plans remain subject to change.",
-    "theme": "Hardware",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Apple",
-      "servers",
-      "Nvidia",
-      "AI infrastructure",
-      "Xserve"
-    ],
-    "url": "news/tech/2026-09-16/#apple-considers-returning-to-server-manufacturing-with-nvidia-partnership",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Apple considering server product launch as early as 2029",
-      "Potential design uses two or four M8 Ultra chips per unit",
-      "M8 generation has not yet been released; M6 announced August 2026",
-      "Exploring partnership with Nvidia for NVLink Fusion technology"
-    ],
-    "researched": true,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
-    "lineage_id": "apple-considers-returning-to-server-manufacturing-with-nvidia-partnership",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-16",
     "event_id": "ai-technique-improves-minimally-invasive-surgical-navigation-using-x-rays",
     "title": "AI technique improves minimally invasive surgical navigation using X-rays",
     "summary": "MIT researchers developed XVR, a patient-specific AI technique that matches X-rays captured during surgery with preoperative 3D medical scans in seconds with sub-millimeter precision. The system generates thousands of synthetic X-rays from a single preoperative scan to improve real-time surgical navigation in minimally invasive procedures.",
@@ -3685,7 +3561,7 @@
     "date": "2026-09-16",
     "event_id": "novo-nordisk-partners-with-anthropic-to-accelerate-drug-discovery-using-claude-ai",
     "title": "Novo Nordisk partners with Anthropic to accelerate drug discovery using Claude AI",
-    "summary": "Danish pharmaceutical company Novo Nordisk will use Anthropic's Claude AI to accelerate its drug discovery and development processes.",
+    "summary": "Novo Nordisk A/S and Anthropic are collaborating to use Claude AI in advancing new drug development.",
     "theme": "AI Partnerships",
     "importance": 7.5,
     "topics": [
@@ -3783,11 +3659,26 @@
         "label": "Euronews.com",
         "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRExick5EM0trZzZ4dkoxU0RoTmxIVlRUUTYwcXJqNE1zWVdMbVhxTWVJV0dyalNSNGJxUXA0R2pRTEtpMDE5b3BXTzVTeHhNVTVyQTNXb21ubl9nUDZEajhWZEtMNTN3MmppazFOVmFYejRWc1VXbXVtbnNBdTVsTzBiUFdXV3VrRV9PaE92RFAyeHJxZFhnNXh2aGJROUdRdUtYV0o1eFk3WGFUMHRpTUtMYmRIQ0Nwb29vT0dR?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "R&D World",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTUJiMmVFdnRreGY4YUpGWXpab3pfdGYtTjJJLXczSHJzc2JsTG1zbkVJbkRTRDJ1N0s5bWZJX00zSHNFMEFZZTdyYmQyeFNweXNsbjlFQ3ZVVEtfZEpVejZkNTFxcUU4dWtRa3BwM2E3UnIyTGwyVEx2UUI2WndMMk5wUXB4SmhvN1IyNGc2U3JpeW1qby1ncG41c2tlZkR0QXFQejBPNA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "marketscreener.com",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ08xblFvcDhVNnhPVFplMC02aUNzOFVmSkwzSWVGUkQtcEZkUXpyY3UwenZlalU5U3M4NWM2dmJteEhBbHlqdE94QkJRd3hxVExVRjItaW8yb1RoRy1zUnZ1T04xbmE1MktwUEtVMkptM3NOR2RvTDNSNWpiU3dEcmZpSjNjTjlXTlBJLXNMU1Q1SkhzQWJhMHNYSVV6RjcycFpDWEdieW0yUk5nWnQydnVMaVJJdC1EZGFRX1pEVFhibDh5OFBWUw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "富途牛牛",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTmZmdGo3c1B0R3E0NktYQ0s2NVYzSC1wODAwNFRyMV9RTjdSMmtrXzVHMDhZZVJvbUp5dmFfc0plMlotaV8zUHU0NlJxaTEyRVd0d3NlR2ViWXk1emxXbjNjQXVIcVQ5bjlXZVlNV3UtYng1SFJKZklTN0x6a3kwcW1DUGFpM2dIZ0NvRXYydHQ0T3Y0SU0tbUFRZ1JleEx0Qnc?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "novo-nordisk-partners-with-anthropic-to-accelerate-drug-discovery-using-claude-ai",
     "related_title": "",
     "related_url": "",
@@ -3836,6 +3727,43 @@
     "related_url": "",
     "updates_title": "Russian Intelligence Uses Claude to Reverse-Engineer Military Drones and Evade Defenses",
     "updates_url": "news/anthropic/2026-09-15/#russian-intelligence-uses-claude-to-reverse-engineer-military-drones-and-evade-defenses"
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "ai-significantly-lowers-barriers-for-adversaries-targeting-us-military-experts-warn",
+    "title": "AI significantly lowers barriers for adversaries targeting US military, experts warn",
+    "summary": "Military and security experts caution that AI systems make it substantially easier for hostile actors to attack United States armed forces.",
+    "theme": "Defense",
+    "importance": 7.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "US military",
+      "adversaries",
+      "security"
+    ],
+    "url": "news/anthropic/2026-09-16/#ai-significantly-lowers-barriers-for-adversaries-targeting-us-military-experts-warn",
+    "sources": [
+      {
+        "label": "CBS News",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1bzJZYTFuNEFXTVlmMnNyc1NKYmo1Rk16YjUwM0ZrT2J2WEJIekRCUzlZb2xLVVNScVRuX1g1S0gxcFE2NmJCY2p3U3JfUGxnQTVlSy1CSmNoQ2hiZnkzMl9KaEtpdU9kendKaUdPRkFsdnNJUFphUV9qTmVXanM?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "ai-significantly-lowers-barriers-for-adversaries-targeting-us-military-experts-warn",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-16",
@@ -3960,7 +3888,7 @@
     "date": "2026-09-16",
     "event_id": "ads-have-arrived-in-chatgpt-with-implications-for-brands-and-ai-search",
     "title": "Ads have arrived in ChatGPT with implications for brands and AI search",
-    "summary": "OpenAI has begun displaying advertisements within ChatGPT to create a new revenue model for AI-powered search.",
+    "summary": "Advertisements have launched within ChatGPT, signaling a shift toward monetization through sponsored content in AI search.",
     "theme": "AI Monetization",
     "importance": 7.5,
     "topics": [
@@ -4009,11 +3937,16 @@
         "label": "trendingtopics.eu",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1nR0NYYmd2bGZ6Z0dzN3cxbUVYOTBjRWJHVDJpSWZYUTkzanNLaEVFQkJDaFhGMldBOWtsWGJ3YVV3dXZOR0NJZDJWMm5lZ3FZZTVHdlBlbjBiMWp5aDVCckpobU1YLTRwc25WYXBCbl9HY2J1ODJTWA?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "KXII",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlBjTjNLMlJxN0xRVkRnWGVMZmU1Mi1qUUE5X3J0QUpKcWxVd0Q4MlZBWklySlhERk1yc0lMNGpNVl85R3gwend3NlR1bC0wTFhsMGR5ME1wT2M2QVdERFduUGVtT1hqelNpRTg0dF9FQlFNdGdIS0hBVjNTcFBUOTdrcE4yd1Qwcm5qNUxJR1pobWJvVlppUXllRW9vUdIBsgFBVV95cUxOaDg0RHpwU081WGJFWmJ6UXhwdVk0OHR5cXBuUExNMGUyeUdvRzI0WkRYbk5NRHllemRqMV9IY29qU3NIWTdrYnRNYUVSNjRUbVlCUjFYUGgtXzFwOUQ1QmpUNV81VHZBaUxxenBUanB0WUc1WjBrWXpRUU8yWFh4S0NXYmFMRGtIeTQxZDIwQ1ZjRzEwTGRLSG9aMno5ZktURFJsUmlkbndNZ3M5SHp4UUxn?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-16T19:09:22.262355+00:00",
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
     "lineage_id": "ads-have-arrived-in-chatgpt-with-implications-for-brands-and-ai-search",
     "related_title": "",
     "related_url": "",
@@ -4394,6 +4327,43 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "astronomers-confirm-elias-2-24-b-as-youngest-known-planet-at-less-than-one-million-years-old",
+    "title": "Astronomers confirm Elias 2-24 b as youngest known planet at less than one million years old",
+    "summary": "Astronomers have confirmed a planet less than a million years old named Elias 2-24 b as the youngest known world, still forming in its natal dust and gas disk.",
+    "theme": "Space",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "exoplanet",
+      "Elias 2-24 b",
+      "planet formation",
+      "astronomy"
+    ],
+    "url": "news/science/2026-09-16/#astronomers-confirm-elias-2-24-b-as-youngest-known-planet-at-less-than-one-million-years-old",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-newfound-baby-planet-youngest-world.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "astronomers-confirm-elias-2-24-b-as-youngest-known-planet-at-less-than-one-million-years-old",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "oracle-patches-over-800-vulnerabilities-in-september-2026-security-update",
     "title": "Oracle patches over 800 vulnerabilities in September 2026 security update",
     "summary": "Oracle released 673 new security patches on September 16, 2026, addressing over 800 vulnerabilities across 17 product families, including more than 100 critical-severity flaws and over 240 remotely exploitable without authentication. E-Business Suite, Fusion Middleware, and Hyperion received the largest patch volumes.",
@@ -4613,6 +4583,44 @@
   },
   {
     "date": "2026-09-16",
+    "event_id": "windows-11-kb5124008-security-update-breaks-domain-trust-relationships-for-enterprise-users",
+    "title": "Windows 11 KB5124008 security update breaks domain trust relationships for enterprise users",
+    "summary": "Microsoft is investigating reports that the Windows 11 KB5124008 security update is breaking domain trust relationships, preventing valid domain credential authentication.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Windows 11",
+      "KB5124008",
+      "domain trust",
+      "enterprise",
+      "security update"
+    ],
+    "url": "news/security/2026-09-16/#windows-11-kb5124008-security-update-breaks-domain-trust-relationships-for-enterprise-users",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124008-update-breaks-domain-trust-for-some-users/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "windows-11-kb5124008-security-update-breaks-domain-trust-relationships-for-enterprise-users",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-16",
     "event_id": "scientists-determine-how-vampire-white-dwarfs-transform-into-neutron-stars",
     "title": "Scientists determine how vampire white dwarfs transform into neutron stars",
     "summary": "Researchers have discovered the mechanism by which vampire white dwarfs—stars feeding on companions—can transform into neutron stars under precise conditions.",
@@ -4740,6 +4748,49 @@
     "related_url": "",
     "updates_title": "AWS Middle East Cloud Infrastructure Damaged by Wartime Strikes, Some Resources Permanently Lost",
     "updates_url": "news/tech/2026-09-16/#aws-middle-east-cloud-infrastructure-damaged-by-wartime-strikes-some-resources-permanently-lost"
+  },
+  {
+    "date": "2026-09-16",
+    "event_id": "trump-administration-broadband-grants-bar-states-from-enforcing-net-neutrality-laws",
+    "title": "Trump administration broadband grants bar states from enforcing net neutrality laws",
+    "summary": "The president of the United States administration has conditioned federal broadband grants under the $42 billion BEAD program on states' agreement not to enforce net neutrality protections for up to 14 years statewide. California faces a decision on whether to accept $1.86 billion in grants while potentially forfeiting enforcement of its net neutrality law.",
+    "theme": "Policy",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "net neutrality",
+      "broadband grants",
+      "Trump administration",
+      "state regulation"
+    ],
+    "url": "news/tech/2026-09-16/#trump-administration-broadband-grants-bar-states-from-enforcing-net-neutrality-laws",
+    "sources": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "$42 billion Broadband Equity, Access, and Deployment (BEAD) program",
+      "States must exempt ISPs from net neutrality rules for up to 14 years",
+      "California offered $1.86 billion but must waive statewide net neutrality enforcement",
+      "California CPUC vote scheduled for September 16, 2026",
+      "Illinois and California had not yet finalized BEAD funding"
+    ],
+    "researched": true,
+    "received_at": "2026-09-16T22:26:41.885830+00:00",
+    "lineage_id": "trump-administration-broadband-grants-bar-states-from-enforcing-net-neutrality-laws",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-16",
