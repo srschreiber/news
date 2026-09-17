@@ -1,5 +1,109 @@
 [
   {
+    "timestamp": "2026-09-17T19:21:37.508684+00:00",
+    "mode": "daily",
+    "calls": 37,
+    "web_searches": 0,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 61260,
+        "output": 28250,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 2112,
+        "output": 736,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.2083,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 6,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 34114,
+            "output": 25139,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1598
+      },
+      "(merge-check)": {
+        "calls": 23,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 14279,
+            "output": 207,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0153
+      },
+      "(read)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 12867,
+            "output": 2904,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0274
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 2112,
+            "output": 736,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0058
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 54,
+      "Science \u2014 Climate": 36,
+      "Phys.org": 28,
+      "Google News \u2014 World": 17,
+      "Google News \u2014 Anthropic": 16,
+      "Hacker News (front page)": 16,
+      "Google News \u2014 space": 14,
+      "Google News \u2014 OpenAI GPT": 11,
+      "TechCrunch": 7,
+      "Mongabay": 5,
+      "Google News \u2014 AI models": 5,
+      "Engadget": 4,
+      "The Verge": 3,
+      "Live Science": 3,
+      "The Register": 3,
+      "Google News \u2014 cybersecurity": 3,
+      "Wired": 2,
+      "BleepingComputer": 2,
+      "STAT News": 2,
+      "The Guardian \u2014 Climate Crisis": 2,
+      "Microsoft Security Blog": 2,
+      "Google News \u2014 phishing campaigns": 2,
+      "Dark Reading": 1,
+      "SecurityWeek": 1,
+      "The Record": 1,
+      "Google News \u2014 email security": 1,
+      "Google News \u2014 PostgreSQL": 1
+    }
+  },
+  {
     "timestamp": "2026-09-17T15:45:26.276484+00:00",
     "mode": "daily",
     "calls": 43,
