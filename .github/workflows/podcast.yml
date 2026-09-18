@@ -32,7 +32,6 @@ jobs:
       - name: Generate podcast
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SERPER_DEV_API_KEY: ${{ secrets.SERPER_DEV_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python podcast.py
 

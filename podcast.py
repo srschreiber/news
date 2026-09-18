@@ -11,7 +11,10 @@ import argparse
 import datetime as dt
 import json
 import os
+import urllib.parse
 import urllib.request
+
+import feedparser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -24,7 +27,7 @@ SOURCES_FILE = ROOT / "sources.yaml"
 AUDIO_KEEP_DAYS = 5
 SCRIPT_MODEL = "claude-sonnet-5"
 SCRIPT_MAX_TOKENS = 2000
-SERPER_BUDGET = 5          # max search calls per feed
+SEARCH_BUDGET = 5          # max Google News searches per feed
 TTS_MODEL = "tts-1-hd"
 TTS_VOICE = "onyx"
 
@@ -126,23 +129,28 @@ def _format_events_for_prompt(events: list[dict], max_events: int = 12) -> str:
     return "\n".join(lines).strip()
 
 
-def _serper_search(query: str, n: int = 3) -> list[dict]:
-    """Search Google News via Serper.dev. Returns [{title, url, snippet}]."""
-    key = os.environ.get("SERPER_DEV_API_KEY", "")
-    if not key:
-        return []
-    body = json.dumps({"q": query, "num": n}).encode()
-    req = urllib.request.Request(
-        "https://google.serper.dev/news",
-        data=body,
-        headers={"X-API-KEY": key, "Content-Type": "application/json"},
-        method="POST",
-    )
+GOOGLE_NEWS_RSS = "https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en"
+
+
+def _gnews_search(query: str, n: int = 3) -> list[dict]:
+    """Search Google News via its free RSS search endpoint. Returns
+    [{title, url, snippet}] where snippet is the outlet name (the RSS carries no
+    summary text). Never raises — [] on any failure."""
+    url = GOOGLE_NEWS_RSS.format(q=urllib.parse.quote_plus(query.strip()))
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            result = json.loads(resp.read())
-        return [{"title": r["title"], "url": r["link"], "snippet": r.get("snippet", "")}
-                for r in result.get("news", [])]
+        parsed = feedparser.parse(url)
+        hits = []
+        for entry in list(getattr(parsed, "entries", []))[:n]:
+            entry = dict(entry)
+            title = (entry.get("title") or "").strip()
+            link = (entry.get("link") or "").strip()
+            src = entry.get("source")
+            outlet = src.get("title", "").strip() if isinstance(src, dict) else ""
+            if outlet and title.endswith(f" - {outlet}"):
+                title = title[: -len(outlet) - 3].rstrip()
+            if title and link:
+                hits.append({"title": title, "url": link, "snippet": outlet})
+        return hits
     except Exception:
         return []
 
@@ -192,7 +200,7 @@ def _generate_script(feed: dict, events: list[dict], date: str) -> str:
         feed_title=feed["title"],
         date=date,
         word_target="400–600",
-        search_budget=SERPER_BUDGET,
+        search_budget=SEARCH_BUDGET,
         event_text=event_text,
     )
     messages: list[dict] = [{"role": "user", "content": prompt}]
@@ -217,13 +225,14 @@ def _generate_script(feed: dict, events: list[dict], date: str) -> str:
             tool_results = []
             for block in response.content:
                 if block.type == "tool_use" and block.name == "search":
-                    if searches_used < SERPER_BUDGET:
-                        hits = _serper_search(block.input.get("query", ""), n=3)
+                    if searches_used < SEARCH_BUDGET:
+                        hits = _gnews_search(block.input.get("query", ""), n=3)
                         result_text = "\n".join(
-                            f"- {h['title']}: {h['snippet']}" for h in hits
+                            f"- {h['title']} ({h['snippet']})" if h["snippet"] else f"- {h['title']}"
+                            for h in hits
                         ) or "No results found."
                         searches_used += 1
-                        _log(f"  search [{searches_used}/{SERPER_BUDGET}]: {block.input.get('query','')[:60]}")
+                        _log(f"  search [{searches_used}/{SEARCH_BUDGET}]: {block.input.get('query','')[:60]}")
                     else:
                         result_text = "Search budget exhausted — please write the script with information you have."
                     tool_results.append({

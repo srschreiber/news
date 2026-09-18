@@ -139,3 +139,41 @@ def test_build_podcast_page_omits_feed_with_no_audio(tmp_path):
     page = p._build_podcast_page(audio_dir=tmp_path / "audio", date="2026-08-14")
     assert "World" in page
     assert "Technology" not in page
+
+
+# --- google news search (replaces Serper) ---------------------------------- #
+class _Entry(dict):
+    def __getattr__(self, k):
+        return self[k]
+
+
+def test_gnews_search_parses_hits_and_strips_outlet_suffix(monkeypatch):
+    import podcast as p
+    seen = {}
+    def fake_parse(url):
+        seen["url"] = url
+        class F:
+            entries = [_Entry({"title": "Big story - Reuters",
+                               "link": "https://news.google.com/rss/articles/X?oc=5",
+                               "source": {"title": "Reuters"}}),
+                       _Entry({"title": "Second", "link": "https://e.com/2"})]
+        return F()
+    monkeypatch.setattr(p.feedparser, "parse", fake_parse)
+    hits = p._gnews_search("open ai news", n=1)
+    assert "news.google.com/rss/search?q=open+ai+news" in seen["url"]
+    assert hits == [{"title": "Big story", "url": "https://news.google.com/rss/articles/X?oc=5",
+                     "snippet": "Reuters"}]
+
+
+def test_gnews_search_returns_empty_on_error(monkeypatch):
+    import podcast as p
+    def boom(url):
+        raise OSError("down")
+    monkeypatch.setattr(p.feedparser, "parse", boom)
+    assert p._gnews_search("x") == []
+
+
+def test_podcast_has_no_serper():
+    import inspect
+    import podcast as p
+    assert "serper" not in inspect.getsource(p).lower()

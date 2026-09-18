@@ -928,11 +928,11 @@ def test_metrics_per_topic_and_global():
                   + rec["by_topic"]["gaming"]["estimated_cost_usd"])) < 1e-6
 
 
-# --- serper ---------------------------------------------------------------- #
+# --- google news search / redirect decoding ------------------------------- #
 class _FakeResp:
     def __init__(self, body: bytes):
         self._body = body
-    def read(self):
+    def read(self, *a):
         return self._body
     def __enter__(self):
         return self
@@ -940,24 +940,106 @@ class _FakeResp:
         return False
 
 
-def test_check_serper_credits_reads_balance(monkeypatch):
-    monkeypatch.setenv("SERPER_DEV_API_KEY", "k")
-    monkeypatch.setattr(g.urllib.request, "urlopen",
-                        lambda req, timeout=0: _FakeResp(b'{"balance":-3,"rateLimit":5}'))
-    assert g._check_serper_credits() == -3
+class _Entry(dict):
+    """feedparser entries are dicts with attribute access."""
+    def __getattr__(self, k):
+        return self[k]
 
 
-def test_serper_search_surfaces_error_body_without_key(monkeypatch):
-    import io
-    import urllib.error
-    monkeypatch.setenv("SERPER_DEV_API_KEY", "SECRETKEY")
-    def boom(req, timeout=0):
-        raise urllib.error.HTTPError(
-            req.full_url, 400, "Bad Request", {},
-            io.BytesIO(b'{"message":"Not enough credits","statusCode":400}'))
+def _fake_feed(entries):
+    class _Feed:
+        bozo = 0
+    f = _Feed(); f.entries = [_Entry(e) for e in entries]
+    return f
+
+
+def test_gnews_search_builds_query_with_date_operators_and_parses_hits(monkeypatch):
+    seen = {}
+    def fake_parse(url):
+        seen["url"] = url
+        return _fake_feed([
+            {"title": "Hackers Used Claude to Break Into OpenAI - WSJ",
+             "link": "https://news.google.com/rss/articles/CBMiAA?oc=5",
+             "source": {"href": "https://www.wsj.com", "title": "WSJ"},
+             "summary": "<a href=x>junk</a>"},
+            {"title": "No outlet suffix here",
+             "link": "https://example.com/a", "summary": ""},
+            {"title": "Third", "link": "https://example.com/c"},
+        ])
+    monkeypatch.setattr(g.feedparser, "parse", fake_parse)
+    hits = g._gnews_search("Anthropic Claude", n=2,
+                           after=dt.date(2026, 8, 1), before=dt.date(2026, 8, 3))
+    assert seen["url"].startswith("https://news.google.com/rss/search?q=")
+    assert "Anthropic+Claude+after%3A2026-08-01+before%3A2026-08-03" in seen["url"]
+    assert len(hits) == 2                       # n honoured
+    assert hits[0] == {"title": "Hackers Used Claude to Break Into OpenAI",
+                       "url": "https://news.google.com/rss/articles/CBMiAA?oc=5",
+                       "snippet": "", "source_name": "WSJ"}
+    assert hits[1]["title"] == "No outlet suffix here" and hits[1]["source_name"] == ""
+
+
+def test_gnews_search_returns_empty_on_feed_failure(monkeypatch):
+    def boom(url):
+        raise OSError("network down")
+    monkeypatch.setattr(g.feedparser, "parse", boom)
+    assert g._gnews_search("anything") == []
+
+
+def test_resolve_gnews_url_passthrough_without_network(monkeypatch):
+    def boom(*a, **k):
+        raise AssertionError("no network expected")
     monkeypatch.setattr(g.urllib.request, "urlopen", boom)
-    with pytest.raises(RuntimeError) as ei:
-        g._serper_search("anything")
-    msg = str(ei.value)
-    assert "400" in msg and "Not enough credits" in msg
-    assert "SECRETKEY" not in msg
+    assert g._resolve_gnews_url("https://example.com/story") == "https://example.com/story"
+    assert g._resolve_gnews_url("https://news.google.com/topics/abc") == "https://news.google.com/topics/abc"
+
+
+def test_resolve_gnews_url_decodes_via_batchexecute_and_caches(monkeypatch):
+    g._GNEWS_RESOLVED.clear()
+    calls = []
+    def fake_urlopen(req, timeout=0):
+        calls.append(req.full_url)
+        if "batchexecute" in req.full_url:
+            assert req.data and b"f.req=" in req.data and b"SIGVAL" in req.data and b"TSVAL" in req.data
+            return _FakeResp(b')]}\'\n\n[["wrb.fr","Fbv4je","[\\"garturlres\\",\\"https://www.apnews.com/article/x\\",null]",null,null,null,"generic"]]')
+        return _FakeResp(b'<c-wiz data-n-a-id="CBMiAA" data-n-a-sg="SIGVAL" data-n-a-ts="TSVAL"></c-wiz>')
+    monkeypatch.setattr(g.urllib.request, "urlopen", fake_urlopen)
+    gn = "https://news.google.com/rss/articles/CBMiAA?oc=5"
+    assert g._resolve_gnews_url(gn) == "https://www.apnews.com/article/x"
+    assert len(calls) == 2
+    assert g._resolve_gnews_url(gn) == "https://www.apnews.com/article/x"
+    assert len(calls) == 2                      # cached, no extra requests
+
+
+def test_resolve_gnews_url_falls_back_to_original_on_failure(monkeypatch):
+    g._GNEWS_RESOLVED.clear()
+    monkeypatch.setattr(g.urllib.request, "urlopen",
+                        lambda req, timeout=0: _FakeResp(b"<html>no attrs</html>"))
+    gn = "https://news.google.com/rss/articles/CBMiBB?oc=5"
+    assert g._resolve_gnews_url(gn) == gn
+    # A decoded value that is not an http(s) URL with a host is rejected too.
+    g._GNEWS_RESOLVED.clear()
+    def bad(req, timeout=0):
+        if "batchexecute" in req.full_url:
+            return _FakeResp(b'[["wrb.fr","Fbv4je","[\\"garturlres\\",\\"javascript://evil\\"]"]]')
+        return _FakeResp(b'<c-wiz data-n-a-sg="s" data-n-a-ts="t"></c-wiz>')
+    monkeypatch.setattr(g.urllib.request, "urlopen", bad)
+    assert g._resolve_gnews_url(gn) == gn
+
+
+def test_fetch_page_text_resolves_google_news_links(monkeypatch):
+    fetched = []
+    monkeypatch.setattr(g, "_resolve_gnews_url",
+                        lambda u: "https://real.example/a" if "news.google" in u else u)
+    def fake_urlopen(req, timeout=0):
+        fetched.append(req.full_url)
+        return _FakeResp(b"<html><body><p>Real article text here.</p></body></html>")
+    monkeypatch.setattr(g.urllib.request, "urlopen", fake_urlopen)
+    text = g._fetch_page_text("https://news.google.com/rss/articles/CBMiAA?oc=5")
+    assert fetched == ["https://real.example/a"]
+    assert text == "Real article text here."
+
+
+def test_no_serper_left():
+    import inspect
+    src = inspect.getsource(g)
+    assert "serper" not in src.lower()

@@ -24,7 +24,6 @@ import sys
 import threading
 import time
 import unicodedata
-import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -91,13 +90,13 @@ EVENTS_PER_TOPIC = 10                   # events shown in each topic's doc
 RESEARCH_BUDGET_PER_TOPIC = 4           # events researched per SUBFEED (topic), not per feed —
                                         # every subfeed gets guaranteed research depth instead of
                                         # a few feed-wide "winners" starving the rest.
-MIN_RESEARCH_IMPORTANCE = 7             # full Serper+web research threshold (1-10)
+MIN_RESEARCH_IMPORTANCE = 7             # full search+web research threshold (1-10)
 MIN_RSS_IMPORTANCE = 5                  # RSS-only read threshold for lower-importance new events
 MAX_UPDATE_RESEARCH_PER_RUN = 10       # cap RSS-only reads per run (updated + lower-importance new)
 TOP_STORIES_N = 12                      # biggest events across all topics on the home page
 MAX_TOPIC_CONCURRENCY = 4               # topics researched in parallel (cap for rate limits)
-WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + Serper fills)
-GLOBAL_SEARCH_SAFETY = 80              # max Serper searches per run (1 per event) — 19 topics x
+WEB_FETCHES_PER_EVENT = 3               # pages fetched per event (1 RSS source + search fills)
+GLOBAL_SEARCH_SAFETY = 80              # max Google News searches per run (1 per event) — 19 topics x
                                         # RESEARCH_BUDGET_PER_TOPIC already theoretical-maxes near
                                         # this; the old 40 was the actual binding constraint
 MAX_RESEARCHED_EVENTS = GLOBAL_SEARCH_SAFETY
@@ -129,7 +128,7 @@ PRICES = {
     "claude-haiku-4-5-20251001": {"input": 1.0, "output": 5.0},
     "claude-sonnet-5": {"input": 3.0, "output": 15.0},
 }
-WEB_SEARCH_COST_PER_1K = 1.0   # Serper.dev: $1 per 1,000 searches
+WEB_SEARCH_COST_PER_1K = 0.0   # Google News RSS search is free
 
 METER_FILLED = "🔥"
 METER_EMPTY = "◯"
@@ -275,7 +274,7 @@ POLISH_SCHEMA = {
 
 
 # Fallback search: when a topic clusters zero RSS events for the day, one
-# Serper search + Haiku call checks whether there's genuine news anyway.
+# Google News search + Haiku call checks whether there's genuine news anyway.
 FALLBACK_SCHEMA = {
     "type": "object",
     "properties": {
@@ -300,7 +299,7 @@ FALLBACK_SCHEMA = {
 }
 
 
-# One-off historical backfill: a date-scoped Serper search may turn up several
+# One-off historical backfill: a date-scoped Google News search may turn up several
 # distinct stories for that day, unlike the single-story FALLBACK_SCHEMA.
 BACKFILL_SCHEMA = {
     "type": "object",
@@ -911,7 +910,7 @@ def research_events(selected: list[dict], date: str) -> list[dict]:
 
 
 def research_events_rss_only(events: list[dict], date: str) -> list[dict]:
-    """Lightweight RSS-only research: no Serper, one page fetch per event.
+    """Lightweight RSS-only research: no search, one page fetch per event.
 
     Events with existing research (one_liner or takeaways) get the update
     prompt — Haiku merges old findings with the new article and returns a
@@ -1015,24 +1014,6 @@ def _load_dotenv(path: Path = ROOT / ".env") -> None:
             line = line[len("export "):]
         key, _, val = line.partition("=")
         os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
-
-
-def _check_serper_credits() -> int | None:
-    """Return Serper credit balance, or None if unavailable."""
-    key = os.environ.get("SERPER_DEV_API_KEY", "")
-    if not key:
-        return None
-    try:
-        req = urllib.request.Request(
-            "https://google.serper.dev/account",
-            headers={"X-API-KEY": key},
-        )
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            acct = json.loads(resp.read())
-            bal = acct.get("balance", acct.get("credits"))
-            return int(bal) if isinstance(bal, (int, float)) else None
-    except Exception:
-        return None
 
 
 def _write_api_status(warnings: list[str]) -> None:
@@ -1463,14 +1444,17 @@ def _is_readable(content: str, min_words: int = 50) -> bool:
     return len(words) >= min_words
 
 
+_BROWSER_UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+               "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+
+
 def _fetch_page_text(url: str) -> str:
-    """Fetch a URL and return stripped plain text, capped at WEB_FETCH_MAX_CONTENT_TOKENS tokens."""
+    """Fetch a URL and return stripped plain text, capped at WEB_FETCH_MAX_CONTENT_TOKENS tokens.
+    Google News redirect links are resolved to the publisher URL first — fetching
+    them directly returns Google's JS shell, not the article."""
     try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"},
-        )
+        url = _resolve_gnews_url(url)
+        req = urllib.request.Request(url, headers={"User-Agent": _BROWSER_UA})
         with urllib.request.urlopen(req, timeout=12) as resp:
             raw = resp.read(400_000).decode("utf-8", "ignore")
     except Exception:
@@ -1483,39 +1467,95 @@ def _fetch_page_text(url: str) -> str:
     return text[:WEB_FETCH_MAX_CONTENT_TOKENS * 4]  # ~4 chars/token
 
 
-def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]:
-    """Search Google News via Serper.dev /news endpoint (journalistic sources only).
-    `tbs` is Google's raw time-based-search operator, e.g. a custom date range:
-    "cdr:1,cd_min:8/1/2026,cd_max:8/1/2026" — used for date-scoped backfills.
-    Returns list of {title, url, snippet}."""
-    key = os.environ.get("SERPER_DEV_API_KEY", "")
-    if not key:
-        raise RuntimeError("SERPER_DEV_API_KEY not set")
-    body: dict = {"q": query, "num": n}
-    if tbs:
-        body["tbs"] = tbs
-    data = json.dumps(body).encode()
-    req = urllib.request.Request(
-        "https://google.serper.dev/news",
-        data=data,
-        headers={"X-API-KEY": key, "Content-Type": "application/json"},
-        method="POST",
-    )
+def _gnews_search(
+    query: str, n: int = 5,
+    after: dt.date | None = None, before: dt.date | None = None,
+) -> list[dict]:
+    """Search Google News via its free RSS search endpoint (journalistic sources
+    only). `after`/`before`
+    add Google's date operators for date-scoped backfills. Returns up to `n`
+    {title, url, snippet, source_name}; `url` is a Google News redirect link that
+    _fetch_page_text resolves on demand. Never raises — returns [] on failure."""
+    q = query.strip()
+    if after:
+        q += f" after:{after.isoformat()}"
+    if before:
+        q += f" before:{before.isoformat()}"
+    url = GOOGLE_NEWS_RSS.format(q=urllib.parse.quote_plus(q))
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            result = json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        # Serper returns 400 for "Not enough credits"; the body says why.
-        try:
-            body = e.read().decode(errors="replace")[:200]
-        except Exception:
-            body = ""
-        raise RuntimeError(f"HTTP {e.code}: {body or e.reason}") from None
-    return [
-        {"title": r["title"], "url": r["link"], "snippet": r.get("snippet", ""),
-         "source_name": r.get("source", "")}
-        for r in result.get("news", [])
-    ]
+        parsed = feedparser.parse(url)
+    except Exception as e:
+        log(f"google news search failed ({q[:40]}): {e}")
+        return []
+    hits: list[dict] = []
+    for entry in list(getattr(parsed, "entries", []))[:n]:
+        entry = dict(entry)
+        title = (entry.get("title") or "").strip()
+        link = (entry.get("link") or "").strip()
+        source_name = entry_outlet(entry, "")
+        # Google appends " - <Outlet>" to every headline.
+        if source_name and title.endswith(f" - {source_name}"):
+            title = title[: -len(source_name) - 3].rstrip()
+        if not title or not link:
+            continue
+        hits.append({"title": title, "url": link, "snippet": "", "source_name": source_name})
+    return hits
+
+
+_GNEWS_ARTICLE_RE = re.compile(r"^https?://news\.google\.com/rss/articles/([^/?#]+)")
+_GNEWS_RESOLVED: dict[str, str] = {}   # redirect link -> publisher URL (per run)
+
+
+def _resolve_gnews_url(url: str) -> str:
+    """Resolve a Google News RSS redirect link to the publisher's article URL.
+    Google's redirect pages are JS-only, so a plain GET never reaches the
+    article; the real URL comes from Google's own batchexecute endpoint, seeded
+    with two attributes from the redirect page (the approach used by the
+    googlenewsdecoder library). Non-Google URLs pass through untouched. On any
+    failure the original link is returned so callers degrade gracefully."""
+    m = _GNEWS_ARTICLE_RE.match(url)
+    if not m:
+        return url
+    if url in _GNEWS_RESOLVED:
+        return _GNEWS_RESOLVED[url]
+    resolved = url
+    try:
+        aid = m.group(1)
+        page_req = urllib.request.Request(
+            f"https://news.google.com/rss/articles/{aid}", headers={"User-Agent": _BROWSER_UA})
+        with urllib.request.urlopen(page_req, timeout=12) as resp:
+            # The shell is ~600KB and the attributes we need sit near its end.
+            page = resp.read(4_000_000).decode("utf-8", "ignore")
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if sg and ts:
+            inner = json.dumps([
+                "garturlreq",
+                [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1,
+                  None, None, None, None, None, 0, 1],
+                 "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                aid, ts.group(1), sg.group(1),
+            ])
+            body = urllib.parse.urlencode(
+                {"f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])}).encode()
+            req = urllib.request.Request(
+                "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=body,
+                headers={"User-Agent": _BROWSER_UA,
+                         "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+            with urllib.request.urlopen(req, timeout=12) as resp:
+                text = resp.read(200_000).decode("utf-8", "ignore")
+            found = re.search(r'\\"(https?://[^\\"]+)\\"', text)
+            if found:
+                cand = found.group(1)
+                parts = urllib.parse.urlparse(cand)
+                if parts.scheme in ("http", "https") and parts.hostname:
+                    resolved = cand
+        if resolved == url:
+            log(f"google news link unresolved: {aid[:24]}…")
+    except Exception as e:
+        log(f"google news link resolve failed: {e}")
+    _GNEWS_RESOLVED[url] = resolved
+    return resolved
 
 
 def _stage2a_fetch(
@@ -1543,11 +1583,8 @@ def _stage2a_fetch(
             if text:
                 pages.append({"url": rss_urls[0], "content": text})
         if sum(len(p["content"]) for p in pages) < 1500:
-            try:
-                hits = _serper_search(event["title"], n=5)
-                METRICS.add_searches("(read)", 1)
-            except Exception as e:
-                log(f"serper failed ({event['title'][:40]}): {e}")
+            hits = _gnews_search(event["title"], n=5)
+            METRICS.add_searches("(read)", 1)
         fetched = {p["url"] for p in pages}
         for url in (u for h in hits if (u := _clean_url(h["url"])) is not None):
             if url not in fetched and len(pages) < WEB_FETCHES_PER_EVENT:
@@ -1586,12 +1623,12 @@ def stage2a_read(event: dict, date: str, rss_only: bool = False,
                  existing_context: dict | None = None) -> dict | None:
     """Stage 2a — deterministic fetch + Haiku extraction. No tool loop.
 
-    rss_only=True: skip Serper, fetch only one RSS source URL.
+    rss_only=True: skip search, fetch only one RSS source URL.
     existing_context={summary, takeaways}: use the update prompt — Haiku merges
     existing research with new article content (updates outdated findings, adds
     new ones). Fetches the *last* source URL (newest article for updated events).
 
-    Full research path: fetches the RSS article first; only calls Serper if the
+    Full research path: fetches the RSS article first; only searches if the
     article content is thin (<1500 chars), saving the API call when the source
     already contains the full story."""
     payload, prompt, schema = _stage2a_fetch(event, date, rss_only, existing_context)
@@ -1627,10 +1664,10 @@ def _topic_fallback_query(topic: str, sources: list[dict]) -> str:
     return f"{topic_display(topic)} news"
 
 
-def _serper_discovery_items(
+def _gnews_discovery_items(
     all_topics: list[str], sources: list[dict], cfg: dict, seen: dict
 ) -> list[dict]:
-    """Run one Serper search per research-enabled topic to surface stories that
+    """Run one Google News search per research-enabled topic to surface stories that
     RSS feeds missed. Uses each topic's configured query (from sources.yaml) so
     niche subfeeds like email-security or climate-resilience get targeted searches.
     Returns synthetic items in the same shape as RSS items."""
@@ -1639,12 +1676,8 @@ def _serper_discovery_items(
         if not research_enabled(topic, cfg):
             continue
         query = _topic_fallback_query(topic, sources)
-        try:
-            hits = _serper_search(query, n=10)
-            METRICS.add_searches("(discovery)", 1)
-        except Exception as e:
-            log(f"serper discovery failed ({topic}): {e}")
-            continue
+        hits = _gnews_search(query, n=10)
+        METRICS.add_searches("(discovery)", 1)
         for i, hit in enumerate(hits):
             url = _clean_url(hit.get("url", ""))
             if not url or url in seen:
@@ -1659,7 +1692,7 @@ def _serper_discovery_items(
             items.append({
                 "id": f"disc_{topic}_{i}",
                 "source": source_name,
-                "_feed": "Serper Discovery",
+                "_feed": "Google News Discovery",
                 "_is_discovery": True,
                 "topic": topic,
                 "title": hit.get("title", "").strip(),
@@ -1671,18 +1704,14 @@ def _serper_discovery_items(
 
 def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
                           sources: list[dict]) -> dict | None:
-    """When a topic clusters zero RSS events for the day, try ONE Serper
+    """When a topic clusters zero RSS events for the day, try ONE Google News
     search to see if there's real news anyway (e.g. slow-publishing academic
     RSS feeds miss something a live news search would catch). Returns a
     synthesized, already-researched event, or None if nothing genuinely
     newsworthy turns up — callers should still fall back to "Quiet day"."""
     query = _topic_fallback_query(topic, sources)
-    try:
-        hits = _serper_search(query, n=5)
-        METRICS.add_searches("(fallback)", 1)
-    except Exception as e:
-        log(f"fallback search failed ({topic}): {e}")
-        return None
+    hits = _gnews_search(query, n=5)
+    METRICS.add_searches("(fallback)", 1)
     if not hits:
         return None
 
@@ -1740,21 +1769,17 @@ def fallback_search_event(topic: str, feeds: dict, topic_feed: dict,
 def backfill_topic_day(topic: str, date_str: str, feeds: dict, topic_feed: dict,
                        sources: list[dict], n_results: int = 8, max_pages: int = 4,
                        max_events: int = 3) -> list[dict]:
-    """One-off historical backfill: date-scoped Serper search + Haiku extraction
+    """One-off historical backfill: date-scoped Google News search + Haiku extraction
     for a topic that was quiet on `date_str` (YYYY-MM-DD). Returns 0+ synthesized,
     already-researched events shaped like fallback_search_event()'s output — a
     docs/news/<topic>/<date_str>.md write and a search-index update still need
     to happen at the call site (this is a research-only helper, no side effects)."""
     query = _topic_fallback_query(topic, sources)
     d = dt.date.fromisoformat(date_str)
-    mmddyyyy = f"{d.month}/{d.day}/{d.year}"
-    tbs = f"cdr:1,cd_min:{mmddyyyy},cd_max:{mmddyyyy}"
-    try:
-        hits = _serper_search(query, n=n_results, tbs=tbs)
-        METRICS.add_searches("(backfill)", 1)
-    except Exception as e:
-        log(f"backfill search failed ({topic} {date_str}): {e}")
-        return []
+    # Google's after:/before: are exclusive-ish; bracket the day by one on each side.
+    hits = _gnews_search(query, n=n_results,
+                         after=d - dt.timedelta(days=1), before=d + dt.timedelta(days=1))
+    METRICS.add_searches("(backfill)", 1)
     if not hits:
         return []
 
@@ -1971,7 +1996,7 @@ def _load_today_events(state: dict, date: str) -> list[dict]:
 
 
 def _load_fallback_tried(state: dict, date: str) -> set[str]:
-    """Topics already attempted for the once-per-day Serper fallback search
+    """Topics already attempted for the once-per-day Google News fallback search
     today (regardless of whether they found anything) — avoids re-searching
     the same quiet topic on every hourly run."""
     stored = state.get("fallback_tried")
@@ -3348,12 +3373,12 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     all_stored = _load_today_events(state, date)
     fallback_tried = _load_fallback_tried(state, date)
 
-    # Serper discovery: one search per feed to catch stories RSS missed.
+    # Google News discovery: one search per feed to catch stories RSS missed.
     # Results are synthetic items in the same format as RSS items.
     if not no_research:
-        disc = _serper_discovery_items(all_topics, sources, cfg, seen)
+        disc = _gnews_discovery_items(all_topics, sources, cfg, seen)
         if disc:
-            log(f"serper discovery: +{len(disc)} items across {len(all_topics)} topic(s)")
+            log(f"google news discovery: +{len(disc)} items across {len(all_topics)} topic(s)")
             items = items + disc
 
     # Stage 1: one unified clustering pass over all feeds.
@@ -3404,13 +3429,13 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
             _write_api_status([])
             return
 
-    # Truly-new events: full Serper + web-fetch + Haiku read + Haiku polish.
+    # Truly-new events: full search + web-fetch + Haiku read + Haiku polish.
     selected = select_research(truly_new, feeds, cfg, no_research=no_research)
     log(f"researching {len(selected)} new events")
     enriched = research_events(selected, date)
     all_events = merge_enrichment(all_events, enriched)
 
-    # Updated events: RSS-only (no Serper, no polish) — just read the linked
+    # Updated events: RSS-only (no search, no polish) — just read the linked
     # article to pick up new facts. Existing takeaways are preserved by
     # merge_enrichment since RSS-only reads don't include a "takeaways" key.
     update_candidates = sorted(
@@ -3423,7 +3448,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
         all_events = merge_enrichment(all_events, update_reads)
 
     # Lower-importance new events (MIN_RSS_IMPORTANCE ≤ importance < MIN_RESEARCH_IMPORTANCE):
-    # RSS-only read for key findings — no Serper cost, just one page fetch per event.
+    # RSS-only read for key findings — no search, just one page fetch per event.
     selected_ids = {id(e) for e in selected}
     rss_new = [e for e in truly_new
                if id(e) not in selected_ids
@@ -3444,7 +3469,7 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
         all_events = _cross_topic_dedup(all_events)
 
     # Per-topic docs: write all topics to docs/news/. A topic with zero RSS
-    # events gets ONE Serper-backed fallback search per day (not no_research,
+    # events gets ONE Google News fallback search per day (not no_research,
     # not already tried today) before it's written up as "Quiet day" — some
     # topics (e.g. slow-publishing academic feeds) miss real news that a live
     # search would catch.
@@ -3513,12 +3538,8 @@ def run_daily(dry_run: bool, no_research: bool = False, skip_if_done: bool = Fal
     rebuild_topic_pages()
     rebuild_feed_pages(feed_last_refresh=feed_last_refresh)
     record_metrics("daily", run_start)
-    # Credit monitoring — write status for site banner
-    api_warnings: list[str] = []
-    serper_credits = _check_serper_credits()
-    if serper_credits is not None and serper_credits < 100:
-        api_warnings.append(f"Serper: {serper_credits} credits remaining — running low")
-    _write_api_status(api_warnings)
+    # API status for the site banner (no paid search API to monitor any more).
+    _write_api_status([])
     log("daily run complete")
 
 
