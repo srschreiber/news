@@ -1240,6 +1240,50 @@
   },
   {
     "date": "2026-09-18",
+    "event_id": "t-mobile-customers-targeted-with-fake-rewards-expiry-phishing-texts",
+    "title": "T-Mobile Customers Targeted with Fake Rewards Expiry Phishing Texts",
+    "summary": "Cybercriminals are using fraudulent T-Mobile rewards expiration messages to direct users to phishing sites.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "SMS",
+      "SMS scam",
+      "T-Mobile",
+      "phishing",
+      "scam",
+      "social engineering"
+    ],
+    "url": "news/email-security/2026-09-18/#t-mobile-customers-targeted-with-fake-rewards-expiry-phishing-texts",
+    "sources": [
+      {
+        "label": "gbhackers.com",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJZFFDcGpmdjU2bnBsYkhRT1I0RV9IZVp3S1JMRHRTVTlzSE9lSkxwTVRreDdsSFJfUlg0Vld4TUQwQU1FOHpMSldLSV9kN19YNUtrRDFjT2TSAV5BVV95cUxOdWctbHZVVGQzUkNLOUNOejMxQjJ4M1hGV3dUU3BheVJjUVRYckNqam94T3BvZzkwbm5RcFc3LUZaUVNhR1BaNVRpbDNnV1BCemRvcWpJcURZZjZ3N3B3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ERUh4T2ZqeEVnRk90WXoxaGJSWDR3akF3NmFEZXBIQkNDRmxtWW15VUppaEJ6cFFnZjhmLUFGaXZVTFJIVUFtQTQtSVNTRWtyamd1RGtMWXZOVERXQ3Fxb3dB0gFnQVVfeXFMT2tFdHBDdERYRzFLQmJKU3NDczFscURWV2lHUkIwRGN4cE9NSm4tckc3clFBMGJmLURQMVVhMElfNE5ETndVam1aU2RDSXdEOTlKZ1A4YXQ3OEtyRlVuU0dKakR1Yk5Dbw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
+    "lineage_id": "t-mobile-rewards-points-expiry-texts-used-in-active-phishing-scam",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "T-Mobile Rewards Points Expiry Texts Used in Active Phishing Scam",
+    "updates_url": "news/email-security/2026-09-17/#t-mobile-rewards-points-expiry-texts-used-in-active-phishing-scam"
+  },
+  {
+    "date": "2026-09-18",
     "event_id": "phishing-campaign-targets-openai-accounts-both-work-and-personal-credentials",
     "title": "Phishing Campaign Targets OpenAI Accounts, Both Work and Personal Credentials",
     "summary": "Attackers are conducting targeted phishing campaigns designed to harvest credentials from both work and personal OpenAI accounts.",
@@ -1270,43 +1314,6 @@
     "researched": false,
     "received_at": "2026-09-18T15:17:56.169341+00:00",
     "lineage_id": "phishing-campaign-targets-openai-accounts-both-work-and-personal-credentials",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-18",
-    "event_id": "abnormal-ai-expands-email-security-platform-with-data-protection-and-phishing-simulation-training",
-    "title": "Abnormal AI expands email security platform with data protection and phishing simulation training",
-    "summary": "Abnormal AI enhances its email security offering with data protection capabilities and user training against phishing.",
-    "theme": "Email Security",
-    "importance": 6,
-    "topics": [
-      "email-security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Abnormal AI",
-      "email security",
-      "data protection",
-      "security training"
-    ],
-    "url": "news/email-security/2026-09-18/#abnormal-ai-expands-email-security-platform-with-data-protection-and-phishing-simulation-training",
-    "sources": [
-      {
-        "label": "Help Net Security",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUF9PZVZkc2t2dnZ2dzR3TmVyUVRmLWpHTlJhZE9RcWFreTl4dGJmQUJGemR6VHBhTTZoeTJHOGd5YlJlWXhhbEFZNmVNaWFtUXJQNVFuS0VidEYxSDZHWUN1RUpjVHNCbDNKeHNTQk9GS21NazFGZG14a19LT1BKNmE5eGN3YmZlbG8xQWRiZU5kcWs?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-18T16:27:01.252716+00:00",
-    "lineage_id": "abnormal-ai-expands-email-security-platform-with-data-protection-and-phishing-simulation-training",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1736,97 +1743,6 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
-  },
-  {
-    "date": "2026-09-18",
-    "event_id": "anthropic-adds-document-and-slide-creation-tools-to-claude-platform",
-    "title": "Anthropic adds document and slide creation tools to Claude platform",
-    "summary": "Anthropic expanded Claude's capabilities by introducing integrated document editing and slide presentation tools, transforming it into a productivity suite.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude",
-      "Anthropic",
-      "office tools",
-      "Docs",
-      "Slides"
-    ],
-    "url": "news/anthropic/2026-09-18/#anthropic-adds-document-and-slide-creation-tools-to-claude-platform",
-    "sources": [
-      {
-        "label": "Techzine Global",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTENUV2NTQ3pnOXZ6WUdISHhkTUk4bVdaTjhXZnZGUnpDNzc2MU42QWRFQ1VsT2ljclBLdldyeWdxcjZNYXRNSkxaNzF3OWFNUEZmV3NfSFo5c180LUFTYWpDNWRjVXkzS25oVkstOXlqZHBHV1pXYWxzTWNRSTdmWGp3Rk5ZbFJNQmduZkt4dnZKZ1ZfaUUySDJ6eDJEcUE3dGRiWkJhOWFBOXZ2OFNCNQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-18T10:08:45.994619+00:00",
-    "lineage_id": "anthropic-unifies-claude-interface-and-launches-document-tools",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic launches Docs and Slides features for Claude AI",
-    "updates_url": "news/anthropic/2026-09-17/#anthropic-launches-docs-and-slides-features-for-claude-ai"
-  },
-  {
-    "date": "2026-09-18",
-    "event_id": "anthropic-reports-claude-leads-26-of-its-ai-research-work",
-    "title": "Anthropic Reports Claude Leads 26% of Its AI Research Work",
-    "summary": "Anthropic announced that its Claude AI model is now leading approximately 26% of the company's artificial intelligence research and development efforts.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "AI research",
-      "R&D",
-      "artificial intelligence"
-    ],
-    "url": "news/anthropic/2026-09-18/#anthropic-reports-claude-leads-26-of-its-ai-research-work",
-    "sources": [
-      {
-        "label": "the-decoder.com",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmwwTWhFa1Nvd25hNjgxSTIyVjRydTA0TkMtV3dqd0ZHLS1Eb3BRd1o2UWNnRV9xb2NxbnJSVGJDR0w1aUJoVjJjdHBIOThlV0VQaTk4S05qeTNQM2NBRkxxc25RcnlzYnlVWGl4blp1UVNYTG5jY3Bwbi0xc1ppQVZITG1vZDJ4anZkQ3poMGszbHVjZmxDWjY3YkMzbzBvd0xvNS1yVkkyV1prX3B4YVRDMEZndjFsMExwblVkQ2VJM0g2R1E?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "qz.com",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81UHJWamNEeUZmdTRTdkRpZHBqdzdicFYxNDltSWdsZnlUTU01a2JocnFiZzdIVUdTOXp5WVA0b0tFUktabktPSW91b3A5aFkzc3FQalE2RnFhd0hsLUw3WURFZ2Rpbzc1YzdST3ZibVUtVmJaN1MxalNHaEJrUQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "CEO Today",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHdFdC1uQmJUMVFOakJ4MnZtYmhPelpqUDFHMmJmczU5amRKakhWS014a3pyMTJaSGJMSWZmWUV2Rk1NR0JYdlh0MXlWaUNGWmZGYnR5WlhVWXdjdUY5bFZsLTBnWkNqOXRfOUxSUDRBMUswX0FXYXVyWG5RNHA3M0xtaUdSMjg2ZE9oQ0NrR0VRaGdXLUFzZThB?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Dataconomy",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsLXBZUTRxMjVFcnVTRWx2OW9WWmZZbkhrLWRYOXFpLXlPMFFZbERNM1dscnJ3LXFTUnZnUjFQeUxzdDdBMnBxZlhtcXkwLVhtVFZWYTJBYW5tcjVTQVhkOVFaOTNvNW8zcGRjcGJ0T3VwT2VMMXVxdg?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-18T15:17:56.169341+00:00",
-    "lineage_id": "anthropic-reports-claude-drives-26-of-internal-rd",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic reports Claude drives 26% of internal R&D",
-    "updates_url": "news/anthropic/2026-09-17/#anthropic-reports-claude-drives-26-of-internal-rd"
   },
   {
     "date": "2026-09-18",
@@ -3161,9 +3077,73 @@
   },
   {
     "date": "2026-09-18",
+    "event_id": "anthropic-reports-claude-leads-26-of-its-ai-research-work",
+    "title": "Anthropic Reports Claude Leads 26% of Its AI Research Work",
+    "summary": "Anthropic reported that Claude AI now leads 26% of the company's research and development efforts, with 90% of R&D involving AI.",
+    "theme": "AI",
+    "importance": 7,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI integration",
+      "AI research",
+      "Anthropic",
+      "Claude",
+      "R&D",
+      "artificial intelligence"
+    ],
+    "url": "news/anthropic/2026-09-18/#anthropic-reports-claude-leads-26-of-its-ai-research-work",
+    "sources": [
+      {
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmwwTWhFa1Nvd25hNjgxSTIyVjRydTA0TkMtV3dqd0ZHLS1Eb3BRd1o2UWNnRV9xb2NxbnJSVGJDR0w1aUJoVjJjdHBIOThlV0VQaTk4S05qeTNQM2NBRkxxc25RcnlzYnlVWGl4blp1UVNYTG5jY3Bwbi0xc1ppQVZITG1vZDJ4anZkQ3poMGszbHVjZmxDWjY3YkMzbzBvd0xvNS1yVkkyV1prX3B4YVRDMEZndjFsMExwblVkQ2VJM0g2R1E?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "qz.com",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE81UHJWamNEeUZmdTRTdkRpZHBqdzdicFYxNDltSWdsZnlUTU01a2JocnFiZzdIVUdTOXp5WVA0b0tFUktabktPSW91b3A5aFkzc3FQalE2RnFhd0hsLUw3WURFZ2Rpbzc1YzdST3ZibVUtVmJaN1MxalNHaEJrUQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "CEO Today",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNHdFdC1uQmJUMVFOakJ4MnZtYmhPelpqUDFHMmJmczU5amRKakhWS014a3pyMTJaSGJMSWZmWUV2Rk1NR0JYdlh0MXlWaUNGWmZGYnR5WlhVWXdjdUY5bFZsLTBnWkNqOXRfOUxSUDRBMUswX0FXYXVyWG5RNHA3M0xtaUdSMjg2ZE9oQ0NrR0VRaGdXLUFzZThB?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Dataconomy",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsLXBZUTRxMjVFcnVTRWx2OW9WWmZZbkhrLWRYOXFpLXlPMFFZbERNM1dscnJ3LXFTUnZnUjFQeUxzdDdBMnBxZlhtcXkwLVhtVFZWYTJBYW5tcjVTQVhkOVFaOTNvNW8zcGRjcGJ0T3VwT2VMMXVxdg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "findarticles.com",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xRFRUS3pCVTJXSDg0VDFJMEpGNlowQjViZENOTGlnYThjQ1VnWUFvUkRsZ3NJbWlEZndPTkFKU05QcDNqVlJYV3dZMzdCd09Oc2dJQ3NSRFpwbks4VzNtbmpTOGJ1c2lGTFdQdmt1RUNCaGJNUWF3WEFwd9IBgwFBVV95cUxQN19ZWF9Sb3lQM3hDNXBqWFBVYzhrYUU0VGduai1VUzNyMFZ5SFlWZWhWNUJfMXA0akQtYmo1UUhvZktLd2paNlptV3lEd0dEVk9pUGxOb3o3QmpoQjdpaFA4d0JaSmppVUtMRnlyZlpoTVJ4Z3VVY3BhMnc5czRKTFNMWQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "VOI.id",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HZlFNaVRWVFl6REF5ZG9ic0p4MnZjOG5GQjh6LU5MSGJON0M1c29nbU9sUTZUMElmQktWUEszRUQ2N0dlSE5VSWJmZ9IBQkFVX3lxTE9hd0pQM0ozYXZJX2pfVWFZWThWUUFqTkFLenZqaHpVZlFaLWJKT1BIT0hNa0RMX2xYRlRscVBNdDhEZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
+    "lineage_id": "anthropic-reports-claude-drives-26-of-internal-rd",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic reports Claude drives 26% of internal R&D",
+    "updates_url": "news/anthropic/2026-09-17/#anthropic-reports-claude-drives-26-of-internal-rd"
+  },
+  {
+    "date": "2026-09-18",
     "event_id": "novo-nordisk-partners-with-anthropic-to-accelerate-drug-discovery-using-ai",
     "title": "Novo Nordisk Partners with Anthropic to Accelerate Drug Discovery Using AI",
-    "summary": "Novo Nordisk has partnered with Anthropic to use Claude for drug discovery to accelerate pharmaceutical development timelines.",
+    "summary": "Pharmaceutical company Novo Nordisk is leveraging Anthropic's Claude AI model to speed up its drug discovery processes.",
     "theme": "AI",
     "importance": 7.0,
     "topics": [
@@ -3174,11 +3154,11 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Novo Nordisk",
+      "AI",
       "Anthropic",
       "Claude",
+      "Novo Nordisk",
       "drug discovery",
-      "AI",
       "pharmaceutical"
     ],
     "url": "news/anthropic/2026-09-18/#novo-nordisk-partners-with-anthropic-to-accelerate-drug-discovery-using-ai",
@@ -3196,7 +3176,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-18T15:17:56.169341+00:00",
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
     "lineage_id": "novo-nordisk-partners-with-anthropic-to-accelerate-drug-discovery-using-claude-ai",
     "related_title": "",
     "related_url": "",
@@ -3256,7 +3236,7 @@
     "date": "2026-09-18",
     "event_id": "anthropic-quietly-sets-up-biology-lab-for-ai-drug-development",
     "title": "Anthropic Quietly Sets Up Biology Lab for AI Drug Development",
-    "summary": "Anthropic has quietly opened a biology laboratory to accelerate its AI-driven drug discovery and development initiatives.",
+    "summary": "Anthropic set up a new biology laboratory as it accelerates its artificial intelligence drug discovery initiative.",
     "theme": "AI",
     "importance": 7.0,
     "topics": [
@@ -3267,10 +3247,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI",
       "AI drug development",
       "AI research",
       "Anthropic",
       "biology lab",
+      "biology research",
+      "biotech",
       "drug discovery",
       "pharmaceutical research"
     ],
@@ -3289,7 +3272,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-18T17:41:59.472437+00:00",
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
     "lineage_id": "anthropic-quietly-sets-up-biology-lab-for-ai-drug-development",
     "related_title": "",
     "related_url": "",
@@ -3334,6 +3317,54 @@
     "researched": false,
     "received_at": "2026-09-18T17:41:59.472437+00:00",
     "lineage_id": "researchers-earned-6500-breaching-openai-using-claude-in-bug-bounty",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-18",
+    "event_id": "anthropic-warns-ai-could-soon-build-its-own-successors",
+    "title": "Anthropic warns AI could soon build its own successors",
+    "summary": "Anthropic reported that Claude now performs 26% of the company's AI research work as of August 2026, up from under 1% in February. While the company cautioned that AI systems may soon become capable of designing successor models, it emphasized that Claude operates under full human supervision and has not achieved autonomous self-improvement.",
+    "theme": "AI Development",
+    "importance": 7,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "AI development",
+      "recursive self-improvement",
+      "AI capabilities"
+    ],
+    "url": "news/anthropic/2026-09-18/#anthropic-warns-ai-could-soon-build-its-own-successors",
+    "sources": [
+      {
+        "label": "MWN Design Team / Anthropic coverage",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPemt4THJqbERQTllXZ3p5RGNkZG85Zmc4MWU2M3duS3JWb1FOZXN6SF9JcURJMzhHRll5SWYtQkRZQlpzSXgzQ291VzhqNVA2cnhIMTJfVnhMNlU0TTZ2cHZCdWdfWEZpWlF4eDhzTTVINl9VclRrVUhHZm50eVEzUHAycW9qX2NKZllFTzdxTEotYTFod3hxcGJkSlo5V25GRzJtV3JqUnFINVZvT2JMNkx3?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Morocco World News",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPemt4THJqbERQTllXZ3p5RGNkZG85Zmc4MWU2M3duS3JWb1FOZXN6SF9JcURJMzhHRll5SWYtQkRZQlpzSXgzQ295VzhqNVA2cnhIMTJfVnhMNlU0TTZ2cHZCdWdfWEZpWlF4eDhzTTVINl9VclRrVUhHZm50eVEzUHAycW9qX2NKZllFTzdxTEotYTFod3hxcGJkSlo5V25GRzJtV3JqUnFINVZvT2JMNkx3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Claude performs 26% of Anthropic's AI R&D as of August 2026, up from <1% in February",
+      "Over 90% of Anthropic's AI R&D now involves Claude in a collaborative role",
+      "Engineers merge 8× more code daily than in 2024, much written by Claude",
+      "Anthropic CEO calls for slowing capability development and independent safety evaluators",
+      "Anthropic researchers estimate 10%+ likelihood of AI causing human extinction within decade"
+    ],
+    "researched": true,
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
+    "lineage_id": "anthropic-warns-ai-could-soon-build-its-own-successors",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3964,50 +3995,6 @@
   },
   {
     "date": "2026-09-18",
-    "event_id": "check-point-kaspersky-tanium-release-patches-for-critical-vulnerabilities",
-    "title": "Check Point, Kaspersky, Tanium release patches for critical vulnerabilities",
-    "summary": "Check Point, Kaspersky, and Tanium released security patches on September 17–18 addressing critical vulnerabilities including unauthenticated remote code execution, SQL injection flaws, and improper access controls in their security and endpoint management products.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Check Point",
-      "Kaspersky",
-      "Tanium",
-      "critical vulnerability",
-      "RCE",
-      "security patch"
-    ],
-    "url": "news/security/2026-09-18/#check-point-kaspersky-tanium-release-patches-for-critical-vulnerabilities",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/check-point-kaspersky-tanium-patch-product-vulnerabilities/",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Check Point CVE-2026-91843: unauthenticated RCE with root privileges",
-      "Tanium: two high-severity SQL injection flaws in Asset, SSRF and access control issues in Threat Response",
-      "Kaspersky: Redis vulnerability in Security 10 for Linux Mail Server",
-      "Check Point reports no in-the-wild exploitation evidence"
-    ],
-    "researched": true,
-    "received_at": "2026-09-18T10:08:45.994619+00:00",
-    "lineage_id": "check-point-kaspersky-tanium-release-patches-for-critical-vulnerabilities",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-18",
     "event_id": "nasa-astronomers-discover-youngest-planet-ever-detected",
     "title": "NASA Astronomers Discover Youngest Planet Ever Detected",
     "summary": "NASA astronomers identified an exoplanet that is the youngest planetary body ever discovered, shedding light on early planet formation processes.",
@@ -4117,49 +4104,6 @@
     "researched": true,
     "received_at": "2026-09-18T10:08:45.994619+00:00",
     "lineage_id": "waymo-to-launch-robotaxi-service-in-singapore-by-2028",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-18",
-    "event_id": "mazama-energy-raises-135m-to-develop-superhot-geothermal-power",
-    "title": "Mazama Energy Raises $135M to Develop Superhot Geothermal Power",
-    "summary": "Mazama Energy secured $135 million to develop superhot rock geothermal wells reaching 750°F at 15,000 feet depth. Using supercritical water, each well can generate up to 15 megawatts—roughly ten times more than traditional geothermal—with electricity generation targeted for 2027.",
-    "theme": "Energy",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "geothermal",
-      "Mazama Energy",
-      "renewable energy",
-      "funding"
-    ],
-    "url": "news/tech/2026-09-18/#mazama-energy-raises-135m-to-develop-superhot-geothermal-power",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "$135 million Series B funding",
-      "Rock temperature of 750°F (400°C) at 15,000 feet depth",
-      "Each well produces up to 15 megawatts; ten times more than traditional geothermal",
-      "First site projected to yield 200 megawatts by 2030 (up from previous 10 GW estimate)",
-      "Electricity generation planned for 2027"
-    ],
-    "researched": true,
-    "received_at": "2026-09-18T10:08:45.994619+00:00",
-    "lineage_id": "mazama-energy-raises-135m-to-develop-superhot-geothermal-power",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5741,6 +5685,49 @@
   },
   {
     "date": "2026-09-18",
+    "event_id": "wordpress-click2shell-vulnerability-allows-forced-theme-installation-and-code-execution",
+    "title": "WordPress Click2Shell vulnerability allows forced theme installation and code execution",
+    "summary": "WordPress patched a critical vulnerability called Click2Shell that allows crafted URLs to force theme installation from the WordPress directory without user interaction. Security researchers demonstrated the flaw can be chained with other vulnerabilities to achieve server code execution, though no active exploitation has been reported.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "WordPress",
+      "vulnerability",
+      "code execution",
+      "Click2Shell"
+    ],
+    "url": "news/security/2026-09-18/#wordpress-click2shell-vulnerability-allows-forced-theme-installation-and-code-execution",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Click2Shell vulnerability affects WordPress 6.0 through 7.1.0",
+      "Fixed in WordPress 7.1.1 released September 17, 2026",
+      "Forced theme install rated high (CVSS 7.1); chained with other flaw reaches critical (CVSS 9.6)",
+      "Requires logged-in administrator to open malicious link",
+      "No active exploitation reported; patches available for versions 4.7 and later"
+    ],
+    "researched": true,
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
+    "lineage_id": "wordpress-click2shell-vulnerability-allows-forced-theme-installation-and-code-execution",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-18",
     "event_id": "openai-internal-repositories-compromised-via-heap-overflow-and-sso-misconfiguration",
     "title": "OpenAI Internal Repositories Compromised via Heap Overflow and SSO Misconfiguration",
     "summary": "Security researchers exploited a heap overflow in an image decoder and SSO misconfiguration to breach OpenAI's internal code repositories, accessing employee accounts and the internal monorepo. The full exploit chain took under 72 hours; both OpenAI and Discourse patched within two months after disclosure on July 25.",
@@ -5783,6 +5770,47 @@
     "researched": true,
     "received_at": "2026-09-18T10:08:45.994619+00:00",
     "lineage_id": "openai-internal-repositories-compromised-via-heap-overflow-and-sso-misconfiguration",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-18",
+    "event_id": "us-military-used-ai-that-hallucinated-false-intelligence-about-china",
+    "title": "US Military used AI that hallucinated false intelligence about China",
+    "summary": "The US military based an intelligence report on AI-generated hallucinations about a Chinese naval vessel, nearly triggering a serious incident before the error was caught. The incident underscores critical risks of deploying AI systems in military intelligence, particularly their tendency to fabricate plausible-sounding false information.",
+    "theme": "AI Risk",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI hallucination",
+      "military intelligence",
+      "China",
+      "AI reliability"
+    ],
+    "url": "news/tech/2026-09-18/#us-military-used-ai-that-hallucinated-false-intelligence-about-china",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "AI hallucinations generated false naval intelligence",
+      "Incident nearly escalated before being averted",
+      "Highlights AI reliability risks in military operations"
+    ],
+    "researched": true,
+    "received_at": "2026-09-18T18:41:39.136667+00:00",
+    "lineage_id": "us-military-used-ai-that-hallucinated-false-intelligence-about-china",
     "related_title": "",
     "related_url": "",
     "updates_title": "",

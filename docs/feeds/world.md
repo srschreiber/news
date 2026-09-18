@@ -1,6 +1,6 @@
 # World (20)
 
-_Feed <time class="feed-refresh" datetime="2026-09-18T17:41:59.472437+00:00">refreshed 17:41 UTC</time>._
+_Feed <time class="feed-refresh" datetime="2026-09-18T18:41:39.136667+00:00">refreshed 18:41 UTC</time>._
 
 ## Top stories
 
