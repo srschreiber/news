@@ -133,6 +133,23 @@ def test_select_top_k_by_importance():
 def test_front_matter_and_daily_tags():
     fm = g.front_matter(["b", "a", "a", ""])
     assert fm.startswith("---\ntags:\n") and "  - a" in fm and "  - b" in fm
+
+
+def test_front_matter_drops_whitespace_only_and_non_string_tags():
+    # A whitespace-only keyword from the model produced "  -  " in YAML, which
+    # mkdocs' tags plugin rejects (NoneType tag) and aborts the whole build.
+    fm = g.front_matter([" ", "\t", None, "  a  ", "b"])
+    assert fm == "---\ntags:\n  - a\n  - b\n---\n"
+    assert g.front_matter([" ", ""]) == ""
+
+
+def test_normalize_keywords_strips_and_drops_blank():
+    ev = {"title": "t", "keywords": [" a ", "", "  ", None, "b"]}
+    g._normalize_keywords(ev)
+    assert ev["keywords"] == ["a", "b"]
+    ev2 = {"title": "t"}
+    g._normalize_keywords(ev2)
+    assert ev2["keywords"] == []
     tags = g.daily_tags([{"keywords": ["Postgres"], "theme": "Databases"}], "2026-07-24", "postgres")
     assert set(tags) >= {"2026", "2026-07", "postgres", "Postgres", "Databases"}
 
@@ -909,3 +926,38 @@ def test_metrics_per_topic_and_global():
     assert abs(rec["estimated_cost_usd"]
                - (rec["by_topic"]["ai"]["estimated_cost_usd"]
                   + rec["by_topic"]["gaming"]["estimated_cost_usd"])) < 1e-6
+
+
+# --- serper ---------------------------------------------------------------- #
+class _FakeResp:
+    def __init__(self, body: bytes):
+        self._body = body
+    def read(self):
+        return self._body
+    def __enter__(self):
+        return self
+    def __exit__(self, *a):
+        return False
+
+
+def test_check_serper_credits_reads_balance(monkeypatch):
+    monkeypatch.setenv("SERPER_DEV_API_KEY", "k")
+    monkeypatch.setattr(g.urllib.request, "urlopen",
+                        lambda req, timeout=0: _FakeResp(b'{"balance":-3,"rateLimit":5}'))
+    assert g._check_serper_credits() == -3
+
+
+def test_serper_search_surfaces_error_body_without_key(monkeypatch):
+    import io
+    import urllib.error
+    monkeypatch.setenv("SERPER_DEV_API_KEY", "SECRETKEY")
+    def boom(req, timeout=0):
+        raise urllib.error.HTTPError(
+            req.full_url, 400, "Bad Request", {},
+            io.BytesIO(b'{"message":"Not enough credits","statusCode":400}'))
+    monkeypatch.setattr(g.urllib.request, "urlopen", boom)
+    with pytest.raises(RuntimeError) as ei:
+        g._serper_search("anything")
+    msg = str(ei.value)
+    assert "400" in msg and "Not enough credits" in msg
+    assert "SECRETKEY" not in msg

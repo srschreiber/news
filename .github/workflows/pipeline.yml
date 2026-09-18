@@ -28,6 +28,15 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # Re-running an old workflow run checks out that run's original (stale)
+      # commit; generating from it and rebasing onto main then conflicts on
+      # every generated file. Always work from the current tip of main.
+      - name: Sync to latest main
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+
       - name: Generate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

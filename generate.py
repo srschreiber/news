@@ -24,6 +24,7 @@ import sys
 import threading
 import time
 import unicodedata
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -946,7 +947,9 @@ def research_events_rss_only(events: list[dict], date: str) -> list[dict]:
 
 
 def front_matter(tags: Iterable[str], description: str = "", noindex: bool = False) -> str:
-    uniq = sorted({t for t in tags if t})
+    # Whitespace-only or non-string tags render as "  -  " (a YAML null), which
+    # makes mkdocs' tags plugin abort the entire site build.
+    uniq = sorted({s for t in tags if isinstance(t, str) and (s := t.strip())})
     if not uniq and not description and not noindex:
         return ""
     lines = ["---"]
@@ -976,6 +979,12 @@ def page_description(events: list[dict], topic: str, date: str) -> str:
     if len(desc) > DESCRIPTION_MAX:
         desc = desc[:DESCRIPTION_MAX - 1].rsplit(" ", 1)[0].rstrip(";,") + "…"
     return desc
+
+
+def _normalize_keywords(ev: dict) -> None:
+    """Strip model-supplied keywords in place and drop blank/non-string ones."""
+    ev["keywords"] = [s for k in ev.get("keywords") or []
+                      if isinstance(k, str) and (s := k.strip())]
 
 
 def daily_tags(events: list[dict], date: str, topic: str) -> list[str]:
@@ -1019,7 +1028,9 @@ def _check_serper_credits() -> int | None:
             headers={"X-API-KEY": key},
         )
         with urllib.request.urlopen(req, timeout=5) as resp:
-            return json.loads(resp.read()).get("credits")
+            acct = json.loads(resp.read())
+            bal = acct.get("balance", acct.get("credits"))
+            return int(bal) if isinstance(bal, (int, float)) else None
     except Exception:
         return None
 
@@ -1415,6 +1426,7 @@ def stage1_cluster(
             except json.JSONDecodeError as e:
                 log(f"stage 1 batch req {req['custom_id']} JSON parse failed: {e}")
         for ev in raw_events:
+            _normalize_keywords(ev)
             gid = ev.get("group_id")
             if gid in centroid_by_gid:
                 ev["_embedding"] = centroid_by_gid[gid]
@@ -1489,8 +1501,16 @@ def _serper_search(query: str, n: int = 5, tbs: str | None = None) -> list[dict]
         headers={"X-API-KEY": key, "Content-Type": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(req, timeout=10) as resp:
-        result = json.loads(resp.read())
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            result = json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        # Serper returns 400 for "Not enough credits"; the body says why.
+        try:
+            body = e.read().decode(errors="replace")[:200]
+        except Exception:
+            body = ""
+        raise RuntimeError(f"HTTP {e.code}: {body or e.reason}") from None
     return [
         {"title": r["title"], "url": r["link"], "snippet": r.get("snippet", ""),
          "source_name": r.get("source", "")}
