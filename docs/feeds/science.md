@@ -1,6 +1,6 @@
 # Science (24)
 
-_Feed <time class="feed-refresh" datetime="2026-09-20T18:20:57.322046+00:00">refreshed 18:20 UTC</time>._
+_Feed <time class="feed-refresh" datetime="2026-09-20T21:58:36.384940+00:00">refreshed 21:58 UTC</time>._
 
 ## Top stories
 
