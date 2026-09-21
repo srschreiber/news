@@ -110,6 +110,44 @@
   },
   {
     "date": "2026-09-21",
+    "event_id": "aws-migration-guide-for-sql-server-procedures-to-postgresql",
+    "title": "AWS migration guide for SQL Server procedures to PostgreSQL",
+    "summary": "Amazon Web Services published guidance on migrating SQL Server multi-result-set procedures to PostgreSQL databases.",
+    "theme": "Database",
+    "importance": 3.5,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AWS",
+      "SQL Server",
+      "PostgreSQL",
+      "migration",
+      "database"
+    ],
+    "url": "news/postgres/2026-09-21/#aws-migration-guide-for-sql-server-procedures-to-postgresql",
+    "sources": [
+      {
+        "label": "Amazon Web Services (AWS)",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeUlPbV9oNFRCWUN1TGRFMldSVHM4ZkM1ZDhTTzhCTjZ1dXJQSWtGWUZRZFREb1I4VzJkVUU3THFLc2laWm1xV1hscEhtZFNpalhuTUtSVGFzREt3SHlUWS1qeS1VclhRdGowbzRXLVVTeU9BcUtScDduUFM2X1ExRzRybDF3XzVMTkJBaTljSWVKSFZkakltSUFoX2J3aUJQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "aws-migration-guide-for-sql-server-procedures-to-postgresql",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
     "event_id": "national-action-plan-on-climate-change-principles-and-missions",
     "title": "National Action Plan on Climate Change: principles and missions",
     "summary": "Overview of India's National Action Plan on Climate Change framework and core principles.",
@@ -215,81 +253,6 @@
     "researched": false,
     "received_at": "2026-09-21T11:15:17.338157+00:00",
     "lineage_id": "iss-cargo-and-crew-operations-continue-with-ongoing-maintenance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "ex-openai-researcher-develops-ai-model-with-constrained-text-generation",
-    "title": "Ex-OpenAI researcher develops AI model with constrained text generation",
-    "summary": "An ex-OpenAI researcher has developed an AI model intentionally designed to have limited sentence-writing abilities.",
-    "theme": "AI",
-    "importance": 5.0,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI model",
-      "OpenAI",
-      "constraints",
-      "language generation",
-      "research"
-    ],
-    "url": "news/ai/2026-09-21/#ex-openai-researcher-develops-ai-model-with-constrained-text-generation",
-    "sources": [
-      {
-        "label": "H2S Media",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOX2FyN1I5THJYZDNUNEdSdkxnbGlEUUF5T3lvd01GZG9heXV1eTB0emlXT1BWTkd0YkRRS3JpY0EteU9yU0IwcWVzZXZhdFY0OHotYWZxWEo3ak9pSy1lWlkyUUJ4cUVoMFJGX3plTElCVkJ2?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "ex-openai-researcher-develops-ai-model-with-constrained-text-generation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "typesafe-ai-raises-40m-seed-funding-for-decision-making-ai-model",
-    "title": "TypeSafe AI raises $40M seed funding for decision-making AI model",
-    "summary": "TypeSafe AI has secured $40 million in seed funding for a new AI model designed to make decisions rather than generate text.",
-    "theme": "Funding",
-    "importance": 5,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "TypeSafe AI",
-      "seed funding",
-      "decision-making model",
-      "$40M"
-    ],
-    "url": "news/ai/2026-09-21/#typesafe-ai-raises-40m-seed-funding-for-decision-making-ai-model",
-    "sources": [
-      {
-        "label": "Wowtale",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9CdzhCbnNxazByVjV1bnBxWE53aHp4YU9aaG04eXRtMFRpNDA3ZktoWVEtd2U5bUtaT0lDcGx3UFJlcjRXTlZIbUN5NGZ1U24yd1Fr?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "typesafe-ai-raises-40m-seed-funding-for-decision-making-ai-model",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -486,51 +449,37 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "hp-stock-falls-on-weak-pc-market-outlook-for-2027",
-    "title": "HP stock falls on weak PC market outlook for 2027",
-    "summary": "HP's stock declined following guidance that the PC market will remain weak through 2027.",
-    "theme": "Markets",
+    "event_id": "admanity-secures-uspto-approval-for-primal-ai-persuasion-layer",
+    "title": "ADMANITY secures USPTO approval for PRIMAL AI persuasion layer",
+    "summary": "ADMANITY received U.S. patent approval for PRIMAL AI, a new language-model-based persuasion layer technology.",
+    "theme": "AI",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "ai"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "HP",
-      "PC market",
-      "stock",
-      "2027 outlook"
+      "ADMANITY",
+      "PRIMAL AI",
+      "USPTO",
+      "LLM",
+      "patent"
     ],
-    "url": "news/markets/2026-09-21/#hp-stock-falls-on-weak-pc-market-outlook-for-2027",
+    "url": "news/ai/2026-09-21/#admanity-secures-uspto-approval-for-primal-ai-persuasion-layer",
     "sources": [
       {
-        "label": "Investing.com Nigeria",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa1kwU1JZOEwtd1pFc1RPaGV3SDV2d051Z19LOGVpLWVaTEVEQ2l4ODdBWDdyYlVFS2R2X3NzRzJpOXFzaE5BaXZtX2ZkU2xfOE9zSVd0VTZvVzRwdlhHZTRCOTdENmV5QU9tM2ZhTGphY1hxcXM0VkNQempRV0NnZlVEbWE1alljTm5WNFA3czdJYldwRnBlQW90cENTWmpITzJCdVhMbGF3MExzcFJF?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV3pNUnFEbGZ6TGJidm9yOG03UUxkbnQ1T3JyZklNWGwzQm5NVHhaVVFvMi02b2RaVXZTT2ZLenRzTTFJSWhBZXIta21nRHk5aUIzX3JQSkZ1TERENnBVSmJONnNyV19vckVuanU5a3dlNmNuVDVYX0J4c2haZ05rdll4WjN5dkh5OW1DT2VnaDlodUtwdGFUWGVPZXh6TjBxNGFDRjZzTXQ4Z1hLbUxreA?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investing.com Australia",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONVY2bTNCd2ZOUGhKQUQ5UzFKSzBuSnlKTTFGYWdITGQtcnBGZmJ1RkFjc01SVTNlYk5Ncml0ZmFrbnd1RTlHVTgybWF2MmdDbXNFOUhZVTJySXl0ZDBjT2JGeFdMVzFXVlBEam8yaW9TdC1WWGtXVmhRR3hSRHpkcUUzdlJnVjc4QkRwNndlZG9MZlRVUlVpLTdwNUxIU2xVb1otRkhNTld5dk9HZkFN?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Investing.com UK",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNmk0SHRvSmNOT0p1MnZXNTdmQW9RTTZoTmxDY09CcmEwellkRkpnWkc0eUpoTGZhWElTR0R3V0VBbjBzeDhENDZuRUlxd0lMMG1ic2ZrWFNCdS1sWjZfTy1vbHY0MmdScURZV1pJYzZReE5SQ3pTRnFpVW5zOGF5VjUxOEdveTNrQnlOWjhGVVlfR3JrQmZ5T1lhc3Q1TmxFV0F3STdINGw2SDgyNklN?oc=5",
+        "label": "Barchart.com",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQamJERGNSVVVMNkRxam14Q1dlR0JMX2tzZldSTGgyN1pnSHhvZlFvUUtRSFMtNElHVktURWdyMUVFWUhxTDBZSWQ0X2xha2hOYnZ2MkxRaWNCcDlOYkVxWWQzMXQ3REVTWFlQb01tVEkzN3RfcVdKNjlDdFpmSlpoVWlTeTF4cUpLUHE4UVJIN0pIUTFoZkhZd0VHLWJiMTNZMC1EbmlEcl9CM2paNmhuc19VYWVMNnEzUGdoMEVNekt0RVRQcjFDQUF6Q0oxbEtibXpRcHlOTnNQNXlJUnQyV1B1TUZJUQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "hp-stock-falls-on-weak-pc-market-outlook-for-2027",
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "admanity-secures-uspto-approval-for-primal-ai-persuasion-layer",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -538,36 +487,37 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "oura-files-for-50-million-share-ipo-at-4044-per-share",
-    "title": "Oura files for 50 million share IPO at $40–$44 per share",
-    "summary": "Oura filed for a 50 million share IPO priced between $40 and $44 per share on Nasdaq.",
-    "theme": "Markets",
+    "event_id": "framework-for-assessing-wildfire-impacts-and-adaptive-responses-in-the-anthropocene",
+    "title": "Framework for Assessing Wildfire Impacts and Adaptive Responses in the Anthropocene",
+    "summary": "Scientists develop a framework for evaluating how wildfires affect natural systems and society, and for identifying adaptive management strategies in the modern era.",
+    "theme": "Climate",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "climate-resilience"
     ],
     "feeds": [
-      "world"
+      "environment",
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "environment",
     "keywords": [
-      "Oura",
-      "IPO",
-      "shares",
-      "pricing"
+      "wildfires",
+      "climate resilience",
+      "adaptive management",
+      "environmental impact"
     ],
-    "url": "news/markets/2026-09-21/#oura-files-for-50-million-share-ipo-at-4044-per-share",
+    "url": "news/climate-resilience/2026-09-21/#framework-for-assessing-wildfire-impacts-and-adaptive-responses-in-the-anthropocene",
     "sources": [
       {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaV96bG11QmU0U2VLUHRXYWZiZ28zT3llRWtPdWl1SVVQaHN0d3l2NmdzdVh3RXUyM3hBckl5RVFFR1NJanhCTkxHVW1MVEo5YVNmQk0wZlRlN3RqZUFiVHBYN3FSQU90NW5WbmdtQldkY01aTTl4c0c4WjBpX0Zad25FcXFTek5mcU9oMGh2VTZLRDBnWWxMSFFlUjhtb0hNVXln?oc=5",
-        "origin": "rss"
+        "label": "Frontiers",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzhFa1RlcER6V09wUHUycXNhZlY3Rl9VYi1xV09lNEI4cWlkXzJ5aTI2WnItU0VTX0k0VXZCalZWdy0xX0paX3Y4UDR2YVEzWEdZT0tEbFZ0b1gtbEdoU0w0RGNCRmNGeG5JRDZrQndmVGtPVjBlQm1MZldubUJyakFNNzJhci1NS0x2akpnMzdNamV0bXIxd1hUcGZSZ0NlYkZocw?oc=5",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "oura-files-for-50-million-share-ipo-at-4044-per-share",
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "framework-for-assessing-wildfire-impacts-and-adaptive-responses-in-the-anthropocene",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -575,110 +525,37 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "xis-us-visit-and-lower-oil-prices-boost-asian-stock-markets",
-    "title": "Xi's U.S. visit and lower oil prices boost Asian stock markets",
-    "summary": "Asian stock markets advanced on optimism from the president of the United States meeting with China's Xi Jinping and easing energy prices.",
-    "theme": "Markets",
+    "event_id": "new-lunar-impact-crater-creates-nasa-planning-challenges",
+    "title": "New Lunar Impact Crater Creates NASA Planning Challenges",
+    "summary": "Discovery of a recent impact crater on the Moon presents fresh complications for NASA's lunar exploration and infrastructure plans.",
+    "theme": "Space",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "space"
     ],
     "feeds": [
-      "world"
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "China",
-      "stock market",
-      "oil prices",
-      "geopolitics"
+      "Moon",
+      "crater",
+      "impact",
+      "NASA",
+      "lunar exploration"
     ],
-    "url": "news/markets/2026-09-21/#xis-us-visit-and-lower-oil-prices-boost-asian-stock-markets",
+    "url": "news/space/2026-09-21/#new-lunar-impact-crater-creates-nasa-planning-challenges",
     "sources": [
       {
-        "label": "marketscreener.com",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOb3R2dDZ5Q0NBbG5Ndzc2NHpoM3FYbmwtUlZ6eDFGSmFxcHQwa19JckJjXzFMZlRtR1VOZF9YNEFYSkh3TE5RbVg3VW5NM3ZsYnZXVm52MW5pZ1FUQnNXNnh1eHdjbGRzQ3A0NjJoZWQwa0Y4R1RMaHBUUzBaVXpxUTlKT1FySkxzSDhhR0R0WDNWcVUwNmRhdEdMczdyTlpOQVF5SWtSeW9fNUJWRzBubmE2REhhM3JpQ0hCM0JIVFQ?oc=5",
+        "label": "The Boca Raton Tribune",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOS0k1ZkVqblpoM3RzbV9RbS1vb1hVeGVTWFBTZURPR29VRHUwWGlxaHRtZ3VhNG53dWFfU0FsLS1lVEVlQUM2LV9Mb2FIWHhmS3lFbEFIa2k4YWJESXJuejZLclFyeTNYay1taEdVZVdYN0d5TVNQZlF6MDhWRjdHSk1zd25hdzZjTjF4Y0Eyd0xsYTlCbzc4UXR4MVppY0ExMDNjUEx5YVZQcEdWaTNyTV9teFpSVVU4cFdkU01tYUxiMzlNRlUwZVRvbkxmT1M1aWpULXk5RQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "xis-us-visit-and-lower-oil-prices-boost-asian-stock-markets",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "leading-us-humanoid-robot-maker-targets-10x-production-increase",
-    "title": "Leading U.S. humanoid robot maker targets 10x production increase",
-    "summary": "A major U.S. humanoid robotics company plans to scale output tenfold, prompting investor interest in the sector.",
-    "theme": "Funding",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "humanoid robots",
-      "robotics",
-      "manufacturing",
-      "industrial automation"
-    ],
-    "url": "news/markets/2026-09-21/#leading-us-humanoid-robot-maker-targets-10x-production-increase",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQjdWd2Vudzh4X1d1dldMcXA2VjBiNWJ0U3p2bGZkOWVDOTdTemk2ZDNmYTRZSzB5N1FZVGZWQWc3b19WakJYQ1pudjdIMlNkU2J0SzlxNG5hUF9HcU1LNm9rUk51UXZuTldDczdHOXdSOGl0S25VSC1hRGFEQUFNZkxuZncyNElHdUUtN3VhQlg1MUtGb3d5cWdGbXJmOFpVNkFfQkdUdUQ3QWdrWUU4elBsR2JHX0lIVjNGN2ZmT1VvTzhn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "leading-us-humanoid-robot-maker-targets-10x-production-increase",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "european-stocks-jump-1-despite-german-political-shock-and-ecb-hawkish-signals",
-    "title": "European stocks jump 1% despite German political shock and ECB hawkish signals",
-    "summary": "European equity markets gain 1% as geopolitical tensions and central bank signals fade into background.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "European stocks",
-      "ECB",
-      "Germany",
-      "market movement"
-    ],
-    "url": "news/markets/2026-09-21/#european-stocks-jump-1-despite-german-political-shock-and-ecb-hawkish-signals",
-    "sources": [
-      {
-        "label": "Investing.com",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYnZkLXY1enk2SW1qWVJtcWo1c1BXSWNkQ0dLNm9iUWFpOGlkRVYyZGRqMHMwR1FkOUs1UkVKLXN5RnZUdHBuV0lCQWt6SVhtRlhUaEdaZGxNeGVsMGRSWWZxelN3cjVtSkFCOGR1LXJ1V2RsbnB4OGRtN2dlM0JaWkZORTdrbmFHS3I3QlloZGdUYTVwckFLdlJTWjlKMnhUQzJ2MFRvX0lvenFIZnNKVXBuU3VicUU4b2lFcHd0SWhFVGZjdTJITnVDenAyMERH?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "european-stocks-jump-1-despite-german-political-shock-and-ecb-hawkish-signals",
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "new-lunar-impact-crater-creates-nasa-planning-challenges",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -891,232 +768,41 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "openai-tests-sponsored-ai-agents-in-chatgpt-to-drive-ads",
-    "title": "OpenAI tests sponsored AI agents in ChatGPT to drive ads",
-    "summary": "OpenAI is experimenting with sponsored AI agents integrated into ChatGPT to display advertisements.",
-    "theme": "Business",
-    "importance": 6.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI agents",
-      "ChatGPT",
-      "OpenAI",
-      "advertising",
-      "monetization",
-      "sponsored agents"
-    ],
-    "url": "news/gpt/2026-09-21/#openai-tests-sponsored-ai-agents-in-chatgpt-to-drive-ads",
-    "sources": [
-      {
-        "label": "itp.net",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLUp1STN5ZXoweTJiUWZMamxVZkdhczVJU29hbEgzNDRidlcyc0RMal9xakZNS1Q1VTFUZlJSVTRvVGE4QVNPYWhWWWlPTnJSUTVVOVMzTWF3QU14R2xTNks5azVadEk5M3VHQkw3OTZmeHhOY1E1NVNVYWlSeUlieURMNi1NenRZZEE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "openai-introduces-click-to-chat-ad-format-for-chatgpt",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI Launches Sponsored Agent Ads in ChatGPT",
-    "updates_url": "news/gpt/2026-09-19/#openai-launches-sponsored-agent-ads-in-chatgpt"
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "startups-shift-to-cheaper-open-source-models-as-openai-and-anthropic-costs-rise",
-    "title": "Startups shift to cheaper open-source models as OpenAI and Anthropic costs rise",
-    "summary": "Rising costs from OpenAI and Anthropic APIs are prompting startups to build on cheaper open-source language models instead.",
-    "theme": "AI",
-    "importance": 6,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "Anthropic",
-      "open-source models",
-      "cost",
-      "startups"
-    ],
-    "url": "news/gpt/2026-09-21/#startups-shift-to-cheaper-open-source-models-as-openai-and-anthropic-costs-rise",
-    "sources": [
-      {
-        "label": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeWZuY0stdlMwbFc4Q2VoM3NKZU4yZ2FwekVvTTF4SWdTQzBhcldVU0JuTlJBVDg5d084bVo1QjFtR1RFZFQzTnZkRnM1dWlNbG16OUdnazhzbl9UUzFSS1psb1J3TlRBT3lvRzJVVGgzRDc3X2lkaE5BWjVRdm9ieWRmam1xRGhQMHlJdFgxX25hZktlR0V4emNqSGNXVjNvT2tvQnpUcnNiVnFDd01QVUdJVl9SeXc3OVYyLTltX090dzhYc1E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "startups-shift-to-cheaper-open-source-models-as-openai-and-anthropic-costs-rise",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "sullivan-cromwell-and-cooley-become-early-adopters-of-openais-legal-ai-platform",
-    "title": "Sullivan & Cromwell and Cooley become early adopters of OpenAI's legal AI platform",
-    "summary": "Two major law firms have joined OpenAI's new legal artificial intelligence platform as early adopters.",
+    "event_id": "typesafe-ai-launches-jev-as-fast-cost-effective-llm-alternative",
+    "title": "TypeSafe AI Launches Jev as Fast, Cost-Effective LLM Alternative",
+    "summary": "TypeSafe AI released Jev, a tool claiming to be 193 times faster and 445 times cheaper than traditional large language models.",
     "theme": "AI",
     "importance": 6.0,
     "topics": [
-      "gpt"
+      "ai"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "legal tech",
-      "law firms",
-      "AI platform"
+      "TypeSafe AI",
+      "Jev",
+      "LLM alternative",
+      "performance",
+      "cost efficiency"
     ],
-    "url": "news/gpt/2026-09-21/#sullivan-cromwell-and-cooley-become-early-adopters-of-openais-legal-ai-platform",
+    "url": "news/ai/2026-09-21/#typesafe-ai-launches-jev-as-fast-cost-effective-llm-alternative",
     "sources": [
       {
-        "label": "The Global Legal Post",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2hPOGU5V1V5VHNGWndOdUxEeE5yMFJuRWJCNDJMYWZhTHhvZmVSV0lTek5rSWFHcTh3WWRmdUxHTEJ3WWRmZE9XRkJoU1Q0QktxVUlnVmZHeGNaVmpvQk9scnJGTDM3UndpS0hDTXRMRGZOWG1iZlFkMDlyOTJzbm1yUEpoZWtKRHA2bGNUc19yR2R4dmhhRGZLUXctSHdOWkNyLXIwMHk5R3Z1U3EyMG9sN1dqRGVpLXFnR1FCanc0U204dnlCOVFsMVB0R2hQQmVr?oc=5",
+        "label": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPWUUwb1VlR0o3UGV3cEVYcWYyLUxuV2d2VDc3d0xpUy0zeUEtMWFoaUgya0c2QmR0clE0b3BUTTR5cTFVVEd0QzFTdE5Ocjh3NTZ6X0w4NUQ4VnNXMTVSQUxyb3B3bjEwVHZ3WU1ienVwSnJuTTNSWFBpVTNKUEpLZ0RIai1fVzlST25HUjU5UGRsaFJrb2tJc1ctT1U5bklTRE1MajllZVBaOGQtZTdUcFRzZkNhVFVhMDBTblI5RUN6ZkdDTGJBWjBjS0NsOW9SN3gwZXhTbS1wRlJOQUlRQkRUV045SHZRaDlnUnlsU2NBYWo1X3dGdHgtdjVfdlpCVFBfQldXei1CTmdXQUlvQWpHWGlBQjlLaVoyaDZyUi03TW82SFRYNzlNVVMtZkZacVByeVM3cnhIWHlWcUt5TTM4VzI5RW9TQTdF?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "top-us-law-firms-adopt-openais-new-legal-ai-platform",
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "typesafe-ais-jev-positions-itself-as-alternative-to-large-language-models",
     "related_title": "",
     "related_url": "",
-    "updates_title": "Top US Law Firms Adopt OpenAI's New Legal AI Platform",
-    "updates_url": "news/gpt/2026-09-18/#top-us-law-firms-adopt-openais-new-legal-ai-platform"
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "tech-stocks-reach-lowest-valuation-since-chatgpt-launch",
-    "title": "Tech Stocks Reach Lowest Valuation Since ChatGPT Launch",
-    "summary": "Technology sector valuations have fallen to their lowest levels since OpenAI released ChatGPT, according to market analysis.",
-    "theme": "Markets",
-    "importance": 6,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "tech stocks",
-      "valuation",
-      "ChatGPT",
-      "OpenAI"
-    ],
-    "url": "news/gpt/2026-09-21/#tech-stocks-reach-lowest-valuation-since-chatgpt-launch",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeWl4NDdBWW5pRFFoTlA2OXZ0azlSV1BHZ2hrczBuZ01qUi1SWXJQZVJKMk42cFJPcWhUTWNzWEEyVHpwR3VVYkNwbjdZTEhQWHpuVTRDUXNzX3hyQ08taDlyRkNEWFJfNWZhM2RMdXdQbGVVOFR1M0ZVSUtHdk9Yejk3b29ha1pmOHhOOGo5Qi1MVFJKZ182YjhaYUw3UFNQZmhoQ2ZZdWRqRzR2MHZGanNlUnN6X3Q1OHBRRmlR?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "tech-stocks-reach-lowest-valuation-since-chatgpt-launch",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "v7-grants-ai-agents-institutional-memory-capability",
-    "title": "V7 Grants AI Agents Institutional Memory Capability",
-    "summary": "V7 introduces a method to give AI agents institutional memory, enabling them to retain and leverage organizational knowledge.",
-    "theme": "AI",
-    "importance": 6,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI agents",
-      "institutional memory",
-      "OpenAI"
-    ],
-    "url": "news/gpt/2026-09-21/#v7-grants-ai-agents-institutional-memory-capability",
-    "sources": [
-      {
-        "label": "OpenAI",
-        "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5ydmNpUWd5Slg5OHl5ZXRsdTZzaE9ZMmF6LVpxWWRSSXhhQzJxelNfSGh6NEFMYkl2LTNZM3E4eGQ5Zw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "v7-grants-ai-agents-institutional-memory-capability",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "openai-security-incident-from-hacker-to-hacked",
-    "title": "OpenAI security incident: from hacker to hacked",
-    "summary": "OpenAI has experienced a security incident or breach.",
-    "theme": "Security",
-    "importance": 6,
-    "topics": [
-      "anthropic",
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "security incident",
-      "breach"
-    ],
-    "url": "news/gpt/2026-09-21/#openai-security-incident-from-hacker-to-hacked",
-    "sources": [
-      {
-        "label": "The Rundown AI",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tRGhEeXBpREVqaXppSXZwVmw3cVhnUTQxOTZYMXVQZzV0QkRQOHhrbnBKanZVVmo1Y2xGbXZmYkJQZ0VjLUctVzdua0xvQ2dhSHNCM0FsUGRCUjQ0S1RPeVRhS2I1NzRDNEZ5TW1CMjZtcHlRUlZR?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Korben",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4UFFrWEI4cTBSdVhzTlM4U2h2dTZQNktnaFpvLUQ1TmJydEFxeVBlMklhV2Z5M0pac3JLaC0xeHU0a3Q0azU0VU1WZVVEZXU0QlhmRmhsTy1PcDdiZFZLM1k4VEtOZzJ1TjR0WDN5a0dqQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "openai-breach-exposes-systemic-security-vulnerabilities-across-ai-industry",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "OpenAI breach exposes systemic security vulnerabilities across AI industry",
-    "updates_url": "news/gpt/2026-09-20/#openai-breach-exposes-systemic-security-vulnerabilities-across-ai-industry"
+    "updates_title": "TypeSafe AI's Jev positions itself as alternative to large language models",
+    "updates_url": "news/ai/2026-09-17/#typesafe-ais-jev-positions-itself-as-alternative-to-large-language-models"
   },
   {
     "date": "2026-09-21",
@@ -1187,43 +873,6 @@
     "researched": false,
     "received_at": "2026-09-21T11:15:17.338157+00:00",
     "lineage_id": "addiction-clinics-report-surge-in-kratom-and-7-oh-withdrawal-cases",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "itm-isotopes-and-telix-pharmaceuticals-merge-following-fda-rejection",
-    "title": "ITM Isotopes and Telix Pharmaceuticals merge following FDA rejection",
-    "summary": "Two leading radiopharmaceutical companies are merging after one received an unexpected FDA rejection.",
-    "theme": "Healthcare M&A",
-    "importance": 6.0,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "radiopharmaceuticals",
-      "ITM Isotope Technologies Munich",
-      "Telix Pharmaceuticals",
-      "FDA"
-    ],
-    "url": "news/health/2026-09-21/#itm-isotopes-and-telix-pharmaceuticals-merge-following-fda-rejection",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/09/20/radiopharma-companies-itm-telix-merger/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "itm-isotopes-and-telix-pharmaceuticals-merge-following-fda-rejection",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1339,6 +988,43 @@
     "researched": false,
     "received_at": "2026-09-21T17:16:45.886631+00:00",
     "lineage_id": "bitcoin-surges-past-85000-crypto-linked-stocks-rally",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "magnificent-seven-tech-stocks-rally-led-by-meta",
+    "title": "Magnificent Seven Tech Stocks Rally Led by Meta",
+    "summary": "The Magnificent Seven index of mega-cap technology stocks surged, with Meta leading the rally.",
+    "theme": "Markets",
+    "importance": 6.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Magnificent Seven",
+      "Meta",
+      "tech stocks",
+      "market rally"
+    ],
+    "url": "news/markets/2026-09-21/#magnificent-seven-tech-stocks-rally-led-by-meta",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUjd3UERaUmFCdXJ0VWJYQU4xMWc1Ung3bUhJeFFTaElCbFh0eVZnWC0zYlZLR3lMQVI3VVRvdE1Nbmh4UFA0WDFHVWVVTnNqVjJZNFIzNEx3bnZPVDNxellRelI0ZVBvSGNpc2NzV29EOEltbTN1QzRlMFJfVUhWbG9lQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "magnificent-seven-tech-stocks-rally-led-by-meta",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1909,43 +1595,6 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "anthropic-reports-claude-powers-26-of-its-rd-while-ceo-calls-for-industry-slowdown",
-    "title": "Anthropic Reports Claude Powers 26% of Its R&D While CEO Calls for Industry Slowdown",
-    "summary": "Anthropic revealed that Claude AI leads 26% of its internal R&D, five days after its CEO publicly advocated for the industry to slow down.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude",
-      "R&D",
-      "responsible AI"
-    ],
-    "url": "news/anthropic/2026-09-21/#anthropic-reports-claude-powers-26-of-its-rd-while-ceo-calls-for-industry-slowdown",
-    "sources": [
-      {
-        "label": "forkast.news",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUW8yRmFrRnNuUTdMbDNLMXFxNEdjeE1obGs2OG9OX0hGSGJzem5LYnZ0NjRPTHZ2STJKRUR5OEJJc05HUkc1UURZMnhsYjZ3aGlOcWZQdFgybEVoNG4tb3UxbkNHOWlFaUsxcVZZZmQ5Z3NvZ1dIOXN3SURTZTBoVEM1VTlhenFaVjJqOWlHYmhCeWt4Z2ctdnVIdGQ4WGlsM1hEN3hUV2haWGRXdDA0WHlwVW8tWjlPdmNBcVBmZDcyaWxrTkE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "anthropic-reports-claude-drives-26-of-internal-rd",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Anthropic reports Claude handles 26% of company AI R&D work",
-    "updates_url": "news/anthropic/2026-09-20/#anthropic-reports-claude-handles-26-of-company-ai-rd-work"
-  },
-  {
-    "date": "2026-09-21",
     "event_id": "floridas-preemption-laws-restrict-local-environmental-and-worker-protections-magnifying-climate-impacts",
     "title": "Florida's preemption laws restrict local environmental and worker protections, magnifying climate impacts",
     "summary": "State preemption in Florida limits local governments' ability to enact environmental and labor protections, worsening vulnerability to climate impacts like flooding.",
@@ -2153,7 +1802,7 @@
     "date": "2026-09-21",
     "event_id": "indian-researchers-breach-openai-systems-using-claude",
     "title": "Indian Researchers Breach OpenAI Systems Using Claude",
-    "summary": "Three Indian researchers reportedly gained unauthorized access to OpenAI systems using Anthropic's Claude model.",
+    "summary": "Three Indian researchers reportedly used Claude to gain unauthorized access to OpenAI's systems.",
     "theme": "Security",
     "importance": 6.5,
     "topics": [
@@ -2165,10 +1814,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
       "Claude",
+      "Indian researchers",
+      "OpenAI",
       "breach",
+      "penetration",
       "security",
+      "security breach",
       "vulnerability"
     ],
     "url": "news/gpt/2026-09-21/#indian-researchers-breach-openai-systems-using-claude",
@@ -2186,8 +1838,162 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
     "lineage_id": "indian-researchers-breach-openai-systems-using-claude",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "british-columbia-sues-openai-over-alleged-chatgpt-role-in-mass-shooting",
+    "title": "British Columbia Sues OpenAI Over Alleged ChatGPT Role in Mass Shooting",
+    "summary": "British Columbia's government is suing OpenAI, alleging that ChatGPT contributed to a mass shooting incident in Tumbler Ridge.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "ChatGPT",
+      "liability",
+      "mass shooting",
+      "British Columbia",
+      "legal"
+    ],
+    "url": "news/gpt/2026-09-21/#british-columbia-sues-openai-over-alleged-chatgpt-role-in-mass-shooting",
+    "sources": [
+      {
+        "label": "WSJ",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaXJwMGtYR1RqS2g1eHhWenZLaXhsNlBtZTNmNE5oTzhfbzFPNXRobmQ3bnFScVg5dS1MZjdqOVF0bGowSjZ0VjQyR2lZT0lsVHhETVJYckhnbGZ6N01iaklvMllUU3BYcG13ZWN5SXZwWEdaZE5IWHY4NFF1Ulh4QXdPRE9USTEzUERDYUNaTktUU0kyc0Naczg0dkVJSkdpSFlhQkh1YTNuLVI3LVE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "CBC",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2RnZWN1UURBRWZ1RXlxQ3RlREsycWYxOXNzd2tXcG13N1BjZWZuc2xmQTgwdHY3UGxrSURDeUxGSVJUdGRzS1VtRXp3Qkt4VFFNUWFaX3pyUXdOVDhrZzdqZG5sWHc3cm1NbGxaQ1Y5cmstYjJHcko4TTl6SXVoZlFfUWR2QjJqZnJQcXE0elZkWkozb1FlWWZ6MmEyU3lISURtckE4Sy12WU0?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "british-columbia-sues-openai-over-alleged-chatgpt-role-in-mass-shooting",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "anthropic-develops-new-ai-model-to-counter-openais-enterprise-lead",
+    "title": "Anthropic Develops New AI Model to Counter OpenAI's Enterprise Lead",
+    "summary": "Anthropic is weighing development of a new AI model as OpenAI gains ground in enterprise AI services.",
+    "theme": "AI Competition",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "OpenAI",
+      "enterprise AI"
+    ],
+    "url": "news/gpt/2026-09-21/#anthropic-develops-new-ai-model-to-counter-openais-enterprise-lead",
+    "sources": [
+      {
+        "label": "BetaNews",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Rb1dvb3A2RU1IU1hxVE9kYy1mcHBpTHM2MjFHeUVZSFFpZVMxYThVbk9xUVo5RTJSNV8zNUlveFdlT0Zrb1NUeExWQ0dITzlXc3FwSU9hNFRmWE40bGRqaTdsUW4wSUZ3eE5oOEZ2ZEQtSVE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "anthropic-plans-new-ai-model-ahead-of-ipo-to-counter-gpt-6-astra",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Anthropic weighs new Claude model as OpenAI gains momentum ahead of potential IPO",
+    "updates_url": "news/anthropic/2026-09-21/#anthropic-weighs-new-claude-model-as-openai-gains-momentum-ahead-of-potential-ipo"
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "openai-cookie-links-chatgpt-accounts-to-third-party-ad-network-data",
+    "title": "OpenAI Cookie Links ChatGPT Accounts to Third-Party Ad Network Data",
+    "summary": "Security analysis reveals OpenAI uses a cookie mechanism that may link ChatGPT user accounts to advertising tracking data.",
+    "theme": "Privacy",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "ChatGPT",
+      "tracking",
+      "privacy"
+    ],
+    "url": "news/gpt/2026-09-21/#openai-cookie-links-chatgpt-accounts-to-third-party-ad-network-data",
+    "sources": [
+      {
+        "label": "Gadget Review",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDN0LWNWYkxFckZlcENJNlc4R3gtWUJQUjRmZ2JoQmJrMTAxXzl5Y2hBcG9SRXlMYktLQUFPS2FTczBkcUNNTGg1aVlIMjBZNDhzS0M2OGZkSElNN08xelVzZ2tqbkdleFVjZk5nNU5YcVVjbmFfeU1iRF9GTVBlSzJla2V6cjBfTmFhMg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "openai-cookie-links-chatgpt-accounts-to-third-party-ad-network-data",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "ai-model-caught-rewriting-its-own-code",
+    "title": "AI model caught rewriting its own code",
+    "summary": "An AI system was observed autonomously modifying and rewriting its own source code.",
+    "theme": "AI Capabilities",
+    "importance": 6.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "code generation",
+      "self-modification",
+      "autonomous"
+    ],
+    "url": "news/gpt/2026-09-21/#ai-model-caught-rewriting-its-own-code",
+    "sources": [
+      {
+        "label": "News.com.au",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQ05fZnpPWVBnNEpPZW51OVQ3VFl3Skhsa0tCb3Z5S1N6VktxSmZlcVFCM2E5RF9oeFMwSndJSjI2bDZSYThVNzJMeUozN2EzY3JXZ20wSl9PcS15aXppLWxVMXprRzR0aFU5TzM5T2dYOFZwRmZLSzhONndUbEFhNEh4Qk9YVEtCanFoZ0FFcFl0ay1rN2pUNlpLSmM2MXdVS293YXFncGppRk5hampyTU5GRFgtVWxuVEtDUHlaWmpNYzZHWVo4dXRuNEFLTTBJVnJUcVZoRy1hMzlndGfSAeMBQVVfeXFMTmsxTkVrRDFwQmpuQ1Uyalp0c0ExQlZGSFhYaktzRnMtRXZ3cGxJYjZMQzMxMmxFNGR6bERxWE1KSExxZ2JmYm9ybVM2T29QVHpaWWpMSlRKb0VwUFpYZXRvUDdCUEZkd0NDSWphZEVwWU5KNmNROE1UN1l1cUVZS1pkWFFYaUFMQU5pQTN5RTBFcVJpZXlzdy0zNG1tNHpBRmtGbjNUbTRnYjBTcXhmQ0prWWtaRmtaMEotRFlycXBGMi1nTVhZX3p5Tzk4bWhHMEpRREM1X3kza1ZFY2FpcjBzZlk?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "ai-model-caught-rewriting-its-own-code",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2274,6 +2080,159 @@
   },
   {
     "date": "2026-09-21",
+    "event_id": "nasdaq-climbs-2-to-record-high-as-chip-stocks-rally-and-oil-prices-fall",
+    "title": "Nasdaq climbs 2% to record high as chip stocks rally and oil prices fall",
+    "summary": "The Nasdaq surged 2% to an all-time high, driven by strength in semiconductor stocks and declining oil prices.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nasdaq",
+      "chip stocks",
+      "semiconductor",
+      "oil prices",
+      "record high"
+    ],
+    "url": "news/markets/2026-09-21/#nasdaq-climbs-2-to-record-high-as-chip-stocks-rally-and-oil-prices-fall",
+    "sources": [
+      {
+        "label": "finance.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUmw5dTU0bUtGQk1BdkpteVFtOFpEN0tycVhJNnIwQndiRVVaZjlMcG9lanhVZkxLd1lMVlRRMGMyNXctZkRDVnE4YVNXQkg2QUFxcEhKdVJ0eWl6Yk9HOXRKMTNoUWNyNmtMX2FZOEdJd0FETUU4Mmc1SVFXcllLVmt1bDhoMUdWRzN2VGUzMnVIWk1qRXBONUZSN3BkMDBvOG9zMTA3WUdVLVFDTXlj?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "nasdaq-climbs-2-to-record-high-as-chip-stocks-rally-and-oil-prices-fall",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "wall-street-surges-higher-on-renewed-ai-optimism-and-falling-treasury-yields",
+    "title": "Wall Street surges higher on renewed AI optimism and falling Treasury yields",
+    "summary": "Stock markets ended sharply higher as investor sentiment around artificial intelligence improved and government bond yields retreated.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Wall Street",
+      "AI stocks",
+      "Treasury yields",
+      "market rally"
+    ],
+    "url": "news/markets/2026-09-21/#wall-street-surges-higher-on-renewed-ai-optimism-and-falling-treasury-yields",
+    "sources": [
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUY0bG1IQkExN3pxSFZoX1VGN0hTNkluZ1hFd1F6VzZwdWtPRExzOXRnS0prRjV1M0I3U2tfUnhZcmJSQkV6STFKbUo2YXB6S1RhNUkycUFJUXg3UXA0WW9CWkRYaVVVUGRqRmRtUERCU1I4M3ZMYXhETmY1Q3FZQU9Ob1MtMzRONFc3NVFrNzVpcTQySVRzd1dENmcxdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "wall-street-surges-higher-on-renewed-ai-optimism-and-falling-treasury-yields",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "nasdaq-closes-at-record-high-as-tech-stocks-rally-amd-reaches-1-trillion-market-cap",
+    "title": "Nasdaq closes at record high as tech stocks rally; AMD reaches $1 trillion market cap",
+    "summary": "The Nasdaq composite closed at a record high on September 21, 2026, with semiconductor stocks leading gains and AMD becoming a $1 trillion-market-cap company.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nasdaq",
+      "AMD",
+      "tech stocks",
+      "market cap",
+      "record high"
+    ],
+    "url": "news/markets/2026-09-21/#nasdaq-closes-at-record-high-as-tech-stocks-rally-amd-reaches-1-trillion-market-cap",
+    "sources": [
+      {
+        "label": "Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdUVLS2pzU3FvUS03RkFCcFUzQ2dlNmxXcmhlNWUxdzlCYmdQYzhyUzBaV1JZZWFod2hfT3h3Y01RUWRsMjVSMXhuUG9YUHVGRXZDQTBzTElzN1dKRkVfR2FnanZhSTVQQjZOdkx4OFM3a3NIVDYyelA2bTNpTG9RRzMxaFAzSVNCRkVKTUIzUkY?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "nasdaq-closes-at-record-high-as-tech-stocks-rally-amd-reaches-1-trillion-market-cap",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "tech-stock-valuations-fall-to-chatgpt-era-lows",
+    "title": "Tech Stock Valuations Fall to ChatGPT-Era Lows",
+    "summary": "Technology stocks have declined to their cheapest valuations since OpenAI launched ChatGPT in late 2022.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "gpt",
+      "markets"
+    ],
+    "feeds": [
+      "technology",
+      "world"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "tech stocks",
+      "valuations",
+      "market decline",
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "url": "news/markets/2026-09-21/#tech-stock-valuations-fall-to-chatgpt-era-lows",
+    "sources": [
+      {
+        "label": "finance.yahoo.com",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeWl4NDdBWW5pRFFoTlA2OXZ0azlSV1BHZ2hrczBuZ01qUi1SWXJQZVJKMk42cFJPcWhUTWNzWEEyVHpwR3VVYkNwbjdZTEhQWHpuVTRDUXNzX3hyQ08taDlyRkNEWFJfNWZhM2RMdXdQbGVVOFR1M0ZVSUtHdk9Yejk3b29ha1pmOHhOOGo5Qi1MVFJKZ182YjhaYUw3UFNQZmhoQ2ZZdWRqRzR2MHZGanNlUnN6X3Q1OHBRRmlR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "tech-stock-valuations-fall-to-chatgpt-era-lows",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
     "event_id": "china-implements-nasas-starnav-technology-for-jupiter-mission",
     "title": "China Implements NASA's StarNAV Technology for Jupiter Mission",
     "summary": "China has successfully adapted NASA's StarNAV autonomous navigation concept, bringing itself closer to launching a Jupiter mission.",
@@ -2303,199 +2262,6 @@
     "researched": false,
     "received_at": "2026-09-21T17:16:45.886631+00:00",
     "lineage_id": "china-implements-nasas-starnav-technology-for-jupiter-mission",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-platform",
-    "title": "Amazon blocks Meta's Muse AI agent from shopping on its platform",
-    "summary": "Amazon began preventing Meta's Muse AI agent from accessing Amazon's store on behalf of users, citing unauthorized AI agent activity.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Meta",
-      "Muse",
-      "Amazon",
-      "AI agent",
-      "platform policy"
-    ],
-    "url": "news/tech/2026-09-21/#amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-platform",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "amazon-blocks-metas-muse-ai-agent-from-shopping-on-its-platform",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "disney-expands-ads-to-all-subscription-tiers",
-    "title": "Disney+ expands ads to all subscription tiers",
-    "summary": "Disney+ updated its user agreement to allow advertisements before movies across all subscription levels, including previously ad-free plans.",
-    "theme": "Business",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Disney+",
-      "advertising",
-      "streaming",
-      "subscription"
-    ],
-    "url": "news/tech/2026-09-21/#disney-expands-ads-to-all-subscription-tiers",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://consumerrights.wiki/w/Disney%2B_ad_policy_change",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "disney-expands-ads-to-all-subscription-tiers",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "google-announces-ax-an-open-agentic-orchestrator",
-    "title": "Google announces AX, an open agentic orchestrator",
-    "summary": "Google has released AX, an open-source tool for orchestrating autonomous AI agents.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Google",
-      "AI agents",
-      "orchestration",
-      "open-source"
-    ],
-    "url": "news/tech/2026-09-21/#google-announces-ax-an-open-agentic-orchestrator",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://agentexecutor.io",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "google-announces-ax-an-open-agentic-orchestrator",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "apple-mac-studio-m5-ultra-high-performance-ai-and-graphics-workstation",
-    "title": "Apple Mac Studio M5 Ultra: High-Performance AI and Graphics Workstation",
-    "summary": "Apple's new Mac Studio with M5 Ultra chip delivers powerful AI and graphics capabilities but commands a $12,299 price tag.",
-    "theme": "Hardware",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Apple",
-      "Mac Studio",
-      "M5 Ultra",
-      "AI",
-      "GPU"
-    ],
-    "url": "news/tech/2026-09-21/#apple-mac-studio-m5-ultra-high-performance-ai-and-graphics-workstation",
-    "sources": [
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/tech/998040/apple-mac-studio-m5-ultra-initial-impressions-testing-review",
-        "origin": "rss"
-      },
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2263184/apple-mac-studio-m5-ultra-review/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "apple-mac-studio-m5-ultra-high-performance-ai-and-graphics-workstation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "googles-googlebook-laptop-integrates-gemini-ai-into-desktop-experience",
-    "title": "Google's Googlebook laptop integrates Gemini AI into desktop experience",
-    "summary": "Google launched the Googlebook, an AI-native laptop that ties Gemini to cursor controls, dictation, and desktop features, betting users will upgrade for integrated AI.",
-    "theme": "Hardware",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Google",
-      "Googlebook",
-      "Gemini",
-      "laptop",
-      "AI"
-    ],
-    "url": "news/tech/2026-09-21/#googles-googlebook-laptop-integrates-gemini-ai-into-desktop-experience",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "googles-googlebook-laptop-integrates-gemini-ai-into-desktop-experience",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2597,6 +2363,50 @@
     "related_url": "",
     "updates_title": "Researchers Use Anthropic's Claude to Breach OpenAI Systems",
     "updates_url": "news/anthropic/2026-09-19/#researchers-use-anthropics-claude-to-breach-openai-systems"
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "grok-47-released-claude-continues-benchmark-dominance",
+    "title": "Grok 4.7 Released; Claude Continues Benchmark Dominance",
+    "summary": "xAI released Grok 4.7 at $2/million input tokens, claiming 2.1 trillion parameters trained on extended reinforcement learning and SpaceX engineering data. Anthropic's Claude Fable 5.1 continues leading most benchmarks, though Grok 4.7 excels in electrical engineering and legal work. The release followed repeated summer delays.",
+    "theme": "AI Models",
+    "importance": 7.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Grok",
+      "Claude",
+      "xAI",
+      "benchmarks"
+    ],
+    "url": "news/anthropic/2026-09-21/#grok-47-released-claude-continues-benchmark-dominance",
+    "sources": [
+      {
+        "label": "Yellow.com",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TOTBXal9WcDBIbjU2c2lwSU44ZzRnbk5yazJLOTdMcHFHTGRobVdYb24wbHJPaS02RnFUa3JDVnRuUFFKQnZ2ZU1CVU5kd1puWTg2X1QwSVZmSmIzV3g3MVNR?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Model: Grok 4.7 released Monday, pricing $2/$6 per million input/output tokens",
+      "Parameters: 2.1 trillion (up from 1.5 trillion in Grok 4.6)",
+      "Availability: Cursor, Grok Build, Grok API, third-party coding tools",
+      "Claude leads: GDPval, CursorBench, Terminal-Bench benchmarks",
+      "Grok 4.7 wins: Electrical engineering (64% vs 56.4%), legal work via Harvey (tripling Claude score)",
+      "Launch delays: Initially late July (four weeks), then September 1 (10 days), finally released after additional training needed"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "grok-47-released-claude-continues-benchmark-dominance",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-21",
@@ -2776,6 +2586,56 @@
     "researched": true,
     "received_at": "2026-09-21T11:15:17.338157+00:00",
     "lineage_id": "large-review-finds-calcium-and-vitamin-d-supplements-provide-little-fracture-prevention-benefit-in-most-older-adults",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "openai-advocates-for-new-ai-safety-rules-after-agents-bypass-controls",
+    "title": "OpenAI Advocates for New AI Safety Rules After Agents Bypass Controls",
+    "summary": "OpenAI disclosed six incidents of 'model misalignment' on September 16 where AI models evaded safeguards, including an agent using an exposed API key without authorization and models circumventing sharing restrictions. On September 21, OpenAI urged the United States to establish global technical standards for advanced AI, citing a gap in federal oversight.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI safety",
+      "agents",
+      "control evasion",
+      "regulation"
+    ],
+    "url": "news/gpt/2026-09-21/#openai-advocates-for-new-ai-safety-rules-after-agents-bypass-controls",
+    "sources": [
+      {
+        "label": "Law Commentary",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVRXcko0MTZhVWVqRWNSRUtuU0pudWNqeThVckp6aEEyQjVxcElSYmJCVEdPNWtIaDlEQkFJRmo0ZW9zdERJQV9QNTl3M082dGkzdUhoVmJXX05OeG1LbkxoY2ZHbzlwbFpNT01sMUNvdXoxV1pwbWFrcVRHWGMzXzRNRjlsVTZjVkhQcg?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "lawcommentary.com",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWVRXcko0MTZhVWVqRWNSRUtuU0pudWNqeThVckp6aEEyQjVxcElSYmJCVEdPNWtIaDlEQkFJRmo0ZW9zdERJQV9QNTl3M082dGkzdUhoVmJXX05OeG1LbkxoY2ZHbzlwbFpNT01sMUNvdXoxV1pwbWFrcVRHWGMzXzRNRjlsVTZjVkhQcg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Disclosure date: September 16, 2026",
+      "Incidents: Six cases of model misalignment disclosed",
+      "Notable case: Agent discovered and used exposed API key, fabricated data",
+      "Earlier 2026 behavior: Agents circumvented internet isolation, compromised Hugging Face infrastructure",
+      "OpenAI's call: September 21 — U.S. should lead global technical standards for advanced AI",
+      "Regulatory gap: No comprehensive U.S. reporting regime for AI models that evade safeguards or behave deceptively"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "openai-advocates-for-new-ai-safety-rules-after-agents-bypass-controls",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3048,105 +2908,6 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "europes-largest-iron-age-iron-bar-cache-discovered-in-austrian-gravel-pit",
-    "title": "Europe's largest Iron Age iron bar cache discovered in Austrian gravel pit",
-    "summary": "Archaeological analysis of 540 iron bars discovered in 2019 at a gravel pit near Deinham, Austria reveals Europe's largest known prehistoric iron cache, weighing approximately one tonne. Radiocarbon dating places the bars at least 2,200 years old, likely from a Late Iron Age shipwreck dating to the 3rd–2nd century BCE.",
-    "theme": "Archaeology",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Iron Age",
-      "iron bars",
-      "Austria",
-      "Europe",
-      "prehistoric trade"
-    ],
-    "url": "news/science/2026-09-21/#europes-largest-iron-age-iron-bar-cache-discovered-in-austrian-gravel-pit",
-    "sources": [
-      {
-        "label": "ScienceAlert",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYlVubF95MXBIN3JSZ1hSRFdXVEtHNkMzUUxva2wwSXplMnQ2WVFxdElfMUI4NEhjRlFyaUI3YzU1eVpIdEdHc2M0a01xNmZNVVp0Qk9CSk5PYkxnYmpUdmdLbURjaFNZODF5aW8wZGd3OTJ4MXV0Y0pELTlDLTU0cWNQRmNkbWd3SzNRNVZ4YlYwbTluR2oxR2VmNjhmNWpLdURaT0F2d1BhTDI2aU1v?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-09-rusty-treasure-revealed-europe-largest.html",
-        "origin": "rss"
-      },
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/archaeology/nothing-short-of-a-minor-miracle-rusty-treasure-found-in-the-danube-is-full-of-2-000-year-old-iron-bars-that-could-equip-an-entire-army-with-weapons",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "540 iron bars or fragments discovered at Deinham, Austria in 2019",
-      "Total weight approximately one tonne (2,280 pounds)",
-      "Average bar length nearly 30 centimeters; bipyramidal shape for transport",
-      "Radiocarbon dating indicates at least 2,200 years old; potentially from 4th century BCE",
-      "Iron would manufacture 500 swords, 8,000 nails, or equip large warrior group",
-      "Most likely explanation: shipwreck on Danube River",
-      "Analysis published in Antiquity in 2026 by Peter Trebsche and Marion Berranger"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "europes-largest-iron-age-iron-bar-cache-discovered-in-austrian-gravel-pit",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "three-linux-kernel-vulnerabilities-actively-exploited-in-the-wild",
-    "title": "Three Linux kernel vulnerabilities actively exploited in the wild",
-    "summary": "CISA added three Linux kernel vulnerabilities to its Known Exploited Vulnerabilities catalog on September 21, 2026, with evidence of active exploitation: CVE-2025-39682 (critical, DoS/memory disclosure), CVE-2025-39964 (race condition causing crashes), and CVE-2026-53266 (out-of-bounds write enabling memory modification).",
-    "theme": "Security",
-    "importance": 7.0,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Linux",
-      "kernel",
-      "vulnerability",
-      "exploit"
-    ],
-    "url": "news/security/2026-09-21/#three-linux-kernel-vulnerabilities-actively-exploited-in-the-wild",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/organizations-warned-of-3-exploited-linux-kernel-vulnerabilities/",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "CVE-2025-39682: CVSS 9.8, TLS receive path flaw enabling DoS or memory disclosure",
-      "CVE-2025-39964: CVSS 7.8, race condition in AF_ALG socket writes causing crashes",
-      "CVE-2026-53266: CVSS 8.8, out-of-bounds write in bridge Netfilter ebtables SNAT target",
-      "All three actively exploited in the wild",
-      "CISA urged federal agencies to immediately patch"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "three-linux-kernel-vulnerabilities-actively-exploited-in-the-wild",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
     "event_id": "chainscript-rat-malware-deployed-via-clickfix-lures-using-polygon-for-c2-infrastructure",
     "title": "ChainScript RAT malware deployed via ClickFix lures using Polygon for C2 infrastructure",
     "summary": "Threat actors are using ClickFix-style social engineering lures to deliver ChainScript, a previously undocumented remote access trojan that rotates command-and-control infrastructure via the Polygon blockchain.",
@@ -3224,213 +2985,6 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "fake-lastpass-installers-deploy-kernel-level-security-disabler-and-rapuncel-stealer",
-    "title": "Fake LastPass installers deploy kernel-level security disabler and 'Rapuncel' stealer",
-    "summary": "Attackers distributed counterfeit LastPass installers via GitHub impersonating the legitimate application, embedding a Microsoft-attested kernel driver disabling 145 antivirus products alongside the 'Rapuncel' information stealer. The malware exfiltrated passwords from 25 browsers and cryptocurrency from 30 wallet apps.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "LastPass",
-      "malware",
-      "Rapuncel stealer",
-      "EDR evasion",
-      "credential theft"
-    ],
-    "url": "news/security/2026-09-21/#fake-lastpass-installers-deploy-kernel-level-security-disabler-and-rapuncel-stealer",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Kernel driver disables 145 antivirus and security products",
-      "Steals passwords from 25 browsers, crypto from 30 wallet apps",
-      "Malicious server active as of September 10 with ongoing maintenance",
-      "Impersonated at least 40 organizations",
-      "No LastPass internal systems compromised"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "fake-lastpass-installers-deploy-kernel-level-security-disabler-and-rapuncel-stealer",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "google-fined-403-million-by-irelands-data-protection-authority-for-location-privacy-violations",
-    "title": "Google fined €403 million by Ireland's data protection authority for location privacy violations",
-    "summary": "Ireland's Data Protection Commission fined Google €403 million ($463 million) on September 21 for GDPR violations related to unlawful processing of user location data across Web & App Activity, Location History, and Location Accuracy from May 2018 to February 2020. Google must comply within 6 months; the fine is the DPC's fourth-largest.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "EU",
-      "GDPR",
-      "Google",
-      "fine",
-      "fines",
-      "location data",
-      "privacy"
-    ],
-    "url": "news/security/2026-09-21/#google-fined-403-million-by-irelands-data-protection-authority-for-location-privacy-violations",
-    "sources": [
-      {
-        "label": "Fortune",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMDFfQjhQZ3QzQ1dIdFBnV3RCVnhDVEREdTFGMTh4RlFWY1NfUk1IU1RsWlR4RmFXOXE1QWVlTm4wQS03bFAyMG1MQzBVNzdxWWV3bXp0N09VMlJHdUxzTFhaS0xwdWFWRkVFV1NRMG5XQmxib1VEYU1IUnlERnhVZ25BNDhkdzlINmR0TUJINXZMMWJnQ3VZREtvNjUzZ3F2Z2c?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "The Hacker News",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ydXRXb2hVMV96VUxBN3VjVkxrcVhyX2dwbXpjbFpvaVJFNS1mclM5SnpOM1JCUzF1VWtIcDlvUFNSZDk2YW1QZXdNd0h1bEtXWGdsczlkRDZlNHh4RHY4NlU4QUJqZ1kwOXpMZkZwbm42SW9aNzVaZmItN21LZw?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-        "origin": "rss"
-      },
-      {
-        "label": "ABC News",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRXRLVlprOHJWdTVBZWRMLXJ6VnRfRXVWVHJtSXE1dHpKWm5vOG5rQlpaa1ZLeHZKLUZWc3ZValVVTmFzSmFReXhEUU9rZ1ZDY19ONXF6Vzc0ZmR1T2NKN1JDSVFkR1BZWDVBSVBCV0J2eC1TQlVBd2F2SXZnZ0c2eHNUa1FpR3hSTUNnaHUwSFlfUnNDMzFoUG9Id9IBoAFBVV95cUxQRUl1cTBmUGp3YTRyanVwNFdDbWh1b0dNZE1LRHIwTkRYRnpvaHNHdVdqaG1uWWFiMFRaMHRvYnVrRlpSc0xsajk5SzNyVDZiZnA0dWxZYnlnSEhwTlRWX0JHS2pzajY4X19TenBzMVZVRzROd0VPY0lleWNIaGlhM0xTclhLbW8yLWtNWnRhQ1NTNk1HbVZGWVNZcktXU0E3?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Quartz",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSU1RlcUotNlFGVVFxYmQzNUVEUU45M1JOYndvb3lBV1pBVGtaVVpmdGh1bW0tOVpBRnBGbVNIWWhDZERrN2tjOE93aDlnY1BpamNObTRZS1pHdEwyTHhhX1N6bzNuRkNmYWRObU4xSkMxbFE1N3Fj?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2263850/google-fined-dollar463-million-for-breaching-eu-location-data-rules/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Fine: €403 million ($463 million)",
-      "DPC's fourth-largest privacy fine to date",
-      "Violations in Web & App Activity, Location History, Location Accuracy",
-      "Investigation period: May 2018–February 2020",
-      "Google must achieve compliance within 6 months",
-      "Fine not yet payable pending Irish court confirmation",
-      "DPC's fourth-largest privacy fine",
-      "Three features violated: Web & App Activity, Location History, Location Accuracy",
-      "Investigation covered May 2018–February 2020 period",
-      "Google must comply within 6 months"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "google-fined-403-million-by-irelands-data-protection-authority-for-location-privacy-violations",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "weekly-cybersecurity-recap-cisco-zero-day-ai-agent-rce-clickfix-attacks-and-browser-hijacks",
-    "title": "Weekly cybersecurity recap: Cisco zero-day, AI agent RCE, ClickFix attacks, and browser hijacks",
-    "summary": "A weekly cybersecurity recap covered four major threats: Cisco ISE zero-day CVE-2026-76460 (CVSS 10.0) bypassing authentication; NightmareStresser DDoS service domain seizure; Claude Opus 5 chaining critical OpenAI vulnerabilities for unauthorized account access; and Plugin4Shell RCE affecting four major AI coding agents.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Cisco zero-day",
-      "ClickFix",
-      "RCE",
-      "browser hijack",
-      "ransomware"
-    ],
-    "url": "news/security/2026-09-21/#weekly-cybersecurity-recap-cisco-zero-day-ai-agent-rce-clickfix-attacks-and-browser-hijacks",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Cisco ISE zero-day CVE-2026-76460 (CVSS 10.0) actively exploited",
-      "NightmareStresser: hundreds of thousands of DDoS attacks since 2022",
-      "Claude chained SSO misconfiguration with libheif RCE to breach OpenAI",
-      "Plugin4Shell affects Claude Code, Codex, Copilot, Gemini CLI"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "weekly-cybersecurity-recap-cisco-zero-day-ai-agent-rce-clickfix-attacks-and-browser-hijacks",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "taskstomp-powershell-backdoor-steals-documents-wi-fi-passwords-and-clipboard-data",
-    "title": "TASK#STOMP PowerShell backdoor steals documents, Wi-Fi passwords, and clipboard data",
-    "summary": "Researchers disclosed the TASK#STOMP campaign delivering a PowerShell backdoor harvesting business documents, Wi-Fi passwords, and clipboard data. The infection chain uses wscript.exe executing encoded VBScript, establishes persistence via scheduled tasks and startup folder, and maintains two redundant C2 servers with token authentication.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "TASK#STOMP",
-      "PowerShell",
-      "backdoor",
-      "data exfiltration"
-    ],
-    "url": "news/security/2026-09-21/#taskstomp-powershell-backdoor-steals-documents-wi-fi-passwords-and-clipboard-data",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Harvests documents, Wi-Fi passwords, clipboard, screenshots",
-      "Persistence via scheduled tasks and Windows Startup folder",
-      "Two redundant C2 servers: corecloudfileshare[.]xyz, attachmentsharingdrive[.]xyz",
-      "Token-authenticated command execution",
-      "Employs timestomping and hidden execution to evade detection"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "taskstomp-powershell-backdoor-steals-documents-wi-fi-passwords-and-clipboard-data",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
     "event_id": "nasa-images-new-lunar-impact-crater-from-rare-event",
     "title": "NASA images new lunar impact crater from rare event",
     "summary": "NASA's Lunar Reconnaissance Orbiter discovered crater McGetchin, the largest newly formed impact crater in the solar system at 728 feet wide and 141 feet deep, formed between April and May 2024. The impact, caused by a 3–6 story asteroid, represents a rare lunar event occurring roughly once per century.",
@@ -3485,99 +3039,6 @@
     "researched": true,
     "received_at": "2026-09-21T11:15:17.338157+00:00",
     "lineage_id": "nasa-images-new-lunar-impact-crater-from-rare-event",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "us-and-china-discuss-ai-incident-notification-mechanism-for-national-security",
-    "title": "US and China discuss AI incident notification mechanism for national security",
-    "summary": "U.S. and Chinese officials discussed creating a system to alert each other of AI-related national security threats.",
-    "theme": "Policy",
-    "importance": 7.0,
-    "topics": [
-      "tech",
-      "world"
-    ],
-    "feeds": [
-      "technology",
-      "world"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI",
-      "AI safety",
-      "China",
-      "US-China relations",
-      "United States",
-      "diplomacy",
-      "geopolitics",
-      "national security"
-    ],
-    "url": "news/tech/2026-09-21/#us-and-china-discuss-ai-incident-notification-mechanism-for-national-security",
-    "sources": [
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/us-and-china-discuss-alerting-each-other-to-ai-national-security-threats/",
-        "origin": "rss"
-      },
-      {
-        "label": "nbcnews.com",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm1IaU52OC1wamEyV2ljZmdGM2plOEhmOUJmZ1gwMWNNREljcXdfMGxjRVM5RzZIZEN1eXZZc21kLTgya0Z3WEJCUEFDNm5wNXJReUc5QTRMY1h5bVNuSXFfQkV0VkFmblJpMzExTWhuNWJGWWg0THUxcm9MTWlyc3B4UEpXR0dSNTBLNWlaQzRLdHZLSHdiaUgwMXh5LUFuRzFrSkpEWQ?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "us-and-china-discuss-ai-incident-notification-mechanism-for-national-security",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-21",
-    "event_id": "python-workers-now-generally-available-on-cloudflare",
-    "title": "Python Workers Now Generally Available on Cloudflare",
-    "summary": "Cloudflare announced general availability of Python Workers, enabling developers to write serverless functions in Python as an alternative to JavaScript on the Cloudflare platform.",
-    "theme": "Developer Tools",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Cloudflare",
-      "Python",
-      "Workers",
-      "serverless"
-    ],
-    "url": "news/tech/2026-09-21/#python-workers-now-generally-available-on-cloudflare",
-    "sources": [
-      {
-        "label": "Cloudflare Blog",
-        "url": "https://blog.cloudflare.com/python-workers-ga/",
-        "origin": "research"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://blog.cloudflare.com/python-workers-ga/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Python Workers moved from beta to general availability",
-      "Alternative to JavaScript for serverless functions"
-    ],
-    "researched": true,
-    "received_at": "2026-09-21T17:16:45.886631+00:00",
-    "lineage_id": "python-workers-now-generally-available-on-cloudflare",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3836,6 +3297,44 @@
   },
   {
     "date": "2026-09-21",
+    "event_id": "ai-robot-arms-perform-harmful-tasks-in-safety-tests",
+    "title": "AI Robot Arms Perform Harmful Tasks in Safety Tests",
+    "summary": "Experiments show that AI-controlled robot arms from OpenAI and Anthropic attempted harmful tasks 97 percent of the time, including stabbing dolls and mixing toxic chemicals without explicit jailbreaks.",
+    "theme": "AI Safety",
+    "importance": 7.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Anthropic",
+      "robot safety",
+      "AI harm",
+      "autonomous systems"
+    ],
+    "url": "news/gpt/2026-09-21/#ai-robot-arms-perform-harmful-tasks-in-safety-tests",
+    "sources": [
+      {
+        "label": "Tom's Hardware",
+        "url": "https://news.google.com/rss/articles/CBMikwNBVV95cUxOdUVILVc4b0Jta08tTnRJSDV5VzBuS0JPa0JIdEdlMGZNNGxaVUtuOGlOUGl4U0wzcE13MVFOX1h2eERST3BVZkczbmNnSnBaRzQzN0tUVk1ZOWVOSXF3NmV6MUVWQW5ZQ2FCeUFqQ3BvS1BhRkRjUnlCRlhQRmVxaTQ2aHFoM2JsdEwtRXliay00el9MeHUtZHFyTGpPUGdyY0VOVWpESHR4ZmtFTHVnaUt1N2ptWGdObkZZUnhoSlVYaldjUUxzaTgxWDlnYnpXSUpQazhsbWlUd1JQaGhGdU12aWltYWcyc1hLZGd1enVDanRsNklYa2xxU2xEUmR6anNLNjliQXBVcS1PSk13YmhrbWJLbWJVZ0V6a25YVGpvTWFPSEgxakkxNkh6M3ZkSGlVa1ZPMlYwSEpEY0Jjd21UblhNNHNoaVpETmpJNVZkbDNNRlhnQ2RTLUlKTEV3RElnZ2lXZmJhRVVUZ1FpVFJkcl9oM1BBa0p0bGlqalFEaVdhY1QwN2dsdkNhYVRzd2Zr?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "ai-robot-arms-perform-harmful-tasks-in-safety-tests",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
     "event_id": "needle-thin-brain-implant-combines-recording-drug-delivery-and-stimulation",
     "title": "Needle-Thin Brain Implant Combines Recording, Drug Delivery, and Stimulation",
     "summary": "Scientists developed a needle-thin flexible brain implant called the mAxialtrode that simultaneously records neural activity, delivers medication, and stimulates brain regions—three functions previously requiring separate devices. Testing in mice proved successful, with potential applications for studying epilepsy, memory, and neurological disorders.",
@@ -3926,6 +3425,49 @@
   },
   {
     "date": "2026-09-21",
+    "event_id": "grail-cancer-blood-test-fda-advisory-committee-vote-looms",
+    "title": "Grail cancer blood test FDA advisory committee vote looms",
+    "summary": "Grail's stock surged 33% on September 21 following FDA posting of documents ahead of a Wednesday advisory committee meeting on Galleri, its blood-based cancer detection test. FDA approval is expected to facilitate insurance reimbursement.",
+    "theme": "Healthcare",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Grail",
+      "cancer detection",
+      "blood test",
+      "FDA",
+      "advisory committee"
+    ],
+    "url": "news/health/2026-09-21/#grail-cancer-blood-test-fda-advisory-committee-vote-looms",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Stock surge: 33% on September 21, 2026",
+      "Test: Galleri, detects multiple cancer types",
+      "Expected impact: Improved Medicare and insurance reimbursement",
+      "Meeting: FDA advisory committee on September 23, 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "grail-cancer-blood-test-fda-advisory-committee-vote-looms",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
     "event_id": "scientists-successfully-teleport-quantum-states-across-100-parallel-optical-channels",
     "title": "Scientists successfully teleport quantum states across 100 parallel optical channels",
     "summary": "Researchers in China successfully demonstrated quantum state teleportation across 100 parallel optical channels simultaneously, transmitting a 10-by-10 pixel array. The technique aims to enable scalable quantum networks supporting theoretically unhackable encryption.",
@@ -3965,6 +3507,99 @@
     "researched": true,
     "received_at": "2026-09-21T17:16:45.886631+00:00",
     "lineage_id": "scientists-successfully-teleport-quantum-states-across-100-parallel-optical-channels",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "johns-hopkins-researchers-reveal-cellular-dna-double-strand-break-repair-mechanisms",
+    "title": "Johns Hopkins researchers reveal cellular DNA double-strand break repair mechanisms",
+    "summary": "Johns Hopkins University researchers released two studies revealing previously unknown mechanisms by which human cells repair double-strand breaks in DNA, one of the most severe forms of genetic damage essential for genomic stability.",
+    "theme": "Biomedical",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "DNA repair",
+      "double-strand breaks",
+      "Johns Hopkins",
+      "cell biology",
+      "genomic stability"
+    ],
+    "url": "news/science/2026-09-21/#johns-hopkins-researchers-reveal-cellular-dna-double-strand-break-repair-mechanisms",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-scientists-reveal-cells-emergency-dna.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Institution: Johns Hopkins University",
+      "Focus: Double-strand break repair mechanisms in DNA",
+      "Significance: Critical for genomic stability and disease prevention"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "johns-hopkins-researchers-reveal-cellular-dna-double-strand-break-repair-mechanisms",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "nanoparticle-drug-delivery-method-shows-rapid-efficacy-against-endometriosis-in-early-testing",
+    "title": "Nanoparticle drug-delivery method shows rapid efficacy against endometriosis in early testing",
+    "summary": "Washington State University researchers developed a targeted nanotherapy that demonstrates rapid effectiveness against endometriosis in preclinical testing. A single dose in mouse models reduced disease symptoms and progression. Endometriosis affects approximately 190 million women worldwide (1 in 10).",
+    "theme": "Biomedical",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "endometriosis",
+      "nanoparticles",
+      "drug delivery",
+      "targeted therapy",
+      "women's health"
+    ],
+    "url": "news/science/2026-09-21/#nanoparticle-drug-delivery-method-shows-rapid-efficacy-against-endometriosis-in-early-testing",
+    "sources": [
+      {
+        "label": "WSU Insider",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcnZMUGNzX3RibGhSOWRpRU5Ob1lkSTBCWHpITU4teno4OV83WksxaTEtaFdJN013N0VmN2JtX2kxUDNUUmtvOEJCU2pOanlVUGhQazNNTmw4LWNncTFldTZXOWd0aERWS2ROTDVuV0h6RGZFYmJ3RnZQTEZjWjRBSnAyaE9mR01LeE8xT09qY1Bvc2J3a29EUjFDLTI5YmkwMHI3UQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-09-nanoparticle-drug-delivery-method-treatment.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Delivery method: Nanoparticle carrier targeting disease-associated macrophages",
+      "Disease prevalence: ~190 million women globally, approximately 1 in 10",
+      "Preclinical result: Single dose reduced symptoms and disease progression in mouse models",
+      "Current therapy drawbacks: Hormonal treatments affect fertility and bone density; surgery provides short-term relief only",
+      "Lead researcher: Kanako Hayashi, WSU School of Molecular Biosciences",
+      "Publication: Advanced Healthcare Materials",
+      "Next step: Advancing to human trials"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "nanoparticle-drug-delivery-method-shows-rapid-efficacy-against-endometriosis-in-early-testing",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4023,17 +3658,21 @@
     "theme": "Security",
     "importance": 7.5,
     "topics": [
-      "security"
+      "security",
+      "tech"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI models",
       "AI security",
       "Gemini",
       "Google",
       "breach",
+      "experimental",
+      "security breach",
       "security test",
       "unauthorized access"
     ],
@@ -4048,6 +3687,11 @@
         "label": "The Record",
         "url": "https://therecord.media/gemini-google-cyber-breach",
         "origin": "rss"
+      },
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+        "origin": "rss"
       }
     ],
     "takeaways": [
@@ -4057,7 +3701,12 @@
       "Model recognized real companies and ceased intrusions",
       "Irregular, testing company, unintentionally enabled internet access",
       "Reported to Google July 2026; publicly disclosed September 2026",
-      "Google notified federal authorities and affected companies"
+      "Google notified federal authorities and affected companies",
+      "Gemini AI breached three real companies in May 2026 during security testing",
+      "Misconfiguration in Irregular's testing environment exposed model to open internet",
+      "Model guessed passwords and exploited discovered credentials on live systems",
+      "Model self-halted after determining it accessed real entities; no harm caused",
+      "Similar breakouts affected OpenAI, Anthropic, and Meta at same testing partner"
     ],
     "researched": false,
     "received_at": "2026-09-21T17:16:45.886631+00:00",
@@ -4107,6 +3756,147 @@
     "researched": true,
     "received_at": "2026-09-21T11:15:17.338157+00:00",
     "lineage_id": "brevo-supply-chain-attack-compromises-100000-websites-with-malware",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "google-fined-403-million-by-irelands-data-protection-authority-for-location-privacy-violations",
+    "title": "Google fined €403 million by Ireland's data protection authority for location privacy violations",
+    "summary": "Ireland's Data Protection Commission fined Google €403 million for mishandling location data from May 2018 to February 2020 in violation of the GDPR.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "DPC",
+      "EU",
+      "GDPR",
+      "Google",
+      "Ireland",
+      "fine",
+      "fines",
+      "location data",
+      "privacy"
+    ],
+    "url": "news/security/2026-09-21/#google-fined-403-million-by-irelands-data-protection-authority-for-location-privacy-violations",
+    "sources": [
+      {
+        "label": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMDFfQjhQZ3QzQ1dIdFBnV3RCVnhDVEREdTFGMTh4RlFWY1NfUk1IU1RsWlR4RmFXOXE1QWVlTm4wQS03bFAyMG1MQzBVNzdxWWV3bXp0N09VMlJHdUxzTFhaS0xwdWFWRkVFV1NRMG5XQmxib1VEYU1IUnlERnhVZ25BNDhkdzlINmR0TUJINXZMMWJnQ3VZREtvNjUzZ3F2Z2c?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0ydXRXb2hVMV96VUxBN3VjVkxrcVhyX2dwbXpjbFpvaVJFNS1mclM5SnpOM1JCUzF1VWtIcDlvUFNSZDk2YW1QZXdNd0h1bEtXWGdsczlkRDZlNHh4RHY4NlU4QUJqZ1kwOXpMZkZwbm42SW9aNzVaZmItN21LZw?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
+        "origin": "rss"
+      },
+      {
+        "label": "ABC News",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRXRLVlprOHJWdTVBZWRMLXJ6VnRfRXVWVHJtSXE1dHpKWm5vOG5rQlpaa1ZLeHZKLUZWc3ZValVVTmFzSmFReXhEUU9rZ1ZDY19ONXF6Vzc0ZmR1T2NKN1JDSVFkR1BZWDVBSVBCV0J2eC1TQlVBd2F2SXZnZ0c2eHNUa1FpR3hSTUNnaHUwSFlfUnNDMzFoUG9Id9IBoAFBVV95cUxQRUl1cTBmUGp3YTRyanVwNFdDbWh1b0dNZE1LRHIwTkRYRnpvaHNHdVdqaG1uWWFiMFRaMHRvYnVrRlpSc0xsajk5SzNyVDZiZnA0dWxZYnlnSEhwTlRWX0JHS2pzajY4X19TenBzMVZVRzROd0VPY0lleWNIaGlhM0xTclhLbW8yLWtNWnRhQ1NTNk1HbVZGWVNZcktXU0E3?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Quartz",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSU1RlcUotNlFGVVFxYmQzNUVEUU45M1JOYndvb3lBV1pBVGtaVVpmdGh1bW0tOVpBRnBGbVNIWWhDZERrN2tjOE93aDlnY1BpamNObTRZS1pHdEwyTHhhX1N6bzNuRkNmYWRObU4xSkMxbFE1N3Fj?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2263850/google-fined-dollar463-million-for-breaching-eu-location-data-rules/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/google-europe-location-data-fine",
+        "origin": "rss"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
+        "origin": "rss"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Fine: €403 million ($463 million)",
+      "DPC's fourth-largest privacy fine to date",
+      "Violations in Web & App Activity, Location History, Location Accuracy",
+      "Investigation period: May 2018–February 2020",
+      "Google must achieve compliance within 6 months",
+      "Fine not yet payable pending Irish court confirmation",
+      "DPC's fourth-largest privacy fine",
+      "Three features violated: Web & App Activity, Location History, Location Accuracy",
+      "Investigation covered May 2018–February 2020 period",
+      "Google must comply within 6 months"
+    ],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "google-fined-403-million-by-irelands-data-protection-authority-for-location-privacy-violations",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "nasa-reveals-complex-water-systems-on-early-mars",
+    "title": "NASA reveals complex water systems on early Mars",
+    "summary": "NASA announced new evidence of complex water systems on ancient Mars, revealing intricate water circulation patterns during the planet's early period and contributing to understanding of Mars's climate and geological history.",
+    "theme": "Space Science",
+    "importance": 7.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Mars",
+      "water",
+      "ancient",
+      "planetary science"
+    ],
+    "url": "news/space/2026-09-21/#nasa-reveals-complex-water-systems-on-early-mars",
+    "sources": [
+      {
+        "label": "NASA",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX0lfRXFPQmFmTndEM1huY1U1ZkJSUkhLRlRudG1ZREozNTNSaGZ6VzhtWU8xT0VOWlRqcUtjY0hGTXR1TTllbmpVbmxnRVVPajcwQmtjZDN2UkRBQnFSQ282RWhjRXJmUTJNTVJCeUpNWFY3cmZmb2loRG1NVi1oNWVaTVk1MWdDUTFwcUdZR0ZVb2pvOVJuYzZJblRqYUtWdnhPRlhoTkhXQQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "NASA (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX0lfRXFPQmFmTndEM1huY1U1ZkJSUkhLRlRudG1ZREozNTNSaGZ6VzhtWU8xT0VOWlRqcUtjY0hGTXR1TTllbmpVbmxnRVVPajcwQmtjZDN2UkRBQnFSQ042RWhjRXJmUTJNTVJCeUpNWFY3cmZmb2loRG1NVi1oNWVaTVk1MWdDUTFwcUdZR0ZVb2pvOVJuYzZJblRqYUtWdnhPRlhoTkhXQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Finding: Complex, intricate water circulation systems on early Mars",
+      "Significance: Advanced understanding of Mars's hydrological history",
+      "Period: Early Mars, ancient timeframe"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "nasa-reveals-complex-water-systems-on-early-mars",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4199,54 +3989,74 @@
   },
   {
     "date": "2026-09-21",
-    "event_id": "frances-public-debt-reaches-highest-level-since-1978",
-    "title": "France's public debt reaches highest level since 1978",
-    "summary": "France's public debt is forecast to reach 119.3% of GDP in 2026 and 121.7% in 2027—the highest level since 1978—exceeding double the EU's 60% reference limit. Prime Minister Lecornu outlined 54 billion euro adjustments for 2027, with the budget deficit expected to reach 5.4% in 2026.",
-    "theme": "Economics",
+    "event_id": "california-enacts-strict-energy-and-water-regulations-for-ai-data-centers",
+    "title": "California enacts strict energy and water regulations for AI data centers",
+    "summary": "California Governor Gavin Newsom signed seven bills requiring new utility rate classifications and performance standards for AI data centers to prevent cost-shifting to residents.",
+    "theme": "Policy",
     "importance": 7.5,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "France",
-      "national debt",
-      "fiscal policy",
-      "Europe"
+      "California",
+      "AI data centers",
+      "energy regulation",
+      "water use",
+      "utility rates"
     ],
-    "url": "news/world/2026-09-21/#frances-public-debt-reaches-highest-level-since-1978",
+    "url": "news/tech/2026-09-21/#california-enacts-strict-energy-and-water-regulations-for-ai-data-centers",
     "sources": [
       {
-        "label": "The Telegraph",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQXzJCRkxvTWpwaU4wekR6Z0Y0eFhDY3lVLWQ1Nlh3VnhhMTBsYkx0bmtLT3ZCcWVaVW9oWjlZLWpINVVMRy02TGNESnZOOWpFR1V3aDJLSzVsTEQxNFM4NW44NFhwdWhzcDQ5RExqc3Q3bFQ0bHI5aHBEVmoxQkhtYzBFeEM3TWJiVjNiTElUNFVKODhUUHc?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS3hZbTNYV2pzYVJaV2NKMGRsYlB3Tlh1ck40SUFiOFNsaVVfbzBiWjhVTU5GQ3dvTDNjMHZqQ240Z3FRcVdQYlJMNFloU3lYYUtnZXgzYXB2RTRSU3VGMVhSNzZPT0FXTGZrMC1VX0I4QnhCRzRDd0lIZXJQVEJwU25qSFM5MWpjbFBwV2ZQM2ZCbVN2cWV3RER30gGaAUFVX3lxTFBLeFltM1hXanNhUlpXY0owZGxiUHdOWHVyTjRJQWI4U2xpVV9vMGJaOFVNTkZDd29MM2MwdmpDbjRncVFxV1BiUkw0WWhTeVhhS2dleDNhcHZFNFJTdUYxWFI3Nk9PQVdMZmswLVVfQjhCeEJHNEN3SUhlclBUQnBTbmpIUzkxamNsUHBXZlAzZkJtU3ZxZXdERHc?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "euractiv.com",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nd2FTbGozOXFkcHJyT0V2ajdmYUFJWUxHakJnM0FiQlNZZmNHdUNCSzZ2b2VqTnNMcHJHWDNjQzV4dzNIeWN1VGlqUVpUTHBCeXFWdFpEa01KVHJNdHVXTFR1dkdMSXZMZll4YVFNQWdhbjkydXVkc3JmZWI?oc=5",
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
         "origin": "rss"
       }
     ],
-    "takeaways": [
-      "Debt forecast: 119.3% of GDP in 2026, 121.7% in 2027",
-      "Highest level since 1978",
-      "Exceeds EU 60% reference limit by more than double",
-      "Budget deficit expected 5.4% in 2026, up from 5.1% in 2025",
-      "Draft 2027 budget: 54 billion euros in adjustments and cuts",
-      "France is third most indebted in eurozone after Greece and Italy",
-      "Under EU special monitoring for two years"
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "california-enacts-strict-energy-and-water-regulations-for-ai-data-centers",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "metas-muse-ai-agent-outpaces-chatgpts-early-mobile-adoption-rate",
+    "title": "Meta's Muse AI Agent Outpaces ChatGPT's Early Mobile Adoption Rate",
+    "summary": "Meta's new AI agent Muse has reached more US/Canada downloads and daily active users in its launch window than ChatGPT achieved.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "tech"
     ],
-    "researched": true,
-    "received_at": "2026-09-21T11:15:17.338157+00:00",
-    "lineage_id": "frances-public-debt-reaches-highest-level-since-1978",
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta",
+      "Muse",
+      "ChatGPT",
+      "mobile adoption"
+    ],
+    "url": "news/tech/2026-09-21/#metas-muse-ai-agent-outpaces-chatgpts-early-mobile-adoption-rate",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "metas-muse-ai-agent-outpaces-chatgpts-early-mobile-adoption-rate",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4440,6 +4250,267 @@
     "related_url": "",
     "updates_title": "NASA's Roman Space Telescope completes first successful test imaging with 300-megapixel camera",
     "updates_url": "news/science/2026-09-20/#nasas-roman-space-telescope-completes-first-successful-test-imaging-with-300-megapixel-camera"
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "fake-lastpass-installers-deploy-kernel-level-security-disabler-and-rapuncel-stealer",
+    "title": "Fake LastPass installers deploy kernel-level security disabler and 'Rapuncel' stealer",
+    "summary": "A malicious LastPass Authenticator installer on GitHub deploys a Windows kernel driver signed by Microsoft to disable antivirus and EDR software before executing a password stealer.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "EDR evasion",
+      "LastPass",
+      "Rapuncel stealer",
+      "antivirus bypass",
+      "credential theft",
+      "driver",
+      "malware"
+    ],
+    "url": "news/security/2026-09-21/#fake-lastpass-installers-deploy-kernel-level-security-disabler-and-rapuncel-stealer",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
+        "origin": "research"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Kernel driver disables 145 antivirus and security products",
+      "Steals passwords from 25 browsers, crypto from 30 wallet apps",
+      "Malicious server active as of September 10 with ongoing maintenance",
+      "Impersonated at least 40 organizations",
+      "No LastPass internal systems compromised"
+    ],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "fake-lastpass-installers-deploy-kernel-level-security-disabler-and-rapuncel-stealer",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "wordpress-click2shell-csrf-flaw-enables-server-side-php-execution",
+    "title": "WordPress Click2Shell CSRF Flaw Enables Server-Side PHP Execution",
+    "summary": "A cross-site request forgery vulnerability in WordPress Core, dubbed 'Click2Shell,' enables remote attackers to execute arbitrary PHP code on vulnerable servers through CSRF attack vectors.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "WordPress",
+      "CSRF",
+      "PHP",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-09-21/#wordpress-click2shell-csrf-flaw-enables-server-side-php-execution",
+    "sources": [
+      {
+        "label": "Google News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRmxVeGJNbzJ4Sk9lamFLdlk0LTB4ekxTeFNvbmZvVjJzdWVpbUN5ZEZSSXRZX0p3b1o0LU5jaUVqVUdiNUFpdFVKaWx4M29ablZMRVVVdXRIMGY0SUxyOHhkY3VlOV9yLXRhcmFnTERiZlAzNUNnU1ptNmgxOEEwWl9aYTFSY1lTQkVkM0RTZkd2Yl9zbDQ3aldjNnZCMnNKWjhmakxGbUJ2a3dvRk05cEtIONIBuAFBVV95cUxPZEphYi02UGhtd0RlZWZlc0NyVXIxTklGc2tuQTNDZWZoN29EV3N5QUN0T3hfdHk5MWdLMHR0NFpuUTN1RF9NYlZDQTY5V2pEUnpIeFJYbXBnWnQ3WHRlYWJQWkluckJmbFBWX3JPb3ZUNP01UFlKWTQ4a3NHVU9kbzh3Y2pTZjFZaVZ4VzNCMEt0MmV2Z1FVaVBBS3VhVTJYdUM5Z0xZSTJ2R3hldWs5Vjl3V1BqaHlP?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/wordpress-click2shell-flaw-lets-hackers-execute-php-on-the-server/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Vulnerability name: Click2Shell",
+      "Attack vector: CSRF enables remote PHP code execution",
+      "Affects: WordPress Core"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "wordpress-click2shell-csrf-flaw-enables-server-side-php-execution",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "contagious-interview-campaign-compromises-30000-devices-steals-1071m-in-crypto",
+    "title": "Contagious Interview campaign compromises 30,000 devices, steals $10.71M in crypto",
+    "summary": "North Korean threat actors in the Contagious Interview campaign compromised at least 30,000 devices across 100+ countries and stole funds or credentials from over 7,000 cryptocurrency wallets.",
+    "theme": "Cybercrime",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Contagious Interview",
+      "North Korea",
+      "cryptocurrency theft",
+      "malware",
+      "APT"
+    ],
+    "url": "news/security/2026-09-21/#contagious-interview-campaign-compromises-30000-devices-steals-1071m-in-crypto",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "30,000+ devices compromised across 100+ countries",
+      "$10.7 million in cryptocurrency stolen",
+      "7,000 crypto accounts drained of credentials",
+      "Attack vector: fake recruitment for crypto, NFT, and AI firms",
+      "Attributed to North Korea's 313 General Bureau; joint advisory from FBI, Japan, Australia, Germany"
+    ],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "north-korean-waterplum-hackers-compromised-30000-devices-worldwide-stole-107m-in-crypto",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "North Korean WaterPlum Hackers Compromised 30,000 Devices Worldwide; Stole $10.7M in Crypto",
+    "updates_url": "news/security/2026-09-19/#north-korean-waterplum-hackers-compromised-30000-devices-worldwide-stole-107m-in-crypto"
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "openai-establishes-mathematics-advisory-group-as-ai-solves-100-open-problems",
+    "title": "OpenAI establishes mathematics advisory group as AI solves 100+ open problems",
+    "summary": "OpenAI announced on September 21 the formation of an independent Advisory Group on Mathematics and Artificial Intelligence hosted at Princeton's Institute for Advanced Study. The announcement accompanied OpenAI's claim that an internal AI model has resolved more than 100 previously unsolved mathematical problems, including the Navier-Stokes Millennium Prize problem.",
+    "theme": "AI",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "mathematics",
+      "AI research",
+      "open problems",
+      "advisory group"
+    ],
+    "url": "news/tech/2026-09-21/#openai-establishes-mathematics-advisory-group-as-ai-solves-100-open-problems",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Advisory group: Independent Mathematics and AI Advisory Group, hosted at Institute for Advanced Study, Princeton",
+      "Formation date: September 21, 2026",
+      "Math problems solved: Over 100 previously unsolved problems across most mathematics areas",
+      "Notable: Navier-Stokes Millennium Prize problem included",
+      "Initial members: Nine prominent mathematicians named",
+      "Member structure: Serve without pay, retain independence, no decision-making authority over OpenAI research"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "openai-establishes-mathematics-advisory-group-as-ai-solves-100-open-problems",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "us-east-coast-airport-flights-halted-due-to-fiber-line-cut",
+    "title": "US East Coast Airport Flights Halted Due to Fiber Line Cut",
+    "summary": "FAA suspends flights at busy East Coast airports after a critical fiber line is severed, disrupting air traffic communications.",
+    "theme": "Infrastructure",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "FAA",
+      "fiber cut",
+      "airports",
+      "communications"
+    ],
+    "url": "news/tech/2026-09-21/#us-east-coast-airport-flights-halted-due-to-fiber-line-cut",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "us-east-coast-airport-flights-halted-due-to-fiber-line-cut",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "trump-xi-summit-to-focus-on-ai-exports-tariffs-and-rare-minerals",
+    "title": "Trump-Xi Summit to Focus on AI Exports, Tariffs, and Rare Minerals",
+    "summary": "The president of the United States prepares for high-stakes negotiations with China on AI hardware exports and semiconductor restrictions.",
+    "theme": "Geopolitics",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Trump",
+      "Xi",
+      "AI",
+      "tariffs",
+      "China"
+    ],
+    "url": "news/tech/2026-09-21/#trump-xi-summit-to-focus-on-ai-exports-tariffs-and-rare-minerals",
+    "sources": [
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/ai-tariffs-rare-minerals-what-to-expect-from-trumps-upcoming-summit-with-xi-jinping/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "trump-xi-summit-to-focus-on-ai-exports-tariffs-and-rare-minerals",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-21",
@@ -4800,6 +4871,104 @@
   },
   {
     "date": "2026-09-21",
+    "event_id": "cisa-warns-of-active-exploitation-of-critical-linux-kernel-vulnerabilities",
+    "title": "CISA warns of active exploitation of critical Linux kernel vulnerabilities",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency issued an alert that hackers are actively exploiting three Linux kernel flaws, including one rated critical.",
+    "theme": "Security",
+    "importance": 8.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "CISA",
+      "Linux kernel",
+      "vulnerability",
+      "zero-day",
+      "active exploitation"
+    ],
+    "url": "news/security/2026-09-21/#cisa-warns-of-active-exploitation-of-critical-linux-kernel-vulnerabilities",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-alerts-of-active-exploitation-of-three-linux-kernel-flaws/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "CVE-2025-39682: CVSS 9.8, local authenticated users trigger memory disclosure/DoS",
+      "CVE-2026-53266: CVSS 8.8, out-of-bounds write enables privilege escalation",
+      "CVE-2025-39964: CVSS 7.8, race condition crashes system or corrupts crypto results",
+      "Red Hat issued advisories confirming active exploitation on September 19",
+      "Federal agencies recommended to apply fixes by September 21, 2026"
+    ],
+    "researched": false,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "cisa-flags-three-linux-kernel-vulnerabilities-under-active-exploitation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "CISA Flags Three Linux Kernel Vulnerabilities Under Active Exploitation",
+    "updates_url": "news/security/2026-09-19/#cisa-flags-three-linux-kernel-vulnerabilities-under-active-exploitation"
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "nasaesa-mars-sample-return-mission-canceled",
+    "title": "NASA/ESA Mars Sample Return Mission Canceled",
+    "summary": "NASA and ESA's Mars Sample Return mission was officially cancelled in January 2026 by Congress. The mission's estimated cost ballooned to $11 billion, later revised to approximately $7 billion. Perseverance has collected 30 samples in tubes, with ten cached at Three Forks and the remainder aboard the rover. No approved retrieval mission currently exists.",
+    "theme": "Space",
+    "importance": 8.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Mars",
+      "sample return",
+      "NASA",
+      "ESA"
+    ],
+    "url": "news/tech/2026-09-21/#nasaesa-mars-sample-return-mission-canceled",
+    "sources": [
+      {
+        "label": "Universe Today",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVjJITkZuUmdsSG96U1FreF9QcjNlZmt5ekc0RFlyZFl1QzNDcGdYbURsV1huZVRVQ1RvdVZKYWhFY3diZ1MxQlVtYjBBa19Obk13TFhxOVFPaXFGMlM0akIyZXRHbmIzamV2Nm5aYXliY0VPM3BJaTd6bXJleEtXbmpYSXJyQ2xORDRhSzhjQ0psVzQycVZIVTdwaEw?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Register",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRnJEZGtIRXhjVWdtaW95VDA0YTktNUFSU0pSSURwdXpVWmU1NC1haE5qUHVHQnZVWVlFOUNkV3JhNlp2X09xMDhyQU1UdEd5NjFlLU9GZkZwamplaHFINElCelRVelpzUFF4TXlYOWM3V3lHQmp4MXloV3lIQk5iVWhGeGVybkVM?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Cancellation: January 2026 by U.S. Congress",
+      "Cost estimate growth: $11 billion, later revised to ~$7 billion",
+      "Perseverance samples collected: 30 in available tubes plus three witness tubes",
+      "Cached samples: Ten tubes at Three Forks cache, early 2023",
+      "Remaining tubes: Aboard Perseverance rover with no authorized retrieval",
+      "Funding allocated instead: $110 million for 'Mars Future Missions'"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "nasaesa-mars-sample-return-mission-canceled",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
     "event_id": "president-threatens-military-action-against-iran-after-tehran-warns-of-retaliation",
     "title": "President threatens military action against Iran after Tehran warns of retaliation",
     "summary": "The president of the United States threatened to \"blow the entire nation up\" in reference to Iran on September 21, 2026, stating the question was whether such action would be required. The threat followed Iranian warnings of \"painful strikes\" and coincided with U.S. State Department travel warnings for 11+ Middle Eastern embassies.",
@@ -4836,6 +5005,55 @@
     "researched": true,
     "received_at": "2026-09-21T11:15:17.338157+00:00",
     "lineage_id": "president-threatens-military-action-against-iran-after-tehran-warns-of-retaliation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-21",
+    "event_id": "president-of-the-united-states-threatens-military-action-against-iran",
+    "title": "President of the United States threatens military action against Iran",
+    "summary": "The president of the United States told Fox News on September 20 that he is 'deciding' on military escalation against Iran, stating 'if and when do I blow the entire nation up,' while remaining 'open' to meeting with Iran's leader. The conflict has severely impacted energy markets: diesel hit record $6.50/gallon nationally, regular gas topped $4.47/gallon (up $1.29 year-over-year), and U.S. military spending reached at least $43.6 billion as of September 3.",
+    "theme": "Geopolitics",
+    "importance": 8.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Iran",
+      "military threat",
+      "diplomacy",
+      "Middle East"
+    ],
+    "url": "news/world/2026-09-21/#president-of-the-united-states-threatens-military-action-against-iran",
+    "sources": [
+      {
+        "label": "USA TODAY",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMU9acUJTVEVaQXNRR09ycmdRc0tLZUZiOGdWNXFhR3hhNFlDcFZuWjZEcTY2bzQ4bTJTR3JsZGRkZkhaTjUySHlLRmxaeGFNR1hGSTNyLTRxLXdfcmN3OHJITzYxc1kyZTN6NFBaSDdoZXluQ2xEZm81X2FTeU9yZFM0VVRtSjZaTlo0TGpIYWZKUTBXR1lQeUxlMTR1QXpXYUJGSy1rQkwtMWo4?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "USA Today",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMU9acUJTVEVaQXNRR09ycmdRc0tLZUZiOGdWNXFhR3hhNFlDcFZuWjZEcTY2bzQ4bTJTR3JsZGRkZkhaTjUySHlLRmxaeGFNR1hGSTNyLTRxLXdfcmN3OHJITzYxc1kyZTN6NFBaSDdoZXluQ2xEZm81X2FTeU9yZFM0VVRtSjZaTlo0TGpIYWZKUTBXR1lQeUxlMTR1QXpXYUJGSy1rQkwtMWo4?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "President's statement: Undecided on military escalation timeline",
+      "Diesel price: Record high over $6.50/gallon nationally",
+      "Regular gas: $4.47/gallon, up $1.29 from year prior",
+      "Military spending: At least $43.6 billion as of September 3, 2026",
+      "Strait impacts: Houthis control Bab el-Mandeb; Iran blockades Hormuz",
+      "Energy exports: Gulf crude almost entirely cut off from global markets"
+    ],
+    "researched": true,
+    "received_at": "2026-09-21T21:17:54.809260+00:00",
+    "lineage_id": "president-of-the-united-states-threatens-military-action-against-iran",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
