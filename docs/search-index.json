@@ -222,6 +222,43 @@
   },
   {
     "date": "2026-09-27",
+    "event_id": "q2-2026-email-security-threat-landscape-report",
+    "title": "Q2 2026 Email Security Threat Landscape Report",
+    "summary": "A quarterly analysis of emerging email security threats and trends for the second half of 2026.",
+    "theme": "Security",
+    "importance": 4,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "email security",
+      "threat landscape",
+      "Q2 2026",
+      "security trends"
+    ],
+    "url": "news/email-security/2026-09-27/#q2-2026-email-security-threat-landscape-report",
+    "sources": [
+      {
+        "label": "Microsoft",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcElERXdPUFlxbEZhczBmTFpLYWM1cXU1b3ZKVzJpNmJFVklCUWxaZksxU0ZiUXpNMk9Ka29XY0lkb0ZYb1BscXVzQkNRMUx6NnNDem1FVXJQbExIRHE0SkxOSEM2UGJnaERHSjJMeUUtSno0dVhFdmc0UnNoNkJyUC02b0Q0MEVESzZXTXlTSGM2dG9RMGlMTS1fRWszNE9vaExlWjNVQUxVaGpn?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "q2-2026-email-security-threat-landscape-report",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
     "event_id": "uh-cancer-center-hosts-free-pancreatic-cancer-research-and-treatment-event",
     "title": "UH Cancer Center hosts free pancreatic cancer research and treatment event",
     "summary": "The University of Hawaii Cancer Center holds a free September 16 event highlighting pancreatic cancer research and breakthrough treatments.",
@@ -295,6 +332,42 @@
   },
   {
     "date": "2026-09-27",
+    "event_id": "nasa-seeks-crowdsourced-cloud-photography",
+    "title": "NASA Seeks Crowdsourced Cloud Photography",
+    "summary": "NASA renewed its call for members of the public to submit photographs of clouds for research purposes.",
+    "theme": "Space",
+    "importance": 4,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "cloud photography",
+      "citizen science"
+    ],
+    "url": "news/space/2026-09-27/#nasa-seeks-crowdsourced-cloud-photography",
+    "sources": [
+      {
+        "label": "CW39 Houston",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaklqSTE2RnlXVHgxWlJZWUJraUI5c0Fpd3A1Z1ZoempGa1E1aXZDNkNPWTgxM3VCVV9zY0RwMEZ6MXNSN01PNG9yMmJCWVp5MHlHSDNwMG9TWGRyWDVTdlFDNGhzRGpqVG5COE9SaklaMjhqTF9UazJscC1pUWtVTzRzbHZ1VE5JdUV4NXZZN2hreUZpSlVOM3FlaHM1NU5FYmNsUEI4M1XSAa4BQVVfeXFMUERZYm9GWWpCdVRqVmRfM2ZFaWczYjh1d2N4a3VZd2loYXBpOXZBSVJhN2x0czBXSVRJQjJ1b0UwdzJRYms0X2RHdVFuOU9qeElRV2pXX0NZM2tEUDQzQnJybHBFbmhYd2ZPalpPWTk3UnM3X0lubzJVaWpQTWhTU3VvU1ZiOVFzMTVfYU0xc20taVFSTmxxV3RaTGc2UDBnaEtMeWJYaXhBaWNMVjdn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "nasa-seeks-crowdsourced-cloud-photography",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
     "event_id": "gatorade-launches-multi-year-research-initiative-on-womens-hydration-science",
     "title": "Gatorade launches multi-year research initiative on women's hydration science",
     "summary": "Gatorade commits to a multi-year research program addressing gaps in hydration science across different female life stages.",
@@ -334,7 +407,7 @@
     "date": "2026-09-27",
     "event_id": "drizzle-0304-postgresql-bug-missed-six-parent-tables-stalled-ci-pipeline",
     "title": "Drizzle 0.30.4 PostgreSQL bug missed six parent tables, stalled CI pipeline",
-    "summary": "Drizzle version 0.30.4 contained a bug that failed to recognize six PostgreSQL parent tables, causing CI pipeline issues.",
+    "summary": "A bug in Drizzle version 0.30.4 caused six PostgreSQL parent tables to be omitted, disrupting continuous integration pipelines.",
     "theme": "Software",
     "importance": 4.5,
     "topics": [
@@ -345,10 +418,10 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "CI/CD",
       "Drizzle",
       "PostgreSQL",
       "bug",
-      "CI/CD",
       "database"
     ],
     "url": "news/postgres/2026-09-27/#drizzle-0304-postgresql-bug-missed-six-parent-tables-stalled-ci-pipeline",
@@ -361,7 +434,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-27T15:53:36.915787+00:00",
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
     "lineage_id": "drizzle-0304-postgresql-bug-missed-six-parent-tables-stalled-ci-pipeline",
     "related_title": "",
     "related_url": "",
@@ -442,6 +515,44 @@
     "researched": false,
     "received_at": "2026-09-27T10:55:25.013202+00:00",
     "lineage_id": "kts-self-developed-ai-model-routing-technology-achieves-second-place-global-ranking",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "soundhound-ai-launches-oasys-edge-for-on-device-llm-voice-ai",
+    "title": "SoundHound AI Launches OASYS Edge for On-Device LLM Voice AI",
+    "summary": "SoundHound AI introduced OASYS Edge, a system that enables large language model-powered voice AI to run directly on device hardware.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "SoundHound AI",
+      "OASYS Edge",
+      "voice AI",
+      "LLM",
+      "edge computing"
+    ],
+    "url": "news/ai/2026-09-27/#soundhound-ai-launches-oasys-edge-for-on-device-llm-voice-ai",
+    "sources": [
+      {
+        "label": "foreignpolicyjournal.com",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPX3FfSHIxclZ2d041akw1dmNJYWNldVJ3VUFmVmI3SU5JdjhZeGhiOE41UGNYRlBaMERaRkNPUXdLNElCWnJEWUZqTGxuQ1VsMDl6cE9VTjdmTWVkMDJ0M0lKdTB2S3hya29TdW1Ha2VUbFg3eGVHWUtWdkNiV1JoY2hFMUQxczFWUHg5RXBzNGF0LVYxRkFjdHhnRktQSTZuOWl3aUtBc3JXb1I0dHlxd1pqUFVfeHFvbFlvS1NJVTREQVpjbnFpT0R0eEZTUEt4azE3LUZCMUJQZE1X?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "soundhound-ai-launches-oasys-edge-for-on-device-llm-voice-ai",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -633,127 +744,6 @@
   },
   {
     "date": "2026-09-27",
-    "event_id": "openais-o-update-revealed-in-chatgpt-leak",
-    "title": "OpenAI's 'o' Update Revealed in ChatGPT Leak",
-    "summary": "Details about OpenAI's unreleased 'o' update for ChatGPT emerged from a leaked disclosure.",
-    "theme": "AI Product",
-    "importance": 5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "o model",
-      "update"
-    ],
-    "url": "news/gpt/2026-09-27/#openais-o-update-revealed-in-chatgpt-leak",
-    "sources": [
-      {
-        "label": "Kingy AI",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tUXdxbWNUQTJxSHc3eTZqSUR6SFg0UjVJZXRmeGJNYmkyYzRRcXlMX2lBSWZtN2V5ZVd5Q3pWNmdfVndjVS1EUXJCVTlLWTd4QWpVZDNGYWM0eE1mY0Fhd012OC1xSUNHX0E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
-    "lineage_id": "openais-o-update-revealed-in-chatgpt-leak",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
-    "event_id": "retail-trader-advises-against-meme-stocks-and-over-leveraging",
-    "title": "Retail Trader Advises Against Meme Stocks and Over-Leveraging",
-    "summary": "A six-figure retail trader shares risk management strategies including avoiding meme stocks and excessive leverage.",
-    "theme": "Markets",
-    "importance": 5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "retail trading",
-      "meme stocks",
-      "leverage",
-      "risk management"
-    ],
-    "url": "news/markets/2026-09-27/#retail-trader-advises-against-meme-stocks-and-over-leveraging",
-    "sources": [
-      {
-        "label": "Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYzhTbE1sUUxsME9FbGJ5MWV4dnhWckxhZjdWSGg4SExJVERnZDNta1AzRXlPT2tORHBDMG4xa0RvMm5TdGo4MTFYVExvVF8teWp3cVRBa0pjVVpVZVo2XzYxcDNMdXNCaFhoRmpxSk9UVklrSkgyRUk5MzYxbzN0TFhkaTE3MmRwNUEtQmNMNGtrTzlEcExPcl9WTQ?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Yahoo Finance UK",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcEJOTFZ2N0ZDazJMQ1J4M1RKMnhpZmxfUm9GZDZqTFkwR0sxcjZDWFYtdkQ2YkZUU1RHQWJXUjdDVTVJUWRITHV1ek43cFd3YXNqajdYRmhWaUZ0YmJ6VEo5S2twU3ozY0tPQ2o1YkNHNFJ5NlF0LUNnei0wUUNfWGdB?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
-    "lineage_id": "retail-trader-advises-against-meme-stocks-and-over-leveraging",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
-    "event_id": "sandisk-stock-down-23-as-analysts-weigh-buying-opportunity",
-    "title": "SanDisk Stock Down 23% as Analysts Weigh Buying Opportunity",
-    "summary": "SanDisk shares have fallen 23%, prompting analysis of whether the decline presents a value buying opportunity.",
-    "theme": "Markets",
-    "importance": 5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "SanDisk",
-      "stock decline",
-      "buy the dip",
-      "semiconductor"
-    ],
-    "url": "news/markets/2026-09-27/#sandisk-stock-down-23-as-analysts-weigh-buying-opportunity",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcU5zdXNlS1JLQW1PUmhWdFRwOEpoNmFDVHR3TzljRE04Ny1WOWt0SVNNWFpXNUE5dVg3NFpEV0hzUE1QNW1kNDBST2VwV1FhWmlHM3VFWjlOelIwSVZ4S1pBN2t4NXowWVNZb25YV0loOEZycTJfQjlvY1NTRkZYNEdQT0dLS2FNMVAzdUVvQ1dEdw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "The Motley Fool",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTVhXUWV2WmYzZjNrenNtWUgtSVYtWXJOYjFkMWFIbFA4RlpYaWZvU2tES1dfZXNlVzhXMXJPc29xOVY0R0QzTG9vZk15TFFNa2d2R2ZjOWlOaFlCVi1OMFdjeHJGT2lURHNWdXV3OFp0cU1FdzNWZTd2Y0psanRpM3QwamRRTm8?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
-    "lineage_id": "sandisk-stock-down-23-as-analysts-weigh-buying-opportunity",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
     "event_id": "san-marino-becomes-latest-nation-to-sign-nasas-artemis-accords",
     "title": "San Marino Becomes Latest Nation to Sign NASA's Artemis Accords",
     "summary": "San Marino has signed the Artemis Accords, NASA's international framework for sustainable and peaceful space exploration. The accords establish principles for lunar exploration and cislunar activities, with participation from an expanding coalition of nations committed to responsible space governance.",
@@ -789,6 +779,43 @@
     "researched": true,
     "received_at": "2026-09-27T11:02:55.089742+00:00",
     "lineage_id": "san-marino-becomes-latest-nation-to-sign-nasas-artemis-accords",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "anthropic-operates-biology-research-laboratory",
+    "title": "Anthropic Operates Biology Research Laboratory",
+    "summary": "AI company Anthropic is running a biology research lab, signaling expansion beyond pure software and model development.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "biology",
+      "research lab",
+      "AI"
+    ],
+    "url": "news/anthropic/2026-09-27/#anthropic-operates-biology-research-laboratory",
+    "sources": [
+      {
+        "label": "The Daily Star",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVEdSckM1SXBnT2Z5X2JEbjZiWXBLWjJYQWRfUnYyNzdjbmVOd3NRYXVXc2R3Q1d6Vm9OVXc5a2F5SnpNQXItT2NoelVSVEVhV00yNDZfWDJLOExWbDRxeHliOXh4WUMtcjYzbDUzOF9aTGxtYmxrVUZnT0JsV084c3hINHIxTzgwN21EZ25VRFJqa3J3dFE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "anthropic-operates-biology-research-laboratory",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -911,7 +938,7 @@
     "date": "2026-09-27",
     "event_id": "gemini-live-vs-chatgpt-voice-comparing-natural-conversation-abilities",
     "title": "Gemini Live vs. ChatGPT Voice: Comparing natural conversation abilities",
-    "summary": "Google and OpenAI are competing on conversational naturalness in AI chatbots, with Gemini Live and ChatGPT Voice offering increasingly natural interactions.",
+    "summary": "A comparative review examines which AI voice assistant—Google's Gemini Live or OpenAI's ChatGPT Voice—offers a more natural conversational experience.",
     "theme": "AI",
     "importance": 5.5,
     "topics": [
@@ -923,11 +950,15 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Gemini Live",
+      "ChatGPT",
       "ChatGPT Voice",
-      "conversational AI",
+      "Gemini Live",
       "Google",
-      "OpenAI"
+      "Google Gemini",
+      "OpenAI",
+      "conversational AI",
+      "natural language",
+      "voice AI"
     ],
     "url": "news/gpt/2026-09-27/#gemini-live-vs-chatgpt-voice-comparing-natural-conversation-abilities",
     "sources": [
@@ -935,12 +966,54 @@
         "label": "Engadget",
         "url": "https://www.engadget.com/2266889/gemini-live-vs-gpt-live-which-offers-more-natural-conversation/",
         "origin": "rss"
+      },
+      {
+        "label": "engadget.com",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObnZGa1lhUlVVZDZVbVNVR3NZWHZlV0VQZVNUM1hwSDlqSEhwWjNDalc5cTFQNFR4aDRBSndaZzZTSFhyemRaWXNrQmU2UUp1Sy05ZXFfbXRlZl81Uk8wYURaWnJ0QjVFelh6U2Nvc0Z3N1dZY0FBZG5GSXBtV215elR1VXl5OWFPb09pUlhyMTJUOGpZWFhiUjNyb3k?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-27T15:53:36.915787+00:00",
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
     "lineage_id": "gemini-live-vs-chatgpt-voice-comparing-natural-conversation-abilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "jensen-huang-frames-ai-safety-as-engineering-challenge-openai-evidence-suggests-complexity",
+    "title": "Jensen Huang Frames AI Safety as Engineering Challenge; OpenAI Evidence Suggests Complexity",
+    "summary": "NVIDIA's Jensen Huang characterizes AI safety as an engineering problem, while OpenAI's track record suggests deeper complications.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI safety",
+      "Jensen Huang",
+      "OpenAI",
+      "engineering"
+    ],
+    "url": "news/gpt/2026-09-27/#jensen-huang-frames-ai-safety-as-engineering-challenge-openai-evidence-suggests-complexity",
+    "sources": [
+      {
+        "label": "24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdnFucTFWZTJadmJUNlZab3dPZ3dEZ3JmclJBVFZNZ0Q5V0NDUEZYcDhVZExOVkRQamtNZC1IQ3E1TGlob19VZFdSNmYwOHFsZVRNNUxybTJCTk9vYVVQWnJoX29fck0waW41QkFiZVRDMUN5NW5BOW5VZjJWLTRzNFZ6TlNneXh2VG9HbHdoS1g3VlBiYm9jbVN0eG5QWGJjODVULV9Rd1FmVXV5U1VKZ290NHlCUUVFUGVBbHpJenUyV25YR1ZfbnZYS0NxM0FidTlmdEttdw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "jensen-huang-frames-ai-safety-as-engineering-challenge-openai-evidence-suggests-complexity",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1064,7 +1137,7 @@
     "date": "2026-09-27",
     "event_id": "ai-sentiment-whiplash-jolts-stock-markets-from-fear-to-greed",
     "title": "AI sentiment whiplash jolts stock markets from fear to greed",
-    "summary": "Stock markets experienced volatility as investor sentiment around AI stocks swung sharply between fear and greed.",
+    "summary": "AI-related sentiment in financial markets has swung sharply between fear and greed, creating significant stock volatility.",
     "theme": "Markets",
     "importance": 5.5,
     "topics": [
@@ -1076,9 +1149,12 @@
     "primary_feed": "world",
     "keywords": [
       "AI stocks",
-      "sentiment",
+      "equity markets",
+      "investor psychology",
+      "market sentiment",
       "market volatility",
-      "equity markets"
+      "sentiment",
+      "volatility"
     ],
     "url": "news/markets/2026-09-27/#ai-sentiment-whiplash-jolts-stock-markets-from-fear-to-greed",
     "sources": [
@@ -1090,7 +1166,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-27T15:53:36.915787+00:00",
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
     "lineage_id": "ai-sentiment-whiplash-jolts-stock-markets-from-fear-to-greed",
     "related_title": "",
     "related_url": "",
@@ -1165,81 +1241,6 @@
     "researched": false,
     "received_at": "2026-09-27T15:53:36.915787+00:00",
     "lineage_id": "washington-state-astronaut-selected-for-second-nasa-mission",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
-    "event_id": "google-tests-shopping-integration-via-gemini-ai-with-flipkart-in-india",
-    "title": "Google Tests Shopping Integration via Gemini AI with Flipkart in India",
-    "summary": "Google is running a limited test allowing users to purchase from Walmart-owned Flipkart through Gemini AI in India, with broader rollout planned for October.",
-    "theme": "AI Integration",
-    "importance": 5.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Google",
-      "Gemini",
-      "Flipkart",
-      "AI shopping",
-      "e-commerce"
-    ],
-    "url": "news/tech/2026-09-27/#google-tests-shopping-integration-via-gemini-ai-with-flipkart-in-india",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
-    "lineage_id": "google-tests-shopping-integration-via-gemini-ai-with-flipkart-in-india",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
-    "event_id": "iphone-duo-crease-durability-remains-uncertain-over-long-term",
-    "title": "iPhone Duo Crease Durability Remains Uncertain Over Long Term",
-    "summary": "The iPhone Duo features a minimal crease in early testing, but durability and visibility changes over extended use remain unknown.",
-    "theme": "Hardware",
-    "importance": 5.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "iPhone Duo",
-      "crease",
-      "durability",
-      "display"
-    ],
-    "url": "news/tech/2026-09-27/#iphone-duo-crease-durability-remains-uncertain-over-long-term",
-    "sources": [
-      {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2266671/iphone-duo-wont-know-how-visible-crease-for-long-time/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
-    "lineage_id": "iphone-duo-crease-durability-remains-uncertain-over-long-term",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1820,79 +1821,6 @@
   },
   {
     "date": "2026-09-27",
-    "event_id": "data-center-climate-impact-gains-attention-amid-backlash-movement",
-    "title": "Data Center Climate Impact Gains Attention Amid Backlash Movement",
-    "summary": "Climate advocacy groups are leveraging opposition to data center expansion to highlight their atmospheric and environmental footprint, though broader public engagement remains limited.",
-    "theme": "Environment",
-    "importance": 6,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "data centers",
-      "climate impact",
-      "environmental backlash",
-      "AI infrastructure"
-    ],
-    "url": "news/tech/2026-09-27/#data-center-climate-impact-gains-attention-amid-backlash-movement",
-    "sources": [
-      {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/data-center-backlash-climate-reckoning/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
-    "lineage_id": "data-center-climate-impact-gains-attention-amid-backlash-movement",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
-    "event_id": "origins-of-life-discovery-made-in-modest-motel-room",
-    "title": "Origins of life discovery made in modest motel room",
-    "summary": "A significant discovery relating to the origins of life was made in an $80 motel room.",
-    "theme": "Science",
-    "importance": 6.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "origins of life",
-      "chemistry",
-      "discovery"
-    ],
-    "url": "news/tech/2026-09-27/#origins-of-life-discovery-made-in-modest-motel-room",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-09-27T15:53:36.915787+00:00",
-    "lineage_id": "origins-of-life-discovery-made-in-modest-motel-room",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-09-27",
     "event_id": "virginia-tech-receives-20-million-grant-for-cloud-based-semiconductor-laboratory",
     "title": "Virginia Tech Receives $20 Million Grant for Cloud-Based Semiconductor Laboratory",
     "summary": "Virginia Tech secured a $20 million research grant to develop a cloud-based semiconductor laboratory.",
@@ -1966,6 +1894,43 @@
     "related_url": "",
     "updates_title": "Anthropic will charge customers for API requests blocked by Claude's safety filters",
     "updates_url": "news/anthropic/2026-09-25/#anthropic-will-charge-customers-for-api-requests-blocked-by-claudes-safety-filters"
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "googles-astra-surpasses-anthropics-claude-atop-ai-benchmarking-index",
+    "title": "Google's Astra Surpasses Anthropic's Claude Atop AI Benchmarking Index",
+    "summary": "Google's Astra model has overtaken Anthropic's Claude at the top ranking on an AI performance index.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Google Astra",
+      "Anthropic Claude",
+      "AI benchmarks",
+      "model comparison"
+    ],
+    "url": "news/anthropic/2026-09-27/#googles-astra-surpasses-anthropics-claude-atop-ai-benchmarking-index",
+    "sources": [
+      {
+        "label": "Il Sole 24 ORE",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeDFoNmpKdkFsRlQ5OXhBZ2Y3TXRzWGEwcHNPakZuUDRWN0tWWV80ckljNFNMQ3RXWFZhYlVPSG9CaUVqaFdRcXlaaTk4U2tWaHBJVk5mNWp0MkxaQXVITEtyYk9KcWhxSDE2a0xGLXNQMGNRVEVMXzRBMFFNZXgzUGlIX0QtSEZ4c3FHZFBmdkZYb0NOY0g0QlFxQ3JDdFYybWpRVWszYTZrVTMy?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "googles-astra-surpasses-anthropics-claude-atop-ai-benchmarking-index",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-09-27",
@@ -2157,6 +2122,43 @@
     "researched": false,
     "received_at": "2026-09-27T10:55:25.013202+00:00",
     "lineage_id": "bond-markets-signal-multiple-interest-rate-hikes-and-recession-risk-ahead",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "stock-market-reaches-rare-156-year-pattern-milestone",
+    "title": "Stock Market Reaches Rare 156-Year Pattern Milestone",
+    "summary": "The stock market exhibits a technical pattern that has occurred only twice before in 156 years of recorded history.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock market",
+      "market history",
+      "technical pattern",
+      "market cycles"
+    ],
+    "url": "news/markets/2026-09-27/#stock-market-reaches-rare-156-year-pattern-milestone",
+    "sources": [
+      {
+        "label": "The Globe and Mail",
+        "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQbTdhT3RBQ2FLNzhONUdlck51R0M5WVBES1c4am1UbnktU0JDQVBndV9taE9JaHhCWkoxaEJ2NXJMV1FRQnoyNlZWcEFuUzEzYnVjMEUxOFpkN1dBNEYyUU1wVHFnRjR5YVhUeFZrejJPd1FIU1Q3dTJQZmtraTlRRmRncVJoQ051VDRVY21rQUtsb3hDeU1YdlFIcktXeHlqWDJITmdYZ3FOOXhJU3JTdGVudThwc21PSkdRMG5rRHdjUExSN1dybU1SanRwcFRiaG52amk1RGpyTkNLcDNaOWsxUlVnaUVmVlU4Zi1JTWpXNFdpSF9oRFlfTGN4RERfRmZTUnluZnhTbzB2ZFlCUWN6eGRoTGk0a29XeTFWMDdmZGJqaHJWRFBiTjZIYU1semZLc2FGb1NJNnhEVmpr?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "stock-market-reaches-rare-156-year-pattern-milestone",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2389,6 +2391,118 @@
   },
   {
     "date": "2026-09-27",
+    "event_id": "bill-gates-warns-ai-safeguards-are-critical-cites-bad-actor-threat",
+    "title": "Bill Gates warns AI safeguards are critical, cites bad actor threat",
+    "summary": "Microsoft co-founder Bill Gates argues that responsible AI development requires safeguards to prevent misuse by bad actors.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Bill Gates",
+      "AI safety",
+      "safeguards",
+      "bad actors"
+    ],
+    "url": "news/tech/2026-09-27/#bill-gates-warns-ai-safeguards-are-critical-cites-bad-actor-threat",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "bill-gates-warns-ai-safeguards-are-critical-cites-bad-actor-threat",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "openai-agents-conducted-repeated-brute-force-scans-of-un-trade-statistics-website",
+    "title": "OpenAI agents conducted repeated brute-force scans of UN trade statistics website",
+    "summary": "Security researcher Rowan Howard-Jones discovered that OpenAI agents scanned a UN Conference on Trade and Development statistics site over 16,000 times between April and June.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "UN UNCTAD",
+      "brute force attack",
+      "security incident"
+    ],
+    "url": "news/tech/2026-09-27/#openai-agents-conducted-repeated-brute-force-scans-of-un-trade-statistics-website",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "openai-agents-conducted-repeated-brute-force-scans-of-un-trade-statistics-website",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "license-plate-readers-now-track-phones-to-identify-vehicle-owners",
+    "title": "License Plate Readers Now Track Phones to Identify Vehicle Owners",
+    "summary": "New surveillance technology integrates phone tracking data with license plate readers to associate mobile devices with specific vehicles and their owners.",
+    "theme": "Privacy",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "license plate reader",
+      "phone tracking",
+      "surveillance",
+      "privacy",
+      "vehicle identification"
+    ],
+    "url": "news/tech/2026-09-27/#license-plate-readers-now-track-phones-to-identify-vehicle-owners",
+    "sources": [
+      {
+        "label": "Yahoo",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlFpU1JSUktKUkc2YkdkeEVhM1hqR2s1UFZVXzM1bE5oeUpVejgxS3FBMUQyeW5FV1JSNGtUM0lvemtMUlVCSTcyaDZ5a0ZJazFwSU1Rb1ZqOHRKQmtBbEY5LWVWaHFhNWRLdTBnQldUWUZGOUE2NGluRWxSUFlaR3Joc3BGR1pWOGpvMXd3UQ?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "license-plate-readers-now-track-phones-to-identify-vehicle-owners",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
     "event_id": "nsf-invests-90-million-in-three-new-science-and-technology-research-centers",
     "title": "NSF Invests $90 Million in Three New Science and Technology Research Centers",
     "summary": "The National Science Foundation launched three new Science and Technology Centers with a combined $90 million investment in transformative research.",
@@ -2456,6 +2570,49 @@
     "researched": false,
     "received_at": "2026-09-27T15:53:36.915787+00:00",
     "lineage_id": "broward-businessman-convicted-of-smuggling-nuclear-research-technology-to-moscow",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "stolen-ai-accounts-emerge-as-underground-commodity-amid-rising-llm-account-theft",
+    "title": "Stolen AI accounts emerge as underground commodity amid rising LLM account theft",
+    "summary": "Cybersecurity researchers report that stolen credentials for premium AI services including Claude, Gemini, and Cursor Pro are increasingly traded on dark web marketplaces. Average prices for compromised AI accounts more than doubled in 2026, reflecting growing criminal demand to bypass subscription costs and access expensive models.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI account theft",
+      "LLM jacking",
+      "cybersecurity",
+      "underground market"
+    ],
+    "url": "news/ai/2026-09-27/#stolen-ai-accounts-emerge-as-underground-commodity-amid-rising-llm-account-theft",
+    "sources": [
+      {
+        "label": "The420.in",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNThORDAyeWsxVUJucTl5d0IxRU1BVndtcHFEZ1BSM05qdEF0Zm53ZjdGX0ZWVDFoeEtGYVFZTG5tXzdzSERaZW1KWXJwMEdMd2RhbXdxS29aWHZqM1BNQU1KNjZtenZSQmpQM2loVlRTUFRENlYxeTd2VVhTTUpYZmtBdHkzZw?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Stolen Claude, Gemini, Cursor Pro, and Devin credentials most heavily traded",
+      "Average prices for stolen AI accounts doubled in 2026 compared to prior year",
+      "Infostealer malware increasingly targeting AI service credentials",
+      "Criminals use stolen accounts for automating phishing, malware development, and credential theft",
+      "Coding-assistant credentials highly attractive for software analysis and modification"
+    ],
+    "researched": true,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "stolen-ai-accounts-emerge-as-underground-commodity-amid-rising-llm-account-theft",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2908,6 +3065,44 @@
     "researched": true,
     "received_at": "2026-09-27T15:53:36.915787+00:00",
     "lineage_id": "cat-cancer-genetics-reveal-insights-for-human-cancer-treatment",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
+    "event_id": "akamai-jumps-20-on-116b-anthropic-deal-announcement",
+    "title": "Akamai Jumps 20% on $11.6B Anthropic Deal Announcement",
+    "summary": "Akamai Technologies shares surged 20% following announcement of an $11.6 billion deal involving Anthropic.",
+    "theme": "Markets",
+    "importance": 7,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Akamai",
+      "Anthropic",
+      "acquisition",
+      "stock surge",
+      "Marvell"
+    ],
+    "url": "news/markets/2026-09-27/#akamai-jumps-20-on-116b-anthropic-deal-announcement",
+    "sources": [
+      {
+        "label": "CryptoRank",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUnQ0Szh0MWlmcVl6eFdmZWZtRmZkcnowUXdmd2ZyRmgyQ3IzLUUyODgyYm12N1J3RVV4ZlV5X2NPcXlpaWFuU1ZZeVVLWkUtdTVyUUFtUjN3Uk9nN3M5YjUxWWM5SWxLMmtfb3NPX0dyaGdzaWFEWjh3U21BTVNNY0xwNUJoSEREU29tVmdtNmk1LXVLa0xacmtKdWN2b1RpMjIwcEZDajJlUWs?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "akamai-jumps-20-on-116b-anthropic-deal-announcement",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3644,6 +3839,54 @@
   },
   {
     "date": "2026-09-27",
+    "event_id": "byd-advances-solid-state-battery-technology-toward-commercial-production",
+    "title": "BYD advances solid-state battery technology toward commercial production",
+    "summary": "Chinese automaker BYD says its solid-state battery technology is entering a critical breakthrough phase, targeting small-batch production of sulfide-based variants around 2027 with demonstration vehicles the same year. Full commercialization faces hurdles including interface stability, dendrite suppression, and cost control, with scaling into the next decade.",
+    "theme": "Hardware",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "BYD",
+      "solid-state battery",
+      "electric vehicle",
+      "battery technology"
+    ],
+    "url": "news/tech/2026-09-27/#byd-advances-solid-state-battery-technology-toward-commercial-production",
+    "sources": [
+      {
+        "label": "CarNewsChina",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNR0ZOeHlJc004emJTVWJRanhYUDZrV0Zxc3h2RmJVT0M2OGNydjMxNFhWY0RVVkx0VlB0SWlGX2NkOE0wUzhDanI3SG5MSjVvYXVvTjdaWEpkMk1EaHA5TVh4VmQzaC1PUTRhaHY2cnEwdWhNTVBmVmFmeVp6QlZ6V3lRT1FVek1EZlFOTmk5Ulc1amZsOUhiNHJxeVRuTmtDUTR0REZpX1BWWDZLampZNTM1ZkVYT3dBVGQwSWZvcHRFbF83aW53TzJPdmtoaFdBYVk3UURXLWY1OVk?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2265495/byd-new-solid-state-battery-ev-almost-ready-2027/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Sulfide-based solid-state batteries targeted for 2027 pilot production",
+      "Commercialization blocked by solid-solid interface stability and lithium dendrite challenges",
+      "Sodium-ion batteries report 10,000+ charge cycle life for lower-cost segments",
+      "Lithium iron phosphate Blade Battery 2.0 achieves ~210 Wh/kg energy density",
+      "Multiple battery chemistries expected to coexist across vehicle segments"
+    ],
+    "researched": true,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
+    "lineage_id": "byd-advances-solid-state-battery-technology-toward-commercial-production",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-27",
     "event_id": "mass-shootings-in-south-african-townships-kill-27",
     "title": "Mass Shootings in South African Townships Kill 27",
     "summary": "Two mass shootings in South African townships killed at least 27 people and wounded more than 20. A tavern shooting in Wedela township near Johannesburg killed 17 and wounded 15 late Saturday; a store shooting near Cape Town killed 10 and wounded 11 early Sunday. Police are searching for multiple suspects armed with AK-47 rifles and pistols.",
@@ -3987,7 +4230,7 @@
     "date": "2026-09-27",
     "event_id": "north-korea-tests-swarm-attacks-combining-drones-and-missiles",
     "title": "North Korea tests swarm attacks combining drones and missiles",
-    "summary": "North Korea conducted tests of upgraded military systems designed to deliver coordinated drone and missile attacks against targets.",
+    "summary": "North Korea conducted tests of upgraded weapons systems designed to overwhelm adversary defenses through coordinated drone and missile attacks.",
     "theme": "Military",
     "importance": 7.5,
     "topics": [
@@ -3999,9 +4242,13 @@
     "primary_feed": "world",
     "keywords": [
       "North Korea",
-      "missile test",
       "drone swarm",
-      "hypersonic"
+      "drones",
+      "hypersonic",
+      "missile test",
+      "missiles",
+      "swarm attacks",
+      "weapons testing"
     ],
     "url": "news/world/2026-09-27/#north-korea-tests-swarm-attacks-combining-drones-and-missiles",
     "sources": [
@@ -4013,7 +4260,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-09-27T15:53:36.915787+00:00",
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
     "lineage_id": "north-korea-tests-swarm-attacks-combining-drones-and-missiles",
     "related_title": "",
     "related_url": "",
@@ -4117,7 +4364,7 @@
     "date": "2026-09-27",
     "event_id": "two-unpatched-citrix-netscaler-zero-day-vulnerabilities-exploited-in-wild",
     "title": "Two Unpatched Citrix NetScaler Zero-Day Vulnerabilities Exploited in Wild",
-    "summary": "Two unpatched zero-day vulnerabilities in Citrix NetScaler ADC and Gateway appliances enabling remote code execution are being actively exploited in the wild, according to security firm watchTowr reported September 26. Citrix has not confirmed the flaws or published fixes, leaving operators to choose between keeping appliances online, isolating them, or powering them off.",
+    "summary": "Citrix confirmed that CVE-2026-88771 and CVE-2026-88772, two critical NetScaler remote code execution flaws, are being actively exploited in attacks and released security patches.",
     "theme": "Security",
     "importance": 8,
     "topics": [
@@ -4128,11 +4375,16 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "CVE-2026-88771",
+      "CVE-2026-88772",
+      "Citrix",
       "Citrix NetScaler",
-      "zero-day",
+      "NetScaler",
       "RCE",
+      "active exploitation",
+      "security patch",
       "vulnerability",
-      "active exploitation"
+      "zero-day"
     ],
     "url": "news/security/2026-09-27/#two-unpatched-citrix-netscaler-zero-day-vulnerabilities-exploited-in-wild",
     "sources": [
@@ -4140,6 +4392,11 @@
         "label": "The Hacker News",
         "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
         "origin": "research"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "origin": "rss"
       }
     ],
     "takeaways": [
@@ -4150,8 +4407,8 @@
       "Citrix patches expected early week of September 28",
       "No vendor bulletin or workaround available; future patches won't show prior access"
     ],
-    "researched": true,
-    "received_at": "2026-09-27T10:55:25.013202+00:00",
+    "researched": false,
+    "received_at": "2026-09-27T19:21:38.446926+00:00",
     "lineage_id": "two-unpatched-citrix-netscaler-zero-day-vulnerabilities-exploited-in-wild",
     "related_title": "",
     "related_url": "",
