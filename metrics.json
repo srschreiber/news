@@ -1,5 +1,153 @@
 [
   {
+    "timestamp": "2026-09-28T12:09:27.734299+00:00",
+    "mode": "daily",
+    "calls": 53,
+    "web_searches": 20,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 127273,
+        "output": 45478,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 6115,
+        "output": 2811,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.3748,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 40429,
+            "output": 27486,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1779
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 1,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4417,
+            "output": 400,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0064
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 253,
+            "output": 36,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0004
+      },
+      "(merge-check)": {
+        "calls": 12,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 7922,
+            "output": 108,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0085
+      },
+      "(read)": {
+        "calls": 31,
+        "web_searches": 4,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 74252,
+            "output": 17448,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1615
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 6115,
+            "output": 2811,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0202
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 73,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 59,
+      "Google News \u2014 World": 19,
+      "Phys.org": 14,
+      "Google News \u2014 Anthropic": 10,
+      "Hacker News (front page)": 10,
+      "Engadget": 9,
+      "The Register": 9,
+      "Wired": 8,
+      "Google News \u2014 OpenAI GPT": 8,
+      "Google News \u2014 AI models": 8,
+      "SecurityWeek": 6,
+      "BleepingComputer": 4,
+      "Live Science": 3,
+      "Mongabay": 3,
+      "Inside Climate News": 3,
+      "STAT News": 3,
+      "The Guardian \u2014 Conservation": 3,
+      "Google News \u2014 space": 2,
+      "The Hacker News": 2,
+      "Grist": 2,
+      "Google News \u2014 email security": 1,
+      "Google News \u2014 phishing campaigns": 1,
+      "Schneier on Security": 1,
+      "Ars Technica": 1,
+      "Google News \u2014 cybersecurity": 1,
+      "Carbon Brief": 1,
+      "Google News \u2014 science": 1,
+      "MIT \u2014 Computers": 1,
+      "MIT \u2014 Artificial Intelligence": 1,
+      "Google News \u2014 PostgreSQL": 1,
+      "The Verge": 1,
+      "TechCrunch": 1,
+      "Google News \u2014 forest restoration ecology": 1
+    }
+  },
+  {
     "timestamp": "2026-09-27T22:37:59.868924+00:00",
     "mode": "daily",
     "calls": 32,
