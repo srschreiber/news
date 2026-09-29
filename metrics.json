@@ -1,5 +1,54 @@
 [
   {
+    "timestamp": "2026-09-29T17:07:42.976832+00:00",
+    "mode": "daily",
+    "refresh": true,
+    "calls": 0,
+    "web_searches": 15,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 71,
+      "Google News \u2014 OpenAI GPT": 38,
+      "Google News \u2014 Anthropic": 33,
+      "Phys.org": 30,
+      "Google News \u2014 World": 23,
+      "Engadget": 20,
+      "TechCrunch": 10,
+      "Hacker News (front page)": 10,
+      "The Verge": 10,
+      "The Register": 9,
+      "Google News \u2014 AI models": 8,
+      "SecurityWeek": 6,
+      "STAT News": 5,
+      "Google News \u2014 space": 5,
+      "Ars Technica": 4,
+      "BleepingComputer": 3,
+      "Live Science": 2,
+      "Google News \u2014 cybersecurity": 2,
+      "Mongabay": 2,
+      "The Hacker News": 2,
+      "Google News \u2014 phishing campaigns": 2,
+      "The Record": 2,
+      "Microsoft Security Blog": 1,
+      "Google News \u2014 email security": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "IEEE Spectrum": 1,
+      "Yale Environment 360": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Google News \u2014 science": 1,
+      "Apple Machine Learning Research": 1
+    }
+  },
+  {
     "timestamp": "2026-09-29T11:41:04.361927+00:00",
     "mode": "daily",
     "calls": 16,
