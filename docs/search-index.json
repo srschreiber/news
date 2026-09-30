@@ -1,5 +1,496 @@
 [
   {
+    "date": "2026-09-30",
+    "event_id": "lam-research-opens-470000-square-foot-warehouse-in-livermore-to-support-ai-semiconductor-demand",
+    "title": "Lam Research Opens 470,000-Square-Foot Warehouse in Livermore to Support AI Semiconductor Demand",
+    "summary": "Lam Research, a semiconductor equipment manufacturer, has opened a new 470,000-square-foot facility in Livermore, California, its largest U.S. warehouse, expected to employ over 240 workers by 2027 to meet rising demand for AI and semiconductor technology.",
+    "theme": "Tech Research",
+    "importance": 4.0,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Lam Research",
+      "semiconductor equipment",
+      "AI demand",
+      "warehouse expansion",
+      "Bay Area"
+    ],
+    "url": "news/tech-research/2026-09-30/#lam-research-opens-470000-square-foot-warehouse-in-livermore-to-support-ai-semiconductor-demand",
+    "sources": [
+      {
+        "label": "Bay Area News Group",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcXVybHRsMTZhT3hCTS1iV2huMHdVcGxWNDMzcGl5YjdrcTVRZEZHS1JLeW5feGZfLVFFd0o0YldRUlhuWHdrTFNFQVdrYUhqUHZDSThRQm5Cd1UwSDNyQVZ6bllSaWRIY2tLU01RalppaDJFQkZ1OUVpalpESXdjRGpaOC00Uk51ZmJoY1lxVHNvbHlJbXRkaXpaWGYtWlJnMXdOZWREellsZkN40gGyAUFVX3lxTE8zdzdNTU5DcXB4akJURVJGSGZoQk43b0tIellkYmhMeV8wV2J4Z0h5OE8zdWREWlg0d2tlMWR5QW8xamFlSF9vNTlibWJOdUJGVmhjLW1OLXVNRGlVcDliZ3hHUUJOX0lDN3duR0lXb2dWZGRFazV2dF9iUk80TVl0RGE3Um9TcFB4ZjdPQlBGbHA4WU9mSzVCOS13NlRZeUVIdnBqSDdwSnpBWXJQby1LRHc?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "470,000-square-foot facility at 710 Atlantis Street in Livermore",
+      "Expected to employ more than 240 workers by 2027",
+      "Largest warehouse in the U.S. for Fremont-based Lam Research",
+      "Designed to support growing semiconductor demand driven by AI and next-generation technologies"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:33:02.613492+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "thomson-reuters-launches-thomson-a-domain-specific-legal-ai-model",
+    "title": "Thomson Reuters Launches Thomson, a Domain-Specific Legal AI Model",
+    "summary": "Thomson Reuters unveiled Thomson, a proprietary large language model trained exclusively on legal, tax, and compliance content from Westlaw, Practical Law, Checkpoint, and Reuters. The model powers CoCounsel Legal's new Tabular Analysis feature, which can review up to 10,000 documents against 100 questions while keeping user data private through Thomson Reuters' 'Fiduciary-Grade AI' architecture.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "legal AI",
+      "domain-specific LLM",
+      "Thomson Reuters",
+      "CoCounsel Legal",
+      "document review"
+    ],
+    "url": "news/ai/2026-09-30/#thomson-reuters-launches-thomson-a-domain-specific-legal-ai-model",
+    "sources": [
+      {
+        "label": "Thomson Reuters",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQ1psdWlZSDNFLTl1MlIzbGktX2ZvZnEwZGd2ODQ2SGhabld4VUdibWF2NUNaNTNGdHZ0RkFLSEhxWlBRSGdfcFZBQkxLc1NsVWU3ODFRTHdGUGFsd0FiU0dtMk83U3BBaHJHMjZCRTBJYlRpLTFNMGVhQ1VLT2l1Y0hjdFJjS2UxZ2Qxbw?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Thomson is trained on Thomson Reuters' own legal content (Westlaw, Practical Law, Checkpoint, Reuters)",
+      "Tabular Analysis feature can review up to 10,000 documents against 100 questions",
+      "Model keeps customer data private and never uses it for model training",
+      "Deployed within CoCounsel Legal as part of multi-model architecture where Thomson handles domain-specific accuracy tasks"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:30:58.576333+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "anthropic-releases-claude-sonnet-55-with-30-faster-performance-and-lower-pricing",
+    "title": "Anthropic releases Claude Sonnet 5.5 with 30% faster performance and lower pricing",
+    "summary": "Anthropic released Claude Sonnet 5.5, the second model in its Claude 5.5 family, positioning it as a faster and cheaper alternative to Opus 5.5. The mid-tier model runs 30% faster than its predecessor and costs up to 30% less, scoring notably higher on real-world benchmarks while remaining suitable for everyday tasks like document creation and bug fixing.",
+    "theme": "Anthropic",
+    "importance": 6.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "model release",
+      "pricing",
+      "Anthropic",
+      "AI",
+      "performance"
+    ],
+    "url": "news/anthropic/2026-09-30/#anthropic-releases-claude-sonnet-55-with-30-faster-performance-and-lower-pricing",
+    "sources": [
+      {
+        "label": "Mashable",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzZmVllHd3ZISlAtUEZSa0xkaExzZ1RfNl9LU2dGZUdiU0xNb1FLZlNlMldSc2pFWnFVbEhPbDRKbG50bXlNVVRqcEpOUEl0VTdhZXpabFg0N29fbXVMYlM5TlVSU1hDZFU1NUxnd2N3SzNVb0dvMlRQbmJtSnVDcQ?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Claude Sonnet 5.5 runs 30% faster than Sonnet 5 and costs up to 30% less per task",
+      "Scored 1,844 on GDPval-AA v2.1 benchmark, about 400 points ahead of Sonnet 5 and 2 points ahead of Opus 5.5",
+      "Released less than a week after Opus 5.5 launch; Claude Haiku 5.5 coming in coming weeks",
+      "First Sonnet model to beat Pokémon Red working from screenshots alone"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:31:07.390006+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "sleep-duration-predicts-longevity-stronger-than-diet-or-exercise-study-finds",
+    "title": "Sleep Duration Predicts Longevity Stronger Than Diet or Exercise, Study Finds",
+    "summary": "A study from Oregon Health & Science University analyzing US county-level data from 2019–2025 found that insufficient sleep (less than seven hours per night) has a stronger association with lower life expectancy than diet and exercise. The research, published in Sleep Advances in 2025, suggests adequate sleep is a more significant predictor of long-term health outcomes than previously recognized factors.",
+    "theme": "Diet & Exercise",
+    "importance": 7.0,
+    "topics": [
+      "diet-exercise"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "sleep",
+      "longevity",
+      "life expectancy",
+      "observational study",
+      "public health"
+    ],
+    "url": "news/diet-exercise/2026-09-30/#sleep-duration-predicts-longevity-stronger-than-diet-or-exercise-study-finds",
+    "sources": [
+      {
+        "label": "ScienceAlert",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTzNOWnZCeXRQeHJyR1RKVFl4QnhUejc0VHVvMUkyXzgtcE9QbHByQ0d6T21YQTU4MXNTZzk3VmhYX19QLVRkb256YzEwcjg5VDczVnBKQU01NzdUT0tZNG9wSjR0YlBqMlh5MG9DbDU0UmRUVkNvdV9GM0ViVEhhWDN5TlpVdjdWRnpsVVVQNGpnbHBQajNwcTZHbmZfb3lWbFp3MUtoMTJ3NlVtZDBJ?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Researchers analyzed county-level survey data from 2019–2025 across the US",
+      "Only smoking had a stronger association with life expectancy than insufficient sleep; obesity and diabetes also ranked above it",
+      "The study defined insufficient sleep as less than seven hours per night",
+      "American Academy of Sleep Medicine and Sleep Research Society recommend at least seven hours of sleep per night"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:31:52.691936+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "star-blizzard-refines-phishing-and-malware-delivery-with-redflick-technique",
+    "title": "Star Blizzard refines phishing and malware delivery with RedFlick technique",
+    "summary": "Microsoft has documented Russian state-sponsored actor Star Blizzard evolving its attack capabilities since January 2026 through large-scale phishing campaigns and a new malware delivery technique called RedFlick. This technique uses scheduled tasks to deploy the CosmicPulse backdoor with a single user interaction, reducing friction compared to previous ClickFix-based chains and improving the actor's ability to compromise targets.",
+    "theme": "Email Security",
+    "importance": 7.0,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Star Blizzard",
+      "phishing",
+      "malware delivery",
+      "RedFlick",
+      "cyberespionage",
+      "Ukraine"
+    ],
+    "url": "news/email-security/2026-09-30/#star-blizzard-refines-phishing-and-malware-delivery-with-redflick-technique",
+    "sources": [
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOXd5WGZqYjdKZVB0RHBENHJEcU9TYkNzWTh0YmlONVVrcXcwdThoRVd5ai1haXhFNl9DVEtEcmp0TDlkQl9neGNNQzdlLWhjenI0R21UZkM2YUpxeWFvX2VsT3RfQm9aWEh6UHY4REVMZDlNQ2RrU3hBWnRtaXVCOW4xajVZeWY2VXpHd2duckd3VUxjdXZWcnFJcElKS2ktUUVfNWRpXzJiZXdYVGVWQWZyQkI3MmliSWd4RVlrQ1VXdl8tUFRUdHRpeDFxLXZQTldk?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "RedFlick requires only a single user interaction versus multiple actions needed for previous ClickFix-based infection chains",
+      "Star Blizzard shifted toward large-scale phishing operations in 2026 alongside RedFlick adoption",
+      "Targets include Ukrainian individuals and institutions, international NGOs, Western think tanks, and governments with Ukraine-related nexus",
+      "RedFlick deploys CosmicPulse backdoor through scheduled tasks to evade detection"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:32:07.000666+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "chinese-ai-tool-kimi-jailbroken-to-provide-bioweapon-instructions",
+    "title": "Chinese AI tool Kimi jailbroken to provide bioweapon instructions",
+    "summary": "Security researchers at Mindgard discovered that Chinese AI developer Moonshot's Kimi K2.6 and K3 Swarm models could be jailbroken to bypass safety guardrails and provide instructions on creating biological weapons and carrying out assassinations. The vulnerability was discovered in July through a complex jailbreaking process and could potentially allow hackers to exploit the models for malicious activity.",
+    "theme": "Tech",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI safety",
+      "jailbreak",
+      "bioweapons",
+      "Chinese AI",
+      "Moonshot",
+      "vulnerability"
+    ],
+    "url": "news/tech/2026-09-30/#chinese-ai-tool-kimi-jailbroken-to-provide-bioweapon-instructions",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBYVloRjJuSWNfTElwbC1FbmYtM29uc0xjUnBaWmlQUW4zR1pnZUFyYVVITTRtZ1NmQkFzSW1YT2VkZHdGOVV1ektaLTRMeHl4cXFVbndlMkwtZW8?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Mindgard researchers discovered the vulnerability in July 2024 affecting Kimi K2.6 and K3 Swarm models",
+      "Jailbroken Kimi could provide detailed recommendations on bioweapons and assassinations without restrictions",
+      "Researchers also found potential for hackers to run code on Moonshot's computing resources and connect to the internet",
+      "Moonshot is conducting an internal review and in discussion with Mindgard about the findings"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:32:47.825768+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "us-epa-repeals-greenhouse-gas-emission-rules-for-power-plants",
+    "title": "US EPA Repeals Greenhouse Gas Emission Rules for Power Plants",
+    "summary": "The Environmental Protection Agency, under the president of the United States's leadership, has repealed rules limiting greenhouse gas emissions from coal and gas power plants—a move undoing decades of climate protections. The EPA estimates the change will eliminate over $300 billion in costs for power plants and has proposed a separate rule to prevent future administrations from re-regulating these emissions.",
+    "theme": "Climate Change",
+    "importance": 8.0,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "EPA repeal",
+      "power plant emissions",
+      "greenhouse gas regulation",
+      "climate policy",
+      "deregulation"
+    ],
+    "url": "news/climate-change/2026-09-30/#us-epa-repeals-greenhouse-gas-emission-rules-for-power-plants",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSnJQT3pMVWd3Q2VBNkQ5eWwwSlE4d0pZM011LTE3bTI5ZUU4SE1PTkowaWJ1ZExwMDZkZHQxcWV0eTU1dTNjU1RBSDZHSmw5ak5CaGNySDNJUmxPWmtXR2hCUExSLV9CU2tjbWJBeEN6Nmo1YzFrSkdONVhHa0RueXVOZHZ0djVHWHhoTl84RWVMc1lwajJncjdOR1hUdmxZV1BlT3Ata0tlVHfSAbABQVVfeXFMTk9Zb0d3VG40ZkkyRVU3N2c1a1F5RjZIaEpXT2Q4a3Ubi2JnMWZRcWc0NWU1TXl4QjVIVW9yckNUdVd6R0pCZFdsWnRsbGo5NDVpS1hsYUUzN1EwT29ucS1pV2x2a3JCemxWYUhhbEt2bWV2ampYN2tPMGpiQTBQVTJHZHM0U3NkRUtSaG9tTVJUTXNsOGZBM1lSakpjSzFsWEdsT0ZISUFydkJXRUVYX3k?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "EPA Administrator Lee Zeldin announced the repeal at a news conference in Houston on Monday, September 14, 2026",
+      "The changes eliminate more than $300 billion in estimated costs for power plants",
+      "The administration proposed a separate rule to prevent future regulators from reimposing greenhouse gas restrictions on power plants",
+      "Environmental groups warn the move will increase health risks from heatwaves, storms, and wildfires"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:31:20.955182+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "trump-administration-removes-habitat-protections-from-endangered-species-act",
+    "title": "Trump Administration Removes Habitat Protections from Endangered Species Act",
+    "summary": "The Trump administration finalized a rule on July 10, 2026 removing the regulatory definition of \"harm\" under the Endangered Species Act, eliminating decades-old habitat destruction protections. The change allows logging, mining, oil and gas drilling, and development to proceed in endangered species habitats, as habitat degradation will no longer legally count as illegal \"take\" under the statute.",
+    "theme": "Conservation",
+    "importance": 8.0,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Endangered Species Act",
+      "habitat protection",
+      "Trump administration",
+      "wildlife policy",
+      "extinction risk"
+    ],
+    "url": "news/conservation/2026-09-30/#trump-administration-removes-habitat-protections-from-endangered-species-act",
+    "sources": [
+      {
+        "label": "Center for Biological Diversity",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONS1pbnFvdDM4RXJ2R05ZWHJEVTRGNzQxenJrazREcDVjaHhkdUtKS1NTZlUzYm5GYVNydHduWWNrelpLcXpHTDEyZmU4cVlSN2ttMk5yRS1QbEZkdG5zb1BIVVBuTGlzRVplSjBWWF85aS1tdVNOaWhCUDBaejlKVW1lR0pOa29Kd3FtcFY2OThiMW5XSkpyVWZRWnI5NjBWWUR5bF90NDdscFVPU3ctRDhBdE1jU2w0aUNzQUtfbTdwTVVqaVlyamVleGFPVjRwdnc?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Mongabay",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRFh4R19sQm9jSnBMUE9jZE0xZWVmZWxUeXhNS3BNTmtnMmJURWYtOF9zNmFuYkJEYkpVbGlHWmZnaXBuQmVEa3h1bVd2WlFkbjRZdFl0NWpmY1YxRThodFVodVJ0LWtlWXFwX3pVOS1NS1JlenJmVVc5WVZjeERMY2gyZm1pTlZHei0yLTg5eGtxLUM4T3ZWYmgtZ0o3VUJGSWVrUjh5S2kzb3pCWDNKOE930gG3AUFVX3lxTE9KOE5ETVllSDZ0UGFvU1F1OTlFeG9pOVFBZ0c5VVd2WlA1bHNQQl9kTUM5WDlMQkdybmhmRTBPbnBKd2RYNUc0cWVOSXN4OVJLNlRxV1BEVjZIZWhTcHJOWHJzWWJJN2puQzUyd2FQRHpVemhNSGFWZ3h4aFdmNjZEQUVLdlVRXzJ6ZVp2LTZWNGpxUGt5TlI1RTMzWC1BZ3gxc1oyNksxNEc3bjZia0tvZnE0SlR2dw?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Rule finalized July 10, 2026; takes effect September 14, 2026",
+      "Removes regulatory definition of 'harm' to exclude habitat destruction from Endangered Species Act protections",
+      "Habitat loss is the primary driver of extinction, undermining species protection while allowing habitat destruction to continue",
+      "Weakens U.S. credibility in asking other nations to conserve forests, wetlands, and critical habitats"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:31:42.117373+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "anthropics-claude-ai-discovers-novel-enzyme-system-with-crispr-like-properties",
+    "title": "Anthropic's Claude AI Discovers Novel Enzyme System with CRISPR-Like Properties",
+    "summary": "Anthropic announced that its Claude AI model autonomously discovered a previously unknown enzyme system featuring reverse transcriptase with associated DNA repeats resembling CRISPR architecture. The discovery emerged from Claude systematically searching DNA sequence databases without detailed human direction, marking a significant demonstration of AI's potential in biological research and drug discovery.",
+    "theme": "Science",
+    "importance": 8.0,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "AI biology discovery",
+      "CRISPR-like enzyme",
+      "reverse transcriptase",
+      "computational biology",
+      "Anthropic Claude",
+      "DNA sequences"
+    ],
+    "url": "news/science/2026-09-30/#anthropics-claude-ai-discovers-novel-enzyme-system-with-crispr-like-properties",
+    "sources": [
+      {
+        "label": "Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JT0FwTVctZXNkYnJXeW44aHhoZmJfbDYwN3B4a2tMTThJZm9XRklxMkEzdFlxb2Z6VGM2UnpDTGlaQ09PODJUMkJFWWl1UVZOTDJ0WU1UQ1pZMDlrbS0tM3FTS0RGWmNSeGt5QlJjZktQWkl4N0E?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Claude discovered a novel reverse transcriptase enzyme system with non-coding DNA repeat arrays, a combination previously identified in only a handful of known biological systems",
+      "The system was found after ~950 AI agents searched a DNA sequence database for 21 hours using 210 million tokens",
+      "Feng Zhang, MIT CRISPR pioneer, validated the finding as 'genuinely intriguing and merits further investigation'",
+      "Anthropic established a dedicated life sciences research group and laboratory combining Claude with experimental biology work"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:32:17.304471+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "pentagon-personnel-agency-suffers-data-breach-affecting-3-million-people",
+    "title": "Pentagon Personnel Agency Suffers Data Breach Affecting 3 Million People",
+    "summary": "The U.S. Defense Manpower Data Center (DMDC) disclosed a nine-month unauthorized access to a file-sharing server discovered in July 2026, exposing personal information of 2.76 million living individuals and 294,000 deceased persons. The breach resulted from an unpatched vulnerability that allowed attackers to access sensitive military and civilian personnel records from October 2025 through mid-July 2026.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Pentagon data breach",
+      "DMDC",
+      "3 million records",
+      "SSN exposure",
+      "military personnel"
+    ],
+    "url": "news/security/2026-09-30/#pentagon-personnel-agency-suffers-data-breach-affecting-3-million-people",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNckkzbFd6WUY3Qzg4cWN6WEkxQW52c1VOQUhhTERNY2tPeGhtYjU5VDBOTjVpOFIxaUhncWpEMldWUGgybkRuSG9id0ZHQ3d2Ymx2Xy1ic3ZvVHBmNzYwVzd6c0pucXZCb2Rzd0NUU1hGclZuNHJZR0JDREU5OFZ4SlZFd3U0c0VHYjE3N0p5Vm1YXzNHVHBN?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "DigitalShield",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSmxfM25xTjM1eFEzYk1lWW80VUZ4NUZuOHVRVUtKSEZJRGRySENQMFREZWhRck5NbXhkSXlRbXJPLV9KbFNKTjZyNGZIS1lQREduODhNSmFBOUliRFlqdm4wM3NoM0Jfd1Uyd0tpeW9OTzBrQ2dvZTBlb3Y3TFZOMVdFcnAyd05NZXprbHlMbHFxakNHNFpWVWhfYmRLM0ZQT2hfT0t6dVA2cS1xUnZFV1ZkUkZEdlU?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Unauthorized access to DMDC file-sharing server lasted approximately 9 months (October 2025–July 2026)",
+      "Exposed data includes Social Security numbers, names, dates of birth, contact details, and military occupational specialties for 2.76 million living individuals and 294,000 deceased individuals",
+      "Vulnerability was discovered on July 16, 2026, and patched immediately; system was restored",
+      "No evidence of misuse of accessed information at time of disclosure",
+      "No known cybercrime group has claimed responsibility for the attack"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:32:31.488186+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-09-30",
+    "event_id": "spacex-tells-nasa-it-will-retire-crew-dragon-after-2030-halting-low-earth-orbit-human-spaceflight",
+    "title": "SpaceX tells NASA it will retire Crew Dragon after 2030, halting low-Earth orbit human spaceflight",
+    "summary": "SpaceX has informed NASA that it will no longer fly Crew Dragon missions to low-Earth orbit after 2030, effectively ending the company's role in NASA's commercial space station economy. The decision threatens plans for private space stations and represents a significant shift in NASA's two-decade strategy to foster a commercial human spaceflight sector.",
+    "theme": "Space",
+    "importance": 8.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "SpaceX",
+      "Crew Dragon",
+      "NASA",
+      "low-Earth orbit",
+      "commercial spaceflight",
+      "ISS"
+    ],
+    "url": "news/space/2026-09-30/#spacex-tells-nasa-it-will-retire-crew-dragon-after-2030-halting-low-earth-orbit-human-spaceflight",
+    "sources": [
+      {
+        "label": "Ars Technica",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQWp0SEo4emJMQkR2OUlwZDB5VzlseHRVTW8xSlRnVVhNSURSSkpxSFNDS01ja0lHYl9ONS15UHFUdXg0NEMtMmFTekxLNkVOMkEyb3h6YXkzQzk3cmNSUlUxQXNkb3pqNTloNEp2NjZhOGYyV3NHUzZOY3BVVHBpNmFLZFcxV3Z4bDRpZjJzWF9IWE9OUFRBVmZKQVMwck5PandqWDh3?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "SpaceX agreed to support the International Space Station until 2030, then plans to retire Crew Dragon",
+      "SpaceX has declined orders from private space station companies (Axiom Space, Voyager Space, Vast Space) for Crew Dragon missions",
+      "NASA invested $3.1 billion in Crew Dragon development but only required SpaceX to fly six missions; SpaceX has flown 13 and exceeded obligations",
+      "SpaceX now derives majority revenue from Starlink, reducing reliance on NASA as a customer"
+    ],
+    "researched": true,
+    "received_at": "2026-09-30T12:32:42.275060+00:00",
+    "lineage_id": "",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
     "date": "2026-09-29",
     "event_id": "five-free-courses-available-to-learn-ai-engineering",
     "title": "Five Free Courses Available to Learn AI Engineering",
