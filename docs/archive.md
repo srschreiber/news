@@ -2,6 +2,28 @@
 
 Full history of daily briefings, grouped by month. Use the [keyword search](search.md) to filter by term, date, or topic.
 
+## 2026-10
+
+- **ai:** [2026-10-01 (1 event)](news/ai/2026-10-01.md)
+- **anthropic:** [2026-10-01 (1 event)](news/anthropic/2026-10-01.md)
+- **climate-change:** [2026-10-01 (1 event)](news/climate-change/2026-10-01.md)
+- **climate-resilience:** [2026-10-01 (0 events)](news/climate-resilience/2026-10-01.md)
+- **conservation:** [2026-10-01 (1 event)](news/conservation/2026-10-01.md)
+- **diet-exercise:** [2026-10-01 (1 event)](news/diet-exercise/2026-10-01.md)
+- **email-security:** [2026-10-01 (1 event)](news/email-security/2026-10-01.md)
+- **golang:** [2026-10-01 (0 events)](news/golang/2026-10-01.md)
+- **gpt:** [2026-10-01 (1 event)](news/gpt/2026-10-01.md)
+- **health:** [2026-10-01 (0 events)](news/health/2026-10-01.md)
+- **markets:** [2026-10-01 (0 events)](news/markets/2026-10-01.md)
+- **postgres:** [2026-10-01 (0 events)](news/postgres/2026-10-01.md)
+- **python:** [2026-10-01 (0 events)](news/python/2026-10-01.md)
+- **science:** [2026-10-01 (1 event)](news/science/2026-10-01.md)
+- **security:** [2026-10-01 (1 event)](news/security/2026-10-01.md)
+- **space:** [2026-10-01 (1 event)](news/space/2026-10-01.md)
+- **tech:** [2026-10-01 (1 event)](news/tech/2026-10-01.md)
+- **tech-research:** [2026-10-01 (1 event)](news/tech-research/2026-10-01.md)
+- **world:** [2026-10-01 (1 event)](news/world/2026-10-01.md)
+
 ## 2026-09
 
 - **ai:** [2026-09-30 (7 events)](news/ai/2026-09-30.md) · [2026-09-29 (6 events)](news/ai/2026-09-29.md) · [2026-09-28 (10 events)](news/ai/2026-09-28.md) · [2026-09-27 (10 events)](news/ai/2026-09-27.md) · [2026-09-26 (4 events)](news/ai/2026-09-26.md) · [2026-09-25 (10 events)](news/ai/2026-09-25.md) · [2026-09-24 (10 events)](news/ai/2026-09-24.md) · [2026-09-23 (10 events)](news/ai/2026-09-23.md) · [2026-09-22 (10 events)](news/ai/2026-09-22.md) · [2026-09-21 (10 events)](news/ai/2026-09-21.md) · [2026-09-20 (7 events)](news/ai/2026-09-20.md) · [2026-09-19 (6 events)](news/ai/2026-09-19.md) · [2026-09-18 (10 events)](news/ai/2026-09-18.md) · [2026-09-17 (10 events)](news/ai/2026-09-17.md) · [2026-09-16 (10 events)](news/ai/2026-09-16.md) · [2026-09-15 (10 events)](news/ai/2026-09-15.md) · [2026-09-14 (6 events)](news/ai/2026-09-14.md) · [2026-09-13 (4 events)](news/ai/2026-09-13.md) · [2026-09-12 (2 events)](news/ai/2026-09-12.md) · [2026-09-11 (10 events)](news/ai/2026-09-11.md) · [2026-09-10 (3 events)](news/ai/2026-09-10.md) · [2026-09-09 (10 events)](news/ai/2026-09-09.md) · [2026-09-08 (10 events)](news/ai/2026-09-08.md) · [2026-09-07 (9 events)](news/ai/2026-09-07.md) · [2026-09-06 (2 events)](news/ai/2026-09-06.md) · [2026-09-05 (3 events)](news/ai/2026-09-05.md) · [2026-09-04 (3 events)](news/ai/2026-09-04.md) · [2026-09-03 (6 events)](news/ai/2026-09-03.md) · [2026-09-02 (10 events)](news/ai/2026-09-02.md) · [2026-09-01 (10 events)](news/ai/2026-09-01.md)
