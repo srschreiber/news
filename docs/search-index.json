@@ -1,6 +1,121 @@
 [
   {
     "date": "2026-10-01",
+    "event_id": "derek-vs-derek-documentary-explores-farming-rewilding-and-conservation-conflict",
+    "title": "Derek vs Derek documentary explores farming, rewilding, and conservation conflict",
+    "summary": "A British documentary follows two Devon neighbors in a rewilding rivalry that illuminates debates around environmental damage and countryside management.",
+    "theme": "Conservation",
+    "importance": 4,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "conservation",
+      "rewilding",
+      "farming",
+      "documentary",
+      "environment"
+    ],
+    "url": "news/conservation/2026-10-01/#derek-vs-derek-documentary-explores-farming-rewilding-and-conservation-conflict",
+    "sources": [
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/film/2026/oct/01/derek-vs-derek-review-a-rewilding-rivalry-with-real-bite",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "derek-vs-derek-documentary-explores-farming-rewilding-and-conservation-conflict",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "remembering-jane-goodalls-legacy-one-year-after-her-death",
+    "title": "Remembering Jane Goodall's legacy one year after her death",
+    "summary": "A reflection on Jane Goodall's life and influence, published one year after her death at age 91.",
+    "theme": "Conservation",
+    "importance": 5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Jane Goodall",
+      "conservation",
+      "primatology",
+      "legacy"
+    ],
+    "url": "news/climate-change/2026-10-01/#remembering-jane-goodalls-legacy-one-year-after-her-death",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/a-year-ago-today-jane-goodall-died-at-91-her-message-is-more-important-than-ever/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "remembering-jane-goodalls-legacy-one-year-after-her-death",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "interview-dickson-kaelo-on-community-led-conservation-in-kenya",
+    "title": "Interview: Dickson Kaelo on community-led conservation in Kenya",
+    "summary": "Dickson Kaelo discusses his work transitioning from community-based to community-led conservation approaches in Kenya's wildlife protection efforts.",
+    "theme": "Conservation",
+    "importance": 5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Kenya",
+      "community conservation",
+      "wildlife",
+      "conservation leadership"
+    ],
+    "url": "news/climate-change/2026-10-01/#interview-dickson-kaelo-on-community-led-conservation-in-kenya",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/from-community-based-to-community-led-conservation-in-kenya-interview-with-dickson-kaelo/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "interview-dickson-kaelo-on-community-led-conservation-in-kenya",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
     "event_id": "two-former-us-air-force-members-sentenced-to-189-months-for-million-dollar-bec-and-phishing-scheme",
     "title": "Two former US Air Force members sentenced to 189 months for million-dollar BEC and phishing scheme",
     "summary": "Chijioke Timothy Odimegwu and Harafat Mogaji, both former US Air Force members, have been sentenced to a combined 189 months in federal prison for running business email compromise and phishing campaigns that stole over $2.4 million from US businesses. The pair sent phishing emails to harvest credentials, then used spoofed addresses to redirect wire transfers to accounts they controlled.",
@@ -36,7 +151,7 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T12:59:57.796282+00:00",
-    "lineage_id": "",
+    "lineage_id": "two-former-us-air-force-members-sentenced-to-189-months-for-million-dollar-bec-and-phishing-scheme",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -44,47 +159,434 @@
   },
   {
     "date": "2026-10-01",
-    "event_id": "president-of-the-united-states-and-tech-leaders-sign-voluntary-ai-accord",
-    "title": "President of the United States and Tech Leaders Sign Voluntary AI Accord",
-    "summary": "The president of the United States convened top tech executives at the White House on September 29, 2026, where they signed \"The White House Accord on Superintelligence,\" a voluntary self-regulation agreement committing companies to implement internal controls, audits, and independent board-level oversight for AI systems. The accord represents the administration's preference for industry self-regulation over government mandates.",
-    "theme": "Tech",
-    "importance": 5.0,
+    "event_id": "california-insurer-exploring-replication-of-medicares-chronic-care-technology-program",
+    "title": "California insurer exploring replication of Medicare's chronic-care technology program",
+    "summary": "A California insurer is investigating how to replicate Medicare's technology-enabled chronic-care management experiment for its own members.",
+    "theme": "Healthcare",
+    "importance": 5,
     "topics": [
-      "tech"
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Medicare",
+      "chronic care",
+      "technology",
+      "insurance",
+      "California"
+    ],
+    "url": "news/health/2026-10-01/#california-insurer-exploring-replication-of-medicares-chronic-care-technology-program",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/01/major-insurer-on-medicare-access-model-health-tech/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "california-insurer-exploring-replication-of-medicares-chronic-care-technology-program",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "osavul-raises-10-million-series-a-for-hostile-intent-detection-platform",
+    "title": "Osavul raises $10 million Series A for hostile intent detection platform",
+    "summary": "Hybrid risk intelligence company Osavul closed a $10 million Series A funding round led by 33N Ventures to advance its cyber and physical threat detection capabilities.",
+    "theme": "Security",
+    "importance": 5,
+    "topics": [
+      "security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "AI regulation",
-      "White House accord",
-      "tech self-regulation",
-      "superintelligence",
-      "AI safeguards"
+      "Osavul",
+      "Series A funding",
+      "threat detection",
+      "cybersecurity",
+      "venture capital"
     ],
-    "url": "news/tech/2026-10-01/#president-of-the-united-states-and-tech-leaders-sign-voluntary-ai-accord",
+    "url": "news/security/2026-10-01/#osavul-raises-10-million-series-a-for-hostile-intent-detection-platform",
     "sources": [
       {
-        "label": "CNBC (via Yahoo News)",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTllENm9abmh0NmdHVzV4Tkd4TXYwVFVBcFFMczBSdEhPRWkzak9kS2FBSTNSYTdvM0l1ODBrWGktd25fY3g4cGJYQWVBZldldld3M3RGNElzalhBYlBLRTUtWVZxRzllVDJGNHktZjZYVk51eG5DUHg3Q011cjB1TC1tdVFzRkp4MjZiMllXUm02clU?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbmkxaXdpblpjU0EzRG9nUUJTWGt2VE9EYzlWd2Nlak5SQ0xfMmRfVnBQTG8zTy1oRTByUHZxSXFSNzFVMFF6b3BtU3BGUy04bkxDcVh6YUQtNTdINk1rRnk0QzZMWlpvVFpLbGs5dEdpNk91YnpqTFphQkRTV0NwZlMwUnVjT2JlZUJYUVBsazM0bHBWY19Cd1FkVlVuQ2RFdGhqdG9B0gGrAUFVX3lxTE11LV9UV3QxeF9VMU9YZS1JUmotR24zNGc2UVVHUWxRMU53NnQ0eVl1clpaOWdSWlRuaVBhS1RPQVM0Wlk4ZU1xQkxvTjBGWFIweEd1Uzl4bEk0Q2ozVG95bXhOUWtzUFBVTHFpNzRUYmFZVE1kYl9iRDQ4bENCUm9sUkttcm5rR1BmT2I4aHZqZVBPYmpGOFYtZnZ2SXo4bnFPYU53X1J1WWpmRQ?oc=5",
-        "origin": "research"
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
+        "origin": "rss"
       }
     ],
-    "takeaways": [
-      "Signatories include CEOs from Anthropic, OpenAI, Google, Meta, xAI, and Nvidia",
-      "Agreement requires each company to implement internal controls, audits, and independent board-level oversight",
-      "Apple was the sole major tech company absent from the White House lunch on September 29",
-      "The accord is described as voluntary but the president called it 'morally binding'"
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "osavul-raises-10-million-series-a-for-hostile-intent-detection-platform",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "autonomous-ml-engineering-agents-balance-autonomy-and-safety-guardrails",
+    "title": "Autonomous ML engineering agents balance autonomy and safety guardrails",
+    "summary": "Recent autonomous machine learning engineering agents advance on public benchmarks by operating on top of increasingly sophisticated safety mechanisms and constraints.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "tech-research"
     ],
-    "researched": true,
-    "received_at": "2026-10-01T13:01:09.531852+00:00",
-    "lineage_id": "",
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "autonomous agents",
+      "machine learning",
+      "engineering",
+      "LLM"
+    ],
+    "url": "news/tech-research/2026-10-01/#autonomous-ml-engineering-agents-balance-autonomy-and-safety-guardrails",
+    "sources": [
+      {
+        "label": "Apple Machine Learning Research",
+        "url": "https://machinelearning.apple.com/research/harness-autonomous-ml-engineering",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "autonomous-ml-engineering-agents-balance-autonomy-and-safety-guardrails",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "rltldr-agents-improve-through-self-generated-reinforcement-learning-feedback",
+    "title": "RLTL;DR: Agents improve through self-generated reinforcement learning feedback",
+    "summary": "A reinforcement learning approach enables agents to improve on difficult, low-success-rate tasks by internalizing their own self-generated feedback.",
+    "theme": "AI",
+    "importance": 5,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "reinforcement learning",
+      "self-improvement",
+      "agents",
+      "feedback"
+    ],
+    "url": "news/tech-research/2026-10-01/#rltldr-agents-improve-through-self-generated-reinforcement-learning-feedback",
+    "sources": [
+      {
+        "label": "Apple Machine Learning Research",
+        "url": "https://machinelearning.apple.com/research/rltl-dr-self-improvement",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "rltldr-agents-improve-through-self-generated-reinforcement-learning-feedback",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "us-argentina-andes-atlantic-corridor-initiative-targets-critical-mineral-exports",
+    "title": "US-Argentina Andes-Atlantic Corridor initiative targets critical mineral exports",
+    "summary": "A new bilateral initiative announced September 23 aims to strengthen supply chains and attract investment in critical minerals like lithium and copper for the clean energy transition.",
+    "theme": "Climate",
+    "importance": 5.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "critical minerals",
+      "lithium",
+      "copper",
+      "US-Argentina",
+      "clean energy"
+    ],
+    "url": "news/climate-change/2026-10-01/#us-argentina-andes-atlantic-corridor-initiative-targets-critical-mineral-exports",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/us-argentina-initiative-aims-to-boost-critical-mineral-oil-and-gas-exports/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "us-argentina-andes-atlantic-corridor-initiative-targets-critical-mineral-exports",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "gabon-seeks-equitable-compensation-as-ibogaine-boom-accelerates-globally",
+    "title": "Gabon seeks equitable compensation as ibogaine boom accelerates globally",
+    "summary": "Gabon, home to the medicinal plant iboga, pushes for a fairer share of profits from the expanding global ibogaine market.",
+    "theme": "Natural Resources",
+    "importance": 5.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Gabon",
+      "ibogaine",
+      "medicinal plants",
+      "benefit sharing"
+    ],
+    "url": "news/climate-change/2026-10-01/#gabon-seeks-equitable-compensation-as-ibogaine-boom-accelerates-globally",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/gabon-home-to-the-medicinal-plant-behind-ibogaine-wants-a-fairer-share-of-its-global-boom/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "gabon-seeks-equitable-compensation-as-ibogaine-boom-accelerates-globally",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "dolphins-segregate-feeding-and-social-activities-into-distinct-geographic-zones",
+    "title": "Dolphins segregate feeding and social activities into distinct geographic zones",
+    "summary": "Study documents that dolphins maintain separate feeding and hunting areas from their social gathering locations.",
+    "theme": "Marine Biology",
+    "importance": 5.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "dolphins",
+      "social behavior",
+      "hunting behavior",
+      "marine ecology"
+    ],
+    "url": "news/climate-change/2026-10-01/#dolphins-segregate-feeding-and-social-activities-into-distinct-geographic-zones",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/dolphins-keep-their-social-and-hunting-lives-in-separate-waters-study-finds/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "dolphins-segregate-feeding-and-social-activities-into-distinct-geographic-zones",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "cutting-ultra-processed-food-linked-to-depression-symptom-improvements",
+    "title": "Cutting ultra-processed food linked to depression symptom improvements",
+    "summary": "A small preliminary study found that people with depression who dramatically reduced ultra-processed food intake experienced notable improvements in symptoms, possibly through reduced gut damage and inflammation.",
+    "theme": "Health",
+    "importance": 5.5,
+    "topics": [
+      "diet-exercise",
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "ultra-processed food",
+      "depression",
+      "mental health",
+      "diet",
+      "inflammation"
+    ],
+    "url": "news/diet-exercise/2026-10-01/#cutting-ultra-processed-food-linked-to-depression-symptom-improvements",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225448.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225448.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Nutrition",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225448.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "cutting-ultra-processed-food-linked-to-depression-symptom-improvements",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "unsupported-arm-during-blood-pressure-measurement-can-inflate-readings-by-65-mmhg",
+    "title": "Unsupported arm during blood pressure measurement can inflate readings by 6.5 mmHg",
+    "summary": "Johns Hopkins researchers found that leaving the arm unsupported during blood pressure checks can raise systolic readings by approximately 6.5 mmHg, potentially affecting hypertension diagnoses.",
+    "theme": "Health",
+    "importance": 5.5,
+    "topics": [
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "blood pressure",
+      "measurement error",
+      "hypertension",
+      "clinical practice",
+      "diagnosis"
+    ],
+    "url": "news/health/2026-10-01/#unsupported-arm-during-blood-pressure-measurement-can-inflate-readings-by-65-mmhg",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260928100606.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260928100606.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "unsupported-arm-during-blood-pressure-measurement-can-inflate-readings-by-65-mmhg",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "cdc-survey-redesign-would-remove-disability-related-health-questions",
+    "title": "CDC survey redesign would remove disability-related health questions",
+    "summary": "Proposed changes to the federal government's annual health survey would eliminate questions about disabilities, according to advocates, potentially undercounting Americans with disabilities.",
+    "theme": "Health",
+    "importance": 5.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "CDC",
+      "health survey",
+      "disabilities",
+      "data collection",
+      "public health"
+    ],
+    "url": "news/health/2026-10-01/#cdc-survey-redesign-would-remove-disability-related-health-questions",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/01/cdc-health-survey-redesign-removes-questions-about-disabilities/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "cdc-survey-redesign-would-remove-disability-related-health-questions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "international-energy-agency-report-highlights-global-electrification-challenges-and-opportunities",
+    "title": "International Energy Agency report highlights global electrification challenges and opportunities",
+    "summary": "The International Energy Agency released a report on the global shift toward electrification as the cheapest and cleanest energy form.",
+    "theme": "Climate",
+    "importance": 6,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "electrification",
+      "IEA",
+      "energy",
+      "transition"
+    ],
+    "url": "news/climate-change/2026-10-01/#international-energy-agency-report-highlights-global-electrification-challenges-and-opportunities",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/01102026/inside-clean-energy-global-electrification-obstacles/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "international-energy-agency-report-highlights-global-electrification-challenges-and-opportunities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -127,7 +629,268 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T12:59:47.216555+00:00",
-    "lineage_id": "",
+    "lineage_id": "creatine-supplement-builds-muscle-in-middle-aged-adults-even-without-exercise-texas-am-study-finds",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "microsoft-releases-2026-digital-defense-report-on-interconnected-cyber-risk",
+    "title": "Microsoft releases 2026 Digital Defense Report on interconnected cyber risk",
+    "summary": "Microsoft has published its 2026 Digital Defense Report, highlighting the increasingly interconnected nature of the global security environment.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "Digital Defense Report",
+      "cybersecurity",
+      "threat landscape"
+    ],
+    "url": "news/email-security/2026-10-01/#microsoft-releases-2026-digital-defense-report-on-interconnected-cyber-risk",
+    "sources": [
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "microsoft-releases-2026-digital-defense-report-on-interconnected-cyber-risk",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "trump-administrations-medicare-drug-pricing-efforts-face-effectiveness-challenges",
+    "title": "Trump administration's Medicare drug pricing efforts face effectiveness challenges",
+    "summary": "The president of the United States' health administration has implemented watered-down Medicare drug price negotiations affecting only four companies.",
+    "theme": "Healthcare Policy",
+    "importance": 6,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Medicare",
+      "drug pricing",
+      "Trump administration",
+      "healthcare reform"
+    ],
+    "url": "news/health/2026-10-01/#trump-administrations-medicare-drug-pricing-efforts-face-effectiveness-challenges",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/01/maha-goes-corporate-trump-waters-down-medicare-drug-pricing-model/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "trump-administrations-medicare-drug-pricing-efforts-face-effectiveness-challenges",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "final-medicare-drug-pricing-rule-dramatically-scaled-back-benefits-only-four-companies",
+    "title": "Final Medicare drug pricing rule dramatically scaled back, benefits only four companies",
+    "summary": "A final Medicare rule to lower drug prices applies to only four pharmaceutical companies and delivers savings 96% lower than the initial proposal.",
+    "theme": "Healthcare Policy",
+    "importance": 6,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Medicare",
+      "drug pricing",
+      "pharmaceutical",
+      "policy"
+    ],
+    "url": "news/health/2026-10-01/#final-medicare-drug-pricing-rule-dramatically-scaled-back-benefits-only-four-companies",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/pharmalot/2026/10/01/trump-plan-to-lower-medicare-drug-prices-lilly-obesity-drug/?utm_campaign=rss",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "final-medicare-drug-pricing-rule-dramatically-scaled-back-benefits-only-four-companies",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "enterprises-lag-in-preparing-for-ai-and-quantum-computing-security-threats-pwc-survey-finds",
+    "title": "Enterprises lag in preparing for AI and quantum computing security threats, PwC survey finds",
+    "summary": "Only 22% of enterprise leaders would use fully autonomous AI for cyber defense, and just 21% are implementing quantum-resistant security measures.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "PwC",
+      "survey",
+      "quantum computing",
+      "AI",
+      "cybersecurity",
+      "preparedness"
+    ],
+    "url": "news/security/2026-10-01/#enterprises-lag-in-preparing-for-ai-and-quantum-computing-security-threats-pwc-survey-finds",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "enterprises-lag-in-preparing-for-ai-and-quantum-computing-security-threats-pwc-survey-finds",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "zero-trust-architecture-vulnerability-the-onboarding-identity-gap",
+    "title": "Zero Trust architecture vulnerability: the onboarding identity gap",
+    "summary": "Zero Trust security frameworks have a vulnerability during user onboarding, where organizations must grant initial trust before strong authentication mechanisms are established.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Zero Trust",
+      "identity verification",
+      "onboarding",
+      "cybersecurity"
+    ],
+    "url": "news/security/2026-10-01/#zero-trust-architecture-vulnerability-the-onboarding-identity-gap",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/the-day-one-hole-in-zero-trust-architecture/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "zero-trust-architecture-vulnerability-the-onboarding-identity-gap",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "kiteworks-patches-max-severity-code-injection-vulnerability-in-email-protection-gateway",
+    "title": "Kiteworks patches max-severity code injection vulnerability in Email Protection Gateway",
+    "summary": "Secure file-sharing company Kiteworks has released security updates addressing 126 vulnerabilities, including a maximum-severity code injection flaw in its Email Protection Gateway.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Kiteworks",
+      "code injection",
+      "vulnerability",
+      "email security"
+    ],
+    "url": "news/security/2026-10-01/#kiteworks-patches-max-severity-code-injection-vulnerability-in-email-protection-gateway",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/kiteworks-patches-max-severity-email-protection-gateway-code-injection-vulnerability/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "kiteworks-patches-max-severity-code-injection-vulnerability-in-email-protection-gateway",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "cyberattack-on-polish-invoicing-platform-exposes-customer-and-business-data",
+    "title": "Cyberattack on Polish invoicing platform exposes customer and business data",
+    "summary": "A major Polish online invoicing platform suffered a data breach affecting its users, their customers, and business partners.",
+    "theme": "Security",
+    "importance": 6,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "data breach",
+      "Poland",
+      "invoicing",
+      "cybersecurity"
+    ],
+    "url": "news/security/2026-10-01/#cyberattack-on-polish-invoicing-platform-exposes-customer-and-business-data",
+    "sources": [
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/poland-cyberattack-invoice-software",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "cyberattack-on-polish-invoicing-platform-exposes-customer-and-business-data",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -171,7 +934,158 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T13:01:22.288274+00:00",
-    "lineage_id": "",
+    "lineage_id": "california-becomes-18th-state-to-ban-child-marriage-effective-january-1-2025",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "renewable-energy-companies-drive-brazils-data-center-expansion-boom",
+    "title": "Renewable energy companies drive Brazil's data center expansion boom",
+    "summary": "Analysis finds that renewable energy companies are driving 65% of data center expansion requests in Brazil.",
+    "theme": "Energy & Data Infrastructure",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Brazil",
+      "data centers",
+      "renewable energy",
+      "grid integration"
+    ],
+    "url": "news/climate-change/2026-10-01/#renewable-energy-companies-drive-brazils-data-center-expansion-boom",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/10/renewable-energy-companies-fuel-brazilian-data-center-boom-investigation-finds/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "renewable-energy-companies-drive-brazils-data-center-expansion-boom",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "nsw-approves-largest-coal-project-in-state-history-despite-climate-warnings",
+    "title": "NSW approves largest coal project in state history despite climate warnings",
+    "summary": "New South Wales greenlights its largest coal mining project despite warnings from the government's own climate adviser that economic climate damage was not considered in the decision.",
+    "theme": "Climate Policy",
+    "importance": 6.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "NSW",
+      "coal mining",
+      "climate impact",
+      "project approval"
+    ],
+    "url": "news/climate-change/2026-10-01/#nsw-approves-largest-coal-project-in-state-history-despite-climate-warnings",
+    "sources": [
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/02/hunter-valley-operations-coal-mine-extension-nsw",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "nsw-approves-largest-coal-project-in-state-history-despite-climate-warnings",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "chimpanzees-show-reciprocal-theft-avoidance-within-friendships-study-finds",
+    "title": "Chimpanzees show reciprocal theft avoidance within friendships, study finds",
+    "summary": "Research reveals that friendly chimpanzees selectively reduce food theft from peers and expect reciprocal restraint in return.",
+    "theme": "Primatology",
+    "importance": 6.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "chimpanzees",
+      "social behavior",
+      "friendship",
+      "cooperation"
+    ],
+    "url": "news/science/2026-10-01/#chimpanzees-show-reciprocal-theft-avoidance-within-friendships-study-finds",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-chimps-plunder-pineapple-friends.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "chimpanzees-show-reciprocal-theft-avoidance-within-friendships-study-finds",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "threatsday-security-briefing-ai-zero-days-leaked-secrets-and-model-inspection-rces",
+    "title": "ThreatsDay security briefing: AI zero-days, leaked secrets, and model inspection RCEs",
+    "summary": "A weekly security briefing covers emerging threats including AI-powered zero-day exploit chains, exposure of 543,000 live secrets, remote code execution via model inspection, and additional critical vulnerabilities.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "zero-day",
+      "RCE",
+      "secrets exposure",
+      "AI security",
+      "vulnerability"
+    ],
+    "url": "news/security/2026-10-01/#threatsday-security-briefing-ai-zero-days-leaked-secrets-and-model-inspection-rces",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "threatsday-security-briefing-ai-zero-days-leaked-secrets-and-model-inspection-rces",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -215,7 +1129,163 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T12:59:14.281091+00:00",
-    "lineage_id": "",
+    "lineage_id": "epa-repeals-greenhouse-gas-emission-rules-for-power-plants",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "mind-diet-linked-to-slower-brain-aging-equivalent-to-25-years",
+    "title": "MIND diet linked to slower brain aging equivalent to 2.5 years",
+    "summary": "A 20-year study of 1,647 adults found that strict adherence to the MIND diet slowed brain shrinkage and grey matter loss, with effects equivalent to delaying brain aging by approximately 2.5 years. Berries and poultry correlated with healthier brain changes, while sweets and fried foods linked to greater tissue loss.",
+    "theme": "Health",
+    "importance": 7,
+    "topics": [
+      "diet-exercise",
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "MIND diet",
+      "brain aging",
+      "neurodegeneration",
+      "diet",
+      "cognitive health"
+    ],
+    "url": "news/diet-exercise/2026-10-01/#mind-diet-linked-to-slower-brain-aging-equivalent-to-25-years",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Nutrition",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225503.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "MIND diet adherence linked to 2.5 years of delayed brain aging",
+      "Berries and poultry associated with healthier brain changes",
+      "Sweets and fried fast foods associated with greater tissue loss",
+      "Study tracked 1,647 middle-aged and older adults from 1999 to 2019"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "mind-diet-linked-to-slower-brain-aging-equivalent-to-25-years",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "hidden-arterial-plaque-detected-in-1-in-13-adults-under-30",
+    "title": "Hidden arterial plaque detected in 1 in 13 adults under 30",
+    "summary": "An international study of over 16,000 apparently healthy adults found that 57% showed signs of atherosclerosis, with plaques already present in roughly 1 in 13 people ages 18 to 29. The findings, published in The New England Journal of Medicine, suggest direct arterial imaging could detect hidden cardiovascular disease years before symptoms appear.",
+    "theme": "Health",
+    "importance": 7,
+    "topics": [
+      "diet-exercise",
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "atherosclerosis",
+      "cardiovascular disease",
+      "artery plaque",
+      "youth",
+      "screening"
+    ],
+    "url": "news/diet-exercise/2026-10-01/#hidden-arterial-plaque-detected-in-1-in-13-adults-under-30",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm",
+        "origin": "rss"
+      },
+      {
+        "label": "ScienceDaily — Fitness",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260929053541.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "57.1% of healthy adults showed atherosclerotic plaques",
+      "Arterial plaque present in ~1 in 13 people ages 18–29",
+      "Findings presented at ESC Congress 2026 and published in NEJM",
+      "EUR 23 million awarded by Novo Nordisk Foundation to support study"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "hidden-arterial-plaque-detected-in-1-in-13-adults-under-30",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "government-agencies-face-increased-cyber-threats-microsoft-digital-defense-report-reveals",
+    "title": "Government agencies face increased cyber threats, Microsoft Digital Defense Report reveals",
+    "summary": "Government agencies and services accounted for 27% of cyber threat activity in 2026, up from 17% in 2025, making them the most-targeted sector according to Microsoft's Digital Defense Report. Phishing attacks surged from 7% to 23% of observed intrusions, while overall dwell time increased across sectors.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "Digital Defense Report",
+      "government",
+      "cyber threats"
+    ],
+    "url": "news/email-security/2026-10-01/#government-agencies-face-increased-cyber-threats-microsoft-digital-defense-report-reveals",
+    "sources": [
+      {
+        "label": "Microsoft On the Issues",
+        "url": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
+        "origin": "research"
+      },
+      {
+        "label": "Microsoft Security Blog",
+        "url": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Government threat activity rose from 17% (2025) to 27% (2026)",
+      "Phishing attacks increased from 7% to 23% of observed intrusions",
+      "Report examined trends between July 2025 and June 2026",
+      "Nation-states target government for sensitive information and critical infrastructure access"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "government-agencies-face-increased-cyber-threats-microsoft-digital-defense-report-reveals",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -259,7 +1329,276 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T13:00:07.744944+00:00",
-    "lineage_id": "",
+    "lineage_id": "openai-and-synopsys-announce-gpt-synopsys-strategic-partnership-for-ai-powered-chip-design",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "most-accurate-atomic-clock-created-using-radioactive-lutetium",
+    "title": "Most accurate atomic clock created using radioactive lutetium",
+    "summary": "Physicists have developed an atomic clock using radioactive lutetium that maintains perfect time to 19 decimal places, the most accurate ever built.",
+    "theme": "Science",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "atomic clock",
+      "lutetium",
+      "metrology",
+      "time measurement",
+      "fundamental physics"
+    ],
+    "url": "news/science/2026-10-01/#most-accurate-atomic-clock-created-using-radioactive-lutetium",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/physics-mathematics/physicists-unveil-the-most-accurate-atomic-clock-ever-and-it-could-literally-redefine-the-second",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "most-accurate-atomic-clock-created-using-radioactive-lutetium",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "alaska-permafrost-soils-warming-fastest-as-climate-change-accelerates",
+    "title": "Alaska permafrost soils warming fastest as climate change accelerates",
+    "summary": "Soils across Alaska, particularly in permafrost regions, are warming rapidly at considerable depths, threatening infrastructure and potentially accelerating climate change.",
+    "theme": "Climate",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "permafrost",
+      "soil warming",
+      "Alaska",
+      "climate change",
+      "infrastructure"
+    ],
+    "url": "news/science/2026-10-01/#alaska-permafrost-soils-warming-fastest-as-climate-change-accelerates",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-alaska-soil-permafrost-regions-fastest.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "alaska-permafrost-soils-warming-fastest-as-climate-change-accelerates",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "starving-e-coli-bacteria-exchange-dna-through-phage-mediated-transfer-100x-more-than-spontaneous-mutation",
+    "title": "Starving E. coli bacteria exchange DNA through phage-mediated transfer 100x more than spontaneous mutation",
+    "summary": "Researchers find that E. coli under starvation stress transfer DNA via bacteriophages at rates far exceeding natural mutation, resembling primitive sexual reproduction.",
+    "theme": "Microbiology",
+    "importance": 7.0,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "E. coli",
+      "DNA transfer",
+      "bacteriophages",
+      "CRISPR",
+      "starvation stress"
+    ],
+    "url": "news/science/2026-10-01/#starving-e-coli-bacteria-exchange-dna-through-phage-mediated-transfer-100x-more-than-spontaneous-mutation",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-sex-dna-exchange-starving-bacteria.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "starving-e-coli-bacteria-exchange-dna-through-phage-mediated-transfer-100x-more-than-spontaneous-mutation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "ancient-martian-water-may-have-created-conditions-for-life-related-chemistry",
+    "title": "Ancient Martian water may have created conditions for life-related chemistry",
+    "summary": "Geological evidence suggests Mars had warm, wet periods 3.8 to 3.6 billion years ago that could have supported water and prebiotic chemistry.",
+    "theme": "Space",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Mars",
+      "water",
+      "ancient climate",
+      "habitability",
+      "astrobiology"
+    ],
+    "url": "news/science/2026-10-01/#ancient-martian-water-may-have-created-conditions-for-life-related-chemistry",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-ancient-life-chemistry-clues-mars.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "ancient-martian-water-may-have-created-conditions-for-life-related-chemistry",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "superfluid-helium-qubits-could-reduce-quantum-computing-errors-by-100-fold",
+    "title": "Superfluid helium qubits could reduce quantum computing errors by 100-fold",
+    "summary": "Researchers propose a new qubit design using superfluid helium that could reduce quantum computing error rates by approximately 100 times by shielding quantum information from electromagnetic noise.",
+    "theme": "Quantum Computing",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "quantum computing",
+      "qubits",
+      "superfluid helium",
+      "error correction"
+    ],
+    "url": "news/science/2026-10-01/#superfluid-helium-qubits-could-reduce-quantum-computing-errors-by-100-fold",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "superfluid-helium-qubits-could-reduce-quantum-computing-errors-by-100-fold",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "caltech-physicists-experimentally-confirm-40-year-old-quantum-energy-ladder-prediction",
+    "title": "Caltech physicists experimentally confirm 40-year-old quantum energy ladder prediction",
+    "summary": "Caltech researchers used laser-trapped atoms in a quantum simulator to observe predicted energy patterns that theorists had forecasted for four decades.",
+    "theme": "Physics",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "quantum physics",
+      "Caltech",
+      "energy levels",
+      "quantum simulation"
+    ],
+    "url": "news/science/2026-10-01/#caltech-physicists-experimentally-confirm-40-year-old-quantum-energy-ladder-prediction",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260928100554.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "caltech-physicists-experimentally-confirm-40-year-old-quantum-energy-ladder-prediction",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "wordpress-backdoor-uses-multiple-persistence-mechanisms-to-survive-cleanup",
+    "title": "WordPress backdoor uses multiple persistence mechanisms to survive cleanup",
+    "summary": "Researchers documented a WordPress backdoor codenamed SC using eight separate persistence mechanisms that rebuild themselves after cleanup attempts, creating what Sucuri describes as a \"self-healing mesh\" system. The malware maintains copies across files, database entries, and shared memory, with no single removal point to stop reinfection.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "WordPress",
+      "backdoor",
+      "malware",
+      "persistence",
+      "compromise"
+    ],
+    "url": "news/security/2026-10-01/#wordpress-backdoor-uses-multiple-persistence-mechanisms-to-survive-cleanup",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Backdoor uses eight separate persistence mechanisms",
+      "Copies maintained in files, WordPress database, and shared memory",
+      "Each location can independently restore others",
+      "Capabilities include hiding from admin panel, blockchain C&C communication, JavaScript injection for skimmers"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "wordpress-backdoor-uses-multiple-persistence-mechanisms-to-survive-cleanup",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -302,7 +1641,360 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T13:00:52.768877+00:00",
-    "lineage_id": "",
+    "lineage_id": "nasa-administrator-issues-directive-to-loosen-planetary-protection-rules-for-mars-missions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "meta-vr-glasses-redefine-the-spatial-computing-market-at-1299",
+    "title": "Meta VR Glasses redefine the spatial computing market at $1,299",
+    "summary": "Meta released VR Glasses priced at $1,299 weighing approximately 100 grams—about five times lighter than traditional VR headsets. The hybrid design provides real peripheral vision through live video feed, distinguishing them from fully opaque headsets and transparent AR glasses.",
+    "theme": "Hardware",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta VR Glasses",
+      "spatial computing",
+      "augmented reality"
+    ],
+    "url": "news/tech/2026-10-01/#meta-vr-glasses-redefine-the-spatial-computing-market-at-1299",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Price: $1,299",
+      "Weight: ~100 grams (five times lighter than typical VR headsets)",
+      "Hybrid design with live video feed for real peripheral vision",
+      "Glasses-based alternative to traditional VR headsets and AR glasses"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "meta-vr-glasses-redefine-the-spatial-computing-market-at-1299",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "microsoft-recasts-copilot-strategy-around-enterprise-customer-needs",
+    "title": "Microsoft recasts Copilot strategy around enterprise customer needs",
+    "summary": "Microsoft CEO Satya Nadella shifted Copilot strategy from media launches to direct enterprise customer engagement, positioning it as the \"OS for work.\" The company unified consumer and enterprise Copilot apps into a single interface and is adding coding, agent capabilities, and full Office suite integration.",
+    "theme": "Enterprise AI",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "Copilot",
+      "enterprise AI",
+      "strategy"
+    ],
+    "url": "news/tech/2026-10-01/#microsoft-recasts-copilot-strategy-around-enterprise-customer-needs",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/tech/1003365/microsoft-copilot-os-for-work-notepad",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Copilot repositioned as the \"OS for work\"",
+      "Consumer and enterprise Copilot apps unified into single interface",
+      "Adding coding, agent capabilities, and full Office suite integration",
+      "Departure from consumer-focused strategy from two years prior"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "microsoft-recasts-copilot-strategy-around-enterprise-customer-needs",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "japanese-court-rules-human-voices-protected-in-ai-copyright-case",
+    "title": "Japanese court rules human voices protected in AI copyright case",
+    "summary": "A Japanese court has ruled that human voices are protected intellectual property in a landmark AI case.",
+    "theme": "AI Policy",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Japan",
+      "voice protection",
+      "AI",
+      "copyright",
+      "legal precedent"
+    ],
+    "url": "news/tech/2026-10-01/#japanese-court-rules-human-voices-protected-in-ai-copyright-case",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2274521/japanese-court-rules-human-voices-are-protected-in-landmark-ai-case/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "japanese-court-rules-human-voices-protected-in-ai-copyright-case",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "microsoft-discovers-threat-actors-exploiting-zimbra-vulnerability-before-public-disclosure",
+    "title": "Microsoft discovers threat actors exploiting Zimbra vulnerability before public disclosure",
+    "summary": "Microsoft detected attackers probing a Zimbra mail server flaw weeks before it received a CVE identifier.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Zimbra",
+      "vulnerability",
+      "Microsoft",
+      "zero-day",
+      "mail server"
+    ],
+    "url": "news/tech/2026-10-01/#microsoft-discovers-threat-actors-exploiting-zimbra-vulnerability-before-public-disclosure",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/01/microsoft-catches-hackers-exploiting-zimbra-bug-before-disclosure/5300543",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "microsoft-discovers-threat-actors-exploiting-zimbra-vulnerability-before-public-disclosure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "law-enforcement-can-bypass-iphones-automatic-reboot-security-feature",
+    "title": "Law enforcement can bypass iPhone's automatic reboot security feature",
+    "summary": "Researchers reveal that police can use tools to circumvent iPhone's automatic inactivity reboot, which is designed to lock the device.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "iPhone",
+      "security",
+      "law enforcement",
+      "GrayKey",
+      "device lock"
+    ],
+    "url": "news/tech/2026-10-01/#law-enforcement-can-bypass-iphones-automatic-reboot-security-feature",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "law-enforcement-can-bypass-iphones-automatic-reboot-security-feature",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "openai-launches-dots-ai-agent-to-compete-with-metas-muse",
+    "title": "OpenAI launches Dots AI agent to compete with Meta's Muse",
+    "summary": "OpenAI announced Dots, a new AI agent powered by GPT-6 Astra, as a direct competitor to Meta's rapidly growing Muse AI platform.",
+    "theme": "AI",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Dots",
+      "AI agent",
+      "Meta",
+      "Muse",
+      "GPT-6"
+    ],
+    "url": "news/tech/2026-10-01/#openai-launches-dots-ai-agent-to-compete-with-metas-muse",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Product: Dots autonomous AI agents",
+      "Designed for continuous operation without user intervention",
+      "Launched as response to Meta's Muse offering"
+    ],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "openai-launches-dots-always-on-autonomous-ai-agents-in-response-to-metas-muse",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "OpenAI launches Dots, always-on autonomous AI agents in response to Meta's Muse",
+    "updates_url": "news/gpt/2026-09-29/#openai-launches-dots-always-on-autonomous-ai-agents-in-response-to-metas-muse"
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "uks-mi5-warns-academics-that-their-research-may-have-aided-chinese-espionage",
+    "title": "UK's MI5 warns academics that their research may have aided Chinese espionage",
+    "summary": "MI5 has advised UK academic institutions to verify their funding sources or risk violating national security law, warning that research may have been exploited by Chinese intelligence.",
+    "theme": "Security",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "MI5",
+      "UK",
+      "China",
+      "espionage",
+      "academic research",
+      "national security"
+    ],
+    "url": "news/tech/2026-10-01/#uks-mi5-warns-academics-that-their-research-may-have-aided-chinese-espionage",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/01/mi5-warns-uk-academics-their-research-may-have-helped-chinese-spies/5300502",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "uks-mi5-warns-academics-that-their-research-may-have-aided-chinese-espionage",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "microsoft-discontinuing-exchange-web-services-after-april-deadline",
+    "title": "Microsoft discontinuing Exchange Web Services after April deadline",
+    "summary": "Microsoft is fully retiring the legacy Exchange Web Services API, with no exceptions beyond April.",
+    "theme": "Technology",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "Exchange Web Services",
+      "EWS",
+      "API deprecation"
+    ],
+    "url": "news/tech/2026-10-01/#microsoft-discontinuing-exchange-web-services-after-april-deadline",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/saas/2026/10/01/exchange-web-services-enters-the-final-stretch-before-microsoft-pulls-access/5300458",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "microsoft-discontinuing-exchange-web-services-after-april-deadline",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "micron-ceo-forecasts-much-tighter-memory-supply-in-20272028",
+    "title": "Micron CEO forecasts much tighter memory supply in 2027–2028",
+    "summary": "Micron's CEO projected that semiconductor memory supply will be significantly constrained in 2027 and 2028 compared to 2026.",
+    "theme": "Hardware",
+    "importance": 7,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Micron",
+      "memory",
+      "supply chain",
+      "semiconductors"
+    ],
+    "url": "news/tech/2026-10-01/#micron-ceo-forecasts-much-tighter-memory-supply-in-20272028",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.techpowerup.com/353296/micron-ceo-says-memory-supply-will-be-much-tighter-in-2027-and-2028-than-in-2026",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "micron-ceo-forecasts-much-tighter-memory-supply-in-20272028",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -346,7 +2038,203 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T13:01:17.147530+00:00",
-    "lineage_id": "",
+    "lineage_id": "mi5-warns-uk-academics-are-targets-of-chinese-espionage-funding-for-ai-and-tech-research",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "lake-mead-and-lake-powell-hit-historic-lows-as-colorado-river-shrinks",
+    "title": "Lake Mead and Lake Powell hit historic lows as Colorado River shrinks",
+    "summary": "Lake Mead has declined to less than 27% of capacity, its lowest level since being filled nearly 90 years ago, leaving a 175-foot gap above the current water line. The crisis threatens Las Vegas, which derives over 90% of its water from Lake Mead; the city has invested $1.3 billion in a deeper third intake and implemented extensive recycling measures.",
+    "theme": "Water Resources",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Colorado River",
+      "Lake Mead",
+      "Lake Powell",
+      "water crisis",
+      "drought"
+    ],
+    "url": "news/climate-change/2026-10-01/#lake-mead-and-lake-powell-hit-historic-lows-as-colorado-river-shrinks",
+    "sources": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/01/colorado-river-nevada-shrinking",
+        "origin": "research"
+      },
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/us-news/2026/oct/01/colorado-river-nevada-shrinking",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Lake Mead at less than 27% capacity—lowest since filling 90 years ago",
+      "Water level dropped 175 feet below the 2000 full mark",
+      "Las Vegas derives over 90% of water supply from Lake Mead",
+      "City invested $1.3 billion in third intake and recycling infrastructure"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "lake-mead-and-lake-powell-hit-historic-lows-as-colorado-river-shrinks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "alzheimers-risk-gene-apoe4-effects-partially-reversible-in-experiments",
+    "title": "Alzheimer's risk gene APOE4 effects partially reversible in experiments",
+    "summary": "Mount Sinai researchers found that the Alzheimer's risk gene APOE4 damages brain blood vessels by transforming stabilizing cells into scar-producing cells, worsening protein buildup. Critically, blocking a specific signaling pathway reversed this damage in experiments, identifying a potential therapeutic target for neurodegenerative diseases.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "APOE4",
+      "Alzheimer's",
+      "neurodegenerative disease",
+      "genetics",
+      "neuroinflammation"
+    ],
+    "url": "news/health/2026-10-01/#alzheimers-risk-gene-apoe4-effects-partially-reversible-in-experiments",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260930225450.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "APOE4 transforms pericytes into myofibroblast-like cells causing vascular fibrosis",
+      "TGF-β signaling blockade partially reversed vascular damage in cell culture and aged mice",
+      "Findings published in Cell (September 24, 2026) and Cell Stem Cell",
+      "Vascular degeneration is an active, targetable process rather than disease consequence"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "alzheimers-risk-gene-apoe4-effects-partially-reversible-in-experiments",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "chinese-biotech-companies-now-dominate-half-the-global-drug-development-pipeline",
+    "title": "Chinese biotech companies now dominate half the global drug development pipeline",
+    "summary": "Chinese biotech companies now represent roughly half of the global pharmaceutical drug development pipeline, marking a significant competitive shift in drug development from October 1, 2026.",
+    "theme": "Biotechnology",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "China",
+      "biotech",
+      "pharmaceutical pipeline",
+      "drug development"
+    ],
+    "url": "news/health/2026-10-01/#chinese-biotech-companies-now-dominate-half-the-global-drug-development-pipeline",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/01/biotech-news-journey-to-witness-chinas-biotech-boom-up-close/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Chinese-designed drugs represent ~50% of global pharmaceutical pipeline",
+      "Reflects major competitive shift in global drug development"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "chinese-biotech-companies-now-dominate-half-the-global-drug-development-pipeline",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "police-arrest-16-year-old-suspected-of-leading-killsec-ransomware-operation",
+    "title": "Police arrest 16-year-old suspected of leading KillSec ransomware operation",
+    "summary": "Spanish police arrested a 16-year-old suspected of running the KillSec ransomware group on September 30, along with two other suspects in the U.K. and Romania. Police seized KillSec's leak site and servers holding at least 110 terabytes of stolen data, shutting down 5 servers and securing cryptocurrency wallets containing ransom payments.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "KillSec",
+      "ransomware",
+      "arrest",
+      "extortion",
+      "cybercrime"
+    ],
+    "url": "news/security/2026-10-01/#police-arrest-16-year-old-suspected-of-leading-killsec-ransomware-operation",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
+        "origin": "research"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/killsec-ransomware-raas-arrests-europe",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/police-dismantle-killsec-ransomware-gang-allegedly-led-by-16-year-old/",
+        "origin": "rss"
+      },
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/police-shut-down-killsec-ransomware-identify-alleged-teen-leader/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "16-year-old arrested as suspected KillSec administrator in Spain",
+      "Two additional suspects arrested in U.K. and Romania (24-year-old detained)",
+      "At least 110 terabytes of stolen data secured",
+      "5 servers shut down; 5 domains seized on September 30, 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "police-arrest-16-year-old-suspected-of-leading-killsec-ransomware-operation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -390,7 +2278,7 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T12:58:48.958173+00:00",
-    "lineage_id": "",
+    "lineage_id": "openai-halts-model-release-amid-safety-escalation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -434,7 +2322,7 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T12:58:58.073708+00:00",
-    "lineage_id": "",
+    "lineage_id": "glm-53-released-with-weak-safeguards-against-cyberattack-capabilities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -483,7 +2371,7 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T12:59:39.454937+00:00",
-    "lineage_id": "",
+    "lineage_id": "trump-administration-removes-habitat-destruction-from-endangered-species-act-protections",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -526,7 +2414,7 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T13:00:19.389808+00:00",
-    "lineage_id": "",
+    "lineage_id": "claude-ai-discovers-novel-enzyme-system-with-crispr-like-properties",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -575,7 +2463,94 @@
     ],
     "researched": true,
     "received_at": "2026-10-01T13:00:38.302998+00:00",
-    "lineage_id": "",
+    "lineage_id": "pentagon-personnel-agency-suffers-breach-exposing-3-million-records",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "zimbra-zero-day-vulnerability-cve-2026-73570-actively-exploited-before-disclosure",
+    "title": "Zimbra zero-day vulnerability CVE-2026-73570 actively exploited before disclosure",
+    "summary": "A Zimbra zero-day vulnerability (CVE-2026-73570) is being exploited in the wild through specially crafted emails without requiring user interaction.",
+    "theme": "Security",
+    "importance": 8,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Zimbra",
+      "CVE-2026-73570",
+      "zero-day",
+      "vulnerability",
+      "email"
+    ],
+    "url": "news/security/2026-10-01/#zimbra-zero-day-vulnerability-cve-2026-73570-actively-exploited-before-disclosure",
+    "sources": [
+      {
+        "label": "SecurityWeek",
+        "url": "https://www.securityweek.com/zimbra-vulnerability-exploited-in-the-wild-prior-to-public-disclosure/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "CVE-2026-73570: unauthenticated OS command injection (CVSS 8.9)",
+      "Affects systems with SNMP notifications and optional zimbra-snmp package",
+      "Patched July 2026 (version 10.1.20); active exploitation July 20–Aug 13",
+      "Attackers deployed JSP shells, harvested credentials, installed persistence tools",
+      "CVE-2026-73570: unauthenticated OS command injection in Zimbra SNMP path",
+      "No authentication or user interaction required for exploitation",
+      "Affected internet-facing Zimbra servers with optional zimbra-snmp package installed",
+      "Post-exploitation activity included web shells, privilege escalation, data theft",
+      "Targeted organizations across multiple regions and industries"
+    ],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "attackers-exploit-zimbra-flaw-to-deploy-web-shells-and-steal-authentication-data",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Attackers exploit Zimbra flaw to deploy web shells and steal authentication data",
+    "updates_url": "news/email-security/2026-09-30/#attackers-exploit-zimbra-flaw-to-deploy-web-shells-and-steal-authentication-data"
+  },
+  {
+    "date": "2026-10-01",
+    "event_id": "ftc-investigates-openai-anthropic-and-other-ai-companies-over-product-risks",
+    "title": "FTC investigates OpenAI, Anthropic, and other AI companies over product risks",
+    "summary": "The Federal Trade Commission is investigating major AI companies including OpenAI and Anthropic regarding potential product safety and consumer risks.",
+    "theme": "AI",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "FTC",
+      "OpenAI",
+      "Anthropic",
+      "AI safety",
+      "regulation",
+      "antitrust"
+    ],
+    "url": "news/tech/2026-10-01/#ftc-investigates-openai-anthropic-and-other-ai-companies-over-product-risks",
+    "sources": [
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-01T17:39:10.972243+00:00",
+    "lineage_id": "ftc-investigates-openai-anthropic-and-other-ai-companies-over-product-risks",
     "related_title": "",
     "related_url": "",
     "updates_title": "",

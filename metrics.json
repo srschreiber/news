@@ -1,5 +1,114 @@
 [
   {
+    "timestamp": "2026-10-01T17:39:10.972243+00:00",
+    "mode": "daily",
+    "calls": 25,
+    "web_searches": 17,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 56825,
+        "output": 23403,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 3765,
+        "output": 1504,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.1851,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 4,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 24117,
+            "output": 17247,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1104
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(merge-check)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 1964,
+            "output": 27,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0021
+      },
+      "(read)": {
+        "calls": 17,
+        "web_searches": 2,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 30744,
+            "output": 6129,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0614
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 3765,
+            "output": 1504,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0113
+      }
+    },
+    "by_feed": {
+      "Phys.org": 30,
+      "Hacker News (front page)": 20,
+      "Engadget": 12,
+      "TechCrunch": 12,
+      "The Register": 10,
+      "The Verge": 9,
+      "ScienceDaily": 8,
+      "SecurityWeek": 6,
+      "Mongabay": 6,
+      "STAT News": 6,
+      "Wired": 6,
+      "ScienceDaily \u2014 Health": 5,
+      "Live Science": 4,
+      "The Hacker News": 4,
+      "Ars Technica": 4,
+      "The Guardian \u2014 Climate Crisis": 3,
+      "BleepingComputer": 3,
+      "The Record": 2,
+      "Microsoft Security Blog": 2,
+      "ScienceDaily \u2014 Nutrition": 2,
+      "Apple Machine Learning Research": 2,
+      "Quanta Magazine": 1,
+      "Inside Climate News": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "IEEE Spectrum": 1,
+      "ScienceDaily \u2014 Fitness": 1
+    }
+  },
+  {
     "timestamp": "2026-10-01T11:56:04.952222+00:00",
     "mode": "daily",
     "calls": 16,
