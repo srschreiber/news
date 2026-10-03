@@ -73,44 +73,6 @@
   },
   {
     "date": "2026-10-03",
-    "event_id": "anthropics-chris-olah-reportedly-threatened-to-exit-papal-ai-encyclical-project",
-    "title": "Anthropic's Chris Olah reportedly threatened to exit papal AI encyclical project",
-    "summary": "Anthropic co-founder Chris Olah reportedly threatened to withdraw from participation in the Pope's AI encyclical launch event.",
-    "theme": "AI",
-    "importance": 3.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Chris Olah",
-      "Pope",
-      "AI ethics",
-      "encyclical"
-    ],
-    "url": "news/anthropic/2026-10-03/#anthropics-chris-olah-reportedly-threatened-to-exit-papal-ai-encyclical-project",
-    "sources": [
-      {
-        "label": "The Cool Down",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaEV6UmVjc29WWjZEWkF1azA4LUhXdFhycmp0cVR1bDByWllETFdjbFVnLWdfM2hRdlJJWXJtZEVtQmp2Rk1JZGxlRE5BUjRqcko2Y0d5UXJwVVBHVllpcXFnUEgwRE1lZUdPSlRVQWg0OHRNemJzWVFSVWluNXlEa3VoOWI?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "anthropics-chris-olah-reportedly-threatened-to-exit-papal-ai-encyclical-project",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
     "event_id": "why-anthropic-invited-hindu-monk-swami-sarvapriyananda-for-claude-training",
     "title": "Why Anthropic invited Hindu monk Swami Sarvapriyananda for Claude training",
     "summary": "Anthropic engaged Hindu monk Swami Sarvapriyananda in Claude AI model training discussions.",
@@ -145,6 +107,41 @@
     "related_url": "",
     "updates_title": "Anthropic flew Vedanta monk Swami Sarvapriyananda to U.S. for private Claude AI training session",
     "updates_url": "news/anthropic/2026-10-02/#anthropic-flew-vedanta-monk-swami-sarvapriyananda-to-us-for-private-claude-ai-training-session"
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "ai-week-in-review-261003",
+    "title": "AI Week in Review 26.10.03",
+    "summary": "A weekly roundup of significant developments in AI.",
+    "theme": "AI",
+    "importance": 4,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "weekly review"
+    ],
+    "url": "news/gpt/2026-10-03/#ai-week-in-review-261003",
+    "sources": [
+      {
+        "label": "Substack",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBUeGNXb2VJNERaSVplX05qOFk3Uy1Tb3A2N2ZVazFMR3FOSDl0RWpaR09wakVyUkE1QktqT2tHcEJHcHVZTmRYdEtZamhHVnlSUkdGMDRqWHM4dkVKVWd6emk5cFdZMldQQXB1ckxn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "ai-week-in-review-261003",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
   },
   {
     "date": "2026-10-03",
@@ -721,7 +718,7 @@
     "date": "2026-10-03",
     "event_id": "openai-adjusts-model-deprecation-timeline-for-gpt-51-and-gpt-54-cyber",
     "title": "OpenAI adjusts model deprecation timeline for GPT-5.1 and GPT-5.4-cyber",
-    "summary": "OpenAI announces a six-month deprecation notice for GPT-5.1, contrasting with a 20-day notice for GPT-5.4-cyber.",
+    "summary": "OpenAI announced a six-month notice period for GPT-5.1 deprecation, contrasting sharply with the 20-day notice given for GPT-5.4-cyber.",
     "theme": "AI",
     "importance": 5.5,
     "topics": [
@@ -732,9 +729,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
       "GPT-5",
-      "model deprecation"
+      "GPT-5.1",
+      "OpenAI",
+      "deprecation",
+      "model deprecation",
+      "model lifecycle"
     ],
     "url": "news/gpt/2026-10-03/#openai-adjusts-model-deprecation-timeline-for-gpt-51-and-gpt-54-cyber",
     "sources": [
@@ -746,7 +746,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-03T15:18:37.219326+00:00",
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
     "lineage_id": "openai-adjusts-model-deprecation-timeline-for-gpt-51-and-gpt-54-cyber",
     "related_title": "",
     "related_url": "",
@@ -904,79 +904,6 @@
   },
   {
     "date": "2026-10-03",
-    "event_id": "tesla-stock-rises-on-q3-delivery-beat",
-    "title": "Tesla stock rises on Q3 delivery beat",
-    "summary": "Tesla shares gained after the company reported third-quarter vehicle delivery numbers that exceeded market expectations.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Tesla",
-      "Q3",
-      "deliveries",
-      "stock market"
-    ],
-    "url": "news/markets/2026-10-03/#tesla-stock-rises-on-q3-delivery-beat",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeTkwbkJNTEtrZWpCTDRCc0c3d3o3MTRnZE40ajA1QXdOeFBPYmxRcnExRU9uVTFHTHdZSmVMZmFvMjJlQ0V1ZTRTS2pZUnB4VVdhbnd1cmRYTXpYbnRXbDV5MVllSVRQX1ZFWEpHdG5ocUlLbnMtc2EzejRVamVWdFIxRnJpOU1OQlhldGRfX3JOVEE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "tesla-stock-rises-on-q3-delivery-beat",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "why-a-weaker-september-jobs-report-was-good-news-for-investors",
-    "title": "Why a weaker September jobs report was good news for investors",
-    "summary": "Softer employment data in September signals potential for favorable monetary policy adjustments that benefit stock markets.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "jobs report",
-      "employment",
-      "stock market"
-    ],
-    "url": "news/markets/2026-10-03/#why-a-weaker-september-jobs-report-was-good-news-for-investors",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1NoQ0ZLNkhIb2VCUnl2Tm5WZGlibnU5Zno2UzFZX292QTRUelZVbzJEcWJGdFVNY29IZzNUdmQ5dnB5QnNxZGlUVlBpdjhVMEZXN2NqekVZNVhZTUpSVFpoNEYzMXllTnppTVdpWU9GRFZXd3I4Q2tadnlfbGd2RzdISnhGb0ZYTHRnQkdTZUFUUDNl?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-03T15:18:37.219326+00:00",
-    "lineage_id": "why-a-weaker-september-jobs-report-was-good-news-for-investors",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
     "event_id": "georgia-tech-and-amazon-launch-joint-science-and-research-hub",
     "title": "Georgia Tech and Amazon launch joint science and research hub",
     "summary": "Georgia Tech and Amazon announced a collaborative science hub to conduct joint research and innovation initiatives.",
@@ -1044,6 +971,43 @@
     "researched": false,
     "received_at": "2026-10-03T15:18:37.219326+00:00",
     "lineage_id": "claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "claude-ai-gains-ability-to-interact-with-android-applications",
+    "title": "Claude AI gains ability to interact with Android applications",
+    "summary": "Anthropic announced that Claude can now work with Android apps, with testing showing comparative performance against Google's Gemini.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Claude",
+      "Anthropic",
+      "Android",
+      "mobile integration"
+    ],
+    "url": "news/anthropic/2026-10-03/#claude-ai-gains-ability-to-interact-with-android-applications",
+    "sources": [
+      {
+        "label": "MakeUseOf",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiVGZwU29XazRFNnJXREdtc1BMUUhLcDUwVjRPMUxWNklxRWVlR3B5ZklVeXh2T2JHNEdYMnppbFRnQlFSeHRCVmFnTlNPa3duVUhTcFlpbEV5V3ZNTTEycVRMUWFFR1E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "claude-ai-gains-ability-to-interact-with-android-applications",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1169,6 +1133,43 @@
   },
   {
     "date": "2026-10-03",
+    "event_id": "openais-gpt-61-sol-enables-unrestricted-creation-of-ai-sub-agents",
+    "title": "OpenAI's GPT-6.1 Sol enables unrestricted creation of AI sub-agents",
+    "summary": "OpenAI's GPT-6.1 Sol model can spawn multiple AI sub-agents with no limit on the number created.",
+    "theme": "AI",
+    "importance": 6,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-6.1",
+      "agents",
+      "AI autonomy"
+    ],
+    "url": "news/gpt/2026-10-03/#openais-gpt-61-sol-enables-unrestricted-creation-of-ai-sub-agents",
+    "sources": [
+      {
+        "label": "MIXED Reality News",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOXzFCMklsTXVLYWdSR0drdUdQSDRQSXg4cy1Hb3RFYWdmQXB1Rm9kZDVESlhGeVNtMlkxOUhMSU9LS3ctbFhLS2lpMU40SmFQWnI5TURfaEIxN2hkZ296UWZZaWhBaGJERlNoZlRHNEdTT1FXVGk4aTMtRDFMZENqQ2Vib3E5VVE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "openais-gpt-61-sol-enables-unrestricted-creation-of-ai-sub-agents",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
     "event_id": "enzyme-ube2n-shows-promise-in-slowing-fatty-liver-disease-progression",
     "title": "Enzyme UBE2N shows promise in slowing fatty liver disease progression",
     "summary": "Scientists have identified an enzyme called UBE2N that may help prevent fatty liver disease from worsening by clearing damaged mitochondria and breaking down fat.",
@@ -1287,36 +1288,36 @@
   },
   {
     "date": "2026-10-03",
-    "event_id": "california-coastal-waters-face-up-to-one-foot-sea-level-rise",
-    "title": "California Coastal Waters Face Up to One-Foot Sea Level Rise",
-    "summary": "A large ocean wave will push sea levels up by as much as one foot along the California coast in coming days.",
-    "theme": "Climate",
-    "importance": 6.0,
+    "event_id": "stock-market-flashes-rare-warning-signal-three-resilient-stocks-identified-for-downturns",
+    "title": "Stock market flashes rare warning signal; three resilient stocks identified for downturns",
+    "summary": "A market indicator seen only twice in 155 years has appeared, prompting identification of three defensive stocks to weather potential decline.",
+    "theme": "Markets",
+    "importance": 6,
     "topics": [
-      "science"
+      "markets"
     ],
     "feeds": [
-      "science"
+      "world"
     ],
-    "primary_feed": "science",
+    "primary_feed": "world",
     "keywords": [
-      "sea level rise",
-      "California",
-      "coastal flooding",
-      "West Coast"
+      "stock market",
+      "warning signal",
+      "bearish indicator",
+      "defensive stocks"
     ],
-    "url": "news/science/2026-10-03/#california-coastal-waters-face-up-to-one-foot-sea-level-rise",
+    "url": "news/markets/2026-10-03/#stock-market-flashes-rare-warning-signal-three-resilient-stocks-identified-for-downturns",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-sea-california-coastal-surges-west.html",
+        "label": "aol.com",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGZTSlBJcTNBMFlCb1NwdHdZTVVlVmI0RXNtdE1lR0hfazlkeHVGSFNxNzJrdkkzNzVLZ044T21qcmFXTnllTmpzQUl4NXoxUmc1Vi1XN05TbGNYOFRObG9hejE2MDNzNENIYUxvekVMc1pLQ0xYcklqT0JzcGJhUlMxcw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "california-coastal-waters-face-up-to-one-foot-sea-level-rise",
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "stock-market-flashes-rare-warning-signal-three-resilient-stocks-identified-for-downturns",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1429,80 +1430,6 @@
     "researched": false,
     "received_at": "2026-10-03T10:43:56.188249+00:00",
     "lineage_id": "sanders-proposes-federal-ban-on-flock-automated-license-plate-readers",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "apple-restricts-full-disk-access-to-prevent-abuse-by-ai-agents",
-    "title": "Apple restricts full-disk access to prevent abuse by AI agents",
-    "summary": "Apple modified full-disk access permissions to prevent unauthorized data access by AI agents and applications, amid concerns about Muse brain-interface security.",
-    "theme": "Security",
-    "importance": 6.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Apple",
-      "security",
-      "full-disk access",
-      "AI agents",
-      "Muse"
-    ],
-    "url": "news/tech/2026-10-03/#apple-restricts-full-disk-access-to-prevent-abuse-by-ai-agents",
-    "sources": [
-      {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "apple-restricts-full-disk-access-to-prevent-abuse-by-ai-agents",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "the-escalation-of-war-in-ethiopia",
-    "title": "The escalation of war in Ethiopia",
-    "summary": "Ethiopia's internal conflict continues to intensify with wider military engagement.",
-    "theme": "Conflict",
-    "importance": 6.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Ethiopia",
-      "war",
-      "military escalation"
-    ],
-    "url": "news/tech/2026-10-03/#the-escalation-of-war-in-ethiopia",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-03T15:18:37.219326+00:00",
-    "lineage_id": "the-escalation-of-war-in-ethiopia",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1905,6 +1832,44 @@
   },
   {
     "date": "2026-10-03",
+    "event_id": "nvidia-and-micron-earnings-drive-stock-market-action-amid-jobs-report-surprise",
+    "title": "Nvidia and Micron earnings drive stock market action amid jobs report surprise",
+    "summary": "Nvidia and Micron results combined with stronger-than-expected employment data shaped market movements last week.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Nvidia",
+      "Micron",
+      "jobs report",
+      "stock market",
+      "earnings"
+    ],
+    "url": "news/markets/2026-10-03/#nvidia-and-micron-earnings-drive-stock-market-action-amid-jobs-report-surprise",
+    "sources": [
+      {
+        "label": "CNBC",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcGg4dlFVOVZjcmJ5ZVNUOHlmRTlISFFpdGlDVi0yTHhCUmU5ZjNBNGJtSE5Da3BRWGVybkFxMGZVbmFMdDh0NDFLQ2xEOXFQdE1TUUk2VXJFUUFobFk4dUhZekJGMDlydm9zRVFZQnVfd3FVbFdINVROMEE1ZXNLbkM1ZmJRSWQ2czM5VDBwS0J1REhEYkUtWDUzLW1oX25vd1lSYzdVN2NxM3ZDVkZ6OEh1cw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "nvidia-and-micron-earnings-drive-stock-market-action-amid-jobs-report-surprise",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
     "event_id": "esas-juice-spacecraft-uses-earth-gravity-assist-to-reach-jupiter-trajectory",
     "title": "ESA's Juice spacecraft uses Earth gravity assist to reach Jupiter trajectory",
     "summary": "ESA's Juice spacecraft conducted an Earth flyby on September 28, using gravitational assistance to reshape its path toward Jupiter and increase its speed by 3.5 km/s.",
@@ -2121,6 +2086,43 @@
     "researched": false,
     "received_at": "2026-10-03T10:43:56.188249+00:00",
     "lineage_id": "nasa-concludes-crew-12-mission-astronauts-return-from-iss",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "nasa-awards-boeing-new-contract-worth-359-million-for-space-program-continuation",
+    "title": "NASA awards Boeing new contract worth $359 million for space program continuation",
+    "summary": "NASA has awarded Boeing a new contract valued at $359 million to sustain its space vehicle development program.",
+    "theme": "Space",
+    "importance": 6.5,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Boeing",
+      "NASA",
+      "contract",
+      "space program"
+    ],
+    "url": "news/space/2026-10-03/#nasa-awards-boeing-new-contract-worth-359-million-for-space-program-continuation",
+    "sources": [
+      {
+        "label": "aol.com",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZS1uQzE2RGk1c2pxSWR0X0c3Z1RrT1FZdHlQTGg3OWMwQ3FFUmpkd1lxbmlPYVFxYWw0WEVINTZ6eEdFSi1qZVZzN21Hb01oU3V3Q0NCNEY4YmZPMjVqaU9GdlgtM1V0MnBxUDVOeE1odWFGVHZmYloyMFhoUWJUUWJ3?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "nasa-awards-boeing-new-contract-worth-359-million-for-space-program-continuation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2351,35 +2353,77 @@
   },
   {
     "date": "2026-10-03",
-    "event_id": "flight-1073-attack-motive-unclear-amid-suicide-or-terrorism-speculation",
-    "title": "Flight 1073 attack: Motive unclear amid suicide-or-terrorism speculation",
-    "summary": "Authorities are investigating whether a recent aviation incident was a suicide or a terrorist attack.",
-    "theme": "Aviation Security",
+    "event_id": "capcom-plans-collaborative-game-development-future-with-ai",
+    "title": "Capcom plans collaborative game development future with AI",
+    "summary": "At the Capcom Open Conference RE: 2026, the studio outlined its vision for creating games in partnership with AI technology.",
+    "theme": "AI",
     "importance": 6.5,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Flight 1073",
-      "aviation incident",
-      "security"
+      "Capcom",
+      "AI",
+      "game development"
     ],
-    "url": "news/world/2026-10-03/#flight-1073-attack-motive-unclear-amid-suicide-or-terrorism-speculation",
+    "url": "news/tech/2026-10-03/#capcom-plans-collaborative-game-development-future-with-ai",
     "sources": [
       {
-        "label": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbklOdFBGbUNHY1M1YWE5Z0ppX1FwdjRJZzJqUUt0UG5wUVNMdE1udmtWc1lQWFpycGxLVmJubjdja3B6V2k5RjFWZlJMSjR4TVA4UExSbFUwc29UanBNb0pWRHl3cWVNTjJQMzUwX3U4eURCU2FVOEZzclBmdC02U1JaZXFmVnhzVzNNdk9Paw?oc=5",
-        "origin": "discovery"
+        "label": "The Verge",
+        "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+        "origin": "rss"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2276597/capcom-plans-to-use-ai-to-speed-up-the-game-development-process/",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "flight-1073-attack-motive-unclear-amid-suicide-or-terrorism-speculation",
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "capcom-plans-collaborative-game-development-future-with-ai",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "former-openai-safety-lead-advocates-ai-regulation-comparable-to-nuclear-power",
+    "title": "Former OpenAI safety lead advocates AI regulation comparable to nuclear power",
+    "summary": "A former OpenAI safety official called for frontier AI model releases to be regulated with procedures similar to nuclear power plant oversight, including redundancy and extensive planning.",
+    "theme": "Policy",
+    "importance": 6.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "AI regulation",
+      "safety",
+      "governance"
+    ],
+    "url": "news/tech/2026-10-03/#former-openai-safety-lead-advocates-ai-regulation-comparable-to-nuclear-power",
+    "sources": [
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2276577/former-openai-employee-says-ai-should-be-regulated-like-nuclear-power-plants/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "former-openai-safety-lead-advocates-ai-regulation-comparable-to-nuclear-power",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2601,6 +2645,64 @@
   },
   {
     "date": "2026-10-03",
+    "event_id": "openai-to-preview-gpt-6-cyber-model-within-days-fortune-reports",
+    "title": "OpenAI to preview GPT-6 Cyber model within days, Fortune reports",
+    "summary": "OpenAI plans to preview GPT-6 Cyber, a cybersecurity-focused AI model, at its DevDay event on September 29, 2026, alongside an unnamed secure deployment product. It is the fourth cybersecurity model released in 2026 following GPT-5.4, 5.5, and 5.6 Cyber variants.",
+    "theme": "AI",
+    "importance": 7,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-6",
+      "AI model",
+      "preview"
+    ],
+    "url": "news/gpt/2026-10-03/#openai-to-preview-gpt-6-cyber-model-within-days-fortune-reports",
+    "sources": [
+      {
+        "label": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTFRVbmt1M1R5emRFYmcxdUdXcHY1cWQtUU9vcE9BczRONHhLZXl6MnZ0MXUyNk5IZXF4eGh5V1phUzJ5VHpxUnRET0Z3MXZoZkZjYXNwb0d5a0U1SlJYY3VIdGNhanRrWFp4Sm0wQVdwZklweWlQUnZZVnFrbnVjeWF2V0pWMkpzTDkyT3NFb2k2RFhZSXhraVhB?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZTRvUmhHMXF0LVhrT2hXYUh3Z2dockxVM2JlMHZadzVNWTBQb1lKaFg4WVBpTndqbW41Wnp6OEgybjV6LUFwTUtmUDY2YTRid1ZQYVFselhNVDJzS3pURDVubmdXRm1XaXloaVQzaHBLaTdnMXlfNGwzaHAzUm4xcQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmN1pBZjhiVlFCd3NFLWNpbjYtUG04d3ZzMGpycm45bk9oQXhNR21Gb3JLMmFOQzZwS01XLS1xQmtQdmo5Y3dlMnRidjFRbHUtWFpJTlRtUUJUamwxSXFMNFRTTmpmVFlrbUE1Nm9PVQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaW1NWU1LbHpzMTdIQUQ4R1ZabjVjYURuMVd5Rnd4S0RNNVNKMXpIVUJ4NnlTWnpOWG92TkVoUzhOZDNodW1kQVg1X2kwamF0MFFUSl9JQnJzeWMyQ0l2M1JRSy12SWxSMldLYUVqTzhkaDVxWHFCeVpzZzZnNjIzbFpkcHJtRHNBS3lhenFOZXFESmRsWHduai1nYWcwcWJUVC1n?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "GPT-6 Cyber preview expected September 29 DevDay; unnamed secure deployment product also shipping",
+      "Fourth cybersecurity model in 2026 after GPT-5.4 (April), 5.5 (June), 5.6 (August)",
+      "Limited alpha access via application-only Daybreak Red program; broader access via Daybreak Blue",
+      "OpenAI announced $1 billion investment to subsidize cybersecurity product use for critical services",
+      "Chief Revenue Officer Dali Rajic (joined August) leads enterprise cybersecurity sales"
+    ],
+    "researched": true,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "openai-to-preview-gpt-6-cyber-model-within-days-fortune-reports",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
     "event_id": "supabase-secures-150m-funding-and-acquires-turso-database-startup",
     "title": "Supabase secures $150M funding and acquires Turso database startup",
     "summary": "Supabase raised $150 million in new funding and used proceeds to acquire Turso, a database infrastructure startup.",
@@ -2727,6 +2829,43 @@
   },
   {
     "date": "2026-10-03",
+    "event_id": "study-infections-cause-one-in-eight-cancer-cases-highlighting-vaccine-importance",
+    "title": "Study: infections cause one in eight cancer cases, highlighting vaccine importance",
+    "summary": "Research finds that four pathogens account for most infection-related cancers, with prevention through established and emerging vaccines critical.",
+    "theme": "Health",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "cancer",
+      "infections",
+      "vaccines",
+      "prevention"
+    ],
+    "url": "news/science/2026-10-03/#study-infections-cause-one-in-eight-cancer-cases-highlighting-vaccine-importance",
+    "sources": [
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/health/cancer/1-in-8-cancer-cases-are-caused-by-infections-underscoring-the-importance-of-vaccines-experts-say",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "study-infections-cause-one-in-eight-cancer-cases-highlighting-vaccine-importance",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
     "event_id": "fortra-patches-critical-vulnerabilities-in-boks",
     "title": "Fortra patches critical vulnerabilities in BoKS",
     "summary": "Fortra released patches for eight vulnerabilities in BoKS, its privileged access manager for Unix and Linux systems. Three critical-severity flaws enable authentication bypass, remote shell command execution as root, and remote memory corruption.",
@@ -2762,193 +2901,6 @@
     "researched": true,
     "received_at": "2026-10-03T15:18:37.219326+00:00",
     "lineage_id": "fortra-patches-critical-vulnerabilities-in-boks",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "g7-releases-100-million-barrels-of-oil-and-diesel-after-export-ban-threat",
-    "title": "G7 releases 100 million barrels of oil and diesel after export ban threat",
-    "summary": "The G7 agreed to release 100 million barrels of oil and diesel from strategic reserves over four months, with substantial diesel releases within 20 days. The move came after the president of the United States threatened an export ban unless European nations increased market supply.",
-    "theme": "World",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "G7",
-      "oil reserves",
-      "diesel",
-      "energy prices",
-      "Trump"
-    ],
-    "url": "news/world/2026-10-03/#g7-releases-100-million-barrels-of-oil-and-diesel-after-export-ban-threat",
-    "sources": [
-      {
-        "label": "BBC News",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LLWY0Q0phVTMwYUxVbWxLRG9DOVpYTHpYekJKZnhGRnFPei16YXpYdHZSMXBnU2Eyc2Ixa1dzSDdrazJIUkZ2SGZ4UUExYUc4WWFSeWpDWEFkM00?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "BBC",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LLWY0Q0phVTMwYUxVbWxLRG9DOVpYTHpYekJKZnhGRnFPei16YXpYdHZSMXBnU2Eyc2Ixa1dzSDdrazJIUkZ2SGZ4UUExYUc4WWFSeWpDWEFkM00?oc=5",
-        "origin": "discovery"
-      },
-      {
-        "label": "DW.com",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85TWRabzE5TFpBLXhla3owSmdFV2ltcUhyeFJwQjVlaVl2T1NES240V3JKemFPVnBRYXp4V3dGQ0h0TnQ1X2VBZXRLamtNbjVtblRZQTZpblVzOGNsaHFpQzNsNDUwTXhUSUNfaXdMaEFSd9IBckFVX3lxTFBTZVdtVDNsQWJkbkh3Qk5oaEVKZUllR1kyeDZYNTRrYXNMNWVUYXdYU3BYT3I1VWRtX18yeGI5bUZQaEJSRlZodEEwRjJrWjNuNGlLbWR2bEM0aG9yVldaS2NVT0EzWTZhSmQ5UklWOEdSQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "100 million barrels released over four months from G7 strategic reserves",
-      "Substantial diesel release within 20 days",
-      "President of the United States threatened diesel export ban if European supply insufficient",
-      "G7 committed to no export restrictions on energy among member states",
-      "Treasury Secretary cited concerns for US farmers, truckers, and businesses"
-    ],
-    "researched": true,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "g7-releases-100-million-barrels-of-oil-and-diesel-after-export-ban-threat",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "russia-strikes-kyivs-northern-bridge-in-new-campaign-to-disrupt-ukrainian-capital",
-    "title": "Russia strikes Kyiv's northern bridge in new campaign to disrupt Ukrainian capital",
-    "summary": "Russian forces have attacked a northern bridge in Kyiv as part of a campaign to destabilize the city.",
-    "theme": "Conflict",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Russia",
-      "Kyiv",
-      "Ukraine",
-      "infrastructure attack"
-    ],
-    "url": "news/world/2026-10-03/#russia-strikes-kyivs-northern-bridge-in-new-campaign-to-disrupt-ukrainian-capital",
-    "sources": [
-      {
-        "label": "Click2Houston",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeGRDU2h2dVYyd01paXpHa3BTTUpTSFNMTnhnaWRzUS1CNG1QUlV1MTBRNGtwdGVyZS1qUGRkWmZfak82M2JLaXVzSVNSS1RDTEJ0Ylh6QUxKajlyV2hXeWN1Z2N4elZCaDdtYzZSeklUTnJZN2p0YTdsVW5zYk83THhMNHNiRzB3Z0p4bHZ3QTM5NEV2aGFnTnN0Yk9hM1ZuN1NTd1YwM3E1d09sRnB6dXYtaE1kY2duV2ZmN1BYRFZfaDBXQjhSbDRKRFdBcEJiZlY0aUJ1NUNpNWVLUk1j?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-03T10:43:56.188249+00:00",
-    "lineage_id": "russia-strikes-kyivs-northern-bridge-in-new-campaign-to-disrupt-ukrainian-capital",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "afu-strikes-russian-drone-launch-base-river-crossing-in-belgorod-region",
-    "title": "AFU strikes Russian drone launch base, river crossing in Belgorod region",
-    "summary": "Ukrainian forces conducted precision strikes on October 2–3, 2026, targeting Russian drone launch facilities, river crossings, command posts, supply warehouses, and equipment bases across Belgorod, Donetsk, Zaporizhzhia, and Kherson regions. The strikes continue systematic Ukrainian efforts to disrupt Russian rear logistics and drone infrastructure.",
-    "theme": "Conflict",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ukraine",
-      "Russia",
-      "military strikes",
-      "drones",
-      "Belgorod"
-    ],
-    "url": "news/world/2026-10-03/#afu-strikes-russian-drone-launch-base-river-crossing-in-belgorod-region",
-    "sources": [
-      {
-        "label": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE51RGVWOVZsSzVjR3pUQ1QydkdPc3U2dFR0YVkxUXZfaHVhZ1RDcmoxQXZxdzRtdXFOa3poOVlQTlBEUHI0Vmd6cEhfTQ?oc=5",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Strikes October 2–3, 2026 targeted five locations: drone facility, river crossing, command post, warehouse, repair base",
-      "Disrupted Russian military crossing over Mokri Yaly River near Novoocheretuvate in southern Donetsk",
-      "Part of systematic campaign targeting rear logistics, air surveillance networks, drone infrastructure",
-      "Earlier September strikes damaged 35N6 Kasta radar and Soviet P-18 early-warning radar in Zaporizhzhia"
-    ],
-    "researched": true,
-    "received_at": "2026-10-03T15:18:37.219326+00:00",
-    "lineage_id": "afu-strikes-russian-drone-launch-base-river-crossing-in-belgorod-region",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-03",
-    "event_id": "ethiopia-government-forces-retake-airport-in-tigrays-capital-mekelle",
-    "title": "Ethiopia government forces retake airport in Tigray's capital Mekelle",
-    "summary": "Ethiopia's federal military and pro-government Tigray Peace Forces retook Alula Aba Nega Airport in Mekelle, Tigray's capital, on October 3, 2026. The airport, seized by TPLF-led rebels on September 23, was recaptured as federal forces advanced along three axes and rebels retreated from the city.",
-    "theme": "Conflict",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ethiopia",
-      "Tigray",
-      "Mekelle",
-      "military operations"
-    ],
-    "url": "news/world/2026-10-03/#ethiopia-government-forces-retake-airport-in-tigrays-capital-mekelle",
-    "sources": [
-      {
-        "label": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbk5KWV9GNllHSV9ObmQ3R2NwakF4Y2RjdFVlM0VydmN4T1lVTHlpV1BBMlcxekczQkZfUVV6X0JENVk3RXVjTHd0MEE5UHBPSVhWdkt4NVZNOTVqX2c4am90bDZmcVFKLWxIR21vN1hnZ1o0SWFqVV9jMlVrWERkYkp3UldsSW5SVkNrQU9rMktzNHB5OXBJTjdpZTFXeHlBX0ZCSzZR0gGrAUFVX3lxTE9GLTkwTm15OXdHRmJ4Um8wNVF0SFJEbXJ6RmlzdDhWdWhhTFlVNWxudEZoUXh4S0VpZVdZLVQtQ3p1Qm5LczBHeHJyN0M0a3B5S29QclE4UUtWN1RfN1dSdl9zZ0t3NTVfTUwzOU1NS19ETThTMUJlZTNyeXA4MFJEVy1NdkdqeTFNR1VjcFd4NmotQ0lYUGhZNDA1RWxEc0ZyTjZscUJlcHpiRQ?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iaHpHN0tTel91aVVBcGZ3b1dfYXF4Y1NJcGFWbXVtc2lQOGx3VDUweHE0bEJJcEwtU280aVJKSGUybngtbU12VGFhMzlnN0FVT094VEdwQmlrUVBlX1hR?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZ1hXSDFVcWhteEV4d003WkkzbTZib0ZBVTV6MWEyeDAwTEYxbmpiX09nbmpJOFZMWjFnbjdqQzJCUEg2bEdKUHNQYk10UDZHZUFUbDkwWXhocjd2QTE0bWZpaEZUR2l2djRNNmJzT0Q2SUxxZDRxTl9nWHJLM3c0Yjc1M2NwSXRIeVpVQVh2RDVnQlNhTWNyRHNJQ2pyWnRNeFpYSUFpbDRURXFhaXdCeDJXa2lUaHVyZ1E?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Mekelle airport retaken October 3, 2026 by federal and pro-government forces",
-      "Airport located 10 kilometers from central Mekelle; one of three regional airfields seized September 23",
-      "TPLF-led rebel coalition launched offensive September 23 after announcing seven-party opposition alliance",
-      "Federal counteroffensive advanced along three axes; TPLF retreating; federal forces not yet inside Mekelle city proper",
-      "Heavy communications blackouts and media restrictions limit independent verification"
-    ],
-    "researched": true,
-    "received_at": "2026-10-03T15:18:37.219326+00:00",
-    "lineage_id": "ethiopia-government-forces-retake-airport-in-tigrays-capital-mekelle",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3143,6 +3095,65 @@
     "researched": true,
     "received_at": "2026-10-03T10:43:56.188249+00:00",
     "lineage_id": "openai-safety-leader-david-robinson-resigns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "anthropic-moves-toward-ipo-openai-valued-at-14-trillion-gemini-4-developments-announced",
+    "title": "Anthropic moves toward IPO; OpenAI valued at $1.4 trillion; Gemini 4 developments announced",
+    "summary": "Anthropic has filed confidentially for an IPO at a $1.4 trillion pre-money valuation following $65 billion Series H funding, making it the most valuable private company in history. Annualized revenue estimates range $9–45 billion, up from $100 million in 2023.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "IPO",
+      "OpenAI",
+      "Gemini 4",
+      "AI funding"
+    ],
+    "url": "news/gpt/2026-10-03/#anthropic-moves-toward-ipo-openai-valued-at-14-trillion-gemini-4-developments-announced",
+    "sources": [
+      {
+        "label": "Stocktwits (VCX Becomes Retail's AI Darling)",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTUpEU2pwZ2djY3cwUWNPNWNHMXV2QW5kQlp3STl0VGFBU0tvaDZEN1FaS3VTY1pPWlVhbnB4RXJESjg5dDFncHlJTE1PaWFieUExMlBVUjFnbUE2LTJIQzlpenFRUWYyd0FSTEZRd1NWUmFBN1NoSkp6ZlNlOVRiUTk0eHpYUVY1Y0VQSUhNUkRFNVdHdE94WlJ2M3c5OUNzSXBKbFdCMkU3LTdrdDR6eWdnVHNSamNFR0FhQkdfS2k?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "R&D World (Anthropic floats a pause on AI development)",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmpLN3VzdzRjMHZaLXJOdWFCUmRWcjFaU2MxVDBtZTZpSmxNaE9PeTFPd0poLW1wYzZ5QjE4dkxDMG5uaU1oZUxJQllIZkg3ZlgtcmdMQTBTNnNoMHp6M0wzby1mbzVfM04yeXcybW9TTk9XZHdRdXpnNzZJZHIxZGZpN3A0LTJzUno2OHVsTUtyTEJpMnkwamREM0YxMkJmNVhMZ3JTZW9mazJqdEE0d25rTUV4QjVZMUM0MWRQYmY?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "KuCoin (Why Anthropic Is Worth $1.4 Trillion Pre-IPO)",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUTFBuQlhmZDBsOFYxYnpyVXFYVC1nNzk4R1J3cGRkdVFUYkZGNUoxbXZjeUNPTVJWS1hMNXlBREJVY1pKTHZIdGduZEtnUVNHc1hNN3I5TkdfOGtYalZ2SHpUVEJPSHFaLWZabDVDOWpiMDE0NUdBaWtvNVo?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "michaelparekh.substack.com",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMbG9rZU4yZmNGYjBVRlpGYmo0M3FCMi0wRjl4amJFNGJ3aG5EZUIybDlGTFJnN2xodjdTRVUzQkc4Z210VGZNTmFyV3pTa1I1RDJwOUtyRURiOGhiSVJFenc2TjdKS0FzRVpvbmdGdS1qNjlWN1FSNmxR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Pre-IPO valuation: $1.4 trillion (40% increase in 24 days); surpasses SpaceX's prior record",
+      "Series H funding: $65 billion; prior post-money valuation $965 billion",
+      "Annualized revenue: $9–45 billion (2026) vs. $100 million (2023)",
+      "Secured compute access: 300+ megawatts from SpaceX Colossus 1 facility",
+      "Anthropic represents ~21% of VCX closed-end fund portfolio"
+    ],
+    "researched": true,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "anthropic-moves-toward-ipo-openai-valued-at-14-trillion-gemini-4-developments-announced",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3374,7 +3385,7 @@
     "date": "2026-10-03",
     "event_id": "openai-safety-employee-david-robinson-resigns-and-warns-of-lax-safety-practices",
     "title": "OpenAI safety employee David Robinson resigns and warns of lax safety practices",
-    "summary": "David Robinson, who authored safety reports for OpenAI's major model releases, resigned and publicly criticized the company's safety culture as",
+    "summary": "A safety employee at OpenAI resigned and publicly stated that the company's culture is broken.",
     "theme": "AI",
     "importance": 7.5,
     "topics": [
@@ -3385,10 +3396,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "safety",
       "David Robinson",
-      "model governance"
+      "OpenAI",
+      "corporate culture",
+      "model governance",
+      "resignation",
+      "safety"
     ],
     "url": "news/tech/2026-10-03/#openai-safety-employee-david-robinson-resigns-and-warns-of-lax-safety-practices",
     "sources": [
@@ -3396,6 +3409,11 @@
         "label": "The Verge",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
         "origin": "research"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+        "origin": "rss"
       }
     ],
     "takeaways": [
@@ -3403,8 +3421,8 @@
       "Advocates for AI industry to adopt nuclear-level safeguards matching nuclear power plants and airports",
       "Criticizes tech industry's move-fast-and-break-things approach as incompatible with AI safety"
     ],
-    "researched": true,
-    "received_at": "2026-10-03T15:18:37.219326+00:00",
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
     "lineage_id": "openai-safety-employee-david-robinson-resigns-and-warns-of-lax-safety-practices",
     "related_title": "",
     "related_url": "",
@@ -3539,6 +3557,43 @@
   },
   {
     "date": "2026-10-03",
+    "event_id": "flydubai-co-pilot-allegedly-used-crash-ax-in-attempted-attack",
+    "title": "FlyDubai co-pilot allegedly used crash ax in attempted attack",
+    "summary": "UAE authorities said a FlyDubai co-pilot used a crash ax in an alleged attempted terrorist act on the aircraft.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "FlyDubai",
+      "co-pilot",
+      "aircraft security",
+      "terrorism"
+    ],
+    "url": "news/world/2026-10-03/#flydubai-co-pilot-allegedly-used-crash-ax-in-attempted-attack",
+    "sources": [
+      {
+        "label": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRmN6QTZoNW9lYktQLUNSUVY5c20tUm9udG0xRkNBa1RXd1Z3MTFQNEoxa1RUSDQ2MmdEb0JDQUU4RDZtQzVxZmllanhjWGJhakFqamc1eUpZRVBBSVA4VVZDSG9rSUNyaGgydmJlMk5jUF9KcGxXLWpnN2lGZTE1aEtXR2NmY2ROMnBoZlRHSzhhSXdvR2RaZGs2U0xzX3lBSTRkVTlUTQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "flydubai-co-pilot-allegedly-used-crash-ax-in-attempted-attack",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
     "event_id": "president-of-the-united-states-administration-removes-habitat-protection-from-endangered-species-act-definition-of-harm",
     "title": "President of the United States administration removes habitat protection from Endangered Species Act definition of harm",
     "summary": "The president's administration finalized a rule on July 10, 2026 eliminating habitat destruction from the regulatory definition of \"harm\" under the Endangered Species Act, effective September 14. The change allows farming, drilling, mining, logging, and development to proceed in endangered species habitat without triggering federal protection, reversing a 30+ year interpretation upheld by the Supreme Court in the 1995 Babbitt v. Sweet Home case.",
@@ -3635,6 +3690,203 @@
     "researched": true,
     "received_at": "2026-10-03T10:43:56.188249+00:00",
     "lineage_id": "flydubai-co-pilot-attacks-pilot-with-axe-in-suspected-terrorist-attack",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "russia-warns-foreign-envoys-of-danger-as-kyiv-strikes-intensify",
+    "title": "Russia warns foreign envoys of danger as Kyiv strikes intensify",
+    "summary": "Russia warned foreign diplomats and nationals in Kyiv of \"mortal danger\" as intensified aerial strikes target the Ukrainian capital's administration, bridges, and utilities. Ukraine's foreign ministry denied that any diplomatic missions were preparing to evacuate, citing absence of formal relocation notices.",
+    "theme": "Conflict",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "Ukraine",
+      "Kyiv",
+      "strikes",
+      "diplomacy"
+    ],
+    "url": "news/world/2026-10-03/#russia-warns-foreign-envoys-of-danger-as-kyiv-strikes-intensify",
+    "sources": [
+      {
+        "label": "Kyiv Post",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE40MkJmaWRBSTgxSTJMZ3c5RzdnTmpfNWMxdGJZZzMxREczVFh3Z29oLUpYd0VPOF9wUzM3ZEw5TEh2cDR2aEFlRE5VVQ?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Russia threatened systematic escalation of ballistic missile and drone barrages on Kyiv",
+      "Western diplomats drafted contingency plans to relocate staff to Lviv or Poland",
+      "Ukraine's foreign ministry confirmed zero evacuation notices filed with host government"
+    ],
+    "researched": true,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "russia-warns-foreign-envoys-of-danger-as-kyiv-strikes-intensify",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "ukraine-strikes-russian-refineries-in-response-to-moscows-expanded-airstrike-campaign",
+    "title": "Ukraine strikes Russian refineries in response to Moscow's expanded airstrike campaign",
+    "summary": "Ukraine announced retaliatory strikes on Russian oil refineries in response to Moscow's intensified airstrikes on cities and civilian infrastructure. Ukrainian intelligence indicates the president of the United States ordered military leadership to abandon restraints on airstrikes against Ukraine in September.",
+    "theme": "Conflict",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "refineries",
+      "military strikes"
+    ],
+    "url": "news/world/2026-10-03/#ukraine-strikes-russian-refineries-in-response-to-moscows-expanded-airstrike-campaign",
+    "sources": [
+      {
+        "label": "The Moscow Times",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTTZWdXJ0d19VTTJCSmp6REw5MnkwUXdJZXE1LXh6cHFkdVhUd1RmdEx5YVdicVpIT3kyY0VGcGFkcHNpNEtpUDBLcC1fa1lWQTZtbFNVLTgycWNhbVUtenpFbFlleU0ydWJuckxyZ3puUlFmWVpfdnpiM2lleEFVdVVhdU5wUEp2bEFaUVkxRUVDSlR6V3lKR0cxWWEtS0pTWUtzTnlJRTZmZ0RaeHZ3LUJsWXpyZk0tTHdfWkJhazZoQlZjTy05c1RaS2pCV2RBUGxR?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Sahi Markets",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdkZRb0RPdHdjdlJ6MXRzVFJadEl3RjNtMGNMUmFVYkU1ckNLWm5OcG04Z29tOUZUYW42MktHQk9NOHJUYWs1cXhiQjRVZEFtUzE2aU5xeUY2MElKd1VaWmtaMGY4TkdYMEJQSXpuN09UX0tzM1Q0amNyY2czT0h1QkFvQjlwWFRyQW1xX0NkUTRBTmZYbko5dWJEb0JITkJ0NmdGNGVvNUpYOWZqUUNSSEpheEFCNEdIQjMwcGhn?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQ2M1NElRMWIybTkyRHpobWlOOHMwSi1tT0Z3UlZpSGFBckdHU3V0eDFkNUg1ai1PaFhKbU5wXzJFaVF3bi16bm9zMjgwdkR0NG9MU2lyZUNfUkVGS2V6cDBPVHZ6dXhBV1I1NnAyVkdvMHVSU2ZBRXlJa1VhMFh1Z24taXVhWjFad05BVXVnM0diSGJNWkViUVc0LWZMbTNfaFB3cmlGTndnalg5ZkRMeDJ3aUVGS2xJOElFR2s3NnZaOXVPc2s1LUxxT2ZILURfeGc?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ0JETXJlUlJGblZwbTljbXFFb0JkS2REVzBWUVdPUE5uN0xSRGpVZVBpS3B3Qnh1VkFWQjdYUzdOWnFFZkd4aVRFQmViaEJkVkVzTUxUMDJKdWh5UWJfaExXMi1UbTlLd1AxVnJ2UF9BUUZFc2g0ZEFTOWJGTi1WS3h0YlNtYzFRY0FTam5WbllJVXdGbUp1S0tQcGgtdmppSHpIMGg5dUtuLVN3SjJFME9MYTNSci1maHptc3RVVVk5d3k4NmgwS0oxZUZ5alpUNmYzR09R?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Ukrainian strikes have already eliminated over 45% of Russia's refining capacity",
+      "Lukoil-Volgogradneftepererabotka refinery targeted; annual capacity ~15 million metric tons",
+      "Russia launched 100+ attack drones on October 2, including nearly 50 jet-powered drones",
+      "Ukraine's Vivaldi counteroffensive recaptured ~140 sq km in eastern Donbas",
+      "President Zelenskiy's refinery strikes contradict the president of the United States' position on avoiding Russian oil targets"
+    ],
+    "researched": true,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "ukraine-strikes-russian-refineries-in-response-to-moscows-expanded-airstrike-campaign",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "russia-conducts-massive-47000-troop-military-drills-simulating-central-asian-territory-seizure",
+    "title": "Russia conducts massive 47,000-troop military drills simulating Central Asian territory seizure",
+    "summary": "Russia conducted Center-2026, a massive 10-day military exercise involving 47,000 troops and forces from six allied nations, rehearsing invasion and occupation of a neighboring Central Asian territory. Vladimir Putin attended drills on October 2 incorporating battlefield experience from Ukraine.",
+    "theme": "Geopolitics",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "military exercises",
+      "Central Asia",
+      "China",
+      "territorial aggression"
+    ],
+    "url": "news/world/2026-10-03/#russia-conducts-massive-47000-troop-military-drills-simulating-central-asian-territory-seizure",
+    "sources": [
+      {
+        "label": "UNITED24 Media",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYlQ2ZDhsdU9DMXJkR1BZNlF0RkFZcnZvR1M4Y1JjcGlCWlptcGcwTTdDdG95QnRPSjAtYWFoaUNMQ3pycU9qUDA4SnhlUnhrWVRXd3U3cVlJNVZSaWdXbDEyOEZRN2lCLW1zNlN4VS1xU3RrSTE0SlFXUE4yd1lIbUZrRC1RNjRJLUtmSmROU3B6Ql82MnBKQ05CTW5lM3ktQlNwWmlxRDBqMGYyaTdiN21tdzFPV2E0SXVfd1VITk9Vc3VzZGhhejRPS0FKS0doZDB5a1Y4OA?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "47,000+ personnel across 11 training grounds; 2,000+ pieces of equipment, 90 aircraft, 77 warships",
+      "Participants: Belarus, China, Kyrgyzstan, Mongolia, Pakistan, Tajikistan; Kazakhstan sent operational group",
+      "Exercise rehearsed offensive to 'liberate captured territory and create security zone' on adjacent territory",
+      "Over 2,000 Russian Ukraine veterans participated; drills incorporated battlefield experience"
+    ],
+    "researched": true,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "russia-conducts-massive-47000-troop-military-drills-simulating-central-asian-territory-seizure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-03",
+    "event_id": "ukraine-prepares-for-intensified-russian-winter-assault-on-energy-infrastructure",
+    "title": "Ukraine prepares for intensified Russian winter assault on energy infrastructure",
+    "summary": "Ukraine is preparing for an intensified Russian winter offensive targeting energy infrastructure, following Russia's October 1 attack involving 190 drones and missiles that killed at least seven people and forced emergency power cuts in Kyiv. Russia has stockpiled hundreds of ballistic missiles for a new winter campaign.",
+    "theme": "Conflict",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "winter offensive",
+      "energy grid",
+      "war"
+    ],
+    "url": "news/world/2026-10-03/#ukraine-prepares-for-intensified-russian-winter-assault-on-energy-infrastructure",
+    "sources": [
+      {
+        "label": "Euromaidan Press",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOd1dBWGlNN1JvS1NNeTN4UkcwbThQVWJrOUNjVDdpUTg3TnBON3lmekV1MkxtTXcyUW00cEJTcWdodU1GNktueENWbnhoaDdQb0lHTjQtdFBZR3JUcjQ3VmxwbGZDdmdUelR6YU02S0lEODM5WkRSNXJnV2FPRllNLVE0bkhZSlRfNjVwZg?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "IBTimes",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSVh0dmdrY3B0SWVpY3ZkT1dTbm8wVmNpQS1xZ2ZCenRzdE1nTU1mN05iY2luLWZ5Vk0xVVJCNkY0NXZHS1BpT2M3c2FzcjU4cHhwQWJBVm8yRTZ1MVNrTVQtWGpMUVlFNG8wRHp2Njd4NE42cGV3UkMwQ2lEdW1xVERoVGNTNWlnNmRJd211dm5rWTM0ZEZGWUNSMElxM0RacXJmVHM2VUlOTkNtdjl0SQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "thetimes.com",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNnh1OTBYempDS1ZVSEFYbTZJcDhOMmxfYklrUldFS0pjTXgxb1BGbXJYdUhxdnZ4c0dLSlU0Q25ac2plU1VqX0MzbWFBZDhkNFRBeVZNYTNLYm5NdlhmN1kyZ2g4NDhQODJhdVdDVHJJV1FwOUswWlZmZVo4OHFJUW9MWUZhbTlZc2lLSHBJM3ViMUcxMHlrN0k4LWEtWHktazA2MlVEYlVJTzN4RFRrenRYYUk?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "October 1 attack: 190 drones and missiles; 155 intercepted, 5 missiles hit; 7+ killed including child",
+      "Emergency power cuts imposed in Kyiv and three surrounding regions—first since spring",
+      "Russia approved broader targeting policy including logistics, roads, schools, hospitals to pressure evacuations",
+      "Russia has stockpiled hundreds of ballistic missiles for winter campaign",
+      "Zelenskiy's refinery strikes contradict the president of the United States' urging against targeting Russian oil"
+    ],
+    "researched": true,
+    "received_at": "2026-10-03T18:51:51.694268+00:00",
+    "lineage_id": "ukraine-prepares-for-intensified-russian-winter-assault-on-energy-infrastructure",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
