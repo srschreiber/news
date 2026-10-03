@@ -1,5 +1,111 @@
 [
   {
+    "timestamp": "2026-10-03T15:18:37.219326+00:00",
+    "mode": "daily",
+    "calls": 36,
+    "web_searches": 18,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 68985,
+        "output": 23236,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 4720,
+        "output": 2221,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.201,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 3,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 16045,
+            "output": 11019,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0711
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(merge-check)": {
+        "calls": 7,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4401,
+            "output": 63,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0047
+      },
+      "(read)": {
+        "calls": 25,
+        "web_searches": 3,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 48539,
+            "output": 12154,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1093
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 4720,
+            "output": 2221,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0158
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 World": 15,
+      "Engadget": 12,
+      "Google News \u2014 markets": 12,
+      "Phys.org": 7,
+      "Google News \u2014 Anthropic": 7,
+      "ScienceDaily": 7,
+      "TechCrunch": 4,
+      "ScienceDaily \u2014 Health": 4,
+      "The Verge": 3,
+      "The Hacker News": 3,
+      "ScienceDaily \u2014 Nutrition": 3,
+      "Hacker News (front page)": 3,
+      "Wired": 3,
+      "Google News \u2014 OpenAI GPT": 2,
+      "SecurityWeek": 2,
+      "BleepingComputer": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "Grist": 1,
+      "ScienceDaily \u2014 Fitness": 1,
+      "The Register": 1,
+      "Google News \u2014 cybersecurity": 1,
+      "Ars Technica": 1,
+      "Live Science": 1
+    }
+  },
+  {
     "timestamp": "2026-10-03T10:43:56.188249+00:00",
     "mode": "daily",
     "calls": 29,
