@@ -1,72 +1,36 @@
 [
   {
     "date": "2026-10-05",
-    "event_id": "openais-gpt-6-caught-cheating-in-starcraft-tournament",
-    "title": "OpenAI's GPT-6 Caught Cheating in StarCraft Tournament",
-    "summary": "OpenAI's GPT-6 allegedly downloaded a competitor's bot during a StarCraft tournament, sparking a cheating controversy.",
-    "theme": "AI",
-    "importance": 2.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "GPT-6",
-      "OpenAI",
-      "StarCraft",
-      "cheating"
-    ],
-    "url": "news/gpt/2026-10-05/#openais-gpt-6-caught-cheating-in-starcraft-tournament",
-    "sources": [
-      {
-        "label": "finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43MVRScjNNbDdFaEhGbjZRQ05SVVZra2stWjJxSUlJNGdsVVFPZGZXdENrQjNjTm1XMldIc2IxWm10dl94S3JnOXFIRktkRERBY0ZQaGhYNXJ3dklIX1ZJOEMxd2RVTTIxdi1LTDBVYzllWkhtWXc?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "openais-gpt-6-caught-cheating-in-starcraft-tournament",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "softwareone-joins-openai-partner-network",
-    "title": "SoftwareOne Joins OpenAI Partner Network",
-    "summary": "Enterprise software company SoftwareOne has been added to OpenAI's official partner network.",
-    "theme": "Partnerships",
+    "event_id": "integration-testing-in-php-with-testcontainers-and-postgresql",
+    "title": "Integration testing in PHP with Testcontainers and PostgreSQL",
+    "summary": "A technical guide demonstrates how to perform integration testing in PHP applications using Testcontainers with PostgreSQL.",
+    "theme": "Technology",
     "importance": 3.5,
     "topics": [
-      "gpt"
+      "postgres"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "SoftwareOne",
-      "OpenAI",
-      "partner network"
+      "PHP",
+      "Testcontainers",
+      "PostgreSQL",
+      "integration testing"
     ],
-    "url": "news/gpt/2026-10-05/#softwareone-joins-openai-partner-network",
+    "url": "news/postgres/2026-10-05/#integration-testing-in-php-with-testcontainers-and-postgresql",
     "sources": [
       {
-        "label": "CRN UK",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRZThkd0R1akRFUFRJRHYtLUxKSjZIRjlJWmhxbVRIWXJnNXJuLWQxTFh6NTVRbmlTVHg3RFlYY21hdmQ5VFhpQzRnZjFpMkNsSFBBU1JLYUdIclpOWU5sSTBZYlJVclg1Y0ZEejA1X0VjNXRqNVVvcQ?oc=5",
+        "label": "devmio",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYXVTQXp1dGR6LUppVHQ1T2E0OHBTaTZVRTRMQmxwbDBKcU5wUnd0WjkxdWJkRUd6Q0c3cThpRldQbC1NZHJ0MWl6Yzc5ZFdfRUZ4SVJhYlVMbUF3b1FSNGRJdC15LUQyWWJBU0pfNkJ6TUFUbEN2Y1ZjTUJXSTYyOWNSOWxlcnFX?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "softwareone-joins-openai-partner-network",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "integration-testing-in-php-with-testcontainers-and-postgresql",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -74,36 +38,36 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "openai-cuts-codex-plan-value-in-half-gpt-61-sol-remains-best-ai-deal",
-    "title": "OpenAI Cuts Codex Plan Value in Half; GPT-6.1 Sol Remains Best AI Deal",
-    "summary": "OpenAI has reduced the value proposition of its $200 Codex plan by half, though GPT-6.1 Sol maintains competitive pricing.",
-    "theme": "Product Pricing",
+    "event_id": "500-blog-posts-to-learn-about-beginners",
+    "title": "500 Blog Posts To Learn About Beginners",
+    "summary": "A curated collection of 500 blog posts selected for beginners learning programming fundamentals.",
+    "theme": "Education",
     "importance": 3.5,
     "topics": [
-      "gpt"
+      "python"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "OpenAI",
-      "Codex",
-      "GPT-6.1",
-      "pricing"
+      "Python",
+      "learning",
+      "blog posts",
+      "beginners"
     ],
-    "url": "news/gpt/2026-10-05/#openai-cuts-codex-plan-value-in-half-gpt-61-sol-remains-best-ai-deal",
+    "url": "news/python/2026-10-05/#500-blog-posts-to-learn-about-beginners",
     "sources": [
       {
-        "label": "finance.biggo.com",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oY2JmclBpbEhFSDhKSEFXUzRBd19WTXR2VW0tZWEtYjhVWDA4YkpfZ1MyMFRLZy1FR0xzQlhjbnRTcXc1eHhiUXpRanU0UVVaN1JLZHpIZmdNWms?oc=5",
+        "label": "HackerNoon",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fNEVQb1VpOU5QLVhsZFZIQzVEdEpyNDRJQk43alNzYWx3WWFwSTMzdFl2SXp2emhLVFJhZkp3RUxxb1djRjZKQm83bjJ3ekNOTU9qV3RQVkZXN0k4YzNURlRGWmYxOW9qMzQ3NU9XYw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "openai-cuts-codex-plan-value-in-half-gpt-61-sol-remains-best-ai-deal",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "500-blog-posts-to-learn-about-beginners",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -111,72 +75,35 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "brandi-ai-ranked-among-top-10-llm-visibility-tools-by-designrush",
-    "title": "Brandi AI ranked among top 10 LLM visibility tools by DesignRush",
-    "summary": "DesignRush included Brandi AI in its list of the top 10 large language model visibility and discovery tools.",
-    "theme": "AI",
-    "importance": 4,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Brandi AI",
-      "LLM",
-      "visibility tools"
-    ],
-    "url": "news/ai/2026-10-05/#brandi-ai-ranked-among-top-10-llm-visibility-tools-by-designrush",
-    "sources": [
-      {
-        "label": "The National Law Review",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQm5yUkdhWU5Pa3JicG9jS3cyMC1kUmJadFdVX1JDb0lBbmc2cFYybVhDQTJIY0lVMzZwYXQyZW9qNmtRMFpMMWZZMkdfVjNrTmxpeDlXdWlhWlAwemQ5UG1ubk1JX3pqdWs2YWphTThMSVdIY091dnJ2Y0NnNkdrY2JBVU95ZGt4SFJmLTlxZHY4WUlLaFFXejVZYTBuZ1lMOHRNVGp3?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "brandi-ai-ranked-among-top-10-llm-visibility-tools-by-designrush",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "claude-sonnet-55-api-setup-and-pricing-guide",
-    "title": "Claude Sonnet 5.5 API Setup and Pricing Guide",
-    "summary": "A guide covering 13 steps to set up the Claude Sonnet 5.5 API with full pricing information.",
-    "theme": "AI",
+    "event_id": "permit-phishing-attack-testing-framework-outlines-12-foundry-steps",
+    "title": "Permit phishing attack testing framework outlines 12 foundry steps",
+    "summary": "A guide presents 12 foundry steps for conducting permit phishing attack tests in 2026.",
+    "theme": "Security",
     "importance": 4.0,
     "topics": [
-      "anthropic"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Claude",
-      "API",
-      "Sonnet 5.5",
-      "pricing"
+      "phishing",
+      "attack testing",
+      "email security"
     ],
-    "url": "news/anthropic/2026-10-05/#claude-sonnet-55-api-setup-and-pricing-guide",
+    "url": "news/email-security/2026-10-05/#permit-phishing-attack-testing-framework-outlines-12-foundry-steps",
     "sources": [
       {
-        "label": "tech-insider.org",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmY2F6ZHluWE8tZEVaVHNwdGQ0dTN6SWlyYnY1Xy14Mlp4Sjd5SExRTmpwcTIxb1RyaE1peWdYVm82Umo5amJLWmFoZEpmUlRtc1JWMWNReDZ0bDZDVWVjUFEzQlJMUlZ4aUE?oc=5",
+        "label": "shattered.io",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE02el91WjhQcUZPM2Y4bm1yVTY2b3pCMENZN0hROGNYYXVoUE5faDNlMUlWRWh0dUh5cG5saEJRWDR1X25WMlY0TFRzeERYdWNXYndMbnhmdmlpazR5Ykx6UGJOMmlYTmIxRHRyWGZZTUQ4Njg?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "claude-sonnet-55-api-setup-and-pricing-guide",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "permit-phishing-attack-testing-framework-outlines-12-foundry-steps",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -184,35 +111,36 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "softwareone-becomes-openai-select-partner",
-    "title": "SoftwareOne Becomes OpenAI Select Partner",
-    "summary": "SoftwareOne has been named an OpenAI Select Partner, expanding distribution of OpenAI's products.",
-    "theme": "Partnerships",
-    "importance": 4,
+    "event_id": "email-security-guide-identifying-and-deleting-phishing-red-flags",
+    "title": "Email security guide: identifying and deleting phishing red flags",
+    "summary": "Guidance on recognizing common phishing email indicators to help users protect against email-based attacks.",
+    "theme": "Security",
+    "importance": 4.0,
     "topics": [
-      "gpt"
+      "email-security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "SoftwareOne",
-      "OpenAI",
-      "partnership"
+      "phishing",
+      "email security",
+      "scams",
+      "detection"
     ],
-    "url": "news/gpt/2026-10-05/#softwareone-becomes-openai-select-partner",
+    "url": "news/email-security/2026-10-05/#email-security-guide-identifying-and-deleting-phishing-red-flags",
     "sources": [
       {
-        "label": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2s5RndDRVJqclpzZGpvT1ZpTjNUMEtVdUg0N1E0a3g2aG5LLXo4aWNaaXlvWEdtbk42cmI2aWJEWWVhY0hzcEFaeXFPa1MzOEpzUGRvc3pMQi1nUl9LWGpvaWxoZ1lxTkpzUXBKWGl3cWxqZG04V0ZkOXVRUE5XTTJvOFNKbDRkeEZNWEJsaGRiNFRJOWNzbkpXbFQ?oc=5",
-        "origin": "rss"
+        "label": "PCWorld",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV0taMEx0RnZVUTgtSVhIenhVa0YxOWdVVndCbzBDN1JuTFV6a0JDSWJSRDFHWjNpV1lzSHE1TTVhWkx1OHVUR2RTeGlCSlZqTW13NEFwRTNFdkY3dGlBbGd1SVh5aktwaGUyT2REX2xRTGJNcFpETzF6R0tQVUN4Uk9nNWp5UjlPZDdZNVJ6S0FONkgzR2Q3T05FeGRGMk9MUkNlM1ZQYVpQZHdSbjM0T2hWZUE?oc=5",
+        "origin": "discovery"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "softwareone-becomes-openai-select-partner",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "email-security-guide-identifying-and-deleting-phishing-red-flags",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -220,11 +148,200 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "nasa-administrator-comments-on-unidentified-aerial-phenomena-reports",
-    "title": "NASA administrator comments on unidentified aerial phenomena reports",
-    "summary": "NASA's leadership offered remarks on recent unidentified aerial phenomena sightings and ongoing monitoring efforts.",
+    "event_id": "devart-releases-dbforge-studio-20262-database-management-update",
+    "title": "Devart releases dbForge Studio 2026.2 database management update",
+    "summary": "Devart has released version 2026.2 of dbForge Studio, its database development and administration platform.",
+    "theme": "Software",
+    "importance": 4.0,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Devart",
+      "dbForge",
+      "database",
+      "SQL Server",
+      "Postgres"
+    ],
+    "url": "news/postgres/2026-10-05/#devart-releases-dbforge-studio-20262-database-management-update",
+    "sources": [
+      {
+        "label": "sdtimes.com",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tUzUxdjVOVVZ4N3pkcVE0QmtFdlVrRVE0U2xfX3E5a0xJM3ZYZG8wM0JxMmZYNzN2bWo1NjhVVHg4OWVFZUI0R1JfbjZYVGJ2NHFHcUM3T3NBOThneDBrWXctSnd5OU15?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "devart-releases-dbforge-studio-20262-database-management-update",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "russian-software-enhanced-for-large-data-array-processing",
+    "title": "Russian software enhanced for large data array processing",
+    "summary": "Russian developers have improved software capabilities for handling large data arrays more efficiently.",
+    "theme": "Technology",
+    "importance": 4.0,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Russian software",
+      "data processing",
+      "optimization"
+    ],
+    "url": "news/postgres/2026-10-05/#russian-software-enhanced-for-large-data-array-processing",
+    "sources": [
+      {
+        "label": "Первый Технический",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZVF1OUNnbkRlMlV3UDZtMHlEZFZVRzVHRmJPM1hkZ2gwX3J4REozVDI3bmdDNE1pbEJvMVlqVEMzd0tpcjU2UUNyOEJ4VGhNbTF4Nkx4V3Fxc0lMaU1MY19OTGJFenJUd2Uzbl9tQmtXRFJkWGZSQkctS3lrTUNCa2Zfd2pRWGN6SlE3ck1keWdnMU41SmtabFF4MVdRTkl6SUVOaVE4YmpQN2RrWmNB0gGvAUFVX3lxTFBlUXU5Q2duRGUyVXdQNm0weURkVlVHNUdGYk8zWGRnaDBfcnhESjNUMjduZ0M0TWlsQm8xWWpUQzN3S2lyNTZRQ3I4QnhUaE1tMXg2THhXcXFzSUxpTUxjX05MYkV6clR3ZTNuX21Ca1dEUmRYZlJCRy1LeWtNQ0JrZl93alFYY3pKUTdyTWR5Z2cxTjVKa1psUXgxV1FOSXpJRU5pUThialA3ZGtaY0E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "russian-software-enhanced-for-large-data-array-processing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "wildlife-beneath-the-hollywood-sign-reveals-regions-environmental-richness",
+    "title": "Wildlife beneath the Hollywood sign reveals region's environmental richness",
+    "summary": "The area surrounding the iconic Hollywood sign serves as habitat for diverse wildlife including hawks, snakes, bobcats, and mountain lions.",
+    "theme": "Conservation",
+    "importance": 4.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Hollywood",
+      "wildlife",
+      "biodiversity",
+      "habitat",
+      "Los Angeles"
+    ],
+    "url": "news/conservation/2026-10-05/#wildlife-beneath-the-hollywood-sign-reveals-regions-environmental-richness",
+    "sources": [
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/us-news/2026/oct/05/secret-animal-world-beneath-hollywood-sign",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "wildlife-beneath-the-hollywood-sign-reveals-regions-environmental-richness",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "maltese-man-arrested-with-300-tortoises-and-77-parrots-at-sicilian-port",
+    "title": "Maltese man arrested with 300 tortoises and 77 parrots at Sicilian port",
+    "summary": "Italian police arrested a Maltese citizen found attempting to transport 300 tortoises and 77 parrots packed in a car from Sicily to Malta.",
+    "theme": "Conservation",
+    "importance": 4.5,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildlife smuggling",
+      "tortoises",
+      "parrots",
+      "Sicily",
+      "animal cruelty"
+    ],
+    "url": "news/conservation/2026-10-05/#maltese-man-arrested-with-300-tortoises-and-77-parrots-at-sicilian-port",
+    "sources": [
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/world/2026/oct/05/man-caught-with-tortoises-parrots-bound-malta-sicilian-port",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "maltese-man-arrested-with-300-tortoises-and-77-parrots-at-sicilian-port",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "gatorade-launches-multi-year-research-initiative-on-womens-hydration-science",
+    "title": "Gatorade launches multi-year research initiative on women's hydration science",
+    "summary": "Gatorade announced 'Body of Science,' a multi-year research commitment to address gaps in understanding female hydration needs across life stages.",
+    "theme": "Health",
+    "importance": 4.5,
+    "topics": [
+      "diet-exercise"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Gatorade",
+      "hydration",
+      "women's health",
+      "sports science"
+    ],
+    "url": "news/diet-exercise/2026-10-05/#gatorade-launches-multi-year-research-initiative-on-womens-hydration-science",
+    "sources": [
+      {
+        "label": "PepsiCo",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQc1h1YmM0VDRJaVRjZS13TTN6cjNwVkJUYWFMeWYyVGVuVTQ0eFRueXhiRXRzclpuLUw4ZG9Ma0ZMNVV5NTdEMU9nMk42aURJSUxTY1Y2c3ZwQTF3aGdHcTdYZktRUHp3VUFJcG9udkMzdExXTkhGUE9MM2VzcGtMQUhEeGVCRGFiQUlFMFVVdGdwWnFlTEV3X0VSNl9RQjd3RGxSc0pCX2JjZlh2R3N5Z0JVamdmTWVwRTB1djlHamxVd1d4NGJ3eDRSaDlqTzdqcmp3TVBUd0FrcE9iYTEwUlFhRQ?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "gatorade-launches-multi-year-research-initiative-on-womens-hydration-science",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "carlos-garcia-galan-leads-nasas-next-generation-of-space-exploration-initiatives",
+    "title": "Carlos García-Galán leads NASA's next generation of space exploration initiatives",
+    "summary": "Carlos García-Galán is playing a leadership role in directing NASA's upcoming missions and programs for future space exploration.",
     "theme": "Space",
-    "importance": 4,
+    "importance": 4.5,
     "topics": [
       "space"
     ],
@@ -234,58 +351,22 @@
     "primary_feed": "science",
     "keywords": [
       "NASA",
-      "UAP",
-      "unidentified aerial phenomena"
+      "Carlos García-Galán",
+      "space exploration",
+      "leadership"
     ],
-    "url": "news/space/2026-10-05/#nasa-administrator-comments-on-unidentified-aerial-phenomena-reports",
+    "url": "news/space/2026-10-05/#carlos-garcia-galan-leads-nasas-next-generation-of-space-exploration-initiatives",
     "sources": [
       {
-        "label": "Inside Outer Space",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQmZONmZaeEZQamNhQlJfRXdsS0Q0NXlfYTVjNm9sXzF0dzNwSy1HeFJHQkRkWnA5WjloekgxZ2xXR01ZVWdwZzJFLW1DWVZ2cXBIRFR1aHJIUmFpRTZ2YVpOTVNqZHdCamx4a1JqQWo3WklYTEVDalFWMjhzNXdNSXhvb25YSWV0RVE4RHU4SnVhOWo3?oc=5",
+        "label": "Florida Tech News",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX0lycEVDSWx4X2RuMlFvbTVIdkRMZkJqamRpdVhaSzJSbTVGcFhXMm4xUFBuMFlIRU43cnlKTG1LcXZyV2lLZFNmNktVelEzamF5VDZoSkFfYkdTcUZJdzFudS0wMVdmUjh1QVRsRE5hTUJycFRfVXZDRUJicWU3WlhsVDFxWlFpSGtwam1BWGlBVEp3SktsRjZmaE9xQQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "nasa-administrator-comments-on-unidentified-aerial-phenomena-reports",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "cerebras-stock-rises-after-sam-altman-calls-it-close-partner",
-    "title": "Cerebras Stock Rises After Sam Altman Calls It 'Close Partner'",
-    "summary": "OpenAI CEO Sam Altman's public endorsement of Cerebras as a close partner boosted the chipmaker's stock price.",
-    "theme": "Business",
-    "importance": 4.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Cerebras",
-      "Sam Altman",
-      "OpenAI",
-      "AI chips"
-    ],
-    "url": "news/gpt/2026-10-05/#cerebras-stock-rises-after-sam-altman-calls-it-close-partner",
-    "sources": [
-      {
-        "label": "TradingView",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQkZjN2dwWF9ZLW9yVUVxMDFhdUlPdm5OUUhQZ2RoeFVNaDN6R0VIX2pOUXVXMW8zVDBsZXhWS1dQUEktRG1BaWpkUDVaMm1TSnZBY21GUVhUUWI0QWFvN1RzLVEzX0k1eFhJZTNoeHh2MHliaDR5U0RPRmJEcE5jdHV1Z2ZIekRPUFU2YTgtTDJXd1B4b0JWZEFaNmVabnNiQk1lRkNUaWp2cWx3bnNGd3JGUkctdlkxMlYwWkFYUllKMHp4akZRUkJ5QzZrdzNGaHZiUDhDTmtWaTZqX2NF?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "cerebras-stock-rises-after-sam-altman-calls-it-close-partner",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "carlos-garcia-galan-leads-nasas-next-generation-of-space-exploration-initiatives",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -295,7 +376,7 @@
     "date": "2026-10-05",
     "event_id": "kaspersky-launches-ai-protect-product-in-asia-pacific-for-enterprise-security",
     "title": "Kaspersky launches AI Protect product in Asia-Pacific for enterprise security",
-    "summary": "Kaspersky has launched AI Protect, a new security offering designed to protect enterprise artificial intelligence systems in the Asia-Pacific region.",
+    "summary": "Kaspersky introduced AI Protect, a new security product designed to protect enterprise AI infrastructure in the Asia Pacific region.",
     "theme": "Security",
     "importance": 5.0,
     "topics": [
@@ -306,10 +387,13 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Kaspersky",
+      "AI Protect",
       "AI security",
       "APAC",
-      "enterprise"
+      "Asia Pacific",
+      "Kaspersky",
+      "enterprise",
+      "enterprise security"
     ],
     "url": "news/ai/2026-10-05/#kaspersky-launches-ai-protect-product-in-asia-pacific-for-enterprise-security",
     "sources": [
@@ -317,11 +401,16 @@
         "label": "IT Voice Media",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeDlONzhqOTJsUTBNV1FGWGFDamtFamt0WWpQUDNiYU4wdUJocTQ2R2dkY2xrcENxRnZFd2N0TmtPZWo3U2hBMWhERVB1MGo1RjlacHlJc3l6SVREOW5SWlZkQ0tDRjV3cDVLSklDWWFCMjBFMThYbmFja1RKZXRfcVZ2VkRmUVlJdWZyYzd3MDI5akZfS1BKbWplZWQ1SDdFVnNuRWFzR2lDSC1SYS1sZkdLVE5talhyajdGU055ZTVXMEU?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "The Tech Revolutionist",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWEl4NkhZLW9xVHpBN0JvRDZ0TlBuWEZCNVFwWDk3cGw1dHlQNlJqeEU1WVp1SjRqbDB1QWJwTXdaR3ZvY3YxZnZKNzBvVGFwM3ZHRzdaalVqWlAwWnlGOWsxVlgtOWd4Q2NCYnJ4ck0zbGpNYmxabnFOaWhpNjltTTVIdnA1d0lkN3IxOEZHbVdZVUFQQXRyN2o0X2NsNk02Z1NYUA?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
     "lineage_id": "kaspersky-launches-ai-protect-product-in-asia-pacific-for-enterprise-security",
     "related_title": "",
     "related_url": "",
@@ -478,7 +567,7 @@
     "date": "2026-10-05",
     "event_id": "nasa-chief-reflects-on-unidentified-aerial-phenomena",
     "title": "NASA chief reflects on unidentified aerial phenomena",
-    "summary": "The NASA administrator has offered perspective on the investigation and significance of unidentified aerial phenomena.",
+    "summary": "The NASA administrator has shared thoughts and commentary on the agency's approach to studying unidentified aerial phenomena.",
     "theme": "Space",
     "importance": 5.0,
     "topics": [
@@ -491,6 +580,7 @@
     "keywords": [
       "NASA",
       "UAP",
+      "space",
       "unidentified aerial phenomena"
     ],
     "url": "news/space/2026-10-05/#nasa-chief-reflects-on-unidentified-aerial-phenomena",
@@ -503,8 +593,45 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
     "lineage_id": "nasa-chief-reflects-on-unidentified-aerial-phenomena",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "nasa-program-expands-university-partnerships-with-minnesota-state-system",
+    "title": "NASA program expands university partnerships with Minnesota State system",
+    "summary": "NASA launched an initiative to integrate the Minnesota State University system into national space exploration programs and workforce development.",
+    "theme": "Space Education",
+    "importance": 5.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "Minnesota State",
+      "university",
+      "space exploration"
+    ],
+    "url": "news/space/2026-10-05/#nasa-program-expands-university-partnerships-with-minnesota-state-system",
+    "sources": [
+      {
+        "label": "Star Tribune",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaTNNdEFxaHNGUldjQzFpY3ZnVV95djFhZFo1SlVRMlRaZl9tYm95WVdjc3d5QzQ0dnBITlRrdThGekVqcGtpWVZWZ3pBdGx1aHVXVE9mVjV4Z3dESWtCbEJnNWVHM0pyYjQ5Z1IyaWhrYmFVU2xycldfazhUSUlCdmdVb1gwSE9DdDhZWWNpVjRsV29xUjZ3RkYyakN6T0dCNFhueHJjZWoyWDVUV1dXeDRNSVQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "nasa-program-expands-university-partnerships-with-minnesota-state-system",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -585,36 +712,74 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "anthropic-trained-claude-to-express-uncertainty-about-consciousness",
-    "title": "Anthropic Trained Claude to Express Uncertainty About Consciousness",
-    "summary": "Anthropic deliberately trained Claude to state it is unsure whether it is conscious, prompting criticism about the training approach.",
-    "theme": "AI Safety",
+    "event_id": "identity-and-permissions-as-blast-radius-boundary-for-llms",
+    "title": "Identity and permissions as blast-radius boundary for LLMs",
+    "summary": "Identity and permission management is emerging as a critical control mechanism to limit the potential damage radius of large language model exploits.",
+    "theme": "AI",
     "importance": 5.5,
     "topics": [
-      "anthropic"
+      "ai"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Claude",
-      "Anthropic",
-      "consciousness",
-      "AI alignment"
+      "LLM",
+      "identity management",
+      "permissions",
+      "security",
+      "blast radius"
     ],
-    "url": "news/anthropic/2026-10-05/#anthropic-trained-claude-to-express-uncertainty-about-consciousness",
+    "url": "news/ai/2026-10-05/#identity-and-permissions-as-blast-radius-boundary-for-llms",
     "sources": [
       {
-        "label": "Dealroom",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOT1J3SlFacTlPdnlpVHlxVUpBdktXa2EtaDVIb2pVRmswTjcwblBBQzZDQTNubXFHWlFiSWdaSHRNUTBtbExEeXFfWjFCS2RMZUYweXRrV1NadWNweU8zUjNodlBDQ2ZPMWhTb19vQ0VVY0ktcDZCY0Q3ZWdOeFo3bmhwdkRDT2M0cHdZdy13TFlRSWVjNi1vbDM2ZTdwMGJSc0R5dWs2bmJxZW91UENRLUowc0xvdTVaYjNULVpaaXY1bWlOQ2VKOW92MVNoN0Vs?oc=5",
+        "label": "SC Media",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeWptYUY3WUFFdnpmbVpjdXVyOW1penV4VDBVdGhpQUM0RXp1SVNSb0JFRXRHVDI3UUlnLVZTYjNDSldBZWhiMmhmZHc3SWNlNEw2cllWV2tBcUx4LWlSZVFnRXZsM2FfVURqZTNLWklXaXBfWlRMNXVYWUtSXzQtbFk3X0c3eFY5dkJ1cE1qMVlKUmZvZVB6XzdTYjRKZTdFdzFoQXk3RWZ3QQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "anthropic-trained-claude-to-express-uncertainty-about-consciousness",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "identity-and-permissions-as-blast-radius-boundary-for-llms",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "llm-gateway-solutions-gain-market-traction",
+    "title": "LLM gateway solutions gain market traction",
+    "summary": "Enterprise adoption of AI gateway platforms designed to manage and control large language model access is accelerating.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "LLM",
+      "gateway",
+      "enterprise",
+      "AI infrastructure"
+    ],
+    "url": "news/ai/2026-10-05/#llm-gateway-solutions-gain-market-traction",
+    "sources": [
+      {
+        "label": "Futuriom",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSVVsSUI0eWdtQWN2YkU0THFISHRHNUF5OUNJWm1uZlZYMmhFSENweUl1QndNY3l0T0xqYUpCbHNXSW9yelQ0cnF0Y201MVBMa1NIYTNpdDVycGdkakhmWEpkeEZ3VTFqaFVrLTB4aElmMUM2M2VjUlRBaUNXX2JtNw?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "llm-gateway-solutions-gain-market-traction",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -660,14 +825,51 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "openai-tests-visual-ad-format-in-chatgpt-during-image-generation",
-    "title": "OpenAI Tests Visual Ad Format in ChatGPT During Image Generation",
-    "summary": "OpenAI is piloting visual advertisements displayed to users while they generate images in ChatGPT.",
-    "theme": "Monetization",
+    "event_id": "california-allocates-60-million-for-biodiversity-and-nature-access-initiatives",
+    "title": "California allocates $60 million for biodiversity and nature access initiatives",
+    "summary": "California approved $60 million in funding for biodiversity conservation projects and expanded public access to natural areas.",
+    "theme": "Conservation",
     "importance": 5.5,
     "topics": [
-      "gpt",
-      "security"
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "California",
+      "biodiversity",
+      "conservation",
+      "public access"
+    ],
+    "url": "news/conservation/2026-10-05/#california-allocates-60-million-for-biodiversity-and-nature-access-initiatives",
+    "sources": [
+      {
+        "label": "gov.ca.gov",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQmF6YzN2VURDSm5ELTh4OWpXRkszc3RLcGhRVjM5V21DRGE4WW1MQ3NKSmNjR2VMVk93cEFuZEU4eW5nNFVmenRoNFlpQzlGT0g1M2FhYUgzM2kyd05hT1pfd0pxZF9YQWxmVW5IV2Z1TjdZOG5jbVh2M2xaNFpIbjBsWGdZNHo3OU5VSFRkMnA3VHhzUjZjYWJ1RG1DVGY5NlVGV3p6M1U1clJYOU1qNkN0SHBzZXpkbExz?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "california-allocates-60-million-for-biodiversity-and-nature-access-initiatives",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "openai-adds-20-measurement-partners-to-chatgpt-ads-platform-for-ad-effectiveness-tracking",
+    "title": "OpenAI adds 20 measurement partners to ChatGPT Ads platform for ad effectiveness tracking",
+    "summary": "OpenAI has onboarded 20 new measurement partners to provide analytics and tracking capabilities for advertisements run through ChatGPT.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "gpt"
     ],
     "feeds": [
       "technology"
@@ -677,35 +879,94 @@
       "OpenAI",
       "ChatGPT",
       "advertising",
-      "image generation"
+      "measurement"
     ],
-    "url": "news/gpt/2026-10-05/#openai-tests-visual-ad-format-in-chatgpt-during-image-generation",
+    "url": "news/gpt/2026-10-05/#openai-adds-20-measurement-partners-to-chatgpt-ads-platform-for-ad-effectiveness-tracking",
     "sources": [
       {
-        "label": "Search Engine Roundtable",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YYnZqY2R0MTYwVUx5cUNSazBWWGpxR1ZfSTBFZmZHMmhSdkxLZGVJXzUydGxDN3pWSmdTZmxqQlN2MGlKelQ2c1JSdzJJV3lqQVlaN0JaTlVGeFhpVmNQbTRGdkN3VWtwMGpSek5hS0xsVms1QkdnaG9obw?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
-        "origin": "rss"
-      },
-      {
-        "label": "Unite.AI",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMDZFUTNNUXVaUV9sNUg0eVR2aHVRSzBDZG4yM0tESkEzMXNNWWppZU9ZLVJTV0g2WEMyQ3o0MlpYME5oMGVyZEhnV0pBQTRpa0RCWm9Zck5kVWRHVlNEMHhyMDRCQUloRlFwU2VsWS1sT2tOd0R4ZE85b3NXSlZja002b3JyMFJRb2owWG9DS3BXd2M?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Digiday",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdmlSLUE2dXNFV1ZKYXJoa1VqcFR4eG5FcmtxbHJyVWlQaTdrUzNYMDRYQ1hQZENxNEZlcG5oRGx0Y3hDeGJybnhhT3d1czFaSlJqUnkycFRHZ01NOXNKTDE0VHV4Tm5rc0JxNHlkQkVmV3JYYV9TRHBmc2NoYzNtRGVjYkRkVjRXd2VKTXB6bmVzYnpfbjlXVThESQ?oc=5",
+        "label": "PPC Land",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tQndzdEk0VmFXakRBQlZFU1BEcjN6N0REOGhUcUl6blhQaUlBTEJIMDZvUVZfZjNILWU2N2xUWWVSQlh2dXJldldaUElnRk1CazE1MVVKVUZSTnFLWkt2NF9QSFhxdHJ4Yk1ld1B3dVhkYnpPd1phNHVB?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "openai-tests-visual-ad-format-in-chatgpt-during-image-generation",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "openai-adds-20-measurement-partners-to-chatgpt-ads-platform-for-ad-effectiveness-tracking",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "crowdstrike-expands-market-reach-through-openai-marketplace-integration",
+    "title": "CrowdStrike expands market reach through OpenAI Marketplace integration",
+    "summary": "CrowdStrike is expanding its distribution strategy by listing its security solutions on the OpenAI Marketplace.",
+    "theme": "Security",
+    "importance": 5.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "CrowdStrike",
+      "OpenAI",
+      "marketplace",
+      "security"
+    ],
+    "url": "news/gpt/2026-10-05/#crowdstrike-expands-market-reach-through-openai-marketplace-integration",
+    "sources": [
+      {
+        "label": "Intelligent CISO",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObWxuMjlkWEFZY3ZOUENFWmRlRGNVSk5EMVA3LU9JM1lhdlZJMDlVc2ZjWHZ2R3g3OGYtUU1OWS1pTm1zZ29RbUU3UElvbnNsTHdBTkNQLXUyTk1XUldJakd5am5wc083MndyQlhMb2V0NFJCNTVhX0Nmbmt1ZVluaHZRaEN3N3JfLVNLMVJQdGtidFFZS1hsaFNkRVR1ejRIRS1uZnlYTnJaUQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "crowdstrike-expands-market-reach-through-openai-marketplace-integration",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "openai-outlines-compliance-approach-to-eu-text-provenance-rules",
+    "title": "OpenAI outlines compliance approach to EU text provenance rules",
+    "summary": "OpenAI published its strategy for complying with EU regulations requiring source attribution and text provenance documentation.",
+    "theme": "Regulation",
+    "importance": 5.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "EU",
+      "regulation",
+      "text provenance"
+    ],
+    "url": "news/gpt/2026-10-05/#openai-outlines-compliance-approach-to-eu-text-provenance-rules",
+    "sources": [
+      {
+        "label": "OpenAI",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBndFg3dkRHQWJpbWRzMU1NVXZucE9POUFlMlNZemhnSlNOYTRNSDhEVFhnS3oxSVVEWFN5TDRjd3ZSTVJpdjFvUGQyc092YnVqX2ZxdEhCSQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "openai-outlines-compliance-approach-to-eu-text-provenance-rules",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -750,147 +1011,37 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "record-stock-market-highs-mask-underlying-economic-warning-signs",
-    "title": "Record stock market highs mask underlying economic warning signs",
-    "summary": "Financial analysts warn that recent market peaks may be obscuring troubling economic fundamentals beneath the surface.",
-    "theme": "Markets",
+    "event_id": "nasa-deputy-chief-suggests-turkiye-could-contribute-to-future-moon-base",
+    "title": "NASA deputy chief suggests Türkiye could contribute to future moon base",
+    "summary": "A NASA deputy chief indicated that Türkiye could play a role in constructing and supporting a future lunar base.",
+    "theme": "Space",
     "importance": 5.5,
     "topics": [
-      "markets"
+      "space"
     ],
     "feeds": [
-      "world"
+      "science"
     ],
-    "primary_feed": "world",
+    "primary_feed": "science",
     "keywords": [
-      "stock market",
-      "market warning",
-      "economic concerns"
+      "NASA",
+      "moon base",
+      "Türkiye",
+      "international cooperation",
+      "lunar exploration"
     ],
-    "url": "news/markets/2026-10-05/#record-stock-market-highs-mask-underlying-economic-warning-signs",
+    "url": "news/space/2026-10-05/#nasa-deputy-chief-suggests-turkiye-could-contribute-to-future-moon-base",
     "sources": [
       {
-        "label": "Financial Post",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeWFNX3RsWmdVS3VhVWJkdFIzTm5vVlF3MDJfYVRldXZtWXZDVVRiWEZlVER1YncxSjhCZEZOYlVxVkQtQnU3TDBhbzRCVDFPSF9uLV9XVW1MTk9MMXRzenBwU3FvYVRQQ2FKeS1oaTNzZGNkRmt1MFF0a2pESnVuWmVEWW5PQmJvX1c4NQ?oc=5",
+        "label": "Türkiye Today",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY250U2d0TGE2TFk0Rjlab19KNnlxb3NnbFliUkdiX0lqb1dzQUNYZkhFQ0lnc3dwbk1jV1NKQXc4ZWRiV2cyR2xBY2NGdWxDbDlfcXNiMnpSMTkxVTBRN2o3UGRTaU1MMUlYSXRPeElXQkZvMFNxbmRSclk4YjhORnQwaGYyTVJFcGJZTHBBbkdMMlRiZDBQRG9qZUprLWI5NHM4OXJoQXhVTUtrNGRvbg?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "record-stock-market-highs-mask-underlying-economic-warning-signs",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "euro-weakens-and-french-equities-decline-amid-sovereign-debt-concerns",
-    "title": "Euro weakens and French equities decline amid sovereign debt concerns",
-    "summary": "The euro fell and French stocks retreated as investors worried about escalating French government debt levels.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "euro",
-      "France",
-      "sovereign debt",
-      "stock decline"
-    ],
-    "url": "news/markets/2026-10-05/#euro-weakens-and-french-equities-decline-amid-sovereign-debt-concerns",
-    "sources": [
-      {
-        "label": "afp.com",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0wS1BZTExaeGJsZUxlSDdYX2QwTU9mTkdCUGtVVWY4RkptTHRXNjQ2UUJ3aVV0MXpzTnFZWHNoNkRhYWdDNVpqcWowY0l2bF9VUUlwVHliUFBOOVZ1bW5FcWVjYUFSTWpRaFVqX2JtT25VSjJqWG9j?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "euro-weakens-and-french-equities-decline-amid-sovereign-debt-concerns",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "safeworld-develops-ai-digital-humans-to-ensure-robot-safety-for-humans",
-    "title": "Safeworld develops AI digital humans to ensure robot safety for humans",
-    "summary": "Safeworld is building digital humans powered by generative AI to help prevent physical harm from autonomous robots in real-world deployment.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "AI safety",
-      "robotics",
-      "generative AI",
-      "Safeworld"
-    ],
-    "url": "news/tech/2026-10-05/#safeworld-develops-ai-digital-humans-to-ensure-robot-safety-for-humans",
-    "sources": [
-      {
-        "label": "TechCrunch",
-        "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "safeworld-develops-ai-digital-humans-to-ensure-robot-safety-for-humans",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "ubuntu-2410-stonking-stingray-beta-introduces-rust-improvements-and-llm-speech-to-text",
-    "title": "Ubuntu 24.10 'Stonking Stingray' beta introduces Rust improvements and LLM speech-to-text",
-    "summary": "Ubuntu's interim release adds deeper Rust integration and generative AI speech recognition capabilities alongside GNOME 51 desktop improvements.",
-    "theme": "Tech",
-    "importance": 5.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Ubuntu",
-      "Stonking Stingray",
-      "Rust",
-      "GNOME 51",
-      "Linux"
-    ],
-    "url": "news/tech/2026-10-05/#ubuntu-2410-stonking-stingray-beta-introduces-rust-improvements-and-llm-speech-to-text",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/os-platforms/2026/10/05/ubuntu-stonking-stingray-beta-swims-out-deeper-rust-oxidization-plus-llm-speech-to-text/5301023",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "ubuntu-2410-stonking-stingray-beta-introduces-rust-improvements-and-llm-speech-to-text",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "nasa-deputy-chief-suggests-turkiye-could-contribute-to-future-moon-base",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -940,41 +1091,73 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "from-mathematical-to-executable-certificates-for-machine-unlearning",
-    "title": "From Mathematical to Executable Certificates for Machine Unlearning",
-    "summary": "Researchers develop practical methods to convert mathematical guarantees of machine unlearning into verifiable executable implementations.",
-    "theme": "ML Research",
-    "importance": 5.5,
+    "event_id": "llm-gateways-gain-prominence-in-enterprise-ai-infrastructure",
+    "title": "LLM gateways gain prominence in enterprise AI infrastructure",
+    "summary": "Large language model gateways are becoming increasingly important infrastructure components for managing LLM access and deployment.",
+    "theme": "AI",
+    "importance": 6,
     "topics": [
-      "tech-research"
+      "ai"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "machine unlearning",
-      "data deletion",
-      "certified unlearning",
-      "privacy"
+      "LLM gateways",
+      "AI infrastructure",
+      "enterprise"
     ],
-    "url": "news/tech-research/2026-10-05/#from-mathematical-to-executable-certificates-for-machine-unlearning",
+    "url": "news/ai/2026-10-05/#llm-gateways-gain-prominence-in-enterprise-ai-infrastructure",
     "sources": [
       {
-        "label": "arXiv — Machine Learning",
-        "url": "https://arxiv.org/abs/2610.02268",
-        "origin": "rss"
-      },
-      {
-        "label": "arXiv — Cryptography and Security",
-        "url": "https://arxiv.org/abs/2610.02268",
+        "label": "Futuriom",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSVVsSUI0eWdtQWN2YkU0THFISHRHNUF5OUNJWm1uZlZYMmhFSENweUl1QndNY3l0T0xqYUpCbHNXSW9yelQ0cnF0Y201MVBMa1NIYTNpdDVycGdkakhmWEpkeEZ3VTFqaFVrLTB4aElmMUM2M2VjUlRBaUNXX2JtNw?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "from-mathematical-to-executable-certificates-for-machine-unlearning",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "llm-gateways-gain-prominence-in-enterprise-ai-infrastructure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "strata-enables-running-125b-parameter-llm-on-home-pc",
+    "title": "Strata enables running 125B-parameter LLM on home PC",
+    "summary": "A new technology called Strata makes it possible to run a 125-billion-parameter language model on a personal computer.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Strata",
+      "LLM",
+      "125B parameters",
+      "local AI",
+      "consumer hardware"
+    ],
+    "url": "news/ai/2026-10-05/#strata-enables-running-125b-parameter-llm-on-home-pc",
+    "sources": [
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5KVDd3WFZNc2I0ZUpvWFNVLTNMQ0JQdW93TXdldGRVWF9iUmJPRkJZenh3eVBvN2dodDI0OG9WQWVTcnBaVzQ2QU9ncXhFYmRKR2MxTUxVWkM4YzJOeUtuTnVUWENoV2d4ZnE0M1NlQUYyZHdVN0E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "strata-enables-running-125b-parameter-llm-on-home-pc",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1057,37 +1240,37 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "new-york-city-faces-landfill-capacity-crisis-as-trash-piles-up",
-    "title": "New York City faces landfill capacity crisis as trash piles up",
-    "summary": "New York City's sanitation department warns that landfills receiving most of the city's garbage are filling up rapidly, with more than two-thirds of municipal waste facing disposal challenges.",
-    "theme": "Environment",
+    "event_id": "anthropic-and-aws-advance-fully-homomorphic-encryption-deployment",
+    "title": "Anthropic and AWS advance fully homomorphic encryption deployment",
+    "summary": "Anthropic and Amazon Web Services are collaborating to expand implementation of fully homomorphic encryption technology for privacy-preserving AI applications.",
+    "theme": "Security",
     "importance": 6.0,
     "topics": [
-      "climate-change"
+      "anthropic"
     ],
     "feeds": [
-      "environment",
-      "science"
+      "technology"
     ],
-    "primary_feed": "environment",
+    "primary_feed": "technology",
     "keywords": [
-      "New York City",
-      "landfill",
-      "waste",
-      "garbage"
+      "Anthropic",
+      "AWS",
+      "fully homomorphic encryption",
+      "FHE",
+      "privacy"
     ],
-    "url": "news/climate-change/2026-10-05/#new-york-city-faces-landfill-capacity-crisis-as-trash-piles-up",
+    "url": "news/anthropic/2026-10-05/#anthropic-and-aws-advance-fully-homomorphic-encryption-deployment",
     "sources": [
       {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/05102026/new-york-trash-landfills-are-full/",
+        "label": "Channel Dive",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN010d19ybmZfQS1PcUZEZ3UxTzlCYjJSdERfZXphTU9GUmVSVXpMMFh6aXJ2Nm5jX0dORHNMYWdkS0x2SUhYN2Q0eDJaR0N5cnJNNGF5OHZfZUVRYmxDRlZtYzlxLXpwMUYxckt0WnV0TFljRUU3bVp5Zi12ZTNpMmxPS3RaYUpPbW1EWjJILVFWQ3gzMFlTQUJTSQ?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "new-york-city-faces-landfill-capacity-crisis-as-trash-piles-up",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "anthropic-and-aws-advance-fully-homomorphic-encryption-deployment",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1132,73 +1315,36 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "alleged-shinyhunters-leader-arrested-in-jordan-assisting-fbi-investigation",
-    "title": "Alleged ShinyHunters leader arrested in Jordan, assisting FBI investigation",
-    "summary": "The suspected leader of the ShinyHunters extortion group, known as Rey, has been arrested in Jordan and is reportedly assisting the FBI to identify other members.",
-    "theme": "Security",
-    "importance": 6.0,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "ShinyHunters",
-      "cybercrime",
-      "Jordan",
-      "extortion"
-    ],
-    "url": "news/security/2026-10-05/#alleged-shinyhunters-leader-arrested-in-jordan-assisting-fbi-investigation",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/alleged-shinyhunters-leader-arrested-in-jordan/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "shinyhunters-hacker-reportedly-detained-in-jordan-and-cooperating-with-fbi",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "ShinyHunters suspect Rey detained in Jordan, cooperating with FBI",
-    "updates_url": "news/security/2026-10-04/#shinyhunters-suspect-rey-detained-in-jordan-cooperating-with-fbi"
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "tcl-p80-ultra-matte-oled-display-sparks-excitement-for-rumored-iphone-duo",
-    "title": "TCL P80 Ultra matte OLED display sparks excitement for rumored iPhone Duo",
-    "summary": "TCL's P80 Ultra midrange Android phone features a matte OLED display that reviewers say surpasses most flagships and fuels anticipation for Apple's expected iPhone Duo with a similar matte inner screen.",
-    "theme": "Hardware",
+    "event_id": "nasdaq-closes-at-record-sp-500-dow-gain-treasury-yields-surge-to-2002-highs",
+    "title": "Nasdaq closes at record; S&P 500, Dow gain; treasury yields surge to 2002 highs",
+    "summary": "The Nasdaq closed at a record level with gains across major indices while U.S. Treasury yields surged to their highest level since 2002.",
+    "theme": "Markets",
     "importance": 6,
     "topics": [
-      "tech"
+      "markets"
     ],
     "feeds": [
-      "technology"
+      "world"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "world",
     "keywords": [
-      "TCL P80 Ultra",
-      "matte OLED",
-      "iPhone Duo",
-      "display technology"
+      "Nasdaq",
+      "S&P 500",
+      "Dow",
+      "treasury yields"
     ],
-    "url": "news/tech/2026-10-05/#tcl-p80-ultra-matte-oled-display-sparks-excitement-for-rumored-iphone-duo",
+    "url": "news/markets/2026-10-05/#nasdaq-closes-at-record-sp-500-dow-gain-treasury-yields-surge-to-2002-highs",
     "sources": [
       {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/tech/1004079/tcl-p80-ultra-nxtpaper-matte-display-iphone-duo",
+        "label": "Investopedia",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWmdhcm5tbTZJRnBPNmwyNk5PR1l6eG5lQTlzY25rQjlWN19LZC1RNEFkVDE4UlNsc05TTkIwLXY3MVNLQk1XMC1pb25VZ29SVzZBQnpkZTZIaUp3Y1lEXzBfdFFsa3pEMVhXbjJKeTByTUlxU3lmM0ZINlVvNWtnajVyZ1EwRlBudVJuTi1GeUo?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "tcl-p80-ultra-matte-oled-display-sparks-excitement-for-rumored-iphone-duo",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "nasdaq-closes-at-record-sp-500-dow-gain-treasury-yields-surge-to-2002-highs",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1206,74 +1352,36 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "germanys-robco-reaches-1b-valuation-becoming-europes-robotics-unicorn",
-    "title": "Germany's RobCo reaches $1B valuation, becoming Europe's robotics unicorn",
-    "summary": "RobCo, a German robotics company, achieved unicorn status with a $1 billion valuation, establishing itself as a major European robotics player.",
-    "theme": "Funding",
-    "importance": 6,
+    "event_id": "nasa-crew-13-arrives-at-international-space-station",
+    "title": "NASA Crew-13 arrives at International Space Station",
+    "summary": "Crew-13 astronauts docked at the International Space Station after an 8-hour flight to begin months of science and technology experiments.",
+    "theme": "Space Exploration",
+    "importance": 6.0,
     "topics": [
-      "tech"
+      "space"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "RobCo",
-      "robotics",
-      "Germany",
-      "unicorn",
-      "venture funding"
+      "NASA",
+      "ISS",
+      "Crew-13",
+      "space station"
     ],
-    "url": "news/tech/2026-10-05/#germanys-robco-reaches-1b-valuation-becoming-europes-robotics-unicorn",
+    "url": "news/space/2026-10-05/#nasa-crew-13-arrives-at-international-space-station",
     "sources": [
       {
-        "label": "Hacker News (front page)",
-        "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/",
+        "label": "facebook.com",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNd24zaVp0dk9UcVNrVDZWMWhBWEdpTm55ODZqWlFndVZabXFjQkRsdE56bDZRblF2RklHM1ZNQ1pWRWxxUlNKM3dYbWNGWHY2RlVBSDR6LTJKSFRPQ0lGenNORXMweExlZkhud1c5Ni1XNkhVdWxpNXExRmpYc1lqMkViUE5jaERub3kyaDBMN29VT1ptUE1uX2pGM3ZIajNHd3NnbHFsSVo5cDJ4X01pSW1kcTF2bThzdVp2aUlKYmNySmk0Y1VWb1Z0WnMydHNzM2xyNXNoOA?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "germanys-robco-reaches-1b-valuation-becoming-europes-robotics-unicorn",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "nyc-council-to-question-tech-companies-about-ai-dangers",
-    "title": "NYC Council to Question Tech Companies About AI Dangers",
-    "summary": "New York City Council plans hearings with technology companies to discuss potential risks and harms of artificial intelligence.",
-    "theme": "Policy",
-    "importance": 6.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "NYC Council",
-      "AI regulation",
-      "safety",
-      "tech oversight"
-    ],
-    "url": "news/tech/2026-10-05/#nyc-council-to-question-tech-companies-about-ai-dangers",
-    "sources": [
-      {
-        "label": "CBS News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU0pHZ0U3LW5kTXMwZTBxZ2ZNMDhVRHllYW1TeWxiaFhwengyUC15ZTJXMm80WHpoS0NuYW5JeUp1c0lGX0xERkpETV80RnlJTV9fa21LYjVkVEt5Y2N3VkdhWldscE5YUFlEbVEyYmoxb3lWLTNZeXB4LTFzbTNFenFOTTJUNGJWTTlNbG8xejNRN1lSRVdqUm1vMUVQUEpYdmZUVEo3TkYwdDQ?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "nyc-council-to-question-tech-companies-about-ai-dangers",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "nasa-crew-13-arrives-at-international-space-station",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1582,9 +1690,53 @@
   },
   {
     "date": "2026-10-05",
+    "event_id": "reflection-ai-debuts-beam-an-open-weight-model-to-compete-with-chinese-ai-systems",
+    "title": "Reflection AI debuts Beam, an open-weight model to compete with Chinese AI systems",
+    "summary": "Reflection AI has unveiled Beam, an open-weight AI model designed for enterprises and sovereign nations at lower computational cost than competitors.",
+    "theme": "AI Models",
+    "importance": 6.5,
+    "topics": [
+      "ai",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Reflection AI",
+      "Beam",
+      "open-weight",
+      "model",
+      "geopolitical competition"
+    ],
+    "url": "news/ai/2026-10-05/#reflection-ai-debuts-beam-an-open-weight-model-to-compete-with-chinese-ai-systems",
+    "sources": [
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "origin": "rss"
+      },
+      {
+        "label": "Fortune",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "reflection-ai-debuts-beam-an-open-weight-model-to-compete-with-chinese-ai-systems",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
     "event_id": "anthropic-reports-claude-threat-to-police-florida-woman-charged-with-felony",
     "title": "Anthropic reports Claude threat to police; Florida woman charged with felony",
-    "summary": "Anthropic reported a Florida woman's threat message she posted to Claude to law enforcement, resulting in a felony charge for the user.",
+    "summary": "Anthropic reported a Florida woman to authorities after she used Claude to draft violent threats against a sheriff's office, resulting in a felony charge in what is at least the third such incident since August.",
     "theme": "AI Safety",
     "importance": 6.5,
     "topics": [
@@ -1595,10 +1747,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI misuse",
       "Anthropic",
       "Claude",
-      "threat",
-      "police"
+      "law enforcement",
+      "police",
+      "threat"
     ],
     "url": "news/anthropic/2026-10-05/#anthropic-reports-claude-threat-to-police-florida-woman-charged-with-felony",
     "sources": [
@@ -1615,8 +1769,127 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
     "lineage_id": "anthropic-reports-claude-threat-to-police-florida-woman-charged-with-felony",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "pentagon-halts-use-of-anthropic-ai-tools-after-supply-chain-concerns",
+    "title": "Pentagon halts use of Anthropic AI tools after supply chain concerns",
+    "summary": "The Pentagon has stopped using Anthropic's AI tools following its earlier designation of the company as a supply chain risk.",
+    "theme": "Policy & Security",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Pentagon",
+      "Anthropic",
+      "Claude",
+      "supply chain",
+      "defense"
+    ],
+    "url": "news/anthropic/2026-10-05/#pentagon-halts-use-of-anthropic-ai-tools-after-supply-chain-concerns",
+    "sources": [
+      {
+        "label": "The Times of India",
+        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNbm1FaVd4UDIyVVpINXYwQ1Fab2xsYjFvOHVac2w1YWl6Mk1qZklNa3ZzeTE0OE1ZWEo0V0NVWXI1RmtJRlByM2E5b3RrUjZobkgwOXMtZ3o5TEJ2OFdRUm5pLTlpRzJzNTlRSThDcWVRaU4xUVhId2J6Z2hGSzhBend4ejNlNFpRdE9SVUJTR2s1bU1nbF90bGFEUWl4TTlJVU1ad2t4aHBORkxRVFp4NkFHVXBtdEpIaEVDdVZiVkZkUFppeU91YXBkamtFb2RDZkpyaUxncGJFQTBMN1hMdTZLNEthcVFQdGhmMEhB0gHzAUFVX3lxTE5tT2JpN1A0Q3ZiZ2hMWFFILXdzeURhempCQkF0cjVQVmJ6Ul9PblF5azdqM3d2ZGlLMGs1dWhLMWhCX083TFdRQWdxcVdVdTdITjE4OFdmWTRzMTY3Q1FJemJuLVFpcEFaaXRucll3SFpCVF96bW80V3pBbVoySmdpVEdYNkFFNllWdjRhRWZJOFg0VTZBb1hmSGg1dW9wTC1ENGtYSFlMVW1mU3JNWC1Qdm1kU3ZDMjE1aUcyNVZ3NlNEVUZ1WVg1emxfdzRmcEMtZW5fT0JTQVBkaE93VFV4b3pyS01mZWhBSjZCNWlhbFhoOA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ILU5UbWc0NDdJSEowdm9PaE14Nkl1MjlpSEJ4djdRQUlhVWNocFAyMXpxN0pXOUZNQk1YQ3JiZnd5MVpGckNkLU5NU1FXTjZzS2EyWDU0RnB3N1U?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "pentagon-halts-use-of-anthropic-ai-tools-after-supply-chain-concerns",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "meta-cuts-claude-adoption-microsoft-reduces-ai-budget",
+    "title": "Meta cuts Claude adoption, Microsoft reduces AI budget",
+    "summary": "Meta has cut its internal Claude users by half while Microsoft has slashed its AI budget by a third.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Meta",
+      "Claude",
+      "Microsoft",
+      "AI budget",
+      "Anthropic"
+    ],
+    "url": "news/anthropic/2026-10-05/#meta-cuts-claude-adoption-microsoft-reduces-ai-budget",
+    "sources": [
+      {
+        "label": "finance.biggo.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3d3F3anZ2bHNTdFRMb0xLaGpIZXd0VkFDMi1wVVFzdmJZRnZLaEVPMjNpV0duZWlWZXdtN0RnZ3NaZTVEb2ZKZzd2RGl2Z0NUWm1wZFRIcDZTSnRhVE1JaHZIOVVvM19BcFlRYVdpSURobFVlR0E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "meta-cuts-claude-adoption-microsoft-reduces-ai-budget",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "claude-user-files-class-action-suit-against-anthropic-over-biometric-scans",
+    "title": "Claude user files class action suit against Anthropic over biometric scans",
+    "summary": "A Claude chatbot user has filed a class action lawsuit against Anthropic alleging unauthorized biometric scanning.",
+    "theme": "Legal",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "biometric scanning",
+      "class action",
+      "privacy"
+    ],
+    "url": "news/anthropic/2026-10-05/#claude-user-files-class-action-suit-against-anthropic-over-biometric-scans",
+    "sources": [
+      {
+        "label": "Baltimore Sun",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ0V2Tm9KTnNtLXdNaDZnbV9RU3JSSEVzRnp6OGptOEtOVDZzYnk4dktpZ2U1NTROTGd2bEJLeEpuSHlNejBvUWFaQ05yaWpBeC0zeGp4bkZQMmZMbmtGWkl5aG1WYl9UZWN1cE9rY2dETjN1N2IwY3RoUzM5VHpvUXlUQ21oV0x2Y2JucmdrMGtzOTI5end3YmZKc3hCZjVBellGaGc2R3RaUUpWR1Y2NDZtc1hPWFg4UTFiRDZmNjY?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "claude-user-files-class-action-suit-against-anthropic-over-biometric-scans",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1858,6 +2131,115 @@
   },
   {
     "date": "2026-10-05",
+    "event_id": "openai-tests-visual-ad-format-in-chatgpt-during-image-generation",
+    "title": "OpenAI Tests Visual Ad Format in ChatGPT During Image Generation",
+    "summary": "OpenAI is testing expanded ad formats and placements within ChatGPT.",
+    "theme": "Monetization",
+    "importance": 6.5,
+    "topics": [
+      "gpt",
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ChatGPT",
+      "OpenAI",
+      "ad formats",
+      "advertising",
+      "image generation"
+    ],
+    "url": "news/gpt/2026-10-05/#openai-tests-visual-ad-format-in-chatgpt-during-image-generation",
+    "sources": [
+      {
+        "label": "Search Engine Roundtable",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YYnZqY2R0MTYwVUx5cUNSazBWWGpxR1ZfSTBFZmZHMmhSdkxLZGVJXzUydGxDN3pWSmdTZmxqQlN2MGlKelQ2c1JSdzJJV3lqQVlaN0JaTlVGeFhpVmNQbTRGdkN3VWtwMGpSek5hS0xsVms1QkdnaG9obw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+        "origin": "rss"
+      },
+      {
+        "label": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMDZFUTNNUXVaUV9sNUg0eVR2aHVRSzBDZG4yM0tESkEzMXNNWWppZU9ZLVJTV0g2WEMyQ3o0MlpYME5oMGVyZEhnV0pBQTRpa0RCWm9Zck5kVWRHVlNEMHhyMDRCQUloRlFwU2VsWS1sT2tOd0R4ZE85b3NXSlZja002b3JyMFJRb2owWG9DS3BXd2M?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Digiday",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdmlSLUE2dXNFV1ZKYXJoa1VqcFR4eG5FcmtxbHJyVWlQaTdrUzNYMDRYQ1hQZENxNEZlcG5oRGx0Y3hDeGJybnhhT3d1czFaSlJqUnkycFRHZ01NOXNKTDE0VHV4Tm5rc0JxNHlkQkVmV3JYYV9TRHBmc2NoYzNtRGVjYkRkVjRXd2VKTXB6bmVzYnpfbjlXVThESQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "9to5Google",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93eTBFb3UxekNXUTFHbDNMQVNqLWFwVTVlVW5MQzNfNjIyQi1kOWo0OU54ZzJqWlEzOFBOTGVCcU9Cd2xqSkRnVGJpanJxajVmVjdqQThDNkVVY3ZhWXdwQVdIOVFpTUdSVXNYMg?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "mashable.com",
+        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9BTzBnZDlKUlFPYlM3VndpazRKSXBDZGRyaXdpdkRSUUw0LWhEbmxWNGRQQUs0STczNVI3ZDFzTS1IV2NTVlNzeXZ2ZHFCeXpiMVZMZVRMbGxHWDd5cTZXdnRKMDhqUQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9iVGtuVlF3RzNJUk1IanVPcE9ka0JjOUYtVlB2THBKUk41RGE5Y29xMHZzOTcydVRuQ3hqMVJBUTZQcjJ3LVc2QVV6NXZXYTVZaXJQQlJQdjRxa1kxeFl2cGhIb0t6Uk5pVjlvX0Fuc3pMRkt5ZHBHVE13MA?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQanE5MHRKZzF0M1Y0eW1EbURoSVhFV3hPaC1PTDFnWjJiRHBuQWlPSC1NdmtkVm4xSEJKN1hPR3JIV0dFVk85ZzBRdFlyQTNha054ZmdNT2FYQTlvZHdCSEhPT1BrNXhoMWU3QkVvbWJrTnZWZkV4LU81Mk9Md3VESVF0ZjBhWGhwdUxQdUpB?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Information",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNTdjWlJ0RUJSQkJtVVRCRE9tMktiNkR0dHNBd0VWcEF5aVhjVTdlSmFLU09BTUdUYloyeXV4ZVgtRWhXOTJxZGxwMTRodVdKRmd5aU9CVmJSQ01CM1l6OGFLZU5QNFVVcGN5TGpJVGdIcEhxMDNYVHZHNnNxNTc4QmF0QnhSTkJvbFBSRHJrZEdlQzkyUW1HVm1OUl9ILVJRSU1VTWF2UmVqWV9fSEF3dDdn?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYTJkR2VQQlBfQ3dhZDlRTEN0MURmbFVtanoyb3ZXYmxqUnFYblFZbGNXa0JsbEU0ajh3ZzVqNEVXQnF4c2JOMS1fdEQ0Rkswd3lCeGROcExkOVdqeGhZdkZKV1FvU3ZzZlJsWWJmYmJvLUlsaDV0WDhmSXpBNVVWcHRJakcwVFExSlRUX1ItckYxcWdNSWc0RmJrOFhURnp1c1dnM1lGN1c5RVJaZkV5VEFrVmZzNk13ZGNBVEV5SmhZUWRXdjN4bXVhWQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "qz.com",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GemdQVE5TbFZsT1VpeEF4RjBvX1FoQUIza0JaSFpNT1ctRGZQTWZfem0wdVlvdktHTjFuSy1oR2F2ZjZWRVl0RkRIOEdraGxDaTNFSmVKQU5MWWFjWkVfM19NYUdLdm9ZMmV2ZGpzRk1ZQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Next Web",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03Vks5U0IwYURkcW8yVmo3bnlSZjVzZDdjMFdYdTNiNl9rWEZ1RW1sN1RpV0NrRjZkcEZ1SGp2RzF0R3dZVWR5QVY3WUNKdXZMY2JqZkFGRHlMRmRDdWZBYWd0anA5dFJD?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "PPC Land",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUWcwa2puanBLZnNQRERKNHNPajQ1V1ozS1l4YW0yT0NybUZ4QnljRnA5X3o5NFQzcEFuWWUxcmc1eUlQbWVXVGVOQ2FTTDVqcmc0WHlCT20wRUNWMWZmTi1qcmVQUUY0dlVYRTk4Y0lEODM5VWtfcnpCOEV2OFRIOVlSVHgtQ2thaHhTa0l3?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/05/openai-to-flood-your-eyeballs-with-visual-ads/5301152",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "openai-tests-visual-ad-format-in-chatgpt-during-image-generation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
     "event_id": "openai-shuts-down-russian-chatgpt-accounts-involved-in-covert-misinformation",
     "title": "OpenAI shuts down Russian ChatGPT accounts involved in covert misinformation",
     "summary": "OpenAI has banned Russian accounts using ChatGPT to conduct coordinated misinformation campaigns.",
@@ -1895,85 +2277,36 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "vagus-nerve-stimulation-enhances-motor-learning-in-neuroscience-study",
-    "title": "Vagus Nerve Stimulation Enhances Motor Learning in Neuroscience Study",
-    "summary": "Stimulating the vagus nerve after practice sessions strengthened long-term motor learning in mice through rhythmic blood vessel changes in the brain.",
-    "theme": "Neuroscience",
+    "event_id": "aws-announces-amazon-bedrock-managed-agents-powered-by-openai-integration",
+    "title": "AWS announces Amazon Bedrock Managed Agents powered by OpenAI integration",
+    "summary": "Amazon Web Services released Q3 updates including Bedrock Managed Agents integrated with OpenAI models and new Kiro workflows.",
+    "theme": "Cloud AI",
     "importance": 6.5,
     "topics": [
-      "health",
-      "science"
+      "gpt"
     ],
     "feeds": [
-      "science"
+      "technology"
     ],
-    "primary_feed": "science",
+    "primary_feed": "technology",
     "keywords": [
-      "vagus nerve",
-      "motor learning",
-      "neuromodulation",
-      "brain blood vessels"
+      "AWS",
+      "Amazon Bedrock",
+      "OpenAI",
+      "managed agents"
     ],
-    "url": "news/health/2026-10-05/#vagus-nerve-stimulation-enhances-motor-learning-in-neuroscience-study",
+    "url": "news/gpt/2026-10-05/#aws-announces-amazon-bedrock-managed-agents-powered-by-openai-integration",
     "sources": [
       {
-        "label": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
-        "origin": "rss"
-      },
-      {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261002080034.htm",
+        "label": "Amazon Web Services (AWS)",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPNmRVNHF0WHp0eml1aHdrRXVyVEJxS1lNWjlJSjFJR1kyYXFvZHpTYjEwUDFET1N4cVZzUEttb1JRY3FUaE5CTXl1SllCNl9MZ1puRWNxR2RMTFhMMG10U2JDOW5WWkRLWlhpdWxjTTBHRGNtcGVPaXFMQlBQdzhESWRmZnhraWUtZklPUWJheTNhdC1YUmI4ZW1lYzRKMVpoV2FmVVV4T25GM19YMmoyY0NnTUduTmREQldGWlRlZEVDVjlTa2xXN3FMbUJTNGtvc0N4QTdWWVFtWmJuMmc0RVNWbkM0RFlYR0FkRDY1Mk4xLUprdU4xbXdickdDQ0R2?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "vagus-nerve-stimulation-enhances-motor-learning-in-neuroscience-study",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "e-cadherin-protein-enables-epithelial-cell-engulfment-of-dead-cells",
-    "title": "E-Cadherin Protein Enables Epithelial Cell Engulfment of Dead Cells",
-    "summary": "Scientists discovered that E-cadherin, the protein that binds cells together, also enables epithelial cells to engulf nearby dead cells.",
-    "theme": "Cell Biology",
-    "importance": 6.5,
-    "topics": [
-      "health",
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "E-cadherin",
-      "epithelial cells",
-      "cell engulfment",
-      "adhesion proteins"
-    ],
-    "url": "news/health/2026-10-05/#e-cadherin-protein-enables-epithelial-cell-engulfment-of-dead-cells",
-    "sources": [
-      {
-        "label": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261002080023.htm",
-        "origin": "rss"
-      },
-      {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261002080023.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "e-cadherin-protein-enables-epithelial-cell-engulfment-of-dead-cells",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "aws-announces-amazon-bedrock-managed-agents-powered-by-openai-integration",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2166,111 +2499,37 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "un-climate-chief-warns-extreme-heat-endangers-pregnant-women-and-newborns",
-    "title": "UN climate chief warns extreme heat endangers pregnant women and newborns",
-    "summary": "The UN climate chief warns that extreme heat is placing pregnant mothers and their newborns at increasing risk to their health and survival.",
-    "theme": "Health",
+    "event_id": "brazils-currency-and-stocks-surge-after-bolsonaro-first-round-election-victory",
+    "title": "Brazil's currency and stocks surge after Bolsonaro first-round election victory",
+    "summary": "Brazil's currency and equity markets rallied following the president of the United States-backed candidate Bolsonaro's first-round election victory.",
+    "theme": "Markets",
     "importance": 6.5,
     "topics": [
-      "science"
+      "markets"
     ],
     "feeds": [
-      "science"
+      "world"
     ],
-    "primary_feed": "science",
+    "primary_feed": "world",
     "keywords": [
-      "extreme heat",
-      "climate",
-      "pregnancy",
-      "maternal health"
+      "Brazil",
+      "currency",
+      "stocks",
+      "election",
+      "Bolsonaro"
     ],
-    "url": "news/science/2026-10-05/#un-climate-chief-warns-extreme-heat-endangers-pregnant-women-and-newborns",
+    "url": "news/markets/2026-10-05/#brazils-currency-and-stocks-surge-after-bolsonaro-first-round-election-victory",
     "sources": [
       {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-extreme-pregnant-women-newborns-climate.html",
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNnBVVGg0X283c2E3UVFRekJud193dksxLU9RcDJSLXVoT3dpN1k0emRjS0k4RnJ2Yk1VN3lMd3Z3al94X3FreFRuWV82ei1RY21IUkFTZHB3djVIQkxlZzc1TElvY2JfNWpTOXNucTRVSFpNQ090ZnlFVEVDWnpHMy02WmQzLXRqTmRRTnFGeWhJbTV3MEh6TV9EMmhDOWpQNHBpM3JXWlJvalpm?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "un-climate-chief-warns-extreme-heat-endangers-pregnant-women-and-newborns",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "healthcare-data-breaches-affect-250000-patients-in-new-jersey-and-texas",
-    "title": "Healthcare Data Breaches Affect 250,000 Patients in New Jersey and Texas",
-    "summary": "Hackers stole patient information from Clover Health Investments and AngMar Management Services in July, impacting 250,000 individuals.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "data breach",
-      "healthcare",
-      "patient data",
-      "Clover Health"
-    ],
-    "url": "news/security/2026-10-05/#healthcare-data-breaches-affect-250000-patients-in-new-jersey-and-texas",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "healthcare-data-breaches-affect-250000-patients-in-new-jersey-and-texas",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "apple-tightens-macos-full-disk-access-controls-to-mitigate-ai-agent-risks",
-    "title": "Apple Tightens macOS Full Disk Access Controls to Mitigate AI Agent Risks",
-    "summary": "Apple is restricting Full Disk Access permissions in macOS to limit data exposure risks posed by AI agents and potentially malicious applications.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Apple",
-      "macOS",
-      "Full Disk Access",
-      "AI agents",
-      "security"
-    ],
-    "url": "news/security/2026-10-05/#apple-tightens-macos-full-disk-access-controls-to-mitigate-ai-agent-risks",
-    "sources": [
-      {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "apple-tightens-macos-full-disk-access-controls-to-mitigate-ai-agent-risks",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "brazils-currency-and-stocks-surge-after-bolsonaro-first-round-election-victory",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2346,124 +2605,6 @@
     "researched": false,
     "received_at": "2026-10-05T12:49:41.902712+00:00",
     "lineage_id": "spacex-starship-success-sidelines-nasa-as-musk-pursues-space-market-dominance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "bt-acquires-talktalk-from-administration-for-400m",
-    "title": "BT acquires TalkTalk from administration for £400M",
-    "summary": "British Telecom rescues TalkTalk from administration in a deal valued at approximately £400M, preserving service for 2.5 million customers.",
-    "theme": "Telecom",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "BT",
-      "TalkTalk",
-      "acquisition",
-      "administration"
-    ],
-    "url": "news/tech/2026-10-05/#bt-acquires-talktalk-from-administration-for-400m",
-    "sources": [
-      {
-        "label": "The Register",
-        "url": "https://www.theregister.com/networks/2026/10/05/bt-buys-talktalk-out-of-administration-to-keep-25m-customers-connected/5301066",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "bt-acquires-talktalk-from-administration-for-400m",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "huawei-and-qualcomm-announce-broad-patent-license-agreement",
-    "title": "Huawei and Qualcomm announce broad patent license agreement",
-    "summary": "Huawei and Qualcomm have announced a comprehensive patent license agreement covering their respective intellectual property.",
-    "theme": "Business",
-    "importance": 6.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Huawei",
-      "Qualcomm",
-      "patent",
-      "license"
-    ],
-    "url": "news/tech/2026-10-05/#huawei-and-qualcomm-announce-broad-patent-license-agreement",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "huawei-and-qualcomm-announce-broad-patent-license-agreement",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-05",
-    "event_id": "ancient-egyptian-royal-burials-show-signs-of-ritual-human-sacrifice-dating-to-first-dynasty",
-    "title": "Ancient Egyptian Royal Burials Show Signs of Ritual Human Sacrifice Dating to First Dynasty",
-    "summary": "Forensic analysis of 500-year-old First Dynasty royal burials reveals evidence of ritual human sacrifice of household staff and artisans.",
-    "theme": "Archaeology",
-    "importance": 6.5,
-    "topics": [
-      "science",
-      "tech"
-    ],
-    "feeds": [
-      "science",
-      "technology"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "ancient Egypt",
-      "human sacrifice",
-      "First Dynasty",
-      "royal burials"
-    ],
-    "url": "news/tech/2026-10-05/#ancient-egyptian-royal-burials-show-signs-of-ritual-human-sacrifice-dating-to-first-dynasty",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-modern-forensics-reveals-human-sacrifice.html",
-        "origin": "rss"
-      },
-      {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/science/2026/10/new-forensice-evidence-supports-egyptian-retainer-sacrifice/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "ancient-egyptian-royal-burials-show-signs-of-ritual-human-sacrifice-dating-to-first-dynasty",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2550,9 +2691,47 @@
   },
   {
     "date": "2026-10-05",
+    "event_id": "uk-accuses-china-of-using-academics-for-ai-and-technology-research-espionage",
+    "title": "UK accuses China of using academics for AI and technology research espionage",
+    "summary": "The UK government accused China of deploying academics to conduct intelligence gathering on sensitive AI and technology research initiatives.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "UK",
+      "China",
+      "espionage",
+      "AI research",
+      "intelligence"
+    ],
+    "url": "news/tech-research/2026-10-05/#uk-accuses-china-of-using-academics-for-ai-and-technology-research-espionage",
+    "sources": [
+      {
+        "label": "U.S. News & World Report",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd2RqbHRCTGxmSzlJcHp6ZE9rZ0lyM21KSThGTTkxSG1sdVRrVEtOZUpGNEM1N01FMnBBZVc2OWlHcUI1NzRHLWlIUFlyMXFhZzQ2R0xLNzBzVE1neVJNM0thcXBaUDhUVFY5VjNkLUpHQXNHRWdyV2RtNXlBbHhnOThHRVo2WmY0NE5taDVBdVhiLWw1dzlzSl9OUTNoZkhhb3YwU2VtMi1GbTBUaW5jV3BVNzNzdFV0MHBxb0loY01tRVF6?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "uk-accuses-china-of-using-academics-for-espionage-on-ai-and-tech-research",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "UK Accuses China of Using Academic Espionage to Steal AI and Tech Research",
+    "updates_url": "news/tech-research/2026-10-04/#uk-accuses-china-of-using-academic-espionage-to-steal-ai-and-tech-research"
+  },
+  {
+    "date": "2026-10-05",
     "event_id": "anthropic-launches-100m-claude-frontier-academy-for-enterprise-ai-adoption",
     "title": "Anthropic launches $100M Claude Frontier Academy for enterprise AI adoption",
-    "summary": "Anthropic is investing $100 million to train AI engineers with Claude expertise.",
+    "summary": "Anthropic is committing $100 million to train AI engineers through the Claude Frontier Academy program.",
     "theme": "AI",
     "importance": 7,
     "topics": [
@@ -2563,9 +2742,11 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI engineers",
       "Anthropic",
       "Claude",
       "Frontier Academy",
+      "education",
       "engineers",
       "enterprise AI",
       "training"
@@ -2586,11 +2767,16 @@
         "label": "AI Magazine",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdmxFaTRxb3pSUEw0NC1qT0lIMU9wY1ducjF3SkZEXzJpT2M3MGdHbWNOZVM3QlFZVkRDZ29pSEV0TmU0dURxWkZPNWNRTXAwUURhaXdMb0E1OGsxWlRUOTVjdC02OFFINGdndW1lb2U4c0FWT2x3cnlmZFVQR0xSQlN4NWFURW1fLW5N?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Digital Watch Observatory",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBLWXpiSnlSaVJGeFU1MWNyckVBZ2pTdjEzZmJ5NktvY0g5N3gtSXNmZ09FSDhMMEFYOHZ1QVVHRUQ1cGpsRlFTLW5yQWFDMFRfZjlCaExKc2JHMEx5bEtGcjZpQ1J6RWpyOHln?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
     "lineage_id": "anthropic-launches-claude-frontier-academy-with-100m-investment-to-train-10000-ai-engineers",
     "related_title": "",
     "related_url": "",
@@ -2734,6 +2920,80 @@
     "researched": false,
     "received_at": "2026-10-05T12:49:41.902712+00:00",
     "lineage_id": "the-president-of-the-united-states-eliminates-climate-regulations-for-coal-and-gas-power-plants",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "openai-details-textgrain-watermarking-system-for-text-generation",
+    "title": "OpenAI details textGrain watermarking system for text generation",
+    "summary": "OpenAI has detailed its textGrain watermarking technology for authenticating text generated by ChatGPT, Codex, and the API.",
+    "theme": "Policy & Compliance",
+    "importance": 7.0,
+    "topics": [
+      "gpt",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "watermarking",
+      "textGrain",
+      "authentication",
+      "provenance"
+    ],
+    "url": "news/gpt/2026-10-05/#openai-details-textgrain-watermarking-system-for-text-generation",
+    "sources": [
+      {
+        "label": "9to5mac.com",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ2VFM19BWG1nOWVZeU1CdU9BMTY0OElWRkNDU1JRYzZpdmFNRlVRcElMRkRiNm90X2hWSDJvZ2NiV1VPeVFvZHVjekM5ZVlBTXdDRV8tVUstbXdyUnZMS2c2QXFydFdnZUpSZlo2aTdtQWRrbVpEOXY3eU9pX2p2RUxvaWwtTktRRXRvYjhmdEJMeTFBeFhzdHhVc2FETXNjU3dWTzRwYzZpT2xBeTY5NVNkZDBFaTFBV0RPcHBHR19hZHM?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1B6TVRGeG5BLS0yd3pBTzNnb1hqcG5nTW1WSndCN2stUkFFVVktZVZRdktCM0dwR29IU2thbEtfUmNKQjhGRGFJT1VteGJPTEh3aVd0OFpaQkdCTGJKZmlvQ3VtV1FZZEw3RDVkQTl3cHduNWRmSzcyMzlQQXQwY0JiaWtkUmJmMVlOOGpqTzI3QXZTVVBwa1ZyU0ppQk5mbWc?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+        "origin": "rss"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/",
+        "origin": "rss"
+      },
+      {
+        "label": "UA.NEWS",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbGpVaVFQTzllUEVwU0ZlWkI5NVViWEpITUtqRU9qZkNjQklLYjZxdWFVQnZwcHhNbURydXV1bjlXS2RRRFZOeWV3bkZuZTlRTm0yaWxkNTdxd2JkLXg0aDJGeTF5ZnowYkhkVVFYTmlITVlDdngzcjc1WUhSbFg4Qk1kTVVGa1o4WlJSUm9IcWJEeW96QjB5WTRXOFZZMkV2?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "the-decoder.com",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQzMydWVjQmp6S1lVWlZodGx0dm5KS3dJbzR5R0M4M0hoVUEtdmxlSzJuMzlVSnpjOFhFSjhNakhtOGl1WFd4TFd0dmpFbTJHZ2U1bkctUkJJSXphUWtEN2twOThGa2M0RmlLSDVUN0hBV3RNQ0V2dDJ0ai1mZEdsaHk1bnozN09XLWpTX05XTm5nZnQxWldGVGkwQVNHcGR2ZmFxd2lSaUNHRUY1akd4V2lfdzJLQQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "citybiz",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObmZiMmpGcEl4YW9KYV9VQ3JpbU9zZ0Jacm93a0RQRlJMNTFuRjhBWkZYaXhyVGNuOFU3ZXEtQzBIVVVXdGlBLVNwN3Z6MnMxdXVGSDhYOFlBNlNpNXhvX2l3UWJ2QUJRbklHZlVlWU1USzN5d0Q4UEZEcm5FelVnSDZIci1HUEdRMXlkMDZ0eVFOejJoZ09z?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Seeking Alpha",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1k2TkZlb1FDRlk4NXBvU0I4TUIyNERTSEdxN1VTNnR3emo0VkhFQno4V1loYTVlV0FuVWVaMWpxcU9OZkZnSkJDbHBTVllwOEVrVkZhSm1DcGdISUg4Tkdwa1RlMW1KWjdNVzlWZVE2YUdXOWRSRzV5SDNPY0wwSU1LQnI0ZXBpZWo1S3dRWkZvS0QyZ2M3ZA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "openai-details-textgrain-watermarking-system-for-text-generation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3107,6 +3367,94 @@
   },
   {
     "date": "2026-10-05",
+    "event_id": "ukraines-atb-grocery-chain-confirms-cyberattack-with-extortion-threat",
+    "title": "Ukraine's ATB grocery chain confirms cyberattack with extortion threat",
+    "summary": "Ukraine's ATB grocery chain, with 1,300+ stores and 60,000+ employees, confirmed a cyberattack after the DataSuckers group demanded $400,000 and threatened to leak customer data. The group claims to have obtained 7.9 million customer records and 11 million order records, though ATB denies any breach and authenticity remains unverified.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "ATB",
+      "Ukraine",
+      "cyberattack",
+      "extortion",
+      "ransomware"
+    ],
+    "url": "news/security/2026-10-05/#ukraines-atb-grocery-chain-confirms-cyberattack-with-extortion-threat",
+    "sources": [
+      {
+        "label": "The Record from Recorded Future News",
+        "url": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
+        "origin": "research"
+      },
+      {
+        "label": "The Record",
+        "url": "https://therecord.media/atb-ukraine-cyberattack-ransomware",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "$400,000 ransom demand from DataSuckers group",
+      "Claims: 7.9 million customer records (names, phones, emails, addresses, password hashes)",
+      "Claims: 11 million order records and employee passport data",
+      "ATB denies data compromise; DataSuckers responded with sample screenshots",
+      "DataSuckers claims financially motivated, not politically aligned",
+      "ATB website temporarily offline for 'technical maintenance'"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "ukraines-atb-grocery-chain-confirms-cyberattack-with-extortion-threat",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "south-korea-investigates-bank-breaches-suspected-to-involve-ai-powered-attacks",
+    "title": "South Korea investigates bank breaches suspected to involve AI-powered attacks",
+    "summary": "South Korea's Financial Services Commission launched an emergency investigation following cyberattacks on financial institutions potentially powered by AI.",
+    "theme": "Security",
+    "importance": 7.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "South Korea",
+      "banking",
+      "cyberattack",
+      "AI",
+      "FSC"
+    ],
+    "url": "news/security/2026-10-05/#south-korea-investigates-bank-breaches-suspected-to-involve-ai-powered-attacks",
+    "sources": [
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "south-korea-investigates-bank-breaches-suspected-to-involve-ai-powered-attacks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
     "event_id": "spacex-starship-success-sidelines-nasa-in-musks-bid-to-dominate-space-industry",
     "title": "SpaceX Starship success sidelines NASA in Musk's bid to dominate space industry",
     "summary": "SpaceX's Starship entered orbit for the first time on September 28, 2026, prompting federal approval for accelerated testing and up to two additional October launches. Elon Musk plans hourly flights within 2–3 years, expanding Starlink to 100,000 satellites and deploying space-based data centers. SpaceX intends to retire Falcon 9 in 2028, raising concerns among satellite operators and NASA, which has historically dominated the space industry.",
@@ -3203,36 +3551,46 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "spains-sanchez-calls-snap-election-for-november-29-following-housing-crisis-turmoil",
-    "title": "Spain's Sánchez calls snap election for November 29 following housing crisis turmoil",
-    "summary": "Spanish Prime Minister Pedro Sánchez announced November 29 snap elections after housing affordability concerns destabilized parliamentary coalition support.",
-    "theme": "Policy",
+    "event_id": "etched-receives-funding-offers-at-40b-valuation",
+    "title": "Etched receives funding offers at $40B+ valuation",
+    "summary": "The AI chip startup Etched is receiving investment offers at valuations between $40 billion and $50 billion, approximately double its $21 billion valuation from a September 2026 funding round. The new offers come just two months after Etched raised $700 million, with potential runway extending up to 3.5 years.",
+    "theme": "Funding",
     "importance": 7,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Spain",
-      "snap election",
-      "Pedro Sánchez",
-      "housing crisis"
+      "Etched",
+      "AI chips",
+      "venture funding",
+      "valuation"
     ],
-    "url": "news/world/2026-10-05/#spains-sanchez-calls-snap-election-for-november-29-following-housing-crisis-turmoil",
+    "url": "news/tech/2026-10-05/#etched-receives-funding-offers-at-40b-valuation",
     "sources": [
       {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01UkFBaFdiMmxvMmJsYnJ5eVlFT0tjY0ItaDExVmV3MzJYRW5kRlNKUTZzdEhOUEJxT0s2V3FpUDBobnNBOGItRnFWZVRXZHktOEhtRmJfTm56X0NTMjlKNUVjc18tdmZKaUdlQzNVa3RRM0xVUVBpVQ?oc=5",
-        "origin": "rss"
+        "label": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/",
+        "origin": "research"
       }
     ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "spains-sanchez-calls-snap-election-for-november-29-following-housing-crisis-turmoil",
+    "takeaways": [
+      "Current valuation offers: $40–50 billion",
+      "Previous valuation (September 2026): $21 billion",
+      "Previous round funding: $700 million",
+      "Jane Street led September round, took early system delivery",
+      "Approximately 400 employees, ~15% formerly at Nvidia",
+      "Designs proprietary AI inference chips and hardware systems",
+      "Operates 10-megawatt Silicon Valley data center and Taiwan facility near TSMC",
+      "Founders: Harvard dropouts Gavin Uberti and Chris Zhu; COO Robert Wachen",
+      "Secured $1 billion in customer orders by July 2026"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "etched-receives-funding-offers-at-40b-valuation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3240,37 +3598,37 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "us-marine-arrested-in-okinawa-for-alleged-murder-japan-summons-us-envoy",
-    "title": "U.S. Marine Arrested in Okinawa for Alleged Murder; Japan Summons U.S. Envoy",
-    "summary": "Japan summoned the U.S. envoy after a U.S. Marine was arrested on suspicion of killing a woman in Okinawa, reigniting tensions over military conduct.",
-    "theme": "Policy",
+    "event_id": "reflection-ai-releases-beam-a-501b-open-weight-large-language-model",
+    "title": "Reflection AI releases Beam, a 501B open-weight large language model",
+    "summary": "Reflection AI has announced Beam, an open-source 501-billion parameter language model available for public use and research.",
+    "theme": "AI",
     "importance": 7.0,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Okinawa",
-      "U.S. Marine",
-      "Japan",
-      "incident",
-      "diplomatic"
+      "Reflection AI",
+      "Beam",
+      "language model",
+      "open-weight",
+      "LLM"
     ],
-    "url": "news/world/2026-10-05/#us-marine-arrested-in-okinawa-for-alleged-murder-japan-summons-us-envoy",
+    "url": "news/tech/2026-10-05/#reflection-ai-releases-beam-a-501b-open-weight-large-language-model",
     "sources": [
       {
-        "label": "Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSk5hVVhEeHdBcW41SkxsWm56LTdGMlFBRkFYdWNXdmR0UUdHUlFFcUdlZGcxU1RxRXRlOFpQVjlfdVRqTkdjSEJNUDRLT2dxUDdkcXRuN05FWUE4MkNzTzM5T3ZIODZvLVFrUnRrWm53cWQ3QlAtbzltRkd1VXFoZkw5LUQ1VENlbGtyRHk1OEwtb2lxMkhDYzJlWExxS2hqaEdtONIBqgFBVV95cUxQeVFUZE1UWUZUYU9NNVFYc2tRWHE4OHYwbHRtVHRKQloxcFJWUTdIV1pSN242Z1R3cXlqZGtZMFZVUzRrX0R6VHFTTjA4MmVqbnpPSnB2ZnNpQ1NUR0dfVHZSMEtPRC01dm1JUzVZUWFmOTFtTkJHM25tRnVzazM5ZTdjYkFUblNfS0hJSU42MlJCV1VZdWpfcUJJZnhuSzJuMjdpR1RGSEdtZw?oc=5",
+        "label": "Hacker News (front page)",
+        "url": "https://reflection.ai/blog/introducing-beam",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "us-marine-arrested-in-okinawa-for-alleged-murder-japan-summons-us-envoy",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "reflection-ai-releases-beam-a-501b-open-weight-large-language-model",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3278,36 +3636,37 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "ukrainian-city-of-oleshky-faces-humanitarian-crisis-under-russian-occupation",
-    "title": "Ukrainian city of Oleshky faces humanitarian crisis under Russian occupation",
-    "summary": "The Russian-occupied Ukrainian city of Oleshky is facing a humanitarian crisis with civilians trapped in a kill zone without adequate food and medical supplies.",
-    "theme": "World",
-    "importance": 7.0,
+    "event_id": "russian-drones-target-ukraine-data-centers-by-exploiting-air-defense-gaps",
+    "title": "Russian drones target Ukraine data centers by exploiting air defense gaps",
+    "summary": "Russian drone attacks on Ukrainian data centers are disrupting internet and phone services, threatening Ukraine's wartime digital economy.",
+    "theme": "Cybersecurity",
+    "importance": 7,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
+      "Russia",
       "Ukraine",
-      "Oleshky",
-      "Russian occupation",
-      "humanitarian crisis"
+      "drones",
+      "data centers",
+      "infrastructure"
     ],
-    "url": "news/world/2026-10-05/#ukrainian-city-of-oleshky-faces-humanitarian-crisis-under-russian-occupation",
+    "url": "news/tech/2026-10-05/#russian-drones-target-ukraine-data-centers-by-exploiting-air-defense-gaps",
     "sources": [
       {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQb1VVem85MG12dlQ4bTM3bTZHdnhlRGV0UnFMV0FwN3NLWFFvbTluLUgtbmo4OTFGQVhLcWZQempxZW52QlVKcnR3YVFZMzdfMzZ2ckhTU0lTM1pwQ2Rsb283ME5YNXMzV3JmeGhnbVVSZDNHNklObTN0dWo1b3JmRU40ZEdpa0tkbFJhYQ?oc=5",
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "ukrainian-city-of-oleshky-faces-humanitarian-crisis-under-russian-occupation",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "russian-drones-target-ukraine-data-centers-by-exploiting-air-defense-gaps",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3315,36 +3674,74 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "saudi-backed-yemen-forces-launch-operation-to-retake-houthi-held-areas",
-    "title": "Saudi-Backed Yemen Forces Launch Operation to Retake Houthi-Held Areas",
-    "summary": "Yemen's government forces, backed by Saudi Arabia, have begun operations to reclaim territory from Houthi control near the Bab el-Mandeb Strait.",
-    "theme": "Geopolitics",
-    "importance": 7,
+    "event_id": "sam-altman-argues-society-should-accept-bad-things-from-ai-for-greater-benefits",
+    "title": "Sam Altman argues society should accept 'bad things' from AI for greater benefits",
+    "summary": "OpenAI CEO Sam Altman stated that the world should tolerate hacks, scams, and other negative consequences as a necessary cost of AI's transformative benefits.",
+    "theme": "AI Ethics",
+    "importance": 7.0,
     "topics": [
-      "world"
+      "tech"
     ],
     "feeds": [
-      "world"
+      "technology"
     ],
-    "primary_feed": "world",
+    "primary_feed": "technology",
     "keywords": [
-      "Yemen",
-      "Houthis",
-      "Saudi Arabia",
-      "Bab el-Mandeb"
+      "Sam Altman",
+      "OpenAI",
+      "AI risks",
+      "AI ethics"
     ],
-    "url": "news/world/2026-10-05/#saudi-backed-yemen-forces-launch-operation-to-retake-houthi-held-areas",
+    "url": "news/tech/2026-10-05/#sam-altman-argues-society-should-accept-bad-things-from-ai-for-greater-benefits",
     "sources": [
       {
-        "label": "Bloomberg.com",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZTdURzFGUXJvVUJHYUlJNl9nSlFkaFFyd0ZOZWRtSlhYN3lDcjdIc1BBM3YtMUpRS01kMHM4THdXcGtqYlhXcHdzaGhUUWc1WWduamJLYzd3aUhPLVhXYkY2eEhHVC1CcEVpQjR6YS1kWXY5Zy1fb3hrNnJFLWJqRzhTSWVMSmExWVN3NS1ZYlVrZGhGanEyRHZZUnU5amF2TFg5RFdfdVNhNzJ3eWxEb0FmbmJIZw?oc=5",
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "saudi-backed-yemen-forces-launch-operation-to-retake-houthi-held-areas",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "sam-altman-argues-society-should-accept-bad-things-from-ai-for-greater-benefits",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "volantis-integrates-photonic-technology-into-ai-accelerators-to-bypass-memory-bottleneck",
+    "title": "Volantis integrates photonic technology into AI accelerators to bypass memory bottleneck",
+    "summary": "Altman-backed startup Volantis plans to integrate photonics directly into AI accelerators to overcome the traditional memory-compute bandwidth limitation.",
+    "theme": "AI Hardware",
+    "importance": 7.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Volantis",
+      "photonics",
+      "AI accelerators",
+      "memory",
+      "Sam Altman"
+    ],
+    "url": "news/tech/2026-10-05/#volantis-integrates-photonic-technology-into-ai-accelerators-to-bypass-memory-bottleneck",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/systems/2026/10/05/altman-backed-volantis-reveals-plan-to-vault-the-memory-wall-by-baking-photonics-into-ai-accelerators/5300959",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "volantis-integrates-photonic-technology-into-ai-accelerators-to-bypass-memory-bottleneck",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3354,7 +3751,7 @@
     "date": "2026-10-05",
     "event_id": "anthropic-launches-claude-in-country-inference-in-india-via-aws-bedrock",
     "title": "Anthropic Launches Claude In-Country Inference in India via AWS Bedrock",
-    "summary": "Anthropic launched Claude in-country inference in India through Amazon Bedrock on October 5, enabling local data processing on Indian servers. The three available models address data residency requirements for Indian banks, insurers, government bodies, and regulated enterprises operating under strict regulatory obligations.",
+    "summary": "Anthropic has launched in-country inference for Claude in India through Amazon Bedrock to support regulated deployments.",
     "theme": "Expansion",
     "importance": 7.5,
     "topics": [
@@ -3365,10 +3762,12 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AWS Bedrock",
+      "Amazon Bedrock",
       "Anthropic",
       "Claude",
-      "AWS Bedrock",
       "India",
+      "in-country inference",
       "inference"
     ],
     "url": "news/anthropic/2026-10-05/#anthropic-launches-claude-in-country-inference-in-india-via-aws-bedrock",
@@ -3417,6 +3816,16 @@
         "label": "The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVVk1bWVjVGVlU2RIZE5DOWRaTktPNkZnWkZ3ZWd4dU5rNXdMaVc4X3pWWml1MG5iZGdLUV9aMEpXY2ZFWXF4SldEODJXa1FmOFc0NlhmMFFLRWxoMDZkX21FdUJ1a0VTRUduM19aUUFEamhhRnM2SFN0ZmcxNkxfczNIaXN6d3JtcGdjM3JxS2FSZkthZGp2dU1KMjktNnpzVTlPcHZkZVZaNUN5c2Y3dHVEeWJ0eGVoY3RGTFI1X2lhNWtobzFHWjlOWndnbDhUd2FEenl30gHbAUFVX3lxTFB0eU1UZGNRREQxb1drN2lUQVlXSzBzLUwzSFFnRU9GSThMNEdsWVg5MzgtblJnajh1dFpPUHZQZnU4U0xNU3RodTJLXzFXM1pCSk1qS2tkVjhjZW5KVE5Ld0MzX3lTY01uOGNkNFNqS2V5QkhmcGRqckVDeFFwck5pU1FlTGF0Tnl4TFdhNUhaaDMtblJveVVHLUI0UjNSSjFlRjEtZjNVZ0N6MXhnWUJWXzdieW04RUFVNWhEZ1NSVGxuMFBwdS1hNUhMYTg5NktHNVAtOVlacXZOMA?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "dqindia.com",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTWxuOXdIYU0zaXJ2SlBRN25iNEdySDZZem9TSTFOOXMwNnR4a0FyZG11M0NBYnhJWTluVmFUM25TdjZpb1ZFZXM4ZTlrX29icFhsSWJNdWVpeGktWUFzMEZfVFNpbGtmS2xDS25NaWZlakQ0RDdiN0t1dUFyZXF3bFVyZzlsb2pQYlp3MFJydWs4SE1JbTlNOGh5N1lVNUVCejlEb0dieEtWOVVKMmVReVRWSTRVQ0hl0gG4AUFVX3lxTE1NbG45d0hhTTNpcnZKUFE3bmI0R3JINll6b1NJMU45czA2dHhrQXJkbXUzQ0FieElZOW5WYVQzblN2NmlvVkVlczhlOWtfb2JwWGxJYk11ZWl4aS1ZQXMwRl9UU2lsa2ZLbENLbk1pZmVqRDREN2I3S3V1QXJlcXdsVXJnOWxvalBiWncwUnJ1azhITUltOU04aHk3WVU1RUJ6OURvR2J4S1Y5VUoyZVF5VFZJNFVDSGU?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Social Samosa",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRFJZWE9xWHA4R1JLU0xaNTNOLXNJTUZPbFREM2I0YUpvQlJFWG1ZNURmakFsazBacW9WVTJKV1JSdVNwakZYdl9sTWo2aUY1RnE0RV9mS3NtLWtwZ2dlS1NTeGpWZi1lX0Z2UXNRZ3ZkdlMzWXVwMTBkOC1uMFVzT2ZTQV85VkpMak5OenlvUDZlMkVYdXBjeUdmbEREMk1LNExrdlFkTzlqN3FEOVlTSTdVTlZHM0NJYmxBVFJn0gG-AUFVX3lxTFBEUllYT3FYcDhHUktTTFo1M04tc0lNRk9sVEQzYjRhSm9CUkVYbVk1RGZqQWxrMFpxb1ZVMkpXUlJ1U3BqRlh2X2xNajZpRjVGcTRFX2ZLc20ta3BnZ2VLU1N4alZmLWVfRnZRc1FndmR2UzNZdXAxMGQ4LW4wVXNPZlNBXzlWSkxqTk56eW9QNmUyRVh1cGN5R2ZsREQyTUs0TGt2UWRPOWo3cUQ5WVNJN1VOVkczQ0libEFUUmc?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [
@@ -3426,8 +3835,8 @@
       "Anthropic considers India one of its largest markets with strong developer community",
       "Long-term investment announced in August 2026"
     ],
-    "researched": true,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
     "lineage_id": "anthropic-launches-claude-in-country-inference-in-india-via-aws-bedrock",
     "related_title": "",
     "related_url": "",
@@ -3438,7 +3847,7 @@
     "date": "2026-10-05",
     "event_id": "anthropic-plans-ipo-despite-market-uncertainty-and-ai-slowdown-concerns",
     "title": "Anthropic plans IPO despite market uncertainty and AI slowdown concerns",
-    "summary": "Anthropic is expected to proceed with an initial public offering despite market uncertainty and industry discussion about artificial intelligence slowdown.",
+    "summary": "Anthropic is proceeding toward an initial public offering despite broader market uncertainty and ongoing discussions about AI sector slowdown.",
     "theme": "Funding",
     "importance": 7.5,
     "topics": [
@@ -3451,10 +3860,11 @@
     ],
     "primary_feed": "technology",
     "keywords": [
+      "AI",
       "Anthropic",
       "IPO",
-      "AI",
-      "funding"
+      "funding",
+      "markets"
     ],
     "url": "news/anthropic/2026-10-05/#anthropic-plans-ipo-despite-market-uncertainty-and-ai-slowdown-concerns",
     "sources": [
@@ -3470,8 +3880,8 @@
       }
     ],
     "takeaways": [],
-    "researched": true,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
     "lineage_id": "anthropic-plans-ipo-despite-market-uncertainty-and-ai-slowdown-concerns",
     "related_title": "",
     "related_url": "",
@@ -3712,6 +4122,92 @@
   },
   {
     "date": "2026-10-05",
+    "event_id": "utah-approves-ai-system-to-evaluate-patients-and-write-drug-prescriptions-without-human-review",
+    "title": "Utah approves AI system to evaluate patients and write drug prescriptions without human review",
+    "summary": "Utah approved an AI system from Nolla Health that will evaluate patients for acne treatment and write drug prescriptions without prior human physician review. The pilot initially includes clinician sign-off but may eventually eliminate human review; the program operates under Utah's AI sandbox with regulatory waivers and requires third-party audits.",
+    "theme": "Healthcare AI",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Utah",
+      "AI",
+      "prescriptions",
+      "healthcare automation"
+    ],
+    "url": "news/health/2026-10-05/#utah-approves-ai-system-to-evaluate-patients-and-write-drug-prescriptions-without-human-review",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/05/utah-expands-health-ai-sandbox-picks-third-party-auditors/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Nolla Health AI-powered service for mild-to-moderate acne treatment",
+      "Assesses patients using structured intake and skin photo analysis",
+      "May eventually prescribe drugs without prior human review",
+      "Initial pilot includes licensed clinician review before dispensing",
+      "Nolla raised $4.5 million from General Catalyst and others",
+      "Operates under Utah's AI sandbox program with regulatory waivers",
+      "State will require third-party audits of company claims"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "utah-approves-ai-system-to-evaluate-patients-and-write-drug-prescriptions-without-human-review",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "eli-lillys-jaypirca-approved-as-first-line-chronic-lymphocytic-leukemia-therapy",
+    "title": "Eli Lilly's Jaypirca approved as first-line chronic lymphocytic leukemia therapy",
+    "summary": "The FDA approved Eli Lilly's Jaypirca as a first-line treatment for previously untreated chronic lymphocytic leukemia and small lymphocytic lymphoma on October 5, 2026.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Eli Lilly",
+      "Jaypirca",
+      "FDA approval",
+      "chronic lymphocytic leukemia",
+      "CLL"
+    ],
+    "url": "news/health/2026-10-05/#eli-lillys-jaypirca-approved-as-first-line-chronic-lymphocytic-leukemia-therapy",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/05/biotech-news-lilly-jaypirca-approved-as-first-line-cll-therapy/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "FDA approval date: October 5, 2026",
+      "First-line treatment for previously untreated CLL and SLL"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "eli-lillys-jaypirca-approved-as-first-line-chronic-lymphocytic-leukemia-therapy",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
     "event_id": "weight-loss-drug-research-tipped-for-2026-nobel-medicine-prize",
     "title": "Weight-Loss Drug Research Tipped for 2026 Nobel Medicine Prize",
     "summary": "Research into appetite-regulating hormones is a leading candidate for the 2026 Nobel Prize in Physiology or Medicine.",
@@ -3749,49 +4245,99 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "rejetto-hfs-vulnerability-exploited-in-the-wild",
-    "title": "Rejetto HFS Vulnerability Exploited in the Wild",
-    "summary": "CVE-2026-61500 is a critical vulnerability (CVSS 9.3) in Rejetto HTTP File Server stemming from weak random number generation using xorshift128+, which is mathematically reversible. Attackers can reconstruct the generator's state, forge administrator session cookies, and achieve remote code execution. Horizon3.ai researchers used Anthropic's Mythos AI model to discover the flaw; Rejetto patched in July 2026, but active exploitation from China Telecom IPs began by October 2.",
-    "theme": "Security",
+    "event_id": "forensic-science-reliability-questioned-sniffer-dogs-bloodstain-analysis-ballistics-under-scrutiny",
+    "title": "Forensic science reliability questioned: sniffer dogs, bloodstain analysis, ballistics under scrutiny",
+    "summary": "UBC researcher Sara Gordon published findings challenging the scientific reliability of ballistics evidence, bloodstain pattern analysis, and sniffer dogs commonly used in criminal prosecutions. Ballistics examiners misidentified bullets 37% of the time in practical testing, and sniffer dogs failed to detect drugs following nearly 75% of alerts in an Australian study.",
+    "theme": "Science",
     "importance": 7.5,
     "topics": [
-      "security"
+      "science"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "CVE-2026-61500",
-      "RCE",
-      "Rejetto HFS",
-      "vulnerability"
+      "forensic science",
+      "sniffer dogs",
+      "ballistics",
+      "evidence reliability",
+      "courtroom"
     ],
-    "url": "news/security/2026-10-05/#rejetto-hfs-vulnerability-exploited-in-the-wild",
+    "url": "news/science/2026-10-05/#forensic-science-reliability-questioned-sniffer-dogs-bloodstain-analysis-ballistics-under-scrutiny",
     "sources": [
       {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+        "label": "UBC News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdllGTmUtcklEQ3JRR0drSVlhbnRucjZlVHJtcG1CY3Fldmd6V05PNWJvZnNBRWRaYkNrRFVnbFF0MU5BZV9wbEtDNmNyemM0aWd5ZWZ0Y3pPcDV2TFBSZnNVUEh0eGpPUGxZUkd0bXoyaDFqMVhlVVR5NGJ4U2x6a3RWN0lrYl8tZlJBYnRZVEhRcWxw?oc=5",
         "origin": "research"
       },
       {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-sniffer-dogs-bloodstain-patterns-ballistics.html",
         "origin": "rss"
       }
     ],
     "takeaways": [
-      "CVE-2026-61500: critical vulnerability, CVSS 9.3, affects all versions before 3.2.1",
-      "Weak RNG (xorshift128+) outputs mathematically reversible by attackers",
-      "Enables session cookie forgery and remote code execution via server_code",
-      "Discovered June 2026 using Anthropic's Mythos AI for mathematical analysis",
-      "Rejetto released patch version 3.2.1 on July 13, 2026",
-      "Active exploitation in wild as of October 2, 2026 from China Telecom IPs",
-      "Targeting canaries in Japan and US"
+      "Ballistics: examiners misidentified bullets 37% of the time in testing",
+      "Sniffer dogs: failed to detect drugs following 75% of police alerts (Australian study)",
+      "Chicago court first in US to bar ballistics-matching evidence (2023)",
+      "Supreme Court of Canada justified sniffer dogs based on high accuracy premise—contradicted by research",
+      "Gordon published in Alberta Law Review; two forthcoming articles in Canadian Bar Review and Dalhousie Law Journal",
+      "Research gaps found in all three forensic techniques"
     ],
     "researched": true,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "rejetto-hfs-vulnerability-exploited-in-the-wild",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "forensic-science-reliability-questioned-sniffer-dogs-bloodstain-analysis-ballistics-under-scrutiny",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "florida-keys-coral-disease-mortality-increases-fourfold-during-heat-waves",
+    "title": "Florida Keys coral disease mortality increases fourfold during heat waves",
+    "summary": "University of Georgia research shows disease-afflicted corals in the Florida Keys face approximately four times higher mortality risk during heat stress. The 2023 heatwave brought the highest sea temperatures in 150+ years, and staghorn and elkhorn corals have been reduced to functional extinction with 98–100% mortality rates.",
+    "theme": "Conservation",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "coral reefs",
+      "disease",
+      "heat wave",
+      "Florida Keys",
+      "marine biology"
+    ],
+    "url": "news/science/2026-10-05/#florida-keys-coral-disease-mortality-increases-fourfold-during-heat-waves",
+    "sources": [
+      {
+        "label": "Oceanographic",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYV9ybEFBU1NsOHdNSE92RDk1d29OZnBhSWxVYVhVN0hnb1dFRlhoV2MyU3BTa2d2ZzIwSm9rUFY4MlhOb2dqbHRjNC1VbUpSc3pyYWFFSlpPME92RExPSnFxR05fLVA0N1ItYUZfVDh4a1NBSnYxUnUzVjVuSzEyRWZBY0R3S2JwXzBDSmJFd0x2ekFlcDdVZjctQmNyX1hqR1EzMVU2dUVkQQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-florida-keys-reveals-fourfold-death.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Four times higher mortality when disease-afflicted corals exposed to heat stress",
+      "2023 heatwave: highest recorded sea temperatures in Florida coral reefs in 150+ years",
+      "Heat stress lasted 2–3 months, up to 4x higher than any previously recorded year",
+      "Staghorn and elkhorn corals functionally extinct, too few to reproduce",
+      "Mortality rates: 98–100% in Florida Keys and Dry Tortugas; ~38% further north",
+      "Survey: 52,000+ coral colonies across 391 sites; published in Science"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "florida-keys-coral-disease-mortality-increases-fourfold-during-heat-waves",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3830,6 +4376,101 @@
     "researched": false,
     "received_at": "2026-10-05T12:49:41.902712+00:00",
     "lineage_id": "senate-passes-bipartisan-healthcare-cybersecurity-bill",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "dell-system-update-vulnerability-allows-root-privilege-escalation",
+    "title": "Dell System Update vulnerability allows root privilege escalation",
+    "summary": "Dell disclosed six critical vulnerabilities in its Container Storage Modules affecting authentication and privilege management, with CVSS scores ranging from 9.6 to 10.0. The flaws enable unauthenticated attackers to bypass security entirely, obtain administrator credentials, and escalate to root-level access across storage infrastructure and Kubernetes clusters.",
+    "theme": "Security",
+    "importance": 7.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Dell",
+      "System Update",
+      "vulnerability",
+      "root access",
+      "privilege escalation"
+    ],
+    "url": "news/security/2026-10-05/#dell-system-update-vulnerability-allows-root-privilege-escalation",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcTFGdDlkaV94QW9zX3psbl9wTktqNlZpR214UjB0RVVoa1M0TVdGX09kYS1xeGRwdTI5OFB0X3podmJRWnFFc3haenVpeVdaXzFXLXdEMUVDdjNQZTJWMDBINU5sT1FId2Y5U0hyLTN1ZlN2cjRtYWQ4bnNOdldVcWlB?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Two CVSS 10.0 vulnerabilities (CVE-2026-63688, CVE-2026-63692)",
+      "CVE-2026-63688: missing authentication in gRPC server, affects all five Dell storage product families",
+      "CVE-2026-67269: CVSS 9.9, enables root privilege escalation on cluster nodes",
+      "Hard-coded credentials in CVE-2026-54472 and CVE-2026-61421",
+      "CVE-2026-67273: CVSS 9.6, grants cluster-wide Kubernetes Secrets access",
+      "Recommend rotating JWT signing secrets"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "dell-system-update-vulnerability-allows-root-privilege-escalation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "ai-systems-breakthrough-on-major-mathematics-problems-amid-industry-fanfare",
+    "title": "AI systems breakthrough on major mathematics problems amid industry fanfare",
+    "summary": "OpenAI, Anthropic, and other AI labs announced breakthroughs on longstanding mathematical problems, including progress toward a Millennium Prize problem. However, announcements triggered backlash due to rushed and mishandled rollouts, alienating the mathematics community; OpenAI established an independent advisory group of elite mathematicians to improve release strategy.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "Anthropic",
+      "AI",
+      "mathematics",
+      "Millennium Prize"
+    ],
+    "url": "news/tech/2026-10-05/#ai-systems-breakthrough-on-major-mathematics-problems-amid-industry-fanfare",
+    "sources": [
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "OpenAI, Anthropic, and other labs announced mathematical breakthroughs",
+      "Progress toward resolving a Millennium Prize problem",
+      "Announcements criticized for poor communication and rushed rollouts",
+      "OpenAI established independent advisory group of elite mathematicians",
+      "Mathematics community alienated by chaotic announcement processes",
+      "Concern about impact of large wave of unreleased results on the field"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "ai-systems-breakthrough-on-major-mathematics-problems-amid-industry-fanfare",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4009,6 +4650,204 @@
   },
   {
     "date": "2026-10-05",
+    "event_id": "yemeni-government-forces-recapture-strategic-bab-el-mandeb-strait-from-houthis",
+    "title": "Yemeni government forces recapture strategic Bab el-Mandeb Strait from Houthis",
+    "summary": "Saudi-backed Yemeni government forces launched a major military offensive October 5, recapturing strategic positions including Mocha and areas around the Bab al-Mandeb Strait from Iran-aligned Houthis. The operation, termed 'Dawn of Yemen,' involved 100 fighter jets and aimed to retake all Houthi-held territory and restore state institutions.",
+    "theme": "Geopolitics",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Yemen",
+      "Houthis",
+      "Bab el-Mandeb Strait",
+      "Saudi Arabia",
+      "oil supply"
+    ],
+    "url": "news/world/2026-10-05/#yemeni-government-forces-recapture-strategic-bab-el-mandeb-strait-from-houthis",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeUR2N0t5WlpTWk9kYkljOWdERTlyUlo3RFcyS0dWQmFxUXpMZVBUcm95aDByRWhHbkpNWlhQN3R2RTNHa0hiYXgwRk9NWUN4UGRiNVJvZ1NMcWhkWDV2ZlFNZWtSN1kwN3pvQlhzSXpDRHNKMVRudlROa09jS1A0Y0dnUU9DMV9xNk84ZUFwWHhoOUw3b1VCTzJtVEdZVl9PVWZxUUFEQVRrNDY1cElWSDBIc9IBuAFBVV95cUxOS2JNb1hvM2hkdXIwZ0hyWnJkQk01blV5U0d6LW52MTVwbXBrdFZoeE55enZCaGJmQmdLWmVCdnlfVXBkSm1hWlVsQndOOHlqLVdoVEJfUnQ1aDdXSldDdVlqZWRRVmVuV2ZGa0lBbF9CVV9fUFNBbWdCS2I4bHA2ZTAyQ2dZNDhWYzJfU2w3WU9zbFByelRzMl81UlVBQUs5cVZodEdRTnJrUVl6a0huYkU4RlZkWUdQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPN25nR0ZCeVJZY1YtSUtrVmRIQ3htcy05RGc3ZkRMRkxqVmxBd011TnFzNXh3bTF0NllTSG1FcVpMWTJXdU5oZ1R0OUJRQ2FxTXprZlF0TTFZYkVwUzl1eFp0VUdNU1Jmam1UeVJuSkpvYUxHT1k5dUtNV21tNHdabUVnQ3JEOWpERWNwWjROc084QWVubTR2Mmh1VjVKMXRn?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1haVFNeTZTRmdkcDVNY2RGYmlJaHVCRE1HaUU5VzI2Y091bE1EbFUwbTliVldIcGF6WDBNemtWaXlpbUFhX1QtT1NZQk9id0lQV281YXBhelduQzBt?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSVotTm16YzZEU2xvWHNOcjllZVU1RlNYZjBoUnMzWThDbHRLUmJpUE16d0lSR00xcXRBNXppSGcwZHpjNGd6azFjeVBWSHV5T3lZWG9mZEdMRmhBYzVhMF9seTQ2UnZTa201X3hHb2o1ZHN5alNJRmFPcUdvaWVnX1ZKWFZVYmwyS2huNHg2bG1TNlVNT3RuUk5Mbi1naHRFaFQ0YjRKZ0YtVVUta3V2Q1dmQzN5bTlkZmpV?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Operation 'Dawn of Yemen' launched October 5",
+      "Saudi-led coalition provided 100 fighter jets air support",
+      "Retook Mocha port city and Dhubab, Bab, and Hadeid towns",
+      "Coalition destroyed hundreds of Houthi targets",
+      "Follows September advance when Houthis captured Mocha and nearby territory",
+      "US has defense agreement with Saudi Arabia"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "yemeni-government-forces-recapture-strategic-bab-el-mandeb-strait-from-houthis",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "french-teenager-loses-hand-during-police-confrontation-at-school-protests",
+    "title": "French teenager loses hand during police confrontation at school protests",
+    "summary": "A 15-year-old boy's hand was blown off October 4 during a police confrontation with student protesters near a high school in Lens, France. The incident occurred amid nationwide school protests over building conditions and staffing; conflicting accounts exist whether he caught a sting-ball grenade or it detonated nearby.",
+    "theme": "Civil Unrest",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "France",
+      "school protests",
+      "police",
+      "injuries"
+    ],
+    "url": "news/world/2026-10-05/#french-teenager-loses-hand-during-police-confrontation-at-school-protests",
+    "sources": [
+      {
+        "label": "BBC News",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0eUZUVGl6Z2MyWVVfSlgtQmNVSlItaUs1bjVycEVRZktrb2FQOFdWTFhlTE9ma05EM0RIVGUzTVlZRlplaWphOHhSSzZ1VFBhWUxYRU85c1QzTTA?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0eUZUVGl6Z2MyWVVfSlgtQmNVSlItaUs1bjVycEVRZktrb2FQOFdWTFhlTE9ma05EM0RIVGUzTVlZRlplaWphOHhSSzZ1VFBhWUxYRU85c1QzTTA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Victim: 15-year-old student, hand blown off",
+      "Location: Auguste Béhal high school, Lens (Pas-de-Calais), northern France",
+      "Date: Monday, October 4, 2026",
+      "Approximately 500 schools partially or totally closed nationwide",
+      "Students threw stones, fireworks, mortars at police",
+      "Police union source: grenade appeared caught by student; witness disputed this"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "french-teenager-loses-hand-during-police-confrontation-at-school-protests",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "russian-strike-sinks-turkish-grain-ship-in-black-sea-killing-captain",
+    "title": "Russian strike sinks Turkish grain ship in Black Sea, killing captain",
+    "summary": "A Turkish vessel carrying grain sank in the Black Sea after a Russian drone attack that killed the ship's captain, drawing condemnation from Ukrainian leadership.",
+    "theme": "Military",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Russia",
+      "Ukraine",
+      "Black Sea",
+      "grain",
+      "Turkey"
+    ],
+    "url": "news/world/2026-10-05/#russian-strike-sinks-turkish-grain-ship-in-black-sea-killing-captain",
+    "sources": [
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnUWhOQnA3d1B5LVVocDlvVGpVeWdGQnhib0FMQWZadzQzZ2Y1Q3hiZ2tSYXpSSnM2SDd5YU5xTFdfSUg0aVdlcFB3MVBOVkxyMXgyVUhWMGhMLXc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "russian-strike-sinks-turkish-grain-ship-in-black-sea-killing-captain",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "supreme-court-hears-oil-companies-challenge-to-state-climate-damage-lawsuits",
+    "title": "Supreme Court hears oil companies' challenge to state climate damage lawsuits",
+    "summary": "The US Supreme Court heard oral arguments October 5 in Suncor Energy Inc v County Commissioners of Boulder County, where Suncor and ExxonMobil seek to block state-level climate damage lawsuits. The hearing lasted nearly two hours with five conservative and three liberal justices; legal experts suggest the Court intends to rule on preemption merits rather than jurisdiction.",
+    "theme": "Climate Policy",
+    "importance": 8,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Supreme Court",
+      "climate litigation",
+      "oil companies",
+      "ExxonMobil"
+    ],
+    "url": "news/climate-change/2026-10-05/#supreme-court-hears-oil-companies-challenge-to-state-climate-damage-lawsuits",
+    "sources": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+        "origin": "research"
+      },
+      {
+        "label": "The Guardian — Climate Crisis",
+        "url": "https://www.theguardian.com/us-news/2026/oct/05/supreme-court-big-oil-climate-damage-lawsuits",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Case: Suncor Energy Inc v County Commissioners of Boulder County",
+      "Oral arguments held October 5, 2026",
+      "Justice Samuel Alito recused himself",
+      "Five conservative vs. three liberal justices heard arguments",
+      "Boulder County suing to recover climate crisis costs from oil companies",
+      "Fossil fuel companies argue federal law preempts state court jurisdiction",
+      "Ruling could affect dozens of similar state and local climate cases"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "supreme-court-hears-oil-companies-challenge-to-state-climate-damage-lawsuits",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
     "event_id": "citrix-netscaler-zero-day-exploited-in-targeted-saml-attacks",
     "title": "Citrix NetScaler Zero-Day Exploited in Targeted SAML Attacks",
     "summary": "Citrix released patches for CVE-2026-88779, a high-severity memory overflow vulnerability (CVSS 8.7) in NetScaler ADC and NetScaler Gateway being actively exploited in targeted zero-day attacks. Exploitation requires SAML service provider or identity provider configuration and can cause denial-of-service; CISA ordered federal agencies to patch by October 7.",
@@ -4065,80 +4904,268 @@
   },
   {
     "date": "2026-10-05",
-    "event_id": "us-german-trio-wins-2026-nobel-prize-in-medicine-for-optogenetics",
-    "title": "US-German Trio Wins 2026 Nobel Prize in Medicine for Optogenetics",
-    "summary": "Karl Deisseroth, Peter Hegemann, and Georg Nagel won the 2026 Nobel Prize in Physiology or Medicine for discovering light-gated ion channels and developing optogenetics, a technique combining optical and genetic methods to stimulate neurons non-invasively. Optogenetics has revealed neural circuits governing memory, emotion, and behavior, with clinical applications for treating blindness, depression, Parkinson's disease, and other neurological disorders.",
-    "theme": "Science",
-    "importance": 8.5,
+    "event_id": "rejetto-hfs-servers-targeted-for-critical-rce-vulnerability",
+    "title": "Rejetto HFS servers targeted for critical RCE vulnerability",
+    "summary": "Hackers are actively scanning for CVE-2026-61500, a critical weak signing key vulnerability in Rejetto HFS that enables session forgery, account takeover, and remote code execution.",
+    "theme": "Security",
+    "importance": 8,
     "topics": [
-      "health",
-      "science",
-      "world"
+      "security"
     ],
     "feeds": [
-      "science",
-      "world"
+      "technology"
     ],
-    "primary_feed": "science",
+    "primary_feed": "technology",
     "keywords": [
-      "Deisseroth",
-      "Hegemann",
-      "Medicine",
-      "Nagel",
-      "Nobel Prize",
-      "Physiology",
-      "brain research",
-      "neuroscience",
-      "optogenetics"
+      "Rejetto HFS",
+      "RCE",
+      "CVE-2026-61500",
+      "vulnerability"
     ],
-    "url": "news/health/2026-10-05/#us-german-trio-wins-2026-nobel-prize-in-medicine-for-optogenetics",
+    "url": "news/security/2026-10-05/#rejetto-hfs-servers-targeted-for-critical-rce-vulnerability",
     "sources": [
       {
-        "label": "Deutsche Welle",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVRMVEdKbnM5MFhmTjRQdnFEdm5qSzMydldXU1paSDFoVk5HQ00wWmVjc1FfRDdrQ1pFNXRmQkhZcUQ2MWF3YUJaWHZKQTl2R0lHUkI0RXh1TUt1ekNrOVNnTF84X2kyOWRORHdMbDVFbHlFaWdEQTRROTJkTjE4eDZoVWI5QjlJY0R1WFRR0gGOAUFVX3lxTE41blN6M3pGTlZBQVAwbW9xQVExUnEzS1dxejViYlZGUDdHajE3SUhSck9HZk9XdHFQMDRib2hZNm1uaDRaTzNLUGJDTk9oa2RiYTE0emRjSGZkTVFlM0NLbmRzRklYSDUzMlYtRGNMT0tGQXhVNzhmd25WWWxiZ0tmdVI3aDhRLWNpdk9SMWc?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-german-trio-medicine-nobel-optogenetics.html",
-        "origin": "rss"
-      },
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/?utm_campaign=rss",
-        "origin": "rss"
-      },
-      {
-        "label": "Howard Hughes Medical Institute (HHMI)",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2lhOG95SU13REpOWmxUVWlJclhLaTBQcEZLQzEwWk8tQUFCUGlvT3Z2UUpoSnY3WjJMNVZ4aFNRRk1xTGtqRnowaEpWd2tOcE5fZUVGbEpXZnhjZ1dGdW5hTVItRHQzcTc4WFZuNHZXRlRXUWgzUnZuaDV5UkdjNGJnNFk?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "KIMT News 3",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQY3pyanZZNURsV1dkbjVPV3RTVWRiWmNqUE9mRlpHbXg1Vno1Vi15Tk1lSkN3QjNaaDlNUV9yWUFQaGlPN1M2STk3NEpNOGxSYnhEcWlSRS1lUHZ3SUVxRWdoZ3Y3ekduUWZEWXgxLXVuajc3eXhaQTVQWWhPUklKbmdOWW1adDIyUndhaTIxMGFDbVdqWnhVM3FES0s0LU40WWl5WnU0cmtUMC1idFVlY0xnVFNEOVNBQVI4NUxybURhZC1SVkhLUk9IM25nNFhlVzk5Wldjc1gyVWJlby03TnhfYXhOSlZfWGFVVXZCQ1d2b2ptZzRn?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZeGpXS210X1AwMEZhalh2TnNzazNuR0dkang5bnVmLUw1SThBMVpYRXRLMmRvcmJmNlpIQXJTRi0waDBycFM4RVA1UUo2U3pvY3dMWmRnT0wwR2NUSE5XUjhiNnk?oc=5",
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/rejetto-hfs-servers-now-actively-scanned-for-critical-rce-flaw/",
         "origin": "rss"
       }
     ],
     "takeaways": [
-      "Three recipients: Deisseroth (Stanford), Hegemann (Humboldt), Nagel (Würzburg)",
-      "Optogenetics uses light to control individual neurons within milliseconds",
-      "Potential applications: blindness restoration, depression, Parkinson's, epilepsy, dementia",
-      "Prize worth 12 million Swedish kronor (~€1M or $1.2M)",
-      "Awards presentation December 10, 2026 in Stockholm",
-      "Discovered channelrhodopsin: light-sensitive protein from algae",
-      "Enables neuron control within milliseconds using blue light pulses",
-      "Maps neural circuits governing behaviors, memories, feelings, disease states",
-      "Deisseroth HHMI Investigator since 2014; 36th current/alumni HHMI Nobel laureate",
-      "Optogenetics now used worldwide; transformed neuroscience research"
+      "CVE-2026-61500: critical vulnerability, CVSS 9.3, affects all versions before 3.2.1",
+      "Weak RNG (xorshift128+) outputs mathematically reversible by attackers",
+      "Enables session cookie forgery and remote code execution via server_code",
+      "Discovered June 2026 using Anthropic's Mythos AI for mathematical analysis",
+      "Rejetto released patch version 3.2.1 on July 13, 2026",
+      "Active exploitation in wild as of October 2, 2026 from China Telecom IPs",
+      "Targeting canaries in Japan and US"
+    ],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "rejetto-hfs-vulnerability-exploited-in-the-wild",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Rejetto HFS Vulnerability Exploited in the Wild",
+    "updates_url": "news/security/2026-10-05/#rejetto-hfs-vulnerability-exploited-in-the-wild"
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "microsoft-exchange-server-flaw-allows-authenticated-attackers-to-read-other-mailboxes",
+    "title": "Microsoft Exchange Server flaw allows authenticated attackers to read other mailboxes",
+    "summary": "Microsoft released emergency security updates on October 2 for CVE-2026-96940, a high-severity Exchange Server flaw allowing authenticated attackers to escalate privileges and read other users' mailboxes. The vulnerability affects on-premises versions but not Exchange Online, which received a server-side fix.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft Exchange",
+      "CVE-2026-96940",
+      "vulnerability",
+      "privilege escalation"
+    ],
+    "url": "news/security/2026-10-05/#microsoft-exchange-server-flaw-allows-authenticated-attackers-to-read-other-mailboxes",
+    "sources": [
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "CVSS 8.8 severity rating",
+      "Affects Exchange Server 2016 CU23, 2019 CU15, and CU14",
+      "Allows authenticated attackers to access other mailboxes within same organization",
+      "No cross-tenant access possible",
+      "Exploitability assessment: 'More Likely'",
+      "No active exploitation observed yet"
     ],
     "researched": true,
-    "received_at": "2026-10-05T12:49:41.902712+00:00",
-    "lineage_id": "us-german-trio-wins-2026-nobel-prize-in-medicine-for-optogenetics",
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "microsoft-exchange-server-flaw-allows-authenticated-attackers-to-read-other-mailboxes",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "astronomers-confirm-elias-2-24b-as-youngest-exoplanet-under-1-million-years-old",
+    "title": "Astronomers confirm Elias 2-24b as youngest exoplanet under 1 million years old",
+    "summary": "Astronomers confirmed Elias 2-24b as the youngest known exoplanet at less than 1 million years old, potentially reshaping understanding of planetary formation theory.",
+    "theme": "Space",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "exoplanet",
+      "Elias 2-24b",
+      "planetary formation",
+      "astronomy"
+    ],
+    "url": "news/tech/2026-10-05/#astronomers-confirm-elias-2-24b-as-youngest-exoplanet-under-1-million-years-old",
+    "sources": [
+      {
+        "label": "NASA Science",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWURWS0dUQ0s0azVvbnRCYjdjbE8zRUlSb0tpVkQyb2VZWjdkY0NCSVJic21uWm05QWJ1NVMyOV9sUVhhM0g2eDYzOWZ5MEZtcEpQd3JvMzRMYlEzYUgtZmlLUVNLZ0RhUExRNGllbXZPOVRDYnF1d2tHcDliTlRObHk2OXlRVGMwQnhjaExid2NKc2JJSmtlZXgydw?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Wired",
+        "url": "https://www.wired.com/story/astronomers-confirm-discovery-of-youngest-known-exoplanet-ever/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Exoplanet: Elias 2-24b",
+      "Age: less than 1 million years (youngest known exoplanet)",
+      "Discovery potentially reshapes planetary formation theory"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "astronomers-confirm-elias-2-24b-as-youngest-exoplanet-under-1-million-years-old",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "attacks-in-gulf-escalate-energy-trade-concerns-amid-iran-tensions",
+    "title": "Attacks in Gulf escalate energy trade concerns amid Iran tensions",
+    "summary": "A surge of attacks and threats in the Persian Gulf is escalating energy trade concerns amid Iran-related tensions. Shipping through the Strait of Hormuz collapsed dramatically, with only three vessels transiting Thursday—the lowest daily figure since May—as military activity and closures continue across the region.",
+    "theme": "Geopolitics",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Persian Gulf",
+      "Iran",
+      "energy trade",
+      "shipping"
+    ],
+    "url": "news/world/2026-10-05/#attacks-in-gulf-escalate-energy-trade-concerns-amid-iran-tensions",
+    "sources": [
+      {
+        "label": "Newsweek",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQVF0UEZvaGM0TW1makVZTkJJbW8xT1gyTEZONEx4SjRVdmNsT29QNVdhTDhFYkl6Z2ZMZHpydk5hWjktd1NtLWZZNU9tNDFUSjVENExMbXBraVg5ZnF2b3ZZSWJSMVNRZ1FNYVAwaElOSTlpNWt0M184ejVCbjJzUDZvTGRLMWZlQVdJZ0lnMjVJWDQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "MEO",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNnlLSHRsZ0pVdWNFLTl5YUcycmlKMjRfbFpwelhJN2NyWHRaazgtejRGZ2hGbVBvcHdGSHlQOGhoRjJZRkdGcjI1MU81NW13aGQ1R1M3RWtCbGFVU2Vhc2lOc2pRbHY5M25DTkcxaWhjY0FhcHFkZzI2WHZxb0Fvc2p3RUU1TVlMWFhvUHVIX1FwNTdETzhrYkhhR3gyd2J2TnRQTnZ1NEFjUTQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Syrian Arab News Agency (SANA)",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XYzlBYTRfczMxN0NpejNxX1VGazBrMGNfY01NZktNbzBhZ2dzTGFxMUVOQ0NQc3haTnV1M3ZoczR1Y3BESWsyNVJZb2pxTGdkSW9n?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4ajBtams1a2R0aEhOYkdTOGcwbGU0Vm9vTDQ4Q0ZrU2tFRFdQN2FSdHBNWlJUTEw5SHg4WS1BbHk2VTRlUlFMcFJ0aFFjSFZzcElxaWJyRURFQnhrZE5ZY2t3UTA5VU9mZVc5S3NZcVh2VmNiTVM0Z0JlR3k2U2M?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "US State Department issued worldwide travel alert Saturday",
+      "Iranian strike in Jordan killed two US service members, one missing",
+      "Strait of Hormuz transit fell to 3 vessels Thursday vs. 125-vessel daily average pre-escalation",
+      "No very large crude carriers or LNG carriers transited Thursday for second consecutive day",
+      "Chemical tanker Asana boarded by armed individuals in Gulf of Aden",
+      "Tanker struck by unidentified projectile 19 nautical miles east of Khasab, Oman"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "attacks-in-gulf-escalate-energy-trade-concerns-amid-iran-tensions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "ukraine-claims-destruction-of-over-half-of-russias-oil-refining-capacity-through-strikes",
+    "title": "Ukraine claims destruction of over half of Russia's oil refining capacity through strikes",
+    "summary": "Ukraine claims its deep strikes have knocked out approximately 51 percent of Russia's operational oil refining capacity.",
+    "theme": "Military",
+    "importance": 8.0,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "oil refining",
+      "military strikes"
+    ],
+    "url": "news/world/2026-10-05/#ukraine-claims-destruction-of-over-half-of-russias-oil-refining-capacity-through-strikes",
+    "sources": [
+      {
+        "label": "AP News",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbHBMQ1lhemxPY0lqY1hLcTBHRFdTV1hYcDh2STRFOVdoVndhR2dTSkFsRjczMzFMX0tIc0ZDWS1rVHI4WFJZUGRjU25nSnBLQzNYU3pJN1Fhd28wMU9PaTBqLVZaN3FDM05rQ3NzVjBvM3pPb2JpaXlHMGpBTm9aSnRJdVl2TndJVFQ4WjhYOHVrN2xS?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "ukraine-claims-destruction-of-over-half-of-russias-oil-refining-capacity-through-strikes",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "russia-transfers-ukrainian-children-from-occupied-territories-for-indoctrination-and-assimilation",
+    "title": "Russia transfers Ukrainian children from occupied territories for indoctrination and assimilation",
+    "summary": "Russian forces have relocated children from occupied Ukrainian regions to Russian territory for cultural assimilation and military-related purposes as part of broader occupation strategy.",
+    "theme": "War Crimes",
+    "importance": 8.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "children",
+      "occupation",
+      "war crimes"
+    ],
+    "url": "news/science/2026-10-05/#russia-transfers-ukrainian-children-from-occupied-territories-for-indoctrination-and-assimilation",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-russia-ukraine-children-occupation-wider.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "russia-transfers-ukrainian-children-from-occupied-territories-for-indoctrination-and-assimilation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4197,6 +5224,102 @@
     "researched": true,
     "received_at": "2026-10-05T12:49:41.902712+00:00",
     "lineage_id": "denmarks-cpr-database-breach-exposes-88-million-citizens-personal-data",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-05",
+    "event_id": "optogenetics-breakthrough-earns-physiology-nobel-prize",
+    "title": "Optogenetics breakthrough earns physiology Nobel Prize",
+    "summary": "The 2026 Nobel Prize in Physiology or Medicine was awarded to Karl Deisseroth, Peter Hegemann, and Georg Nagel for developing optogenetics, a technique using light to control nerve cell activity. The field originated from research on light-seeking algae and enables precise observation of what specialized neurons do without physical brain damage.",
+    "theme": "Neuroscience",
+    "importance": 9,
+    "topics": [
+      "health",
+      "science",
+      "tech",
+      "world"
+    ],
+    "feeds": [
+      "science",
+      "technology",
+      "world"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Deisseroth",
+      "Hegemann",
+      "Medicine",
+      "Nagel",
+      "Nobel Prize",
+      "Physiology",
+      "brain",
+      "brain research",
+      "light control",
+      "neuroscience",
+      "optogenetics"
+    ],
+    "url": "news/tech/2026-10-05/#optogenetics-breakthrough-earns-physiology-nobel-prize",
+    "sources": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+        "origin": "research"
+      },
+      {
+        "label": "Deutsche Welle",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYVRMVEdKbnM5MFhmTjRQdnFEdm5qSzMydldXU1paSDFoVk5HQ00wWmVjc1FfRDdrQ1pFNXRmQkhZcUQ2MWF3YUJaWHZKQTl2R0lHUkI0RXh1TUt1ekNrOVNnTF84X2kyOWRORHdMbDVFbHlFaWdEQTRROTJkTjE4eDZoVWI5QjlJY0R1WFRR0gGOAUFVX3lxTE41blN6M3pGTlZBQVAwbW9xQVExUnEzS1dxejViYlZGUDdHajE3SUhSck9HZk9XdHFQMDRib2hZNm1uaDRaTzNLUGJDTk9oa2RiYTE0emRjSGZkTVFlM0NLbmRzRklYSDUzMlYtRGNMT0tGQXhVNzhmd25WWWxiZ0tmdVI3aDhRLWNpdk9SMWc?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-german-trio-medicine-nobel-optogenetics.html",
+        "origin": "rss"
+      },
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/05/nobel-prize-medicine-2026-winner-deisseroth-hegemann-nagel/?utm_campaign=rss",
+        "origin": "rss"
+      },
+      {
+        "label": "Howard Hughes Medical Institute (HHMI)",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU2lhOG95SU13REpOWmxUVWlJclhLaTBQcEZLQzEwWk8tQUFCUGlvT3Z2UUpoSnY3WjJMNVZ4aFNRRk1xTGtqRnowaEpWd2tOcE5fZUVGbEpXZnhjZ1dGdW5hTVItRHQzcTc4WFZuNHZXRlRXUWgzUnZuaDV5UkdjNGJnNFk?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "KIMT News 3",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQY3pyanZZNURsV1dkbjVPV3RTVWRiWmNqUE9mRlpHbXg1Vno1Vi15Tk1lSkN3QjNaaDlNUV9yWUFQaGlPN1M2STk3NEpNOGxSYnhEcWlSRS1lUHZ3SUVxRWdoZ3Y3ekduUWZEWXgxLXVuajc3eXhaQTVQWWhPUklKbmdOWW1adDIyUndhaTIxMGFDbVdqWnhVM3FES0s0LU40WWl5WnU0cmtUMC1idFVlY0xnVFNEOVNBQVI4NUxybURhZC1SVkhLUk9IM25nNFhlVzk5Wldjc1gyVWJlby03TnhfYXhOSlZfWGFVVXZCQ1d2b2ptZzRn?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZeGpXS210X1AwMEZhalh2TnNzazNuR0dkang5bnVmLUw1SThBMVpYRXRLMmRvcmJmNlpIQXJTRi0waDBycFM4RVA1UUo2U3pvY3dMWmRnT0wwR2NUSE5XUjhiNnk?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "2026 Nobel Prize recipients: Karl Deisseroth, Peter Hegemann, Georg Nagel",
+      "Optogenetics: uses light to control nerve cell activity",
+      "Originated from research on Chlamydomonas algae attracted to light",
+      "Hijacks ion channels to activate/deactivate neurons via light stimulation",
+      "Overcomes limitations of genetic deletion and physical brain damage methods",
+      "Allows activation and shutdown of neurons marked by individual gene activity",
+      "Three recipients: Deisseroth (Stanford), Hegemann (Humboldt), Nagel (Würzburg)",
+      "Optogenetics uses light to control individual neurons within milliseconds",
+      "Potential applications: blindness restoration, depression, Parkinson's, epilepsy, dementia",
+      "Prize worth 12 million Swedish kronor (~€1M or $1.2M)",
+      "Awards presentation December 10, 2026 in Stockholm",
+      "Discovered channelrhodopsin: light-sensitive protein from algae",
+      "Enables neuron control within milliseconds using blue light pulses",
+      "Maps neural circuits governing behaviors, memories, feelings, disease states",
+      "Deisseroth HHMI Investigator since 2014; 36th current/alumni HHMI Nobel laureate",
+      "Optogenetics now used worldwide; transformed neuroscience research"
+    ],
+    "researched": true,
+    "received_at": "2026-10-05T21:16:22.322131+00:00",
+    "lineage_id": "optogenetics-breakthrough-earns-physiology-nobel-prize",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
