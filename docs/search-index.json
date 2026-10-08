@@ -224,43 +224,6 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "context-engineering-emerges-as-framework-for-building-reliable-ai-systems",
-    "title": "Context Engineering emerges as framework for building reliable AI systems",
-    "summary": "Context Engineering is positioned as a new architectural approach to developing more reliable and robust AI systems.",
-    "theme": "AI",
-    "importance": 5.0,
-    "topics": [
-      "ai"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "context engineering",
-      "AI reliability",
-      "prompt design",
-      "system architecture"
-    ],
-    "url": "news/ai/2026-10-07/#context-engineering-emerges-as-framework-for-building-reliable-ai-systems",
-    "sources": [
-      {
-        "label": "Bioengineer.org",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdHdjN1hyRko4ajNNQlozM1llX1ZYcHdIa3RBNDVrNWJRUVVhXzRIVGVlX09TWVFaaXlkZzlJNDJHMXltQWFGUjJacFQ2UUdiTFJKWDQ0dnlTc2U0TEhLNHo5OGNNREhSSHEyaUd1MnVRRW5HS0VYTUIwNGo3bng0YW0wRXpGRHpOeG9wcnBiN2Z6SmhEV1p0MXpWdlRWR3c1WjNLRkpTUDZuQQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "context-engineering-emerges-as-framework-for-building-reliable-ai-systems",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
     "event_id": "dbtune-autonomous-optimization-tool-resolves-postgresql-performance-bottlenecks",
     "title": "DBtune autonomous optimization tool resolves PostgreSQL performance bottlenecks",
     "summary": "DBtune offers autonomous query and index optimization to eliminate performance bottlenecks in PostgreSQL databases.",
@@ -292,6 +255,44 @@
     "researched": false,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "dbtune-autonomous-optimization-tool-resolves-postgresql-performance-bottlenecks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "nebius-launches-managed-postgresql-optimized-for-ai-workloads",
+    "title": "Nebius Launches Managed PostgreSQL Optimized for AI Workloads",
+    "summary": "Nebius has built a managed PostgreSQL service tailored specifically for artificial intelligence and machine learning workloads.",
+    "theme": "Database & Infrastructure",
+    "importance": 5,
+    "topics": [
+      "postgres"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "PostgreSQL",
+      "Nebius",
+      "managed database",
+      "AI",
+      "infrastructure"
+    ],
+    "url": "news/postgres/2026-10-07/#nebius-launches-managed-postgresql-optimized-for-ai-workloads",
+    "sources": [
+      {
+        "label": "Nebius",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16LS1BNXNZTm5nWXVycFN4ekFNcm1rN2pGQ2E3SGJQOG1kV01Ba2R3SkFSeW1EOE5EVG9SbGFGMUEtdkxkMTNTVlpGNlhVN1FHVW1ZdWI0VHB2YktvZkplRGpFTmZWcDY2b3pQdUlhcVNDZjQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "nebius-launches-managed-postgresql-optimized-for-ai-workloads",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -442,6 +443,44 @@
     "researched": false,
     "received_at": "2026-10-07T12:09:57.968237+00:00",
     "lineage_id": "jan-ai-enables-offline-local-llm-execution-on-mac-without-account-requirements",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "nuix-launches-neo-generative-ai-framework-for-governed-llm-deployment",
+    "title": "Nuix Launches Neo Generative AI Framework for Governed LLM Deployment",
+    "summary": "Nuix announces a new framework designed to enable controlled and governed use of large language models.",
+    "theme": "AI",
+    "importance": 5.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Nuix",
+      "Neo",
+      "framework",
+      "LLM",
+      "governance"
+    ],
+    "url": "news/ai/2026-10-07/#nuix-launches-neo-generative-ai-framework-for-governed-llm-deployment",
+    "sources": [
+      {
+        "label": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ0lic3lrZVRzaWFqVXV5OEttRnV3V2p3Ukl3VEFiN25ZQXktbVFKT2IxYnYyQVVTbHY0SjJBQ1lIXzNWWVlqTzc0SzFCNmpoUTJhdWlkcmtGd0ZTUDh2SWlvQUo5Y3ltUkZSbU5taDh6TVh0eTZidWs3OC1UMHZSS3YtbWRIZzJQNGliYmx3?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "nuix-launches-neo-generative-ai-framework-for-governed-llm-deployment",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -688,44 +727,6 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "tree-navigation-without-llm-summaries-improves-hierarchical-retrieval-for-long-document-qa",
-    "title": "Tree navigation without LLM summaries improves hierarchical retrieval for long-document QA",
-    "summary": "A study demonstrates that hierarchical tree-based retrieval without pre-computed summaries improves question-answering over long documents.",
-    "theme": "AI Research",
-    "importance": 5.5,
-    "topics": [
-      "tech-research"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "retrieval",
-      "question answering",
-      "long documents",
-      "hierarchical",
-      "LLM"
-    ],
-    "url": "news/tech-research/2026-10-07/#tree-navigation-without-llm-summaries-improves-hierarchical-retrieval-for-long-document-qa",
-    "sources": [
-      {
-        "label": "arXiv — Computation and Language",
-        "url": "https://arxiv.org/abs/2610.06902",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "tree-navigation-without-llm-summaries-improves-hierarchical-retrieval-for-long-document-qa",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
     "event_id": "study-finds-major-llms-frequently-disagree-on-brand-mentions-in-queries",
     "title": "Study finds major LLMs frequently disagree on brand mentions in queries",
     "summary": "Research reveals that leading LLMs disagree on brand mention handling in more than one in four evaluation queries.",
@@ -848,58 +849,6 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "194-year-old-tortoise-jonathan-reveals-genetic-stability-secrets-for-resisting-aging",
-    "title": "194-year-old tortoise Jonathan reveals genetic stability secrets for resisting aging",
-    "summary": "Scientists studying Jonathan, a giant tortoise who lived 194 years, discovered stable gene switches and minimal genetic wear that may explain extreme longevity.",
-    "theme": "Science",
-    "importance": 6,
-    "topics": [
-      "conservation",
-      "science"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Jonathan",
-      "Jonathan tortoise",
-      "aging",
-      "epigenetics",
-      "genetics",
-      "longevity",
-      "tortoise"
-    ],
-    "url": "news/conservation/2026-10-07/#194-year-old-tortoise-jonathan-reveals-genetic-stability-secrets-for-resisting-aging",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/animals/turtles-tortoises/scientists-discover-the-genetic-secrets-that-may-have-helped-jonathan-the-tortoise-live-to-194-years-old",
-        "origin": "rss"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-year-tortoise-reveals-stable-gene.html",
-        "origin": "rss"
-      },
-      {
-        "label": "Science Advances",
-        "url": "https://www.science.org/doi/abs/10.1126/sciadv.adw8887?af=R",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "194-year-old-tortoise-jonathan-reveals-genetic-stability-secrets-for-resisting-aging",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
     "event_id": "marine-biodiversity-redistribution-in-21st-century-expanding-role-of-rare-species",
     "title": "Marine Biodiversity Redistribution in 21st Century: Expanding Role of Rare Species",
     "summary": "Global analysis shows that marine species are redistributing across ocean regions, with rare species taking on increasingly important ecological roles.",
@@ -1007,44 +956,6 @@
     "researched": false,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "engineered-human-trilayer-blood-vessel-models-hutchinson-gilford-progeria-disease",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "embryonic-development-resolves-origin-of-theropod-wishbone",
-    "title": "Embryonic development resolves origin of theropod wishbone",
-    "summary": "Embryological studies clarify the developmental origin of the wishbone in theropod dinosaurs.",
-    "theme": "Evolutionary Biology",
-    "importance": 6.0,
-    "topics": [
-      "conservation"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "theropod",
-      "wishbone",
-      "embryonic development",
-      "dinosaur evolution"
-    ],
-    "url": "news/conservation/2026-10-07/#embryonic-development-resolves-origin-of-theropod-wishbone",
-    "sources": [
-      {
-        "label": "Science Advances",
-        "url": "https://www.science.org/doi/abs/10.1126/sciadv.aeh7555?af=R",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "embryonic-development-resolves-origin-of-theropod-wishbone",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1170,87 +1081,6 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "openai-enhances-chatgpt-health-care-capabilities-with-expert-guidance",
-    "title": "OpenAI Enhances ChatGPT Health-Care Capabilities With Expert Guidance",
-    "summary": "OpenAI is improving ChatGPT's ability to discuss health topics by incorporating guidance from medical professionals.",
-    "theme": "AI",
-    "importance": 6.0,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "ChatGPT",
-      "healthcare",
-      "medical AI"
-    ],
-    "url": "news/gpt/2026-10-07/#openai-enhances-chatgpt-health-care-capabilities-with-expert-guidance",
-    "sources": [
-      {
-        "label": "Business Insider",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcTk0M0dnRWM4dGN0ZkhDYXNuMHNqYWJmRnJvUVh1dURpWGt0UmFhTDcyOEtDb0pmREF3UE9udzhpSEQtUERiNFYyUTRUXzByWHZaUEJXcC05ZERaTTNaQ3FZR3FIUXFMTy15U2RlTUxYZE9mX0VYQUc3dFA4VVh5RGdn?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "openai-enhances-chatgpt-health-care-capabilities-with-expert-guidance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "cannabis-induced-anxiety-linked-to-reduced-neural-braking-in-fear-center",
-    "title": "Cannabis-induced anxiety linked to reduced neural braking in fear center",
-    "summary": "Mouse studies reveal that cannabinoids may intensify anxiety by removing a natural inhibitory brake on specific neurons in the amygdala.",
-    "theme": "Neuroscience",
-    "importance": 6.0,
-    "topics": [
-      "health",
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "cannabis",
-      "anxiety",
-      "amygdala",
-      "neuroscience",
-      "cannabinoids"
-    ],
-    "url": "news/health/2026-10-07/#cannabis-induced-anxiety-linked-to-reduced-neural-braking-in-fear-center",
-    "sources": [
-      {
-        "label": "ScienceDaily",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261003234021.htm",
-        "origin": "rss"
-      },
-      {
-        "label": "ScienceDaily — Health",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261003234021.htm",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "cannabis-induced-anxiety-linked-to-reduced-neural-braking-in-fear-center",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
     "event_id": "stock-markets-ai-rally-faces-three-major-headwinds",
     "title": "Stock market's AI rally faces three major headwinds",
     "summary": "The artificial intelligence-driven stock market rally is facing significant challenges on multiple fronts.",
@@ -1318,43 +1148,6 @@
     "researched": false,
     "received_at": "2026-10-07T12:09:57.968237+00:00",
     "lineage_id": "warren-buffett-warns-investors-amid-stock-market-crash-fears",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "vix-remains-low-as-stock-markets-declinemarket-divergence-explained",
-    "title": "VIX Remains Low as Stock Markets Decline—Market Divergence Explained",
-    "summary": "Equity markets are falling despite the VIX volatility index staying calm, raising questions about whether investors should be concerned.",
-    "theme": "Markets",
-    "importance": 6,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "VIX",
-      "volatility",
-      "stocks",
-      "market risk"
-    ],
-    "url": "news/markets/2026-10-07/#vix-remains-low-as-stock-markets-declinemarket-divergence-explained",
-    "sources": [
-      {
-        "label": "Benzinga",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMERFZ1lvVWM0TFdrdFVMWjQ1WDNNZ2pxNHdUSENOeTlHbEMyUjdyU284UkI3dy1uUzJDRm43aTFKZktJNkNvczB2U0xUdVBDaW56dDVyM0hhSGphaVdKX24xOUlDaldOOXF5ZjJDYUM5dnI3VVhKMmdheUFpQmZjcA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "vix-remains-low-as-stock-markets-declinemarket-divergence-explained",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1579,6 +1372,43 @@
     "researched": false,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "georgia-tech-launches-online-masters-degree-in-artificial-intelligence",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "mit-concourse-program-emphasizes-humanistic-inquiry-and-judgment-in-computing-education",
+    "title": "MIT Concourse Program Emphasizes Humanistic Inquiry and Judgment in Computing Education",
+    "summary": "MIT's Concourse program trains students to engage deeply with humanistic questions and develop judgment on issues that cannot be quantified.",
+    "theme": "Education",
+    "importance": 6,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "MIT",
+      "humanities",
+      "higher education",
+      "critical thinking"
+    ],
+    "url": "news/tech-research/2026-10-07/#mit-concourse-program-emphasizes-humanistic-inquiry-and-judgment-in-computing-education",
+    "sources": [
+      {
+        "label": "MIT — Artificial Intelligence",
+        "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "mit-concourse-program-emphasizes-humanistic-inquiry-and-judgment-in-computing-education",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1897,48 +1727,6 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "claude-haiku-55-released",
-    "title": "Claude Haiku 5.5 released",
-    "summary": "Anthropic has released Claude Haiku 5.5, a new variant of its Claude model.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "anthropic",
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "Claude Haiku",
-      "model release"
-    ],
-    "url": "news/anthropic/2026-10-07/#claude-haiku-55-released",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.anthropic.com/claude-haiku-5-5",
-        "origin": "rss"
-      },
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "claude-haiku-55-released",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
     "event_id": "international-whaling-commission-rejects-commercial-whaling-revival",
     "title": "International Whaling Commission rejects commercial whaling revival",
     "summary": "The International Whaling Commission defeated a controversial resolution to reopen commercial whaling after the measure was withdrawn on the final day of the meeting.",
@@ -1970,122 +1758,6 @@
     "researched": false,
     "received_at": "2026-10-07T12:09:57.968237+00:00",
     "lineage_id": "international-whaling-commission-rejects-commercial-whaling-revival",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "scientists-urge-consumers-to-stop-buying-antarctic-krill-products",
-    "title": "Scientists Urge Consumers to Stop Buying Antarctic Krill Products",
-    "summary": "Scientists are calling for an end to consumer purchases of products derived from Antarctic krill, which underpin the Southern Ocean food web.",
-    "theme": "Conservation",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "Antarctic krill",
-      "overfishing",
-      "marine conservation",
-      "food web"
-    ],
-    "url": "news/climate-change/2026-10-07/#scientists-urge-consumers-to-stop-buying-antarctic-krill-products",
-    "sources": [
-      {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/07102026/scientists-urge-boycott-of-antarctic-krill-products/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "scientists-urge-consumers-to-stop-buying-antarctic-krill-products",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "russian-lab-technicians-death-from-plague-triggers-quarantines-and-international-scrutiny",
-    "title": "Russian lab technician's death from plague triggers quarantines and international scrutiny",
-    "summary": "A 28-year-old technician at an Irkutsk anti-plague laboratory died, prompting regional quarantines and concerns over transparency.",
-    "theme": "Health",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "plague",
-      "Russia",
-      "laboratory",
-      "Irkutsk",
-      "quarantine"
-    ],
-    "url": "news/climate-change/2026-10-07/#russian-lab-technicians-death-from-plague-triggers-quarantines-and-international-scrutiny",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/10/death-of-anti-plague-lab-worker-in-russia-prompts-quarantines-and-international-concern/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "russian-lab-technicians-death-from-plague-triggers-quarantines-and-international-scrutiny",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "arabian-sea-humpback-whales-identified-as-unique-subspecies-at-extinction-risk",
-    "title": "Arabian Sea humpback whales identified as unique subspecies at extinction risk",
-    "summary": "Genetic analysis reveals Arabian Sea humpback whales are a distinct subspecies that evolved in isolation and now face extinction risk.",
-    "theme": "Conservation",
-    "importance": 6.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "humpback whales",
-      "Arabian Sea",
-      "subspecies",
-      "genetics",
-      "extinction"
-    ],
-    "url": "news/climate-change/2026-10-07/#arabian-sea-humpback-whales-identified-as-unique-subspecies-at-extinction-risk",
-    "sources": [
-      {
-        "label": "Mongabay",
-        "url": "https://news.mongabay.com/short-article/2026/10/arabian-sea-humpbacks-may-be-a-unique-subspecies-at-risk-of-extinction/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "arabian-sea-humpback-whales-identified-as-unique-subspecies-at-extinction-risk",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2246,6 +1918,66 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "jonathan-the-giant-tortoise-at-194-years-reveals-aging-and-longevity-secrets",
+    "title": "Jonathan the Giant Tortoise at 194 Years Reveals Aging and Longevity Secrets",
+    "summary": "Scientists analyzing the DNA of Jonathan, a 194-year-old giant tortoise, have uncovered insights into the biological mechanisms of aging and extreme longevity.",
+    "theme": "Biology & Longevity",
+    "importance": 6.5,
+    "topics": [
+      "conservation",
+      "science",
+      "world"
+    ],
+    "feeds": [
+      "environment",
+      "science",
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Jonathan",
+      "Jonathan tortoise",
+      "aging",
+      "epigenetics",
+      "genetics",
+      "gerontology",
+      "longevity",
+      "tortoise"
+    ],
+    "url": "news/conservation/2026-10-07/#jonathan-the-giant-tortoise-at-194-years-reveals-aging-and-longevity-secrets",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWmo2MmhTVE9VOHViMjY5dUt3TldZZXlMemF5VUZjWVoyYzlZMjZGV3d1NWRoOExXbHBaUFpZMVVpdm9WSUNaSFFPN1cyNDJMdzdmNWs5MThmb18xQ0dlTWh1OHBJZEp0bmVWTW5LaWRuMWlmTG5FanNvN3cwTmlrem9WU0VUbDFveUxtTQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Live Science",
+        "url": "https://www.livescience.com/animals/turtles-tortoises/scientists-discover-the-genetic-secrets-that-may-have-helped-jonathan-the-tortoise-live-to-194-years-old",
+        "origin": "rss"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-year-tortoise-reveals-stable-gene.html",
+        "origin": "rss"
+      },
+      {
+        "label": "Science Advances",
+        "url": "https://www.science.org/doi/abs/10.1126/sciadv.adw8887?af=R",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "jonathan-the-giant-tortoise-at-194-years-reveals-aging-and-longevity-secrets",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "attackers-hide-ai-prompt-injection-attacks-inside-phishing-email-bodies",
     "title": "Attackers hide AI prompt injection attacks inside phishing email bodies",
     "summary": "Threat actors are embedding AI prompt injection payloads directly within phishing email content to compromise AI-based security systems.",
@@ -2285,7 +2017,7 @@
     "date": "2026-10-07",
     "event_id": "common-sense-media-flags-chatgpt-for-teens-as-unacceptable-safety-risk",
     "title": "Common Sense Media flags ChatGPT for Teens as unacceptable safety risk",
-    "summary": "A New York Times investigation found concerning patterns in conversations with OpenAI's ChatGPT product designed for teenagers.",
+    "summary": "Youth media watchdog Common Sense Media has assigned ChatGPT for Teens an unacceptable risk rating for young users.",
     "theme": "Safety & Policy",
     "importance": 6.5,
     "topics": [
@@ -2299,8 +2031,10 @@
     "keywords": [
       "ChatGPT",
       "ChatGPT for Teens",
+      "Common Sense Media",
       "OpenAI",
       "content moderation",
+      "parental guidance",
       "teen AI safety",
       "teen safety",
       "youth content"
@@ -2331,11 +2065,16 @@
         "label": "The New York Times",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTWtwVUZ2WTRoazkxYTdQVmhIM2ZfM2RRVDhJQXI5NkhDbmxxUGdHSjA2T21kcThhTzQyemp5QUVSYVd6ak5nNzFVRFFTNGZWR2gtX3lpSGZYbG8wQ1R5VTNpeXk5blNzU0NrTTJJRTJiNHRhNzJLQVB3bEVzTC1xSDByT0w3X0s3Vk9vTA?oc=5",
         "origin": "rss"
+      },
+      {
+        "label": "Quartz",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uQU4xZTBNVmd3U2ZfOTlBVU5CVkFZWDJpbGhITk40dDR0MkF3M1ZnN2Fqa0dpLTd6NXV1WV91ZDdvaTNYbi11LUE5ODhKYzhpN0ZlTGMxZFRuY0hvSDZxQTV1WklSdVpjUFVCbTZCN09UNkVRWEVuSTJLbGE?oc=5",
+        "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
     "lineage_id": "common-sense-media-flags-chatgpt-for-teens-as-unacceptable-safety-risk",
     "related_title": "",
     "related_url": "",
@@ -2449,44 +2188,6 @@
     "researched": false,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "openais-gpt-6-astra-deciphers-217-year-old-napoleonic-cipher",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "openai-dev-day-announcements-gpt-61-sol-dots-and-strategic-plans",
-    "title": "OpenAI Dev Day Announcements: GPT-6.1 Sol, Dots, and Strategic Plans",
-    "summary": "OpenAI unveiled new product launches and strategic initiatives at its developer conference, including GPT-6.1 Sol and other tools.",
-    "theme": "AI",
-    "importance": 6.5,
-    "topics": [
-      "gpt"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-6.1 Sol",
-      "Dots",
-      "Dev Day",
-      "product launch"
-    ],
-    "url": "news/gpt/2026-10-07/#openai-dev-day-announcements-gpt-61-sol-dots-and-strategic-plans",
-    "sources": [
-      {
-        "label": "Mashable",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zc2VoVDl6U1VtczV2R2Q3RTU2N2hJcHlfNVAtOF9lR2wtSjF6U2FiZnliTUlKRU1qXzh2cXlobVBGX2NlaTd2bXprU0pYYlIyTThOWFhPSXhOWG40S1NDT0NPanU1cHZoM3RyT00xM1NLZEow?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "openai-dev-day-announcements-gpt-61-sol-dots-and-strategic-plans",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2686,44 +2387,6 @@
     "researched": false,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "dutch-court-halts-mercks-subcutaneous-keytruda-formulation-in-europe",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "who-releases-first-childhood-obesity-guidelines-amid-rising-epidemic",
-    "title": "WHO releases first childhood obesity guidelines amid rising epidemic",
-    "summary": "The World Health Organization released its inaugural guidelines addressing the sharp rise in obesity among children and adolescents worldwide.",
-    "theme": "Health",
-    "importance": 6.5,
-    "topics": [
-      "health"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "WHO",
-      "obesity",
-      "childhood",
-      "guidelines",
-      "public health"
-    ],
-    "url": "news/health/2026-10-07/#who-releases-first-childhood-obesity-guidelines-amid-rising-epidemic",
-    "sources": [
-      {
-        "label": "STAT News",
-        "url": "https://www.statnews.com/pharmalot/2026/10/07/who-obesity-guidelines-for-kids-doj-targets-pharma/?utm_campaign=rss",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "who-releases-first-childhood-obesity-guidelines-amid-rising-epidemic",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2991,6 +2654,44 @@
     "researched": false,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "wells-fargo-stock-falls-amid-federal-lending-probe-report",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "stocks-slide-on-oil-volatility-over-iran-tensions",
+    "title": "Stocks Slide on Oil Volatility Over Iran Tensions",
+    "summary": "Stock market falls as oil prices spike amid geopolitical fears concerning Iran.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "stock market",
+      "oil",
+      "Iran",
+      "geopolitical risk",
+      "volatility"
+    ],
+    "url": "news/markets/2026-10-07/#stocks-slide-on-oil-volatility-over-iran-tensions",
+    "sources": [
+      {
+        "label": "AFP.com",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzhYYklLRnQ1WDJLY3N4S1A4d0xPOG4zUXgwc2FhLTBtX0xrN2UtZ1p0cXNhUUdPdjJrN0pyeDdnMmR0R1A1WEszdDBqVTV1UUJLUWs5R29aYVNSazk1QnJJTkVZUS1ZeWtIb2hMV2E3TUJWRlM4ZzUxSThoSUhGTjJjcHZIQ3VVdmRzbzZn?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "stocks-slide-on-oil-volatility-over-iran-tensions",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3291,6 +2992,98 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "poland-deploys-warwilding-defense-strategy-to-protect-białowieza-forest-and-border",
+    "title": "Poland Deploys WarWilding Defense Strategy to Protect Białowieża Forest and Border",
+    "summary": "Poland's East Shield border fortification project ($2.6 billion, 700 km) integrates concrete defenses with WarWilding conservation tactics to protect the Białowieża Forest while defending against Belarusian and Russian threats. Conservationists convinced the military to use nature-based barriers instead of destructive infrastructure across the forest's 55 km border section.",
+    "theme": "Conservation & Security",
+    "importance": 7,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Białowieża",
+      "Poland",
+      "forest protection",
+      "border defense",
+      "Belarus"
+    ],
+    "url": "news/climate-change/2026-10-07/#poland-deploys-warwilding-defense-strategy-to-protect-białowieza-forest-and-border",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/2026/10/can-warwilding-defend-polands-borders-and-save-europes-last-ancient-forest/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "East Shield: $2.6 billion, 700-km border fortification, completion 2028",
+      "Białowieża Forest: Europe's last ancient woodland, 200,000 football pitches, straddles Polish-Belarusian border",
+      "55 km of border runs through forest; home to 900 European bison, lynx, wolves, 4,000+ fungi species",
+      "WarWilding/Green East Shield uses nature-based defenses; road construction threats remain"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "poland-deploys-warwilding-defense-strategy-to-protect-białowieza-forest-and-border",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "wwf-food-production-methods-must-change-to-prevent-biodiversity-collapse",
+    "title": "WWF: food production methods must change to prevent biodiversity collapse",
+    "summary": "The World Wildlife Fund warns that vertebrate wildlife populations have declined 73% on average since 1970, with freshwater species hit hardest at 85%. The report identifies global food production as the next critical area for transformation to reverse biodiversity collapse, citing successful tiger, tuna, and sea turtle recoveries as proof nature loss can be reversed.",
+    "theme": "Conservation",
+    "importance": 7,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "biodiversity",
+      "food production",
+      "agriculture",
+      "conservation"
+    ],
+    "url": "news/conservation/2026-10-07/#wwf-food-production-methods-must-change-to-prevent-biodiversity-collapse",
+    "sources": [
+      {
+        "label": "The Guardian",
+        "url": "https://www.theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf",
+        "origin": "research"
+      },
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/environment/2026/oct/08/world-must-change-food-avoid-biodiversity-collapse-wwf",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Vertebrate populations down 73% since 1970, freshwater species down 85%",
+      "Latin America and Caribbean: 95% decline; Africa: 80% decline; Europe and Central Asia: 23%",
+      "$58 trillion in 2023 global GDP depends on nature and ecosystem services",
+      "Wild tiger numbers increased 70% since 2010 through conservation"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "wwf-food-production-methods-must-change-to-prevent-biodiversity-collapse",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "new-ghost-phishing-wave-breaks-traditional-email-security-defenses",
     "title": "New Ghost Phishing Wave Breaks Traditional Email Security Defenses",
     "summary": "The EvilTokens-attributed campaign uses \"ghost phishing\" to bypass email security by encrypting malicious HTML with AES-GCM, rendering in victim browsers only after decryption. Attacks exploit Microsoft Device Code phishing and target 194 countries across technology, finance, manufacturing, and security sectors.",
@@ -3471,178 +3264,47 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "scientists-target-senescent-cells-to-combat-aging",
-    "title": "Scientists target senescent cells to combat aging",
-    "summary": "Researchers are developing strategies to rejuvenate immune cells that clear aging and dying cells, potentially combating age-related decline.",
-    "theme": "Science",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "senescent cells",
-      "aging",
-      "cellular senescence",
-      "immunosenescence",
-      "longevity research"
-    ],
-    "url": "news/science/2026-10-07/#scientists-target-senescent-cells-to-combat-aging",
-    "sources": [
-      {
-        "label": "Live Science",
-        "url": "https://www.livescience.com/health/aging/zombified-cells-may-drive-aging-and-scientists-are-devising-new-ways-to-get-rid-of-them",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "scientists-target-senescent-cells-to-combat-aging",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "amazon-wildfires-weaken-rainforest-carbon-uptake-through-ozone-pollution",
-    "title": "Amazon Wildfires Weaken Rainforest Carbon Uptake Through Ozone Pollution",
-    "summary": "Ozone pollution generated by Amazon wildfires is reducing the rainforest's capacity to absorb atmospheric carbon dioxide, representing an additional climate impact beyond direct carbon emissions from forest loss. The effect intensifies during extreme droughts.",
-    "theme": "Climate",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Amazon",
-      "wildfires",
-      "ozone",
-      "carbon uptake",
-      "rainforest"
-    ],
-    "url": "news/science/2026-10-07/#amazon-wildfires-weaken-rainforest-carbon-uptake-through-ozone-pollution",
-    "sources": [
-      {
-        "label": "Inside Climate News",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmN3SU82VjNqcDhxdFlUWDFvNDl5N09qVmozcG9RZmoxVW5vbThmTDFDVnpBNHZTWUpNcXBHSnB3U1NtbG0zbkVVQ1V6d0xLc1N6QmRINTNjbHBKSk5RaWRxeWxQWVRCdmtUTm1lOW1XNU81dEl1OWlGc1EzazVmenpwYzNNTmFNOVhNNQ?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Climate Council",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpZkNwNWlURTdvWXlPOVRFbWt0dXRqREJEanFSTmFKd3FMOURYenZYb2puNEN5TnFLOG95dnR3bE1ZZHlVY19iWTQ1NFR1UTZmNGNTTmZJZUtXWWxp?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-amazon-wildfires-generating-ozone-weakens.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Wildfire-generated ozone weakens surviving trees' carbon uptake ability",
-      "Effect particularly pronounced during extreme droughts",
-      "Represents climate impact mechanism beyond direct carbon release from combustion and forest loss"
-    ],
-    "researched": true,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "amazon-wildfires-weaken-rainforest-carbon-uptake-through-ozone-pollution",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "oyster-reefs-could-contribute-12-trillion-annually-to-planetary-health-if-better-managed",
-    "title": "Oyster reefs could contribute $12 trillion annually to planetary health if better managed",
-    "summary": "A new study calculates that the world's oyster reefs have a gross ecosystem product of trillions annually but are severely underutilized.",
-    "theme": "Conservation",
-    "importance": 7.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "oyster reefs",
-      "ecosystem services",
-      "conservation",
-      "marine",
-      "valuation"
-    ],
-    "url": "news/science/2026-10-07/#oyster-reefs-could-contribute-12-trillion-annually-to-planetary-health-if-better-managed",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-world-oyster-reefs-trillion-planetary.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "oyster-reefs-could-contribute-12-trillion-annually-to-planetary-health-if-better-managed",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "fortibleed-vulnerability-continues-to-plague-fortinet-products-despite-patches",
-    "title": "FortiBleed vulnerability continues to plague Fortinet products despite patches",
-    "summary": "The FortiBleed vulnerability affecting Fortinet FortiGate firewalls remains actively exploited by tens of thousands of attackers and ransomware groups despite patches. SOCRadar verified 86,644 compromised devices; attackers extract hashes and crack them offline, then create persistent backdoors and escalate laterally.",
-    "theme": "Security",
+    "event_id": "trump-administration-proposes-70000-fee-for-international-student-work-authorization-program",
+    "title": "Trump Administration Proposes $70,000 Fee for International Student Work Authorization Program",
+    "summary": "The president of the United States administration proposed a $70,000 fee for Optional Practical Training (OPT), a work authorization program for international students, with an additional $30,000 for stays beyond one year. The Department of Homeland Security estimates $12.4 billion annual revenue and frames the policy as combating fraud and protecting U.S. workers.",
+    "theme": "Immigration & Education",
     "importance": 7,
     "topics": [
-      "security",
-      "tech"
+      "health"
     ],
     "feeds": [
-      "technology"
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "science",
     "keywords": [
-      "FBI",
-      "FortiBleed",
-      "Fortinet",
-      "credential harvesting",
-      "cybersecurity threat",
-      "ransomware",
-      "vulnerability"
+      "international students",
+      "OPT",
+      "work authorization",
+      "policy",
+      "education visa"
     ],
-    "url": "news/tech/2026-10-07/#fortibleed-vulnerability-continues-to-plague-fortinet-products-despite-patches",
+    "url": "news/health/2026-10-07/#trump-administration-proposes-70000-fee-for-international-student-work-authorization-program",
     "sources": [
       {
-        "label": "The Register",
-        "url": "https://www.theregister.com/security/2026/10/07/fortibleed-still-a-bleeding-nuisance-as-fbi-confirms-ongoing-attacks/5301585",
+        "label": "STAT",
+        "url": "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/",
         "origin": "research"
       },
       {
-        "label": "The Hacker News",
-        "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/07/trump-administration-proposes-fee-targeting-interational-students-optional-practical-training/?utm_campaign=rss",
         "origin": "rss"
       }
     ],
     "takeaways": [
-      "86,644+ compromised FortiGate/SSL VPN devices across 194 countries",
-      "At least 12 confirmed ransomware attacks linked to FortiBleed as of July 2026",
-      "Ransomware groups include INC/Lynx and Payload",
-      "Attackers use credential stuffing, password spraying, hash extraction, and offline cracking via GPU-accelerated clusters"
+      "$70,000 fee per student; additional $30,000 for participation beyond one year",
+      "DHS estimates $12.4 billion annual revenue if finalized; fees paid by academic institutions",
+      "Framed to combat fraud and help U.S. citizens compete; characterizes OPT as \"back door\" to workforce",
+      "International students comprise ~25% of life science Ph.D. graduates and 60% of postdoctoral researchers"
     ],
     "researched": true,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "fortibleed-vulnerability-continues-to-plague-fortinet-products-despite-patches",
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "trump-administration-proposes-70000-fee-for-international-student-work-authorization-program",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3698,44 +3360,6 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "android-october-2026-security-updates-patch-25-vulnerabilities-including-critical-privilege-escalation",
-    "title": "Android October 2026 security updates patch 25 vulnerabilities including critical privilege escalation",
-    "summary": "Google's October 2026 Android updates resolve 25 vulnerabilities with a critical system component flaw enabling privilege escalation.",
-    "theme": "Security",
-    "importance": 7.0,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Android",
-      "security updates",
-      "privilege escalation",
-      "vulnerabilities",
-      "October 2026"
-    ],
-    "url": "news/security/2026-10-07/#android-october-2026-security-updates-patch-25-vulnerabilities-including-critical-privilege-escalation",
-    "sources": [
-      {
-        "label": "SecurityWeek",
-        "url": "https://www.securityweek.com/androids-october-2026-updates-patch-25-vulnerabilities/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "android-october-2026-security-updates-patch-25-vulnerabilities-including-critical-privilege-escalation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
     "event_id": "nasa-astronaut-outlines-plans-for-moon-base-and-mars-exploration",
     "title": "NASA Astronaut Outlines Plans for Moon Base and Mars Exploration",
     "summary": "NASA astronaut Matt Dominick outlined plans for lunar and Mars exploration, including a \"power tower\" infrastructure concept to fuel future Moon base operations.",
@@ -3777,12 +3401,13 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "dutch-tax-office-abandons-microsoft-365-for-on-premises-cloud-alternative",
-    "title": "Dutch tax office abandons Microsoft 365 for on-premises cloud alternative",
-    "summary": "The Netherlands Tax and Customs Administration abandoned its Microsoft 365 cloud migration after the Dutch Advisory Council cited security concerns, vendor lock-in, and sovereignty risks. The agency will migrate email and calendars to on-premises infrastructure in 2027, followed by European open-source tools for storage and collaboration.",
-    "theme": "Technology",
-    "importance": 7,
+    "event_id": "claude-haiku-55-released",
+    "title": "Claude Haiku 5.5 released",
+    "summary": "Anthropic released Claude Haiku 5.5, a more capable and significantly cheaper small language model than its predecessor.",
+    "theme": "AI",
+    "importance": 7.5,
     "topics": [
+      "anthropic",
       "tech"
     ],
     "feeds": [
@@ -3790,75 +3415,75 @@
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Microsoft 365",
-      "cloud migration",
-      "Dutch government",
-      "open source"
+      "Anthropic",
+      "Claude Haiku",
+      "Claude Haiku 5.5",
+      "language model",
+      "model release",
+      "pricing"
     ],
-    "url": "news/tech/2026-10-07/#dutch-tax-office-abandons-microsoft-365-for-on-premises-cloud-alternative",
+    "url": "news/anthropic/2026-10-07/#claude-haiku-55-released",
     "sources": [
       {
-        "label": "The Register",
-        "url": "https://www.theregister.com/on-prem/2026/10/07/dutch-tax-office-ditches-microsoft-365-cloud-for-on-premises-alternative/5301603",
-        "origin": "research"
-      }
-    ],
-    "takeaways": [
-      "Rollout reached ~5,000 of 47,500 employees before cancellation",
-      "June 2026 advisory recommendation triggered reversal",
-      "Security concerns: routing confidential documents through US servers, lack of end-to-end encryption by default for Teams",
-      "2027: migration to on-premises infrastructure; 2027–2028: European open-source tools for storage/collaboration"
-    ],
-    "researched": true,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "dutch-tax-office-abandons-microsoft-365-for-on-premises-cloud-alternative",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "mysterious-nonprofit-run-by-spacex-legal-counsel-pays-salaries-of-us-government-workers",
-    "title": "Mysterious nonprofit run by SpaceX legal counsel pays salaries of U.S. government workers",
-    "summary": "The National Design Studio, a nonprofit led by SpaceX's general counsel, has compensated salaries of U.S. government employees loaned from other agencies. Budget experts argue the arrangement may violate the Antideficiency Act, which restricts fund use during appropriations lapses.",
-    "theme": "Policy",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "SpaceX",
-      "DOGE",
-      "government",
-      "nonprofit",
-      "transparency"
-    ],
-    "url": "news/tech/2026-10-07/#mysterious-nonprofit-run-by-spacex-legal-counsel-pays-salaries-of-us-government-workers",
-    "sources": [
-      {
-        "label": "The New Republic",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSmRMcUtYcVNzM2h5MFVjem83d0wwNTBxWDNPdGZHSFpQOVliU0xxM3pUWGUzcjZob283R2t0WXR3a0x4MmdLcHdtU2xzOFB0QlRJck0ybldnUDhZaXdoeWZuNjltaDNTY2puU1JwOE9TOUNtWDNabFlLbWhSdzdKNHpzNk1SaFhSb1VGVjlORXVLUElqeE9peFNQYUJnSHc?oc=5",
-        "origin": "research"
+        "label": "Hacker News (front page)",
+        "url": "https://www.anthropic.com/claude-haiku-5-5",
+        "origin": "rss"
       },
       {
-        "label": "Wired",
-        "url": "https://www.wired.com/story/mysterious-nonprofit-spacexai-national-design-studio-elon-musk-doge/",
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "SiliconANGLE",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNV0pNOFU1Vk9OTXVjSnhQY1hqUWtIWGZSbWYtTUFTRTRhcE9qYUlaNklFbkdfaXBvVFllbnhFUHNSZVFvazFEMkdSOVYyR2toa3RuNC1tMjR2WWNSSHVmZGhxay1kbnlqZU50cUxxSDlMbjdFV1Q0NG1oMWZNVEQ5SW1Xcnp6a2R6UW1kQkUxU1E1UFAtRnRMTzhieFo4bUprNERRckpneXJ4ZUY0bklRUm9xSmtPNWJMV3g5bnY5WUk5QQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "XDA",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNFRVbUFJZXM4azdiOVlQV3ZUTnpjSUtqYUxabmEySnBuOGE3X3pDODV3M0dVdnl3d3Zfd1pYdmc1T1Ribl9rSHVDcjk2VlpWaWJfNl91Z0Y4YmpCR3RMekxkbHJfQjdDYmpNNnl0dUc2TERrWXdNZ0lsSkJHQWdWNmoweS1wTGM3SWUyajVIbHdiSXRENk5qbnd3TWFqY0RnekI3YzRZNTdxdw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The Tech Portal",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPclBZbC1naU9YTWZxUmpZQ3drU0F6RzVWQjNwVHMyUlExREtUREk0SGZPYVY5T2tZU2tNYjFHVU1LTHd5em5jLVZ3bHJjcmE0WGw3MU1hZExKU1hFWk5EREh5emkxMkdiVUxuTVlaSHFoRWFEZmRIbnBJYjBNYXAwN2NZNWNUc3Bfa3E2WnJLb3hoeC1MOTFuMnMxYlNuVkFKUU5RR2QyY3o5MmZ2eklpUExaajVMSTVRRi1LZjhpNEpKWmRCLWxfNjhURW1jakHSAdQBQVVfeXFMT3JWVE9YdnNHdnEzOWxib2cxU3dwazRjdEdTVjVpLUJTWkhqYmdmN3FMa3Y1MG9MUmp1R1l1Z1RILV8ydDJfZ01wWHNrQmpBNzF1Z2trRmg0X0xvRW8ydFlaTG9vZktmNlNXVlhpbE5mRHp3aXRSM0VCVHZSRkpZRzFVbUpGUi1scUh0WHI4dUJNbk9YVzNBMERFTjgzWUl1cVpMdEdsU3dWanlmaDRsS0dDNUU2MXhjSnU1aDM1S3dIS1ZqQWdyZXM4Zk9UblRCUEdjbko?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Yahoo Tech",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTUpuTE15c2tzWUpjeC1VWVhUdjBYX2NhV2RmQkQtQkdIMnUtcW8wZ1ZGaWFSekZfdjlRRVNlWEZFWGQzUkl2VmdJd1dTN3REMXRhZlRHN3lXUzdsa0RMcjhPcFVDWmVCOUtfUjBnOXRvNmU5NG15WnBTel80d0lPUjgweDhwN0E2ekJNNXBR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Decrypt News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWlJHUkF4dVBrTzZnb1BBRlUxcE4zc042MzF6NFlMZ29faTdGSmZTZTZYSHBkVUpxQXBtUklodUgxeF80U1ZUY2dwTWFOWW9mRTRYbTY5QjlweEs3VTlqMkpaMk5yb1R2T3hqeTRoSzJSOWFNWGZ2WFRXSmtlajZxOUNRTkkwOFlieUVJOQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Firstpost",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdlNoMEQyMTA3NlhsVHNMczNYMHUzcFRlNkRLbk42TVVrMGFJTUk2OVpkUG0xZG94ZmU0ZjQ4RDRtLTNmUGpWeDJjVFRqSGRkLUlQLWpBZ0JOY3o0ZThmbWdkbDB1dkhuRVAxQkZqMm9sUVJYT3pWSXVDZzY2cW5PZ1pBenNvZjJXM2Q4R2JLUzljOEdLZEY1QkpULVNVS2l3MkdReWdTNjNMR0loMEhjcUZZWmpmTldTZncyZ1FGYjZ4dkhyTnpSNWsyZy1pdnFBdThjZkZiTTLSAd4BQVVfeXFMTUotcmNOYkNyLXVObW53dkhPMkRrbFFEQ1dhdXp4cWVXNXNKY3IzR3lpSnZOQURRdXR4a1dMSWlqdngxTjQ1YWNMQTFDMW9XcW9lajkzZmFJWTBaeFAyaGRENmFVeWktanFFVTRhSHVMYzFuUmtOR1VxNjlZZUtmR1JjMHlOZG1uamRvb1MzaUdRdWVmQzcxalZfWTF2Q3lhOWRJeWdjSnhXQ0J3VEFLNVo1V2FKY2tzU1F6d19TVG9PZzFIb09SVmFGUHI1VHhpazJQdWhHNkR1UUpVN01R?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaFVsTGdrS3gtQ2VuUUh1bTZqN3hDNXdhREttUFJVdHhnOVhnT0FxTlk4WHJaemUwbnNsMVJYZ1dkR0ZQaHJKMEgyV3cxVXFqZkRxRXdONDRWUVNxNmU4X2NIYTY2bWRyV0hiUWhFUmxYaWVCTmtIaENmRllZLTZBMHFlTnhZVzA1ak0xcWpGSFFRWV9SNG9FMnZvU3M1Rlp6a0F1OUlfWjFIMW9QUnNOTm1DMVZILURQ?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "RuntimeWire",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeklxcTJIU1lEVDZJWnpTRXMxU2ZodnlFZEJudXRBZzRpM1NqMUt6aFlESng1Sm5wVjFQSDFUSi1kY2JsU21pbk9YOFdtYV9DQVBYdWlGOThmR21Qdmw0d0lXQVJzQXg4VV9pbVpyX29kb3hxOHo1YVBPX3JaSmp2a2M3RXVkTDdDQlFwd1hDNFFKQ2FvV1VMdmNEa01GUWtEYk9QdVlINmt1MVZaUEE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TechTarget",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX1l3aFA0N0h5QllXQTZpWWxSM1V0aTF4VFZXd0VPVWlmZFZGZkMzay1MMXhBd1NESFF1TUV4VHJzc2wzanp5U0tCdzg2ZnVSeldKSWo2ZV9NVWRGZF8xUjFaTGw5VlJUMVZvQWcxM0RBSG5rZnB3OUZ2MlBYbEtxakptdDZBZk5aaG5iNTQ2RlQteVFaZVQ0azJ6aFpWaE12TWx3OG1ZUnF4NExCbUdj?oc=5",
         "origin": "rss"
       }
     ],
-    "takeaways": [
-      "National Design Studio led by SpaceX general counsel",
-      "Arrangement compensates salaries of loaned government workers from other agencies",
-      "May violate Antideficiency Act restrictions on fund use and personnel during appropriations lapses"
-    ],
-    "researched": true,
-    "received_at": "2026-10-07T12:09:57.968237+00:00",
-    "lineage_id": "mysterious-nonprofit-run-by-spacex-legal-counsel-pays-salaries-of-us-government-workers",
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "claude-haiku-55-released",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4051,6 +3676,72 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "compound-climate-impacts-drive-amazon-rainforest-decline",
+    "title": "Compound Climate Impacts Drive Amazon Rainforest Decline",
+    "summary": "Research shows ozone pollution from wildfires and agricultural burning weakens the Amazon's ability to absorb CO₂, offsetting roughly 24% of carbon released by fires themselves. A second study documents how heat and drought increasingly push tropical forests from carbon sinks to carbon sources.",
+    "theme": "Climate",
+    "importance": 7.5,
+    "topics": [
+      "climate-change",
+      "science"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Amazon",
+      "carbon cycle",
+      "carbon uptake",
+      "climate change",
+      "deforestation",
+      "ozone",
+      "rainforest",
+      "wildfires"
+    ],
+    "url": "news/climate-change/2026-10-07/#compound-climate-impacts-drive-amazon-rainforest-decline",
+    "sources": [
+      {
+        "label": "Inside Climate News",
+        "url": "https://insideclimatenews.org/news/07102026/heat-drought-and-fire-emissions-devastate-rainforests/",
+        "origin": "research"
+      },
+      {
+        "label": "Inside Climate News",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmN3SU82VjNqcDhxdFlUWDFvNDl5N09qVmozcG9RZmoxVW5vbThmTDFDVnpBNHZTWUpNcXBHSnB3U1NtbG0zbkVVQ1V6d0xLc1N6QmRINTNjbHBKSk5RaWRxeWxQWVRCdmtUTm1lOW1XNU81dEl1OWlGc1EzazVmenpwYzNNTmFNOVhNNQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Climate Council",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpZkNwNWlURTdvWXlPOVRFbWt0dXRqREJEanFSTmFKd3FMOURYenZYb2puNEN5TnFLOG95dnR3bE1ZZHlVY19iWTQ1NFR1UTZmNGNTTmZJZUtXWWxp?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-amazon-wildfires-generating-ozone-weakens.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Ozone from fires reduces carbon absorption by ~24% of fire-released CO₂",
+      "Amazon and other forests absorb >11 billion metric tons of human-caused CO₂ annually (>25% global emissions)",
+      "Fires have dual climate impact: direct CO₂ release plus reduced absorption capacity",
+      "Recent decades show increasing forest areas releasing more CO₂ than absorbed during droughts and heat waves",
+      "Wildfire-generated ozone weakens surviving trees' carbon uptake ability",
+      "Effect particularly pronounced during extreme droughts",
+      "Represents climate impact mechanism beyond direct carbon release from combustion and forest loss"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "compound-climate-impacts-drive-amazon-rainforest-decline",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "power-bi-phishing-campaign-deploys-rogue-screenconnect-clients",
     "title": "Power BI phishing campaign deploys rogue ScreenConnect clients",
     "summary": "Attackers are phishing with emails impersonating Microsoft Power BI, directing victims to fake forms that download malicious ScreenConnect remote access clients. Campaigns exploit public Power BI dashboards on the trusted app.powerbi.com domain to bypass email filtering, fingerprint systems, and deploy two ScreenConnect clients for persistence and evasion.",
@@ -4189,6 +3880,90 @@
     "researched": true,
     "received_at": "2026-10-07T12:09:57.968237+00:00",
     "lineage_id": "ai-solves-hundreds-of-long-standing-mathematics-problems",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "openai-releases-gpt-6-to-all-chatgpt-users-globally",
+    "title": "OpenAI Releases GPT-6 to All ChatGPT Users Globally",
+    "summary": "OpenAI deployed GPT-6 globally to ChatGPT users across both free and paid plan tiers.",
+    "theme": "AI",
+    "importance": 7.5,
+    "topics": [
+      "gpt"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "OpenAI",
+      "GPT-6",
+      "ChatGPT",
+      "model release"
+    ],
+    "url": "news/gpt/2026-10-07/#openai-releases-gpt-6-to-all-chatgpt-users-globally",
+    "sources": [
+      {
+        "label": "Reuters via TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmRaRHV4eUVNdldvZU9mdE1FcFQ5SnlXMFZEck5PaGR3TFJKdU41ZW1SRFBoNHhITGJ5V3hOZHBIa1V4VlJQWXJzLWFUNXdrb0ZMU2tjN1NQdHVDVkVqT1RfUEpKMmstSEVibWpQTXRzT1lEcm9vYkkzVkZpS1hQTTRTVHJXTDh4azBGS0NUM010Mk5YcUNUS1ROYzFCTzFnRGMtbXh0SUdzMlNIaFNFOV9MMXRDRVJOemNOWFMzVk40ODVGOUtSOHRNc1V2Zy1PTEo0WGdpZw?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWmRaRHV4eUVNdldvZU9mdE1FcFQ5SnlXMFZEck5PaGR3TFJKdU45ZW1SRFBoNHhITGJ5V3hOZHBIa1V4VlJQWXJzLWFUNXdrb0ZMU2tjN1NQdHVDVkVqT1RfUEpKMmstSEVibWpQTXRzT1lEcm9vYkkzVkZpS1hQTTRTVHJXTDh4azBGS0NUM010Mk5YcUNUS1ROYzFCTzFnRGMtbXh0SUdzMlNIaFNFOV9MMXRDRVJOemNOWFMzVk40ODVGOUtSOHRNc1V2Zy1PTEo0WGdpZw?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "openai-releases-gpt-6-to-all-chatgpt-users-globally",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "optogenetics-restores-vision-in-retinitis-pigmentosa-trial",
+    "title": "Optogenetics Restores Vision in Retinitis Pigmentosa Trial",
+    "summary": "A clinical trial published in the New England Journal of Medicine demonstrates optogenetics technology partially restores photosensitivity in approximately half of retinitis pigmentosa patients. The approach genetically engineers light-sensitive cells, offering hope for a condition that typically leads to blindness by early adulthood.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "optogenetics",
+      "retinitis pigmentosa",
+      "vision restoration",
+      "clinical trial"
+    ],
+    "url": "news/health/2026-10-07/#optogenetics-restores-vision-in-retinitis-pigmentosa-trial",
+    "sources": [
+      {
+        "label": "STAT News",
+        "url": "https://www.statnews.com/2026/10/07/optogenetics-restores-some-vision-retinitis-pigmentosa/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Optogenetics restored photosensitivity in ~50% of trial patients",
+      "Retinitis pigmentosa: progressive genetic degeneration, typically blindness by young adulthood",
+      "Currently no cure except small subset with specific mutation eligible for gene therapy",
+      "Optogenetics technology recently recognized with Nobel Prize"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "optogenetics-restores-vision-in-retinitis-pigmentosa-trial",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4397,6 +4172,106 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "nyc-congestion-pricing-shows-13-reduction-in-fine-particulate-pollution",
+    "title": "NYC Congestion Pricing Shows 13% Reduction in Fine Particulate Pollution",
+    "summary": "One year after New York City implemented congestion pricing, fine particulate pollution (PM 2.5) in Manhattan's congestion relief zone dropped 13% in 2025, driven largely by an 11% reduction in traffic volume. Researchers found no robust evidence of pollution increases outside the zone.",
+    "theme": "Policy",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "congestion pricing",
+      "air quality",
+      "Manhattan",
+      "particulate pollution"
+    ],
+    "url": "news/science/2026-10-07/#nyc-congestion-pricing-shows-13-reduction-in-fine-particulate-pollution",
+    "sources": [
+      {
+        "label": "Columbia Climate School",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMm1MamFPdmVJYlRmbXRYdEJ1R1hPbVZ3VzNHZzR4TGJyZFVzTklmY3hoNVp5WmhHeU5JOEhkX1V5SWJfd1V2SnVpRS1iTVpkazlNa2hTQ3lBSEFQb194ajBhS0NYb3RjUUpTZ09KVkVwbm1Remxfa0xRU0FmWUlwYjAzdWJHajlIdXYtYzZLU3BnenNyVEpQRU01UDFjclI2aU5MQw?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-nyc-congestion-pricing-policy-linked.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "PM 2.5 reduced 13% in Congestion Relief Zone, 2025 vs. prior years",
+      "11% decrease in traffic volume drove pollution reduction",
+      "No robust evidence of pollution increase outside the relief zone",
+      "Study used difference-in-difference methodology with ground monitors and satellite data"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "nyc-congestion-pricing-shows-13-reduction-in-fine-particulate-pollution",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "ebola-outbreak-in-congo-worsens-with-new-hot-spots",
+    "title": "Ebola Outbreak in Congo Worsens With New Hot Spots",
+    "summary": "Médecins Sans Frontières reported the Ebola outbreak in the Democratic Republic of Congo is worsening, with North Kivu province now accounting for nearly 40% of new cases as of early October. Total cases reach 8,554 with 4,114 deaths; specialized treatment capacity remains critically insufficient.",
+    "theme": "Health",
+    "importance": 7.5,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Ebola",
+      "Congo",
+      "outbreak",
+      "disease",
+      "public health"
+    ],
+    "url": "news/science/2026-10-07/#ebola-outbreak-in-congo-worsens-with-new-hot-spots",
+    "sources": [
+      {
+        "label": "Anadolu Agency (via UA.NEWS)",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTEIwYm51TmN5VGwwUmUyOGg0RFpncVotNjd5MUFJTElaeDZPN29TZWRXWWZ0d0ppNWN6aGdfUUVBTGVDbFlvRDRiV1o1cmMyYkZHVURyOE1CNjBRRFg3OXhYSlN1UmZXenloaDRRbG53ZUd1bmp4bmNTMnB2eVhvQzNxeThjOXBKT1FnOHdzbVl0cUZxUHk4TWZyXzI?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "UAE BARQ",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdXhhWmNucG1RQTlBOTlCMmVLd0haLUdTaXVPTTNJclV4cDh1X1VnLTRSaHhkZkh6bUcwbWNDN3A0dkZnb2dnMDYxNU83dVpXNkxOSHd6T2U5bVFrWlJCUG5rbFVUS05wS2FSc0wwejVfRmFFaF9rRS1oSHoyUVJ6blJlWGV5cWdnbEo0M3hPWWx2Yk15OTNHN0dQUEJVTkUw?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-ebola-hot-congo-chaotic-response.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "8,554 total cases, 4,114 deaths since May 2026 outbreak declaration",
+      "North Kivu now 40% of new cases (up from 24% in August); new hotspots emerging weekly",
+      "34% of confirmed Ebola patients treated in non-specialized facilities due to insufficient capacity",
+      "Outbreak spans seven provinces: Haut-Uele, Ituri, North Kivu, South Kivu, Bas-Uele, Tshopo, South Ubangi"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "ebola-outbreak-in-congo-worsens-with-new-hot-spots",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "100-websites-compromised-to-deliver-lunexstealer-malware-via-fake-cloudflare-checks",
     "title": "100+ websites compromised to deliver LunexStealer malware via fake Cloudflare checks",
     "summary": "Ukrainian CERT-UA identified over 100 compromised websites injected with LunexStealer malware in September 2026, attributed to UAC-0277. Attackers used forged Cloudflare verification pages and ClickFix delivery; malware steals browser credentials and files while supporting remote browser control.",
@@ -4484,46 +4359,46 @@
   },
   {
     "date": "2026-10-07",
-    "event_id": "microsoft-announces-agentic-ai-features-and-surface-laptop-ultra-at-windows-and-surface-event",
-    "title": "Microsoft announces agentic AI features and Surface Laptop Ultra at Windows and Surface event",
-    "summary": "Microsoft unveiled new agentic AI capabilities for Windows and officially introduced the Surface Laptop Ultra at its Windows and Surface event.",
-    "theme": "Hardware",
+    "event_id": "fortibleed-campaign-compromises-over-86000-fortinet-devices-globally",
+    "title": "FortiBleed Campaign Compromises Over 86,000 Fortinet Devices Globally",
+    "summary": "A coordinated attack campaign has targeted 86,644 Fortinet devices worldwide.",
+    "theme": "Security",
     "importance": 7.5,
     "topics": [
-      "tech"
+      "security"
     ],
     "feeds": [
       "technology"
     ],
     "primary_feed": "technology",
     "keywords": [
-      "Microsoft",
-      "Surface Laptop Ultra",
-      "Windows",
-      "agentic AI",
-      "Copilot"
+      "FortiBleed",
+      "Fortinet",
+      "campaign",
+      "devices",
+      "malware"
     ],
-    "url": "news/tech/2026-10-07/#microsoft-announces-agentic-ai-features-and-surface-laptop-ultra-at-windows-and-surface-event",
+    "url": "news/security/2026-10-07/#fortibleed-campaign-compromises-over-86000-fortinet-devices-globally",
     "sources": [
       {
-        "label": "Engadget",
-        "url": "https://www.engadget.com/2280298/everything-announced-at-microsofts-windows-and-surface-event/",
-        "origin": "rss"
-      },
-      {
-        "label": "The Verge",
-        "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+        "label": "The Cyber Express",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5wZXJfSWs4ZFVTcTFTRm5YN1ZCZ2VYNVlSWTdIakpibmVZWmVaQjJ0U292NXVrc2dPeTNJMEVpNmQtdGtKUG0tSURKeVhOR1RIYi1XRmtSbzY4QUU5NmtCbFhqdnNvYml5MW1TeVdGTWpGRG9zOWx1bHBn0gF6QVVfeXFMTnBlcl9JazhkVVNxMVNGblg3VkJnZVg1WVJZN0hqSmJuZVlaZVpCMnRTb3Y1dWtzZ095M0kwRWk2ZC10a0pQbS1JREp5WE5HVEhiLVdGa1JvNjhBRTk2a0JsWGp2c29iaXkxbVN5V0ZNakZEb3M5bHVscGc?oc=5",
         "origin": "rss"
       }
     ],
-    "takeaways": [],
+    "takeaways": [
+      "86,644+ compromised FortiGate/SSL VPN devices across 194 countries",
+      "At least 12 confirmed ransomware attacks linked to FortiBleed as of July 2026",
+      "Ransomware groups include INC/Lynx and Payload",
+      "Attackers use credential stuffing, password spraying, hash extraction, and offline cracking via GPU-accelerated clusters"
+    ],
     "researched": false,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "microsoft-announces-agentic-ai-features-and-surface-laptop-ultra-at-windows-and-surface-event",
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "fortibleed-vulnerability-continues-to-plague-fortinet-products-despite-patches",
     "related_title": "",
     "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
+    "updates_title": "FortiBleed vulnerability continues to plague Fortinet products despite patches",
+    "updates_url": "news/tech/2026-10-07/#fortibleed-vulnerability-continues-to-plague-fortinet-products-despite-patches"
   },
   {
     "date": "2026-10-07",
@@ -4797,6 +4672,49 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "africas-monitored-wildlife-populations-declined-80-since-1970",
+    "title": "Africa's monitored wildlife populations declined 80% since 1970",
+    "summary": "Africa's monitored wildlife populations declined 80% between 1970 and 2022, exceeding the global average of 73%, according to the Living Planet Report 2026. Habitat destruction is the leading threat, though half of tracked populations are stable or increasing, with Southern African savanna elephant populations rising where communities benefit economically from wildlife management.",
+    "theme": "Conservation",
+    "importance": 8,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "wildlife",
+      "Africa",
+      "conservation",
+      "biodiversity decline"
+    ],
+    "url": "news/climate-change/2026-10-07/#africas-monitored-wildlife-populations-declined-80-since-1970",
+    "sources": [
+      {
+        "label": "Mongabay",
+        "url": "https://news.mongabay.com/short-article/2026/10/africas-monitored-wildlife-populations-declined-80-since-1970-new-report-says/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Africa: 80% decline in monitored populations, 1970–2022; global average 73%",
+      "Latin America and Caribbean: 95% decline; largest regional decline",
+      "African forest elephant populations down 60% due to habitat loss and poaching",
+      "Half of tracked populations stable or increasing; Southern African savanna elephants rising in community-managed areas"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "africas-monitored-wildlife-populations-declined-80-since-1970",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "ucsf-scientists-reprogram-immune-cells-inside-the-body-to-fight-cancer",
     "title": "UCSF Scientists Reprogram Immune Cells Inside the Body to Fight Cancer",
     "summary": "UC San Francisco researchers developed a method to create cancer-fighting CAR-T cells directly inside a patient's body using a two-particle delivery system to send CRISPR tools and cancer-targeting DNA into T cells. This avoids weeks of external engineering and costs of $400,000–$500,000 per patient. Mouse experiments with humanized immune systems successfully targeted aggressive leukemia, multiple myeloma, and solid tumors.",
@@ -4992,6 +4910,73 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "attackers-hijack-top-level-domains-to-mint-unauthorized-security-certificates-for-major-organizations",
+    "title": "Attackers Hijack Top-Level Domains to Mint Unauthorized Security Certificates for Major Organizations",
+    "summary": "Attackers hijacked top-level domain registrations in Ghana, Sierra Leone, and American Samoa to compromise DNS records and issue fraudulent SSL certificates impersonating Google and other organizations. The attack allowed malicious redirects without triggering browser warnings, enabling potential data interception and phishing.",
+    "theme": "Security & Cybercrime",
+    "importance": 8,
+    "topics": [
+      "security",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "American Samoa",
+      "Ghana",
+      "Google",
+      "HTTPS certificate",
+      "SSL certificate",
+      "Sierra Leone",
+      "breach",
+      "ccTLD",
+      "ccTLD hijacking",
+      "certificate fraud",
+      "domain hijacking",
+      "impersonation",
+      "security breach"
+    ],
+    "url": "news/tech/2026-10-07/#attackers-hijack-top-level-domains-to-mint-unauthorized-security-certificates-for-major-organizations",
+    "sources": [
+      {
+        "label": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/07/attackers-hijacked-top-level-domains-minted-fake-security-certs-for-google-and-other-orgs/5301718",
+        "origin": "research"
+      },
+      {
+        "label": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+        "origin": "research"
+      },
+      {
+        "label": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-google-domains-after-breaching-cctld-registries/",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Compromised .gh, .sl, .as country-code domains to hijack DNS and issue false SSL certificates",
+      "Google and multiple organizations impersonated; scope of affected domains unclear",
+      "Fraudulent certificates redirected users without browser security warnings",
+      "Google detected attack and blocked certificates in Chrome; certification authorities faultless",
+      "Three ccTLD registries compromised: .gh (Ghana), .sl (Sierra Leone), .as (American Samoa)",
+      "12 unauthorized certificates issued Sept 22–27, 2026",
+      "Covered 7 domains: google.com.gh, google.sl, google.as, youtube variants",
+      "Let's Encrypt issued 11, ZeroSSL issued 1 certificate",
+      "Attackers could impersonate Google/YouTube over encrypted connections"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "attackers-hijack-top-level-domains-to-mint-unauthorized-security-certificates-for-major-organizations",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "meta-deploys-ai-tools-to-detect-ads-secretly-linking-to-child-sexual-abuse-material",
     "title": "Meta Deploys AI Tools to Detect Ads Secretly Linking to Child Sexual Abuse Material",
     "summary": "Meta deployed new AI tools to detect and remove advertisements that appear benign but secretly redirect users to child sexual abuse material. The company launched a large language model system to examine ad destinations, not just content, plus a \"red-teaming AI agent\" to test safety measures for weaknesses.",
@@ -5028,6 +5013,96 @@
     "researched": true,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "meta-deploys-ai-tools-to-detect-ads-secretly-linking-to-child-sexual-abuse-material",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "margaret-hamilton-apollo-program-software-pioneer-dies",
+    "title": "Margaret Hamilton, Apollo Program Software Pioneer, Dies",
+    "summary": "Margaret Hamilton, the computing pioneer who led software development for the Apollo program at MIT and founded the field of software engineering, died September 30 at age 90. She oversaw more than 400 people and authored over 130 publications.",
+    "theme": "Technology History",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Margaret Hamilton",
+      "Apollo program",
+      "software",
+      "computing pioneer"
+    ],
+    "url": "news/tech/2026-10-07/#margaret-hamilton-apollo-program-software-pioneer-dies",
+    "sources": [
+      {
+        "label": "MIT News",
+        "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Died September 30 at age 90",
+      "Led software development for Apollo Lunar Module and Command Service Module",
+      "Oversaw 400+ people at MIT Instrumentation Laboratory over two decades",
+      "Presidential Medal of Freedom recipient, November 2016"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "margaret-hamilton-apollo-program-software-pioneer-dies",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
+    "event_id": "pennsylvania-measles-outbreak-reaches-1066-cases-largest-since-us-eradication",
+    "title": "Pennsylvania Measles Outbreak Reaches 1,066 Cases, Largest Since U.S. Eradication",
+    "summary": "Pennsylvania reported 1,066 measles cases as of October 7, the largest U.S. outbreak since measles elimination in 2000, resulting in 207 hospitalizations and 5 deaths. The outbreak exceeds South Carolina's previous 2026 record (997 cases) and marks the highest national case count since 1991.",
+    "theme": "Public Health",
+    "importance": 8,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "measles",
+      "Pennsylvania",
+      "outbreak",
+      "vaccination",
+      "disease eradication"
+    ],
+    "url": "news/tech/2026-10-07/#pennsylvania-measles-outbreak-reaches-1066-cases-largest-since-us-eradication",
+    "sources": [
+      {
+        "label": "Ars Technica",
+        "url": "https://arstechnica.com/health/2026/10/pa-measles-outbreak-tops-1000-cases-largest-since-disease-was-eliminated/",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "1,066 cases, largest since U.S. eradication (2000); previous U.S. record: 4,500+ in 1990–1991 New York",
+      "207 hospitalizations, 5 deaths; all deaths unvaccinated (2 infants too young for vaccine)",
+      "Outbreak began April 2026; 145 cases in seven days before report",
+      "3,887 measles cases nationwide in 2026, highest since 1991; U.S. may lose elimination status in November 2026 review"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T23:54:46.209083+00:00",
+    "lineage_id": "pennsylvania-measles-outbreak-reaches-1066-cases-largest-since-us-eradication",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -5201,6 +5276,93 @@
   },
   {
     "date": "2026-10-07",
+    "event_id": "openai-announces-gpt-6-and-expanded-intelligent-ui-capabilities",
+    "title": "OpenAI announces GPT-6 and expanded intelligent UI capabilities",
+    "summary": "OpenAI announced GPT-6 and a new Intelligent UI feature enabling ChatGPT to respond with interactive visual elements—graphics, buttons, forms, charts, and diagrams—directly in conversations. The rollout began with paid tiers on October 7, 2026, expanding to free tiers the next day, serving over 1.2 billion weekly users.",
+    "theme": "AI",
+    "importance": 8.5,
+    "topics": [
+      "gpt",
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AI",
+      "ChatGPT",
+      "GPT-6",
+      "OpenAI",
+      "UI",
+      "interface",
+      "language model",
+      "release",
+      "visualization"
+    ],
+    "url": "news/tech/2026-10-07/#openai-announces-gpt-6-and-expanded-intelligent-ui-capabilities",
+    "sources": [
+      {
+        "label": "Unite.AI",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcDFSMmJMM1htUklmaVVLSVdaSm9CXzAxQ3RUeFl4a2JhNy1KNzY4Nlhwdlg5RllZY1Y2d0tSMnBuS0FJMDFJMUJUMkFrX1VfOFRmYmVtZkFVR29RZTctdmlaaFhXc05VZVE4NHFrTTdyeUtsek1JV0l4dFdQVVRqUUZqSlM0WE0ydGc?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWdIT0ttYzRUT3pQQTlsWnNrbUxMZTVjMmFuR0lDQnQxbmhYQldzeXZaZHlwdms5UVhQT2FDcVlxbGNEMEJ3SlE4eGpBRkIzMndGMkJiRkpjTTZqV0lnVVU2UTBad2hncnhxeFdjZzdZUWpBZGFvQ2tKWGhna2lMX1pURTc1ZWcwRUJvUVRTbjFJTWNFUGVlYXY2UQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://openai.com/index/gpt-6-for-everyone/",
+        "origin": "rss"
+      },
+      {
+        "label": "citybiz",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPY29tcVlPRFdqbHNYRFdtZmp0RHBCeUowYzZrMEh5ZW11elpranNmWk5vT2pPZVFyREpFQ3prS1dZRU81WUVCNVVUUzRaT2ZVaWdGZmZVbWg5eV9rRk1zQkNOS1RnTm94VnBZQ21ES2o1LU5tSk1ZekhlVUEzcll2UGthLWtjTFoxTFRIUTlQNlR2YUhQcFBJUDZnRFZTT0ZqMDdVQkFqT1Y5dnNl?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "TradingView",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSURpUW5DenpVZXk0QUtVTWYzRW50V0NwU3RJVHFyYldoNFlGejFYS1Z3eG5FZGk5UVF1blFvOTZNeDFza09wS29HQkRKVjdmNXo2MVg4enpMVU9EOUF6WG90YVpkdFREOV9oTlR6dUVtWDJuNmFlakw2RHlkbmEybFVRa2FNbDB2VTNEa0cxRHJCLS1YazVGUmtMbEtfNWQ2YmEyY3hZc3VPb1lrVDVrdVgweU5valZzUldyRw?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "TestingCatalog AI News",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGpZM2IwdFYtVnlhVGI0T2ZwOEw1MWRSekJKUXFOTm9IOUlXWlI1ME1qb3ZKLVVjdVdGUnBUR01fQ1JLQ0Rrem5MemtsY2ZPWEhwQWJLOGV5eGY4LThxNS13VlZUellXMXFXV09tbFhDMlVTSlhGRGt6RUwxekw2RGFEWnFTdXpYam12QjVR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "9to5Mac",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZE1WSm40ZkxMNHB4YlZfeHVuQUFQeVpNSjljZXhmVWdWVmRDcExqa0lTUEhlUUtGcWdtZ3dhYVFxRUhvNDRITVF6ODZoZkp2ZnVpNW9iVmZBRnBJZ25yRkxtN0hFYU80bUkxRUZUYnpPX0VYcnV2dGpfT0tyc3lETzVVclVZTEs5VDA0R1ZWOVBEQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "GPT-6 now available; rollout began October 7, 2026",
+      "Intelligent UI delivers interactive graphics, forms, charts, diagrams in-chat",
+      "ChatGPT serves 1.2+ billion weekly users",
+      "GPT-6 trained to select response format (text, diagrams, layouts) by question type",
+      "Free and paid tier access launched October 7–8, 2026",
+      "Intelligent UI deployed globally October 7; Free/Go users October 8",
+      "Automatic format selection: comparisons display side-by-side, diagrams interactive and modifiable",
+      "Users can request specific tools: calculators, bill splitters, interactive diagrams",
+      "Simple questions continue as text; applies only to Chat experience, not Work or Codex models",
+      "GPT-6 Sol: Plus, Pro, Business, Enterprise; GPT-6 Luna: Free and Go users (Oct. 8)",
+      "Intelligent UI creates interactive charts, buttons, forms, calculators, and games in responses",
+      "GPT-6 enables progressive answering—begins responding while reasoning continues",
+      "Automatic response format selection based on question type"
+    ],
+    "researched": true,
+    "received_at": "2026-10-07T19:37:22.010588+00:00",
+    "lineage_id": "openai-announces-gpt-6-and-expanded-intelligent-ui-capabilities",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-07",
     "event_id": "sonicwall-patches-critical-ssrf-vulnerability-in-sma1000-gateways",
     "title": "SonicWall patches critical SSRF vulnerability in SMA1000 gateways",
     "summary": "SonicWall has released hotfixes for four vulnerabilities in its SMA1000 appliances, including a critical pre-authentication server-side request forgery (SSRF) flaw rated CVSS 10.0.",
@@ -5345,60 +5507,6 @@
     "researched": true,
     "received_at": "2026-10-07T19:37:22.010588+00:00",
     "lineage_id": "2024-chemistry-nobel-awarded-for-work-on-molecular-handedness-and-lifes-origins",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-07",
-    "event_id": "openai-announces-gpt-6-and-expanded-intelligent-ui-capabilities",
-    "title": "OpenAI announces GPT-6 and expanded intelligent UI capabilities",
-    "summary": "OpenAI announced GPT-6 and a new Intelligent UI feature enabling ChatGPT to respond with interactive visual elements—graphics, buttons, forms, charts, and diagrams—directly in conversations. The rollout began with paid tiers on October 7, 2026, expanding to free tiers the next day, serving over 1.2 billion weekly users.",
-    "theme": "AI",
-    "importance": 8.5,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "OpenAI",
-      "GPT-6",
-      "language model",
-      "UI",
-      "AI"
-    ],
-    "url": "news/tech/2026-10-07/#openai-announces-gpt-6-and-expanded-intelligent-ui-capabilities",
-    "sources": [
-      {
-        "label": "Unite.AI",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcDFSMmJMM1htUklmaVVLSVdaSm9CXzAxQ3RUeFl4a2JhNy1KNzY4Nlhwdlg5RllZY1Y2d0tSMnBuS0FJMDFJMUJUMkFrX1VfOFRmYmVtZkFVR29RZTctdmlaaFhXc05VZVE4NHFrTTdyeUtsek1JV0l4dFdQVVRqUUZqSlM0WE0ydGc?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "The Verge",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWdIT0ttYzRUT3pQQTlsWnNrbUxMZTVjMmFuR0lDQnQxbmhYQldzeXZaZHlwdms5UVhQT2FDcVlxbGNEMEJ3SlE4eGpBRkIzMndGMkJiRkpjTTZqV0lnVVU2UTBad2hncnhxeFdjZzdZUWpBZGFvQ2tKWGhna2lMX1pURTc1ZWcwRUJvUVRTbjFJTWNFUGVlYXY2UQ?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://openai.com/index/gpt-6-for-everyone/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "GPT-6 now available; rollout began October 7, 2026",
-      "Intelligent UI delivers interactive graphics, forms, charts, diagrams in-chat",
-      "ChatGPT serves 1.2+ billion weekly users",
-      "GPT-6 trained to select response format (text, diagrams, layouts) by question type",
-      "Free and paid tier access launched October 7–8, 2026"
-    ],
-    "researched": true,
-    "received_at": "2026-10-07T19:37:22.010588+00:00",
-    "lineage_id": "openai-announces-gpt-6-and-expanded-intelligent-ui-capabilities",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
