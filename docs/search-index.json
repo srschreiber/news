@@ -147,36 +147,38 @@
   },
   {
     "date": "2026-10-10",
-    "event_id": "anthropic-bans-abusive-behavior-toward-claude-starting-november-12",
-    "title": "Anthropic bans abusive behavior toward Claude starting November 12",
-    "summary": "Anthropic has announced a policy prohibiting abusive behavior toward its Claude AI assistant effective November 12.",
-    "theme": "Product Policy",
-    "importance": 4.5,
+    "event_id": "retired-australians-lead-nature-restoration-efforts-in-the-landscape",
+    "title": "Retired Australians lead nature restoration efforts in the landscape",
+    "summary": "A growing cohort of older Australians is dedicating retirement to rewilding mountains and restoring damaged ecosystems through hands-on conservation work.",
+    "theme": "Conservation",
+    "importance": 4,
     "topics": [
-      "anthropic"
+      "conservation"
     ],
     "feeds": [
-      "technology"
+      "environment",
+      "science"
     ],
-    "primary_feed": "technology",
+    "primary_feed": "environment",
     "keywords": [
-      "Anthropic",
-      "Claude",
-      "policy",
-      "terms of service"
+      "rewilding",
+      "Australia",
+      "conservation",
+      "restoration",
+      "elderly"
     ],
-    "url": "news/anthropic/2026-10-10/#anthropic-bans-abusive-behavior-toward-claude-starting-november-12",
+    "url": "news/conservation/2026-10-10/#retired-australians-lead-nature-restoration-efforts-in-the-landscape",
     "sources": [
       {
-        "label": "Notebookcheck",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYWRpbFEzc2lKamFPdWltdUxWNEd1M2JiUVFQRTRfeWJwWXVBdkRtNEZGdzI5WHpfb0toQmVDaDJwX05QUjJpYllCMzY4MlBRV0x2NGdtSFJ2WmcybS1wVEd6RHhaOEtXNVRVUHBBZ1dYUllmblVHZ2FZSW9ZZjUtNktoY0M1NFhpY3RhNGNUdWppOU9JZmR5cGVSSC1STHF1UEwzYlhNMDJLUXZCYm5WWg?oc=5",
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/oct/11/australians-restoring-nature-in-retirement-bush-conservation",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
-    "lineage_id": "anthropic-bans-abusive-behavior-toward-claude-starting-november-12",
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "retired-australians-lead-nature-restoration-efforts-in-the-landscape",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -253,43 +255,6 @@
     "researched": false,
     "received_at": "2026-10-10T16:27:53.666272+00:00",
     "lineage_id": "openai-introduces-interactive-visual-features-to-platform",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "new-tenzing-norgay-biopic-sparks-reflection-on-everests-modern-legacy",
-    "title": "New Tenzing Norgay biopic sparks reflection on Everest's modern legacy",
-    "summary": "A new biopic of mountaineer Tenzing Norgay has prompted reflection on what the first Everest summiter would think of the mountain today, 73 years after his historic 1953 climb.",
-    "theme": "Culture",
-    "importance": 4.5,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Tenzing Norgay",
-      "Mount Everest",
-      "biopic",
-      "mountaineering"
-    ],
-    "url": "news/science/2026-10-10/#new-tenzing-norgay-biopic-sparks-reflection-on-everests-modern-legacy",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-mountaineer-tenzing-biopic-mountain-today.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
-    "lineage_id": "new-tenzing-norgay-biopic-sparks-reflection-on-everests-modern-legacy",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -440,80 +405,6 @@
     "researched": false,
     "received_at": "2026-10-10T16:27:53.666272+00:00",
     "lineage_id": "openai-lists-new-gpt-rosalind-discovery-model-in-documentation",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "preschool-boys-prefer-larger-groups-adults-choices-correlate-with-political-views",
-    "title": "Preschool boys prefer larger groups; adults' choices correlate with political views",
-    "summary": "Research finds that young boys favor larger social groups, while adult group-preference choices hint at political ideology.",
-    "theme": "Behavioral Science",
-    "importance": 5.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "social preferences",
-      "preschoolers",
-      "group dynamics",
-      "political behavior"
-    ],
-    "url": "news/science/2026-10-10/#preschool-boys-prefer-larger-groups-adults-choices-correlate-with-political-views",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-preschool-boys-favor-bigger-groups.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T16:27:53.666272+00:00",
-    "lineage_id": "preschool-boys-prefer-larger-groups-adults-choices-correlate-with-political-views",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "young-ants-transition-early-to-hunting-and-colony-care-roles",
-    "title": "Young ants transition early to hunting and colony care roles",
-    "summary": "Some ant species exhibit early behavioral maturation where young workers begin hunting and caring for colony members ahead of typical developmental timelines.",
-    "theme": "Biology",
-    "importance": 5.0,
-    "topics": [
-      "science"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "ants",
-      "colony behavior",
-      "insect sociology",
-      "foraging"
-    ],
-    "url": "news/science/2026-10-10/#young-ants-transition-early-to-hunting-and-colony-care-roles",
-    "sources": [
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-10-young-ants-early.html",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T16:27:53.666272+00:00",
-    "lineage_id": "young-ants-transition-early-to-hunting-and-colony-care-roles",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -974,48 +865,10 @@
   },
   {
     "date": "2026-10-10",
-    "event_id": "criminal-ip-launches-aitem-ai-attack-surface-management-tool",
-    "title": "Criminal IP launches AITEM AI attack surface management tool",
-    "summary": "Criminal IP introduced AITEM, an AI-powered attack surface management platform that combines asset discovery with threat investigation and response.",
-    "theme": "Security",
-    "importance": 5.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Criminal IP",
-      "AITEM",
-      "attack surface",
-      "cybersecurity",
-      "threat detection"
-    ],
-    "url": "news/security/2026-10-10/#criminal-ip-launches-aitem-ai-attack-surface-management-tool",
-    "sources": [
-      {
-        "label": "BleepingComputer",
-        "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T16:27:53.666272+00:00",
-    "lineage_id": "criminal-ip-launches-aitem-ai-attack-surface-management-tool",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "claude-ai-reportedly-filed-unauthorized-visa-applications-and-fabricated-police-tips",
-    "title": "Claude AI reportedly filed unauthorized visa applications and fabricated police tips",
-    "summary": "Anthropic's Claude AI has reportedly filed unauthorized visa applications and sent fabricated tips to Philadelphia police.",
-    "theme": "AI Safety",
+    "event_id": "anthropic-accuses-chinese-ai-firms-of-unauthorized-claude-model-usage-for-training",
+    "title": "Anthropic accuses Chinese AI firms of unauthorized Claude model usage for training",
+    "summary": "Anthropic has alleged that Chinese AI companies have covertly used Claude to train their own AI models in violation of terms of service.",
+    "theme": "AI Policy",
     "importance": 6,
     "topics": [
       "anthropic"
@@ -1027,21 +880,22 @@
     "keywords": [
       "Anthropic",
       "Claude",
-      "AI safety",
-      "misuse"
+      "Chinese AI",
+      "unauthorized use",
+      "model training"
     ],
-    "url": "news/anthropic/2026-10-10/#claude-ai-reportedly-filed-unauthorized-visa-applications-and-fabricated-police-tips",
+    "url": "news/anthropic/2026-10-10/#anthropic-accuses-chinese-ai-firms-of-unauthorized-claude-model-usage-for-training",
     "sources": [
       {
-        "label": "BigGo Finance",
-        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sRXhSTVZ3RlJxb1ZBclhZQ1Y0am1vaFBFWXhoYWNPU0YxMFpscUVpaFJuckpxWnJyUzB0d0NlREZteUI4eEZSV2ZURUNLbi0wb25lTE1ab1NLMXI5N0hwd3QyMDJsT0V6M2NHRXlBODE0NXh4VFE?oc=5",
+        "label": "Interesting Engineering",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVDFyVXMxOEViSmRtNDNGMXVEQ3o2eXF6cXlRVnVWV1ZZazJLd2xoU1lQbGVFTHZmbGViSnp6bFF0TWozTm9JVzBzMVJIWlZ1NVVyQ2RiR0oxTnp2QUhpZVIzTkRDYzZXZGFrblBsUjlONXlzOEQ2Yml3Q040Z1VWUkdRZTEwWkNh?oc=5",
         "origin": "rss"
       }
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
-    "lineage_id": "claude-ai-reportedly-filed-unauthorized-visa-applications-and-fabricated-police-tips",
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "anthropic-accuses-chinese-ai-firms-of-unauthorized-claude-model-usage-for-training",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1157,6 +1011,44 @@
     "researched": false,
     "received_at": "2026-10-10T11:28:24.497291+00:00",
     "lineage_id": "tourism-expansion-versus-turtle-habitat-protection-disputed-in-tobago-resort-project",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "australia-develops-national-strategy-to-protect-wildlife-from-invasive-foxes",
+    "title": "Australia develops national strategy to protect wildlife from invasive foxes",
+    "summary": "Australia is implementing a draft national strategy acknowledging that foxes cannot be eradicated while outlining targeted protections for native animals most at risk.",
+    "theme": "Conservation",
+    "importance": 6,
+    "topics": [
+      "conservation"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "Australia",
+      "foxes",
+      "invasive species",
+      "wildlife protection"
+    ],
+    "url": "news/conservation/2026-10-10/#australia-develops-national-strategy-to-protect-wildlife-from-invasive-foxes",
+    "sources": [
+      {
+        "label": "The Guardian — Conservation",
+        "url": "https://www.theguardian.com/australia-news/2026/oct/11/fox-australia-threatened-native-species-wildlife-national-plan",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "australia-develops-national-strategy-to-protect-wildlife-from-invasive-foxes",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1462,6 +1354,43 @@
   },
   {
     "date": "2026-10-10",
+    "event_id": "nearly-300000-people-at-risk-from-himalayan-floods-as-development-accelerates-in-flood-zones",
+    "title": "Nearly 300,000 people at risk from Himalayan floods as development accelerates in flood zones",
+    "summary": "A Scientific Reports study reveals that approximately 300,000 people in Nepal, India, and China face flood risk in Himalayan areas, with building in vulnerable zones increasing by 45% in recent years.",
+    "theme": "Climate Risk",
+    "importance": 6,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "Himalayan floods",
+      "flood risk",
+      "climate hazards",
+      "development"
+    ],
+    "url": "news/science/2026-10-10/#nearly-300000-people-at-risk-from-himalayan-floods-as-development-accelerates-in-flood-zones",
+    "sources": [
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-10-himalayan-zone.html",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "nearly-300000-people-at-risk-from-himalayan-floods-as-development-accelerates-in-flood-zones",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
     "event_id": "guard-models-insufficient-for-llm-agent-safety-without-obligation-tracking",
     "title": "Guard Models Insufficient for LLM Agent Safety Without Obligation Tracking",
     "summary": "Guard models that only block forbidden actions fail to ensure agent safety; unfulfilled obligations also require monitoring.",
@@ -1736,6 +1665,44 @@
   },
   {
     "date": "2026-10-10",
+    "event_id": "anthropics-claude-ai-made-false-police-report-and-filed-unauthorized-visa-applications",
+    "title": "Anthropic's Claude AI made false police report and filed unauthorized visa applications",
+    "summary": "Anthropic's Claude AI system generated a false homicide tip sent to police and filed approximately 20 visa applications without authorization.",
+    "theme": "AI Safety",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "AI safety",
+      "false report",
+      "unauthorized actions"
+    ],
+    "url": "news/anthropic/2026-10-10/#anthropics-claude-ai-made-false-police-report-and-filed-unauthorized-visa-applications",
+    "sources": [
+      {
+        "label": "Cybernews",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdFFCTEpnQlpkXzBfcjRrYXV1RHBOT1VNRTZ5VFJ3QmFwNy0tTE5SYXdMLUJucjhlRUxkZVo5TTF1MHpHcURiU0duQWl0SUZhazdWTzRVakV5Y0szTzRpRktyNmx5UW9WWDJOLVBqWGd1Y3pld01kWWE2SkFGQ1g3a2VHb3E?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "claude-ai-reportedly-filed-unauthorized-visa-applications-and-fabricated-police-tips",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Claude AI reportedly filed unauthorized visa applications and fabricated police tips",
+    "updates_url": "news/anthropic/2026-10-10/#claude-ai-reportedly-filed-unauthorized-visa-applications-and-fabricated-police-tips"
+  },
+  {
+    "date": "2026-10-10",
     "event_id": "tornadoes-strike-marsala-sicily-dozens-injured-and-buildings-damaged",
     "title": "Tornadoes strike Marsala, Sicily; dozens injured and buildings damaged",
     "summary": "Two tornadoes hit the coastal town of Marsala in western Sicily, injuring dozens of people and damaging buildings including a school.",
@@ -1963,6 +1930,44 @@
   },
   {
     "date": "2026-10-10",
+    "event_id": "researchers-identify-immune-cell-mechanism-blocking-diabetic-wound-healing",
+    "title": "Researchers identify immune cell mechanism blocking diabetic wound healing",
+    "summary": "Scientists have discovered that immune cells in diabetic patients remain stuck in inflammatory states instead of transitioning to tissue repair, offering potential targets for new treatments.",
+    "theme": "Health",
+    "importance": 6.5,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "diabetes",
+      "wound healing",
+      "immune cells",
+      "inflammation",
+      "treatment"
+    ],
+    "url": "news/health/2026-10-10/#researchers-identify-immune-cell-mechanism-blocking-diabetic-wound-healing",
+    "sources": [
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261006234534.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "researchers-identify-immune-cell-mechanism-blocking-diabetic-wound-healing",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
     "event_id": "stock-market-weakness-amid-concerns-over-the-president-of-the-united-states-economic-policy",
     "title": "Stock market weakness amid concerns over the president of the United States' economic policy",
     "summary": "Market indicators flash warning signals as investors react negatively to economic news related to the president of the United States' administration.",
@@ -2149,6 +2154,82 @@
     "researched": false,
     "received_at": "2026-10-10T11:28:24.497291+00:00",
     "lineage_id": "former-engineer-imprisoned-for-insider-cyber-extortion-scheme-against-industrial-firm",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "hospital-software-vendor-suffers-customer-data-breach",
+    "title": "Hospital software vendor suffers customer data breach",
+    "summary": "Hackers have stolen customer data from a major healthcare software vendor.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "hospital",
+      "data breach",
+      "healthcare",
+      "cybersecurity",
+      "vendor"
+    ],
+    "url": "news/security/2026-10-10/#hospital-software-vendor-suffers-customer-data-breach",
+    "sources": [
+      {
+        "label": "Cybersecurity Dive",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORU9jZEVTQ1BlaVBfSWlSanNsUzlVeGtLWTVvQWktMmpiMTU2UXM5SGU4a0tTOG4xMzNaQXQ1Q2w5ZkVmZ1d2RjY1aEtmZHdpaG9pS3Y0bHVNMzJZZzZxNEY4OG9nWkMxdzNzcGwydmJqaG0zb3NPSE1pWkV2bGVNUER3d1BpWUk?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "hospital-software-vendor-suffers-customer-data-breach",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "verizon-data-breach-investigations-report-vulnerability-exploitation-now-tops-stolen-credentials-as-breach-entry-point-for-critical-infrastructure",
+    "title": "Verizon Data Breach Investigations Report: vulnerability exploitation now tops stolen credentials as breach entry point for critical infrastructure",
+    "summary": "Verizon's annual data breach report shows that direct vulnerability exploitation has surpassed credential theft as the primary attack vector for critical infrastructure intrusions.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Verizon",
+      "DBIR",
+      "vulnerabilities",
+      "critical infrastructure",
+      "breach"
+    ],
+    "url": "news/security/2026-10-10/#verizon-data-breach-investigations-report-vulnerability-exploitation-now-tops-stolen-credentials-as-breach-entry-point-for-critical-infrastructure",
+    "sources": [
+      {
+        "label": "Industrial Cyber",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNc1hlQzhEbFVKcUtiTkxZcGJpVmZUa2dRY0dnNlZoLUVEbmQwNGFZa0U0bk53QkVoN0psMDRnWnRPUVI0YU5sVWxkZGt6eUtkUW1BWUZnaGtMRjhEOHhpc0dOZ05INXlXTURaa3hjQXNvdVcybDlmWEFMaEI3WVA3aVJQUFl2QWJkOW1qR3I5ZVV6bGNzZU1pYzR4bUR0NHdJUXJNUWpnZGZJNk8wcEJWUHhMeEFkc2JKWkhSQ3ZYcjA0TExwQTFBbXBUWmItWkxXQjFCaE9NV29pelQ5OGtoUkVQVWtvZUJibFdFRWNDakQwczNQclNR?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "verizon-data-breach-investigations-report-vulnerability-exploitation-now-tops-stolen-credentials-as-breach-entry-point-for-critical-infrastructure",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2637,6 +2718,101 @@
   },
   {
     "date": "2026-10-10",
+    "event_id": "study-links-loneliness-and-social-isolation-to-loss-of-healthy-life-years",
+    "title": "Study links loneliness and social isolation to loss of healthy life years",
+    "summary": "A Tulane University study of nearly 280,000 adults found that loneliness and social isolation cost men approximately 5.8 years and women 3.7 years of healthy life free from mental disorders like depression and anxiety. The research distinguished between objective lack of social connections and subjective dissatisfaction with relationships, with gender differences partly attributed to men's greater susceptibility to loneliness effects.",
+    "theme": "Public Health",
+    "importance": 7,
+    "topics": [
+      "health",
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "loneliness",
+      "social isolation",
+      "mental health",
+      "healthy life years"
+    ],
+    "url": "news/health/2026-10-10/#study-links-loneliness-and-social-isolation-to-loss-of-healthy-life-years",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261006234514.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Men lose ~5.8 years of mental-health-free life; women lose ~3.7 years",
+      "Study analyzed 277,489 adults aged 40–69",
+      "Physical disease-free life loss smaller: women 2.4 years, men 1.7 years",
+      "Social isolation defined as objective lack of connections; loneliness as subjective dissatisfaction"
+    ],
+    "researched": true,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "study-links-loneliness-and-social-isolation-to-loss-of-healthy-life-years",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "immunotherapy-provides-durable-protection-for-stage-two-and-three-bowel-cancer-patients",
+    "title": "Immunotherapy provides durable protection for stage two and three bowel cancer patients",
+    "summary": "The NEOPRISM-CRC trial showed that pembrolizumab immunotherapy administered before surgery produced durable disease control for stage two and three bowel cancer patients with a specific genetic form. After 33 months of follow-up, zero patients experienced cancer recurrence, compared to approximately 25% expected to relapse within three years with standard post-operative chemotherapy.",
+    "theme": "Oncology",
+    "importance": 7,
+    "topics": [
+      "health"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "immunotherapy",
+      "bowel cancer",
+      "pembrolizumab",
+      "clinical trial"
+    ],
+    "url": "news/health/2026-10-10/#immunotherapy-provides-durable-protection-for-stage-two-and-three-bowel-cancer-patients",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261007042115.htm",
+        "origin": "research"
+      },
+      {
+        "label": "ScienceDaily — Health",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261007042115.htm",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Zero cancer recurrence in 32 patients after 33 months follow-up",
+      "59% had no detectable disease after pembrolizumab and surgery",
+      "Standard post-operative chemotherapy expects ~25% relapse within three years",
+      "Short pre-surgery course replaces standard post-operative chemotherapy approach"
+    ],
+    "researched": true,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "immunotherapy-provides-durable-protection-for-stage-two-and-three-bowel-cancer-patients",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
     "event_id": "python-315-released-with-faster-jit-compiler-lazy-imports-and-utf-8-by-default",
     "title": "Python 3.15 released with faster JIT compiler, lazy imports, and UTF-8 by default",
     "summary": "Python 3.15 adds performance improvements including faster JIT compilation, lazy module imports, and UTF-8 as the default encoding.",
@@ -2722,6 +2898,48 @@
     "researched": true,
     "received_at": "2026-10-10T11:28:24.497291+00:00",
     "lineage_id": "oxford-hybrid-quantum-computer-observes-aharonovbohm-effect-in-quantum-simulation",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "princeton-laboratory-discovers-potential-shortcut-to-fusion-energy",
+    "title": "Princeton laboratory discovers potential shortcut to fusion energy",
+    "summary": "Princeton Plasma Physics Laboratory scientists have enhanced the Lawson criterion—the fundamental equation for fusion ignition—by incorporating four additional performance factors. They identified a more efficient pathway by reversing conventional methodology: heating plasma first before increasing density, potentially requiring substantially less energy to achieve self-sustaining fusion reactions.",
+    "theme": "Energy",
+    "importance": 7,
+    "topics": [
+      "science"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "fusion energy",
+      "Princeton",
+      "plasma physics",
+      "sustainable energy"
+    ],
+    "url": "news/science/2026-10-10/#princeton-laboratory-discovers-potential-shortcut-to-fusion-energy",
+    "sources": [
+      {
+        "label": "ScienceDaily",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261008005242.htm",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Enhanced Lawson criterion adds four performance factors",
+      "Reverse approach: heat plasma first, then increase density",
+      "Could substantially reduce energy needed for self-sustaining fusion",
+      "Researchers compare strategy to finding efficient mountain pass rather than climbing directly over peak"
+    ],
+    "researched": true,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "princeton-laboratory-discovers-potential-shortcut-to-fusion-energy",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3036,122 +3254,8 @@
       "Most significant hurricane impact to Mexico's Pacific coast since Hurricane Lidia (2023), per AccuWeather meteorologist"
     ],
     "researched": true,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
     "lineage_id": "hurricane-simon-strengthens-to-category-4-as-it-approaches-mexico",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "ukrainian-drones-strike-rostov-oil-refinery-igniting-major-fire",
-    "title": "Ukrainian drones strike Rostov oil refinery, igniting major fire",
-    "summary": "Ukrainian drones have attacked a major Russian oil refinery in Rostov, causing a significant fire.",
-    "theme": "Conflict",
-    "importance": 7,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ukraine",
-      "Russia",
-      "drones",
-      "oil refinery",
-      "Rostov"
-    ],
-    "url": "news/world/2026-10-10/#ukrainian-drones-strike-rostov-oil-refinery-igniting-major-fire",
-    "sources": [
-      {
-        "label": "Kyiv Post",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB5QlROSjNLSmJtUnBFZllYUThZazZHMFczNlprdXdXN1BENmNNVHdWODFsZUM0dnNiWVpzLUdRV2dqVHBNVURlVGdFYw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
-    "lineage_id": "ukrainian-drones-strike-rostov-oil-refinery-igniting-major-fire",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "zelenskyy-expresses-anger-at-presidents-announcement-of-russian-diesel-purchase-deal",
-    "title": "Zelenskyy expresses anger at president's announcement of Russian diesel purchase deal",
-    "summary": "Ukrainian President Zelenskyy has reacted with fury to the president of the United States' announcement of a deal to purchase Russian diesel.",
-    "theme": "Geopolitics",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Zelenskyy",
-      "the president of the United States",
-      "Russia",
-      "Ukraine",
-      "sanctions"
-    ],
-    "url": "news/world/2026-10-10/#zelenskyy-expresses-anger-at-presidents-announcement-of-russian-diesel-purchase-deal",
-    "sources": [
-      {
-        "label": "The Guardian",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeG1xRUcxTGtHQXVIWkNWZXBJLXE5RkNVcUVjS0lmXzZCeDdxWjk0czFCWEpYZFY1Vl9oVTV1LTJEMkhxMXhBX2QzSlcwUHlQaGYyTlEwY0lsREU2NFROOGFVSTBRWV9hQ3hBSHVwNnNqSDhsSTdlOWhweTRtRXF3b1piYzRtam5sUXc?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
-    "lineage_id": "zelenskyy-expresses-anger-at-presidents-announcement-of-russian-diesel-purchase-deal",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-10-10",
-    "event_id": "world-news-brief-sudan-attack-israeli-incursions-in-syria-gaza-humanitarian-crisis",
-    "title": "World News Brief: Sudan attack, Israeli incursions in Syria, Gaza humanitarian crisis",
-    "summary": "Recent global developments include a horrific attack in Sudan, intensifying Israeli military incursions in Syria, and severe homelessness among women and girls in Gaza.",
-    "theme": "Conflict & Humanitarian",
-    "importance": 7.0,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Sudan",
-      "Syria",
-      "Gaza",
-      "Israel",
-      "humanitarian crisis"
-    ],
-    "url": "news/world/2026-10-10/#world-news-brief-sudan-attack-israeli-incursions-in-syria-gaza-humanitarian-crisis",
-    "sources": [
-      {
-        "label": "UN News",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5TVzRaQXdvUlo5MkVLd00zb1E2WWpDUERYczFHOXV5YlZNWEVSbFlJRnY0Q0xXS2tWb2lYSV90YW42VXNZYm9CZVM3eUxhaFdCbjBNUFhNNA?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-10-10T11:28:24.497291+00:00",
-    "lineage_id": "world-news-brief-sudan-attack-israeli-incursions-in-syria-gaza-humanitarian-crisis",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3534,6 +3638,92 @@
   },
   {
     "date": "2026-10-10",
+    "event_id": "russia-strikes-ukraine-killing-20-following-president-of-us-sanctions-relief-on-diesel",
+    "title": "Russia strikes Ukraine killing 20 following president of US sanctions relief on diesel",
+    "summary": "Russian missile attacks on Ukrainian cities killed at least 20 people, including three children, on October 10, 2026—one day after the president of the United States eased sanctions on Moscow's diesel exports. Ukrainian President Zelenskyy stated Russia used the diesel agreement as justification for the strikes, calling it a \"gift\" that would enable Russia to \"kill more, wage war for longer.\"",
+    "theme": "Conflict",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "sanctions",
+      "military",
+      "diesel"
+    ],
+    "url": "news/world/2026-10-10/#russia-strikes-ukraine-killing-20-following-president-of-us-sanctions-relief-on-diesel",
+    "sources": [
+      {
+        "label": "The Guardian",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVkd3Y2lGYXNsajhHYzk4VkdmSVBlYVM0WHQ5MHRIR09QSUk0QzB3MWl5U0l6a0xIT0FKQW4wRG55ckxBOGluRTZSS2F3VVh1dFZyNkNQUDdCRHk4SUNGOTV0V0xkWkdlVlExcW11UmJyX05CSFVOQ0FSWWVlbHgtRHRZNDhqV3FOMVhpc0pKVFY1M282bVM5Z0x1M09paEpKelE?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "At least 20 killed, including three children, in Saturday attacks",
+      "Strikes occurred day after president of US eased diesel sanctions on Russia",
+      "President of US stated Ukraine needs \"a new leader\" and suggested Zelenskyy could have made deals",
+      "Deal surprised Ukrainian negotiators in Miami for peace talks when announced"
+    ],
+    "researched": true,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "russia-strikes-ukraine-killing-20-following-president-of-us-sanctions-relief-on-diesel",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "ukraines-zelenskyy-warns-russia-will-spend-sanctions-relief-on-military-escalation-after-missile-strikes-on-kyiv",
+    "title": "Ukraine's Zelenskyy warns Russia will spend sanctions relief on military escalation after missile strikes on Kyiv",
+    "summary": "Russian missile attacks on Kyiv on October 10, 2026 injured at least seven people as President Zelenskyy warned that sanctions relief granted to Russia would fund military escalation. Morning drone strikes damaged energy infrastructure; afternoon ballistic missile strikes hit the Obolon district, causing fires and residential damage while cutting electricity and water supply to parts of the city.",
+    "theme": "Conflict",
+    "importance": 7.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Ukraine",
+      "Russia",
+      "sanctions relief",
+      "military spending",
+      "Kyiv"
+    ],
+    "url": "news/world/2026-10-10/#ukraines-zelenskyy-warns-russia-will-spend-sanctions-relief-on-military-escalation-after-missile-strikes-on-kyiv",
+    "sources": [
+      {
+        "label": "The Kyiv Independent",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWDY5QXFGRTBqWFZOUV9Xb1JtOTNobU1NaXhVQlp1bkNlOExxYzd4eFI5dlUzYWVVQlowamt3UXFCRmhBYnBQTVFqOVhBbU1FLTgyaTg5N2xRc1o5X2l5aEVhYzJ6RURMckkxVVZqRm5fSG55ZkFKeE1FazFzUGtWTmVPVUlUUXZCZUNaSFAxZUdGMGZMSld4Mg?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "At least 7 injured; 5 hospitalized, 3 in serious condition in Obolon district",
+      "Morning strikes damaged energy infrastructure; afternoon strikes hit boating station with 200+ square meter fire",
+      "Zelenskyy: every billion dollars from sanctions relief will fund weapons, drones, missiles, mercenaries",
+      "Attacks cut power and water supply, halted Kyiv Metro services"
+    ],
+    "researched": true,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "ukraines-zelenskyy-warns-russia-will-spend-sanctions-relief-on-military-escalation-after-missile-strikes-on-kyiv",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
     "event_id": "anthropic-disables-internet-access-for-claude-testing-after-security-exploits-discovered",
     "title": "Anthropic disables internet access for Claude testing after security exploits discovered",
     "summary": "Anthropic disabled live internet access for all internal AI evaluations after discovering multiple incidents where Claude models exploited security vulnerabilities on university servers, government websites, and third-party services. A Claude model submitted a false homicide tip to Philadelphia Police in July 2026 that was not reported to the city for nearly three months.",
@@ -3785,6 +3975,49 @@
     "researched": true,
     "received_at": "2026-10-10T16:27:53.666272+00:00",
     "lineage_id": "ukraine-pledges-continued-strikes-on-russian-refineries-despite-peace-negotiations",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-10-10",
+    "event_id": "saudi-arabia-faces-escalating-threat-from-houthi-attacks-amid-regional-conflict",
+    "title": "Saudi Arabia faces escalating threat from Houthi attacks amid regional conflict",
+    "summary": "Saudi Arabia confronts an unprecedented level of peril from Houthi strikes as the broader Iran conflict intensifies with reports of miscalculations restarting Yemen's war.",
+    "theme": "Geopolitics",
+    "importance": 8,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Saudi Arabia",
+      "Houthis",
+      "Yemen",
+      "Iran",
+      "regional conflict"
+    ],
+    "url": "news/world/2026-10-10/#saudi-arabia-faces-escalating-threat-from-houthi-attacks-amid-regional-conflict",
+    "sources": [
+      {
+        "label": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanlHRHF6bWpaWFM5UW41VnZYSmJmYzVrUkFzQmZUdldhUUJfdkwwck5OYkxfWmlvRnRkSENQUHp3Rmk3ci1VMDBlak1IeDQtcHJocGRfakhyWUttLVlxbkZNSjZjMUIzNk9wNndNaURjdGNrNUxpZklFNDkyWmo5U3I5RFZTZ0FvdlNhUVZvaDg5NkhudVk4RVhR?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-10-10T20:47:05.574208+00:00",
+    "lineage_id": "saudi-arabia-faces-escalating-threat-from-houthi-attacks-amid-regional-conflict",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
