@@ -1,5 +1,157 @@
 [
   {
+    "timestamp": "2026-10-15T10:27:11.840598+00:00",
+    "mode": "daily",
+    "calls": 62,
+    "web_searches": 23,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 153970,
+        "output": 52958,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 9223,
+        "output": 4876,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.4524,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 8,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 46708,
+            "output": 33072,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.2121
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 1,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4186,
+            "output": 8,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0042
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 391,
+            "output": 50,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0006
+      },
+      "(merge-check)": {
+        "calls": 10,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 6572,
+            "output": 90,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.007
+      },
+      "(read)": {
+        "calls": 41,
+        "web_searches": 7,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 96113,
+            "output": 19738,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.1948
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 9223,
+            "output": 4876,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0336
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 72,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 60,
+      "Google News \u2014 OpenAI GPT": 38,
+      "Phys.org": 29,
+      "Google News \u2014 Anthropic": 19,
+      "Google News \u2014 World": 14,
+      "Wired": 11,
+      "Mongabay": 9,
+      "Hacker News (front page)": 9,
+      "TechCrunch": 9,
+      "Google News \u2014 AI models": 7,
+      "The Register": 6,
+      "STAT News": 6,
+      "SecurityWeek": 5,
+      "The Verge": 4,
+      "Inside Climate News": 4,
+      "The Hacker News": 4,
+      "BleepingComputer": 3,
+      "ScienceDaily \u2014 Health": 3,
+      "Ars Technica": 3,
+      "Engadget": 2,
+      "Space.com": 2,
+      "Google News \u2014 Python": 2,
+      "Grist": 2,
+      "Google News \u2014 space": 2,
+      "ScienceDaily \u2014 Fitness": 2,
+      "ScienceDaily": 2,
+      "The Record": 2,
+      "IEEE Spectrum": 1,
+      "Yale Environment 360": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Live Science": 1,
+      "Google News \u2014 science": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "MIT \u2014 Artificial Intelligence": 1,
+      "Google News \u2014 nutrition exercise science": 1,
+      "Google News \u2014 wildlife conservation biodiversity": 1,
+      "ScienceDaily \u2014 Nutrition": 1
+    }
+  },
+  {
     "timestamp": "2026-10-14T21:02:25.629701+00:00",
     "mode": "daily",
     "calls": 56,
