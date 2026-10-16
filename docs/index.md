@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-15. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-16. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>outlandish</strong></summary>
+<summary>📖 Word of the day &middot; <strong>zenith</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">outlandish <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Outlandish can describe things that are strikingly strange or unusual; in this use, it’s a synonym of . Outlandish can also describe things, such as claims, rumors, and accusations, that go beyond reasonable limits or standards.</div>
-<div class="wotd-ex">One of the author’s greatest strengths is her ability to write outlandish characters whose quirks remain lodged in readers’ minds long after they’ve finished the book.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/outlandish-2026-10-15" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">zenith <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Zenith refers to the strongest or most successful period of time for a person or thing.</div>
+<div class="wotd-ex">At its zenith in the 1980s, the company employed more than 300 people.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/zenith-2026-10-16" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,18 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2018</div>
-<div class="fact-text">Thirteen-year-old Jayme Closs was kidnapped from her home in Barron, Wisconsin, and held captive for 88 days. <a class="fact-src" href="https://en.wikipedia.org/wiki/Kidnapping_of_Jayme_Closs" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
-</div>
-
-</details>
-
-<details class="daily-panel" open>
-<summary>💡 Fact of the day</summary>
-
-<div class="fact funfact" id="fun-fact">
-<div class="fact-label">💡 Fact of the day</div>
-<div class="fact-text">In 2000, Debbie Mathers, Eminem&#x27;s mother, released the CD &quot;Set the Record Straight,&quot; featuring two tracks addressing Eminem&#x27;s negative lyrics about her. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2017</div>
+<div class="fact-text">The Maltese journalist and anti-corruption activist Daphne Caruana Galizia was killed in a car bomb attack in Bidnija. <a class="fact-src" href="https://en.wikipedia.org/wiki/Daphne_Caruana_Galizia" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
@@ -103,66 +93,3 @@ hide:
 
 Don't see a topic you want? [Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml).
 
-
-<div class="crawler-only" aria-hidden="true">
-<div><a href="news/security/2026-10-15/#cisco-secure-email-gateway-vulnerability-exploited-in-the-wild">Cisco Secure Email Gateway Vulnerability Exploited in the Wild</a>
-<p>Unauthenticated attackers can write arbitrary files and execute commands with root privileges on Cisco Secure Email Gateway systems.</p>
-</div>
-<div><a href="news/security/2026-10-15/#nextjs-releases-critical-security-patches-for-rce-flaws-in-caching-and-svg-processing">Next.js releases critical security patches for RCE flaws in caching and SVG processing</a>
-<p>Next.js released critical security updates on October 14 fixing two remote code execution vulnerabilities (CVSS 9.5 each) and one high-severity denial-of-service flaw. The RCE flaws affect caching in React Server Components and SVG rendering via the sharp library, with fixes available in versions 16.4.1 and 15.5.28.</p>
-</div>
-<div><a href="news/world/2026-10-15/#russia-intensifies-bombing-campaign-to-destroy-ukraines-energy-infrastructure-before-winter">Russia intensifies bombing campaign to destroy Ukraine&#x27;s energy infrastructure before winter</a>
-<p>Since late August 2026, Russia has dramatically escalated bombing and drone campaigns against Ukraine&#x27;s energy infrastructure ahead of winter, launching over 2,800 jet-powered drones in August alone—up from 350 in June. Ukraine intercepts around 57% of these drones, leaving significant gaps as Russia targets power grids, bridges, and critical infrastructure in what analysts believe is an attempt to compel civilian surrender through systematic winter bombardment.</p>
-</div>
-<div><a href="news/science/2026-10-15/#study-reveals-93-of-australias-indigenous-population-lost-within-73-years-of-colonization">Study reveals 93% of Australia&#x27;s Indigenous population lost within 73 years of colonization</a>
-<p>A Flinders University study estimates Australia&#x27;s pre-colonial Indigenous population at approximately 2.22 million—potentially seven times higher than 1930s estimates of 250,000. The research found that 93% of this population was lost within 73 years of European arrival in 1788, representing a demographic catastrophe driven by disease, violence, and structural violence.</p>
-</div>
-<div><a href="news/security/2026-10-15/#palo-alto-networks-patches-critical-pan-os-rce-vulnerability-under-active-exploitation">Palo Alto Networks patches critical PAN-OS RCE vulnerability under active exploitation</a>
-<p>Palo Alto Networks released security updates for CVE-2026-0322, a high-severity remote code execution vulnerability in PAN-OS management interface currently under active exploitation.</p>
-</div>
-<div><a href="news/security/2026-10-15/#nginx-releases-patches-for-five-vulnerabilities-including-critical-rce-and-tls-bug">NGINX releases patches for five vulnerabilities including critical RCE and TLS bug</a>
-<p>NGINX released patches on October 14 in versions 1.30.6 and 1.31.7 addressing five vulnerabilities, including three critical memory bugs rated 9.2 on CVSS v4.0 that could crash worker processes or enable remote code execution, plus a TLS client-certificate verification flaw rated 8.3.</p>
-</div>
-<div><a href="news/security/2026-10-15/#hackers-deploy-peerstitch-malware-on-fortigate-firewalls-via-fortinet-vulnerabilities">Hackers deploy PEERSTITCH malware on FortiGate firewalls via Fortinet vulnerabilities</a>
-<p>Attackers exploited Fortinet vulnerabilities to install PEERSTITCH, a stealthy ARM64 malware on FortiGate firewalls in a telecom organization breach. The memory-resident malware leaves no disk artifacts, opens no ports, and communicates through legitimate process traffic, enabling long-term access to intercept network data and compromise 500+ managed firewalls.</p>
-</div>
-<div><a href="news/security/2026-10-15/#drupal-patches-critical-field-ui-vulnerability-allowing-unauthenticated-rce">Drupal patches critical Field UI vulnerability allowing unauthenticated RCE</a>
-<p>Drupal released critical security patches on October 14 fixing a Field UI vulnerability (CVE-2026-108097) rated 19 out of 25 on Drupal&#x27;s risk scale that enables unauthenticated remote code execution through contributed modules. Unpatched Drupal versions 11.2.x and below, 10.5.x and below, and versions 8–9 receive no fix and are end-of-life.</p>
-</div>
-<div><a href="news/tech/2026-10-15/#israeli-ad-tech-firm-used-spyware-distribution-through-online-advertisements">Israeli ad tech firm used spyware distribution through online advertisements</a>
-<p>Security researchers at Citizen Lab and Confiant uncovered an Israeli ad tech firm collaborating with spyware companies to infect devices, including Al Jazeera networks, through malicious online advertisements without user interaction.</p>
-</div>
-<div><a href="news/world/2026-10-15/#ukraine-resumes-strikes-on-russian-oil-refineries-as-tensions-with-trump-rise">Ukraine resumes strikes on Russian oil refineries as tensions with Trump rise</a>
-<p>Ukraine resumed strikes on Russian oil refineries on October 15 after a three-day pause, following President Zelenskyy&#x27;s announcement ending the block on attacking infrastructure. Zelenskyy cited the president of the United States&#x27;s withdrawal of defense support, ceasefire violations by Russia, intelligence-sharing gaps, and Starlink service restrictions as drivers of the decision. A fire broke out at a Ryazan refinery amid reported Ukrainian attack attempts.</p>
-</div>
-<div><a href="news/world/2026-10-15/#two-ships-sink-near-hormuz-after-being-hit-by-projectiles-amid-surge-in-attacks">Two ships sink near Hormuz after being hit by projectiles amid surge in attacks</a>
-<p>Two commercial vessels sank near the Strait of Hormuz on October 14 after projectile strikes amid escalating maritime attacks. At least five incidents including drone strikes occurred in 48 hours targeting tankers and cargo ships around the region. Iran&#x27;s IRGC blamed the GFS Pride sinking on an unauthorized passage hitting a naval mine, while maritime security sources noted a deliberate tempo increase in strikes ahead of U.S. midterm elections, potentially aimed at disrupting fuel prices.</p>
-</div>
-<div><a href="news/ai/2026-10-15/#chinese-homegrown-llm-solves-world-class-mathematics-problem">Chinese homegrown LLM solves world-class mathematics problem</a>
-<p>Chinese researchers using domestically developed large language model Intern-S2 proved the three-dimensional Ghys conjecture, a world-class mathematics problem unsolved for over 30 years. The human-machine collaboration involved the AI performing recursive reasoning, literature review, and logical verification while human researchers guided strategy and evaluation.</p>
-</div>
-<div><a href="news/climate-change/2026-10-15/#brazil-election-outcome-could-determine-amazon-rainforest-fate">Brazil election outcome could determine Amazon rainforest fate</a>
-<p>Brazil&#x27;s October 4 presidential election between incumbent Lula and Senator Flávio Bolsonaro produced no outright winner, triggering a runoff set for October 25. The outcome will critically shape Amazon rainforest policy: Lula promises net-zero deforestation by 2030, while Bolsonaro promises zero illegal deforestation by 2029 with a focus on legalizing rather than eliminating clearing through environmental deregulation.</p>
-</div>
-<div><a href="news/climate-change/2026-10-15/#afghan-families-forced-to-marry-off-girls-as-climate-drought-deepens">Afghan Families Forced to Marry Off Girls as Climate Drought Deepens</a>
-<p>Severe drought in Afghanistan is forcing families to arrange child marriages—some girls as young as 8 years old—to repay debts and avoid starvation. In Badghis province, where 95% of the population relies on rain-fed agriculture, extreme droughts driven by climate breakdown have destroyed traditional livelihoods and pushed desperate coping mechanisms to their limits.</p>
-</div>
-<div><a href="news/climate-change/2026-10-15/#trump-administration-cuts-noaa-funding-threatening-us-climate-resilience">Trump administration cuts NOAA funding, threatening U.S. climate resilience</a>
-<p>The president of the United States administration cut federal NOAA funding dramatically after taking office in 2025, reducing grant awards by 74% to 229 by September 2, 2026 compared to an average of 891 in prior years. At least 26 existing grants were terminated, including $1.2 million for New Orleans climate-resilient water management and $2.5 million for Northwest tribal climate resilience projects. The administration used AI-flagged keywords like &#x27;indigenous&#x27; and &#x27;climate change&#x27; to target cancellations.</p>
-</div>
-<div><a href="news/health/2026-10-15/#amyloid-removal-in-alzheimers-brain-shows-protective-effect-on-tau">Amyloid Removal in Alzheimer&#x27;s Brain Shows Protective Effect on Tau</a>
-<p>An autopsy study of an Alzheimer&#x27;s patient revealed that brain regions successfully cleared of amyloid plaques showed little or no tau buildup, while neighboring amyloid-containing areas showed high tau levels and neurodegeneration. The findings suggest that removing amyloid plaques early may provide lasting protection against tau accumulation and slow cognitive decline.</p>
-</div>
-<div><a href="news/health/2026-10-15/#stroke-rates-nearly-double-among-younger-adults-over-three-decades">Stroke Rates Nearly Double Among Younger Adults Over Three Decades</a>
-<p>Stroke rates among adults ages 20 to 54 nearly doubled over three decades in the Greater Cincinnati and Northern Kentucky region, rising 83% from 33.9 cases per 100,000 person-years in 1993–1994 to 62.2 in 2020. Ischemic strokes drove most of the increase, with associations found to hypertension, diabetes, and substance use, though underlying causes remain unclear.</p>
-</div>
-<div><a href="news/science/2026-10-15/#fungi-networks-maintain-planetary-health-through-nutrient-trading-and-carbon-sequestration">Fungi networks maintain planetary health through nutrient trading and carbon sequestration</a>
-<p>Mycorrhizal fungal networks in soil exchange nutrients with approximately 80% of Earth&#x27;s plant species and sequester approximately 13 billion tons of atmospheric carbon dioxide annually—equivalent to roughly one-third of global fossil-fuel emissions. Despite lacking a brain, these fungi demonstrate strategic behavior: discriminating between trading partners and negotiating resource allocation based on partner quality.</p>
-</div>
-<div><a href="news/science/2026-10-15/#arctic-sea-ice-reaches-troubling-low-in-2026">Arctic sea ice reaches troubling low in 2026</a>
-<p>Arctic sea ice reached its annual minimum on September 12, 2026, covering approximately 4.6 million square kilometers, tying the 10th-lowest minimum in satellite records since 1978. Every summer from 2007 through 2026 ranks among the 20 lowest September extents, though the rate of summer loss has slowed in the past decade due to increased cloud cover limiting sunlight reaching the ice.</p>
-</div>
-<div><a href="news/science/2026-10-15/#scientists-engineer-new-fungal-defense-to-protect-global-food-crops">Scientists Engineer New Fungal Defense to Protect Global Food Crops</a>
-<p>Scientists at John Innes Centre and Kobe University engineered plant immune receptors capable of recognizing multiple fungal threats, targeting Magnaporthe oryzae which causes blast disease affecting rice, wheat, and barley. Rice blast destroys enough rice annually to feed approximately 60 million people, making this breakthrough potentially significant for global food security.</p>
-</div>
-</div>
