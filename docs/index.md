@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-16. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-17. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>zenith</strong></summary>
+<summary>📖 Word of the day &middot; <strong>syncretic</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">zenith <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Zenith refers to the strongest or most successful period of time for a person or thing.</div>
-<div class="wotd-ex">At its zenith in the 1980s, the company employed more than 300 people.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/zenith-2026-10-16" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">syncretic <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">Syncretic describes things that are characterized or brought about by a combination of different forms of belief or practice.</div>
+<div class="wotd-ex">We were raised with a syncretic religion that combined practices from various faiths.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/syncretic-2026-10-17" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2017</div>
-<div class="fact-text">The Maltese journalist and anti-corruption activist Daphne Caruana Galizia was killed in a car bomb attack in Bidnija. <a class="fact-src" href="https://en.wikipedia.org/wiki/Daphne_Caruana_Galizia" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2001</div>
+<div class="fact-text">Rehavam Ze&#x27;evi, the Israeli minister of tourism, was assassinated in revenge for the killing of PFLP leader Abu Ali Mustafa. <a class="fact-src" href="https://en.wikipedia.org/wiki/Rehavam_Ze&#x27;evi" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
