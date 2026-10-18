@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-17. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-18. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>syncretic</strong></summary>
+<summary>📖 Word of the day &middot; <strong>bon vivant</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">syncretic <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Syncretic describes things that are characterized or brought about by a combination of different forms of belief or practice.</div>
-<div class="wotd-ex">We were raised with a syncretic religion that combined practices from various faiths.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/syncretic-2026-10-17" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">bon vivant <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">A bon vivant is a sociable person who has refined tastes especially with respect to food and drink.</div>
+<div class="wotd-ex">She has become something of a bon vivant since moving to Paris, going out most nights and delighting in the city&#x27;s many restaurants.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/bon-vivant-2026-10-18" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2001</div>
-<div class="fact-text">Rehavam Ze&#x27;evi, the Israeli minister of tourism, was assassinated in revenge for the killing of PFLP leader Abu Ali Mustafa. <a class="fact-src" href="https://en.wikipedia.org/wiki/Rehavam_Ze&#x27;evi" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2019</div>
+<div class="fact-text">Protests in Santiago that started 11 days prior escalated into open battle against the Chilean national police, forcing President Sebastián Piñera to declare a state of emergency. <a class="fact-src" href="https://en.wikipedia.org/wiki/Santiago" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
