@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-19. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-20. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>fervid</strong></summary>
+<summary>📖 Word of the day &middot; <strong>compunction</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">fervid <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Fervid is used to describe people or things that express or are expressive of strong feelings.</div>
-<div class="wotd-ex">The core of the book is the fervid letters the friends exchanged during the years they were apart.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/fervid-2026-10-19" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">compunction <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Compunction refers to a feeling of misgiving, that is, doubt or suspicion especially concerning a future event. It can also refer to a feeling of guilt or regret. The word is typically used in negative constructions.</div>
+<div class="wotd-ex">We moved ahead with the plans without compunction .</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/compunction-2026-10-20" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2017</div>
-<div class="fact-text">Canadian astronomer Robert Weryk discovered ʻOumuamua (depicted), the first known interstellar object detected passing through the Solar System. <a class="fact-src" href="https://en.wikipedia.org/wiki/Robert_Weryk" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2024</div>
+<div class="fact-text">Prabowo Subianto and Gibran Rakabuming Raka were sworn in as president and vice president of Indonesia, becoming the oldest and the youngest person to assume respective offices. <a class="fact-src" href="https://en.wikipedia.org/wiki/Prabowo_Subianto" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
