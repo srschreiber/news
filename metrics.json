@@ -1,5 +1,58 @@
 [
   {
+    "timestamp": "2026-10-20T15:55:00.014034+00:00",
+    "mode": "daily",
+    "refresh": true,
+    "calls": 0,
+    "web_searches": 15,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 75,
+      "Phys.org": 27,
+      "Google News \u2014 World": 23,
+      "Hacker News (front page)": 18,
+      "The Register": 17,
+      "Google News \u2014 AI models": 15,
+      "Engadget": 12,
+      "TechCrunch": 10,
+      "ScienceDaily": 10,
+      "Google News \u2014 OpenAI GPT": 9,
+      "SecurityWeek": 8,
+      "The Verge": 8,
+      "Mongabay": 7,
+      "Wired": 7,
+      "The Hacker News": 7,
+      "BleepingComputer": 6,
+      "ScienceDaily \u2014 Health": 6,
+      "STAT News": 5,
+      "Live Science": 4,
+      "Space.com": 4,
+      "Google News \u2014 Anthropic": 3,
+      "The Record": 3,
+      "Ars Technica": 2,
+      "Google News \u2014 phishing campaigns": 2,
+      "Carbon Brief": 1,
+      "Inside Climate News": 1,
+      "Google News \u2014 space": 1,
+      "Google News \u2014 Python": 1,
+      "Google News \u2014 science": 1,
+      "Yale Environment 360": 1,
+      "Google News \u2014 email security": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Schneier on Security": 1,
+      "ScienceDaily \u2014 Nutrition": 1
+    }
+  },
+  {
     "timestamp": "2026-10-20T10:30:54.033645+00:00",
     "mode": "daily",
     "calls": 0,
