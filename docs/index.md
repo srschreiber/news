@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-21. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-22. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>jilt</strong></summary>
+<summary>📖 Word of the day &middot; <strong>vocation</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">jilt <span class="wotd-pos">verb</span></div>
-<div class="wotd-def">To jilt someone is usually to abruptly end a romantic relationship with them. Jilt is also applied to various kinds of abrupt rejection.</div>
-<div class="wotd-ex">The novel begins with the hero, having just been jilted by his fiancée, setting off to hike the Appalachian Trail.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/jilt-2026-10-21" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">vocation <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Vocation can refer simply to an occupation, or it can refer to a strong calling to pursue a particular kind of work or course of action.</div>
+<div class="wotd-ex">Since he was a teenager, he knew that he would find his vocation in marine biology.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/vocation-2026-10-22" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 1994</div>
-<div class="fact-text">North Korea and the United States signed the Agreed Framework to limit the former&#x27;s nuclear weapons program and to normalize relations between the two countries. <a class="fact-src" href="https://en.wikipedia.org/wiki/Agreed_Framework" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2015</div>
+<div class="fact-text">A sword-wielding man attacked students and teachers at a high school in Trollhättan, killing three people in Sweden&#x27;s deadliest school attack. <a class="fact-src" href="https://en.wikipedia.org/wiki/2015_Trollh%C3%A4ttan_school_attack" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
