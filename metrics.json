@@ -1,5 +1,58 @@
 [
   {
+    "timestamp": "2026-10-23T16:00:10.410582+00:00",
+    "mode": "daily",
+    "refresh": true,
+    "calls": 0,
+    "web_searches": 15,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 76,
+      "Phys.org": 27,
+      "Google News \u2014 World": 25,
+      "Google News \u2014 Anthropic": 16,
+      "The Verge": 10,
+      "Hacker News (front page)": 8,
+      "STAT News": 7,
+      "Google News \u2014 OpenAI GPT": 6,
+      "Engadget": 5,
+      "The Register": 5,
+      "ScienceDaily": 5,
+      "Wired": 4,
+      "Ars Technica": 4,
+      "ScienceDaily \u2014 Health": 4,
+      "BleepingComputer": 3,
+      "Mongabay": 3,
+      "Space.com": 3,
+      "The Hacker News": 3,
+      "Google News \u2014 Python": 2,
+      "The Guardian \u2014 Climate Crisis": 2,
+      "Google News \u2014 PostgreSQL": 2,
+      "SecurityWeek": 2,
+      "Google News \u2014 AI models": 2,
+      "The Record": 2,
+      "TechCrunch": 1,
+      "Quanta Magazine": 1,
+      "Grist": 1,
+      "Google News \u2014 space": 1,
+      "Google News \u2014 cybersecurity": 1,
+      "Google News \u2014 science": 1,
+      "Schneier on Security": 1,
+      "ScienceDaily \u2014 Fitness": 1,
+      "Google News \u2014 medical research": 1,
+      "Google News \u2014 climate change": 1
+    }
+  },
+  {
     "timestamp": "2026-10-23T10:36:34.966233+00:00",
     "mode": "daily",
     "calls": 0,
