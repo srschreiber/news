@@ -1,5 +1,58 @@
 [
   {
+    "timestamp": "2026-10-23T19:49:01.255887+00:00",
+    "mode": "daily",
+    "refresh": true,
+    "calls": 0,
+    "web_searches": 15,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 50,
+      "Science Advances": 41,
+      "Phys.org": 29,
+      "Google News \u2014 World": 19,
+      "Hacker News (front page)": 14,
+      "Mongabay": 8,
+      "The Verge": 8,
+      "STAT News": 6,
+      "TechCrunch": 5,
+      "Google News \u2014 Anthropic": 5,
+      "Ars Technica": 5,
+      "Inside Climate News": 4,
+      "Google News \u2014 AI models": 4,
+      "BleepingComputer": 3,
+      "The Hacker News": 3,
+      "Google News \u2014 email security": 3,
+      "Wired": 3,
+      "Google News \u2014 space": 3,
+      "Google News \u2014 OpenAI GPT": 3,
+      "Google News \u2014 cybersecurity": 3,
+      "Space.com": 2,
+      "The Guardian \u2014 Climate Crisis": 2,
+      "MIT \u2014 Artificial Intelligence": 1,
+      "Grist": 1,
+      "Google Research Blog": 1,
+      "Google News \u2014 phishing campaigns": 1,
+      "Microsoft Security Blog": 1,
+      "IEEE Spectrum": 1,
+      "The Record": 1,
+      "Live Science": 1,
+      "The Register": 1,
+      "Engadget": 1,
+      "Carbon Brief": 1,
+      "Google News \u2014 Python": 1
+    }
+  },
+  {
     "timestamp": "2026-10-23T16:00:10.410582+00:00",
     "mode": "daily",
     "refresh": true,
