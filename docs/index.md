@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-22. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-23. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>vocation</strong></summary>
+<summary>📖 Word of the day &middot; <strong>asunder</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">vocation <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Vocation can refer simply to an occupation, or it can refer to a strong calling to pursue a particular kind of work or course of action.</div>
-<div class="wotd-ex">Since he was a teenager, he knew that he would find his vocation in marine biology.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/vocation-2026-10-22" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">asunder <span class="wotd-pos">adverb or adjective</span></div>
+<div class="wotd-def">Asunder is most often used as an adverb—often with a verb such as tear or rip —to mean &quot;apart&quot; or &quot;into pieces.&quot; It is more rarely used as an adjective meaning &quot;apart from each other,&quot; as in &quot;standing with legs wide asunder.&quot;</div>
+<div class="wotd-ex">The park was torn asunder by yesterday&#x27;s microburst, and many of its trails have been blocked by fallen trees.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/asunder-2026-10-23" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2015</div>
-<div class="fact-text">A sword-wielding man attacked students and teachers at a high school in Trollhättan, killing three people in Sweden&#x27;s deadliest school attack. <a class="fact-src" href="https://en.wikipedia.org/wiki/2015_Trollh%C3%A4ttan_school_attack" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2022</div>
+<div class="fact-text">Myanmar civil war: Burmese military forces launched airstrikes that killed at least 80 concertgoers in Kachin State. <a class="fact-src" href="https://en.wikipedia.org/wiki/Myanmar_civil_war_(2021%E2%80%93present)" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
