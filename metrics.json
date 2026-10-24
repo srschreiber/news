@@ -1,5 +1,47 @@
 [
   {
+    "timestamp": "2026-10-24T13:41:09.741171+00:00",
+    "mode": "daily",
+    "refresh": true,
+    "calls": 0,
+    "web_searches": 15,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 46,
+      "Google News \u2014 World": 15,
+      "ScienceDaily": 9,
+      "Engadget": 8,
+      "Wired": 8,
+      "ScienceDaily \u2014 Health": 4,
+      "Hacker News (front page)": 4,
+      "Phys.org": 4,
+      "The Hacker News": 4,
+      "The Verge": 3,
+      "Google News \u2014 cybersecurity": 2,
+      "The Register": 2,
+      "Live Science": 2,
+      "Space.com": 2,
+      "Ars Technica": 2,
+      "Google News \u2014 OpenAI GPT": 2,
+      "STAT News": 2,
+      "Inside Climate News": 2,
+      "Grist": 1,
+      "Google News \u2014 AI models": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "ScienceDaily \u2014 Fitness": 1,
+      "ScienceDaily \u2014 Nutrition": 1
+    }
+  },
+  {
     "timestamp": "2026-10-24T09:54:12.724732+00:00",
     "mode": "daily",
     "calls": 0,
