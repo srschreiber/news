@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-24. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-25. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>puissant</strong></summary>
+<summary>📖 Word of the day &middot; <strong>emissary</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">puissant <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Puissant is a synonym of used to describe something with —that is, strength or power.</div>
-<div class="wotd-ex">The creatures in her fantasy novel are wielders of puissant magic, able to strike down enemies by harnessing the power of weather phenomena like lightning and tornadoes.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/puissant-2026-10-24" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">emissary <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Emissary refers to a person who is sent on a mission to represent another person or organization.</div>
+<div class="wotd-ex">Emissaries from the government are trying to negotiate a settlement.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/emissary-2026-10-25" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2015</div>
-<div class="fact-text">Lam Wing-kee, the owner of Causeway Bay Books in Hong Kong, known for publishing political books banned in mainland China, was abducted by Chinese authorities. <a class="fact-src" href="https://en.wikipedia.org/wiki/Lam_Wing-kee" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2022</div>
+<div class="fact-text">At 49 days, Liz Truss concluded the shortest tenure as prime minister of the United Kingdom. <a class="fact-src" href="https://en.wikipedia.org/wiki/Liz_Truss" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
