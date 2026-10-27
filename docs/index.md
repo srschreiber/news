@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-26. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-27. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>disparate</strong></summary>
+<summary>📖 Word of the day &middot; <strong>milieu</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">disparate <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Disparate things are noticeably distinct from one another in quality or character. Disparate can also describe something that contains or is made up of fundamentally different and often incongruous elements.</div>
-<div class="wotd-ex">The orchestral project joins disparate musical elements to create a truly original sound.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/disparate-2026-10-26" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">milieu <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Milieu is a formal word that refers to the physical or social setting in which people live or in which something happens or develops.</div>
+<div class="wotd-ex">Langston Hughes, Zora Neale Hurston, and Jean Toomer were among the many writers who flourished in the intellectual milieu of the Harlem Renaissance.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/milieu-2026-10-27" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2004</div>
-<div class="fact-text">Rockstar Games released Grand Theft Auto: San Andreas, considered one of the best video games ever made, in North America. <a class="fact-src" href="https://en.wikipedia.org/wiki/Rockstar_Games" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2019</div>
+<div class="fact-text">The Mocking of Christ (pictured) by Cimabue sold at auction in France for €19.5 million, a record for a pre-1500 artwork. <a class="fact-src" href="https://en.wikipedia.org/wiki/The_Mocking_of_Christ_(Cimabue)" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
