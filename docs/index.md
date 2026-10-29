@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-28. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-29. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>grotesque</strong></summary>
+<summary>📖 Word of the day &middot; <strong>shindig</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">grotesque <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Grotesque describes something that is very strange or ugly in a way that is not normal or natural. It can also describe something that is extremely different from what is expected or usual.</div>
-<div class="wotd-ex">She opted for a scary Halloween costume, complete with a grotesque monster mask.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/grotesque-2026-10-28" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">shindig <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Shindig is an informal word for a big party.</div>
+<div class="wotd-ex">Our friends are in town this weekend, so we’re hosting a shindig at our place on Saturday night.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/shindig-2026-10-29" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -22,7 +22,7 @@ hide:
 
 <div class="fact" id="on-this-day">
 <div class="fact-label">📅 On this day &middot; 2013</div>
-<div class="fact-text">Members of the Turkistan Islamic Party drove a vehicle into a crowd in Tiananmen Square, Beijing, China, killing five people and injuring thirty-eight others. <a class="fact-src" href="https://en.wikipedia.org/wiki/Turkistan_Islamic_Party" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-text">The first phase of the Marmaray project opened with an undersea rail tunnel (train pictured) across the Bosphorus strait. <a class="fact-src" href="https://en.wikipedia.org/wiki/Marmaray" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>

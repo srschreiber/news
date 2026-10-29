@@ -1,5 +1,65 @@
 [
   {
+    "timestamp": "2026-10-29T11:52:36.394410+00:00",
+    "mode": "daily",
+    "calls": 0,
+    "web_searches": 30,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 86,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "Google News \u2014 OpenAI GPT": 36,
+      "Wired": 22,
+      "Google News \u2014 World": 22,
+      "Phys.org": 15,
+      "Google News \u2014 AI models": 13,
+      "Google News \u2014 Anthropic": 12,
+      "The Register": 10,
+      "Mongabay": 9,
+      "Hacker News (front page)": 8,
+      "The Hacker News": 6,
+      "SecurityWeek": 5,
+      "STAT News": 5,
+      "Inside Climate News": 5,
+      "Engadget": 4,
+      "The Verge": 4,
+      "ScienceDaily": 4,
+      "Google News \u2014 Python": 3,
+      "TechCrunch": 3,
+      "Ars Technica": 3,
+      "Google News \u2014 space": 2,
+      "Live Science": 2,
+      "Google News \u2014 nutrition exercise science": 2,
+      "Google News \u2014 cybersecurity": 2,
+      "Space.com": 2,
+      "Grist": 2,
+      "Google News \u2014 phishing campaigns": 1,
+      "BleepingComputer": 1,
+      "Yale Environment 360": 1,
+      "Google News \u2014 email security": 1,
+      "Google News \u2014 business email compromise": 1,
+      "Carbon Brief": 1,
+      "Google News \u2014 climate change": 1,
+      "MIT \u2014 Computers": 1,
+      "ScienceDaily \u2014 Health": 1
+    }
+  },
+  {
     "timestamp": "2026-10-28T21:56:46.298720+00:00",
     "mode": "daily",
     "refresh": true,
