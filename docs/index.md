@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-29. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-30. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>shindig</strong></summary>
+<summary>📖 Word of the day &middot; <strong>reticent</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">shindig <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Shindig is an informal word for a big party.</div>
-<div class="wotd-ex">Our friends are in town this weekend, so we’re hosting a shindig at our place on Saturday night.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/shindig-2026-10-29" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">reticent <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">Someone may be described as reticent if they are feeling or showing reluctance, that is, hesitation or unwillingness to do something. Reticent can also describe someone who is reserved, inclined to be silent or uncommunicative about things.</div>
+<div class="wotd-ex">The team was reticent to spend such a large amount of money, even for an all-star free agent.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/reticent-2026-10-30" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2013</div>
-<div class="fact-text">The first phase of the Marmaray project opened with an undersea rail tunnel (train pictured) across the Bosphorus strait. <a class="fact-src" href="https://en.wikipedia.org/wiki/Marmaray" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2020</div>
+<div class="fact-text">A magnitude-7.0 earthquake occurred in the Aegean Sea between Greece and Turkey, triggering a tsunami and causing 119 deaths. <a class="fact-src" href="https://en.wikipedia.org/wiki/2020_Aegean_Sea_earthquake" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
