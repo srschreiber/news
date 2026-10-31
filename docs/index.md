@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-30. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-31. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>reticent</strong></summary>
+<summary>📖 Word of the day &middot; <strong>wraith</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">reticent <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Someone may be described as reticent if they are feeling or showing reluctance, that is, hesitation or unwillingness to do something. Reticent can also describe someone who is reserved, inclined to be silent or uncommunicative about things.</div>
-<div class="wotd-ex">The team was reticent to spend such a large amount of money, even for an all-star free agent.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/reticent-2026-10-30" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">wraith <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Wraith refers to the spirit of a dead person, or in other words, a ghost.</div>
+<div class="wotd-ex">The most frightening scene from the movie featured a vengeful wraith creeping slowly up behind the main characters.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/wraith-2026-10-31" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2020</div>
-<div class="fact-text">A magnitude-7.0 earthquake occurred in the Aegean Sea between Greece and Turkey, triggering a tsunami and causing 119 deaths. <a class="fact-src" href="https://en.wikipedia.org/wiki/2020_Aegean_Sea_earthquake" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2017</div>
+<div class="fact-text">An Uzbek immigrant drove a rented truck into cyclists and runners in Lower Manhattan, New York City, killing eight people. <a class="fact-src" href="https://en.wikipedia.org/wiki/2017_New_York_City_truck_attack" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>

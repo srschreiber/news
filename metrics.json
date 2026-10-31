@@ -1,5 +1,57 @@
 [
   {
+    "timestamp": "2026-10-31T11:19:15.496968+00:00",
+    "mode": "daily",
+    "calls": 0,
+    "web_searches": 30,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "Google News \u2014 markets": 49,
+      "Wired": 12,
+      "Google News \u2014 OpenAI GPT": 9,
+      "Google News \u2014 World": 9,
+      "TechCrunch": 7,
+      "Phys.org": 6,
+      "Hacker News (front page)": 6,
+      "Google News \u2014 Anthropic": 6,
+      "Inside Climate News": 5,
+      "Live Science": 4,
+      "The Register": 3,
+      "Google News \u2014 AI models": 3,
+      "Space.com": 3,
+      "The Hacker News": 3,
+      "Mongabay": 3,
+      "Ars Technica": 3,
+      "Google News \u2014 cybersecurity": 2,
+      "Google News \u2014 space": 2,
+      "SecurityWeek": 1,
+      "STAT News": 1,
+      "Engadget": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Grist": 1,
+      "Microsoft Security Blog": 1,
+      "Google News \u2014 PostgreSQL": 1,
+      "The Verge": 1
+    }
+  },
+  {
     "timestamp": "2026-10-30T21:44:41.026399+00:00",
     "mode": "daily",
     "refresh": true,
