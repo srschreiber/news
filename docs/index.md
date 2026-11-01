@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-10-31. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-01. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>wraith</strong></summary>
+<summary>📖 Word of the day &middot; <strong>Pyrrhic</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">wraith <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Wraith refers to the spirit of a dead person, or in other words, a ghost.</div>
-<div class="wotd-ex">The most frightening scene from the movie featured a vengeful wraith creeping slowly up behind the main characters.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/wraith-2026-10-31" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">Pyrrhic <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">The adjective Pyrrhic describes something that is achieved at an excessive cost. It is usually used to describe a victory, a Pyrrhic victory being one that is not worth winning because so much is lost to achieve it.</div>
+<div class="wotd-ex">The basketball team’s comeback in the final minutes turned out to be a Pyrrhic victory as the star center injured her ankle.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/pyrrhic-2026-11-01" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2017</div>
-<div class="fact-text">An Uzbek immigrant drove a rented truck into cyclists and runners in Lower Manhattan, New York City, killing eight people. <a class="fact-src" href="https://en.wikipedia.org/wiki/2017_New_York_City_truck_attack" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 1998</div>
+<div class="fact-text">Karl Bushby set off from Punta Arenas, Chile, beginning his attempt to walk around the world towards England, a journey that remains ongoing. <a class="fact-src" href="https://en.wikipedia.org/wiki/Karl_Bushby" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
