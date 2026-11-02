@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-01. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-02. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>Pyrrhic</strong></summary>
+<summary>📖 Word of the day &middot; <strong>satiate</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">Pyrrhic <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">The adjective Pyrrhic describes something that is achieved at an excessive cost. It is usually used to describe a victory, a Pyrrhic victory being one that is not worth winning because so much is lost to achieve it.</div>
-<div class="wotd-ex">The basketball team’s comeback in the final minutes turned out to be a Pyrrhic victory as the star center injured her ankle.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/pyrrhic-2026-11-01" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">satiate <span class="wotd-pos">verb</span></div>
+<div class="wotd-def">To satiate a need, desire, etc., is to satisfy it fully.</div>
+<div class="wotd-ex">The new restaurant’s menu promises to satiate diners’ cravings for comfort food, offering fresh spins on classic, time-honored fare.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/satiate-2026-11-02" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 1998</div>
-<div class="fact-text">Karl Bushby set off from Punta Arenas, Chile, beginning his attempt to walk around the world towards England, a journey that remains ongoing. <a class="fact-src" href="https://en.wikipedia.org/wiki/Karl_Bushby" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2008</div>
+<div class="fact-text">Lewis Hamilton overtook Timo Glock in the final corners of the Brazilian Grand Prix to become the Formula One World Drivers&#x27; Champion by one point. <a class="fact-src" href="https://en.wikipedia.org/wiki/Lewis_Hamilton" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>

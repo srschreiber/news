@@ -1,5 +1,68 @@
 [
   {
+    "timestamp": "2026-11-02T13:58:25.225952+00:00",
+    "mode": "daily",
+    "calls": 0,
+    "web_searches": 30,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 89,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 58,
+      "Google News \u2014 Anthropic": 30,
+      "Google News \u2014 World": 20,
+      "Google News \u2014 OpenAI GPT": 19,
+      "Hacker News (front page)": 15,
+      "Engadget": 12,
+      "Phys.org": 10,
+      "The Register": 9,
+      "Google News \u2014 AI models": 8,
+      "SecurityWeek": 7,
+      "STAT News": 6,
+      "Wired": 6,
+      "ScienceDaily": 5,
+      "ScienceDaily \u2014 Health": 5,
+      "The Hacker News": 5,
+      "Google News \u2014 cybersecurity": 5,
+      "Google News \u2014 space": 4,
+      "Mongabay": 4,
+      "Grist": 4,
+      "TechCrunch": 3,
+      "Space.com": 3,
+      "Google News \u2014 phishing campaigns": 3,
+      "BleepingComputer": 3,
+      "The Guardian \u2014 Climate Crisis": 3,
+      "Live Science": 3,
+      "The Verge": 2,
+      "The Record": 2,
+      "Inside Climate News": 2,
+      "Google News \u2014 Python": 1,
+      "The Guardian \u2014 Conservation": 1,
+      "Yale Environment 360": 1,
+      "Schneier on Security": 1,
+      "Ars Technica": 1
+    }
+  },
+  {
     "timestamp": "2026-11-01T23:10:58.596978+00:00",
     "mode": "daily",
     "refresh": true,
