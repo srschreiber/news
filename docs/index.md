@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-03. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-04. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>candidate</strong></summary>
+<summary>📖 Word of the day &middot; <strong>fulsome</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">candidate <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">A candidate is someone who aspires to or is nominated or qualified for an office, membership, or award. Candidate may also refer to someone likely or suited to undergo or be chosen for something specified (as in &quot;a candidate for surgery&quot;), or to a student in the process of meeting final requirements for a degree (as in &quot;a PhD candidate&quot;).</div>
-<div class="wotd-ex">The hiring team will select the best candidate for the job.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/candidate-2026-11-03" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">fulsome <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">Fulsome describes someone or something that is generous in amount, extent, or spirit.</div>
+<div class="wotd-ex">They were fulsome in their praise of her efforts to raise money for the new wing of the children’s hospital.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/fulsome-2026-11-04" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2002</div>
-<div class="fact-text">A CIA drone strike kills six militants in Yemen, constituting the first targeted killing of the war on terror. <a class="fact-src" href="https://en.wikipedia.org/wiki/2002_Marib_airstrike" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2025</div>
+<div class="fact-text">A UPS Airlines plane crashed in Louisville, Kentucky, killing at least twelve people. <a class="fact-src" href="https://en.wikipedia.org/wiki/UPS_Airlines" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>

@@ -1,5 +1,67 @@
 [
   {
+    "timestamp": "2026-11-04T13:22:51.276781+00:00",
+    "mode": "daily",
+    "calls": 0,
+    "web_searches": 30,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 85,
+      "arXiv \u2014 Computation and Language": 60,
+      "arXiv \u2014 Artificial Intelligence": 60,
+      "arXiv \u2014 Machine Learning": 60,
+      "arXiv \u2014 Computer Vision": 60,
+      "arXiv \u2014 Robotics": 60,
+      "arXiv \u2014 Cryptography and Security": 57,
+      "Phys.org": 30,
+      "Google News \u2014 Anthropic": 21,
+      "Wired": 21,
+      "Hacker News (front page)": 20,
+      "Google News \u2014 OpenAI GPT": 20,
+      "Google News \u2014 World": 15,
+      "Engadget": 15,
+      "The Register": 11,
+      "The Verge": 10,
+      "TechCrunch": 8,
+      "STAT News": 7,
+      "SecurityWeek": 7,
+      "The Hacker News": 7,
+      "Google News \u2014 AI models": 7,
+      "Space.com": 6,
+      "Google News \u2014 cybersecurity": 6,
+      "Google News \u2014 space": 6,
+      "BleepingComputer": 5,
+      "Mongabay": 4,
+      "Live Science": 4,
+      "The Guardian \u2014 Climate Crisis": 4,
+      "ScienceDaily": 4,
+      "Inside Climate News": 3,
+      "ScienceDaily \u2014 Health": 3,
+      "Grist": 2,
+      "Google News \u2014 nutrition exercise science": 2,
+      "Ars Technica": 2,
+      "Carbon Brief": 1,
+      "Google News \u2014 forest restoration ecology": 1,
+      "ScienceDaily \u2014 Fitness": 1,
+      "ScienceDaily \u2014 Nutrition": 1
+    }
+  },
+  {
     "timestamp": "2026-11-03T20:20:07.497292+00:00",
     "mode": "daily",
     "refresh": true,
