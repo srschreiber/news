@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-04. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-05. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>fulsome</strong></summary>
+<summary>📖 Word of the day &middot; <strong>effrontery</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">fulsome <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Fulsome describes someone or something that is generous in amount, extent, or spirit.</div>
-<div class="wotd-ex">They were fulsome in their praise of her efforts to raise money for the new wing of the children’s hospital.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/fulsome-2026-11-04" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">effrontery <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Effrontery is a formal word that refers to bold shamelessness, or in other words an attitude or way of behaving that is both confident and shocking or rude.</div>
+<div class="wotd-ex">Holly could not believe the sheer effrontery of the student who asked that her grade be changed even though she had completed little of the coursework.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/effrontery-2026-11-05" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2025</div>
-<div class="fact-text">A UPS Airlines plane crashed in Louisville, Kentucky, killing at least twelve people. <a class="fact-src" href="https://en.wikipedia.org/wiki/UPS_Airlines" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2013</div>
+<div class="fact-text">The Indian Space Research Organisation launched the Mars Orbiter Mission, India&#x27;s first interplanetary probe. <a class="fact-src" href="https://en.wikipedia.org/wiki/ISRO" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
