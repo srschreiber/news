@@ -1,5 +1,61 @@
 [
   {
+    "timestamp": "2026-11-07T11:59:21.992463+00:00",
+    "mode": "daily",
+    "calls": 0,
+    "web_searches": 30,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 51,
+      "Google News \u2014 World": 20,
+      "Phys.org": 15,
+      "Google News \u2014 Anthropic": 14,
+      "Google News \u2014 space": 12,
+      "Hacker News (front page)": 11,
+      "Google News \u2014 OpenAI GPT": 11,
+      "Wired": 10,
+      "Space.com": 5,
+      "ScienceDaily": 5,
+      "Inside Climate News": 5,
+      "TechCrunch": 5,
+      "Ars Technica": 5,
+      "The Verge": 4,
+      "Live Science": 3,
+      "Google News \u2014 AI models": 3,
+      "The Register": 3,
+      "ScienceDaily \u2014 Health": 3,
+      "BleepingComputer": 3,
+      "STAT News": 3,
+      "Mongabay": 2,
+      "Google News \u2014 PostgreSQL": 2,
+      "Google News \u2014 nutrition exercise science": 2,
+      "Google News \u2014 cybersecurity": 1,
+      "SecurityWeek": 1,
+      "ScienceDaily \u2014 Nutrition": 1,
+      "The Hacker News": 1,
+      "Google News \u2014 Python": 1,
+      "The Guardian \u2014 Climate Crisis": 1,
+      "Microsoft Security Blog": 1,
+      "Google News \u2014 climate change": 1,
+      "Schneier on Security": 1
+    }
+  },
+  {
     "timestamp": "2026-11-06T20:07:57.974947+00:00",
     "mode": "daily",
     "refresh": true,
