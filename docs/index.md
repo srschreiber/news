@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-07. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-08. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>abandon</strong></summary>
+<summary>📖 Word of the day &middot; <strong>cockamamie</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">abandon <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Abandon refers to a feeling or attitude of wild or complete freedom.</div>
-<div class="wotd-ex">The two friends spent the work week looking forward to hitting the clubs together on Friday night and dancing with total abandon .</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/abandon-2026-11-07" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">cockamamie <span class="wotd-pos">adjective</span></div>
+<div class="wotd-def">Cockamamie describes something that is ridiculous, silly, or incredible.</div>
+<div class="wotd-ex">Instead of being honest, he came up with a cockamamie excuse about why he didn’t turn in his assignment.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/cockamamie-2026-11-08" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2000</div>
-<div class="fact-text">Hillary Clinton was elected as a US senator from New York, the first time a first lady had been elected to public office. <a class="fact-src" href="https://en.wikipedia.org/wiki/Hillary_Clinton" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2020</div>
+<div class="fact-text">Second Nagorno-Karabakh War: Azerbaijani forces defeated the self-proclaimed Republic of Artsakh at the Battle of Shusha, reclaiming the town of Shusha after 28 years. <a class="fact-src" href="https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
