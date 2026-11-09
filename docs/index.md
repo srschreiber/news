@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-08. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-09. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>cockamamie</strong></summary>
+<summary>📖 Word of the day &middot; <strong>wabi-sabi</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">cockamamie <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Cockamamie describes something that is ridiculous, silly, or incredible.</div>
-<div class="wotd-ex">Instead of being honest, he came up with a cockamamie excuse about why he didn’t turn in his assignment.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/cockamamie-2026-11-08" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">wabi-sabi <span class="wotd-pos">noun</span></div>
+<div class="wotd-def">Wabi-sabi refers to a philosophy of Japanese origin that emphasizes the aesthetic value in imperfect, impermanent, and simple things. This word can also refer to the qualities of imperfection, impermanence, and simplicity considered as beautiful.</div>
+<div class="wotd-ex">Over the years, the gardener learned to let go of his perfectionism and embrace wabi-sabi .</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/wabi-sabi-2026-11-09" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2020</div>
-<div class="fact-text">Second Nagorno-Karabakh War: Azerbaijani forces defeated the self-proclaimed Republic of Artsakh at the Battle of Shusha, reclaiming the town of Shusha after 28 years. <a class="fact-src" href="https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2019</div>
+<div class="fact-text">The Alabama Crimson Tide and LSU Tigers football teams, both with undefeated records thus far that season, played in a &quot;Game of the Century&quot;. <a class="fact-src" href="https://en.wikipedia.org/wiki/Alabama_Crimson_Tide_football" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
