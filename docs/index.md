@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-09. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-10. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>wabi-sabi</strong></summary>
+<summary>📖 Word of the day &middot; <strong>defer</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">wabi-sabi <span class="wotd-pos">noun</span></div>
-<div class="wotd-def">Wabi-sabi refers to a philosophy of Japanese origin that emphasizes the aesthetic value in imperfect, impermanent, and simple things. This word can also refer to the qualities of imperfection, impermanence, and simplicity considered as beautiful.</div>
-<div class="wotd-ex">Over the years, the gardener learned to let go of his perfectionism and embrace wabi-sabi .</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/wabi-sabi-2026-11-09" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">defer <span class="wotd-pos">verb</span></div>
+<div class="wotd-def">To defer something is to put it off or delay it, to choose to do it at a later time.</div>
+<div class="wotd-ex">We decided to defer the offer so that we could explore other options.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/defer-2026-11-10" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,8 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2019</div>
-<div class="fact-text">The Alabama Crimson Tide and LSU Tigers football teams, both with undefeated records thus far that season, played in a &quot;Game of the Century&quot;. <a class="fact-src" href="https://en.wikipedia.org/wiki/Alabama_Crimson_Tide_football" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2020</div>
+<div class="fact-text">The British government announced that it had removed the last land mine from the Falkland Islands, laid by Argentine forces during the 1982 Falklands War. <a class="fact-src" href="https://en.wikipedia.org/wiki/Land_mines_in_the_Falkland_Islands" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
