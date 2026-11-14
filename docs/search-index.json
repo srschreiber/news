@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-11-14",
+    "event_id": "113-blog-posts-roundup-for-learning-python-tutorials",
+    "title": "113 blog posts roundup for learning Python tutorials",
+    "summary": "A curated collection of 113 blog posts provided as learning resources for Python tutorial beginners.",
+    "theme": "Education",
+    "importance": 2.5,
+    "topics": [
+      "python"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Python",
+      "tutorial",
+      "learning resources"
+    ],
+    "url": "news/python/2026-11-14/#113-blog-posts-roundup-for-learning-python-tutorials",
+    "sources": [
+      {
+        "label": "HackerNoon",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdjlkS1dwZjVrUFkza3phQXZsR01uVGtzaGdhd0hqVmVhSUtkbVJ3cUFyX3VmR1Y3MDQ4UGZXOUxJcWluNXlOMmFSUGFncWN6REliMVBQb2I1RDVRWFVDLWwxRVRsMjdMbEowRFNjSmNiMGhRMG5paDlzSHBmMm1MOQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "113-blog-posts-roundup-for-learning-python-tutorials",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "best-programming-languages-to-learn-in-2027",
     "title": "Best Programming Languages to Learn in 2027",
     "summary": "A guide to the most valuable programming languages for developers to learn in 2027.",
@@ -177,43 +213,6 @@
     "researched": false,
     "received_at": "2026-11-14T12:36:58.508480+00:00",
     "lineage_id": "improve-rds-proxy-multiplexing-for-postgresql-part-2-diagnose-and-monitor",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "jupiter-and-mars-make-spectacular-close-approach-november-15-16",
-    "title": "Jupiter and Mars make spectacular close approach November 15-16",
-    "summary": "Mars will shine within 1 degree of Jupiter on the night of November 15-16 in a remarkable celestial conjunction.",
-    "theme": "Space",
-    "importance": 4,
-    "topics": [
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Jupiter",
-      "Mars",
-      "conjunction",
-      "astronomy"
-    ],
-    "url": "news/space/2026-11-14/#jupiter-and-mars-make-spectacular-close-approach-november-15-16",
-    "sources": [
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/stargazing/see-jupiter-and-mars-make-a-spectacular-close-approach-overnight-nov-15-16",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T12:36:58.508480+00:00",
-    "lineage_id": "jupiter-and-mars-make-spectacular-close-approach-november-15-16",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -401,6 +400,79 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "goal-encoding-in-large-language-models-interpretability-research-preprint",
+    "title": "Goal encoding in large language models: interpretability research preprint",
+    "summary": "A research preprint explores how goals are encoded and represented within large language models.",
+    "theme": "AI Research",
+    "importance": 5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "LLM",
+      "interpretability",
+      "goal encoding"
+    ],
+    "url": "news/ai/2026-11-14/#goal-encoding-in-large-language-models-interpretability-research-preprint",
+    "sources": [
+      {
+        "label": "CASRAI",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNa3VkTEg0RzYwdWpyTXRqNU1OYTJYLVRXN3oyNGpHeTRZUlk5Rm5RaHZ0NlJTUnpDWUxKeHBPWWpibVY4T0Z3S1duX2dqZDRBQjZyX1doSHZQaDhsZVQ5R25fNVN4T3Q1ODV3YVhobmZoZGwySUdEOEdrUU9lbDlVek93?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "goal-encoding-in-large-language-models-interpretability-research-preprint",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "understanding-ai-backlinks-llm-citation-graphs-and-agency-best-practices",
+    "title": "Understanding AI Backlinks: LLM Citation Graphs and Agency Best Practices",
+    "summary": "Analysis of how leading agencies structure citation graphs and backlinks within large language model systems.",
+    "theme": "AI",
+    "importance": 5.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "citation graphs",
+      "backlinks",
+      "LLM architecture",
+      "AI agencies"
+    ],
+    "url": "news/ai/2026-11-14/#understanding-ai-backlinks-llm-citation-graphs-and-agency-best-practices",
+    "sources": [
+      {
+        "label": "Yahoo! Finance Canada",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZWlXTml1akJWMlRPLUx1SEl4ZnRkZzNVUm1sdl9Cc0NCTmEtV1hUdzlCamtzeExma0ZtQm1CeWgxQ1pvYXE5Z0VNcERQSU1mWGtMd0RTSGlqN01KdUxuSjRzbzk5ejU2OE5SVDRpWGlqRDNRZkt3Q2dLS3dkdXVFU1ROTHMyOHk0bFdmOE91MURIdw?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "agencies-explain-llm-citation-graph-architecture-for-ai-backlinks",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "Agencies explain LLM citation graph architecture for AI backlinks",
+    "updates_url": "news/ai/2026-11-13/#agencies-explain-llm-citation-graph-architecture-for-ai-backlinks"
   },
   {
     "date": "2026-11-14",
@@ -652,117 +724,6 @@
     "researched": false,
     "received_at": "2026-11-14T18:53:10.621274+00:00",
     "lineage_id": "georgia-tech-launches-second-cohort-of-research-leadership-academy",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "anthropic-reports-outdated-prompting-techniques-limiting-claude-opus-55-performance",
-    "title": "Anthropic reports outdated prompting techniques limiting Claude Opus 5.5 performance",
-    "summary": "Anthropic has identified that older prompting habits are preventing users from achieving full performance from Claude Opus 5.5.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Claude Opus 5.5",
-      "Anthropic",
-      "prompting",
-      "LLM optimization"
-    ],
-    "url": "news/anthropic/2026-11-14/#anthropic-reports-outdated-prompting-techniques-limiting-claude-opus-55-performance",
-    "sources": [
-      {
-        "label": "The Decoder",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTFM5cnNsaGNIMzZfVDNWZ19qWUg3c0UtNVZLdUdMbzc4ZS1uTGJ0VnN2dFItbVV5Q0VCMno4RGxNV05nQWd3ZDhlaVFIT3JZS0JMVFpMaUR0VlR5TGFROXpZMGwxUXBYdE9YUmtpZlZ5RVVSX0VYN1EzR2RTWW1UX0FGWHFxZVB0OUNvcEpPdDdvRUJMazNjdVRkM1RIdzA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "anthropic-reports-outdated-prompting-techniques-limiting-claude-opus-55-performance",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "religious-scholars-stunned-by-anthropic-discussions-on-ai-ethics",
-    "title": "Religious Scholars Stunned by Anthropic Discussions on AI Ethics",
-    "summary": "Religious leaders engaged with Anthropic representatives in discussions on AI and ethics that surprised them significantly.",
-    "theme": "AI",
-    "importance": 5.5,
-    "topics": [
-      "anthropic"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Anthropic",
-      "religion",
-      "AI ethics",
-      "scholars"
-    ],
-    "url": "news/anthropic/2026-11-14/#religious-scholars-stunned-by-anthropic-discussions-on-ai-ethics",
-    "sources": [
-      {
-        "label": "The New York Times",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Oem5hSlF0RzhoVzdJVjhkREdkWlo0eWU4VDR3aVRsMXVzT3JuRlV1VGc4UVV2dkpKc28wdFAxY2VkczNXdmFzUWRPUzQ4bFBJVHZFWU8wYnV5RHdBdGpMcHR0aWdwcXBXZVotUHB4R1o2QXNGQV9vMA?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "religious-scholars-stunned-by-anthropic-discussions-on-ai-ethics",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "house-democrats-prioritize-science-restoration-in-upcoming-legislative-agenda",
-    "title": "House Democrats Prioritize Science Restoration in Upcoming Legislative Agenda",
-    "summary": "As Democrats prepare to control the House in January, they are planning to advance science-focused legislation as a major priority.",
-    "theme": "Politics",
-    "importance": 5.5,
-    "topics": [
-      "climate-change"
-    ],
-    "feeds": [
-      "environment",
-      "science"
-    ],
-    "primary_feed": "environment",
-    "keywords": [
-      "House Democrats",
-      "science policy",
-      "legislation"
-    ],
-    "url": "news/climate-change/2026-11-14/#house-democrats-prioritize-science-restoration-in-upcoming-legislative-agenda",
-    "sources": [
-      {
-        "label": "Inside Climate News",
-        "url": "https://insideclimatenews.org/news/14112026/a-new-top-priority-for-house-democrats-restoring-science/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T12:36:58.508480+00:00",
-    "lineage_id": "house-democrats-prioritize-science-restoration-in-upcoming-legislative-agenda",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1038,43 +999,6 @@
   },
   {
     "date": "2026-11-14",
-    "event_id": "wall-street-divided-on-nvidia-stock-after-jensen-huangs-exit-rumors",
-    "title": "Wall Street Divided on Nvidia Stock After Jensen Huang's Exit Rumors",
-    "summary": "Wall Street analysts debate whether investors should buy Nvidia stock following speculation about CEO Jensen Huang's potential departure.",
-    "theme": "Markets",
-    "importance": 5.5,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Nvidia",
-      "Jensen Huang",
-      "CEO",
-      "stock valuation"
-    ],
-    "url": "news/markets/2026-11-14/#wall-street-divided-on-nvidia-stock-after-jensen-huangs-exit-rumors",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObWROd0ZyWG5BRTgyU2J1U09wOWpEaEJnWlh0c1pqLURHRWkyRmNfMXY0bVVSNWVXeGp1MmdidW9QYTBEUnZOelg2YU5SQlFFTUI0cmxDUkVzSm9GM2d2bVVsWnZodG9XemVaaUY3VzhGM1FQUWhfUjJ3Nlk3VTVwTVlZRmRHOEJ5NXZpQVp4Z1oxdVFUWjFr?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T12:36:58.508480+00:00",
-    "lineage_id": "wall-street-divided-on-nvidia-stock-after-jensen-huangs-exit-rumors",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
     "event_id": "open-source-documentdb-10-reaches-general-availability",
     "title": "Open Source DocumentDB 1.0 Reaches General Availability",
     "summary": "DocumentDB, an open-source document database, has achieved version 1.0 and is now generally available.",
@@ -1148,6 +1072,43 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "research-ethics-identified-as-essential-for-advancing-science-and-technology",
+    "title": "Research Ethics Identified as Essential for Advancing Science and Technology",
+    "summary": "Research communities emphasize that research ethics frameworks are fundamental to responsible advancement of science and technology.",
+    "theme": "Policy",
+    "importance": 5.5,
+    "topics": [
+      "tech-research"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "research ethics",
+      "science",
+      "technology",
+      "responsible research"
+    ],
+    "url": "news/tech-research/2026-11-14/#research-ethics-identified-as-essential-for-advancing-science-and-technology",
+    "sources": [
+      {
+        "label": "NewVision.co.ug",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa2ViNGdOQWdYc0NkN2wtem94X1JtOU03UEhKUTY2bGUyOFNCVWQ3NlZNa1YzUXJ4dG5uRjBySFpuaVBlbG5aXzNOMGhmOTZzVmJSZERnWGp3dk9vdlR1X2Z0b3ZlWkFNS0t5VmhzODZQckVPQjRwaWZaR2ZYdHBDaU9hQ2lxWkJyOTJIS2FjQ3dhWEFIYXZDZG92NVMyTjJUcEk0TnJXeEp0dlU?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "research-ethics-identified-as-essential-for-advancing-science-and-technology",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "chinas-latest-ai-model-compared-to-us-rivals-in-scientific-assessment",
     "title": "China's latest AI model compared to U.S. rivals in scientific assessment",
     "summary": "Scientists evaluate whether China's newest AI model achieves feature parity with leading U.S. AI systems.",
@@ -1178,6 +1139,82 @@
     "researched": false,
     "received_at": "2026-11-14T12:36:58.508480+00:00",
     "lineage_id": "chinas-latest-ai-model-compared-to-us-rivals-in-scientific-assessment",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "multiverse-computing-tests-quantum-neural-networks-in-30b-language-model",
+    "title": "Multiverse Computing Tests Quantum Neural Networks in 30B Language Model",
+    "summary": "Multiverse Computing has conducted tests integrating quantum neural networks within a 30-billion-parameter language model.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "quantum computing",
+      "neural networks",
+      "language models",
+      "Multiverse Computing",
+      "30B LLM"
+    ],
+    "url": "news/ai/2026-11-14/#multiverse-computing-tests-quantum-neural-networks-in-30b-language-model",
+    "sources": [
+      {
+        "label": "Quantum Zeitgeist",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQVdtNzgyZnlDTGFzcWlMWFFkSVl6blVzZHNCM2Ewb3A2NVBDRFNfaHlSVTBiRGxwcHB3VWg4NGFuTV9ReVVfLURCdFhUaFBrd3ozTUMwb3VmTndkTWRVMGxLeUZWRkJmUElwZEpYTmVJajhPdDRjYm1LMnRMUHUydVdDNFg?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "multiverse-computing-tests-quantum-neural-networks-in-30b-language-model",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "trustedrouter-launches-encrypted-fusion-models-combining-multiple-llms",
+    "title": "TrustedRouter Launches Encrypted 'Fusion' Models Combining Multiple LLMs",
+    "summary": "TrustedRouter has launched three new encrypted fusion models that integrate multiple large language models, including one exclusively built with U.S. providers.",
+    "theme": "AI",
+    "importance": 6.0,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "TrustedRouter",
+      "fusion models",
+      "LLM",
+      "encryption",
+      "U.S. providers"
+    ],
+    "url": "news/ai/2026-11-14/#trustedrouter-launches-encrypted-fusion-models-combining-multiple-llms",
+    "sources": [
+      {
+        "label": "VentureBeat",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPZkRCTXBMT1huYU40WUZma3NwSmJ3M1I4V3dEbDIwZFh3dExzdk91RmtyTEFIclhwUXJrcUoxNExqdmotcWMzNkI2dE1uV0puV3NmR1NfS0UzNFc2NDM5cUJJa0dRTTc1Tm45bUFRcjFucjVHUVBZOW5KakUwdkdxWHI4M3drZ0FtOTFDT3czbmR0akdoZ3AyUnM5ZjJUSXh2ZW10d1Q0NlZXVWNvaG5ENXUxYVM0WnFYYjlTUTMzOF9hTUpvdmRQUmRaNTlqLU9PR3FtN1R0OFNaY2RjczM2UC1CcTYwLTFOaFk1d2oxM2U0MVo3b3ZVci0xOUI1QQ?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "trustedrouter-launches-encrypted-fusion-models-combining-multiple-llms",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1633,42 +1670,6 @@
   },
   {
     "date": "2026-11-14",
-    "event_id": "jim-cramer-criticizes-nvidia-ceo-jensen-huang-as-stock-plunges-13",
-    "title": "Jim Cramer Criticizes Nvidia CEO Jensen Huang as Stock Plunges 13%",
-    "summary": "CNBC's Jim Cramer says Jensen Huang has betrayed Nvidia shareholders as the company's stock drops up to 13%, raising concerns about portfolio concentration risk.",
-    "theme": "Markets",
-    "importance": 6.0,
-    "topics": [
-      "markets"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Nvidia",
-      "Jensen Huang",
-      "stock decline"
-    ],
-    "url": "news/markets/2026-11-14/#jim-cramer-criticizes-nvidia-ceo-jensen-huang-as-stock-plunges-13",
-    "sources": [
-      {
-        "label": "Yahoo Finance",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNM0IwQTR5dTFrOWZWSG8wcGZ4YUVJaGZWWmJHaDMtVzA2WWEwQ09OOWFvYlVLdHZ4bXhHblNkY0poR2poZlR1WlJuVXl4V0t6LU90MTctcXY4SVc0LXluRHJ5NUtHN0FoYnBobDlWZEw3aFo2VTVOQnllVmhJVlpmZThTQkFQdkltU0NxMm9yelEtVndtMjlHTA?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "jim-cramer-criticizes-nvidia-ceo-jensen-huang-as-stock-plunges-13",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
     "event_id": "leonid-meteor-shower-could-produce-historic-storm-in-2026",
     "title": "Leonid meteor shower could produce historic storm in 2026",
     "summary": "As the 2026 Leonid meteor shower peak approaches, astronomers assess whether conditions could repeat the historic 1966 storm that produced 144,000 meteors per hour.",
@@ -1699,6 +1700,81 @@
     "researched": false,
     "received_at": "2026-11-14T12:36:58.508480+00:00",
     "lineage_id": "leonid-meteor-shower-could-produce-historic-storm-in-2026",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "aws-releases-sglang-neuron-for-deploying-frontier-ai-models-on-trainium-hardware",
+    "title": "AWS Releases SGLang-Neuron for Deploying Frontier AI Models on Trainium Hardware",
+    "summary": "Amazon Web Services launches SGLang-Neuron, enabling deployment of large language models on AWS Trainium accelerators.",
+    "theme": "AI",
+    "importance": 6.5,
+    "topics": [
+      "ai"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "AWS",
+      "SGLang",
+      "Trainium",
+      "large language models"
+    ],
+    "url": "news/ai/2026-11-14/#aws-releases-sglang-neuron-for-deploying-frontier-ai-models-on-trainium-hardware",
+    "sources": [
+      {
+        "label": "CASRAI",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GRjVQOEdka3U1ejRlUDQyTFpBNVoxWHNFb0k4SmR6ZG9QV3l2M3JFYVQwRFNxcHNEQjJFN3RVMVhDbEtBQUg1ZHlQSHlrUzZVQ1Y5c0ZJX09QZFlZYUFLdHp6YmkyZldlOGZCOUR3NXVSSWFRMDQ4OA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "aws-releases-sglang-neuron-for-deploying-frontier-ai-models-on-trainium-hardware",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "anthropics-ftx-stake-would-be-worth-59-trillion-at-current-ipo-valuation",
+    "title": "Anthropic's FTX Stake Would Be Worth $5.9 Trillion at Current IPO Valuation",
+    "summary": "Anthropic's stake in FTX, sold during bankruptcy proceedings, would have appreciated to approximately $5.9 trillion based on the company's recent IPO valuation.",
+    "theme": "Funding",
+    "importance": 6.5,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "FTX",
+      "IPO",
+      "valuation",
+      "opportunity cost"
+    ],
+    "url": "news/anthropic/2026-11-14/#anthropics-ftx-stake-would-be-worth-59-trillion-at-current-ipo-valuation",
+    "sources": [
+      {
+        "label": "BigGo Finance",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DdGFnTThqN1NXUGp5a1RfamV2aDhhSXlzcl8xUkNFT2Mza09UT3RzSTdRbnRsUS1UVmdzUlROSVhaU2ptRE5IaXdFQ0RQWExreURrZ1lhU2lsSkVaVnpFanpfTUFiX0lmVEN6VlZuUTN0dDgtemc?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "anthropics-ftx-stake-would-be-worth-59-trillion-at-current-ipo-valuation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -1989,6 +2065,80 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "microsoft-warns-of-active-password-stealing-attacks-exploiting-microsoft-365-service-outage",
+    "title": "Microsoft warns of active password-stealing attacks exploiting Microsoft 365 service outage",
+    "summary": "Microsoft warned of active credential theft campaigns targeting users during the Microsoft 365 service disruption.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "credential theft",
+      "Microsoft 365",
+      "security"
+    ],
+    "url": "news/email-security/2026-11-14/#microsoft-warns-of-active-password-stealing-attacks-exploiting-microsoft-365-service-outage",
+    "sources": [
+      {
+        "label": "CyberSecurityNews",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVmR0cFJ0Qm9NSjRfcjJRMWc2eExha05WZ3VlSk01MDMtZS1jTUlZakl5MV9QTk5TTkpmcEtWdUNNSmZ5YlJqa0U1Z0M2aGx3ajIyeUZLTGNDUGpLZUpfaUlyVUZVblJJcnowcG85TUJBQ3l3UTVfRFdRNjFWVUtycVZB0gGHAUFVX3lxTE00NTlJVW1oX3dKQ3RRaTBGT0ZrSTBIRmM4aV9PVzd5WkRzbkVBSTJxQ01vaUMxOENIN1RKZ0w5akFqUVlRb0NoTVZoX0Vqc2haMUV5ejJscXVmbUlJZjI1ZEZHYWVIYUlsbU40bmJBUldrTXoxXzgxZFR0SnZMYlpfWGowNWxlOA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "microsoft-warns-of-active-password-stealing-attacks-exploiting-microsoft-365-service-outage",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "phishing-vulnerability-in-work-email-security-on-personal-devices",
+    "title": "Phishing Vulnerability in Work Email Security on Personal Devices",
+    "summary": "Security researchers identify a blind spot in email phishing defense when work accounts are accessed through personal mobile phones.",
+    "theme": "Security",
+    "importance": 6.5,
+    "topics": [
+      "email-security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "phishing",
+      "email security",
+      "mobile devices",
+      "workplace security"
+    ],
+    "url": "news/email-security/2026-11-14/#phishing-vulnerability-in-work-email-security-on-personal-devices",
+    "sources": [
+      {
+        "label": "Cybersecurity Insiders",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN203NmtiUFlVRE9JX0J5V2lWUDh0VWZqZndzTkVQNTlRcUJoYVpQRjlVT3hGVWxnOUFuT0VrNURWQ2NJNFczbnJwa0pUcVRDVlgxQVl2Ml9OLUZ3VzlubGY1YUZvYzVENFJqd3hpTUJUSEdRdVhrM3hhbllSY1Z0VkREN0ZmeDRqNDlzcWRlQVhmVTI2VTJkMkNKOE15a01qQ204WA?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "phishing-vulnerability-in-work-email-security-on-personal-devices",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "openai-reassigns-robotics-researchers-as-general-purpose-models-advance",
     "title": "OpenAI reassigns robotics researchers as general-purpose models advance",
     "summary": "OpenAI is reassigning robotics researchers to other teams, reflecting the belief that general-purpose AI models may make specialized robotics AI unnecessary.",
@@ -2209,6 +2359,43 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "amd-logs-biggest-rally-against-nvidia-since-1999-ahead-of-earnings",
+    "title": "AMD Logs Biggest Rally Against Nvidia Since 1999 Ahead of Earnings",
+    "summary": "AMD shares surge against Nvidia at their strongest relative performance in 25 years as the company approaches earnings.",
+    "theme": "Markets",
+    "importance": 6.5,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "AMD",
+      "Nvidia",
+      "semiconductor stocks",
+      "earnings"
+    ],
+    "url": "news/markets/2026-11-14/#amd-logs-biggest-rally-against-nvidia-since-1999-ahead-of-earnings",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFljaWVtdURHQzgxcERTYjY3V1c0cnI2ZkRJLTBsc0tZbnBBY292UV82dk1JM0dXLWxfMnJDUnRGUG5EZkNVdzh6S0gyU3pGdXFxUjA1bmg1ZmpzbzFBWG9UQ0Q3T2VIMEJxYldFUTQ0TTRxRU1fRmtVWXJkd1ZoMGVRLWp6M2R1REVoWDVzdTNMQ1U?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "amd-logs-biggest-rally-against-nvidia-since-1999-ahead-of-earnings",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "postgresql-releases-november-2026-security-updates-fixing-52-vulnerabilities",
     "title": "PostgreSQL Releases November 2026 Security Updates Fixing 52 Vulnerabilities",
     "summary": "PostgreSQL patches CVE-2026-6460 and 51 additional flaws in its November 2026 security update.",
@@ -2276,42 +2463,6 @@
     "researched": false,
     "received_at": "2026-11-14T18:53:10.621274+00:00",
     "lineage_id": "ai-overreliance-may-degrade-cybersecurity-team-effectiveness",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "singapore-data-breaches-surge-analysis-of-corporate-responsibility",
-    "title": "Singapore Data Breaches Surge; Analysis of Corporate Responsibility",
-    "summary": "Singapore is experiencing a spike in corporate data breaches, with experts arguing companies owe victims more than public apologies.",
-    "theme": "Security",
-    "importance": 6.5,
-    "topics": [
-      "security"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "data breach",
-      "Singapore",
-      "corporate responsibility"
-    ],
-    "url": "news/security/2026-11-14/#singapore-data-breaches-surge-analysis-of-corporate-responsibility",
-    "sources": [
-      {
-        "label": "The Straits Times",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaTY5TlRWcUJRQU56X1U1QTRydlpucU9vVTlLVVAzQ2hiMktxd1dqcTBpRFhRVGpjQ3RKTl9VX1lNSjlONDdTOThsUXRnZUVnZ2xtZ3RqY2JvTFB0SVU0Rk9qR3hnN2pMNGtCOXhmV3ZjUEFnMjlKRzZOYXVXdjFvdWRPeElHR08tcjAzR3BVMjJpbDVFa2tSblpQS1pDMGF0UkVZVFh2RXhYSHo2SnFkWndYNEV5em5uSkxBUnlBc0w?oc=5",
-        "origin": "discovery"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "singapore-data-breaches-surge-analysis-of-corporate-responsibility",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2388,6 +2539,49 @@
     "researched": false,
     "received_at": "2026-11-14T12:36:58.508480+00:00",
     "lineage_id": "georgia-tech-and-amazon-establish-joint-science-and-research-partnership",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "anthropic-demonstrates-progress-accelerating-drug-development-with-claude",
+    "title": "Anthropic Demonstrates Progress Accelerating Drug Development With Claude",
+    "summary": "Anthropic announced advances in using Claude to accelerate pharmaceutical drug development through research partnerships with six organizations and internal programs, including work on rare childhood muscular dystrophy. Claude is being deployed across discovery, molecular design, manufacturing optimization, regulatory filings, and clinical trial design.",
+    "theme": "AI",
+    "importance": 7.0,
+    "topics": [
+      "anthropic"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Anthropic",
+      "Claude",
+      "drug development",
+      "AI application",
+      "healthcare"
+    ],
+    "url": "news/anthropic/2026-11-14/#anthropic-demonstrates-progress-accelerating-drug-development-with-claude",
+    "sources": [
+      {
+        "label": "Anthropic",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0ZUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "Partnerships with six organizations: BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, The Column Group",
+      "Claude handles scientific and operational work in rare childhood muscular dystrophy programs",
+      "Generate Biomedicines: Claude designed CAR T-cell therapy ~70% shorter than standard approach",
+      "Claude deployed across drug targets, molecular design, manufacturing, regulatory filings, and clinical trials"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "anthropic-demonstrates-progress-accelerating-drug-development-with-claude",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -2736,6 +2930,43 @@
     "researched": false,
     "received_at": "2026-11-14T18:53:10.621274+00:00",
     "lineage_id": "nvidia-stock-drops-below-165-following-ceo-departure",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "jay-ritter-flags-valuation-risks-for-upcoming-anthropic-ipo",
+    "title": "Jay Ritter Flags Valuation Risks for Upcoming Anthropic IPO",
+    "summary": "IPO expert Jay Ritter, known as 'Mr. IPO,' raises concerns about valuation levels in Anthropic's anticipated initial public offering.",
+    "theme": "Markets",
+    "importance": 7.0,
+    "topics": [
+      "markets"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Anthropic",
+      "IPO",
+      "valuation",
+      "AI company"
+    ],
+    "url": "news/markets/2026-11-14/#jay-ritter-flags-valuation-risks-for-upcoming-anthropic-ipo",
+    "sources": [
+      {
+        "label": "Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ080cmRTNmppajhzRnVSMnh0TUQ0REtzSzRhZzFZMlQxTk1wRTN1TmMtWkVqaDhic1pxelNGeXVIR3c0NFEzbU5JRVRlQ2tYX1pZcWYwZlVvLURYNVU4WlpOQzBINVJMLUFqV21wQlJURlJMRTQxM2g3X1Z4TElCMktPazRhUEloWUljX2pwbm9DQQ?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "jay-ritter-flags-valuation-risks-for-upcoming-anthropic-ipo",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -3354,189 +3585,6 @@
   },
   {
     "date": "2026-11-14",
-    "event_id": "spacex-starship-flight-15-reaches-orbit-possible-booster-catch-planned-for-saturday",
-    "title": "SpaceX Starship Flight 15 reaches orbit, possible booster catch planned for Saturday",
-    "summary": "SpaceX's Starship successfully reached orbit on Flight 15 with a potential booster catch attempt planned for the following day.",
-    "theme": "Space",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "SpaceX",
-      "Starship",
-      "Flight 15",
-      "orbital test"
-    ],
-    "url": "news/tech/2026-11-14/#spacex-starship-flight-15-reaches-orbit-possible-booster-catch-planned-for-saturday",
-    "sources": [
-      {
-        "label": "Ars Technica",
-        "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T12:36:58.508480+00:00",
-    "lineage_id": "spacex-starship-flight-15-reaches-orbit-possible-booster-catch-planned-for-saturday",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "italy-fines-meta-805-million-over-android-users-data-access",
-    "title": "Italy fines Meta €805 million over Android users' data access",
-    "summary": "Italy's data protection authority fined Meta €805 million on November 14, 2026, for unauthorized access to Android users' photos and videos via the Facebook app's \"Get suggestions from gallery\" feature. The feature was enabled by default and collected consent through generic authorization rather than separate, explicit consent required by law.",
-    "theme": "Policy",
-    "importance": 7,
-    "topics": [
-      "tech",
-      "world"
-    ],
-    "feeds": [
-      "technology",
-      "world"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Meta",
-      "Italy",
-      "privacy fine",
-      "Android",
-      "data access",
-      "GDPR"
-    ],
-    "url": "news/tech/2026-11-14/#italy-fines-meta-805-million-over-android-users-data-access",
-    "sources": [
-      {
-        "label": "NewsCord",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM21vRE5meUZDaENFdVNmcE9lZE5ITG15MUdKRDZzSWw2RndxeEZIc1lFcWVwMmFYc0lkSHBBNVJ3WHY4SlFYVkpZOWxLV2lNajlvbU1iaHNtb1ZrMjFEd1lwSUVwSmhCaHdFVm0xYjBYU3RqdE51Sl9QQzhDdEtKLURHdWJnQVEwYmxZNWppTmVudzlKVWxKcUMyM1lRZjJPM1Zqb3VjVjBsOWVkS3ZKbXhWSXBmS0xsWk5BTTM3aGkxcTU1RHFwRFJ3ODc1M3hFS0JYNzBGb3A2MjF1akMyRg?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "The Jerusalem Post",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94RE13a1FKTFB0ejhOR09seFpYNGhvSnJpbTgzVTlLT2pKa1lXVHZoWDFBbFV1R1FZVFhMSllmVDZ6ZXVpdHBBNjNiNDJLSDluM1hMYlozSTBpbG5lTWdn?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5",
-        "origin": "rss"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Fine: €805 million (~$887 million) issued Nov 14, 2026",
-      "Affected: ~20 million Italian Android users",
-      "Feature: Facebook's \"Get suggestions from gallery when browsing Facebook\" accessed personal gallery content without explicit consent",
-      "Violation: enabled by default; used generic app-wide consent rather than separate specific consent (Italian/EU ePrivacy Directive)",
-      "Meta compliance deadline: disable feature by default, implement separate consent within 60 days; report within 30 and 90 days"
-    ],
-    "researched": true,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "italy-fines-meta-805-million-over-android-users-data-access",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "lovable-apps-expose-passport-details-and-private-messages-of-200000-users",
-    "title": "Lovable apps expose passport details and private messages of 200,000+ users",
-    "summary": "Researchers found that 71% of 24,664 Lovable websites using Supabase sent database records without requiring login, exposing email addresses, personal data, and confidential information from 7,403 websites. Researchers retrieved data across 10,560 tables using read-only API requests.",
-    "theme": "Security",
-    "importance": 7,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "Lovable",
-      "data breach",
-      "privacy",
-      "passport"
-    ],
-    "url": "news/tech/2026-11-14/#lovable-apps-expose-passport-details-and-private-messages-of-200000-users",
-    "sources": [
-      {
-        "label": "Crissy Field GmbH",
-        "url": "https://www.crissyfield.de/research/lovable-en/",
-        "origin": "research"
-      },
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.crissyfield.de/research/lovable-en/",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Examined: 159,041 Lovable projects (Dec 2025–Sept 2026); 34,545 used Supabase",
-      "Vulnerability: 24,664 sites (71% of Supabase users) sent unprotected database records on initial page load",
-      "Exposed: email addresses from 10,560 tables across 7,403 sites (30% of vulnerable websites)",
-      "Access method: read-only API requests without authentication",
-      "Research conducted: collaboration with Handelsblatt; reported Nov 2, 2026"
-    ],
-    "researched": true,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "lovable-apps-expose-passport-details-and-private-messages-of-200000-users",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "tech-companies-attempt-to-redefine-the-concept-of-privacy",
-    "title": "Tech Companies Attempt to Redefine the Concept of Privacy",
-    "summary": "Major technology companies are pushing to reshape the definition and understanding of digital privacy.",
-    "theme": "Privacy/Policy",
-    "importance": 7.0,
-    "topics": [
-      "tech"
-    ],
-    "feeds": [
-      "technology"
-    ],
-    "primary_feed": "technology",
-    "keywords": [
-      "privacy",
-      "tech companies",
-      "data protection"
-    ],
-    "url": "news/tech/2026-11-14/#tech-companies-attempt-to-redefine-the-concept-of-privacy",
-    "sources": [
-      {
-        "label": "Hacker News (front page)",
-        "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "tech-companies-attempt-to-redefine-the-concept-of-privacy",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
     "event_id": "microsoft-365-copilot-enables-claude-for-uk-tenants-on-december-9",
     "title": "Microsoft 365 Copilot Enables Claude for UK Tenants on December 9",
     "summary": "Microsoft will enable Anthropic's Claude AI by default for UK Copilot enterprise customers beginning December 9.",
@@ -3661,6 +3709,61 @@
     "researched": true,
     "received_at": "2026-11-14T18:53:10.621274+00:00",
     "lineage_id": "nations-strengthen-climate-commitments-despite-us-retreat",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "un-secretary-general-calls-for-drastic-emissions-cuts-as-cop31-addresses-fossil-fuel-policies",
+    "title": "UN Secretary-General Calls for Drastic Emissions Cuts as COP31 Addresses Fossil Fuel Policies",
+    "summary": "UN Secretary-General Antonio Guterres called for immediate, drastic greenhouse gas emissions cuts of approximately 6% annually at COP31 climate talks in Antalya on November 13, warning current national commitments put the world on track for 2.5°C warming by century's end. The president of the United States skipped the talks for the second consecutive year while promoting continued fossil fuel use.",
+    "theme": "Policy",
+    "importance": 7.5,
+    "topics": [
+      "climate-change"
+    ],
+    "feeds": [
+      "environment",
+      "science"
+    ],
+    "primary_feed": "environment",
+    "keywords": [
+      "emissions reduction",
+      "COP31",
+      "UN",
+      "fossil fuels",
+      "climate policy"
+    ],
+    "url": "news/climate-change/2026-11-14/#un-secretary-general-calls-for-drastic-emissions-cuts-as-cop31-addresses-fossil-fuel-policies",
+    "sources": [
+      {
+        "label": "Anadolu Ajansı",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNYmhHc3ZzSnA5MGZOSDJXa0M5TTVHcFV4OGJLMXh1MEh1NENfS1R5ZUNUenktRVNQdElMbGMwd2dsb1ZmSXVXSy1nWkdBWjZGVVR2NFVxbkV3T3I0TE5iRVZXdWlaRVZPYWhUb1RDM2hzRkpFZXZBMndLMWtnQ1dRQk03ZXE4UE9MYkV1UTJ2VnNweTAwNDMyVmJOSWg0b2c5TmljQ3RMNXhraHBRWEhLTERhbFlESlc3eUtXcHJsQXVwbUY1ZGFsenpVVVdzOWFZMFNV?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "RTÉ",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1RTkNlcGdGRVh3TzJIQW5JUkEtejBsRHVXN1p2RmpvSzA3a2NYbmxkYUY1SERtUXNjV1VCMHNkLXBEVXQ2V2U2N1Z2aEk5eEJHWjd0T2VBNU1aa3A3TlRIQm9uQVNSWGpuNHdKZzFZQjVXUWZOR3c?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "U.S. News & World Report",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUHFoTmdwZ2wwZm1jTTF3LXJyX29GVUJ2YTVtNGp2cVZTMVpRSE1ZekVrREV5Umo1ZzlxcHFEM3JudXc1ZWplMEtrOExxVk5ncDhWMXhCR3hPTWJwUlFqRTBWem1BcjlPYkp4cDBGcnZmNkt5WW94WGZMejhnNmkzcWhlY3AteldZLVhoU0szRERnRUhkdkh3NHNWZnBzemZfc25qcWxjU0lNVjdlVFZfNTlwdw?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "COP31 climate talks in Antalya, Türkiye, November 13, 2026",
+      "Global emissions must fall ~6% annually to avoid breaching 1.5°C threshold indefinitely",
+      "Current commitments trajectory: ~2.5°C warming by end of century",
+      "Guterres called for faster transition away from fossil fuels; major producers (Saudi Arabia, Russia) resisting firm targets",
+      "US absent from talks for second consecutive year under current administration"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "un-secretary-general-calls-for-drastic-emissions-cuts-as-cop31-addresses-fossil-fuel-policies",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4235,6 +4338,75 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "italy-fines-meta-805-million-over-android-users-data-access",
+    "title": "Italy fines Meta €805 million over Android users' data access",
+    "summary": "Italian regulators impose an €805 million ($887 million) penalty on Meta for improperly accessing Android users' photos without consent.",
+    "theme": "Policy",
+    "importance": 7.5,
+    "topics": [
+      "tech",
+      "world"
+    ],
+    "feeds": [
+      "technology",
+      "world"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Android",
+      "GDPR",
+      "Italy",
+      "Meta",
+      "data access",
+      "fine",
+      "privacy",
+      "privacy fine"
+    ],
+    "url": "news/tech/2026-11-14/#italy-fines-meta-805-million-over-android-users-data-access",
+    "sources": [
+      {
+        "label": "NewsCord",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQM21vRE5meUZDaENFdVNmcE9lZE5ITG15MUdKRDZzSWw2RndxeEZIc1lFcWVwMmFYc0lkSHBBNVJ3WHY4SlFYVkpZOWxLV2lNajlvbU1iaHNtb1ZrMjFEd1lwSUVwSmhCaHdFVm0xYjBYU3RqdE51Sl9QQzhDdEtKLURHdWJnQVEwYmxZNWppTmVudzlKVWxKcUMyM1lRZjJPM1Zqb3VjVjBsOWVkS3ZKbXhWSXBmS0xsWk5BTTM3aGkxcTU1RHFwRFJ3ODc1M3hFS0JYNzBGb3A2MjF1akMyRg?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Jerusalem Post",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94RE13a1FKTFB0ejhOR09seFpYNGhvSnJpbTgzVTlLT2pKa1lXVHZoWDFBbFV1R1FZVFhMSllmVDZ6ZXVpdHBBNjNiNDJLSDluM1hMYlozSTBpbG5lTWdn?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSVFmcHRvNGEzVXRKbU5Kc0JhSDV4R2o0bnpXSUJMZnRMc1E2ckNCRzBaWDhzY2xObHVtNmtiWmdoX3g4NlVsYkc1bzFDbVB0T016LWczNHJ6bGx2ZXlQeDZPUGNjeXJPaWZ3Wm5DdU9za21PMXFlZVVDckh5Q1I0QnROcElOTnA2bGMzczBMbFJweW1ISkkwWUgzNXJpTU95N0NR?oc=5",
+        "origin": "rss"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+        "origin": "rss"
+      },
+      {
+        "label": "BBC",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6U3dzRXhNdWFETHc0NlAwOXhkQ3Fzdmo1QVhMTThSeVNDM1BxR1dEejJmZzVpZjRRNHU5YnY2WTVkc1V0a2ZENTJTRTFUcWVqYmNoLTREX1E4QUE?oc=5",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Fine: €805 million (~$887 million) issued Nov 14, 2026",
+      "Affected: ~20 million Italian Android users",
+      "Feature: Facebook's \"Get suggestions from gallery when browsing Facebook\" accessed personal gallery content without explicit consent",
+      "Violation: enabled by default; used generic app-wide consent rather than separate specific consent (Italian/EU ePrivacy Directive)",
+      "Meta compliance deadline: disable feature by default, implement separate consent within 60 days; report within 30 and 90 days"
+    ],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "italy-fines-meta-805-million-over-android-users-data-access",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "ai-fueled-ransomware-attacks-escalate-despite-lack-of-full-automation",
     "title": "AI-Fueled Ransomware Attacks Escalate Despite Lack of Full Automation",
     "summary": "Unsophisticated attackers are increasingly using AI tools to launch ransomware attacks, though fully automated ransomware has not yet emerged.",
@@ -4330,6 +4502,43 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "microsoft-outage-renews-debate-over-industry-dependence-on-critical-technology-platforms",
+    "title": "Microsoft Outage Renews Debate Over Industry Dependence on Critical Technology Platforms",
+    "summary": "Microsoft's outage has sparked broader conversation about organizational and societal reliance on centralized technology infrastructure.",
+    "theme": "Infrastructure",
+    "importance": 7.5,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Microsoft",
+      "outage",
+      "technology dependence",
+      "infrastructure resilience"
+    ],
+    "url": "news/tech/2026-11-14/#microsoft-outage-renews-debate-over-industry-dependence-on-critical-technology-platforms",
+    "sources": [
+      {
+        "label": "WIVB News 4",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVzF0QUs1OVI0VUQ4UklNeEhvb1pucEQ4VkdQS3M3WUhaTmhYSXFXZnhMS3RMdHZJNGdkdjhxY2lPa1NXVTU0MVlQd1BpaG90SFVDVFhtRUt4V3BvdFhLaTh0V2ZzSW1wSmhuMEZTMlB4VUtCTDM0d2lQcW13QVRKcHg2REZEYXJYdE1hTGY3Q04zMWxOanfSAZsBQVVfeXFMTjlnUHM1UkNHanNPekN4enR4cGM3MjNaWHotRTNlcFBDOHhXRkFELW1IQkQ5UVJQM1dWbWQ2UkJ0RFR5aVdqUVFWbjY0MERsNF8xWW1XczExaXdLQUJBMkxuSXJ2aHN1VVl5VmRIUERnd2oxM0tmZU9lNnRBOXhiRTJXdFQxWU1xQkdScTgyVWQ2MGFXRVpRV0VaS0U?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [],
+    "researched": false,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "microsoft-outage-renews-debate-over-industry-dependence-on-critical-technology-platforms",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "russia-strikes-kyiv-hospital-spacex-starlink-system-reports-disruption",
     "title": "Russia strikes Kyiv hospital; SpaceX Starlink system reports disruption",
     "summary": "Russian drones struck Kyiv's National Institute of Traumatology and Orthopedics hospital on November 13 at 3 a.m., hitting the second floor and injuring three people. President Zelenskyy stated that speed restrictions on SpaceX's Starshield system hindered Ukraine's ability to shoot down drones during what Russia claimed was one of the largest swarms sent.",
@@ -4409,87 +4618,6 @@
     "related_url": "",
     "updates_title": "",
     "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "ukraine-expands-naval-drone-campaign-to-land-operations-against-russia",
-    "title": "Ukraine Expands Naval Drone Campaign to Land Operations Against Russia",
-    "summary": "Ukrainian forces are adapting their successful naval drone tactics to land-based operations as Russia's front line deteriorates.",
-    "theme": "Military/Conflict",
-    "importance": 7.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Ukraine",
-      "drones",
-      "Russia",
-      "warfare"
-    ],
-    "url": "news/world/2026-11-14/#ukraine-expands-naval-drone-campaign-to-land-operations-against-russia",
-    "sources": [
-      {
-        "label": "Yahoo",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd094QnhmekpqaUp2Z29lNEdnZndxYmRUM0Ztbi1XNUYxVWVrVTVCUHFUZ09ibzdEa0FmVWx3TnJkYTBZaV9UakRmckJzZUlzeG82NF9UZHFsd2cxclRvSFJreFJNSTdCTV84LWwyb2ZtakJVNUpDQnVFVkFaVUJhN2ZFdU9Fb251MllKZ0h3anoyZw?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "ukraine-expands-naval-drone-campaign-to-land-operations-against-russia",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
-    "event_id": "finland-rejects-russian-demands-to-leave-nato-as-part-of-peace-negotiations",
-    "title": "Finland Rejects Russian Demands to Leave NATO as Part of Peace Negotiations",
-    "summary": "Finland has rejected reports of Russian demands that it withdraw from NATO as a condition for resolving the Ukraine conflict.",
-    "theme": "Geopolitics/NATO",
-    "importance": 7.5,
-    "topics": [
-      "world"
-    ],
-    "feeds": [
-      "world"
-    ],
-    "primary_feed": "world",
-    "keywords": [
-      "Russia",
-      "NATO",
-      "Finland",
-      "Ukraine",
-      "peace talks"
-    ],
-    "url": "news/world/2026-11-14/#finland-rejects-russian-demands-to-leave-nato-as-part-of-peace-negotiations",
-    "sources": [
-      {
-        "label": "POLITICO.eu",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMXRnckVCUXA0bTFaSlB6YU5ZaVM0V1oyZmdJZUxCaXBwX3R4Tl9XNWM5UURlM1E2Y3BBWUpvQ3k3NzdGbVJlRTRHU1RlVDg0WXlyMGs3bHByYUtrWnlDS1BMWmc0N3BXUkZwVjlkR2NDTTFUTWlVUnhUVXZ5d0JiNU1HRnNhWHVQQk9WWDBCSHh3bHRKV192TEF3UE1xU1pMcVZiQ0pFd1VRODRZZEE?oc=5",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Finland NATO withdrawal demanded",
-      "Ban on NATO bases in Baltic states",
-      "Russia retains occupied Ukrainian territory, gains Donbas",
-      "Ukraine demilitarized; prevented from NATO membership",
-      "Peskov denied Finland withdrawal demand"
-    ],
-    "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
-    "lineage_id": "russia-demands-finland-nato-withdrawal-and-baltic-base-restrictions-in-ukraine-peace-talks",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "Russia demands Finland NATO withdrawal and Baltic base restrictions in Ukraine peace talks",
-    "updates_url": "news/world/2026-11-13/#russia-demands-finland-nato-withdrawal-and-baltic-base-restrictions-in-ukraine-peace-talks"
   },
   {
     "date": "2026-11-14",
@@ -4624,67 +4752,6 @@
   },
   {
     "date": "2026-11-14",
-    "event_id": "spacex-starship-reaches-orbit-despite-booster-recovery-failure",
-    "title": "SpaceX Starship Reaches Orbit Despite Booster Recovery Failure",
-    "summary": "SpaceX's Starship Flight 15 launched November 13 from Starbase, successfully reaching orbit and deploying 26 Starlink V3 satellites. The Super Heavy booster was diverted to a controlled splashdown in the Gulf of Mexico instead of recovery, where it exploded. The upper stage is expected to return November 14 for the first-ever catch attempt by mechanical \"chopstick arms.\"",
-    "theme": "Space",
-    "importance": 8.0,
-    "topics": [
-      "science",
-      "space"
-    ],
-    "feeds": [
-      "science"
-    ],
-    "primary_feed": "science",
-    "keywords": [
-      "Flight 15",
-      "SpaceX",
-      "Starship",
-      "booster",
-      "launch",
-      "orbital flight"
-    ],
-    "url": "news/science/2026-11-14/#spacex-starship-reaches-orbit-despite-booster-recovery-failure",
-    "sources": [
-      {
-        "label": "Air Transport Defence News (AGN)",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTm52dXU5Zk5FSEF2OWJUTk94YzJrR051a0prUVRZMmQyNjJua0I5X2pZU2E5dDhGN1VWTjFmcUJiUjhaSVhLSU5nZ0liTXA1ZXEtRDl1RlZoUG1vT2ZTaFZkVGxJR1ZBQW1VMjVrS1A3S2pLTmJUZ2NlRmE4X0o4NG1sWWtIN0dRcGNNdlppRE5fQQ?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Gulf News",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczA4Um9JV2dJRU8xaUVOTGloanl6RVlJWGo4T3NLY0pWa3Y1TWpISWxsS2s0amVRV0F6bGlwTmc1aFJaOXlyNXlyTkxwcmIwS0E3RVUwQlc3UHJGcTNUSlRLMndNTUZBRTJCWVpXSW1BblF0ZFlvMk10OC1mUF9RbXMzbkJXekFOV3JqZHo3bC05R2pxWXNRcDdudUszZTRja1l3b1ZwNzNOUdIBugFBVV95cUxQaUhIa2IwVnRyN0xoQWhZWTVoVm1KNVNqRUEyc0FUM3pfaFpQTzRxaV9SdFphYlhkZkc4QklnaG1QaElGdkt0LTVSTjAyanZ3TlJYeDF5bVIxajdIQVpaazhGQ2tsS1JOTlN4b096eGtreWhEc3VQTmhwaGZDeWpyVmhURjdaSkZQemYwa0ItbEZpSEhEdVdVOFp2UjZXaHNOUUhqbTU4UkFGcWVXSnJFQldfSTRNMjhxSWc?oc=5",
-        "origin": "research"
-      },
-      {
-        "label": "Phys.org",
-        "url": "https://phys.org/news/2026-11-spacex-starship-soars-orbit-booster.html",
-        "origin": "rss"
-      },
-      {
-        "label": "Space.com",
-        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
-        "origin": "rss"
-      }
-    ],
-    "takeaways": [
-      "Flight 15 launched 4:47 PM local time, Nov 13 from South Texas",
-      "124-metre rocket with 33 Raptor engines reached orbit successfully",
-      "Deployed 26 Starlink V3 satellites; completed primary orbital objectives",
-      "Super Heavy booster diverted to Gulf of Mexico splashdown at 6.5 min post-liftoff; safety prioritized over recovery",
-      "Starship expected to attempt first-ever catch from orbit using tower chopstick arms Nov 14 at 3:20 PM"
-    ],
-    "researched": true,
-    "received_at": "2026-11-14T12:36:58.508480+00:00",
-    "lineage_id": "spacex-starship-reaches-orbit-despite-booster-recovery-failure",
-    "related_title": "",
-    "related_url": "",
-    "updates_title": "",
-    "updates_url": ""
-  },
-  {
-    "date": "2026-11-14",
     "event_id": "fbi-warns-of-artex-tool-automating-cyberattacks-at-machine-speed",
     "title": "FBI warns of Artex tool automating cyberattacks at machine speed",
     "summary": "The FBI warned November 13 of Artex, an open-source AI platform released in August 2026 that chains attack techniques to enable breaches from initial targeting to privileged access in under three hours. Threat actors with minimal expertise can conduct complex multi-target operations simultaneously. The tool proliferates through forks and archived copies despite creator removal; Censys identified over 1,600 publicly exposed instances.",
@@ -4721,6 +4788,56 @@
     "researched": true,
     "received_at": "2026-11-14T12:36:58.508480+00:00",
     "lineage_id": "fbi-warns-of-artex-tool-automating-cyberattacks-at-machine-speed",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "nvidia-backed-ai-startup-suffers-two-breaches-within-18-days-175-billion-company-targeted",
+    "title": "Nvidia-Backed AI Startup Suffers Two Breaches Within 18 Days; $17.5 Billion Company Targeted",
+    "summary": "Fireworks AI, a $17.5 billion Nvidia-backed startup, suffered two security breaches within 18 days in October 2026. The first breach exposed API keys; the second on October 23–24 compromised third-party cloud infrastructure and exposed account metadata, billing information, datasets, and incomplete model weights for some customers.",
+    "theme": "Security",
+    "importance": 8.0,
+    "topics": [
+      "security"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "data breach",
+      "startup",
+      "cybersecurity",
+      "Nvidia",
+      "AI company"
+    ],
+    "url": "news/security/2026-11-14/#nvidia-backed-ai-startup-suffers-two-breaches-within-18-days-175-billion-company-targeted",
+    "sources": [
+      {
+        "label": "Technology Org",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd3NhTFBIbWJ1bzR2TW00ZUZkVnF3Sm4xV1kxblpqRW9zSUNjZ2VsSmVRN1lBeWt3MkJpZkpBZnhVdHhlYlBkb29EeFU1ZktNY05KNnhTY0tMWk95ajlBQVVvUldvaFJWLUNMaF9IWGpYMkpydWpQWGRuMFNDR2lmSjg3WWVwNGt4d3ZkMFFkYW9DR0pOVW1IZEllZ0xZYTZockFXeFJ3?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Inc.com",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEZKdGt6VDRhRmJTU3QzelZFb01UU0VuZFQwRWRZdE42UDJRRlA0WGR6RlIzdFZNOTFKbVEweGw2WFd3VW11QTc5ejhhOUZkLVRCYlZ4VGxUV3h4cmdoZV82aWJCLTV4TXRuM3l6dlBza0VfSU51ZlVyOGZybmU5ZlN3MlRfWGprLTBnSl9kUC1laDZZRmFCZmZmNU5NZzZuYTB4UnNtRXI3U01YV0tj?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "Two breaches within 18 days: October 6 and October 23–24, 2026",
+      "First breach: unauthorized internal credentials exposed customer API keys",
+      "Second breach: compromised third-party cloud provider, then development machines",
+      "Exposed data: account metadata, billing info, secrets, datasets, incomplete model weights",
+      "October 24 attack linked to financially motivated LLMjacking group",
+      "Fireworks notified customers November 9; advised rotation of API keys and secrets"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "nvidia-backed-ai-startup-suffers-two-breaches-within-18-days-175-billion-company-targeted",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
@@ -4775,9 +4892,106 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "nasa-expands-nuclear-power-infrastructure-plans-for-lunar-and-martian-missions",
+    "title": "NASA Expands Nuclear Power Infrastructure Plans for Lunar and Martian Missions",
+    "summary": "NASA is developing PROMISE, a nuclear-powered rover for the Moon's South Pole, using the same multi-mission radioisotope thermoelectric generator (MMRTG) technology proven on Mars rovers Curiosity and Perseverance. The agency is also planning nuclear propulsion systems for Mars missions and cargo landers to deliver nuclear reactors to the lunar surface for sustained operations.",
+    "theme": "Space",
+    "importance": 8.0,
+    "topics": [
+      "space"
+    ],
+    "feeds": [
+      "science"
+    ],
+    "primary_feed": "science",
+    "keywords": [
+      "NASA",
+      "nuclear power",
+      "Moon",
+      "Mars",
+      "space exploration"
+    ],
+    "url": "news/space/2026-11-14/#nasa-expands-nuclear-power-infrastructure-plans-for-lunar-and-martian-missions",
+    "sources": [
+      {
+        "label": "Neutron Bytes",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX0ZFM0VuUjBUUk8yV1VaVDBPbHB6T3poRXBjNUtQTF9tQXNoQnlSc2pyWGpaSTNxZ3VsZDRQX0ppa0FYX19SM0pTZVVrVnNpWnlIcU9BeTJTX3FwOVUydkE4bUZRVGdzclRzejVVcnVRQ0JpVWh0NXNOV2xZRzlJN2pmZGZjSlllMlpXbTh3bDR6ejZkV1FvOEY0V0g?oc=5",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "PROMISE rover powered by MMRTG, same as Mars rovers Curiosity and Perseverance",
+      "Perseverance MMRTG contains 10.6 pounds (4.8 kg) of plutonium dioxide, ~2,000 watts thermal power initially",
+      "MMRTG converts radioisotope decay heat to electricity via solid-state thermocouples",
+      "NASA planning nuclear reactors delivered by cargo landers to Moon's South Pole"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "nasa-expands-nuclear-power-infrastructure-plans-for-lunar-and-martian-missions",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "outlook-and-air-traffic-control-systems-failures-highlight-week-of-major-tech-outages",
+    "title": "Outlook and Air Traffic Control Systems Failures Highlight Week of Major Tech Outages",
+    "summary": "The U.S. experienced a nationwide aircraft ground stop on November 13 following air traffic control communications failures attributed to overloaded antiquated radar and telecommunications systems. Simultaneously, a global Microsoft 365 outage affected Outlook, Exchange Online, Teams, and other services from November 12–13, disrupting government, businesses, courts, and emergency services.",
+    "theme": "Infrastructure",
+    "importance": 8.0,
+    "topics": [
+      "tech"
+    ],
+    "feeds": [
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "outage",
+      "Microsoft Outlook",
+      "FAA",
+      "air traffic control",
+      "infrastructure failure"
+    ],
+    "url": "news/tech/2026-11-14/#outlook-and-air-traffic-control-systems-failures-highlight-week-of-major-tech-outages",
+    "sources": [
+      {
+        "label": "The New York Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS1F1U1pLV0V3dTVlT1RnSGF1dlJERU1sbkN5X2pMUmlPSFVoZkZaTmlRM3plQmZJQTBBaXdMQnZpbm1PV2NfajFvclpsUWE2VlhwZ3ZlcjVkNG1CbUVxMW9jempQY3VtVlNSUU11c3hGLU9GYk82N0cxT1BBQTZkbWs4VQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Asia Pacific Security Magazine",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTUNvV3pzTFZjWUlPMjN2NnFTd1lXdTVQRzN4XzNnM1FBMmJaM1dfT0VBUDJzSkltczY4MHZyYTNaUTVRdm9XRHk0d2VBa0czaUJWTDlMTFFQUGZ6UkM1T3lseXhfVndNUUs4LWJYaVV4ZHQ3Tm9zRjZPWFI1LWRWSGZoa040VldjWTBUY0JqWkI0dDd2Qjh2R2wzcTIteUZBTFRYYnoxWHZuWEVhbTFpZkV5SDdTVnFXSE9ta2M5NkZSTmpHMU90SUQxTXd0UQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "The Washington Post",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1d3VFZ3Z0JMZkQxdXB3S2oxbmhMWDZDRUM2X1hHMWljOVhoV28wQ1VkMkZIMFBuRWl6MWFMSEY1OUNjN3dYQ2V4NHZfWnA5Qm9EMEdJaERlN0hrRFdWeHpoZUR4emF1TXhlSDFsS3d0VVBXTElaTklCa19hZlBCZlJnSjJPV1BmeUpJbEI5MjhvZDE2YWRDVlZDQnZxbjhyZndySF9wOU12dW9fOGRXaHdxZzZwUVE?oc=5",
+        "origin": "discovery"
+      }
+    ],
+    "takeaways": [
+      "FAA ground stop November 13 due to ATC system failures beginning 3:36 p.m.",
+      "Transportation Secretary blamed overloaded antiquated radar and telecommunications infrastructure",
+      "FAA lifted ground stop Friday but delays persisted; full recovery expected by Thanksgiving",
+      "Secretary Duffy requested $30 billion additional ATC modernization funding (Congress approved $12.5 billion prior year)",
+      "Microsoft 365 outage November 12–13 affected Outlook, Exchange, Teams globally; caused by network upgrade and subsequent change, not cyberattack"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "outlook-and-air-traffic-control-systems-failures-highlight-week-of-major-tech-outages",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "us-reportedly-floats-nato-membership-for-ukrainian-donbas-withdrawal",
     "title": "US reportedly floats NATO membership for Ukrainian Donbas withdrawal",
-    "summary": "President Volodymyr Zelensky has stated that the United States proposed Ukraine ceding Donbas territory in exchange for NATO membership.",
+    "summary": "Ukrainian President Zelensky said the US proposed a framework where Ukraine could trade Donbas territory for NATO membership.",
     "theme": "Geopolitics",
     "importance": 8,
     "topics": [
@@ -4811,7 +5025,7 @@
     ],
     "takeaways": [],
     "researched": false,
-    "received_at": "2026-11-14T18:53:10.621274+00:00",
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
     "lineage_id": "us-reportedly-floats-nato-membership-for-ukrainian-donbas-withdrawal",
     "related_title": "",
     "related_url": "",
@@ -4973,6 +5187,94 @@
   },
   {
     "date": "2026-11-14",
+    "event_id": "spacex-catches-starship-during-flight-15-test",
+    "title": "SpaceX catches Starship during Flight 15 test",
+    "summary": "SpaceX conducted Starship Flight 15 on November 14, 2026, successfully deploying 26 Starlink satellites to orbit, though the booster unexpectedly diverted and exploded over the Gulf of Mexico. The upper stage is scheduled for a first-ever recovery attempt using mechanical arms on November 16, advancing SpaceX's goal of full reusability to reduce costs.",
+    "theme": "Space",
+    "importance": 8.5,
+    "topics": [
+      "science",
+      "space",
+      "tech"
+    ],
+    "feeds": [
+      "science",
+      "technology"
+    ],
+    "primary_feed": "technology",
+    "keywords": [
+      "Flight 15",
+      "SpaceX",
+      "Starship",
+      "booster",
+      "launch",
+      "orbital flight"
+    ],
+    "url": "news/tech/2026-11-14/#spacex-catches-starship-during-flight-15-test",
+    "sources": [
+      {
+        "label": "Deutsche Welle",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdC1nQTZfeS1mN3Bkd0g4MlpYMGdhNW0wTTdDWjQzbWJ4ODF3ZF9hMFJLV2JSUWNiZ3ZzN2Z4YVR3eTJnNGVUX1pYeG9sN3NqN2FRcDNTdWx5Wkt2SFZmQWR1ODdMTGw1ZTM3VDJWTU55MHpSUFJ6NU8zZ3BoTVRXaTl1d3NZRGhkYkp2a0N2WVluVTTSAZMBQVVfeXFMUDcySjViSFFIUW5hd1NFNGtnN1VlNHVfZFVENURud3ZBbEhLVTQ2cGpmVy1iNGRLd2Fyb1k5NWtGMjkyeFdGMXBFa2xYeDdIdjhyVFJpZzNJaVIxaEN0ejlqN2dvTXF3QUVPMnRxcmRuRmxzeWI3VGs0U1lvdllySXh3aTN0SHZCdHM2YVZmOURyTG5z?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Hacker News (front page)",
+        "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+        "origin": "rss"
+      },
+      {
+        "label": "The Verge",
+        "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+        "origin": "rss"
+      },
+      {
+        "label": "Engadget",
+        "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+        "origin": "rss"
+      },
+      {
+        "label": "Air Transport Defence News (AGN)",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTm52dXU5Zk5FSEF2OWJUTk94YzJrR051a0prUVRZMmQyNjJua0I5X2pZU2E5dDhGN1VWTjFmcUJiUjhaSVhLSU5nZ0liTXA1ZXEtRDl1RlZoUG1vT2ZTaFZkVGxJR1ZBQW1VMjVrS1A3S2pLTmJUZ2NlRmE4X0o4NG1sWWtIN0dRcGNNdlppRE5fQQ?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Gulf News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOczA4Um9JV2dJRU8xaUVOTGloanl6RVlJWGo4T3NLY0pWa3Y1TWpISWxsS2s0amVRV0F6bGlwTmc1aFJaOXlyNXlyTkxwcmIwS0E3RVUwQlc3UHJGcTNUSlRLMndNTUZBRTJCWVpXSW1BblF0ZFlvMk10OC1mUF9RbXMzbkJXekFOV3JqZHo3bC05R2pxWXNRcDdudUszZTRja1l3b1ZwNzNOUdIBugFBVV95cUxQaUhIa2IwVnRyN0xoQWhZWTVoVm1KNVNqRUEyc0FUM3pfaFpQTzRxaV9SdFphYlhkZkc4QklnaG1QaElGdkt0LTVSTjAyanZ3TlJYeDF5bVIxajdIQVpaazhGQ2tsS1JOTlN4b096eGtreWhEc3VQTmhwaGZDeWpyVmhURjdaSkZQemYwa0ItbEZpSEhEdVdVOFp2UjZXaHNOUUhqbTU4UkFGcWVXSnJFQldfSTRNMjhxSWc?oc=5",
+        "origin": "research"
+      },
+      {
+        "label": "Phys.org",
+        "url": "https://phys.org/news/2026-11-spacex-starship-soars-orbit-booster.html",
+        "origin": "rss"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
+        "origin": "rss"
+      }
+    ],
+    "takeaways": [
+      "Flight 15 launched November 14, 2026 from South Texas Starbase",
+      "124-meter rocket deployed 26 Starlink satellites to orbit",
+      "Booster diverted from planned return and exploded over Gulf of Mexico; failure unexplained",
+      "Upper stage recovery attempt scheduled November 16 using mechanical arm catch—first for upper stage",
+      "Starship program received NASA billions plus SpaceX's $15+ billion investment; targets 2028 lunar landing",
+      "Flight 15 launched 4:47 PM local time, Nov 13 from South Texas",
+      "124-metre rocket with 33 Raptor engines reached orbit successfully",
+      "Deployed 26 Starlink V3 satellites; completed primary orbital objectives",
+      "Super Heavy booster diverted to Gulf of Mexico splashdown at 6.5 min post-liftoff; safety prioritized over recovery",
+      "Starship expected to attempt first-ever catch from orbit using tower chopstick arms Nov 14 at 3:20 PM"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "spacex-catches-starship-during-flight-15-test",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
     "event_id": "spacex-attempts-historic-starship-super-heavy-booster-chopsticks-catch-at-launch-pad",
     "title": "SpaceX Attempts Historic Starship Super Heavy Booster 'Chopsticks' Catch at Launch Pad",
     "summary": "SpaceX plans to attempt its first-ever catch of the Starship upper stage using the launch pad 'chopsticks' arms in an unprecedented maneuver.",
@@ -5107,6 +5409,50 @@
     "researched": true,
     "received_at": "2026-11-14T18:53:10.621274+00:00",
     "lineage_id": "zelenskyy-accuses-spacex-of-misrepresentation-reports-alleged-us-territorial-concession-proposal",
+    "related_title": "",
+    "related_url": "",
+    "updates_title": "",
+    "updates_url": ""
+  },
+  {
+    "date": "2026-11-14",
+    "event_id": "trilateral-trump-xi-putin-meeting-at-apec-to-address-nuclear-non-proliferation",
+    "title": "Trilateral Trump-Xi-Putin Meeting at APEC to Address Nuclear Non-Proliferation",
+    "summary": "The president of the United States will meet China's Xi Jinping and Russia's Putin at the APEC summit in Shenzhen on November 18–19, 2026, for trilateral talks focused on nuclear proliferation and the New Strategic Arms Reduction Treaty (New START), which expired in February 2026. A senior administration official stated no agreement is expected but the discussion will open broader negotiations.",
+    "theme": "Policy",
+    "importance": 8.5,
+    "topics": [
+      "world"
+    ],
+    "feeds": [
+      "world"
+    ],
+    "primary_feed": "world",
+    "keywords": [
+      "Trump",
+      "Xi Jinping",
+      "Putin",
+      "APEC",
+      "nuclear proliferation"
+    ],
+    "url": "news/world/2026-11-14/#trilateral-trump-xi-putin-meeting-at-apec-to-address-nuclear-non-proliferation",
+    "sources": [
+      {
+        "label": "Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQkl0WHV4OWtNN0k0SFVuR2E0VXhrOUpYMXZiOUxFYUVYZlBpa00zTTRXaTVmYWtwcGktWjAzUnMxckxsS0l1S2VqekRxbS15ajUwT1p6RkhjU1NtM3JwMU5uUGlqT295Y19OOXJfUXRHWFNLcGw0VFlTMXV1eFNZUXpobDNHcHVtVUxVVVZqMnA5a09LT2I4d01rWmVyUFHSAaQBQVVfeXFMT3ZsNjJfWW9FQ2VPLWROVXp2UHZsS0gwRjBUdkVZMi1tbnhFQXQ1RlBrazNCYTJUcWc2NWU2WGtETnB0MTNNQkJES1l0M011ZWJybldxTFBaZGJIQ1RIaVhXSkVvWVVZRFlSM1h3V1dnbHJiVmkxWnp6Y0wzOXJvaUdmbzk1Y0lyR2RrNTl3YkFzdVdfd21mYk5mQkRKN01TYlQ3ODA",
+        "origin": "research"
+      }
+    ],
+    "takeaways": [
+      "First trilateral meeting scheduled November 18–19, 2026 at APEC in Shenzhen, China",
+      "New START treaty lapsed February 2026; caps US and Russian strategic nuclear arsenals",
+      "Russia has largest warhead count, followed by US; China rapidly expanding arsenal",
+      "Trump administration seeks \"new, improved and modernised\" deal including Beijing",
+      "China reluctant to join agreement it wasn't involved in forming"
+    ],
+    "researched": true,
+    "received_at": "2026-11-14T23:27:51.842762+00:00",
+    "lineage_id": "trilateral-trump-xi-putin-meeting-at-apec-to-address-nuclear-non-proliferation",
     "related_title": "",
     "related_url": "",
     "updates_title": "",
