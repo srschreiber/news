@@ -1,4 +1,4 @@
-# World (20)
+# World
 
 _Feed <time class="feed-refresh" datetime="2026-11-21T20:16:50.715643+00:00">refreshed 20:16 UTC</time>._
 
@@ -65,6 +65,6 @@ _Feed <time class="feed-refresh" datetime="2026-11-21T20:16:50.715643+00:00">ref
 
 ## Topics
 
-- [World](../topics/world.md) — 10 stories
-- [Markets](../topics/markets.md) — 10 stories
+- [World](../topics/world.md) — 0 stories
+- [Markets](../topics/markets.md) — 0 stories
 
