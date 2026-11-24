@@ -1,5 +1,144 @@
 [
   {
+    "timestamp": "2026-11-24T03:32:01.042294+00:00",
+    "mode": "daily",
+    "calls": 63,
+    "web_searches": 26,
+    "tokens_by_model": {
+      "claude-haiku-4-5": {
+        "input": 165648,
+        "output": 53526,
+        "cache_write": 0,
+        "cache_read": 0
+      },
+      "claude-haiku-4-5-20251001": {
+        "input": 9349,
+        "output": 4300,
+        "cache_write": 0,
+        "cache_read": 0
+      }
+    },
+    "estimated_cost_usd": 0.4641,
+    "by_topic": {
+      "(clustering)": {
+        "calls": 8,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 43840,
+            "output": 32346,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.2056
+      },
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      },
+      "(fallback)": {
+        "calls": 1,
+        "web_searches": 1,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 4235,
+            "output": 521,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0068
+      },
+      "(funfact)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 374,
+            "output": 59,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0007
+      },
+      "(merge-check)": {
+        "calls": 10,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 6422,
+            "output": 90,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0069
+      },
+      "(read)": {
+        "calls": 42,
+        "web_searches": 10,
+        "tokens_by_model": {
+          "claude-haiku-4-5": {
+            "input": 110777,
+            "output": 20510,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.2133
+      },
+      "(write)": {
+        "calls": 1,
+        "web_searches": 0,
+        "tokens_by_model": {
+          "claude-haiku-4-5-20251001": {
+            "input": 9349,
+            "output": 4300,
+            "cache_write": 0,
+            "cache_read": 0
+          }
+        },
+        "estimated_cost_usd": 0.0308
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 59,
+      "Google News \u2014 Anthropic": 39,
+      "Phys.org": 30,
+      "Google News \u2014 World": 23,
+      "Engadget": 20,
+      "Google News \u2014 OpenAI GPT": 19,
+      "Hacker News (front page)": 15,
+      "Google News \u2014 space": 13,
+      "TechCrunch": 12,
+      "Google News \u2014 AI models": 9,
+      "The Verge": 9,
+      "The Register": 7,
+      "Ars Technica": 6,
+      "Space.com": 5,
+      "BleepingComputer": 5,
+      "Mongabay": 5,
+      "Wired": 4,
+      "Google News \u2014 climate change": 4,
+      "The Guardian \u2014 Climate Crisis": 3,
+      "Google News \u2014 cybersecurity": 3,
+      "STAT News": 2,
+      "Inside Climate News": 2,
+      "Live Science": 2,
+      "The Guardian \u2014 Conservation": 2,
+      "MIT \u2014 Artificial Intelligence": 1,
+      "Grist": 1,
+      "The Hacker News": 1,
+      "Google Research Blog": 1,
+      "Google News \u2014 PostgreSQL": 1,
+      "DeepMind Blog": 1
+    }
+  },
+  {
     "timestamp": "2026-11-23T16:39:45.789307+00:00",
     "mode": "daily",
     "calls": 97,
