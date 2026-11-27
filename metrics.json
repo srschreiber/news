@@ -1,5 +1,52 @@
 [
   {
+    "timestamp": "2026-11-27T23:47:28.775639+00:00",
+    "mode": "daily",
+    "refresh": true,
+    "calls": 0,
+    "web_searches": 15,
+    "tokens_by_model": {},
+    "estimated_cost_usd": 0.0,
+    "by_topic": {
+      "(discovery)": {
+        "calls": 0,
+        "web_searches": 15,
+        "tokens_by_model": {},
+        "estimated_cost_usd": 0.0
+      }
+    },
+    "by_feed": {
+      "Google News \u2014 markets": 78,
+      "Science Advances": 42,
+      "Phys.org": 30,
+      "Google News \u2014 World": 28,
+      "Hacker News (front page)": 15,
+      "Wired": 12,
+      "Google News \u2014 Anthropic": 12,
+      "The Verge": 10,
+      "Google News \u2014 OpenAI GPT": 10,
+      "Engadget": 8,
+      "Space.com": 8,
+      "Google News \u2014 email security": 6,
+      "Google News \u2014 cybersecurity": 6,
+      "Google News \u2014 AI models": 4,
+      "BleepingComputer": 3,
+      "Google News \u2014 climate change": 2,
+      "Google News \u2014 phishing campaigns": 2,
+      "STAT News": 2,
+      "Google News \u2014 space": 2,
+      "Schneier on Security": 1,
+      "Carbon Brief": 1,
+      "Mongabay": 1,
+      "Live Science": 1,
+      "Ars Technica": 1,
+      "Google News \u2014 medical research": 1,
+      "The Hacker News": 1,
+      "Google News \u2014 nutrition exercise science": 1,
+      "Google News \u2014 PostgreSQL": 1
+    }
+  },
+  {
     "timestamp": "2026-11-27T15:42:46.123917+00:00",
     "mode": "daily",
     "refresh": true,
