@@ -1,18 +1,18 @@
 ---
-description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-27. Top stories clustered and summarized from trusted sources."
+description: "Sam's News: daily briefings on AI, Anthropic, Climate Change, Climate & Ecological Resilience, Conservation, Diet & Exercise and more — updated 2026-11-28. Top stories clustered and summarized from trusted sources."
 hide:
   - toc
 ---
 
 <details class="daily-panel" open>
-<summary>📖 Word of the day &middot; <strong>felicitous</strong></summary>
+<summary>📖 Word of the day &middot; <strong>parse</strong></summary>
 
 <div class="wotd" id="wotd">
 <div class="wotd-label">📖 Word of the day</div>
-<div class="wotd-word">felicitous <span class="wotd-pos">adjective</span></div>
-<div class="wotd-def">Felicitous is an adjective most often used in formal speech and writing to describe something that is very well expressed or suited for some purpose or situation. It can also be used as a synonym for pleasant or delightful .</div>
-<div class="wotd-ex">She had not been asked ahead of time to speak at the event, but she managed some felicitous remarks nonetheless.</div>
-<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/felicitous-2026-11-26" target="_blank" rel="noopener">Merriam-Webster</a>
+<div class="wotd-word">parse <span class="wotd-pos">verb</span></div>
+<div class="wotd-def">To parse or parse through something is to study it by looking closely at its parts, or in other words to analyze it critically. In grammar and linguistics, parse means &quot;to divide (a sentence) into grammatical parts and identify the parts and their relations to each other.&quot;</div>
+<div class="wotd-ex">The lawyer meticulously parsed the wording of the final contract to be sure that her client would get all that he was asking for.</div>
+<a class="wotd-src" href="https://www.merriam-webster.com/word-of-the-day/parse-2026-11-28" target="_blank" rel="noopener">Merriam-Webster</a>
 </div>
 
 </details>
@@ -21,18 +21,8 @@ hide:
 <summary>📅 On this day</summary>
 
 <div class="fact" id="on-this-day">
-<div class="fact-label">📅 On this day &middot; 2020</div>
-<div class="fact-text">Nuclear physicist Mohsen Fakhrizadeh, regarded as the chief of Iran&#x27;s nuclear program, was assassinated, allegedly by Mossad. <a class="fact-src" href="https://en.wikipedia.org/wiki/Mohsen_Fakhrizadeh" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
-</div>
-
-</details>
-
-<details class="daily-panel" open>
-<summary>💡 Fact of the day</summary>
-
-<div class="fact funfact" id="fun-fact">
-<div class="fact-label">💡 Fact of the day</div>
-<div class="fact-text">Portland, Oregon, was named as a result of a coin toss. The choice was between Boston and Portland. <a class="fact-src" href="https://www.thefactsite.com/fact-of-the-day/" target="_blank" rel="noopener">The Fact Site&nbsp;&rarr;</a></div>
+<div class="fact-label">📅 On this day &middot; 2016</div>
+<div class="fact-text">LaMia Flight 2933 crashed near Medellín, Colombia, killing 71 people, many of whom were players from Chapecoense Football Club. <a class="fact-src" href="https://en.wikipedia.org/wiki/LaMia_Flight_2933" target="_blank" rel="noopener">Wikipedia&nbsp;&rarr;</a></div>
 </div>
 
 </details>
@@ -103,66 +93,3 @@ hide:
 
 Don't see a topic you want? [Request a new topic](https://github.com/srschreiber/news/issues/new?template=topic-request.yml).
 
-
-<div class="crawler-only" aria-hidden="true">
-<div><a href="news/climate-resilience/2026-11-27/#prescribed-fire-reduces-giant-sequoia-mortality-by-more-than-half-during-severe-wildfires-study-shows">Prescribed fire reduces giant sequoia mortality by more than half during severe wildfires, study shows</a>
-<p>A study from Mountain Home Demonstration State Forest in California&#x27;s Sierra Nevada found that prescribed burns cut giant sequoia tree mortality by more than half during the 2020 Castle Fire. The research demonstrates that restoring fire to ecosystems where it was suppressed for nearly 200 years can help these ancient trees survive increasingly severe wildfires.</p>
-</div>
-<div><a href="news/tech/2026-11-27/#microsoft-chinese-and-north-korean-hackers-using-artex-ai-tool-to-breach-global-tech-systems">Microsoft: Chinese and North Korean Hackers Using ARTEX AI Tool to Breach Global Tech Systems</a>
-<p>Microsoft reported that state-sponsored hackers from China and North Korea are exploiting ARTEX, an open-source AI-powered penetration testing framework publicly released in July 2026, to attack global technology infrastructure. Over 130 ARTEX variants circulate, making it the most widely used agentic offensive framework.</p>
-</div>
-<div><a href="news/world/2026-11-27/#zelenskyy-warns-of-imminent-major-russian-military-attack-on-ukraines-power-grid">Zelenskyy warns of imminent major Russian military attack on Ukraine&#x27;s power grid</a>
-<p>Ukrainian President Zelenskyy warned on November 26 that Russia is preparing an imminent major attack on Ukraine&#x27;s energy infrastructure. U.S. envoy Jared Kushner stated Putin has shown restraint on nuclear weapons, while the president of the United States seeks a quick Russia-Ukraine peace deal.</p>
-</div>
-<div><a href="news/world/2026-11-27/#black-sea-front-in-russia-ukraine-war-poses-escalation-risk-for-us-involvement">Black Sea front in Russia-Ukraine war poses escalation risk for US involvement</a>
-<p>Black Sea military incidents surged nearly tenfold in 2026, with 400–500 incidents compared to fewer than 50 in 2025. At least 40 crew members were killed; war-risk insurance premiums reached 20% of vessel value. Romania, Bulgaria, and Turkey face mounting pressure to defend the strategic waterway critical to global grain and fuel supplies.</p>
-</div>
-<div><a href="news/climate-change/2026-11-27/#water-levels-in-worlds-rivers-and-lakes-plummeted-during-two-hottest-years-on-record">Water Levels in World&#x27;s Rivers and Lakes Plummeted During Two Hottest Years on Record</a>
-<p>Extreme global heat in 2023–2024 triggered unprecedented declines in surface water worldwide. River flows fell 5.7% below normal while lakes and reservoirs dropped 9.5%, marking the largest synchronized decline since 1991. South America was hit hardest, with river flows down 17.8% and reservoir water down 16.5%.</p>
-</div>
-<div><a href="news/health/2026-11-27/#engineered-protein-restores-chromosome-stability-in-aging-mouse-eggs-raising-ivf-hopes">Engineered protein restores chromosome stability in aging mouse eggs, raising IVF hopes</a>
-<p>Researchers at the Max Planck Institute engineered a protein system called TALhesin that restores chromosome connections in aging mouse eggs by replacing deteriorating cohesin. The breakthrough, published in Science on November 26, may help reduce aneuploidy-driven age-related infertility and miscarriage in humans.</p>
-</div>
-<div><a href="news/security/2026-11-27/#threatsday-security-briefing-10m-nginx-services-at-risk-malicious-extensions-ai-server-hijacking">ThreatsDay Security Briefing: 10M NGINX Services at Risk, Malicious Extensions, AI Server Hijacking</a>
-<p>A ThreatsDay security briefing reported multiple active threats: 10 million NGINX services at risk, over 250 malicious browser extensions circulating across major extension stores, and AI servers being hijacked. Additional breaches included Todoist (6% of users affected) and the CrowdStrike–Zscaler deal for $43.9 billion.</p>
-</div>
-<div><a href="news/security/2026-11-27/#1password-suffers-data-breach-via-compromised-github-account">1Password suffers data breach via compromised GitHub account</a>
-<p>1Password suffered a data breach on November 19 when an attacker compromised an employee&#x27;s GitHub account, accessed source code, injected malicious code into backend services, and obtained infrastructure secrets. Customer vaults, passwords, and Secret Keys were not accessed. 1Password rotated credentials and tightened system controls.</p>
-</div>
-<div><a href="news/world/2026-11-27/#hamas-in-talks-with-palestinian-factions-over-israeli-targeted-killings">Hamas in Talks with Palestinian Factions Over Israeli Targeted Killings</a>
-<p>Hamas is engaging with Palestinian factions to formulate a response to Israeli targeted strikes in Gaza.</p>
-</div>
-<div><a href="news/world/2026-11-27/#north-korea-halts-missile-deliveries-to-russia-amid-diplomatic-friction">North Korea halts missile deliveries to Russia amid diplomatic friction</a>
-<p>North Korea halted military aid and missile deliveries to Russia following diplomatic friction, according to Ukrainian intelligence. North Korea banned Russian military aircraft from its airspace and stalled requests to increase deployed troop numbers, though existing forces of approximately 8,500 remain in Russia.</p>
-</div>
-<div><a href="news/world/2026-11-27/#israeli-opposition-leader-eisenkot-advances-coalition-negotiations-to-replace-netanyahu">Israeli opposition leader Eisenkot advances coalition negotiations to replace Netanyahu</a>
-<p>Israel&#x27;s Eisenkot has reached a deal with left-wing factions as coalition talks advance toward potentially ousting the current prime minister.</p>
-</div>
-<div><a href="news/world/2026-11-27/#ukrainian-drone-strike-ignites-fire-and-causes-serious-damage-to-krasnodar-oil-refinery">Ukrainian drone strike ignites fire and causes serious damage to Krasnodar oil refinery</a>
-<p>A Ukrainian drone attack on the Krasnodar refinery in Russia sparked fires and inflicted substantial damage, prompting Russian threats of retaliation.</p>
-</div>
-<div><a href="news/world/2026-11-27/#eu-leaders-wrestle-over-ukraine-aid-as-potential-le-pen-victory-sparks-fear">EU Leaders Wrestle Over Ukraine Aid as Potential Le Pen Victory Sparks Fear</a>
-<p>European Union leadership debates further support for Ukraine amid concerns over potential French political shift.</p>
-</div>
-<div><a href="news/world/2026-11-27/#kim-jong-un-cuts-off-military-aid-to-putin">Kim Jong-un Cuts Off Military Aid to Putin</a>
-<p>North Korea suspends military support to Russia, signaling a shift in diplomatic relations.</p>
-</div>
-<div><a href="news/anthropic/2026-11-27/#anthropic-expands-claude-code-with-automated-fixes-and-approvals">Anthropic expands Claude Code with automated fixes and approvals</a>
-<p>Anthropic has expanded Claude Code&#x27;s review tools to include automated fixes and approvals for GitHub integration.</p>
-</div>
-<div><a href="news/anthropic/2026-11-27/#jera-plans-data-centers-for-anthropic-and-meta-near-power-plants">JERA plans data centers for Anthropic and Meta near power plants</a>
-<p>Japan&#x27;s JERA announced plans to construct data centers for Anthropic and Meta positioned near power generation facilities.</p>
-</div>
-<div><a href="news/anthropic/2026-11-27/#anthropic-migrates-claude-backend-from-python-to-rust-for-performance-gains">Anthropic migrates Claude backend from Python to Rust for performance gains</a>
-<p>Anthropic has migrated Claude&#x27;s backend infrastructure from Python to Rust, delivering substantial CPU and memory efficiency improvements.</p>
-</div>
-<div><a href="news/climate-change/2026-11-27/#australia-faces-elevated-bushfire-and-heatwave-risk-this-summer">Australia faces elevated bushfire and heatwave risk this summer</a>
-<p>Australian fire authorities warned of elevated bushfire risk across southern and central Australia for the 2026–27 summer due to high fuel loads, dry soil, and hot weather forecasts. Last summer saw over 440,000 hectares burn in Victoria alone, exceeding the 2009 Black Saturday fires.</p>
-</div>
-<div><a href="news/climate-change/2026-11-27/#community-forest-conservation-initiative-in-democratic-republic-of-congo">Community forest conservation initiative in Democratic Republic of Congo</a>
-<p>The Democratic Republic of Congo awarded community forestry land titles covering 7.1 million hectares—an area the size of Ireland—to protect biodiversity while recognizing customary rights. The initiative has grown from eight titles in 2017 to over 350 by 2026, though implementation faces profitability and coordination challenges.</p>
-</div>
-<div><a href="news/climate-change/2026-11-27/#senate-passes-bill-to-accelerate-clean-energy-permitting-raising-fossil-fuel-concerns">Senate passes bill to accelerate clean energy permitting, raising fossil fuel concerns</a>
-<p>The U.S. Senate passed the Bipartisan American Affordability and Jobs Act on November 19 with a 62–33 vote, accelerating energy infrastructure permitting by weakening environmental reviews. Environmental groups and 120+ scientists opposed it, warning that technology-neutral fast-tracking benefits fossil fuel projects alongside renewables.</p>
-</div>
-</div>
